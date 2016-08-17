@@ -1,0 +1,10 @@
+"fileMetadata": {
+      "author": {
+        "**.md": "robinarh"
+      },
+      "keywords": {
+        "**": ["CDM", "Common Data Model"],
+        "/entity-tables/**": ["Refernce"]
+      }
+    }
+    
