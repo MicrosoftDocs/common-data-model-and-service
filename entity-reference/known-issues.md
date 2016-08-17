@@ -1,6 +1,6 @@
 # Known Issues
 
-[Cannot save data after changing the title field](/topics/known-issues.md#Cannot-save-data-after-changing-the-title-field "Cannot save data after changing the title field")
+[Cannot save data after changing the title field](/entity-reference/known-issues.md#Cannot-save-data-after-changing-the-title-field "Cannot save data after changing the title field")
 
 ## Cannot save data after changing the title field
 

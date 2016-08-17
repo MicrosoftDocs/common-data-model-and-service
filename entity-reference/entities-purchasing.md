@@ -4,12 +4,12 @@ The Purchasing entities let you create purchasing solutions. A vendor is someone
 
 ## Purchase Order ERD
 
-![Purchase Order ERD](/topics/media/purchase-order.png "Purchase Order ERD")
+![Purchase Order ERD](/entity-reference/media/purchase-order.png "Purchase Order ERD")
 
 ## Supplier Invoice ERD
 
-![Supplier Invoice ERD](/topics/media/supplier-invoice.png "Supplier Invoice ERD")
+![Supplier Invoice ERD](/entity-reference/media/supplier-invoice.png "Supplier Invoice ERD")
 
 ## Purchasing Reference
 
-[Purchasing Reference](/topics/entity-tables/purchasing.md "Purchasing Reference")
+[Purchasing Reference](/entity-reference/entity-tables/purchasing.md "Purchasing Reference")

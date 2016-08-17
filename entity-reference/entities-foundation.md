@@ -4,8 +4,8 @@ The Foundation entities are used to drive other entities in the CDM. They contai
 
 ## Foundation ERD
 
-![Foundation ERD](/topics/media/foundation.png "Foundation ERD")
+![Foundation ERD](/entity-reference/media/foundation.png "Foundation ERD")
 
 ## Foundation Reference
 
-[Foundation Reference](/topics/entity-tables/foundation.md "Foundation Reference")
+[Foundation Reference](/entity-reference/entity-tables/foundation.md "Foundation Reference")
