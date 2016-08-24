@@ -1,3 +1,18 @@
+---
+title: ""
+description: ""
+author: ""
+manager: "robinarh"
+ms.date: "08/24/2016"
+ms.topic: "topic"
+ms.prod: "CommonDataModel"
+ms.service: ""
+ms.technology: "CommonDataModel"
+keywords: ""
+audience: "Developer, IT Pro"
+ms.assetid: ""
+---
+
 # People, Organizations, and Groups Entities
 
 The people, organizations, and groups entities encompass a rich set of people and organizations that you might interact with, including employees, contractors, donors, volunteers, fans, alumni, and families.

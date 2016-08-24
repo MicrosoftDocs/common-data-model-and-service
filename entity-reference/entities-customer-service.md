@@ -1,4 +1,19 @@
-# Customer Service Entities 
+---
+title: ""
+description: ""
+author: ""
+manager: "robinarh"
+ms.date: "08/24/2016"
+ms.topic: "topic"
+ms.prod: "CommonDataModel"
+ms.service: ""
+ms.technology: "CommonDataModel"
+keywords: ""
+audience: "Developer, IT Pro"
+ms.assetid: ""
+---
+
+# Customer Service Entities
 
 The customer service entities manage issues from your customers, including tracking, escalation, and documentation.
 
@@ -9,5 +24,3 @@ The customer service entities manage issues from your customers, including track
 ## Customer Service Reference
 
 [Customer Service Reference](/entity-reference/entity-tables/customer-service.md "Customer Service Reference")
-
-

@@ -1,3 +1,18 @@
+---
+title: ""
+description: ""
+author: ""
+manager: "robinarh"
+ms.date: "08/24/2016"
+ms.topic: "topic"
+ms.prod: "CommonDataModel"
+ms.service: ""
+ms.technology: "CommonDataModel"
+keywords: ""
+audience: "Developer, IT Pro"
+ms.assetid: ""
+---
+
 # Entity Relationships and Lookup Fields
 
 ## Entity Relationship Diagrams

@@ -1,3 +1,18 @@
+---
+title: ""
+description: ""
+author: ""
+manager: "robinarh"
+ms.date: "08/24/2016"
+ms.topic: "topic"
+ms.prod: "CommonDataModel"
+ms.service: ""
+ms.technology: "CommonDataModel"
+keywords: ""
+audience: "Developer, IT Pro"
+ms.assetid: ""
+---
+
 # System Fields
 
 A set of standard fields is included with every entity. These fields are used by the CDM to provide behaviors such as concurrency management, security, and audit trails.

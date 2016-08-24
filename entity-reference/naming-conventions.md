@@ -1,3 +1,18 @@
+---
+title: ""
+description: ""
+author: ""
+manager: "robinarh"
+ms.date: "08/24/2016"
+ms.topic: "topic"
+ms.prod: "CommonDataModel"
+ms.service: ""
+ms.technology: "CommonDataModel"
+keywords: ""
+audience: "Developer, IT Pro"
+ms.assetid: ""
+---
+
 #Naming Conventions
 
 To provide a consistent experience across objects, and to improve discoverability and usability, the CDM follows these naming conventions:

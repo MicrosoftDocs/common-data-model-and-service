@@ -1,6 +1,21 @@
+---
+title: ""
+description: ""
+author: ""
+manager: "robinarh"
+ms.date: "08/24/2016"
+ms.topic: "topic"
+ms.prod: "CommonDataModel"
+ms.service: ""
+ms.technology: "CommonDataModel"
+keywords: ""
+audience: "Developer, IT Pro"
+ms.assetid: ""
+---
+
 # Purchase
-## PurchaseOrder (Purchase Order) Entity 
-A first offer for a commercial engagement that the company issues to a supplier. The PurchaseOrder entity indicates the types, quantities, prices, and delivery timelines for products and services. 
+## PurchaseOrder (Purchase Order) Entity
+A first offer for a commercial engagement that the company issues to a supplier. The PurchaseOrder entity indicates the types, quantities, prices, and delivery timelines for products and services.
 
 Field | Description
 ---|---
@@ -29,8 +44,8 @@ TotalDiscountAmountCurrency | Lookup: Currency
 TotalDiscountPercent | Data: Number
 TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Taxes
 TotalTaxAmountCurrency | Lookup: Currency
-## PurchaseOrderCharge (Purchase Order Charges) Entity 
-A purchase order charge. 
+## PurchaseOrderCharge (Purchase Order Charges) Entity
+A purchase order charge.
 
 Field | Description
 ---|---
@@ -41,8 +56,8 @@ ChargeType | Enumeration: ChargeTypeValues: Freight, Insurance, Others
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
 PurchaseOrder | Lookup: PurchaseOrder<br>Required
-## PurchaseOrderLine (Purchase Order Lines) Entity 
-A purchase order line item. 
+## PurchaseOrderLine (Purchase Order Lines) Entity
+A purchase order line item.
 
 Field | Description
 ---|---
@@ -73,8 +88,8 @@ TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Tax
 TotalTaxesCurrency | Lookup: Currency
 UnitPrice | Data: Currency<br>Decimal places: 6
 UnitPriceCurrency | Lookup: Currency
-## PurchaseOrderLineCharge (Purchase Order Line Charge) Entity 
-A purchase order line item charge. 
+## PurchaseOrderLineCharge (Purchase Order Line Charge) Entity
+A purchase order line item charge.
 
 Field | Description
 ---|---
@@ -85,8 +100,8 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
 PurchaseOrderLine | Lookup: PurchaseOrderLine<br>Required
 PurchaseOrderLineChargeId<br>Primary key | Number sequence: <br>Unique
-## PurchaseOrderLineReceipt (Purchase Order Line Receipt) Entity 
-A purchase order line item receipt. 
+## PurchaseOrderLineReceipt (Purchase Order Line Receipt) Entity
+A purchase order line item receipt.
 
 Field | Description
 ---|---
@@ -97,8 +112,8 @@ PurchaseOrderLineReceiptId<br>Primary key | Number sequence: <br>Unique
 Quantity | Data: Number
 Sequence | Data: Integer
 Status | Enumeration: ShipmentStatusValues: Delivered, Open
-## PurchaseOrderLineTax (Purchase Order Line Tax) Entity 
-The purchase order line item tax. 
+## PurchaseOrderLineTax (Purchase Order Line Tax) Entity
+The purchase order line item tax.
 
 Field | Description
 ---|---
@@ -110,8 +125,8 @@ PurchaseOrderLine | Lookup: PurchaseOrderLine<br>Required
 PurchaseOrderLineTaxId<br>Primary key | Number sequence: <br>Unique
 RateCode | Data: Text<br>Maximum length: 60
 TaxType | Enumeration: LineTaxTypeValues: Others, SalesTax, VAT
-## PurchaseOrderTax (Purchase Order Tax) Entity 
-The tax on a purchase order. 
+## PurchaseOrderTax (Purchase Order Tax) Entity
+The tax on a purchase order.
 
 Field | Description
 ---|---
@@ -123,8 +138,8 @@ PurchaseOrder | Lookup: PurchaseOrder<br>Required
 PurchaseOrderTaxId<br>Primary key | Number sequence: <br>Unique
 RateCode | Data: Text<br>Maximum length: 60
 TaxType | Enumeration: TaxTypeValues: Others, SalesTax, VAT
-## Supplier (Supplier) Entity 
-An organization that supplies something. 
+## Supplier (Supplier) Entity
+An organization that supplies something.
 
 Field | Description
 ---|---
@@ -156,8 +171,8 @@ Thumbnail | Data: Image
 Ticker | Data: Text<br>Maximum length: 128
 Twitter | Data: Text<br>Maximum length: 128
 Website | Data: WebsiteUrl
-## SupplierInvoice (Supplier Invoice) Entity 
-An invoice that is received from a supplier. 
+## SupplierInvoice (Supplier Invoice) Entity
+An invoice that is received from a supplier.
 
 Field | Description
 ---|---
@@ -186,8 +201,8 @@ TotalDiscountAmountCurrency | Lookup: Currency
 TotalDiscountPercent | Data: Number
 TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Taxes
 TotalTaxAmountCurrency | Lookup: Currency
-## SupplierInvoiceCharge (Supplier Invoice Charges) Entity 
-A charge that is part of a supplier invoice. 
+## SupplierInvoiceCharge (Supplier Invoice Charges) Entity
+A charge that is part of a supplier invoice.
 
 Field | Description
 ---|---
@@ -198,8 +213,8 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
 SupplierInvoice | Lookup: SupplierInvoice<br>Required
 SupplierInvoiceChargeId<br>Primary key | Number sequence: <br>Unique
-## SupplierInvoiceLine (Supplier Invoice Lines) Entity 
-A line item on a supplier invoice. 
+## SupplierInvoiceLine (Supplier Invoice Lines) Entity
+A line item on a supplier invoice.
 
 Field | Description
 ---|---
@@ -226,8 +241,8 @@ TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Tax
 TotalTaxesCurrency | Lookup: Currency
 UnitPrice | Data: Currency<br>Decimal places: 6
 UnitPriceCurrency | Lookup: Currency
-## SupplierInvoiceLineCharge (Supplier Invoice Line Charge) Entity 
-A supplier invoice line item charge. 
+## SupplierInvoiceLineCharge (Supplier Invoice Line Charge) Entity
+A supplier invoice line item charge.
 
 Field | Description
 ---|---
@@ -238,8 +253,8 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
 SupplierInvoiceLine | Lookup: SupplierInvoiceLine<br>Required
 SupplierInvoiceLineChargeId<br>Primary key | Number sequence: <br>Unique
-## SupplierInvoiceLineTax (Supplier Invoice Line Tax) Entity 
-The supplier invoice line item tax. 
+## SupplierInvoiceLineTax (Supplier Invoice Line Tax) Entity
+The supplier invoice line item tax.
 
 Field | Description
 ---|---
@@ -251,8 +266,8 @@ RateCode | Data: Text<br>Maximum length: 60
 SupplierInvoiceLine | Lookup: SupplierInvoiceLine<br>Required
 SupplierInvoiceLineTaxId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Invoice Line Tax Id
 TaxType | Enumeration: InvoiceLineTaxTypeValues: Others, SalesTax, VAT
-## SupplierInvoiceTax (Supplier Invoice Tax) Entity 
-The tax on a supplier invoice. 
+## SupplierInvoiceTax (Supplier Invoice Tax) Entity
+The tax on a supplier invoice.
 
 Field | Description
 ---|---

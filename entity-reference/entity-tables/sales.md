@@ -1,6 +1,21 @@
+---
+title: ""
+description: ""
+author: ""
+manager: "robinarh"
+ms.date: "08/24/2016"
+ms.topic: "topic"
+ms.prod: "CommonDataModel"
+ms.service: ""
+ms.technology: "CommonDataModel"
+keywords: ""
+audience: "Developer, IT Pro"
+ms.assetid: ""
+---
+
 # Sales
-## Accounts (Accounts) Entity 
-Accounts table can store individual accounts of a business such as customers, competitors, and partners. 
+## Accounts (Accounts) Entity
+Accounts table can store individual accounts of a business such as customers, competitors, and partners.
 
 Field | Description
 ---|---
@@ -22,8 +37,8 @@ PrimaryEmail | Data: Email<br>Description: Type the primary email for this accou
 PrimaryFax | Data: Text<br>Maximum length: 20<br>Description: Type the fax number for this account.
 Type | Enumeration: AccountTypeValues: Organization, Person
 WebsiteURL | Data: Text<br>Maximum length: 255
-## Contacts (Contacts) Entity 
-Contact table can store information about individuals, with whom the company has a relationship, such as a customer, a supplier, or a colleague. 
+## Contacts (Contacts) Entity
+Contact table can store information about individuals, with whom the company has a relationship, such as a customer, a supplier, or a colleague.
 
 Field | Description
 ---|---
@@ -42,8 +57,8 @@ Name | Data: Text<br>Maximum length: 60
 PrimaryEmail | Data: Email<br>Description: Type the primary email for this account.
 PrimaryFax | Data: Text<br>Maximum length: 20<br>Description: Type the fax number for this account.
 SecondaryEmail | Data: Email<br>Description: Type the primary email for this account.
-## Customer (Customer) Entity 
-An individual or organization that interacts with the company to buy the goods and services that it offers. 
+## Customer (Customer) Entity
+An individual or organization that interacts with the company to buy the goods and services that it offers.
 
 Field | Description
 ---|---
@@ -70,8 +85,8 @@ Thumbnail | Data: Image
 Ticker | Data: Text<br>Maximum length: 10
 Twitter | Data: Text<br>Maximum length: 128
 WebSite | Data: WebsiteUrl
-## Lead (Lead) Entity 
-A person who is interested in receiving information about the products or services that the company offers. 
+## Lead (Lead) Entity
+A person who is interested in receiving information about the products or services that the company offers.
 
 Field | Description
 ---|---
@@ -98,8 +113,8 @@ Thumbnail | Data: Image
 Ticker | Data: Text<br>Maximum length: 10
 Twitter | Data: Text<br>Maximum length: 128
 WebSite | Data: WebsiteUrl
-## Opportunity (Opportunity) Entity 
-Information about potential sales to new or established customers. 
+## Opportunity (Opportunity) Entity
+Information about potential sales to new or established customers.
 
 Field | Description
 ---|---
@@ -124,8 +139,8 @@ RatingCode | Enumeration: HotWarmColdValues: Cold, Hot, Warm
 SalesStage | Enumeration: OpportunityStateValues: Lost, Open, Won
 Source | Enumeration: OpportunitySourceValues: Advertisement, EmployeeReferral, ExternalReferral, Other, Partner, PublicRelations, Seminar, TradeShow, Web, WordOfMouth
 Status | Enumeration: OpportunityStatusValues: Canceled, InProgress, OnHold, OutSold, Won
-## OpportunityPartyRole (OpportunityPartyRole) Entity 
-OpportunityPartyRole 
+## OpportunityPartyRole (OpportunityPartyRole) Entity
+OpportunityPartyRole
 
 Field | Description
 ---|---
@@ -133,8 +148,8 @@ Opportunity | Lookup: Opportunity<br>Required
 OpportunityPartyRoleId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 OpportunityRole | Enumeration: OpportunityRoleValues: Default
 PartyRole | Enumeration: PartyRoleValues: Alumnus, Company, Constituent, Contractor, Customer, Donor, Employee, Fan, Member, NonProfit, Supplier, Tenant, Vendor, Volunteer
-## Partner (Partner) Entity 
-A person, organization, or group that a company partners with. 
+## Partner (Partner) Entity
+A person, organization, or group that a company partners with.
 
 Field | Description
 ---|---
@@ -154,8 +169,8 @@ Thumbnail | Data: Image
 Ticker | Data: Text<br>Maximum length: 10
 Twitter | Data: Text<br>Maximum length: 128
 WebSite | Data: WebsiteUrl
-## SalesInvoice (Sales Invoice) Entity 
-A sales invoice. 
+## SalesInvoice (Sales Invoice) Entity
+A sales invoice.
 
 Field | Description
 ---|---
@@ -186,8 +201,8 @@ TotalDiscountAmountCurrency | Lookup: Currency
 TotalDiscountPercent | Data: Number
 TotalTax | Data: Currency<br>Decimal places: 6<br>Description: Total Taxes
 TotalTaxCurrency | Lookup: Currency
-## SalesInvoiceCharge (Sales Invoice Charges) Entity 
-A sales invoice charge. 
+## SalesInvoiceCharge (Sales Invoice Charges) Entity
+A sales invoice charge.
 
 Field | Description
 ---|---
@@ -198,8 +213,8 @@ ChargeType | Enumeration: InvoiceChargeTypeValues: Freight, Insurance, Others
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
 SalesInvoice | Lookup: SalesInvoice<br>Required
-## SalesInvoiceLine (Sales Invoice Lines) Entity 
-A sales invoice line item. 
+## SalesInvoiceLine (Sales Invoice Lines) Entity
+A sales invoice line item.
 
 Field | Description
 ---|---
@@ -227,8 +242,8 @@ TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Tax
 TotalTaxesCurrency | Lookup: Currency
 UnitPrice | Data: Currency<br>Decimal places: 6
 UnitPriceCurrency | Lookup: Currency
-## SalesInvoiceLineCharge (Sales Invoice Line Charge) Entity 
-A sales invoice line item charge. 
+## SalesInvoiceLineCharge (Sales Invoice Line Charge) Entity
+A sales invoice line item charge.
 
 Field | Description
 ---|---
@@ -239,8 +254,8 @@ ChargeType | Enumeration: InvoiceLineChargeTypeValues: Freight, Insurance, Other
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
 SalesInvoiceLine | Lookup: SalesInvoiceLine<br>Required
-## SalesInvoiceLineTax (Sales Invoice Line Tax) Entity 
-A sales invoice line item tax. 
+## SalesInvoiceLineTax (Sales Invoice Line Tax) Entity
+A sales invoice line item tax.
 
 Field | Description
 ---|---
@@ -252,8 +267,8 @@ RateCode | Data: Text<br>Maximum length: 60
 SalesInvoiceLine | Lookup: SalesInvoiceLine<br>Required
 TaxId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Invoice Line Tax Id
 TaxType | Enumeration: InvoiceLineTaxTypeValues: Others, SalesTax, VAT
-## SalesInvoiceTax (Sales Invoice Tax) Entity 
-The tax on a sales invoice. 
+## SalesInvoiceTax (Sales Invoice Tax) Entity
+The tax on a sales invoice.
 
 Field | Description
 ---|---
@@ -265,8 +280,8 @@ RateCode | Data: Text<br>Maximum length: 60
 SalesInvoice | Lookup: SalesInvoice<br>Required
 TaxId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Order Tax Id
 TaxType | Enumeration: InvoiceTaxTypeValues: Others, SalesTax, VAT
-## SalesOrder (Sales Order) Entity 
-A sales order. 
+## SalesOrder (Sales Order) Entity
+A sales order.
 
 Field | Description
 ---|---
@@ -297,8 +312,8 @@ TotalDiscountAmountCurrency | Lookup: Currency
 TotalDiscountPercent | Data: Number
 TotalTax | Data: Currency<br>Decimal places: 6<br>Description: Total Taxes
 TotalTaxCurrency | Lookup: Currency
-## SalesOrderCharge (Sales Order Charges) Entity 
-A sales order charge. 
+## SalesOrderCharge (Sales Order Charges) Entity
+A sales order charge.
 
 Field | Description
 ---|---
@@ -309,8 +324,8 @@ ChargeType | Enumeration: ChargeTypeValues: Freight, Insurance, Others
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
 SalesOrder | Lookup: SalesOrder<br>Required
-## SalesOrderLine (Sales Order Lines) Entity 
-A sales order line. 
+## SalesOrderLine (Sales Order Lines) Entity
+A sales order line.
 
 Field | Description
 ---|---
@@ -339,8 +354,8 @@ TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Tax
 TotalTaxesCurrency | Lookup: Currency
 UnitPrice | Data: Currency<br>Decimal places: 6
 UnitPriceCurrency | Lookup: Currency
-## SalesOrderLineCharge (Sales Order Line Charge) Entity 
-A sales order line charge. 
+## SalesOrderLineCharge (Sales Order Line Charge) Entity
+A sales order line charge.
 
 Field | Description
 ---|---
@@ -351,8 +366,8 @@ ChargeType | Enumeration: LineChargeTypeValues: Freight, Insurance, Others
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
 SalesOrderLine | Lookup: SalesOrderLine<br>Required
-## SalesOrderLineShipment (Sales Order Line Shipment) Entity 
-Shipment details for a line on sales order. A single line item on a sales order can be split and shipped to different addresses. 
+## SalesOrderLineShipment (Sales Order Line Shipment) Entity
+Shipment details for a line on sales order. A single line item on a sales order can be split and shipped to different addresses.
 
 Field | Description
 ---|---
@@ -363,8 +378,8 @@ SalesOrderLine | Lookup: SalesOrderLine<br>Required
 SalesOrderLineShipmentId<br>Primary key | Number sequence: <br>Unique
 Sequence | Data: Integer
 Status | Enumeration: ShipmentStatusValues: Delivered, Open
-## SalesOrderLineTax (Sales Order Line Tax) Entity 
-The tax on a sale order line. 
+## SalesOrderLineTax (Sales Order Line Tax) Entity
+The tax on a sale order line.
 
 Field | Description
 ---|---
@@ -376,8 +391,8 @@ RateCode | Data: Text<br>Maximum length: 60
 SalesOrderLine | Lookup: SalesOrderLine<br>Required
 TaxId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Order Line Tax Id
 TaxType | Enumeration: LineTaxTypeValues: Others, SalesTax, VAT
-## SalesOrderTax (Sales Order Tax) Entity 
-The tax on a sales order. 
+## SalesOrderTax (Sales Order Tax) Entity
+The tax on a sales order.
 
 Field | Description
 ---|---

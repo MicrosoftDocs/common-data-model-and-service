@@ -1,3 +1,18 @@
+---
+title: ""
+description: ""
+author: ""
+manager: "robinarh"
+ms.date: "08/24/2016"
+ms.topic: "topic"
+ms.prod: "CommonDataModel"
+ms.service: ""
+ms.technology: "CommonDataModel"
+keywords: ""
+audience: "Developer, IT Pro"
+ms.assetid: ""
+---
+
 # Microsoft Common Data Model
 
 The Microsoft Common Data Model (CDM) is the Microsoft Azure–based business application model and storage mechanism for the Microsoft business application platform. Together with gateways and connectors, it forms the basis of business solutions that are created by using Microsoft Power BI, Microsoft PowerApps, and Microsoft Flow. The CDM provides common business entities and integration capabilities for importing data from multiple sources, with the goal of bridging the data gap between software as a service (SaaS) workloads and business suites. By using the CDM, you can create analytics that span these separate workloads and suites. The platform provides a rich and productive development platform though the following features: 
