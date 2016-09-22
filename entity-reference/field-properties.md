@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: ""
+ms.assetid: "bfa9fd3b-50d0-4063-9308-a02113a3f74b"
 ---
 
 # Entity Field Properties

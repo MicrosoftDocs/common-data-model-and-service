@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: ""
+ms.assetid: "c0808105-664f-4146-8adb-82fe4ee6c8b4"
 ---
 
 # Microsoft Common Data Model

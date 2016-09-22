@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: ""
+ms.assetid: "364f88ac-0fcc-44dd-9e9a-9512e8420def"
 ---
 
 #Standard Enumerations

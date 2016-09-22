@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: ""
+ms.assetid: "45b5e70c-f637-4ef0-9b7c-292c92da3be5"
 ---
 
 # Standard Entities

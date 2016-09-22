@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: ""
+ms.assetid: "88551aa9-5525-4340-9607-91aa6e6e8dfb"
 ---
 
 # Entity Versioning

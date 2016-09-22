@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: ""
+ms.assetid: "a3acd7bb-eb94-4c86-854f-9c7c5b526e75"
 ---
 
 # Entity Relationships and Lookup Fields

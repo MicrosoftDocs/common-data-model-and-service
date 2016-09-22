@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: ""
+ms.assetid: "c9e7b649-2ee3-4985-986b-0e139259ae6d"
 ---
 
 # People, Organizations, and Groups Entities

@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: ""
+ms.assetid: "de678eaa-6ef2-483a-93ec-17ff7b713159"
 ---
 
 #Naming Conventions
