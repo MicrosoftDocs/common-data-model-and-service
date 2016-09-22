@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Foundation entities"
 description: ""
 author: ""
 manager: "robinarh"

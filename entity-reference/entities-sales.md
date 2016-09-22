@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Sales entities"
 description: ""
 author: ""
 manager: "robinarh"

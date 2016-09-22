@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Naming conventions"
 description: ""
 author: ""
 manager: "robinarh"

@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Purchasing entities"
 description: ""
 author: ""
 manager: "robinarh"

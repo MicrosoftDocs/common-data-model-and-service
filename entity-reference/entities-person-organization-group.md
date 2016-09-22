@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Person, Organization, and Group entities"
 description: ""
 author: ""
 manager: "robinarh"

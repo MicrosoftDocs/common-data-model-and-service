@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Standard entities"
 description: ""
 author: ""
 manager: "robinarh"

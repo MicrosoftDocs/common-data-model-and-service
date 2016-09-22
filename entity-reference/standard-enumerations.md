@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Standard enumerations"
 description: ""
 author: ""
 manager: "robinarh"
