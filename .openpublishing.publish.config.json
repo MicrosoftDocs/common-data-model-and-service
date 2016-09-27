@@ -1,5 +1,4 @@
 {
-  "build_entry_point": "docs",
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "docsets_to_publish": [
@@ -15,7 +14,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "template_folder": "_themes"
+     "build_entry_point": "docs",
     }
   ],
   "notification_subscribers": [
