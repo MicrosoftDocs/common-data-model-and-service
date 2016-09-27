@@ -14,7 +14,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-     "build_entry_point": "docs",
+     "build_entry_point": "docs"
     }
   ],
   "notification_subscribers": [
