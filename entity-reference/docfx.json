@@ -1,19 +1,68 @@
 {
-  "fileMetadata": {
 
-    "author": {
+  "build": {
 
-      "**.md": "robinarh"
+    "content": [
 
-    },
+      {
 
-    "keywords": {
+        "files": [
 
-      "**": [ "CDM", "Common Data Model" ],
+          "**/*.md"
 
-      "/entity-tables/**": [ "Refernce" ]
+        ],
 
-    }
+        "exclude": [
+
+          "**/obj/**",
+
+          "common-data-model/**",
+
+          "**/includes/**"
+
+        ]
+
+      }
+
+    ],
+
+    "resource": [
+
+      {
+
+        "files": [
+
+          "**/*.png",
+
+          "**/*.jpg"
+
+        ],
+
+        "exclude": [
+
+          "**/obj/**",
+
+          "common-data-model/**",
+
+          "**/includes/**"
+
+        ]
+
+      }
+
+    ],
+
+    "overwrite": [],
+
+    "externalReference": [],
+
+    "globalMetadata": {},
+
+    "fileMetadata": {},
+
+    "template": [],
+
+    "dest": "common-data-model"
 
   }
 
