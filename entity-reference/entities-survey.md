@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: "d206c030-3067-4dbf-b6b4-7e7fcdd040a7"
+ms.assetid: "0fed4d26-97bc-4a66-9c42-39d28db63b3b"
 ---
 
 # Survey Entities
