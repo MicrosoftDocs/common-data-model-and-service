@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: "0eb0e31e-846d-4aa5-8fd0-37b098ccd958"
+ms.assetid: "d206c030-3067-4dbf-b6b4-7e7fcdd040a7"
 ---
 
 # Lead and opportunity entities
