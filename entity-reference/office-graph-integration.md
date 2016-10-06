@@ -10,7 +10,7 @@ ms.service: "CommonDataModel"
 ms.technology: "CommonDataModel"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: "d206c030-3067-4dbf-b6b4-7e7fcdd040a7"
+ms.assetid: "118c3e49-c19c-428d-a828-a7912c576f41"
 ---
 
 # Office Graph integration
