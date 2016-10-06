@@ -1,9 +1,9 @@
 ---
 title: "Field properties"
 description: ""
-author: ""
+author: "clwesene"
 manager: "robinarh"
-ms.date: "08/24/2016"
+ms.date: "10/06/2016"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataModel"
