@@ -1,7 +1,7 @@
 ---
 title: "Standard enumerations"
 description: ""
-author: "robinahr"
+author: "robinarh"
 manager: "robinarh"
 ms.date: "08/24/2016"
 ms.topic: "topic"
