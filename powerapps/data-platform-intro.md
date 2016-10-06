@@ -3,7 +3,7 @@
 	description="Introduction to entities, fields, relationships, and databases."
 	services="powerapps"
 	documentationCenter="na"
-	authors="karthik-1"
+	authors="clwesene"
 	manager="RobinARH"
 	editor=""
 	tags=""/>
