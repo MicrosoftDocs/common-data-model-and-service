@@ -65,7 +65,7 @@ Over time, resource export functionality will support most if not all of the res
 
 ## Moving data ##
 
-Moving CDM data is not supported as part of the export and import of resources. Data can be moved by using the [data import export](/pwoerapps/data-platform-export-data.md) feature.
+Moving CDM data is not supported as part of the export and import of resources. Data can be moved by using the [data import export](/powerapps/data-platform-export-data.md) feature.
 
 
 ## Migrating from Public Preview ##
