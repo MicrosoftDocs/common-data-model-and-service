@@ -18,14 +18,17 @@
    ms.author=""/>
 
 # Import or export resources #
+When dealing with multiple environments the need often arises for moving resource changes between them. The resource import export functionality, satisfies that need for the most common cases.
+
+## Why use multiple environments? ##
 Each environment contains many types of resources, like entities, flows or apps, which would be created or modified in the development process, in order to add valuable functionality to the system. More commonly, development is done in the same environment as the one being used by the organization's end users. In such a case, managing resource changes is relatively simple within the same environment, where the App maker would validate changes ensuring all critical business processes and applications are functional.
 
-Another common pattern is where development and testing are performed in separate environments, and where changes are subsequently moved to the organization's default environment. Sometimes a separate environment is used to initially evaluate the system. Often however, the reason for this isolation, is that critical business processes have critical dependencies on resource changes. As a result, the system administrator's concern about the risk of making changes in the default environment, will force them to isolate development from the default environment. Depending on the extent of these risks, additional testing or staging may be needed.
+However, sometimes development and testing are performed in separate environments, and changes are subsequently moved to the organization's default environment. This could be because a separate environment was used to initially evaluate the system. Often however, the reason for this isolation, is that critical business processes have strict dependencies on resource changes. As a result, the system administrator's concern about the risk of making changes in the default environment, will force them to isolate development from the default environment. Depending on the extent of these risks, an additional staging environment may be used.
 
 ## Moving resource changes ##
-When dealing with isolated development and default environments, the need arises for moving resource changes across these environments. This can be accomplished through separate export and import processes, and using a physical package file. Either, all resources can be exported as one package, or specific resources would have to be selected for export. In either case a package (.pkg) file is produced, which would have to be stored physically on disk, transferred to the target environment administrator, and subsequently imported to that environment. The process of importing into the target environment is often followed by validation testing in order to ensure no critical business processes have been adversely affected.
+Moving resources is accomplished through separate export and import processes, and using a physical package file. <!--Either, all resources can be exported as one package, or specific resources would have to be selected for export. In either case a --> The package (.pkg) file is exported, saved to local storage, sent to the target environment administrator, and subsequently imported to the target environment. The import process is often followed by validation testing in order to ensure no critical business processes have been adversely affected.
 
-Both resource import and export functionality are available in the administrator portal's environments section and both corresponding buttons function in the context of a selected environment. On 
+Both resource import and export functionality are available in the administrator portal's environments section and both corresponding buttons function in the context of a selected environment.
 
 ### Export all resources ###
 When all resources is selected as an option, the export package will contain all changes to entities, pick lists, translation sets, permission sets and roles. This enables the scenario of moving all contents of an environment to another.
