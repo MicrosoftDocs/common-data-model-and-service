@@ -53,7 +53,6 @@ You will see the **Get started** button.
 1. On [powerapps.com](https://web.powerapps.com), select **Common data model** in the left navigation pane.
 1. Select **Entities** in the left navigation pane.
 1. Click on **Create a database**. The database is created in Open access mode.
-1. If you want to enforce security, click on **Restrict access**.
 
 ## Open and restricted databases
 By default, a database will be created in Open mode, meaning security is not enforced for accessing entity. The environment administrator can choose to Restrict access on the database, where entity access security will be enforced based on permissions sets and roles.
