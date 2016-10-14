@@ -25,18 +25,22 @@ Another common pattern is where development and testing are performed in separat
 ## Moving resource changes ##
 When dealing with isolated development and default environments, the need arises for moving resource changes across these environments. This can be accomplished through separate export and import processes, and using a physical package file. Either, all resources can be exported as one package, or specific resources would have to be selected for export. In either case a package (.pkg) file is produced, which would have to be stored physically on disk, transferred to the target environment administrator, and subsequently imported to that environment. The process of importing into the target environment is often followed by validation testing in order to ensure no critical business processes have been adversely affected.
 
-Both resource import and export functionality are available in the administrator portal's environments section and both corresponding buttons function in the context of a selected environment.
+Both resource import and export functionality are available in the administrator portal's environments section and both corresponding buttons function in the context of a selected environment. On 
 
-### Exporting all resources ###
-
+### Export all resources ###
 When all resources is selected as an option, the export package will contain all changes to entities, pick lists, translation sets, permission sets and roles. This enables the scenario of moving all contents of an environment to another.
-p!-- This feature will be turned on in subsequent sprints
+<!-- This feature will be turned on in subsequent sprints
 ### Exporting specific resources ###
 
 When specific resources option is selected, the user will get a chance to manually select specific resources, at first from entities, pick lists, and translation sets. During the second step, security resources are automatically selected based on entity selection from previous step, but user will have a chance to manually modify selection.
 -->
 
-## Importing resources ##
+1. On [admin.powerapps.com](https://admin.powerapps.com), select **Environments** in the left navigation pane.
+1. Select your source environment by clicking on it.
+1. On the top right click on **Export resources**.
+1. When **Export completed** appears, save the package file on local storage.
+
+### Import resources ###
 
 A package (.pkg) file, exported from the source environment, will have to be selected as a first step. The import process will then validate, analyze and attempt to import the package. 
 <!-- This feature will light up in later sprints
@@ -44,6 +48,12 @@ As part of the import process, if the analysis reveals conflicts, the details of
 
 As an example, in cases where an entity field is removed, the conflict is handled by keeping the old field and underlying data, and instructing the user to manually delete it if needed.
 -->
+
+1. On [admin.powerapps.com](https://admin.powerapps.com), select **Environments** in the left navigation pane.
+1. Select your target environment by clicking on it.
+1. On the top right click on **Import resources**.
+1. Click **Select** and browse to a package file from local storage.
+1. Click **Import**.
 
 In the rare case that the package is partially applied, an error message will describe specifically what was imported and what was not.
 
