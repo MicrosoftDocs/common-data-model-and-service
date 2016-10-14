@@ -18,7 +18,7 @@
    ms.author="robinr"/>
 
 # Create a Common Data Model database
-You can create a database and build apps using the Common Data Model as a data store. You can create your own custom entities, or use the predefined entities. If you want to create a database in an environment, you have to be an administrator and have the proper license assigned to you.
+You can create a database and build apps using the Common Data Model as a data store. You can create your own custom entities or use the predefined entities. If you want to create a database in an environment, you have to be an administrator and have the proper license assigned to you.
 
 There are three ways to create database:
 + In the Admin Portal.
@@ -58,7 +58,7 @@ By default, a database will be created in Open mode, meaning security is not enf
 
 1. On [admin.powerapps.com](https://admin.powerapps.com), select **Environments** in the  navigation pane.
 1. Select your environment.
-1. Select the **Database** tab. The tab will show the database security state.
+1. Select the **Database** tab.
     + Select **Restrict Access** to enforce security.
     + Select **Open Access** to disable security.
 
