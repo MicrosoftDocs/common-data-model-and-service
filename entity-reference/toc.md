@@ -6,7 +6,7 @@
 # [Entity Field Properties](field-properties.md)
 # [Naming Conventions](naming-conventions.md)
 # [Entity Versioning](versioning.md)
-# [Office Graph integration](office-graph-integration.md)
+# [Outlook Add-in](outlook-add-in.md)
 # [Security model](security-model.md)
 ## [Security and user provisioning](security-provisioning.md)
 # [Foundation Entities](entities-foundation.md)
