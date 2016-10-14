@@ -20,7 +20,7 @@
 # Create a Common Data Model database
 You can create a database and build apps using the Common Data Model as a data store. You can create your own custom entities, or use the predefined entities. If you want to create a database in an environment, you have to be an administrator and have the proper license assigned to you.
 
-There are three options for creating a database:
+There are three ways to create database:
 + In the Admin Portal.
 + In the Maker Portal.
 + In the Entities pane.
