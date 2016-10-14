@@ -1,3 +1,4 @@
+
 <properties
 	pageTitle="Import or export resources | Microsoft Common Data Model"
 	description="Import or export resources"
@@ -26,7 +27,9 @@ Each environment contains many types of resources, like entities, flows or apps,
 However, sometimes development and testing are performed in separate environments, and changes are subsequently moved to the organization's default environment. This could be because a separate environment was used to initially evaluate the system. Often however, the reason for this isolation, is that critical business processes have strict dependencies on resource changes. As a result, the system administrator's concern about the risk of making changes in the default environment, will force them to isolate development from the default environment. Depending on the extent of these risks, an additional staging environment may be used.
 
 ## Moving resource changes ##
-Moving resources is accomplished through separate export and import processes, and using a physical package file. <!--Either, all resources can be exported as one package, or specific resources would have to be selected for export. In either case a --> The package (.pkg) file is exported, saved to local storage, sent to the target environment administrator, and subsequently imported to the target environment. The import process is often followed by validation testing in order to ensure no critical business processes have been adversely affected.
+Moving resources is accomplished through separate export and import processes, and using a physical package file. 
+<!--Either, all resources can be exported as one package, or specific resources would have to be selected for export. In either case a --> 
+The package (.pkg) file is exported, saved to local storage, sent to the target environment administrator, and subsequently imported to the target environment. The import process is often followed by validation testing in order to ensure no critical business processes have been adversely affected.
 
 Both resource import and export functionality are available in the administrator portal's environments section and both corresponding buttons function in the context of a selected environment.
 
@@ -70,7 +73,9 @@ Entities can be of Standard type of Custom type. While the original definition o
 
 ### Permission sets and roles
 
-Permission Sets and Roles are security resources governing access to data inside CDM.<!-- This feature will light up in later sprints   -- When going with the option of selecting specific resources, some permission sets may be automatically selected, if the user already selected entities referencing them. Similarly, some roles may be automatically selected, if any contained permission sets are already selected. User will be able to manually modify selection. --> After moving Permission Sets and Roles, the administrator should ensure that the Permission Sets are referenced by the appropriate Roles, and that the appropriate users are assigned to any new Roles. For more details please refer to [Security Role Topic Link]
+Permission Sets and Roles are security resources governing access to data inside CDM.
+<!-- This feature will light up in later sprints   -- When going with the option of selecting specific resources, some permission sets may be automatically selected, if the user already selected entities referencing them. Similarly, some roles may be automatically selected, if any contained permission sets are already selected. User will be able to manually modify selection. --> 
+After moving Permission Sets and Roles, the administrator should ensure that the Permission Sets are referenced by the appropriate Roles, and that the appropriate users are assigned to any new Roles. For more details please refer to [Security Role Topic Link]
 
 ### Other resources coming soon
 
