@@ -34,7 +34,7 @@ There are three ways to create database:
 
 ## Create a database in the Maker Portal
 1. On [powerapps.com](https://web.powerapps.com), select **Home** in the navigation pane.
-1. Look for the button under **User the Microsoft Common Data Model** section. At this point, there will be a button labeled either **Create database** or **Get started**. The label is determined by your license and permission assignments. You may or may not be allowed to create a database in the current environment.
+1. Look for the button in the section labeled **User the Microsoft Common Data Model**. The button labeled either **Create database** or **Get started**. The label is determined by your license and permission assignments. You may or may not be allowed to create a database in the current environment.
 
 ### Create database
 1. Select **Create database**.
