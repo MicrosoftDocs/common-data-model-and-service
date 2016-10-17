@@ -19,9 +19,8 @@ Some field types have additional properties that affect what you can store in th
 
 Property | Applies To | Description
 --- | --- | ---
-Prefix | NumberSequence | The prefix that is used for the number sequence.
-Enumeration | Enumeration | The option set type of the field.
+Prefix | Number Sequence | The prefix that is used for the number sequence. For Example, using the prefix "SO" on Sales orders to generate a number sequence in the format SO0001.
+Picklist | Picklist | The option set type of the field.
 Max length | Text | The maximum number of characters in a text field.
 Required | All | A value is required for the field.
 Unique | All | Values for the field must be unique across the entity.
-System | All | A field that is included on all entities. The value is set by the system and is read-only.
