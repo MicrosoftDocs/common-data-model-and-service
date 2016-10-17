@@ -20,7 +20,7 @@ A set of standard fields is included with every entity. These fields are used by
 Field Name | Description
 ---|---
 RecordID | Type: BigInteger<br>Description: Uniquely identifies an instance of an entity.
-CreatedByUser | Type: Text<br>Description: The RecordID of the user who created the entity instance.
-CreatedOnDateTime | Type: DateTime<br>Description: The date and time when the entity instance was created.
-LastModifiedByUser | Type: Text<br>Description: The RecordID of the user who last modified the entity instance.
-LastModifiedDateTime | Type: DateTime<br>Description: The date and time when the entity instance was last modified.
+Created By (CreatedByUser) | Type: Text<br>Description: The RecordID of the user who created the entity instance.
+Created Record Date (CreatedOnDateTime) | Type: DateTime<br>Description: The date and time when the entity instance was created.
+Last Modified By (LastModifiedByUser) | Type: Text<br>Description: The RecordID of the user who last modified the entity instance.
+Modified Record Date (LastModifiedDateTime) | Type: DateTime<br>Description: The date and time when the entity instance was last modified.
