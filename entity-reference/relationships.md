@@ -53,6 +53,6 @@ The header-line composition pattern is implemented on the following entity pairs
 * Purchase Order and Purchase Order Line
 * Sales Invoice and Sales Invoice Line
 * Supplier Invoice and Supplier Invoice Line
-* Case and CaseActivity
+* Case and Case Activity
 
 Using Sales Order as an example, the combination of the sales order header (Sales Order entity) and its associated sales order line items (Sales Order Line entity) compose the entire sales order. When a sales order is deleted, all the associated sales order line items are deleted. Note that any customer associated with the sales order is not deleted, even though the sales order is associated with a customer. The entity schema allows a Customer row to exist even if there is no sales order associated with that customer.
