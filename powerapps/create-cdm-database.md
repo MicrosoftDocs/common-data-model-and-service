@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Import or export resources | Microsoft Common Data Model"
-	description="Import or export resources"
+	pageTitle="Create a Common Data Model database | Microsoft Common Data Model"
+	description="Create a Common Data Model database"
 	services="powerapps"
 	documentationCenter="na"
 	authors="nimakms"
@@ -14,77 +14,52 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="10/06/2016"
-   ms.author=""/>
+   ms.date="10/16/2016"
+   ms.author="robinr"/>
 
-# Import or export resources #
-If you have created multiple environments to support development of your database and apps, you will need to move changes from one environment to another. You can use **Export resources** and **Import resources** to move resources between environments.
+# Create a Common Data Model database
+You can create a database and build apps using the Common Data Model as a data store. You can create your own custom entities or use the predefined entities. If you want to create a database in an environment, you have to be an administrator and have the proper license assigned to you.
 
-## Why use multiple environments? ##
-Each environment contains resources, such as entities, flows, and apps, that you create or modify in the development process. Usually, development is done in the same environment as the one being used by the organization's end users, called the *default environment*. In that case, managing resource changes is relatively simple within the same environment. The app maker validates changes to ensure that all critical business processes and applications are functional and releases the app.
+There are three ways to create database:
++ In the Admin Portal.
++ In the Maker Portal.
++ In the Entities pane.
 
-Sometimes development and testing are performed in separate environments, and changes are moved to the default environment when they are ready for use by end users. This could be because a separate environment was used to initially evaluate the system. Another reason is that you might want to minimize the risks of making changes to the default environment. Separate environments provide isolation, allowing you to make changes in an environment separate from the default environment. Depending on the extent of these risks, you might create an additional staging environment. In that case, you would have a development environment, a staging environment, and a default environment.
-
-## Moving resource changes ##
-Moving resources is accomplished through separate export and import processes, by way of a package file.
-<!--Either, all resources can be exported as one package, or specific resources would have to be selected for export. In either case a -->
-The package (.pkg) file is exported, saved to local storage, sent to the target environment administrator, and then imported to the target environment. The import process is often followed by validation testing in order to ensure that no critical business processes have been adversely affected.
-
-Both resource import and export functionality are available in the administrator portal's environments section, and export and import happen in the context of a selected environment.
-
-### Export all resources ###
-When all resources are selected as an option, the export package will contain all changes to entities, pick lists, translation sets, permission sets, and roles. This enables the scenario of moving all contents of an environment to another.
-<!-- This feature will be turned on in subsequent sprints
-### Exporting specific resources ###
-
-When specific resources option is selected, the user will get a chance to manually select specific resources, at first from entities, pick lists, and translation sets. During the second step, security resources are automatically selected based on entity selection from previous step, but user will have a chance to manually modify selection.
--->
-
+## Create a database in the Admin Portal
 1. On [admin.powerapps.com](https://admin.powerapps.com), select **Environments** in the left navigation pane.
-1. Select your source environment.
-1. On the top-right, select **Export resources**.
-1. When **Export completed** appears, save the package file on local storage.
+1. Select your environment.
+1. Select the **Database** tab.
+1. Select **Create a database**. By default, the database is created in Open access mode.
+1. If you want to enforce security, select **Restrict access**.
 
-### Import resources ###
+## Create a database in the Maker Portal
+1. On [powerapps.com](https://web.powerapps.com), select **Home** in the navigation pane.
+1. Look for the button in the section labeled **User the Microsoft Common Data Model**. The button labeled either **Create database** or **Get started**. The label is determined by your license and permission assignments. You may or may not be allowed to create a database in the current environment.
 
-A package (.pkg) file, exported from the source environment, will have to be selected as a first step. The import process will then validate, analyze, and attempt to import the package.
-<!-- This feature will light up in later sprints
-As part of the import process, if the analysis reveals conflicts, the details of those conflicts are presented to user before the final import step. Some of these conflicts will block the process from completing, and as such these are flagged, and the process will be terminated. Assuming there are no blocking conflicts, detailed information will be provided regarding any non-blocking conflicts, including the related resource information, the type of change being applied, the reason behind the conflict, what will happen as part of import, and next steps if applicable.
+### Create database
+1. Select **Create database**.
+1. In the dialog box, check the **Restrict access to database** box if you want to enforce security. Otherwise leave unchecked.
+1. Select **Create my database**.
 
-As an example, in cases where an entity field is removed, the conflict is handled by keeping the old field and underlying data, and instructing the user to manually delete it if needed.
--->
+### Get started
+1. Select **Get started**.
+1. In the dialog box, select **Create new environment** to start creating a new environment and database.
+1. Add a unique **Environment name** and select the appropriate **Region**.
+1. Check the **Restrict access to database** box if you want to enforce security. Otherwise leave unchecked.
+1. Select **Create**.
 
-1. On [admin.powerapps.com](https://admin.powerapps.com), select **Environments** in the left navigation pane.
-1. Select your target environment.
-1. On the top-right, click **Import resources**.
-1. Select **Select**, and then browse to a package file from local storage.
-1. Select **Import**.
+## Create a database in the Entities pane
+1. On [powerapps.com](https://web.powerapps.com), select **Entities** in the navigation pane.
+1. Select **Create a database**. The database is created in Open access mode.
 
-If the package is partially applied, an error message will describe specifically what was imported and what was not.
+## Open and restricted databases
+By default, a database will be created in Open mode, meaning security is not enforced for accessing entities. The environment administrator set the database to Restrict mode, where entity access security will be enforced based on permissions sets and roles.
 
-## Resource types
+1. On [admin.powerapps.com](https://admin.powerapps.com), select **Environments** in the  navigation pane.
+1. Select your environment.
+1. Select the **Database** tab.
+    + Select **Restrict Access** to enforce security.
+    + Select **Open Access** to disable security.
 
-The development process can involve changes to many types of resources. For example, if you update an app, you might add, remove, or update several entities or connections. Changes to most, if not all, resource types would eventually be movable across environments. The types of resources you can move are described in the following sections.
-
-### Entities, pick lists, and translation sets
-
-You can export and import standard entities and custom entities. While the original definition of standard entities cannot be changed, any customizations will be included in the export process. New custom entities or modifications to existing ones can also be moved across environments. Similar to entities, pick lists can be of standard type or custom type. The standard entities cannot currently be changed, however addition of custom pick lists or changes to existing ones can also be handled by the export process. Translation sets can also be moved across environments. For more details about translation sets, see [Translation Sets Topic Link].
-
-### Permission sets and roles
-
-Permission sets and roles are security resources governing access to data inside the common data model.
-<!-- This feature will light up in later sprints   -- When going with the option of selecting specific resources, some permission sets may be automatically selected, if the user already selected entities referencing them. Similarly, some roles may be automatically selected, if any contained permission sets are already selected. User will be able to manually modify selection. -->
-After moving permission sets and roles, the administrator should ensure that the permission sets are referenced by the appropriate roles, and that the appropriate users are assigned to any new roles. For more information, see [Security Role Topic Link].
-
-### Other resources coming soon
-
-Over time, resource export functionality will support most if not all of the resources used within the common data model, Microsoft PowerApps, and Flow. These will include but will not be limited to resources like connections, flows, and apps.
-
-## Moving data ##
-
-Moving common data model data is not supported as part of the export and import of resources. Data can be moved by using the [data import export](/powerapps/data-platform-export-data.md) feature.
-
-
-## Migrating from the common data model preview ##
-
-For the limited number of users who signed up for the common data model preview, given that their environments will not be upgraded to the latest version, documentation will be provided in order to enable moving resources and data from the old environment to a new one. For more details, see [Public Preview to GA Migration Topic].
+## License and security permissions
+To create a database, you have to be an administrator in the selected environment, and  the appropriate license has to be assigned to you. You can further configure security permission for other users from the environment **Security** tab. See [Secure the database](database-security.md) for more information.
