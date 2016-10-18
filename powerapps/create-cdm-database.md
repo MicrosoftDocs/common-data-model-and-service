@@ -47,7 +47,7 @@ When specific resources option is selected, the user will get a chance to manual
 
 ### Import resources ###
 
-A package (.pkg) file, exported from the source environment, will have to be selected as a first step. The import process will then validate, analyze and attempt to import the package.
+A package (.pkg) file, exported from the source environment, will have to be selected as a first step. The import process will then validate, analyze, and attempt to import the package.
 <!-- This feature will light up in later sprints
 As part of the import process, if the analysis reveals conflicts, the details of those conflicts are presented to user before the final import step. Some of these conflicts will block the process from completing, and as such these are flagged, and the process will be terminated. Assuming there are no blocking conflicts, detailed information will be provided regarding any non-blocking conflicts, including the related resource information, the type of change being applied, the reason behind the conflict, what will happen as part of import, and next steps if applicable.
 
