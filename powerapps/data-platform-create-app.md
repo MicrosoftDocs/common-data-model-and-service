@@ -1,10 +1,10 @@
 <properties
-	pageTitle="Generate an app using the Common Data Model | Microsoft Common Data Model"
-	description="Generate an app to add, update, and delete records in the Common Data Model"
+	pageTitle="Generate an app using a Common Data Service database | Common Data Service"
+	description="Generate an app to add, update, and delete records"
 	services="powerapps"
 	documentationCenter="na"
-	authors="karthik-1"
-	manager="erikre"
+	authors="robinarh"
+	manager="robinarh"
 	editor=""
 	tags=""/>
 
@@ -14,16 +14,16 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="07/21/2016"
-   ms.author="karthikb"/>
+   ms.date="10/18/2016"
+   ms.author="robinarh"/>
 
-# Generate an app using the Common Data Model #
+# Generate an app using a Common Data Service database #
 
 [AZURE.VIDEO nb:cid:UUID:e0d83908-aedd-4db3-8ea9-2dbd4695c662]
 
 Generate an app automatically to manage data that's stored in the Common Data Model. Manage data in one of many standard entities (which are built in to the model) or a custom entity (which you or someone else in your organization created).
 
-If you're unfamiliar with the Common Data Model, see [Understand entities](data-platform-intro.md).
+If you're unfamiliar with the Common Data Service, see [Understand entities](data-platform-intro.md).
 
 As this topic describes, you can automatically generate an app based on a single entity that you specify. As [build an app from scratch](data-platform-create-app-scratch.md) describes, you can also build an app based on more than one entity.
 
@@ -41,80 +41,33 @@ Every app that PowerApps generates has three screens by default:
 
 	![Edit screen](./media/data-platform-create-app/edit-screen.png)
 
-**Note**: When you generate an app from the Common Data Model, you don't need to create a connection from PowerApps, as you do with data sources such as SharePoint, Dynamics CRM, and Salesforce. You need only specify the entity that you want to show, manage, or both in the app.
+**Note**: When you generate an app from the Common Data Service, you don't need to create a connection from PowerApps, as you do with data sources such as SharePoint, Dynamics CRM, and Salesforce. You need only specify the entity that you want to show, manage, or both in the app.
 
 ## Generate an app ##
-1. [Sign up for PowerApps](signup-for-powerapps.md), and then do *either* of the following:
-
-	- [Open PowerApps](https://create.powerapps.com/api/start) in a browser.
-	- [Install PowerApps](http://aka.ms/powerappsinstall) from the Windows Store. Open PowerApps, sign in, and then click or tap **New** on the **File** menu (along the left edge).
-
-		![New option on the File menu](./media/data-platform-create-app/file-new.png)
-
-1. Under **Create an app from your data**, click or tap **Phone layout** on the **Common Data Model** tile.
-
-	![Create app from data](./media/data-platform-create-app/afd-cdm.png)
-
-1. If prompted, click or tap **Create my database**.
-
-	![Create database](./media/data-platform-create-app/create-database.png)
-
+1. Create a Common Data Service database. For more information, see [Create a Common Data Service database](create-cdm-database.md).
+1. On [powerapps.com](https://web.powerapps.com), in the left navigation pane, click **New app**.
+1. In the dialog box that appears, click or tap **PowerApps Studio for web**. (You can also choose **PowerApps Studio for Windows** and follow the instructions to install **PowerApps Studio for Windows**. The instructions that follow use **PowerApps Studio for web**, but are similar for the Windows app.)
+1. Under **Start with your data**, click or tap **Phone layout** on the **Common Data Service** tile.
 1. Under **Choose an entity**, click or tap the **Contact** entity.
-
-	![Choose Contact entity](./media/data-platform-create-app/afd-choose-entity.png)
-
-1. Click or tap **Connect** to automatically generate an app.
-
-	![Connect button](./media/data-platform-create-app/connect-button.png)
-
-1. If prompted and you're not familiar with PowerApps, identify key areas of the app by taking the intro tour (or click or tap **Skip**).
-
-	![Opening screen of the quick tour](./media/data-platform-create-app/quick-tour.png)
-
-	**Note**: You can always take the tour later by clicking or tapping the question-mark icon near the upper-right corner and then clicking or tapping **Take the intro tour**.
+1. Click or tap **Connect** to automatically generate an app. (You can choose to take an intro tour at this point. You can always take the tour later by clicking or tapping the question-mark icon near the upper-right corner and then clicking or tapping **Take the intro tour**.)
 
 ## Customize the browse screen ##
 1. In the right-hand pane, click or tap the layout that shows just a heading.
 
 	![Choose layout](./media/data-platform-create-app/choose-layout.png)
 
-1. Under the search box, click or tap the **Text box** control to select it.
-
-	The control doesn't have a border by default, so it doesn't appear until you select it. Whenever you select a control, a selection box (with resize handles) surrounds that control.
-
-	![Select text box](./media/data-platform-create-app/select-text-box.png)
-
-1. In the right-hand pane, click or tap the down arrow to open the list of fields.
-
-	![Open drop-down list](./media/data-platform-create-app/open-dropdown.png)
-
+1. Under the search box on the **Contact** screen, click or tap the **Text box** control to select it. The control doesn't have a border by default, so it doesn't appear until you select it. Whenever you select a control, a selection box (with resize handles) surrounds that control.
+1. In the right-hand pane, click or tap on Data Sources and then click or tap the down arrow under **Contact** to open the list of fields.
 1. Click or tap **Last Name** to show data from that field in the **Text box** control that you selected.
-
-	![Choose LastName](./media/data-platform-create-app/choose-lastname.png)
-
-1. Select the gallery by clicking or tapping any name except the top one.
-
-	A selection box surrounds the gallery.
-
-	![Select gallery](./media/data-platform-create-app/select-gallery.png)
-
+1. Select the gallery on the **Contact** screen by clicking or tapping any name except the top one. A selection box surrounds the gallery.
 1. Copy this formula by highlighting it and then pressing Ctrl-C.
 <br>**SortByColumns(Search(Contact, TextSearchBox1.Text, "LastName"), "LastName", If(SortDescending1, Descending, Ascending))**
-
 1. Near the upper-left corner, ensure that the property list shows **Items**.
-
-	![Items property](./media/data-platform-create-app/items-property.png)
-
 1. In the formula bar, highlight the default formula.
 
 	![Default value of the Items property](./media/data-platform-create-app/default-items.png)
 
-1. Press Delete to delete the default formula, and then paste the formula that you just copied.
-
-	![Updated value of the Items property](./media/data-platform-create-app/new-items-formula.png)
-
-	The names are sorted alphabetically in the gallery.
-
+1. Press Delete to delete the default formula, and then paste the formula that you just copied.	The names are sorted alphabetically in the gallery.
 1. (optional) If the users of this app won't have touch screens or mousewheels, click or tap the **Gallery** tab, and then click or tap **Show Scrollbar**.
 
 	**Note**: If the **Gallery** tab doesn't appear, ensure that the gallery is still selected.
