@@ -23,9 +23,9 @@
 There are several samples that use the Common Data Service. To find these samples, on [powerapps.com](https://web.powerapps.com), select **Home** in the navigation pane.
 
 ##Videos
-There are several videos that demonstrate how to create a database and modify a database, and create apps. To find these videos, view the help docs, or on [powerapps.com](https://web.powerapps.com), select **Home** in the navigation pane and look in the **Use the Common Data Service** section.
+There are several videos that demonstrate how to create a database and modify a database, and create apps. You will find these videos in the documentation. You can also find them on [powerapps.com](https://web.powerapps.com), by selecting **Home** in the navigation pane and looking in the **Use the Common Data Service** section.
 
-You can find more videos on YouTube on the [MS PowerApps channel](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg) and the [Microsoft Ignite channel](https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg).
+You can find more videos on YouTube on the [MS PowerApps](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg) and [Microsoft Ignite](https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg) channels.
 
 ##Blog posts
 You can find several how-to posts on the [PowerApps blog](https://powerapps.microsoft.com/en-us/blog/).
