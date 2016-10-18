@@ -76,38 +76,19 @@ Every app that PowerApps generates has three screens by default:
 
 ## Test the browse screen ##
 1. Open Preview mode by pressing F5 (or by clicking or tapping the play icon near the upper-right corner).
-
-	![Open Preview mode](./media/data-platform-create-app/open-preview.png)
-
 1. Scroll through all the records by using a touch screen, by using a mousewheel, or by pointing to the gallery with a mouse so that the scrollbar appears.
-
-	![Scroll records](./media/data-platform-create-app/scroll-records.png)
-
 1. Near the upper-right corner, click or tap the sort button one or more times to change order in which the names are listed.
 
 	![Change sort order](./media/data-platform-create-app/sort-button.png)
 
 1. In the search box, type a letter such as "w" to show only those names that contain the letter that you typed.
-
-	![Filter list](./media/data-platform-create-app/search-w.png)
-
 1. Click or tap the arrow to the right of the first name in the list.
-
-	![Right arrow](./media/data-platform-create-app/right-arrow.png)
-
 1. Return to the design workspace by pressing Esc (or by clicking or tapping the close icon near the upper-right corner, under the title bar).
 
-	![Close Preview mode](./media/data-platform-create-app/close-preview.png)
-
 ## Customize the details screen ##
+1. In the left pane, click or tap **DetailScreen**.
 1. Click or tap the **CellPhone** card to select it.
-
-	![Select card](./media/data-platform-create-app/select-card.png)
-
 1. In the right-hand pane, click or tap the eye icon for the **CellPhone** card to hide it.
-
-	![Hide card](./media/data-platform-create-app/hide-card.png)
-
 1. Repeat the previous step for each of these cards:
 
 	- **Description**
@@ -115,21 +96,13 @@ Every app that PowerApps generates has three screens by default:
 	- **FullName**
 
 1. Click or tap the **FirstName** card to select it.
-
-	![Select FirstName card](./media/data-platform-create-app/select-firstname.png)
-
 1. Drag its title up until the **BusinessPhone** card is highlighted.
-
-	![Move FirstName card](./media/data-platform-create-app/move-card.png)
-
 1. Release the mouse button so that the **FirstName** card appears above the **BusinessPhone** card.
-
-	![Drop FirstName card](./media/data-platform-create-app/drop-card.png)
-
 1. Repeat the last three steps except move the **LastName** card so that it appears between the **FirstName** card and the **BusinessPhone** card.
 
 ## Customize the edit screen ##
-1. Near the upper-right corner of the details screen, click or tap the pencil icon to select it, and then click or tap it again to open the edit screen.
+1. In the left pane, click or tap **EditScreen**.
+1. Near the upper-right corner of the edit screen, click or tap the pencil icon to select it, and then click or tap it again to open the edit screen.
 
 	![Edit record](./media/data-platform-create-app/edit-record.png)
 
@@ -137,41 +110,12 @@ Every app that PowerApps generates has three screens by default:
 
 ## Test the details and edit screens ##
 1. In the left navigation bar, click or tap the top thumbnail to display the browse screen.
-
-	![Thumbnail for browse screen](./media/data-platform-create-app/browse-thumbnail.png)
-
 1. Open Preview mode by pressing F5 (or by clicking or tapping the play icon near the upper-right corner).
-
-	![Open Preview mode](./media/data-platform-create-app/open-preview.png)
-
 1. In the upper-right corner of the browse screen, click or tap the plus icon to create a record.
-
-	![Add record](./media/data-platform-create-app/add-record.png)
-
 1. Add whatever data you want, and then click or tap the checkmark icon to save your new record and return to the browse screen.
-
-	![Save record](./media/data-platform-create-app/save-record.png)
-
-1. If you haven't already, show all records by removing any text from the search bar (near the top of the browse screen).
-
-	![Clear the search box](./media/data-platform-create-app/clear-search.png)
-
+1. Show all records by removing any text from the search bar (near the top of the browse screen).
 1. Find the record that you just created, and click or tap the arrow to its right to show the record in the details screen.
-
-	![Save record](./media/data-platform-create-app/show-details.png)
-
 1. In upper-right corner, click or tap the pencil icon to show the record in the edit screen.
-
-	![Edit record](./media/data-platform-create-app/edit-record.png)
-
 1. Change the data in one or more fields, and then click or tap the checkmark icon to save your changes and return to the browse screen.
-
-	![Save record](./media/data-platform-create-app/save-record.png)
-
 1. Find the record that you just updated, and click or tap the arrow to its right.
-
-	![Show details](./media/data-platform-create-app/show-details.png)
-
 1. Near the upper-right corner, click or tap the trash-bin icon to delete the record that you created and updated.
-
-	![Delete record](./media/data-platform-create-app/delete-record.png)
