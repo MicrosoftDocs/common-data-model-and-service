@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Samples and other resources"
-	description="Samples and other resources"
+	description="Samples and other resources you can use to create apps."
 	services="powerapps"
 	documentationCenter="na"
 	authors="robinarh"
@@ -14,6 +14,7 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="10/16/2016"
-   ms.author="robinr"/>
+   ms.date="10/18/2016"
+   ms.author=""/>
 
+#Samples and other resources
