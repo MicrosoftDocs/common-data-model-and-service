@@ -1,4 +1,4 @@
-<properties
+ <properties
 	pageTitle="Samples and other resources"
 	description="Samples and other resources you can use to create apps."
 	services="powerapps"
@@ -31,6 +31,6 @@ You can find more videos on YouTube on the [MS PowerApps](https://www.youtube.co
 You can find several how-to posts on the [PowerApps blog](https://powerapps.microsoft.com/en-us/blog/).
 
 ##Microsoft Ignite sessions
-Many sessions of the Microsoft Ignite conference were recorded and are available at [Microsoft Ignite On-Demand](https://myignite.microsoft.com/videos).
+Many sessions of the Microsoft Ignite conference were recorded and are available at [Microsoft Ignite On-Demand](https://myignite.microsoft.com/videos). Search on "PowerApps" and "Common Data Model".
 
 
