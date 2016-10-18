@@ -18,7 +18,7 @@
    ms.author="robinarh"/>
 
 # Share an app that uses an entity
-In PowerApps, you share an app that uses an entity in the same way as you [share any other app](share-app.md), but with some restrictions.
+You share an app that uses an entity in the same way as you [share any other app](share-app.md), but with some restrictions.
 
 - If you share the app with the **Can use** or **Can use and share** permission, users and groups can display and manage all data in the entity or entities that the app uses. However, those users and groups can't modify the schemas of those entities or delete them.
 
