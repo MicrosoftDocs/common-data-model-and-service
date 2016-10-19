@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Labels and localization | Microsoft Common Data Model"
+	pageTitle="Labels and localization | Microsoft PowerApps"
 	description=""
 	services="powerapps"
 	documentationCenter="na"
