@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Understand entities | Microsoft Common Data Model"
+	pageTitle="Understand entities | Microsoft PowerApps"
 	description="Introduction to entities, fields, relationships, and databases."
 	services="powerapps"
 	documentationCenter="na"
