@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Manage custom fields in an entity | Microsoft Common Data Service"
+	pageTitle="Manage custom fields in an entity | Microsoft PowerApps"
 	description="Create, read, update, and delete custom fields in an entity."
 	services="powerapps"
 	documentationCenter="na"
