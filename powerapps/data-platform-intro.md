@@ -14,50 +14,49 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="07/21/2016"
+   ms.date="10/19/2016"
    ms.author="robinr"/>
 
-# Understand entities in the Microsoft Common Data Model #
+# Understand entities in the Common Data Service
 
 [AZURE.VIDEO nb:cid:UUID:609a7777-309f-4b6b-87eb-274dd33cac94]
 
-The Common Data Model allows you to store and manage data within a set of standard and custom entities securely in the Business Data Platorm. An Entity is a set of fields used to store data similarly to a table within a database. Once your data is stored within the Common Data Model you can use PowerApps to build rich applications using your data :
+The Common Data Service allows you to store and manage data within a set of standard and custom entities securely. An entity is a set of fields used to store data similarly to a table within a database. Once your data is stored you can use PowerApps to build rich applications using your data :
 
 - Import data into standard or custom entities.
 - Create custom entities to support your scenario and application.
 - Add custom fields to standard entities where additional inforatmion is needed.
 - Incorporate standard and custom entities into an app that you're developing, as easily as with data in other sources.
-- Leverage the productivity add-ins for Common Data Model to access your data from Excel and Outlook.
-- Secure your data within your orginization using role based security wtihin the Common Data Model against standard and custom entities.
-- Include picklists of predefined data like Country, Salutation, Currency, etc.
-- Provide Global support for your data and applications by leveraging translation of entity and field names.
+- Leverage the productivity add-ins to access your data from Excel and Outlook.
+- Secure your data within your orginization using role-based security against standard and custom entities.
+- Include picklists of predefined data like Country, Salutation, and Currency, etc.
+- Provide global support for your data and applications by leveraging translation of entity and field names.
 
 Each entity contains a set of records that users can create, read, update, and delete. You can create relationships between entities so that you can look up information in one entity based on a record in another entity. For example, you could create a custom entity to track events which a customer had attended. By adding the Customer to your custom entity as a lookup field, you establish a relationship between the two entities which can be leveraged in your app and in reporting.
 
-## Why use entities? ##
+## Why use entities?
 
-Entities within the Common Data Model, both standard and custom, allow a secure and cloud based storage option for your data. Entities allow you to create a business focused defintion of your data for use within your Apps. If you're not sure whether entities are your best option, consider these benefits:
+Entities within the Common Data Model, both standard and custom, allow a secure and cloud based storage option for your data. Entities allow you to create a business-focused definition of your data for use within your apps. If you're not sure whether entities are your best option, consider these benefits:
 
 - Easy to manage: Both the metadata and data are stored in the cloud. You don't need to worry about the details of how they're stored.
 - Easy to share: You can easily share data with your colleagues because PowerApps manages the permissions.
-- Easy to Secure: Data is stored securely so that users can see it only if you grant them access. Role Based security allows you to contorl access to entities for different users within your organization.
-- Rich metadata: Data types and relationships defined within the Common Data Model are leveraged directly within PowerApps. For example, defining a field type URL will present your data as a hyperlink within your app.
-- Productivity tools: entities within the Common Data Model are available within the add-ins for Microsoft Excel and Outlook to increase productivty, and ensure your data is accessible.
+- Easy to Secure: Data is stored securely so that users can see it only if you grant them access. Role-based security allows you to contorl access to entities for different users within your organization.
+- Rich metadata: Data types and relationships are leveraged directly within PowerApps. For example, defining a field type URL will present your data as a hyperlink within your app.
+- Productivity tools: entities are available within the add-ins for Microsoft Excel and Outlook to increase productivty, and ensure your data is accessible.
 - Include picklists from a rich set of standard picklists to provide quick drop downs within your entities and apps.
 
-## Standard and custom entities ##
+## Standard and custom entities
 When you develop an app, you can use standard entities, custom entities, or both. If a standard entity can serve a particular purpose in your app, you should use it rather than developing a custom entity that does the same thing. If a standard entity would serve a purpose with a few changes, you can add fields to suit your needs. 
 
-- Microsoft Common Data Model provides standard entities by default. These are designed, in accordance with best practices, to capture the most common concepts for an organization, such as Contacts, Accounts, and Products. For the full list, see [Standard entities](data-platform-intro.md#standard-entities).
+- The Common Data Service provides standard entities by default. These are designed, in accordance with best practices, to capture the most common concepts for an organization, such as Contacts, Accounts, and Products. For the full list, see [Standard entities](data-platform-intro.md#standard-entities).
 - You can extend the functionality of standard entities by creating one or more custom entities to store information that's unique to your organization. For more information, see [how to create a custom entity](data-platform-create-entity.md).
 
 >**Note:** Whenever possible, use standard entities (with custom fields added if required). This will ensure you can benefit from new features or apps which leverage these entities in the future.
 
-
-## Fields ##
+## Fields
 Each field has a name, a display name, a data type, and some simple validation. Data types include, for example, **text**, **date** or **number**, and validation ensures that required fields contain data and records are unique if the entity requires them to be. Every field falls into one of three categories: system fields, standard fields, or custom fields.
 
-### System fields ###
+### System fields
 All entities, whether standard or custom, are created with a set of read-only fields that you can't change, delete, or set to a value. For more information, see [System and record title fields](data-platform-create-entity.md#system-and-record-title-fields). These are the most important system fields:
 
 - **Created Record Date**: The date and time when a record was created.
@@ -65,10 +64,8 @@ All entities, whether standard or custom, are created with a set of read-only fi
 - **Modified Record Date**: The date and time when a record was modified most recently.
 - **Last Modified By**: The user who modified the record most recently.
 
-### Standard fields ###
-Each standard entity contains a set of default fields that you can't change or delete. For more information, see [Manage custom fields in the Common Data Model](data-platform-manage-fields.md).
-
-**//TODO - Where is this data-platform-manage-fields file? The section is for stnadard entities, but it links to a custom field page?**
+### Standard fields
+Each standard entity contains a set of default fields that you can't change or delete. For a list of the entities and their fields, and a list of the picklists, see [Microsoft Common Data Model, Entities Reference](http://download.microsoft.com/download/8/9/5/8956ED58-A9B0-40DF-8CB0-BC13AD8DB6E2/CDMEntityReference.docx).
 
 ### Custom fields ###
 You can create custom fields in either a standard entity or a custom entity. You must specify the name, the display name, and the data type of each custom field. PowerApps supports these data types:
@@ -91,11 +88,8 @@ You can create custom fields in either a standard entity or a custom entity. You
 
 For more information, see [Manage fields in an entity](data-platform-manage-fields.md).
 
-**//TODO - Pending updated list from Vijeta**
-
 ## Lookup relationships ##
-You can navigate between records in entities if they have a relationship that's defined as a field of the **lookup** data type. To create a lookup relationship, add a field of data type **lookup** in one entity, and point to the entity in which you want to look up information. For more information, see [Entity relationships via lookup field](data-platform-entity-lookup.md).
-
+You can navigate between records in entities if they have a relationship that's defined as a field of the **Lookup** data type. To create a lookup relationship, add a field of data type **Lookup** in one entity, and point to the entity in which you want to look up information. For more information, see [Entity relationships via lookup field](data-platform-entity-lookup.md).
 
 ## Standard entities
 For a list of the entities and their fields, and a list of the enumerations, see [Microsoft Common Data Model, Entities Reference](http://download.microsoft.com/download/8/9/5/8956ED58-A9B0-40DF-8CB0-BC13AD8DB6E2/CDMEntityReference.docx).
