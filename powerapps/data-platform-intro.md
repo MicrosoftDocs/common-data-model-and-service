@@ -105,4 +105,4 @@ Case Management | The Case Management entities manage issues from your customers
 ## Get started ##
 Try it out by creating an app using a standard entity or [create a custom entity](data-platform-create-entity.md) and then [creating an app that uses that entity](data-platform-create-app.md).
 
-<!--TODO - Add Link for Standard entity app - Template? --?
+<!--TODO - Add Link for Standard entity app - Template? -->
