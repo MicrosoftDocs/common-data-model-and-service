@@ -50,7 +50,6 @@ You're notified when the operation is completed successfully. If the operation i
 1. On [PowerApps.com](https://web.powerapps.com), click or tap **Manage**, click or tap **Entities**, and then click or tap an entity.
 
 1. In the list of fields for the entity that you selected, click or tap a field, and then follow one of these steps:
-
 	- Change one or more properties of the field. Keep in mind the [best practices and restrictions](data-platform-manage-fields.md#best-practices-and-restrictions).
 
 		To select the next property, press Tab. To undo all changes to a field, click or tap the ellipsis (...) for the field, and then click or tap **Undo**.
