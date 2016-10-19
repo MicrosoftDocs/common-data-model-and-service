@@ -102,9 +102,7 @@ Purchasing | The Purchasing entities let you create purchasing solutions.  | Pur
 Sales | The Sales entities let you create end-to-end sales solutions, from tracking leads and opportunities, to following through with contacts, to accepting and delivering orders, to sending invoices. | Contact<br> Customer<br> Lead<br> Opportunity<br> OpportunityPartyRole<br> Partner<br> SalesInvoice<br> Sales Invoice Charge<br> Sales Invoice Line<br> Sales Invoice Line Charge<br> Sales Invoice Line Tax<br> Sales Invoice Tax<br> Sales Order<br> Sales Order Charge<br> Sales Order Line<br> Sales Order Line Charge<br> Sales Order Line Shipment<br> Sales Order Line Tax<br> Sales Order Tax
 Case Management | The Case Management entities manage issues from your customers, including tracking, escalation, and documentation. | Case<br> Case Activity<br> Case Activity KB Article<br> Case Worker Assignment<br> KB Article
 
-//TODO - Review and update against what will ship
-
 ## Get started ##
 Try it out by creating an app using a standard entity or [create a custom entity](data-platform-create-entity.md) and then [creating an app that uses that entity](data-platform-create-app.md).
 
-//TODO - Add Link for Standard entity app - Template?
+<!--TODO - Add Link for Standard entity app - Template? --?
