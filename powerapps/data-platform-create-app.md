@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Generate an app using a Common Data Service database | Microsoft PowerApps"
-	description="Generate an app to add, update, and delete records"
+	description="Generate an app to add, update, and delete records."
 	services="powerapps"
 	documentationCenter="na"
 	authors="robinarh"
