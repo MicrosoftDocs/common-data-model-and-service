@@ -25,7 +25,7 @@ You can automatically generate an app to manage data that is stored in Common Da
 
 If you're unfamiliar with Common Data Service, see [Understand entities](data-platform-intro.md).
 
-This topic describes how to automatically generate an app that is based on a single entity that you specify. For information about how to build an app that is based on more than one entity, see [build an app from scratch](data-platform-create-app-scratch.md).
+This topic describes how to automatically generate an app that is based on a single entity that you specify. For information about how to build an app that is based on more than one entity, see [Build an app from scratch](data-platform-create-app-scratch.md).
 
 By default, every app that Microsoft PowerApps generates has three screens:
 
@@ -112,11 +112,11 @@ By default, every app that Microsoft PowerApps generates has three screens:
 ## Test the details and edit screens
 1. In the left navigation bar, click or tap the top thumbnail image to open the browse screen.
 1. Open Preview mode by pressing F5, or by clicking or tapping the **Play** button near the upper-right corner.
-1. In the upper-right corner of the browse screen, click or tap the plus sign (**+**) to create a record.
-1. Add data, and then click or tap the check mark to save your new record and return to the browse screen.
+1. In the upper-right corner of the browse screen, click or tap the plus sign button (**+**) to create a record.
+1. Add data, and then click or tap the check mark button to save your new record and return to the browse screen.
 1. Show all records by removing any text from the search bar near the top of the browse screen.
 1. Find the record that you just created, and then click or tap the arrow to the right of it to show the record on the details screen.
 1. In upper-right corner, click or tap the pencil button to show the record on the edit screen.
-1. Change the data in one or more fields, and then click or tap the check mark to save your changes and return to the browse screen.
+1. Change the data in one or more fields, and then click or tap the check mark button to save your changes and return to the browse screen.
 1. Find the record that you just updated, and then click or tap the arrow to the right of it.
 1. Near the upper-right corner, click or tap the trash bin button to delete the record that you created and updated.
