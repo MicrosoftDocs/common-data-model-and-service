@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Share an app that uses an entity | Microsoft Common Data Serviced"
+	pageTitle="Share an app that uses an entity | Microsoft PowerApps"
 	description="Share an app that uses an entity."
 	services="powerapps"
 	documentationCenter="na"
@@ -15,7 +15,7 @@
    ms.tgt_pltfrm="na"
    ms.workload="na"
    ms.date="10/18/2016"
-   ms.author="robinarh"/>
+   ms.author="robinr"/>
 
 # Share an app that uses an entity
 You share an app that uses an entity in the same way as you [share any other app](share-app.md), but with some restrictions.
