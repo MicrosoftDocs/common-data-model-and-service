@@ -4,7 +4,7 @@
 	services="powerapps"
 	documentationCenter="na"
 	authors="RobinARH"
-	manager="erikre"
+	manager="robinarh"
 	editor=""
 	tags=""/>
 
@@ -14,7 +14,7 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="08/03/2016"
+   ms.date="10/19/2016"
    ms.author="robinr"/>
 
 # Import or export data from the Common Data Model #
@@ -27,7 +27,7 @@ You can move data into or out of the Common Data Model in one of two ways:
 ## Import or export data once ##
 
 ### Import data from Excel ###
-1. On [powerapps.com](https://web.powerapps.com), click or tap **Manage** in the left navigation pane, and then click or tap **Entities**.
+1. On [powerapps.com](https://web.powerapps.com), click or tap **Entities** in the left navigation pane.
 1. Next to **New entity**, click or tap the ellipsis, and then click or tap **Import data**.
 1. Select the entity that you want to import data into, and then click or tap **Next**.
 1. Click or tap **Search**, and select the file that you want to import data from.
@@ -40,7 +40,7 @@ You can move data into or out of the Common Data Model in one of two ways:
 ### Export data to Excel ###
 You can do a one-time data export from a standard entity or a custom entity, and you can export data from more than one entity at a time. If you export data from more than one entity, each entity is exported into its own Microsoft Excel file.
 
-1. On [powerapps.com](https://web.powerapps.com), click or tap **Manage** in the left navigation pane, and then click or tap **Entities**.
+1. On [powerapps.com](https://web.powerapps.com), click or tap **Entities** in the left navigation pane.
 1. Next to **New entity**, click or tap the ellipsis, and then click or tap **Export data**.
 1.	Select the entities that you want to export data from, and then click or tap **Export to Excel**.
 1.	When **Export Completed** appears, click or tap **Download exported data** to download the data.
