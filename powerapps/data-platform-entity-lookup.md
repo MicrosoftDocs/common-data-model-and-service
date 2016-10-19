@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Entity relationships via lookup field | Microsoft Common Data Model"
+	pageTitle="Entity relationships via lookup field | Microsoft PowerApps"
 	description="Build a relationship between entities by using a lookup field."
 	services="powerapps"
 	documentationCenter="na"
@@ -15,7 +15,7 @@
    ms.tgt_pltfrm="na"
    ms.workload="na"
    ms.date="10/18/2016"
-   ms.author="robinarh"/>
+   ms.author="robinr"/>
 
 # Build a relationship between entities
 Data in one entity often relates to data in another entity. For example, you might have a **Customers** entity and an **Orders** entity, and the **Orders** entity might have a field to show which customer placed the order. You can use a lookup field to show data from the **Customers** entity based on which orders they placed.
