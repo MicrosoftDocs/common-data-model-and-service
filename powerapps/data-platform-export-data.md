@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Import or export data | Microsoft PowerApps"
-	description="Import or export an entity"
+	description="Import or export an entity."
 	services="powerapps"
 	documentationCenter="na"
 	authors="RobinARH"
