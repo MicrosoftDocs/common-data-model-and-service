@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Delete a custom entity and clear data | Microsoft Common Data Service"
-	description="Delete a custom entity from Common Data Service, and clear all data."
+	pageTitle="Delete a custom entity and clear data | Microsoft PowerApps"
+	description="Delete a custom entity, and clear all data."
 	services="powerapps"
 	documentationCenter="na"
 	authors="robinarh"
@@ -15,7 +15,7 @@
    ms.tgt_pltfrm="na"
    ms.workload="na"
    ms.date="10/18/2016"
-   ms.author="robinarh"/>
+   ms.author="robinr"/>
 
 # Delete a custom entity
 You can delete custom entities, but you can't delete standard entities.
