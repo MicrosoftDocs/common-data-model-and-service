@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Create a Common Data Service database | Microsoft Common Data Service"
+	pageTitle="Create a Common Data Service database | Microsoft PowerApps"
 	description="Create a Common Data Service database"
 	services="powerapps"
 	documentationCenter="na"
