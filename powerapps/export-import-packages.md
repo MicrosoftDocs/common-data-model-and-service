@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Export and import resources | Microsoft Common Data Service"
+	pageTitle="Export and import resources | Microsoft PowerApps"
 	description="Export and import resources"
 	services="powerapps"
 	documentationCenter="na"
@@ -14,8 +14,8 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="10/06/2016"
-   ms.author=""/>
+   ms.date="10/19/2016"
+   ms.author="robinr"/>
 
 # Export and import resources
 If you've created multiple environments to support the development of your database and apps, you must move changes from one environment to another environment. You can use **Export resources** and **Import resources** to move resources between environments.
