@@ -1,5 +1,5 @@
  <properties
-	pageTitle="Samples and other resources"
+	pageTitle="Samples and other resources | Microsoft PowerApps"
 	description="Samples and other resources you can use to create apps."
 	services="powerapps"
 	documentationCenter="na"
@@ -15,7 +15,7 @@
    ms.tgt_pltfrm="na"
    ms.workload="na"
    ms.date="10/18/2016"
-   ms.author=""/>
+   ms.author="robinr"/>
 
 #Samples and other resources
 
