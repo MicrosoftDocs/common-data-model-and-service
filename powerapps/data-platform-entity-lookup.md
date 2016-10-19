@@ -21,17 +21,17 @@
 Data in one entity often relates to data in another entity. For example, you might have a **Customers** entity and an **Orders** entity, and the **Orders** entity might have a field to show which customer placed the order. You can use a lookup field to show data from the **Customers** entity based on which orders they placed.
 
 ## Define a relationship ##
-You can create several types of relationships from one entity to another (or between an entity and itself). Each entity can have a relationship with more than one other entity, and each entity can have more than one relationship to another entity. Some common relationship types are:
+You can create several types of relationships from one entity to another (or between an entity and itself). Each entity can have a relationship with more than one entity, and each entity can have more than one relationship to another entity. Some common relationship types are:
 
-- **Normal**: This type of relationship exists between two entities.
+- **Normal** - This type of relationship exists between two entities.
 
-- **Self**: This type of relationship exists between an entity and itself.
+- **Self** - This type of relationship exists between an entity and itself.
 
-- **One-to-one**: In this type of relationship, each record in entity A can match only one record in entity B, and vice versa.
+- **One-to-one** - In this type of relationship, each record in entity A can match only one record in entity B, and vice versa.
 
-- **One-to-many**: In this type of relationship, each record in entity A can match more than one record in entity B, but each record in entity B can match only one record in entity A.
+- **One-to-many** - In this type of relationship, each record in entity A can match more than one record in entity B, but each record in entity B can match only one record in entity A.
 
-- **Many-to-many**: In this type of relationship, each record in entity A can match more than one record in entity B, and vice versa. The current release of the Common Data Model doesn't support this type of relationship.
+- **Many-to-many** - In this type of relationship, each record in entity A can match more than one record in entity B, and vice versa. The current release of the Common Data Service doesn't support this type of relationship.
 
 ## Add a lookup field
 To add a lookup field to an entity, specify the field's data type as **Lookup**, and specify the entity with which you want to create a relationship.
@@ -46,7 +46,7 @@ To add a lookup field to an entity, specify the field's data type as **Lookup**,
 ## Use a lookup field in an app
 If you [create an app automatically](data-platform-create-app.md) from an entity that contains a lookup field, it appears as a **Drop down** control that contains data from the **Title** field of the referred entity.
 
-## Delete a record with lookup field
+## Delete a record with a lookup field
 If entity A has a lookup field to entity B:
 
 - You can delete any record in entity A without restriction.
