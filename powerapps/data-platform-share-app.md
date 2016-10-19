@@ -22,7 +22,7 @@ You share an app that uses an entity in the same way as you [share any other app
 
 - If you share the app with the **Can use** or **Can use and share** permission, users and groups can display and manage all data in the entity or entities that the app uses. However, those users and groups can't modify the schemas of those entities or delete them.
 
-- If you share the app with **Can edit** permission, users and groups can fully manage your database. They can modify and even delete your entities, in addition to creating, modifying, and deleting their own.
+- If you share the app with the **Can edit** permission, users and groups can fully manage your database. They can modify and even delete your entities, in addition to creating, modifying, and deleting their own.
 
 	**Important**: You should grant **Can edit** permission only to other authors of the app.
 
