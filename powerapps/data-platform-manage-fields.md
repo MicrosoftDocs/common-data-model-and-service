@@ -15,7 +15,7 @@
    ms.tgt_pltfrm="na"
    ms.workload="na"
    ms.date="10/18/2016"
-   ms.author="robinarh"/>
+   ms.author="robinr"/>
 
 # Manage custom fields
 You can create and update one or more custom fields in any entity. When you create a custom field, you specify a set of properties, such as the field's name, its display name, and the type of data that it will contain.
