@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Generate an app using a Common Data Service database | Common Data Service"
+	pageTitle="Generate an app using a Common Data Service database | Microsoft PowerApps"
 	description="Generate an app to add, update, and delete records"
 	services="powerapps"
 	documentationCenter="na"
@@ -15,7 +15,7 @@
    ms.tgt_pltfrm="na"
    ms.workload="na"
    ms.date="10/18/2016"
-   ms.author="robinarh"/>
+   ms.author="robinr"/>
 
 # Generate an app by using a Common Data Service database
 
