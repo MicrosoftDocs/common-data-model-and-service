@@ -4,7 +4,7 @@
 	services="powerapps"
 	documentationCenter="na"
 	authors="robinarh"
-	manager="robinarh"
+	manager="anneta"
 	editor=""
 	tags=""/>
 
@@ -27,5 +27,4 @@ You share an app that uses an entity in the same way as you [share any other app
 	**Important**: You should grant **Can edit** permission only to other authors of the app.
 
 - You can't share an app with an entire organization if the app uses one or more entities.
-
 
