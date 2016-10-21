@@ -4,7 +4,7 @@
 	services="powerapps"
 	documentationCenter="na"
 	authors="robinarh"
-	manager="robinarh"
+	manager="anneta"
 	editor=""
 	tags=""/>
 
@@ -32,5 +32,3 @@ You can find how-to posts on the [PowerApps blog](https://powerapps.microsoft.co
 
 ##Microsoft Ignite sessions
 Many sessions of the Microsoft Ignite conference were recorded and are available at [Microsoft Ignite On-Demand](https://myignite.microsoft.com/videos). Search for "PowerApps" and "Common Data Model."
-
-
