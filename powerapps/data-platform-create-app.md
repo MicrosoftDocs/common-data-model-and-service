@@ -45,7 +45,7 @@ By default, every app that Microsoft PowerApps generates has three screens:
 
 ## Generate an app
 1. Create a Common Data Service database. For more information, see [Create a Common Data Service database](create-cdm-database.md).
-1. On [PowerApps.com](https://web.powerapps.com), in the left navigation pane, click or tap **New app**.
+1. On [powerapps.com](https://web.powerapps.com), in the left navigation pane, click or tap **New app**.
 1. In the dialog box that appears, click or tap **PowerApps Studio for web**. (You can also click or tap **PowerApps Studio for Windows**, and then follow the instructions to install PowerApps Studio for Windows. Although the instructions that follow use PowerApps Studio for web, the instructions for the Microsoft Windows app are similar.)
 1. Under **Start with your data**, on the **Common Data Service** tile, click or tap **Phone layout**.
 1. Under **Choose an entity**, click or tap the **Contact** entity.
