@@ -73,7 +73,7 @@ Common Data Service includes a number of default field groups on entities. These
 6. You should also see an Excel icon beside each field group. Note that the Excel icon will only be enabled if the field group has fields.
 7. Click on the Excel icon for the field group that you want to Open in Excel. A workbook will be generated containing the entity field list, the Excel Add-in, and a pointer to your environment. 
 8. Open the generated workbook that is provided by the browser. 
-9. Once the workbook is open, enable editing. The Excel Add-in will then read the desired data into the workbook. For more details please see: [Open entity data in Excel](https://powerapps.microsoft.com/en-us/tutorials/data-platform-interactive-excel/ "Open entity data in Excel")
+9. Once the workbook is open, enable editing. The Excel Add-in will then read the desired data into the workbook. For more details please see: [Open entity data in Excel](https://powerapps.microsoft.com/tutorials/data-platform-interactive-excel/ "Open entity data in Excel")
 
 ## Framework usage of Field Groups
 The framework uses default field groups to help speed up application authoring and customization. Listed below are some places where you can currently see field groups in action. This list of places where field group will be used will continue to grow in future releases.
