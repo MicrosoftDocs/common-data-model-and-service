@@ -4,7 +4,7 @@
 	services="powerapps"
 	documentationCenter="na"
 	authors="nimakms"
-	manager="anneta"
+	manager="robinr"
 	editor=""
 	tags=""/>
 
