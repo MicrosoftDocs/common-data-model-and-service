@@ -19,8 +19,6 @@
 
 # Generate an app by using a Common Data Service database
 
-[AZURE.VIDEO nb:cid:UUID:e0d83908-aedd-4db3-8ea9-2dbd4695c662]
-
 You can automatically generate an app to manage data that is stored in Common Data Service. You can manage data in one of the many standard entities that are built into the model, or in a custom entity that you or someone else in your organization creates.
 
 If you're unfamiliar with Common Data Service, see [Understand entities](data-platform-intro.md).
