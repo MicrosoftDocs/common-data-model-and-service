@@ -15,7 +15,7 @@ ms.assetid: "f5249803-d7e0-4244-8bb5-f3831695e402"
 
 # Field Groups
 
-Field groups provide a way to group one or more fields of a Common Data Service entity. Field groups can help speed up and simplify the creation and maintenance of apps using the Common Data Service. A field group can contain one or more fields and a field can appear in any number of field groups. 
+Field groups provide a way to group one or more fields of a Common Data Service entity. Field groups can help speed up and simplify the creation and maintenance of apps using the Common Data Service. A field group can contain one or more fields and a field can appear in any number of field groups. A field can not appear more than once in a field group.
 
 Field groups are stored on Common Data Service entities and are therefore shared across all apps that use the same entity. At any given time there may be many different apps using the same entity and field groups of that entity. This centralization and sharing of field groups helps enforce consistency since a field group will always display the exact same fields wherever it is used. It also eases maintenance since a change to a field group is automatically reflected in all the places using that field group. Field groups help speed up the app authoring and customization process since an application author works with groups of fields rather than individual fields. 
 
@@ -26,8 +26,8 @@ Common Data Service includes a number of default field groups on entities. These
 |:-------------------------|-------------|
 |DefaultCard |Used to display a list of records when the display width available is narrow such as small screen devices.|
 |DefaultList |Used to display a list of records when the display width available is wide such as small tablet and laptop devices.|
-|DefaultLookup |Used to display a lookup (picklist) to select a record.|
-|DefaultIdentification |Used to provide an end-user friendly alternate key for an entity. This group should contain one or more fields. This group of fields helps end-users to identify records and is used instead of an auto-generated system primary key, which in most cases is just a large number.|
+|DefaultLookup |Used to display a lookup to select a record.|
+|DefaultIdentification |Used to provide an end-user friendly alternate key for an entity. This group of fields helps end-users to identify records and is used instead of an auto-generated system primary key, which in most cases is just a large number.|
 |DefaultDetails |Used to display the details of a single record (view and edit).|
 |DefaultReport |Used to display a single record in a report. Similar to DefaultDetails.|
 
@@ -45,7 +45,7 @@ Common Data Service includes a number of default field groups on entities. These
 7. In the field group details you will see two lists side-by-side. The first one is titled “Entity fields” and it lists all the field for the entity.  The second one is titled “Field group fields” and it lists the fields that are currently a part of the field group that you are viewing.
 
 ### Modifying a Field Group
-1. Follow steps outlined earlier to View a Field Group
+1. Follow steps outlined earlier to View a Field Group.
 2. To add a field to a field group, double-click on a field name in the “Entity fields” list. You can also drag and drop fields from the “Entity fields” list to the “Field group fields” list.
 3. To remove from a field group, click on the “X” next to the field name in the “Field group fields” list.
 4. At the bottom of the page, click on the “Save” button to save your changes.
@@ -62,7 +62,7 @@ Common Data Service includes a number of default field groups on entities. These
 9. Towards the bottom of the screen, click on the “Save” button to save your changes.
 
 ### Deleting a Field Group
-* Deleting a field group is not currently supported. This will be enabled sometime in the future.
+* Deleting a field group is not supported.
 
 ### Viewing and editing Field Group data in Excel
 1. In the left navigation bar, click on “Entities”.
