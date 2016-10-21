@@ -64,16 +64,16 @@ Common Data Service includes a number of default field groups on entities. These
 ### Deleting a Field Group
 * Deleting a field group is not currently supported. This will be enabled sometime in the future.
 
-### Viewing Field Group data in Excel
+### Viewing and editing Field Group data in Excel
 1. In the left navigation bar, click on “Entities”.
 2. If you have access to more than one database ensure you have the right database selected using the dropdown above the list of entities.
 3. In the list of entities, click on the entity you want to export the field group data for.
 4. In the header above the list of fields, click on “Field groups”.
 5. You should now see all the field groups that currently exist for the entity.
-6. You should also see an Excel icon for each field group. The Excel icon will only be enabled if the field group has fields.
-7. Click on the Excel icon for the field group that you want to export the data.
-8. The data will be made available as an Excel spreadsheet that you can download and save.
-9. To work with the data in the file you will need the Microsoft PowerApps Office Add-in. For more details please see: [Open entity data in Excel](https://powerapps.microsoft.com/en-us/tutorials/data-platform-interactive-excel/ "Open entity data in Excel")
+6. You should also see an Excel icon beside each field group. Note that the Excel icon will only be enabled if the field group has fields.
+7. Click on the Excel icon for the field group that you want to Open in Excel. A workbook will be generated containing the entity field list, the Excel Add-in, and a pointer to your environment. 
+8. Open the generated workbook that is provided by the browser. 
+9. Once the workbook is open, enable editing. The Excel Add-in will then read the desired data into the workbook. For more details please see: [Open entity data in Excel](https://powerapps.microsoft.com/en-us/tutorials/data-platform-interactive-excel/ "Open entity data in Excel")
 
 ## Framework usage of Field Groups
 The framework uses default field groups to help speed up application authoring and customization. Listed below are some places where you can currently see field groups in action. This list of places where field group will be used will continue to grow in future releases.
