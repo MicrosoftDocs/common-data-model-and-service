@@ -24,12 +24,8 @@ Common Data Service includes a number of default field groups on entities. These
 
 | Default Field Group Name | Description |
 |:-------------------------|-------------|
-|DefaultCard |Used to display a list of records when the display width available is narrow such as small screen devices.|
-|DefaultList |Used to display a list of records when the display width available is wide such as small tablet and laptop devices.|
-|DefaultLookup |Used to display a lookup to select a record.|
-|DefaultIdentification |Used to provide an end-user friendly alternate key for an entity. This group of fields helps end-users to identify records and is used instead of an auto-generated system primary key, which in most cases is just a large number.|
 |DefaultDetails |Used to display the details of a single record (view and edit).|
-|DefaultReport |Used to display a single record in a report. Similar to DefaultDetails.|
+|DefaultLookup |Used to display a lookup to select a record.|
 
 ## Working with Field Groups
 
