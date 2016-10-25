@@ -13,269 +13,383 @@ audience: "Developer, IT Pro"
 ms.assetid: "b332c83a-cd81-41c0-8ca5-4cd8da77cccf"
 ---
 
-# Purchase
-## PurchaseOrder (Purchase Order) Entity
-A first offer for a commercial engagement that the company issues to a supplier. The PurchaseOrder entity indicates the types, quantities, prices, and delivery timelines for products and services.
+# Purchasing
+## PurchaseOrder (@Purchase.PurchaseOrder) Entity 
+A first offer for a commercial engagement that the company issues to a supplier. The PurchaseOrder entity indicates the types, quantities, prices, and delivery timelines for products and services. 
 
 Field | Description
 ---|---
 BillingAddress | Data: Address
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Decimal places: 6
-DiscountAmountCurrency | Lookup: Currency
-DiscountPercent | Data: Number
-FreightTerms | Enumeration: FreightTermsValues: FOB, NoCharge
+FreightTerms | Enumeration: FreightTerms<br>Values: FOB, NoCharge
 OrderDate | Data: DateTime<br>Required
-PaymentTerms | Enumeration: PaymentTermsValues: Net30, Net45, Net60, TwoPercent10Net30
-PurchaseOrderId<br>Primary key | Number sequence: <br>Unique<br>Description: Order number
-PurchasePerson | Lookup: Employee
+PaymentTerms | Enumeration: PaymentTerms<br>Values: Net30, Net45, Net60, TwoPercent10Net30
+PurchaseOrderId<br>Primary key | Number sequence: <br>Unique<br>Description: Order id
 ShippingAddress | Data: Address
-ShippingMethod | Enumeration: ShippingMethodValues: AirBorne, DHL, Fedex, PostalMail, UPS
-Status | Enumeration: PurchaseOrderStatusValues: Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended<br>Description: Order Status
-Supplier | Lookup: Supplier<br>Required
-SupplierContact | Lookup: Supplier
-SupplierInvoice | Data: Text<br>Maximum length: 128
+ShippingMethod | Enumeration: ShippingMethod<br>Values: AirBorne, DHL, Fedex, PostalMail, UPS
+Status | Enumeration: PurchaseOrderStatus<br>Values: Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended<br>Required<br>Description: Order status
 TotalAmount | Data: Currency<br>Decimal places: 6
-TotalAmountCurrency | Lookup: Currency
-TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Charges
-TotalChargeAmountCurrency | Lookup: Currency
+TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total charges
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
-TotalDiscountAmountCurrency | Lookup: Currency
-TotalDiscountPercent | Data: Number
-TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Taxes
-TotalTaxAmountCurrency | Lookup: Currency
-## PurchaseOrderCharge (Purchase Order Charges) Entity
-A purchase order charge.
+TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total taxes
+Vendor | Lookup: Vendor<br>Required
+VendorContact | Lookup: Contact
+VendorInvoice | Data: Text<br>Maximum length: 128
+WorkerBuyer | Lookup: Worker
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description<br>WorkerBuyer<br>VendorContact<br>FreightTerms<br>ShippingMethod<br>ShippingAddress<br>VendorInvoice<br>BillingAddress
+DefaultList|Auto generated DefaultList field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Status<br>WorkerBuyer<br>TotalAmount
+DefaultCard|Auto generated DefaultCard field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>WorkerBuyer
+DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description<br>Status<br>WorkerBuyer<br>VendorContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>ShippingAddress<br>VendorInvoice<br>BillingAddress<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
+DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description
+DefaultReport|Auto generated DefaultReport field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description<br>WorkerBuyer<br>VendorContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>VendorInvoice
+DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderId<br>Description
+## PurchaseOrderCharge (@Purchase.PurchaseOrderCharges) Entity 
+A purchase order charge. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Charges
-AmountCurrency | Lookup: Currency
-ChargeId<br>Primary key | Number sequence: <br>Unique<br>Description: Purchase Order Charge Id
-ChargeType | Enumeration: ChargeTypeValues: Freight, Insurance, Others
+Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total charges
+ChargeType | Enumeration: ChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
-PurchaseOrder | Lookup: PurchaseOrder<br>Required
-## PurchaseOrderLine (Purchase Order Lines) Entity
-A purchase order line item.
+Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
+PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|PurchaseOrder<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|Auto generated DefaultList field group|PurchaseOrder<br>ChargeType<br>Name<br>Amount
+DefaultCard|Auto generated DefaultCard field group|PurchaseOrder<br>ChargeType<br>Name<br>Amount
+DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrder<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrder<br>ChargeType<br>Name<br>Amount
+DefaultReport|Auto generated DefaultReport field group|PurchaseOrder<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrder<br>ChargeType
+## PurchaseOrderLine (@Purchase.PurchaseOrderLines) Entity 
+A purchase order line item. 
 
 Field | Description
 ---|---
-DeliveryAddress | Data: Address
+DeliveryPostalAddress | Data: Address
 Description | Data: Text<br>Maximum length: 255
-DiscountAmount | Data: Currency<br>Decimal places: 6
-DiscountAmountCurrency | Lookup: Currency
-DiscountPercent | Data: Number
+DiscountAmount | Data: Currency<br>Required, Decimal places: 6
 ExpectedShipDate | Data: DateTime
-LineAmount | Data: Currency<br>Decimal places: 6
-LineAmountCurrency | Lookup: Currency
-MostRecentActualReceiptDate | Data: DateTime<br>Description: Most Recent Actual Ship Date
+LineAmount | Data: Currency<br>Required, Decimal places: 6
+MostRecentActualReceiptDate | Data: DateTime<br>Description: Most recent actual ship date
 Name | Data: Text<br>Maximum length: 60
-Product | Lookup: Products
-ProductName | Data: Text<br>Maximum length: 60
-ProductUnitOfMeasure | Lookup: Units
+Product | Lookup: Product
+ProductName | Data: Text<br>Required, Maximum length: 60
+ProductUnitOfMeasure_UOM | Enumeration: UnitOfMeasure<br>Values: Bag, Box, Bucket, Centilitre, Centimeter, CubicCentimeter, CubicFeet, CubicInch, CubicMeter, CubicMillimeter, CubicYard, Day, Deciliter, DegreesBrix, Dozen, Each, Feet, FluidOunce, Gallon, GigaByte, Gram, HalfCubicInch, HalfInch, HalfPint, HalfPound, HalfSquareInch, Hour, Inch, Keg, Kilogram, Kilometer, KilowattHour, Litre, Meter, Mgpx, Mile, Milligram, Millilitre, Millimeter, Minute, Month, Ohm, OneEighthCubicInch, OneEighthInch, OneEighthSquareInch, Option, Ounce, Pair, Pallet, PascalSecond, Percentage, pHValue, Piece, Pint, Pound, Quart, QuarterCubicInch, QuarterInch, QuarterPound, QuarterSquareInch, Second, SetOfEquipment, SquareCentimeter, SquareFeet, SquareInch, SquareMeter, SquareMile, SquareMillimeter, SquareYard, Ton, Tray, Yard<br>Description: Product unit of measure
 PromisedShipDate | Data: DateTime
-PurchaseOrder | Lookup: PurchaseOrder<br>Required
-PurchaseOrderLineId<br>Primary key | Number sequence: <br>Unique<br>Description: Purchase Order Line Number
-Quantity | Data: Number
-Sequence | Data: Integer
-Status | Enumeration: PurchaseOrderLineStatusValues: Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended<br>Description: Order Line Status
-SupplierProductName | Data: Text<br>Maximum length: 60
-SupplierProductUnitOfMeasure | Lookup: Units
-TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Charge
-TotalChargesCurrency | Lookup: Currency
-TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Tax
-TotalTaxesCurrency | Lookup: Currency
-UnitPrice | Data: Currency<br>Decimal places: 6
-UnitPriceCurrency | Lookup: Currency
-## PurchaseOrderLineCharge (Purchase Order Line Charge) Entity
-A purchase order line item charge.
+PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
+Quantity | Data: Quantity<br>Required
+Sequence | Data: Integer<br>Required
+Status | Enumeration: PurchaseOrderLineStatus<br>Values: Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended<br>Required<br>Description: Order line status
+TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total charges
+TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total taxes
+UnitPrice | Data: Currency<br>Required, Decimal places: 6
+VendorProductName | Data: Text<br>Maximum length: 60
+VendorProductUnitOfMeasure_UOM | Enumeration: UnitOfMeasure<br>Values: Bag, Box, Bucket, Centilitre, Centimeter, CubicCentimeter, CubicFeet, CubicInch, CubicMeter, CubicMillimeter, CubicYard, Day, Deciliter, DegreesBrix, Dozen, Each, Feet, FluidOunce, Gallon, GigaByte, Gram, HalfCubicInch, HalfInch, HalfPint, HalfPound, HalfSquareInch, Hour, Inch, Keg, Kilogram, Kilometer, KilowattHour, Litre, Meter, Mgpx, Mile, Milligram, Millilitre, Millimeter, Minute, Month, Ohm, OneEighthCubicInch, OneEighthInch, OneEighthSquareInch, Option, Ounce, Pair, Pallet, PascalSecond, Percentage, pHValue, Piece, Pint, Pound, Quart, QuarterCubicInch, QuarterInch, QuarterPound, QuarterSquareInch, Second, SetOfEquipment, SquareCentimeter, SquareFeet, SquareInch, SquareMeter, SquareMile, SquareMillimeter, SquareYard, Ton, Tray, Yard<br>Description: Vendor product unit of measure
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|PurchaseOrder<br>Sequence<br>Product<br>Description<br>Quantity<br>Status<br>UnitPrice<br>LineAmount
+DefaultList|Auto generated DefaultList field group|PurchaseOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>LineAmount
+DefaultCard|Auto generated DefaultCard field group|PurchaseOrder<br>Product<br>ProductName<br>Status<br>Quantity
+DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrder<br>Sequence<br>Product<br>ProductName<br>Description<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>PromisedShipDate<br>MostRecentActualReceiptDate<br>DeliveryPostalAddress<br>TotalChargeAmount<br>TotalTaxAmount
+DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrder<br>ProductName<br>Status<br>Quantity
+DefaultReport|Auto generated DefaultReport field group|PurchaseOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>PromisedShipDate<br>MostRecentActualReceiptDate
+DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrder<br>Sequence<br>ProductName
+## PurchaseOrderLineCharge (@Purchase.PurchaseOrderLineCharge) Entity 
+A purchase order line item charge. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Line Charges
-AmountCurrency | Lookup: Currency
-ChargeType | Enumeration: LineChargeTypeValues: Freight, Insurance, Others
+Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total line charges
+ChargeType | Enumeration: LineChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
-PurchaseOrderLine | Lookup: PurchaseOrderLine<br>Required
-PurchaseOrderLineChargeId<br>Primary key | Number sequence: <br>Unique
-## PurchaseOrderLineReceipt (Purchase Order Line Receipt) Entity
-A purchase order line item receipt.
+Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
+PurchaseOrderLine<br>Primary key | Lookup: PurchaseOrderLine<br>Required
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|Auto generated DefaultList field group|PurchaseOrderLine<br>Name<br>Amount
+DefaultCard|Auto generated DefaultCard field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Amount
+DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Amount
+DefaultReport|Auto generated DefaultReport field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderLine<br>ChargeType
+## PurchaseOrderLineReceipt (@Purchase.PurchaseOrderLineReceipt) Entity 
+A purchase order line item receipt. 
 
 Field | Description
 ---|---
-ActualReceiptDate | Data: Date
+ActualReceiptDate | Data: Date<br>Required
 Description | Data: Text<br>Maximum length: 60
-PurchaseOrderLine | Lookup: PurchaseOrderLine<br>Required
-PurchaseOrderLineReceiptId<br>Primary key | Number sequence: <br>Unique
-Quantity | Data: Number
-Sequence | Data: Integer
-Status | Enumeration: ShipmentStatusValues: Delivered, Open
-## PurchaseOrderLineTax (Purchase Order Line Tax) Entity
-The purchase order line item tax.
+PurchaseOrderLine<br>Primary key | Lookup: PurchaseOrderLine<br>Required
+Quantity | Data: Number<br>Required
+Sequence | Data: Integer<br>Required
+Status | Enumeration: ShipmentStatus<br>Values: Delivered, Open<br>Required
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|PurchaseOrderLine<br>Description<br>Quantity<br>Status<br>ActualReceiptDate<br>Sequence
+DefaultList|Auto generated DefaultList field group|Description<br>Quantity<br>Status<br>ActualReceiptDate
+DefaultCard|Auto generated DefaultCard field group|PurchaseOrderLine<br>Quantity<br>Status<br>ActualReceiptDate
+DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrderLine<br>Description<br>Quantity<br>Status<br>ActualReceiptDate<br>Sequence
+DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrderLine<br>Description<br>Quantity<br>Status<br>ActualReceiptDate
+DefaultReport|Auto generated DefaultReport field group|PurchaseOrderLine<br>Description<br>Quantity<br>Status<br>ActualReceiptDate<br>Sequence
+DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderLine<br>Description
+## PurchaseOrderLineTax (@Purchase.PurchaseOrderLineTax) Entity 
+The purchase order line item tax. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Line Taxes
-AmountCurrency | Lookup: Currency<br>Required
+Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total line taxes
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Tax Name
-PurchaseOrderLine | Lookup: PurchaseOrderLine<br>Required
-PurchaseOrderLineTaxId<br>Primary key | Number sequence: <br>Unique
+Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
+PurchaseOrderLine<br>Primary key | Lookup: PurchaseOrderLine<br>Required
 RateCode | Data: Text<br>Maximum length: 60
-TaxType | Enumeration: LineTaxTypeValues: Others, SalesTax, VAT
-## PurchaseOrderTax (Purchase Order Tax) Entity
-The tax on a purchase order.
+TaxType | Enumeration: LineTaxType<br>Values: Others, SalesTax, VAT<br>Required
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>PurchaseOrderLine
+DefaultList|Auto generated DefaultList field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultCard|Auto generated DefaultCard field group|Name<br>TaxType<br>Amount
+DefaultDetails|Auto generated DefaultDetails field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>PurchaseOrderLine
+DefaultLookup|Auto generated DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultReport|Auto generated DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>PurchaseOrderLine
+DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderLine<br>Name
+## PurchaseOrderTax (@Purchase.PurchaseOrderTax) Entity 
+The tax on a purchase order. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Taxes
-AmountCurrency | Lookup: Currency
+Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total taxes
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Tax Name
-PurchaseOrder | Lookup: PurchaseOrder<br>Required
-PurchaseOrderTaxId<br>Primary key | Number sequence: <br>Unique
+Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
+PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
 RateCode | Data: Text<br>Maximum length: 60
-TaxType | Enumeration: TaxTypeValues: Others, SalesTax, VAT
-## Supplier (Supplier) Entity
-An organization that supplies something.
+TaxType | Enumeration: TaxType<br>Values: Others, SalesTax, VAT<br>Required
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
+DefaultList|Auto generated DefaultList field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount
+DefaultCard|Auto generated DefaultCard field group|PurchaseOrder<br>Name<br>TaxType<br>Amount
+DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
+DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount
+DefaultReport|Auto generated DefaultReport field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
+DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrder<br>Name
+## Vendor (@Foundation.Vendor) Entity 
+@Purchase.VendorHelp 
 
 Field | Description
 ---|---
-BusinessPhone | Data: Phone
-CellPhone | Data: Phone
+Birthdate | Data: Date
 Description | Data: Text<br>Maximum length: 128
-Email | Data: Email
-Facebook | Data: Text<br>Maximum length: 128
-FirstName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
+DUNSNumber | Data: Text<br>Maximum length: 128
+EmailAlternate | Data: Email
+EmailPrimary | Data: Email
+FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Maximum length: 128
-HomePhone | Data: Phone
-IsApprovedSupplier | Data: Boolean<br>Description: Approved supplier
+Gender | Enumeration: Gender<br>Values: Female, Male, NotSpecified
+IndustryCode | Enumeration: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsDisabledOwned | Data: Boolean<br>Description: Disabled owned
+IsEmailContactAllowed | Data: Boolean<br>Required
 IsMinorityOwned | Data: Boolean<br>Description: Minority owned
 IsNativeAmOwned | Data: Boolean<br>Description: Native American owned
-IsPreferredSupplier | Data: Boolean<br>Description: Preferred supplier
+IsPhoneContactAllowed | Data: Boolean<br>Required
 IsWomanOwned | Data: Boolean<br>Description: Woman owned
-LastName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-Linkedin | Data: Text<br>Maximum length: 128
-MiddleName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-ParentSupplier | Lookup: Supplier
-PartyRole | Enumeration: PartyRoleValues: Alumnus, Company, Constituent, Contractor, Customer, Donor, Employee, Fan, Member, NonProfit, Supplier, Tenant, Vendor, Volunteer
-PartyType | Enumeration: PartyTypeValues: Group, Organization, Person
-PostalAddress | Data: Address
-SatoriID | Data: Text<br>Maximum length: 128
-StockExchange | Data: Text<br>Maximum length: 128
-SupplierId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
-Thumbnail | Data: Image
-Ticker | Data: Text<br>Maximum length: 128
-Twitter | Data: Text<br>Maximum length: 128
-Website | Data: WebsiteUrl
-## SupplierInvoice (Supplier Invoice) Entity
-An invoice that is received from a supplier.
+LinkedinIdentity | Data: Text<br>Maximum length: 128
+MailingPostalAddress | Data: Address
+OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
+OrganizationName | Data: Text<br>Maximum length: 128
+OtherPostalAddress | Data: Address
+ParentVendor | Lookup: Vendor
+PartyType | Enumeration: PartyType<br>Values: Group, Organization, Person<br>Required
+PersonName | Data: PersonName
+Phone01 | Data: Phone
+Phone02 | Data: Phone
+Phone03 | Data: Phone
+PhonePrimary | Data: Phone
+PrimaryContact | Lookup: Contact
+PrimaryContact_Name | Data: Text<br>Maximum length: 128<br>Description: Primary contact name
+SatoriId | Data: Text<br>Maximum length: 128
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Enumeration: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Enumeration: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
+SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
+Source | Enumeration: Source<br>Values: Default<br>Required
+Status | Enumeration: VendorStatus<br>Values: Active, Blocked, Inactive<br>Required
+StockExchange | Enumeration: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
+StockTicker | Data: Text<br>Maximum length: 128
+SupplierApprovalStatus | Enumeration: SupplierApprovalStatus<br>Values: Approved, NotApproved, UnderReview<br>Required
+TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
+TaxIdentificationNumber | Data: Text<br>Maximum length: 128
+TwitterIdentity | Data: Text<br>Maximum length: 128
+VendorId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+WebsiteURL | Data: Text<br>Maximum length: 255
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|VendorId<br>FullName<br>PersonName<br>Status<br>ParentVendor<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
+DefaultList|Auto generated DefaultList field group|VendorId<br>FullName<br>Status<br>PhonePrimary<br>WebsiteURL
+DefaultCard|Auto generated DefaultCard field group|VendorId<br>FullName<br>Status
+DefaultDetails|Auto generated DefaultDetails field group|VendorId<br>FullName<br>PersonName<br>Status<br>ParentVendor<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
+DefaultLookup|Auto generated DefaultLookup field group|VendorId<br>FullName<br>Status
+DefaultReport|Auto generated DefaultReport field group|VendorId<br>FullName<br>PersonName<br>Status<br>ParentVendor<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
+DefaultIdentification|Auto generated DefaultIdentification field group|VendorId<br>FullName
+## VendorInvoice (@Purchase.VendorInvoice) Entity 
+@Purchase.VendorInvoiceHelp 
 
 Field | Description
 ---|---
 BillingAddress | Data: Address
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Decimal places: 6
-DiscountAmountCurrency | Lookup: Currency
-DiscountPercent | Data: Number
-FreightTerms | Enumeration: FreightTermsValues: FOB, NoCharge
-OrderDate | Data: DateTime<br>Required, Unique<br>Description: Invoice Date
-PaymentTerms | Enumeration: PaymentTermsValues: Net30, Net45, Net60, TwoPercent10Net30
-PurchaseOrder | Lookup: PurchaseOrder<br>Required, Unique
-PurchasePerson | Lookup: Employee
+FreightTerms | Enumeration: FreightTerms<br>Values: FOB, NoCharge
+PaymentTerms | Enumeration: PaymentTerms<br>Values: Net30, Net45, Net60, TwoPercent10Net30
+PurchaseOrder | Lookup: PurchaseOrder<br>Required
 ShippingAddress | Data: Address
-ShippingMethod | Enumeration: ShippingMethodValues: AirBorne, DHL, Fedex, PostalMail, UPS
-Status | Enumeration: InvoiceStatusValues: Cancelled, Created, Hold, Paid<br>Description: Invoice Status
-Supplier | Lookup: Supplier<br>Required
-SupplierContact | Lookup: Supplier
-SupplierInvoiceId<br>Primary key | Number sequence: <br>Unique
+ShippingMethod | Enumeration: ShippingMethod<br>Values: AirBorne, DHL, Fedex, PostalMail, UPS
+Status | Enumeration: InvoiceStatus<br>Values: Cancelled, Created, Hold, Paid<br>Required<br>Description: Invoice status
 TotalAmount | Data: Currency<br>Decimal places: 6
-TotalAmountCurrency | Lookup: Currency
-TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Charges
-TotalChargeAmountCurrency | Lookup: Currency
+TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total charges
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
-TotalDiscountAmountCurrency | Lookup: Currency
-TotalDiscountPercent | Data: Number
-TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Taxes
-TotalTaxAmountCurrency | Lookup: Currency
-## SupplierInvoiceCharge (Supplier Invoice Charges) Entity
-A charge that is part of a supplier invoice.
+TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total taxes
+Vendor | Lookup: Vendor<br>Required
+VendorContact | Lookup: Contact
+VendorInvoiceDate | Data: DateTime<br>Required<br>Description: Invoice date
+VendorInvoiceId<br>Primary key | Number sequence: <br>Unique
+WorkerBuyer | Lookup: Worker
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|VendorInvoiceDate<br>VendorInvoiceId<br>Description<br>Vendor<br>VendorContact<br>Status<br>BillingAddress
+DefaultList|Auto generated DefaultList field group|VendorInvoiceDate<br>VendorInvoiceId<br>Description<br>Vendor<br>Status<br>TotalAmount
+DefaultCard|Auto generated DefaultCard field group|VendorInvoiceDate<br>VendorInvoiceId<br>Description<br>Vendor<br>Status<br>TotalAmount
+DefaultDetails|Auto generated DefaultDetails field group|VendorInvoiceDate<br>VendorInvoiceId<br>Description<br>Vendor<br>VendorContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>WorkerBuyer<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
+DefaultLookup|Auto generated DefaultLookup field group|VendorInvoiceDate<br>VendorInvoiceId<br>Vendor
+DefaultReport|Auto generated DefaultReport field group|VendorInvoiceDate<br>VendorInvoiceId<br>Description<br>Vendor<br>VendorContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>WorkerBuyer<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
+DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoiceId
+## VendorInvoiceCharge (@Purchase.VendorInvoiceCharges) Entity 
+@Purchase.VendorInvoiceChargeHelp 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Charges
-AmountCurrency | Lookup: Currency
-ChargeType | Enumeration: InvoiceChargeTypeValues: Freight, Insurance, Others
+Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total charges
+ChargeType | Enumeration: InvoiceChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
-SupplierInvoice | Lookup: SupplierInvoice<br>Required
-SupplierInvoiceChargeId<br>Primary key | Number sequence: <br>Unique
-## SupplierInvoiceLine (Supplier Invoice Lines) Entity
-A line item on a supplier invoice.
+Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
+VendorInvoice<br>Primary key | Lookup: VendorInvoice<br>Required
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|VendorInvoice<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|Auto generated DefaultList field group|VendorInvoice<br>ChargeType<br>Name<br>Amount
+DefaultCard|Auto generated DefaultCard field group|VendorInvoice<br>ChargeType<br>Name<br>Amount
+DefaultDetails|Auto generated DefaultDetails field group|VendorInvoice<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|Auto generated DefaultLookup field group|VendorInvoice<br>ChargeType<br>Name<br>Amount
+DefaultReport|Auto generated DefaultReport field group|VendorInvoice<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoice<br>Name
+## VendorInvoiceLine (@Purchase.VendorInvoiceLines) Entity 
+@Purchase.VendorInvoiceLineHelp 
 
 Field | Description
 ---|---
 Description | Data: Text<br>Maximum length: 255
-DiscountAmount | Data: Currency<br>Decimal places: 6
-DiscountAmountCurrency | Lookup: Currency
-DiscountPercent | Data: Number
-LineAmount | Data: Currency<br>Decimal places: 6
-LineAmountCurrency | Lookup: Currency
-Name | Data: Text<br>Maximum length: 60
-Product | Lookup: Products
-ProductName | Data: Text<br>Maximum length: 60
-ProductUnitOfMeasure | Lookup: Units
-Quantity | Data: Number
-Sequence | Data: Integer
-Status | Enumeration: OrderLineStatusValues: Active, Confirmed, Invoice, PackingSlip, Quote<br>Description: Invoice Line Status
-SupplierInvoiceLine | Lookup: SupplierInvoice<br>Required
-SupplierInvoiceLineId<br>Primary key | Number sequence: <br>Unique<br>Description: Supplier Invoice Line Number
-SupplierProductName | Data: Text<br>Maximum length: 60
-SupplierProductUnitOfMeasure | Lookup: Units
-TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Charge
-TotalChargesCurrency | Lookup: Currency
-TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Tax
-TotalTaxesCurrency | Lookup: Currency
-UnitPrice | Data: Currency<br>Decimal places: 6
-UnitPriceCurrency | Lookup: Currency
-## SupplierInvoiceLineCharge (Supplier Invoice Line Charge) Entity
-A supplier invoice line item charge.
+DiscountAmount | Data: Currency<br>Required, Decimal places: 6
+LineAmount | Data: Currency<br>Required, Decimal places: 6
+Name | Data: Text<br>Required, Maximum length: 60
+Product | Lookup: Product
+ProductName | Data: Text<br>Required, Maximum length: 60
+ProductUnitOfMeasure_UOM | Enumeration: UnitOfMeasure<br>Values: Bag, Box, Bucket, Centilitre, Centimeter, CubicCentimeter, CubicFeet, CubicInch, CubicMeter, CubicMillimeter, CubicYard, Day, Deciliter, DegreesBrix, Dozen, Each, Feet, FluidOunce, Gallon, GigaByte, Gram, HalfCubicInch, HalfInch, HalfPint, HalfPound, HalfSquareInch, Hour, Inch, Keg, Kilogram, Kilometer, KilowattHour, Litre, Meter, Mgpx, Mile, Milligram, Millilitre, Millimeter, Minute, Month, Ohm, OneEighthCubicInch, OneEighthInch, OneEighthSquareInch, Option, Ounce, Pair, Pallet, PascalSecond, Percentage, pHValue, Piece, Pint, Pound, Quart, QuarterCubicInch, QuarterInch, QuarterPound, QuarterSquareInch, Second, SetOfEquipment, SquareCentimeter, SquareFeet, SquareInch, SquareMeter, SquareMile, SquareMillimeter, SquareYard, Ton, Tray, Yard<br>Description: Product unit of measure
+PurchaseOrder_PurchaseOrderId | Number sequence: <br>Unique<br>Description: Order id
+PurchaseOrderLine_Sequence | Data: Integer<br>Required<br>Description: Sequence
+Quantity | Data: Quantity<br>Required
+Sequence | Data: Integer<br>Required
+Status | Enumeration: OrderLineStatus<br>Values: Active, Confirmed, Invoice, PackingSlip, Quote<br>Required<br>Description: Invoice line status
+TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total charges
+TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total taxes
+UnitPrice | Data: Currency<br>Required, Decimal places: 6
+VendorInvoice<br>Primary key | Lookup: VendorInvoice<br>Required
+VendorProduct | Lookup: Product
+VendorProductName | Data: Text<br>Maximum length: 60
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|VendorInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity
+DefaultList|Auto generated DefaultList field group|VendorInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount
+DefaultCard|Auto generated DefaultCard field group|VendorInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
+DefaultDetails|Auto generated DefaultDetails field group|VendorInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
+DefaultLookup|Auto generated DefaultLookup field group|VendorInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
+DefaultReport|Auto generated DefaultReport field group|VendorInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
+DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoice<br>Product
+## VendorInvoiceLineCharge (@Purchase.VendorInvoiceLineCharge) Entity 
+@Purchase.VendorInvoiceLineChargeHelp 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Line Charges
-AmountCurrency | Lookup: Currency
-ChargeType | Enumeration: InvoiceLineChargeTypeValues: Freight, Insurance, Others
+Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total line charges
+ChargeType | Enumeration: InvoiceLineChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
-SupplierInvoiceLine | Lookup: SupplierInvoiceLine<br>Required
-SupplierInvoiceLineChargeId<br>Primary key | Number sequence: <br>Unique
-## SupplierInvoiceLineTax (Supplier Invoice Line Tax) Entity
-The supplier invoice line item tax.
+Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
+VendorInvoiceLine<br>Primary key | Lookup: VendorInvoiceLine<br>Required
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|VendorInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|Auto generated DefaultList field group|VendorInvoiceLine<br>ChargeType<br>Name<br>Amount
+DefaultCard|Auto generated DefaultCard field group|VendorInvoiceLine<br>ChargeType<br>Name<br>Amount
+DefaultDetails|Auto generated DefaultDetails field group|VendorInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|Auto generated DefaultLookup field group|VendorInvoiceLine<br>ChargeType<br>Amount
+DefaultReport|Auto generated DefaultReport field group|VendorInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoiceLine<br>Name
+## VendorInvoiceLineTax (@Purchase.VendorInvoiceLineTax) Entity 
+@Purchase.VendorInvoiceLineTaxHelp 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Invoice Line Taxes
-AmountCurrency | Lookup: Currency
+Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total invoice line taxes
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Tax Name
+Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
-SupplierInvoiceLine | Lookup: SupplierInvoiceLine<br>Required
-SupplierInvoiceLineTaxId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Invoice Line Tax Id
-TaxType | Enumeration: InvoiceLineTaxTypeValues: Others, SalesTax, VAT
-## SupplierInvoiceTax (Supplier Invoice Tax) Entity
-The tax on a supplier invoice.
+TaxType | Enumeration: InvoiceLineTaxType<br>Values: Others, SalesTax, VAT<br>Required
+VendorInvoiceLine<br>Primary key | Lookup: VendorInvoiceLine<br>Required
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultList|Auto generated DefaultList field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultCard|Auto generated DefaultCard field group|Name<br>TaxType<br>Amount
+DefaultDetails|Auto generated DefaultDetails field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>VendorInvoiceLine
+DefaultLookup|Auto generated DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultReport|Auto generated DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>VendorInvoiceLine
+DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoiceLine<br>Name
+## VendorInvoiceTax (@Purchase.VendorInvoiceTax) Entity 
+@Purchase.VendorInvoiceTaxHelp 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Taxes
-AmountCurrency | Lookup: Currency
+Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total taxes
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Tax Name
+Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
-SupplierInvoice | Lookup: SupplierInvoice<br>Required
-SupplierInvoiceTaxId<br>Primary key | Number sequence: <br>Unique
-TaxType | Enumeration: InvoiceTaxTypeValues: Others, SalesTax, VAT
+TaxType | Enumeration: InvoiceTaxType<br>Values: Others, SalesTax, VAT<br>Required
+VendorInvoice<br>Primary key | Lookup: VendorInvoice<br>Required
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|Auto generated DefaultCreate field group|VendorInvoice<br>RateCode<br>TaxType<br>Name<br>Amount<br>Description
+DefaultList|Auto generated DefaultList field group|VendorInvoice<br>RateCode<br>TaxType<br>Amount
+DefaultCard|Auto generated DefaultCard field group|VendorInvoice<br>TaxType<br>Amount
+DefaultDetails|Auto generated DefaultDetails field group|VendorInvoice<br>RateCode<br>TaxType<br>Name<br>Amount<br>Description
+DefaultLookup|Auto generated DefaultLookup field group|VendorInvoice<br>RateCode<br>Amount
+DefaultReport|Auto generated DefaultReport field group|VendorInvoice<br>RateCode<br>TaxType<br>Name<br>Amount
+DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoice<br>RateCode
