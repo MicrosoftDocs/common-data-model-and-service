@@ -1,7 +1,6 @@
 # [Introduction](introduction.md)
 # [Standard Entities](standard-entities.md)
 # [Entity Field Data Types](field-data-types.md)
-# [Field groups](field-groups.md)
 # [Entity Relationships](relationships.md)
 # [Entity Field Properties](field-properties.md)
 # [Naming Conventions](naming-conventions.md)
