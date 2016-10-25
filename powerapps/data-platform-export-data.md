@@ -27,7 +27,7 @@ You can move data into or out of the Common Data Service in one of two ways:
 ## Import or export data once ##
 
 ### Import data from Excel ###
-1. On [powerapps.com](https://web.powerapps.com), click or tap **Entities** in the left navigation pane.
+1. On [powerapps.com](https://web.powerapps.com), expand the **Common Data Service** section and click or tap **Entities** in the left navigation pane.
 1. Next to **New entity**, click or tap the ellipsis, and then click or tap **Import data**.
 1. Select the entity that you want to import data into, and then click or tap **Next**.
 1. Click or tap **Search**. Select the file that you want to import data from.
