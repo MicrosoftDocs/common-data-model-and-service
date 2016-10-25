@@ -23,6 +23,6 @@
 # [Productivity entities](entities-productivity.md)
 # [Propery management entities](entities-property-management.md)
 # [Survey entities](entities-survey.md)
-# [Standard Enumerations](standard-enumerations.md)
+# [Standard picklists](standard-picklists.md)
 # [Known Issues](known-issues.md)
 # [Index](index.md)
