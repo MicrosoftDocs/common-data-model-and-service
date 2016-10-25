@@ -49,7 +49,7 @@ There are three ways to create a database:
 1. Click **Create**.
 
 ## Create a database in the Entities pane of powerapps.com
-1. On [powerapps.com](https://web.powerapps.com), in the left navigation pane, click **Entities**.
+1. 1. On [powerapps.com](https://web.powerapps.com), expand the **Common Data Service** section and click or tap **Entities** in the left navigation pane.
 1. Click **Create a database**. The database is created in Open access mode.
 
 ## Open and restricted databases
