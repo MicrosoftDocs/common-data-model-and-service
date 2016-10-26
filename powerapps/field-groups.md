@@ -17,7 +17,7 @@
    ms.date="10/25/2016"
    ms.author="robinr"/>
 
-# Field Groups
+# Use field Groups
 
 Field groups provide a way to group one or more fields of an entity. Field groups can help speed up and simplify the creation and maintenance of apps. A field group contains one or more fields and a field can appear in any number of field groups. A field cannot appear more than once in a field group.
 
