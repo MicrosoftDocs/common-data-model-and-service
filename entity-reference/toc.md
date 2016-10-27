@@ -18,7 +18,6 @@
 ## [Sales Reference](entity-tables/sales.md)
 # [Customer Service Entities](entities-customer-service.md)
 ## [Customer Service Reference](entity-tables/customer-service.md)
-# [Lead and opportunity entities](entities-lead-opportunity.md)
 # [Survey entities](entities-survey.md)
 # [Standard picklists](standard-picklists.md)
 # [Known Issues](known-issues.md)
