@@ -50,7 +50,7 @@ There are three ways to create a database:
 
 ## Create a database in the Entities pane of powerapps.com
 1. On [powerapps.com](https://web.powerapps.com), expand the **Common Data Service** section and click or tap **Entities** in the left navigation pane.
-1. Click **Create a database**. The database is created in Open access mode.
+1. Click **Get started**. The database is created in Open access mode.
 
 ## Open and restricted databases
 By default, a database is created in Open access mode. In this mode, security for access to entities isn't enforced. The environment administrator can set the database to Restrict access mode. In this mode, security for access to entities is enforced, based on permission sets and roles.
