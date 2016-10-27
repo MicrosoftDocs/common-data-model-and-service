@@ -19,8 +19,6 @@
 # [Customer Service Entities](entities-customer-service.md)
 ## [Customer Service Reference](entity-tables/customer-service.md)
 # [Lead and opportunity entities](entities-lead-opportunity.md)
-# [Productivity entities](entities-productivity.md)
-# [Propery management entities](entities-property-management.md)
 # [Survey entities](entities-survey.md)
 # [Standard picklists](standard-picklists.md)
 # [Known Issues](known-issues.md)
