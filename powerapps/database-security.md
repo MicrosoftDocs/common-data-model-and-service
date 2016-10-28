@@ -21,7 +21,7 @@
 
 The Common Data Service uses a role-based security model to secure access to the database. This topic shows you how to create the security artifacts that you need to secure an app. These user roles control runtime access to data and are separate from the Environment roles that govern the Environment Administrators and Environment Makers. For an overview of the CDS security model, see [Microsoft Common Data Model, Entities Reference](http://download.microsoft.com/download/8/9/5/8956ED58-A9B0-40DF-8CB0-BC13AD8DB6E2/CDMEntityReference.docx). For an overview of environments, see [Environments overview](environments-overview.md).
 
-It's important to understand what level of access to these entities is needed by users of the app. The Common Data Service supports the Create, Read, Update, and Delete (CRUD) permissions on entities. 
+It's important to understand what level of access to these entities is needed by users of the app. The Common Data Service supports the create, read, update, and delete (CRUD) permissions on entities. 
 
 - Create - Allows a user to create new entries in the entity.
 - Read - Allows a user to view and search existing entries in the entity.
