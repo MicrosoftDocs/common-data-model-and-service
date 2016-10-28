@@ -57,3 +57,4 @@ If you create an entity from scratch, it also contains a custom field that is na
 - [Manage fields in an entity](data-platform-manage-fields.md)
 - [Define relationships between entities](data-platform-entity-lookup.md)
 - [Generate an app by using a Common Data Service database](data-platform-create-app.md)
+- [Create an app from scratch using a Common Data Service database](data-platform-create-app-scratch.md)
