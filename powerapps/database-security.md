@@ -1,4 +1,3 @@
-
 <properties
 	pageTitle="Configure database security"
 	description="Configure database security"
@@ -17,6 +16,7 @@
    ms.workload="na"
    ms.date="10/38/2016"
    ms.author="robinr"/>
+   
 #Configure database security
 
 The Common Data Service uses a role-based security model to secure access to the database. This topic shows you how to create the security artifacts that you need to secure an app. These user roles control runtime access to data and are separate from the Environment roles that govern the Environment Administrators and Environment Makers. For an overview of the CDS security model, see [Microsoft Common Data Model, Entities Reference](http://download.microsoft.com/download/8/9/5/8956ED58-A9B0-40DF-8CB0-BC13AD8DB6E2/CDMEntityReference.docx). For an overview of environments, see [Environments overview](environments-overview.md).
@@ -41,9 +41,9 @@ To configure the proper access controls for an app, you will need to know what e
 1. Click or tap **Data sources**. The list of data sources will be displayed in the right pane.
 
 #Configure security
-When you create a new entity, you also need to create a new permission set or edit an existing permission set to provide access to its data. When you create an app, we recommend that you also create a permission set that provides access to all the entities needed to run the app. Security is managed from the Admin Center.
+When you create a new entity, you also need to create a new permission set or edit an existing permission set to provide access to its data. When you create an app, we recommend that you also create a permission set that provides access to all the entities needed to run the app. Security is managed in the admin center.
 
-1. Open the [Admin Center](https://admin.powerapps.com).
+1. Open the [admin center](https://admin.powerapps.com).
 1. Click or tap the environment that contains your database.
 1. Click or tap **Security**. The **User roles** and **Permission sets** tabs are used to configure security on your database.
 
