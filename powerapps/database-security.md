@@ -1,4 +1,5 @@
-ic<properties
+
+<properties
 	pageTitle="Configure database security"
 	description="Configure database security"
 	services="powerapps"
@@ -10,7 +11,7 @@ ic<properties
 
 <tags
    ms.service="powerapps"
-*   ms.devlang="na"
+   ms.devlang="na"
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
