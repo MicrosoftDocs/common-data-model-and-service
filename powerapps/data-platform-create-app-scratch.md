@@ -17,7 +17,7 @@
    ms.date="10/28/2016"
    ms.author="robinr"/>
 
-# Create an app using a Common Data Service database #
+# Create an app from scratch using a Common Data Service database
 Build an app to manage data that's stored in the Common Data Service, using standard entities (which are built in), custom entities (which your organization creates), or both.
 
 When you build an app from the Common Data Service, you don't need to create a connection from Microsoft PowerApps, as you do with data sources such as SharePoint, Dynamics 365, or Salesforce. You only need to specify the entities that you want to show, manage, or use for both activities in the app.
