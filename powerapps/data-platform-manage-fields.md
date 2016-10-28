@@ -78,3 +78,4 @@ As you create and modify fields, keep these points in mind:
 ## Next steps
 - [Define relationships between entities](data-platform-entity-lookup.md)
 - [Create an app using entities](data-platform-create-app.md)
+- [Create an app from scratch using a Common Data Service database](data-platform-create-app-scratch.md)
