@@ -56,12 +56,12 @@ By default, every app that Microsoft PowerApps generates has three screens:
 
 	![Select a layout](./media/data-platform-create-app/choose-layout.png)
 
-1. On the **Contact** screen, under the search box, click or tap the **Text box** control to select it. By default, this control doesn't have a border. A border appears only when you select the control. Whenever you select a control, a selection box that has resize handles surrounds the control.
-1. In the right pane, click or tap **Data Sources**, and then, in the **Contact** field, select **Last Name** to show data from that field in the **Text box** control that you selected.
+1. On the **Contact** screen (the browse screen), under the search box, click or tap the **Text box** control to select it. By default, this control doesn't have a border. A border appears only when you select the control. Whenever you select a control, a selection box that has resize handles surrounds the control.
+1. In the right pane, click or tap **Data Sources**, and then, in the **Contact** field, select **Name_Surname** to show data from that field in the **Text box** control that you selected.
 1. On the **Contact** screen, select the gallery by clicking or tapping any name except the top name. A selection box surrounds the gallery.
 1. Copy the following formula by selecting it and then pressing Ctrl+C.
 
-	**SortByColumns(Search(Contact, TextSearchBox1.Text, "LastName"), "LastName", If(SortDescending1, Descending, Ascending))**
+	**SortByColumns(Search(Contact, TextSearchBox1.Text, "Name_Surname"), "Name_Surname", If(SortDescending1, Descending, Ascending))**
 	
 1. Near the upper-left corner, make sure that the property list shows **Items**.
 1. In the formula bar, select the default formula.
