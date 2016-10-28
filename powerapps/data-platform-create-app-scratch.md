@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Create an app using a Common Data Service database | Microsoft PowerApps"
+	pageTitle="Create an app from scratch using a Common Data Service database | Microsoft PowerApps"
 	description="Create an app to add, update, and delete records."
 	services="powerapps"
 	documentationCenter="na"
@@ -17,7 +17,7 @@
    ms.date="10/28/2016"
    ms.author="robinr"/>
 
-# Create an app using a Common Data Service database #
+# Create an app from scratch using a Common Data Service database #
 Build an app to manage data that's stored in the Common Data Model, using standard entities (which are built in), custom entities (which your organization creates), or both.
 
 When you build an app from the Common Data Model, you don't need to create a connection from PowerApps, as you do with data sources such as SharePoint, Dynamics CRM, and Salesforce. You need only specify the entities or entities that you want to show, manage, or both in the app.
