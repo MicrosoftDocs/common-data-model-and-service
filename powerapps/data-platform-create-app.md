@@ -19,6 +19,8 @@
 
 # Generate an app by using a Common Data Service database
 
+[AZURE.VIDEO nb:cid:UUID:6d7aa0a1-cd31-47c6-9a32-93b4e5476ece]
+
 You can automatically generate an app to manage data that is stored in Common Data Service. You can manage data in one of the many standard entities that are built into the model, or in a custom entity that you or someone else in your organization creates.
 
 If you're unfamiliar with Common Data Service, see [Understand entities](data-platform-intro.md).
@@ -118,3 +120,9 @@ By default, every app that Microsoft PowerApps generates has three screens:
 1. Change the data in one or more fields, and then click or tap the check mark button to save your changes and return to the browse screen.
 1. Find the record that you just updated, and then click or tap the arrow to the right of it.
 1. Near the upper-right corner, click or tap the trash bin button to delete the record that you created and updated.
+
+## Next steps
+You can create an app starting with a blank app.
+
+[AZURE.VIDEO nb:cid:UUID:5db63c4d-6aeb-45c5-9609-8f4bbdd37bc6]
+
