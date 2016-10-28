@@ -57,4 +57,5 @@ If entity A has a lookup field to entity B:
 For information about how to delete a field, see [Manage fields](data-platform-manage-fields.md).
 
 ## Next steps ##
-- [Create an app](data-platform-create-app.md)
+- [Generate an app by using a Common Data Service database](data-platform-create-app.md)
+- [Create an app from scratch using a Common Data Service database](data-platform-create-app-scratch.md)
