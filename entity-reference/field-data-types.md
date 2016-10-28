@@ -26,15 +26,15 @@ Boolean | Boolean | A value that supports __True__ and __False__.
 Currency | Compound | The __Currency__ data type in an entity is implemented as two fields. One field is a decimal value of six decimal places. The other is an enumeration that specifies the currency code – for example, USD or EUR.
 Date | DateTime | Only the __Date__ portion of the __DateTime__ type is used by the platform. The __Date__ data type is used when time zone conversion should not be done.
 DateTime | DateTime | A date that is combined with a time of day with fractional seconds that is based on a 24-hour clock.
-Email | String | __Email__ is stored as a string but is understood by the CDM as a separate type, so that special behavior can be implemented in storage, in the user interface, and in application lifecycle management. The string is stored in Unicode format.
+Email | String | __Email__ is stored as a string but is understood as a separate type, so that special behavior can be implemented in storage, in the user interface, and in application lifecycle management. The string is stored in Unicode format.
 Guid | Guid | A guid.
 Integer | Integer | An integer between -2,147,483,648 and 2,147,483,647.
 Lookup | [Foreign key] | The value matches the primary key in another table and is used to join information between two tables. It is also known as a foreign key.
 Multiline Text | String | Multiple lines of text. The maximum length varies, but it is never more than 2,048. The string is stored in Unicode format.
 Number | Decimal | A total of 32 digits can be stored, with a maximum of six digits to the right of the decimal point.
 PersonName | Compound | The **PersonName** data type is implemented as separate fields for given name (first name), middle name, and surname (last name). 
-Phone | String | __Phone__ is stored as a string but is understood by the CDM as a separate type, so that special behavior can be implemented in storage, in the user interface. The string is stored in Unicode format.
+Phone | String | __Phone__ is stored as a string but is understood as a separate type, so that special behavior can be implemented in storage, in the user interface. The string is stored in Unicode format.
 Picklist | Integer | The integer serves as a reference into one of the standard picklists.
 Quantity | Quantity | A decimal value.
 Text | String | One line of text. The maximum length varies, but it is never more than 128 characters. The string is stored in Unicode format.
-Url | String | __Url__ is stored as a string but is understood by the CDM as a separate type, so that special behavior can be implemented in storage, in the user interface. The string is stored in Unicode format.
+Url | String | __Url__ is stored as a string but is understood as a separate type, so that special behavior can be implemented in storage, in the user interface. The string is stored in Unicode format.
