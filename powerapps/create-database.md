@@ -62,4 +62,4 @@ By default, a database is created in Open access mode. In this mode, security fo
     + To disable security, select **Open access**.
 
 ## License and security permissions
-To create a database, you must be an administrator in the selected environment, and the appropriate license must be assigned to you. From the environment, you can further configure security permissions for other users by using the **Security** tab.
+To create a database, you must be an administrator in the selected environment, and the appropriate license must be assigned to you. From the environment, you can further configure security permissions for other users by using the **Security** tab. For more information, see [Configure database security](database-security.md).
