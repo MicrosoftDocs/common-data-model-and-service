@@ -84,7 +84,7 @@ You can create custom fields in either a standard entity or a custom entity. You
 - **Lookup** - A lookup field into another entity's title field.
 - **Multiline text** - Multiple lines of text.
 - **Number** - A number.
-- **PersonName** - Teh given name (first name), middle name, and surname (last name) of a person.
+- **PersonName** - The given name, middle name, and surname of a person.
 - **Phone** - A text value that represents a phone number.
 - **Picklist** - One value from a list of values.
 - **Quantity** - A decimal value.
