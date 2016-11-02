@@ -6,6 +6,7 @@
 # [Naming Conventions](naming-conventions.md)
 # [Entity Versioning](versioning.md)
 # [Security model](security-model.md)
+# [Privacy notice](privacy-notice.md)
 # [Foundation Entities](entities-foundation.md)
 ## [Foundation Reference](entity-tables/foundation.md)
 # [People, Organizations, and Groups Entities](entities-person-organization-group.md)
