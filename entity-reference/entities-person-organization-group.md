@@ -1,13 +1,13 @@
 ---
-title: "Person, Organization, and Group entities"
+title: "Person, organization, and group entities | Common Data Model"
 description: ""
 author: "clwesene"
 manager: "robinarh"
-ms.date: "08/24/2016"
+ms.date: "11/02/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "c9e7b649-2ee3-4985-986b-0e139259ae6d"
@@ -23,4 +23,4 @@ The people, organizations, and groups entities encompass a rich set of people an
 
 ## Reference
 
-[People, Organizations, and Groups Reference](/entity-reference/entity-tables/person-organization-group.md "People, Organizations, and Groups Reference")
+[People, organizations, and groups reference](/entity-reference/entity-tables/person-organization-group.md "People, organizations, and groups reference")
