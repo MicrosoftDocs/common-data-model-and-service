@@ -15,7 +15,7 @@ ms.assetid: "627ff741-f312-4ff7-b6f3-5ac9e6708a6e"
 
 # Purchasing entities
 
-The Purchasing entities let you create purchasing solutions and track vendor invoices.
+The purchasing entities let you create purchasing solutions and track vendor invoices.
 
 ## Purchase order ERD
 
