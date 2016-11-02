@@ -15,13 +15,6 @@ ms.assetid: "be061389-ef79-4861-9210-671b0bdd00ce"
 
 # Known issues
 
-[Cannot save data after changing the title field](/entity-reference/known-issues.md#Cannot-save-data-after-changing-the-title-field "Cannot save data after changing the title field")
-
-[Address data type field name may be missing Region](/entity-reference/known-issues.md#Address-data-type-field-name-may-be-missing-Region "Address data type field name may be missing Region")
-
-[Refresh button in Entity Data Explorer may not work](/entity-reference/known-issues.md#Refresh-button-in-Entity-Data-Explorer-may-not-work "Refresh button in Entity Data Explorer may not work")
-
-
 ## Cannot save data after changing the title field
 
 When changing the title field on an entity, if there are already lookups referencing this entity, an error will occur attempting to save the update to the entity metadata.   
@@ -44,4 +37,4 @@ In certain cases, the refresh button on the Entity Data Explorer view may not co
 
 ### Solution
 
-The fix for this issue is in progress.  To workaround this issue, please reload the page.  You can do this by using your browser's refresh button or navigating back to the Entity list.  Please note that navigating to either "Fields", "Keys", "Relations" or "Field Groups" will not suffice for this purpose.
+The fix for this issue is in progress.  To workaround this issue, please reload the page.  You can do this by using your browser's refresh button or navigating back to the Entity list.  Please note that navigating to either "Fields", "Keys", "Relations" or "Field Groups" will not correctly refresh the data.
