@@ -48,12 +48,12 @@ You can do a one-time data export from a standard entity or custom entity, and y
 ## Use Microsoft Flow to set up ongoing import or export ##
 You can set up ongoing import or export for a single standard entity or custom entity at a time. Some possible places you can connect to include:
 
-- Microsoft Dynamics CRM
-- Salesforce.com
+- Dynamics 365
+- Salesforce
 - Microsoft Excel files stored in any cloud file provider
 - A Microsoft SQL database, both in the cloud and on-premises
 - A custom API that you define to connect to your own systems
 
 Today, when you use Microsoft Flow to import or export data, it is not a full synchronization service. When an object is added to one service, it will be imported into the other system. However, that means if an object is deleted from one system it will not be deleted in the other system.
 
-How to set up the import depends on if a template already exists for the object that you want to import. If a template exists, you can set it up to copy data from one system to another. For more information, see [Create a flow that uses the Microsoft Common Data Model](https://flow.microsoft.com/documentation/common-data-model-intro/). However, if no such template exists, you'll need to create a flow that can use the database. For more details, refer to [How to create a flow from scratch](https://flow.microsoft.com/documentation/get-started-logic-flow/).
+How to set up the import depends on if a template already exists for the object that you want to import. If a template exists, you can set it up to copy data from one system to another. For more information, see [Create a flow that uses the Microsoft Common Data Service](https://flow.microsoft.com/documentation/common-data-model-intro/). However, if no such template exists, you'll need to create a flow that can use the database. For more details, refer to [How to create a flow from scratch](https://flow.microsoft.com/documentation/get-started-logic-flow/).
