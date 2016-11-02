@@ -15,7 +15,7 @@ ms.assetid: "a652c3f2-17b2-4cc6-9492-98d0f9303c02"
 
 # Sales entities
 
-The Sales entities let you create end-to-end sales solutions, from tracking leads and opportunities, to following through with contacts, to accepting and delivering orders, to sending invoices.
+The sales entities let you create end-to-end sales solutions, from tracking leads and opportunities, to following through with contacts, to accepting and delivering orders, to sending invoices.
 
 ## Sales invoice ERD
 
@@ -27,6 +27,6 @@ The sales order is modeled with a header, lines, and deliveries. The delivery en
 
 ![Sales order ERD](/entity-reference/media/sales-order.png "Sales order ERD")
 
-## Sales reference
+## Reference
 
 [Sales reference](/entity-reference/entity-tables/sales.md "Sales reference")
