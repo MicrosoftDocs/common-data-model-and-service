@@ -1,13 +1,13 @@
 ---
-title: "Purchasing entities"
+title: "Purchasing entities | Common Data Model"
 description: ""
 author: "clwesene"
 manager: "robinarh"
-ms.date: "08/24/2016"
+ms.date: "11/02/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "627ff741-f312-4ff7-b6f3-5ac9e6708a6e"
@@ -25,6 +25,6 @@ The Purchasing entities let you create purchasing solutions and track vendor inv
 
 ![Supplier Invoice ERD](/entity-reference/media/vendor-invoice.png "Vendor invoice ERD")
 
-## Purchasing Reference
+## Reference
 
 [Purchasing reference](/entity-reference/entity-tables/purchasing.md "Purchasing reference")
