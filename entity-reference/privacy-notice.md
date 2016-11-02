@@ -10,7 +10,7 @@ ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
-ms.assetid: "a3acd7bb-eb94-4c86-854f-9c7c5b526e75"
+ms.assetid: "fb147764-c03f-4c0e-9e03-03821f3c81e8"
 ---
 
 # Privacy notice
