@@ -1,13 +1,13 @@
 ---
-title: "Sales reference"
+title: "Sales reference | Common Data Model"
 description: ""
 author: ""
 manager: "robinarh"
 ms.date: "10/25/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "9ba908bd-88f9-4236-96be-401c9da4d3a2"
@@ -15,7 +15,7 @@ ms.assetid: "9ba908bd-88f9-4236-96be-401c9da4d3a2"
 
 # Sales
 
-## Account (Account) Entity 
+## Account (Account) Entity
 
 Field | Description
 ---|---
@@ -68,8 +68,8 @@ DefaultDetails|Auto generated DefaultDetails field group|AccountId<br>FullName<b
 DefaultLookup|Auto generated DefaultLookup field group|AccountId<br>FullName<br>Status
 DefaultReport|Auto generated DefaultReport field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
 DefaultIdentification|Auto generated DefaultIdentification field group|AccountId<br>FullName
-## Lead (Lead) Entity 
-A person who is interested in receiving information about the products or services that the company offers. 
+## Lead (Lead) Entity
+A person who is interested in receiving information about the products or services that the company offers.
 
 Field | Description
 ---|---
@@ -123,8 +123,8 @@ DefaultDetails|Auto generated DefaultDetails field group|LeadId<br>FullName<br>P
 DefaultLookup|Auto generated DefaultLookup field group|LeadId<br>FullName<br>Status
 DefaultReport|Auto generated DefaultReport field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>PhonePrimary<br>EmailPrimary
 DefaultIdentification|Auto generated DefaultIdentification field group|LeadId<br>FullName
-## Opportunity (Opportunity) Entity 
-Information about potential sales to new or established customers. 
+## Opportunity (Opportunity) Entity
+Information about potential sales to new or established customers.
 
 Field | Description
 ---|---
@@ -156,8 +156,8 @@ DefaultDetails|Auto generated DefaultDetails field group|OpportunityId<br>Name<b
 DefaultLookup|Auto generated DefaultLookup field group|OpportunityId<br>Name<br>Status
 DefaultReport|Auto generated DefaultReport field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description<br>CreatedDate<br>Source<br>IndustryCode<br>RatingCode
 DefaultIdentification|Auto generated DefaultIdentification field group|OpportunityId<br>Name
-## Partner (Partner) Entity 
-A person, organization, or group that a company partners with. 
+## Partner (Partner) Entity
+A person, organization, or group that a company partners with.
 
 Field | Description
 ---|---
@@ -207,8 +207,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PartnerId<br>FullName<b
 DefaultLookup|Auto generated DefaultLookup field group|PartnerId<br>FullName<br>PhonePrimary
 DefaultReport|Auto generated DefaultReport field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
 DefaultIdentification|Auto generated DefaultIdentification field group|PartnerId<br>FullName
-## SalesInvoice (Sales invoice) Entity 
-A sales invoice. 
+## SalesInvoice (Sales invoice) Entity
+A sales invoice.
 
 Field | Description
 ---|---
@@ -242,8 +242,8 @@ DefaultDetails|Auto generated DefaultDetails field group|InvoiceDate<br>SalesInv
 DefaultLookup|Auto generated DefaultLookup field group|SalesInvoiceId<br>InvoiceDate<br>Name<br>Account
 DefaultReport|Auto generated DefaultReport field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>SalesPersonWorker<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoiceId<br>Name
-## SalesInvoiceCharge (Sales invoice charge) Entity 
-A sales invoice charge. 
+## SalesInvoiceCharge (Sales invoice charge) Entity
+A sales invoice charge.
 
 Field | Description
 ---|---
@@ -262,8 +262,8 @@ DefaultDetails|Auto generated DefaultDetails field group|SalesInvoice<br>ChargeT
 DefaultLookup|Auto generated DefaultLookup field group|SalesInvoice<br>ChargeType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoice<br>Name
-## SalesInvoiceLine (Sales invoice line) Entity 
-A sales invoice line item. 
+## SalesInvoiceLine (Sales invoice line) Entity
+A sales invoice line item.
 
 Field | Description
 ---|---
@@ -293,8 +293,8 @@ DefaultDetails|Auto generated DefaultDetails field group|SalesInvoice<br>Product
 DefaultLookup|Auto generated DefaultLookup field group|SalesInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
 DefaultReport|Auto generated DefaultReport field group|SalesInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoice<br>Sequence<br>Product
-## SalesInvoiceLineCharge (Sales invoice line charge) Entity 
-A sales invoice line item charge. 
+## SalesInvoiceLineCharge (Sales invoice line charge) Entity
+A sales invoice line item charge.
 
 Field | Description
 ---|---
@@ -313,8 +313,8 @@ DefaultDetails|Auto generated DefaultDetails field group|SalesInvoiceLine<br>Cha
 DefaultLookup|Auto generated DefaultLookup field group|ChargeType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoiceLine<br>Name
-## SalesInvoiceLineTax (Sales invoice line tax) Entity 
-A sales invoice line item tax. 
+## SalesInvoiceLineTax (Sales invoice line tax) Entity
+A sales invoice line item tax.
 
 Field | Description
 ---|---
@@ -334,8 +334,8 @@ DefaultDetails|Auto generated DefaultDetails field group|Name<br>RateCode<br>Tax
 DefaultLookup|Auto generated DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>SalesInvoiceLine
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoiceLine<br>Name
-## SalesInvoiceTax (Sales invoice tax) Entity 
-The tax on a sales invoice. 
+## SalesInvoiceTax (Sales invoice tax) Entity
+The tax on a sales invoice.
 
 Field | Description
 ---|---
@@ -355,8 +355,8 @@ DefaultDetails|Auto generated DefaultDetails field group|SalesInvoice<br>RateCod
 DefaultLookup|Auto generated DefaultLookup field group|SalesInvoice<br>RateCode<br>Amount
 DefaultReport|Auto generated DefaultReport field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoice<br>TaxType<br>RateCode
-## SalesOrder (Sales order) Entity 
-A sales order. 
+## SalesOrder (Sales order) Entity
+A sales order.
 
 Field | Description
 ---|---
@@ -390,8 +390,8 @@ DefaultDetails|Auto generated DefaultDetails field group|SalesOrderId<br>Account
 DefaultLookup|Auto generated DefaultLookup field group|SalesOrderId<br>Account<br>OrderDate<br>Status<br>TotalAmount
 DefaultReport|Auto generated DefaultReport field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact<br>TotalAmount
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrderId<br>Name
-## SalesOrderCharge (Sales order charge) Entity 
-A sales order charge. 
+## SalesOrderCharge (Sales order charge) Entity
+A sales order charge.
 
 Field | Description
 ---|---
@@ -410,8 +410,8 @@ DefaultDetails|Auto generated DefaultDetails field group|SalesOrder<br>ChargeTyp
 DefaultLookup|Auto generated DefaultLookup field group|SalesOrder<br>ChargeType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrder<br>ChargeType<br>Name
-## SalesOrderLine (Sales order line) Entity 
-A sales order line. 
+## SalesOrderLine (Sales order line) Entity
+A sales order line.
 
 Field | Description
 ---|---
@@ -442,8 +442,8 @@ DefaultDetails|Auto generated DefaultDetails field group|SalesOrder<br>Sequence<
 DefaultLookup|Auto generated DefaultLookup field group|SalesOrder<br>ProductName<br>Status<br>Quantity
 DefaultReport|Auto generated DefaultReport field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>ExpectedShipDate<br>MostRecentActualShipDate
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrder<br>Sequence<br>ProductName
-## SalesOrderLineCharge (Sales order line charge) Entity 
-A sales order line charge. 
+## SalesOrderLineCharge (Sales order line charge) Entity
+A sales order line charge.
 
 Field | Description
 ---|---
@@ -462,8 +462,8 @@ DefaultDetails|Auto generated DefaultDetails field group|SalesOrderLine<br>Charg
 DefaultLookup|Auto generated DefaultLookup field group|SalesOrderLine<br>Amount<br>ChargeType
 DefaultReport|Auto generated DefaultReport field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrderLine<br>ChargeType<br>Name
-## SalesOrderLineShipment (Sales order line shipment) Entity 
-Shipment details for a line on sales order. A single line item on a sales order can be split and shipped to different addresses. 
+## SalesOrderLineShipment (Sales order line shipment) Entity
+Shipment details for a line on sales order. A single line item on a sales order can be split and shipped to different addresses.
 
 Field | Description
 ---|---
@@ -483,8 +483,8 @@ DefaultDetails|Auto generated DefaultDetails field group|ActualShipDate<br>Sales
 DefaultLookup|Auto generated DefaultLookup field group|SalesOrderLine<br>ActualShipDate<br>Description<br>Quantity<br>Status
 DefaultReport|Auto generated DefaultReport field group|Status<br>ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrderLine<br>ActualShipDate
-## SalesOrderLineTax (Sales order line tax) Entity 
-The tax on a sale order line. 
+## SalesOrderLineTax (Sales order line tax) Entity
+The tax on a sale order line.
 
 Field | Description
 ---|---
@@ -504,8 +504,8 @@ DefaultDetails|Auto generated DefaultDetails field group|TaxType<br>RateCode<br>
 DefaultLookup|Auto generated DefaultLookup field group|SalesOrderLine<br>TaxType<br>RateCode<br>Amount
 DefaultReport|Auto generated DefaultReport field group|Amount<br>TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description
 DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrderLine<br>TaxType<br>RateCode
-## SalesOrderTax (Sales order tax) Entity 
-The tax on a sales order. 
+## SalesOrderTax (Sales order tax) Entity
+The tax on a sales order.
 
 Field | Description
 ---|---

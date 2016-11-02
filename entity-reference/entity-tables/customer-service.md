@@ -1,21 +1,21 @@
 ---
-title: "Customer service reference"
+title: "Customer service reference | Common Data Model"
 description: ""
 author: ""
 manager: "robinarh"
 ms.date: "08/24/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "ddd9b0a1-bd9e-46a9-bea0-ba021cf2f219"
 ---
 
 # Customer Service
-## Case (Case) Entity 
-An incident that your customers face for a product, service, or interaction. 
+## Case (Case) Entity
+An incident that your customers face for a product, service, or interaction.
 
 Field | Description
 ---|---
@@ -45,8 +45,8 @@ DefaultDetails|Auto generated DefaultDetails field group|CaseId<br>Name<br>Categ
 DefaultLookup|Auto generated DefaultLookup field group|CaseId<br>Name<br>Category<br>Status<br>Severity
 DefaultReport|Auto generated DefaultReport field group|CaseId<br>Name<br>Category<br>Status<br>Severity<br>ArrivalDate<br>Description<br>OriginCode<br>CurrentContact<br>ParentCase<br>Account<br>CustomerSatisfactionCode<br>CloseDate<br>SolutionType
 DefaultIdentification|Auto generated DefaultIdentification field group|CaseId<br>Name
-## CaseActivity (Case activity) Entity 
-Any step that is taken on a case: creation of a case, escalation of a case, or resolution or closing of a case, including all state transitions of the case. 
+## CaseActivity (Case activity) Entity
+Any step that is taken on a case: creation of a case, escalation of a case, or resolution or closing of a case, including all state transitions of the case.
 
 Field | Description
 ---|---
@@ -81,8 +81,8 @@ DefaultDetails|Auto generated DefaultDetails field group|SupportCase<br>Sequence
 DefaultLookup|Auto generated DefaultLookup field group|SupportCase<br>Sequence<br>Type<br>BeginDate<br>Description
 DefaultReport|Auto generated DefaultReport field group|SupportCase<br>Sequence<br>Type<br>BeginDate<br>Description<br>Contact<br>ContactType<br>CaseSeverity<br>CaseStatus<br>HasKBArticle<br>IsReassignment<br>IsSeverityChange<br>IsStatusChange
 DefaultIdentification|Auto generated DefaultIdentification field group|SupportCase<br>Sequence<br>Description
-## CaseActivityKBArticle (Case activity KB article) Entity 
-A KB article that is released as part of a case. 
+## CaseActivityKBArticle (Case activity KB article) Entity
+A KB article that is released as part of a case.
 
 Field | Description
 ---|---
@@ -101,8 +101,8 @@ DefaultDetails|Auto generated DefaultDetails field group|CaseActivity<br>KBArtic
 DefaultLookup|Auto generated DefaultLookup field group|CaseActivity<br>KBArticle<br>Description
 DefaultReport|Auto generated DefaultReport field group|CaseActivity<br>KBArticle<br>Description<br>KBArticleName<br>ArticleValue
 DefaultIdentification|Auto generated DefaultIdentification field group|CaseActivity<br>KBArticle
-## KBArticle (KB article) Entity 
-A KB document that contains reusable steps to solve a case. 
+## KBArticle (KB article) Entity
+A KB document that contains reusable steps to solve a case.
 
 Field | Description
 ---|---

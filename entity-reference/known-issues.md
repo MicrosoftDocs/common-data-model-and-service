@@ -1,13 +1,13 @@
 ---
-title: "Known issues"
+title: "Known issues | Common Data Model"
 description: ""
 author: "robinarh"
 manager: "robinarh"
 ms.date: "08/24/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "be061389-ef79-4861-9210-671b0bdd00ce"
@@ -36,11 +36,11 @@ Customers may notice that the Address data type field name is missing "/Region" 
 
 ### Solution
 
-This is a known issue and the fix is imminent.  To workaround this issue when creating a PowerApp, you can modify the default label that is added on the screen to include "/Region".  Customers using the Data Explorer or Excel add-in will see this resolved automatically once the issue is resolved. 
+This is a known issue and the fix is imminent.  To workaround this issue when creating a PowerApp, you can modify the default label that is added on the screen to include "/Region".  Customers using the Data Explorer or Excel add-in will see this resolved automatically once the issue is resolved.
 
 ## Refresh button in Entity Data Explorer may not work
 
-In certain cases, the refresh button on the Entity Data Explorer view may not correctly refresh the data in the view.  As a result, data that has been added to your database via the Excel Add-in, a PowerApp, or through import may not appear.  
+In certain cases, the refresh button on the Entity Data Explorer view may not correctly refresh the data in the view.  As a result, data that has been added to your database via the Excel Add-in, a PowerApp, or through import may not appear. 
 
 ### Solution
 

@@ -1,13 +1,13 @@
 ---
-title: "Foundation reference"
+title: "Foundation reference | Common Data Model"
 description: ""
 author: ""
 manager: "robinarh"
 ms.date: "08/24/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "c06c0de3-404b-4b44-9d58-6f63760f2a24"
@@ -15,8 +15,8 @@ ms.assetid: "c06c0de3-404b-4b44-9d58-6f63760f2a24"
 
 # Foundation
 
-## BusinessUnit (Business unit) Entity 
-A division or unit within an organization with a defined business function. 
+## BusinessUnit (Business unit) Entity
+A division or unit within an organization with a defined business function.
 
 Field | Description
 ---|---
@@ -57,8 +57,8 @@ DefaultDetails|Auto generated DefaultDetails field group|BusinessUnitId<br>FullN
 DefaultLookup|Auto generated DefaultLookup field group|BusinessUnitId<br>FullName<br>OrganizationName
 DefaultReport|Auto generated DefaultReport field group|BusinessUnitId<br>FullName<br>OrganizationName<br>Description<br>ParentBusinessUnit<br>CostCenter<br>MailingPostalAddress<br>PhonePrimary<br>WebsiteURL<br>EmailPrimary
 DefaultIdentification|Auto generated DefaultIdentification field group|BusinessUnitId<br>FullName
-## CostCenter (Cost center) Entity 
-A department within an organization that does not directly add profits to an organization but costs the organization money to operate. 
+## CostCenter (Cost center) Entity
+A department within an organization that does not directly add profits to an organization but costs the organization money to operate.
 
 Field | Description
 ---|---
@@ -77,8 +77,8 @@ DefaultDetails|Auto generated DefaultDetails field group|CostCenterId<br>Name<br
 DefaultLookup|Auto generated DefaultLookup field group|CostCenterId<br>Name<br>ParentCostCenter
 DefaultReport|Auto generated DefaultReport field group|Description<br>CostCenterId<br>Name<br>ParentCostCenter<br>Organization
 DefaultIdentification|Auto generated DefaultIdentification field group|CostCenterId<br>Name
-## Product (Product) Entity 
- 
+## Product (Product) Entity
+
 
 Field | Description
 ---|---
@@ -103,8 +103,8 @@ DefaultDetails|Auto generated DefaultDetails field group|ProductId<br>Name<br>Pr
 DefaultLookup|Auto generated DefaultLookup field group|ProductId<br>Name<br>ProductType<br>Status
 DefaultReport|Auto generated DefaultReport field group|ProductId<br>Name<br>ProductType<br>ProductCategory<br>Status<br>StandardCostAmount<br>SellingUnitPrice<br>DefaultBuyingUnitOfMeasure<br>DefaultSellingQuantity<br>DefaultStockingUnitOfMeasure
 DefaultIdentification|Auto generated DefaultIdentification field group|ProductId<br>Name
-## ProductCategory (Product category) Entity 
-A product category. 
+## ProductCategory (Product category) Entity
+A product category.
 
 Field | Description
 ---|---
@@ -121,8 +121,8 @@ DefaultDetails|Auto generated DefaultDetails field group|CategoryId<br>Name<br>D
 DefaultLookup|Auto generated DefaultLookup field group|CategoryId<br>Name<br>Description
 DefaultReport|Auto generated DefaultReport field group|CategoryId<br>Name<br>Description
 DefaultIdentification|Auto generated DefaultIdentification field group|CategoryId<br>Name
-## UnitOfMeasureConversion (Unit of measure conversion) Entity 
- 
+## UnitOfMeasureConversion (Unit of measure conversion) Entity
+
 
 Field | Description
 ---|---

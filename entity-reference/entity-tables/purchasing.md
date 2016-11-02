@@ -1,13 +1,13 @@
 ---
-title: "Purchasing reference"
+title: "Purchasing reference | Common Data Model"
 description: ""
 author: ""
 manager: "robinarh"
 ms.date: "08/24/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "b332c83a-cd81-41c0-8ca5-4cd8da77cccf"
@@ -15,8 +15,8 @@ ms.assetid: "b332c83a-cd81-41c0-8ca5-4cd8da77cccf"
 
 # Purchasing
 
-## PurchaseOrder (Purchase order) Entity 
-A first offer for a commercial engagement that the company issues to a supplier. The PurchaseOrder entity indicates the types, quantities, prices, and delivery timelines for products and services. 
+## PurchaseOrder (Purchase order) Entity
+A first offer for a commercial engagement that the company issues to a supplier. The PurchaseOrder entity indicates the types, quantities, prices, and delivery timelines for products and services.
 
 Field | Description
 ---|---
@@ -48,8 +48,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrderId<br>Vend
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description<br>WorkerBuyer<br>VendorContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>VendorInvoice
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderId<br>Description
-## PurchaseOrderCharge (Purchase order charge) Entity 
-A purchase order charge. 
+## PurchaseOrderCharge (Purchase order charge) Entity
+A purchase order charge.
 
 Field | Description
 ---|---
@@ -68,8 +68,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrder<br>Charge
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrder<br>ChargeType<br>Name<br>Amount
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrder<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrder<br>ChargeType
-## PurchaseOrderLine (Purchase order line) Entity 
-A purchase order line item. 
+## PurchaseOrderLine (Purchase order line) Entity
+A purchase order line item.
 
 Field | Description
 ---|---
@@ -101,8 +101,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrder<br>Sequen
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrder<br>Sequence<br>ProductName<br>Status<br>Quantity
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrder<br>Sequence<br>Product<br>ProductName<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>PromisedShipDate<br>MostRecentActualReceiptDate
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrder<br>Sequence<br>ProductName
-## PurchaseOrderLineCharge (Purchase order line charge) Entity 
-A purchase order line item charge. 
+## PurchaseOrderLineCharge (Purchase order line charge) Entity
+A purchase order line item charge.
 
 Field | Description
 ---|---
@@ -121,8 +121,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrderLine<br>Ch
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Amount
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderLine<br>ChargeType
-## PurchaseOrderLineReceipt (Purchase order line receipt) Entity 
-A purchase order line item receipt. 
+## PurchaseOrderLineReceipt (Purchase order line receipt) Entity
+A purchase order line item receipt.
 
 Field | Description
 ---|---
@@ -142,8 +142,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrderLine<br>De
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrderLine<br>Description<br>Quantity<br>Status<br>ActualReceiptDate
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrderLine<br>Description<br>Quantity<br>Status<br>ActualReceiptDate<br>Sequence
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderLine<br>Description
-## PurchaseOrderLineTax (Purchase order line tax) Entity 
-The purchase order line item tax. 
+## PurchaseOrderLineTax (Purchase order line tax) Entity
+The purchase order line item tax.
 
 Field | Description
 ---|---
@@ -163,8 +163,8 @@ DefaultDetails|Auto generated DefaultDetails field group|Name<br>RateCode<br>Tax
 DefaultLookup|Auto generated DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>PurchaseOrderLine
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderLine<br>Name
-## PurchaseOrderTax (Purchase order tax) Entity 
-The tax on a purchase order. 
+## PurchaseOrderTax (Purchase order tax) Entity
+The tax on a purchase order.
 
 Field | Description
 ---|---
@@ -184,8 +184,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrder<br>Name<b
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrder<br>Name
-## Vendor (Vendor) Entity 
- 
+## Vendor (Vendor) Entity
+
 
 Field | Description
 ---|---
@@ -243,8 +243,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorId<br>FullName<br
 DefaultLookup|Auto generated DefaultLookup field group|VendorId<br>FullName<br>Status
 DefaultReport|Auto generated DefaultReport field group|VendorId<br>FullName<br>PersonName<br>Status<br>ParentVendor<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorId<br>FullName
-## VendorInvoice (Vendor invoice) Entity 
- 
+## VendorInvoice (Vendor invoice) Entity
+
 
 Field | Description
 ---|---
@@ -276,8 +276,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoiceId<br>Vend
 DefaultLookup|Auto generated DefaultLookup field group|VendorInvoiceId<br>VendorInvoiceDate<br>Vendor
 DefaultReport|Auto generated DefaultReport field group|VendorInvoiceDate<br>VendorInvoiceId<br>Description<br>Vendor<br>VendorContact<br>Status<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>WorkerBuyer<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount<br>BillingAddress
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoiceId
-## VendorInvoiceCharge (Vendor invoice charge) Entity 
- 
+## VendorInvoiceCharge (Vendor invoice charge) Entity
+
 
 Field | Description
 ---|---
@@ -296,8 +296,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoice<br>Charge
 DefaultLookup|Auto generated DefaultLookup field group|VendorInvoice<br>ChargeType<br>Name<br>Amount
 DefaultReport|Auto generated DefaultReport field group|VendorInvoice<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoice<br>Name
-## VendorInvoiceLine (Vendor invoice line) Entity 
- 
+## VendorInvoiceLine (Vendor invoice line) Entity
+
 
 Field | Description
 ---|---
@@ -326,8 +326,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoice<br>Produc
 DefaultLookup|Auto generated DefaultLookup field group|VendorInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
 DefaultReport|Auto generated DefaultReport field group|VendorInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoice<br>Product
-## VendorInvoiceLineCharge (Vendor Invoice Line Charge) Entity 
- 
+## VendorInvoiceLineCharge (Vendor Invoice Line Charge) Entity
+
 
 Field | Description
 ---|---
@@ -346,8 +346,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoiceLine<br>Ch
 DefaultLookup|Auto generated DefaultLookup field group|VendorInvoiceLine<br>ChargeType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|VendorInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoiceLine<br>Name
-## VendorInvoiceLineTax (Vendor invoice line tax) Entity 
- 
+## VendorInvoiceLineTax (Vendor invoice line tax) Entity
+
 
 Field | Description
 ---|---
@@ -367,8 +367,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoiceLine<br>Na
 DefaultLookup|Auto generated DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|VendorInvoiceLine<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoiceLine<br>Name
-## VendorInvoiceTax (Vendor invoice tax) Entity 
- 
+## VendorInvoiceTax (Vendor invoice tax) Entity
+
 
 Field | Description
 ---|---
