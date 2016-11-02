@@ -1,6 +1,6 @@
 ---
 title: "Purchasing entities | Common Data Model"
-description: ""
+description: "The purchasing entities let you create purchasing solutions and track vendor invoices."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"

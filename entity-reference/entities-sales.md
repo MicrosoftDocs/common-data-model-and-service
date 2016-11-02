@@ -1,6 +1,6 @@
 ---
 title: "Sales entities | Common Data Model"
-description: ""
+description: "The sales entities let you create end-to-end sales solutions."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"

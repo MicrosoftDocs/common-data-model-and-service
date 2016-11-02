@@ -1,6 +1,6 @@
 ---
 title: "Person, organization, and group entities | Common Data Model"
-description: ""
+description: "The people, organizations, and groups entities encompass a rich set of people and organizations that you might interact with."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"

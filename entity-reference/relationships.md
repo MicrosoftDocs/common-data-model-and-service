@@ -1,6 +1,6 @@
 ---
 title: "Relationships between entities | Common Data Model"
-description: ""
+description: "Scenarios are supported by relationship between the entities."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"

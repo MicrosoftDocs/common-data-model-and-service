@@ -1,6 +1,6 @@
 ---
 title: "Versioning entities | Common Data Model"
-description: ""
+description: "Entities created with the Common Data Model during the Public Preview will be not be supported when the Common Data Service (Version 1.0) is released."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"

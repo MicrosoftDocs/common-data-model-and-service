@@ -1,6 +1,6 @@
 ---
 title: "Customer service entities | Common Data Model"
-description: ""
+description: "The customer service entities manage issues from your customers, including tracking, escalation, and documentation."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"

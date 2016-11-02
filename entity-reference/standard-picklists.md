@@ -1,6 +1,6 @@
 ---
 title: "Standard enumerations | Common Data Model"
-description: ""
+description: "The Common Data Model contains a rich set of picklists to support common scenarios."
 author: "robinarh"
 manager: "robinarh"
 ms.date: "11/02/2016"

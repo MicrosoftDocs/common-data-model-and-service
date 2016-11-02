@@ -1,6 +1,6 @@
 ---
 title: "Common Data Service and Common Data Model overview  | Common Data Model"
-description: ""
+description: "The Common Data Service is the Microsoft Azure–based business application model and storage mechanism for the Microsoft business application platform."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"
@@ -13,7 +13,7 @@ audience: "Developer, IT Pro"
 ms.assetid: "c0808105-664f-4146-8adb-82fe4ee6c8b4"
 ---
 
-# Common Data Model overview
+# Common Data Service and Common Data Model overview
 
 The Common Data Service is the Microsoft Azure–based business application model and storage mechanism for the Microsoft business application platform. Together with gateways and connectors, it forms the basis of business solutions that are created by using Microsoft Power BI, Microsoft PowerApps, and Microsoft Flow. The Common Data Service provides common business entities and integration capabilities for importing data from multiple sources, with the goal of bridging the data gap between software as a service (SaaS) workloads and business suites. By using the Common Data Service, you can create analytics that span these separate workloads and suites. The platform provides a rich and productive development platform though the following features: 
 

@@ -1,6 +1,6 @@
 ---
 title: "Privacy notice | Common Data Model"
-description: ""
+description: "Privacy notice."
 author: "robinarh"
 manager: "robinarh"
 ms.date: "10/06/2016"

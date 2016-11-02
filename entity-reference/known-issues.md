@@ -1,6 +1,6 @@
 ---
-title: "Known issues | Common Data Model"
-description: ""
+title: "Known issues | Common Data Service"
+description: "This topic lists known issues in the Common Data Service."
 author: "robinarh"
 manager: "robinarh"
 ms.date: "11/02/2016"

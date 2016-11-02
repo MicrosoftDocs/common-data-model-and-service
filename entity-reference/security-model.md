@@ -1,7 +1,7 @@
 ---
 title: "Security model | Common Data Service"
-description: ""
-author: ""
+description: "The Common Data Service provides a security framework to help protect your data."
+author: "maertenm"
 manager: "robinarh"
 ms.date: "11/02/2016"
 ms.topic: "topic"

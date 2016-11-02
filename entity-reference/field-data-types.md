@@ -1,6 +1,6 @@
 ---
 title: "Field data types | Common Data Model"
-description: ""
+description: "The Common Data Model supports a rich set of field data types."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"

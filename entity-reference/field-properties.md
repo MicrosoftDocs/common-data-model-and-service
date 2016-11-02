@@ -1,6 +1,6 @@
 ---
 title: "Field properties | Common Data Model"
-description: ""
+description: "Some field types have additional properties that affect what you can store in the field."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"

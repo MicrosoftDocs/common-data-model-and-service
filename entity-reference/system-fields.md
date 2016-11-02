@@ -1,6 +1,6 @@
 ---
 title: "System fields | Common Data Model"
-description: ""
+description: "A set of standard fields is included with every entity."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"

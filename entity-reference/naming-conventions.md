@@ -1,6 +1,6 @@
 ---
 title: "Naming conventions | Common Data Model"
-description: ""
+description: "The Common Data Model follows these naming conventions."
 author: ""
 manager: "robinarh"
 ms.date: "11/02/2016"
@@ -15,7 +15,7 @@ ms.assetid: "de678eaa-6ef2-483a-93ec-17ff7b713159"
 
 #Naming conventions
 
-To provide a consistent experience across objects, and to improve discoverability and usability, the CDM follows these naming conventions:
+To provide a consistent experience across objects, and to improve discoverability and usability, the Common Data Model follows these naming conventions:
 
 * Entity names are singular. Examples: Tenant, Volunteer, SalesOrder.
 * Entity ID names are created by appending “ID” to the entity name. Examples: ExpenseID, VolunteerID, FamilyMemberID.

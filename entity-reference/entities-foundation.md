@@ -1,6 +1,6 @@
 ---
 title: "Foundation entities | Common Data Model"
-description: ""
+description: "The foundation entities are used to drive other entities in the Common Data Model."
 author: "clwesene"
 manager: "robinarh"
 ms.date: "11/02/2016"
