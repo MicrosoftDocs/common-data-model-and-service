@@ -13,7 +13,7 @@ audience: "Developer, IT Pro"
 ms.assetid: "be061389-ef79-4861-9210-671b0bdd00ce"
 ---
 
-# Known Issues
+# Known issues
 
 [Cannot save data after changing the title field](/entity-reference/known-issues.md#Cannot-save-data-after-changing-the-title-field "Cannot save data after changing the title field")
 

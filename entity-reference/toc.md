@@ -1,4 +1,4 @@
-# [Introduction](introduction.md)
+# [Common Data Model overview](introduction.md)
 # [Standard entities](standard-entities.md)
 # [Entity field data types](field-data-types.md)
 # [Entity relationships](relationships.md)

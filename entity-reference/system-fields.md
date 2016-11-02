@@ -13,7 +13,7 @@ audience: "Developer, IT Pro"
 ms.assetid: "2fd13f59-0562-4aff-abe0-9eb3b7d49efe"
 ---
 
-# System Fields
+# System fields
 
 A set of standard fields is included with every entity. These fields are used to provide behaviors such as concurrency management, security, and audit trails.
 

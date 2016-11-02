@@ -13,9 +13,9 @@ audience: "Developer, IT Pro"
 ms.assetid: "a3acd7bb-eb94-4c86-854f-9c7c5b526e75"
 ---
 
-# Entity Relationships and Lookup Fields
+# Entity relationships and lookup fields
 
-## Entity Relationship Diagrams
+## Entity relationship diagrams
 
 For each entity group, there is an entity relationship diagram (ERD) that describes the entities and their relationships with each other. An entity is described by an entity object.
 
@@ -39,7 +39,7 @@ The following ERD shows a greatly simplified diagram for a sales order. The inte
 
 The connectors in the ERD also specify which fields are used as the lookup fields between entities. For example, the __Customer__ field in the SalesOrder entity is a lookup of the __RecordID__ field in the Customer entity. Note that the lookup is not on the __CustomerID__ field.
 
-## Referential Integrity
+## Referential integrity
 Referential integrity is implemented on lookup fields to help guarantee that associations between rows in entities are valid. The value of the lookup field (also known as a foreign key) in any referencing entity must always refer to a valid row in the referenced entity (by way of the primary key in the referenced entity). In the CDM, the following rules are applied to maintain referential integrity:
 * The value of a lookup field must match the primary key of a row in the lookup entity. For example, you cannot associate a sales order line with a non-existent sales order.
 * Cascading delete: If a row in the referenced entitiy is deleted, all the associated rows in the referencing entity are deleted. As an example, in the CDM, if a SalesOrder row is deleted, the corresponding SalesOrderCharge, SalesOrderTax, and SalesOrderLine rows are deleted. If a SalesOrderLine row is deleted, corresponding SalesOrderLineTax and SalesOrderLineCharge rows are deleted. The cascading delete rule applies to all entities in a header-line composition.
@@ -47,7 +47,7 @@ Referential integrity is implemented on lookup fields to help guarantee that ass
 
 Referential integrity is maintained when data is added or imported into the CDM. If primary keys do not exist, they are created. If you attempt to import data that would break referential integrity, the import will fail.
 
-## Header-Line Composition
+## Header-line composition
 The header-line composition pattern is implemented on the following entity pairs.
 * Sales Order and Sales Order Line
 * Purchase Order and Purchase Order Line

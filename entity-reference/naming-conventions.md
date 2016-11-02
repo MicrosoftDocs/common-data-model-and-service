@@ -13,7 +13,7 @@ audience: "Developer, IT Pro"
 ms.assetid: "de678eaa-6ef2-483a-93ec-17ff7b713159"
 ---
 
-#Naming Conventions
+#Naming conventions
 
 To provide a consistent experience across objects, and to improve discoverability and usability, the CDM follows these naming conventions:
 

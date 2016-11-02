@@ -15,7 +15,7 @@ ms.assetid: "77b73530-38a4-4dda-966b-000b0a3fb062"
 
 # Foundation entities
 
-The foundation entities are used to drive other entities in the CDM. They contain information that is relevant to nearly every other entity functional group.
+The foundation entities are used to drive other entities in the Common Data Model. They contain information that is relevant to nearly every other entity functional group.
 
 ## Foundation ERD
 

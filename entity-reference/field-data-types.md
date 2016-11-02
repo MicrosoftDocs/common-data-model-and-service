@@ -13,7 +13,7 @@ audience: "Developer, IT Pro"
 ms.assetid: "4d026cd8-6ea5-4f08-a7a6-3cd42b31dd3a"
 ---
 
-# Entity Field Data Types
+# Entity field data types
 
 The following table describes the data types that are used in the entities.
 

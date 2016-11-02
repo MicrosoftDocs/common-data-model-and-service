@@ -13,7 +13,7 @@ audience: "Developer, IT Pro"
 ms.assetid: "45b5e70c-f637-4ef0-9b7c-292c92da3be5"
 ---
 
-# Standard Entities
+# Standard entities
 
 Out of the box, the CDM provides a set of entities that supports key scenarios. For example, the Employee, Contractor, and Company entities support employment scenarios. The PurchaseOrder and PurchaseOrderLine entities support purchasing scenarios. The entities are grouped by function – for example, sales, marketing, and productivity. The model is simpler and, at the same time, more consumable than the models in a full enterprise resource planning (ERP) or customer relationship management (CRM) suite. This simplicity is reflected in the number of entities, the relational structure of those entities, and the number of fields in those entities. All entities have a standard set of fields that drive the core capabilities of the platform.
 
