@@ -1,9 +1,9 @@
 ---
 title: "Sales reference | Common Data Model"
-description: ""
-author: ""
+description: "The sales entities let you create end-to-end sales solutions."
+author: "robinarh"
 manager: "robinarh"
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -13,20 +13,20 @@ audience: "Developer, IT Pro"
 ms.assetid: "9ba908bd-88f9-4236-96be-401c9da4d3a2"
 ---
 
-# Sales
-
-## Account (Account) Entity
+# Sales reference 
+## Account (Account) Entity 
+A person or organization that buys offered goods or services. 
 
 Field | Description
 ---|---
-AccountId<br>Primary key | Number sequence: <br>Unique
+AccountId<br>Primary key | Number sequence: <br>Unique, Searchable
 Birthdate | Data: Date
 Description | Data: Text<br>Maximum length: 128
 DUNSNumber | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 IndustryCode | Data: Picklist
 IsEmailContactAllowed | Data: Boolean<br>Required
@@ -59,17 +59,19 @@ TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
-DefaultList|Auto generated DefaultList field group|AccountId<br>FullName<br>Status<br>PhonePrimary<br>WebsiteURL
-DefaultCard|Auto generated DefaultCard field group|AccountId<br>FullName<br>Status
-DefaultDetails|Auto generated DefaultDetails field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary<br>MailingPostalAddress<br>ShippingPostalAddress
-DefaultLookup|Auto generated DefaultLookup field group|AccountId<br>FullName<br>Status
-DefaultReport|Auto generated DefaultReport field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
-DefaultIdentification|Auto generated DefaultIdentification field group|AccountId<br>FullName
-## Lead (Lead) Entity
-A person who is interested in receiving information about the products or services that the company offers.
+DefaultCreate|DefaultCreate field group|FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
+DefaultList|DefaultList field group|AccountId<br>FullName<br>Status<br>PhonePrimary<br>WebsiteURL
+DefaultCard|DefaultCard field group|AccountId<br>FullName<br>Status
+DefaultDetails|DefaultDetails field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary<br>MailingPostalAddress<br>ShippingPostalAddress
+DefaultLookup|DefaultLookup field group|AccountId<br>FullName<br>Status
+DefaultReport|DefaultReport field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
+DefaultIdentification|DefaultIdentification field group|AccountId<br>FullName
+## Lead (Lead) Entity 
+Lead table can store information about individuals who are interested in receiving information about the products or services offered by the company. 
 
 Field | Description
 ---|---
@@ -77,16 +79,16 @@ Birthdate | Data: Date
 Description | Data: Text<br>Maximum length: 128
 DUNSNumber | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 Generation | Data: Text<br>Maximum length: 128
 IndustryCode | Data: Picklist
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
-LeadId<br>Primary key | Number sequence: <br>Unique
+LeadId<br>Primary key | Number sequence: <br>Unique, Searchable
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
@@ -114,17 +116,19 @@ TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|PersonName<br>Status<br>WebsiteURL
-DefaultList|Auto generated DefaultList field group|LeadId<br>FullName<br>Status<br>WebsiteURL<br>Source
-DefaultCard|Auto generated DefaultCard field group|LeadId<br>FullName<br>Status
-DefaultDetails|Auto generated DefaultDetails field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>Description<br>PhonePrimary<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
-DefaultLookup|Auto generated DefaultLookup field group|LeadId<br>FullName<br>Status
-DefaultReport|Auto generated DefaultReport field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>PhonePrimary<br>EmailPrimary
-DefaultIdentification|Auto generated DefaultIdentification field group|LeadId<br>FullName
-## Opportunity (Opportunity) Entity
-Information about potential sales to new or established customers.
+DefaultCreate|DefaultCreate field group|PersonName<br>Status<br>WebsiteURL
+DefaultList|DefaultList field group|LeadId<br>FullName<br>Status<br>WebsiteURL<br>Source
+DefaultCard|DefaultCard field group|LeadId<br>FullName<br>Status
+DefaultDetails|DefaultDetails field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>Description<br>PhonePrimary<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
+DefaultLookup|DefaultLookup field group|LeadId<br>FullName<br>Status
+DefaultReport|DefaultReport field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>PhonePrimary<br>EmailPrimary
+DefaultIdentification|DefaultIdentification field group|LeadId<br>FullName
+## Opportunity (Opportunity) Entity 
+Opportunity table can track information about potential sales to new or established customers. 
 
 Field | Description
 ---|---
@@ -137,7 +141,7 @@ EstimatedValueAmount | Data: Currency<br>Required, Decimal places: 6
 IndustryCode | Data: Picklist<br>Required
 Name | Data: Text<br>Required, Maximum length: 128
 NextFollowupDate | Data: Date<br>Description: Next follow-up date
-OpportunityId<br>Primary key | Number sequence: <br>Unique
+OpportunityId<br>Primary key | Number sequence: <br>Unique, Searchable
 OriginalEstimatedValueAmount | Data: Currency<br>Required, Decimal places: 6
 ParentOpportunity | Lookup: Opportunity
 PurchaseProcess | Data: Picklist<br>Required
@@ -147,26 +151,28 @@ SalesStage | Data: Picklist
 Source | Data: Picklist<br>Required
 Status | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description
-DefaultList|Auto generated DefaultList field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame
-DefaultCard|Auto generated DefaultCard field group|OpportunityId<br>Name<br>Status
-DefaultDetails|Auto generated DefaultDetails field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description<br>CreatedDate<br>Source<br>IndustryCode<br>RatingCode
-DefaultLookup|Auto generated DefaultLookup field group|OpportunityId<br>Name<br>Status
-DefaultReport|Auto generated DefaultReport field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description<br>CreatedDate<br>Source<br>IndustryCode<br>RatingCode
-DefaultIdentification|Auto generated DefaultIdentification field group|OpportunityId<br>Name
-## Partner (Partner) Entity
-A person, organization, or group that a company partners with.
+DefaultCreate|DefaultCreate field group|Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description
+DefaultList|DefaultList field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame
+DefaultCard|DefaultCard field group|OpportunityId<br>Name<br>Status
+DefaultDetails|DefaultDetails field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description<br>CreatedDate<br>Source<br>IndustryCode<br>RatingCode
+DefaultLookup|DefaultLookup field group|OpportunityId<br>Name<br>Status
+DefaultReport|DefaultReport field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description<br>CreatedDate<br>Source<br>IndustryCode<br>RatingCode
+DefaultIdentification|DefaultIdentification field group|OpportunityId<br>Name
+## Partner (Partner) Entity 
+An organization that takes part in a business relationship with another organization with shared risks and profits. 
 
 Field | Description
 ---|---
 Description | Data: Text<br>Maximum length: 128
 DUNSNumber | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 IndustryCode | Data: Picklist
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
@@ -176,7 +182,7 @@ MailingPostalAddress | Data: Address<br>Description: Mailing postal address line
 OrganizationName | Data: Text<br>Maximum length: 128
 OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
 ParentPartner | Lookup: Partner
-PartnerId<br>Primary key | Number sequence: <br>Unique
+PartnerId<br>Primary key | Number sequence: <br>Unique, Searchable
 PartyType | Data: Picklist<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -198,17 +204,19 @@ TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|PhonePrimary<br>ParentPartner<br>WebsiteURL
-DefaultList|Auto generated DefaultList field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL
-DefaultCard|Auto generated DefaultCard field group|PartnerId<br>FullName<br>PhonePrimary
-DefaultDetails|Auto generated DefaultDetails field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>Description<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
-DefaultLookup|Auto generated DefaultLookup field group|PartnerId<br>FullName<br>PhonePrimary
-DefaultReport|Auto generated DefaultReport field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
-DefaultIdentification|Auto generated DefaultIdentification field group|PartnerId<br>FullName
-## SalesInvoice (Sales invoice) Entity
-A sales invoice.
+DefaultCreate|DefaultCreate field group|PhonePrimary<br>ParentPartner<br>WebsiteURL
+DefaultList|DefaultList field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL
+DefaultCard|DefaultCard field group|PartnerId<br>FullName<br>PhonePrimary
+DefaultDetails|DefaultDetails field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>Description<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
+DefaultLookup|DefaultLookup field group|PartnerId<br>FullName<br>PhonePrimary
+DefaultReport|DefaultReport field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
+DefaultIdentification|DefaultIdentification field group|PartnerId<br>FullName
+## SalesInvoice (Sales invoice) Entity 
+An invoice sent to a customer to document the customer's liability for a purchase. 
 
 Field | Description
 ---|---
@@ -223,7 +231,7 @@ InvoiceDate | Data: DateTime<br>Required
 Name | Data: Text<br>Maximum length: 60
 Opportunity | Lookup: Opportunity
 PaymentTerms | Data: Picklist
-SalesInvoiceId<br>Primary key | Number sequence: <br>Unique
+SalesInvoiceId<br>Primary key | Number sequence: <br>Unique, Searchable
 SalesOrder | Lookup: SalesOrder
 SalesPersonWorker | Lookup: Worker
 ShippingMethod | Data: Picklist
@@ -233,17 +241,19 @@ TotalChargeAmount | Data: Currency<br>Decimal places: 6
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
 TotalTaxAmount | Data: Currency<br>Decimal places: 6
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|InvoiceDate<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress
-DefaultList|Auto generated DefaultList field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Account<br>CustomerPurchaseOrderReference<br>Status<br>TotalAmount
-DefaultCard|Auto generated DefaultCard field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Account<br>Status<br>TotalAmount
-DefaultDetails|Auto generated DefaultDetails field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>SalesPersonWorker<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
-DefaultLookup|Auto generated DefaultLookup field group|SalesInvoiceId<br>InvoiceDate<br>Name<br>Account
-DefaultReport|Auto generated DefaultReport field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>SalesPersonWorker<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoiceId<br>Name
-## SalesInvoiceCharge (Sales invoice charge) Entity
-A sales invoice charge.
+DefaultCreate|DefaultCreate field group|InvoiceDate<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress
+DefaultList|DefaultList field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Account<br>CustomerPurchaseOrderReference<br>Status<br>TotalAmount
+DefaultCard|DefaultCard field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Account<br>Status<br>TotalAmount
+DefaultDetails|DefaultDetails field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>SalesPersonWorker<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
+DefaultLookup|DefaultLookup field group|SalesInvoiceId<br>InvoiceDate<br>Name<br>Account
+DefaultReport|DefaultReport field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>SalesPersonWorker<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
+DefaultIdentification|DefaultIdentification field group|SalesInvoiceId<br>Name
+## SalesInvoiceCharge (Sales invoice charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole invoice. 
 
 Field | Description
 ---|---
@@ -253,17 +263,19 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 SalesInvoice<br>Primary key | Lookup: SalesInvoice<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultList|Auto generated DefaultList field group|SalesInvoice<br>ChargeType<br>Name<br>Amount
-DefaultCard|Auto generated DefaultCard field group|SalesInvoice<br>ChargeType<br>Name<br>Amount
-DefaultDetails|Auto generated DefaultDetails field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultLookup|Auto generated DefaultLookup field group|SalesInvoice<br>ChargeType<br>Amount
-DefaultReport|Auto generated DefaultReport field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoice<br>Name
-## SalesInvoiceLine (Sales invoice line) Entity
-A sales invoice line item.
+DefaultCreate|DefaultCreate field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|SalesInvoice<br>ChargeType<br>Name<br>Amount
+DefaultCard|DefaultCard field group|SalesInvoice<br>ChargeType<br>Name<br>Amount
+DefaultDetails|DefaultDetails field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|SalesInvoice<br>ChargeType<br>Amount
+DefaultReport|DefaultReport field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>Name
+## SalesInvoiceLine (Sales invoice line) Entity 
+A component of a sales invoice that contains a portion of the invoiced amount including information such as product, quantity, and price. 
 
 Field | Description
 ---|---
@@ -284,17 +296,19 @@ TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
 TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6
 UnitPrice | Data: Currency<br>Required, Decimal places: 6
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|SalesInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity
-DefaultList|Auto generated DefaultList field group|SalesInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount
-DefaultCard|Auto generated DefaultCard field group|SalesInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
-DefaultDetails|Auto generated DefaultDetails field group|SalesInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
-DefaultLookup|Auto generated DefaultLookup field group|SalesInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
-DefaultReport|Auto generated DefaultReport field group|SalesInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoice<br>Sequence<br>Product
-## SalesInvoiceLineCharge (Sales invoice line charge) Entity
-A sales invoice line item charge.
+DefaultCreate|DefaultCreate field group|SalesInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity
+DefaultList|DefaultList field group|SalesInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount
+DefaultCard|DefaultCard field group|SalesInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
+DefaultDetails|DefaultDetails field group|SalesInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
+DefaultLookup|DefaultLookup field group|SalesInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
+DefaultReport|DefaultReport field group|SalesInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
+DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>Sequence<br>Product
+## SalesInvoiceLineCharge (Sales invoice line charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the invoice line. 
 
 Field | Description
 ---|---
@@ -304,17 +318,19 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 SalesInvoiceLine<br>Primary key | Lookup: SalesInvoiceLine<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultList|Auto generated DefaultList field group|ChargeType<br>Name<br>Amount
-DefaultCard|Auto generated DefaultCard field group|ChargeType<br>Name<br>Amount
-DefaultDetails|Auto generated DefaultDetails field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultLookup|Auto generated DefaultLookup field group|ChargeType<br>Amount
-DefaultReport|Auto generated DefaultReport field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoiceLine<br>Name
-## SalesInvoiceLineTax (Sales invoice line tax) Entity
-A sales invoice line item tax.
+DefaultCreate|DefaultCreate field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|ChargeType<br>Name<br>Amount
+DefaultCard|DefaultCard field group|ChargeType<br>Name<br>Amount
+DefaultDetails|DefaultDetails field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|ChargeType<br>Amount
+DefaultReport|DefaultReport field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesInvoiceLine<br>Name
+## SalesInvoiceLineTax (Sales invoice line tax) Entity 
+Tax charged on a sales Invoice line. 
 
 Field | Description
 ---|---
@@ -325,17 +341,19 @@ RateCode | Data: Text<br>Maximum length: 60
 SalesInvoiceLine<br>Primary key | Lookup: SalesInvoiceLine<br>Required
 TaxType | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Name<br>RateCode<br>TaxType<br>Amount
-DefaultList|Auto generated DefaultList field group|Name<br>RateCode<br>TaxType<br>Amount
-DefaultCard|Auto generated DefaultCard field group|Name<br>TaxType<br>Amount
-DefaultDetails|Auto generated DefaultDetails field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>SalesInvoiceLine
-DefaultLookup|Auto generated DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
-DefaultReport|Auto generated DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>SalesInvoiceLine
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoiceLine<br>Name
-## SalesInvoiceTax (Sales invoice tax) Entity
-The tax on a sales invoice.
+DefaultCreate|DefaultCreate field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultList|DefaultList field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultCard|DefaultCard field group|Name<br>TaxType<br>Amount
+DefaultDetails|DefaultDetails field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>SalesInvoiceLine
+DefaultLookup|DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultReport|DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>SalesInvoiceLine
+DefaultIdentification|DefaultIdentification field group|SalesInvoiceLine<br>Name
+## SalesInvoiceTax (Sales invoice tax) Entity 
+Tax charged on a sales Invoice as a whole. 
 
 Field | Description
 ---|---
@@ -346,17 +364,19 @@ RateCode | Data: Text<br>Maximum length: 60
 SalesInvoice<br>Primary key | Lookup: SalesInvoice<br>Required
 TaxType | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount<br>Description
-DefaultList|Auto generated DefaultList field group|SalesInvoice<br>RateCode<br>TaxType<br>Amount
-DefaultCard|Auto generated DefaultCard field group|SalesInvoice<br>TaxType<br>Amount
-DefaultDetails|Auto generated DefaultDetails field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount<br>Description
-DefaultLookup|Auto generated DefaultLookup field group|SalesInvoice<br>RateCode<br>Amount
-DefaultReport|Auto generated DefaultReport field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesInvoice<br>TaxType<br>RateCode
-## SalesOrder (Sales order) Entity
-A sales order.
+DefaultCreate|DefaultCreate field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount<br>Description
+DefaultList|DefaultList field group|SalesInvoice<br>RateCode<br>TaxType<br>Amount
+DefaultCard|DefaultCard field group|SalesInvoice<br>TaxType<br>Amount
+DefaultDetails|DefaultDetails field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount<br>Description
+DefaultLookup|DefaultLookup field group|SalesInvoice<br>RateCode<br>Amount
+DefaultReport|DefaultReport field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>TaxType<br>RateCode
+## SalesOrder (Sales order) Entity 
+An order issued by a business to a customer for selling products and/or services. 
 
 Field | Description
 ---|---
@@ -372,7 +392,7 @@ Name | Data: Text<br>Maximum length: 60
 Opportunity | Lookup: Opportunity
 OrderDate | Data: DateTime<br>Required
 PaymentTerms | Data: Picklist
-SalesOrderId<br>Primary key | Number sequence: <br>Unique
+SalesOrderId<br>Primary key | Number sequence: <br>Unique, Searchable
 SalesPersonWorker | Lookup: Worker
 ShippingMethod | Data: Picklist
 Status | Data: Picklist<br>Required<br>Description: Order status
@@ -381,17 +401,19 @@ TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
 TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact
-DefaultList|Auto generated DefaultList field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>SalesPersonWorker<br>TotalAmount
-DefaultCard|Auto generated DefaultCard field group|SalesOrderId<br>Account<br>OrderDate<br>Status<br>TotalAmount
-DefaultDetails|Auto generated DefaultDetails field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>DeliveryAddress<br>BillingAddress<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
-DefaultLookup|Auto generated DefaultLookup field group|SalesOrderId<br>Account<br>OrderDate<br>Status<br>TotalAmount
-DefaultReport|Auto generated DefaultReport field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact<br>TotalAmount
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrderId<br>Name
-## SalesOrderCharge (Sales order charge) Entity
-A sales order charge.
+DefaultCreate|DefaultCreate field group|Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact
+DefaultList|DefaultList field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>SalesPersonWorker<br>TotalAmount
+DefaultCard|DefaultCard field group|SalesOrderId<br>Account<br>OrderDate<br>Status<br>TotalAmount
+DefaultDetails|DefaultDetails field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>DeliveryAddress<br>BillingAddress<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
+DefaultLookup|DefaultLookup field group|SalesOrderId<br>Account<br>OrderDate<br>Status<br>TotalAmount
+DefaultReport|DefaultReport field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact<br>TotalAmount
+DefaultIdentification|DefaultIdentification field group|SalesOrderId<br>Name
+## SalesOrderCharge (Sales order charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole sales order 
 
 Field | Description
 ---|---
@@ -401,17 +423,19 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 SalesOrder<br>Primary key | Lookup: SalesOrder<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultList|Auto generated DefaultList field group|SalesOrder<br>ChargeType<br>Amount
-DefaultCard|Auto generated DefaultCard field group|SalesOrder<br>ChargeType<br>Amount
-DefaultDetails|Auto generated DefaultDetails field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultLookup|Auto generated DefaultLookup field group|SalesOrder<br>ChargeType<br>Amount
-DefaultReport|Auto generated DefaultReport field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrder<br>ChargeType<br>Name
-## SalesOrderLine (Sales order line) Entity
-A sales order line.
+DefaultCreate|DefaultCreate field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|SalesOrder<br>ChargeType<br>Amount
+DefaultCard|DefaultCard field group|SalesOrder<br>ChargeType<br>Amount
+DefaultDetails|DefaultDetails field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|SalesOrder<br>ChargeType<br>Amount
+DefaultReport|DefaultReport field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesOrder<br>ChargeType<br>Name
+## SalesOrderLine (Sales order line) Entity 
+A component of a sales order that contains a portion of the order amount including information such as product, quantity, and price. 
 
 Field | Description
 ---|---
@@ -433,17 +457,19 @@ TotalChargeAmount | Data: Currency<br>Decimal places: 6
 TotalTaxAmount | Data: Currency<br>Decimal places: 6
 UnitPrice | Data: Currency<br>Decimal places: 6
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|SalesOrder<br>Sequence<br>Product<br>Description<br>Status<br>Quantity<br>UnitPrice<br>LineAmount
-DefaultList|Auto generated DefaultList field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>LineAmount
-DefaultCard|Auto generated DefaultCard field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity
-DefaultDetails|Auto generated DefaultDetails field group|SalesOrder<br>Sequence<br>Product<br>ProductName<br>Description<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>ExpectedShipDate<br>MostRecentActualShipDate<br>DeliveryPostalAddress<br>TotalChargeAmount<br>TotalTaxAmount
-DefaultLookup|Auto generated DefaultLookup field group|SalesOrder<br>ProductName<br>Status<br>Quantity
-DefaultReport|Auto generated DefaultReport field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>ExpectedShipDate<br>MostRecentActualShipDate
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrder<br>Sequence<br>ProductName
-## SalesOrderLineCharge (Sales order line charge) Entity
-A sales order line charge.
+DefaultCreate|DefaultCreate field group|SalesOrder<br>Sequence<br>Product<br>Description<br>Status<br>Quantity<br>UnitPrice<br>LineAmount
+DefaultList|DefaultList field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>LineAmount
+DefaultCard|DefaultCard field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity
+DefaultDetails|DefaultDetails field group|SalesOrder<br>Sequence<br>Product<br>ProductName<br>Description<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>ExpectedShipDate<br>MostRecentActualShipDate<br>DeliveryPostalAddress<br>TotalChargeAmount<br>TotalTaxAmount
+DefaultLookup|DefaultLookup field group|SalesOrder<br>ProductName<br>Status<br>Quantity
+DefaultReport|DefaultReport field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>ExpectedShipDate<br>MostRecentActualShipDate
+DefaultIdentification|DefaultIdentification field group|SalesOrder<br>Sequence<br>ProductName
+## SalesOrderLineCharge (Sales order line charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the sales order line. 
 
 Field | Description
 ---|---
@@ -453,17 +479,19 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 SalesOrderLine<br>Primary key | Lookup: SalesOrderLine<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultList|Auto generated DefaultList field group|ChargeType<br>Amount
-DefaultCard|Auto generated DefaultCard field group|ChargeType<br>Amount
-DefaultDetails|Auto generated DefaultDetails field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultLookup|Auto generated DefaultLookup field group|SalesOrderLine<br>Amount<br>ChargeType
-DefaultReport|Auto generated DefaultReport field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrderLine<br>ChargeType<br>Name
-## SalesOrderLineShipment (Sales order line shipment) Entity
-Shipment details for a line on sales order. A single line item on a sales order can be split and shipped to different addresses.
+DefaultCreate|DefaultCreate field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|ChargeType<br>Amount
+DefaultCard|DefaultCard field group|ChargeType<br>Amount
+DefaultDetails|DefaultDetails field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|SalesOrderLine<br>Amount<br>ChargeType
+DefaultReport|DefaultReport field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>ChargeType<br>Name
+## SalesOrderLineShipment (Sales order line shipment) Entity 
+Delivery schedule for a sales order line. 
 
 Field | Description
 ---|---
@@ -474,17 +502,19 @@ SalesOrderLine<br>Primary key | Lookup: SalesOrderLine<br>Required
 Sequence | Data: Integer<br>Required
 Status | Data: Picklist
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity<br>Status
-DefaultList|Auto generated DefaultList field group|ActualShipDate<br>Description<br>Quantity<br>Status
-DefaultCard|Auto generated DefaultCard field group|ActualShipDate<br>Description<br>Quantity<br>Status
-DefaultDetails|Auto generated DefaultDetails field group|ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity<br>Status
-DefaultLookup|Auto generated DefaultLookup field group|SalesOrderLine<br>ActualShipDate<br>Description<br>Quantity<br>Status
-DefaultReport|Auto generated DefaultReport field group|Status<br>ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrderLine<br>ActualShipDate
-## SalesOrderLineTax (Sales order line tax) Entity
-The tax on a sale order line.
+DefaultCreate|DefaultCreate field group|ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity<br>Status
+DefaultList|DefaultList field group|ActualShipDate<br>Description<br>Quantity<br>Status
+DefaultCard|DefaultCard field group|ActualShipDate<br>Description<br>Quantity<br>Status
+DefaultDetails|DefaultDetails field group|ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity<br>Status
+DefaultLookup|DefaultLookup field group|SalesOrderLine<br>ActualShipDate<br>Description<br>Quantity<br>Status
+DefaultReport|DefaultReport field group|Status<br>ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity
+DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>ActualShipDate
+## SalesOrderLineTax (Sales order line tax) Entity 
+Tax charged on a sales order line. 
 
 Field | Description
 ---|---
@@ -495,17 +525,19 @@ RateCode | Data: Text<br>Maximum length: 60
 SalesOrderLine<br>Primary key | Lookup: SalesOrderLine<br>Required
 TaxType | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description<br>Amount
-DefaultList|Auto generated DefaultList field group|TaxType<br>RateCode<br>Amount
-DefaultCard|Auto generated DefaultCard field group|TaxType<br>Amount
-DefaultDetails|Auto generated DefaultDetails field group|TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description<br>Amount
-DefaultLookup|Auto generated DefaultLookup field group|SalesOrderLine<br>TaxType<br>RateCode<br>Amount
-DefaultReport|Auto generated DefaultReport field group|Amount<br>TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrderLine<br>TaxType<br>RateCode
-## SalesOrderTax (Sales order tax) Entity
-The tax on a sales order.
+DefaultCreate|DefaultCreate field group|TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|TaxType<br>RateCode<br>Amount
+DefaultCard|DefaultCard field group|TaxType<br>Amount
+DefaultDetails|DefaultDetails field group|TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|SalesOrderLine<br>TaxType<br>RateCode<br>Amount
+DefaultReport|DefaultReport field group|Amount<br>TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description
+DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>TaxType<br>RateCode
+## SalesOrderTax (Sales order tax) Entity 
+Tax charged on a sales order as a whole. 
 
 Field | Description
 ---|---
@@ -516,12 +548,14 @@ RateCode | Data: Text<br>Maximum length: 60
 SalesOrder<br>Primary key | Lookup: SalesOrder<br>Required
 TaxType | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
-DefaultList|Auto generated DefaultList field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount
-DefaultCard|Auto generated DefaultCard field group|SalesOrder<br>Name<br>TaxType<br>Amount
-DefaultDetails|Auto generated DefaultDetails field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
-DefaultLookup|Auto generated DefaultLookup field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount
-DefaultReport|Auto generated DefaultReport field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
-DefaultIdentification|Auto generated DefaultIdentification field group|SalesOrder<br>Name
+DefaultCreate|DefaultCreate field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
+DefaultList|DefaultList field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount
+DefaultCard|DefaultCard field group|SalesOrder<br>Name<br>TaxType<br>Amount
+DefaultDetails|DefaultDetails field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
+DefaultLookup|DefaultLookup field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount
+DefaultReport|DefaultReport field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
+DefaultIdentification|DefaultIdentification field group|SalesOrder<br>Name

@@ -1,9 +1,9 @@
 ---
-title: "Person, organization, or group reference | Common Data Model"
-description: ""
-author: ""
+title: "Person, organization, and group reference | Common Data Model"
+description: "The people, organizations, and groups entities encompass a rich set of people and organizations that you might interact with."
+author: "robinarh"
 manager: "robinarh"
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -13,21 +13,20 @@ audience: "Developer, IT Pro"
 ms.assetid: "cb6723ce-88d9-4e54-81a0-2f532965d3be"
 ---
 
-# Person, organization, or group
-
-## Alumnus (Alumnus) Entity
-A graduate of a school.
+# Person, organization, and group reference 
+## Alumnus (Alumnus) Entity 
+A graduate of a school. 
 
 Field | Description
 ---|---
-AlumnusId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+AlumnusId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 Birthdate | Data: Date
 BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 Generation | Data: Text<br>Maximum length: 128
 GraduationClass | Data: Text<br>Maximum length: 128
@@ -54,30 +53,32 @@ Status | Data: Picklist<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Name<br>GraduationClass<br>Status<br>EmailPrimary<br>HomePostalAddress<br>Description<br>FacebookIdentity<br>TwitterIdentity
-DefaultList|Auto generated DefaultList field group|FullName<br>GraduationClass<br>Status<br>EmailPrimary
-DefaultCard|Auto generated DefaultCard field group|FullName<br>GraduationClass<br>PhonePrimary
-DefaultDetails|Auto generated DefaultDetails field group|AlumnusId<br>Name<br>GraduationClass<br>Status<br>EmailPrimary<br>HomePostalAddress<br>Description<br>FacebookIdentity<br>TwitterIdentity
-DefaultLookup|Auto generated DefaultLookup field group|AlumnusId<br>FullName<br>GraduationClass<br>Status
-DefaultReport|Auto generated DefaultReport field group|AlumnusId<br>Name<br>GraduationClass<br>Status<br>EmailPrimary<br>Description<br>FacebookIdentity<br>TwitterIdentity
-DefaultIdentification|Auto generated DefaultIdentification field group|AlumnusId<br>FullName
-## ApplicationUser (Application user) Entity
-
+DefaultCreate|DefaultCreate field group|Name<br>GraduationClass<br>Status<br>EmailPrimary<br>HomePostalAddress<br>Description<br>FacebookIdentity<br>TwitterIdentity
+DefaultList|DefaultList field group|FullName<br>GraduationClass<br>Status<br>EmailPrimary
+DefaultCard|DefaultCard field group|FullName<br>GraduationClass<br>PhonePrimary
+DefaultDetails|DefaultDetails field group|AlumnusId<br>Name<br>GraduationClass<br>Status<br>EmailPrimary<br>HomePostalAddress<br>Description<br>FacebookIdentity<br>TwitterIdentity
+DefaultLookup|DefaultLookup field group|AlumnusId<br>FullName<br>GraduationClass<br>Status
+DefaultReport|DefaultReport field group|AlumnusId<br>Name<br>GraduationClass<br>Status<br>EmailPrimary<br>Description<br>FacebookIdentity<br>TwitterIdentity
+DefaultIdentification|DefaultIdentification field group|AlumnusId<br>FullName
+## ApplicationUser (Application user) Entity 
+Application user 
 
 Field | Description
 ---|---
-AADUserOID<br>Primary key | Data: Text<br>Required, Unique, Maximum length: 36<br>Description: AAD user object ID
-ApplicationUserId | Number sequence: <br>Unique
+AADUserOID<br>Primary key | Data: Text<br>Required, Unique, Searchable, Maximum length: 36<br>Description: AAD user object ID
+ApplicationUserId | Number sequence: <br>Unique, Searchable
 Birthdate | Data: Date
 BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
 BusinessUnit | Lookup: BusinessUnit<br>Required
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email<br>Required, Unique
+EmailPrimary | Data: Email<br>Required, Unique, Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address<br>Description: Home postal address line 1
@@ -103,26 +104,28 @@ Status | Data: Picklist<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Name<br>EmailPrimary<br>Description<br>SocialNetwork01<br>SocialNetworkIdentity01
-DefaultList|Auto generated DefaultList field group|ApplicationUserId<br>FullName<br>Status
-DefaultCard|Auto generated DefaultCard field group|ApplicationUserId<br>FullName<br>EmailPrimary
-DefaultDetails|Auto generated DefaultDetails field group|ApplicationUserId<br>FullName<br>Name<br>EmailPrimary<br>Description<br>SocialNetwork01<br>SocialNetworkIdentity01
-DefaultLookup|Auto generated DefaultLookup field group|ApplicationUserId<br>FullName<br>EmailPrimary
-DefaultReport|Auto generated DefaultReport field group|ApplicationUserId<br>FullName<br>Name<br>EmailPrimary<br>Description<br>SocialNetwork01<br>SocialNetworkIdentity01
-DefaultIdentification|Auto generated DefaultIdentification field group|ApplicationUserId<br>FullName
-## ApplicationUserGroup (Application user group) Entity
-
+DefaultCreate|DefaultCreate field group|Name<br>EmailPrimary<br>Description<br>SocialNetwork01<br>SocialNetworkIdentity01
+DefaultList|DefaultList field group|ApplicationUserId<br>FullName<br>Status
+DefaultCard|DefaultCard field group|ApplicationUserId<br>FullName<br>EmailPrimary
+DefaultDetails|DefaultDetails field group|ApplicationUserId<br>FullName<br>Name<br>EmailPrimary<br>Description<br>SocialNetwork01<br>SocialNetworkIdentity01
+DefaultLookup|DefaultLookup field group|ApplicationUserId<br>FullName<br>EmailPrimary
+DefaultReport|DefaultReport field group|ApplicationUserId<br>FullName<br>Name<br>EmailPrimary<br>Description<br>SocialNetwork01<br>SocialNetworkIdentity01
+DefaultIdentification|DefaultIdentification field group|ApplicationUserId<br>FullName
+## ApplicationUserGroup (Application user group) Entity 
+Application user group 
 
 Field | Description
 ---|---
-ApplicationUserGroupId<br>Primary key | Number sequence: <br>Unique
+ApplicationUserGroupId<br>Primary key | Number sequence: <br>Unique, Searchable
 BusinessUnit | Lookup: BusinessUnit<br>Required
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
-FullName | Data: Text<br>Maximum length: 128
+EmailPrimary | Data: Email<br>Searchable
+FullName | Data: Text<br>Searchable, Maximum length: 128
 IsSecurityPrincipal | Data: Boolean<br>Required
 MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
@@ -133,28 +136,30 @@ Source | Data: Picklist<br>Required
 Status | Data: Picklist<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Status<br>BusinessUnit
-DefaultList|Auto generated DefaultList field group|ApplicationUserGroupId<br>FullName<br>Status
-DefaultCard|Auto generated DefaultCard field group|ApplicationUserGroupId<br>FullName<br>Status
-DefaultDetails|Auto generated DefaultDetails field group|ApplicationUserGroupId<br>FullName<br>Status<br>BusinessUnit
-DefaultLookup|Auto generated DefaultLookup field group|ApplicationUserGroupId<br>FullName<br>Status
-DefaultReport|Auto generated DefaultReport field group|ApplicationUserGroupId<br>FullName<br>Status<br>BusinessUnit
-DefaultIdentification|Auto generated DefaultIdentification field group|ApplicationUserGroupId<br>FullName
-## Constituent (Constituent) Entity
-A member of a group.
+DefaultCreate|DefaultCreate field group|Status<br>BusinessUnit
+DefaultList|DefaultList field group|ApplicationUserGroupId<br>FullName<br>Status
+DefaultCard|DefaultCard field group|ApplicationUserGroupId<br>FullName<br>Status
+DefaultDetails|DefaultDetails field group|ApplicationUserGroupId<br>FullName<br>Status<br>BusinessUnit
+DefaultLookup|DefaultLookup field group|ApplicationUserGroupId<br>FullName<br>Status
+DefaultReport|DefaultReport field group|ApplicationUserGroupId<br>FullName<br>Status<br>BusinessUnit
+DefaultIdentification|DefaultIdentification field group|ApplicationUserGroupId<br>FullName
+## Constituent (Constituent) Entity 
+New Comment 
 
 Field | Description
 ---|---
 Birthdate | Data: Date
 BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
-ConstituentId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+ConstituentId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address<br>Description: Home postal address line 1
@@ -183,27 +188,29 @@ TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Name<br>Status<br>PhoneCell<br>PhoneBusiness<br>EmailPrimary<br>Description<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
-DefaultList|Auto generated DefaultList field group|FullName<br>Status<br>PhoneCell<br>PhoneBusiness<br>EmailPrimary
-DefaultCard|Auto generated DefaultCard field group|ConstituentId<br>FullName<br>Status
-DefaultDetails|Auto generated DefaultDetails field group|ConstituentId<br>FullName<br>Name<br>Status<br>PhoneCell<br>PhoneBusiness<br>EmailPrimary<br>Description<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
-DefaultLookup|Auto generated DefaultLookup field group|ConstituentId<br>FullName
-DefaultReport|Auto generated DefaultReport field group|ConstituentId<br>FullName<br>Name<br>Status<br>PhoneCell<br>PhoneBusiness<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
-DefaultIdentification|Auto generated DefaultIdentification field group|ConstituentId<br>FullName
-## Contact (Contact) Entity
-An individual that a company has a relationship with, such as a customer, a supplier, or a colleague, and the related attributes�postal, electronic, social�attributes for that individual.
+DefaultCreate|DefaultCreate field group|Name<br>Status<br>PhoneCell<br>PhoneBusiness<br>EmailPrimary<br>Description<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
+DefaultList|DefaultList field group|FullName<br>Status<br>PhoneCell<br>PhoneBusiness<br>EmailPrimary
+DefaultCard|DefaultCard field group|ConstituentId<br>FullName<br>Status
+DefaultDetails|DefaultDetails field group|ConstituentId<br>FullName<br>Name<br>Status<br>PhoneCell<br>PhoneBusiness<br>EmailPrimary<br>Description<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
+DefaultLookup|DefaultLookup field group|ConstituentId<br>FullName
+DefaultReport|DefaultReport field group|ConstituentId<br>FullName<br>Name<br>Status<br>PhoneCell<br>PhoneBusiness<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
+DefaultIdentification|DefaultIdentification field group|ConstituentId<br>FullName
+## Contact (Contact) Entity 
+A person who serves as a contact for an organization. 
 
 Field | Description
 ---|---
 Birthdate | Data: Date
 BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
-ContactId<br>Primary key | Number sequence: <br>Unique
+ContactId<br>Primary key | Number sequence: <br>Unique, Searchable
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address<br>Description: Home postal address line 1
@@ -228,26 +235,28 @@ Status | Data: Picklist<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Name<br>PhoneCell<br>PhoneBusiness<br>PhoneHome<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>BusinessPostalAddress<br>WebsiteURL
-DefaultList|Auto generated DefaultList field group|FullName<br>EmailPrimary<br>PhoneBusiness<br>PhoneCell
-DefaultCard|Auto generated DefaultCard field group|FullName<br>PhoneCell<br>EmailPrimary
-DefaultDetails|Auto generated DefaultDetails field group|ContactId<br>FullName<br>Name<br>PhoneCell<br>PhoneBusiness<br>PhoneHome<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>BusinessPostalAddress<br>WebsiteURL
-DefaultLookup|Auto generated DefaultLookup field group|ContactId<br>FullName<br>EmailPrimary
-DefaultReport|Auto generated DefaultReport field group|ContactId<br>FullName<br>Name<br>PhoneCell<br>PhoneBusiness<br>PhoneHome<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>BusinessPostalAddress<br>WebsiteURL
-DefaultIdentification|Auto generated DefaultIdentification field group|FullName<br>EmailPrimary
-## Family (Family) Entity
-A group of related people. Individual family members are described in the FamilyMember entity.
+DefaultCreate|DefaultCreate field group|Name<br>PhoneCell<br>PhoneBusiness<br>PhoneHome<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>BusinessPostalAddress<br>WebsiteURL
+DefaultList|DefaultList field group|FullName<br>EmailPrimary<br>PhoneBusiness<br>PhoneCell
+DefaultCard|DefaultCard field group|FullName<br>PhoneCell<br>EmailPrimary
+DefaultDetails|DefaultDetails field group|ContactId<br>FullName<br>Name<br>PhoneCell<br>PhoneBusiness<br>PhoneHome<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>BusinessPostalAddress<br>WebsiteURL
+DefaultLookup|DefaultLookup field group|ContactId<br>FullName<br>EmailPrimary
+DefaultReport|DefaultReport field group|ContactId<br>FullName<br>Name<br>PhoneCell<br>PhoneBusiness<br>PhoneHome<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>BusinessPostalAddress<br>WebsiteURL
+DefaultIdentification|DefaultIdentification field group|FullName<br>EmailPrimary
+## Family (Family) Entity 
+A group of related people. Individual family members are described in the Family Members table. 
 
 Field | Description
 ---|---
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
-FamilyId<br>Primary key | Number sequence: <br>Unique
+EmailPrimary | Data: Email<br>Searchable
+FamilyId<br>Primary key | Number sequence: <br>Unique, Searchable
 FamilyName | Data: Text<br>Maximum length: 128<br>Description: Organization name
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
 OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
 PartyType | Data: Picklist<br>Required
@@ -260,17 +269,19 @@ Source | Data: Picklist<br>Required
 Status | Data: Picklist<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Status<br>PhonePrimary<br>Description<br>MailingPostalAddress
-DefaultList|Auto generated DefaultList field group|FamilyId<br>FullName<br>Status<br>PhonePrimary
-DefaultCard|Auto generated DefaultCard field group|FamilyId<br>FullName<br>Status<br>PhonePrimary
-DefaultDetails|Auto generated DefaultDetails field group|FamilyId<br>FullName<br>Status<br>PhonePrimary<br>Description<br>MailingPostalAddress
-DefaultLookup|Auto generated DefaultLookup field group|FamilyId<br>FullName<br>Status
-DefaultReport|Auto generated DefaultReport field group|FamilyId<br>FullName<br>Status<br>PhonePrimary
-DefaultIdentification|Auto generated DefaultIdentification field group|FamilyId<br>FullName
-## FamilyMember (Family member) Entity
-A person who is a member of a family.
+DefaultCreate|DefaultCreate field group|Status<br>PhonePrimary<br>Description<br>MailingPostalAddress
+DefaultList|DefaultList field group|FamilyId<br>FullName<br>Status<br>PhonePrimary
+DefaultCard|DefaultCard field group|FamilyId<br>FullName<br>Status<br>PhonePrimary
+DefaultDetails|DefaultDetails field group|FamilyId<br>FullName<br>Status<br>PhonePrimary<br>Description<br>MailingPostalAddress
+DefaultLookup|DefaultLookup field group|FamilyId<br>FullName<br>Status
+DefaultReport|DefaultReport field group|FamilyId<br>FullName<br>Status<br>PhonePrimary
+DefaultIdentification|DefaultIdentification field group|FamilyId<br>FullName
+## FamilyMember (Family member) Entity 
+A person that is a member of a family. 
 
 Field | Description
 ---|---
@@ -280,17 +291,19 @@ Person | Lookup: Person<br>Required
 PrimaryRole | Data: Picklist<br>Required
 Status | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Person<br>PrimaryRole<br>Family<br>Description
-DefaultList|Auto generated DefaultList field group|Person<br>PrimaryRole<br>Family
-DefaultCard|Auto generated DefaultCard field group|Person<br>PrimaryRole<br>Family
-DefaultDetails|Auto generated DefaultDetails field group|Person<br>PrimaryRole<br>Family<br>Description
-DefaultLookup|Auto generated DefaultLookup field group|Person<br>PrimaryRole<br>Family
-DefaultReport|Auto generated DefaultReport field group|Person<br>PrimaryRole<br>Family<br>Description
-DefaultIdentification|Auto generated DefaultIdentification field group|Person<br>Family
-## Fan (Fan) Entity
-A fan of a person, organization, or group.
+DefaultCreate|DefaultCreate field group|Person<br>PrimaryRole<br>Family<br>Description
+DefaultList|DefaultList field group|Person<br>PrimaryRole<br>Family
+DefaultCard|DefaultCard field group|Person<br>PrimaryRole<br>Family
+DefaultDetails|DefaultDetails field group|Person<br>PrimaryRole<br>Family<br>Description
+DefaultLookup|DefaultLookup field group|Person<br>PrimaryRole<br>Family
+DefaultReport|DefaultReport field group|Person<br>PrimaryRole<br>Family<br>Description
+DefaultIdentification|DefaultIdentification field group|Person<br>Family
+## Fan (Fan) Entity 
+A fan of an person, organization, group. 
 
 Field | Description
 ---|---
@@ -298,12 +311,12 @@ Birthdate | Data: Date
 BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FanId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+FanId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 FanSince | Data: Date
 FavoritePlayer | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address<br>Description: Home postal address line 1
@@ -332,25 +345,27 @@ TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Name<br>Status<br>FanSince<br>FavoritePlayer
-DefaultList|Auto generated DefaultList field group|FullName<br>Status<br>FanSince<br>FavoritePlayer
-DefaultCard|Auto generated DefaultCard field group|FanId<br>FullName<br>Status
-DefaultDetails|Auto generated DefaultDetails field group|FanId<br>FullName<br>Name<br>Status<br>FanSince<br>FavoritePlayer
-DefaultLookup|Auto generated DefaultLookup field group|FanId<br>FullName<br>Status<br>FanSince
-DefaultReport|Auto generated DefaultReport field group|FanId<br>FullName<br>Name<br>Status<br>FanSince<br>FavoritePlayer
-DefaultIdentification|Auto generated DefaultIdentification field group|FanId<br>FullName
-## Household (Household) Entity
-A group of individuals who share a living space. Individual household members are described in the HouseholdMember entity.
+DefaultCreate|DefaultCreate field group|Name<br>Status<br>FanSince<br>FavoritePlayer
+DefaultList|DefaultList field group|FullName<br>Status<br>FanSince<br>FavoritePlayer
+DefaultCard|DefaultCard field group|FanId<br>FullName<br>Status
+DefaultDetails|DefaultDetails field group|FanId<br>FullName<br>Name<br>Status<br>FanSince<br>FavoritePlayer
+DefaultLookup|DefaultLookup field group|FanId<br>FullName<br>Status<br>FanSince
+DefaultReport|DefaultReport field group|FanId<br>FullName<br>Name<br>Status<br>FanSince<br>FavoritePlayer
+DefaultIdentification|DefaultIdentification field group|FanId<br>FullName
+## Household (Household) Entity 
+A group of individuals that share a living space. Individual household members are described in the HouseholdMember entity. 
 
 Field | Description
 ---|---
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
-FullName | Data: Text<br>Maximum length: 128
-HouseholdId<br>Primary key | Number sequence: <br>Unique
+EmailPrimary | Data: Email<br>Searchable
+FullName | Data: Text<br>Searchable, Maximum length: 128
+HouseholdId<br>Primary key | Number sequence: <br>Unique, Searchable
 HouseholdName | Data: Text<br>Maximum length: 128<br>Description: Organization name
 MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
 OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
@@ -364,17 +379,19 @@ Source | Data: Picklist<br>Required
 Status | Data: Picklist<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Status<br>PhonePrimary<br>Description<br>MailingPostalAddress
-DefaultList|Auto generated DefaultList field group|FullName<br>Status<br>PhonePrimary
-DefaultCard|Auto generated DefaultCard field group|HouseholdId<br>FullName<br>Status<br>PhonePrimary
-DefaultDetails|Auto generated DefaultDetails field group|HouseholdId<br>FullName<br>Status<br>PhonePrimary<br>Description<br>MailingPostalAddress
-DefaultLookup|Auto generated DefaultLookup field group|HouseholdId<br>FullName<br>Status
-DefaultReport|Auto generated DefaultReport field group|HouseholdId<br>FullName<br>Status<br>PhonePrimary<br>Description
-DefaultIdentification|Auto generated DefaultIdentification field group|HouseholdId<br>FullName
-## HouseholdMember (Household member) Entity
-A person who is a member of a household.
+DefaultCreate|DefaultCreate field group|Status<br>PhonePrimary<br>Description<br>MailingPostalAddress
+DefaultList|DefaultList field group|FullName<br>Status<br>PhonePrimary
+DefaultCard|DefaultCard field group|HouseholdId<br>FullName<br>Status<br>PhonePrimary
+DefaultDetails|DefaultDetails field group|HouseholdId<br>FullName<br>Status<br>PhonePrimary<br>Description<br>MailingPostalAddress
+DefaultLookup|DefaultLookup field group|HouseholdId<br>FullName<br>Status
+DefaultReport|DefaultReport field group|HouseholdId<br>FullName<br>Status<br>PhonePrimary<br>Description
+DefaultIdentification|DefaultIdentification field group|HouseholdId<br>FullName
+## HouseholdMember (Household member) Entity 
+A person that is a member of a household. 
 
 Field | Description
 ---|---
@@ -384,26 +401,28 @@ Person | Lookup: Person<br>Required
 PrimaryRole | Data: Picklist<br>Required
 Status | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Household<br>Person<br>PrimaryRole<br>Description
-DefaultList|Auto generated DefaultList field group|Person<br>Household<br>PrimaryRole
-DefaultCard|Auto generated DefaultCard field group|Household<br>Person<br>PrimaryRole
-DefaultDetails|Auto generated DefaultDetails field group|Household<br>Person<br>PrimaryRole<br>Description
-DefaultLookup|Auto generated DefaultLookup field group|Household<br>Person<br>PrimaryRole
-DefaultReport|Auto generated DefaultReport field group|Household<br>Person<br>PrimaryRole
-DefaultIdentification|Auto generated DefaultIdentification field group|Person<br>Household
-## Organization (Organization) Entity
-
+DefaultCreate|DefaultCreate field group|Household<br>Person<br>PrimaryRole<br>Description
+DefaultList|DefaultList field group|Person<br>Household<br>PrimaryRole
+DefaultCard|DefaultCard field group|Household<br>Person<br>PrimaryRole
+DefaultDetails|DefaultDetails field group|Household<br>Person<br>PrimaryRole<br>Description
+DefaultLookup|DefaultLookup field group|Household<br>Person<br>PrimaryRole
+DefaultReport|DefaultReport field group|Household<br>Person<br>PrimaryRole
+DefaultIdentification|DefaultIdentification field group|Person<br>Household
+## Organization (Organization) Entity 
+Organization 
 
 Field | Description
 ---|---
 Description | Data: Text<br>Maximum length: 128
 DUNSNumber | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 IndustryCode | Data: Picklist
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsInternal | Data: Boolean<br>Required
@@ -411,7 +430,7 @@ IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-OrganizationId<br>Primary key | Number sequence: <br>Unique
+OrganizationId<br>Primary key | Number sequence: <br>Unique, Searchable
 OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
 ParentOrganization | Lookup: Organization
 PartyType | Data: Picklist<br>Required
@@ -436,24 +455,26 @@ TwitterIdentity | Data: Text<br>Maximum length: 128
 Type | Data: Picklist<br>Required<br>Description: OrganizationType
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Description<br>ParentOrganization<br>PhonePrimary<br>EmailPrimary<br>MailingPostalAddress
-DefaultList|Auto generated DefaultList field group|OrganizationId<br>FullName<br>Description<br>ParentOrganization
-DefaultCard|Auto generated DefaultCard field group|OrganizationId<br>FullName
-DefaultDetails|Auto generated DefaultDetails field group|OrganizationId<br>FullName<br>Description<br>ParentOrganization<br>PhonePrimary<br>EmailPrimary<br>MailingPostalAddress<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>TaxIdentificationNumber<br>StockTicker
-DefaultLookup|Auto generated DefaultLookup field group|OrganizationId<br>FullName
-DefaultReport|Auto generated DefaultReport field group|OrganizationId<br>FullName<br>Description<br>ParentOrganization<br>PhonePrimary<br>EmailPrimary<br>TaxIdentificationNumber<br>StockTicker
-DefaultIdentification|Auto generated DefaultIdentification field group|OrganizationId<br>FullName
-## Team (Team) Entity
-A team in an organization or group. Individual team members are described in the TeamMember entity.
+DefaultCreate|DefaultCreate field group|Description<br>ParentOrganization<br>PhonePrimary<br>EmailPrimary<br>MailingPostalAddress
+DefaultList|DefaultList field group|OrganizationId<br>FullName<br>Description<br>ParentOrganization
+DefaultCard|DefaultCard field group|OrganizationId<br>FullName
+DefaultDetails|DefaultDetails field group|OrganizationId<br>FullName<br>Description<br>ParentOrganization<br>PhonePrimary<br>EmailPrimary<br>MailingPostalAddress<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>TaxIdentificationNumber<br>StockTicker
+DefaultLookup|DefaultLookup field group|OrganizationId<br>FullName
+DefaultReport|DefaultReport field group|OrganizationId<br>FullName<br>Description<br>ParentOrganization<br>PhonePrimary<br>EmailPrimary<br>TaxIdentificationNumber<br>StockTicker
+DefaultIdentification|DefaultIdentification field group|OrganizationId<br>FullName
+## Team (Team) Entity 
+A group of persons who participate together in a defined effort. 
 
 Field | Description
 ---|---
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
-FullName | Data: Text<br>Maximum length: 128
+EmailPrimary | Data: Email<br>Searchable
+FullName | Data: Text<br>Searchable, Maximum length: 128
 MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
 OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
 PartyType | Data: Picklist<br>Required
@@ -464,21 +485,23 @@ PhonePrimary | Data: Phone
 ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
 Source | Data: Picklist<br>Required
 Status | Data: Picklist<br>Required
-TeamId<br>Primary key | Number sequence: <br>Unique
+TeamId<br>Primary key | Number sequence: <br>Unique, Searchable
 TeamName | Data: Text<br>Maximum length: 128<br>Description: Organization name
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Description<br>Status<br>PhonePrimary<br>EmailPrimary
-DefaultList|Auto generated DefaultList field group|FullName<br>Status<br>PhonePrimary<br>EmailPrimary
-DefaultCard|Auto generated DefaultCard field group|FullName<br>Status<br>PhonePrimary<br>EmailPrimary
-DefaultDetails|Auto generated DefaultDetails field group|TeamId<br>FullName<br>Description<br>Status<br>PhonePrimary<br>EmailPrimary
-DefaultLookup|Auto generated DefaultLookup field group|TeamId<br>FullName<br>Status<br>PhonePrimary<br>EmailPrimary
-DefaultReport|Auto generated DefaultReport field group|TeamId<br>FullName<br>Description<br>Status<br>PhonePrimary<br>EmailPrimary
-DefaultIdentification|Auto generated DefaultIdentification field group|TeamId<br>FullName
-## TeamMember (Team member) Entity
-A person who is a member of a team.
+DefaultCreate|DefaultCreate field group|Description<br>Status<br>PhonePrimary<br>EmailPrimary
+DefaultList|DefaultList field group|FullName<br>Status<br>PhonePrimary<br>EmailPrimary
+DefaultCard|DefaultCard field group|FullName<br>Status<br>PhonePrimary<br>EmailPrimary
+DefaultDetails|DefaultDetails field group|TeamId<br>FullName<br>Description<br>Status<br>PhonePrimary<br>EmailPrimary
+DefaultLookup|DefaultLookup field group|TeamId<br>FullName<br>Status<br>PhonePrimary<br>EmailPrimary
+DefaultReport|DefaultReport field group|TeamId<br>FullName<br>Description<br>Status<br>PhonePrimary<br>EmailPrimary
+DefaultIdentification|DefaultIdentification field group|TeamId<br>FullName
+## TeamMember (Team member) Entity 
+A person who is a member of a team. 
 
 Field | Description
 ---|---
@@ -488,17 +511,19 @@ PrimaryRole | Data: Picklist<br>Required
 Status | Data: Picklist<br>Required
 Team<br>Primary key | Lookup: Team<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Person<br>Team<br>PrimaryRole
-DefaultList|Auto generated DefaultList field group|Person<br>Team<br>PrimaryRole
-DefaultCard|Auto generated DefaultCard field group|Person<br>Team<br>PrimaryRole
-DefaultDetails|Auto generated DefaultDetails field group|Person<br>Team<br>PrimaryRole
-DefaultLookup|Auto generated DefaultLookup field group|Person<br>Team<br>PrimaryRole
-DefaultReport|Auto generated DefaultReport field group|Person<br>Team<br>PrimaryRole
-DefaultIdentification|Auto generated DefaultIdentification field group|Person<br>Team
-## Tenant (Tenant) Entity
-A person, organization, or group that leases space.
+DefaultCreate|DefaultCreate field group|Person<br>Team<br>PrimaryRole
+DefaultList|DefaultList field group|Person<br>Team<br>PrimaryRole
+DefaultCard|DefaultCard field group|Person<br>Team<br>PrimaryRole
+DefaultDetails|DefaultDetails field group|Person<br>Team<br>PrimaryRole
+DefaultLookup|DefaultLookup field group|Person<br>Team<br>PrimaryRole
+DefaultReport|DefaultReport field group|Person<br>Team<br>PrimaryRole
+DefaultIdentification|DefaultIdentification field group|Person<br>Team
+## Tenant (Tenant) Entity 
+A person or organization that leases space. 
 
 Field | Description
 ---|---
@@ -506,9 +531,9 @@ Birthdate | Data: Date
 BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address<br>Description: Home postal address line 1
@@ -534,21 +559,23 @@ Source | Data: Picklist<br>Required
 Status | Data: Picklist<br>Required
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
-TenantId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+TenantId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|PersonName<br>Status<br>PhonePrimary<br>HomePostalAddress
-DefaultList|Auto generated DefaultList field group|FullName<br>Status
-DefaultCard|Auto generated DefaultCard field group|FullName<br>Status
-DefaultDetails|Auto generated DefaultDetails field group|TenantId<br>FullName<br>PersonName<br>Status<br>PhonePrimary<br>HomePostalAddress
-DefaultLookup|Auto generated DefaultLookup field group|TenantId<br>FullName<br>Status
-DefaultReport|Auto generated DefaultReport field group|TenantId<br>FullName<br>PersonName<br>Status<br>PhonePrimary<br>HomePostalAddress
-DefaultIdentification|Auto generated DefaultIdentification field group|TenantId<br>FullName
-## Worker (Worker) Entity
-
+DefaultCreate|DefaultCreate field group|PersonName<br>Status<br>PhonePrimary<br>HomePostalAddress
+DefaultList|DefaultList field group|FullName<br>Status
+DefaultCard|DefaultCard field group|FullName<br>Status
+DefaultDetails|DefaultDetails field group|TenantId<br>FullName<br>PersonName<br>Status<br>PhonePrimary<br>HomePostalAddress
+DefaultLookup|DefaultLookup field group|TenantId<br>FullName<br>Status
+DefaultReport|DefaultReport field group|TenantId<br>FullName<br>PersonName<br>Status<br>PhonePrimary<br>HomePostalAddress
+DefaultIdentification|DefaultIdentification field group|TenantId<br>FullName
+## Worker (Worker) Entity 
+Worker 
 
 Field | Description
 ---|---
@@ -556,9 +583,9 @@ BusinessPostalAddress | Data: Address<br>Description: Business postal address li
 BusinessUnit | Lookup: BusinessUnit<br>Required
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address<br>Description: Home postal address line 1
@@ -584,14 +611,16 @@ Status | Data: Picklist<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 Type | Data: Picklist<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
-WorkerId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+WorkerId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+
+###Field groups
 
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|Auto generated DefaultCreate field group|Name<br>Status<br>Description<br>Manager<br>BusinessUnit
-DefaultList|Auto generated DefaultList field group|WorkerId<br>FullName<br>Status<br>Manager<br>BusinessUnit
-DefaultCard|Auto generated DefaultCard field group|WorkerId<br>FullName<br>Status<br>Manager<br>BusinessUnit
-DefaultDetails|Auto generated DefaultDetails field group|WorkerId<br>FullName<br>Name<br>Status<br>Description<br>Manager<br>BusinessUnit<br>PhoneCell<br>PhoneBusiness<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>HomePostalAddress
-DefaultLookup|Auto generated DefaultLookup field group|WorkerId<br>FullName<br>Status
-DefaultReport|Auto generated DefaultReport field group|WorkerId<br>FullName<br>Name<br>Status<br>Manager<br>BusinessUnit<br>PhoneCell<br>PhoneBusiness<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
-DefaultIdentification|Auto generated DefaultIdentification field group|WorkerId<br>FullName
+DefaultCreate|DefaultCreate field group|Name<br>Status<br>Description<br>Manager<br>BusinessUnit
+DefaultList|DefaultList field group|WorkerId<br>FullName<br>Status<br>Manager<br>BusinessUnit
+DefaultCard|DefaultCard field group|WorkerId<br>FullName<br>Status<br>Manager<br>BusinessUnit
+DefaultDetails|DefaultDetails field group|WorkerId<br>FullName<br>Name<br>Status<br>Description<br>Manager<br>BusinessUnit<br>PhoneCell<br>PhoneBusiness<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>HomePostalAddress
+DefaultLookup|DefaultLookup field group|WorkerId<br>FullName<br>Status
+DefaultReport|DefaultReport field group|WorkerId<br>FullName<br>Name<br>Status<br>Manager<br>BusinessUnit<br>PhoneCell<br>PhoneBusiness<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
+DefaultIdentification|DefaultIdentification field group|WorkerId<br>FullName
