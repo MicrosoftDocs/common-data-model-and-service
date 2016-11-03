@@ -38,3 +38,9 @@ In certain cases, the refresh button on the Entity Data Explorer view may not co
 ### Solution
 
 The fix for this issue is in progress.  To workaround this issue, please reload the page.  You can do this by using your browser's refresh button or navigating back to the Entity list.  Please note that navigating to either "Fields", "Keys", "Relations" or "Field Groups" will not correctly refresh the data.
+
+## Image support is missing at General Availability
+Customers may notice that support for images has been temporarily removed from our General Availability release.  We are actively working on providing a simpler and more performant solution for managing images in the Common Data Service.  We apologize for the inconvenience or confusion this may cause.
+
+### Solution
+We are actively working on a new solution for this.  Please refer to this document to track when the new feature has been released!
