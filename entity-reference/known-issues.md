@@ -26,28 +26,30 @@ To work around this issue, you must first remove lookups to this entity, reapply
 
 
 
-## The Address data type field name might be missing “/Region”
+## Address data type field name might be missing “/Region”
 
-Customers might notice that the Address data type field name is missing “/Region” when it is viewed by using the Data Explorer and the Microsoft Excel Add-in. 
+Customers might notice that the Address data type field name is missing “/Region” when it is viewed by using Entity Data Explorer and the Microsoft Excel Add-in. 
 
 ### Solution
 
-This is a known issue, and the fix is imminent. To work around this issue when you create a PowerApp, you can modify the default label that is added on the screen, so that it includes “/Region.” Customers who use the Data Explorer or the Excel Add-in will see this issue resolved automatically when the fix is released. 
+This is a known issue, and the fix is imminent. To work around this issue, when you create a Microsoft PowerApp, you can modify the default label that is added on the screen, so that it includes “/Region.” Customers who use Entity Data Explorer or the Excel Add-in will see this issue resolved automatically when the fix is released. 
 
 
-## The Refresh button in Entity Data Explorer might not work
+## Refresh button in Entity Data Explorer might not work
 
-In some cases, the Refresh button in the Entity Data Explorer view might not correctly update the data in the view. Therefore, data that has been added to your database via the Excel Add-in, via a PowerApp, or through import might not appear. 
+In some cases, the Refresh button in Entity Data Explorer view might not correctly update the data in the view. Therefore, data that has been added to your database via the Excel Add-in, via a PowerApp, or through import might not appear. 
 
 ### Solution
 
 The fix for this issue is in progress. To work around this issue, reload the page by using your browser’s Refresh button or navigating back to the Entity list. Note that navigating to Fields, Keys, Relations, or Field Groups will correctly update the data.
 
-## Image support is missing at General Availability
-Customers may notice that support for images has been temporarily removed from our General Availability release.  We are actively working on providing a simpler and more performant solution for managing images in the Common Data Service.  We apologize for the inconvenience or confusion this may cause.
+## Image support is missing
+Customers may notice that support for images has been temporarily removed from this release. We are actively working on providing a simpler and more performant solution for managing images in the Common Data Service.
 
 ### Solution
-We are actively working on a new solution for this.  Please refer to this document to track when the new feature has been released!
+We are actively working on a new solution for this and apologize for the inconvenience or confusion this may cause. Please refer to this document to track when the new feature has been released.
+
+### Copyright and Terms of Use
 
 © 2016 Microsoft Corporation. All rights reserved. 
 
