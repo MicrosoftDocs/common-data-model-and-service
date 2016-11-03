@@ -1,9 +1,9 @@
 ---
 title: "Purchasing reference | Common Data Model"
-description: ""
-author: ""
+description: "The purchasing entities let you create purchasing solutions and track vendor invoices."
+author: "robinarh"
 manager: "robinarh"
-ms.date: "11/02/2016"
+ms.date: "11/03/2016"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -13,10 +13,9 @@ audience: "Developer, IT Pro"
 ms.assetid: "b332c83a-cd81-41c0-8ca5-4cd8da77cccf"
 ---
 
-# Purchasing
-
-## PurchaseOrder (Purchase order) Entity
-A first offer for a commercial engagement that the company issues to a supplier. The PurchaseOrder entity indicates the types, quantities, prices, and delivery timelines for products and services.
+# Purchasing reference 
+## PurchaseOrder (Purchase order) Entity 
+An offer for a commercial engagement issued by the company to a vendor to make a purchase. 
 
 Field | Description
 ---|---
@@ -26,7 +25,7 @@ DiscountAmount | Data: Currency<br>Decimal places: 6
 FreightTerms | Data: Picklist
 OrderDate | Data: DateTime<br>Required
 PaymentTerms | Data: Picklist
-PurchaseOrderId<br>Primary key | Number sequence: <br>Unique<br>Description: Order ID
+PurchaseOrderId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Order ID
 ShippingAddress | Data: Address<br>Description: Shipping address line 1
 ShippingMethod | Data: Picklist
 Status | Data: Picklist<br>Required<br>Description: Order status
@@ -39,6 +38,8 @@ VendorContact | Lookup: Contact
 VendorInvoice | Data: Text<br>Maximum length: 128
 WorkerBuyer | Lookup: Worker
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
 DefaultCreate|Auto generated DefaultCreate field group|Vendor<br>OrderDate<br>Description<br>WorkerBuyer<br>VendorContact<br>FreightTerms<br>ShippingMethod<br>ShippingAddress<br>VendorInvoice<br>BillingAddress
@@ -48,8 +49,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrderId<br>Vend
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description<br>WorkerBuyer<br>VendorContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>VendorInvoice
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderId<br>Description
-## PurchaseOrderCharge (Purchase order charge) Entity
-A purchase order charge.
+## PurchaseOrderCharge (Purchase order charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole purchase order. 
 
 Field | Description
 ---|---
@@ -58,6 +59,8 @@ ChargeType | Data: Picklist<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
+
+###Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -68,8 +71,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrder<br>Charge
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrder<br>ChargeType<br>Name<br>Amount
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrder<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrder<br>ChargeType
-## PurchaseOrderLine (Purchase order line) Entity
-A purchase order line item.
+## PurchaseOrderLine (Purchase order line) Entity 
+A component of a purchase order that contains a portion of the total amount including information such as product, quantity, and price. 
 
 Field | Description
 ---|---
@@ -92,6 +95,8 @@ TotalTaxAmount | Data: Currency<br>Decimal places: 6
 UnitPrice | Data: Currency<br>Required, Decimal places: 6
 VendorProductName | Data: Text<br>Maximum length: 60
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
 DefaultCreate|Auto generated DefaultCreate field group|PurchaseOrder<br>Sequence<br>Product<br>Description<br>Quantity<br>Status<br>UnitPrice<br>LineAmount
@@ -101,8 +106,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrder<br>Sequen
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrder<br>Sequence<br>ProductName<br>Status<br>Quantity
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrder<br>Sequence<br>Product<br>ProductName<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>PromisedShipDate<br>MostRecentActualReceiptDate
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrder<br>Sequence<br>ProductName
-## PurchaseOrderLineCharge (Purchase order line charge) Entity
-A purchase order line item charge.
+## PurchaseOrderLineCharge (Purchase order line charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the purchase order line. 
 
 Field | Description
 ---|---
@@ -111,6 +116,8 @@ ChargeType | Data: Picklist<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 PurchaseOrderLine<br>Primary key | Lookup: PurchaseOrderLine<br>Required
+
+###Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -121,8 +128,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrderLine<br>Ch
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Amount
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderLine<br>ChargeType
-## PurchaseOrderLineReceipt (Purchase order line receipt) Entity
-A purchase order line item receipt.
+## PurchaseOrderLineReceipt (Purchase order line receipt) Entity 
+The receipt of product on the line of a purchase order for part or all of the line quantity. 
 
 Field | Description
 ---|---
@@ -133,6 +140,8 @@ Quantity | Data: Quantity<br>Required
 Sequence | Data: Integer<br>Required
 Status | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
 DefaultCreate|Auto generated DefaultCreate field group|PurchaseOrderLine<br>Description<br>Quantity<br>Status<br>ActualReceiptDate<br>Sequence
@@ -142,8 +151,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrderLine<br>De
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrderLine<br>Description<br>Quantity<br>Status<br>ActualReceiptDate
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrderLine<br>Description<br>Quantity<br>Status<br>ActualReceiptDate<br>Sequence
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderLine<br>Description
-## PurchaseOrderLineTax (Purchase order line tax) Entity
-The purchase order line item tax.
+## PurchaseOrderLineTax (Purchase order line tax) Entity 
+Tax incurred on a purchase order line. 
 
 Field | Description
 ---|---
@@ -154,6 +163,8 @@ PurchaseOrderLine<br>Primary key | Lookup: PurchaseOrderLine<br>Required
 RateCode | Data: Text<br>Maximum length: 60
 TaxType | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
 DefaultCreate|Auto generated DefaultCreate field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>PurchaseOrderLine
@@ -163,8 +174,8 @@ DefaultDetails|Auto generated DefaultDetails field group|Name<br>RateCode<br>Tax
 DefaultLookup|Auto generated DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>PurchaseOrderLine
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrderLine<br>Name
-## PurchaseOrderTax (Purchase order tax) Entity
-The tax on a purchase order.
+## PurchaseOrderTax (Purchase order tax) Entity 
+Tax incurred on a purchase order as a whole. 
 
 Field | Description
 ---|---
@@ -175,6 +186,8 @@ PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
 RateCode | Data: Text<br>Maximum length: 60
 TaxType | Data: Picklist<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
 DefaultCreate|Auto generated DefaultCreate field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
@@ -184,8 +197,8 @@ DefaultDetails|Auto generated DefaultDetails field group|PurchaseOrder<br>Name<b
 DefaultLookup|Auto generated DefaultLookup field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
 DefaultIdentification|Auto generated DefaultIdentification field group|PurchaseOrder<br>Name
-## Vendor (Vendor) Entity
-
+## Vendor (Vendor) Entity 
+An organization that has sold products to the customer at least once. 
 
 Field | Description
 ---|---
@@ -193,9 +206,9 @@ Birthdate | Data: Date
 Description | Data: Text<br>Maximum length: 128
 DUNSNumber | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
-EmailPrimary | Data: Email
+EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Data: Picklist
 IndustryCode | Data: Picklist
 IsDisabledOwned | Data: Boolean<br>Description: Disabled owned
@@ -231,8 +244,10 @@ SupplierApprovalStatus | Data: Picklist<br>Required
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
-VendorId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+VendorId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 WebsiteURL | Data: Text<br>Maximum length: 255
+
+###Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -243,8 +258,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorId<br>FullName<br
 DefaultLookup|Auto generated DefaultLookup field group|VendorId<br>FullName<br>Status
 DefaultReport|Auto generated DefaultReport field group|VendorId<br>FullName<br>PersonName<br>Status<br>ParentVendor<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorId<br>FullName
-## VendorInvoice (Vendor invoice) Entity
-
+## VendorInvoice (Vendor invoice) Entity 
+An invoice received from a vendor that documents the liability for a purchase. 
 
 Field | Description
 ---|---
@@ -263,9 +278,11 @@ TotalDiscountAmount | Data: Currency<br>Decimal places: 6
 TotalTaxAmount | Data: Currency<br>Decimal places: 6
 Vendor | Lookup: Vendor<br>Required
 VendorContact | Lookup: Contact
-VendorInvoiceDate | Data: DateTime<br>Required<br>Description: Invoice date
-VendorInvoiceId<br>Primary key | Number sequence: <br>Unique
+VendorInvoiceDate | Data: DateTime<br>Required, Searchable<br>Description: Invoice date
+VendorInvoiceId<br>Primary key | Number sequence: <br>Unique, Searchable
 WorkerBuyer | Lookup: Worker
+
+###Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -276,8 +293,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoiceId<br>Vend
 DefaultLookup|Auto generated DefaultLookup field group|VendorInvoiceId<br>VendorInvoiceDate<br>Vendor
 DefaultReport|Auto generated DefaultReport field group|VendorInvoiceDate<br>VendorInvoiceId<br>Description<br>Vendor<br>VendorContact<br>Status<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>WorkerBuyer<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount<br>BillingAddress
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoiceId
-## VendorInvoiceCharge (Vendor invoice charge) Entity
-
+## VendorInvoiceCharge (Vendor invoice charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole invoice. 
 
 Field | Description
 ---|---
@@ -286,6 +303,8 @@ ChargeType | Data: Picklist<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 VendorInvoice<br>Primary key | Lookup: VendorInvoice<br>Required
+
+###Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -296,8 +315,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoice<br>Charge
 DefaultLookup|Auto generated DefaultLookup field group|VendorInvoice<br>ChargeType<br>Name<br>Amount
 DefaultReport|Auto generated DefaultReport field group|VendorInvoice<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoice<br>Name
-## VendorInvoiceLine (Vendor invoice line) Entity
-
+## VendorInvoiceLine (Vendor invoice line) Entity 
+A component of a vendor invoice that contains a portion of the invoiced amount including information such as product, quantity, and price. 
 
 Field | Description
 ---|---
@@ -317,6 +336,8 @@ UnitPrice | Data: Currency<br>Required, Decimal places: 6
 VendorInvoice<br>Primary key | Lookup: VendorInvoice<br>Required
 VendorProductName | Data: Text<br>Maximum length: 60
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
 DefaultCreate|Auto generated DefaultCreate field group|VendorInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity
@@ -326,8 +347,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoice<br>Produc
 DefaultLookup|Auto generated DefaultLookup field group|VendorInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
 DefaultReport|Auto generated DefaultReport field group|VendorInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoice<br>Product
-## VendorInvoiceLineCharge (Vendor Invoice Line Charge) Entity
-
+## VendorInvoiceLineCharge (Vendor Invoice Line Charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the invoice line. 
 
 Field | Description
 ---|---
@@ -336,6 +357,8 @@ ChargeType | Data: Picklist<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 VendorInvoiceLine<br>Primary key | Lookup: VendorInvoiceLine<br>Required
+
+###Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -346,8 +369,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoiceLine<br>Ch
 DefaultLookup|Auto generated DefaultLookup field group|VendorInvoiceLine<br>ChargeType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|VendorInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoiceLine<br>Name
-## VendorInvoiceLineTax (Vendor invoice line tax) Entity
-
+## VendorInvoiceLineTax (Vendor invoice line tax) Entity 
+Tax charged on a vendor invoice line. 
 
 Field | Description
 ---|---
@@ -358,6 +381,8 @@ RateCode | Data: Text<br>Maximum length: 60
 TaxType | Data: Picklist<br>Required
 VendorInvoiceLine<br>Primary key | Lookup: VendorInvoiceLine<br>Required
 
+###Field groups
+
 Field group | Description | Fields
 ---|---|---
 DefaultCreate|Auto generated DefaultCreate field group|Name<br>RateCode<br>TaxType<br>Amount
@@ -367,8 +392,8 @@ DefaultDetails|Auto generated DefaultDetails field group|VendorInvoiceLine<br>Na
 DefaultLookup|Auto generated DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
 DefaultReport|Auto generated DefaultReport field group|VendorInvoiceLine<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
 DefaultIdentification|Auto generated DefaultIdentification field group|VendorInvoiceLine<br>Name
-## VendorInvoiceTax (Vendor invoice tax) Entity
-
+## VendorInvoiceTax (Vendor invoice tax) Entity 
+Tax charged on a vendor invoice as a whole. 
 
 Field | Description
 ---|---
@@ -378,6 +403,8 @@ Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
 TaxType | Data: Picklist<br>Required
 VendorInvoice<br>Primary key | Lookup: VendorInvoice<br>Required
+
+###Field groups
 
 Field group | Description | Fields
 ---|---|---
