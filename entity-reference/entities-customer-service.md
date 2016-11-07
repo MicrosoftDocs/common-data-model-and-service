@@ -19,8 +19,8 @@ The customer service entities manage issues from your customers, including track
 
 ## Customer service ERD
 
-![Customer Service ERD](/entity-reference/media/customer-service.png "Customer Service ERD")
+![Customer Service ERD](media/customer-service.png "Customer Service ERD")
 
 ## Customer service reference
 
-[Customer service reference](/entity-reference/entity-tables/customer-service.md "Customer Service Reference")
+[Customer service reference](entity-tables/customer-service.md "Customer Service Reference")
