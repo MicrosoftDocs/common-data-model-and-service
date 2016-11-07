@@ -13,8 +13,7 @@ audience: "Developer, IT Pro"
 ms.assetid: "be061389-ef79-4861-9210-671b0bdd00ce"
 ---
 
-# Microsoft Common Data Service
-Known issues
+# Microsoft Common Data Service - Known issues
 
 ## You can’t save data after you change the title field
 
