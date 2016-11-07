@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "standard entities, ERD, person, organization, group"
 audience: "Developer, IT Pro"
 ms.assetid: "c9e7b649-2ee3-4985-986b-0e139259ae6d"
 ---
