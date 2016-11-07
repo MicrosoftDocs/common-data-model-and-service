@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "foundation, person, organization, group, customer service, sales, purchasing, standard entity, standard picklist"
 audience: "Developer, IT Pro"
 ms.assetid: "45b5e70c-f637-4ef0-9b7c-292c92da3be5"
 ---
@@ -22,7 +22,7 @@ The entities are organized into five functional groups.
 Functional Group	| Description
 --- | ---
 Foundation | The Foundation entities contain information that is relevant to nearly every other entity group. This group contains entities such as Address and Currency.
-People, organizations, and groups |	These entities encompass a rich set of people and organizations that you might interact with, including employees, contractors, donors, volunteers, fans, alumni, and families.
+Person, organization, and group |	These entities encompass a rich set of people and organizations that you might interact with, including workers, vendors, tenants, fans, alumni, and families.
 Purchasing |The Purchasing entities let you create purchasing solutions.
 Sales |The Sales entities let you create end-to-end sales solutions, from tracking leads and opportunities, to following through with contacts, to accepting and delivering orders, to sending invoices.
 Customer service | The customer service entities manage issues from your customers, including tracking, escalation, and documentation.
