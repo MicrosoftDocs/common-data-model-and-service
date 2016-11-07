@@ -19,8 +19,8 @@ The people, organizations, and groups entities encompass a rich set of people an
 
 ## People, organizations, and groups ERD
 
-![People ERD](/entity-reference/media/person-organization-group.png "People ERD")
+![People ERD](media/person-organization-group.png "People ERD")
 
 ## Reference
 
-[People, organizations, and groups reference](/entity-reference/entity-tables/person-organization-group.md "People, organizations, and groups reference")
+[People, organizations, and groups reference](entity-tables/person-organization-group.md "People, organizations, and groups reference")
