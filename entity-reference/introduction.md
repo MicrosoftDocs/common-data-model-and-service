@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "overview, introduction"
 audience: "Developer, IT Pro"
 ms.assetid: "c0808105-664f-4146-8adb-82fe4ee6c8b4"
 ---
