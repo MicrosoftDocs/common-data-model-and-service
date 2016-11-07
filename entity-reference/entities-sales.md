@@ -19,14 +19,14 @@ The sales entities let you create end-to-end sales solutions, from tracking lead
 
 ## Sales invoice ERD
 
-![Sales Invoice ERD](/entity-reference/media/sales-invoice.png "Sales invoice ERD")
+![Sales Invoice ERD](media/sales-invoice.png "Sales invoice ERD")
 
 ## Sales order ERD
 
 The sales order is modeled with a header, lines, and deliveries. The delivery enables a single line item to be broken up into shipments to different locations. For example, out of 100 items of a specific product, 60 items are shipped to one location, and 40 items are shipped to another location.
 
-![Sales order ERD](/entity-reference/media/sales-order.png "Sales order ERD")
+![Sales order ERD](media/sales-order.png "Sales order ERD")
 
 ## Reference
 
-[Sales reference](/entity-reference/entity-tables/sales.md "Sales reference")
+[Sales reference](entity-tables/sales.md "Sales reference")
