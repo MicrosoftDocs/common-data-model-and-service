@@ -19,12 +19,12 @@ The purchasing entities let you create purchasing solutions and track vendor inv
 
 ## Purchase order ERD
 
-![Purchase Order ERD](/entity-reference/media/purchase-order.png "Purchase order ERD")
+![Purchase Order ERD](media/purchase-order.png "Purchase order ERD")
 
 ## Vendor invoice ERD
 
-![Supplier Invoice ERD](/entity-reference/media/vendor-invoice.png "Vendor invoice ERD")
+![Supplier Invoice ERD](media/vendor-invoice.png "Vendor invoice ERD")
 
 ## Reference
 
-[Purchasing reference](/entity-reference/entity-tables/purchasing.md "Purchasing reference")
+[Purchasing reference](entity-tables/purchasing.md "Purchasing reference")
