@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "standard entities, ERD, sales, sales invoice, sales order"
 audience: "Developer, IT Pro"
 ms.assetid: "a652c3f2-17b2-4cc6-9492-98d0f9303c02"
 ---
