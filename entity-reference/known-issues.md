@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "known issues, release notes"
 audience: "Developer, IT Pro"
 ms.assetid: "be061389-ef79-4861-9210-671b0bdd00ce"
 ---
