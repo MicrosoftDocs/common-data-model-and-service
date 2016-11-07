@@ -19,8 +19,8 @@ The foundation entities are used to drive other entities in the Common Data Mode
 
 ## Foundation ERD
 
-![Foundation ERD](/entity-reference/media/Foundation.png "Foundation ERD")
+![Foundation ERD](media/Foundation.png "Foundation ERD")
 
 ## Foundation reference
 
-[Foundation reference](/entity-reference/entity-tables/foundation.md "Foundation reference")
+[Foundation reference](entity-tables/foundation.md "Foundation reference")
