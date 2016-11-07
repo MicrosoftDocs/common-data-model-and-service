@@ -1,27 +1,28 @@
 ---
-title: "Field properties"
-description: ""
-author: ""
+title: "Field properties | Common Data Model"
+description: "Some field types have additional properties that affect what you can store in the field."
+author: "clwesene"
 manager: "robinarh"
-ms.date: "08/24/2016"
+ms.date: "11/02/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
-keywords: ""
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
+keywords: "field properties"
 audience: "Developer, IT Pro"
 ms.assetid: "bfa9fd3b-50d0-4063-9308-a02113a3f74b"
 ---
 
-# Entity Field Properties
+# Entity field properties
 
 Some field types have additional properties that affect what you can store in the field.
 
 Property | Applies To | Description
 --- | --- | ---
-Prefix | NumberSequence | The prefix that is used for the number sequence.
-Enumeration | Enumeration | The option set type of the field.
+Default value | Text | The default value of the Text field.
 Max length | Text | The maximum number of characters in a text field.
+Prefix | Number Sequence | The prefix that is used for the number sequence. For Example, using the prefix "SO" on Sales orders to generate a number sequence in the format SO0001.
+Picklist | Picklist | The option set type of the field.
 Required | All | A value is required for the field.
+Searchable | All | The data can be searched.
 Unique | All | Values for the field must be unique across the entity.
-System | All | A field that is included on all entities. The value is set by the system and is read-only.

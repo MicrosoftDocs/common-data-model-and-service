@@ -1,20 +1,18 @@
 ---
-title: "Versioning"
-description: ""
-author: ""
+title: "Versioning entities | Common Data Model"
+description: "Entities created with the Common Data Model during the Public Preview will be not be supported when the Common Data Service (Version 1.0) is released."
+author: "clwesene"
 manager: "robinarh"
-ms.date: "08/24/2016"
+ms.date: "11/02/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
-keywords: ""
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
+keywords: "migration, updates"
 audience: "Developer, IT Pro"
 ms.assetid: "88551aa9-5525-4340-9607-91aa6e6e8dfb"
 ---
 
-# Entity Versioning
+# Entity versioning
 
-Entities created with the Common Data Model (version 0.1) will be not be supported when Common Data Model (version 1.0) is released. Schema compatibility between versions 0.1 and 1.0 is not guaranteed.
-
-The Common Data Model (version 1.0) will provide versioning as entities change over time. Multiple versions of an entity will be supported at the same time, however, entity versions may be deprecated and removed over time with adequate notice and upgrade guidance.
+Entities created with the Common Data Model during the Public Preview will be not be supported when the Common Data Service (Version 1.0) is released. While in some cases there are no or minor changes, other areas have undergone a more significant change based on the feedback received during the preview.

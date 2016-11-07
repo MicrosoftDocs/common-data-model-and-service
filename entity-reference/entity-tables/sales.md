@@ -1,406 +1,561 @@
 ---
-title: "Sales reference"
-description: ""
-author: ""
+title: "Sales reference | Common Data Model"
+description: "The sales entities let you create end-to-end sales solutions."
+author: "robinarh"
 manager: "robinarh"
-ms.date: "08/24/2016"
+ms.date: "11/03/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "9ba908bd-88f9-4236-96be-401c9da4d3a2"
 ---
 
-# Sales
-## Accounts (Accounts) Entity
-Accounts table can store individual accounts of a business such as customers, competitors, and partners.
+# Sales reference 
+## Account (Account) Entity 
+A person or organization that buys offered goods or services. 
 
 Field | Description
 ---|---
-AccountNumber<br>Primary key | Data: Text<br>Required, Unique, Maximum length: 10<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
-AccountStatus | Enumeration: AccountStatusValues: Active, InActive
-Address | Data: Text<br>Maximum length: 250
-DefaultCurrency | Lookup: Currency
-FirstName | Data: Text<br>Maximum length: 25
-IndustryCode | Enumeration: IndustryCodeValues: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
-KnownAs | Data: Text<br>Maximum length: 20
-LastName | Data: Text<br>Maximum length: 25
-MainPhoneNumber | Data: Phone<br>Description: Type the main phone number for this account.
-MiddleName | Data: Text<br>Maximum length: 25
-Name | Data: Text<br>Required, Maximum length: 60<br>Description: Type the company or business name.
-NameAlias | Data: Text<br>Maximum length: 20
-PostalAddress | Data: Address
-PrimaryContact | Lookup: Contacts
-PrimaryEmail | Data: Email<br>Description: Type the primary email for this account.
-PrimaryFax | Data: Text<br>Maximum length: 20<br>Description: Type the fax number for this account.
-Type | Enumeration: AccountTypeValues: Organization, Person
+AccountId<br>Primary key | Number sequence: <br>Unique, Searchable
+Birthdate | Data: Date
+Description | Data: Text<br>Maximum length: 128
+DUNSNumber | Data: Text<br>Maximum length: 128
+EmailAlternate | Data: Email
+EmailPrimary | Data: Email<br>Searchable
+FacebookIdentity | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
+Gender | Data: Picklist
+IndustryCode | Data: Picklist
+IsEmailContactAllowed | Data: Boolean<br>Required
+IsPhoneContactAllowed | Data: Boolean<br>Required
+LinkedInIdentity | Data: Text<br>Maximum length: 128
+MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
+OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
+OrganizationName | Data: Text<br>Maximum length: 128
+OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
+ParentAccount | Lookup: Account
+PartyType | Data: Picklist<br>Required
+PersonName | Data: PersonName<br>Description: Given name
+Phone01 | Data: Phone
+Phone02 | Data: Phone
+Phone03 | Data: Phone
+PhonePrimary | Data: Phone
+PrimaryContact | Lookup: Contact
+SatoriId | Data: Text<br>Maximum length: 128
+ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
+SocialNetwork01 | Data: Picklist
+SocialNetwork02 | Data: Picklist
+SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
+SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
+Source | Data: Picklist<br>Required
+Status | Data: Picklist<br>Required
+StockExchange | Data: Picklist
+StockTicker | Data: Text<br>Maximum length: 128
+TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
+TaxIdentificationNumber | Data: Text<br>Maximum length: 128
+TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
-## Contacts (Contacts) Entity
-Contact table can store information about individuals, with whom the company has a relationship, such as a customer, a supplier, or a colleague.
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
+DefaultList|DefaultList field group|AccountId<br>FullName<br>Status<br>PhonePrimary<br>WebsiteURL
+DefaultCard|DefaultCard field group|AccountId<br>FullName<br>Status
+DefaultDetails|DefaultDetails field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary<br>MailingPostalAddress<br>ShippingPostalAddress
+DefaultLookup|DefaultLookup field group|AccountId<br>FullName<br>Status
+DefaultReport|DefaultReport field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
+DefaultIdentification|DefaultIdentification field group|AccountId<br>FullName
+## Lead (Lead) Entity 
+Lead table can store information about individuals who are interested in receiving information about the products or services offered by the company. 
 
 Field | Description
 ---|---
-Account | Lookup: Accounts
-Address | Data: Text<br>Maximum length: 250
-BusinessPhone | Data: Phone
-ContactNumber<br>Primary key | Data: Text<br>Required, Unique, Maximum length: 100
-Email | Data: Email
-FirstName | Data: Text<br>Maximum length: 25
-KnownAs | Data: Text<br>Maximum length: 20
-LastName | Data: Text<br>Maximum length: 25
-MainPhoneNumber | Data: Phone<br>Description: Type the main phone number for this account.
-MiddleName | Data: Text<br>Maximum length: 25
-MobilePhoneNumber | Data: Text<br>Maximum length: 20<br>Description: Type the main phone number for this account.
-Name | Data: Text<br>Maximum length: 60
-PrimaryEmail | Data: Email<br>Description: Type the primary email for this account.
-PrimaryFax | Data: Text<br>Maximum length: 20<br>Description: Type the fax number for this account.
-SecondaryEmail | Data: Email<br>Description: Type the primary email for this account.
-## Customer (Customer) Entity
-An individual or organization that interacts with the company to buy the goods and services that it offers.
-
-Field | Description
----|---
-BillingPostalAddress | Data: Address
-BusinessPhone | Data: Phone
-CellPhone | Data: Phone
-CustomerId<br>Primary key | Number sequence: <br>Unique
+Birthdate | Data: Date
 Description | Data: Text<br>Maximum length: 128
-Email | Data: Email
-Facebook | Data: Text<br>Maximum length: 128
-FirstName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-FullName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-HomePhone | Data: Phone
-LastName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-Linkedin | Data: Text<br>Maximum length: 128
-MiddleName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-ParentCustomer | Lookup: Customer
-PartyType | Enumeration: PartyTypeValues: Group, Organization, Person<br>Required
+DUNSNumber | Data: Text<br>Maximum length: 128
+EmailAlternate | Data: Email
+EmailPrimary | Data: Email<br>Searchable
+FacebookIdentity | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
+Gender | Data: Picklist
+Generation | Data: Text<br>Maximum length: 128
+IndustryCode | Data: Picklist
+IsEmailContactAllowed | Data: Boolean<br>Required
+IsPhoneContactAllowed | Data: Boolean<br>Required
+IsSecurityPrincipal | Data: Boolean<br>Required
+LeadId<br>Primary key | Number sequence: <br>Unique, Searchable
+LinkedInIdentity | Data: Text<br>Maximum length: 128
+MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
+OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
+OrganizationName | Data: Text<br>Maximum length: 128
+OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
+PartyType | Data: Picklist<br>Required
+PersonName | Data: PersonName<br>Description: Given name
+Phone01 | Data: Phone
+Phone02 | Data: Phone
+Phone03 | Data: Phone
+PhonePrimary | Data: Phone
+Profession | Data: Text<br>Maximum length: 128
 SatoriId | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address
-Status | Enumeration: CustomerStatusValues: Active, Blocked, Inactive
-StockExchange | Enumeration: StockExchangeValues: NYSE
-Thumbnail | Data: Image
-Ticker | Data: Text<br>Maximum length: 10
-Twitter | Data: Text<br>Maximum length: 128
-WebSite | Data: WebsiteUrl
-## Lead (Lead) Entity
-A person who is interested in receiving information about the products or services that the company offers.
+ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
+SocialNetwork01 | Data: Picklist
+SocialNetwork02 | Data: Picklist
+SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
+SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
+Source | Data: Picklist<br>Required
+Status | Data: Picklist<br>Required
+StockExchange | Data: Picklist
+StockTicker | Data: Text<br>Maximum length: 128
+TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
+TaxIdentificationNumber | Data: Text<br>Maximum length: 128
+TwitterIdentity | Data: Text<br>Maximum length: 128
+WebsiteURL | Data: Text<br>Maximum length: 255
 
-Field | Description
----|---
-BusinessPhone | Data: Phone
-CellPhone | Data: Phone
-Description | Data: Text<br>Maximum length: 128
-Email | Data: Email
-Facebook | Data: Text<br>Maximum length: 128
-FirstName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-FullName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-HomePhone | Data: Phone
-LastName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-LeadId<br>Primary key | Number sequence: <br>Unique
-Linkedin | Data: Text<br>Maximum length: 128
-MiddleName | Data: Text<br>Maximum length: 128<br>Description: Type the company or business name.
-PartyType | Enumeration: PartyTypeValues: Group, Organization, Person
-PostalAddress | Data: Address
-SatoriId | Data: Text<br>Maximum length: 128
-SocialScore | Data: Integer
-Source | Enumeration: LeadSourceValues: Advertisement, EmployeeReferral, ExternalReferral, Other, Partner, PublicRelations, Seminar, TradeShow, Web, WordOfMouth
-Status | Enumeration: LeadStatusValues: Cancelled, Contacted, Disqualified, New, NoLongerInterested, Qualified
-StockExchange | Enumeration: StockExchangeValues: NYSE
-Thumbnail | Data: Image
-Ticker | Data: Text<br>Maximum length: 10
-Twitter | Data: Text<br>Maximum length: 128
-WebSite | Data: WebsiteUrl
-## Opportunity (Opportunity) Entity
-Information about potential sales to new or established customers.
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|PersonName<br>Status<br>WebsiteURL
+DefaultList|DefaultList field group|LeadId<br>FullName<br>Status<br>WebsiteURL<br>Source
+DefaultCard|DefaultCard field group|LeadId<br>FullName<br>Status
+DefaultDetails|DefaultDetails field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>Description<br>PhonePrimary<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
+DefaultLookup|DefaultLookup field group|LeadId<br>FullName<br>Status
+DefaultReport|DefaultReport field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>PhonePrimary<br>EmailPrimary
+DefaultIdentification|DefaultIdentification field group|LeadId<br>FullName
+## Opportunity (Opportunity) Entity 
+Opportunity table can track information about potential sales to new or established customers. 
 
 Field | Description
 ---|---
 ActualCloseDate | Data: DateTime
-ActualValueAmount | Data: Currency<br>Decimal places: 6<br>Description: Actual Value
-ActualValueAmountCurrency | Lookup: Currency
-CreatedDate | Data: Date
+ActualValueAmount | Data: Currency<br>Required, Decimal places: 6
+CreatedDate | Data: Date<br>Required
 Description | Data: Text<br>Maximum length: 128
 EstimatedCloseDate | Data: DateTime
-EstimatedValueAmount | Data: Currency<br>Decimal places: 6<br>Description: Estimated Value
-EstimatedValueAmountCurrency | Lookup: Currency
-IndustryCode | Enumeration: IndustryCodeValues: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
-Name | Data: Text<br>Maximum length: 128
-NextFollowupDate | Data: Date
-OpportunityId<br>Primary key | Number sequence: <br>Unique
-OriginalEstimatedValueAmount | Data: Currency<br>Decimal places: 6<br>Description: Original Estimated Value
-OriginalEstimatedValueAmountCurrency | Lookup: Currency
+EstimatedValueAmount | Data: Currency<br>Required, Decimal places: 6
+IndustryCode | Data: Picklist<br>Required
+Name | Data: Text<br>Required, Maximum length: 128
+NextFollowupDate | Data: Date<br>Description: Next follow-up date
+OpportunityId<br>Primary key | Number sequence: <br>Unique, Searchable
+OriginalEstimatedValueAmount | Data: Currency<br>Required, Decimal places: 6
 ParentOpportunity | Lookup: Opportunity
-PurchaseProcess | Enumeration: ProcessValues: Committee, Individual, Unknown<br>Description: Purcahse process
-PurchaseTimeFrame | Enumeration: TimeFrameValues: Day, HalfYear, Hour, Month, Quarter, Trimester, Week, Year
-RatingCode | Enumeration: HotWarmColdValues: Cold, Hot, Warm
-SalesStage | Enumeration: OpportunityStateValues: Lost, Open, Won
-Source | Enumeration: OpportunitySourceValues: Advertisement, EmployeeReferral, ExternalReferral, Other, Partner, PublicRelations, Seminar, TradeShow, Web, WordOfMouth
-Status | Enumeration: OpportunityStatusValues: Canceled, InProgress, OnHold, OutSold, Won
-## OpportunityPartyRole (OpportunityPartyRole) Entity
-OpportunityPartyRole
+PurchaseProcess | Data: Picklist<br>Required
+PurchaseTimeFrame | Data: Picklist<br>Required
+RatingCode | Data: Picklist<br>Required
+SalesStage | Data: Picklist
+Source | Data: Picklist<br>Required
+Status | Data: Picklist<br>Required
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description
+DefaultList|DefaultList field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame
+DefaultCard|DefaultCard field group|OpportunityId<br>Name<br>Status
+DefaultDetails|DefaultDetails field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description<br>CreatedDate<br>Source<br>IndustryCode<br>RatingCode
+DefaultLookup|DefaultLookup field group|OpportunityId<br>Name<br>Status
+DefaultReport|DefaultReport field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description<br>CreatedDate<br>Source<br>IndustryCode<br>RatingCode
+DefaultIdentification|DefaultIdentification field group|OpportunityId<br>Name
+## Partner (Partner) Entity 
+An organization that takes part in a business relationship with another organization with shared risks and profits. 
 
 Field | Description
 ---|---
-Opportunity | Lookup: Opportunity<br>Required
-OpportunityPartyRoleId<br>Primary key | Number sequence: <br>Unique<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
-OpportunityRole | Enumeration: OpportunityRoleValues: Default
-PartyRole | Enumeration: PartyRoleValues: Alumnus, Company, Constituent, Contractor, Customer, Donor, Employee, Fan, Member, NonProfit, Supplier, Tenant, Vendor, Volunteer
-## Partner (Partner) Entity
-A person, organization, or group that a company partners with.
-
-Field | Description
----|---
-BusinessPhone | Data: Phone
-CellPhone | Data: Phone
 Description | Data: Text<br>Maximum length: 128
-Email | Data: Email
-Facebook | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Required, Maximum length: 128<br>Description: Type the company or business name.
-Linkedin | Data: Text<br>Maximum length: 128
+DUNSNumber | Data: Text<br>Maximum length: 128
+EmailAlternate | Data: Email
+EmailPrimary | Data: Email<br>Searchable
+FacebookIdentity | Data: Text<br>Maximum length: 128
+FullName | Data: Text<br>Searchable, Maximum length: 128
+IndustryCode | Data: Picklist
+IsEmailContactAllowed | Data: Boolean<br>Required
+IsPhoneContactAllowed | Data: Boolean<br>Required
+IsSecurityPrincipal | Data: Boolean<br>Required
+LinkedInIdentity | Data: Text<br>Maximum length: 128
+MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
+OrganizationName | Data: Text<br>Maximum length: 128
+OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
 ParentPartner | Lookup: Partner
-PartnerId<br>Primary key | Number sequence: <br>Unique
-PostalAddress | Data: Address
+PartnerId<br>Primary key | Number sequence: <br>Unique, Searchable
+PartyType | Data: Picklist<br>Required
+Phone01 | Data: Phone
+Phone02 | Data: Phone
+Phone03 | Data: Phone
+PhonePrimary | Data: Phone
+PrimaryContact | Lookup: Contact
 SatoriId | Data: Text<br>Maximum length: 128
-StockExchange | Enumeration: StockExchangeValues: NYSE
-Thumbnail | Data: Image
-Ticker | Data: Text<br>Maximum length: 10
-Twitter | Data: Text<br>Maximum length: 128
-WebSite | Data: WebsiteUrl
-## SalesInvoice (Sales Invoice) Entity
-A sales invoice.
+ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
+SocialNetwork01 | Data: Picklist
+SocialNetwork02 | Data: Picklist
+SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
+SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
+Source | Data: Picklist<br>Required
+Status | Data: Picklist<br>Required
+StockExchange | Data: Picklist
+StockTicker | Data: Text<br>Maximum length: 128
+TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
+TaxIdentificationNumber | Data: Text<br>Maximum length: 128
+TwitterIdentity | Data: Text<br>Maximum length: 128
+WebsiteURL | Data: Text<br>Maximum length: 255
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|PhonePrimary<br>ParentPartner<br>WebsiteURL
+DefaultList|DefaultList field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL
+DefaultCard|DefaultCard field group|PartnerId<br>FullName<br>PhonePrimary
+DefaultDetails|DefaultDetails field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>Description<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
+DefaultLookup|DefaultLookup field group|PartnerId<br>FullName<br>PhonePrimary
+DefaultReport|DefaultReport field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
+DefaultIdentification|DefaultIdentification field group|PartnerId<br>FullName
+## SalesInvoice (Sales invoice) Entity 
+An invoice sent to a customer to document the customer's liability for a purchase. 
 
 Field | Description
 ---|---
-BillingAddress | Data: Address
-Customer | Lookup: Customer<br>Required
-CustomerContact | Lookup: Customer
+Account | Lookup: Account<br>Required
+AccountContact | Lookup: Contact
+BillingAddress | Data: Address<br>Description: Address line 1
 CustomerPurchaseOrderReference | Data: Text<br>Maximum length: 20
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Decimal places: 6
-DiscountAmountCurrency | Lookup: Currency
-DiscountPercent | Data: Number
-FreightTerms | Enumeration: FreightTermsValues: FOB, NoCharge
+FreightTerms | Data: Picklist
 InvoiceDate | Data: DateTime<br>Required
 Name | Data: Text<br>Maximum length: 60
 Opportunity | Lookup: Opportunity
-PaymentTerms | Enumeration: PaymentTermsValues: Net30, Net45, Net60, TwoPercent10Net30
-SalesInvoiceId<br>Primary key | Number sequence: <br>Unique<br>Description: Invoice Number
+PaymentTerms | Data: Picklist
+SalesInvoiceId<br>Primary key | Number sequence: <br>Unique, Searchable
 SalesOrder | Lookup: SalesOrder
-SalesPerson | Lookup: Employee
-ShippingMethod | Enumeration: ShippingMethodValues: AirBorne, DHL, Fedex, PostalMail, UPS
-Status | Enumeration: InvoiceStatusValues: Cancelled, Created, Hold, Paid<br>Description: Invoice Status
+SalesPersonWorker | Lookup: Worker
+ShippingMethod | Data: Picklist
+Status | Data: Picklist<br>Description: Invoice status
 TotalAmount | Data: Currency<br>Decimal places: 6
-TotalAmountCurrency | Lookup: Currency
-TotalCharge | Data: Currency<br>Decimal places: 6<br>Description: Total Charges
-TotalChargeCurrency | Lookup: Currency
+TotalChargeAmount | Data: Currency<br>Decimal places: 6
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
-TotalDiscountAmountCurrency | Lookup: Currency
-TotalDiscountPercent | Data: Number
-TotalTax | Data: Currency<br>Decimal places: 6<br>Description: Total Taxes
-TotalTaxCurrency | Lookup: Currency
-## SalesInvoiceCharge (Sales Invoice Charges) Entity
-A sales invoice charge.
+TotalTaxAmount | Data: Currency<br>Decimal places: 6
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|InvoiceDate<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress
+DefaultList|DefaultList field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Account<br>CustomerPurchaseOrderReference<br>Status<br>TotalAmount
+DefaultCard|DefaultCard field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Account<br>Status<br>TotalAmount
+DefaultDetails|DefaultDetails field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>SalesPersonWorker<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
+DefaultLookup|DefaultLookup field group|SalesInvoiceId<br>InvoiceDate<br>Name<br>Account
+DefaultReport|DefaultReport field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>SalesPersonWorker<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
+DefaultIdentification|DefaultIdentification field group|SalesInvoiceId<br>Name
+## SalesInvoiceCharge (Sales invoice charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole invoice. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Charges
-AmountCurrency | Lookup: Currency<br>Required
-ChargeId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Invoice Charge Id
-ChargeType | Enumeration: InvoiceChargeTypeValues: Freight, Insurance, Others
+Amount | Data: Currency<br>Required, Decimal places: 6
+ChargeType | Data: Picklist<br>Required
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
-SalesInvoice | Lookup: SalesInvoice<br>Required
-## SalesInvoiceLine (Sales Invoice Lines) Entity
-A sales invoice line item.
+Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
+SalesInvoice<br>Primary key | Lookup: SalesInvoice<br>Required
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|SalesInvoice<br>ChargeType<br>Name<br>Amount
+DefaultCard|DefaultCard field group|SalesInvoice<br>ChargeType<br>Name<br>Amount
+DefaultDetails|DefaultDetails field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|SalesInvoice<br>ChargeType<br>Amount
+DefaultReport|DefaultReport field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>Name
+## SalesInvoiceLine (Sales invoice line) Entity 
+A component of a sales invoice that contains a portion of the invoiced amount including information such as product, quantity, and price. 
 
 Field | Description
 ---|---
 Description | Data: Text<br>Maximum length: 255
-DiscountAmount | Data: Currency<br>Decimal places: 6
-DiscountAmountCurrency | Lookup: Currency
-DiscountPercent | Data: Number
+DiscountAmount | Data: Currency<br>Required, Decimal places: 6
 ExpectedShipDate | Data: DateTime
-LineAmount | Data: Currency<br>Decimal places: 6
-LineAmountCurrency | Lookup: Currency
+LineAmount | Data: Currency<br>Required, Decimal places: 6
 MostRecentActualShipDate | Data: DateTime
 Name | Data: Text<br>Maximum length: 60
-Product | Lookup: Products
-ProductName | Data: Text<br>Maximum length: 60
-ProductUnitOfMeasure | Lookup: Units
+Product | Lookup: Product
+ProductName | Data: Text<br>Required, Maximum length: 60
 PromisedShipDate | Data: DateTime
-Quantity | Data: Number
-SalesInvoiceLine | Lookup: SalesInvoice<br>Required
-SalesInvoiceLineId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Invoice Line Number
-Sequence | Data: Integer
-Status | Enumeration: InvoiceLineStatusValues: Active, Confirmed, Invoice, PackingSlip, Quote<br>Description: Invoice Line Status
-TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Charge
-TotalChargesCurrency | Lookup: Currency
-TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Tax
-TotalTaxesCurrency | Lookup: Currency
-UnitPrice | Data: Currency<br>Decimal places: 6
-UnitPriceCurrency | Lookup: Currency
-## SalesInvoiceLineCharge (Sales Invoice Line Charge) Entity
-A sales invoice line item charge.
+Quantity | Data: Quantity<br>Required
+SalesInvoice<br>Primary key | Lookup: SalesInvoice<br>Required
+Sequence | Data: Integer<br>Required
+Status | Data: Picklist<br>Required<br>Description: Invoice line status
+TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
+TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6
+UnitPrice | Data: Currency<br>Required, Decimal places: 6
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|SalesInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity
+DefaultList|DefaultList field group|SalesInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount
+DefaultCard|DefaultCard field group|SalesInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
+DefaultDetails|DefaultDetails field group|SalesInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
+DefaultLookup|DefaultLookup field group|SalesInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
+DefaultReport|DefaultReport field group|SalesInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
+DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>Sequence<br>Product
+## SalesInvoiceLineCharge (Sales invoice line charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the invoice line. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Line Charges
-AmountCurrency | Lookup: Currency<br>Required
-ChargeId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Invoice Line Charge Id
-ChargeType | Enumeration: InvoiceLineChargeTypeValues: Freight, Insurance, Others
+Amount | Data: Currency<br>Required, Decimal places: 6
+ChargeType | Data: Picklist<br>Required
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
-SalesInvoiceLine | Lookup: SalesInvoiceLine<br>Required
-## SalesInvoiceLineTax (Sales Invoice Line Tax) Entity
-A sales invoice line item tax.
+Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
+SalesInvoiceLine<br>Primary key | Lookup: SalesInvoiceLine<br>Required
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|ChargeType<br>Name<br>Amount
+DefaultCard|DefaultCard field group|ChargeType<br>Name<br>Amount
+DefaultDetails|DefaultDetails field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|ChargeType<br>Amount
+DefaultReport|DefaultReport field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesInvoiceLine<br>Name
+## SalesInvoiceLineTax (Sales invoice line tax) Entity 
+Tax charged on a sales Invoice line. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Invoice Line Taxes
-AmountCurrency | Lookup: Currency<br>Required
+Amount | Data: Currency<br>Required, Decimal places: 6
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Tax Name
+Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
-SalesInvoiceLine | Lookup: SalesInvoiceLine<br>Required
-TaxId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Invoice Line Tax Id
-TaxType | Enumeration: InvoiceLineTaxTypeValues: Others, SalesTax, VAT
-## SalesInvoiceTax (Sales Invoice Tax) Entity
-The tax on a sales invoice.
+SalesInvoiceLine<br>Primary key | Lookup: SalesInvoiceLine<br>Required
+TaxType | Data: Picklist<br>Required
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultList|DefaultList field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultCard|DefaultCard field group|Name<br>TaxType<br>Amount
+DefaultDetails|DefaultDetails field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>SalesInvoiceLine
+DefaultLookup|DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultReport|DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>SalesInvoiceLine
+DefaultIdentification|DefaultIdentification field group|SalesInvoiceLine<br>Name
+## SalesInvoiceTax (Sales invoice tax) Entity 
+Tax charged on a sales Invoice as a whole. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Taxes
-AmountCurrency | Lookup: Currency<br>Required
+Amount | Data: Currency<br>Required, Decimal places: 6
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Tax Name
+Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
-SalesInvoice | Lookup: SalesInvoice<br>Required
-TaxId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Order Tax Id
-TaxType | Enumeration: InvoiceTaxTypeValues: Others, SalesTax, VAT
-## SalesOrder (Sales Order) Entity
-A sales order.
+SalesInvoice<br>Primary key | Lookup: SalesInvoice<br>Required
+TaxType | Data: Picklist<br>Required
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount<br>Description
+DefaultList|DefaultList field group|SalesInvoice<br>RateCode<br>TaxType<br>Amount
+DefaultCard|DefaultCard field group|SalesInvoice<br>TaxType<br>Amount
+DefaultDetails|DefaultDetails field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount<br>Description
+DefaultLookup|DefaultLookup field group|SalesInvoice<br>RateCode<br>Amount
+DefaultReport|DefaultReport field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>TaxType<br>RateCode
+## SalesOrder (Sales order) Entity 
+An order issued by a business to a customer for selling products and/or services. 
 
 Field | Description
 ---|---
-BillingAddress | Data: Address
-Customer | Lookup: Customer<br>Required
-CustomerContact | Lookup: Customer
+Account | Lookup: Account<br>Required
+AccountContact | Lookup: Contact
+BillingAddress | Data: Address<br>Description: Billing address line 1
 CustomerPurchaseOrderReference | Data: Text<br>Maximum length: 20
-DeliveryAddress | Data: Address
+DeliveryAddress | Data: Address<br>Description: Delivery address line 1
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Decimal places: 6
-DiscountAmountCurrency | Lookup: Currency
-DiscountPercent | Data: Number
-FreightTerms | Enumeration: FreightTermsValues: FOB, NoCharge
+FreightTerms | Data: Picklist
 Name | Data: Text<br>Maximum length: 60
 Opportunity | Lookup: Opportunity
 OrderDate | Data: DateTime<br>Required
-PaymentTerms | Enumeration: PaymentTermsValues: Net30, Net45, Net60, TwoPercent10Net30
-SalesOrderId<br>Primary key | Number sequence: <br>Unique<br>Description: Order number
-SalesPerson | Lookup: Employee
-ShippingMethod | Enumeration: ShippingMethodValues: AirBorne, DHL, Fedex, PostalMail, UPS
-Status | Enumeration: OrderStatusValues: Active, Confirmed, Invoice, PackingSlip, Quote<br>Description: Order Status
-TotalAmount | Data: Currency<br>Decimal places: 6
-TotalAmountCurrency | Lookup: Currency
-TotalCharge | Data: Currency<br>Decimal places: 6<br>Description: Total Charges
-TotalChargeCurrency | Lookup: Currency
+PaymentTerms | Data: Picklist
+SalesOrderId<br>Primary key | Number sequence: <br>Unique, Searchable
+SalesPersonWorker | Lookup: Worker
+ShippingMethod | Data: Picklist
+Status | Data: Picklist<br>Required<br>Description: Order status
+TotalAmount | Data: Currency<br>Required, Decimal places: 6
+TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
-TotalDiscountAmountCurrency | Lookup: Currency
-TotalDiscountPercent | Data: Number
-TotalTax | Data: Currency<br>Decimal places: 6<br>Description: Total Taxes
-TotalTaxCurrency | Lookup: Currency
-## SalesOrderCharge (Sales Order Charges) Entity
-A sales order charge.
+TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact
+DefaultList|DefaultList field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>SalesPersonWorker<br>TotalAmount
+DefaultCard|DefaultCard field group|SalesOrderId<br>Account<br>OrderDate<br>Status<br>TotalAmount
+DefaultDetails|DefaultDetails field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>DeliveryAddress<br>BillingAddress<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
+DefaultLookup|DefaultLookup field group|SalesOrderId<br>Account<br>OrderDate<br>Status<br>TotalAmount
+DefaultReport|DefaultReport field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact<br>TotalAmount
+DefaultIdentification|DefaultIdentification field group|SalesOrderId<br>Name
+## SalesOrderCharge (Sales order charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole sales order 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Charges
-AmountCurrency | Lookup: Currency<br>Required
-ChargeId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Order Charge Id
-ChargeType | Enumeration: ChargeTypeValues: Freight, Insurance, Others
+Amount | Data: Currency<br>Required, Decimal places: 6
+ChargeType | Data: Picklist<br>Required
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
-SalesOrder | Lookup: SalesOrder<br>Required
-## SalesOrderLine (Sales Order Lines) Entity
-A sales order line.
+Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
+SalesOrder<br>Primary key | Lookup: SalesOrder<br>Required
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|SalesOrder<br>ChargeType<br>Amount
+DefaultCard|DefaultCard field group|SalesOrder<br>ChargeType<br>Amount
+DefaultDetails|DefaultDetails field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|SalesOrder<br>ChargeType<br>Amount
+DefaultReport|DefaultReport field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesOrder<br>ChargeType<br>Name
+## SalesOrderLine (Sales order line) Entity 
+A component of a sales order that contains a portion of the order amount including information such as product, quantity, and price. 
 
 Field | Description
 ---|---
-DeliveryAddress | Data: Address
+DeliveryPostalAddress | Data: Address<br>Description: Delivery postal address line 1
 Description | Data: Text<br>Maximum length: 255
-DiscountAmount | Data: Currency<br>Decimal places: 6
-DiscountAmountCurrency | Lookup: Currency
-DiscountPercent | Data: Number
+DiscountAmount | Data: Currency<br>Required, Decimal places: 6
 ExpectedShipDate | Data: DateTime
 LineAmount | Data: Currency<br>Decimal places: 6
-LineAmountCurrency | Lookup: Currency
 MostRecentActualShipDate | Data: DateTime
 Name | Data: Text<br>Maximum length: 60
-Product | Lookup: Products
+Product | Lookup: Product<br>Required
 ProductName | Data: Text<br>Maximum length: 60
-ProductUnitOfMeasure | Lookup: Units
 PromisedShipDate | Data: DateTime
-Quantity | Data: Number
-SalesOrder | Lookup: SalesOrder<br>Required
-SalesOrderLineId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Order Line Number
-Sequence | Data: Integer
-Status | Enumeration: OrderLineStatusValues: Active, Confirmed, Invoice, PackingSlip, Quote<br>Description: Order Line Status
-TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Charge
-TotalChargesCurrency | Lookup: Currency
-TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total Tax
-TotalTaxesCurrency | Lookup: Currency
+Quantity | Data: Quantity
+SalesOrder<br>Primary key | Lookup: SalesOrder<br>Required
+Sequence | Data: Integer<br>Required
+Status | Data: Picklist<br>Description: Order line status
+TotalChargeAmount | Data: Currency<br>Decimal places: 6
+TotalTaxAmount | Data: Currency<br>Decimal places: 6
 UnitPrice | Data: Currency<br>Decimal places: 6
-UnitPriceCurrency | Lookup: Currency
-## SalesOrderLineCharge (Sales Order Line Charge) Entity
-A sales order line charge.
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|SalesOrder<br>Sequence<br>Product<br>Description<br>Status<br>Quantity<br>UnitPrice<br>LineAmount
+DefaultList|DefaultList field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>LineAmount
+DefaultCard|DefaultCard field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity
+DefaultDetails|DefaultDetails field group|SalesOrder<br>Sequence<br>Product<br>ProductName<br>Description<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>ExpectedShipDate<br>MostRecentActualShipDate<br>DeliveryPostalAddress<br>TotalChargeAmount<br>TotalTaxAmount
+DefaultLookup|DefaultLookup field group|SalesOrder<br>ProductName<br>Status<br>Quantity
+DefaultReport|DefaultReport field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>ExpectedShipDate<br>MostRecentActualShipDate
+DefaultIdentification|DefaultIdentification field group|SalesOrder<br>Sequence<br>ProductName
+## SalesOrderLineCharge (Sales order line charge) Entity 
+An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the sales order line. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Line Charges
-AmountCurrency | Lookup: Currency<br>Required
-ChargeId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Order Line Charge Id
-ChargeType | Enumeration: LineChargeTypeValues: Freight, Insurance, Others
+Amount | Data: Currency<br>Required, Decimal places: 6
+ChargeType | Data: Picklist<br>Required
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Charge Name
-SalesOrderLine | Lookup: SalesOrderLine<br>Required
-## SalesOrderLineShipment (Sales Order Line Shipment) Entity
-Shipment details for a line on sales order. A single line item on a sales order can be split and shipped to different addresses.
+Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
+SalesOrderLine<br>Primary key | Lookup: SalesOrderLine<br>Required
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|ChargeType<br>Amount
+DefaultCard|DefaultCard field group|ChargeType<br>Amount
+DefaultDetails|DefaultDetails field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|SalesOrderLine<br>Amount<br>ChargeType
+DefaultReport|DefaultReport field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
+DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>ChargeType<br>Name
+## SalesOrderLineShipment (Sales order line shipment) Entity 
+Delivery schedule for a sales order line. 
 
 Field | Description
 ---|---
 ActualShipDate | Data: Date
 Description | Data: Text<br>Maximum length: 60
-Quantity | Data: Number
-SalesOrderLine | Lookup: SalesOrderLine<br>Required
-SalesOrderLineShipmentId<br>Primary key | Number sequence: <br>Unique
-Sequence | Data: Integer
-Status | Enumeration: ShipmentStatusValues: Delivered, Open
-## SalesOrderLineTax (Sales Order Line Tax) Entity
-The tax on a sale order line.
+Quantity | Data: Quantity
+SalesOrderLine<br>Primary key | Lookup: SalesOrderLine<br>Required
+Sequence | Data: Integer<br>Required
+Status | Data: Picklist
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity<br>Status
+DefaultList|DefaultList field group|ActualShipDate<br>Description<br>Quantity<br>Status
+DefaultCard|DefaultCard field group|ActualShipDate<br>Description<br>Quantity<br>Status
+DefaultDetails|DefaultDetails field group|ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity<br>Status
+DefaultLookup|DefaultLookup field group|SalesOrderLine<br>ActualShipDate<br>Description<br>Quantity<br>Status
+DefaultReport|DefaultReport field group|Status<br>ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity
+DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>ActualShipDate
+## SalesOrderLineTax (Sales order line tax) Entity 
+Tax charged on a sales order line. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Line Taxes
-AmountCurrency | Lookup: Currency<br>Required
+Amount | Data: Currency<br>Required, Decimal places: 6
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Tax Name
+Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
-SalesOrderLine | Lookup: SalesOrderLine<br>Required
-TaxId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Order Line Tax Id
-TaxType | Enumeration: LineTaxTypeValues: Others, SalesTax, VAT
-## SalesOrderTax (Sales Order Tax) Entity
-The tax on a sales order.
+SalesOrderLine<br>Primary key | Lookup: SalesOrderLine<br>Required
+TaxType | Data: Picklist<br>Required
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description<br>Amount
+DefaultList|DefaultList field group|TaxType<br>RateCode<br>Amount
+DefaultCard|DefaultCard field group|TaxType<br>Amount
+DefaultDetails|DefaultDetails field group|TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description<br>Amount
+DefaultLookup|DefaultLookup field group|SalesOrderLine<br>TaxType<br>RateCode<br>Amount
+DefaultReport|DefaultReport field group|Amount<br>TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description
+DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>TaxType<br>RateCode
+## SalesOrderTax (Sales order tax) Entity 
+Tax charged on a sales order as a whole. 
 
 Field | Description
 ---|---
-Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total Taxes
-AmountCurrency | Lookup: Currency<br>Required
+Amount | Data: Currency<br>Required, Decimal places: 6
 Description | Data: Text<br>Maximum length: 60
-Name | Data: Text<br>Maximum length: 60<br>Description: Tax Name
+Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
-SalesOrder | Lookup: SalesOrder<br>Required
-TaxId<br>Primary key | Number sequence: <br>Unique<br>Description: Sales Order Tax Id
-TaxType | Enumeration: TaxTypeValues: Others, SalesTax, VAT
+SalesOrder<br>Primary key | Lookup: SalesOrder<br>Required
+TaxType | Data: Picklist<br>Required
+
+###Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
+DefaultList|DefaultList field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount
+DefaultCard|DefaultCard field group|SalesOrder<br>Name<br>TaxType<br>Amount
+DefaultDetails|DefaultDetails field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
+DefaultLookup|DefaultLookup field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount
+DefaultReport|DefaultReport field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
+DefaultIdentification|DefaultIdentification field group|SalesOrder<br>Name

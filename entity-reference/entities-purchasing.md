@@ -1,30 +1,30 @@
 ---
-title: "Purchasing entities"
-description: ""
-author: ""
+title: "Purchasing entities | Common Data Model"
+description: "The purchasing entities let you create purchasing solutions and track vendor invoices."
+author: "clwesene"
 manager: "robinarh"
-ms.date: "08/24/2016"
+ms.date: "11/02/2016"
 ms.topic: "topic"
 ms.prod: ""
-ms.service: "CommonDataModel"
-ms.technology: "CommonDataModel"
-keywords: ""
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
+keywords: "standard entities, ERD, purchasing, purchase order, supplier invoice"
 audience: "Developer, IT Pro"
 ms.assetid: "627ff741-f312-4ff7-b6f3-5ac9e6708a6e"
 ---
 
-# Purchasing Entities
+# Purchasing entities
 
-The Purchasing entities let you create purchasing solutions. A vendor is someone who sells something, whereas a supplier is someone that you have purchased from. The entities let you track vendors, suppliers, and invoices from your suppliers.
+The purchasing entities let you create purchasing solutions and track vendor invoices.
 
-## Purchase Order ERD
+## Purchase order ERD
 
-![Purchase Order ERD](/entity-reference/media/purchase-order.png "Purchase Order ERD")
+![Purchase Order ERD](media/purchase-order.png "Purchase order ERD")
 
-## Supplier Invoice ERD
+## Vendor invoice ERD
 
-![Supplier Invoice ERD](/entity-reference/media/supplier-invoice.png "Supplier Invoice ERD")
+![Supplier Invoice ERD](media/vendor-invoice.png "Vendor invoice ERD")
 
-## Purchasing Reference
+## Reference
 
-[Purchasing Reference](/entity-reference/entity-tables/purchasing.md "Purchasing Reference")
+[Purchasing reference](entity-tables/purchasing.md "Purchasing reference")
