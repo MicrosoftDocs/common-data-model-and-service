@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "lookup, ERD, referential integrity, composition"
 audience: "Developer, IT Pro"
 ms.assetid: "a3acd7bb-eb94-4c86-854f-9c7c5b526e75"
 ---
