@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "generated fields, RecordID"
 audience: "Developer, IT Pro"
 ms.assetid: "2fd13f59-0562-4aff-abe0-9eb3b7d49efe"
 ---
