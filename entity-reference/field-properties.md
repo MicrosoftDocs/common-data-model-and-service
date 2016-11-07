@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "field properties"
 audience: "Developer, IT Pro"
 ms.assetid: "bfa9fd3b-50d0-4063-9308-a02113a3f74b"
 ---
