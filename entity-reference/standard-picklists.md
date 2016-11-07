@@ -1,5 +1,5 @@
 ---
-title: "Standard enumerations | Common Data Model"
+title: "Standard picklists | Common Data Model"
 description: "The Common Data Model contains a rich set of picklists to support common scenarios."
 author: "robinarh"
 manager: "robinarh"
@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "picklist"
 audience: "Developer, IT Pro"
 ms.assetid: "364f88ac-0fcc-44dd-9e9a-9512e8420def"
 ---
