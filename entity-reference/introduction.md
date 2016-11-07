@@ -27,4 +27,4 @@ enterprise.
 * __Unification__ – Your solutions can connect information from productivity platforms with data from business applications. For example, you can connect a calendar appointment or a Microsoft Outlook task with a sales opportunity. The Common Data Service connects through standard interfaces, such as the Microsoft Graph application programming interface (API), and maps entities to the productivity platform objects to enable the join relationships with business data.
 * __Microsoft Office 365 integration__ – In addition to unifying cloud data silos for analysis, the Common Data Model provides a uniform model that is used to surface data to the Office 365 substrate, and that conforms to application data security models.
 
-![Architecture diagram of Microsoft business application platform](/entity-reference/media/microsoft-business-application-platform.png "Microsoft business application platform")
+![Architecture diagram of Microsoft business application platform](media/microsoft-business-application-platform.png "Microsoft business application platform")
