@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: "clwesene"
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "names"
 audience: "Developer, IT Pro"
 ms.assetid: "de678eaa-6ef2-483a-93ec-17ff7b713159"
 ---
