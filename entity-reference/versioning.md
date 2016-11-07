@@ -8,7 +8,7 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: ""
+keywords: "migration, updates"
 audience: "Developer, IT Pro"
 ms.assetid: "88551aa9-5525-4340-9607-91aa6e6e8dfb"
 ---
