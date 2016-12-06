@@ -4,7 +4,7 @@
 	services="powerapps"
 	documentationCenter="na"
 	authors="chrisgarty"
-	manager="robinr"
+	manager="kfend"
 	editor=""
 	tags=""/>
 
@@ -14,7 +14,7 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="08/19/2016"
+   ms.date="12/06/2016"
    ms.author="cgarty"/>
 
 # Open entity data in Excel
