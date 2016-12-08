@@ -1,3 +1,5 @@
+
+
 ---
 title: "Security model | Common Data Service"
 description: "The Common Data Service provides a security framework to help protect your data."
@@ -39,3 +41,6 @@ The Database Owner role is intended for users in an administrative function. Use
 
 ### Organization User
 The Organization User role is the default role assigned to all users. This role is intended to provide all users access to the entities that contain public data.
+
+## PowerApps
+For information about configuring security in PowerApps, see [Configure database security](https://powerapps.microsoft.com/en-us/tutorials/database-security/ "Configure database security.").
