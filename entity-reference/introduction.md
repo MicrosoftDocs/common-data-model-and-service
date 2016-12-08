@@ -35,4 +35,5 @@ For information about creating apps with the Common Data Model and PowerApps, se
 ## Microsoft Flow
 For information about creating a flow that uses the Common Data Service, see [Create a flow that uses the Common Data Service](https://flow.microsoft.com/documentation/common-data-model-intro/ "Create a flow that uses the Common Data Service").
 
+## Download the documentation
 To download the Common Data Service documentation as a single file, see [Microsoft Common Data Model, Entity Reference](http://download.microsoft.com/download/8/9/5/8956ED58-A9B0-40DF-8CB0-BC13AD8DB6E2/CDMEntityReference.docx "Microsoft Common Data Model, Entity Reference").
