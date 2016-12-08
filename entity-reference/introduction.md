@@ -1,4 +1,3 @@
-
 ---
 title: "Common Data Service and Common Data Model overview  | Common Data Model"
 description: "The Common Data Service is the Microsoft Azure–based business application model and storage mechanism for the Microsoft business application platform."
