@@ -1,3 +1,4 @@
+
 ---
 title: "Common Data Service and Common Data Model overview  | Common Data Model"
 description: "The Common Data Service is the Microsoft Azure–based business application model and storage mechanism for the Microsoft business application platform."
@@ -28,3 +29,5 @@ enterprise.
 * __Microsoft Office 365 integration__ – In addition to unifying cloud data silos for analysis, the Common Data Model provides a uniform model that is used to surface data to the Office 365 substrate, and that conforms to application data security models.
 
 ![Architecture diagram of Microsoft business application platform](media/microsoft-business-application-platform.png "Microsoft business application platform")
+
+To download the Common Data Service documentation as a single file, see [Microsoft Common Data Model, Entity Reference](http://download.microsoft.com/download/8/9/5/8956ED58-A9B0-40DF-8CB0-BC13AD8DB6E2/CDMEntityReference.docx "Microsoft Common Data Model, Entity Reference").
