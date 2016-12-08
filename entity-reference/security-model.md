@@ -1,5 +1,3 @@
-
-
 ---
 title: "Security model | Common Data Service"
 description: "The Common Data Service provides a security framework to help protect your data."
