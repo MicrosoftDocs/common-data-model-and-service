@@ -180,4 +180,4 @@ VendorStatus | Active, Blocked, Inactive
 VolunteerStatus | Active, Inactive
 WorkerStatus | Active, Inactive
 WorkerStatusReason | Active, Inactive
-WorkerType | Contractor, Employee
+WorkerType | Contractor,  Employee
