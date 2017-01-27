@@ -1,9 +1,9 @@
 ---
-title: "Customer service reference | Common Data Model"
+title: "Customer service reference | Microsoft Docs"
 description: "The customer service entities manage issues from your customers, including tracking, escalation, and documentation."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "11/03/2016"
+ms.date: "01/26/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -22,21 +22,31 @@ Field | Description
 Account | Lookup: Account
 ArrivalDate | Data: DateTime<br>Required, Searchable
 CaseId<br>Primary key | Number sequence: <br>Unique, Searchable
-Category | Data: Picklist<br>Required
+Category | Picklist: CaseCategory<br>Values: Problem, Question, Request<br>Required
 CloseDate | Data: DateTime<br>Searchable
 Comment | Data: MultilineText
 CurrentAssignedSupportWorker | Lookup: Worker
 CurrentContact | Lookup: Contact<br>Required
-CustomerSatisfactionCode | Data: Picklist
+CustomerSatisfactionCode | Picklist: CaseCustomerSatisfactionCode<br>Values: Dissatisfied, Neutral, Satisfied, VeryDissatisfied, VerySatisfied
 Description | Data: Text<br>Maximum length: 255
 Name | Data: Text<br>Required, Maximum length: 60<br>Description: Case name
-OriginCode | Data: Picklist<br>Required<br>Description: Origin
+OriginCode | Picklist: CaseOriginCode<br>Values: Email, Facebook, Other, Phone, Twitter, Web<br>Required<br>Description: Origin
 ParentCase | Lookup: Case
-Severity | Data: Picklist<br>Required
-SolutionType | Data: Picklist
-Status | Data: Picklist<br>Required
+Severity | Picklist: Severity<br>Values: High, Low, Normal<br>Required
+SolutionType | Picklist: CaseSolutionType<br>Values: SolvedByCustomer, SolvedByKBArticle, SolvedBySupportWorker
+Status | Picklist: CaseStatus<br>Values: Active, Cancelled, Closed, OnHold, Resolved, SolvedAnswered<br>Required
 
-###Field groups
+### Relationsips
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Account|Account|OneToMany|Association
+Contact|Current contact|OneToMany|Association
+Case|Parent case|OneToMany|Association
+Worker|Current assigned support worker|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -53,28 +63,38 @@ Actions performed by support worker or customer that must be logged for a �cas
 Field | Description
 ---|---
 BeginDate | Data: DateTime<br>Required, Searchable
-CaseSeverity | Data: Picklist<br>Required<br>Description: Current case severity
-CaseStatus | Data: Picklist<br>Required<br>Description: Current case status
+CaseSeverity | Picklist: Severity<br>Values: High, Low, Normal<br>Required<br>Description: Current case severity
+CaseStatus | Picklist: CaseStatus<br>Values: Active, Cancelled, Closed, OnHold, Resolved, SolvedAnswered<br>Required<br>Description: Current case status
 Comment | Data: MultilineText
 Contact | Lookup: Contact
-ContactType | Data: Picklist
+ContactType | Picklist: CaseOriginCode<br>Values: Email, Facebook, Other, Phone, Twitter, Web
 Description | Data: Text<br>Maximum length: 255
 EndDate | Data: DateTime<br>Searchable
 HasKBArticle | Data: Boolean<br>Required<br>Description: Has KB article(s)
 IsReassignment | Data: Boolean<br>Required
 IsSeverityChange | Data: Boolean<br>Required<br>Description: Is severity changed
 IsStatusChange | Data: Boolean<br>Required<br>Description: Is status changed
-PriorCaseSeverity | Data: Picklist
-PriorCaseStatus | Data: Picklist
+PriorCaseSeverity | Picklist: Severity<br>Values: High, Low, Normal
+PriorCaseStatus | Picklist: CaseStatus<br>Values: Active, Cancelled, Closed, OnHold, Resolved, SolvedAnswered
 ReassignedComment | Data: Text<br>Maximum length: 255
 ReassignedFromCaseWorker | Lookup: Worker
-ReassignedReason | Data: Picklist<br>Description: Case reassigned reason
+ReassignedReason | Picklist: CaseReassignedReason<br>Values: NotResolved<br>Description: Case reassigned reason
 Sequence | Data: Integer<br>Required
 SupportCase<br>Primary key | Lookup: Case<br>Required
 SupportWorker | Lookup: Worker
-Type | Data: Picklist<br>Required
+Type | Picklist: CaseActivityType<br>Values: AssignReassignCaseWorker, Cancel, ChangeCaseStatus, Close, Contact, CreateSubcase, Intake, MakeKBReference, Open, Research<br>Required
 
-###Field groups
+### Relationsips
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Case|Support case|OneToMany|Composition
+Contact|Contact|OneToMany|Association
+Worker|Support worker|OneToMany|Association
+Worker|Reassigned from case worker|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -96,7 +116,15 @@ Description | Data: Text<br>Maximum length: 255
 KBArticle | Lookup: KBArticle<br>Required
 KBArticleName | Data: Text<br>Maximum length: 60
 
-###Field groups
+### Relationsips
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+CaseActivity|Case activity|OneToMany|Association
+KBArticle|KB article|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -119,7 +147,14 @@ KBArticleId<br>Primary key | Number sequence: <br>Unique, Searchable
 LinkToArticle | Data: WebsiteUrl
 Synopsis | Data: MultilineText
 
-###Field groups
+### Relationsips
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Worker|Author|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
