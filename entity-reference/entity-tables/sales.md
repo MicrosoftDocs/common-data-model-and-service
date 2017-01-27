@@ -1,9 +1,9 @@
 ---
-title: "Sales reference | Common Data Model"
+title: "Sales reference | Microsoft Docs"
 description: "The sales entities let you create end-to-end sales solutions."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "11/03/2016"
+ms.date: "01/26/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -27,17 +27,18 @@ EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Data: Picklist
-IndustryCode | Data: Picklist
+Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
-MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
+MailingPostalAddress | Data: Address
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
 OrganizationName | Data: Text<br>Maximum length: 128
-OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
+OtherPostalAddress | Data: Address
 ParentAccount | Lookup: Account
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PersonName | Data: PersonName<br>Description: Given name
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -45,21 +46,29 @@ Phone03 | Data: Phone
 PhonePrimary | Data: Phone
 PrimaryContact | Lookup: Contact
 SatoriId | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
-StockExchange | Data: Picklist
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: AccountStatus<br>Values: Active, Inactive<br>Required
+StockExchange | Picklist: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
 StockTicker | Data: Text<br>Maximum length: 128
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Contact|Primary contact|OneToMany|Association
+Account|Parent account|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -70,6 +79,35 @@ DefaultDetails|DefaultDetails field group|AccountId<br>FullName<br>PersonName<br
 DefaultLookup|DefaultLookup field group|AccountId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
 DefaultIdentification|DefaultIdentification field group|AccountId<br>FullName
+## AccountContact (@Foundation.AccountContact) Entity 
+ 
+
+Field | Description
+---|---
+Account<br>Primary key | Lookup: Account<br>Required
+Contact | Lookup: Contact<br>Required
+DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+Description | Data: Text<br>Maximum length: 128
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Account|Account|OneToMany|Association
+Contact|Contact|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|Account<br>Contact<br>DataSource<br>Description
+DefaultList|DefaultList field group|Account<br>Contact<br>DataSource<br>Description
+DefaultCard|DefaultCard field group|Account<br>Contact<br>DataSource<br>Description
+DefaultDetails|DefaultDetails field group|Account<br>Contact<br>DataSource<br>Description
+DefaultLookup|DefaultLookup field group|Account<br>Contact<br>DataSource<br>Description
+DefaultReport|DefaultReport field group|Account<br>Contact<br>DataSource<br>Description
+DefaultIdentification|DefaultIdentification field group|Account<br>Contact
 ## Lead (Lead) Entity 
 Lead table can store information about individuals who are interested in receiving information about the products or services offered by the company. 
 
@@ -82,19 +120,20 @@ EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Data: Picklist
+Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
-IndustryCode | Data: Picklist
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
 LeadId<br>Primary key | Number sequence: <br>Unique, Searchable
 LinkedInIdentity | Data: Text<br>Maximum length: 128
-MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
+MailingPostalAddress | Data: Address
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
 OrganizationName | Data: Text<br>Maximum length: 128
-OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
-PartyType | Data: Picklist<br>Required
+OtherPostalAddress | Data: Address
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PersonName | Data: PersonName<br>Description: Given name
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -102,21 +141,21 @@ Phone03 | Data: Phone
 PhonePrimary | Data: Phone
 Profession | Data: Text<br>Maximum length: 128
 SatoriId | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
-StockExchange | Data: Picklist
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: LeadStatus<br>Values: Cancelled, Contacted, Disqualified, New, NoLongerInterested, Qualified<br>Required
+StockExchange | Picklist: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
 StockTicker | Data: Text<br>Maximum length: 128
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -127,6 +166,35 @@ DefaultDetails|DefaultDetails field group|LeadId<br>FullName<br>PersonName<br>St
 DefaultLookup|DefaultLookup field group|LeadId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>PhonePrimary<br>EmailPrimary
 DefaultIdentification|DefaultIdentification field group|LeadId<br>FullName
+## LeadContact (@Foundation.LeadContact) Entity 
+ 
+
+Field | Description
+---|---
+Contact | Lookup: Contact<br>Required
+DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+Description | Data: Text<br>Maximum length: 128
+Lead<br>Primary key | Lookup: Lead<br>Required
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Lead|Lead|OneToMany|Association
+Contact|Contact|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|Lead<br>Contact<br>DataSource<br>Description
+DefaultList|DefaultList field group|Lead<br>Contact<br>DataSource<br>Description
+DefaultCard|DefaultCard field group|Lead<br>Contact<br>DataSource<br>Description
+DefaultDetails|DefaultDetails field group|Lead<br>Contact<br>DataSource<br>Description
+DefaultLookup|DefaultLookup field group|Lead<br>Contact<br>DataSource<br>Description
+DefaultReport|DefaultReport field group|Lead<br>Contact<br>DataSource<br>Description
+DefaultIdentification|DefaultIdentification field group|Lead<br>Contact
 ## Opportunity (Opportunity) Entity 
 Opportunity table can track information about potential sales to new or established customers. 
 
@@ -138,20 +206,27 @@ CreatedDate | Data: Date<br>Required
 Description | Data: Text<br>Maximum length: 128
 EstimatedCloseDate | Data: DateTime
 EstimatedValueAmount | Data: Currency<br>Required, Decimal places: 6
-IndustryCode | Data: Picklist<br>Required
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale<br>Required
 Name | Data: Text<br>Required, Maximum length: 128
 NextFollowupDate | Data: Date<br>Description: Next follow-up date
 OpportunityId<br>Primary key | Number sequence: <br>Unique, Searchable
 OriginalEstimatedValueAmount | Data: Currency<br>Required, Decimal places: 6
 ParentOpportunity | Lookup: Opportunity
-PurchaseProcess | Data: Picklist<br>Required
-PurchaseTimeFrame | Data: Picklist<br>Required
-RatingCode | Data: Picklist<br>Required
-SalesStage | Data: Picklist
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+PurchaseProcess | Picklist: Process<br>Values: Committee, Individual, Unknown<br>Required
+PurchaseTimeFrame | Picklist: TimeFrame<br>Values: Day, HalfYear, Hour, Month, Quarter, Trimester, Week, Year<br>Required
+RatingCode | Picklist: HotWarmCold<br>Values: Cold, Hot, Warm<br>Required
+SalesStage | Picklist: OpportunityState<br>Values: Lost, Open, Won
+Source | Picklist: OpportunitySource<br>Values: Advertisement, EmployeeReferral, ExternalReferral, Other, Partner, PublicRelations, Seminar, TradeShow, Web, WordOfMouth<br>Required
+Status | Picklist: OpportunityStatus<br>Values: Canceled, InProgress, OnHold, OutSold, Won<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Opportunity|Parent opportunity|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -173,45 +248,54 @@ EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-IndustryCode | Data: Picklist
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
-MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
+MailingPostalAddress | Data: Address
 OrganizationName | Data: Text<br>Maximum length: 128
-OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
+OtherPostalAddress | Data: Address
 ParentPartner | Lookup: Partner
 PartnerId<br>Primary key | Number sequence: <br>Unique, Searchable
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
 Phone03 | Data: Phone
 PhonePrimary | Data: Phone
 PrimaryContact | Lookup: Contact
 SatoriId | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
-StockExchange | Data: Picklist
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: PartnerStatus<br>Values: Active, Inactive<br>Required
+StockExchange | Picklist: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
 StockTicker | Data: Text<br>Maximum length: 128
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Partner|Parent partner|OneToMany|Association
+Contact|Primary contact|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
 DefaultCreate|DefaultCreate field group|PhonePrimary<br>ParentPartner<br>WebsiteURL
 DefaultList|DefaultList field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL
 DefaultCard|DefaultCard field group|PartnerId<br>FullName<br>PhonePrimary
-DefaultDetails|DefaultDetails field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>Description<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
+DefaultDetails|DefaultDetails field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>Description<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>StockTicker
 DefaultLookup|DefaultLookup field group|PartnerId<br>FullName<br>PhonePrimary
 DefaultReport|DefaultReport field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
 DefaultIdentification|DefaultIdentification field group|PartnerId<br>FullName
@@ -220,28 +304,39 @@ An invoice sent to a customer to document the customer's liability for a purchas
 
 Field | Description
 ---|---
-Account | Lookup: Account<br>Required
+Account | Lookup: Account
 AccountContact | Lookup: Contact
-BillingAddress | Data: Address<br>Description: Address line 1
+BillingAddress | Data: Address
 CustomerPurchaseOrderReference | Data: Text<br>Maximum length: 20
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Decimal places: 6
-FreightTerms | Data: Picklist
+FreightTerms | Picklist: FreightTerms<br>Values: FOB, NoCharge
 InvoiceDate | Data: DateTime<br>Required
 Name | Data: Text<br>Maximum length: 60
 Opportunity | Lookup: Opportunity
-PaymentTerms | Data: Picklist
+PaymentTerms | Picklist: PaymentTerms<br>Values: Net30, Net45, Net60, TwoPercent10Net30
 SalesInvoiceId<br>Primary key | Number sequence: <br>Unique, Searchable
 SalesOrder | Lookup: SalesOrder
-SalesPersonWorker | Lookup: Worker
-ShippingMethod | Data: Picklist
-Status | Data: Picklist<br>Description: Invoice status
+SalesPersonWorker | Lookup: Worker<br>Description: Sales person
+ShippingMethod | Picklist: ShippingMethod<br>Values: AirBorne, DHL, Fedex, PostalMail, UPS
+Status | Picklist: InvoiceStatus<br>Values: Cancelled, Created, Hold, Paid<br>Description: Invoice status
 TotalAmount | Data: Currency<br>Decimal places: 6
-TotalChargeAmount | Data: Currency<br>Decimal places: 6
+TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total charges
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
-TotalTaxAmount | Data: Currency<br>Decimal places: 6
+TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total taxes
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Account|Account|OneToMany|Association
+Worker|Sales person|OneToMany|Association
+Contact|Account contact|OneToMany|Association
+Opportunity|Opportunity|OneToMany|Association
+SalesOrder|Sales order|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -258,12 +353,19 @@ An indirect charge in addition to product pricing and taxes such as freight, ins
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
-ChargeType | Data: Picklist<br>Required
+ChargeType | Picklist: InvoiceChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 SalesInvoice<br>Primary key | Lookup: SalesInvoice<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesInvoice|Sales invoice|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -291,12 +393,20 @@ PromisedShipDate | Data: DateTime
 Quantity | Data: Quantity<br>Required
 SalesInvoice<br>Primary key | Lookup: SalesInvoice<br>Required
 Sequence | Data: Integer<br>Required
-Status | Data: Picklist<br>Required<br>Description: Invoice line status
-TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
-TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6
+Status | Picklist: InvoiceLineStatus<br>Values: Active, Confirmed, Invoice, PackingSlip, Quote<br>Required<br>Description: Invoice line status
+TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total charges
+TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total taxes
 UnitPrice | Data: Currency<br>Required, Decimal places: 6
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesInvoice|Sales invoice|OneToMany|Composition
+Product|Product|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -313,12 +423,19 @@ An indirect charge in addition to product pricing and taxes such as freight, ins
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
-ChargeType | Data: Picklist<br>Required
+ChargeType | Picklist: InvoiceLineChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 SalesInvoiceLine<br>Primary key | Lookup: SalesInvoiceLine<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesInvoiceLine|Sales invoice line|OneToMany|Composition
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -339,9 +456,16 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
 SalesInvoiceLine<br>Primary key | Lookup: SalesInvoiceLine<br>Required
-TaxType | Data: Picklist<br>Required
+TaxType | Picklist: InvoiceLineTaxType<br>Values: Others, SalesTax, VAT<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesInvoiceLine|Sales invoice line|OneToMany|Composition
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -362,9 +486,16 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
 SalesInvoice<br>Primary key | Lookup: SalesInvoice<br>Required
-TaxType | Data: Picklist<br>Required
+TaxType | Picklist: InvoiceTaxType<br>Values: Others, SalesTax, VAT<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesInvoice|Sales invoice|OneToMany|Composition
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -380,28 +511,38 @@ An order issued by a business to a customer for selling products and/or services
 
 Field | Description
 ---|---
-Account | Lookup: Account<br>Required
+Account | Lookup: Account
 AccountContact | Lookup: Contact
-BillingAddress | Data: Address<br>Description: Billing address line 1
+BillingAddress | Data: Address
 CustomerPurchaseOrderReference | Data: Text<br>Maximum length: 20
-DeliveryAddress | Data: Address<br>Description: Delivery address line 1
+DeliveryAddress | Data: Address
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Decimal places: 6
-FreightTerms | Data: Picklist
+FreightTerms | Picklist: FreightTerms<br>Values: FOB, NoCharge
 Name | Data: Text<br>Maximum length: 60
 Opportunity | Lookup: Opportunity
 OrderDate | Data: DateTime<br>Required
-PaymentTerms | Data: Picklist
+PaymentTerms | Picklist: PaymentTerms<br>Values: Net30, Net45, Net60, TwoPercent10Net30
 SalesOrderId<br>Primary key | Number sequence: <br>Unique, Searchable
-SalesPersonWorker | Lookup: Worker
-ShippingMethod | Data: Picklist
-Status | Data: Picklist<br>Required<br>Description: Order status
+SalesPersonWorker | Lookup: Worker<br>Description: Sales person
+ShippingMethod | Picklist: ShippingMethod<br>Values: AirBorne, DHL, Fedex, PostalMail, UPS
+Status | Picklist: OrderStatus<br>Values: Active, Confirmed, Invoice, PackingSlip, Quote<br>Required<br>Description: Order status
 TotalAmount | Data: Currency<br>Required, Decimal places: 6
-TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
+TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total charges
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
-TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6
+TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total taxes
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Account|Account|OneToMany|Association
+Worker|Sales person|OneToMany|Association
+Contact|Account contact|OneToMany|Association
+Opportunity|Opportunity|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -418,12 +559,19 @@ An indirect charge in addition to product pricing and taxes such as freight, ins
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
-ChargeType | Data: Picklist<br>Required
+ChargeType | Picklist: ChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 SalesOrder<br>Primary key | Lookup: SalesOrder<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesOrder|Sales order|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -434,12 +582,12 @@ DefaultDetails|DefaultDetails field group|SalesOrder<br>ChargeType<br>Name<br>De
 DefaultLookup|DefaultLookup field group|SalesOrder<br>ChargeType<br>Amount
 DefaultReport|DefaultReport field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|DefaultIdentification field group|SalesOrder<br>ChargeType<br>Name
-## SalesOrderLine (Sales order line) Entity 
+## SalesOrderLine (Sales order lines) Entity 
 A component of a sales order that contains a portion of the order amount including information such as product, quantity, and price. 
 
 Field | Description
 ---|---
-DeliveryPostalAddress | Data: Address<br>Description: Delivery postal address line 1
+DeliveryPostalAddress | Data: Address<br>Description: Delivery address
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Required, Decimal places: 6
 ExpectedShipDate | Data: DateTime
@@ -452,12 +600,20 @@ PromisedShipDate | Data: DateTime
 Quantity | Data: Quantity
 SalesOrder<br>Primary key | Lookup: SalesOrder<br>Required
 Sequence | Data: Integer<br>Required
-Status | Data: Picklist<br>Description: Order line status
-TotalChargeAmount | Data: Currency<br>Decimal places: 6
-TotalTaxAmount | Data: Currency<br>Decimal places: 6
+Status | Picklist: OrderLineStatus<br>Values: Active, Confirmed, Invoice, PackingSlip, Quote<br>Description: Order line status
+TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total charges
+TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total taxes
 UnitPrice | Data: Currency<br>Decimal places: 6
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesOrder|Sales order|OneToMany|Composition
+Product|Product|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -474,12 +630,19 @@ An indirect charge in addition to product pricing and taxes such as freight, ins
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
-ChargeType | Data: Picklist<br>Required
+ChargeType | Picklist: LineChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
 SalesOrderLine<br>Primary key | Lookup: SalesOrderLine<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesOrderLine|Sales order line|OneToMany|Composition
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -500,9 +663,16 @@ Description | Data: Text<br>Maximum length: 60
 Quantity | Data: Quantity
 SalesOrderLine<br>Primary key | Lookup: SalesOrderLine<br>Required
 Sequence | Data: Integer<br>Required
-Status | Data: Picklist
+Status | Picklist: ShipmentStatus<br>Values: Delivered, Open
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesOrderLine|Sales order line|OneToMany|Composition
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -523,9 +693,16 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
 SalesOrderLine<br>Primary key | Lookup: SalesOrderLine<br>Required
-TaxType | Data: Picklist<br>Required
+TaxType | Picklist: LineTaxType<br>Values: Others, SalesTax, VAT<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesOrderLine|Sales order line|OneToMany|Composition
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -546,9 +723,16 @@ Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
 SalesOrder<br>Primary key | Lookup: SalesOrder<br>Required
-TaxType | Data: Picklist<br>Required
+TaxType | Picklist: TaxType<br>Values: Others, SalesTax, VAT<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+SalesOrder|Sales order|OneToMany|Composition
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
