@@ -190,33 +190,7 @@ DefaultDetails|DefaultDetails field group|CategoryId<br>Name<br>Description
 DefaultLookup|DefaultLookup field group|CategoryId<br>Name<br>Description
 DefaultReport|DefaultReport field group|CategoryId<br>Name<br>Description
 DefaultIdentification|DefaultIdentification field group|CategoryId<br>Name
-## ProductCategoryAssignment (@Foundation.ProductCategoryAssignment) Entity 
- 
 
-Field | Description
----|---
-Product<br>Primary key | Lookup: Product<br>Required
-ProductCategory | Lookup: ProductCategory<br>Required
-
-### Relationsips
-
-Related entity | Description | Cardinality | Type 
----|---|---|---
-Product|Product|OneToMany|Association
-ProductCategory|Product category|OneToMany|Association
-
-
-### Field groups
-
-Field group | Description | Fields
----|---|---
-DefaultCreate|DefaultCreate field group|Product<br>ProductCategory
-DefaultList|DefaultList field group|Product<br>ProductCategory
-DefaultCard|DefaultCard field group|Product<br>ProductCategory
-DefaultDetails|DefaultDetails field group|Product<br>ProductCategory
-DefaultLookup|DefaultLookup field group|Product<br>ProductCategory
-DefaultReport|DefaultReport field group|Product<br>ProductCategory
-DefaultIdentification|DefaultIdentification field group|Product<br>ProductCategory
 ## UnitOfMeasureConversion (Unit of measure conversion) Entity 
  
 
@@ -229,9 +203,7 @@ ToUnitOfMeasure | Picklist: UnitOfMeasure<br>Values: Bag, Box, Bucket, Centilitr
 
 ### Relationsips
 
-Related entity | Description | Cardinality | Type 
----|---|---|---
-
+This entity has no relationships.
 
 ### Field groups
 
