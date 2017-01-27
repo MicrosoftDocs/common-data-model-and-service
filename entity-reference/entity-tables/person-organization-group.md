@@ -1,9 +1,9 @@
 ---
-title: "Person, organization, and group reference | Common Data Model"
+title: "Person, organization, and group reference | Microsoft Docs"
 description: "The people, organizations, and groups entities encompass a rich set of people and organizations that you might interact with."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "11/03/2016"
+ms.date: "01/26/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -19,41 +19,42 @@ A graduate of a school.
 
 Field | Description
 ---|---
-AlumnusId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+AlumnusId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
 Birthdate | Data: Date
-BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
+BusinessPostalAddress | Data: Address
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Data: Picklist
+Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
 GraduationClass | Data: Text<br>Maximum length: 128
 GraduationDate | Data: Date
-HomePostalAddress | Data: Address<br>Description: Home postal address line 1
+HomePostalAddress | Data: Address
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
 PhoneHome | Data: Phone<br>Description: Phone 01
 PhonePrimary | Data: Phone
 Profession | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: AlumnusStatus<br>Values: Current, Inactive, Past<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -65,46 +66,54 @@ DefaultLookup|DefaultLookup field group|AlumnusId<br>FullName<br>GraduationClass
 DefaultReport|DefaultReport field group|AlumnusId<br>Name<br>GraduationClass<br>Status<br>EmailPrimary<br>Description<br>FacebookIdentity<br>TwitterIdentity
 DefaultIdentification|DefaultIdentification field group|AlumnusId<br>FullName
 ## ApplicationUser (Application user) Entity 
-Application user 
+ 
 
 Field | Description
 ---|---
-AADUserOID<br>Primary key | Data: Text<br>Required, Unique, Searchable, Maximum length: 36<br>Description: AAD user object ID
+AADUserOID<br>Primary key | Data: Text<br>Required, Unique, Searchable, Maximum length: 36<br>Description: AAD user object id
 ApplicationUserId | Number sequence: <br>Unique, Searchable
 Birthdate | Data: Date
-BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
+BusinessPostalAddress | Data: Address
 BusinessUnit | Lookup: BusinessUnit<br>Required
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Required, Unique, Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Data: Picklist
+FullName | Data: Text<br>Maximum length: 128
+Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
-HomePostalAddress | Data: Address<br>Description: Home postal address line 1
+HomePostalAddress | Data: Address
 IsAdmin | Data: Boolean<br>Required
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
-Name | Data: PersonName<br>Description: Middle name
+Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
 PhoneHome | Data: Phone<br>Description: Phone 01
 PhonePrimary | Data: Phone
 Profession | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: ApplicationUserStatus<br>Values: Active, Inactive<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+BusinessUnit|Business unit|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -115,8 +124,38 @@ DefaultDetails|DefaultDetails field group|ApplicationUserId<br>FullName<br>Name<
 DefaultLookup|DefaultLookup field group|ApplicationUserId<br>FullName<br>EmailPrimary
 DefaultReport|DefaultReport field group|ApplicationUserId<br>FullName<br>Name<br>EmailPrimary<br>Description<br>SocialNetwork01<br>SocialNetworkIdentity01
 DefaultIdentification|DefaultIdentification field group|ApplicationUserId<br>FullName
+## ApplicationUserContact (@Foundation.ApplicationUserContact) Entity 
+ 
+
+Field | Description
+---|---
+ApplicationUser<br>Primary key | Lookup: ApplicationUser<br>Required
+Contact | Lookup: Contact<br>Required
+DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+Description | Data: Text<br>Maximum length: 128
+IsOwner | Data: Boolean<br>Required
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+ApplicationUser|Application user|OneToMany|Association
+Contact|Contact|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|DataSource<br>Description<br>IsOwner<br>Contact<br>ApplicationUser
+DefaultList|DefaultList field group|DataSource<br>Description<br>IsOwner<br>Contact<br>ApplicationUser
+DefaultCard|DefaultCard field group|DataSource<br>Description<br>IsOwner<br>Contact<br>ApplicationUser
+DefaultDetails|DefaultDetails field group|DataSource<br>Description<br>IsOwner<br>Contact<br>ApplicationUser
+DefaultLookup|DefaultLookup field group|Description<br>IsOwner<br>Contact<br>ApplicationUser
+DefaultReport|DefaultReport field group|DataSource<br>Description<br>IsOwner<br>Contact<br>ApplicationUser
+DefaultIdentification|DefaultIdentification field group|ApplicationUser<br>Contact
 ## ApplicationUserGroup (Application user group) Entity 
-Application user group 
+ 
 
 Field | Description
 ---|---
@@ -126,17 +165,26 @@ Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FullName | Data: Text<br>Searchable, Maximum length: 128
+GroupName | Data: Text<br>Maximum length: 128
 IsSecurityPrincipal | Data: Boolean<br>Required
-MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
+MailingPostalAddress | Data: Address
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
-PartyType | Data: Picklist<br>Required
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+OtherPostalAddress | Data: Address
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
+ShippingPostalAddress | Data: Address
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: ApplicationUserGroupStatus<br>Values: Active, Inactive<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+BusinessUnit|Business unit|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -153,42 +201,43 @@ New Comment
 Field | Description
 ---|---
 Birthdate | Data: Date
-BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
-ConstituentId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+BusinessPostalAddress | Data: Address
+ConstituentId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Data: Picklist
+Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
-HomePostalAddress | Data: Address<br>Description: Home postal address line 1
+HomePostalAddress | Data: Address
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
 PhoneHome | Data: Phone<br>Description: Phone 01
 PhonePrimary | Data: Phone
 Profession | Data: Text<br>Maximum length: 128
 SatoriId | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: ConstituentStatus<br>Values: Active, Inactive<br>Required
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -205,37 +254,38 @@ A person who serves as a contact for an organization.
 Field | Description
 ---|---
 Birthdate | Data: Date
-BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
+BusinessPostalAddress | Data: Address
 ContactId<br>Primary key | Number sequence: <br>Unique, Searchable
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Data: Picklist
+Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
-HomePostalAddress | Data: Address<br>Description: Home postal address line 1
+HomePostalAddress | Data: Address
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
 PhoneHome | Data: Phone<br>Description: Phone 01
 PhonePrimary | Data: Phone
 Profession | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: Status<br>Values: Active, Inactive<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -254,22 +304,23 @@ Field | Description
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
-FamilyId<br>Primary key | Number sequence: <br>Unique, Searchable
-FamilyName | Data: Text<br>Maximum length: 128<br>Description: Organization name
+FamilyId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Family number
 FullName | Data: Text<br>Searchable, Maximum length: 128
-MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
-OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
-PartyType | Data: Picklist<br>Required
+GroupName | Data: Text<br>Maximum length: 128
+MailingPostalAddress | Data: Address
+OtherPostalAddress | Data: Address
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
 Phone03 | Data: Phone
 PhonePrimary | Data: Phone
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+ShippingPostalAddress | Data: Address
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: FamilyStatus<br>Values: Active, Inactive<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -288,10 +339,18 @@ Field | Description
 Description | Data: Text<br>Maximum length: 128
 Family<br>Primary key | Lookup: Family<br>Required
 Person | Lookup: Person<br>Required
-PrimaryRole | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+PrimaryRole | Picklist: FamilyRole<br>Values: ElderSiblings, Father, GrandParents, Mother, YoungerSiblings<br>Required
+Status | Picklist: FamilyMemberStatus<br>Values: Active, Inactive<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Family|Family|OneToMany|Association
+Person|Person|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -308,44 +367,45 @@ A fan of an person, organization, group.
 Field | Description
 ---|---
 Birthdate | Data: Date
-BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
+BusinessPostalAddress | Data: Address
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FanId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+FanId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
 FanSince | Data: Date
 FavoritePlayer | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Data: Picklist
+Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
-HomePostalAddress | Data: Address<br>Description: Home postal address line 1
+HomePostalAddress | Data: Address
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
 PhoneHome | Data: Phone<br>Description: Phone 01
 PhonePrimary | Data: Phone
 Profession | Data: Text<br>Maximum length: 128
 SatoriId | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required<br>Description: Fan status
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: FanStatus<br>Values: Bronze, Club, Gold, Platinum, PreferenceTicket, SeasonTicketHolder, Silver<br>Required<br>Description: Fan status
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -365,21 +425,22 @@ Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FullName | Data: Text<br>Searchable, Maximum length: 128
-HouseholdId<br>Primary key | Number sequence: <br>Unique, Searchable
-HouseholdName | Data: Text<br>Maximum length: 128<br>Description: Organization name
-MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
-OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
-PartyType | Data: Picklist<br>Required
+GroupName | Data: Text<br>Maximum length: 128
+HouseholdId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Household number
+MailingPostalAddress | Data: Address
+OtherPostalAddress | Data: Address
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
 Phone03 | Data: Phone
 PhonePrimary | Data: Phone
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+ShippingPostalAddress | Data: Address
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: HouseholdStatus<br>Values: Active, Inactive<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -398,10 +459,18 @@ Field | Description
 Description | Data: Text<br>Maximum length: 128
 Household<br>Primary key | Lookup: Household<br>Required
 Person | Lookup: Person<br>Required
-PrimaryRole | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+PrimaryRole | Picklist: HouseholdRole<br>Values: ElderSiblings, Father, GrandParents, Mother, YoungerSiblings<br>Required
+Status | Picklist: HouseholdMemberStatus<br>Values: Active, Inactive<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Household|Household|OneToMany|Association
+Person|Person|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -413,7 +482,7 @@ DefaultLookup|DefaultLookup field group|Household<br>Person<br>PrimaryRole
 DefaultReport|DefaultReport field group|Household<br>Person<br>PrimaryRole
 DefaultIdentification|DefaultIdentification field group|Person<br>Household
 ## Organization (Organization) Entity 
-Organization 
+ 
 
 Field | Description
 ---|---
@@ -423,39 +492,49 @@ EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-IndustryCode | Data: Picklist
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsInternal | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
-MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
+MailingPostalAddress | Data: Address
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-OrganizationId<br>Primary key | Number sequence: <br>Unique, Searchable
-OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
+OrganizationId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Organization number
+OrganizationName | Data: Text<br>Maximum length: 128
+OtherPostalAddress | Data: Address
 ParentOrganization | Lookup: Organization
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
 Phone03 | Data: Phone
 PhonePrimary | Data: Phone
 PrimaryContact | Lookup: Contact<br>Required
 SatoriId | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
-StockExchange | Data: Picklist
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: OrganizationStatus<br>Values: Active, Inactive<br>Required
+StockExchange | Picklist: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
 StockTicker | Data: Text<br>Maximum length: 128
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
-Type | Data: Picklist<br>Required<br>Description: OrganizationType
+Type | Picklist: OrganizationType<br>Values: Corporation, Government, NonProfit, Other<br>Required<br>Description: OrganizationType
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Organization|Parent Organization|OneToMany|Association
+Contact|Primary contact|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -466,6 +545,35 @@ DefaultDetails|DefaultDetails field group|OrganizationId<br>FullName<br>Descript
 DefaultLookup|DefaultLookup field group|OrganizationId<br>FullName
 DefaultReport|DefaultReport field group|OrganizationId<br>FullName<br>Description<br>ParentOrganization<br>PhonePrimary<br>EmailPrimary<br>TaxIdentificationNumber<br>StockTicker
 DefaultIdentification|DefaultIdentification field group|OrganizationId<br>FullName
+## OrganizationContact (@Foundation.OrganizationContact) Entity 
+ 
+
+Field | Description
+---|---
+Contact | Lookup: Contact<br>Required
+DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+Description | Data: Text<br>Maximum length: 128
+Organization<br>Primary key | Lookup: Organization<br>Required
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Organization|Organization|OneToMany|Association
+Contact|Contact|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|Organization<br>Contact<br>DataSource<br>Description
+DefaultList|DefaultList field group|Organization<br>Contact<br>DataSource<br>Description
+DefaultCard|DefaultCard field group|Organization<br>Contact<br>DataSource<br>Description
+DefaultDetails|DefaultDetails field group|Organization<br>Contact<br>DataSource<br>Description
+DefaultLookup|DefaultLookup field group|Organization<br>Contact<br>DataSource<br>Description
+DefaultReport|DefaultReport field group|Organization<br>Contact<br>DataSource<br>Description
+DefaultIdentification|DefaultIdentification field group|Organization<br>Contact
 ## Team (Team) Entity 
 A group of persons who participate together in a defined effort. 
 
@@ -475,21 +583,22 @@ Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FullName | Data: Text<br>Searchable, Maximum length: 128
-MailingPostalAddress | Data: Address<br>Description: Mailing postal address line 1
-OtherPostalAddress | Data: Address<br>Description: Other postal address line 1
-PartyType | Data: Picklist<br>Required
+GroupName | Data: Text<br>Maximum length: 128
+MailingPostalAddress | Data: Address
+OtherPostalAddress | Data: Address
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
 Phone03 | Data: Phone
 PhonePrimary | Data: Phone
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
-TeamId<br>Primary key | Number sequence: <br>Unique, Searchable
-TeamName | Data: Text<br>Maximum length: 128<br>Description: Organization name
+ShippingPostalAddress | Data: Address
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: TeamStatus<br>Values: Active, Inactive<br>Required
+TeamId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Team number
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -507,11 +616,19 @@ Field | Description
 ---|---
 Description | Data: Text<br>Maximum length: 128
 Person | Lookup: Person<br>Required
-PrimaryRole | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+PrimaryRole | Picklist: TeamRole<br>Values: Coach, Lead, Manager, Player, Reserve, TeamLeader, TeamMember<br>Required
+Status | Picklist: TeamMemberStatus<br>Values: Active, Inactive<br>Required
 Team<br>Primary key | Lookup: Team<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Team|Team|OneToMany|Association
+Person|Person|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -528,21 +645,22 @@ A person or organization that leases space.
 Field | Description
 ---|---
 Birthdate | Data: Date
-BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
+BusinessPostalAddress | Data: Address
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Data: Picklist
+Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
-HomePostalAddress | Data: Address<br>Description: Home postal address line 1
+HomePostalAddress | Data: Address
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PersonName | Data: PersonName<br>Description: Given name
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
@@ -550,20 +668,20 @@ PhoneHome | Data: Phone<br>Description: Phone 01
 PhonePrimary | Data: Phone
 Profession | Data: Text<br>Maximum length: 128
 SatoriId | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: TenantStatus<br>Values: Active, Inactive<br>Required
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
-TenantId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+TenantId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-###Field groups
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -575,45 +693,54 @@ DefaultLookup|DefaultLookup field group|TenantId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|TenantId<br>FullName<br>PersonName<br>Status<br>PhonePrimary<br>HomePostalAddress
 DefaultIdentification|DefaultIdentification field group|TenantId<br>FullName
 ## Worker (Worker) Entity 
-Worker 
+ 
 
 Field | Description
 ---|---
-BusinessPostalAddress | Data: Address<br>Description: Business postal address line 1
-BusinessUnit | Lookup: BusinessUnit<br>Required
+BusinessPostalAddress | Data: Address
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Data: Picklist
+Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
-HomePostalAddress | Data: Address<br>Description: Home postal address line 1
+HomePostalAddress | Data: Address
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Manager | Lookup: Worker
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-PartyType | Data: Picklist<br>Required
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
 PhoneHome | Data: Phone<br>Description: Phone 01
 PhonePrimary | Data: Phone
 Profession | Data: Text<br>Maximum length: 128
-ShippingPostalAddress | Data: Address<br>Description: Shipping postal address line 1
-SocialNetwork01 | Data: Picklist
-SocialNetwork02 | Data: Picklist
+ShippingPostalAddress | Data: Address
+SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
+SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Data: Picklist<br>Required
-Status | Data: Picklist<br>Required
+Source | Picklist: Source<br>Values: Default<br>Required
+Status | Picklist: WorkerStatus<br>Values: Active, Inactive<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
-Type | Data: Picklist<br>Required
+Type | Picklist: WorkerType<br>Values: Contractor, Employee, Unspecified, Volunteer<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
-WorkerId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+WorkerId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Worker|Manager|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
