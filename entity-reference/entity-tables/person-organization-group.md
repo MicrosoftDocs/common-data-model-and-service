@@ -3,7 +3,7 @@ title: "Person, organization, and group reference | Microsoft Docs"
 description: "The people, organizations, and groups entities encompass a rich set of people and organizations that you might interact with."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "01/26/2017"
+ms.date: "01/27/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -54,6 +54,10 @@ Status | Picklist: AlumnusStatus<br>Values: Current, Inactive, Past<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+### Relationships
+
+This entity has no relationships.
+
 ### Field groups
 
 Field group | Description | Fields
@@ -65,6 +69,7 @@ DefaultDetails|DefaultDetails field group|AlumnusId<br>Name<br>GraduationClass<b
 DefaultLookup|DefaultLookup field group|AlumnusId<br>FullName<br>GraduationClass<br>Status
 DefaultReport|DefaultReport field group|AlumnusId<br>Name<br>GraduationClass<br>Status<br>EmailPrimary<br>Description<br>FacebookIdentity<br>TwitterIdentity
 DefaultIdentification|DefaultIdentification field group|AlumnusId<br>FullName
+
 ## ApplicationUser (Application user) Entity 
  
 
@@ -124,6 +129,7 @@ DefaultDetails|DefaultDetails field group|ApplicationUserId<br>FullName<br>Name<
 DefaultLookup|DefaultLookup field group|ApplicationUserId<br>FullName<br>EmailPrimary
 DefaultReport|DefaultReport field group|ApplicationUserId<br>FullName<br>Name<br>EmailPrimary<br>Description<br>SocialNetwork01<br>SocialNetworkIdentity01
 DefaultIdentification|DefaultIdentification field group|ApplicationUserId<br>FullName
+
 ## ApplicationUserContact (@Foundation.ApplicationUserContact) Entity 
  
 
@@ -154,6 +160,7 @@ DefaultDetails|DefaultDetails field group|DataSource<br>Description<br>IsOwner<b
 DefaultLookup|DefaultLookup field group|Description<br>IsOwner<br>Contact<br>ApplicationUser
 DefaultReport|DefaultReport field group|DataSource<br>Description<br>IsOwner<br>Contact<br>ApplicationUser
 DefaultIdentification|DefaultIdentification field group|ApplicationUser<br>Contact
+
 ## ApplicationUserGroup (Application user group) Entity 
  
 
@@ -195,6 +202,7 @@ DefaultDetails|DefaultDetails field group|ApplicationUserGroupId<br>FullName<br>
 DefaultLookup|DefaultLookup field group|ApplicationUserGroupId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|ApplicationUserGroupId<br>FullName<br>Status<br>BusinessUnit
 DefaultIdentification|DefaultIdentification field group|ApplicationUserGroupId<br>FullName
+
 ## Constituent (Constituent) Entity 
 New Comment 
 
@@ -237,6 +245,10 @@ TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+### Relationships
+
+This entity has no relationships.
+
 ### Field groups
 
 Field group | Description | Fields
@@ -248,6 +260,7 @@ DefaultDetails|DefaultDetails field group|ConstituentId<br>FullName<br>Name<br>S
 DefaultLookup|DefaultLookup field group|ConstituentId<br>FullName
 DefaultReport|DefaultReport field group|ConstituentId<br>FullName<br>Name<br>Status<br>PhoneCell<br>PhoneBusiness<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
 DefaultIdentification|DefaultIdentification field group|ConstituentId<br>FullName
+
 ## Contact (Contact) Entity 
 A person who serves as a contact for an organization. 
 
@@ -285,6 +298,10 @@ Status | Picklist: Status<br>Values: Active, Inactive<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+### Relationships
+
+This entity has no relationships.
+
 ### Field groups
 
 Field group | Description | Fields
@@ -296,6 +313,7 @@ DefaultDetails|DefaultDetails field group|ContactId<br>FullName<br>Name<br>Phone
 DefaultLookup|DefaultLookup field group|ContactId<br>FullName<br>EmailPrimary
 DefaultReport|DefaultReport field group|ContactId<br>FullName<br>Name<br>PhoneCell<br>PhoneBusiness<br>PhoneHome<br>EmailPrimary<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>BusinessPostalAddress<br>WebsiteURL
 DefaultIdentification|DefaultIdentification field group|FullName<br>EmailPrimary
+
 ## Family (Family) Entity 
 A group of related people. Individual family members are described in the Family Members table. 
 
@@ -320,6 +338,10 @@ Source | Picklist: Source<br>Values: Default<br>Required
 Status | Picklist: FamilyStatus<br>Values: Active, Inactive<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+### Relationships
+
+This entity has no relationships.
+
 ### Field groups
 
 Field group | Description | Fields
@@ -331,6 +353,7 @@ DefaultDetails|DefaultDetails field group|FamilyId<br>FullName<br>Status<br>Phon
 DefaultLookup|DefaultLookup field group|FamilyId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|FamilyId<br>FullName<br>Status<br>PhonePrimary
 DefaultIdentification|DefaultIdentification field group|FamilyId<br>FullName
+
 ## FamilyMember (Family member) Entity 
 A person that is a member of a family. 
 
@@ -361,6 +384,7 @@ DefaultDetails|DefaultDetails field group|Person<br>PrimaryRole<br>Family<br>Des
 DefaultLookup|DefaultLookup field group|Person<br>PrimaryRole<br>Family
 DefaultReport|DefaultReport field group|Person<br>PrimaryRole<br>Family<br>Description
 DefaultIdentification|DefaultIdentification field group|Person<br>Family
+
 ## Fan (Fan) Entity 
 A fan of an person, organization, group. 
 
@@ -405,6 +429,10 @@ TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+### Relationships
+
+This entity has no relationships.
+
 ### Field groups
 
 Field group | Description | Fields
@@ -416,6 +444,7 @@ DefaultDetails|DefaultDetails field group|FanId<br>FullName<br>Name<br>Status<br
 DefaultLookup|DefaultLookup field group|FanId<br>FullName<br>Status<br>FanSince
 DefaultReport|DefaultReport field group|FanId<br>FullName<br>Name<br>Status<br>FanSince<br>FavoritePlayer
 DefaultIdentification|DefaultIdentification field group|FanId<br>FullName
+
 ## Household (Household) Entity 
 A group of individuals that share a living space. Individual household members are described in the HouseholdMember entity. 
 
@@ -440,6 +469,10 @@ Source | Picklist: Source<br>Values: Default<br>Required
 Status | Picklist: HouseholdStatus<br>Values: Active, Inactive<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+### Relationships
+
+This entity has no relationships.
+
 ### Field groups
 
 Field group | Description | Fields
@@ -451,6 +484,7 @@ DefaultDetails|DefaultDetails field group|HouseholdId<br>FullName<br>Status<br>P
 DefaultLookup|DefaultLookup field group|HouseholdId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|HouseholdId<br>FullName<br>Status<br>PhonePrimary<br>Description
 DefaultIdentification|DefaultIdentification field group|HouseholdId<br>FullName
+
 ## HouseholdMember (Household member) Entity 
 A person that is a member of a household. 
 
@@ -481,6 +515,7 @@ DefaultDetails|DefaultDetails field group|Household<br>Person<br>PrimaryRole<br>
 DefaultLookup|DefaultLookup field group|Household<br>Person<br>PrimaryRole
 DefaultReport|DefaultReport field group|Household<br>Person<br>PrimaryRole
 DefaultIdentification|DefaultIdentification field group|Person<br>Household
+
 ## Organization (Organization) Entity 
  
 
@@ -545,6 +580,7 @@ DefaultDetails|DefaultDetails field group|OrganizationId<br>FullName<br>Descript
 DefaultLookup|DefaultLookup field group|OrganizationId<br>FullName
 DefaultReport|DefaultReport field group|OrganizationId<br>FullName<br>Description<br>ParentOrganization<br>PhonePrimary<br>EmailPrimary<br>TaxIdentificationNumber<br>StockTicker
 DefaultIdentification|DefaultIdentification field group|OrganizationId<br>FullName
+
 ## OrganizationContact (@Foundation.OrganizationContact) Entity 
  
 
@@ -574,6 +610,7 @@ DefaultDetails|DefaultDetails field group|Organization<br>Contact<br>DataSource<
 DefaultLookup|DefaultLookup field group|Organization<br>Contact<br>DataSource<br>Description
 DefaultReport|DefaultReport field group|Organization<br>Contact<br>DataSource<br>Description
 DefaultIdentification|DefaultIdentification field group|Organization<br>Contact
+
 ## Team (Team) Entity 
 A group of persons who participate together in a defined effort. 
 
@@ -598,6 +635,10 @@ Status | Picklist: TeamStatus<br>Values: Active, Inactive<br>Required
 TeamId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Team number
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+### Relationships
+
+This entity has no relationships.
+
 ### Field groups
 
 Field group | Description | Fields
@@ -609,6 +650,7 @@ DefaultDetails|DefaultDetails field group|TeamId<br>FullName<br>Description<br>S
 DefaultLookup|DefaultLookup field group|TeamId<br>FullName<br>Status<br>PhonePrimary<br>EmailPrimary
 DefaultReport|DefaultReport field group|TeamId<br>FullName<br>Description<br>Status<br>PhonePrimary<br>EmailPrimary
 DefaultIdentification|DefaultIdentification field group|TeamId<br>FullName
+
 ## TeamMember (Team member) Entity 
 A person who is a member of a team. 
 
@@ -639,6 +681,7 @@ DefaultDetails|DefaultDetails field group|Person<br>Team<br>PrimaryRole
 DefaultLookup|DefaultLookup field group|Person<br>Team<br>PrimaryRole
 DefaultReport|DefaultReport field group|Person<br>Team<br>PrimaryRole
 DefaultIdentification|DefaultIdentification field group|Person<br>Team
+
 ## Tenant (Tenant) Entity 
 A person or organization that leases space. 
 
@@ -681,6 +724,10 @@ TenantId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+### Relationships
+
+This entity has no relationships.
+
 ### Field groups
 
 Field group | Description | Fields
@@ -692,6 +739,7 @@ DefaultDetails|DefaultDetails field group|TenantId<br>FullName<br>PersonName<br>
 DefaultLookup|DefaultLookup field group|TenantId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|TenantId<br>FullName<br>PersonName<br>Status<br>PhonePrimary<br>HomePostalAddress
 DefaultIdentification|DefaultIdentification field group|TenantId<br>FullName
+
 ## Worker (Worker) Entity 
  
 
@@ -751,3 +799,4 @@ DefaultDetails|DefaultDetails field group|WorkerId<br>FullName<br>Name<br>Status
 DefaultLookup|DefaultLookup field group|WorkerId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|WorkerId<br>FullName<br>Name<br>Status<br>Manager<br>BusinessUnit<br>PhoneCell<br>PhoneBusiness<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity
 DefaultIdentification|DefaultIdentification field group|WorkerId<br>FullName
+
