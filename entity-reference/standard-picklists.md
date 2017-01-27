@@ -1,5 +1,5 @@
 ---
-title: "Standard picklists reference | Microsoft Docs"
+title: "Standard picklists | Microsoft Docs"
 description: "The Common Data Model contains a rich set of picklists to support common scenarios."
 author: "robinarh"
 manager: "robinarh"
