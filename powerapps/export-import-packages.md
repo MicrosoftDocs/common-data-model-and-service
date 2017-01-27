@@ -33,7 +33,7 @@ You move resources through separate export and import processes, by using a pack
 The functionality for both resource import and resource export is available in the **Environments** section of the admin center. Both export and import occur in the context of a selected environment.
 
 ### Export resources
-The export package will contain all changes to **entities, picklists, permission sets, and roles**. We are working to enable the export of more resource types such as apps, flows, connectors and others. This option lets you move a subste of the contents of one environment to another environment.
+The export package will contain all changes to **entities, picklists, permission sets, and roles**. We are working to enable the export of more resource types such as apps, flows, connectors and others. This option lets you move contents of one environment to another environment.
 
 1. In the [admin center](https://admin.powerapps.com), in the left navigation pane, click **Environments**.
 1. Select the source environment.
