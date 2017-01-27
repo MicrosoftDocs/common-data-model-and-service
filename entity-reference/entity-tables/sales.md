@@ -3,7 +3,7 @@ title: "Sales reference | Microsoft Docs"
 description: "The sales entities let you create end-to-end sales solutions."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "01/26/2017"
+ms.date: "01/27/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -79,6 +79,7 @@ DefaultDetails|DefaultDetails field group|AccountId<br>FullName<br>PersonName<br
 DefaultLookup|DefaultLookup field group|AccountId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
 DefaultIdentification|DefaultIdentification field group|AccountId<br>FullName
+
 ## AccountContact (@Foundation.AccountContact) Entity 
  
 
@@ -108,6 +109,7 @@ DefaultDetails|DefaultDetails field group|Account<br>Contact<br>DataSource<br>De
 DefaultLookup|DefaultLookup field group|Account<br>Contact<br>DataSource<br>Description
 DefaultReport|DefaultReport field group|Account<br>Contact<br>DataSource<br>Description
 DefaultIdentification|DefaultIdentification field group|Account<br>Contact
+
 ## Lead (Lead) Entity 
 Lead table can store information about individuals who are interested in receiving information about the products or services offered by the company. 
 
@@ -155,6 +157,10 @@ TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
+### Relationships
+
+This entity has no relationships.
+
 ### Field groups
 
 Field group | Description | Fields
@@ -166,6 +172,7 @@ DefaultDetails|DefaultDetails field group|LeadId<br>FullName<br>PersonName<br>St
 DefaultLookup|DefaultLookup field group|LeadId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>PhonePrimary<br>EmailPrimary
 DefaultIdentification|DefaultIdentification field group|LeadId<br>FullName
+
 ## LeadContact (@Foundation.LeadContact) Entity 
  
 
@@ -195,6 +202,7 @@ DefaultDetails|DefaultDetails field group|Lead<br>Contact<br>DataSource<br>Descr
 DefaultLookup|DefaultLookup field group|Lead<br>Contact<br>DataSource<br>Description
 DefaultReport|DefaultReport field group|Lead<br>Contact<br>DataSource<br>Description
 DefaultIdentification|DefaultIdentification field group|Lead<br>Contact
+
 ## Opportunity (Opportunity) Entity 
 Opportunity table can track information about potential sales to new or established customers. 
 
@@ -237,6 +245,7 @@ DefaultDetails|DefaultDetails field group|OpportunityId<br>Name<br>Status<br>Ori
 DefaultLookup|DefaultLookup field group|OpportunityId<br>Name<br>Status
 DefaultReport|DefaultReport field group|OpportunityId<br>Name<br>Status<br>OriginalEstimatedValueAmount<br>EstimatedValueAmount<br>EstimatedCloseDate<br>PurchaseTimeFrame<br>PurchaseProcess<br>SalesStage<br>Description<br>CreatedDate<br>Source<br>IndustryCode<br>RatingCode
 DefaultIdentification|DefaultIdentification field group|OpportunityId<br>Name
+
 ## Partner (Partner) Entity 
 An organization that takes part in a business relationship with another organization with shared risks and profits. 
 
@@ -299,6 +308,7 @@ DefaultDetails|DefaultDetails field group|PartnerId<br>FullName<br>PhonePrimary<
 DefaultLookup|DefaultLookup field group|PartnerId<br>FullName<br>PhonePrimary
 DefaultReport|DefaultReport field group|PartnerId<br>FullName<br>PhonePrimary<br>ParentPartner<br>WebsiteURL<br>FacebookIdentity<br>LinkedInIdentity<br>TwitterIdentity<br>MailingPostalAddress<br>StockTicker
 DefaultIdentification|DefaultIdentification field group|PartnerId<br>FullName
+
 ## SalesInvoice (Sales invoice) Entity 
 An invoice sent to a customer to document the customer's liability for a purchase. 
 
@@ -347,6 +357,7 @@ DefaultDetails|DefaultDetails field group|InvoiceDate<br>SalesInvoiceId<br>Name<
 DefaultLookup|DefaultLookup field group|SalesInvoiceId<br>InvoiceDate<br>Name<br>Account
 DefaultReport|DefaultReport field group|InvoiceDate<br>SalesInvoiceId<br>Name<br>Description<br>Account<br>CustomerPurchaseOrderReference<br>AccountContact<br>Status<br>BillingAddress<br>TotalAmount<br>FreightTerms<br>PaymentTerms<br>SalesPersonWorker<br>ShippingMethod<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
 DefaultIdentification|DefaultIdentification field group|SalesInvoiceId<br>Name
+
 ## SalesInvoiceCharge (Sales invoice charge) Entity 
 An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole invoice. 
 
@@ -376,6 +387,7 @@ DefaultDetails|DefaultDetails field group|SalesInvoice<br>ChargeType<br>Name<br>
 DefaultLookup|DefaultLookup field group|SalesInvoice<br>ChargeType<br>Amount
 DefaultReport|DefaultReport field group|SalesInvoice<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>Name
+
 ## SalesInvoiceLine (Sales invoice line) Entity 
 A component of a sales invoice that contains a portion of the invoiced amount including information such as product, quantity, and price. 
 
@@ -417,6 +429,7 @@ DefaultDetails|DefaultDetails field group|SalesInvoice<br>Product<br>Name<br>Des
 DefaultLookup|DefaultLookup field group|SalesInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
 DefaultReport|DefaultReport field group|SalesInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
 DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>Sequence<br>Product
+
 ## SalesInvoiceLineCharge (Sales invoice line charge) Entity 
 An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the invoice line. 
 
@@ -446,6 +459,7 @@ DefaultDetails|DefaultDetails field group|SalesInvoiceLine<br>ChargeType<br>Name
 DefaultLookup|DefaultLookup field group|ChargeType<br>Amount
 DefaultReport|DefaultReport field group|SalesInvoiceLine<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|DefaultIdentification field group|SalesInvoiceLine<br>Name
+
 ## SalesInvoiceLineTax (Sales invoice line tax) Entity 
 Tax charged on a sales Invoice line. 
 
@@ -476,6 +490,7 @@ DefaultDetails|DefaultDetails field group|Name<br>RateCode<br>TaxType<br>Amount<
 DefaultLookup|DefaultLookup field group|Name<br>RateCode<br>TaxType<br>Amount
 DefaultReport|DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br>Description<br>SalesInvoiceLine
 DefaultIdentification|DefaultIdentification field group|SalesInvoiceLine<br>Name
+
 ## SalesInvoiceTax (Sales invoice tax) Entity 
 Tax charged on a sales Invoice as a whole. 
 
@@ -506,6 +521,7 @@ DefaultDetails|DefaultDetails field group|SalesInvoice<br>RateCode<br>TaxType<br
 DefaultLookup|DefaultLookup field group|SalesInvoice<br>RateCode<br>Amount
 DefaultReport|DefaultReport field group|SalesInvoice<br>RateCode<br>TaxType<br>Name<br>Amount
 DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>TaxType<br>RateCode
+
 ## SalesOrder (Sales order) Entity 
 An order issued by a business to a customer for selling products and/or services. 
 
@@ -553,6 +569,7 @@ DefaultDetails|DefaultDetails field group|SalesOrderId<br>Account<br>OrderDate<b
 DefaultLookup|DefaultLookup field group|SalesOrderId<br>Account<br>OrderDate<br>Status<br>TotalAmount
 DefaultReport|DefaultReport field group|SalesOrderId<br>Account<br>OrderDate<br>CustomerPurchaseOrderReference<br>Status<br>Name<br>Description<br>SalesPersonWorker<br>AccountContact<br>TotalAmount
 DefaultIdentification|DefaultIdentification field group|SalesOrderId<br>Name
+
 ## SalesOrderCharge (Sales order charge) Entity 
 An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole sales order 
 
@@ -582,6 +599,7 @@ DefaultDetails|DefaultDetails field group|SalesOrder<br>ChargeType<br>Name<br>De
 DefaultLookup|DefaultLookup field group|SalesOrder<br>ChargeType<br>Amount
 DefaultReport|DefaultReport field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|DefaultIdentification field group|SalesOrder<br>ChargeType<br>Name
+
 ## SalesOrderLine (Sales order lines) Entity 
 A component of a sales order that contains a portion of the order amount including information such as product, quantity, and price. 
 
@@ -624,6 +642,7 @@ DefaultDetails|DefaultDetails field group|SalesOrder<br>Sequence<br>Product<br>P
 DefaultLookup|DefaultLookup field group|SalesOrder<br>ProductName<br>Status<br>Quantity
 DefaultReport|DefaultReport field group|SalesOrder<br>Product<br>ProductName<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>ExpectedShipDate<br>MostRecentActualShipDate
 DefaultIdentification|DefaultIdentification field group|SalesOrder<br>Sequence<br>ProductName
+
 ## SalesOrderLineCharge (Sales order line charge) Entity 
 An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the sales order line. 
 
@@ -653,6 +672,7 @@ DefaultDetails|DefaultDetails field group|SalesOrderLine<br>ChargeType<br>Name<b
 DefaultLookup|DefaultLookup field group|SalesOrderLine<br>Amount<br>ChargeType
 DefaultReport|DefaultReport field group|SalesOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>ChargeType<br>Name
+
 ## SalesOrderLineShipment (Sales order line shipment) Entity 
 Delivery schedule for a sales order line. 
 
@@ -683,6 +703,7 @@ DefaultDetails|DefaultDetails field group|ActualShipDate<br>SalesOrderLine<br>De
 DefaultLookup|DefaultLookup field group|SalesOrderLine<br>ActualShipDate<br>Description<br>Quantity<br>Status
 DefaultReport|DefaultReport field group|Status<br>ActualShipDate<br>SalesOrderLine<br>Description<br>Quantity
 DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>ActualShipDate
+
 ## SalesOrderLineTax (Sales order line tax) Entity 
 Tax charged on a sales order line. 
 
@@ -713,6 +734,7 @@ DefaultDetails|DefaultDetails field group|TaxType<br>RateCode<br>SalesOrderLine<
 DefaultLookup|DefaultLookup field group|SalesOrderLine<br>TaxType<br>RateCode<br>Amount
 DefaultReport|DefaultReport field group|Amount<br>TaxType<br>RateCode<br>SalesOrderLine<br>Name<br>Description
 DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>TaxType<br>RateCode
+
 ## SalesOrderTax (Sales order tax) Entity 
 Tax charged on a sales order as a whole. 
 
@@ -743,3 +765,4 @@ DefaultDetails|DefaultDetails field group|SalesOrder<br>Name<br>RateCode<br>TaxT
 DefaultLookup|DefaultLookup field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount
 DefaultReport|DefaultReport field group|SalesOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
 DefaultIdentification|DefaultIdentification field group|SalesOrder<br>Name
+
