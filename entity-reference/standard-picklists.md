@@ -1,5 +1,5 @@
 ---
-title: "Standard picklists | Microsoft Docs"
+title: "Standard picklists reference | Microsoft Docs"
 description: "The Common Data Model contains a rich set of picklists to support common scenarios."
 author: "robinarh"
 manager: "robinarh"
@@ -14,6 +14,7 @@ ms.assetid: "364f88ac-0fcc-44dd-9e9a-9512e8420def"
 ---
 
 # Standard picklists
+
 Name | Values 
 ---|---
 AccountStatus | Active, Inactive 
