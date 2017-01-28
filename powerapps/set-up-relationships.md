@@ -23,12 +23,14 @@ Several things need to happen when you want to represent data in a relational da
 
 Let's say you were defining entities to deal with authors and the books they write. Clearly, an author can have more than one book to his credit, which is what is known as a 1:N relationship. In this blog we will ignore the problems involved in managing the more complicated case mapping more than one author to one or more books (what is colloquially known as N:M relationships).
 
+## Create an Author entity
 Let’s start by going into the portal to create an entity, appropriately called “Author” in your environment. Make sure you choose the name of entities judiciously, as there is no way to rename them once they are created. If you need more information about entities, you may want to read [platform intro](data-platform-intro.md)
 
 Set the entity display name and description fields to something reasonable. For this demo we need the name of the author, so define a field called Name of type PersonName. The field does not need to be unique, but it should be set to required,since empty names should not be allowed. These options are set in the properties window. Also add a Date of Birth field called DOB of type Date for good measure. You might want to add the name field to the Default lookup field group: This will allow you to easily identify the author in a powerapp.
 
 When you added your fields, you may have noticed that the system automatically created a few fields for you. One of these is called Primary Id, of type Autonumber. If you select this field, you can see in the properties pane that this field is unique, i.e. each value is guaranteed to be used only once in this entity. You do not need to manage these values yourself; the system will assign a new value every time you add a new record to the entity. This is what is often called the entity’s _primary key_.
 
+## Add some data to the Author entity
 Let’s take a moment to actually get some data into this entity. One easy way to do this is to use the “Open in Excel” button available on the entity page. Press that icon, and wait for Excel to start and do load the PowerApps add-in. For this discussion it seems appropriate the focus on the fathers of relational databases, so we will add
 
 | Primary Id | Given name of Name | Middle name of Name	| Surname of Name | Date of Birth |
@@ -38,9 +40,11 @@ Let’s take a moment to actually get some data into this entity. One easy way t
 
 Notice how the values for the Primary ID field are automatically calculated when the data is published (by pressing the “publish” icon on the left hand side, in the PowerApps add-in window). At this point we have data in our entity! If you want to check, you can go to the Data tab on the entity (press Refresh if you have to): The two eminent founders of relational database theory should show up in the table.
 
+## Add the Book entity
 So far so good. Now is the time to create the entity that deals with the works that the authors wrote. For this we will create an entity called Book, with a field called Title (that is required) and a field called ISBN (also required). Again, the system will create a Primary ID field that is guaranteed to be unique. While you can argue that the ISBN field is unique for every published book, the field will be also serve for identifying academic papers, and there is no guarantee of uniqueness of those identifying numbers. Feel free to add additional fields, like date of publication and synopsis.
 
-We have created the two tables, but we have not yet linked up the two entities to model that there exists a relationship between them. Let’s establish that relationship by opening the Book entity again, and navigating to the Relationship tab. Here we can set up the related entity, which ofcourse is the Author entity. Note that the relationship is always set up on the child entity, i.e. the N part of the 1:N relationship.
+## Linking the two entities
+We have created the two entities, but we have not yet linked them to model that there exists a relationship between them. Let’s establish that relationship by opening the Book entity again, and navigating to the Relationship tab. Here we can set up the related entity, which ofcourse is the Author entity. Note that the relationship is always set up on the child entity, i.e. the N part of the 1:N relationship.
 
 If you go back to the Book entity, you will see that adding the relationship to the Author entity resulted in the system adding a new field. The field is called Author\_, i.e. the name of the parent entity with an underscore character appended to it. This field has a special type called Lookup. This is  what is known as the _foreign key_. Imagine there is an author that has the value of its primary key equal to 1234. The relationship between the author and his books is enforced by the fact that the books that are written by that author has the foreign key field, i.e. the Author_ field in this case, set to that value. This is the glue that ties together the book and the author.
 
