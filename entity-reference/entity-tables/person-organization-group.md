@@ -3,7 +3,7 @@ title: "Person, organization, and group reference | Microsoft Docs"
 description: "The people, organizations, and groups entities encompass a rich set of people and organizations that you might interact with."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "01/27/2017"
+ms.date: "01/30/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -19,7 +19,7 @@ A graduate of a school.
 
 Field | Description
 ---|---
-AlumnusId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+AlumnusId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 Birthdate | Data: Date
 BusinessPostalAddress | Data: Address
 Description | Data: Text<br>Maximum length: 128
@@ -37,7 +37,7 @@ IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
@@ -71,11 +71,11 @@ DefaultReport|DefaultReport field group|AlumnusId<br>Name<br>GraduationClass<br>
 DefaultIdentification|DefaultIdentification field group|AlumnusId<br>FullName
 
 ## ApplicationUser (Application user) Entity 
- 
+A person who can be authenticated as a user of Common Data Service. 
 
 Field | Description
 ---|---
-AADUserOID<br>Primary key | Data: Text<br>Required, Unique, Searchable, Maximum length: 36<br>Description: AAD user object id
+AADUserOID<br>Primary key | Data: Text<br>Required, Unique, Searchable, Maximum length: 36<br>Description: AAD user object ID
 ApplicationUserId | Number sequence: <br>Unique, Searchable
 Birthdate | Data: Date
 BusinessPostalAddress | Data: Address
@@ -94,7 +94,7 @@ IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
@@ -130,8 +130,8 @@ DefaultLookup|DefaultLookup field group|ApplicationUserId<br>FullName<br>EmailPr
 DefaultReport|DefaultReport field group|ApplicationUserId<br>FullName<br>Name<br>EmailPrimary<br>Description<br>SocialNetwork01<br>SocialNetworkIdentity01
 DefaultIdentification|DefaultIdentification field group|ApplicationUserId<br>FullName
 
-## ApplicationUserContact (@Foundation.ApplicationUserContact) Entity 
- 
+## ApplicationUserContact (Application user contact) Entity 
+Application user contact 
 
 Field | Description
 ---|---
@@ -162,7 +162,7 @@ DefaultReport|DefaultReport field group|DataSource<br>Description<br>IsOwner<br>
 DefaultIdentification|DefaultIdentification field group|ApplicationUser<br>Contact
 
 ## ApplicationUserGroup (Application user group) Entity 
- 
+A collection of application users. 
 
 Field | Description
 ---|---
@@ -177,7 +177,7 @@ IsSecurityPrincipal | Data: Boolean<br>Required
 MailingPostalAddress | Data: Address
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
 OtherPostalAddress | Data: Address
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 ShippingPostalAddress | Data: Address
 Source | Picklist: Source<br>Values: Default<br>Required
@@ -204,13 +204,13 @@ DefaultReport|DefaultReport field group|ApplicationUserGroupId<br>FullName<br>St
 DefaultIdentification|DefaultIdentification field group|ApplicationUserGroupId<br>FullName
 
 ## Constituent (Constituent) Entity 
-New Comment 
+A member of a constituency. 
 
 Field | Description
 ---|---
 Birthdate | Data: Date
 BusinessPostalAddress | Data: Address
-ConstituentId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+ConstituentId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
@@ -225,7 +225,7 @@ IsSecurityPrincipal | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
@@ -281,7 +281,7 @@ IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
@@ -315,19 +315,19 @@ DefaultReport|DefaultReport field group|ContactId<br>FullName<br>Name<br>PhoneCe
 DefaultIdentification|DefaultIdentification field group|FullName<br>EmailPrimary
 
 ## Family (Family) Entity 
-A group of related people. Individual family members are described in the Family Members table. 
+A group of related people. Individual family members are described in the FamilyMember entity. 
 
 Field | Description
 ---|---
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
-FamilyId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Family number
+FamilyId<br>Primary key | Number sequence: <br>Unique, Searchable
 FullName | Data: Text<br>Searchable, Maximum length: 128
 GroupName | Data: Text<br>Maximum length: 128
 MailingPostalAddress | Data: Address
 OtherPostalAddress | Data: Address
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -355,7 +355,7 @@ DefaultReport|DefaultReport field group|FamilyId<br>FullName<br>Status<br>PhoneP
 DefaultIdentification|DefaultIdentification field group|FamilyId<br>FullName
 
 ## FamilyMember (Family member) Entity 
-A person that is a member of a family. 
+A person who is a member of a Family entity. 
 
 Field | Description
 ---|---
@@ -386,7 +386,7 @@ DefaultReport|DefaultReport field group|Person<br>PrimaryRole<br>Family<br>Descr
 DefaultIdentification|DefaultIdentification field group|Person<br>Family
 
 ## Fan (Fan) Entity 
-A fan of an person, organization, group. 
+A fan of a sports team. 
 
 Field | Description
 ---|---
@@ -396,7 +396,7 @@ Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
-FanId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+FanId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 FanSince | Data: Date
 FavoritePlayer | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
@@ -409,7 +409,7 @@ IsSecurityPrincipal | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
@@ -446,7 +446,7 @@ DefaultReport|DefaultReport field group|FanId<br>FullName<br>Name<br>Status<br>F
 DefaultIdentification|DefaultIdentification field group|FanId<br>FullName
 
 ## Household (Household) Entity 
-A group of individuals that share a living space. Individual household members are described in the HouseholdMember entity. 
+A group of individuals who share a living space. Individual household members are described in the HouseholdMember entity. 
 
 Field | Description
 ---|---
@@ -455,10 +455,10 @@ EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FullName | Data: Text<br>Searchable, Maximum length: 128
 GroupName | Data: Text<br>Maximum length: 128
-HouseholdId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Household number
+HouseholdId<br>Primary key | Number sequence: <br>Unique, Searchable
 MailingPostalAddress | Data: Address
 OtherPostalAddress | Data: Address
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -486,7 +486,7 @@ DefaultReport|DefaultReport field group|HouseholdId<br>FullName<br>Status<br>Pho
 DefaultIdentification|DefaultIdentification field group|HouseholdId<br>FullName
 
 ## HouseholdMember (Household member) Entity 
-A person that is a member of a household. 
+A person who is a member of a Household entity. 
 
 Field | Description
 ---|---
@@ -517,7 +517,7 @@ DefaultReport|DefaultReport field group|Household<br>Person<br>PrimaryRole
 DefaultIdentification|DefaultIdentification field group|Person<br>Household
 
 ## Organization (Organization) Entity 
- 
+A corporate organization that can have business units. 
 
 Field | Description
 ---|---
@@ -534,11 +534,11 @@ IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 MailingPostalAddress | Data: Address
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-OrganizationId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Organization number
+OrganizationId<br>Primary key | Number sequence: <br>Unique, Searchable
 OrganizationName | Data: Text<br>Maximum length: 128
 OtherPostalAddress | Data: Address
 ParentOrganization | Lookup: Organization
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -581,8 +581,8 @@ DefaultLookup|DefaultLookup field group|OrganizationId<br>FullName
 DefaultReport|DefaultReport field group|OrganizationId<br>FullName<br>Description<br>ParentOrganization<br>PhonePrimary<br>EmailPrimary<br>TaxIdentificationNumber<br>StockTicker
 DefaultIdentification|DefaultIdentification field group|OrganizationId<br>FullName
 
-## OrganizationContact (@Foundation.OrganizationContact) Entity 
- 
+## OrganizationContact (Organization contact) Entity 
+Organization contact 
 
 Field | Description
 ---|---
@@ -623,7 +623,7 @@ FullName | Data: Text<br>Searchable, Maximum length: 128
 GroupName | Data: Text<br>Maximum length: 128
 MailingPostalAddress | Data: Address
 OtherPostalAddress | Data: Address
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -632,7 +632,7 @@ PhonePrimary | Data: Phone
 ShippingPostalAddress | Data: Address
 Source | Picklist: Source<br>Values: Default<br>Required
 Status | Picklist: TeamStatus<br>Values: Active, Inactive<br>Required
-TeamId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Team number
+TeamId<br>Primary key | Number sequence: <br>Unique, Searchable
 WebsiteURL | Data: Text<br>Maximum length: 255
 
 ### Relationships
@@ -702,7 +702,7 @@ IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PersonName | Data: PersonName<br>Description: Given name
 PhoneBusiness | Data: Phone<br>Description: Phone 03
@@ -720,7 +720,7 @@ Source | Picklist: Source<br>Values: Default<br>Required
 Status | Picklist: TenantStatus<br>Values: Active, Inactive<br>Required
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
-TenantId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+TenantId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
@@ -741,7 +741,7 @@ DefaultReport|DefaultReport field group|TenantId<br>FullName<br>PersonName<br>St
 DefaultIdentification|DefaultIdentification field group|TenantId<br>FullName
 
 ## Worker (Worker) Entity 
- 
+A person who is engaged by an organization as an employee, contractor, or volunteer. 
 
 Field | Description
 ---|---
@@ -761,7 +761,7 @@ LinkedInIdentity | Data: Text<br>Maximum length: 128
 Manager | Lookup: Worker
 Name | Data: PersonName<br>Description: Given name
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone<br>Description: Phone 03
 PhoneCell | Data: Phone<br>Description: Phone 02
@@ -778,7 +778,7 @@ Status | Picklist: WorkerStatus<br>Values: Active, Inactive<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 Type | Picklist: WorkerType<br>Values: Contractor, Employee, Unspecified, Volunteer<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
-WorkerId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+WorkerId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 
 ### Relationships
 
