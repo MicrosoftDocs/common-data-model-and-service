@@ -3,7 +3,7 @@ title: "Sales reference | Microsoft Docs"
 description: "The sales entities let you create end-to-end sales solutions."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "01/27/2017"
+ms.date: "01/30/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -37,7 +37,7 @@ OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
 OrganizationName | Data: Text<br>Maximum length: 128
 OtherPostalAddress | Data: Address
 ParentAccount | Lookup: Account
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PersonName | Data: PersonName<br>Description: Given name
 Phone01 | Data: Phone
@@ -80,8 +80,8 @@ DefaultLookup|DefaultLookup field group|AccountId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|AccountId<br>FullName<br>PersonName<br>Status<br>ParentAccount<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
 DefaultIdentification|DefaultIdentification field group|AccountId<br>FullName
 
-## AccountContact (@Foundation.AccountContact) Entity 
- 
+## AccountContact (Account contact) Entity 
+Account contact 
 
 Field | Description
 ---|---
@@ -111,7 +111,7 @@ DefaultReport|DefaultReport field group|Account<br>Contact<br>DataSource<br>Desc
 DefaultIdentification|DefaultIdentification field group|Account<br>Contact
 
 ## Lead (Lead) Entity 
-Lead table can store information about individuals who are interested in receiving information about the products or services offered by the company. 
+A person who is interested in receiving information about the products or services that the company offers. 
 
 Field | Description
 ---|---
@@ -134,7 +134,7 @@ MailingPostalAddress | Data: Address
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
 OrganizationName | Data: Text<br>Maximum length: 128
 OtherPostalAddress | Data: Address
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PersonName | Data: PersonName<br>Description: Given name
 Phone01 | Data: Phone
@@ -173,8 +173,8 @@ DefaultLookup|DefaultLookup field group|LeadId<br>FullName<br>Status
 DefaultReport|DefaultReport field group|LeadId<br>FullName<br>PersonName<br>Status<br>WebsiteURL<br>Source<br>PhonePrimary<br>EmailPrimary
 DefaultIdentification|DefaultIdentification field group|LeadId<br>FullName
 
-## LeadContact (@Foundation.LeadContact) Entity 
- 
+## LeadContact (Lead contact) Entity 
+Lead contact 
 
 Field | Description
 ---|---
@@ -204,7 +204,7 @@ DefaultReport|DefaultReport field group|Lead<br>Contact<br>DataSource<br>Descrip
 DefaultIdentification|DefaultIdentification field group|Lead<br>Contact
 
 ## Opportunity (Opportunity) Entity 
-Opportunity table can track information about potential sales to new or established customers. 
+Information about potential sales to new or established customers. 
 
 Field | Description
 ---|---
@@ -267,7 +267,7 @@ OrganizationName | Data: Text<br>Maximum length: 128
 OtherPostalAddress | Data: Address
 ParentPartner | Lookup: Partner
 PartnerId<br>Primary key | Number sequence: <br>Unique, Searchable
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -331,9 +331,9 @@ SalesPersonWorker | Lookup: Worker<br>Description: Sales person
 ShippingMethod | Picklist: ShippingMethod<br>Values: AirBorne, DHL, Fedex, PostalMail, UPS
 Status | Picklist: InvoiceStatus<br>Values: Cancelled, Created, Hold, Paid<br>Description: Invoice status
 TotalAmount | Data: Currency<br>Decimal places: 6
-TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total charges
+TotalChargeAmount | Data: Currency<br>Decimal places: 6
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
-TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total taxes
+TotalTaxAmount | Data: Currency<br>Decimal places: 6
 
 ### Relationships
 
@@ -359,7 +359,7 @@ DefaultReport|DefaultReport field group|InvoiceDate<br>SalesInvoiceId<br>Name<br
 DefaultIdentification|DefaultIdentification field group|SalesInvoiceId<br>Name
 
 ## SalesInvoiceCharge (Sales invoice charge) Entity 
-An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole invoice. 
+An indirect charge in addition to product pricing and taxes, such as freight or insurance, that applies to the whole invoice. 
 
 Field | Description
 ---|---
@@ -406,8 +406,8 @@ Quantity | Data: Quantity<br>Required
 SalesInvoice<br>Primary key | Lookup: SalesInvoice<br>Required
 Sequence | Data: Integer<br>Required
 Status | Picklist: InvoiceLineStatus<br>Values: Active, Confirmed, Invoice, PackingSlip, Quote<br>Required<br>Description: Invoice line status
-TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total charges
-TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total taxes
+TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
+TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6
 UnitPrice | Data: Currency<br>Required, Decimal places: 6
 
 ### Relationships
@@ -431,7 +431,7 @@ DefaultReport|DefaultReport field group|SalesInvoice<br>Product<br>Name<br>Statu
 DefaultIdentification|DefaultIdentification field group|SalesInvoice<br>Sequence<br>Product
 
 ## SalesInvoiceLineCharge (Sales invoice line charge) Entity 
-An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the invoice line. 
+An indirect charge in addition to product pricing and taxes, such as freight or insurance, that applies to the invoice line. 
 
 Field | Description
 ---|---
@@ -461,7 +461,7 @@ DefaultReport|DefaultReport field group|SalesInvoiceLine<br>ChargeType<br>Name<b
 DefaultIdentification|DefaultIdentification field group|SalesInvoiceLine<br>Name
 
 ## SalesInvoiceLineTax (Sales invoice line tax) Entity 
-Tax charged on a sales Invoice line. 
+Tax charged on a sales invoice line. 
 
 Field | Description
 ---|---
@@ -492,7 +492,7 @@ DefaultReport|DefaultReport field group|Name<br>RateCode<br>TaxType<br>Amount<br
 DefaultIdentification|DefaultIdentification field group|SalesInvoiceLine<br>Name
 
 ## SalesInvoiceTax (Sales invoice tax) Entity 
-Tax charged on a sales Invoice as a whole. 
+Tax charged on a sales invoice as a whole. 
 
 Field | Description
 ---|---
@@ -544,9 +544,9 @@ SalesPersonWorker | Lookup: Worker<br>Description: Sales person
 ShippingMethod | Picklist: ShippingMethod<br>Values: AirBorne, DHL, Fedex, PostalMail, UPS
 Status | Picklist: OrderStatus<br>Values: Active, Confirmed, Invoice, PackingSlip, Quote<br>Required<br>Description: Order status
 TotalAmount | Data: Currency<br>Required, Decimal places: 6
-TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total charges
+TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
-TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total taxes
+TotalTaxAmount | Data: Currency<br>Required, Decimal places: 6
 
 ### Relationships
 
@@ -571,7 +571,7 @@ DefaultReport|DefaultReport field group|SalesOrderId<br>Account<br>OrderDate<br>
 DefaultIdentification|DefaultIdentification field group|SalesOrderId<br>Name
 
 ## SalesOrderCharge (Sales order charge) Entity 
-An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the whole sales order 
+An indirect charge in addition to product pricing and taxes, such as freight or insurance, that applies to the whole sales order 
 
 Field | Description
 ---|---
@@ -600,7 +600,7 @@ DefaultLookup|DefaultLookup field group|SalesOrder<br>ChargeType<br>Amount
 DefaultReport|DefaultReport field group|SalesOrder<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|DefaultIdentification field group|SalesOrder<br>ChargeType<br>Name
 
-## SalesOrderLine (Sales order lines) Entity 
+## SalesOrderLine (Sales order line) Entity 
 A component of a sales order that contains a portion of the order amount including information such as product, quantity, and price. 
 
 Field | Description
@@ -619,8 +619,8 @@ Quantity | Data: Quantity
 SalesOrder<br>Primary key | Lookup: SalesOrder<br>Required
 Sequence | Data: Integer<br>Required
 Status | Picklist: OrderLineStatus<br>Values: Active, Confirmed, Invoice, PackingSlip, Quote<br>Description: Order line status
-TotalChargeAmount | Data: Currency<br>Decimal places: 6<br>Description: Total charges
-TotalTaxAmount | Data: Currency<br>Decimal places: 6<br>Description: Total taxes
+TotalChargeAmount | Data: Currency<br>Decimal places: 6
+TotalTaxAmount | Data: Currency<br>Decimal places: 6
 UnitPrice | Data: Currency<br>Decimal places: 6
 
 ### Relationships
@@ -644,7 +644,7 @@ DefaultReport|DefaultReport field group|SalesOrder<br>Product<br>ProductName<br>
 DefaultIdentification|DefaultIdentification field group|SalesOrder<br>Sequence<br>ProductName
 
 ## SalesOrderLineCharge (Sales order line charge) Entity 
-An indirect charge in addition to product pricing and taxes such as freight, insurance etc., that applies to the sales order line. 
+An indirect charge in addition to product pricing and taxes, such as freight or insurance, that applies to the sales order line. 
 
 Field | Description
 ---|---
@@ -674,7 +674,7 @@ DefaultReport|DefaultReport field group|SalesOrderLine<br>ChargeType<br>Name<br>
 DefaultIdentification|DefaultIdentification field group|SalesOrderLine<br>ChargeType<br>Name
 
 ## SalesOrderLineShipment (Sales order line shipment) Entity 
-Delivery schedule for a sales order line. 
+Shipment details for a line on sales order. A single line item on a sales order can be split and shipped to different addresses. 
 
 Field | Description
 ---|---
