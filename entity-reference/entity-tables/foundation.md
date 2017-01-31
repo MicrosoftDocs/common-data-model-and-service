@@ -3,7 +3,7 @@ title: "Foundation reference | Microsoft Docs"
 description: "The foundation entities are used to drive other entities in the Common Data Model."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "01/26/2017"
+ms.date: "01/30/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -15,11 +15,11 @@ ms.assetid: "c06c0de3-404b-4b44-9d58-6f63760f2a24"
 
 # Foundation reference 
 ## BusinessUnit (Business unit) Entity 
-Entity representing a division or unit within an organization with defined business function 
+A division or unit within an organization with a defined business function. 
 
 Field | Description
 ---|---
-BusinessUnitId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Business unit number
+BusinessUnitId<br>Primary key | Number sequence: <br>Unique, Searchable
 CostCenter | Lookup: CostCenter
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
@@ -34,7 +34,7 @@ Organization | Lookup: Organization<br>Required
 OrganizationName | Data: Text<br>Maximum length: 128
 OtherPostalAddress | Data: Address
 ParentBusinessUnit | Lookup: BusinessUnit
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an Id number or code for the account to quickly search and identify the account in system views.
+Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -48,7 +48,7 @@ TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
 
-### Relationsips
+### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
@@ -68,8 +68,9 @@ DefaultDetails|DefaultDetails field group|BusinessUnitId<br>FullName<br>Organiza
 DefaultLookup|DefaultLookup field group|BusinessUnitId<br>FullName<br>OrganizationName
 DefaultReport|DefaultReport field group|BusinessUnitId<br>FullName<br>OrganizationName<br>Description<br>ParentBusinessUnit<br>CostCenter<br>MailingPostalAddress<br>PhonePrimary<br>WebsiteURL<br>EmailPrimary
 DefaultIdentification|DefaultIdentification field group|BusinessUnitId<br>FullName
-## BusinessUnitContact (@Foundation.BusinessUnitContact) Entity 
- 
+
+## BusinessUnitContact (Business unit contact) Entity 
+Business unit contact 
 
 Field | Description
 ---|---
@@ -78,7 +79,7 @@ Contact | Lookup: Contact<br>Required
 DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
 Description | Data: Text<br>Maximum length: 128
 
-### Relationsips
+### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
@@ -97,18 +98,19 @@ DefaultDetails|DefaultDetails field group|BusinessUnit<br>Contact<br>DataSource<
 DefaultLookup|DefaultLookup field group|BusinessUnit<br>Contact<br>DataSource<br>Description
 DefaultReport|DefaultReport field group|BusinessUnit<br>Contact<br>DataSource<br>Description
 DefaultIdentification|DefaultIdentification field group|BusinessUnit<br>Contact
+
 ## CostCenter (Cost center) Entity 
 A department within an organization that does not directly add profits to an organization but costs the organization money to operate. 
 
 Field | Description
 ---|---
-CostCenterId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Cost center number
+CostCenterId<br>Primary key | Number sequence: <br>Unique, Searchable
 Description | Data: Text<br>Maximum length: 128
 Name | Data: Text<br>Required, Maximum length: 128
 Organization | Lookup: Organization<br>Required
 ParentCostCenter | Lookup: CostCenter
 
-### Relationsips
+### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
@@ -127,8 +129,9 @@ DefaultDetails|DefaultDetails field group|CostCenterId<br>Name<br>ParentCostCent
 DefaultLookup|DefaultLookup field group|CostCenterId<br>Name<br>ParentCostCenter
 DefaultReport|DefaultReport field group|Description<br>CostCenterId<br>Name<br>ParentCostCenter<br>Organization
 DefaultIdentification|DefaultIdentification field group|CostCenterId<br>Name
+
 ## Product (Product) Entity 
- 
+An item that is available for sale. 
 
 Field | Description
 ---|---
@@ -144,7 +147,7 @@ SellingUnitPrice | Data: Currency<br>Decimal places: 6
 StandardCostAmount | Data: Currency<br>Decimal places: 6
 Status | Picklist: ProductStatus<br>Values: Active, Inactive<br>Required
 
-### Relationsips
+### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
@@ -162,8 +165,9 @@ DefaultDetails|DefaultDetails field group|ProductId<br>Name<br>ProductType<br>Pr
 DefaultLookup|DefaultLookup field group|ProductId<br>Name<br>ProductType<br>Status
 DefaultReport|DefaultReport field group|ProductId<br>Name<br>ProductType<br>ProductCategory<br>Status<br>StandardCostAmount<br>SellingUnitPrice<br>DefaultBuyingUnitOfMeasure<br>DefaultSellingQuantity<br>DefaultStockingUnitOfMeasure
 DefaultIdentification|DefaultIdentification field group|ProductId<br>Name
+
 ## ProductCategory (Product category) Entity 
-A classification of a product. 
+A categorization of a product. 
 
 Field | Description
 ---|---
@@ -172,11 +176,11 @@ Description | Data: MultilineText
 Name | Data: Text<br>Required, Maximum length: 60<br>Description: Category name
 ParentProductCategory | Lookup: ProductCategory
 
-### Relationsips
+### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
-ProductCategory||OneToMany|Association
+ProductCategory|Parent product category|OneToMany|Association
 
 
 ### Field groups
@@ -191,8 +195,36 @@ DefaultLookup|DefaultLookup field group|CategoryId<br>Name<br>Description
 DefaultReport|DefaultReport field group|CategoryId<br>Name<br>Description
 DefaultIdentification|DefaultIdentification field group|CategoryId<br>Name
 
+## ProductCategoryAssignment (Product category assignment) Entity 
+Product category assignment 
+
+Field | Description
+---|---
+Product<br>Primary key | Lookup: Product<br>Required
+ProductCategory | Lookup: ProductCategory<br>Required
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Product|Product|OneToMany|Association
+ProductCategory|Product category|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCreate|DefaultCreate field group|Product<br>ProductCategory
+DefaultList|DefaultList field group|Product<br>ProductCategory
+DefaultCard|DefaultCard field group|Product<br>ProductCategory
+DefaultDetails|DefaultDetails field group|Product<br>ProductCategory
+DefaultLookup|DefaultLookup field group|Product<br>ProductCategory
+DefaultReport|DefaultReport field group|Product<br>ProductCategory
+DefaultIdentification|DefaultIdentification field group|Product<br>ProductCategory
+
 ## UnitOfMeasureConversion (Unit of measure conversion) Entity 
- 
+The linear conversion rate of one unit of measure to another. 
 
 Field | Description
 ---|---
@@ -201,7 +233,7 @@ FromUnitOfMeasure<br>Primary key | Picklist: UnitOfMeasure<br>Values: Bag, Box, 
 ToFromConversionRate | Data: Number<br>Required
 ToUnitOfMeasure | Picklist: UnitOfMeasure<br>Values: Bag, Box, Bucket, Centilitre, Centimeter, CubicCentimeter, CubicFeet, CubicInch, CubicMeter, CubicMillimeter, CubicYard, Day, Deciliter, DegreesBrix, Dozen, Each, Feet, FluidOunce, Gallon, GigaByte, Gram, HalfCubicInch, HalfInch, HalfPint, HalfPound, HalfSquareInch, Hour, Inch, Keg, Kilogram, Kilometer, KilowattHour, Litre, Meter, Mgpx, Mile, Milligram, Millilitre, Millimeter, Minute, Month, Ohm, OneEighthCubicInch, OneEighthInch, OneEighthSquareInch, Option, Ounce, Pair, Pallet, PascalSecond, Percentage, pHValue, Piece, Pint, Pound, Quart, QuarterCubicInch, QuarterInch, QuarterPound, QuarterSquareInch, Second, SetOfEquipment, SquareCentimeter, SquareFeet, SquareInch, SquareMeter, SquareMile, SquareMillimeter, SquareYard, Ton, Tray, Yard<br>Required
 
-### Relationsips
+### Relationships
 
 This entity has no relationships.
 
@@ -216,3 +248,4 @@ DefaultDetails|DefaultDetails field group|FromUnitOfMeasure<br>ToUnitOfMeasure<b
 DefaultLookup|DefaultLookup field group|FromUnitOfMeasure<br>ToUnitOfMeasure
 DefaultReport|DefaultReport field group|FromUnitOfMeasure<br>ToUnitOfMeasure<br>FromToConversionRate<br>ToFromConversionRate
 DefaultIdentification|DefaultIdentification field group|FromUnitOfMeasure<br>ToUnitOfMeasure
+
