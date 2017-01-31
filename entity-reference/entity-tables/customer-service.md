@@ -3,7 +3,7 @@ title: "Customer service reference | Microsoft Docs"
 description: "The customer service entities manage issues from your customers, including tracking, escalation, and documentation."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "01/26/2017"
+ms.date: "01/30/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -15,7 +15,7 @@ ms.assetid: "ddd9b0a1-bd9e-46a9-bea0-ba021cf2f219"
 
 # Customer service reference 
 ## Case (Case) Entity 
-A problem, question, or request encountered by a customer on a product, service or interaction that requires support intervention. 
+A problem, question, or request encountered by a customer on a product, service, or interaction that requires support intervention. 
 
 Field | Description
 ---|---
@@ -36,7 +36,7 @@ Severity | Picklist: Severity<br>Values: High, Low, Normal<br>Required
 SolutionType | Picklist: CaseSolutionType<br>Values: SolvedByCustomer, SolvedByKBArticle, SolvedBySupportWorker
 Status | Picklist: CaseStatus<br>Values: Active, Cancelled, Closed, OnHold, Resolved, SolvedAnswered<br>Required
 
-### Relationsips
+### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
@@ -57,8 +57,9 @@ DefaultDetails|DefaultDetails field group|CaseId<br>Name<br>Category<br>Status<b
 DefaultLookup|DefaultLookup field group|CaseId<br>Name<br>Category<br>Status<br>Severity
 DefaultReport|DefaultReport field group|CaseId<br>Name<br>Category<br>Status<br>Severity<br>ArrivalDate<br>Description<br>OriginCode<br>CurrentContact<br>ParentCase<br>Account<br>CustomerSatisfactionCode<br>CloseDate<br>SolutionType
 DefaultIdentification|DefaultIdentification field group|CaseId<br>Name
+
 ## CaseActivity (Case activity) Entity 
-Actions performed by support worker or customer that must be logged for a �case; for example, contacts, escalations, and case status changes. 
+Actions performed by a support worker or customer that must be logged for a case, for example, contacts, escalations, and case status changes. 
 
 Field | Description
 ---|---
@@ -84,7 +85,7 @@ SupportCase<br>Primary key | Lookup: Case<br>Required
 SupportWorker | Lookup: Worker
 Type | Picklist: CaseActivityType<br>Values: AssignReassignCaseWorker, Cancel, ChangeCaseStatus, Close, Contact, CreateSubcase, Intake, MakeKBReference, Open, Research<br>Required
 
-### Relationsips
+### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
@@ -105,8 +106,9 @@ DefaultDetails|DefaultDetails field group|SupportCase<br>Sequence<br>Type<br>Beg
 DefaultLookup|DefaultLookup field group|SupportCase<br>Sequence<br>Type<br>BeginDate<br>Description
 DefaultReport|DefaultReport field group|SupportCase<br>Sequence<br>Type<br>BeginDate<br>Description<br>Contact<br>ContactType<br>CaseSeverity<br>CaseStatus<br>HasKBArticle<br>IsReassignment<br>IsSeverityChange<br>IsStatusChange
 DefaultIdentification|DefaultIdentification field group|SupportCase<br>Sequence<br>Description
+
 ## CaseActivityKBArticle (Case activity KB article) Entity 
-Associates a KB article with a case activity. 
+Associates a knowledge base article with a case activity. 
 
 Field | Description
 ---|---
@@ -116,7 +118,7 @@ Description | Data: Text<br>Maximum length: 255
 KBArticle | Lookup: KBArticle<br>Required
 KBArticleName | Data: Text<br>Maximum length: 60
 
-### Relationsips
+### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
@@ -135,8 +137,9 @@ DefaultDetails|DefaultDetails field group|CaseActivity<br>KBArticle<br>Descripti
 DefaultLookup|DefaultLookup field group|CaseActivity<br>KBArticle<br>Description
 DefaultReport|DefaultReport field group|CaseActivity<br>KBArticle<br>Description<br>KBArticleName<br>ArticleValue
 DefaultIdentification|DefaultIdentification field group|CaseActivity<br>KBArticle
+
 ## KBArticle (KB article) Entity 
-A knowledge base document that contains technical information that may be relevant in customer support scenarios. 
+A knowledge base article that contains technical information that may be relevant in customer support scenarios. 
 
 Field | Description
 ---|---
@@ -147,7 +150,7 @@ KBArticleId<br>Primary key | Number sequence: <br>Unique, Searchable
 LinkToArticle | Data: WebsiteUrl
 Synopsis | Data: MultilineText
 
-### Relationsips
+### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
@@ -165,3 +168,4 @@ DefaultDetails|DefaultDetails field group|KBArticleId<br>Description<br>Author<b
 DefaultLookup|DefaultLookup field group|KBArticleId<br>Description<br>Author
 DefaultReport|DefaultReport field group|KBArticleId<br>Description<br>Author<br>ArticleScore<br>LinkToArticle<br>Synopsis
 DefaultIdentification|DefaultIdentification field group|KBArticleId<br>Description
+
