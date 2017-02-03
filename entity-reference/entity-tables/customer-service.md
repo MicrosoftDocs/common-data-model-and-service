@@ -1,9 +1,9 @@
 ---
-title: "Customer service reference | Common Data Model"
+title: "Customer service reference | Microsoft Docs"
 description: "The customer service entities manage issues from your customers, including tracking, escalation, and documentation."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "11/03/2016"
+ms.date: "02/03/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -15,28 +15,38 @@ ms.assetid: "ddd9b0a1-bd9e-46a9-bea0-ba021cf2f219"
 
 # Customer service reference 
 ## Case (Case) Entity 
-A problem, question, or request encountered by a customer on a product, service or interaction that requires support intervention. 
+A problem, question, or request encountered by a customer on a product, service, or interaction that requires support intervention. 
 
 Field | Description
 ---|---
 Account | Lookup: Account
 ArrivalDate | Data: DateTime<br>Required, Searchable
 CaseId<br>Primary key | Number sequence: <br>Unique, Searchable
-Category | Data: Picklist<br>Required
+Category | Picklist: CaseCategory<br>Values: Problem, Question, Request<br>Required
 CloseDate | Data: DateTime<br>Searchable
 Comment | Data: MultilineText
 CurrentAssignedSupportWorker | Lookup: Worker
 CurrentContact | Lookup: Contact<br>Required
-CustomerSatisfactionCode | Data: Picklist
+CustomerSatisfactionCode | Picklist: CaseCustomerSatisfactionCode<br>Values: Dissatisfied, Neutral, Satisfied, VeryDissatisfied, VerySatisfied
 Description | Data: Text<br>Maximum length: 255
 Name | Data: Text<br>Required, Maximum length: 60<br>Description: Case name
-OriginCode | Data: Picklist<br>Required<br>Description: Origin
+OriginCode | Picklist: CaseOriginCode<br>Values: Email, Facebook, Other, Phone, Twitter, Web<br>Required<br>Description: Origin
 ParentCase | Lookup: Case
-Severity | Data: Picklist<br>Required
-SolutionType | Data: Picklist
-Status | Data: Picklist<br>Required
+Severity | Picklist: Severity<br>Values: High, Low, Normal<br>Required
+SolutionType | Picklist: CaseSolutionType<br>Values: SolvedByCustomer, SolvedByKBArticle, SolvedBySupportWorker
+Status | Picklist: CaseStatus<br>Values: Active, Cancelled, Closed, OnHold, Resolved, SolvedAnswered<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Account|Account|OneToMany|Association
+Contact|Current contact|OneToMany|Association
+Case|Parent case|OneToMany|Association
+Worker|Current assigned support worker|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -47,34 +57,45 @@ DefaultDetails|DefaultDetails field group|CaseId<br>Name<br>Category<br>Status<b
 DefaultLookup|DefaultLookup field group|CaseId<br>Name<br>Category<br>Status<br>Severity
 DefaultReport|DefaultReport field group|CaseId<br>Name<br>Category<br>Status<br>Severity<br>ArrivalDate<br>Description<br>OriginCode<br>CurrentContact<br>ParentCase<br>Account<br>CustomerSatisfactionCode<br>CloseDate<br>SolutionType
 DefaultIdentification|DefaultIdentification field group|CaseId<br>Name
+
 ## CaseActivity (Case activity) Entity 
-Actions performed by support worker or customer that must be logged for a �case; for example, contacts, escalations, and case status changes. 
+Actions performed by a support worker or customer that must be logged for a case, for example, contacts, escalations, and case status changes. 
 
 Field | Description
 ---|---
 BeginDate | Data: DateTime<br>Required, Searchable
-CaseSeverity | Data: Picklist<br>Required<br>Description: Current case severity
-CaseStatus | Data: Picklist<br>Required<br>Description: Current case status
+CaseSeverity | Picklist: Severity<br>Values: High, Low, Normal<br>Required<br>Description: Current case severity
+CaseStatus | Picklist: CaseStatus<br>Values: Active, Cancelled, Closed, OnHold, Resolved, SolvedAnswered<br>Required<br>Description: Current case status
 Comment | Data: MultilineText
 Contact | Lookup: Contact
-ContactType | Data: Picklist
+ContactType | Picklist: CaseOriginCode<br>Values: Email, Facebook, Other, Phone, Twitter, Web
 Description | Data: Text<br>Maximum length: 255
 EndDate | Data: DateTime<br>Searchable
 HasKBArticle | Data: Boolean<br>Required<br>Description: Has KB article(s)
 IsReassignment | Data: Boolean<br>Required
 IsSeverityChange | Data: Boolean<br>Required<br>Description: Is severity changed
 IsStatusChange | Data: Boolean<br>Required<br>Description: Is status changed
-PriorCaseSeverity | Data: Picklist
-PriorCaseStatus | Data: Picklist
+PriorCaseSeverity | Picklist: Severity<br>Values: High, Low, Normal
+PriorCaseStatus | Picklist: CaseStatus<br>Values: Active, Cancelled, Closed, OnHold, Resolved, SolvedAnswered
 ReassignedComment | Data: Text<br>Maximum length: 255
 ReassignedFromCaseWorker | Lookup: Worker
-ReassignedReason | Data: Picklist<br>Description: Case reassigned reason
+ReassignedReason | Picklist: CaseReassignedReason<br>Values: NotResolved<br>Description: Case reassigned reason
 Sequence | Data: Integer<br>Required
 SupportCase<br>Primary key | Lookup: Case<br>Required
 SupportWorker | Lookup: Worker
-Type | Data: Picklist<br>Required
+Type | Picklist: CaseActivityType<br>Values: AssignReassignCaseWorker, Cancel, ChangeCaseStatus, Close, Contact, CreateSubcase, Intake, MakeKBReference, Open, Research<br>Required
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Case|Support case|OneToMany|Composition
+Contact|Contact|OneToMany|Association
+Worker|Support worker|OneToMany|Association
+Worker|Reassigned from case worker|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -85,8 +106,9 @@ DefaultDetails|DefaultDetails field group|SupportCase<br>Sequence<br>Type<br>Beg
 DefaultLookup|DefaultLookup field group|SupportCase<br>Sequence<br>Type<br>BeginDate<br>Description
 DefaultReport|DefaultReport field group|SupportCase<br>Sequence<br>Type<br>BeginDate<br>Description<br>Contact<br>ContactType<br>CaseSeverity<br>CaseStatus<br>HasKBArticle<br>IsReassignment<br>IsSeverityChange<br>IsStatusChange
 DefaultIdentification|DefaultIdentification field group|SupportCase<br>Sequence<br>Description
+
 ## CaseActivityKBArticle (Case activity KB article) Entity 
-Associates a KB article with a case activity. 
+Associates a knowledge base article with a case activity. 
 
 Field | Description
 ---|---
@@ -96,7 +118,15 @@ Description | Data: Text<br>Maximum length: 255
 KBArticle | Lookup: KBArticle<br>Required
 KBArticleName | Data: Text<br>Maximum length: 60
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+CaseActivity|Case activity|OneToMany|Association
+KBArticle|KB article|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -107,8 +137,9 @@ DefaultDetails|DefaultDetails field group|CaseActivity<br>KBArticle<br>Descripti
 DefaultLookup|DefaultLookup field group|CaseActivity<br>KBArticle<br>Description
 DefaultReport|DefaultReport field group|CaseActivity<br>KBArticle<br>Description<br>KBArticleName<br>ArticleValue
 DefaultIdentification|DefaultIdentification field group|CaseActivity<br>KBArticle
+
 ## KBArticle (KB article) Entity 
-A knowledge base document that contains technical information that may be relevant in customer support scenarios. 
+A knowledge base article that contains technical information that may be relevant in customer support scenarios. 
 
 Field | Description
 ---|---
@@ -119,7 +150,14 @@ KBArticleId<br>Primary key | Number sequence: <br>Unique, Searchable
 LinkToArticle | Data: WebsiteUrl
 Synopsis | Data: MultilineText
 
-###Field groups
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Worker|Author|OneToMany|Association
+
+
+### Field groups
 
 Field group | Description | Fields
 ---|---|---
@@ -130,3 +168,4 @@ DefaultDetails|DefaultDetails field group|KBArticleId<br>Description<br>Author<b
 DefaultLookup|DefaultLookup field group|KBArticleId<br>Description<br>Author
 DefaultReport|DefaultReport field group|KBArticleId<br>Description<br>Author<br>ArticleScore<br>LinkToArticle<br>Synopsis
 DefaultIdentification|DefaultIdentification field group|KBArticleId<br>Description
+
