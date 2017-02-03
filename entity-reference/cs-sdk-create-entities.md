@@ -1,5 +1,5 @@
 ---
-title: "Create and publish custom entities with the C# SDK"
+title: "Create and publish custom entities with the C# SDK | Microsoft Docs"
 description: ""
 author: "pvillads"
 manager: "robinarh"
