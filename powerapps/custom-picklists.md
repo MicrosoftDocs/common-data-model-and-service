@@ -26,7 +26,7 @@ Picklists are added by using the menu item, **Picklists** on the **Common Data S
 1. To create a new picklist, at the top of the page, click **New Picklist**. On the page that opens, define your picklist by entering the name, display name, and a description.
 **Important:** The picklist name can't be changed after you create the picklist. There are a few requirements for the picklist name. The name must be simple and can't contain any special characters. Also, you can only have one picklist with a particular name. If you try to create another picklist with the same name, you will receive an error. This restriction doesn't apply to the **Display name**.
 
-In this topic, we will create a picklist that can be used to choose a mode of transportation.
+    In this topic, we will create a picklist that can be used to choose a mode of transportation.
 
 2. Name the picklist **Transportation** and add the information to the required fields.
 
