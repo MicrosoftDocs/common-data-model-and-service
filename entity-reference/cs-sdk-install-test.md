@@ -1,5 +1,5 @@
 ---
-title: "Install and test the C# SDK"
+title: "Install and test the C# SDK | Microsoft Docs"
 description: ""
 author: "pvillads"
 manager: "robinarh"
