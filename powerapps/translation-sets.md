@@ -17,4 +17,4 @@
    ms.date="02/07/2017"
    ms.author=""/>
 
-# Labels and localization
+# Translation sets
