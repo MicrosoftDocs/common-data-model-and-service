@@ -32,8 +32,8 @@ You move resources through separate export and import processes, by using a pack
 
 The functionality for both resource import and resource export is available in the **Environments** section of the admin center. Both export and import occur in the context of a selected environment.
 
-### Export all resources
-If you select **All resources** as an option, the export package contains all changes to entities, picklists, translation sets, permission sets, and roles. This option lets you move all the contents of one environment to another environment.
+### Export resources
+The export package will contain all changes to **entities, picklists, permission sets, and roles**. We are working to enable the export of more resource types such as apps, flows, connectors and others. This option lets you move contents of one environment to another environment.
 
 1. In the [admin center](https://admin.powerapps.com), in the left navigation pane, click **Environments**.
 1. Select the source environment.
@@ -53,16 +53,14 @@ The first step is to select a package file that was exported from the source env
 If the package is only partially applied, you receive an error message that describes what was imported and what wasn't imported.
 
 ## Resource types
-The development process can involve changes to many types of resources. For example, if you update an app, you might add, remove, or update several entities or connections. Changes to most, if not all, resource types can be moved across environments. The following sections describe the types of resources that you can move.
+The development process can involve changes to many types of resources. For example, if you update an app, you might add, remove, or update several entities or connections. Changes to some, and not all, resource types can be moved across environments. The following sections describe the types of resources that you can move.
 
 ### Entities, picklists, and translation sets
 You can export and import entities, picklists, and translation sets as follows:
 
 + **Standard entities** – Customizations are moved across environments. (You can't modify the out-of-box fields of standard entities.)
 + **Custom entities** – Custom entities are moved across environments.
-+ **Standard picklists** – Standard picklists are moved across environments. (You can't modify the out-of-box fields of standard picklists.)
 + **Custom picklists** – Custom picklists are moved across environments.
-+ **Translation sets** – Translation sets are moved across environments. For more information, see [Translation sets](translation-sets.md).
 
 ### Permission sets and roles
 Permission sets and roles are security resources that help control access to the database. Both can be moved across environments. After you move permission sets and roles, you should make sure that the permission sets are referenced by the appropriate roles, and that the appropriate users are assigned to any new roles. For more information, see [Configure database security](database-security.md).
