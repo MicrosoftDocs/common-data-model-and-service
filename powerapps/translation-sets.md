@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Labels and localization | Microsoft PowerApps"
+	pageTitle="Translation sets | Microsoft PowerApps"
 	description=""
 	services="powerapps"
 	documentationCenter="na"
@@ -14,7 +14,7 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="10/06/2016"
+   ms.date="02/07/2017"
    ms.author=""/>
 
 # Labels and localization
