@@ -23,7 +23,6 @@ To represent data in a relational database, you must determine the data schema b
 
 For example, you're defining entities to represent authors and the books that they write. Clearly, an author can have more than one book to his or her credit. In this case, the author and his or her books are said to be in a one-to-many (1:many) relationship. In this topic, we will explain how to create 1:many relationships in the maker portal. Note that this topic doesn't cover the issues that arise when you must manage more complicated cases, where more than one author is mapped to one or more books (a so-called many-to-many relationship).
 
-
 ## Create an Author entity
 First, we will create an entity that is named **Author** in your environment. Be sure to choose the names of your entities carefully, because you can't rename entities after they have been created. For more information about entities, see [Understand entities in the common data service](https://powerapps.microsoft.com/en-us/tutorials/data-platform-intro/).
 
@@ -57,7 +56,7 @@ If you go back to the Book entity, you will see that a new field has been added.
 
 Next, we will add information about the books that have been written by the authors that we added earlier. In this way, we can see how the foreign key works together with the primary key. Select the Book entity again, and click **Open in Excel**.
 
-Remeber that the **Primary ID** field will be filled in when the data is published back to the database. However, you can enter information in the other fields. Start with the **ISBN** and **Name of Book** fields.
+Remember that the **Primary ID** field will be filled in when the data is published back to the database. However, you can enter information in the other fields. Start with the **ISBN** and **Name of Book** fields.
 
 | Primary ID | ISBN | Name of Book | Author |
 | ----------:|------| -------------| -------|
