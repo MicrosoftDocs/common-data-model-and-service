@@ -14,19 +14,19 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="01/27/2017"
+   ms.date="02/13/2017"
    ms.author="kfend"/>
 
-# Setting up relationships
+# Set up relationships
 
-Several things need to happen when you want to represent data in a relational database. One task is to determine the data schema, defining both the types of your fields, and how your entities are related to each other. Typically data becomes much more interesting when it is linked to other data through relationships. Creating successful data models is part art and part science. In this blog we will explain how to create 1:N relationships in the maker portal.
+When you want to represent data in a relational database, you must determine the data schema by defining the types of your fields, and how your entities relate to each other. Typically, data becomes much more interesting when it is linked to other data through relationships. Creating successful data models is part art and part science. In this topic we will explain how to create 1 to Many relationships in the maker portal.
 
-Let's say you were defining entities to deal with authors and the books they write. Clearly, an author can have more than one book to his credit, which is what is known as a 1:N relationship. In this blog we will ignore the problems involved in managing the more complicated case mapping more than one author to one or more books (what is colloquially known as N:M relationships).
+Let's say you were defining entities to represent authors and the books they write. Clearly, an author can have more than one book to his credit, which is what is known as a 1:Many relationship. In this topic we will not explore the problems involved in managing more complicated cases of mapping more than one author to one or more books, what is colloquially known as a Many to Many relationship.
 
 ## Create an Author entity
-Let’s start by going into the portal to create an entity, appropriately called “Author” in your environment. Make sure you choose the name of entities judiciously, as there is no way to rename them once they are created. If you need more information about entities, you may want to read [platform intro](data-platform-intro.md)
+Let’s start by creating an entity called **Author** in your environment. Make sure that you choose the name of entities judiciously, as there is no way to rename them once they are created. For more information about entities, see [Understand entities in the common data service](https://powerapps.microsoft.com/en-us/tutorials/data-platform-intro/).
 
-Set the entity display name and description fields to something reasonable. For this demo we need the name of the author, so define a field called Name of type PersonName. The field does not need to be unique, but it should be set to required,since empty names should not be allowed. These options are set in the properties window. Also add a Date of Birth field called DOB of type Date for good measure. You might want to add the name field to the Default lookup field group: This will allow you to easily identify the author in a powerapp.
+Enter the entity display name and description. For the purpose of our scenario, we need the name of the author, so create a field called **Name** of the type **PersonName**. The field does not need to be unique, but it should be required. REquirement options are set in the **Properties** window. Next, add a Date of Birth field called **DOB** with the type, **Date**. You can easily identify the author in a powerapp by adding the **Name** field to the **Default lookup** field group, .
 
 When you added your fields, you may have noticed that the system automatically created a few fields for you. One of these is called Primary Id, of type Autonumber. If you select this field, you can see in the properties pane that this field is unique, i.e. each value is guaranteed to be used only once in this entity. You do not need to manage these values yourself; the system will assign a new value every time you add a new record to the entity. This is what is often called the entity’s _primary key_.
 
