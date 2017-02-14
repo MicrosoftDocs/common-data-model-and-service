@@ -64,9 +64,7 @@ Remember that the **Primary ID** field will be filled in when the data is publis
 |            | 10.1.1.86.9277 | Relational Completeness of Data Base Sublanguages | |  
 |            | 978-0321197849 | An Introduction to Database Systems	| |
 
-The **Author** field is the foreign key and is mapped to the primary key in the Author entity. When the cells in the **Author** column are selected, the primary keys in that entity appear in the pane on the right side of the Excel window, as shown in the following illustration.
-
-	![Excel showing book data](./Media/Excel showing Book data.png "Excel showing book data")
+The **Author** field is the foreign key and is mapped to the primary key in the Author entity. When the cells in the **Author** column are selected, the primary keys in that entity appear in the pane on the right side of the Excel window. 
 
 To update the **Author** field, just select the row.
 
