@@ -14,3 +14,4 @@ ms.assetid: "322c6743-58f0-4201-8005-3eaad8728584"
 ---
 
 # C# SDK overview
+## Getting Started
