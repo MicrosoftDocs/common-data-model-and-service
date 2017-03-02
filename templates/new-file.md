@@ -41,6 +41,6 @@ ms.assetid: ""
 
 [Title](http://www.microsoft.com "Hover title") 
 
-![Foundation ERD](/entity-reference/media/foundation.png "Hover title")
+![Image of editing](media/ViewEdit.png "Hover title")
 
 
