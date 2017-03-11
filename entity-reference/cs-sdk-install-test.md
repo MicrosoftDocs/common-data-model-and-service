@@ -35,6 +35,8 @@ If you have already signed up for PowerApps, you can go to [PowerApps](https://p
 1. To get access to PowerApps, follow the [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) process instructions.
 1. To acquire a CDS database, follow instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
 
+## Accessing PowerApps
+
 After acquiring an environment that contains a CDS database, you can use that environment's identifier to configure your CDS SDK application. The **environment ID** can be found as part of the URI under which you are accessing the above environment. Record this value as it is used in the upcoming configuration step. An example of such a URI and environment Id is as follows:
 
     URI: https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
@@ -47,6 +49,8 @@ To allow your application access to the Common Data Service, you need to registe
 ## Prerequisites
 
 If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an app registration under Azure Active Directory. If not however, you can go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
+
+## Application registration
 
 Follow these steps to register and configure an application in Azure AD:
 
@@ -77,6 +81,8 @@ The CDS C# SDK is delivered as part of a NuGet package. You need to apply this p
 
 ## Prerequisites
 To create a new console project, obtain the NuGet package, then compile and build the application, you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer.
+
+## Project creation and configuraion
 
 1. Start **Visual Studio**.
 1. From the **File** menu select **New project**.
