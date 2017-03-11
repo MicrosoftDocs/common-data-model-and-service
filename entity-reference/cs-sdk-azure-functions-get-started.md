@@ -1,5 +1,5 @@
 ---
-title: "Get started with the CDS C# SDK | Microsoft Docs"
+title: "Get started with the C# SDK using Azure Functions | Microsoft Docs"
 description: ""
 author: "nimakms"
 manager: "robinarh"
@@ -8,22 +8,22 @@ ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
-keywords: "Common Data Service, CDS, C#, SDK"
+keywords: "Common Data Service, CDS, C#, SDK, Azure Functions"
 audience: "Developer"
-ms.assetid: "34eddae8-3715-4bd6-b921-5bfb82d9df1c"
+ms.assetid: "2308e302-ec0b-437a-82a3-dc71150b9d81"
 ---
 
-# Get started with the CDS C# SDK
+# Get started with the C# SDK using Azure Functions
 
 ## Overview
-It's easy to get started programming against the Common Data Service (CDS). This topic walks you through getting a CDS console application up and running. 
+It's easy to get started programming against the Common Data Service (CDS) using Azure Functions. This topic walks you through getting a CDS Azure Function up and running. 
 
 There are four key steps:
 
 1. **CDS database acquisition through PowerApps**. The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
-1. **Application registration in Azure AD**. To allow your application access to the Common Data Service, you need to register your application in Azure AD. This allows you to establish an identity for your application and specify the permission levels it needs in order to access the CDS APIs.
+1. **Application registration in Azure AD**. To give your Azure function access to the Common Data Service, you need to register a few applications in Azure AD. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs.
 1. **Console project creation and configuration**. The CDS C# SDK is delivered as part of a NuGet package. You need to apply this package to you new console app. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
-1. **Programming and running your CDS application**. At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. As a bonus, you can also examinin the data changes made by your applications, from the PowerApps portal, or dig a bit deeper into the interactions between the CDS client library and CDS web service APIs.
+1. **Programming and running your CDS application**. At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
 
 # CDS database acquisition through PowerApps
 
@@ -44,31 +44,58 @@ After acquiring an environment that contains a CDS database, you can use that en
 
 # Application registration in Azure AD
 
-To allow your application access to the Common Data Service, you need to register your application in Azure AD. This allows you to establish an identity for your application and specify the permission levels it needs in order to access the CDS APIs.
+To give your Azure function access to the Common Data Service, you need to register a **Web app / API** applications in Azure AD. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs. You will also need to register the application that calls into the Azure function, as it is also required to authenticate the calling user with Azure AD. In this guide, we will first use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as a bonus steps, we will configure a PowerApps Custom API which requires registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
+
+[ToDo] Diagram of call sequence and agents
 
 ## Prerequisites
 
 If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an application registration under Azure Active Directory. If not however, you can go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
 
-## Application registration
-
-Follow these steps to register and configure an application in Azure AD:
-
 1. In [Azure portal](https://portal.azure.com) go to **Azure Active Directory** 
 1. Click on **Properties** and copy the **Directoy ID** value. Alternatively you can use the domain name from your AAD login email. Record this value as **AAD tenant** configuration value for next steps.
+
+## Azure function application registration
+
+Follow these steps to register and configure your Azure funtion in Azure AD:
+
 1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
-1. Create the application resource used to prompt and login the user:
+1. Create the Azure function application resource that we will use to call into CDS directly:
     1. Click on **Add** to see a Create pane.
-    1. Enter a **Name** for your registered application.
+    1. Enter a **Name** for your registered Azure function application.
+    1. Select **Web app / API** as application type.
+    1. Add a **Sign-on URL**, it could be any valid URI string. For example: http://localhost.    
+    1. Click on **Create**.
+1. Open the **Registered app**:
+    1. Search for your newly registered app by name
+    1. Click on it after finding it in the list of applications.
+    1. Record value for **Application ID** for configuration in later steps.
+1. Setup **Required permissions** for connecting to CDS services:
+    1. Click on **Required permissions** to opne a new pane.
+    1. Click on **Add**.
+    1. Navigate to **Select an API**.
+    1. Search for and select **PowerApps Runtime Service**, then click on **Select**.
+    1. Check the **Delegated permissions** box to select all entries, then click on **Select**.
+    1. Click on **Done** to finalize setting up permissions to this service.
+    1. Repeat the 3 steps above for **Windows Azure Service Management API**.
+
+## Client application registration
+
+Follow these steps to register and configure your client application in Azure AD:
+
+1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
+1. Create the application resource that we will be used when prompting you to login:
+    1. Click on **Add** to see a Create pane.
+    1. Enter a **Name** for your registered client application.
     1. Select **Native** as application type.
     1. Add a **Redirect URI**, it could be any valid URI string. For example: http://localhost.
     1. Record value for **Redirect URI** for configuration in later steps.
     1. Click on **Create**.
-1. Open the **registered app**:
+1. Open the **Registered app**:
     1. Search for your newly registered app by name
     1. Click on it after finding it in the list of applications.
     1. Record value for **Application ID** for configuration in later steps.
-1. Setup **required permissions** for connecting to CDS services:
+1. Setup **Required permissions** for connecting to CDS services:
     1. Click on **Required permissions** to opne a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
@@ -76,7 +103,6 @@ Follow these steps to register and configure an application in Azure AD:
     1. Check the **Delegated permissions** box to select all entries, then click on **Select**.
     1. Click on **Done** to finalize setting up permissions to this service.
     1. Repeat the 3 steps above for **Windows Azure Service Management API**.
-
 
 # Console project creation and configuration
 
@@ -201,26 +227,6 @@ Optionally, you can examine the data changes made by your console applications, 
 Click on **Entities**, search for and select **Product category**,  then click on the **Data** tab in the top navigation section. You will be able to see the changes made to this entity by your console application.
 
 You can build an application in PowerApps on this data and have the SDK and PowerApps work with the same data.
-
-## Bonus - Inspecting CDS HTTPS interactions
-
-You can optionally dig a bit deeper into the interactions the CDS client library is making with the CDS web service APIs.
-
-For this step you need to download [Fiddler](http://www.telerik.com/fiddler), a free web debugging proxy. After registering, downloading and installing the Fiddler tool, you can follow the steps to [configure Fiddler to decrypt HTTPS traffic](http://docs.telerik.com/fiddler/configure-fiddler/tasks/decrypthttps) since the CDS web service APIs are based on HTTPS. 
-
-**Note**: By performing the steps described in Telerik Fiddler documention, you are exposing your computer to security risks, for which Microsoft cannot be held responsible. Please consult Telerik Fiddler documentation for details of these risks.
-
-Use Fiddler to capture and inspect the traffic generated by the console application:
-
-1. Go to **File**, then select **Capture traffic** for the tool to record network activity. Alternatively you can press **F12** to enable and disable traffic capture.
-1. To remove noise, you can right click on any repeating calls, select **Filter Now**, then click on **Hide '{process name}'**. Verify that the process name is not one you want to monitor.
-1. Run the console program above while capturing traffic and examine its request and response contents by clicking on the **Inspectors** tab on the details pane, then selecting the **JSON** or **Raw** tabs corresponding to the request and response.
-1. Some interesting calls will be made to hosts named as follows:
-    1. **login.windows.net**, **login.microsoftonline.com**. These calls perform authentication against Azure AD.
-    1. **management.azure.com**. This call discovers where the CDS endpoint for your databse is located.
-    1. **https://[unique-id].rsu.powerapps.com/namespaces/[unigue-id]/v001/entities/relational/$execute**. These calls perform data operations agaisnt the CDS.
-
-The JSON content of the data operation calls described above will describe the operation type, data and metadata infromation about the responses from CDS. 
 
 # Troubleshooting
 
