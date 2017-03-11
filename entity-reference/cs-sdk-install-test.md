@@ -90,10 +90,16 @@ To create a new console project, obtain the NuGet package, then compile and buil
     1. Choose **Console Application**.
     1. Make sure that .NET Framework 4.5.2 is selected as the target framework.
     1. Specify a name for your project and create the new Visual Studio solution.
+1. [Microsoft internal] Add the wanuget-dev interanl feed:
+    1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and nvafigate to **Package Sources**.
+    1. Add a new source by clicking on the plus symbol on top.
+    1. Set **Name** to wanuget-dev.
+    1. Set **Source** to http://wanuget/dev/nuget.
 1. Find your project on the Solution Explorer, right click on it and select **Manage NuGet packages**. 
+    1. [Microsoft internal] Select **wanuget-dev** under **package source**.
     1. Check the **Include prerelease** box.
     1. Search for **Microsoft.CommonDataService**.
-    1. Select the NuGet package and click on **Install**.
+    1. Select the **Microsoft.CommonDataService** NuGet package and click on **Install**, to get the latest package.
     1. Proceed through the **License acceptance** dialog if you accept the package licenses. 
 1. In Solution Explorer, open the App.config and add the following XML, right under the openning `<configuration>` tag.
 1. Replace the brackets with configuration values from previous steps.
@@ -169,5 +175,7 @@ In Program.cs, add the `[STAThread]` attribute to the `Main()` entry method, the
 Ensure the project compiles by right clicking on the project and clicking **Build**.
 
 Set a breakpoint on the line of code declaring `updateProductCategory` and run your code by clicking on **Start** or pressing **F5**.
+
+Login using your own credentials when the Azure AD prompt appears.
 
 Verify that the program runs and retrieves the newly inserted `ProductCategory` entities.
