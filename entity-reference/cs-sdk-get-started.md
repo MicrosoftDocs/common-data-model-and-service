@@ -54,8 +54,10 @@ If you have already signed up for an Azure subscription, go to [Azure portal](ht
 
 Follow these steps to register and configure an application in Azure AD:
 
-1. In [Azure portal](https://portal.azure.com) go to **Azure Active Directory** then click on **App registrations**.
-1. Create the application resource:
+1. In [Azure portal](https://portal.azure.com) go to **Azure Active Directory** 
+1. Click on **Properties** and copy the **Directoy ID** value. Alternatively you can use the domain name from your AAD login email. Record this value as **AAD tenant** configuration value for next steps.
+1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
+1. Create the application resource that we will be used when prompting you to login:
     1. Click on **Add** to see a Create pane.
     1. Enter a **Name** for your registered application.
     1. Select **Native** as application type.
@@ -66,7 +68,7 @@ Follow these steps to register and configure an application in Azure AD:
     1. Search for your newly registered app by name
     1. Click on it after finding it in the list of applications.
     1. Record value for **Application ID** for configuration in later steps.
-1. Setup **Required permissions**:
+1. Setup **Required permissions** for connecting to CDS services:
     1. Click on **Required permissions** to opne a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
@@ -81,6 +83,13 @@ The CDS C# SDK is delivered as part of a NuGet package. You need to apply this p
 
 ## Prerequisites
 To create a new console project, obtain the NuGet package, then compile and build the application, you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer.
+
+Enusre you have the following configuration values from previous steps:
+
+1. **AAD tenant**. This value identifies the tenant your database resides in.
+1. **AAD application ID**. This value identifies the AAD app you registered earlier.
+1. **AAD application redirect URI**. This value speciifies the redirect URI used when you are prompted to login.
+1. **Environment ID**. This value identifies the PowerApps environment that contains your target CDS database.
 
 ## [Microsoft internal] Sample console application
 
@@ -99,24 +108,26 @@ You can obtain a pre-created version of the console application below from the i
     1. Add a new source by clicking on the plus symbol on top.
     1. Set **Name** to wanuget-dev.
     1. Set **Source** to http://wanuget/dev/nuget.
+    1. In the next step you may see many packages named similarly. Make sure to **only** add the one named **Microsoft.CommonDataService**.
 1. Find your project on the Solution Explorer, right click on it and select **Manage NuGet packages**. 
     1. [Microsoft internal] Select **wanuget-dev** under **package source**.
     1. Check the **Include prerelease** box.
     1. Search for **Microsoft.CommonDataService**.
     1. Select the **Microsoft.CommonDataService** NuGet package and click on **Install**, to get the latest package.
-    1. Proceed through the **License acceptance** dialog if you accept the package licenses. 
+    1. Proceed through the **License acceptance** dialog. **Note** that by clicking accept you are agreeing with all package license terms.
+1. [To be resolved] Add the **Microsoft.AspNet.WebApi.Client** package from **nuget.org** package source.
 1. In Solution Explorer, open the App.config and add the following XML, right under the openning `<configuration>` tag.
-1. Replace the brackets with configuration values from previous steps.
+1. Replace the brackets with configuration values mentioned in the **prerequisites** section. `Type` attribute of `<Credentials>` XML element is set to **User** to specify that you will be prompted to login when the application runs.
 ```xml
     <configSections>
         <section name="Microsoft.CommonDataService.Connection" type="Microsoft.CommonDataService.Configuration.ConnectionSettingsSection, Microsoft.CommonDataService.ServiceContracts" />
     </configSections>
     <Microsoft.CommonDataService.Connection>
-        <Tenant>[[Replace with tenant value]]</Tenant>
-        <EnvironmentId>[[Replace with Environment ID value]]</EnvironmentId>
+        <Tenant>[[Replace with AAD tenant value]]</Tenant>
+        <EnvironmentId>[[Replace with PowerApps environment ID value]]</EnvironmentId>
         <Credentials Type="User">
-            <ApplicationId>[[Replace with application ID value]]</ApplicationId>
-            <RedirectUri>[[Replace with redirect URI value]]</RedirectUri>
+            <ApplicationId>[[Replace with AAD application ID value]]</ApplicationId>
+            <RedirectUri>[[Replace with AAD application redirect URI value]]</RedirectUri>
         </Credentials>
     </Microsoft.CommonDataService.Connection>
 ```
@@ -178,6 +189,32 @@ Ensure the project compiles by right clicking on the project and clicking **Buil
 
 Set a breakpoint on the line of code declaring `updateProductCategory` and run your code by clicking on **Start** or pressing **F5**.
 
-Login using your own credentials when the Azure AD prompt appears.
+Login using **your credentials** when the Azure AD prompt appears. The first time you do this, you will be prompted to allow the AAD application registered earlier to access the services CDS uses.
 
 Verify that the program runs and retrieves the newly inserted `ProductCategory` entities.
+
+## [Optional] Examining data changes on PowerApps portal
+
+Optionally, you can examine the changes made by your console applications, from the PowerApps portal. Go to [PowerApps](https://powerapps.microsoft.com), sign in, and go to the **Common Data Service** section on the left navigation pane.
+
+Click on **Entities**, search for and select **Product category**,  then click on the **Data** tab in the top navigation section. You will be able to see the changes made to this entity by your console application.
+
+You can build an application in PowerApps on this data and have the SDK and PowerApps work with the same data.
+
+## [Optional] Inspecting CDS HTTPS interactions
+
+You can optionally dig a bit deeper into the interactions the CDS client library is making with the CDS web service APIs.
+
+For this step you need to download [Fiddler](http://www.telerik.com/fiddler), a free web debugging proxy. After registering, downloading and installing the Fiddler tool, you can follow the steps to [configure Fiddler to decrypt HTTPS traffic](http://docs.telerik.com/fiddler/configure-fiddler/tasks/decrypthttps) since the CDS web service APIs are based on HTTPS. **Note**: By performing the steps described in Telerik Fiddler documention, you are exposing your computer to security risks, for which Microsoft cannot be held responsible. Please consult Telerik Fiddler documentation for details of these risks.
+
+1. Go to **File**, then select **Capture traffic** for the tool to record network activity. Alternatively you can press **F12** to enable and disable traffic capture.
+1. To remove noise, you can right click on any repeating calls, select **Filter Now**, then click on **Hide 'process name'**. Verify that the process name is not one you want to monitor.
+1. Run the console program above while capturing traffic and examine its request and response contents by clicking on the **Inspectors** tab on the details pane, and selecting the **JSON** or **Raw** tabs corresponding to the request and response.
+1. Some interesting calls will be made to hosts named as follows:
+    1. **login.windows.net**, **login.microsoftonline.com**. These calls perform authentication against Azure AD.
+    1. **management.azure.com**. This call discovers where the CDS endpoint for your databse is located.
+    1. **https://[unique-id].rsu.powerapps.com/namespaces/[unigue-id]/v001/entities/relational/$execute**. These calls perform data operations agaisnt the CDS.
+
+The JSON content of the data operation calls described above will describe the operation type, data and metadata infromation about the responses from CDS. 
+
+
