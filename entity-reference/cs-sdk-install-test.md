@@ -35,7 +35,7 @@ If you have already signed up for PowerApps, you can go to [PowerApps](https://p
 1. To get access to PowerApps, follow the [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) process instructions.
 1. To acquire a CDS database, follow instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
 
-## Accessing PowerApps
+## Getting the environment ID
 
 After acquiring an environment that contains a CDS database, you can use that environment's identifier to configure your CDS SDK application. The **environment ID** can be found as part of the URI under which you are accessing the above environment. Record this value as it is used in the upcoming configuration step. An example of such a URI and environment Id is as follows:
 
@@ -154,6 +154,19 @@ From Solution Explorer, open the App.config file and copy the following code sni
         updateExecutor.ExecuteAsync().Wait();
     }
 ```
+
+Add the following using statements:
+
+```
+using Microsoft.CommonDataService;
+using Microsoft.CommonDataService.CommonEntitySets;
+using Microsoft.CommonDataService.Configuration;
+using Microsoft.CommonDataService.ServiceClient.Security;
+using System;
+using System.Collections.Generic;
+```
+
+Ensure the project compiles by right clicking on the project and clicking **Build**.
 
 Set a breakpoint on the line of code declaring `updateProductCategory` and run your code by clicking on **Start** or pressing **F5**.
 
