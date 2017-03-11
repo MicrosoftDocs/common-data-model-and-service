@@ -116,7 +116,18 @@ To create a new console project, obtain the NuGet package, then compile and buil
 # Running the CDS console application
 At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
 
-From Solution Explorer, open the App.config file and copy the following code snippet inside the `Main()` entry method.
+From Solution Explorer, open the Program.cs.config file, and add the following using statements:
+
+```
+using Microsoft.CommonDataService;
+using Microsoft.CommonDataService.CommonEntitySets;
+using Microsoft.CommonDataService.Configuration;
+using Microsoft.CommonDataService.ServiceClient.Security;
+using System;
+using System.Collections.Generic;
+```
+
+In Program.cs, add the `[STAThread]` attribute to the `Main()` entry method, then copy the following code snippet inside the same method.
 
 ```
     using (var client = ConnectionSettings.Instance.CreateClient().Result)
@@ -153,17 +164,6 @@ From Solution Explorer, open the App.config file and copy the following code sni
         }
         updateExecutor.ExecuteAsync().Wait();
     }
-```
-
-Add the following using statements:
-
-```
-using Microsoft.CommonDataService;
-using Microsoft.CommonDataService.CommonEntitySets;
-using Microsoft.CommonDataService.Configuration;
-using Microsoft.CommonDataService.ServiceClient.Security;
-using System;
-using System.Collections.Generic;
 ```
 
 Ensure the project compiles by right clicking on the project and clicking **Build**.
