@@ -82,6 +82,10 @@ The CDS C# SDK is delivered as part of a NuGet package. You need to apply this p
 ## Prerequisites
 To create a new console project, obtain the NuGet package, then compile and build the application, you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer.
 
+## [Microsoft internal] Sample console application
+
+You can obtain a pre-created version of the console application below from the internal [Samples repository](https://msazure.visualstudio.com/OneAgile/_git/CommonDataService-Samples?path=%2FSampleConsoleApplication&version=GBmaster&_a=contents). The configuration values will wtill need to be replaced with values from previous steps.
+
 ## Project creation and configuraion
 
 1. Start **Visual Studio**.
@@ -103,21 +107,19 @@ To create a new console project, obtain the NuGet package, then compile and buil
     1. Proceed through the **License acceptance** dialog if you accept the package licenses. 
 1. In Solution Explorer, open the App.config and add the following XML, right under the openning `<configuration>` tag.
 1. Replace the brackets with configuration values from previous steps.
-    ```
-    <configuration>
-        <configSections>
-            <section name="Microsoft.CommonDataService.Connection" type="Microsoft.CommonDataService.Configuration.ConnectionSettingsSection, Microsoft.CommonDataService.ServiceContracts" />
-        </configSections>
-        <Microsoft.CommonDataService.Connection>
-            <Tenant>[[Replace with tenant value]]</Tenant>
-            <EnvironmentId>[[Replace with Environment ID value]]</EnvironmentId>
-            <Credentials Type="User">
-                <ApplicationId>[[Replace with application ID value]]</ApplicationId>
-                <RedirectUri>[[Replace with redirect URI value]]</RedirectUri>
-            </Credentials>
-        </Microsoft.CommonDataService.Connection>
-        ...
-    ```
+```xml
+    <configSections>
+        <section name="Microsoft.CommonDataService.Connection" type="Microsoft.CommonDataService.Configuration.ConnectionSettingsSection, Microsoft.CommonDataService.ServiceContracts" />
+    </configSections>
+    <Microsoft.CommonDataService.Connection>
+        <Tenant>[[Replace with tenant value]]</Tenant>
+        <EnvironmentId>[[Replace with Environment ID value]]</EnvironmentId>
+        <Credentials Type="User">
+            <ApplicationId>[[Replace with application ID value]]</ApplicationId>
+            <RedirectUri>[[Replace with redirect URI value]]</RedirectUri>
+        </Credentials>
+    </Microsoft.CommonDataService.Connection>
+```
 
 # Running the CDS console application
 At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
