@@ -23,7 +23,7 @@ There are four key steps:
 1. **CDS database acquisition through PowerApps**. The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 1. **Application registration in Azure AD**. To allow your application access to the Common Data Service, you need to register your application in Azure AD. This allows you to establish an identity for your application and specify the permission levels it needs in order to access the CDS APIs.
 1. **Console project creation and configuration**. The CDS C# SDK is delivered as part of a NuGet package. You need to apply this package to you new console app. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
-1. **Running your CDS application**. At this point, you can program agains the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
+1. **Running your CDS application**. At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
 
 # CDS database acquisition through PowerApps
 
@@ -86,7 +86,7 @@ To create a new console project, obtain the NuGet package, then compile and buil
     1. Specify a name for your project and create the new Visual Studio solution.
 1. Find your project on the Solution Explorer, right click on it and select **Manage NuGet packages**. 
     1. Check the **Include prerelease** box.
-    1. Search for **Microsoft.CommondDataService**.
+    1. Search for **Microsoft.CommonDataService**.
     1. Select the NuGet package and click on **Install**.
     1. Proceed through the **License acceptance** dialog if you accept the package licenses. 
 1. In Solution Explorer, open the App.config and add the following XML, right under the openning `<configuration>` tag.
@@ -108,7 +108,7 @@ To create a new console project, obtain the NuGet package, then compile and buil
     ```
 
 # Running the CDS console application
-At this point, you can program agains the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
+At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
 
 From Solution Explorer, open the App.config file and copy the following code snippet inside the `Main()` entry method.
 
