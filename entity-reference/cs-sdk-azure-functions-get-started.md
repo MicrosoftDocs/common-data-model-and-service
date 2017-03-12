@@ -18,12 +18,13 @@ ms.assetid: "2308e302-ec0b-437a-82a3-dc71150b9d81"
 ## Overview
 It's easy to get started programming against the Common Data Service (CDS) using Azure Functions. This topic walks you through getting a CDS Azure Function up and running. 
 
-There are four key steps:
+There are five key steps:
 
 1. **CDS database acquisition through PowerApps**. The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 1. **Application registration in Azure AD**. To give your Azure function access to the Common Data Service, you need to register a few applications in Azure AD. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs.
-1. **Console project creation and configuration**. The CDS C# SDK is delivered as part of a NuGet package. You need to apply this package to you new console app. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
-1. **Programming and running your CDS application**. At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
+1. **Azure Function creation and configuration**. The CDS C# SDK is delivered as part of a NuGet package. You need to apply this package to you new console app. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
+1. **Console client app creation and configuration**. 
+1. **Programming and running your CDS Azure Function**. At this point, you can use the Azure Function to program against the CDS APIs. You can then run and debug your function by making HTTP calls from the client console app like you would with any other Azure Function. 
 
 # CDS database acquisition through PowerApps
 
@@ -44,7 +45,7 @@ After acquiring an environment that contains a CDS database, you can use that en
 
 # Application registration in Azure AD
 
-To give your Azure function access to the Common Data Service, you need to register a **Web app / API** applications in Azure AD. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs. You will also need to register the application that calls into the Azure function, as it is also required to authenticate the calling user with Azure AD. In this guide, we will first use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as a bonus steps, we will configure a PowerApps Custom API which requires registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
+To give your Azure function access to the Common Data Service, you need to register a **Web app / API** applications in Azure AD. This allows you to establish an identity for your applications and specify the permission levels it needs in order to access the CDS APIs. You will also need to register the applications that calls into the Azure function, as they are also required to authenticate the calling user with Azure AD. In this guide, we will first use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as a bonus steps, we will configure a PowerApps Custom API which requires registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
 
 [ToDo] Diagram of call sequence and agents
 
@@ -78,6 +79,17 @@ Follow these steps to register and configure your Azure funtion in Azure AD:
     1. Check the **Delegated permissions** box to select all entries, then click on **Select**.
     1. Click on **Done** to finalize setting up permissions to this service.
     1. Repeat the 3 steps above for **Windows Azure Service Management API**.
+1. Setup **known client applications** for seamless propogation of required permissions to clients:
+    1. **Note** that this step may have to be performed after setting up the client application(s), given application ID values are used below.
+    1. Modify the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane.
+    1. Add client application IDs as JSON string entries under the JSON array named `knownClientApplications` while maintainting validity of the manifest, then click **Save**. The manifest will look something like this:
+
+```javascript
+  "knownClientApplications": [
+    "f60bee48-2341-4528-a91c-ec97f3ded8c1",
+    "b3b3d65c-5cbf-4323-b32d-68fd40778ea5"
+  ],
+```
 
 ## Client application registration
 
@@ -99,12 +111,35 @@ Follow these steps to register and configure your client application in Azure AD
     1. Click on **Required permissions** to opne a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
-    1. Search for and select **PowerApps Runtime Service**, then click on **Select**. If you cannot find this service refer to the **Troubleshooting** section under **Required permissions service not found**.
+    1. Search for and select the **Name** of the Azure function web app from previous step then click on **Select**.
     1. Check the **Delegated permissions** box to select all entries, then click on **Select**.
-    1. Click on **Done** to finalize setting up permissions to this service.
-    1. Repeat the 3 steps above for **Windows Azure Service Management API**.
+    1. Click on **Done** to finalize setting up permissions to this service.    
 
-# Console project creation and configuration
+## PowerApps Custom API application registration
+
+Skip these steps if you are not planning to use the Azure function from PowerApps. Otherwise, follow these steps to register and configure your PowerApps Custom API application in Azure AD:
+
+1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
+1. Create the application resource that we will be used when prompting you to login:
+    1. Click on **Add** to see a Create pane.
+    1. Enter a **Name** for your registered client application.
+    1. Select **Web app / API** as application type.
+    1. Add a **Sign on URL**, it could be any valid URI string. For example: http://localhost.
+    1. Click on **Create**.
+1. Open the **Registered app**:
+    1. Search for your newly registered app by name
+    1. Click on it after finding it in the list of applications.
+    1. Record value for **Application ID** for configuration in later steps.
+1. Setup **Required permissions** for connecting to CDS services:
+    1. Click on **Required permissions** to opne a new pane.
+    1. Click on **Add**.
+    1. Navigate to **Select an API**.
+    1. Search for and select the **Name** of the Azure function web app from previous step then click on **Select**.
+    1. Check the **Delegated permissions** box to select all entries, then click on **Select**.
+    1. Click on **Done** to finalize setting up permissions to this service.  
+
+
+# Azure Function creation and configuration
 
 The CDS C# SDK is delivered as part of a NuGet package. You need to apply this package to you new console app. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
 
@@ -121,6 +156,9 @@ Enusre you have the following configuration values from previous steps:
 ## [Microsoft internal] - Sample console application
 
 You can obtain a final version of the console application below from the internal [samples repository](https://msazure.visualstudio.com/OneAgile/_git/CommonDataService-Samples?path=%2FSampleConsoleApplication&version=GBmaster&_a=contents). We will also publish this externally through GitHub. Replace the brackets in App.cofig with configuration values mentioned in the **prerequisites** section. 
+
+
+# Console client app creation and configuration
 
 ## Project creation and configuraion
 
@@ -139,30 +177,17 @@ You can obtain a final version of the console application below from the interna
 1. Find your project on the Solution Explorer, right click on it and select **Manage NuGet packages**. 
     1. [Microsoft internal] Select **wanuget-dev** under **package source**.
     1. Check the **Include prerelease** box.
-    1. Search for **Microsoft.CommonDataService**.
-    1. Select the **Microsoft.CommonDataService** NuGet package and click on **Install**, to get the latest package.
+    1. Search for **?**.
+    1. Select the ? NuGet package and click on **Install**, to get the latest package.
     1. Proceed through the **License acceptance** dialog. **Note** that by clicking accept you are agreeing with all package license terms.
 1. **Issue** - Add the **Microsoft.AspNet.WebApi.Client** package from **nuget.org** package source.
 1. In Solution Explorer, open the App.config and add the following XML, right after the openning `<configuration>` tag.
-1. Replace the brackets with configuration values mentioned in the **prerequisites** section. `Type` attribute of `<Credentials>` XML element is set to **User** to specify that you will be prompted to login when the application runs.
-```xml
-    <configSections>
-        <section name="Microsoft.CommonDataService.Connection" type="Microsoft.CommonDataService.Configuration.ConnectionSettingsSection, Microsoft.CommonDataService.ServiceContracts" />
-    </configSections>
-    <Microsoft.CommonDataService.Connection>
-        <Tenant>[[Replace with AAD tenant value]]</Tenant>
-        <EnvironmentId>[[Replace with PowerApps environment ID value]]</EnvironmentId>
-        <Credentials Type="User">
-            <ApplicationId>[[Replace with AAD application ID value]]</ApplicationId>
-            <RedirectUri>[[Replace with AAD application redirect URI value]]</RedirectUri>
-        </Credentials>
-    </Microsoft.CommonDataService.Connection>
-```
 
-# Programming and running the CDS console application
+
+# Programming and running the CDS Azure Function
 At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
 
-From Solution Explorer, open the Program.cs.config file, and add the following using statements:
+From Solution Explorer, open the run.csx file, and add the following using statements:
 
 ```
 using Microsoft.CommonDataService;
@@ -173,7 +198,7 @@ using System;
 using System.Collections.Generic;
 ```
 
-In Program.cs, add the `[STAThread]` attribute to the `Main()` entry method, then copy the following code snippet inside the same method.
+In run.csx copy the following code snippet inside the same method.
 
 ```
     using (var client = ConnectionSettings.Instance.CreateClient().Result)
@@ -212,21 +237,12 @@ In Program.cs, add the `[STAThread]` attribute to the `Main()` entry method, the
     }
 ```
 
-Ensure the project compiles by right clicking on the project and clicking **Build**.
-
-Set a breakpoint on the line of code declaring `updateProductCategory` and run your code by clicking on **Start** or pressing **F5**.
+Start the console client app, by clicking on **Start** or pressing **F5**.
 
 Login using **your credentials** when the Azure AD prompt appears. The first time you do this, you will be prompted to allow the AAD application registered earlier to access the services CDS uses.
 
 Verify that the program runs and retrieves the newly inserted `ProductCategory` entities.
 
-## Bonus - Examining data changes on PowerApps portal
-
-Optionally, you can examine the data changes made by your console applications, from the PowerApps portal. Go to [PowerApps](https://powerapps.microsoft.com), sign in, and go to the **Common Data Service** section in the left navigation pane.
-
-Click on **Entities**, search for and select **Product category**,  then click on the **Data** tab in the top navigation section. You will be able to see the changes made to this entity by your console application.
-
-You can build an application in PowerApps on this data and have the SDK and PowerApps work with the same data.
 
 # Troubleshooting
 
