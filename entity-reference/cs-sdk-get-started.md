@@ -119,7 +119,7 @@ You can obtain a final version of the console application below from the interna
     1. Proceed through the **License acceptance** dialog. **Note** that by clicking accept you are agreeing with all package license terms.
 1. **[Issue]** - For now you have to add the **Microsoft.AspNet.WebApi.Client** package from **nuget.org** package source.
 1. In Solution Explorer, open the App.config and add the following XML, right after the openning `<configuration>` tag.
-1. Replace the bracket text with configuration values mentioned in the **prerequisites** section. `Type` attribute of `<Credentials>` XML element is set to **User** to specify that you will be prompted to login when the application runs.
+1. Replace the bracket text with configuration values mentioned in the **prerequisites** section. `Type` attribute of `<Credentials>` XML element is set to **User** to specify that you will be prompted to login when the application runs. If you will be logging in as yourself everytime, remove the XML element `<UserSource>Prompt</UserSource>` under Credentials. This element and value indicates you will be prompted everytime.
 ```xml
     <configSections>
         <section name="Microsoft.CommonDataService.Connection" type="Microsoft.CommonDataService.Configuration.ConnectionSettingsSection, Microsoft.CommonDataService.ServiceContracts" />
@@ -128,6 +128,7 @@ You can obtain a final version of the console application below from the interna
         <Tenant>[[Replace with AAD tenant value]]</Tenant>
         <EnvironmentId>[[Replace with PowerApps environment ID value]]</EnvironmentId>
         <Credentials Type="User">
+            <UserSource>Prompt</UserSource>
             <ApplicationId>[[Replace with AAD application ID value]]</ApplicationId>
             <RedirectUri>[[Replace with AAD application redirect URI value]]</RedirectUri>
         </Credentials>
