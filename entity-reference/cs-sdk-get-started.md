@@ -272,7 +272,7 @@ In some AAD configurations, like with with nested tenants, you may be unable to 
 
 ## Offline NuGet
 
-If you don't have access to the internal NuGet feed, you can use an offline NuGet package. Obtain the .nupkg file from the [feed location](https://msazure.visualstudio.com/OneAgile/PowerApps-AppPlatform/_packaging?feedName=Dev&protocolType=NuGet&packageName=microsoft.commondataservice) either by downloading it yourself or asking a Microsoft employee to download it for you. Place the file in a folder on your machine.
+If you don't have access to the internal NuGet feed, you can use an offline NuGet package. Obtain the .nupkg file from the [feed location](https://msazure.visualstudio.com/OneAgile/PowerApps-AppPlatform/_packaging?feedName=Dev&protocolType=NuGet&packageName=microsoft.commondataservice) and clicking on the **Download** button on the top right. Either download the file yourself or asking a Microsoft employee to download it for you. Place the file in a folder on your machine.
 
 Then add the offline feed as follows:
     1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and nvafigate to **Package Sources**.
