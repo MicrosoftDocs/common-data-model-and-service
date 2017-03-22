@@ -104,11 +104,12 @@ You can obtain a final version of the console application below from the interna
     1. Choose **Console Application**.
     1. Make sure that .NET Framework 4.5.2 is selected as the target framework.
     1. Specify a name for your project and create the new Visual Studio solution.
-1. **Microsoft internal** - Add the wanuget-dev interanl feed:
+1. **[Microsoft internal]** - Add the wanuget-dev interanl feed:
     1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and nvafigate to **Package Sources**.
     1. Add a new source by clicking on the plus symbol on top.
     1. Set **Name** to wanuget-dev.
     1. Set **Source** to http://wanuget/dev/nuget.
+    1. **[Issue]** - If you don't have access to the NuGet feed, follow **troubleshooting** instructions under the **Offline NuGet** subsection.
     1. In the next step you may see many packages named similarly. Make sure to **only** add the one named **Microsoft.CommonDataService**.
 1. Find your project on the Solution Explorer, right click on it and select **Manage NuGet packages**. 
     1. [Microsoft internal] Select **wanuget-dev** under **package source**.
@@ -116,9 +117,9 @@ You can obtain a final version of the console application below from the interna
     1. Search for **Microsoft.CommonDataService**.
     1. Select the **Microsoft.CommonDataService** NuGet package and click on **Install**, to get the latest package.
     1. Proceed through the **License acceptance** dialog. **Note** that by clicking accept you are agreeing with all package license terms.
-1. **Issue** - Add the **Microsoft.AspNet.WebApi.Client** package from **nuget.org** package source.
+1. **[Issue]** - For now you have to add the **Microsoft.AspNet.WebApi.Client** package from **nuget.org** package source.
 1. In Solution Explorer, open the App.config and add the following XML, right after the openning `<configuration>` tag.
-1. Replace the brackets with configuration values mentioned in the **prerequisites** section. `Type` attribute of `<Credentials>` XML element is set to **User** to specify that you will be prompted to login when the application runs.
+1. Replace the bracket text with configuration values mentioned in the **prerequisites** section. `Type` attribute of `<Credentials>` XML element is set to **User** to specify that you will be prompted to login when the application runs.
 ```xml
     <configSections>
         <section name="Microsoft.CommonDataService.Connection" type="Microsoft.CommonDataService.Configuration.ConnectionSettingsSection, Microsoft.CommonDataService.ServiceContracts" />
@@ -136,7 +137,7 @@ You can obtain a final version of the console application below from the interna
 # Programming and running the CDS console application
 At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
 
-From Solution Explorer, open the Program.cs.config file, and add the following using statements:
+From Solution Explorer, open the Program.cs file, and add the following using statements on top:
 
 ```
 using Microsoft.CommonDataService;
@@ -147,11 +148,30 @@ using System;
 using System.Collections.Generic;
 ```
 
-In Program.cs, add the `[STAThread]` attribute to the `Main()` entry method, then copy the following code snippet inside the same method.
+In Program.cs, add a `[STAThread]` attribute to the `Main()` entry method, then copy the following code snippet inside that same method.
 
 ```
     using (var client = ConnectionSettings.Instance.CreateClient().Result)
     {
+        // Query product categories for Surfaces and Phones
+        var query = client.GetRelationalEntitySet<ProductCategory>()
+            .CreateQueryBuilder()
+            .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
+            .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name));
+
+        OperationResult<IReadOnlyList<ProductCategory>> queryResult = null;
+        client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+            .Query(query, out queryResult)
+            .ExecuteAsync().Wait();
+
+        // Delete any Surfaces and Phones
+        var deleteExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+        foreach (var entry in queryResult.Result)
+        {
+            deleteExecutor.DeleteWithoutConcurrencyCheck(entry);
+        }
+        deleteExecutor.ExecuteAsync().Wait();
+
         // Insert Surface and Phone product lines
         var surfaceCategory = new ProductCategory() { Name = "Surface", Description = "Surface produce line" };
         var phoneCategory = new ProductCategory() { Name = "Phone", Description = "Phone produce line" };
@@ -161,13 +181,12 @@ In Program.cs, add the `[STAThread]` attribute to the `Main()` entry method, the
             .ExecuteAsync().Wait();
 
         // Query for Surface and Phone Product lines
-        var query = client.GetRelationalEntitySet<ProductCategory>()
+        query = client.GetRelationalEntitySet<ProductCategory>()
             .CreateQueryBuilder()
             .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
             .OrderByAscending(pc => new object[] { pc.CategoryId })
             .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name).SelectField(f => f.Description));
 
-        OperationResult<IReadOnlyList<ProductCategory>> queryResult = null;
         client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
             .Query(query, out queryResult)
             .ExecuteAsync().Wait();
@@ -190,7 +209,7 @@ Ensure the project compiles by right clicking on the project and clicking **Buil
 
 Set a breakpoint on the line of code declaring `updateProductCategory` and run your code by clicking on **Start** or pressing **F5**.
 
-Login using **your credentials** when the Azure AD prompt appears. The first time you do this, you will be prompted to allow the AAD application registered earlier to access the services CDS uses.
+Login using **your credentials** when the Azure AD prompt appears. The first time you run the application, you will be prompted to allow the AAD application you registered earlier to access the services CDS uses.
 
 Verify that the program runs and retrieves the newly inserted `ProductCategory` entities.
 
@@ -208,17 +227,17 @@ You can optionally dig a bit deeper into the interactions the CDS client library
 
 For this step you need to download [Fiddler](http://www.telerik.com/fiddler), a free web debugging proxy. After registering, downloading and installing the Fiddler tool, you can follow the steps to [configure Fiddler to decrypt HTTPS traffic](http://docs.telerik.com/fiddler/configure-fiddler/tasks/decrypthttps) since the CDS web service APIs are based on HTTPS. 
 
-**Note**: By performing the steps described in Telerik Fiddler documention, you are exposing your computer to security risks, for which Microsoft cannot be held responsible. Please consult Telerik Fiddler documentation for details of these risks.
+**Note**: By performing the steps described in Telerik Fiddler documention and allowing HTTPS traffic to be decrypted, you are exposing your computer to security risks, for which Microsoft cannot be held responsible. Please consult Telerik Fiddler documentation for details of these risks.
 
 Use Fiddler to capture and inspect the traffic generated by the console application:
 
 1. Go to **File**, then select **Capture traffic** for the tool to record network activity. Alternatively you can press **F12** to enable and disable traffic capture.
 1. To remove noise, you can right click on any repeating calls, select **Filter Now**, then click on **Hide '{process name}'**. Verify that the process name is not one you want to monitor.
 1. Run the console program above while capturing traffic and examine its request and response contents by clicking on the **Inspectors** tab on the details pane, then selecting the **JSON** or **Raw** tabs corresponding to the request and response.
-1. Some interesting calls will be made to hosts named as follows:
+1. A few interesting calls will be made to hosts named as follows:
     1. **login.windows.net**, **login.microsoftonline.com**. These calls perform authentication against Azure AD.
     1. **management.azure.com**. This call discovers where the CDS endpoint for your databse is located.
-    1. **https://[unique-id].rsu.powerapps.com/namespaces/[unigue-id]/v001/entities/relational/$execute**. These calls perform data operations agaisnt the CDS.
+    1. **https://[unique-id].rsu.powerapps.com/namespaces/[unique-id]/v001/entities/relational/$execute**. These calls perform data operations agaisnt the CDS.
 
 The JSON content of the data operation calls described above will describe the operation type, data and metadata infromation about the responses from CDS. 
 
@@ -250,3 +269,14 @@ In some AAD configurations, like with with nested tenants, you may be unable to 
       ]
     }
 ```
+
+## Offline NuGet
+
+If you don't have access to the internal NuGet feed, you can use an offline NuGet package. Obtain the .nupkg file from the [feed location](https://msazure.visualstudio.com/OneAgile/PowerApps-AppPlatform/_packaging?feedName=Dev&protocolType=NuGet&packageName=microsoft.commondataservice) either by downloading it yourself or asking a Microsoft employee to download it for you. Place the file in a folder on your machine.
+
+Then add the offline feed as follows:
+    1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and nvafigate to **Package Sources**.
+    1. Add a new source by clicking on the plus symbol on top.
+    1. Set **Name** to "Local CDS Packages".
+    1. Set **Source** to the local folder path. For example: C:\Users\user1\Desktop\NuGet
+    1. Follow the main instructions on applying **Microsoft.CommonDataService**.
