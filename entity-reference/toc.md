@@ -20,6 +20,6 @@
 ## [Customer service reference](entity-tables/customer-service.md)
 # [Standard picklists](standard-picklists.md)
 # C# SDK
-## C# SDK EULA
+## [C# SDK EULA](cs-sdk-eula.md)
 # [Known issues](known-issues.md)
 # [Index](index.md)
