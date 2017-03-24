@@ -1,3 +1,18 @@
+---
+title: "MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS MICROSOFT COMMON DATA SERVICE SOFTWARE DEVELOPMENT KIT | Microsoft Docs"
+description: 
+author: "robinarh"
+manager: "robinarh"
+ms.date: "03/24/2017"
+ms.topic: "topic"
+ms.prod: ""
+ms.service: "CommonDataService"
+ms.technology: "CommonDataService"
+keywords: "common data service, SDK, EULA"
+audience: "Developer, IT Pro"
+ms.assetid: "ce210584-8c62-4f68-b7af-fb655ed2f436"
+---
+
 **MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS MICROSOFT COMMON DATA SERVICE SOFTWARE DEVELOPMENT KIT**
 
 These license terms are an agreement between you and Microsoft Corporation (or one of its affiliates). They apply to the software named above and any Microsoft services or software updates (except to the extent such services or updates are accompanied by new or additional terms, in which case those different terms apply prospectively and do not alter your or Microsoft’s rights relating to pre-updated software or services). IF YOU COMPLY WITH THESE LICENSE TERMS, YOU HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
