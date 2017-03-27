@@ -20,6 +20,6 @@
 ## [Customer service reference](entity-tables/customer-service.md)
 # [Standard picklists](standard-picklists.md)
 # C# SDK
-## [MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS MICROSOFT COMMON DATA SERVICE SOFTWARE DEVELOPMENT KIT](cs-sdk-eula.md)
+## [License](cs-sdk-eula.md)
 # [Known issues](known-issues.md)
 # [Index](index.md)
