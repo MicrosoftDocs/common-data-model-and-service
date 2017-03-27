@@ -19,7 +19,7 @@
 # [Customer service entities](entities-customer-service.md)
 ## [Customer service reference](entity-tables/customer-service.md)
 # [Standard picklists](standard-picklists.md)
-# C# SDK
+# Common Data Service SDK
 ## [License](cs-sdk-eula.md)
 # [Known issues](known-issues.md)
 # [Index](index.md)
