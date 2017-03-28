@@ -56,7 +56,7 @@ To give your Azure Function access to the Common Data Service, you need to regis
 If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an application registration under Azure Active Directory. If you cannot, go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
 
 1. In [Azure portal](https://portal.azure.com) go to **Azure Active Directory** 
-1. Click on **Properties** and copy the **Directoy ID** value. Alternatively you can use your domain name. Record this configuration value as **AAD tenant** for upcoming steps.
+1. Click on **Properties** and copy the value of **Directoy ID** and record it as config variable **AAD tenant** for upcoming steps. Alternatively you can use the domain name from your AAD login email.
 
 ## Azure function application registration
 
@@ -77,11 +77,11 @@ Follow these steps to register and configure your Azure Funtion in Azure AD:
     1. Click on **Keys** to open a new pane.
     1. Add a new **Key description** like "key", set the **Duration** to "Never expires" and click **Save**.
     1. Record configuration value for the **Application secret** by copying and pasting contents of the "Value" cell.
-1. Setup **Required permissions** for connecting to CDS services:
+1. Setup **Required permissions** for connecting to CDS:
     1. Click on **Required permissions** to open a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
-    1. Search for and choose **PowerApps Runtime Service**, then click **Select**.
+    1. Search for and choose **PowerApps Runtime Service**, then click **Select**. If you cannot find this service refer to the **Troubleshooting** section under **Required permissions service not found**.
     1. Check all entries under **Delegated permissions**, then click **Select**.
     1. Click on **Done** to finalize setting up permissions for this service.
     1. Repeat the 3 steps above for **Windows Azure Service Management API**.
@@ -103,7 +103,7 @@ Follow these steps to register and configure your client application in Azure AD
     1. Search for your newly registered app by name.
     1. Click on it after finding it in the list of applications.
     1. Record configuration value **Application ID** for upcoming steps.
-1. Setup **Required permissions** for connecting to CDS services:
+1. Setup **Required permissions** for connecting to the Azure Function:
     1. Click on **Required permissions** to opne a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
@@ -126,7 +126,7 @@ You can skip this steps if you are not planning to use the Azure Function from P
     1. Search for your newly registered app by name
     1. Click on it after finding it in the list of applications.
     1. Record configuration value **Application ID** for upcoming steps.
-1. Setup **Required permissions** for connecting to CDS services:
+1. Setup **Required permissions** for connecting to the Azure Function:
     1. Click on **Required permissions** to opne a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
@@ -254,7 +254,7 @@ At this point, you can program against the CDS APIs. You can then run and debug 
 
 From Solution Explorer, open the run.csx file, and add the following using statements:
 
-```
+```cs
 #r ".\bin\Microsoft.CommonDataService.Common.dll"
 #r ".\bin\Microsoft.CommonDataService.CommonEntitySets.dll"
 #r ".\bin\Microsoft.CommonDataService.InternalContracts.dll"
@@ -276,7 +276,7 @@ using System.Net;
 
 In run.csx copy the following code snippet inside the method body.
 
-```
+```cs
     using (var client = await ConnectionSettings.Instance.CreateClient(req))
     {
         // Query product categories for Surfaces and Phones
