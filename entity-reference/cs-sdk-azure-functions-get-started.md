@@ -18,16 +18,14 @@ ms.assetid: "2308e302-ec0b-437a-82a3-dc71150b9d81"
 ## Overview
 It's easy to get started programming against the Common Data Service (CDS) using Azure Functions. This topic walks you through getting a CDS Azure Function up and running. 
 
-There are five key steps:
+There are four key steps:
 
 1. **CDS database acquisition through PowerApps**. The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 1. **Application registration in Azure AD**. To give your Azure function access to the Common Data Service, you need to register a few applications in Azure AD. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs.
-1. **Azure Function creation and configuration**. 
+1. **Azure Function creation and configuration and programming**. From the Azure Functions experience you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment. At this point, you can program against the CDS APIs inside the Azure Function. Alternatively you can accompish the same goal by starting with a Visual Studio Functions project and publishing it to Azure. 
+1. **Console client application creation and configuration**. You can then run and debug your Azure Function by running the client console app and making HTTP calls to the Function. 
 
-1. **Programming and running your CDS Azure Function**. At this point, you can use the Azure Function to program against the CDS APIs. You can then run and debug your function by making HTTP calls from the client console app like you would with any other Azure Function. 
-1. **Console client application creation and configuration**. 
-
-In addition, you can use this function from a PowerApp. There are two key steps:
+In addition, you can use this function from a PowerApps application. There are two key steps:
 1. **Custom API creation and configuration**
 2. **Programming and running your PowerApp**
 
@@ -37,65 +35,57 @@ In addition, you can use this function from a PowerApp. There are two key steps:
 The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 
 ## Prerequisites
-If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com), sign in and ensure you have admin access to an environment containing a CDS database. If not however, follow these instructions:
-
-1. To get access to PowerApps, follow the [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) process instructions.
-1. To acquire a CDS database, follow instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
+1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not sigend up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
+1. Ensure you have admin access to an environment containing a CDS database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
 
 ## Getting the environment ID
 
-After acquiring an environment that contains a CDS database, you can use that environment's identifier to configure your CDS SDK application. The **environment ID** can be found as part of the URI under which you are accessing the above environment. Record this value as it is used in the upcoming configuration step. An example of such a URI and environment Id is as follows:
+After acquiring an environment that contains a CDS database, you can use that environment's identifier to configure your CDS SDK application. The **environment ID** can be found as part of the URI you are using to access the environment. Record this value as it will be used in the upcoming configuration step. An example of such a URI and environment Id are as follows:
 
     URI: https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
     Environment ID: d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
 
 # Application registration in Azure AD
 
-To give your Azure function access to the Common Data Service, you need to register a **Web app / API** applications in Azure AD. This allows you to establish an identity for your applications and specify the permission levels it needs in order to access the CDS APIs. You will also need to register the applications that calls into the Azure function, as they are also required to authenticate the calling user with Azure AD. In this guide, we will first use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as a bonus steps, we will configure a PowerApps Custom API which requires registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
+To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in Azure AD. This allows you to establish an identity for your applications and specify the permission level it needs to access the CDS APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as a bonus steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
 
 [ToDo] Diagram of call sequence and agents
 
 ## Prerequisites
 
-If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an application registration under Azure Active Directory. If not however, you can go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
+If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an application registration under Azure Active Directory. If you cannot, go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
 
 1. In [Azure portal](https://portal.azure.com) go to **Azure Active Directory** 
-1. Click on **Properties** and copy the **Directoy ID** value. Alternatively you can use the domain name from your AAD login email. Record this value as **AAD tenant** configuration value for next steps.
+1. Click on **Properties** and copy the **Directoy ID** value. Alternatively you can use your domain name. Record this configuration value as **AAD tenant** for upcoming steps.
 
 ## Azure function application registration
 
-Follow these steps to register and configure your Azure funtion in Azure AD:
+Follow these steps to register and configure your Azure Funtion in Azure AD:
 
 1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
 1. Create the Azure function application resource that we will use to call into CDS directly:
     1. Click on **Add** to see a Create pane.
-    1. Enter a **Name** for your registered Azure function application.
+    1. Enter a **Name** for your Azure function application.
     1. Select **Web app / API** as application type.
     1. Add a **Sign-on URL**, it could be any valid URI string. For example: http://localhost.    
     1. Click on **Create**.
-1. Open the **Registered app**:
-    1. Search for your newly registered app by name
+1. Open the registered app:
+    1. Search for your newly registered app by name.
     1. Click on it after finding it in the list of applications.
-    1. Record value for **Application ID** for configuration in later steps.
+    1. Record configuration value **Application ID** for upcoming steps.
+1. Get the application secret:
+    1. Click on **Keys** to open a new pane.
+    1. Add a new **Key description** like "key", set the **Duration** to "Never expires" and click **Save**.
+    1. Record configuration value for the **Application secret** by copying and pasting contents of the "Value" cell.
 1. Setup **Required permissions** for connecting to CDS services:
-    1. Click on **Required permissions** to opne a new pane.
+    1. Click on **Required permissions** to open a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
-    1. Search for and select **PowerApps Runtime Service**, then click on **Select**.
-    1. Check the **Delegated permissions** box to select all entries, then click on **Select**.
-    1. Click on **Done** to finalize setting up permissions to this service.
+    1. Search for and choose **PowerApps Runtime Service**, then click **Select**.
+    1. Check all entries under **Delegated permissions**, then click **Select**.
+    1. Click on **Done** to finalize setting up permissions for this service.
     1. Repeat the 3 steps above for **Windows Azure Service Management API**.
-1. Setup **known client applications** for seamless propogation of required permissions to clients:
-    1. **Note** that this step may have to be performed after setting up the client application(s), given application ID values are used below.
-    1. Modify the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane.
-    1. Add client application IDs as JSON string entries under the JSON array named `knownClientApplications` while maintainting validity of the manifest, then click **Save**. The manifest will look something like this:
-
-```javascript
-  "knownClientApplications": [
-    "f60bee48-2341-4528-a91c-ec97f3ded8c1",
-    "b3b3d65c-5cbf-4323-b32d-68fd40778ea5"
-  ],
-```
+1.  **Note** - Configuring **known client applications** will have to be performed after registering the other application(s). The step is needed for seamless propogation of required permissions to clients. After completing all registrations go to section **Add known applications to Azure Function app**.
 
 ## Client application registration
 
@@ -104,49 +94,70 @@ Follow these steps to register and configure your client application in Azure AD
 1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
 1. Create the application resource that we will be used when prompting you to login:
     1. Click on **Add** to see a Create pane.
-    1. Enter a **Name** for your registered client application.
+    1. Enter a **Name** for your client application.
     1. Select **Native** as application type.
     1. Add a **Redirect URI**, it could be any valid URI string. For example: http://localhost.
-    1. Record value for **Redirect URI** for configuration in later steps.
+    1. Record configuration value **Redirect URI** for upcoming steps.
     1. Click on **Create**.
-1. Open the **Registered app**:
-    1. Search for your newly registered app by name
+1. Open the Registered app:
+    1. Search for your newly registered app by name.
     1. Click on it after finding it in the list of applications.
-    1. Record value for **Application ID** for configuration in later steps.
+    1. Record configuration value **Application ID** for upcoming steps.
 1. Setup **Required permissions** for connecting to CDS services:
     1. Click on **Required permissions** to opne a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
-    1. Search for and select the **Name** of the Azure function web app from previous step then click on **Select**.
-    1. Check the **Delegated permissions** box to select all entries, then click on **Select**.
-    1. Click on **Done** to finalize setting up permissions to this service.    
+    1. Search for and select **Name** of the Azure Function web app created in previous step, then click **Select**.
+    1. Check all boxes under **Delegated permissions** section, then click **Select**.
+    1. Click on **Done** to finalize setting up permissions for this service.    
 
 ## Bonus - PowerApps Custom API application registration
 
-Skip these steps if you are not planning to use the Azure function from PowerApps. Otherwise, follow these steps to register and configure your PowerApps Custom API application in Azure AD:
+You can skip this steps if you are not planning to use the Azure Function from PowerApps. If you are interested in using PowerApps, follow these steps to register and configure your PowerApps Custom API application in Azure AD:
 
 1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
-1. Create the application resource that we will be used when prompting you to login:
+1. Create the application resource that we will be used during the PowerApps user login process:
     1. Click on **Add** to see a Create pane.
     1. Enter a **Name** for your registered client application.
     1. Select **Web app / API** as application type.
-    1. Add a **Sign on URL**, it could be any valid URI string. For example: http://localhost.
+    1. Set **Sign on URL** to `https://msmanaged-na.consent.azure-apim.net/redirect`, and record it for upcoming steps.
     1. Click on **Create**.
 1. Open the **Registered app**:
     1. Search for your newly registered app by name
     1. Click on it after finding it in the list of applications.
-    1. Record value for **Application ID** for configuration in later steps.
+    1. Record configuration value **Application ID** for upcoming steps.
 1. Setup **Required permissions** for connecting to CDS services:
     1. Click on **Required permissions** to opne a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
-    1. Search for and select the **Name** of the Azure function web app from previous step then click on **Select**.
-    1. Check the **Delegated permissions** box to select all entries, then click on **Select**.
-    1. Click on **Done** to finalize setting up permissions to this service.
+    Search for and choose **PowerApps Runtime Service**, then click **Select**.
+    1. Search for and select **Name** of the Azure Function web app created in previous step, then click **Select**.
+    1. Check all boxes under **Delegated permissions** section, then click **Select**.
+    1. Click on **Done** to finalize setting up permissions for this service.  
+
+## Add known applications to Azure Function app
+
+For seamless propogation of required permissions to clients, setup **known client applications**.
+   
+1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
+1. Open the registered app:
+    1. Search for your Azure Function web app created in previous step.
+    1. Click on it after finding it in the list of applications.
+    1. Modify the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane.
+    1. Click on **Download** and save a backup of the manifest, then click **Edit** to go back.
+    1. Get the application IDs for both your **Client applciation** and **PowerApps custom API application**.
+    1. Add client application IDs as JSON string entries under the JSON array named `knownClientApplications` while maintainting validity of the manifest, then click **Save**. The manifest will look similar to the following:
+
+```javascript
+  "knownClientApplications": [
+    "f60bee48-2341-4528-a91c-ec97f3ded...",
+    "b3b3d65c-5cbf-4323-b32d-68fd40778..."
+  ],
+```
 
 # Azure Function creation and configuration
 
-You can create and configure functions from the [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) expereince. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
+You can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
 
 ## Prerequisites
 
@@ -239,7 +250,6 @@ To perform the same configuration steps in Visual Studio, copy the following sni
     "Microsoft.CommonDataService.IsProd": "True"
 ```
 
-# Programming and running the CDS Azure Function
 At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
 
 From Solution Explorer, open the run.csx file, and add the following using statements:
@@ -267,7 +277,7 @@ using System.Net;
 In run.csx copy the following code snippet inside the method body.
 
 ```
-      using (var client = await ConnectionSettings.Instance.CreateClient(req))
+    using (var client = await ConnectionSettings.Instance.CreateClient(req))
     {
         // Query product categories for Surfaces and Phones
         var query = client.GetRelationalEntitySet<ProductCategory>()

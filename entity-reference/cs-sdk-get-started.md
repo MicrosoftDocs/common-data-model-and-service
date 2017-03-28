@@ -30,14 +30,12 @@ There are four key steps:
 The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 
 ## Prerequisites
-If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com), sign in and ensure you have admin access to an environment containing a CDS database. If not however, follow these instructions:
-
-1. To get access to PowerApps, follow the [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) process instructions.
-1. To acquire a CDS database, follow instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
+1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not sigend up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
+1. Ensure you have admin access to an environment containing a CDS database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
 
 ## Getting the environment ID
 
-After acquiring an environment that contains a CDS database, you can use that environment's identifier to configure your CDS SDK application. The **environment ID** can be found as part of the URI under which you are accessing the above environment. Record this value as it is used in the upcoming configuration step. An example of such a URI and environment Id is as follows:
+After acquiring an environment that contains a CDS database, you can use that environment's identifier to configure your CDS SDK application. The **environment ID** can be found as part of the URI you are using to access the environment. Record this value as it will be used in the upcoming configuration step. An example of such a URI and environment Id are as follows:
 
     URI: https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
     Environment ID: d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
@@ -119,7 +117,7 @@ You can obtain a final version of the console application below from the interna
     1. Proceed through the **License acceptance** dialog. **Note** that by clicking accept you are agreeing with all package license terms.
 1. **[Issue]** - For now you have to add the **Microsoft.AspNet.WebApi.Client** package from **nuget.org** package source.
 1. In Solution Explorer, open the App.config and add the following XML, right after the openning `<configuration>` tag.
-1. Replace the bracket text with configuration values mentioned in the **prerequisites** section. `Type` attribute of `<Credentials>` XML element is set to **User** to specify that you will be prompted to login when the application runs. If you will be logging in as yourself everytime, remove the XML element `<UserSource>Prompt</UserSource>` under Credentials. This element and value indicates you will be prompted everytime.
+1. Replace the bracket text with configuration values mentioned in the **prerequisites** section. `Type` attribute of `<Credentials>` XML element is set to **User** to specify that you will be prompted to login when the application runs. If you will be logging in as yourself everytime, remove the XML element `<UserSource>Prompt</UserSource>` under Credentials. This element and value indicates you will always be prompted at runtime.
 ```xml
     <configSections>
         <section name="Microsoft.CommonDataService.Connection" type="Microsoft.CommonDataService.Configuration.ConnectionSettingsSection, Microsoft.CommonDataService.ServiceContracts" />
@@ -276,8 +274,8 @@ In some AAD configurations, like with with nested tenants, you may be unable to 
 If you don't have access to the internal NuGet feed, you can use an offline NuGet package. Obtain the .nupkg file from the [feed location](https://msazure.visualstudio.com/OneAgile/PowerApps-AppPlatform/_packaging?feedName=Dev&protocolType=NuGet&packageName=microsoft.commondataservice) and clicking on the **Download** button on the top right. Either download the file yourself or asking a Microsoft employee to download it for you. Place the file in a folder on your machine.
 
 Then add the offline feed as follows:
-    1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and nvafigate to **Package Sources**.
-    1. Add a new source by clicking on the plus symbol on top.
-    1. Set **Name** to "Local CDS Packages".
-    1. Set **Source** to the local folder path. For example: C:\Users\user1\Desktop\NuGet
-    1. Follow the main instructions on applying **Microsoft.CommonDataService**.
+1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and nvafigate to **Package Sources**.
+1. Add a new source by clicking on the plus symbol on top.
+1. Set **Name** to "Local CDS Packages".
+1. Set **Source** to the local folder path. For example: C:\Users\user1\Desktop\NuGet
+1. Follow the main instructions on applying **Microsoft.CommonDataService**.
