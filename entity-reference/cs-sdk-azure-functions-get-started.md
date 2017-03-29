@@ -22,7 +22,7 @@ There are four key steps:
 
 1. **CDS database acquisition through PowerApps**. The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 1. **Application registration in Azure AD**. To give your Azure function access to the Common Data Service, you need to register a few applications in Azure AD. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs.
-1. **Azure Function creation and configuration and programming**. From the Azure Functions experience you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment. At this point, you can program against the CDS APIs inside the Azure Function. Alternatively you can accompish the same goal by starting with a Visual Studio Functions project and publishing it to Azure. 
+1. **Azure Function creation and configuration and programming**. You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch however, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
 1. **Console client application creation and configuration**. You can then run and debug your Azure Function by running the client console app and making HTTP calls to the Function. 
 
 In addition, you can use this function from a PowerApps application. There are two key steps:
@@ -49,7 +49,7 @@ After acquiring an environment that contains a CDS database, you can use that en
 
 To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in Azure AD. This allows you to establish an identity for your applications and specify the permission level it needs to access the CDS APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as a bonus steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
 
-[ToDo] Diagram of call sequence and agents
+[ToDo] Diagram of call sequence and AAD applications
 
 ## Prerequisites
 
@@ -111,7 +111,7 @@ Follow these steps to register and configure your client application in Azure AD
     1. Check all boxes under **Delegated permissions** section, then click **Select**.
     1. Click on **Done** to finalize setting up permissions for this service.    
 
-## Bonus - PowerApps Custom API application registration
+## Advanced - PowerApps Custom API application registration
 
 You can skip this steps if you are not planning to use the Azure Function from PowerApps. If you are interested in using PowerApps, follow these steps to register and configure your PowerApps Custom API application in Azure AD:
 
@@ -157,7 +157,7 @@ For seamless propogation of required permissions to clients, setup **known clien
 
 # Azure Function creation and configuration
 
-You can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
+You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch however, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
 
 ## Prerequisites
 
@@ -170,21 +170,35 @@ Enusre you have the following configuration values from previous steps:
 1. **AAD application secret**. This value identifies secret of the AAD web app you registered earlier.
 1. **PowerApps environment ID**. This value identifies the PowerApps environment that contains your target CDS database.
 
+## Sample Azure Function project
+
+For the private preview release, a project called `SampleFunctionApplication` will be included in the CDS SDK material. If you choose to go with this sample project, perform the following:
+
+1. Replace the brackets in **appsettings.json** with configuration values mentioned in the **prerequisites** section.
+1. Right click on the Function project and click **Publish ...**
+1. Select the publish target **Microsoft Azure App Service**.
+1. Enter your credentials.
+1. Click **New** and crate a new app service in your existing subscription.
+1. Create new **Resource Group**, **App Service Plan** or **Storage Account** as appropriate.
+1. Skip to the **Console client app creation and configuration** section. 
+
 ## Azure Function creation and configuraion
 
-Assuming you already have an Azure subscription set up, create a new function app from the [Azure Portal](https://portal.azure.com/#create/Microsoft.FunctionApp):
-1. Enter a unique name for the for **App name**.
+Assuming you already have an Azure subscription set up, create and open a new function app from the [Azure Portal](https://portal.azure.com/#create/Microsoft.FunctionApp):
+1. Enter a unique **App name**.
 1. Select your current **Subscription**.
 1. Select an existing **Resource group** or provide a unique name for a new one.
-1. Select your existing hosting plan.
+1. Select the existing **Consumption Plan** as your hosting plan.
 1. Select the **Location** of the function.
-1. Select an existing **Storage account** or follow steps to create one that will be used by the function.
+1. Select an existing **Storage account** or follow steps to create one.
+1. Click **Create**.
+1. Under **All resources** search for and select the app you created.
 
-Create a new Azure function under the newly created function app using templates:
+Create a new Azure function using templates:
 1. Click on **New Function** under Functions from the left pane.
 1. Select **GenericWebHook-CSharp** from the list of templates.
 1. Name the new Function **ResetProductCategories**, and click **Create**.
-1. You should see sample code under the **Develop** section in the left pane.
+1. **Note** the sample code window opened under the **Develop** section.
 
 Configure the target environment, and security setting of the app:
 1. Click on **Function app settings** on the bottom of the left pane.
@@ -255,15 +269,6 @@ At this point, you can program against the CDS APIs. You can then run and debug 
 From Solution Explorer, open the run.csx file, and add the following using statements:
 
 ```cs
-#r ".\bin\Microsoft.CommonDataService.Common.dll"
-#r ".\bin\Microsoft.CommonDataService.CommonEntitySets.dll"
-#r ".\bin\Microsoft.CommonDataService.InternalContracts.dll"
-#r ".\bin\Microsoft.CommonDataService.RemoteDispatcher.dll"
-#r ".\bin\Microsoft.CommonDataService.Serialization.dll"
-#r ".\bin\Microsoft.CommonDataService.ServiceClient.dll"
-#r ".\bin\Microsoft.CommonDataService.ServiceClient.Security.dll"
-#r ".\bin\Microsoft.CommonDataService.ServiceContracts.dll"
-
 using Microsoft.CommonDataService;
 using Microsoft.CommonDataService.CommonEntitySets;
 using Microsoft.CommonDataService.Configuration;
