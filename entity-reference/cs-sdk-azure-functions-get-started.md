@@ -22,7 +22,7 @@ There are four key steps:
 
 1. **CDS database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 1. **Application registration**. To give your Azure function access to the Common Data Service, you need to register a few applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs.
-1. **Azure Function creation and configuration and programming**. You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch however, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
+1. **Azure Function creation, configuration and programming**. You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch however, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
 1. **Console client application creation and configuration**. You can then run and debug your Azure Function by running the client console app and making HTTP calls to the Function. 
 
 In addition, you can use this function from a PowerApps application. There are two key steps:
@@ -155,7 +155,7 @@ For seamless propogation of required permissions to clients, setup **known clien
   ],
 ```
 
-# Azure Function creation and configuration
+# Azure Function creation, configuration and programming
 
 You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch however, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
 
@@ -357,11 +357,86 @@ Enusre you have the following configuration values from previous steps:
 1. Find your project on the Solution Explorer, right click on it and select **Manage NuGet packages**. 
     1. [Microsoft internal] Select **wanuget-dev** under **package source**.
     1. Check the **Include prerelease** box.
-    1. Search for **?**.
-    1. Select the ? NuGet package and click on **Install**, to get the latest package.
+    1. Search for **Microsoft.AspNet.WebApi.Client**.
+    1. Select the **Microsoft.AspNet.WebApi.Client** NuGet package and click on **Install**, to get the latest package.
     1. Proceed through the **License acceptance** dialog. **Note** that by clicking accept you are agreeing with all package license terms.
-1. **Issue** - Add the **Microsoft.AspNet.WebApi.Client** package from **nuget.org** package source.
-1. In Solution Explorer, open the App.config and add the following XML, right after the openning `<configuration>` tag.
+    1. Repeat the last 3 steps for **Microsoft.IdentityModel.Clients.ActiveDirectory** and **Newtonsoft.Json**.
+
+From Solution Explorer, open the **Program.cs** file, and replace `using` statements on top with following code:
+
+```cs
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using System;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
+```
+
+In **Program.cs**, copy the following code to replace the contents of **`Program`** class.
+
+```cs
+public const string TenantNameOrId = "[[Replace with AAD tenant value]]";
+public const string ClientAppId = "[[Replace with AAD client application ID value]]";
+public const string RedirectUri = "[[Replace with AAD client redirect URI value]]";
+public const string HostedResetUriString = "[[Replace with Function URL value]]"; // Locally hosted Function URI
+public const string FunctionResource = "[[Replace with AAD function resource ID value]]";
+
+public static string Authority { get { return string.Format(AuthorityTemplate, TenantNameOrId); } }
+private const string AuthorityTemplate = "https://login.windows.net/{0}";
+public const string LocalUpdateUriString = "http://localhost:7071/api/UpdateProductCategory"; // Locally hosted Function URI
+public const string AuthorizationHeaderScheme = "Bearer";
+
+static void Main(string[] args)
+{
+    // Run operation as async function
+    UpdateEntityAsync().Wait();
+    Console.WriteLine("Press any key to continue ...");
+    Console.ReadLine();
+}
+
+private static async Task UpdateEntityAsync()
+{
+    // Get HTTP client and send request
+    var client = await GetHttpClientAsync();
+    var updateUriString = LocalUpdateUriString; // HostedResetUriString;
+    var response = await client.PostAsync($"{updateUriString}?name=Surface", null);
+    Console.WriteLine($"Status: '{response.StatusCode}'");
+    Console.WriteLine($"Contents: {await response.Content.ReadAsStringAsync()}");
+}
+
+private static async Task<HttpClient> GetHttpClientAsync()
+{
+    // Prompt for login and create security token
+    var authenticationContext = new AuthenticationContext(Authority);
+    AuthenticationResult authenticationResult = await authenticationContext.AcquireTokenAsync(FunctionResource
+        , ClientAppId
+        , new Uri(RedirectUri)
+        , new PlatformParameters(PromptBehavior.Auto));
+    var securityTokenString = authenticationResult.CreateAuthorizationHeader();
+
+    // Create and configure the HTTP client
+    var client = new HttpClient();
+    var authorizationHeaderParameter = securityTokenString.Replace(AuthorizationHeaderScheme + " ", string.Empty);
+    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(AuthorizationHeaderScheme, authorizationHeaderParameter);
+    return client;
+}
+```
+
+Configure the target environment, and security setting of the app by replacing the corresponding bracket text in code with configuration values:
+
+1. **AAD tenant** should replace `[[Replace with AAD tenant value]]`.
+1. **AAD client application ID** should replace `[[Replace with AAD client application ID value]]`.
+1. **AAD client application redirect URI** should replace `[[Replace with AAD client redirect URI value]]`.
+1. **Function URL** should replace `[[Replace with Function URL value]]`.
+1. **AAD function resource ID** should replace `[[Replace with AAD function resource ID value]]`.
+
+### Compile and run the project
+
+1. Ensure the project compiles by right clicking on the project and clicking **Build**.
+1. Run the client code by clicking on **Start** or pressing **F5**.
+1. Login using **your credentials** when the Azure AD prompt appears. The first time you run the application, you will be prompted to allow the AAD application you registered earlier to access the services CDS uses.
+1. Verify that the program runs and calls the Function.
+1. Verify that the function updates Product Categories as expected.
 
 # Troubleshooting
 
