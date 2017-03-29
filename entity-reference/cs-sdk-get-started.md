@@ -20,14 +20,14 @@ It's easy to get started programming against the Common Data Service (CDS). This
 
 There are four key steps:
 
-1. **CDS database acquisition through PowerApps**. The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
-1. **Application registration in Azure AD**. To allow your application access to the Common Data Service, you need to register your application in Azure AD. This allows you to establish an identity for your application and specify the permission level it needs in order to access the CDS APIs.
+1. **CDS database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
+1. **Application registration**. To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs in order to access the CDS APIs.
 1. **Console project creation and configuration**. You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from sceatch however, you need to create a new console project and apply the CDS SDK NuGet package. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
 1. **Programming and running your CDS application**. At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. For a more advanced understanding of the SDK, you can also examine any data changes made by your applications, from the PowerApps portal, or dig deeper into the interactions between the CDS client library and CDS web service APIs, using Fiddler.
 
-# CDS database acquisition through PowerApps
+# CDS database acquisition
 
-The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
+The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 
 ## Prerequisites
 1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not sigend up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
@@ -40,9 +40,9 @@ After acquiring an environment that contains a CDS database, you can use that en
     URI: https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
     Environment ID: d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
 
-# Application registration in Azure AD
+# Application registration
 
-To allow your application access to the Common Data Service, you need to register your application in Azure AD. This allows you to establish an identity for your application and specify the permission level it needs in order to access the CDS APIs.
+To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs in order to access the CDS APIs.
 
 ## Prerequisites
 

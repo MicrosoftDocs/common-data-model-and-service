@@ -20,8 +20,8 @@ It's easy to get started programming against the Common Data Service (CDS) using
 
 There are four key steps:
 
-1. **CDS database acquisition through PowerApps**. The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
-1. **Application registration in Azure AD**. To give your Azure function access to the Common Data Service, you need to register a few applications in Azure AD. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs.
+1. **CDS database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
+1. **Application registration**. To give your Azure function access to the Common Data Service, you need to register a few applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs.
 1. **Azure Function creation and configuration and programming**. You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch however, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
 1. **Console client application creation and configuration**. You can then run and debug your Azure Function by running the client console app and making HTTP calls to the Function. 
 
@@ -30,7 +30,7 @@ In addition, you can use this function from a PowerApps application. There are t
 2. **Programming and running your PowerApp**
 
 
-# CDS database acquisition through PowerApps
+# CDS database acquisition
 
 The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 
@@ -45,9 +45,9 @@ After acquiring an environment that contains a CDS database, you can use that en
     URI: https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
     Environment ID: d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
 
-# Application registration in Azure AD
+# Application registration
 
-To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in Azure AD. This allows you to establish an identity for your applications and specify the permission level it needs to access the CDS APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as a bonus steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
+To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission level it needs to access the CDS APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as a bonus steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
 
 [ToDo] Diagram of call sequence and AAD applications
 
