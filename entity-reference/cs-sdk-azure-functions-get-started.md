@@ -137,7 +137,7 @@ You can skip this steps if you are not planning to use the Azure Function from P
 
 ## Add known applications to Azure Function app
 
-For seamless propogation of required permissions to clients, setup **known client applications**.
+For seamless propogation of required permissions to clients, setup **known client applications**. This means that the first time a user logs into a client application, they will be asked to provide all required permissions needed to run this flow. If you skip this step, you may have to manually authorize use of CDS for each user.
    
 1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
 1. Open the registered app:
@@ -172,7 +172,7 @@ Enusre you have the following configuration values from previous steps:
 
 ## Sample Azure Function project
 
-For the private preview release, a project called `SampleFunctionApplication` will be included in the CDS SDK material. If you choose to go with this sample project, perform the following:
+For the private preview release, a project called `SampleFunctionApplication` will be included in the CDS SDK material. If you choose to go with this sample project,  you will need the latest [Azure Functions tools for Visual Studio](https://aka.ms/azfunctiontools) installed on your computer.
 
 1. Replace the brackets in **appsettings.json** with configuration values mentioned in the **prerequisites** section.
 1. Right click on the Function project and click **Publish ...**
@@ -181,6 +181,8 @@ For the private preview release, a project called `SampleFunctionApplication` wi
 1. Click **New** and crate a new app service in your existing subscription.
 1. Create new **Resource Group**, **App Service Plan** or **Storage Account** as appropriate.
 1. Skip to the **Console client app creation and configuration** section. 
+
+You can also follow the similar instructions as below to create and configure the Azure function in Visual Studio, then publish it as shown above.
 
 ## Azure Function creation and configuraion
 
@@ -197,23 +199,15 @@ Assuming you already have an Azure subscription set up, create and open a new fu
 Create a new Azure function using templates:
 1. Click on **New Function** under Functions from the left pane.
 1. Select **GenericWebHook-CSharp** from the list of templates.
-1. Name the new Function **ResetProductCategories**, and click **Create**.
+1. Name the new Function **UpdateProjectCategory**, and click **Create**.
 1. **Note** the sample code window opened under the **Develop** section.
+1. Record the configuration value **Function URL** for upcoming steps by clicking on **Get function URL** on the top right, and clicking copy.
 
-Configure the target environment, and security setting of the app:
-1. Click on **Function app settings** on the bottom of the left pane.
-1. Click **Configure app settings** under the Develop section.
-1. Scroll down to **App settings** and clock on the last row.
-1. Enter **Microsoft.CommonDataService.EnvironmentId** under **Key** and the **PowerApps environment ID** configuration value from previous steps, under **Value**.
-1. Enter **Microsoft.CommonDataService.TenantNameOrId** under **Key** and the **AAD tenant** configuration value from previous steps, under **Value**.
-1. Enter **Microsoft.CommonDataService.CredentialsType** under **Key** and **UserImpersonation** under **Value**, to denote authentication on-behalf-of calling user.
-1. Enter **Microsoft.CommonDataService.ApplicationId** under **Key** and the **AAD application** configuration value from previous steps, under **Value**.
-1. Enter **Microsoft.CommonDataService.ApplicationSecret** under **Key** and the **AAD application secret** configuration value from previous steps, under **Value**.
-1. Enter **Microsoft.CommonDataService.AzureFunction** under **Key** and the **True** under **Value**.
-1. [Issue] - Enter **Microsoft.CommonDataService.IsProd** under **Key** and the **True** under **Value**.
-1. Click on **Save** at the top of the pane.
-
-Copy the following JSON snippet under the **project.json** file of the project. On the Azure portal Function experience, you can get to this file by going to the **View files** tab on the top right of the pane, and creating a new file by clicking on **Add**. 
+Copy the following JSON snippet under the **project.json** file of the function filder. On the Azure portal Function experience, you can update this file thorugh the following steps:
+1. Create a new file on your computer named **project.json**.
+1. Edit the file using a text or JSON editor and paste the JSON contents below, then save the file.
+1. Go to the **View files** tab on the top right of the pane.
+1. Click on **Upload** and select project.json from disk.
 
 ```javascript
 {
@@ -223,50 +217,18 @@ Copy the following JSON snippet under the **project.json** file of the project. 
         "Castle.Core": "3.3.3",
         "Google.Protobuf": "3.0.0",
         "Microsoft.AspNet.WebApi.Client": "5.2.3",
+        "Microsoft.CommonDataService": "1.0.188-preview",
         "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.13.8",
         "Newtonsoft.Json": "9.0.1",
-        "System.IdentityModel.Tokens.Jwt": "5.1.2",
-        "Microsoft.IdentityModel.Tokens": "5.1.2"
+        "Microsoft.IdentityModel.Logging": "1.1.3",
+        "System.IdentityModel.Tokens.Jwt": "5.1.3",
+        "Microsoft.IdentityModel.Tokens": "5.1.3"
       }
     }
   }
 }
 ```
-
-**Issue** - Before the SDK NuGet is available publicly, the Azure funtion binary dependencies have to be manually copied to the hosted Azure function:
-1. Click on **Function app settings** on the bottom of the left pane.
-1. Click on **Go to Kudu**.
-1. To Do
-1. Create a **/bin** folder under **ResetProductCategories** .
-1. Copy the contents from [samples repository](https://msazure.visualstudio.com/OneAgile/_git/CommonDataService-Samples?path=%2FSampleFunctionApp%2FResetProductCategories%2Fbin&version=GBmaster&_a=contents) to the bin folder.
-
-## Starting from Visual Studio
-
-You have the option to either preferrably start from the Azure Functions portal experience or to start from Visual Studio. If you choose to start from Visual Studio however, you will need the latest [Azure Functions tools for Visual Studio](https://aka.ms/azfunctiontools) installed on your computer.
-
-Even though the instructions below detail how to create and configure an Azure fuction using the preferred Azure Functions portal experience, you can follow the same instructions to create and configure the Azure function in Visual Studio. You can then publish the Azure Function project onto your Azure subscription by right clicking on the project and clicking on **Publish**.
-
-### [Microsoft Internal] - Sample Azure Function
-
-You can obtain a final Visual Studio version of the console application below from the internal [samples repository](https://msazure.visualstudio.com/OneAgile/_git/CommonDataService-Samples?path=%2FSampleFunctionApp&version=GBmaster&_a=contents). We will also publish this externally through GitHub. Replace the brackets in App.cofig with configuration values mentioned in the **prerequisites** section. 
-
-### Configuration from Visual Studio
-
-To perform the same configuration steps in Visual Studio, copy the following snippet under **Values** in the **appsettings.json** file from the Azure Function project and replace the values with ones acquired in previous steps.
-
-```javascript
-    "Microsoft.CommonDataService.TenantNameOrId": "[[Replace with AAD tenant value]]",
-    "Microsoft.CommonDataService.EnvironmentId": "[[Replace with PowerApps environment ID value]]",
-    "Microsoft.CommonDataService.CredentialsType": "UserImpersonation",
-    "Microsoft.CommonDataService.ApplicationId": "[[Replace with AAD application ID value]]",
-    "Microsoft.CommonDataService.ApplicationSecret": "[[Replace with AAD application secret value]]",
-    "Microsoft.CommonDataService.AzureFunction": "True",
-    "Microsoft.CommonDataService.IsProd": "True"
-```
-
-At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
-
-From Solution Explorer, open the run.csx file, and add the following using statements:
+From **View files** pane on the right side, open **run.csx**, and replace the `using` and `#r` statements with below:
 
 ```cs
 using Microsoft.CommonDataService;
@@ -279,10 +241,34 @@ using System.Collections.Generic;
 using System.Net;
 ```
 
-In run.csx copy the following code snippet inside the method body.
+Copy the following code snippet inside the `run()` method body of **run.csx**, replacing existing code.
 
 ```cs
-    using (var client = await ConnectionSettings.Instance.CreateClient(req))
+   log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}");
+
+    // parse query parameter
+    string name = req.GetQueryNameValuePairs()
+        .FirstOrDefault(q => string.Compare(q.Key, "name", true) == 0)
+        .Value;
+
+    if(name == null)
+    {
+        log.Info($"Name was not passed correctly.");
+        return req.CreateResponse(HttpStatusCode.BadRequest);
+    }
+
+    var connection = new ConnectionSettings
+    {
+        Tenant = "[[Replace with AAD tenant value]]",
+        EnvironmentId = "[[Replace with PowerApps environment ID value]]",
+        Credentials = new UserImpersonationCredentialsSettings
+        {
+            ApplicationId = "[[Replace with AAD function application ID value]]",
+            ApplicationSecret = "[[Replace with AAD function application secret value]]"
+        }
+    };
+
+    using (var client = await connection.CreateClient(req))
     {
         // Query product categories for Surfaces and Phones
         var query = client.GetRelationalEntitySet<ProductCategory>()
@@ -304,32 +290,56 @@ In run.csx copy the following code snippet inside the method body.
         deleteExecutor.ExecuteAsync().Wait();
 
         // Insert Surface and Phone product lines
-        var surfaceCategory = new ProductCategory() { Name = "Surface", Description = "Surface produce line" };
-        var phoneCategory = new ProductCategory() { Name = "Phone", Description = "Phone produce line" };
+        var surfaceCategory = new ProductCategory() { Name = "Surface", Description = "Surface product line" };
+        var phoneCategory = new ProductCategory() { Name = "Phone", Description = "Phone product line" };
         await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
             .Insert(surfaceCategory)
             .Insert(phoneCategory)
             .ExecuteAsync();
-        
+
+        // Query for Surface and Phone Product lines
+        query = client.GetRelationalEntitySet<ProductCategory>()
+            .CreateQueryBuilder()
+            .Where(pc => pc.Name == name)
+            .OrderByAscending(pc => new object[] { pc.CategoryId })
+            .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name).SelectField(f => f.Description));
+
+        await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+            .Query(query, out queryResult)
+            .ExecuteAsync();
+
+        // Update all selected Product Lines with description
+        var updateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+        foreach (var entry in queryResult.Result)
+        {
+            var updateProductCategory = client.CreateRelationalFieldUpdates<ProductCategory>();
+            string updatedDescription = $"{DateTime.Now.ToString()} - Updated '{entry.Name}'";
+            updateProductCategory.Update(pc => pc.Description, updatedDescription);
+
+            updateExecutor.Update(entry, updateProductCategory);
+        }
+        await updateExecutor.ExecuteAsync();
+
         log.Info($"C# HTTP trigger function completed.");
         return req.CreateResponse(HttpStatusCode.OK);
-    }
 ```
 
-Start the console client app, by clicking on **Start** or pressing **F5**.
+Configure the target environment, and security setting of the app by replacing the corresponding bracket text in code with configuration values:
 
-Login using **your credentials** when the Azure AD prompt appears. The first time you do this, you will be prompted to allow the AAD application registered earlier to access the services CDS uses.
-
-Verify that the program runs and retrieves the newly inserted `ProductCategory` entities.
-
+1. **AAD tenant** should replace `[[Replace with AAD tenant value]]`.
+1. **PowerApps environment ID** should replace `[[Replace with PowerApps environment ID value]]`.
+1. **AAD application** should replace `[[Replace with function application ID value]]`.
+1. **AAD application secret** should replace `[[Replace with Function application secret value]]`.
+1. Click **Save** at the top of the pane.
 
 # Console client app creation and configuration
 
 ## Prerequisites
-To create a new console project, obtain the NuGet package, then compile and build the application, you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer.
+To create a new console project you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer.
 
 Enusre you have the following configuration values from previous steps:
 
+1. **Function URL**. This value identifies location of the Azure Function.
 1. **AAD tenant**. This value identifies the tenant your database resides in.
 1. **AAD client console application ID**. This value identifies the AAD app you registered earlier for the client console application.
 1. **AAD client console application redirect URI**. This value speciifies the redirect URI used when you are prompted to login.
@@ -343,12 +353,7 @@ Enusre you have the following configuration values from previous steps:
     1. Choose **Console Application**.
     1. Make sure that .NET Framework 4.5.2 is selected as the target framework.
     1. Specify a name for your project and create the new Visual Studio solution.
-1. **Microsoft internal** - Add the wanuget-dev interanl feed:
-    1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and nvafigate to **Package Sources**.
-    1. Add a new source by clicking on the plus symbol on top.
-    1. Set **Name** to wanuget-dev.
-    1. Set **Source** to http://wanuget/dev/nuget.
-    1. In the next step you may see many packages named similarly. Make sure to **only** add the one named **Microsoft.CommonDataService**.
+
 1. Find your project on the Solution Explorer, right click on it and select **Manage NuGet packages**. 
     1. [Microsoft internal] Select **wanuget-dev** under **package source**.
     1. Check the **Include prerelease** box.
@@ -386,3 +391,16 @@ In some AAD configurations, like with with nested tenants, you may be unable to 
       ]
     }
 ```
+
+# [Microsoft internal]
+
+## Sample Azure Function
+
+You can obtain a final Visual Studio version of the console application below from the internal [samples repository](https://msazure.visualstudio.com/OneAgile/_git/CommonDataService-Samples?path=%2FSampleFunctionApp&version=GBmaster&_a=contents). We will also publish this externally through GitHub. Replace the brackets in App.cofig with configuration values mentioned in the **prerequisites** section. 
+
+1. **Microsoft internal** - Add the wanuget-dev interanl feed:
+    1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and nvafigate to **Package Sources**.
+    1. Add a new source by clicking on the plus symbol on top.
+    1. Set **Name** to wanuget-dev.
+    1. Set **Source** to http://wanuget/dev/nuget.
+    1. In the next step you may see many packages named similarly. Make sure to **only** add the one named **Microsoft.CommonDataService**.
