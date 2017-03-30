@@ -266,8 +266,8 @@ var connection = new ConnectionSettings
     EnvironmentId = "[[Replace with PowerApps environment ID value]]",
     Credentials = new UserImpersonationCredentialsSettings
     {
-        ApplicationId = "[[Replace with AAD function application ID value]]",
-        ApplicationSecret = "[[Replace with AAD function application secret value]]"
+        ApplicationId = "[[Replace with Function application ID value]]",
+        ApplicationSecret = "[[Replace with Function application secret value]]"
     }
 };
 
@@ -315,6 +315,7 @@ using (var client = await connection.CreateClient(req))
     var updateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
     foreach (var entry in queryResult.Result)
     {
+        log.Info($"Updateing '{entry.Name}'.");
         var updateProductCategory = client.CreateRelationalFieldUpdates<ProductCategory>();
         string updatedDescription = $"{DateTime.Now.ToString()} - Updated '{entry.Name}'";
         updateProductCategory.Update(pc => pc.Description, updatedDescription);
@@ -325,7 +326,7 @@ using (var client = await connection.CreateClient(req))
 
     log.Info($"C# HTTP trigger function completed.");
     return req.CreateResponse(HttpStatusCode.OK);
-}
+}    
 ```
 
 Configure the target environment, and security setting of the app by replacing the corresponding bracket text in code with configuration values:
@@ -432,7 +433,7 @@ Configure the target environment, and security setting of the app by replacing t
 1. **Function URL** should replace `[[Replace with Function URL value]]`.
 1. **AAD function resource ID** should replace `[[Replace with AAD function resource ID value]]`.
 
-The client application can call either the hosted version of the Function in Azure, or the locally hosted version from a Visual Studio Function Application. If you are testing against Azure, set the `isAzureHosted` variable to true, to use the correct URI value.
+The client application can call either the hosted version of the Function in Azure, or the locally hosted version from a Visual Studio Function Application. If you are testing against Azure, set the `isAzureHosted` variable to `true`, to use the correct URI value.
 
 ```cs
 public const string AzureHostedResetUriString = "https://[unique_id].azurewebsites.net/api/UpdateProductCategory?code=[unique_code]"; // Azure hosted Function URI
