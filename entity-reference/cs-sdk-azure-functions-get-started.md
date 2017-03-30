@@ -87,7 +87,7 @@ Follow these steps to register and configure your Azure Function in Azure AD:
     1. Repeat the 3 steps above for **Windows Azure Service Management API**.
 1. Get the Function application's resource ID:
     1. Open the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane.
-    1. Record the config value **AAD function resource ID** from any entry under `identifierUris`.
+    1. Record the config value **AAD function resource ID** from any entry under `identifierUris`. Following is an example: `https://[tenant_name].onmicrosoft.com/4598e084-55a7-4d57-88ae-59902d8e3a52`.
 1.  **Note** - Configuring **known client applications** must be performed after registering the other application(s). The step is needed for seamless propagation of required permissions to clients. After completing all registrations go to section **Add known applications to Azure Function app**.
 
 ## Client application registration
@@ -183,7 +183,8 @@ For the private preview release, a project called `SampleFunctionApplication` wi
 1. Enter your credentials.
 1. Click **New** and crate a new app service in your existing subscription.
 1. Create new **Resource Group**, **App Service Plan** or **Storage Account** as appropriate.
-1. Skip to the **Console client app creation and configuration** section. 
+1. Skip to the **Console client app creation and configuration** section.
+1. **Note** that after publishing, you may have to delete the published **project.lock.json** file as detailed in the troubleshooting section **Assembly load issue after publish to Azure**.
 
 You can also follow the similar instructions as below to create and configure the Azure function in Visual Studio, then publish it as shown above.
 
@@ -431,6 +432,15 @@ Configure the target environment, and security setting of the app by replacing t
 1. **Function URL** should replace `[[Replace with Function URL value]]`.
 1. **AAD function resource ID** should replace `[[Replace with AAD function resource ID value]]`.
 
+The client application can call either the hosted version of the Function in Azure, or the locally hosted version from a Visual Studio Function Application. If you are testing against Azure, set the `isAzureHosted` variable to true, to use the correct URI value.
+
+```cs
+public const string AzureHostedResetUriString = "https://[unique_id].azurewebsites.net/api/UpdateProductCategory?code=[unique_code]"; // Azure hosted Function URI
+public const string LocalHostedUpdateUriString = "http://localhost:7071/api/UpdateProductCategory"; // Locally hosted Function URI
+bool isAzureHosted = true; // false
+var updateUriString = isAzureHosted ? $"{AzureHostedResetUriString}&name=Surface" : $"{LocalHostedUpdateUriString}?name=Surface";
+```
+
 ### Compile and run the project
 
 1. Ensure the project compiles by right clicking on the project and clicking **Build**.
@@ -438,6 +448,7 @@ Configure the target environment, and security setting of the app by replacing t
 1. Login using **your credentials** when the Azure AD prompt appears. The first time you run the application, you will be prompted to allow the AAD application you registered earlier to access the services CDS uses.
 1. Verify that the program runs and calls the Function.
 1. Verify that the function updates Product Categories as expected.
+1. **Note** that if you see log errors related to assembly loading please refer to **Assembly load issue after publish to Azure** in the troubleshooting section. 
 
 # Troubleshooting
 
@@ -468,6 +479,23 @@ In some AAD configurations, like with nested tenants, you may be unable to find 
 }
 ```
 
+## Assembly load issue after publish to Azure
+
+If you started from a Visual Studio Function Application project and publish to the Azure Functions portal, you may see an issue with assembly loading when the function gets called. Error may look like the following:
+
+```
+Function completed (Failure, Id=00000000-0000-0000-0000-000000000007)
+Exception while executing function: Functions.UpdateProductCategory. Microsoft.CommonDataService.ServiceClient.Security: Could not load file or assembly 'Microsoft.CommonDataService.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+```
+
+This issue can be resolve by deleting the **project.lock.json** file:
+1. Go to the **View files** tab on the top right of the pane.
+1. Select the filw named **project.lock.json**.
+1. Click **Delete** on top of the pane.
+1. Reissue the request from client.
+
+
+<!---
 # [Microsoft internal]
 
 ## Sample Azure Function
@@ -480,3 +508,4 @@ You can obtain a final Visual Studio version of the console application below fr
     1. Set **Name** to wanuget-dev.
     1. Set **Source** to http://wanuget/dev/nuget.
     1. In the next step you may see many packages named similarly. Make sure to **only** add the one named **Microsoft.CommonDataService**.
+--->

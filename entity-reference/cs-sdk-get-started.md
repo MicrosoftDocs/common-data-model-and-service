@@ -1,5 +1,5 @@
 ---
-title: "Get started with the CDS C# SDK | Microsoft Docs"
+title: "Get started with the Common Data Service C# SDK | Microsoft Docs"
 description: ""
 author: "nimakms"
 manager: "robinarh"
