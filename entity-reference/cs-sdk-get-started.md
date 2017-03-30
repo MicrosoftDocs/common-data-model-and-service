@@ -13,7 +13,7 @@ audience: "Developer"
 ms.assetid: "34eddae8-3715-4bd6-b921-5bfb82d9df1c"
 ---
 
-# Get started with the CDS C# SDK
+# Get started with the Common Data Service C# SDK
 
 ## Overview
 It's easy to get started programming against the Common Data Service (CDS). This topic walks you through getting a CDS console application up and running. 
@@ -21,8 +21,8 @@ It's easy to get started programming against the Common Data Service (CDS). This
 There are four key steps:
 
 1. **CDS database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
-1. **Application registration**. To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs in order to access the CDS APIs.
-1. **Console project creation and configuration**. You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from sceatch however, you need to create a new console project and apply the CDS SDK NuGet package. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
+1. **Application registration**. To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs to access the CDS APIs.
+1. **Console project creation and configuration**. You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from scratch however, you need to create a new C# Console Application project in Visual Studio and apply the CDS SDK NuGet package. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
 1. **Programming and running your CDS application**. At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. For a more advanced understanding of the SDK, you can also examine any data changes made by your applications, from the PowerApps portal, or dig deeper into the interactions between the CDS client library and CDS web service APIs, using Fiddler.
 
 # CDS database acquisition
@@ -30,7 +30,7 @@ There are four key steps:
 The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
 
 ## Prerequisites
-1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not sigend up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
+1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not signed up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
 1. Ensure you have admin access to an environment containing a CDS database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
 
 ## Getting the environment ID
@@ -49,7 +49,7 @@ To allow your application access to the Common Data Service, you need to registe
 If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an application registration under Azure Active Directory. If not however, you can go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
 
 1. In [Azure portal](https://portal.azure.com) go to **Azure Active Directory** 
-1. Click on **Properties** and copy the value of **Directoy ID** and record it as config variable **AAD tenant** for upcoming steps. Alternatively you can use the domain name from your AAD login email.
+1. Click on **Properties** and copy the value of **Directoy ID** and record it as config variable **AAD tenant** for upcoming steps. Alternatively, you can use the domain name from your AAD login email.
 
 ## Application registration
 
@@ -68,7 +68,7 @@ Follow these steps to register and configure an application in Azure AD:
     1. Click on it after finding it in the list of applications.
     1. Record configuration value **Application ID** for upcoming steps.
 1. Setup **required permissions** for connecting to CDS:
-    1. Click on **Required permissions** to opne a new pane.
+    1. Click on **Required permissions** to open a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
     1. Search for and choose **PowerApps Runtime Service**, then click **Select**. If you cannot find this service refer to the **Troubleshooting** section under **Required permissions service not found**.
@@ -78,23 +78,23 @@ Follow these steps to register and configure an application in Azure AD:
 
 # Console project creation and configuration
 
-You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from sceatch however, you need to create a new console project and apply the CDS SDK NuGet package. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
+You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from scratch, you need to create a new Visual Studio C# Console Application project and apply the CDS SDK NuGet package. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
 
 ## Prerequisites
-To create a new console project, you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer. Please obtain this 
+To create a new console project, you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer. 
 
-Enusre you have the following configuration values from previous steps:
+Ensure you have the following configuration values from previous steps:
 
 1. **AAD tenant**. This value identifies the tenant your database resides in.
 1. **AAD application ID**. This value identifies the AAD app you registered earlier.
-1. **AAD application redirect URI**. This value speciifies the redirect URI used when you are prompted to login.
+1. **AAD application redirect URI**. This value specifies the redirect URI used when you are prompted to login.
 1. **PowerApps environment ID**. This value identifies the PowerApps environment that contains your target CDS database.
 
 ## Sample console application
 
 For the private preview release, a project called `SampleConsoleApplication` will be included in the CDS SDK material. If you choose to go with the sample project, perform the following:
 
-1. Replace the brackets in **App.cofig** with configuration values mentioned in the **prerequisites** section.
+1. Replace the brackets in **App.config** with configuration values mentioned in the **prerequisites** section above.
 1. Skip to the last part of **Programming and running the CDS console application** to **Compile and run the project**. 
 
 ## Project creation and configuraion
@@ -105,25 +105,25 @@ For the private preview release, a project called `SampleConsoleApplication` wil
     1. Choose **Console Application**.
     1. Make sure that .NET Framework 4.5.2 is selected as the target framework.
     1. Specify a name for your project and create the new Visual Studio solution.
-1. **Note** - During private preview, the CDS SDK NuGet package can be directly applied from the **Package Manager Console**:
+1. **Note** - During private preview, the CDS SDK NuGet package is not searchable. It shouold be directly applied from the **Package Manager Console**:
     1. Go to **Tools > NuGet Package Manager > Package Manager Console**.
     1. Enter the install command for your specific target version of the SDK, using a command like: `Install-Package Microsoft.CommonDataService -Version 1.0.188-preview -Pre`
-1. In Solution Explorer, open the **App.config** file and paste in the XML at the bottom of this section, starting right after the openning `<configuration>` tag.
+1. In Solution Explorer, open the **App.config** file and paste in the XML at the bottom of this section, starting right after the opening `<configuration>` tag.
 1. Replace the bracket text with configuration values mentioned in the **prerequisites** section.
 
 ```xml
-    <configSections>
-        <section name="Microsoft.CommonDataService.Connection" type="Microsoft.CommonDataService.Configuration.ConnectionSettingsSection, Microsoft.CommonDataService.ServiceContracts" />
-    </configSections>
-    <Microsoft.CommonDataService.Connection>
-        <Tenant>[[Replace with AAD tenant value]]</Tenant>
-        <EnvironmentId>[[Replace with PowerApps environment ID value]]</EnvironmentId>
-        <Credentials Type="User">
-            <UserSource>Prompt</UserSource>
-            <ApplicationId>[[Replace with AAD application ID value]]</ApplicationId>
-            <RedirectUri>[[Replace with AAD application redirect URI value]]</RedirectUri>
-        </Credentials>
-    </Microsoft.CommonDataService.Connection>
+<configSections>
+    <section name="Microsoft.CommonDataService.Connection" type="Microsoft.CommonDataService.Configuration.ConnectionSettingsSection, Microsoft.CommonDataService.ServiceContracts" />
+</configSections>
+<Microsoft.CommonDataService.Connection>
+    <Tenant>[[Replace with AAD tenant value]]</Tenant>
+    <EnvironmentId>[[Replace with PowerApps environment ID value]]</EnvironmentId>
+    <Credentials Type="User">
+        <UserSource>Prompt</UserSource>
+        <ApplicationId>[[Replace with AAD application ID value]]</ApplicationId>
+        <RedirectUri>[[Replace with AAD application redirect URI value]]</RedirectUri>
+    </Credentials>
+</Microsoft.CommonDataService.Connection>
 ```
 Note that `Type` is set to **User** inside the `<Credentials>` XML element, which signifies that you will be prompted to login at startup. If you want to save time by automating your login, remove the XML element `<UserSource>Prompt</UserSource>` under Credentials. This element and value indicates you will always be prompted at runtime.
 
@@ -145,58 +145,58 @@ using System.Collections.Generic;
 In **Program.cs**, add a **`[STAThread]`** attribute to the **`Main()`** entry method, then copy the following code snippet inside that same method.
 
 ```cs
-    using (var client = ConnectionSettings.Instance.CreateClient().Result)
+using (var client = ConnectionSettings.Instance.CreateClient().Result)
+{
+    // Query product categories for Surfaces and Phones
+    var query = client.GetRelationalEntitySet<ProductCategory>()
+        .CreateQueryBuilder()
+        .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
+        .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name));
+
+    OperationResult<IReadOnlyList<ProductCategory>> queryResult = null;
+    client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+        .Query(query, out queryResult)
+        .ExecuteAsync().Wait();
+
+    // Delete any Surfaces and Phones
+    var deleteExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+    foreach (var entry in queryResult.Result)
     {
-        // Query product categories for Surfaces and Phones
-        var query = client.GetRelationalEntitySet<ProductCategory>()
-            .CreateQueryBuilder()
-            .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
-            .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name));
-
-        OperationResult<IReadOnlyList<ProductCategory>> queryResult = null;
-        client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
-            .Query(query, out queryResult)
-            .ExecuteAsync().Wait();
-
-        // Delete any Surfaces and Phones
-        var deleteExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-        foreach (var entry in queryResult.Result)
-        {
-            deleteExecutor.DeleteWithoutConcurrencyCheck(entry);
-        }
-        deleteExecutor.ExecuteAsync().Wait();
-
-        // Insert Surface and Phone product lines
-        var surfaceCategory = new ProductCategory() { Name = "Surface", Description = "Surface produce line" };
-        var phoneCategory = new ProductCategory() { Name = "Phone", Description = "Phone produce line" };
-        client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
-            .Insert(surfaceCategory)
-            .Insert(phoneCategory)
-            .ExecuteAsync().Wait();
-
-        // Query for Surface and Phone Product lines
-        query = client.GetRelationalEntitySet<ProductCategory>()
-            .CreateQueryBuilder()
-            .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
-            .OrderByAscending(pc => new object[] { pc.CategoryId })
-            .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name).SelectField(f => f.Description));
-
-        client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
-            .Query(query, out queryResult)
-            .ExecuteAsync().Wait();
-
-        // Update all selected Product Lines with description
-        var updateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-        foreach (var entry in queryResult.Result)
-        {
-            var updateProductCategory = client.CreateRelationalFieldUpdates<ProductCategory>();
-            string updatedDescription = $"Description: {entry.Name}";
-            updateProductCategory.Update(pc => pc.Description, updatedDescription);
-
-            updateExecutor.Update(entry, updateProductCategory);
-        }
-        updateExecutor.ExecuteAsync().Wait();
+        deleteExecutor.DeleteWithoutConcurrencyCheck(entry);
     }
+    deleteExecutor.ExecuteAsync().Wait();
+
+    // Insert Surface and Phone product lines
+    var surfaceCategory = new ProductCategory() { Name = "Surface", Description = "Surface produce line" };
+    var phoneCategory = new ProductCategory() { Name = "Phone", Description = "Phone produce line" };
+    client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+        .Insert(surfaceCategory)
+        .Insert(phoneCategory)
+        .ExecuteAsync().Wait();
+
+    // Query for Surface and Phone Product lines
+    query = client.GetRelationalEntitySet<ProductCategory>()
+        .CreateQueryBuilder()
+        .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
+        .OrderByAscending(pc => new object[] { pc.CategoryId })
+        .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name).SelectField(f => f.Description));
+
+    client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+        .Query(query, out queryResult)
+        .ExecuteAsync().Wait();
+
+    // Update all selected Product Lines with description
+    var updateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+    foreach (var entry in queryResult.Result)
+    {
+        var updateProductCategory = client.CreateRelationalFieldUpdates<ProductCategory>();
+        string updatedDescription = $"Description: {entry.Name}";
+        updateProductCategory.Update(pc => pc.Description, updatedDescription);
+
+        updateExecutor.Update(entry, updateProductCategory);
+    }
+    updateExecutor.ExecuteAsync().Wait();
+}
 ```
 
 ### Compile and run the project
@@ -220,7 +220,7 @@ You can dig a bit deeper into the interactions the CDS client library is making 
 
 For this step you need to download [Fiddler](http://www.telerik.com/fiddler), a free web debugging proxy. After registering, downloading and installing the Fiddler tool, you can follow the steps to [configure Fiddler to decrypt HTTPS traffic](http://docs.telerik.com/fiddler/configure-fiddler/tasks/decrypthttps) since the CDS web service APIs are based on HTTPS. 
 
-**Note**: By performing the steps described in Telerik Fiddler documention and allowing HTTPS traffic to be decrypted, you are exposing your computer to security risks, for which Microsoft cannot be held responsible. Please consult Telerik Fiddler documentation for details of these risks.
+**Note**: By performing the steps described in Telerik Fiddler documentation and allowing HTTPS traffic to be decrypted, you are exposing your computer to security risks, for which Microsoft cannot be held responsible. Please consult Telerik Fiddler documentation for details of these risks.
 
 Use Fiddler to capture and inspect the traffic generated by the console application:
 
@@ -229,38 +229,38 @@ Use Fiddler to capture and inspect the traffic generated by the console applicat
 1. Run the console program above while capturing traffic and examine its request and response contents by clicking on the **Inspectors** tab on the details pane, then selecting the **JSON** or **Raw** tabs corresponding to the request and response.
 1. A few interesting calls will be made to hosts named as follows:
     1. **login.windows.net**, **login.microsoftonline.com**. These calls perform authentication against Azure AD.
-    1. **management.azure.com**. This call discovers where the CDS endpoint for your databse is located.
-    1. **https://[unique-id].rsu.powerapps.com/namespaces/[unique-id]/v001/entities/relational/$execute**. These calls perform data operations agaisnt the CDS.
+    1. **management.azure.com**. This call discovers where the CDS endpoint for your database is located.
+    1. **https://[unique-id].rsu.powerapps.com/namespaces/[unique-id]/v001/entities/relational/$execute**. These calls perform data operations against the CDS.
 
-The JSON content of the data operation calls described above will describe the operation type, data and metadata infromation about the responses from CDS. 
+The JSON content of the data operation calls described above will describe the operation type, data and metadata information about the responses from CDS. 
 
 # Troubleshooting
 
-This section will contain the most commonly issue encountered and reported by consumers of this topic.
+This section will contain the common issues encountered and reported by consumers of this topic.
 
 ## Required permissions service not found
 
-In some AAD configurations, like with with nested tenants, you may be unable to find the **PowerApps Runtime Service** and **Windows Azure Service Management API** when setting up required permissions in the previous step. In such a case you need to modify the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane. Add the following entries under the JSON array named `requiredResourceAccess` while maintainting validity of the manifest, then click **Save**.
+In some AAD configurations, like with nested tenants, you may be unable to find the **PowerApps Runtime Service** and **Windows Azure Service Management API** when setting up required permissions described in the secion **Application registration** above. In this case, you need to modify the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane. Add the following entries under the JSON array named `requiredResourceAccess` while maintaining validity of the manifest, then click **Save**.
 
 ```javascript
+{
+    "resourceAppId": "82f77645-8a66-4745-bcdf-9706824f9ad0",
+    "resourceAccess": [
     {
-      "resourceAppId": "82f77645-8a66-4745-bcdf-9706824f9ad0",
-      "resourceAccess": [
-        {
-          "id": "4ae1b148-ab4d-496d-8183-9292090fcca4",
-          "type": "Scope"
-        }
-      ]
-    },
-    {
-      "resourceAppId": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
-      "resourceAccess": [
-        {
-          "id": "41094075-9dad-400e-a0bd-54e686782033",
-          "type": "Scope"
-        }
-      ]
+        "id": "4ae1b148-ab4d-496d-8183-9292090fcca4",
+        "type": "Scope"
     }
+    ]
+},
+{
+    "resourceAppId": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+    "resourceAccess": [
+    {
+        "id": "41094075-9dad-400e-a0bd-54e686782033",
+        "type": "Scope"
+    }
+    ]
+}
 ```
 
 ## Offline NuGet package
