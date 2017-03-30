@@ -481,7 +481,7 @@ In some AAD configurations, like with nested tenants, you may be unable to find 
 
 ## Assembly load issue after publish to Azure
 
-If you started from a Visual Studio Function Application project and publish to the Azure Functions portal, you may see an issue with assembly loading when the function gets called. Error may look like the following:
+If you started from a Visual Studio Function Application project and published to the Azure Functions portal, you may see an issue with assembly loading when the function gets called. Error may look like the following:
 
 ```
 Function completed (Failure, Id=00000000-0000-0000-0000-000000000007)
