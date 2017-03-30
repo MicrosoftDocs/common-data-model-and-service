@@ -49,7 +49,7 @@ After acquiring an environment that contains a CDS database, you can use that en
 
 To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission level it needs to access the CDS APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as advanced steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
 
-[ToDo] Diagram of call sequence and AAD applications
+<!--- [ToDo] Diagram of call sequence and AAD applications --->
 
 ## Prerequisites
 
@@ -221,10 +221,10 @@ Copy the following JSON snippet to the **project.json** file of the Function pro
         "Microsoft.AspNet.WebApi.Client": "5.2.3",
         "Microsoft.CommonDataService": "1.0.188-preview",
         "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.13.8",
-        "Newtonsoft.Json": "9.0.1",
         "Microsoft.IdentityModel.Logging": "1.1.3",
-        "System.IdentityModel.Tokens.Jwt": "5.1.3",
-        "Microsoft.IdentityModel.Tokens": "5.1.3"
+        "Microsoft.IdentityModel.Tokens": "5.1.3",
+        "Newtonsoft.Json": "9.0.1",
+        "System.IdentityModel.Tokens.Jwt": "5.1.3"
       }
     }
   }
@@ -246,84 +246,85 @@ using System.Net;
 Copy the following code snippet inside the `run()` method body of **run.csx**, replacing existing code.
 
 ```cs
-   log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}");
+log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}");
 
-    // parse query parameter
-    string name = req.GetQueryNameValuePairs()
-        .FirstOrDefault(q => string.Compare(q.Key, "name", true) == 0)
-        .Value;
+// parse query parameter
+string name = req.GetQueryNameValuePairs()
+    .FirstOrDefault(q => string.Compare(q.Key, "name", true) == 0)
+    .Value;
 
-    if(name == null)
+if(name == null)
+{
+    log.Info($"Name was not passed correctly.");
+    return req.CreateResponse(HttpStatusCode.BadRequest);
+}
+
+var connection = new ConnectionSettings
+{
+    Tenant = "[[Replace with AAD tenant value]]",
+    EnvironmentId = "[[Replace with PowerApps environment ID value]]",
+    Credentials = new UserImpersonationCredentialsSettings
     {
-        log.Info($"Name was not passed correctly.");
-        return req.CreateResponse(HttpStatusCode.BadRequest);
+        ApplicationId = "[[Replace with AAD function application ID value]]",
+        ApplicationSecret = "[[Replace with AAD function application secret value]]"
     }
+};
 
-    var connection = new ConnectionSettings
+using (var client = await connection.CreateClient(req))
+{
+    // Query product categories for Surfaces and Phones
+    var query = client.GetRelationalEntitySet<ProductCategory>()
+        .CreateQueryBuilder()
+        .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
+        .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name));
+
+    OperationResult<IReadOnlyList<ProductCategory>> queryResult = null;
+    client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+        .Query(query, out queryResult)
+        .ExecuteAsync().Wait();
+
+    // Delete any Surfaces and Phones
+    var deleteExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+    foreach (var entry in queryResult.Result)
     {
-        Tenant = "[[Replace with AAD tenant value]]",
-        EnvironmentId = "[[Replace with PowerApps environment ID value]]",
-        Credentials = new UserImpersonationCredentialsSettings
-        {
-            ApplicationId = "[[Replace with AAD function application ID value]]",
-            ApplicationSecret = "[[Replace with AAD function application secret value]]"
-        }
-    };
+        deleteExecutor.DeleteWithoutConcurrencyCheck(entry);
+    }
+    deleteExecutor.ExecuteAsync().Wait();
 
-    using (var client = await connection.CreateClient(req))
+    // Insert Surface and Phone product lines
+    var surfaceCategory = new ProductCategory() { Name = "Surface", Description = "Surface product line" };
+    var phoneCategory = new ProductCategory() { Name = "Phone", Description = "Phone product line" };
+    await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+        .Insert(surfaceCategory)
+        .Insert(phoneCategory)
+        .ExecuteAsync();
+
+    // Query for Surface and Phone Product lines
+    query = client.GetRelationalEntitySet<ProductCategory>()
+        .CreateQueryBuilder()
+        .Where(pc => pc.Name == name)
+        .OrderByAscending(pc => new object[] { pc.CategoryId })
+        .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name).SelectField(f => f.Description));
+
+    await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+        .Query(query, out queryResult)
+        .ExecuteAsync();
+
+    // Update all selected Product Lines with description
+    var updateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+    foreach (var entry in queryResult.Result)
     {
-        // Query product categories for Surfaces and Phones
-        var query = client.GetRelationalEntitySet<ProductCategory>()
-            .CreateQueryBuilder()
-            .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
-            .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name));
+        var updateProductCategory = client.CreateRelationalFieldUpdates<ProductCategory>();
+        string updatedDescription = $"{DateTime.Now.ToString()} - Updated '{entry.Name}'";
+        updateProductCategory.Update(pc => pc.Description, updatedDescription);
 
-        OperationResult<IReadOnlyList<ProductCategory>> queryResult = null;
-        client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
-            .Query(query, out queryResult)
-            .ExecuteAsync().Wait();
+        updateExecutor.Update(entry, updateProductCategory);
+    }
+    await updateExecutor.ExecuteAsync();
 
-        // Delete any Surfaces and Phones
-        var deleteExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-        foreach (var entry in queryResult.Result)
-        {
-            deleteExecutor.DeleteWithoutConcurrencyCheck(entry);
-        }
-        deleteExecutor.ExecuteAsync().Wait();
-
-        // Insert Surface and Phone product lines
-        var surfaceCategory = new ProductCategory() { Name = "Surface", Description = "Surface product line" };
-        var phoneCategory = new ProductCategory() { Name = "Phone", Description = "Phone product line" };
-        await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
-            .Insert(surfaceCategory)
-            .Insert(phoneCategory)
-            .ExecuteAsync();
-
-        // Query for Surface and Phone Product lines
-        query = client.GetRelationalEntitySet<ProductCategory>()
-            .CreateQueryBuilder()
-            .Where(pc => pc.Name == name)
-            .OrderByAscending(pc => new object[] { pc.CategoryId })
-            .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name).SelectField(f => f.Description));
-
-        await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
-            .Query(query, out queryResult)
-            .ExecuteAsync();
-
-        // Update all selected Product Lines with description
-        var updateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-        foreach (var entry in queryResult.Result)
-        {
-            var updateProductCategory = client.CreateRelationalFieldUpdates<ProductCategory>();
-            string updatedDescription = $"{DateTime.Now.ToString()} - Updated '{entry.Name}'";
-            updateProductCategory.Update(pc => pc.Description, updatedDescription);
-
-            updateExecutor.Update(entry, updateProductCategory);
-        }
-        await updateExecutor.ExecuteAsync();
-
-        log.Info($"C# HTTP trigger function completed.");
-        return req.CreateResponse(HttpStatusCode.OK);
+    log.Info($"C# HTTP trigger function completed.");
+    return req.CreateResponse(HttpStatusCode.OK);
+}
 ```
 
 Configure the target environment, and security setting of the app by replacing the corresponding bracket text in code with configuration values:
@@ -447,24 +448,24 @@ This section will contain the most commonly issue encountered and reported by co
 In some AAD configurations, like with nested tenants, you may be unable to find the **PowerApps Runtime Service** and **Windows Azure Service Management API** when setting up required permissions in the previous step. In such a case you need to modify the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane. Add the following entries under the JSON array named `requiredResourceAccess` while maintaining validity of the manifest, then click **Save**.
 
 ```javascript
+{
+    "resourceAppId": "82f77645-8a66-4745-bcdf-9706824f9ad0",
+    "resourceAccess": [
     {
-      "resourceAppId": "82f77645-8a66-4745-bcdf-9706824f9ad0",
-      "resourceAccess": [
-        {
-          "id": "4ae1b148-ab4d-496d-8183-9292090fcca4",
-          "type": "Scope"
-        }
-      ]
-    },
-    {
-      "resourceAppId": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
-      "resourceAccess": [
-        {
-          "id": "41094075-9dad-400e-a0bd-54e686782033",
-          "type": "Scope"
-        }
-      ]
+        "id": "4ae1b148-ab4d-496d-8183-9292090fcca4",
+        "type": "Scope"
     }
+    ]
+},
+{
+    "resourceAppId": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+    "resourceAccess": [
+    {
+        "id": "41094075-9dad-400e-a0bd-54e686782033",
+        "type": "Scope"
+    }
+    ]
+}
 ```
 
 # [Microsoft internal]

@@ -294,6 +294,7 @@ If you are using an offline version of the NuGet package for any reason, you can
 1. Set **Source** to the local folder path. For example: C:\Users\user1\Desktop\NuGet
 1. Follow the main instructions on applying **Microsoft.CommonDataService**.
 
+<!---
 # [Microsoft internal]
 
 ## Sample console application
@@ -327,3 +328,4 @@ Then add the offline feed as follows:
 1. Set **Name** to "Local CDS Packages".
 1. Set **Source** to the local folder path. For example: C:\Users\user1\Desktop\NuGet
 1. Follow the main instructions on applying **Microsoft.CommonDataService**.
+--->
