@@ -381,12 +381,12 @@ In **Program.cs**, copy the following code to replace the contents of **`Program
 public const string TenantNameOrId = "[[Replace with AAD tenant value]]";
 public const string ClientAppId = "[[Replace with AAD client application ID value]]";
 public const string RedirectUri = "[[Replace with AAD client redirect URI value]]";
-public const string HostedResetUriString = "[[Replace with Function URL value]]"; // Locally hosted Function URI
-public const string FunctionResource = "[[Replace with AAD function resource ID value]]";
+public const string AzureHostedResetUriString = "[[Replace with Function URL value]]"; // Azure hosted Function URI
+public const string FunctionResourceId = "[[Replace with AAD function resource ID value]]";
 
 public static string Authority { get { return string.Format(AuthorityTemplate, TenantNameOrId); } }
 private const string AuthorityTemplate = "https://login.windows.net/{0}";
-public const string LocalUpdateUriString = "http://localhost:7071/api/UpdateProductCategory"; // Locally hosted Function URI
+public const string LocalHostedUpdateUriString = "http://localhost:7071/api/UpdateProductCategory"; // Locally hosted Function URI
 public const string AuthorizationHeaderScheme = "Bearer";
 
 static void Main(string[] args)
@@ -401,8 +401,9 @@ private static async Task UpdateEntityAsync()
 {
     // Get HTTP client and send request
     var client = await GetHttpClientAsync();
-    var updateUriString = LocalUpdateUriString; // HostedResetUriString;
-    var response = await client.PostAsync($"{updateUriString}?name=Surface", null);
+    bool isAzureHosted = false;
+    var updateUriString = isAzureHosted ? $"{AzureHostedResetUriString}&name=Surface" : $"{LocalHostedUpdateUriString}?name=Surface";
+    var response = await client.PostAsJsonAsync<object>(updateUriString, null);
     Console.WriteLine($"Status: '{response.StatusCode}'");
     Console.WriteLine($"Contents: {await response.Content.ReadAsStringAsync()}");
 }
@@ -411,10 +412,10 @@ private static async Task<HttpClient> GetHttpClientAsync()
 {
     // Prompt for login and create security token
     var authenticationContext = new AuthenticationContext(Authority);
-    AuthenticationResult authenticationResult = await authenticationContext.AcquireTokenAsync(FunctionResource
+    AuthenticationResult authenticationResult = await authenticationContext.AcquireTokenAsync(FunctionResourceId
         , ClientAppId
         , new Uri(RedirectUri)
-        , new PlatformParameters(PromptBehavior.Auto));
+        , new PlatformParameters(PromptBehavior.Always));
     var securityTokenString = authenticationResult.CreateAuthorizationHeader();
 
     // Create and configure the HTTP client
