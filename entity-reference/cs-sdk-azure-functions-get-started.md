@@ -16,13 +16,13 @@ ms.assetid: "2308e302-ec0b-437a-82a3-dc71150b9d81"
 # Get started with the C# SDK using Azure Functions
 
 ## Overview
-It's easy to get started programming against the Common Data Service (CDS) using Azure Functions. This topic walks you through getting a CDS Azure Function up and running. 
+It's easy to get started programming against the Common Data Service using Azure Functions. This topic walks you through getting a Common Data Service Azure Function up and running. 
 
 There are four key steps:
 
-1. **CDS database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
-1. **Application registration**. To give your Azure function access to the Common Data Service, you need to register a few applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the CDS APIs.
-1. **Azure Function creation, configuration and programming**. You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch however, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
+1. **Database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a database. This allows you to configure the SDK to access that database.
+1. **Application registration**. To give your Azure function access to the Common Data Service, you need to register a few applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the APIs.
+1. **Azure Function creation, configuration and programming**. You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service C# SDK's NuGet references, authentication, and target environment.
 1. **Console client application creation and configuration**. You can then run and debug your Azure Function by running the client console app and making HTTP calls to the Function. 
 
 In addition, you can use this function from a PowerApps application. There are two key steps:
@@ -30,24 +30,24 @@ In addition, you can use this function from a PowerApps application. There are t
 2. **Programming and running your PowerApps**
 
 
-# CDS database acquisition
+# Database acquisition
 
-The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
+The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a database. This allows you to configure the SDK to access that database.
 
 ## Prerequisites
 1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not signed up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
-1. Ensure you have admin access to an environment containing a CDS database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
+1. Ensure you have admin access to an environment containing a Common Data Service database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
 
 ## Getting the environment ID
 
-After acquiring an environment that contains a CDS database, you can use that environment's identifier to configure your CDS SDK application. The **environment ID** can be found as part of the URI you are using to access the environment. Record this value as it will be used in the upcoming configuration step. An example of such a URI and environment Id are as follows:
+After acquiring an environment that contains a database, you can use that environment's identifier to configure your SDK application. The **environment ID** can be found as part of the URI you are using to access the environment. Record this value as it will be used in the upcoming configuration step. An example of such a URI and environment Id are as follows:
 
     URI: https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
     Environment ID: d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
 
 # Application registration
 
-To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission level it needs to access the CDS APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as advanced steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end to end flow to work correctly.
+To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission level it needs to access the APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as advanced steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end-to-end flow to work correctly.
 
 <!--- [ToDo] Diagram of call sequence and AAD applications --->
 
@@ -63,7 +63,7 @@ If you have already signed up for an Azure subscription, go to [Azure portal](ht
 Follow these steps to register and configure your Azure Function in Azure AD:
 
 1. Go back to **Azure Active Directory** then click on **App registrations**. 
-1. Create the Azure function application resource that we will use to call into CDS directly:
+1. Create the Azure function application resource that we will use to call into the Common Data Service directly:
     1. Click on **Add** to see a Create pane.
     1. Enter a **Name** for your Azure function application.
     1. Select **Web app / API** as application type.
@@ -77,7 +77,7 @@ Follow these steps to register and configure your Azure Function in Azure AD:
     1. Click on **Keys** to open a new pane.
     1. Add a new **Key description** like "key", set the **Duration** to "Never expires" and click **Save**.
     1. Record configuration value for the **Application secret** by copying and pasting contents of the "Value" cell.
-1. Setup **Required permissions** for connecting to CDS:
+1. Setup **Required permissions** for connecting to the Common Data Service:
     1. Click on **Required permissions** to open a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
@@ -94,7 +94,7 @@ Follow these steps to register and configure your Azure Function in Azure AD:
 
 Follow these steps to register and configure your client application in Azure AD:
 
-1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
+1. Go back to **Azure Active Directory** then click on **App registrations**. 
 1. Create the application resource that we will be used when prompting you to login:
     1. Click on **Add** to see a Create pane.
     1. Enter a **Name** for your client application.
@@ -116,7 +116,7 @@ Follow these steps to register and configure your client application in Azure AD
 
 ## Advanced - PowerApps Custom API application registration
 
-You can skip this steps if you are not planning to use the Azure Function from PowerApps. If you are interested in using PowerApps, follow these steps to register and configure your PowerApps Custom API application in Azure AD:
+You can skip these steps if you are not planning to use the Azure Function from PowerApps. If you are interested in using PowerApps, follow these steps to register and configure your PowerApps Custom API application in Azure AD:
 
 1. Go back to **Azure Active Directory** then click on **App registrations**. 
 1. Create the application resource that we will be used during the PowerApps user login process:
@@ -140,7 +140,7 @@ You can skip this steps if you are not planning to use the Azure Function from P
 
 ## Add known applications to Azure Function app
 
-For seamless propagation of required permissions to clients, setup **known client applications**. This means that the first time a user logs into a client application, they will be asked to provide all required permissions needed to run this flow. If you skip this step, you may have to manually authorize use of CDS for each user.
+For seamless propagation of required permissions to clients, setup **known client applications**. This means that the first time a user logs into a client application, they will be asked to provide all required permissions needed to run this flow. If you skip this step, you may have to manually authorize the use of the Common Data Service for each user.
    
 1. Go back to **Azure Active Directory** then click on **App registrations**. 
 1. Open the registered app:
@@ -160,7 +160,7 @@ For seamless propagation of required permissions to clients, setup **known clien
 
 # Azure Function creation, configuration and programming
 
-You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch however, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the CDS C# SDK's NuGet references, authentication, and target environment.
+You can skip most of this procedure if you choose to start from the Azure Function project we provide for you, and you publish it to Azure. If you choose to start from scratch, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service C# SDK's NuGet references, authentication, and target environment.
 
 ## Prerequisites
 
@@ -171,20 +171,20 @@ Ensure you have the following configuration values from previous steps:
 1. **AAD tenant**. This value identifies the tenant your database resides in.
 1. **AAD application ID**. This value identifies the AAD web app you registered earlier.
 1. **AAD application secret**. This value identifies secret of the AAD web app you registered earlier.
-1. **PowerApps environment ID**. This value identifies the PowerApps environment that contains your target CDS database.
+1. **PowerApps environment ID**. This value identifies the PowerApps environment that contains your target the Common Data Service database.
 
 ## Sample Azure Function project
 
-For the private preview release, a project called `SampleFunctionApplication` will be included in the CDS SDK material. If you choose to go with this sample project,  you will need the latest [Azure Functions tools for Visual Studio](https://aka.ms/azfunctiontools) installed on your computer.
+For the private preview release, a project called `SampleFunctionApplication` is included in the Common Data Service SDK material. If you choose to go with this sample project,  you will need the latest [Azure Functions tools for Visual Studio](https://aka.ms/azfunctiontools) installed on your computer.
 
-1. Replace the brackets in **appsettings.json** with configuration values mentioned in the **prerequisites** section.
+1. Replace the brackets in **appsettings.json** with configuration values mentioned in the **Prerequisites** section.
 1. Right click on the Function project and click **Publish ...**
 1. Select the publish target **Microsoft Azure App Service**.
 1. Enter your credentials.
 1. Click **New** and crate a new app service in your existing subscription.
 1. Create new **Resource Group**, **App Service Plan** or **Storage Account** as appropriate.
 1. Skip to the **Console client app creation and configuration** section.
-1. **Note** that after publishing, you may have to delete the published **project.lock.json** file as detailed in the troubleshooting section **Assembly load issue after publish to Azure**.
+1. **Note** that after publishing, you might have to delete the published **project.lock.json** file as detailed in the troubleshooting section **Assembly load issue after publish to Azure**.
 
 You can also follow the similar instructions as below to create and configure the Azure function in Visual Studio, then publish it as shown above.
 
@@ -329,7 +329,7 @@ using (var client = await connection.CreateClient(req))
 }    
 ```
 
-Configure the target environment, and security setting of the app by replacing the corresponding bracket text in code with configuration values:
+Configure the target environment and security setting of the app by replacing the corresponding bracket text in code with configuration values:
 
 1. **AAD tenant** should replace `[[Replace with AAD tenant value]]`.
 1. **PowerApps environment ID** should replace `[[Replace with PowerApps environment ID value]]`.
@@ -358,8 +358,7 @@ Ensure you have the following configuration values from previous steps:
     1. Choose **Console Application**.
     1. Make sure that .NET Framework 4.5.2 is selected as the target framework.
     1. Specify a name for your project and create the new Visual Studio solution.
-
-1. Find your project on the Solution Explorer, right click on it and select **Manage NuGet packages**. 
+1. Find your project in the Solution Explorer, right-click on it and select **Manage NuGet packages**. 
     1. Search for **Microsoft.AspNet.WebApi.Client**.
     1. Select the **Microsoft.AspNet.WebApi.Client** NuGet package and click on **Install**, to get the latest package.
     1. Proceed through the **License acceptance** dialog. **Note** that by clicking accept you are agreeing with all package license terms.
@@ -426,7 +425,7 @@ private static async Task<HttpClient> GetHttpClientAsync()
 }
 ```
 
-Configure the target environment, and security setting of the app by replacing the corresponding bracket text in code with configuration values:
+Configure the target environment and security setting of the app by replacing the corresponding bracket text in code with configuration values:
 
 1. **AAD tenant** should replace `[[Replace with AAD tenant value]]`.
 1. **AAD client application ID** should replace `[[Replace with AAD client application ID value]]`.
@@ -447,14 +446,14 @@ var updateUriString = isAzureHosted ? $"{AzureHostedResetUriString}&name=Surface
 
 1. Ensure the project compiles by right clicking on the project and clicking **Build**.
 1. Run the client code by clicking on **Start** or pressing **F5**.
-1. Login using **your credentials** when the Azure AD prompt appears. The first time you run the application, you will be prompted to allow the AAD application you registered earlier to access the services CDS uses.
+1. Login using **your credentials** when the Azure AD prompt appears. The first time you run the application, you will be prompted to allow the AAD application you registered earlier to access the services Common Data Service uses.
 1. Verify that the program runs and calls the Function.
 1. Verify that the function updates Product Categories as expected.
 1. **Note** that if you see log errors related to assembly loading please refer to **Assembly load issue after publish to Azure** in the troubleshooting section. 
 
 # Troubleshooting
 
-This section will contain the most commonly issue encountered and reported by consumers of this topic.
+This section contains the most common issues encountered and reported by consumers of this topic.
 
 ## Required permissions service not found
 
@@ -483,7 +482,7 @@ In some AAD configurations, like with nested tenants, you may be unable to find 
 
 ## Assembly load issue after publish to Azure
 
-If you started from a Visual Studio Function Application project and published to the Azure Functions portal, you may see an issue with assembly loading when the function gets called. Error may look like the following:
+If you started from a Visual Studio Function Application project and published it to the Azure Functions portal, you might have an issue with assembly loading when the function gets called. The error might look like the following:
 
 ```
 Function completed (Failure, Id=00000000-0000-0000-0000-000000000007)
