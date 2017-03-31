@@ -1,5 +1,5 @@
 ---
-title: "Get started with the C# SDK using Azure Functions | Microsoft Docs"
+title: "Get started with the Common Data Service SDK using Azure Functions | Microsoft Docs"
 description: ""
 author: "nimakms"
 manager: "robinarh"
@@ -13,7 +13,7 @@ audience: "Developer"
 ms.assetid: "2308e302-ec0b-437a-82a3-dc71150b9d81"
 ---
 
-# Get started with the C# SDK using Azure Functions
+# Get started with the Common Data Service SDK using Azure Functions
 
 ## Overview
 It's easy to get started programming against the Common Data Service using Azure Functions. This topic walks you through getting a Common Data Service Azure Function up and running. 
@@ -22,7 +22,7 @@ There are four key steps:
 
 1. **Database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a database. This allows you to configure the SDK to access that database.
 1. **Application registration**. To give your Azure function access to the Common Data Service, you need to register a few applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the APIs.
-1. **Azure Function creation, configuration and programming**. You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service C# SDK's NuGet references, authentication, and target environment.
+1. **Azure Function creation, configuration and programming**. You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
 1. **Console client application creation and configuration**. You can then run and debug your Azure Function by running the client console app and making HTTP calls to the Function. 
 
 In addition, you can use this function from a PowerApps application. There are two key steps:
@@ -160,7 +160,7 @@ For seamless propagation of required permissions to clients, setup **known clien
 
 # Azure Function creation, configuration and programming
 
-You can skip most of this procedure if you choose to start from the Azure Function project we provide for you, and you publish it to Azure. If you choose to start from scratch, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service C# SDK's NuGet references, authentication, and target environment.
+You can skip most of this procedure if you choose to start from the Azure Function project we provide for you, and you publish it to Azure. If you choose to start from scratch, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
 
 ## Prerequisites
 
