@@ -16,69 +16,69 @@ ms.assetid: "34eddae8-3715-4bd6-b921-5bfb82d9df1c"
 # Get started with the Common Data Service C# SDK
 
 ## Overview
-It's easy to get started programming against the Common Data Service (CDS). This topic walks you through getting a CDS console application up and running. 
+It's easy to get started programming against the Common Data Service (CDS). This topic walks you through getting a console application up and running. 
 
 There are four key steps:
 
-1. **CDS database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
-1. **Application registration**. To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs to access the CDS APIs.
-1. **Console project creation and configuration**. You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from scratch however, you need to create a new C# Console Application project in Visual Studio and apply the CDS SDK NuGet package. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
-1. **Programming and running your CDS application**. At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. For a more advanced understanding of the SDK, you can also examine any data changes made by your applications, from the PowerApps portal, or dig deeper into the interactions between the CDS client library and CDS web service APIs, using Fiddler.
+1. **Database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a database. This allows you to configure the SDK to access that database.
+1. **Application registration**. To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs to access the APIs.
+1. **Console project creation and configuration**. You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from scratch, you will need to create a new C# Console Application project in Visual Studio and apply the Common Data Service SDK NuGet package. This will add all assembly references needed to start programming. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
+1. **Programming and running your application**. At this point, you can program against the APIs in the SDK. You can then run and debug your application like you would with any other .NET application. For a more advanced understanding of the SDK, you can also examine any data changes made by your applications, from the PowerApps portal, or dig deeper into the interactions between the client library and web service APIs, using Fiddler.
 
-# CDS database acquisition
+# Database acquisition
 
-The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a CDS database. This allows you to configure the SDK to access that database.
+The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a Common Data Service database. This allows you to configure the SDK to access that database.
 
 ## Prerequisites
-1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not signed up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
-1. Ensure you have admin access to an environment containing a CDS database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
+1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not signed up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/).
+1. Ensure you have admin access to an environment containing a CDS database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/tutorials/create-database/).
 
 ## Getting the environment ID
 
-After acquiring an environment that contains a CDS database, you can use that environment's identifier to configure your CDS SDK application. The **environment ID** can be found as part of the URI you are using to access the environment. Record this value as it will be used in the upcoming configuration step. An example of such a URI and environment Id are as follows:
+After acquiring an environment that contains a database, you can use that environment's identifier to configure your application. The **environment ID** can be found as part of the URI you are using to access the environment. Record this value as it will be used in the upcoming configuration step. An example of a URI and environment ID are:
 
     URI: https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
     Environment ID: d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
 
 # Application registration
 
-To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs in order to access the CDS APIs.
+To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs to access the APIs.
 
 ## Prerequisites
 
-If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an application registration under Azure Active Directory. If not however, you can go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
+If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an application registration under Azure Active Directory. If not, you can go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
 
 1. In [Azure portal](https://portal.azure.com) go to **Azure Active Directory** 
-1. Click on **Properties** and copy the value of **Directoy ID** and record it as config variable **AAD tenant** for upcoming steps. Alternatively, you can use the domain name from your AAD login email.
+1. Click on **Properties** and copy the value of **Directory ID** and record it as config variable **AAD tenant** for upcoming steps. Alternatively, you can use the domain name from your AAD login email.
 
 ## Application registration
 
 Follow these steps to register and configure an application in Azure AD:
 
-1. Go back to **Azure Acitve Directory** then click on **App registrations**. 
+1. Go back to **Azure Active Directory** then click on **App registrations**. 
 1. Create the application resource used to prompt and login the user:
     1. Click on **Add** to see a Create pane.
     1. Enter a **Name** for your registered application.
     1. Select **Native** as application type.
-    1. Add a **Redirect URI**, it could be any valid URI string. For example: http://localhost.
+    1. Add a **Redirect URI**. It can be any valid URI string. For example: http://localhost.
     1. Record value for **Redirect URI** for configuration in later steps.
     1. Click on **Create**.
 1. Open the **registered app**:
-    1. Search for your newly registered app by name
+    1. Search for your newly registered app by name.
     1. Click on it after finding it in the list of applications.
     1. Record configuration value **Application ID** for upcoming steps.
-1. Setup **required permissions** for connecting to CDS:
+1. Setup **required permissions** for connecting to the Common Data Service:
     1. Click on **Required permissions** to open a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
     1. Search for and choose **PowerApps Runtime Service**, then click **Select**. If you cannot find this service refer to the **Troubleshooting** section under **Required permissions service not found**.
     1. Check all entries under **Delegated permissions**, then click **Select**.
     1. Click on **Done** to finalize setting up permissions for this service.
-    1. Repeat the 3 steps above for **Windows Azure Service Management API**.
+    1. Repeat the steps above for **Windows Azure Service Management API**.
 
 # Console project creation and configuration
 
-You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from scratch, you need to create a new Visual Studio C# Console Application project and apply the CDS SDK NuGet package. This will add all assembly references needed to start programming against CDS. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
+You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from scratch, you need to create a new Visual Studio C# Console Application project and apply the Common Data Service SDK NuGet package. This will add all assembly references needed to start programming. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
 
 ## Prerequisites
 To create a new console project, you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer. 
@@ -88,14 +88,15 @@ Ensure you have the following configuration values from previous steps:
 1. **AAD tenant**. This value identifies the tenant your database resides in.
 1. **AAD application ID**. This value identifies the AAD app you registered earlier.
 1. **AAD application redirect URI**. This value specifies the redirect URI used when you are prompted to login.
-1. **PowerApps environment ID**. This value identifies the PowerApps environment that contains your target CDS database.
+1. **PowerApps environment ID**. This value identifies the PowerApps environment that contains your target
+database.
 
 ## Sample console application
 
-For the private preview release, a project called `SampleConsoleApplication` will be included in the CDS SDK material. If you choose to go with the sample project, perform the following:
+For the private preview release, a project called `SampleConsoleApplication` will be included in the Common Data Service SDK material. If you choose to go with the sample project, perform the following:
 
-1. Replace the brackets in **App.config** with configuration values mentioned in the **prerequisites** section above.
-1. Skip to the last part of **Programming and running the CDS console application** to **Compile and run the project**. 
+1. Replace the brackets in **App.config** with configuration values mentioned in the **Prerequisites** section above.
+1. Skip to the last part of **Programming and running the console application** to **Compile and run the project**. 
 
 ## Project creation and configuraion
 
@@ -105,11 +106,11 @@ For the private preview release, a project called `SampleConsoleApplication` wil
     1. Choose **Console Application**.
     1. Make sure that .NET Framework 4.5.2 is selected as the target framework.
     1. Specify a name for your project and create the new Visual Studio solution.
-1. **Note** - During private preview, the CDS SDK NuGet package is not searchable. It shouold be directly applied from the **Package Manager Console**:
+1. **Note** - During private preview, the Common Data Service SDK NuGet package is not searchable. It shouold be directly applied from the **Package Manager Console**:
     1. Go to **Tools > NuGet Package Manager > Package Manager Console**.
     1. Enter the install command for your specific target version of the SDK, using a command like: `Install-Package Microsoft.CommonDataService -Version 1.0.188-preview -Pre`
 1. In Solution Explorer, open the **App.config** file and paste in the XML at the bottom of this section, starting right after the opening `<configuration>` tag.
-1. Replace the bracket text with configuration values mentioned in the **prerequisites** section.
+1. Replace the bracket text with configuration values mentioned in the **Prerequisites** section.
 
 ```xml
 <configSections>
@@ -128,8 +129,8 @@ For the private preview release, a project called `SampleConsoleApplication` wil
 Note that `Type` is set to **User** inside the `<Credentials>` XML element, which signifies that you will be prompted to login at startup. If you want to save time by automating your login, remove the XML element `<UserSource>Prompt</UserSource>` under Credentials. This element and value indicates you will always be prompted at runtime.
 
 
-# Programming and running the CDS console application
-At this point, you can program against the CDS APIs. You can then run and debug your application like you would with any other .NET application. 
+# Programming and running the console application
+At this point, you can program against the APIs. You can then run and debug your application like you would with any other .NET application. 
 
 From Solution Explorer, open the **Program.cs** file, and replace `using` statements on top with following code:
 
@@ -214,11 +215,11 @@ Click on **Entities**, search for and select **Product category**,  then click o
 
 You can build an application in PowerApps on this data and have the SDK and PowerApps work with the same data.
 
-## Advanced - Inspecting CDS HTTPS interactions
+## Advanced - Inspecting Common Data Service HTTPS interactions
 
-You can dig a bit deeper into the interactions the CDS client library is making with the CDS web service APIs.
+You can dig a bit deeper into the interactions the client library is making with the web service APIs.
 
-For this step you need to download [Fiddler](http://www.telerik.com/fiddler), a free web debugging proxy. After registering, downloading and installing the Fiddler tool, you can follow the steps to [configure Fiddler to decrypt HTTPS traffic](http://docs.telerik.com/fiddler/configure-fiddler/tasks/decrypthttps) since the CDS web service APIs are based on HTTPS. 
+For this step you need to download [Fiddler](http://www.telerik.com/fiddler), a free web debugging proxy. After registering, downloading, and installing the Fiddler tool, you can follow the steps to [configure Fiddler to decrypt HTTPS traffic](http://docs.telerik.com/fiddler/configure-fiddler/tasks/decrypthttps) since the web service APIs are based on HTTPS. 
 
 **Note**: By performing the steps described in Telerik Fiddler documentation and allowing HTTPS traffic to be decrypted, you are exposing your computer to security risks, for which Microsoft cannot be held responsible. Please consult Telerik Fiddler documentation for details of these risks.
 
@@ -229,12 +230,12 @@ Use Fiddler to capture and inspect the traffic generated by the console applicat
 1. Run the console program above while capturing traffic and examine its request and response contents by clicking on the **Inspectors** tab on the details pane, then selecting the **JSON** or **Raw** tabs corresponding to the request and response.
 1. A few interesting calls will be made to hosts named as follows:
     1. **login.windows.net**, **login.microsoftonline.com**. These calls perform authentication against Azure AD.
-    1. **management.azure.com**. This call discovers where the CDS endpoint for your database is located.
-    1. **https://[unique-id].rsu.powerapps.com**. These calls perform data operations against the CDS.
+    1. **management.azure.com**. This call discovers where the Common Data Service endpoint for your database is located.
+    1. **https://[unique-id].rsu.powerapps.com**. These calls perform data operations against the Common Data Service.
 
-Request and response content of calls above will describe the operation type, data and metadata, that the SDK passed to and from CDS. Also, you can find authentication information in these calls, in the form of the request `Authorization` header going to **management.azure.com** and **https://[unique-id].rsu.powerapps.com**. 
+Request and response content of calls above will describe the operation type, data and metadata, that the SDK passed to and from the Common Data Service. Also, you can find authentication information in these calls, in the form of the request `Authorization` header going to **management.azure.com** and **https://[unique-id].rsu.powerapps.com**. 
 
-You can inspect these security tokens in more detail by decoding them at [jwt.io](https://jwt.io/). The following is an example of a security token used to call the CDS, with some properties removed. Note that `appid` value matches **AAD application ID**, `upn` value matches the logged in AAD user, and `aud` value matches the resource ID for **PowerApps Runtime Service**. Alternatively, in security tokens from calls to **management.azure.com**, `aud` value will match the resource ID of **Windows Azure Service Management API**.
+You can inspect these security tokens in more detail by decoding them at [jwt.io](https://jwt.io/). The following is an example of a security token used to call the Common Data Service, with some properties removed. Note that `appid` value matches **AAD application ID**, `upn` value matches the logged in AAD user, and `aud` value matches the resource ID for **PowerApps Runtime Service**. Alternatively, in security tokens from calls to **management.azure.com**, `aud` value will match the resource ID of **Windows Azure Service Management API**.
 
 ```javascript
 {
@@ -257,7 +258,7 @@ You can inspect these security tokens in more detail by decoding them at [jwt.io
 
 # Troubleshooting
 
-This section will contain the common issues encountered and reported by consumers of this topic.
+This section contains the common issues encountered and reported by consumers of this topic.
 
 ## Required permissions service not found
 
