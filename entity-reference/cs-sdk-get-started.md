@@ -16,7 +16,7 @@ ms.assetid: "34eddae8-3715-4bd6-b921-5bfb82d9df1c"
 # Get started with the Common Data Service C# SDK
 
 ## Overview
-It's easy to get started programming against the Common Data Service (CDS). This topic walks you through getting a console application up and running. 
+It's easy to get started programming against the Common Data Service. This topic walks you through getting a console application up and running. 
 
 There are four key steps:
 
@@ -31,7 +31,7 @@ The Common Data Service is currently only available through **PowerApps**. You n
 
 ## Prerequisites
 1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not signed up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/).
-1. Ensure you have admin access to an environment containing a CDS database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/tutorials/create-database/).
+1. Ensure you have admin access to an environment containing a Common Data Service database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/tutorials/create-database/).
 
 ## Getting the environment ID
 
@@ -204,7 +204,7 @@ using (var client = ConnectionSettings.Instance.CreateClient().Result)
 
 1. Ensure the project compiles by right clicking on the project and clicking **Build**.
 1. Set a breakpoint on the line of code declaring `updateProductCategory` and run your code by clicking on **Start** or pressing **F5**.
-1. Login using **your credentials** when the Azure AD prompt appears. The first time you run the application, you will be prompted to allow the AAD application you registered earlier to access the services CDS uses.
+1. Login using **your credentials** when the Azure AD prompt appears. The first time you run the application, you will be prompted to allow the AAD application you registered earlier to access the services used.
 1. Verify that the program runs and retrieves the newly inserted `ProductCategory` entities.
 
 ## Advanced - Examining data changes
