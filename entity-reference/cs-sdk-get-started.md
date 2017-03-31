@@ -1,5 +1,5 @@
 ---
-title: "Get started with the Common Data Service C# SDK | Microsoft Docs"
+title: "Get started with the Common Data Service SDK | Microsoft Docs"
 description: ""
 author: "nimakms"
 manager: "robinarh"
@@ -13,7 +13,7 @@ audience: "Developer"
 ms.assetid: "34eddae8-3715-4bd6-b921-5bfb82d9df1c"
 ---
 
-# Get started with the Common Data Service C# SDK
+# Get started with the Common Data Service SDK
 
 ## Overview
 It's easy to get started programming against the Common Data Service. This topic walks you through getting a console application up and running. 
