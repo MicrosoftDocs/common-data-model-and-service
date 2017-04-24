@@ -56,38 +56,38 @@ You should inspect the default values and value maps that we provide for your pr
 
 Eventually, you will be able to specify more complex transformations and filters on the data. On each row that maps a field, in the middle **Map Type** column, there is either an equal sign, **=**, or **Fn**. **Fn** indicates that a function, or transformation, has been applied. Currently, **Fn** is only available for fields we know you might need to customize. To edit a default value or value map, click the pencil symbol next to the **Fn**.
 
-![Mapping fields between Dynamics 365 and Common Data Service](media/dynamics-integration-mapping.jpg)
+![Mapping fields between Dynamics 365 and Common Data Service](media/dynamics-integration-mapping.png)
 
 Currently, the default values and transforms are in JavaScript Object Notation (JSON) format. However, the format will likely change over time.
 
 The following example shows a default value.
 
-\[{"transformType":"Default","defaultValue":"Organization"}\]
+  \[{"transformType":"Default","defaultValue":"Organization"}\]
 
 The following example shows a value map.
 
-\[{"transformType":"ValueMap","valueMap":{
-"us":"US",
-"usa":"US",
-"united States":"US",
-"united States of America":"US",
-"germany":"DE",
-"de":"DE",
-"deu":"DE",
-"france":"FR",
-"fr":"FR",
-"fra":"FR",
-"uk":"GB",
-"united Kingdom":"GB",
-"ja":"JA",
-"jap":"JA",
-"japan":"JA",
-"india":"IN",
-"in":"IN",
-"ind":"IN",
-"au":"AU",
-"ca":"CA"
-}}\]
+  \[{"transformType":"ValueMap","valueMap":{
+  "us":"US",
+  "usa":"US",
+  "united States":"US",
+  "united States of America":"US",
+  "germany":"DE",
+  "de":"DE",
+  "deu":"DE",
+  "france":"FR",
+  "fr":"FR",
+  "fra":"FR",
+  "uk":"GB",
+  "united Kingdom":"GB",
+  "ja":"JA",
+  "jap":"JA",
+  "japan":"JA",
+  "india":"IN",
+  "in":"IN",
+  "ind":"IN",
+  "au":"AU",
+  "ca":"CA"
+  }}\]
 
 Synchronization direction
 -------------------------
