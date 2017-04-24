@@ -1,5 +1,5 @@
 ---
-title: "C# SDK Overview | Microsoft Docs"
+title: "Common Data Service SDK Overview | Microsoft Docs"
 description: ""
 author: "nimakms"
 manager: "robinarh"
