@@ -13,5 +13,12 @@ audience: "Developer"
 ms.assetid: "322c6743-58f0-4201-8005-3eaad8728584"
 ---
 
-# C# SDK overview
+# Common Data Service SDK home page
+
 ## Getting Started
+
+[Get started with the Common Data Service SDK using Azure Functions](cs-sdk-azure-functions-get-started.md)
+
+[Get started with the Common Data Service SDK](cs-sdk-get-started.md)
+
+[Manipulate your data using the Common Data Service SDK](cs-sdk-manipulate-data.md)
