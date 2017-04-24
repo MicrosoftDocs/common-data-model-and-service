@@ -1,5 +1,5 @@
 ---
-title: Data integrator  | Microsoft Docs
+title: Dynamics 365 integration  | Microsoft Docs
 description: 
 author: "robinarh"
 manager: "robinarh"
