@@ -26,7 +26,7 @@ Concepts
 
 You should be aware of key concepts as you go on to use the Data Integration feature. The following illustration shows the key services and relationships that are involved in Data Integration.
 
-<img src="media/image1.png" width="599" height="365" />
+![Dynamics 365 data integration services and relationships](media/dynamics-integration.png)
 
 Connections
 -----------
@@ -56,7 +56,7 @@ You should inspect the default values and value maps that we provide for your pr
 
 Eventually, you will be able to specify more complex transformations and filters on the data. On each row that maps a field, in the middle **Map Type** column, there is either an equal sign, **=**, or **Fn**. **Fn** indicates that a function, or transformation, has been applied. Currently, **Fn** is only available for fields we know you might need to customize. To edit a default value or value map, click the pencil symbol next to the **Fn**.
 
-<img src="media/image2.PNG" width="622" height="63" />
+![Mapping fields between Dynamics 365 and Common Data Service](media/dynamics-integration-mapping.jpg)
 
 Currently, the default values and transforms are in JavaScript Object Notation (JSON) format. However, the format will likely change over time.
 
