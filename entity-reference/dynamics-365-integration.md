@@ -62,32 +62,32 @@ Currently, the default values and transforms are in JavaScript Object Notation (
 
 The following example shows a default value.
 
-  \[{"transformType":"Default","defaultValue":"Organization"}\]
+    \[{"transformType":"Default","defaultValue":"Organization"}\]
 
 The following example shows a value map.
 
-  \[{"transformType":"ValueMap","valueMap":{
-  "us":"US",
-  "usa":"US",
-  "united States":"US",
-  "united States of America":"US",
-  "germany":"DE",
-  "de":"DE",
-  "deu":"DE",
-  "france":"FR",
-  "fr":"FR",
-  "fra":"FR",
-  "uk":"GB",
-  "united Kingdom":"GB",
-  "ja":"JA",
-  "jap":"JA",
-  "japan":"JA",
-  "india":"IN",
-  "in":"IN",
-  "ind":"IN",
-  "au":"AU",
-  "ca":"CA"
-  }}\]
+    \[{"transformType":"ValueMap","valueMap":{
+    "us":"US",
+    "usa":"US",
+    "united States":"US",
+    "united States of America":"US",
+    "germany":"DE",
+    "de":"DE",
+    "deu":"DE",
+    "france":"FR",
+    "fr":"FR",
+    "fra":"FR",
+    "uk":"GB",
+    "united Kingdom":"GB",
+    "ja":"JA",
+    "jap":"JA",
+    "japan":"JA",
+    "india":"IN",
+    "in":"IN",
+    "ind":"IN",
+    "au":"AU",
+    "ca":"CA"
+    }}\]
 
 Synchronization direction
 -------------------------
@@ -110,9 +110,8 @@ Consent
 
 When you create a new project, we ask you for explicit consent, because we are moving data between systems. There are two areas of concern:
 
-Data from a high-compliance system (such as Dynamics 365 for Sales) might be brought into a less-compliant system (such as CDS or Dynamics 365 for Operations).
-
-Data might be moved between regional data centers, such as North America and Europe.
++ Data from a high-compliance system (such as Dynamics 365 for Sales) might be brought into a less-compliant system (such as CDS or Dynamics 365 for Operations).
++ Data might be moved between regional data centers, such as North America and Europe.
 
 Be sure to read the **Privacy Notice and Consent** page carefully, and make sure that the correct persons give consent. We won’t create a project unless consent is given. We record the consent in our log files.
 
@@ -141,13 +140,10 @@ Prerequisites
 
 You must have the following items:
 
-An instance of Microsoft Dynamics 365 for Operations update 4 or later. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
-
-The most current version of Dynamics 365 for Sales. Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales.
-
-A Dynamics 365 for Sales solution to help guarantee that the business keys work correctly. Work with your TAP customer contact or the product team to obtain and install the solution.
-
-You must have an environment in CDS, and you must have created a database in that environment.
++ An instance of Microsoft Dynamics 365 for Operations update 4 or later. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
++ The most current version of Dynamics 365 for Sales. Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales.
++ A Dynamics 365 for Sales solution to help guarantee that the business keys work correctly. Work with your TAP customer contact or the product team to obtain and install the solution.
++ You must have an environment in CDS, and you must have created a database in that environment.
 
 Tenant ID
 ---------
@@ -159,39 +155,32 @@ Create connections
 
 **Note:** You must create a connection for each system that you will work with.
 
-Go to the PowerApps site at <https://web.powerapps.com>.
+1. Go to the PowerApps site at <https://web.powerapps.com>.
+1. Click **Connections**.
+    
+   The **Connections** page shows all the connections that you’ve provisioned. If you don’t yet have the connections that are required for your Data Integration project, you must create a new connection.
 
-Click **Connections**.
-
-> The **Connections** page shows all the connections that you’ve provisioned. If you don’t yet have the connections that are required for your Data Integration project, you must create a new connection.
-
-Click **New connection**.
-
-In the list of connection types that PowerApps can work with, select a connection type. For example, if you’re working with Dynamics 365 for Sales, select **Dynamics 365**. Then, in the dialog box, enter your identity and access credentials.
-
-On the PowerApps site, you should see a list of standard entities on the **Entities** tab. If you don’t see a list of standard entities, you must create a CDS environment and database.
+1. Click **New connection**.
+1. In the list of connection types that PowerApps can work with, select a connection type. For example, if you’re working with Dynamics 365 for Sales, select **Dynamics 365**. Then, in the dialog box, enter your identity and access credentials.
+1. On the PowerApps site, you should see a list of standard entities on the **Entities** tab. If you don’t see a list of standard entities, you must create a CDS environment and database.
 
 Navigate to the Data Integration feature
 ----------------------------------------
 
 To work with the Data Integration feature, follow these steps.
 
-Open the PowerApps Admin Center at <https://admin.powerapps.com>. The **Data Integration** tab should appear in the left navigation pane. If it doesn’t appear there, and you’re an authorized TAP customer, check with your Microsoft contact.
-
-Click the **Data Integration** tab. The **Data integration projects (Technical Preview)** page should appear. If you’re just starting to use the feature, you should see a **New Project** link that you can use to create a new project.
+1. Open the PowerApps Admin Center at <https://admin.powerapps.com>. The **Data Integration** tab should appear in the left navigation pane. If it doesn’t appear there, and you’re an authorized TAP customer, check with your Microsoft contact.
+1. Click the **Data Integration** tab. The **Data integration projects (Technical Preview)** page should appear. If you’re just starting to use the feature, you should see a **New Project** link that you can use to create a new project.
 
 Create a new project
 --------------------
 
 To create a new project, follow these steps.
 
-Click the **New Project** link in the upper-right corner, or click the link that is provided on the page. The **New data integration** wizard starts.
-
-Enter a name for the project.
-
-Select a predefined project template to create a base project that you can run directly. (Eventually, you will be able to customize the project before you run it. However, project customization isn’t yet supported.)
-
-For each system, select the connection, select the dataset, and enter a company code (for Dynamics 365 for Operations). As we noted earlier, you must first provision your connection on the PowerApps site.
+1. Click the **New Project** link in the upper-right corner, or click the link that is provided on the page. The **New data integration** wizard starts.
+1. Enter a name for the project.
+1. Select a predefined project template to create a base project that you can run directly. (Eventually, you will be able to customize the project before you run it. However, project customization isn’t yet supported.)
+1. For each system, select the connection, select the dataset, and enter a company code (for Dynamics 365 for Operations). As we noted earlier, you must first provision your connection on the PowerApps site.
 
 Run a project
 -------------
