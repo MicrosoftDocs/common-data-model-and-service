@@ -87,7 +87,7 @@ The following example shows a value map.
 ## Synchronization direction
 
 Data Integration projects synchronize data in only one direction. This system is therefore a single-master system. The flow through a project goes only from source to destination. The source always overwrites the destination. If you edit data in the destination, so that it differs from the data in the source, and you then synchronize the project, the Data Integration project writes over the data in the destination system. A template can define either Dynamics 365 for Sales or Dynamics 365 for Operations as the source.
-
+5
 Eventually, we plan to support a multi-master system. In a multi-master system, if the user edits data in either the source or the destination, the other system is updated. However, this feature isn’t yet implemented.
 
 ## Business keys
@@ -126,7 +126,7 @@ Eventually, the **Scheduling** tab will also show error records. However, this f
 
 You must have the following items:
 
-+ An instance of Microsoft Dynamics 365 for Operations update 4 or later. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
++ An instance of Microsoft Dynamics 365 for Operations update 5 or later. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
 + The most current version of Dynamics 365 for Sales. Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales.
 + A Dynamics 365 for Sales solution to help guarantee that the business keys work correctly. Work with your TAP customer contact or the product team to obtain and install the solution.
 + You must have an environment in CDS, and you must have created a database in that environment.
