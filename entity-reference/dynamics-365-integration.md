@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 integration  | Microsoft Docs
-description: 
+description: The Dynamics 365 data integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through Common Data Service.
 author: "robinarh"
 manager: "robinarh"
 ms.date: "04/24/2017"
