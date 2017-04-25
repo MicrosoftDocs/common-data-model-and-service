@@ -119,9 +119,8 @@ Eventually, the **Scheduling** tab will also show error records. However, this f
 
 # Running a Data Integration project
 
-## Caution
-
-Don’t use the Data Integration feature with production data or production environments until Microsoft releases it as “Generally Available” (GA). Otherwise, you might lose data. For example, data might be corrupted or overwritten. For additional guidance, see your TAP agreement.
+> [!WARNING]
+> Don’t use the Data Integration feature with production data or production environments until Microsoft releases it as “Generally Available” (GA). Otherwise, you might lose data. For example, data might be corrupted or overwritten. For additional guidance, see your TAP agreement.
 
 ## Prerequisites
 
@@ -138,7 +137,8 @@ To access the Data Integration feature, you might have to provide your tenant ID
 
 ## Create connections
 
-**Note:** You must create a connection for each system that you will work with.
+> [!NOTE]
+> You must create a connection for each system that you will work with.
 
 1. Go to the PowerApps site at <https://web.powerapps.com>.
 1. Click **Connections**.
