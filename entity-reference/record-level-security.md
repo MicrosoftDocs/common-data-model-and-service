@@ -1,8 +1,8 @@
 ---
 title: Record-level security | Common Data Service
 description: This topic discusses best practices and common patterns when working with record-level security.
-author: maertenm"
-manager: robinarh"
+author: maertenm
+manager: robinarh
 ms.date: 04/25/2017
 ms.topic: topic
 ms.prod: 
