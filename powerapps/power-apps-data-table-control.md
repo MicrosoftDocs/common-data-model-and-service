@@ -25,36 +25,61 @@ A control that shows a set of data in a tabular format.
 The Data table control allows you to display a dataset in a tabular format, which includes column headers for each field visualized. You, as the maker, have full control over the fields you want to show from the data source as well as the order in which those fields appear.  The Data table control maintains a Selected property that, like the Gallery, points to the single row that is currently selected, which can be used to link the Data table to other controls.  
 
 ## Key properties
-**Items** – The source of data that appears in the control
+[**Items**](https://powerapps.microsoft.com/en-us/tutorials/properties-core/ "Items") – The source of data that appears in the control
+
 **Selected** – The selected row in the data table
+
 
 ## Additional properties
 **NoDataText** – The message shown to the user when there are no records to show in the Data table
+
 **SelectedFill** – The background color of the selected row
+
 **SelectedColor** – The color of text in the selected row
-**HoverFill** – The background color of the row the mouse is currently pointing at
-**HoverColor** – The color of text in the row the mouse is currently pointing at
+
+[**HoverFill**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "HoverFill") – The background color of the row the mouse is currently pointing at
+
+[**HoverColor**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "HoverColor") – The color of text in the row the mouse is currently pointing at
+
 **HeadingFont** – The font of the column headings
+
 **HeadingSize** – The font size of the column headings
+
 **HeadingFontWeight** – The font weight of the column headings
+
 **HeadingFill** – The background color of the column headings
+
 **HeadingColor** – The text color for the column headings
-**Fill** – The default background color for all data rows
-**Color** – The default text color for all data rows
-**BorderColor** – The color of a Data table’s border
-**BorderStyle** – Determines whether a Data table’s border is Solid, Dashed, Dotted, or None
-**BorderThickness** – The thickness of the Data table’s border
-**Font** – The default font for all data rows
-**FontWeight** – The default font weight for all data rows
-**Size** – The default font size for all data rows
-**X** – The distance between the left edge of a data table and the left edge of its parent container (screen if no parent container)
-**Y** – The distance between the top edge of a data table and the top edge of its parent container (screen if no parent container)
-**Width** – The distance between a data table’s left and right edges
-**Height** – The distance between a data table’s top and bottom edges
-**Visible**	 – Determines whether a data table appears or is hidden
+
+[**Fill**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "Fill") – The default background color for all data rows
+
+[**Color**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "Color") – The default text color for all data rows
+
+[**BorderColor**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "BorderColor") – The color of a Data table’s border
+
+[**BorderStyle**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "BorderStyle") – Determines whether a Data table’s border is Solid, Dashed, Dotted, or None
+
+[**BorderThickness**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "BorderThickness") – The thickness of the Data table’s border
+
+[**Font**](https://powerapps.microsoft.com/en-us/tutorials/properties-text/ "Font") – The default font for all data rows
+
+[**FontWeight**](https://powerapps.microsoft.com/en-us/tutorials/properties-text/ "FontWeight") – The default font weight for all data rows
+
+[**Size**](https://powerapps.microsoft.com/en-us/tutorials/properties-text/ "Size") – The default font size for all data rows
+
+[**X**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "X") – The distance between the left edge of a data table and the left edge of its parent container (screen if no parent container)
+
+[**Y**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Y") – The distance between the top edge of a data table and the top edge of its parent container (screen if no parent container)
+
+[**Width**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Width") – The distance between a data table’s left and right edges
+
+[**Height**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Height") – The distance between a data table’s top and bottom edges
+
+[**Visible**](https://powerapps.microsoft.com/en-us/tutorials/properties-core/ "Visible") – Determines whether a data table appears or is hidden
+
 
 ## Related functions
-**Filter (DataSource, Formula)**
+[**Filter(DataSource, Formula)**](https://powerapps.microsoft.com/en-us/tutorials/function-filter-lookup/ "Filter(DataSource, Formula)")
 
 ## Examples
 ### Basic data table usage 
