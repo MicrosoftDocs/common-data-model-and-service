@@ -20,7 +20,7 @@
 # Data table control in PowerApps
 
 A control that shows a set of data in a tabular format. 
-
+t
 ## Description
 The Data table control allows you to display a dataset in a tabular format, which includes column headers for each field visualized. You, as the maker, have full control over the fields you want to show from the data source as well as the order in which those fields appear.  The Data table control maintains a Selected property that, like the Gallery, points to the single row that is currently selected, which can be used to link the Data table to other controls.  
 
@@ -30,7 +30,7 @@ The Data table control allows you to display a dataset in a tabular format, whic
 **Selected** – The selected row in the data table
 
 
-## Additional properties
+ ## Additional properties
 **NoDataText** – The message shown to the user when there are no records to show in the Data table
 
 **SelectedFill** – The background color of the selected row
@@ -49,7 +49,7 @@ The Data table control allows you to display a dataset in a tabular format, whic
 
 **HeadingFill** – The background color of the column headings
 
-**HeadingColor** – The text color for the column headings
+***HeadingColor** – The text color for the column headings
 
 [**Fill**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "Fill") – The default background color for all data rows
 
@@ -83,10 +83,17 @@ The Data table control allows you to display a dataset in a tabular format, whic
 
 ## Examples
 ### Basic data table usage 
-1. Add a data table control to a screen
-1. Connect the data table control to a connected data source
+1. Create a blank Tablet app.
+1. On the **Insert** tab, click or tap Data table.
+![Add a data table control to a screen](media/insertDataTable.png)
+A Data table control is added to the screen. 
+1. Rename the Data table control to SalesOrderTable, and resize it to cover the entire screen 
+1. In the right-hand pane, click or top the down arrow next to the *the Data table control to a connected data source
+![Add a data table control to a screen](media/insertDataTable.png)
 1. Select the fields you want to display
+![Add a data table control to a screen](media/insertDataTable.png)
 1. Reorder the fields as desired through the right hand pane
+![Add a data table control to a screen](media/insertDataTable.png)
 
 ### Connecting a data table to another control
 1. Add an edit form 
