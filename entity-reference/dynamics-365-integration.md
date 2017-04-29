@@ -9,17 +9,17 @@ ms.prod: ""
 ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
 keywords: "overview, introduction"
+
 audience: "Developer, IT Pro"
 ms.assetid: 0c7f8e4f-8433-447f-85b2-8e3788b3714a
 ---
 
 # Dynamics 365 data integration
 
-The Dynamics 365 data integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through Common Data Service. This Technical Preview of the Data Integration feature enables a basic flow of accounts and other entity data to enable a prospect-to-cash scenario. This document describes the capabilities, usage guidelines, and current limitations of the Data Integration feature.
+The Dynamics 365 data integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through Common Data Service. This feature enables a basic flow of accounts and other entity data to enable a prospect-to-cash scenario. This document describes the capabilities, usage guidelines, and current limitations of the Data Integration feature.
 
-The Microsoft Dynamics 365 Data Integration feature is available to customers who have at least one Dynamics 365 product. Currently, it is available to authorized Technology Adoption Program (TAP) customers via the Microsoft PowerApps Admin Center. This feature enables the flow of data between Microsoft Dynamics products through Common Data Service (CDS). For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party data integration tool.
+The Microsoft Dynamics 365 Data Integration feature is available to customers who have at least one Dynamics 365 product. It enables the flow of data between Microsoft Dynamics products through Common Data Service (CDS). For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party data integration tool.
 
-This document includes detailed descriptions of the capabilities, usage guidelines, and current limitations of this feature.
 
 # Concepts
 
@@ -31,22 +31,28 @@ You should be aware of key concepts as you go on to use the Data Integration fea
 
 Before you can work with a Data Integration project, you must provision a connection for each system that you intend to work with in the PowerApps portal. You then reference those connections in a Data Integration project. Connections are stored in a CDS environment. However, they operate above environments. The Data Integration projects use a connection that is stored in an environment to move data into and out of other systems, and into and out of an environment. Data doesn’t have to move into or out of the same environment as the connection.
 
+
 When you provision a connection on the PowerApps site, unlike other connection services, you aren’t asked to select a specific instance of your target system. The connections on the PowerApps site just pair your Active Directory credentials with a target system. Later, when you specify a connection in a project, you will select from your set of accessible data set instances.
 
 ## Data Integration
 
-The Data Integration feature is currently available as a tab in the PowerApps Admin Center. It is also available in the **Business platform admin center ("businessplatform.microsoft.com") Currently, the **Data Integration** tab is only visible  to customers who are authorized TAP customers, and who are on our permissions list. Currently, the feature is limited to two users per tenant.
-
+The Data Integration feature is currently available as a tab in the PowerApps Admin Center. It is also available in the **Business platform admin center ("businessplatform.microsoft.com") 
 
 ## Projects
 
 Projects enable the flow of data between systems. A project is a list of one or more tasks. Each task identifies a mapping between a source entity and a CDS entity, and then, optionally, a mapping between CDS entity and a destination entity. Mappings indicate which fields map to which other fields. They also specify default values and value maps. Tasks are run in the order in which they appear.
+
+
+## Connection sets
+
+**Connection sets** are a collection of two more connections and business unit information (or Legal entity) that can be reused among projects. You may start using a connection set for development and then switch to a different one for production. One key piece of information that is stored with connection sets are business unit combinations. These are mappings between the Operations's Legal entity and the Common Data Service and Sales's Business Units. You may store multiple business unit mappings in a connection set. When you use a connection set you will also choose a specific business unit mapping for a given project.
 
 ## Transformations 
 
 We currently provide three types of transformations: default values, value maps, and truncate. Default values are values that are filled into a field when there is no value available. Default values are required for mapping to an entity which has a required field but there is no source field to map from. Value maps define how values that are present in one entity should be mapped to values in the other entity.
 
 You should inspect the default values and value maps that we provide for your project, and make sure that they align with the values in your entities. Visit all sides of mappings: Source to CDS, and CDS to Destination. The example that follows shows both default values and value maps. You can directly edit and save your changes back to the project.
+
 
 Eventually, you will be able to specify more complex transformations and filters on the data. On each row that maps a field, in the middle **Map Type** column, there is either an equal sign, **=**, or **Fn**. **Fn** indicates that a function, or transformation, has been applied. Currently, **Fn** is only available for fields we know you might need to customize. To edit a default value or value map, click the pencil symbol next to the **Fn**.
 
@@ -57,6 +63,7 @@ Currently, the default values and transforms are in JavaScript Object Notation (
 The following example shows a default value.
 
     \[{"transformType":"Default","defaultValue":"Organization"}\]
+
 
 The following example shows a value map.
 
@@ -78,7 +85,8 @@ The following example shows a value map.
     "japan":"JA",
     "india":"IN",
     "in":"IN",
-    "ind":"IN",
+
+"ind":"IN",
     "au":"AU",
     "ca":"CA"
     }}\]
@@ -88,6 +96,7 @@ The following example shows a value map.
 Data Integration projects synchronize data in only one direction. This system is therefore a single-master system. The flow through a project goes only from source to destination. The source always overwrites the destination. If you edit data in the destination, so that it differs from the data in the source, and you then synchronize the project, the Data Integration project writes over the data in the destination system. A template can define either Dynamics 365 for Sales or Dynamics 365 for Operations as the source.
 
 Eventually, we plan to support a multi-master system. In a multi-master system, if the user edits data in either the source or the destination, the other system is updated. However, this feature isn’t yet implemented.
+
 
 ## Business keys
 
@@ -99,6 +108,7 @@ Addtionally, data in Dynamics 365 for Operations is only guaranteed to be unique
 
 Eventually, we will enable data integration that doesn’t require business keys. Instead, mapping tables will be used.
 
+
 ## Consent
 
 When you create a new project, we ask you for explicit consent, because we are moving data between systems. There are two areas of concern:
@@ -107,6 +117,7 @@ When you create a new project, we ask you for explicit consent, because we are m
 + Data might be moved between regional data centers, such as North America and Europe.
 
 Be sure to read the **Privacy Notice and Consent** page carefully, and make sure that the correct persons give consent. We won’t create a project unless consent is given. We record the consent in our log files.
+
 
 ## Running a project
 
@@ -118,6 +129,7 @@ The **Scheduling** tab provides a dashboard where you can currently view a list 
 
 Eventually, the **Scheduling** tab will also show error records. However, this feature isn’t yet implemented.
 
+
 # Running a Data Integration project
 
 > [!WARNING]
@@ -128,6 +140,7 @@ Eventually, the **Scheduling** tab will also show error records. However, this f
 You must have the following items:
 
 + An instance of Microsoft Dynamics 365 for Operations update 5 or later. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
+
 + The most current version of Dynamics 365 for Sales. Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales.
 + A Dynamics 365 for Sales solution to help guarantee that the business keys work correctly. Work with your TAP customer contact or the product team to obtain and install the solution.
 + You must have an environment in CDS, and you must have created a database in that environment.
@@ -137,6 +150,7 @@ You must have the following items:
 To access the Data Integration feature, you might have to provide your tenant ID to Microsoft.
 
 ## Create connections
+
 
 > [!NOTE]
 > You must create a connection for each system that you will work with.
@@ -165,6 +179,15 @@ To create a new project, follow these steps.
 2. Enter a name for the project.
 3. Select a predefined project template to create a base project that you can run directly. (Eventually, you will be able to customize the project before you run it. However, project customization isn’t yet supported.)
 4. For each system, select the connection, select the dataset, and enter a company code (for Dynamics 365 for Operations). As we noted earlier, you must first provision your connection on the PowerApps site.
+
+## Customize Connection sets
+
+When you first create a project, if you do not use an existing connection set, we will create one for you. To edit a connection set:
+
+1. From the main project page by choosing the **Connection Set** tab.
+2. Change the connection set properties you need.
+
+Note, you may want to add additional business unit lines so that the same conneciton set may be used with different business unit combinations.
 
 ## Customize a project with new tasks
 
