@@ -45,7 +45,7 @@ Projects enable the flow of data between systems. A project is a list of one or 
 
 ## Connection sets
 
-**Connection sets** are a collection of two more connections and business unit information (or Legal entity) that can be reused among projects. You may start using a connection set for development and then switch to a different one for production. One key piece of information that is stored with connection sets are business unit combinations. These are mappings between the Operations's Legal entity and the Common Data Service and Sales's Business Units. You may store multiple business unit mappings in a connection set. When you use a connection set you will also choose a specific business unit mapping for a given project.
+**Connection sets** are named collections of two or three connections and business unit mappings. Connection sets can be reused among projects. For example, you may start using a connection set with a project that is targeted at development instances of Sales and Operations and then later switch to a different connection set that is used for production for that same project. The mappings enable the flow of data from specific business units within Sales, Operations, and the Common Data Servce. For example, you might specify the Operations Business Unit as "North America" and then the corresponding Common Data Service business unit as "NA" and "NorthAmerica" for Sales.  Then, when a data integration project is run, it will move data from Operations "North America" to Common Data Service "NA" and to Sales "NorthAmerica."
 
 ## Transformations 
 
@@ -204,11 +204,9 @@ If a mapping between entities is incorrect or incomplete, you can change the map
 
 ## Create a new mapping 
 
-If your project does not have all of the attributes you wish to map, you can add a new mapping. 
+If your project does not have all of the attributes you wish to map, you can add a new mapping. Note that at the bottom of your set of tasks is an empty task line.
 
-1. Choose **Add mapping.** On a mapping screen, choose **Add mapping**.  This will add a new line at the bottom of the map table.
-2. Select the attributes you wish to map.
-
+1. Select the attribute for each source you wish to add.
 
 
 ## Run a project
