@@ -35,17 +35,16 @@ When you provision a connection on the PowerApps site, unlike other connection s
 
 ## Data Integration
 
-The Data Integration feature is currently available as a tab in the PowerApps Admin Center. The **Data Integration** tab appears only to customers who are authorized TAP customers, and who are on our permissions list. Currently, the feature is limited to two users per tenant.
+The Data Integration feature is currently available as a tab in the PowerApps Admin Center. It is also available in the **Business platform admin center ("businessplatform.microsoft.com") Currently, the **Data Integration** tab is only visible  to customers who are authorized TAP customers, and who are on our permissions list. Currently, the feature is limited to two users per tenant.
 
-The PowerApps Admin Center is a temporary home for the **Data Integration** tab. Eventually, it will be located in a new Admin center that is dedicated to Dynamics 365.
 
 ## Projects
 
 Projects enable the flow of data between systems. A project is a list of one or more tasks. Each task identifies a mapping between a source entity and a CDS entity, and then, optionally, a mapping between CDS entity and a destination entity. Mappings indicate which fields map to which other fields. They also specify default values and value maps. Tasks are run in the order in which they appear.
 
-## Transformations (default values and value maps)
+## Transformations 
 
-We currently provide two types of transformations: default values and value maps. Default values are values that are filled into a field when there is no value available. Default values are required for mapping to an entity which has a required field but there is no source field to map from. Value maps define how values that are present in one entity should be mapped to values in the other entity.
+We currently provide three types of transformations: default values, value maps, and truncate. Default values are values that are filled into a field when there is no value available. Default values are required for mapping to an entity which has a required field but there is no source field to map from. Value maps define how values that are present in one entity should be mapped to values in the other entity.
 
 You should inspect the default values and value maps that we provide for your project, and make sure that they align with the values in your entities. Visit all sides of mappings: Source to CDS, and CDS to Destination. The example that follows shows both default values and value maps. You can directly edit and save your changes back to the project.
 
@@ -87,7 +86,7 @@ The following example shows a value map.
 ## Synchronization direction
 
 Data Integration projects synchronize data in only one direction. This system is therefore a single-master system. The flow through a project goes only from source to destination. The source always overwrites the destination. If you edit data in the destination, so that it differs from the data in the source, and you then synchronize the project, the Data Integration project writes over the data in the destination system. A template can define either Dynamics 365 for Sales or Dynamics 365 for Operations as the source.
-5
+
 Eventually, we plan to support a multi-master system. In a multi-master system, if the user edits data in either the source or the destination, the other system is updated. However, this feature isn’t yet implemented.
 
 ## Business keys
@@ -95,6 +94,8 @@ Eventually, we plan to support a multi-master system. In a multi-master system, 
 The predefined templates assume synchronization based on a business key. A business key is a key that the business wants to enforce uniformly across multiple systems (for example, both Dynamics 365 for Sales and Dynamics 365 for Operations). For example, a car rental company uses a car’s vehicle identification number (VIN) as a unique way to identify cars across all its internal systems. As another example, many Microsoft Dynamics customers might want to use the same customer ID for a customer in both Dynamics 365 for Sales and Dynamics 365 for Operations. We designed the Data Integration feature so that customers can use a business key across multiple systems.
 
 By default, Dynamics 365 for Sales doesn’t require a business key. To enable business keys, we will provide you a Dynamics 365 for Sales solution. After you import the solution into your Dynamics 365 for Sales system, the Data Integration projects will work. In general, we will augment Dynamics 365 for Sales either by using an existing field or by creating a new column for the business key. In the case of the Dynamics 365 for Sales entity, which we want to synchronize with the Dynamics 365 for Operations entity, we use the **Account.Account Number** field in Dynamics 365 for Sales, and make it both required and unique. You are responsible for making sure that there is a valid customer identification value in **Account.Account Number** field in Dynamics 365 for Sales. If there is no value in this field, we won’t synchronize the records from Dynamics 365 for Sales to Dynamics 365 for Operations.
+
+Addtionally, data in Dynamics 365 for Operations is only guaranteed to be unique with a combination of Legal Entity and the key of an entity.  If you wish to integrate data from Dynamics 365 for Operations to Dynamics 365 for Sales, then the data you syncronize should be unique independent of Legal entity as well in same way we require data to be unique in Dynamics 365 for Sales.
 
 Eventually, we will enable data integration that doesn’t require business keys. Instead, mapping tables will be used.
 
@@ -141,29 +142,51 @@ To access the Data Integration feature, you might have to provide your tenant ID
 > You must create a connection for each system that you will work with.
 
 1. Go to the PowerApps site at <https://web.powerapps.com>.
-1. Click **Connections**.
+2. Click **Connections**.
     
    The **Connections** page shows all the connections that you’ve provisioned. If you don’t yet have the connections that are required for your Data Integration project, you must create a new connection.
 
-1. Click **New connection**.
-1. In the list of connection types that PowerApps can work with, select a connection type. For example, if you’re working with Dynamics 365 for Sales, select **Dynamics 365**. Then, in the dialog box, enter your identity and access credentials.
-1. On the PowerApps site, you should see a list of standard entities on the **Entities** tab. If you don’t see a list of standard entities, you must create a CDS environment and database.
+3. Click **New connection**.
+4. In the list of connection types that PowerApps can work with, select a connection type. For example, if you’re working with Dynamics 365 for Sales, select **Dynamics 365**. Then, in the dialog box, enter your identity and access credentials.
+5. On the PowerApps site, you should see a list of standard entities on the **Entities** tab. If you don’t see a list of standard entities, you must create a CDS environment and database.
 
 ## Navigate to the Data Integration feature
 
 To work with the Data Integration feature, follow these steps.
 
 1. Open the PowerApps Admin Center at <https://admin.powerapps.com>. The **Data Integration** tab should appear in the left navigation pane. If it doesn’t appear there, and you’re an authorized TAP customer, check with your Microsoft contact.
-1. Click the **Data Integration** tab. The **Data integration projects (Technical Preview)** page should appear. If you’re just starting to use the feature, you should see a **New Project** link that you can use to create a new project.
+2. Click the **Data Integration** tab. The **Data integration projects (Technical Preview)** page should appear. If you’re just starting to use the feature, you should see a **New Project** link that you can use to create a new project.
 
 ## Create a new project
 
 To create a new project, follow these steps.
 
 1. Click the **New Project** link in the upper-right corner, or click the link that is provided on the page. The **New data integration** wizard starts.
-1. Enter a name for the project.
-1. Select a predefined project template to create a base project that you can run directly. (Eventually, you will be able to customize the project before you run it. However, project customization isn’t yet supported.)
-1. For each system, select the connection, select the dataset, and enter a company code (for Dynamics 365 for Operations). As we noted earlier, you must first provision your connection on the PowerApps site.
+2. Enter a name for the project.
+3. Select a predefined project template to create a base project that you can run directly. (Eventually, you will be able to customize the project before you run it. However, project customization isn’t yet supported.)
+4. For each system, select the connection, select the dataset, and enter a company code (for Dynamics 365 for Operations). As we noted earlier, you must first provision your connection on the PowerApps site.
+
+## Customize a project with new tasks
+
+1. In a project choose **Add task** in the upper right hand corner of the project screen. This will bring up a Add task dialog.
+2. Provide the name of the task, the entities in Dynamics 365 for Sales, Operations, and the Common Data Service. This will create a new task in your project.
+
+## Customize an existing new mapping  
+
+If a mapping between entities is incorrect or incomplete, you can change the mapping.
+
+1. Select the attribute. This will enable the dropdown to select a different attribute.
+2. Choose the attribute you wish to use.
+
+
+## Create a new mapping 
+
+If your project does not have all of the attributes you wish to map, you can add a new mapping. 
+
+1. Choose **Add mapping.** On a mapping screen, choose **Add mapping**.  This will add a new line at the bottom of the map table.
+2. Select the attributes you wish to map.
+
+
 
 ## Run a project
 
