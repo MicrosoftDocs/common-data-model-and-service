@@ -1,7 +1,7 @@
 
 <properties
-	pageTitle="Introducing data table control in PowerApps"
-	description="Introduction of data table control in PowerApps."
+	pageTitle="Introducing the data table control in PowerApps"
+	description="Introduction of the data table control in PowerApps."
 	services="powerapps"
 	documentationCenter="na"
 	authors="jasongre"
@@ -18,7 +18,7 @@
    ms.date="04/24/2017"
    ms.author="kfend"/>
    
-# Introducing data table control in PowerApps
+# Introducing the Data table control in PowerApps
    
 Imagine you have a collection of data (a list sales orders, a set of service tickets, a directory of contacts, etc) that you want to display in your PowerApp in a table-like form, where each column represented a field and each row represented a record. While you could have roughly simulated that rendering in the past with some effort, you now have an easy and quick way to achieve this very standard visualization thanks to the new Data table control that was recently added to PowerApps. You simply need to link your Data table to a data source and select the fields you want to display. 
 
@@ -37,11 +37,12 @@ Imagine you have a collection of data (a list sales orders, a set of service tic
 ## What features are coming soon
 
 + Instead of the Data table starting with no fields, we plan to seed the Data table with default fields for connectors that support this capability (e.g. Common Data Service).  
-+ Data source support will be expanding soon to cover static data sources like Excel and Collections.
++ Data source support will soon be expanding to cover static data sources like Excel and Collections.
 + We plan to allow fields in the Data table to render as hyperlinks for navigating to other screens or performing other actions.  
 + Finer-grained control of the Data table is planned by allowing selection of individual columns to expose more targeted customizations at the column level. 
++ Support for copy and paste of the Data table control is being looked at to improve the ability to reuse the control.  
 
 ## We want to hear your feedback
 
-We hope you find the Data table control useful in easily building apps with the visuals you want. To learn more about the Data table control, its properties and usage, please refer to this article: Data table controls in PowerApps.  As always, we are extremely interested in any feedback you have on this new feature.  You are free to leave comments on this page or on PowerApps community.  I look forward to incorporating your feedback and suggestions to improve the control and PowerApps as a whole!   
+We hope you find the Data table control useful in easily building apps with the visuals you want. To learn more about the Data table control, its properties, and its usage, please refer to this article: Data table controls in PowerApps.  As always, we are extremely interested in any feedback you have on this new feature.  You are free to leave comments on this page or on PowerApps community.  I look forward to incorporating your feedback and suggestions to improve the control and PowerApps as a whole!   
 
