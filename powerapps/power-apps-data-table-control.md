@@ -105,26 +105,38 @@ The Data table control allows you to display a dataset in a tabular format, whic
 
    The Data table is now attached to the **Sales order** data source; however, no data will be shown until the user picks the desired fields.   
 
-7. In the right-hand pane, select the fields you want to display.  
+7. In the right-hand pane, select the fields you want to display. For this example, we'll choose SalesOrderId, Account, OrderDate, and Status. 
 
-   The Data table will now populate with data based on the selected fields
-   <!-- Add image -->
+   The Data table will now populate with data based on the selected fields.
+   
+   ![Data table](Media/preOrderDataTable.png "Data table")
 
 8. Reorder the fields as desired by dragging and dropping them in the right hand pane
 
    ![Reorder fields as desired](Media/fieldReorderDataTable.png)
 
    The Data table will update to show the fields in the new order
-   <!-- Add image --> 
+   ![Data table](Media/postOrderDataTable.png "Data table")
 
 ### Restyle the Data table header
 1. Click the **Advanced** tab in the right hand pane.
 2. Find and click or tap the input box for the **HeadingFill** property, and modify the value to be **RGBA(62,96,170,1)**.
 3. Find and click or tap the input box for the **HeadingColor** property, and modify the value to be **White**.
 4. Find and click or tap the input box for the **HeadingSize** property, and modify the value to be **14**. 
-<!-- Add image --> 
+   ![Data table](Media/restyledDataTable.png "Data table")
 
 ### Connecting a data table to another control
-1. Add an edit form 
-2. Connect to the same data source
-3. Set Item to the data table’s selected row
+1. Add an Edit form to the screen.
+2. Resize the Data table and Edit form so that the Data table uses the left portion of the screen and the Edit forms occupies the right portion of the screen.
+
+   ![Data table and edit form on the same screen](Media/dataTableEmptyForm.png "Data table and edit form on the same screen")
+   
+3. Connect the Edit form to the Sales order data source. 
+4. In the right-hand pane, select the fields you want to display in the Edit form. For this example, we'll choose SalesOrderId, Status, Name, Description, and Total amount.
+
+   ![Edit form showing five fields](Media/dataTableDisconnectedForm.png "Edit form showing five fields")
+   
+3. Click the **Advanced** tab in the right hand pane. 
+4. Set the Item property on the Edit form to **SalesOrderTable.Selected** so that the edit form shows information from the Data table's selected row. 
+
+   ![Edit form connected to data table](Media/connectedFormDataTable.png "Edit form connected to data table")
