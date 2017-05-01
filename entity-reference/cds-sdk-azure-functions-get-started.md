@@ -22,13 +22,12 @@ There are four key steps:
 
 1. **Database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a database. This allows you to configure the SDK to access that database.
 1. **Application registration**. To give your Azure function access to the Common Data Service, you need to register a few applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the APIs.
-1. **Azure Function creation, configuration and programming**. You can skip most of this step if you choose to start from the Azure Function project we provide you, and publish it to Azure. If you choose to start from scratch, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
+1. **Azure Function creation, configuration and programming**. You can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
 1. **Console client application creation and configuration**. You can then run and debug your Azure Function by running the client console app and making HTTP calls to the Function. 
 
 In addition, you can use this function from a PowerApps application. There are two key steps:
-1. **Custom API creation and configuration**
-2. **Programming and running your PowerApps**
-
+1. **PowerApps Custom API creation and configuration**. In order to call the Azure Function from an app, it first needs to be wrapped by a Custom API that defines its API structure and authentication settings.
+2. **PowerApps app building and testing**. The created custom API can be used to call the Azure Function from an app. You can create the app and configure a button control to connect with the custom API inside PowerApps Studio. Then you can also test calling the function from PowerApps Player. 
 
 # Database acquisition
 
@@ -47,7 +46,7 @@ After acquiring an environment that contains a database, you can use that enviro
 
 # Application registration
 
-To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission level it needs to access the APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console applciation to call into the Azure function, for this step we will require a **Native application** registration. Later, as advanced steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end-to-end flow to work correctly.
+To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission level it needs to access the APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console application to call into the Azure function, for this step we will require a **Native application** registration. Later, as an advanced steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end-to-end flow to work correctly.
 
 <!--- [ToDo] Diagram of call sequence and AAD applications --->
 
@@ -72,11 +71,11 @@ Follow these steps to register and configure your Azure Function in Azure AD:
 1. Open the registered app:
     1. Search for your newly registered app by name.
     1. Click on it after finding it in the list of applications.
-    1. Record configuration value **Application ID** for upcoming steps.
+    1. Record configuration value **Function application ID** for upcoming steps.
 1. Get the application secret:
     1. Click on **Keys** to open a new pane.
     1. Add a new **Key description** like "key", set the **Duration** to "Never expires" and click **Save**.
-    1. Record configuration value for the **Application secret** by copying and pasting contents of the "Value" cell.
+    1. Record configuration value for the **Function application secret** by copying and pasting contents of the **Value** cell.
 1. Setup **Required permissions** for connecting to the Common Data Service:
     1. Click on **Required permissions** to open a new pane.
     1. Click on **Add**.
@@ -87,7 +86,7 @@ Follow these steps to register and configure your Azure Function in Azure AD:
     1. Repeat the 3 steps above for **Windows Azure Service Management API**.
 1. Get the Function application's resource ID:
     1. Open the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane.
-    1. Record the config value **AAD function resource ID** from any entry under `identifierUris`. Following is an example: `https://[tenant_name].onmicrosoft.com/4598e084-55a7-4d57-88ae-59902d8e3a52`.
+    1. Record the config value **AAD function resource ID** from any entry under `identifierUris`. Following is an example: `https://[your_domain_name]/4598e084-55a7-4d57-88ae-59902d8e3a52`.
 1.  **Note** - Configuring **known client applications** must be performed after registering the other application(s). The step is needed for seamless propagation of required permissions to clients. After completing all registrations go to section **Add known applications to Azure Function app**.
 
 ## Client application registration
@@ -128,13 +127,16 @@ You can skip these steps if you are not planning to use the Azure Function from 
 1. Open the **Registered app**:
     1. Search for your newly registered app by name
     1. Click on it after finding it in the list of applications.
-    1. Record configuration value **Application ID** for upcoming steps.
+    1. Record configuration value **Custom API application ID** for upcoming steps.
+1. Get the application secret:
+    1. Click on **Keys** to open a new pane.
+    1. Add a new **Key description** like "key", set the **Duration** to "Never expires" and click **Save**.
+    1. Record configuration value for the **Custom API application secret** by copying and pasting contents of the **Value** cell.
 1. Setup **Required permissions** for connecting to the Azure Function:
     1. Click on **Required permissions** to open a new pane.
     1. Click on **Add**.
     1. Navigate to **Select an API**.
-    Search for and choose **PowerApps Runtime Service**, then click **Select**.
-    1. Search for and select **Name** of the Azure Function web app created in previous step, then click **Select**.
+    1. Search for and select **Name** of the Azure Function web app created in previous steps, then click **Select**.
     1. Check all boxes under **Delegated permissions** section, then click **Select**.
     1. Click on **Done** to finalize setting up permissions for this service.  
 
@@ -160,7 +162,9 @@ For seamless propagation of required permissions to clients, setup **known clien
 
 # Azure Function creation, configuration and programming
 
-You can skip most of this procedure if you choose to start from the Azure Function project we provide for you, and you publish it to Azure. If you choose to start from scratch, you can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
+<!---You can skip most of this procedure if you choose to start from the Azure Function project we provide for you, and publish it to Azure. If you choose to start from scratch however, --->
+
+You can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
 
 ## Prerequisites
 
@@ -169,13 +173,14 @@ As with the previous step you need an Azure subscription, and access to [Azure p
 Ensure you have the following configuration values from previous steps:
 
 1. **AAD tenant**. This value identifies the tenant your database resides in.
-1. **AAD application ID**. This value identifies the AAD web app you registered earlier.
-1. **AAD application secret**. This value identifies secret of the AAD web app you registered earlier.
+1. **AAD function application ID**. This value identifies the AAD web app you registered earlier for the Azure function.
+1. **AAD function application secret**. This value identifies secret of the AAD web app you registered earlier for the Azure function.
 1. **PowerApps environment ID**. This value identifies the PowerApps environment that contains your target the Common Data Service database.
 
+<!---
 ## Sample Azure Function project
 
-For the private preview release, a project called `SampleFunctionApplication` is included in the Common Data Service SDK material. If you choose to go with this sample project,  you will need the latest [Azure Functions tools for Visual Studio](https://aka.ms/azfunctiontools) installed on your computer.
+For the private preview release, a project called `SampleFunctionApplication` is included in the Common Data Service SDK material. If you choose to go with this sample project, you will need to install **WebToolsAzure2015.exe** from version **2.9.6** of [Microsoft Azure SDK for .NET](https://www.microsoft.com/en-us/download/details.aspx?id=54289) on your computer. Then you should Download and install [Visual Studio Tools for Azure Functions](https://aka.ms/azfunctiontools). **Note** that later versions of the Microsoft Azure SDK for .NET, like version **3.0.0**, are incompatible with the provided samples.
 
 1. Replace the brackets in **appsettings.json** with configuration values mentioned in the **Prerequisites** section.
 1. Right click on the Function project and click **Publish ...**
@@ -187,10 +192,11 @@ For the private preview release, a project called `SampleFunctionApplication` is
 1. **Note** that after publishing, you might have to delete the published **project.lock.json** file as detailed in the troubleshooting section **Assembly load issue after publish to Azure**.
 
 You can also follow the similar instructions as below to create and configure the Azure function in Visual Studio, then publish it as shown above.
+--->
 
 ## Azure Function creation and configuration
 
-Assuming you already have an Azure subscription set up, create and open a new function app from the [Azure Portal](https://portal.azure.com/#create/Microsoft.FunctionApp):
+Assuming you already have an Azure subscription set up, [create and open a new function app from Azure Portal](https://portal.azure.com/#create/Microsoft.FunctionApp):
 1. Enter a unique **App name**.
 1. Select your current **Subscription**.
 1. Select an existing **Resource group** or provide a unique name for a new one.
@@ -204,7 +210,7 @@ Create a new Azure function using templates:
 1. Click on **New Function** under Functions from the left pane.
 1. Select **GenericWebHook-CSharp** from the list of templates.
 1. Name the new Function **UpdateProjectCategory**, and click **Create**.
-1. **Note** the sample code window opened under the **Develop** section.
+1. **Note** the sample code window opens under the header section marked with an **'f'** symbol.
 1. Record the configuration value **Function URL** for upcoming steps by clicking on **Get function URL** on the top right, and clicking copy.
 
 Copy the following JSON snippet to the **project.json** file of the Function project. On the Azure Portal Functions experience, you can update this file through the following steps:
@@ -247,86 +253,86 @@ using System.Net;
 Copy the following code snippet inside the `run()` method body of **run.csx**, replacing existing code.
 
 ```cs
-log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}");
+    log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}");
 
-// parse query parameter
-string name = req.GetQueryNameValuePairs()
-    .FirstOrDefault(q => string.Compare(q.Key, "name", true) == 0)
-    .Value;
+    // parse query parameter
+    string name = req.GetQueryNameValuePairs()
+        .FirstOrDefault(q => string.Compare(q.Key, "name", true) == 0)
+        .Value;
 
-if(name == null)
-{
-    log.Info($"Name was not passed correctly.");
-    return req.CreateResponse(HttpStatusCode.BadRequest);
-}
-
-var connection = new ConnectionSettings
-{
-    Tenant = "[[Replace with AAD tenant value]]",
-    EnvironmentId = "[[Replace with PowerApps environment ID value]]",
-    Credentials = new UserImpersonationCredentialsSettings
+    if(name == null)
     {
-        ApplicationId = "[[Replace with Function application ID value]]",
-        ApplicationSecret = "[[Replace with Function application secret value]]"
+        log.Info($"Name was not passed correctly.");
+        return req.CreateResponse(HttpStatusCode.BadRequest);
     }
-};
 
-using (var client = await connection.CreateClient(req))
-{
-    // Query product categories for Surfaces and Phones
-    var query = client.GetRelationalEntitySet<ProductCategory>()
-        .CreateQueryBuilder()
-        .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
-        .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name));
-
-    OperationResult<IReadOnlyList<ProductCategory>> queryResult = null;
-    client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
-        .Query(query, out queryResult)
-        .ExecuteAsync().Wait();
-
-    // Delete any Surfaces and Phones
-    var deleteExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-    foreach (var entry in queryResult.Result)
+    var connection = new ConnectionSettings
     {
-        deleteExecutor.DeleteWithoutConcurrencyCheck(entry);
-    }
-    deleteExecutor.ExecuteAsync().Wait();
+        Tenant = "[[Replace with AAD tenant value]]",
+        EnvironmentId = "[[Replace with PowerApps environment ID value]]",
+        Credentials = new UserImpersonationCredentialsSettings
+        {
+            ApplicationId = "[[Replace with Function application ID value]]",
+            ApplicationSecret = "[[Replace with Function application secret value]]"
+        }
+    };
 
-    // Insert Surface and Phone product lines
-    var surfaceCategory = new ProductCategory() { Name = "Surface", Description = "Surface product line" };
-    var phoneCategory = new ProductCategory() { Name = "Phone", Description = "Phone product line" };
-    await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
-        .Insert(surfaceCategory)
-        .Insert(phoneCategory)
-        .ExecuteAsync();
-
-    // Query for Surface and Phone Product lines
-    query = client.GetRelationalEntitySet<ProductCategory>()
-        .CreateQueryBuilder()
-        .Where(pc => pc.Name == name)
-        .OrderByAscending(pc => new object[] { pc.CategoryId })
-        .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name).SelectField(f => f.Description));
-
-    await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
-        .Query(query, out queryResult)
-        .ExecuteAsync();
-
-    // Update all selected Product Lines with description
-    var updateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-    foreach (var entry in queryResult.Result)
+    using (var client = await connection.CreateClient(req))
     {
-        log.Info($"Updateing '{entry.Name}'.");
-        var updateProductCategory = client.CreateRelationalFieldUpdates<ProductCategory>();
-        string updatedDescription = $"{DateTime.Now.ToString()} - Updated '{entry.Name}'";
-        updateProductCategory.Update(pc => pc.Description, updatedDescription);
+        // Query product categories for Surfaces and Phones
+        var query = client.GetRelationalEntitySet<ProductCategory>()
+            .CreateQueryBuilder()
+            .Where(pc => pc.Name == "Surface" || pc.Name == "Phone")
+            .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name));
 
-        updateExecutor.Update(entry, updateProductCategory);
-    }
-    await updateExecutor.ExecuteAsync();
+        OperationResult<IReadOnlyList<ProductCategory>> queryResult = null;
+        client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+            .Query(query, out queryResult)
+            .ExecuteAsync().Wait();
 
-    log.Info($"C# HTTP trigger function completed.");
-    return req.CreateResponse(HttpStatusCode.OK);
-}    
+        // Delete any Surfaces and Phones
+        var deleteExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+        foreach (var entry in queryResult.Result)
+        {
+            deleteExecutor.DeleteWithoutConcurrencyCheck(entry);
+        }
+        deleteExecutor.ExecuteAsync().Wait();
+
+        // Insert Surface and Phone product lines
+        var surfaceCategory = new ProductCategory() { Name = "Surface", Description = "Surface product line" };
+        var phoneCategory = new ProductCategory() { Name = "Phone", Description = "Phone product line" };
+        await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+            .Insert(surfaceCategory)
+            .Insert(phoneCategory)
+            .ExecuteAsync();
+
+        // Query for Surface and Phone Product lines
+        query = client.GetRelationalEntitySet<ProductCategory>()
+            .CreateQueryBuilder()
+            .Where(pc => pc.Name == name)
+            .OrderByAscending(pc => new object[] { pc.CategoryId })
+            .Project(pc => pc.SelectField(f => f.CategoryId).SelectField(f => f.Name).SelectField(f => f.Description));
+
+        await client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional)
+            .Query(query, out queryResult)
+            .ExecuteAsync();
+
+        // Update all selected Product Lines with description
+        var updateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+        foreach (var entry in queryResult.Result)
+        {
+            log.Info($"Updateing '{entry.Name}'.");
+            var updateProductCategory = client.CreateRelationalFieldUpdates<ProductCategory>();
+            string updatedDescription = $"{DateTime.Now.ToString()} - Updated '{entry.Name}'";
+            updateProductCategory.Update(pc => pc.Description, updatedDescription);
+
+            updateExecutor.Update(entry, updateProductCategory);
+        }
+        await updateExecutor.ExecuteAsync();
+
+        log.Info($"C# HTTP trigger function completed.");
+        return req.CreateResponse(HttpStatusCode.OK);
+    }    
 ```
 
 Configure the target environment and security setting of the app by replacing the corresponding bracket text in code with configuration values:
@@ -400,7 +406,7 @@ private static async Task UpdateEntityAsync()
 {
     // Get HTTP client and send request
     var client = await GetHttpClientAsync();
-    bool isAzureHosted = false;
+    bool isAzureHosted = true;
     var updateUriString = isAzureHosted ? $"{AzureHostedResetUriString}&name=Surface" : $"{LocalHostedUpdateUriString}?name=Surface";
     var response = await client.PostAsJsonAsync<object>(updateUriString, null);
     Console.WriteLine($"Status: '{response.StatusCode}'");
@@ -414,7 +420,7 @@ private static async Task<HttpClient> GetHttpClientAsync()
     AuthenticationResult authenticationResult = await authenticationContext.AcquireTokenAsync(FunctionResourceId
         , ClientAppId
         , new Uri(RedirectUri)
-        , new PlatformParameters(PromptBehavior.Always));
+        , new PlatformParameters(PromptBehavior.Auto));
     var securityTokenString = authenticationResult.CreateAuthorizationHeader();
 
     // Create and configure the HTTP client
@@ -450,6 +456,114 @@ var updateUriString = isAzureHosted ? $"{AzureHostedResetUriString}&name=Surface
 1. Verify that the program runs and calls the Function.
 1. Verify that the function updates Product Categories as expected.
 1. **Note** that if you see log errors related to assembly loading please refer to **Assembly load issue after publish to Azure** in the troubleshooting section. 
+
+# Advanced - PowerApps Custom API creation and configuration
+In order to call the Azure Function from an app, it first needs to be wrapped by a Custom API that defines its API structure and authentication settings.
+
+Prepare the [swagger](http://swagger.io/) file that defines your function by copying the content below to a .json file and modifying the **host** and **default code** values. You can get these values by going to the Azure Function edit page and clicking on **Copy function URL** on the top right.
+
+```javascript
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "v1",
+    "title": "ProductCategory",
+    "description": "Product Category test operations."
+  },
+  "host": "[[Replace with Azure Function app name value]].azurewebsites.net",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/api/UpdateProductCategory": {
+      "get": {
+        "tags": [
+          "UpdateProductCategory"
+        ],
+        "operationId": "UpdateProductCategory",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "code",
+            "in": "query",
+            "description": "code",
+            "default": "[[Replace with the Azure Function code value]]",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          }
+        },
+        "summary": "Updates the description of a Product Category given a name.",
+        "description": "Update Product Category"
+      }
+    }
+  },
+  "definitions": {},
+  "securityDefinitions": {
+    "oauth2": {
+      "type": "oauth2",
+      "flow": "implicit",
+      "authorizationUrl": "https://login.windows.net/common/oauth2/authorize",
+      "scopes": {}
+    }
+  }
+}
+```
+
+Now you can create a cusom API to match the Azure Function from previous step.
+
+1. Go to the **Connections** tab in the [PowerApps](https://powerapps.microsoft.com) portal.
+1. Click on **New connection**, select the **Custom** tab on top, then click on **New custom API**.
+1. Select **Swagger API definition**, click on **Upload**, and select the .json file created in the previous step.
+1. Set the name to **ProductCategory**, and click on **Next**. 
+1. Under **Authentication type** select **Azure Active Directory**.
+1. Set **Client id** to the **AAD custom API application ID**.
+1. Set **Client secret** to the **AAD custom API application secret**.
+1. Set **Resource URL** to the **AAD function resource ID**. **Note** that this **Resource ID** value comes from the **Function application** not the **custom API application**, and will look like the following example: `https://[your_domain_name]/4598e084-55a7-4d57-88ae-59902d8e3a52`.
+1. Click **Create**, and verify that the new Custom API is added to the list.
+
+Create a connection for the Custom API as follows:
+1. On the newly created Custom API, click on the **'+'** action button.
+1. Click on **Create**, then login with your credentials.
+1. You should see an authorization page asking you to **Accept** terms of the app to accessing CDS on your behalf. 
+
+# Advanced - PowerApps app building and testing 
+The created custom API can be used to call the Azure Function from an app. You can create the app and configure a button control to connect with the custom API inside PowerApps Studio. Then you can also test calling the function from PowerApps Player. 
+
+1. Create an app
+    1. Click on **New app** in bottom left of the [PowerApps](https://powerapps.microsoft.com) portal.
+    1. Select **PowerApps Studio for web**, and click on **Phone layout** under **Common Data Service**, to create an app from CDS entities.
+    1. In the entity list select **Product category**, then **OK**.
+1. Add the custom API as a data source.
+    1. Go to **Content** tab and click on **Data sources**.
+    1. Click on **Add data source**, and select the **ProductCategory** connector.
+1. Wire the button to call the custom API.
+    1. On the **BrowseScreen** select the **BrowseGallery** and add a **Button** control and name it **Update**.
+    1. Select the button and change **OnSelect** value to `ProductCategory.UpdateProductCategory(ThisItem.Name); Refresh('Product category')`.
+1. Modify one of the fields to show the **Description** field.
+    1. Select one of the fields under **BrowseGaller**
+    1. Change the **Text** property value to `ThisItem.Description`
+1. Test the changes by running the app.
+    1. Press **F5** to preview the app.
+    1. Click on the **Update** button, and note that **Description** field of that record is updated. 
 
 # Troubleshooting
 
@@ -495,18 +609,3 @@ This issue can be resolve by deleting the **project.lock.json** file:
 1. Click **Delete** on top of the pane.
 1. Reissue the request from client.
 
-
-<!---
-# [Microsoft internal]
-
-## Sample Azure Function
-
-You can obtain a final Visual Studio version of the console application below from the internal [samples repository](https://msazure.visualstudio.com/OneAgile/_git/CommonDataService-Samples?path=%2FSampleFunctionApp&version=GBmaster&_a=contents). We will also publish this externally through GitHub. Replace the brackets in App.cofig with configuration values mentioned in the **prerequisites** section. 
-
-1. **Microsoft internal** - Add the wanuget-dev interanl feed:
-    1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and nvafigate to **Package Sources**.
-    1. Add a new source by clicking on the plus symbol on top.
-    1. Set **Name** to wanuget-dev.
-    1. Set **Source** to http://wanuget/dev/nuget.
-    1. In the next step you may see many packages named similarly. Make sure to **only** add the one named **Microsoft.CommonDataService**.
---->
