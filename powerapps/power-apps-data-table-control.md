@@ -22,12 +22,12 @@
 A control that shows a set of data in a tabular format. 
 
 ## Description
-The Data table control allows you to display a dataset in a tabular format, which includes column headers for each field visualized. You, as the maker, have full control over the fields you want to show from the data source as well as the order in which those fields appear.  The Data table control maintains a Selected property that, like the Gallery, points to the single row that is currently selected, which can be used to link the Data table to other controls.  
+The Data table control allows you to display a dataset in a tabular format, which includes column headers for each field visualized. You, as the maker, have full control over the fields you want to show from the data source as well as the order in which those fields appear. The Data table control maintains a Selected property that, like the Gallery, points to the single row that is currently selected, which can be used to link the Data table to other controls.  
 
 ## Key properties
 [**Items**](https://powerapps.microsoft.com/en-us/tutorials/properties-core/ "Items") – The source of data that appears in the control
 
-**Selected** – The selected row in the data table
+**Selected** – The selected row in the Data table
 
 
  ## Additional properties
@@ -67,15 +67,15 @@ The Data table control allows you to display a dataset in a tabular format, whic
 
 [**Size**](https://powerapps.microsoft.com/en-us/tutorials/properties-text/ "Size") – The default font size for all data rows
 
-[**X**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "X") – The distance between the left edge of a data table and the left edge of its parent container (screen if no parent container)
+[**X**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "X") – The distance between the left edge of a Data table and the left edge of its parent container (screen if no parent container)
 
-[**Y**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Y") – The distance between the top edge of a data table and the top edge of its parent container (screen if no parent container)
+[**Y**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Y") – The distance between the top edge of a Data table and the top edge of its parent container (screen if no parent container)
 
-[**Width**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Width") – The distance between a data table’s left and right edges
+[**Width**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Width") – The distance between a Data table’s left and right edges
 
-[**Height**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Height") – The distance between a data table’s top and bottom edges
+[**Height**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Height") – The distance between a Data table’s top and bottom edges
 
-[**Visible**](https://powerapps.microsoft.com/en-us/tutorials/properties-core/ "Visible") – Determines whether a data table appears or is hidden
+[**Visible**](https://powerapps.microsoft.com/en-us/tutorials/properties-core/ "Visible") – Determines whether a Data table appears or is hidden
 
 
 ## Related functions
@@ -84,44 +84,47 @@ The Data table control allows you to display a dataset in a tabular format, whic
 ## Examples
 ### Basic data table usage 
 1. Create a blank Tablet app.
-1. On the **Insert** tab, click or tap Data table.
+2. On the **Insert** tab, click or tap Data table.
 
-![Add a data table control to a screen](Media/insertDataTable.png "Add a data table control to a screen")
+   ![Add a data table control to a screen](Media/insertDataTable.png "Add a data table control to a screen")
 
-A Data table control is added to the screen. 
-1. Rename the Data table control to SalesOrderTable, and resize it to cover the entire screen 
-1. In the right-hand pane, click or tap the down arrow next to the *No data source selected* text, and then click or tap **Add a data source**
+   A Data table control is added to the screen. 
 
-    ![Add a data source](Media/addDataToDataTable.png)
+3. Rename the Data table control to SalesOrderTable, and resize it to cover the entire screen 
+4. In the right-hand pane, click or tap the down arrow next to the *No data source selected* text, and then click or tap **Add a data source**
+
+   ![Add a data source](Media/addDataToDataTable.png "Add a data source")
     
-1. In the list of connections, click or tap the connection for your database.
+5. In the list of connections, click or tap the connection for your database.
 
-![Choose the connection for your data source](Media/chooseCDSDataTable.png)
+   ![Choose the connection for your data source](Media/chooseCDSDataTable.png "Choose your data connection")
 
-1. In the list of entities, click or tap **Sales order**, and then click or tap **Connect**.
+6. In the list of entities, click or tap **Sales order**, and then click or tap **Connect**.
 
-![Choose the **Sales order** entity](Media/chooseSODataTable.png)
+   ![Choose the **Sales order** entity](Media/chooseSODataTable.png "Choose the Sales order entity")
 
-The Data table is now attached to the **Sales order** data source; however, no data will be shown until the user picks fields to be shown.   
+   The Data table is now attached to the **Sales order** data source; however, no data will be shown until the user picks the desired fields.   
 
-1. In the right-hand pane, select the fields you want to display.  
-The Data table will now populate with data based on the selected fields
-<!-- Add image -->
-1. Reorder the fields as desired by dragging and dropping them in the right hand pane
+7. In the right-hand pane, select the fields you want to display.  
 
-![Reorder fields as desired](Media/fieldReorderDataTable.png)
+   The Data table will now populate with data based on the selected fields
+   <!-- Add image -->
 
-The Data table will update to show the fields in the new order
-<!-- Add image --> 
+8. Reorder the fields as desired by dragging and dropping them in the right hand pane
+
+   ![Reorder fields as desired](Media/fieldReorderDataTable.png)
+
+   The Data table will update to show the fields in the new order
+   <!-- Add image --> 
 
 ### Restyle the Data table header
 1. Click the **Advanced** tab in the right hand pane.
-1. Find and click or tap the input box for the **HeadingFill** property, and modify the value to be **RGBA(62,96,170,1)**.
-1. Find and click or tap the input box for the **HeadingColor** property, and modify the value to be **White**.
-1. Find and click or tap the input box for the **HeadingSize** property, and modify the value to be **14**. 
+2. Find and click or tap the input box for the **HeadingFill** property, and modify the value to be **RGBA(62,96,170,1)**.
+3. Find and click or tap the input box for the **HeadingColor** property, and modify the value to be **White**.
+4. Find and click or tap the input box for the **HeadingSize** property, and modify the value to be **14**. 
 <!-- Add image --> 
 
 ### Connecting a data table to another control
 1. Add an edit form 
-1. Connect to the same data source
-1. Set Item to the data table’s selected row
+2. Connect to the same data source
+3. Set Item to the data table’s selected row
