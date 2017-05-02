@@ -16,6 +16,9 @@ ms.assetid: 0c7f8e4f-8433-447f-85b2-8e3788b3714a
 
 # Dynamics 365 data integration
 
+> [!NOTE]
+> Add pre-release boilerplate.
+
 The Dynamics 365 data integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through Common Data Service. This feature enables a basic flow of accounts and other entity data to enable a prospect-to-cash scenario. This document describes the capabilities, usage guidelines, and current limitations of the Data Integration feature.
 
 The Microsoft Dynamics 365 Data Integration feature is available to customers who have at least one Dynamics 365 product. It enables the flow of data between Microsoft Dynamics products through Common Data Service (CDS). For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party data integration tool.
@@ -86,9 +89,9 @@ The following example shows a value map.
     "india":"IN",
     "in":"IN",
 
-"ind":"IN",
-    "au":"AU",
-    "ca":"CA"
+    "ind":"IN",
+        "au":"AU",
+        "ca":"CA"
     }}\]
 
 ## Synchronization direction
