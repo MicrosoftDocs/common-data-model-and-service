@@ -20,7 +20,7 @@
    
 # Introducing the Data table control in PowerApps
    
-Imagine you have a collection of data (a list sales orders, a set of service tickets, a directory of contacts, etc) that you want to display in your PowerApp in a table-like form, where each column represents a field and each row represents a record. While you could have roughly simulated that rendering in the past with some effort, you now have an easy and quick way to achieve this very standard visualization thanks to the new Data table control that was recently added to PowerApps. You simply need to link your Data table to a data source and select the fields you want to display. 
+Imagine you have a collection of data (a list sales orders, a set of service tickets, a directory of contacts, etc.) that you want to display in your PowerApp in a table-like form, where each column represents a field and each row represents a record. While you could have roughly simulated that rendering in the past with some effort, you now have an easy and quick way to achieve this very standard visualization by using the new Data table control that was recently added to PowerApps. You simply need to link your Data table to a data source and then select the fields you want to display. 
 
 ![Data table control](Media/dataTableExample.png "Data table control")
 
