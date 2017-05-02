@@ -81,6 +81,10 @@ The Data table control allows you to display a dataset in a tabular format, whic
 ## Related functions
 [**Filter(DataSource, Formula)**](https://powerapps.microsoft.com/en-us/tutorials/function-filter-lookup/ "Filter(DataSource, Formula)")
 
+[**Search(DataSource, SearchString, Column)**](https://powerapps.microsoft.com/en-us/tutorials/function-filter-lookup/ "Search(DataSource, SearchString, Column)")
+
+[**Lookup(DataSource, Formula)**](https://powerapps.microsoft.com/en-us/tutorials/function-filter-lookup/ "Lookup(DataSource, Formula)")
+
 ## Examples
 ### Basic data table usage 
 1. Create a blank Tablet app.
