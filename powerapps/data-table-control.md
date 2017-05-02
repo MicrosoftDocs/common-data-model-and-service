@@ -32,7 +32,7 @@ Imagine you have a collection of data (a list sales orders, a set of service tic
 
 + **Read-only data** – Like the Gallery control, the data shown in the Data table control is read-only.  Record editing can be accomplished by linking the selected row in the Data table to an Edit form (or other editable controls).  
 
-+ **Column headings** – A row of column headings is shown at the top of the Data table for reference. The Data table currently allows you to restyle the column headings to get just the visual appearance you’re looking for.  In the future, we plan to embed sorting and filtering functionality into the column headings.  
++ **Column headings** – A row of column headings is shown at the top of the Data table for reference. The Data table currently allows you to restyle the column headings to get just the visual appearance you’re looking for.  
 
 + **Broad customization support** – Several properties have been exposed to allow restyling and customization of the Data table.  This notably includes being able adjust the styling for the entire set of data rows, the selected row, and the row the mouse is currently pointing to.  Finer-grained customization is planned for an upcoming release of the control.   
 
@@ -43,7 +43,7 @@ Imagine you have a collection of data (a list sales orders, a set of service tic
 + We plan to allow fields in the Data table to render as hyperlinks for navigating to other screens or performing other actions.  
 + Finer-grained control of the Data table is planned by allowing selection of individual columns to expose more targeted customizations at the column level. 
 + Support for copy and paste of the Data table control is being looked at to improve the ability to reuse the control.
-+ The Data table control will soon support infinite scrolling behavior, where additional data is fetched when the user nears the end of the scrolling region.  
++ The Data table control will soon support paging through scrolling.
 
 ## We want to hear your feedback
 
