@@ -582,135 +582,86 @@ static async Task SimpleDeleteTestAsync(Client client)
 In this sample we are using Delete on the deleteExecutor to indicate that we want the record to be deleted. Delete deletes the entity but will throw an optimistic concurrency check exception if the entity was edited it was first selected. There is another method called DeleteWithoutConcurrencyCheck that will go ahead and delete the record without considering if changes were made since the entity was selected. 
 
 ## Reading data using generic Entitysets
-In the previous case we had the advantage of dealing with a fully designed OOB entityset, and because of it we were able to use the full complement of features in C# and the tooling (intellisense and debugging support) to write your code. However, there may be cases where an entityset is defined in the portal, but no C# representation is defined. In this case you can refer to values using a weaker model where fields are described by their names, and field types are represented as generic (i.e. type) parameters.
+In the previous chapter we had the luxury of dealing with a fully designed OOB entityset, and because of it we were able to use the full complement of features in C# and the Visual Studio tooling (notably intellisense and debugging support) to write the code. However, there are cases where you will not have the fully compiled classes to work with. One case is when you are working with your custom entitysets but have not generated a C# class for them. Another case where the techiques below become interesting is when you have customized an OOB entityset (like adding a new field). In these cases you can refer to fields using a weaker model where fields are described by their names.
 
-<!---
-//----------------------------------------------------------------------------
-// Copyright (c) Microsoft Corporation. All rights reserved.
-//----------------------------------------------------------------------------
+Let us look at some code using this approach
 
-using System.Collections.Generic;
-using Microsoft.CommonDataService;
-using Microsoft.CommonDataService.Builders;
-using Microsoft.CommonDataService.Entities;
-using Microsoft.CommonDataService.Executers;
-using Microsoft.CommonDataService.Services;
-
-namespace Microsoft.CommonDataService.Samples.SampleLibrary.WorkWithGenericEntity
+```cs
+public static async Task GenericEntitySetUsageAsync(Client client)
 {
-    public class WorkWithGenericEntity
+    var genericEntitySet = client.GetRelationalEntitySet(
+        new EntitySetReference("Microsoft.CommonDataService.CommonEntities",
+        "ProductCategory",
+        Version.Create("1.0.0")));
+
+    // Create a few product categories
+    var genericEntitySurface = genericEntitySet.CreateEntity();
+    genericEntitySurface.SetValue<string>("Name", "Surface");
+    // The compiler can infer the type, so the generic argument describing
+    // the type of the value is not strictly required. This is a shorthand.
+    genericEntitySurface.SetValue("Description", "Surface produce line");
+
+    var genericEntityPhone = genericEntitySet.CreateEntity();
+    genericEntityPhone.SetValue("Name", "Phone");
+    genericEntityPhone.SetValue("Description", "Phone produce line");
+
+    var insertExecutor = client.CreateRelationalBatchExecuter(
+        RelationalBatchExecutionMode.Transactional);
+
+    await insertExecutor
+        .Insert(genericEntitySurface)
+        .Insert(genericEntityPhone)
+        .ExecuteAsync();
+
+    // Create a query using the indexing operators
+    var query = genericEntitySet.CreateQueryBuilder()
+        .Where(pc => pc["Name"] == "Surface" || pc["Name"] == "Phone")
+        .OrderByAscending(pc => new[] { pc["CategoryId"] })
+        .Project(pc => pc.SelectField(f => f["CategoryId"])
+            .SelectField(f => f["Name"])
+            .SelectField(f => f["Description"]));
+
+    var selectExecutor = client.CreateRelationalBatchExecuter(
+        RelationalBatchExecutionMode.Transactional);
+
+    OperationResult<IReadOnlyList<RelationalEntity>> queryResult = null;
+    await selectExecutor
+        .Query(query, out queryResult)
+        .ExecuteAsync();
+
+    var updateExecutor = client.CreateRelationalBatchExecuter(
+        RelationalBatchExecutionMode.Transactional);
+
+    // Traverse the results
+    foreach (var entry in queryResult.Result)
     {
-        //----------------------------------------------------------------------------
-        // This sample is working. You need to have the cert installed locally.
-        //----------------------------------------------------------------------------
+        string categoryId = "";
+        object name = null;
+        string description = "";
 
-        public static void RunSample(Client client, ITelemetryService telemetryService)
+        // The same shorthand is applied there, where the generic type
+        // parameter can be omitted. The expected type can also be 
+        // passed as a parameter of type Type.
+        if (entry.TryGetValue<string>("CategoryId", out categoryId)
+            && entry.TryGetValue("Name", out name, typeof(string))
+            && entry.TryGetValue("Description", out description))
         {
-            Utility.ResetTestData(client);
-
-            telemetryService.TraceInformation("Insert some product categories");
-
-            var genericEntitySet = client.GetRelationalEntitySet(new EntitySetReference("Microsoft.CommonDataService.CommonEntities", "ProductCategory", Version.Create("1.0.0")));
-
-            var genericEntitySurface = genericEntitySet.CreateEntity();
-            genericEntitySurface.SetValue("Name", "Surface");
-            genericEntitySurface.SetValue("Description", "Surface produce line");
-
-            var genericEntityPhone = genericEntitySet.CreateEntity();
-            genericEntityPhone.SetValue("Name", "Phone");
-            genericEntityPhone.SetValue("Description", "Phone produce line");
-
-            var genericEntityD365 = genericEntitySet.CreateEntity();
-            genericEntityD365.SetValue("Name", "D365");
-            genericEntityD365.SetValue("Description", "D365 produce line");
-
-            var insertExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-            insertExecutor
-                .Insert(genericEntityD365)
-                .Insert(genericEntitySurface)
-                .Insert(genericEntityPhone)
-                .ExecuteAsync().Wait();
-
-            var query = genericEntitySet
-                .CreateQueryBuilder()
-                .Where(pc => pc["Name"] == "Surface" || pc["Name"] == "Phone" || pc["Name"] == "D365")
-                .OrderByAscending(pc => new[] { pc["CategoryId"] })
-                .Project(pc => pc.SelectField(f => f["CategoryId"]).SelectField(f => f["Name"]).SelectField(f => f["Description"]));
-
-            var selectExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-            var updateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-
-            OperationResult<IReadOnlyList<GenericRelationalEntity>> queryResult = null;
-
-            selectExecutor
-                .Query(query, out queryResult)
-                .ExecuteAsync().Wait();
-
-            telemetryService.TraceInformation("Select product categories");
-
-            foreach (var entry in queryResult.Result)
-            {
-                string categoryId;
-                string name;
-                string description;
-
-                if (entry.TryGetValue("CategoryId", out categoryId) && entry.TryGetValue("Name", out name) && entry.TryGetValue("Description", out description))
-                {
-                    telemetryService.TraceInformation("Product category: {0} - {1} - {2}", categoryId, name, description);
-
-                    var updateProductCategory = client.CreateRelationalFieldUpdates(genericEntitySet);
-                    string newDescription = "Desc: " + name;
-                    updateProductCategory.Update(e => e["Description"], newDescription);
-
-                    updateExecutor.Update(entry, updateProductCategory);
-                }
-            }
-
-            telemetryService.TraceInformation("Update product categories");
-
-            updateExecutor.ExecuteAsync().Wait();
-
-            var selectAfterUpdateExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-            var deleteExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-
-            OperationResult<IReadOnlyList<GenericRelationalEntity>> queryAfterUpdateResult = null;
-
-            selectAfterUpdateExecutor
-                .Query(query, out queryAfterUpdateResult)
-                .ExecuteAsync().Wait();
-
-            telemetryService.TraceInformation("Select again, to check the update");
-
-            foreach (var entry in queryAfterUpdateResult.Result)
-            {
-                string categoryIdValue;
-                string nameValue;
-                string descriptionValue;
-                entry.TryGetValue("CategoryId", out categoryIdValue);
-                entry.TryGetValue("Name", out nameValue);
-                entry.TryGetValue("Description", out descriptionValue);
-                telemetryService.TraceInformation("Product category: {0} - {1} - {2}", categoryIdValue, nameValue, descriptionValue);
-                deleteExecutor.DeleteWithoutConcurrencyCheck(entry);
-            }
-
-            telemetryService.TraceInformation("Now delete everything");
-            deleteExecutor.ExecuteAsync().Wait();
-
-            var selectAfterDeleteExecutor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
-
-            OperationResult<IReadOnlyList<GenericRelationalEntity>> queryAfterDeleteResult = null;
-
-            selectAfterDeleteExecutor
-                .Query(query, out queryAfterDeleteResult)
-                .ExecuteAsync().Wait();
-
-            telemetryService.TraceInformation("Select again, to check the delete");
-
-            int i = queryAfterDeleteResult.Result.Count;
-
-            telemetryService.TraceInformation("{0} Product category found", i);
+            Console.WriteLine("{0} - {1} - {2}", categoryId, name, description);
         }
     }
 }
+```
+You will notice a few things. The C# compiler allows some syntactic sugar allowing the user to omit the generic type parameter when the compiler is able to determine the type from the type of the arguments provided. In this case, the call SetValue method is defined as 
+```cs
+Entity Entity.SetValue<T>(string fieldName, T val);
+```
+When the compiler sees a call 
+```cs
+genericEntitySurface.SetValue("Name", "Surface");
+```
+is sees that the type of T is string based on the type of the string literal. To make things clearer, we could have written 
+```cs
+genericEntitySurface.SetValue<string>("Name", "Surface");
+```
+Similar considerations are in place for the TryGetValue calls. The conclusion is that the type of the field must be known at compile time, either by providing a generic type argument (either implicitly or explicitly) or by providing a System.Type instance.
 
--->
