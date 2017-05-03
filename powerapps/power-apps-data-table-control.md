@@ -23,7 +23,7 @@ The Data table control in Microsoft PowerApps is a control that shows a set of d
 
 ## Description
 The Data table control lets you show a dataset in a tabular format that includes column headers for each field that is visualized. As the maker, you have full control over the fields that are shown from the data source and the order that the fields appear in. The Data table control maintains a **Selected** property that, like the Gallery, points to the single row that is currently selected. Therefore, the Data table can be linked to other controls.
-
+ 
 ## Key properties
 
 + [**Items**](https://powerapps.microsoft.com/en-us/tutorials/properties-core/ "Items") – The source of data that appears in the control.
