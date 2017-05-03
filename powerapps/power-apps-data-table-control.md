@@ -22,7 +22,7 @@
 A control that shows a set of data in a tabular format. 
 
 ## Description
-The Data table control allows you to display a dataset in a tabular format, which includes column headers for each field visualized. You, as the maker, have full control over the fields you want to show from the data source as well as the order in which those fields appear. The Data table control maintains a Selected property that, like the Gallery, points to the single row that is currently selected, which can be used to link the Data table to other controls.  
+The Data table control allows you to display a dataset in a tabular format, which includes column headers for each field that is visualized. As the maker, you have full control over the fields that you want to show from the data source and the order in which the fields appear. The Data table control maintains a Selected property that, like the Gallery, points to the single row that is currently selected, which can be used to link the Data table to other controls.  
 
 ## Key properties
 [**Items**](https://powerapps.microsoft.com/en-us/tutorials/properties-core/ "Items") – The source of data that appears in the control
@@ -37,9 +37,9 @@ The Data table control allows you to display a dataset in a tabular format, whic
 
 **SelectedColor** – The color of text in the selected row
 
-[**HoverFill**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "HoverFill") – The background color of the row the mouse is currently pointing at
+[**HoverFill**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "HoverFill") – The background color of the row that the mouse is currently pointing at
 
-[**HoverColor**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "HoverColor") – The color of text in the row the mouse is currently pointing at
+[**HoverColor**](https://powerapps.microsoft.com/en-us/tutorials/properties-color-border/ "HoverColor") – The color of text in the row that the mouse is currently pointing at
 
 **HeadingFont** – The font of the column headings
 
@@ -67,9 +67,9 @@ The Data table control allows you to display a dataset in a tabular format, whic
 
 [**Size**](https://powerapps.microsoft.com/en-us/tutorials/properties-text/ "Size") – The default font size for all data rows
 
-[**X**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "X") – The distance between the left edge of a Data table and the left edge of its parent container (screen if no parent container)
+[**X**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "X") – The distance between the left edge of a Data table and the left edge of its parent container (or screen if there is no parent container)
 
-[**Y**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Y") – The distance between the top edge of a Data table and the top edge of its parent container (screen if no parent container)
+[**Y**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Y") – The distance between the top edge of a Data table and the top edge of its parent container (or screen if there is no parent container)
 
 [**Width**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Width") – The distance between a Data table’s left and right edges
 
@@ -94,8 +94,8 @@ The Data table control allows you to display a dataset in a tabular format, whic
 
    A Data table control is added to the screen. 
 
-3. Rename the Data table control to SalesOrderTable, and resize it to cover the entire screen 
-4. In the right-hand pane, click or tap the down arrow next to the *No data source selected* text, and then click or tap **Add a data source**
+3. Rename the Data table control to SalesOrderTable, and resize it to cover the entire screen. 
+4. In the right-hand pane, click or tap the down arrow next to the *No data source selected* text, and then click or tap **Add a data source**.
 
    ![Add a data source](Media/addDataToDataTable.png "Add a data source")
     
@@ -109,24 +109,24 @@ The Data table control allows you to display a dataset in a tabular format, whic
 
    The Data table is now attached to the **Sales order** data source; however, no data will be shown until the user picks the desired fields.   
 
-7. In the right-hand pane, select the fields you want to display. For this example, we'll choose SalesOrderId, Account, OrderDate, and Status. 
+7. In the right-hand pane, select the fields you want to display. For this example, choose SalesOrderId, Account, OrderDate, and Status. 
 
-   The Data table will now populate with data based on the selected fields.
+   The Data table is populated with data that is based on the selected fields.
    
    ![Data table](Media/preOrderDataTable.png "Data table")
 
-8. Reorder the fields as desired by dragging and dropping them in the right hand pane
+8. Reorder the fields by dragging and dropping them in the right hand pane.
 
    ![Reorder fields as desired](Media/fieldReorderDataTable.png)
 
-   The Data table will update to show the fields in the new order
+   The Data table will update to show the fields in the new order.
    ![Data table](Media/postOrderDataTable.png "Data table")
 
 ### Restyle the Data table header
 1. Click the **Advanced** tab in the right hand pane.
-2. Find and click or tap the input box for the **HeadingFill** property, and modify the value to be **RGBA(62,96,170,1)**.
-3. Find and click or tap the input box for the **HeadingColor** property, and modify the value to be **White**.
-4. Find and click or tap the input box for the **HeadingSize** property, and modify the value to be **14**. 
+2. Click or tap the input box for the **HeadingFill** property, and change the value to **RGBA(62,96,170,1)**.
+3. Click or tap the input box for the **HeadingColor** property, and change the value to **White**.
+4. Click or tap the input box for the **HeadingSize** property, and change the value to **14**. 
    ![Data table](Media/restyledDataTable.png "Data table")
 
 ### Connecting a data table to another control
@@ -136,7 +136,7 @@ The Data table control allows you to display a dataset in a tabular format, whic
    ![Data table and edit form on the same screen](Media/dataTableEmptyForm.png "Data table and edit form on the same screen")
    
 3. Connect the Edit form to the Sales order data source. 
-4. In the right-hand pane, select the fields you want to display in the Edit form. For this example, we'll choose SalesOrderId, Status, Name, Description, and Total amount.
+4. In the right-hand pane, select the fields you want to display in the Edit form. For this example, select SalesOrderId, Status, Name, Description, and Total amount.
 
    ![Edit form showing five fields](Media/dataTableDisconnectedForm.png "Edit form showing five fields")
    
