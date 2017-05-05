@@ -16,101 +16,103 @@ ms.assetid: "34eddae8-3715-4bd6-b921-5bfb82d9df1c"
 # Get started with the Common Data Service SDK
 
 ## Overview
-It's easy to get started programming against the Common Data Service. This topic walks you through getting a console application up and running. 
 
-There are four key steps:
+It's easy to start to program against the Common Data Service. This topic walks you through the process of getting a console application up and running. 
 
-1. **Database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a database. This allows you to configure the SDK to access that database.
-1. **Application registration**. To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs to access the APIs.
-1. **Console project creation and configuration**. You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from scratch, you will need to create a new C# Console Application project in Visual Studio and apply the Common Data Service SDK NuGet package. This will add all assembly references needed to start programming. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
-1. **Programming and running your application**. At this point, you can program against the APIs in the SDK. You can then run and debug your application like you would with any other .NET application. For a more advanced understanding of the SDK, you can also examine any data changes made by your applications, from the PowerApps portal, or dig deeper into the interactions between the client library and web service APIs, using Fiddler.
+There are four main steps:
+
+1. **Database acquisition** – Currently, the Common Data Service is available only through Microsoft PowerApps. You must get access to a PowerApps environment and make sure that it contains a database. You can then configure the software development kit (SDK) to access that database.
+1. **Application registration** – To enable your application to access the Common Data Service, you must register your application in Microsoft Azure Active Directory (Azure AD). You can then establish an identity for your application and specify the permission level that it requires in order to access the application programming interfaces (APIs).
+1. **Console project creation and configuration** – You can skip most of this step if you choose to start from the sample console application that we provide. If you choose to start from scratch, you must create a new C# Console Application project in Microsoft Visual Studio and apply the Common Data Service SDK NuGet package. This step will add all the assembly references that are required in order to start programming. You also add configuration values that you obtain in previous steps to the app.config file, so that the SDK works correctly.
+1. **Programming and running your application** – At this point, you can program against the APIs in the SDK. You can then run and debug your application as you would run and debug any other .NET application. For a more advanced understanding of the SDK, from the PowerApps portal, you can also examine any data changes that are made by your applications. Alternatively, you can dig deeper into the interactions between the client library and web service APIs by using Fiddler.
 
 # Database acquisition
 
-The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a Common Data Service database. This allows you to configure the SDK to access that database.
+Currently, the Common Data Service is available only through PowerApps. You must get access to a PowerApps environment and make sure that it contains a Common Data Service database. You can then configure the SDK to access that database.
 
 ## Prerequisites
-1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not signed up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/).
-1. Ensure you have admin access to an environment containing a Common Data Service database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/tutorials/create-database/).
+
+1. If you've already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you haven't yet signed up, you can follow [these instructions](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) to sign up.
+1. Make sure that you have admin access to an environment that contains a Common Data Service database. Go to the [PowerApps portal](https://powerapps.microsoft.com), click the gear icon in the upper right of the page, and then click **Admin center**. If you don't have admin access to any environments that contain a database, follow [these instructions](https://powerapps.microsoft.com/tutorials/create-database/) to create a database.
 
 ## Getting the environment ID
 
-After acquiring an environment that contains a database, you can use that environment's identifier to configure your application. The **environment ID** can be found as part of the URI you are using to access the environment. Record this value as it will be used in the upcoming configuration step. An example of a URI and environment ID are:
+After you acquire an environment that contains a database, you can use that environment's identifier to configure your application. The environment ID is part of the URI that you use to access the environment. Record this value, because you will use it in upcoming configuration steps. Here is an example of a URI and the environment ID that is part of it:
 
-    URI: https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
-    Environment ID: d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
++ **URI:** https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
++ **Environment ID:** d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
 
 # Application registration
 
-To allow your application access to the Common Data Service, you need to register your application in **Azure Active Directory**. This allows you to establish an identity for your application and specify the permission level it needs to access the APIs.
+To enable your application to access the Common Data Service, you must register your application in Azure AD. You can then establish an identity for your application and specify the permission level that it requires in order to access the APIs.
 
 ## Prerequisites
 
-If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an application registration under Azure Active Directory. If not, you can go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
+If you've already signed up for an Azure subscription, go to the [Azure portal](https://portal.azure.com), and make sure that you can create an application registration under Azure AD. If you haven't yet signed up, you can go to the [Azure site](https://azure.microsoft.com) and sign up for a free trial.
 
-1. In [Azure portal](https://portal.azure.com) go to **Azure Active Directory** 
-1. Click on **Properties** and copy the value of **Directory ID** and record it as config variable **AAD tenant** for upcoming steps. Alternatively, you can use the domain name from your AAD login email.
+1. In [the Azure portal](https://portal.azure.com), go to **Azure Active Directory**.
+1. Click **Properties**, copy the **Directory ID** value, and record it as the **AAD tenant** configuration variable for upcoming steps. Alternatively, you can use the domain name from your Azure AD sign-in email message.
 
 ## Application registration
 
-Follow these steps to register and configure an application in Azure AD:
+Follow these steps to register and configure an application in Azure AD.
 
-1. Go back to **Azure Active Directory** then click on **App registrations**. 
-1. Create the application resource used to prompt and login the user:
-    1. Click on **Add** to see a Create pane.
-    1. Enter a **Name** for your registered application.
-    1. Select **Native** as application type.
-    1. Add a **Redirect URI**. It can be any valid URI string. For example: http://localhost.
-    1. Record value for **Redirect URI** for configuration in later steps.
-    1. Click on **Create**.
-1. Open the **registered app**:
+1. Go back to **Azure Active Directory**, and click **App registrations**. 
+1. Create the application resource that is used to prompt and sign in the user:
+    1. Click **Add** to open a **Create** pane.
+    1. Enter a name for your registered application.
+    1. Select **Native** as the application type.
+    1. In the **Redirect URI** field, enter any valid URI string, such as **http://localhost**.
+    1. Record the **Redirect URI** value for upcoming steps.
+    1. Click **Create**.
+1. Open the registered app:
     1. Search for your newly registered app by name.
-    1. Click on it after finding it in the list of applications.
-    1. Record configuration value **Application ID** for upcoming steps.
-1. Setup **required permissions** for connecting to the Common Data Service:
-    1. Click on **Required permissions** to open a new pane.
-    1. Click on **Add**.
+    1. When you find the app in the list of applications, click it.
+    1. Record the **Application ID** configuration value for upcoming steps.
+1. Set up the required permissions for connecting to the Common Data Service:
+    1. Click **Required permissions** to open a new pane.
+    1. Click **Add**.
     1. Navigate to **Select an API**.
-    1. Search for and choose **PowerApps Runtime Service**, then click **Select**. If you cannot find this service refer to the **Troubleshooting** section under **Required permissions service not found**.
-    1. Check all entries under **Delegated permissions**, then click **Select**.
-    1. Click on **Done** to finalize setting up permissions for this service.
-    1. Repeat the steps above for **Windows Azure Service Management API**.
+    1. Search for and select **PowerApps Runtime Service**, and then click **Select**. If you can't find this service, see "Required permissions service isn't found" in the "Troubleshooting" section, later in this topic.
+    1. Select all the entries under **Delegated permissions**, and then click **Select**.
+    1. Click **Done** to complete the setup of permissions for this service.
+    1. Repeat the preceding steps for **Windows Azure Service Management API**.
 
 # Console project creation and configuration
 
-You can skip most of this step if you choose to start from the sample console application we provide you. If you choose to start from scratch, you need to create a new Visual Studio C# Console Application project and apply the Common Data Service SDK NuGet package. This will add all assembly references needed to start programming. You would also add configuration values obtained from previous steps to the app.config, which will allow the SDK to function properly.
+You can skip most of this step if you choose to start from the sample console application that we provide. If you choose to start from scratch, you must create a new Visual Studio C# Console Application project and apply the Common Data Service SDK NuGet package. This step will add all assembly references that are required in order to start programming. You also add configuration values that you obtained in previous steps to the app.config file, so that the SDK works correctly.
 
 ## Prerequisites
-To create a new console project, you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer. 
 
-Ensure you have the following configuration values from previous steps:
+To create a new console project, you must have [Microsoft Visual Studio 2015](https://www.visualstudio.com/) or later installed on your computer. 
 
-1. **AAD tenant**. This value identifies the tenant your database resides in.
-1. **AAD application ID**. This value identifies the AAD app you registered earlier.
-1. **AAD application redirect URI**. This value specifies the redirect URI used when you are prompted to login.
-1. **PowerApps environment ID**. This value identifies the PowerApps environment that contains your target
-database.
+Make sure that you have the following configuration values from previous steps:
+
++ **AAD tenant** – This value identifies the tenant that your database resides in.
++ **AAD application ID** – This value identifies the Azure AD app that you registered earlier.
++ **AAD application redirect URI** – This value specifies the redirect URI that is used when you're prompted to sign in.
++ **PowerApps environment ID** – This value identifies the PowerApps environment that contains your target database.
 
 ## Sample console application
 
-For the private preview release, a project called `SampleConsoleApplication` will be included in the Common Data Service SDK material. If you choose to go with the sample project, perform the following:
+For the private preview release, a project that is named SampleConsoleApplication is included in the Common Data Service SDK material. If you choose to use the sample project, follow these steps.
 
-1. Replace the brackets in **App.config** with configuration values mentioned in the **Prerequisites** section above.
-1. Skip to the last part of **Programming and running the console application** to **Compile and run the project**. 
+1. Replace the brackets in the App.config file with the configuration values that are mentioned in the "Prerequisites" section earlier in this topic.
+1. Skip to "Compile and run the project" in the "Programming and running the console application" section, later in this topic. 
 
-## Project creation and configuraion
+## Project creation and configuration
 
-1. Start **Visual Studio**.
-1. From the **File** menu select **New project**.
-1. In the **New Project** dialog box, click **Installed > Templates > Visual C#**.
-    1. Choose **Console Application**.
-    1. Make sure that .NET Framework 4.5.2 is selected as the target framework.
-    1. Specify a name for your project and create the new Visual Studio solution.
-1. **Note** - During private preview, the Common Data Service SDK NuGet package is not searchable. It shouold be directly applied from the **Package Manager Console**:
-    1. Go to **Tools > NuGet Package Manager > Package Manager Console**.
-    1. Enter the install command for your specific target version of the SDK, using a command like: `Install-Package Microsoft.CommonDataService -Version 1.0.188-preview -Pre`
-1. In Solution Explorer, open the **App.config** file and paste in the XML at the bottom of this section, starting right after the opening `<configuration>` tag.
-1. Replace the bracket text with configuration values mentioned in the **Prerequisites** section.
+1. Start Visual Studio.
+1. On the **File** menu, click **New project**.
+1. In the **New Project** dialog box, click **Installed** > **Templates** > **Visual C#**, and then follow these steps:
+    1. Select **Console Application**.
+    1. Make sure that the Microsoft .NET Framework version 4.5.2 is selected as the target framework.
+    1. Specify a name for your project, and create the new Visual Studio solution.
+1. Note that during private preview, the Common Data Service SDK NuGet package isn't searchable. It should be directly applied from the Package Manager Console:
+    1. Go to **Tools** > **NuGet Package Manager** > **Package Manager Console**.
+    1. Enter the install command for your specific target version of the SDK, such as **Install-Package Microsoft.CommonDataService -Version 1.0.188-preview -Pre**.
+1. In Solution Explorer, open the App.config file, and paste in the XML at the bottom of this section, right after the opening **\<configuration\>** tag.
+1. Replace the bracketed text with the configuration values that are mentioned in the "Prerequisites" section earlier in this topic.
 
 ```xml
 <configSections>
@@ -126,13 +128,13 @@ For the private preview release, a project called `SampleConsoleApplication` wil
     </Credentials>
 </Microsoft.CommonDataService.Connection>
 ```
-Note that `Type` is set to **User** inside the `<Credentials>` XML element, which signifies that you will be prompted to login at startup. If you want to save time by automating your login, remove the XML element `<UserSource>Prompt</UserSource>` under Credentials. This element and value indicates you will always be prompted at runtime.
-
+Note that **Type** is set to **User** inside the opening **\<Credentials\>** tag. This value indicates that you will be prompted to sign in at startup. To save time by automating your sign-in, remove the **\<UserSource\>Prompt\</UserSource\>** XML element inside the **Credentials** element. This element and its value indicate that you will always be prompted at run time.
 
 # Programming and running the console application
-At this point, you can program against the APIs. You can then run and debug your application like you would with any other .NET application. 
 
-From Solution Explorer, open the **Program.cs** file, and replace `using` statements on top with following code:
+At this point, you can program against the APIs. You can then run and debug your application as you would run and debug any other .NET application. 
+
+From Solution Explorer, open the Program.cs file, and replace the **using** statements at the top with the following code.
 
 ```cs
 using Microsoft.CommonDataService;
@@ -143,7 +145,7 @@ using System;
 using System.Collections.Generic;
 ```
 
-In **Program.cs**, add a **`[STAThread]`** attribute to the **`Main()`** entry method, then copy the following code snippet inside that same method.
+In Program.cs, add a **[STAThread]** attribute to the **Main()** entry method, and then copy the following code snippet inside that same method.
 
 ```cs
 using (var client = ConnectionSettings.Instance.CreateClient().Result)
@@ -202,40 +204,44 @@ using (var client = ConnectionSettings.Instance.CreateClient().Result)
 
 ### Compile and run the project
 
-1. Ensure the project compiles by right clicking on the project and clicking **Build**.
-1. Set a breakpoint on the line of code declaring `updateProductCategory` and run your code by clicking on **Start** or pressing **F5**.
-1. Login using **your credentials** when the Azure AD prompt appears. The first time you run the application, you will be prompted to allow the AAD application you registered earlier to access the services used.
-1. Verify that the program runs and retrieves the newly inserted `ProductCategory` entities.
+1. Make sure that the project is compiled by right-clicking the project and then clicking **Build**.
+1. Set a breakpoint on the line of code that declares **updateProductCategory**, and then run your code by clicking **Start** or pressing F5.
+1. When the Azure AD prompt appears, sign in by using your credentials. The first that time you run the application, you are prompted to allow the Azure AD application that you registered earlier to access the services that are used.
+1. Verify that the program runs and retrieves the newly inserted **ProductCategory** entities.
 
-## Advanced - Examining data changes
+## Advanced: Examining data changes
 
-You can examine the data changes made by your console applications, from the PowerApps portal. Go to [PowerApps](https://powerapps.microsoft.com), sign in, and go to the **Common Data Service** section in the left navigation pane.
+From the PowerApps portal, you can examine the data changes that your console applications make. 
 
-Click on **Entities**, search for and select **Product category**,  then click on the **Data** tab in the top navigation section. You will be able to see the changes made to this entity by your console application.
+1. Go to [PowerApps](https://powerapps.microsoft.com), and sign in.
+1. In the left navigation pane, go to the **Common Data Service** section.
+1. Click **Entities**, search for and select **Product category**,  and then click on the **Data** tab in the top navigation section. You now see the changes that your console application made to this entity.
 
-You can build an application in PowerApps on this data and have the SDK and PowerApps work with the same data.
+You can build an application on this data in PowerApps. The SDK and PowerApps can work with the same data.
 
-## Advanced - Inspecting Common Data Service HTTPS interactions
+## Advanced: Inspecting Common Data Service HTTPS interactions
 
-You can dig a bit deeper into the interactions the client library is making with the web service APIs.
+You can dig a bit deeper into the client library's interactions with the web service APIs.
 
-For this step you need to download [Fiddler](http://www.telerik.com/fiddler), a free web debugging proxy. After registering, downloading, and installing the Fiddler tool, you can follow the steps to [configure Fiddler to decrypt HTTPS traffic](http://docs.telerik.com/fiddler/configure-fiddler/tasks/decrypthttps) since the web service APIs are based on HTTPS. 
+For this step, you must download [Fiddler](http://www.telerik.com/fiddler), which is a free web debugging proxy. After you register, download, and install the Fiddler tool, you can follow [these steps](http://docs.telerik.com/fiddler/configure-fiddler/tasks/decrypthttps) to configure Fiddler to decrypt HTTPS traffic, because the web service APIs are based on HTTPS. 
 
-**Note**: By performing the steps described in Telerik Fiddler documentation and allowing HTTPS traffic to be decrypted, you are exposing your computer to security risks, for which Microsoft cannot be held responsible. Please consult Telerik Fiddler documentation for details of these risks.
+**Note:** By following the steps that are described in the Telerik Fiddler documentation and allowing decryption of HTTPS traffic, you expose your computer to security risks that Microsoft cannot be held responsible for. For details about these risks, see the Telerik Fiddler documentation.
 
-Use Fiddler to capture and inspect the traffic generated by the console application:
+To use Fiddler to capture and inspect the traffic that is generated by the console application, follow these steps.
 
-1. Go to **File**, then select **Capture traffic** for the tool to record network activity. Alternatively you can press **F12** to enable and disable traffic capture.
-1. To remove noise, you can right click on any repeating calls, select **Filter Now**, then click on **Hide '{process name}'**. Verify that the process name is not one you want to monitor.
-1. Run the console program above while capturing traffic and examine its request and response contents by clicking on the **Inspectors** tab on the details pane, then selecting the **JSON** or **Raw** tabs corresponding to the request and response.
-1. A few interesting calls will be made to hosts named as follows:
-    1. **login.windows.net**, **login.microsoftonline.com**. These calls perform authentication against Azure AD.
-    1. **management.azure.com**. This call discovers where the Common Data Service endpoint for your database is located.
-    1. **https://[unique-id].rsu.powerapps.com**. These calls perform data operations against the Common Data Service.
+1. On the **File** menu, click **Capture traffic** so that the tool records network activity. Alternatively, you can press F12 to enable and disable traffic capture.
+1. To remove noise, you can right-click any repeating calls, select **Filter Now**, and then click **Hide '{process name}'**. Verify that the process name is not the name of a process that you want to monitor.
+1. Run the preceding console program while the tool captures traffic. To examine the request and response contents, in the details pane, click the **Inspectors** tab, and then select the **JSON** or **Raw** tabs that correspond to the request and response.
 
-Request and response content of calls above will describe the operation type, data and metadata, that the SDK passed to and from the Common Data Service. Also, you can find authentication information in these calls, in the form of the request `Authorization` header going to **management.azure.com** and **https://[unique-id].rsu.powerapps.com**. 
+Here are some of the interesting calls that will be made to hosts:
 
-You can inspect these security tokens in more detail by decoding them at [jwt.io](https://jwt.io/). The following is an example of a security token used to call the Common Data Service, with some properties removed. Note that `appid` value matches **AAD application ID**, `upn` value matches the logged in AAD user, and `aud` value matches the resource ID for **PowerApps Runtime Service**. Alternatively, in security tokens from calls to **management.azure.com**, `aud` value will match the resource ID of **Windows Azure Service Management API**.
++ **login.windows.net**, **login.microsoftonline.com** – These calls perform authentication against Azure AD.
++ **management.azure.com** – This call discovers where the Common Data Service endpoint for your database is located.
++ **https://[unique-id].rsu.powerapps.com** – These calls perform data operations against the Common Data Service.
+
+The request and response contents of the preceding calls will describe the operation type, data, and metadata that the SDK passed to and from the Common Data Service. You can also find authentication information in these calls, in the form of the **Authorization** request header that goes to **management.azure.com** and **https://[unique-id].rsu.powerapps.com**. 
+
+You can inspect these security tokens in more detail by decoding them at [jwt.io](https://jwt.io/). The following example shows a security token that is used to call the Common Data Service. Some of the properties have been removed. Note that the **appid** value matches the **AAD application ID** configuration value, the **upn** value matches the signed-in Azure AD user, and the **aud** value matches the resource ID for **PowerApps Runtime Service**. (In security tokens from calls to **management.azure.com**, the **aud** value will match the resource ID of **Windows Azure Service Management API**.)
 
 ```javascript
 {
@@ -258,11 +264,11 @@ You can inspect these security tokens in more detail by decoding them at [jwt.io
 
 # Troubleshooting
 
-This section contains the common issues encountered and reported by consumers of this topic.
+This section describes some common issues that are encountered and reported by consumers of this topic.
 
-## Required permissions service not found
+## Required permissions service isn't found
 
-In some AAD configurations, like with nested tenants, you may be unable to find the **PowerApps Runtime Service** and **Windows Azure Service Management API** when setting up required permissions described in the secion **Application registration** above. In this case, you need to modify the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane. Add the following entries under the JSON array named `requiredResourceAccess` while maintaining validity of the manifest, then click **Save**.
+In some Azure AD configurations, such as configurations that have nested tenants, you might not be able to find **PowerApps Runtime Service** and **Windows Azure Service Management API** when you set up the required permissions that are described in the "Application registration" section earlier in this topic. In this case, you must directly modify the application's JSON manifest by clicking **Manifest** at the top of the registered app pane. Add the following entries under the JSON array that is named **requiredResourceAccess**, but be sure to maintain validity of the manifest. When you've finished, click **Save**.
 
 ```javascript
 {
@@ -287,13 +293,13 @@ In some AAD configurations, like with nested tenants, you may be unable to find 
 
 ## Offline NuGet package
 
-If you are using an offline version of the NuGet package for any reason, you can add the offline feed as follows:
+If you're using an offline version of the NuGet package for any reason, you can add the offline feed by following these steps.
 
-1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and navigate to **Package Sources**.
-1. Add a new source by clicking on the plus symbol on top.
-1. Set **Name** to "Local CDS Packages".
-1. Set **Source** to the local folder path. For example: C:\Users\user1\Desktop\NuGet
-1. Follow the main instructions on applying **Microsoft.CommonDataService**.
+1. Go to **Tools** > **NuGet Package Manager** > **Package Manager Settings**, and then navigate to **Package Sources**.
+1. Add a new source by clicking the plus sign (+) at the top.
+1. Set the **Name** field to **Local CDS Packages**.
+1. Set the **Source** field to the local folder path, such as **C:\Users\user1\Desktop\NuGet**.
+1. Follow the main instructions for applying **Microsoft.CommonDataService**.
 
 <!---
 # [Microsoft internal]
