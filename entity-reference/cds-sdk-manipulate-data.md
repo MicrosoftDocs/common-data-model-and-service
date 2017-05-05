@@ -1,5 +1,5 @@
 ---
-title: "Manipulate your data using the Common Data Service SDK | Microsoft Docs"
+title: "Manipulate your data by using the Common Data Service SDK | Microsoft Docs"
 description: ""
 author: "pvillads"
 manager: "robinarh"
@@ -13,30 +13,37 @@ audience: "Developer"
 ms.assetid: "d4ee3160-96cb-47b7-8e24-cdc57c9d8420"
 ---
 
-# Manipulate your data using the Common Data Service SDK
+# Manipulate your data by using the Common Data Service SDK
 
-In this document we will discuss how the C# SDK for CDS can be used to do work with data stored in the CDS data cloud. The examples herein deal with CRUD operations on business data stored in relational data stores.
+This topic explains how you can use the C# software development kit (SDK) for the Common Data Service to work with data that is stored in the Common Data Service data cloud. The examples in this topic involve create, read, update, and delete (CRUD) operations on business data that is stored in relational data stores.
 
 ## Background
-The C# CDS SDK is designed for building responsive applications that leverage the backing computational resources as effectively as possible. The operations performed by the SDK are made available in the target language (C# in this case) as an embedded domain specific language that is designed to handle any data access request against any data store. Even though you can access the data without using an SDK you will find that using one will raise the abstraction level, allowing you to focus on your business logic needs, rather than on transport protocols, JSON documents etc. You will  have seen this approach, that details about how data is access are hidden to the user, before - this is the same strategy used in LINQ, but the language used here is more geared towards ERP applications and is backed by a solid modeling framework describing your entitysets.
 
-In the examples below we will be demonstrate common data access scenarios using the Out-of-Box entities (henceforth OOBs), i.e. the entitysets that are shipped along with the SDK. Using these entitysets makes the examples very simple since the tooling in the maker portal has created typesafe representations that are easy to work with. While this the recommended way to work with entitysets, it is quite possible to work with entitysets that are not defined in this way; you will see how this is done at the end of this document. You can see how the OOBs are defined (the fields, the relationships the entityset has to other entitysets and so on) in the maker portal in your environment. 
+The C# Common Data Service SDK is designed for building responsive applications that use the backing computational resources as effectively as possible. The operations that the SDK performs are made available in the target language (C# in this case), as an embedded domain-specific language that is designed to handle any data access request against any data store. Although you can access the data without using an SDK, an SDK raises the abstraction level, so that you can focus on your business logic requirements instead of transport protocols, JavaScript Object Notation (JSON) documents, and so on.
+
+In this approach, details about how data is accessed are hidden to the user. This is the same strategy that is used in Language Integrated Query (LINQ). However, the language that is used here is geared more toward enterprise resource planning (ERP) applications and is backed by a solid modeling framework that describes your entitysets.
+
+The examples that follow demonstrate typical data access scenarios by using the out-of-box (OOB) entities. These entities are the entitysets that are released together with the SDK. These entitysets simplify the examples, because the tooling in the maker portal has created type-safe representations that are easy to work with. Although this way of working with entitysets is the recommended way, you can also work with entitysets that aren't defined in this manner. An example is provided at the end of this topic. In the maker portal in your environment, you can see how the OOB entities are defined (the fields, the relationships that the entityset has to other entitysets, and so on). 
 
 ## Terminology
-The SDK uses the term entityset where other material describing relational databases would use the term table. The individual row in the tables are called entities. While this is consistent with current nomenclature, it  may be confusing at first, since the maker portal, that allows editing of entitysets, used the work entity (instead of entityset) as a synonym for tables. 
+
+The SDK uses the term _entityset_ where other material that describes relational databases would use the term _table_. The individual rows in the tables are known as entities. Although this terminology is consistent with the current nomenclature, you might find it confusing at first, because the maker portal, where you can edit entitysets, uses the word _entity_ (not _entityset_) as a synonym for _table_. 
 
 ## Programming model
-The programming model chosen for the C# SDK uses all the facilities from C# to build an embedded domain specific language. The majority of the APIs offered by the SDK are implemented as aynchronous calls. Aynchronous calls are executed such that an awaited call will not block the thread that it is running on; instead the flow of control will immediately return to the caller. Once the call finishes, the execution will resume from the continuation of the await call. 
 
-Most of the APIs are written to support lambda functions. We explain this below when we run through some examples. 
+The programming model that was chosen for the C# SDK uses all the facilities from C# to build an embedded domain-specific language. Most of the application programming interfaces (APIs) that the SDK offers are implemented as asynchronous calls. Asynchronous calls are run in such a manner that an awaited call doesn't block the thread that it's running on. Instead, the flow of control immediately returns to the caller. After the call is completed, execution resumes from the continuation of the await. 
 
-There is no concept of an explicit transaction to contend with. As you will see, you add all the records that are subject to modification to what is known as a batch executer. The batch executer is then charged with managing the transaction in the most effective manner, running as quickly as possible to maximize efficiency. 
+Most of the APIs are written to support lambda functions. We will explain this term later in the topic when we go through some examples. 
+
+There is no concept of an explicit transaction to contend with. As you will see, you add all the records that are subject to modification to what is known as a batch executor. The batch executor is then responsible for managing the transaction in the most effective manner. It runs as quickly as possible to maximize efficiency. 
 
 ## The client instance
-Before you do any operation with the data in CDS you need to be authenticated by the Azure Active Directory (AAD). The system will do this based on a set of configuration settings that are set up in configuration files in your project. In that configuration file (that is typically called App.config) you will specify the Application Id that you registered on the Azure portal, the ID of the environment that contains your data, and how you want to authenticate.
+
+Before you perform any operation with the data in the Common Data Service, you must be authenticated by Microsoft Azure Active Directory (Azure AD). The system does this authentication, based on a set of configuration settings in the configuration file in your project. In that configuration file, which is typically named App.config, you specify the application ID that you registered in the Azure portal, the ID of the environment that contains your data, and how you want to authenticate.
 
 ## Inserting data
-We will start our discussion with inserting data into an entityset in the backend database, since it is very simple to do. Since the entitysets are represented as plain old C# classes, they can easily be dealt with in C#. Let us walk through an example below:
+
+We will start our discussion by inserting data into an entityset in the back-end database, because this operation is very easy to do. Because the entitysets are represented as plain C# classes, they are easily handled in C#. Here is an example.
 
 ```cs
 using System;
@@ -52,9 +59,7 @@ namespace SdkConsoleApp
     using Microsoft.CommonDataService.CommonEntitySets;
     using Microsoft.CommonDataService.Configuration;
     using Microsoft.CommonDataService.ServiceClient.Security;
-
     using System.Threading.Tasks; // Needed for async
-
     class Program
     {
         private static async Task InsertAsync(Client client)
@@ -70,17 +75,13 @@ namespace SdkConsoleApp
                 Name = "Phone",
                 Description = "Phone produce line"
             };
-
             var executor = client.CreateRelationalBatchExecuter(
                     RelationalBatchExecutionMode.Transactional);
-
             executor
                 .Insert(surfaceCategory)
                 .Insert(phoneCategory);
-
             await executor.ExecuteAsync();
         }
-
         static void Main(string[] args)
         {
             using (var client = ConnectionSettings.Instance.CreateClient().Result)
@@ -93,9 +94,14 @@ namespace SdkConsoleApp
 }
 
 ```
-The code start by creating a client instance. In this case, the user name is used to create the security principal htat is then used to create the client. Since the client holds unmanaged resources and it implements IDisposable, it is a good practice to create the client in a using statement. The client instance is passed to the InsertAsync method that does the actual work.
 
-The InsertAsync method is asynchronous (as indicated by the async keyword and reflected in the naming convention, which is another good practice). In this example, two product categories are created by instantiating the out-of-box entityset types. These are the entities to be inserted. Insertions (and all other data manipulation) is done through executors, like the one created in the next lines. The entities created are then added to the executor by using the Insert method. When the ExecuteAsync method is called on this executor, the system will serialize the entities, send them to the server side over the wire, start a transaction and insert the entities. Since the call to the ExecuteAsync method is asynchronous, the call is not blocking. As mentioned above, this paradigm is used extensively in the C# SDK: You never explicitly manage a transaction, you let executers do that on your behalf. The code inserts two entities in the executer, through a fluent syntax chaining the calls. The APIs are created to encourage this style, but you can certainly do the insertions as two different calls to Insert.
+The code first creates a client instance. In this case, the user name is used to create the security principal that is then used to create the client. Because the client holds unmanaged resources and implements **IDisposable**, it's a good practice to create the client in a **using** statement. The client instance is then passed to the **InsertAsync** method that does the actual work.
+
+As the **async** keyword indicates, the **InsertAsync** method is asynchronous. (Per another good practice, the naming convention also reflects the fact that the method is asynchronous.) In this example, two product categories are created by instantiating the OOB entityset types. These entities are the entities that must be inserted.
+
+Insertions, like all other data manipulation, are done through executors, such as the executor that is created in the next lines. The entities that are created are then added to the executor by using the **Insert** method. When the **ExecuteAsync** method is called on this executor, the system serializes the entities, sends them to the server side over the wire, starts a transaction, and inserts the entities. Because the call to the **ExecuteAsync** method is asynchronous, the call isn't a blocking call. As we mentioned above, this paradigm is used extensively in the C# SDK. You never explicitly manage a transaction. Instead, you let executors manage transactions on your behalf.
+
+The code inserts two entities into the executor through a fluent syntax that chains the calls. The APIs are created to encourage this style, but you can also do the insertions as two separate calls to **Insert**.
 
 <!---
 Describe the InsertAndRetrieveEntity
@@ -103,10 +109,11 @@ TODO: Create a more elaborate example where 1:n data is stored in one transactio
 
 -->
 
-## Reading data from Out of Box Entitysets
-In this section we will go through how to select data that is stored in the CDS relational backend. We will start with some very simple examples and build on them to understand more complex scenarios.
+## Reading data from OOB entitysets
 
-Let's start by walking through getting some data from the ProductCategory OOB entityset. This entityset (and most of the other entitysets that are shipped out of the box) have data in them, so you can see the effect of the operations. The easiest way to do this is to use the View Data on the entityset from within the maker portal.
+In this section, we explain how to select data that is stored in the Common Data Service relational back end. We start with some simple examples and then build on those examples to help you understand more complex scenarios.
+
+First, we will go through the process for getting some data from the ProductCategory OOB entityset. This entityset, like most of the other OOB entitysets, has data in it, so that you can see the effects of the operations. The easiest way to see these effects is to use View Data on the entityset in the maker portal.
 
 ```cs
 static async Task SimpleSelectAsync(Client client)
@@ -135,7 +142,8 @@ static async Task SimpleSelectAsync(Client client)
     }
 }
 ```
-Again we do the work with an asynchronous method. We start off by creating a queryBuilder based on the entityset that we wish to query (ProductCategory in this case). The query builder is used as a starting point to adding the parts that define the query. In this case we are looking for product categories with the name "Electronics", ordered by the category Id. We only need three field values: The category Id, the name and the description. Once the query has been created, it can be used by another executor to fetch the records. 
+
+Once again, we do the work by using an asynchronous method. We first create a query builder that is based on the entityset that we want to query (ProductCategory in this case). The query builder is used as a starting point to add the parts that define the query. In this case, we are looking for product categories that have the name "Electronics", and we want them to be ordered by the category ID. We require only three field values: the category ID, the name, and the description. After the query has been created, another executor can use it to fetch the records. 
 
 <!---
 You can do multiple queries at the time.
@@ -147,17 +155,19 @@ You can do multiple queries at the time.
                 .ExecuteAsync().Wait();
 -->                
 
-There are a few interesting things to notice here. The where clause is expressed using a lambda function. It is crucial to understand that the lambda functions used in this context are never actually executed. They merely serve to express the intention of the programmer. When the query is executed (in the executer), the lambda functions is translated to a query that is understood by the backend: The lambda function, then, serves as a structure in which the expression is expressed. 
+There are a few interesting things that you should notice. The **where** clause is expressed by using a lambda function. It's important that you understand that the lambda functions that are used in this context are never actually run. They are used only to express the programmer's intention. When the query is run (in the executor), the lambda function is translated to a query that is understood by the back end. Therefore, the lambda function serves as a structure that the expression is expressed in. 
 
-Using lambdas has several benefits, the most important being that the tooling in Visual Studio provides a great experience based on its knowledge of the entitysets involved. The same strategy is used when specifying the sorting option; here a lambda is presented that maps a ProductCategory instance (called pc in this case, but this naming has no significance except in the scope of the lambda function) onto an array of fields to order by. Finally, the projection is specified, i.e. the data required from each entity matched by the query. In this case we are interested in the fields listed in the projection clauses, another lambda taking a ProductCategory instance and returning the fields to include. Note that, for performance reasons, there is no option to automatically select all fields.
+Lambda functions have several benefits. The most important benefit is that the tooling in Microsoft Visual Studio provides a great experience because of its knowledge of the entitysets that are involved. The same strategy is used when the sorting option is specified. A lambda function is presented that maps a ProductCategory instance onto an array of fields to order by. (In this case, the instance is named pc, but this name has no significance outside the scope of the lambda function.) Finally, the projection is specified. The projection is the data that is required from each entity that is matched by the query. In this case, we are interested in the fields that are listed in the projection clauses. Another lambda takes a ProductCategory instance and returns the fields to include. Note that, for performance reasons, there is no option to automatically select all fields.
 
-The out parameter of the Query method on the executer is used to enumerate the results when the await returns in the queryResult variable. The type of this variable indicates that the result is a read only list of product category entities, which can be conveniently be enumerated.
+The **out** parameter of the **Query** method on the executor is used to enumerate the results when the await returns in the **queryResult** variable. The type of this variable indicates that the result is a read-only list of product category entities that can conveniently be enumerated.
 
 ### Joining data from multiple entitysets
-In the examples above we have been dealing with single entitysets. However, this is a rare scenario: Typically the requirements specify that entities should be read from several entitysets and joined together to create useful results. In this section we see how this is done in the C# SDK.
+
+In the preceding examples, we have been working with single entitysets. However, this scenario is rare. Typically, the requirements specify that entities should be read from several entitysets and joined together to create useful results. In this section, we will describe how these joins are done in the C# SDK.
 
 #### Joins
-The most common way of acheiving joins is by specifying the join clause on the query. Since the entitysets carry with them a lot of metadata describing the relationships that hold between them, there is typically no need to specify the fields used to do the join in the query.
+
+The most common way to achieve joins is by specifying the **join** clause on the query. Because the entitysets carry with them a lot of metadata that describes the relationships among them, you typically don't have to specify the fields that are used to do the join in the query.
 
 <!---
 TODO: Create a more elaborate example where 1:n data is stored in one transaction.
@@ -182,7 +192,8 @@ C:\Users\pvillads\Desktop\D365-CDM-SampleClient\src\Samples\SampleLibrary\WorkWi
 -->
 
 #### Zips
-In the example above you saw how joins internally took advantage of the relationships that are set up between the entitysets that are involved in the joins. While this has several advantages in terms of simplicity, there is still cases where you have not modeled any relationships and you need to do a join regardless. For this purpose you can use the Zip clause, where you specify both the joined entityset and the relationship that defines the join.
+
+In the preceding example, you saw how joins internally took advantage of the relationships that are set up between the entitysets that are involved in those joins. Although this approach has several advantages in terms of simplicity, there might still be cases where you must do a join, but you haven't modeled any relationships. For this purpose, you can use the **Zip** clause, where you specify both the joined entityset and the relationship that defines the join.
 
 <!---
 C:\Users\pvillads\Desktop\D365-CDM-SampleClient\src\Samples\SampleLibrary\ProdVarianceCalc\VarianceCalcWorker.cs
@@ -204,7 +215,8 @@ C:\Users\pvillads\Desktop\D365-CDM-SampleClient\src\Samples\SampleLibrary\ProdVa
 -->
 
 ### Grouping data
-In this section we introduce the group by clause that allows you to group data.
+
+In this section, we introduce the **group by** clause that lets you group data.
 
 <!---
 Here is a description from a LINQ site: https://visualstudiomagazine.com/articles/2017/02/01/grouping-results-in-linq.aspx
@@ -426,17 +438,19 @@ namespace Microsoft.CommonDataService.Samples.SampleLibrary.WorkWithGroupBy
 }
 -->
 
-### Using Aggregates
-All relational databases have the ability to do aggregations over results. This is much preferred over doing aggregations manually, since the data is not transported over the wire, and performed very quickly. In this example we create and execute a query that counts the entities in a given entityset.
+### Using aggregates
+
+All relational databases can do aggregations over results. This approach is preferable to manual aggregation, because the data isn't transported over the wire, and the aggregations are done very quickly. The following example shows how to create and run a query that counts the entities in a given entityset.
 
 <!---
 TODO example
 -->
 
-### Using Group by clauses
+### Using group by clauses
 
 ### Paging
-In some scenarios it is useful to be able to fetch a certain number of records after a number of records have been skipped. It is possible to add Take and Skip clauses to the query to accomplish this. In this example we will fetch the 3 most expensive products:
+
+In some scenarios, it's useful to be able to fetch a certain number of records after several records have been skipped. To achieve this result, you can add **Take** and **Skip** clauses to the query. The following example shows how to fetch the three most expensive products.
 
 ```cs
 private static async Task TakeExampleAsync(Client client)
@@ -461,9 +475,10 @@ private static async Task TakeExampleAsync(Client client)
     }
 }
 ```
-The .Take(3) clause instructs the system to fetch no more than three records, and the OrderByDescending causes the data to come in the correct order (most expensive first).
 
-If you wanted to get the fourth, fifth and sixth most expensive products without getting the first, second and third, you would use the .Skip clause, passing the number of elements to skip before returning the sample. This is often used to fill a page in a grid view, where it is impractical to get all the data to the client at once. This paging is shown below:
+The **.Take(3)** clause instructs the system to fetch no more than three records, and **OrderByDescending** causes the data to be in the correct order (most expensive product first).
+
+If you wanted to get the fourth, fifth, and sixth most expensive products without getting the first, second and third most expensive products, you can add a **.Skip** clause and pass the number of elements that should be skipped before the sample is returned. This approach is often used to fill a page in a grid view, where it's impractical to get all the data to the client at one time. The following example shows this paging.
 
 ```cs
 private static async Task TakeAndSkipExampleAsync(Client client)
@@ -491,7 +506,8 @@ private static async Task TakeAndSkipExampleAsync(Client client)
 ```
 
 ## Updating data
-Currently updating existing data is done by fetching the data to be updated, updating the data, and then inserting it into an executer for updating. In this example we will traverse all the products, and calculate a new price for each of them. The new selling price (of type Currency) is calculated and added to the set of fields to update (i.e. the call to .Update on the updates instance). When all the fields have been updated (there is only one field in this case), the field updater is added to the update executor. When all the entities have been dealt with, the updates are performed in the ExecuteAsync call.  
+
+Currently, updates of existing data are done by fetching the data that must be updated, updating the data, and then inserting it into an executor for updating. In this example, we will traverse all the products and calculate a new price for each. The new selling price (of the **Currency** type) is calculated and added to the set of fields that will be updated (that is, the call to **.Update** on the **updates** instance). When all the fields have been updated, the field updater is added to the update executor. (In this example, only one field must be updated.) When all the entities have been handled, the updates are done in the **ExecuteAsync** call.  
 
 ```cs
 private static async Task UpdateExampleAsync(Client client)
@@ -530,7 +546,8 @@ private static async Task UpdateExampleAsync(Client client)
 ```
 
 ## Deleting data
-Deleting data is currently achieved by enumerating the data to delete, inserting them into a delete executor and firing off the ExecuteAsync method as usual. This is illustrated in the code below:
+
+Currently, data is deleted by enumerating the data that must be deleted, inserting that data into a delete executor, and firing the **ExecuteAsync** method as usual. Here is an example.
 
 ```cs
 static async Task SimpleDeleteTestAsync(Client client)
@@ -579,12 +596,13 @@ static async Task SimpleDeleteTestAsync(Client client)
 }
 ```
 
-In this sample we are using Delete on the deleteExecutor to indicate that we want the record to be deleted. Delete deletes the entity but will throw an optimistic concurrency check exception if the entity was edited it was first selected. There is another method called DeleteWithoutConcurrencyCheck that will go ahead and delete the record without considering if changes were made since the entity was selected. 
+In this example, we are using **Delete** on **deleteExecutor** to indicate that we want the record to be deleted. **Delete** deletes the entity but will throw an optimistic concurrency check exception if the entity was edited after it was first selected. Another method that is named **DeleteWithoutConcurrencyCheck**  will delete the record without considering whether changes were made since the entity was selected. 
 
-## Reading data using generic Entitysets
-In the previous chapter we had the luxury of dealing with a fully designed OOB entityset, and because of it we were able to use the full complement of features in C# and the Visual Studio tooling (notably intellisense and debugging support) to write the code. However, there are cases where you will not have the fully compiled classes to work with. One case is when you are working with your custom entitysets but have not generated a C# class for them. Another case where the techiques below become interesting is when you have customized an OOB entityset (like adding a new field). In these cases you can refer to fields using a weaker model where fields are described by their names.
+## Reading data by using generic entitysets
 
-Let us look at some code using this approach
+Earlier in this topic, we were working with a fully designed OOB entityset. Therefore, to write the code, we could use the full range of features in C# and the Visual Studio tooling (especially IntelliSense and debugging support). However, in some cases, you won't have the fully compiled classes to work with. For example, you're working with your custom entitysets, but you haven't generated a C# class for them. Another case where the following techniques become interesting is when you've customized an OOB entityset (for example, by adding a new field). In these cases, you can refer to fields by using a weaker model where fields are described by their names.
+
+The following example shows some code that uses this approach.
 
 ```cs
 public static async Task GenericEntitySetUsageAsync(Client client)
@@ -651,17 +669,23 @@ public static async Task GenericEntitySetUsageAsync(Client client)
     }
 }
 ```
-You will notice a few things. The C# compiler allows some syntactic sugar allowing the user to omit the generic type parameter when the compiler is able to determine the type from the type of the arguments provided. In this case, the call SetValue method is defined as 
+
+You will notice a few things. The C# compiler allows for some syntactic sugar, so that the user can omit the generic **type** parameter when the compiler can determine the type from the type of the arguments that are provided. In this case, the call to the **SetValue** method is defined as shown in the following example.
+
 ```cs
 Entity Entity.SetValue<T>(string fieldName, T val);
 ```
-When the compiler sees a call 
+
+For example, the compiler sees the following call.
+
 ```cs
 genericEntitySurface.SetValue("Name", "Surface");
 ```
-is sees that the type of T is string based on the type of the string literal. To make things clearer, we could have written 
+
+In this case, the compiler determines that the type of **T** is **string**, based on the type of the string literal. To make things clearer, we could have written the code like this.
+
 ```cs
 genericEntitySurface.SetValue<string>("Name", "Surface");
 ```
-Similar considerations are in place for the TryGetValue calls. The conclusion is that the type of the field must be known at compile time, either by providing a generic type argument (either implicitly or explicitly) or by providing a System.Type instance.
 
+Similar considerations are in place for the **TryGetValue** calls. The conclusion is that the type of the field must be known at compile time, either because  a generic **type** argument is provided (either implicitly or explicitly) or because a **System.Type** instance is provided.
