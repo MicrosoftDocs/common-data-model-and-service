@@ -19,7 +19,7 @@
 
 # Configure database security #
 
-The Common Data Service uses a role-based security model to secure access to the database. This topic shows you how to create the security artifacts that you need to secure an app. These user roles control runtime access to data and are separate from the Environment roles that govern the Environment Administrators and Environment Makers. For an overview of this security model, see [Microsoft Common Data Model, Entities Reference](http://download.microsoft.com/download/8/9/5/8956ED58-A9B0-40DF-8CB0-BC13AD8DB6E2/CDMEntityReference.docx). For an overview of environments, see [Environments overview](environments-overview.md).
+The Common Data Service uses a role-based security model to secure access to the database. This topic shows you how to create the security artifacts that you need to secure an app. These user roles control runtime access to data and are separate from the Environment roles that govern the Environment Administrators and Environment Makers. For an overview of environments, see [Environments overview](environments-overview.md).
 
 It's important to understand what level of access to these entities is needed by users of the app. The Common Data Service supports the create, read, update, and delete (CRUD) permissions on entities.
 
@@ -55,6 +55,30 @@ To enable access to a new app you first need to create a new permission set.
 1. Click or tap the permission set that you created.
 1. Click or tap the **Entities** tab. The **Entities** tab contains a list of all the entities in your database. For each entity used in your app, check the permission that you want to allow.
 1. Click or tap **Save**.
+
+## Create a policy (Technical Preview) ##
+To enable restrict access to the records within an entity you first need to create a policy.
+1.	Click or tap **Policies**.
+2.	Click or tap **New policy**.
+3.	Enter a name for the policy.
+4.	Enter a description of the policy.
+5.	Select the type of policy to create.  If a picklist policy, enter the picklist to be used.
+6.	Select the operator to be used.
+7.	Select the value for the policy to check against.
+8.	Click or tap **Create**.
+
+## Assign a policy (Technical Preview) ##
+To apply a policy, you must assign it to a data entity within a permission set.
+1.	Click or tap **Permission Sets**.
+2.	Click or tap the permission set you want to assign a policy under.
+3.	Click or tap the edit button for the entity you would like to assign a policy to.
+4.	Expand the Policy assignment section.
+5.	Select the data operations you would like to apply a policy to (Create, Read, Update, Delete).
+6.	Select the entity field the policy will be based on.
+7.	Select the policy to you wish to assign.
+8.	Click or tap **Assign**.
+9.	Click or tap **Save**.
+
 
 ## Create and assign a role ##
 After the proper permissions are included in a permission set, you can create a role that can be assigned to users.
