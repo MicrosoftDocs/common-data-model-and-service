@@ -61,11 +61,11 @@ Currently, the default values and transforms are in JavaScript Object Notation (
 
 The following example shows a default value.
 
-    \[{"transformType":"Default","defaultValue":"Organization"}\]
+    [{"transformType":"Default","defaultValue":"Organization"}]
 
 The following example shows a value map.
 
-    \[{"transformType":"ValueMap","valueMap":{
+    [{"transformType":"ValueMap","valueMap":{
     "us":"US",
     "usa":"US",
     "united States":"US",
@@ -87,7 +87,7 @@ The following example shows a value map.
     "ind":"IN",
         "au":"AU",
         "ca":"CA"
-    }}\]
+    }}]
 
 ## Synchronization direction
 
