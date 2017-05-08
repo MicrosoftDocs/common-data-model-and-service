@@ -1,9 +1,9 @@
 ---
 title: Dynamics 365 data integration  | Microsoft Docs
 description: The Dynamics 365 data integration feature enable the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through the Common Data Service.
-author: "robinarh"
+author: "lancedMicrosoft"
 manager: "robinarh"
-ms.date: "04/24/2017"
+ms.date: "05/08/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -19,9 +19,9 @@ ms.assetid: 0c7f8e4f-8433-447f-85b2-8e3788b3714a
 > [!NOTE]
 > Add pre-release boilerplate.
 
-The Microsoft Dynamics 365 data integration feature enables the flow of data between Microsoft Dynamics 365 for Sales, Microsoft Dynamics 365 for Operations, and other products through the Common Data Service. For example, customer information in Dynamics 365 for Sales can flow to Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party data integration tool. Specifically, this feature enables a basic flow of accounts and other entity data to enable a prospect-to-cash scenario. This topic describes the capabilities, usage guidelines, and current limitations of the Data Integration feature.
+The Microsoft Dynamics 365 data integration feature enables the flow of data between Microsoft Dynamics 365 for Sales, Microsoft Dynamics 365 for Operations, and other products through the Common Data Service. For example, customer information in Dynamics 365 for Sales can flow to Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party data integration tool. Specifically, this feature enables a basic flow of accounts and other entity data to enable a prospect-to-cash scenario. This topic describes the capabilities, usage guidelines, and current limitations of the data integration feature.
 
-The Data Integration feature is available to customers who have at least one Dynamics 365 product. 
+The data integration feature is available to customers who have at least one Dynamics 365 product. 
 
 # Concepts
 
