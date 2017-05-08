@@ -1,5 +1,5 @@
 ---
-title: "Get started with the Common Data Service SDK using Azure Functions | Microsoft Docs"
+title: "Get started with the Common Data Service SDK by using Azure Functions | Microsoft Docs"
 description: ""
 author: "nimakms"
 manager: "robinarh"
@@ -13,145 +13,148 @@ audience: "Developer"
 ms.assetid: "2308e302-ec0b-437a-82a3-dc71150b9d81"
 ---
 
-# Get started with the Common Data Service SDK using Azure Functions
+# Get started with the Common Data Service SDK by using Azure Functions
 
 ## Overview
-It's easy to get started programming against the Common Data Service using Azure Functions. This topic walks you through getting a Common Data Service Azure Function up and running. 
 
-There are four key steps:
+It's easy to start to program against the Common Data Service by using Microsoft Azure Functions. This topic walks you through the process to get a Common Data Service Azure Function up and running. 
 
-1. **Database acquisition**. The Common Data Service is currently only available through **PowerApps**. You need to get access to a PowerApps environment and ensure it contains a database. This allows you to configure the SDK to access that database.
-1. **Application registration**. To give your Azure function access to the Common Data Service, you need to register a few applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission levels they needs in order to access the APIs.
-1. **Azure Function creation, configuration and programming**. You can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
-1. **Console client application creation and configuration**. You can then run and debug your Azure Function by running the client console app and making HTTP calls to the Function. 
+There are four main steps in the process.
 
-In addition, you can use this function from a PowerApps application. There are two key steps:
-1. **PowerApps Custom API creation and configuration**. In order to call the Azure Function from an app, it first needs to be wrapped by a Custom API that defines its API structure and authentication settings.
-2. **PowerApps app building and testing**. The created custom API can be used to call the Azure Function from an app. You can create the app and configure a button control to connect with the custom API inside PowerApps Studio. Then you can also test calling the function from PowerApps Player. 
+1. **Database acquisition** – Currently, the Common Data Service is available only through Microsoft PowerApps. You must get access to a PowerApps environment and make sure that it contains a database. You can then configure the software development kit (SDK) to access that database.
+1. **Application registration** – To give your Azure Function access to the Common Data Service, you must register a few applications in Azure Active Directory (Azure AD). You can then establish an identity for your applications and specify the permission levels that they require in order to access the application programming interfaces (APIs).
+1. **Azure Function creation, configuration, and programming** – You can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There, you can use the appropriate Azure Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
+1. **Console client application creation and configuration** – You can run and debug your Azure Function by running the client console app and making HTTP calls to the Azure Function. 
+
+In addition, you can use the Azure Function from a PowerApps application. There are two main steps in the process.
+1. **PowerApps Custom API creation and configuration** – Before the Azure Function can be called from an app, it must be wrapped by a Custom API that defines its API structure and authentication settings.
+1. **PowerApps app building and testing** – The Custom API that is created can be used to call the Azure Function from an app. You can create the app and configure a button control to connect with the Custom API inside PowerApps Studio. You can also test calls to the Azure Function from PowerApps Player. 
 
 # Database acquisition
 
-The Common Data Service is currently only available through PowerApps. You need to get access to a PowerApps environment and ensure it contains a database. This allows you to configure the SDK to access that database.
+Currently, the Common Data Service is available only through PowerApps. You must get access to a PowerApps environment and make sure that it contains a database. You can then configure the SDK to access that database.
 
 ## Prerequisites
-1. If you have already signed up for PowerApps, you can go to [PowerApps](https://powerapps.microsoft.com) and sign in. If you have not signed up yet, you can follow instructions to [sign up](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/).
-1. Ensure you have admin access to an environment containing a Common Data Service database, by going to the [PowerApps](https://powerapps.microsoft.com) portal, clicking on the **gear icon** located on top right of the screen, then clicking on **Admin center**. If you do not have admin access to any environments containing a database, follow these instructions to [create a database](https://powerapps.microsoft.com/en-us/tutorials/create-database/).
+
+1. If you've already signed up for PowerApps, go to [PowerApps](https://powerapps.microsoft.com), and sign in. If you've signed up yet, follow [these instructions](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/) to sign up.
+1. Make sure that you have admin access to an environment that contains a Common Data Service database. Go to the [PowerApps portal](https://powerapps.microsoft.com), click the gear symbol in the upper right of the page, and then click **Admin center**. If you don't have admin access to any environments that contain a database, follow [these instructions](https://powerapps.microsoft.com/en-us/tutorials/create-database/) to create a database.
 
 ## Getting the environment ID
 
-After acquiring an environment that contains a database, you can use that environment's identifier to configure your SDK application. The **environment ID** can be found as part of the URI you are using to access the environment. Record this value as it will be used in the upcoming configuration step. An example of such a URI and environment Id are as follows:
+After you acquire an environment that contains a database, you can use that environment's identifier to configure your SDK application. The environment ID is part of the URI that you using to access the environment. Record this value, because you will use it in the upcoming configuration step. Here is an example of a URI and the environment ID that is part of it:
 
-    URI: https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
-    Environment ID: d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
++ **URI:** https://web.powerapps.com/environments/d1ec10fa-74d5-44e5-b0f7-e448e3ca7509/home
++ **Environment ID:** d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
 
 # Application registration
 
-To give your Azure Function access to the Common Data Service, you need to register a **Web app / API** applications in **Azure Active Directory**. This allows you to establish an identity for your applications and specify the permission level it needs to access the APIs. You will also need to register the applications calling the Azure function. In this guide, we will use a simple console application to call into the Azure function, for this step we will require a **Native application** registration. Later, as an advanced steps, we will configure a PowerApps Custom API to call the Function, which will require registering another **Web app / API**. All these apps will have to be configured in Azure AD with the correct **Required permissions** and **known client applications**, for the end-to-end flow to work correctly.
+To give your Azure Function access to the Common Data Service, you must register applications of the **Web app / API** type in Azure AD. You can then establish an identity for your applications and specify the permission level that they require in order to access the APIs. You must also register the applications that call the Azure Function. In this topic, we will use a simple console application to call into the Azure Function. For this step, we will require a **Native application** registration. Later, as an advanced step, we will configure a PowerApps Custom API to call the Azure Function. For this step, we will have to register another **Web app / API** application. In order for the end-to-end flow to work correctly, all these apps will have to be configured in Azure AD so that they have correct **Required permissions** and **known client applications** values.
 
 <!--- [ToDo] Diagram of call sequence and AAD applications --->
 
 ## Prerequisites
 
-If you have already signed up for an Azure subscription, go to [Azure portal](https://portal.azure.com) and ensure you can create an application registration under Azure Active Directory. If you cannot, go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
+If you've already signed up for an Azure subscription, go to the [Azure portal](https://portal.azure.com), and make sure that you can create an application registration under Azure AD. If you can't create a registration, go to the [Azure site](https://azure.microsoft.com), and sign up for a free trial.
 
-1. In [Azure portal](https://portal.azure.com) go to **Azure Active Directory** 
-1. Click on **Properties** and copy the value of **Directory ID** and record it as config variable **AAD tenant** for upcoming steps. Alternatively, you can use the domain name from your AAD login email.
+1. In the [Azure portal](https://portal.azure.com), go to **Azure Active Directory** 
+1. Click **Properties**, copy the value of the **Directory ID** field, and record it as the **AAD tenant** configuration variable for upcoming steps. Alternatively, you can use the domain name from your Azure AD sign-in email message.
 
-## Azure function application registration
+## Azure Function application registration
 
-Follow these steps to register and configure your Azure Function in Azure AD:
+Follow these steps to register and configure your Azure Function in Azure AD.
 
-1. Go back to **Azure Active Directory** then click on **App registrations**. 
-1. Create the Azure function application resource that we will use to call into the Common Data Service directly:
-    1. Click on **Add** to see a Create pane.
-    1. Enter a **Name** for your Azure function application.
-    1. Select **Web app / API** as application type.
-    1. Add a **Sign-on URL**, it could be any valid URI string. For example: http://localhost.    
-    1. Click on **Create**.
+1. Go back to **Azure Active Directory**, and click **App registrations**. 
+1. Create the Azure Function application resource that we will use to call directly into the Common Data Service:
+    1. Click **Add** to open a **Create** pane.
+    1. Enter a name for your Azure Function application.
+    1. Select **Web app / API** as the application type.
+    1. In the **Sign-on URL** field, enter any valid URI string, such as **http://localhost**.
+    1. Click **Create**.
 1. Open the registered app:
-    1. Search for your newly registered app by name.
-    1. Click on it after finding it in the list of applications.
-    1. Record configuration value **Function application ID** for upcoming steps.
+    1. Search for the newly registered app by name.
+    1. When you find the app in the list of applications, click it.
+    1. Record the **Function application ID** configuration value for upcoming steps.
 1. Get the application secret:
-    1. Click on **Keys** to open a new pane.
-    1. Add a new **Key description** like "key", set the **Duration** to "Never expires" and click **Save**.
-    1. Record configuration value for the **Function application secret** by copying and pasting contents of the **Value** cell.
-1. Setup **Required permissions** for connecting to the Common Data Service:
-    1. Click on **Required permissions** to open a new pane.
-    1. Click on **Add**.
+    1. Click **Keys** to open a new pane.
+    1. Add a new key description, such as **key**, set the duration to **Never expires**, and then click **Save**.
+    1. Record the **Function application secret** configuration value by copying and pasting the contents of the **Value** cell.
+1. Set up the required permissions for connecting to the Common Data Service:
+    1. Click **Required permissions** to open a new pane.
+    1. Click **Add**.
     1. Navigate to **Select an API**.
-    1. Search for and choose **PowerApps Runtime Service**, then click **Select**. If you cannot find this service refer to the **Troubleshooting** section under **Required permissions service not found**.
-    1. Check all entries under **Delegated permissions**, then click **Select**.
-    1. Click on **Done** to finalize setting up permissions for this service.
-    1. Repeat the 3 steps above for **Windows Azure Service Management API**.
-1. Get the Function application's resource ID:
-    1. Open the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane.
-    1. Record the config value **AAD function resource ID** from any entry under `identifierUris`. Following is an example: `https://[your_domain_name]/4598e084-55a7-4d57-88ae-59902d8e3a52`.
-1.  **Note** - Configuring **known client applications** must be performed after registering the other application(s). The step is needed for seamless propagation of required permissions to clients. After completing all registrations go to section **Add known applications to Azure Function app**.
+    1. Search for and select **PowerApps Runtime Service**, and then click **Select**. If you can't find this service, see "Required permissions service isn't found" in the "Troubleshooting" section, later in this topic.
+    1. Select all the check boxes under **Delegated permissions**, and then click **Select**.
+    1. Click **Done** to complete the setup of permissions for this service.
+    1. Repeat the previous three steps for **Windows Azure Service Management API**.
+1. Get the Azure Function application's resource ID:
+    1. Open the application's JSON manifest directly, by clicking **Manifest** at the top of the registered app pane.
+    1. Record the **AAD function resource ID** config value from any entry under **identifierUris**. Here is an example: **https://[your_domain_name]/4598e084-55a7-4d57-88ae-59902d8e3a52**
+
+**Note:** You must configure known client applications after you've finished registering the other applications. The step is required for seamless propagation of the required permissions to clients. After you've completed all registrations, go to the "Add known applications to Azure Function app" section, later in this topic.
 
 ## Client application registration
 
-Follow these steps to register and configure your client application in Azure AD:
+Follow these steps to register and configure your client application in Azure AD.
 
-1. Go back to **Azure Active Directory** then click on **App registrations**. 
-1. Create the application resource that we will be used when prompting you to login:
-    1. Click on **Add** to see a Create pane.
-    1. Enter a **Name** for your client application.
-    1. Select **Native** as application type.
-    1. Add a **Redirect URI**, it could be any valid URI string. For example: http://localhost.
-    1. Record configuration value **Redirect URI** for upcoming steps.
-    1. Click on **Create**.
-1. Open the Registered app:
-    1. Search for your newly registered app by name.
-    1. Click on it after finding it in the list of applications.
-    1. Record configuration value **Application ID** for upcoming steps.
-1. Setup **Required permissions** for connecting to the Azure Function:
-    1. Click on **Required permissions** to open a new pane.
-    1. Click on **Add**.
-    1. Navigate to **Select an API**.
-    1. Search for and select **Name** of the Azure Function web app created in previous step, then click **Select**.
-    1. Check all boxes under **Delegated permissions** section, then click **Select**.
-    1. Click on **Done** to finalize setting up permissions for this service.    
-
-## Advanced - PowerApps Custom API application registration
-
-You can skip these steps if you are not planning to use the Azure Function from PowerApps. If you are interested in using PowerApps, follow these steps to register and configure your PowerApps Custom API application in Azure AD:
-
-1. Go back to **Azure Active Directory** then click on **App registrations**. 
-1. Create the application resource that we will be used during the PowerApps user login process:
-    1. Click on **Add** to see a Create pane.
-    1. Enter a **Name** for your registered client application.
-    1. Select **Web app / API** as application type.
-    1. Set **Sign on URL** to `https://msmanaged-na.consent.azure-apim.net/redirect`, and record it for upcoming steps.
-    1. Click on **Create**.
-1. Open the **Registered app**:
-    1. Search for your newly registered app by name
-    1. Click on it after finding it in the list of applications.
-    1. Record configuration value **Custom API application ID** for upcoming steps.
-1. Get the application secret:
-    1. Click on **Keys** to open a new pane.
-    1. Add a new **Key description** like "key", set the **Duration** to "Never expires" and click **Save**.
-    1. Record configuration value for the **Custom API application secret** by copying and pasting contents of the **Value** cell.
-1. Setup **Required permissions** for connecting to the Azure Function:
-    1. Click on **Required permissions** to open a new pane.
-    1. Click on **Add**.
-    1. Navigate to **Select an API**.
-    1. Search for and select **Name** of the Azure Function web app created in previous steps, then click **Select**.
-    1. Check all boxes under **Delegated permissions** section, then click **Select**.
-    1. Click on **Done** to finalize setting up permissions for this service.  
-
-## Add known applications to Azure Function app
-
-For seamless propagation of required permissions to clients, setup **known client applications**. This means that the first time a user logs into a client application, they will be asked to provide all required permissions needed to run this flow. If you skip this step, you may have to manually authorize the use of the Common Data Service for each user.
-   
-1. Go back to **Azure Active Directory** then click on **App registrations**. 
+1. Go back to **Azure Active Directory**, and then click **App registrations**. 
+1. Create the application resource that will be used during the sign-in process:
+    1. Click **Add** to open a **Create** pane.
+    1. Enter a name for your client application.
+    1. Select **Native** as the application type.
+    1. In the **Redirect URI** field, enter any valid URI string, such as **http://localhost**.
+    1. Record the **Redirect URI** configuration value for upcoming steps.
+    1. Click **Create**.
 1. Open the registered app:
-    1. Search for your Azure Function web app created in previous step.
-    1. Click on it after finding it in the list of applications.
-    1. Modify the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane.
-    1. Click on **Download** and save a backup of the manifest, then click **Edit** to go back.
-    1. Get the application IDs for both your **Client application** and **PowerApps custom API application**.
-    1. Add client application IDs as JSON string entries under the JSON array named `knownClientApplications` while maintaining validity of the manifest, then click **Save**. The manifest will look similar to the following:
+    1. Search for the newly registered app by name.
+    1. When you find the app in the list of applications, click it.
+    1. Record the **Application ID** configuration value for upcoming steps.
+1. Set up the required permissions for connecting to the Azure Function:
+    1. Click **Required permissions** to open a new pane.
+    1. Click **Add**.
+    1. Navigate to **Select an API**.
+    1. Search for and select the name of the Azure Function web app that you created in previous steps, and then click **Select**.
+    1. Select all the check boxes under **Delegated permissions**, and then click **Select**.
+    1. Click **Done** to complete the setup of permissions for this service.    
+
+## Advanced: PowerApps Custom API application registration
+
+You can skip these steps if you aren't planning to use the Azure Function from PowerApps. However, if you're interested in using PowerApps, follow these steps to register and configure your PowerApps Custom API application in Azure AD.
+
+1. Go back to **Azure Active Directory**, and then click **App registrations**. 
+1. Create the application resource that will be used during the PowerApps sign-in process:
+    1. Click **Add** to open a **Create** pane.
+    1. Enter a name for your registered client application.
+    1. Select **Web app / API** as the application type.
+    1. Set the **Sign on URL** field to **https://msmanaged-na.consent.azure-apim.net/redirect**, and record this value for upcoming steps.
+    1. Click on **Create**.
+1. Open the registered app:
+    1. Search for the newly registered app by name.
+    1. When you find the app in the list of applications, click it.
+    1. Record the **Custom API application ID** configuration value for upcoming steps.
+1. Get the application secret:
+    1. Click **Keys** to open a new pane.
+    1. Add a new key description, such as **key**, set the duration to **Never expires**, and then click **Save**.
+    1. Record the **Custom API application secret** configuration value by copying and pasting the contents of the **Value** cell.
+1. Set up the required permissions for connecting to the Azure Function:
+    1. Click **Required permissions** to open a new pane.
+    1. Click **Add**.
+    1. Navigate to **Select an API**.
+    1. Search for and select the name of the Azure Function web app that you created in previous steps, and then click **Select**.
+    1. Select all the check boxes under **Delegated permissions**, and then click **Select**.
+    1. Click **Done** to complete the setup of permissions for this service.  
+
+## Add known applications to the Azure Function app
+
+For seamless propagation of the required permissions to clients, set up known client applications. Then, the first time that users sign in to a client application, they will be asked to provide all the permissions that are required in order to run this flow. If you skip this step, you might have to manually authorize the Common Data Service to be used for each user.
+   
+1. Go back to **Azure Active Directory**, and then click **App registrations**. 
+1. Open the registered app:
+    1. Search for the Azure Function web app that you created in previous steps.
+    1. When you find the app in the list of applications, click it.
+    1. Directly modify the application's JSON manifest by clicking **Manifest** at the top of the registered app pane.
+    1. Click **Download**, and save a backup of the manifest. Then click **Edit** to go back.
+    1. Get the application IDs for both your client application and your PowerApps custom API application.
+    1. Add the application IDs as JSON string entries under the JSON array that is named **knownClientApplications**, but be sure to maintain the validity of the manifest. Then click **Save**. The manifest will resemble the following example.
 
 ```javascript
   "knownClientApplications": [
@@ -160,22 +163,22 @@ For seamless propagation of required permissions to clients, setup **known clien
   ],
 ```
 
-# Azure Function creation, configuration and programming
+# Azure Function creation, configuration, and programming
 
-<!---You can skip most of this procedure if you choose to start from the Azure Function project we provide for you, and publish it to Azure. If you choose to start from scratch however, --->
+<!---You can skip most of this procedure if you choose to start from the Azure Function project that we provide for you, and publish it to Azure. If you choose to start from scratch however, follow this procedure.--->
 
-You can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the appropriate Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
+You can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There, you can use the appropriate Azure Functions template, and configure the Common Data Service SDK's NuGet references, authentication, and target environment.
 
 ## Prerequisites
 
-As with the previous step you need an Azure subscription, and access to [Azure portal](https://portal.azure.com). If you don't already have a subscription, go to the [Azure](https://azure.microsoft.com) site and sign up for a free trial.
+As for the previous step, you must have an Azure subscription and access to the [Azure portal](https://portal.azure.com). If you don't already have a subscription, go to the [Azure site](https://azure.microsoft.com), and sign up for a free trial.
 
-Ensure you have the following configuration values from previous steps:
+Make sure that you have the following configuration values from previous steps:
 
-1. **AAD tenant**. This value identifies the tenant your database resides in.
-1. **AAD function application ID**. This value identifies the AAD web app you registered earlier for the Azure function.
-1. **AAD function application secret**. This value identifies secret of the AAD web app you registered earlier for the Azure function.
-1. **PowerApps environment ID**. This value identifies the PowerApps environment that contains your target the Common Data Service database.
++ **AAD tenant** – This value identifies the tenant that your database resides in.
++ **AAD function application ID** – This value identifies the Azure AD web app that you registered earlier for the Azure Function.
++ **AAD function application secret** – This value identifies the secret for the Azure AD web app that you registered earlier for the Azure Function.
++ **PowerApps environment ID** – This value identifies the PowerApps environment that contains your target Common Data Service database.
 
 <!---
 ## Sample Azure Function project
@@ -196,27 +199,32 @@ You can also follow the similar instructions as below to create and configure th
 
 ## Azure Function creation and configuration
 
-Assuming you already have an Azure subscription set up, [create and open a new function app from Azure Portal](https://portal.azure.com/#create/Microsoft.FunctionApp):
-1. Enter a unique **App name**.
-1. Select your current **Subscription**.
-1. Select an existing **Resource group** or provide a unique name for a new one.
-1. Select the existing **Consumption Plan** as your hosting plan.
-1. Select the **Location** of the function.
-1. Select an existing **Storage account** or follow steps to create one.
+If you already have an Azure subscription set up [create and open a new Azure Function app from the Azure Portal](https://portal.azure.com/#create/Microsoft.FunctionApp).
+
+1. Enter a unique app name.
+1. Select your current subscription.
+1. Select an existing resource group, or provide a unique name for a new resource group.
+1. Select the existing consumption plan as your hosting plan.
+1. Select the location of the Azure Function.
+1. Select an existing storage account, or follow the steps to create a new storage account.
 1. Click **Create**.
-1. Under **All resources** search for and select the app you created.
+1. Under **All resources**, search for and select the app that you created.
 
-Create a new Azure function using templates:
-1. Click on **New Function** under Functions from the left pane.
-1. Select **GenericWebHook-CSharp** from the list of templates.
-1. Name the new Function **UpdateProjectCategory**, and click **Create**.
-1. **Note** the sample code window opens under the header section marked with an **'f'** symbol.
-1. Record the configuration value **Function URL** for upcoming steps by clicking on **Get function URL** on the top right, and clicking copy.
+Create a new Azure Function by using templates.
 
-Copy the following JSON snippet to the **project.json** file of the Function project. On the Azure Portal Functions experience, you can update this file through the following steps:
-1. Go to the **View files** tab on the top right of the pane.
-1. Create the file by clicking on **Add** and typeing in **project.json**.
-1. Paste the JSON contents below into the edit window, then click **Save**.
+1. In the left pane, under **Functions**, click **New Function**.
+1. In the list of templates, select **GenericWebHook-CSharp**.
+1. Name the new Azure Function **UpdateProjectCategory**, and then click **Create**.
+
+    **Note:** The sample code window opens under the header section that is marked with an **f** symbol.
+
+1. Record the **Function URL** configuration value for upcoming steps by clicking **Get function URL** in the upper right and then clicking **Copy**.
+
+Copy the following JSON snippet to the project.json file of the Function project. In the Azure Portal Functions experience, you can follow these steps to update the file.
+
+1. Click the **View files** tab in the upper right of the pane.
+1. Create the file by clicking **Add** and typing **project.json**.
+1. Paste the following JSON contents into the edit window, and then click **Save**.
 
 ```javascript
 {
@@ -237,7 +245,8 @@ Copy the following JSON snippet to the **project.json** file of the Function pro
   }
 }
 ```
-From **View files** pane on the right side, open **run.csx**, and replace the `using` and `#r` statements with below:
+
+From **View files** pane on the right, open **run.csx**, and replace the **using** and **#r** statements with the following code.
 
 ```cs
 using Microsoft.CommonDataService;
@@ -250,7 +259,7 @@ using System.Collections.Generic;
 using System.Net;
 ```
 
-Copy the following code snippet inside the `run()` method body of **run.csx**, replacing existing code.
+Copy the following code snippet inside the body of the **run()** method of run.csx. Replace the existing code.
 
 ```cs
     log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}");
@@ -335,42 +344,44 @@ Copy the following code snippet inside the `run()` method body of **run.csx**, r
     }    
 ```
 
-Configure the target environment and security setting of the app by replacing the corresponding bracket text in code with configuration values:
+Configure the target environment and security setting of the app by replacing the corresponding bracketed text in the code with configuration values:
 
-1. **AAD tenant** should replace `[[Replace with AAD tenant value]]`.
-1. **PowerApps environment ID** should replace `[[Replace with PowerApps environment ID value]]`.
-1. **AAD application** should replace `[[Replace with function application ID value]]`.
-1. **AAD application secret** should replace `[[Replace with Function application secret value]]`.
-1. Click **Save** at the top of the pane.
++ The **AAD tenant** configuration value should replace **[[Replace with AAD tenant value]]**.
++ The **PowerApps environment ID** configuration value should replace **[[Replace with PowerApps environment ID value]]**.
++ The **AAD application** configuration value should replace **[[Replace with function application ID value]]**.
++ The **AAD application secret** configuration value should replace **[[Replace with Function application secret value]]**.
+
+When you've finished, click **Save** at the top of the pane.
 
 # Console client app creation and configuration
 
 ## Prerequisites
-To create a new console project you'll need [Visual Studio 2015](https://www.visualstudio.com/) or above installed on your computer.
 
-Ensure you have the following configuration values from previous steps:
+To create a new console project, you must have [Microsoft Visual Studio 2015](https://www.visualstudio.com/) or later installed on your computer.
 
-1. **Function URL**. This value identifies location of the Azure Function.
-1. **AAD tenant**. This value identifies the tenant your database resides in.
-1. **AAD client console application ID**. This value identifies the AAD app you registered earlier for the client console application.
-1. **AAD client console application redirect URI**. This value specifies the redirect URI used when you are prompted to login.
-1. **AAD function application resource URI**. This value uniquely identifies the function application your client application will be calling. Think of this as an alternative ID for you function's AAD application registration.
+Make sure that you have the following configuration values from previous steps:
+
++ **Function URL** – This value identifies location of the Azure Function.
++ **AAD tenant** – This value identifies the tenant that your database resides in.
++ **AAD client console application ID** – This value identifies the Azure AD app that you registered earlier for the client console application.
++ **AAD client console application redirect URI** – This value specifies the redirect URI that is used when you're prompted to sign in.
++ **AAD function application resource URI** – This value uniquely identifies the Azure Function application that your client application will call. You can think of this value as an alternative ID for your Azure Function's Azure AD application registration.
 
 ## Project creation and configuration
 
-1. Start **Visual Studio**.
-1. From the **File** menu select **New project**.
-1. In the **New Project** dialog box, click **Installed > Templates > Visual C#**.
-    1. Choose **Console Application**.
-    1. Make sure that .NET Framework 4.5.2 is selected as the target framework.
-    1. Specify a name for your project and create the new Visual Studio solution.
-1. Find your project in the Solution Explorer, right-click on it and select **Manage NuGet packages**. 
+1. Start Visual Studio.
+1. On the **File** menu, click **New project**.
+1. In the **New Project** dialog box, click **Installed** > **Templates** > **Visual C#**, and then follow these steps:
+    1. Select **Console Application**.
+    1. Make sure that the Microsoft .NET Framework 4.5.2 is selected as the target framework.
+    1. Specify a name for your project, and create the new Visual Studio solution.
+1. Find your project in Solution Explorer, right-click it, click **Manage NuGet packages**, and then follow these steps: 
     1. Search for **Microsoft.AspNet.WebApi.Client**.
-    1. Select the **Microsoft.AspNet.WebApi.Client** NuGet package and click on **Install**, to get the latest package.
-    1. Proceed through the **License acceptance** dialog. **Note** that by clicking accept you are agreeing with all package license terms.
-    1. Repeat the last 3 steps for **Microsoft.IdentityModel.Clients.ActiveDirectory** and **Newtonsoft.Json**.
+    1. Select the **Microsoft.AspNet.WebApi.Client** NuGet package, and then click **Install** to get the latest package.
+    1. Proceed through the **License acceptance** dialog box. Note that by clicking **Accept**, you're agreeing to all package license terms.
+    1. Repeat the last three steps for **Microsoft.IdentityModel.Clients.ActiveDirectory** and **Newtonsoft.Json**.
 
-From Solution Explorer, open the **Program.cs** file, and replace `using` statements on top with following code:
+From Solution Explorer, open the **Program.cs** file, and replace the **using** statements at the top with the following code.
 
 ```cs
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -380,7 +391,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 ```
 
-In **Program.cs**, copy the following code to replace the contents of **`Program`** class.
+In Program.cs, copy the following code and paste it inside the **Program** class. Replace the existing contents.
 
 ```cs
 public const string TenantNameOrId = "[[Replace with AAD tenant value]]";
@@ -431,15 +442,15 @@ private static async Task<HttpClient> GetHttpClientAsync()
 }
 ```
 
-Configure the target environment and security setting of the app by replacing the corresponding bracket text in code with configuration values:
+Configure the target environment and security setting of the app by replacing the corresponding bracketed text in the code with configuration values:
 
-1. **AAD tenant** should replace `[[Replace with AAD tenant value]]`.
-1. **AAD client application ID** should replace `[[Replace with AAD client application ID value]]`.
-1. **AAD client application redirect URI** should replace `[[Replace with AAD client redirect URI value]]`.
-1. **Function URL** should replace `[[Replace with Function URL value]]`.
-1. **AAD function resource ID** should replace `[[Replace with AAD function resource ID value]]`.
++ The **AAD tenant** configuration value should replace **[[Replace with AAD tenant value]]**.
++ The **AAD client application ID** configuration value should replace **[[Replace with AAD client application ID value]]**.
++ The **AAD client application redirect URI** configuration value should replace **[[Replace with AAD client redirect URI value]]**.
++ The **Function URL** configuration value should replace **[[Replace with Function URL value]]**.
++ The **AAD function resource ID** configuration value should replace **[[Replace with AAD function resource ID value]]**.
 
-The client application can call either the hosted version of the Function in Azure, or the locally hosted version from a Visual Studio Function Application. If you are testing against Azure, set the `isAzureHosted` variable to `true`, to use the correct URI value.
+The client application can call either the hosted version of the Azure Function in Azure or the locally hosted version from a Visual Studio Function Application. If you're testing against Azure, set the **isAzureHosted** variable to **true** to use the correct URI value.
 
 ```cs
 public const string AzureHostedResetUriString = "https://[unique_id].azurewebsites.net/api/UpdateProductCategory?code=[unique_code]"; // Azure hosted Function URI
@@ -450,17 +461,18 @@ var updateUriString = isAzureHosted ? $"{AzureHostedResetUriString}&name=Surface
 
 ### Compile and run the project
 
-1. Ensure the project compiles by right clicking on the project and clicking **Build**.
-1. Run the client code by clicking on **Start** or pressing **F5**.
-1. Login using **your credentials** when the Azure AD prompt appears. The first time you run the application, you will be prompted to allow the AAD application you registered earlier to access the services Common Data Service uses.
-1. Verify that the program runs and calls the Function.
-1. Verify that the function updates Product Categories as expected.
-1. **Note** that if you see log errors related to assembly loading please refer to **Assembly load issue after publish to Azure** in the troubleshooting section. 
+1. Make sure that the project is compiled by right-clicking the project and then clicking **Build**.
+1. Run the client code by clicking **Start** or pressing F5.
+1. When the Azure AD prompt appears, sign in by using your credentials. The first time that you run the application, you're prompted to allow the Azure AD application that you registered earlier to access the services that the Common Data Service uses.
+1. Verify that the program runs and calls the Azure Function.
+1. Verify that the Azure Function updates product categories as you expect.
 
-# Advanced - PowerApps Custom API creation and configuration
-In order to call the Azure Function from an app, it first needs to be wrapped by a Custom API that defines its API structure and authentication settings.
+**Note:** If you see log errors that are related to assembly loading, see "Assembly load issue after you publish to Azure" in the "Troubleshooting" section, later in this topic. 
 
-Prepare the [swagger](http://swagger.io/) file that defines your function by copying the content below to a .json file and modifying the **host** and **default code** values. You can get these values by going to the Azure Function edit page and clicking on **Copy function URL** on the top right.
+# Advanced: PowerApps Custom API creation and configuration
+In order for the Azure Function to be called from an app, it must first be wrapped by a Custom API that defines its API structure and authentication settings.
+
+Prepare the [swagger](http://swagger.io/) file that defines your Azure Function by copying the following content to a .json file and modifying the **host** and **default code** values. To get these values, open the Azure Function edit page, and click **Copy function URL** in the upper right.
 
 ```javascript
 {
@@ -528,50 +540,54 @@ Prepare the [swagger](http://swagger.io/) file that defines your function by cop
 }
 ```
 
-Now you can create a cusom API to match the Azure Function from previous step.
+You can now create a Custom API to match the Azure Function from previous steps.
 
-1. Go to the **Connections** tab in the [PowerApps](https://powerapps.microsoft.com) portal.
-1. Click on **New connection**, select the **Custom** tab on top, then click on **New custom API**.
-1. Select **Swagger API definition**, click on **Upload**, and select the .json file created in the previous step.
-1. Set the name to **ProductCategory**, and click on **Next**. 
-1. Under **Authentication type** select **Azure Active Directory**.
-1. Set **Client id** to the **AAD custom API application ID**.
-1. Set **Client secret** to the **AAD custom API application secret**.
-1. Set **Resource URL** to the **AAD function resource ID**. **Note** that this **Resource ID** value comes from the **Function application** not the **custom API application**, and will look like the following example: `https://[your_domain_name]/4598e084-55a7-4d57-88ae-59902d8e3a52`.
+1. In the [PowerApps portal](https://powerapps.microsoft.com), click the **Connections** tab.
+1. Click **New connection**, and then, on the **Custom** tab at the top, click **New custom API**.
+1. Select **Swagger API definition**, click **Upload**, and then select the .json file that you just created.
+1. Set the name to **ProductCategory**, and then click **Next**. 
+1. Under **Authentication type**, select **Azure Active Directory**.
+1. Set the **Client id** field to the **AAD custom API application ID** configuration value.
+1. Set the **Client secret** field to the **AAD custom API application secret** configuration value.
+1. Set the **Resource URL** field to the **AAD function resource ID** configuration value.
+
+    **Note:** This resource ID value comes from the Azure Function application, not the Custom API application. It will resemble the following example: **https://[your_domain_name]/4598e084-55a7-4d57-88ae-59902d8e3a52**
+
 1. Click **Create**, and verify that the new Custom API is added to the list.
 
-Create a connection for the Custom API as follows:
-1. On the newly created Custom API, click on the **'+'** action button.
-1. Click on **Create**, then login with your credentials.
-1. You should see an authorization page asking you to **Accept** terms of the app to accessing CDS on your behalf. 
+Create a connection for the Custom API by following these steps.
 
-# Advanced - PowerApps app building and testing 
-The created custom API can be used to call the Azure Function from an app. You can create the app and configure a button control to connect with the custom API inside PowerApps Studio. Then you can also test calling the function from PowerApps Player. 
+1. On the newly created Custom API, click the plus sign (**+**) button.
+1. Click **Create**, and then sign in by using your credentials.
+1. You should see an authorization page that asks you to accept the terms of the app to access the Common Data Service on your behalf. Accept the terms.
 
-1. Create an app
-    1. Click on **New app** in bottom left of the [PowerApps](https://powerapps.microsoft.com) portal.
-    1. Select **PowerApps Studio for web**, and click on **Phone layout** under **Common Data Service**, to create an app from CDS entities.
-    1. In the entity list select **Product category**, then **OK**.
-1. Add the custom API as a data source.
-    1. Go to **Content** tab and click on **Data sources**.
-    1. Click on **Add data source**, and select the **ProductCategory** connector.
-1. Wire the button to call the custom API.
-    1. On the **BrowseScreen** select the **BrowseGallery** and add a **Button** control and name it **Update**.
-    1. Select the button and change **OnSelect** value to `ProductCategory.UpdateProductCategory(ThisItem.Name); Refresh('Product category')`.
-1. Modify one of the fields to show the **Description** field.
-    1. Select one of the fields under **BrowseGaller**
-    1. Change the **Text** property value to `ThisItem.Description`
-1. Test the changes by running the app.
-    1. Press **F5** to preview the app.
-    1. Click on the **Update** button, and note that **Description** field of that record is updated. 
+# Advanced: PowerApps app building and testing 
+The Custom API that you created can be used to call the Azure Function from an app. In PowerApps Studio, you can create the app and configure a button control to connect with the Custom API. You can then also test calls to the Azure Function from PowerApps Player. 
+
+1. Create an app:
+    1. In the [PowerApps portal](https://powerapps.microsoft.com), click **New app** in the lower left.
+    1. Select **PowerApps Studio for web**, and then, under **Common Data Service**, click **Phone layout** to create an app from Common Data Service entities.
+    1. In the entity list, select **Product category**, and then click **OK**.
+1. Add the Custom API as a data source:
+    1. On **Content** tab, click **Data sources**.
+    1. Click **Add data source**, and select the **ProductCategory** connector.
+1. Configure the button to call the Custom API:
+    1. On the **BrowseScreen**, select the **BrowseGallery**, add a button control, and name it **Update**.
+    1. Select the button, and change the **OnSelect** value to **ProductCategory.UpdateProductCategory(ThisItem.Name); Refresh('Product category')**.
+1. Modify one of the fields so that it shows the **Description** field value:
+    1. Select one of the fields under **BrowseGallery**.
+    1. Change the **Text** property value to **ThisItem.Description**.
+1. Test the changes by running the app:
+    1. Press F5 to preview the app.
+    1. Click **Update**, and note that the **Description** field of that record is updated. 
 
 # Troubleshooting
 
-This section contains the most common issues encountered and reported by consumers of this topic.
+This section provides information about the issues that are most commonly encountered and reported by consumers of this topic.
 
-## Required permissions service not found
+## Required permissions service isn't found
 
-In some AAD configurations, like with nested tenants, you may be unable to find the **PowerApps Runtime Service** and **Windows Azure Service Management API** when setting up required permissions in the previous step. In such a case you need to modify the application's JSON manifest directly, by clicking on **Manifest** on top of the registered app pane. Add the following entries under the JSON array named `requiredResourceAccess` while maintaining validity of the manifest, then click **Save**.
+In some Azure AD configurations, such as configurations that have nested tenants, you might not be able to find **PowerApps Runtime Service** and **Windows Azure Service Management API** when you set up the required permissions in the previous step. In this case, you must directly modify the application's JSON manifest by clicking **Manifest** at the top of the registered app pane. Add the following entries under the JSON array that is named **requiredResourceAccess**, but be sure to maintain the validity of the manifest. When you've finished, click **Save**.
 
 ```javascript
 {
@@ -594,18 +610,18 @@ In some AAD configurations, like with nested tenants, you may be unable to find 
 }
 ```
 
-## Assembly load issue after publish to Azure
+## Assembly load issue after you publish to Azure
 
-If you started from a Visual Studio Function Application project and published it to the Azure Functions portal, you might have an issue with assembly loading when the function gets called. The error might look like the following:
+If you started from a Visual Studio Function Application project and published it to the Azure Functions portal, you might encounter an issue where the assembly loads when the Azure Function is called. The error message might resemble the following example.
 
 ```
 Function completed (Failure, Id=00000000-0000-0000-0000-000000000007)
 Exception while executing function: Functions.UpdateProductCategory. Microsoft.CommonDataService.ServiceClient.Security: Could not load file or assembly 'Microsoft.CommonDataService.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
 ```
 
-This issue can be resolve by deleting the **project.lock.json** file:
-1. Go to the **View files** tab on the top right of the pane.
-1. Select the filw named **project.lock.json**.
-1. Click **Delete** on top of the pane.
-1. Reissue the request from client.
+To resolve this issue, delete the project.lock.json file by following these steps.
 
+1. Click the **View files** tab in the upper right of the pane.
+1. Select the file that is named **project.lock.json**.
+1. Click **Delete** at the top of the pane.
+1. Reissue the request from the client.
