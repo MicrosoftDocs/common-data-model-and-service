@@ -17,7 +17,6 @@
 ## [System fields](system-fields.md)
 ## [Naming conventions](naming-conventions.md)
 ## [Entity versioning](versioning.md)
-## [Security model](security-model.md)
 ## [Privacy notice](privacy-notice.md)
 ## [Foundation entities](entities-foundation.md)
 ### [Foundation reference](entity-tables/foundation.md)
