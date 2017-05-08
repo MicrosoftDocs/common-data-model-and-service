@@ -37,7 +37,7 @@ When you provision a connection on the PowerApps site, unlike other connection s
 
 ## Data Integration
 
-The Data Integration feature is currently available as a tab in the PowerApps Admin Center. It's also available in the Business platform admin center (businessplatform.microsoft.com). 
+The Data Integration feature is currently available as a tab in the PowerApps [admin center](https://admin.powerapps.com).
 
 ## Projects
 
