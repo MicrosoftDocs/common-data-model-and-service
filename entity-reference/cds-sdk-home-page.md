@@ -1,6 +1,6 @@
 ---
 title: "Common Data Service SDK overview | Microsoft Docs"
-description: ""
+description: "The Common Data Service SDK lets you program against the Common Data Service by using C#."
 author: "nimakms"
 manager: "robinarh"
 ms.date: "02/03/2017"
