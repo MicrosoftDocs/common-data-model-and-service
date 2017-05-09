@@ -28,7 +28,7 @@ The three pillars of the Common Data Service are: 
 Learn more about the Common Data Service and what you can do with it: 
 
 + **Getting data into the Common Data Service**: learn more about getting your business data into the Common Data Service! 
-+ **Building apps with the Common Data Service**:learn more about building your apps with the Common Data Service with Microsoft PowerApps or the Common Data Service SDK! 
++ **Building apps with the Common Data Service**: learn more about building your apps with the Common Data Service with Microsoft PowerApps or the Common Data Service SDK! 
 + **Trustworthy platform**: learn more about securing your data in the Common Data Service. 
 + **Common data model**: learn more about the fully extensible data model at the core of the Common Data Service. 
  
