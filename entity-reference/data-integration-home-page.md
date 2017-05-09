@@ -1,5 +1,5 @@
 ---
-title: Data integration home page  | Microsoft Docs
+title: Getting Data into the Common Data Service  | Microsoft Docs
 description: 
 author: "robinarh"
 manager: "robinarh"
@@ -13,7 +13,7 @@ audience: "Developer, IT Pro"
 ms.assetid: "7b99bfba-f263-42da-9d15-1b66dce857a5"
 ---
 
-# Data integration home page
+# Getting Data into the Common Data Service
 
 To be most useful and relevant to today's users, applications should let every user act on the same data. This capability is important, because it helps guarantee that all users see the latest (and correct) data, and can therefore make correct decisions and take any appropriate action that is required.
 
