@@ -7,8 +7,11 @@
         ],
         "exclude": [
           "**/obj/**",
-          "common-data-service/**",
-          "**/includes/**"
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
         ]
       }
     ],
@@ -18,10 +21,8 @@
           "**/*.png",
           "**/*.jpg"
         ],
-
         "exclude": [
           "**/obj/**",
-          "common-data-service/**",
           "**/includes/**"
         ]
       }
