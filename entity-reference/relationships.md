@@ -3,7 +3,7 @@ title: "Relationships between entities | Common Data Model"
 description: "Scenarios are supported by relationship between the entities."
 author: "clwesene"
 manager: "robinarh"
-ms.date: "11/02/2016"
+ms.date: 05/09/2017
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -40,12 +40,12 @@ The following ERD shows a greatly simplified diagram for a sales order. The inte
 The connectors in the ERD also specify which fields are used as the lookup fields between entities. For example, the __Customer__ field in the SalesOrder entity is a lookup of the __RecordID__ field in the Customer entity. Note that the lookup is not on the __CustomerID__ field.
 
 ## Referential integrity
-Referential integrity is implemented on lookup fields to help guarantee that associations between rows in entities are valid. The value of the lookup field (also known as a foreign key) in any referencing entity must always refer to a valid row in the referenced entity (by way of the primary key in the referenced entity). In the CDM, the following rules are applied to maintain referential integrity:
+Referential integrity is implemented on lookup fields to help guarantee that associations between rows in entities are valid. The value of the lookup field (also known as a foreign key) in any referencing entity must always refer to a valid row in the referenced entity (by way of the primary key in the referenced entity). In the common data model, the following rules are applied to maintain referential integrity:
 * The value of a lookup field must match the primary key of a row in the lookup entity. For example, you cannot associate a sales order line with a non-existent sales order.
-* Cascading delete: If a row in the referenced entitiy is deleted, all the associated rows in the referencing entity are deleted. As an example, in the CDM, if a SalesOrder row is deleted, the corresponding SalesOrderCharge, SalesOrderTax, and SalesOrderLine rows are deleted. If a SalesOrderLine row is deleted, corresponding SalesOrderLineTax and SalesOrderLineCharge rows are deleted. The cascading delete rule applies to all entities in a header-line composition.
-* Restricted delete: You cannot delete a row in the referenced entity if it has associated rows in the referencing entity. As an example, in the CDM, if you try to delete a Product row, and the Product row is referenced in a SalesOrderLine row, then Product delete will be restricted (blocked). This is called a lookup pattern, and restricted delete is applied to all lookup patterns.
+* Cascading delete: If a row in the referenced entitiy is deleted, all the associated rows in the referencing entity are deleted. As an example, in the common data model, if a SalesOrder row is deleted, the corresponding SalesOrderCharge, SalesOrderTax, and SalesOrderLine rows are deleted. If a SalesOrderLine row is deleted, corresponding SalesOrderLineTax and SalesOrderLineCharge rows are deleted. The cascading delete rule applies to all entities in a header-line composition.
+* Restricted delete: You cannot delete a row in the referenced entity if it has associated rows in the referencing entity. As an example, in the common data model, if you try to delete a Product row, and the Product row is referenced in a SalesOrderLine row, then Product delete will be restricted (blocked). This is called a lookup pattern, and restricted delete is applied to all lookup patterns.
 
-Referential integrity is maintained when data is added or imported into the CDM. If primary keys do not exist, they are created. If you attempt to import data that would break referential integrity, the import will fail.
+Referential integrity is maintained when data is added or imported into the common data model. If primary keys do not exist, they are created. If you attempt to import data that would break referential integrity, the import will fail.
 
 ## Header-line composition
 The header-line composition pattern is implemented on the following entity pairs.

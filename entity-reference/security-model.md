@@ -15,11 +15,11 @@ ms.assetid: "775f3c15-da19-450a-83b0-b363d77f9725"
 
 # Security model
 
-The Common Data Service provides a security framework to help protect your data. When running in restricted mode, your administrators have full control over who accesses the data using the role based concepts described in this topic. If you're just getting started or do not need strict access controls, open mode makes sharing your apps a breeze.
+The Common Data Service provides a security framework to help protect your data. You can control security for your data at several levels - at the database level, entity or now even record-level!  You can choose how to structure your security based on role memberships, Permission Sets and policies.  Read on to learn more about the ways you can secure your data.
 
-## Open mode and restricted mode
-There are two modes in which the Common Data Service can run, open or restricted. In open mode, the data stored in the common data service is open to all users. This means that you can share apps and view data without having to worry about managing permissions to your data. Everyone will always have the needed permissions to use any app.
-When using Microsoft PowerApps, your database will be created in open mode by default, but you can optionally choose to restrict access at creation time. After your database is created you can always toggle between open mode and restricted access on the database tab of the admin center. If you choose to store sensitive data, you should turn off the open mode setting and grant specific data permissions to users by using the admin center. When running in restricted mode, you will need to configure the role-based security described in the following section.
+## Database security
+There are two modes in which the Common Data Service can run: open or restricted. In open mode, the data stored in the common data service is open to all users. This means that you can share apps and view data without having to worry about managing permissions to your data. Everyone will always have the needed permissions to use any app.
+When using Microsoft PowerApps, your database will be created in restriced mode by default, but you can optionally choose to open access at creation time. After your database is created you can always toggle between open mode and restricted access on the database tab of the admin center. If you choose to store sensitive data, you should turn off the open mode setting and grant specific data permissions to users by using the admin center. When running in restricted mode, you will need to configure the role-based security described in the following section.
 
 ## Role-based security
 A role-based system is used to grant users permissions to data. The security model is a hierarchy, with each level representing a different level of access. At the lowest level are individual create, read, update, and delete permissions on a single entity. A collection of these entity level permissions form a permission set. Multiple permission sets can then be combined to create a role. A role is the top-level artifact that encompasses all the permissions needed by a user or a group of users.
@@ -27,6 +27,13 @@ A role-based system is used to grant users permissions to data. The security mod
 ### Permission sets
 Permission sets are the building blocks of the role-based security framework. A permission set specifies the level of access that is granted to a set of entities. Create, read, update, and delete permissions can be granted to any entity included in the permission set. A permission set should contain a set of entities needed to perform a specific task or run a single app.
 There is also a set of out-of-the-box permission sets that grant access to the out-of-the-box entities. Add these permission sets to a role to leverage the out-of-the-box entities, or create your own .
+
+### Policies (Technical Preview)
+Policies determine the records that a user has access to within an entity. A policy can be used to simplify your Common Data Service application or PowerApp. The policy allows you to limit the data returned to the user to only the set that is relevant to them. A policy restricts access based on the value of a field within the record. 
+
+Policies can be defined to only return values:
+- With a given picklist value 
+- Where the current user of the application matches the user stored in the record 
 
 ### Roles
 In restricted mode every user must have one or more role assigned to them. Managing security through roles allows you save time by not having to set up security for each user. A role can be set up for a given position within your company, and assigned to any person who is in that position. Users can also be automatically added to a role based on the Azure Active Directory groups they belong to.

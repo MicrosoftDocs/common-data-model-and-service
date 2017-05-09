@@ -3,7 +3,7 @@ title: "Customer service reference | Microsoft Docs"
 description: "The customer service entities manage issues from your customers, including tracking, escalation, and documentation."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "02/03/2017"
+ms.date: "05/08/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -21,15 +21,17 @@ Field | Description
 ---|---
 Account | Lookup: Account
 ArrivalDate | Data: DateTime<br>Required, Searchable
+BusinessUnit | Lookup: BusinessUnit
 CaseId<br>Primary key | Number sequence: <br>Unique, Searchable
 Category | Picklist: CaseCategory<br>Values: Problem, Question, Request<br>Required
 CloseDate | Data: DateTime<br>Searchable
 Comment | Data: MultilineText
 CurrentAssignedSupportWorker | Lookup: Worker
-CurrentContact | Lookup: Contact<br>Required
+CurrentContact | Lookup: Contact
 CustomerSatisfactionCode | Picklist: CaseCustomerSatisfactionCode<br>Values: Dissatisfied, Neutral, Satisfied, VeryDissatisfied, VerySatisfied
 Description | Data: Text<br>Maximum length: 255
 Name | Data: Text<br>Required, Maximum length: 60<br>Description: Case name
+Organization | Lookup: Organization
 OriginCode | Picklist: CaseOriginCode<br>Values: Email, Facebook, Other, Phone, Twitter, Web<br>Required<br>Description: Origin
 ParentCase | Lookup: Case
 Severity | Picklist: Severity<br>Values: High, Low, Normal<br>Required
@@ -44,6 +46,8 @@ Account|Account|OneToMany|Association
 Contact|Current contact|OneToMany|Association
 Case|Parent case|OneToMany|Association
 Worker|Current assigned support worker|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
+Organization|Organization|OneToMany|Association
 
 
 ### Field groups
@@ -64,6 +68,7 @@ Actions performed by a support worker or customer that must be logged for a case
 Field | Description
 ---|---
 BeginDate | Data: DateTime<br>Required, Searchable
+BusinessUnit | Lookup: BusinessUnit
 CaseSeverity | Picklist: Severity<br>Values: High, Low, Normal<br>Required<br>Description: Current case severity
 CaseStatus | Picklist: CaseStatus<br>Values: Active, Cancelled, Closed, OnHold, Resolved, SolvedAnswered<br>Required<br>Description: Current case status
 Comment | Data: MultilineText
@@ -93,6 +98,7 @@ Case|Support case|OneToMany|Composition
 Contact|Contact|OneToMany|Association
 Worker|Support worker|OneToMany|Association
 Worker|Reassigned from case worker|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups

@@ -1,9 +1,9 @@
 ---
-title: "Standard picklists | Microsoft Docs"
+title: "Standard picklists reference | Microsoft Docs"
 description: "The Common Data Model contains a rich set of picklists to support common scenarios."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "01/26/2017"
+ms.date: "05/08/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -35,6 +35,8 @@ ApplicationUserGroupStatusReason | Active, Inactive
 ApplicationUserStatus | Active, Inactive 
 ApplicationUserStatusReason | Active, Inactive 
 AscendingDescending | Ascending, Descending 
+BodyContentType | HTML, Text 
+BudgetStatus | CanBuy, MayBuy, NoCommittedBudget, WillBuy 
 BusinessUnitStatus | Active, Inactive 
 BusinessUnitStatusReason | Active, Inactive 
 CaseActivityType | AssignReassignCaseWorker, Cancel, ChangeCaseStatus, Close, Contact, CreateSubcase, Intake, MakeKBReference, Open, Research 
@@ -52,8 +54,10 @@ ChannelActivity | Appointment, Email, PhoneCall, ServiceActivity, SocialActivity
 ChargeType | Freight, Insurance, Others 
 Color | Aqua, Black, Blue, Fuchsia, Gray, Green, Lime, Maroon, Navy, Olive, Purple, Red, Silver, Teal, White, Yellow 
 CommunicationMethod | Any, Email, Fax, Mail, Phone, SocialMedia 
+CompetitorStatus | Active, Inactive 
 ConstituentStatus | Active, Inactive 
 ConstituentStatusReason | Active, Inactive 
+ContactMethod | Any, Email, Fax, Mail, Phone 
 ContractorStatus | Active, Inactive 
 ConversionRounding | Down, Nearest, Up 
 CountryCode | AD, AE, AF, AG, AI, AL, AM, AO, AQ, AR, AS, AT, AU, AW, AX, AZ, BA, BB, BD, BE, BF, BG, BH, BI, BJ, BL, BM, BN, BO, BQ, BR, BS, BT, BV, BW, BY, BZ, CA, CC, CD, CF, CG, CH, CI, CK, CL, CM, CN, CO, CR, CU, CV, CW, CX, CY, CZ, DE, DJ, DK, DM, DO, DZ, EC, EE, EG, ER, ES, ET, FI, FJ, FK, FM, FO, FR, GA, GB, GD, GE, GF, GG, GH, GI, GL, GM, GN, GP, GQ, GR, GS, GT, GU, GW, GY, HK, HM, HN, HR, HT, HU, ID, IE, IL, IM, IN, IO, IQ, IR, IS, IT, JE, JM, JO, JP, KE, KG, KH, KI, KM, KN, KP, KR, KW, KY, KZ, LA, LB, LC, LI, LK, LR, LS, LT, LU, LV, LY, MA, MC, MD, ME, MF, MG, MH, MK, ML, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MX, MY, MZ, NA, NC, NE, NF, NG, NI, NL, NO, NP, NR, NU, NZ, OM, PA, PE, PF, PG, PH, PK, PL, PM, PN, PR, PS, PT, PW, PY, QA, RE, RO, RS, RU, RW, SA, SB, SC, SD, SE, SG, SH, SI, SJ, SK, SL, SM, SN, SO, SR, SS, ST, SV, SX, SY, SZ, TC, TD, TF, TG, TH, TJ, TK, TL, TM, TN, TO, TR, TT, TV, TW, TZ, UA, UG, UM, US, UY, UZ, VA, VC, VE, VG, VI, VN, VU, WF, WS, XE, XJ, XK, XS, YE, YT, ZA, ZM, ZW 
@@ -69,8 +73,14 @@ ElectronicAddressCategory | Email, Fax, Phone, SocialNetwork
 ElectronicAddressFormat | Email, Phone, Text 
 ElectronicAddressType | CellPhone, Facebook, HomePhone, LinkedIn, PersonalEmail, Twitter, WorkEmail, WorkPhone 
 EmploymentStatus | Employed, None, OnLeave, Resigned, Retired 
+EmploymentUnitOfNotice | Month, Week 
 EnableDisable | Disable, Enable 
 Ethnicity | AfricanAmerican, Asian, Hispanic, NativeAmerican, Other, White 
+EventImportance | High, Low, Normal 
+EventResponse | Accepted, Declined, None, NotResponded, Organizer, TentativelyAccepted 
+EventSensitivity | Confidential, Normal, Personal, Private 
+EventTimeStatus | Busy, Free, OutofOffice, Tentative, Unknown, Workingelsewhere 
+EventType | Exception, Occurrence, SeriesMaster, SingleInstance 
 ExpenseCategory | Advertising, Entertainment, Food, InteriorDesigns, Logistics, Marketing, Miscellaneous, TeamActivities, Transportation 
 FamilyMemberStatus | Active, Inactive 
 FamilyMemberStatusReason | Active, Inactive 
@@ -81,7 +91,7 @@ FanStatus | Bronze, Club, Gold, Platinum, PreferenceTicket, SeasonTicketHolder, 
 FanStatusReason | Active, Inactive 
 FiscalPeriod | Annual, Quarter1, Quarter2, Quarter3, Quarter4, Semester1, Semester2 
 FreightTerms | FOB, NoCharge 
-Gender | Female, Male, NotSpecified 
+Gender | Female, Male, Nonspecific, NotSpecified 
 HorizontalVertical | Horizontal, Vertical 
 HotWarmCold | Cold, Hot, Warm 
 HouseholdMemberStatus | Active, Inactive 
@@ -100,17 +110,23 @@ InvoiceLineTaxType | Others, SalesTax, VAT
 InvoiceStatus | Cancelled, Created, Hold, Paid 
 InvoiceStatusReason | Active, Inactive 
 InvoiceTaxType | Others, SalesTax, VAT 
+JobExemptStatus | DoesNotApply, Exempt, NonExempt 
 JobStatus | Failed, Pending, Processing, Succeeded 
+JobTitle | NotSpecified 
+LeadRating | Cold, Hot, Warm 
 LeadSource | Advertisement, EmployeeReferral, ExternalReferral, Other, Partner, PublicRelations, Seminar, TradeShow, Web, WordOfMouth 
 LeadState | Disqualified, Open, Qualified 
 LeadStatus | Cancelled, Contacted, Disqualified, New, NoLongerInterested, Qualified 
 LeadStatusReason | Active, Inactive 
+LeaveRequestStatus | Approved, Draft, InReview 
 LeftRight | Left, Right 
 LineChargeType | Freight, Insurance, Others 
 LineTaxType | Others, SalesTax, VAT 
 LowMedHigh | High, Low, Medium 
 MaritalStatus | Divorced, Married, None, Single, Widowed 
 MemberStatus | Active, Inactive 
+MessageImportance | High, Low, Normal 
+MessageInferenceClassification | Focused, Other 
 MonthsOfTheYear | April, August, December, February, January, July, June, March, May, November, October, September 
 Nationality | Canada, China, India, Japan, Mexico, Others, SouthKorea, USA 
 NoYes | No, Yes 
@@ -121,7 +137,7 @@ OpportunityState | Lost, Open, Won
 OpportunityStatus | Canceled, InProgress, OnHold, OutSold, Won 
 OrderLineStatus | Active, Confirmed, Invoice, PackingSlip, Quote 
 OrderLineStatusReason | Active, Inactive 
-OrderStatus | Active, Confirmed, Invoice, PackingSlip, Quote 
+OrderStatus | Active, Cancelled, Confirmed, Invoice, PackingSlip, PartiallyInvoiced, PartiallyPacked, PartiallyPicked, PartiallyShipped, Picked, Quote, Shipped 
 OrderStatusReason | Active, Inactive 
 OrganizationStatus | Active, Inactive 
 OrganizationStatusReason | Active, Inactive 
@@ -136,7 +152,9 @@ PersonStatusReason | Active, Inactive
 PersonTitle | Coach, Dr, Father, Jr, Miss, Mr, Mrs, Ms, Rev, Sister, Sr 
 PledgeFrequency | Daily, Monthly, OneTime, Quarterly, Weekly, Yearly 
 PledgeType | OneTime, Recurring 
+PositionClassification | FullTime, PartTime 
 PreferenceType | AlternateEmail, AlternateSocialNetwork, CellPhone, HomePhone, PrimaryEmail, PrimaryPhone, PrimarySocialNetwork 
+PrimaryAccountRole | DecisionMaker, Employee, Influencer 
 Priority | High, Low, Normal 
 Process | Committee, Individual, Unknown 
 ProductStatus | Active, Inactive 
@@ -148,6 +166,12 @@ PurchaseOrderLineStatus | Blocked, Closed, Confirmed, Invoiced, Open, Received, 
 PurchaseOrderLineStatusReason | Active, Inactive 
 PurchaseOrderStatus | Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended 
 PurchaseOrderStatusReason | Active, Inactive 
+PurchaseTimeframe | Immediate, NextQuarter, ThisQuarter, ThisYear, Unknown 
+QuotationLineStatus | Active, Closed, Draft, Won 
+QuotationLineStatusReason | Active, Cancelled, Lost, Open, Revised, Won 
+QuotationStatus | Active, Closed, Draft, Won 
+QuotationStatusReason | Active, Cancelled, Lost, Open, Revised, Won 
+QuotationType | Maintainence, Product, Service 
 ReferencedType | Default 
 Severity | High, Low, Normal 
 sex | Female, Male, Unknown 
@@ -176,6 +200,7 @@ TimeFrame | Day, HalfYear, Hour, Month, Quarter, Trimester, Week, Year
 Timezone | GMT_CASABLANCA, GMT_CASABLANCA_MONTROVIA_REYKJAVIK, GMT_COORDINATEDUNIVERSALTIME, GMT_DUBLIN_EDINBURGH_LISBON_LONDON, GMT_PLUS0300KALININGRAD_MINSK, GMTMINUS0100AZORES, GMTMINUS0100CAPEVERDIS, GMTMINUS0200MIDATLANTIC, GMTMINUS0300_SALVADOR, GMTMINUS0300BRASILIA, GMTMINUS0300BUENOSAIRES, GMTMINUS0300BUENOSAIRES_GEORGETOWN, GMTMINUS0300GREENLAND, GMTMINUS0300MONTEVIDEO, GMTMINUS0330NEWFOUNDLAND, GMTMINUS0400ASUNCION, GMTMINUS0400ATLANTICTIME, GMTMINUS0400LAPAZ, GMTMINUS0400MANAUS, GMTMINUS0400SANTIAGO, GMTMINUS0430CARACAS, GMTMINUS0500BOGOTA_LIMA_QUITO_RIOBRANCO, GMTMINUS0500EASTERNTIME, GMTMINUS0500INDIANA, GMTMINUS0600CENTRALAMERICA, GMTMINUS0600CENTRALTIME, GMTMINUS0600GUADALAJARA_MEXICOCITY, GMTMINUS0600SASKATCHEWAN, GMTMINUS0700ARIZONA, GMTMINUS0700CHIHUAHUA_LAPAZ_MAZATLAN, GMTMINUS0700MOUNTAINTIME, GMTMINUS0800PACIFICTIME, GMTMINUS0800TIJUANA_BAJACALIFORNIA, GMTMINUS0900ALASKA, GMTMINUS1000HAWAII, GMTMINUS1100COORDINATEDUNIVERSALTIME, GMTMINUS1100MIDWAYISLAND_SAMOA, GMTMINUS1200INTERNATIONALDATELINEWEST, GMTPLUS0100_AMSTERDAM_BERLIN_BERN_ROME, GMTPLUS0100BELGRADE_BRATISLAVA_BUDAPEST, GMTPLUS0100BRUSSELS_COPENHAGEN_MADRID, GMTPLUS0100SARAJEVO_SKOPJE_WARSAW_ZAGREB, GMTPLUS0100TRIPOLI, GMTPLUS0100WESTCENTRALAFRICA, GMTPLUS0200_DAMASCUS, GMTPLUS0200AMMAN, GMTPLUS0200ATHENS_BUCHAREST_ISTANBUL, GMTPLUS0200BEIRUT, GMTPLUS0200CAIRO, GMTPLUS0200HARARE_PRETORIA, GMTPLUS0200HELSINKI_KYIV_RIGA_VILNIUS, GMTPLUS0200ISTANBUL, GMTPLUS0200JERUSALEM, GMTPLUS0200MINSK, GMTPLUS0200WINDHOEK, GMTPLUS0300BAGHDAD, GMTPLUS0300KUWAIT_RIYADH, GMTPLUS0300MOSCOW_STPETERSBURG_VOLGOGRAD, GMTPLUS0300NAIROBI, GMTPLUS0300TBILISI, GMTPLUS0330TEHRAN, GMTPLUS0400ABUDHABI_MUSCAT, GMTPLUS0400BAKU, GMTPLUS0400CAUCASUSSTANDARDTIME, GMTPLUS0400IZHEVSK_SAMARA, GMTPLUS0400PORTLOUIS, GMTPLUS0400YEREVAN, GMTPLUS0430KABUL, GMTPLUS0500EKATERINBURG, GMTPLUS0500ISLAMABAD_KARACHI, GMTPLUS0500ISLAMABAD_KARACHI_TASHKENT, GMTPLUS0530CHENNAI_KOLKATA_MUMBAI, GMTPLUS0530SRIJAYAWARDENEPURA, GMTPLUS0545KATHMANDU, GMTPLUS0600ALMATY_NOVOSIBIRSK, GMTPLUS0600ASTANA_DHAKA, GMTPLUS0600DHAKA, GMTPLUS0600MAGADAN, GMTPLUS0630_YANGON, GMTPLUS0700_BANGKOK_HANOI_JAKARTA, GMTPLUS0700KRASNOYARSK, GMTPLUS0800_ULAANBAATAR, GMTPLUS0800BEIJING_CHONGQING_HONGKONG, GMTPLUS0800IRKUTSK_ULAANBATAAR, GMTPLUS0800KUALALUMPUR_SINGAPORE, GMTPLUS0800PERTH, GMTPLUS0800TAIPEI, GMTPLUS0900OSAKA_SAPPORO_TOKYO, GMTPLUS0900SEOUL, GMTPLUS0900YAKUTSK, GMTPLUS0930ADELAIDE, GMTPLUS0930DARWIN, GMTPLUS1000BRISBANE, GMTPLUS1000CANBERRA_MELBOURNE_SYDNEY, GMTPLUS1000GUAM_PORTMORESBY, GMTPLUS1000HOBART, GMTPLUS1000VLADIVOSTOK, GMTPLUS1100CHOKURDAKH, GMTPLUS1100MAGADAN_SOLOMONIS, GMTPLUS1200ANADYR_PETRO_KAMCHATSKY, GMTPLUS1200AUCKLAND_WELLINGTON, GMTPLUS1200COORDINATEDUNIVERSALTIME, GMTPLUS1200FIJI_KAMCHATKA_MARSHALLIS, GMTPLUS1300NUKU_ALOFA 
 UnitOfMeasure | Bag, Box, Bucket, Centilitre, Centimeter, CubicCentimeter, CubicFeet, CubicInch, CubicMeter, CubicMillimeter, CubicYard, Day, Deciliter, DegreesBrix, Dozen, Each, Feet, FluidOunce, Gallon, GigaByte, Gram, HalfCubicInch, HalfInch, HalfPint, HalfPound, HalfSquareInch, Hour, Inch, Keg, Kilogram, Kilometer, KilowattHour, Litre, Meter, Mgpx, Mile, Milligram, Millilitre, Millimeter, Minute, Month, Ohm, OneEighthCubicInch, OneEighthInch, OneEighthSquareInch, Option, Ounce, Pair, Pallet, PascalSecond, Percentage, pHValue, Piece, Pint, Pound, Quart, QuarterCubicInch, QuarterInch, QuarterPound, QuarterSquareInch, Second, SetOfEquipment, SquareCentimeter, SquareFeet, SquareInch, SquareMeter, SquareMile, SquareMillimeter, SquareYard, Ton, Tray, Yard 
 UpDown | Down, Up 
+UserOrGroupType | Group, ServicePrincipal, User 
 VendorStatus | Active, Blocked, Inactive 
 VolunteerStatus | Active, Inactive 
 WorkerStatus | Active, Inactive 

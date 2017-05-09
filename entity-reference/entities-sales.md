@@ -3,7 +3,7 @@ title: "Sales entities | Common Data Model"
 description: "The sales entities let you create end-to-end sales solutions."
 author: "clwesene"
 manager: "robinarh"
-ms.date: "11/02/2016"
+ms.date: "05/08/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -26,6 +26,19 @@ The sales entities let you create end-to-end sales solutions, from tracking lead
 The sales order is modeled with a header, lines, and deliveries. The delivery enables a single line item to be broken up into shipments to different locations. For example, out of 100 items of a specific product, 60 items are shipped to one location, and 40 items are shipped to another location.
 
 ![Sales order ERD](media/sales-order.png "Sales order ERD")
+
+## Quotation ERD
+
+![Quotation](media/quotation.png)
+
+## Competitor ERD
+
+![Competitor](media/competitor.png)
+
+## Lead ERD
+
+![Lead](media/lead.png)
+
 
 ## Reference
 
