@@ -1,6 +1,6 @@
 ---
 title: "Common Data Model home page  | Microsoft Docs"
-description: "The Common Data Model is a set of "
+description: "The common data model comes pre-populated with many business entities that are useful across a variety of business and application domains."
 author: "robinarh"
 manager: "robinarh"
 ms.date: "4/24/2017"
@@ -17,7 +17,7 @@ ms.assetid: "08e44686-60b1-4d35-a020-9053489223da"
 
 At the core of the  Common Data Service is the common data model.  The common data model comes pre-populated with many business entities that are useful across a variety of business and application domains.  These entities can be used by apps built atop the Common Data Service via PowerApps or the Common Data Service SDK, or by the integration capabilities that the Common Data Service provides customers.  The common data model is fully extensible - you can add fields to any of the entities that come with the Common Data Service, or create your own. The benefit of the common data model is that applications can work against data without needing to explicitly know where that data is coming from.  
 
-The common data model provides a rich and productive development platform though the following features: 
+The common data model provides a rich and productive development platform through the following features: 
 
 * __Common data model__ – The common data model is a library of entities that represent the most commonly used entities across business and productivity applications. The library is organized for simplicity and rapid discoverability. Typical solutions will revolve around core elements of enterprise data – for example, a worker, an account, a product, or a vendor. Applications across the enterprise will drive updates to that data. The common data model is implemented to simplify the challenges of data management.
 * __Data import__ – You can quickly and easily import data from your existing systems. The Common Data Service rapidly establishes trusted connections for IT-managed tenants. The trusted connections continually synchronize the data between your existing systems and your platform solutions.
@@ -37,38 +37,24 @@ Additionally, the Common Data Service provides several key capabilities over the
 To download the Common Data Service documentation as a single file, see [Microsoft Common Data Model, Entity Reference](http://download.microsoft.com/download/8/9/5/8956ED58-A9B0-40DF-8CB0-BC13AD8DB6E2/CDMEntityReference.docx "Microsoft Common Data Model, Entity Reference").
 
 [Standard entities](standard-entities.md)
-
 [Entity field data types](field-data-types.md)
-
 [Entity relationships](relationships.md)
-
 [Entity field properties](field-properties.md)
-
 [System fields](system-fields.md)
-
 [Naming conventions](naming-conventions.md)
-
 [Entity versioning](versioning.md)
-
+[Privacy notice](privacy-notice.md)
 [Foundation entities](entities-foundation.md)
-
-+ [Foundation reference](entity-tables/foundation.md)
-
+[Foundation reference](entity-tables/foundation.md)
 [People, organizations, and groups entities](entities-person-organization-group.md)
-
-+ [People, organizations, and groups reference](entity-tables/person-organization-group.md)
-
+[People, organizations, and groups reference](entity-tables/person-organization-group.md)
 [Purchasing entities](entities-purchasing.md)
-
-+ [Purchasing reference](entity-tables/purchasing.md)
-
+[Purchasing reference](entity-tables/purchasing.md)
 [Sales entities](entities-sales.md)
-
-+ [Sales reference](entity-tables/sales.md)
-
+[Sales reference](entity-tables/sales.md)
 [Customer service entities](entities-customer-service.md)
-
-+ [Customer service reference](entity-tables/customer-service.md)
-
+[Customer service reference](entity-tables/customer-service.md)
 [Standard picklists](standard-picklists.md)
+
+
 
