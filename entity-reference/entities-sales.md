@@ -27,6 +27,19 @@ The sales order is modeled with a header, lines, and deliveries. The delivery en
 
 ![Sales order ERD](media/sales-order.png "Sales order ERD")
 
+## Quotation ERD
+
+![Quotation](media/quotation.png)
+
+## Competitor ERD
+
+![Competitor](media/competitor.png)
+
+## Lead ERD
+
+![Lead](media/lead.png)
+
+
 ## Reference
 
 [Sales reference](entity-tables/sales.md "Sales reference")
