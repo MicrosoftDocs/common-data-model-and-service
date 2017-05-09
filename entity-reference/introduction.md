@@ -20,9 +20,9 @@ The Common Data Service is the Microsoft Azure–based business application plat
 
 The three pillars of the Common Data Service are: 
 
-+ **Be the focal point for your data**: bring your data together into one place. 
-+ **Be a great place to build and manage apps**: help app creators and developers of all skill levels to easily create apps with the data in the Common Data Service. 
-+ **It just works with the rest of Microsoft**: provide out-of-the-box integrations with technologies across Microsoft including Flow, Power BI, and Office. 
++ **1. Be the focal point for your data**: bring your data together into one place. 
++ **2. Be a great place to build and manage apps**: help app creators and developers of all skill levels to easily create apps with the data in the Common Data Service. 
++ **3. It just works with the rest of Microsoft**: provide out-of-the-box integrations with technologies across Microsoft including Flow, Power BI, and Office. 
  
 
 Learn more about the Common Data Service and what you can do with it: 
