@@ -26,7 +26,7 @@ A role-based system is used to grant users permissions to data. The security mod
 
 ### Permission sets
 Permission sets are the building blocks of the role-based security framework. A permission set specifies the level of access that is granted to a set of entities. Create, read, update, and delete permissions can be granted to any entity included in the permission set. A permission set should contain a set of entities needed to perform a specific task or run a single app.
-There is also a set of out-of-the-box permission sets that grant access to the out-of-the-box entities. Add these permission sets to a role to leverage the out-of-the-box entities, or create your own .
+There is also a set of out-of-the-box permission sets that grant access to the out-of-the-box entities. Add these permission sets to a role to leverage the out-of-the-box entities, or create your own.
 
 ### Policies (Technical Preview)
 Policies determine the records that a user has access to within an entity. A policy can be used to simplify your Common Data Service application or PowerApp. The policy allows you to limit the data returned to the user to only the set that is relevant to them. A policy restricts access based on the value of a field within the record. 
@@ -36,7 +36,7 @@ Policies can be defined to only return values:
 - Where the current user of the application matches the user stored in the record 
 
 ### Roles
-In restricted mode every user must have one or more role assigned to them. Managing security through roles allows you save time by not having to set up security for each user. A role can be set up for a given position within your company, and assigned to any person who is in that position. Users can also be automatically added to a role based on the Azure Active Directory groups they belong to.
+In restricted mode, every user must have one or more role assigned to them. Managing security through roles allows you to save time by not having to set up security for each user. A role can be set up for a given position within your company, and assigned to any person who is in that position. Users can also be automatically added to a role based on the Azure Active Directory groups they belong to.
 
 Roles combine the permissions granted across the permission sets added to them. In this way, members of a role can access all the data provided to them by the permission sets included in the role.
 
