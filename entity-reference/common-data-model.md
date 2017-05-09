@@ -36,25 +36,46 @@ Additionally, the Common Data Service provides several key capabilities over the
 ## Download the documentation
 To download the Common Data Service documentation as a single file, see [Microsoft Common Data Model, Entity Reference](http://download.microsoft.com/download/8/9/5/8956ED58-A9B0-40DF-8CB0-BC13AD8DB6E2/CDMEntityReference.docx "Microsoft Common Data Model, Entity Reference").
 
+## See also
+
 [Standard entities](standard-entities.md)
+
 [Entity field data types](field-data-types.md)
+
 [Entity relationships](relationships.md)
+
 [Entity field properties](field-properties.md)
+
 [System fields](system-fields.md)
+
 [Naming conventions](naming-conventions.md)
+
 [Entity versioning](versioning.md)
+
 [Privacy notice](privacy-notice.md)
+
 [Foundation entities](entities-foundation.md)
+
 [Foundation reference](entity-tables/foundation.md)
+
 [People, organizations, and groups entities](entities-person-organization-group.md)
+
 [People, organizations, and groups reference](entity-tables/person-organization-group.md)
+
 [Purchasing entities](entities-purchasing.md)
+
 [Purchasing reference](entity-tables/purchasing.md)
+
 [Sales entities](entities-sales.md)
+
 [Sales reference](entity-tables/sales.md)
+
 [Customer service entities](entities-customer-service.md)
+
 [Customer service reference](entity-tables/customer-service.md)
+
 [Standard picklists](standard-picklists.md)
+
 
 
 
