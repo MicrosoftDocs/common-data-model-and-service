@@ -8,7 +8,6 @@
 ## [License](cds-sdk-eula.md)
 # [Trustworthy platform](security-home-page.md)
 ## [Security model](security-model.md)
-## [Record-level security](record-level-security.md)
 # [Common Data Model](common-data-model.md)
 ## [Standard entities](standard-entities.md)
 ## [Entity field data types](field-data-types.md)
