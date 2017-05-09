@@ -15,6 +15,9 @@ ms.assetid: "34eddae8-3715-4bd6-b921-5bfb82d9df1c"
 
 # Get started with the Common Data Service SDK
 
+> [!NOTE]
+> This feature is preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
+
 ## Overview
 
 It's easy to start to program against the Common Data Service. This topic walks you through the process of getting a console application up and running. 
