@@ -15,9 +15,9 @@ ms.assetid: "45b5e70c-f637-4ef0-9b7c-292c92da3be5"
 
 # Standard entities
 
-Out of the box, the Common Data Model provides a set of entities that supports key scenarios. For example, the Employee, Contractor, and Company entities support employment scenarios. The PurchaseOrder and PurchaseOrderLine entities support purchasing scenarios. The entities are grouped by function – for example, sales, marketing, and productivity. The model is simpler and, at the same time, more consumable than the models in a full enterprise resource planning (ERP) or customer relationship management (CRM) suite. This simplicity is reflected in the number of entities, the relational structure of those entities, and the number of fields in those entities. All entities have a standard set of fields that drive the core capabilities of the platform.
+Out of the box, the common data model provides a set of entities that supports key scenarios. For example, the Worker, Employment, and Organization entities support employment scenarios. The PurchaseOrder and PurchaseOrderLine entities support purchasing scenarios. The entities are grouped by function – for example, sales, purchasing, and productivity. The model is simpler and, at the same time, more consumable than the models in a full enterprise resource planning (ERP) or customer relationship management (CRM) suite. This simplicity is reflected in the number of entities, the relational structure of those entities, and the number of fields in those entities. All entities have a standard set of fields that drive the core capabilities of the platform.
 
-The entities are organized into five functional groups.
+The entities are organized into these functional groups.
 
 Functional Group	| Description
 --- | ---
@@ -29,4 +29,3 @@ Productivity | The productivity entities let you track events and messages.
 Purchasing |The Purchasing entities let you create purchasing solutions.
 Sales |The Sales entities let you create end-to-end sales solutions, from tracking leads and opportunities, to following through with contacts, to accepting and delivering orders, to sending invoices.
 
-__Note:__ Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
