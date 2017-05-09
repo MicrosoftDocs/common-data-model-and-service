@@ -23,6 +23,7 @@ The three pillars of the Common Data Service are: 
 + **Be a great place to build and manage apps**: help app creators and developers of all skill levels to easily create apps with the data in the Common Data Service. 
 + **It just works with the rest of Microsoft**: provide out-of-the-box integrations with technologies across Microsoft including Flow, Power BI and Office. 
  
+
 Learn more about the Common Data Service and what you can do with it: 
 
 + **Getting data into the Common Data Service**: learn more about getting your business data into the Common Data Service! 
