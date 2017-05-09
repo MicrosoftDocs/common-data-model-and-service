@@ -21,10 +21,12 @@ The entities are organized into five functional groups.
 
 Functional Group	| Description
 --- | ---
+Customer service | The customer service entities manage issues from your customers, including tracking, escalation, and documentation.
 Foundation | The Foundation entities contain information that is relevant to nearly every other entity group. This group contains entities such as Address and Currency.
+Human resources | The human resources entities let you manage employment information, jobs, leaves, and positions.
 Person, organization, and group |	These entities encompass a rich set of people and organizations that you might interact with, including workers, vendors, tenants, fans, alumni, and families.
+Productivity | The productivity entities let you track events and messages.
 Purchasing |The Purchasing entities let you create purchasing solutions.
 Sales |The Sales entities let you create end-to-end sales solutions, from tracking leads and opportunities, to following through with contacts, to accepting and delivering orders, to sending invoices.
-Customer service | The customer service entities manage issues from your customers, including tracking, escalation, and documentation.
 
 __Note:__ Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
