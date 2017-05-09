@@ -15,6 +15,9 @@ ms.assetid: "2308e302-ec0b-437a-82a3-dc71150b9d81"
 
 # Get started with the Common Data Service SDK by using Azure Functions
 
+> [!NOTE]
+> This feature is preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
+
 ## Overview
 
 It's easy to start to program against the Common Data Service by using Microsoft Azure Functions. This topic walks you through the process to get a Common Data Service Azure Function up and running. 
