@@ -21,4 +21,4 @@ Common Data Service security is based on role-based security. Data in the Common
 
 + **Database level** – Admins can define which users can perform all administrative operations in the Common Data Service. For more information, see [Security model](security-model.md).
 + **Entity level** – Admins can define which users have access to entities, and what actions those users can take on those entities. For more information, see [Security model](security-model.md).
-+ **Record level** – Admins can use policies to define which records a user has access to in a given entity. For more information, see [Record-level security](record-level-security.md).
++ **Record level** – Admins can use policies to define which records a user has access to in a given entity. For more information, see [Security model](security-model.md).
