@@ -3,7 +3,7 @@ title: "Foundation entities | Common Data Model"
 description: "The foundation entities are used to drive other entities in the Common Data Model."
 author: "clwesene"
 manager: "robinarh"
-ms.date: "11/02/2016"
+ms.date: "05/08/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -19,7 +19,7 @@ The foundation entities are used to drive other entities in the Common Data Mode
 
 ## Foundation ERD
 
-![Foundation ERD](media/Foundation.png "Foundation ERD")
+![Foundation ERD](media/foundation.png)
 
 ## Foundation reference
 

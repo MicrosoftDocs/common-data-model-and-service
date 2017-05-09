@@ -3,7 +3,7 @@ title: "Foundation reference | Microsoft Docs"
 description: "The foundation entities are used to drive other entities in the Common Data Model."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "02/03/2017"
+ms.date: "05/08/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -30,11 +30,10 @@ IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 MailingPostalAddress | Data: Address
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
-Organization | Lookup: Organization<br>Required
+Organization | Lookup: Organization
 OrganizationName | Data: Text<br>Maximum length: 128
 OtherPostalAddress | Data: Address
-ParentBusinessUnit | Lookup: BusinessUnit
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
+ParentBusinessUnit | Lookup: BusinessUnit<br>Description: Parent business unit ID
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 Phone01 | Data: Phone
 Phone02 | Data: Phone
@@ -54,14 +53,14 @@ Related entity | Description | Cardinality | Type
 ---|---|---|---
 CostCenter|Cost center|OneToMany|Association
 Organization|Organization|OneToMany|Association
-BusinessUnit||OneToMany|Association
+BusinessUnit|Parent business unit ID|OneToMany|Association
 
 
 ### Field groups
 
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|DefaultCreate field group|OrganizationName<br>Description<br>ParentBusinessUnit<br>CostCenter<br>MailingPostalAddress<br>PhonePrimary<br>WebsiteURL<br>EmailPrimary
+DefaultCreate|DefaultCreate field group|OrganizationName<br>Description<br>ParentBusinessUnit<br>CostCenter<br>MailingPostalAddress<br>PhonePrimary<br>WebsiteURL<br>EmailPrimary<br>PartyType<br>Source<br>IsEmailContactAllowed<br>IsPhoneContactAllowed<br>Status<br>IsDefaultForOrganization
 DefaultList|DefaultList field group|BusinessUnitId<br>FullName<br>OrganizationName<br>Description<br>ParentBusinessUnit
 DefaultCard|DefaultCard field group|FullName<br>OrganizationName<br>ParentBusinessUnit
 DefaultDetails|DefaultDetails field group|BusinessUnitId<br>FullName<br>OrganizationName<br>Description<br>ParentBusinessUnit<br>CostCenter<br>MailingPostalAddress<br>PhonePrimary<br>WebsiteURL<br>EmailPrimary
@@ -70,7 +69,7 @@ DefaultReport|DefaultReport field group|BusinessUnitId<br>FullName<br>Organizati
 DefaultIdentification|DefaultIdentification field group|BusinessUnitId<br>FullName
 
 ## BusinessUnitContact (Business unit contact) Entity 
-Business unit contact 
+Associates a business unit and a contact. This entity creates a many-to-many relationship between the two entities. 
 
 Field | Description
 ---|---
@@ -130,6 +129,37 @@ DefaultLookup|DefaultLookup field group|CostCenterId<br>Name<br>ParentCostCenter
 DefaultReport|DefaultReport field group|Description<br>CostCenterId<br>Name<br>ParentCostCenter<br>Organization
 DefaultIdentification|DefaultIdentification field group|CostCenterId<br>Name
 
+## Department (Department) Entity 
+Department 
+
+Field | Description
+---|---
+DepartmentId<br>Primary key | Number sequence: <br>Unique, Searchable
+Description | Data: Text<br>Maximum length: 2048
+Name | Data: Text<br>Required, Maximum length: 2048
+Organization | Lookup: Organization
+ParentDepartment | Lookup: Department
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Department|Parent department|OneToMany|Association
+Organization|Organization|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCard|DefaultCard field group|DepartmentId<br>Name<br>Organization<br>ParentDepartment
+DefaultCreate|DefaultCreate field group|DepartmentId<br>Name<br>Organization<br>ParentDepartment<br>Description
+DefaultDetails|DefaultDetails field group|DepartmentId<br>Name<br>Organization<br>ParentDepartment<br>Description
+DefaultIdentification|DefaultIdentification field group|DepartmentId<br>Name
+DefaultList|DefaultList field group|DepartmentId<br>Name<br>Organization<br>ParentDepartment
+DefaultLookup|DefaultLookup field group|DepartmentId<br>Name
+DefaultReport|DefaultReport field group|DepartmentId<br>Name<br>Organization<br>ParentDepartment<br>Description
+
 ## Product (Product) Entity 
 An item that is available for sale. 
 
@@ -139,19 +169,23 @@ DefaultBuyingUnitOfMeasure | Picklist: UnitOfMeasure<br>Values: Bag, Box, Bucket
 DefaultSellingQuantity | Data: Quantity
 DefaultStockingUnitOfMeasure | Picklist: UnitOfMeasure<br>Values: Bag, Box, Bucket, Centilitre, Centimeter, CubicCentimeter, CubicFeet, CubicInch, CubicMeter, CubicMillimeter, CubicYard, Day, Deciliter, DegreesBrix, Dozen, Each, Feet, FluidOunce, Gallon, GigaByte, Gram, HalfCubicInch, HalfInch, HalfPint, HalfPound, HalfSquareInch, Hour, Inch, Keg, Kilogram, Kilometer, KilowattHour, Litre, Meter, Mgpx, Mile, Milligram, Millilitre, Millimeter, Minute, Month, Ohm, OneEighthCubicInch, OneEighthInch, OneEighthSquareInch, Option, Ounce, Pair, Pallet, PascalSecond, Percentage, pHValue, Piece, Pint, Pound, Quart, QuarterCubicInch, QuarterInch, QuarterPound, QuarterSquareInch, Second, SetOfEquipment, SquareCentimeter, SquareFeet, SquareInch, SquareMeter, SquareMile, SquareMillimeter, SquareYard, Ton, Tray, Yard
 Description | Data: Text<br>Maximum length: 255
+IsStocked | Data: Boolean
 Name | Data: Text<br>Required, Searchable, Maximum length: 60
+Organization | Lookup: Organization
 ProductCategory | Lookup: ProductCategory
 ProductId<br>Primary key | Number sequence: <br>Unique, Searchable
 ProductType | Picklist: ProductType<br>Values: Item, Service<br>Required
 SellingUnitPrice | Data: Currency<br>Decimal places: 6
 StandardCostAmount | Data: Currency<br>Decimal places: 6
 Status | Picklist: ProductStatus<br>Values: Active, Inactive<br>Required
+UnitOfMeasureScale | Data: Integer
 
 ### Relationships
 
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 ProductCategory|Product category|OneToMany|Association
+Organization|Organization|OneToMany|Association
 
 
 ### Field groups
@@ -174,6 +208,7 @@ Field | Description
 CategoryId<br>Primary key | Number sequence: <br>Unique, Searchable
 Description | Data: MultilineText
 Name | Data: Text<br>Required, Maximum length: 60<br>Description: Category name
+Organization | Lookup: Organization
 ParentProductCategory | Lookup: ProductCategory
 
 ### Relationships
@@ -181,6 +216,7 @@ ParentProductCategory | Lookup: ProductCategory
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 ProductCategory|Parent product category|OneToMany|Association
+Organization|Organization|OneToMany|Association
 
 
 ### Field groups
@@ -196,7 +232,7 @@ DefaultReport|DefaultReport field group|CategoryId<br>Name<br>Description
 DefaultIdentification|DefaultIdentification field group|CategoryId<br>Name
 
 ## ProductCategoryAssignment (Product category assignment) Entity 
-Product category assignment 
+Associates a product and a product category. This entity creates a many-to-many relationship between the two entities. 
 
 Field | Description
 ---|---
@@ -248,4 +284,33 @@ DefaultDetails|DefaultDetails field group|FromUnitOfMeasure<br>ToUnitOfMeasure<b
 DefaultLookup|DefaultLookup field group|FromUnitOfMeasure<br>ToUnitOfMeasure
 DefaultReport|DefaultReport field group|FromUnitOfMeasure<br>ToUnitOfMeasure<br>FromToConversionRate<br>ToFromConversionRate
 DefaultIdentification|DefaultIdentification field group|FromUnitOfMeasure<br>ToUnitOfMeasure
+
+## UserOrGroup (User or group) Entity 
+User or group 
+
+Field | Description
+---|---
+DisplayName | Data: Text<br>Required, Maximum length: 255
+Email | Data: Text<br>Maximum length: 255
+GivenName | Data: Text<br>Maximum length: 255
+GraphIdentifier<br>Primary key | Data: Text<br>Required, Unique, Searchable, Maximum length: 36
+IsSecurityEnabled | Data: Boolean<br>Required
+Surname | Data: Text<br>Maximum length: 255
+Type | Picklist: UserOrGroupType<br>Values: Group, ServicePrincipal, User<br>Required
+
+### Relationships
+
+This entity has no relationships.
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCard|DefaultCard field group|DisplayName<br>Email
+DefaultCreate|DefaultCreate field group|DisplayName<br>Type<br>GivenName<br>Surname<br>Email
+DefaultDetails|DefaultDetails field group|DisplayName<br>Type<br>GivenName<br>Surname<br>Email
+DefaultIdentification|DefaultIdentification field group|GraphIdentifier
+DefaultList|DefaultList field group|DisplayName<br>Type<br>Email
+DefaultLookup|DefaultLookup field group|DisplayName<br>Email
+DefaultReport|DefaultReport field group|
 

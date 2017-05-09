@@ -3,7 +3,7 @@ title: "Purchasing reference | Microsoft Docs"
 description: "The purchasing entities let you create purchasing solutions and track vendor invoices."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "02/03/2017"
+ms.date: "05/08/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -20,12 +20,16 @@ An offer for a commercial engagement issued by the company to a vendor to make a
 Field | Description
 ---|---
 BillingAddress | Data: Address
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Decimal places: 6
+ExpectedShipDate | Data: DateTime
 FreightTerms | Picklist: FreightTerms<br>Values: FOB, NoCharge
 OrderDate | Data: DateTime<br>Required
+Organization | Lookup: Organization
 PaymentTerms | Picklist: PaymentTerms<br>Values: Net30, Net45, Net60, TwoPercent10Net30
 PurchaseOrderId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Order ID
+RequestedDeliveryDate | Data: DateTime
 ShippingAddress | Data: Address
 ShippingMethod | Picklist: ShippingMethod<br>Values: AirBorne, DHL, Fedex, PostalMail, UPS
 Status | Picklist: PurchaseOrderStatus<br>Values: Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended<br>Required<br>Description: Order status
@@ -45,13 +49,15 @@ Related entity | Description | Cardinality | Type
 Vendor|Vendor|OneToMany|Association
 Worker|Purchase person|OneToMany|Association
 Contact|Vendor contact|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
+Organization|Organization|OneToMany|Association
 
 
 ### Field groups
 
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|DefaultCreate field group|Vendor<br>OrderDate<br>Description<br>WorkerBuyer<br>VendorContact<br>FreightTerms<br>ShippingMethod<br>ShippingAddress<br>VendorInvoice<br>BillingAddress
+DefaultCreate|DefaultCreate field group|Vendor<br>OrderDate<br>Description<br>WorkerBuyer<br>VendorContact<br>FreightTerms<br>ShippingMethod<br>ShippingAddress<br>VendorInvoice<br>BillingAddress<br>Status
 DefaultList|DefaultList field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Status<br>WorkerBuyer<br>TotalAmount
 DefaultCard|DefaultCard field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>WorkerBuyer
 DefaultDetails|DefaultDetails field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description<br>Status<br>WorkerBuyer<br>VendorContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>ShippingAddress<br>VendorInvoice<br>BillingAddress<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount
@@ -65,6 +71,7 @@ An indirect charge in addition to product pricing and taxes, such as freight or 
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
+BusinessUnit | Lookup: BusinessUnit
 ChargeType | Picklist: ChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
@@ -75,6 +82,7 @@ PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 PurchaseOrder|Purchase order|OneToMany|Composition
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
@@ -94,6 +102,7 @@ A component of a purchase order that contains a portion of the total amount incl
 
 Field | Description
 ---|---
+BusinessUnit | Lookup: BusinessUnit
 DeliveryPostalAddress | Data: Address<br>Description: Delivery address
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Required, Decimal places: 6
@@ -106,6 +115,7 @@ ProductName | Data: Text<br>Required, Maximum length: 60
 PromisedShipDate | Data: DateTime
 PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
 Quantity | Data: Quantity<br>Required
+RequestedDeliveryDate | Data: DateTime
 Sequence | Data: Integer<br>Required
 Status | Picklist: PurchaseOrderLineStatus<br>Values: Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended<br>Required<br>Description: Order line status
 TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
@@ -119,13 +129,14 @@ Related entity | Description | Cardinality | Type
 ---|---|---|---
 PurchaseOrder|Purchase order|OneToMany|Composition
 Product|Product|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
 
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|DefaultCreate field group|PurchaseOrder<br>Sequence<br>Product<br>Description<br>Quantity<br>Status<br>UnitPrice<br>LineAmount
+DefaultCreate|DefaultCreate field group|PurchaseOrder<br>Sequence<br>Product<br>Description<br>Quantity<br>Status<br>UnitPrice<br>LineAmount<br>ProductName
 DefaultList|DefaultList field group|PurchaseOrder<br>Sequence<br>Product<br>ProductName<br>Status<br>Quantity<br>LineAmount
 DefaultCard|DefaultCard field group|PurchaseOrder<br>Sequence<br>Product<br>ProductName<br>Status<br>Quantity
 DefaultDetails|DefaultDetails field group|PurchaseOrder<br>Sequence<br>Product<br>ProductName<br>Description<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>PromisedShipDate<br>MostRecentActualReceiptDate<br>DeliveryPostalAddress<br>TotalChargeAmount<br>TotalTaxAmount
@@ -139,6 +150,7 @@ An indirect charge in addition to product pricing and taxes, such as freight or 
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
+BusinessUnit | Lookup: BusinessUnit
 ChargeType | Picklist: LineChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
@@ -149,6 +161,7 @@ PurchaseOrderLine<br>Primary key | Lookup: PurchaseOrderLine<br>Required
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 PurchaseOrderLine|Purchase order line|OneToMany|Composition
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
@@ -169,6 +182,7 @@ The receipt of product on the line of a purchase order for part or all of the li
 Field | Description
 ---|---
 ActualReceiptDate | Data: Date<br>Required
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 60
 PurchaseOrderLine<br>Primary key | Lookup: PurchaseOrderLine<br>Required
 Quantity | Data: Quantity<br>Required
@@ -180,6 +194,7 @@ Status | Picklist: ShipmentStatus<br>Values: Delivered, Open<br>Required
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 PurchaseOrderLine|Purchase order line|OneToMany|Composition
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
@@ -200,6 +215,7 @@ Tax incurred on a purchase order line.
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 PurchaseOrderLine<br>Primary key | Lookup: PurchaseOrderLine<br>Required
@@ -211,6 +227,7 @@ TaxType | Picklist: LineTaxType<br>Values: Others, SalesTax, VAT<br>Required
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 PurchaseOrderLine|Purchase order line|OneToMany|Composition
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
@@ -231,6 +248,7 @@ Tax incurred on a purchase order as a whole.
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
@@ -242,6 +260,7 @@ TaxType | Picklist: TaxType<br>Values: Others, SalesTax, VAT<br>Required
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 PurchaseOrder|Purchase order|OneToMany|Composition
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
@@ -262,13 +281,14 @@ An organization that has sold products to the customer at least once.
 Field | Description
 ---|---
 Birthdate | Data: Date
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 128
 DUNSNumber | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-Gender | Picklist: Gender<br>Values: Female, Male, NotSpecified
+Gender | Picklist: Gender<br>Values: Female, Male, Nonspecific, NotSpecified
 IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsDisabledOwned | Data: Boolean<br>Description: Disabled owned
 IsEmailContactAllowed | Data: Boolean<br>Required
@@ -279,10 +299,10 @@ IsWomanOwned | Data: Boolean<br>Description: Woman owned
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 MailingPostalAddress | Data: Address
 OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
+Organization | Lookup: Organization
 OrganizationName | Data: Text<br>Maximum length: 128
 OtherPostalAddress | Data: Address
 ParentVendor | Lookup: Vendor
-Party_PartyId | Data: Text<br>Maximum length: 128<br>Description: Type an ID number or code for the account to quickly search and identify the account in system views.
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PersonName | Data: PersonName<br>Description: Given name
 Phone01 | Data: Phone
@@ -313,13 +333,15 @@ Related entity | Description | Cardinality | Type
 ---|---|---|---
 Vendor|Parent vendor|OneToMany|Association
 Contact|Primary contact|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
+Organization|Organization|OneToMany|Association
 
 
 ### Field groups
 
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|DefaultCreate field group|PersonName<br>Status<br>ParentVendor<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary
+DefaultCreate|DefaultCreate field group|PersonName<br>Status<br>ParentVendor<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary<br>PartyType<br>Source<br>IsEmailContactAllowed<br>IsPhoneContactAllowed<br>SupplierApprovalStatus
 DefaultList|DefaultList field group|VendorId<br>FullName<br>Status<br>PhonePrimary<br>WebsiteURL
 DefaultCard|DefaultCard field group|VendorId<br>FullName<br>Status
 DefaultDetails|DefaultDetails field group|VendorId<br>FullName<br>PersonName<br>Status<br>ParentVendor<br>Description<br>EmailPrimary<br>WebsiteURL<br>PhonePrimary<br>MailingPostalAddress<br>ShippingPostalAddress
@@ -328,7 +350,7 @@ DefaultReport|DefaultReport field group|VendorId<br>FullName<br>PersonName<br>St
 DefaultIdentification|DefaultIdentification field group|VendorId<br>FullName
 
 ## VendorContact (Vendor contact) Entity 
-Vendor contact 
+Associates a vendor and a contact. This entity creates a many-to-many relationship between the two entities. 
 
 Field | Description
 ---|---
@@ -363,9 +385,11 @@ An invoice received from a vendor that documents the liability for a purchase.
 Field | Description
 ---|---
 BillingAddress | Data: Address
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Decimal places: 6
 FreightTerms | Picklist: FreightTerms<br>Values: FOB, NoCharge
+Organization | Lookup: Organization
 PaymentTerms | Picklist: PaymentTerms<br>Values: Net30, Net45, Net60, TwoPercent10Net30
 PurchaseOrder | Lookup: PurchaseOrder
 ShippingAddress | Data: Address
@@ -388,7 +412,9 @@ Related entity | Description | Cardinality | Type
 Vendor|Vendor|OneToMany|Association
 Worker|Purchase person|OneToMany|Association
 Contact|Vendor contact|OneToMany|Association
-PurchaseOrder|Purchase order|OneToMany|Composition
+PurchaseOrder|Purchase order|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
+Organization|Organization|OneToMany|Association
 
 
 ### Field groups
@@ -409,6 +435,7 @@ An indirect charge in addition to product pricing and taxes, such as freight or 
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
+BusinessUnit | Lookup: BusinessUnit
 ChargeType | Picklist: InvoiceChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
@@ -419,6 +446,7 @@ VendorInvoice<br>Primary key | Lookup: VendorInvoice<br>Required
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 VendorInvoice|Vendor invoice|OneToMany|Composition
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
@@ -438,6 +466,7 @@ A component of a vendor invoice that contains a portion of the invoiced amount i
 
 Field | Description
 ---|---
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Required, Decimal places: 6
 LineAmount | Data: Currency<br>Required, Decimal places: 6
@@ -461,13 +490,14 @@ Related entity | Description | Cardinality | Type
 Product|Product|OneToMany|Association
 VendorInvoice|Vendor invoice|OneToMany|Composition
 PurchaseOrderLine|Purchase order line|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
 
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|DefaultCreate field group|VendorInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity
+DefaultCreate|DefaultCreate field group|VendorInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity<br>Sequence<br>ProductName<br>UnitPrice
 DefaultList|DefaultList field group|VendorInvoice<br>Product<br>Name<br>Status<br>Quantity<br>LineAmount
 DefaultCard|DefaultCard field group|VendorInvoice<br>Product<br>Status<br>Quantity<br>LineAmount
 DefaultDetails|DefaultDetails field group|VendorInvoice<br>Product<br>Name<br>Description<br>Status<br>Quantity<br>LineAmount<br>DiscountAmount<br>TotalChargeAmount<br>TotalTaxAmount
@@ -481,6 +511,7 @@ An indirect charge in addition to product pricing and taxes, such as freight or 
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6<br>Description: Total line charges
+BusinessUnit | Lookup: BusinessUnit
 ChargeType | Picklist: InvoiceLineChargeType<br>Values: Freight, Insurance, Others<br>Required
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Charge name
@@ -491,6 +522,7 @@ VendorInvoiceLine<br>Primary key | Lookup: VendorInvoiceLine<br>Required
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 VendorInvoiceLine|Vendor invoice line|OneToMany|Composition
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
@@ -511,6 +543,7 @@ Tax charged on a vendor invoice line.
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
@@ -522,13 +555,14 @@ VendorInvoiceLine<br>Primary key | Lookup: VendorInvoiceLine<br>Required
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 VendorInvoiceLine|Vendor invoice line|OneToMany|Composition
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
 
 Field group | Description | Fields
 ---|---|---
-DefaultCreate|DefaultCreate field group|Name<br>RateCode<br>TaxType<br>Amount
+DefaultCreate|DefaultCreate field group|Name<br>RateCode<br>TaxType<br>Amount<br>VendorInvoiceLine
 DefaultList|DefaultList field group|Name<br>RateCode<br>TaxType<br>Amount
 DefaultCard|DefaultCard field group|Name<br>TaxType<br>Amount
 DefaultDetails|DefaultDetails field group|VendorInvoiceLine<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
@@ -542,6 +576,7 @@ Tax charged on a vendor invoice as a whole.
 Field | Description
 ---|---
 Amount | Data: Currency<br>Required, Decimal places: 6
+BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 60
 Name | Data: Text<br>Maximum length: 60<br>Description: Tax name
 RateCode | Data: Text<br>Maximum length: 60
@@ -553,6 +588,7 @@ VendorInvoice<br>Primary key | Lookup: VendorInvoice<br>Required
 Related entity | Description | Cardinality | Type 
 ---|---|---|---
 VendorInvoice|Vendor invoice|OneToMany|Composition
+BusinessUnit|Business unit|OneToMany|Association
 
 
 ### Field groups
