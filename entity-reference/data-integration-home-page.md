@@ -22,3 +22,5 @@ The Common Data Service makes it very easy for customers to bring their data tog
 The data integration feature enables the flow of data between Microsoft Dynamics 365 for Sales, Microsoft Dynamics 365 for Operations, and other products through the Common Data Service. For example, customer information in Dynamics 365 for Sales can flow to Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party data integration tool. Specifically, the Prospect to Cash data integration feature enables a basic flow of account data and other entity data to enable a prospect-to-cash scenario.
 
 The data integration feature is available to customers who have at least one Dynamics 365 product.
+
+If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
