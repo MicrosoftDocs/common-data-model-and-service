@@ -19,7 +19,7 @@ An important goal for the Common Data Service is that app creators of all skill 
 
 | PowerApps | PowerApps, powered-up | Rich client apps | Web/SaaS apps |
 |---|---|---|---|
-| Use Microsoft PowerApps to quickly build low-code applications.<p>Learn more about [PowerApps](https://powerapps.microsoft.com). | Use PowerApps to build your apps, and then connect to advanced logic that is hosted in Microsoft Azure Functions.<p>Learn more about [Azure Functions](cds-sdk-azure-functions-get-started.md).  | Build a middle tier by using the Common Data Service software development kit (SDK), and build your rich client app.<p>Learn more about the [Common Data Service SDK](cds-sdk-home-page.md). | Build your Web or software as a service (SaaS) app by using the Common Data Service C# SDK.<p>Learn more about the [Common Data Service SDK](cds-sdk-home-page.md). | 
+| Use Microsoft PowerApps to quickly build low-code applications.<p>Learn more about [PowerApps](https://powerapps.microsoft.com). | Use PowerApps to build your apps, and then connect to advanced logic that is hosted in Microsoft Azure Functions.<p>Learn more about [Azure Functions](cds-sdk-azure-functions-get-started.md).  | Build a middle tier by using the Common Data Service software development kit (SDK), and build your rich client app.<p>Learn more about the [Common Data Service SDK](cds-sdk-get-started.md). | Build your Web or software as a service (SaaS) app by using the Common Data Service C# SDK.<p>Learn more about the [Common Data Service SDK](cds-sdk-get-started.md). | 
 
 Some of these features are in Private Preview.  For more information about the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
 
