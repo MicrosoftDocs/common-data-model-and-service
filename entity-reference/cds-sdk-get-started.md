@@ -304,38 +304,3 @@ If you're using an offline version of the NuGet package for any reason, you can 
 1. Set the **Source** field to the local folder path, such as **C:\Users\user1\Desktop\NuGet**.
 1. Follow the main instructions for applying **Microsoft.CommonDataService**.
 
-<!---
-# [Microsoft internal]
-
-## Sample console application
-
-You can obtain a final version of the console application below from the internal [samples repository](https://msazure.visualstudio.com/OneAgile/_git/CommonDataService-Samples?path=%2FSampleConsoleApplication&version=GBmaster&_a=contents). We will also publish this externally through GitHub. Replace the brackets in App.cofig with configuration values mentioned in the **prerequisites** section. 
-
-### NuGet feed
-
-1. Add the wanuget-dev interanl feed:
-    1. Go to **Tools > NuGet Package Manager >Package Manager Settings**, and navigate to **Package Sources**.
-    1. Add a new source by clicking on the plus symbol on top.
-    1. Set **Name** to wanuget-dev.
-    1. Set **Source** to http://wanuget/dev/nuget.
-    1. **[Issue]** - If you don't have access to the NuGet feed, follow **troubleshooting** instructions under the **Offline NuGet** subsection.
-    1. In the next step you may see many packages named similarly. Make sure to **only** add the one named **Microsoft.CommonDataService**.
-1. Find your project on the Solution Explorer, right click on it and select **Manage NuGet packages**. 
-    1. [Microsoft internal] Select **wanuget-dev** under **package source**.
-    1. Check the **Include prerelease** box.
-    1. Search for **Microsoft.CommonDataService**.
-    1. Select the **Microsoft.CommonDataService** NuGet package and click on **Install**, to get the latest package.
-    1. Proceed through the **License acceptance** dialog. **Note** that by clicking accept you are agreeing with all package license terms.
-
-## Offline NuGet package
-
-If you don't have access to the internal NuGet feed, you can use an offline NuGet package. Obtain the .nupkg file from the [feed location](https://msazure.visualstudio.com/OneAgile/PowerApps-AppPlatform/_packaging?feedName=Dev&protocolType=NuGet&packageName=microsoft.commondataservice) and clicking on the **Download** button on the top right. Either download the file yourself or asking a Microsoft employee to download it for you. Place the file in a folder on your machine.
-
-Then add the offline feed as follows:
-
-1. Go to **Tools > NuGet Package Manager > Package Manager Settings**, and navigate to **Package Sources**.
-1. Add a new source by clicking on the plus symbol on top.
-1. Set **Name** to "Local CDS Packages".
-1. Set **Source** to the local folder path. For example: C:\Users\user1\Desktop\NuGet
-1. Follow the main instructions on applying **Microsoft.CommonDataService**.
---->
