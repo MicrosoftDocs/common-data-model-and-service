@@ -36,6 +36,7 @@ The Data table control is a relatively recent addition to PowerApps and will be 
 + Support for static data sources 
 + Support for customizing a column, including column widths, texts, and styling
 + Support for hyperlinks inside the Data table 
++ Ability for users to change column widths while running the app
 + Use of Data table inside Form controls
 + Ability to change the height of all the rows
 + Copy/paste of the Data table control
