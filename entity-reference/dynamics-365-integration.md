@@ -34,6 +34,8 @@ Before you can work with a Data Integration project, you must provision a connec
 
 When you provision a connection on the PowerApps site, unlike other connection services, you aren’t asked to select a specific instance of your target system. The connections on the PowerApps site just pair your Active Directory credentials with a target system. Later, when you specify a connection in a project, you will select from your set of accessible data set instances.
 
+Any connection you create on an environment where you have administration privileges will show up in the Data integrator.  One common environment where people often create connections but do not have administrative rights is "Microsoft (default)".  If you create a connection in this environment it will not appear as a connection you can use for Data integration projects.
+
 ## Data Integration
 
 The Data Integration feature is currently available as a tab in the PowerApps Admin Center. It is also available in the **Business platform admin center ("businessplatform.microsoft.com") 
