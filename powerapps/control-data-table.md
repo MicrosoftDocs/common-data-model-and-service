@@ -117,11 +117,12 @@ The following is a list of functionality that isn't currently supported but is i
    ![Data table](Media/preOrderDataTable.png "Data table")
 
 8. Reorder the fields by dragging them in the right pane.
+
    ![Reorder the fields as desired](Media/fieldReorderDataTable.png "Reorder the fields")
-   
    The Data table is updated to show the fields in the new order. 
-   
+  
    ![Updated Data table](Media/postOrderDataTable.png "Updated Data table")
+
 
 ### Restyle the Data table header
 
