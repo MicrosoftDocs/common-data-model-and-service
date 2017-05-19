@@ -23,6 +23,36 @@ The Data table control in Microsoft PowerApps is a control that shows a set of d
 
 ## Description
 The Data table control lets you show a dataset in a tabular format that includes column headers for each field that is visualized. As the maker, you have full control over the fields that are shown from the data source and the order that the fields appear in. The Data table control maintains a **Selected** property that, like the Gallery, points to the single row that is currently selected. Therefore, the Data table can be linked to other controls.
+
+## Capabilities  
+The Data table control is a relatively recent addition to PowerApps and will be evolving its capabilities over time. This section will highlight items that are supported as well as those that are known not to be currently supported based on the latest release.  
+
+### Currently supported functionality
+The following is a list of the functionality that is currently supported:
++ Read-only data
++ Single row selection
++ Connected data sources
+
+### Not currently supported functionality
+The following is a list of functionality that isn't currently supported but is in planning for future releases.
++ Support for static data sources 
++ Support for customizing a column, including column widths, texts, and styling
++ Support for hyperlinks inside the Data table 
++ Ability for users to change column widths while running the app
++ Use of Data table inside Form controls
++ Ability to change the height of all the rows
++ Copy/paste of the Data table control
++ Support for showing images in the Data table
++ Ability to show fields from related entities
++ Built-in filter/sort support from the Data table column headings
++ Use of Data table inside the Gallery control
++ Editing data in the Data table
++ Selection of multiple rows
+
+### Known issues
++ Use of the FirstN function in the Data table Items property
++ Resetting of the field list after modifying the Items property
++ Losing connection to the data source after modifying the Items property for some connectors 
  
 ## Key properties
 
@@ -59,45 +89,39 @@ The Data table control lets you show a dataset in a tabular format that includes
 
 + [**Filter(DataSource, Formula)**](https://powerapps.microsoft.com/en-us/tutorials/function-filter-lookup/ "Filter(DataSource, Formula)")
 + [**Search(DataSource, SearchString, Column)**](https://powerapps.microsoft.com/en-us/tutorials/function-filter-lookup/ "Search(DataSource, SearchString, Column)")
-+ [**Lookup(DataSource, Formula)**](https://powerapps.microsoft.com/en-us/tutorials/function-filter-lookup/ "Lookup(DataSource, Formula)")
 
 ## Examples
 ### Basic Data table usage
 
 1. Create a blank Tablet app.
 2. On the **Insert** tab, click or tap **Data table**.
-
    ![Add a Data table control to a screen](Media/insertDataTable.png "Add a Data table control to a screen")
-
+   
    A Data table control is added to the screen.
 
 3. Rename the Data table control **SalesOrderTable**, and resize it so that it covers the whole screen.
-4. In the right pane, click or tap the down arrow next to the **No data source selected** text, and then click or tap **Add a data source**.
+4. In the right pane, click or tap the data source icon to the left of the **No data source selected** text, and then click or tap **Add a data source**.
 
-   ![Add a data source](Media/addDataToDataTable.png "Add a data source")
+   ![Add a data source](Media/addDataToDataTableOld.png "Add a data source")
 
 5. In the list of connections, click or tap the connection for your database.
-
    ![Select the connection for your data source](Media/chooseCDSDataTable.png "Select your data connection")
 
 6. In the list of entities, click or tap **Sales order**, and then click or tap **Connect**.
-
    ![Select the **Sales order** entity](Media/chooseSODataTable.png "Select the Sales order entity")
-
+   
    The Data table is now attached to the **Sales order** data source. However, no data will be shown until you select fields.
 
 7. In the right pane, select the fields to show. For this example, select **SalesOrderId**, **Account**, **OrderDate**, and **Status**.
-
    The Data table is filled with data that is based on the selected fields.
-
    ![Data table](Media/preOrderDataTable.png "Data table")
 
 8. Reorder the fields by dragging them in the right pane.
 
    ![Reorder the fields as desired](Media/fieldReorderDataTable.png "Reorder the fields")
-
-   The Data table is updated to show the fields in the new order.
-
+  
+  The Data table is updated to show the fields in the new order. 
+  
    ![Updated Data table](Media/postOrderDataTable.png "Updated Data table")
 
 ### Restyle the Data table header
@@ -113,15 +137,12 @@ The Data table control lets you show a dataset in a tabular format that includes
 
 1. Add an **Edit** form to the screen.
 2. Resize the Data table and the **Edit** form so that the Data table uses the left part of the screen and the **Edit** form uses the right part of the screen.
-
    ![Data table and **Edit** form on the same screen](Media/dataTableEmptyForm.png "Data table and Edit form on the same screen")
 
 3. Connect the **Edit** form to the Sales order data source.
 4. In the right pane, select the fields to show in the **Edit** form. For this example, select **SalesOrderId**, **Status**, **Name**, **Description**, and **Total amount**.
-
    ![**Edit** form the shows five fields](Media/dataTableDisconnectedForm.png "Edit form that shows five fields")
 
-3. In the right pane, click the **Advanced** tab.
-4. Set the **Item** property for the **Edit** form to **SalesOrderTable.Selected**, so that the **Edit** form shows information from the row that is selected in the Data table.
-
+5. In the right pane, click the **Advanced** tab.
+6. Set the **Item** property for the **Edit** form to **SalesOrderTable.Selected**, so that the **Edit** form shows information from the row that is selected in the Data table.
    ![**Edit** form connected to the Data table](Media/connectedFormDataTable.png "Edit form connected to the Data table")
