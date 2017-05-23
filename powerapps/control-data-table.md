@@ -33,7 +33,7 @@ The **Data table** control is a relatively recent addition to PowerApps. This se
 + **Data tables** can be linked to connected data s ources.
 + **(New) Data tables** can be linked to local data sources (collections).
 + **(New) Data table** column widths can be adjusted whiile the app is running, though the changes are not saved. 
-+ **(New)** By default, **Data tables** show a 
++ **(New)** By default, when you link Data tables to connectors that have implemented this capability, such as Microsoft Common Data Service, a set of initial fields are shown. You can add or remove these and additional fields as necessary.
 
 ### Not yet available 
 + Support for customizing a column, including column widths, texts, and styling
