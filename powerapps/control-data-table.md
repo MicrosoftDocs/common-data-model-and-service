@@ -55,8 +55,8 @@ The **Data table** control is a relatively recent addition to PowerApps. This se
  
 ## Key properties
 
-+ [**Items**](https://powerapps.microsoft.com/en-us/tutorials/properties-core/ "Items") – The source of data that appears in the control.
-+ **Selected** – The selected row in the Data table.
++ [**Items**](https://powerapps.microsoft.com/en-us/tutorials/properties-core/ "Items") – The source of data that appears in the **Data table** control.
++ **Selected** – The selected row in the **Data table** control.
 
 ## Other properties
 
@@ -101,8 +101,7 @@ The **Data table** control is a relatively recent addition to PowerApps. This se
 
 3. Rename the **Data table** control **SalesOrderTable**, and resize it so that it covers the whole screen.
 4. In the right pane, click or tap the data source icon to the left of the **No data source selected** text, and then click or tap **Add a data source**.
-
-  	![Add a data source](Media/addDataToDataTableOld.png "Add a data source")
+	![Add a data source](Media/addDataToDataTableOld.png "Add a data source")
 
 5. In the list of connections, click or tap the connection for your database.
 	![Select the connection for your data source](Media/chooseCDSDataTable.png "Select your data connection")
@@ -110,17 +109,16 @@ The **Data table** control is a relatively recent addition to PowerApps. This se
 6. In the list of entities, click or tap **Sales order**, and then click or tap **Connect**.
   	![Select the **Sales order** entity](Media/chooseSODataTable.png "Select the Sales order entity")
    
-	The Data table is now attached to the **Sales order** data source. However, no data will be shown until you select fields.
+	The **Data table** control is now attached to the **Sales order** data source. However, no data will be shown until you select fields.
 
 7. In the right pane, select the fields to show. For this example, select **SalesOrderId**, **Account**, **OrderDate**, and **Status**.
-	The Data table is filled with data that is based on the selected fields.
+	The **Data table** control is filled with data that is based on the selected fields.
 	![Data table](Media/preOrderDataTable.png "Data table")
 
 8. Reorder the fields by dragging them in the right pane.
-
 	![Reorder the fields as desired](Media/fieldReorderDataTable.png "Reorder the fields")
   
-  	The Data table is updated to show the fields in the new order. 
+  	The **Data table** control is updated to show the fields in the new order. 
   
 	![Updated Data table](Media/postOrderDataTable.png "Updated Data table")
 
@@ -130,17 +128,16 @@ The **Data table** control is a relatively recent addition to PowerApps. This se
 2. Click or tap the field for the **HeadingFill** property, and change the value to **RGBA(62,96,170,1)**.
 3. Click or tap the field for the **HeadingColor** property, and change the value to **White**.
 4. Click or tap the field for the **HeadingSize** property, and change the value to **14**.
-
 	![Data table](Media/restyledDataTable.png "Data table")
 
-### Connect a Data table to another control
+### Connect a Data table control to another control
 
 1. Add an **Edit** form to the screen.
-2. Resize the Data table and the **Edit** form so that the Data table uses the left part of the screen and the **Edit** form uses the right part of the screen.
+2. Resize the **Data table** control and the **Edit** form so that the control uses the left part of the screen and the **Edit** form uses the right part of the screen.
 	![Data table and **Edit** form on the same screen](Media/dataTableEmptyForm.png "Data table and Edit form on the same screen")
-3. Connect the **Edit** form to the Sales order data source.
+3. Connect the **Edit** form to the **Sales order** data source.
 4. In the right pane, select the fields to show in the **Edit** form. For this example, select **SalesOrderId**, **Status**, **Name**, **Description**, and **Total amount**.
 	![**Edit** form the shows five fields](Media/dataTableDisconnectedForm.png "Edit form that shows five fields")
 5. In the right pane, click the **Advanced** tab.
-6. Set the **Item** property for the **Edit** form to **SalesOrderTable.Selected**, so that the **Edit** form shows information from the row that is selected in the Data table.
+6. Set the **Item** property for the **Edit** form to **SalesOrderTable.Selected**, so that the **Edit** form shows information from the row that is selected in the **Data table** control.
 	![**Edit** form connected to the Data table](Media/connectedFormDataTable.png "Edit form connected to the Data table")
