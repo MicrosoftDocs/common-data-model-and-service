@@ -22,36 +22,36 @@
 The **Data table** control in Microsoft PowerApps is a control that shows a set of data in a tabular format.
 
 ## Description
-The **Data table** control lets you show a dataset in a format that includes column headers for each field that the control shows. As the maker, you have full control over the fields that are shown from the data source and the order that the fields appear in. The **Data table** control maintains a **Selected** property that, like the **Gallery**, points to the single row that is currently selected. Therefore, the **Data table **can be linked to other controls.
+The **Data table** control lets you show a dataset in a format that includes column headers for each field that the control shows. As the maker, you have full control over the fields that are shown from the data source and the order that the fields appear in. The **Data table** control maintains a **Selected** property that, like the **Gallery**, points to the single row that is currently selected. Therefore, the **Data table** control can be linked to other controls.
 
 ## Capabilities  
 The **Data table** control is a relatively recent addition to PowerApps. This section provides information about items that are supported and those that are known to be not currently supported based on the latest release.  
 
 ### Currently available
-+ **Data table** control data is read-only.
-+ A single row is always selected in a **Data table**.
-+ **Data tables** can be linked to connected data s ources.
-+ **(New) Data tables** can be linked to local data sources (collections).
-+ **(New) Data table** column widths can be adjusted whiile the app is running, though the changes are not saved. 
-+ **(New)** By default, when you link Data tables to connectors that have implemented this capability, such as Microsoft Common Data Service, a set of initial fields are shown. You can add or remove these and additional fields as necessary.
++ The **Data table** control data is read-only.
++ A single row is always selected in a **Data table** control.
++ A **Data table** control can be linked to connected data s ources.
++ **(New)** A **Data table** control can be linked to local data sources (collections).
++ **(New) Data table** control column widths can be adjusted whiile the app is running, though the changes are not saved. 
++ **(New)** By default, when you link a **Data table** control to connectors that have implemented this capability, such as Microsoft Common Data Service, a set of initial fields are shown. You can add or remove these and additional fields as necessary.
 
 ### Not yet available 
 + Support for customizing a column, including column widths, texts, and styling
-+ Support for hyperlinks inside the **Data table** 
-+ Use of Data table inside form controls
++ Support for hyperlinks inside the **Data table** control
++ Use of the **Data table** control inside form controls
 + Ability to change the height of all the rows
-+ Copy/paste of the **Data table** control
-+ Showing images in the **Data table**
++ Copy/paste the **Data table** control
++ Showing images in the **Data table** control
 + Showing fields from related entities
-+ Built-in filter and sort support from the **Data table** column headings
-+ Using **Data table** inside the **Gallery** control
-+ Editing data in the **Data table**
++ Built-in filter and sort support from the **Data table** control column headings
++ Using **Data table** control inside the **Gallery** control
++ Editing data in the **Data table** control
 + Selecting multiple rows
 
 ### Known issues
-+ No data appears if you use the **FirstN** function in the **Data table Items** property.
++ No data appears if you use the **FirstN** function in the **Data table** control **Items** property.
 + If you modify the **Items** property, the field list is reset.
-+ For some connectors, after you modify the Items property the connection to the data source is lost.
++ For some connectors, after you modify the **Items** property, the connection to the data source is lost.
  
 ## Key properties
 
