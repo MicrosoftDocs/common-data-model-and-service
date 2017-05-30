@@ -502,3 +502,4 @@ To resolve this issue, delete the project.lock.json file by following these step
 1. Select the file that is named **project.lock.json**.
 1. Click **Delete** at the top of the pane.
 1. Reissue the request from the client.
+
