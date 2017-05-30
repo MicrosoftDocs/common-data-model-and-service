@@ -101,6 +101,7 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 
 3. Rename the **Data table** control **SalesOrderTable**, and resize it so that it covers the whole screen.
 4. In the right pane, click or tap the data source icon to the left of the **No data source selected** text, and then click or tap **Add a data source**.
+
 	![Add a data source](Media/addDataToDataTableOld.png "Add a data source")
 
 5. In the list of connections, click or tap the connection for your Common Data Service database.
@@ -116,6 +117,7 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 	![Data table](Media/preOrderDataTable.png "Data table")
 
 8. Reorder the fields by dragging them up or down in the right pane.
+
 	![Reorder the fields as desired](Media/fieldReorderDataTable.png "Reorder the fields")
   
   	The **SalesOrderTable** control shows the fields in the order that you specified. 
