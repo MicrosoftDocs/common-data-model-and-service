@@ -30,17 +30,17 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 ### Now available
 - Data in a **Data table** control is read-only.
 - A single row is always selected in a **Data table** control.
-- Link a **Data table** control to a connected data source.
-- **(New)** Link a **Data table** control to a local data source (collection).
-- **(New)** Adjust column widths in a **Data table** control while you run the app, though your changes aren't saved.
-- **(New)** A set of default fields appear in a **Data table** control when you link it to a connector that has implemented this capability, such as the Common Data Service. You can then show or hide these fields and others as necessary.
+- Link a **Data table** control to a connected or local data source.
+- Adjust column widths in a **Data table** control while you run the app, though your changes aren't saved.
+- A set of default fields appear in a **Data table** control when you link it to a connector that has implemented this capability, such as the Common Data Service. You can then show or hide these fields and others as necessary.
+- **(New)** Customize column width and heading text.
+- **(New)** Show hyperlinks in a **Data table** control
+- **(New)** Copy and paste a **Data table** control
 
 ### Not yet available
-- Customize columns, including widths, text, and styling
-- Show hyperlinks in a **Data table** control
+- Customize the styling of individual columns
 - Add a **Data table** control in a form control
 - Change the height of all rows
-- Copy and paste a **Data table** control
 - Show images in a **Data table** control
 - Show fields from related entities
 - Use built-in functionality to filter and sort data by column heading
