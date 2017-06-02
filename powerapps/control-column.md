@@ -23,14 +23,14 @@ Provides the display experience for a single field in a [**Data table**](https:/
 
 ## Description
 
-The [**Data table**](https://powerapps.microsoft.com/en-us/tutorials/control-data-table/) control shows a dataset in a tabular format, with each column being represented by a **Column** control. The **Column** control provides properties that allow the app maker to  customize the appearance and behavior of the column.  
+The [**Data table**](https://powerapps.microsoft.com/en-us/tutorials/control-data-table/) control shows a dataset in a tabular format, with each column represented by a **Column** control. The **Column** control provides properties that allow the app maker to customize the appearance and behavior of the column.  
 
 ## Capabilities
 
 ### Now available
 - Change the width of a **Column** control
 - Change the text for a **Column** control 
-- Allow navigation by clicking or tapping on the value in a **Column** control
+- Navigate by clicking or tapping on the value in a **Column** control
 
 ### Not yet available
 - Customize the styling of a **Column** control
@@ -40,15 +40,15 @@ The [**Data table**](https://powerapps.microsoft.com/en-us/tutorials/control-dat
 
 ## Properties
 
-+ **DisplayName** – The text shown in the header for this column. **Note** this property will soon be renamed to *HeaderText*. 
++ **DisplayName** – The text shown in the header for this column. **Note**: This property will soon be renamed to *HeaderText*. 
 + **IsHyperlink** – Whether the data in the column is underlined to indicate it is a hyperlink or not.
 + [**Width**](https://powerapps.microsoft.com/en-us/tutorials/properties-size-location/ "Width") – The distance between the **Column** control’s left and right edges.
 
 ## Examples
 ### Column resizing
 
-1. Create a blank tablet app
-2. On the **Insert** tab, click or tap **Data table**, and resize it so that it covers the whole screen
+1. Create a blank tablet app.
+2. On the **Insert** tab, click or tap **Data table**, and then resize it so that it covers the whole screen.
 3. In the right pane, click or tap the data source icon to the right of **No data source selected**, and then click or tap **Add a data source**.
 5. In the list of connections, click or tap the connection for your Common Data Service database. 
 6. In the list of entities, click or tap **Account**, and then click or tap **Connect**. The **Data table** control will initialize showing a set of default fields. 
