@@ -99,7 +99,7 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
    	A **Data table** control is added to the screen.
 
 3. Rename the **Data table** control **SalesOrderTable**, and resize it so that it covers the whole screen.
-4. In the right pane, click or tap the data source icon to the left of the **No data source selected** text, and then click or tap **Add a data source**.
+4. In the right pane, click or tap the data source icon to the right of the **No data source selected** text, and then click or tap **Add a data source**.
 
 	![Add a data source](Media/addDataToDataTable.png "Add a data source")
 
