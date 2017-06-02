@@ -109,13 +109,13 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 6. In the list of entities, click or tap **Sales order**, and then click or tap **Connect**.
   	![Select the **Sales order** entity](Media/chooseSODataTable.png "Select the Sales order entity")
    
-	The **Data table** control is now attached to the **Sales order** data source. A number of initial fields will be displayed in the **Data table** control since we are using a connector that supports that capability.  
+	The **Data table** control is now attached to the **Sales order** data source. A number of initial fields will be displayed in the **Data table** control because we are using a connector that supports that capability.  
 
 	![Data table](Media/preOrderDataTable.png "Data table")
 
-7. In the right hand pane, click the eye icon to show or hide individual fields.  For example, click the eye icon next to  **CustomerPurchaseOrderReference** to hide this field. 
+7. In the right pane, click or tap the eye icon to show or hide individual fields.  For example, click or tap the eye icon next to  **CustomerPurchaseOrderReference** to hide this field. 
 
-8. In the right hand pane, reorder the fields by dragging them up or down in the right pane.
+8. In the right pane, reorder the fields by dragging them up or down.
 
 	![Reorder the fields as desired](Media/fieldReorderDataTable.png "Reorder the fields")
   
@@ -136,7 +136,7 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 1. Add an **Edit** form control to the screen.
 2. Resize the **Data table** and the **Edit form** controls so that the **Data table** control appears in the left part of the screen and the **Edit form** control appears the right part of the screen.
 	![Data table and **Edit** form on the same screen](Media/dataTableEmptyForm.png "Data table and Edit form on the same screen")
-3. With **Form1** selected, change the number of columns to **1** in the right hand pane.  
+3. With **Form1** selected, in the right pane, change the number of columns to **1**.  
 4. Connect **Form1** to the **Sales order** data source. A number of initial fields will be displayed in **Form1**.
 	![**Form1** with initial fields](Media/dataTableDisconnectedForm.png "**Form1** with initial fields")
 5. In the right pane, click or tap the **Advanced** tab.
