@@ -22,10 +22,10 @@
 Shows a set of data in a tabular format.
 
 ## Description
-The **Data table** control shows a dataset in a format that includes column headers for each field that the control shows. As an app maker, you have full control over which fields appear and in what order. As in the **Gallery** control, the **Data table** control maintains a **Selected** property that points to the selected row. Therefore, you can link the **Data table** control to other controls.
+The **Data table** control shows a dataset in a format that includes column headers for each field that the control shows. As an app maker, you have full control over which fields appear and in what order. Like the **Gallery** control, the **Data table** control maintains a **Selected** property that points to the selected row. Therefore, you can link the **Data table** control to other controls.
 
 ## Capabilities  
-PowerApps introduced the **Data table** control on May 5, 2017. This section provides information about items that are supported and those that aren't supported.
+PowerApps introduced the **Data table** control on May 5, 2017. This section provides information about capabilities that are supported and capabilities that aren't supported.
 
 ### Now available
 - Data in a **Data table** control is read-only.
@@ -34,19 +34,19 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 - Adjust column widths in a **Data table** control while you run the app, though your changes aren't saved.
 - A set of default fields appear in a **Data table** control when you link it to a connector that has implemented this capability, such as the Common Data Service. You can then show or hide these fields and others as necessary.
 - **(New)** Customize column width and heading text.
-- **(New)** Show hyperlinks in a **Data table** control
-- **(New)** Copy and paste a **Data table** control
+- **(New)** Show hyperlinks in a **Data table** control.
+- **(New)** Copy and paste a **Data table** control.
 
 ### Not yet available
-- Customize the styling of individual columns
-- Add a **Data table** control in a form control
-- Change the height of all rows
-- Show images in a **Data table** control
-- Show fields from related entities
-- Use built-in functionality to filter and sort data by column heading
-- Add a **Data table** control in a **Gallery** control
-- Edit data in the **Data table** control
-- Select multiple rows
+- Customize the styling of individual columns.
+- Add a **Data table** control in a form control.
+- Change the height of all rows.
+- Show images in a **Data table** control.
+- Show fields from related entities.
+- Use built-in functionality to filter and sort data by column heading.
+- Add a **Data table** control in a **Gallery** control.
+- Edit data in the **Data table** control.
+- Select multiple rows.
 
 ### Known issues
 - No data appears if you use the **FirstN** function in the **Items** property.
@@ -94,6 +94,7 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 
 1. Create a blank tablet app.
 2. On the **Insert** tab, click or tap **Data table**.
+
 	![Add a Data table control to a screen](Media/insertDataTable.png "Add a Data table control to a screen")
    
    	A **Data table** control is added to the screen.
@@ -104,41 +105,49 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 	![Add a data source](Media/addDataToDataTable.png "Add a data source")
 
 5. In the list of connections, click or tap the connection for your Common Data Service database.
+
 	![Select the connection for your data source](Media/chooseCDSDataTable.png "Select your data connection")
 
 6. In the list of entities, click or tap **Sales order**, and then click or tap **Connect**.
-  	![Select the **Sales order** entity](Media/chooseSODataTable.png "Select the Sales order entity")
+
+  	![Select the Sales order entity](Media/chooseSODataTable.png "Select the Sales order entity")
    
-	The **Data table** control is now attached to the **Sales order** data source. A number of initial fields will be displayed in the **Data table** control because we are using a connector that supports that capability.  
+	The **Data table** control is now attached to the **Sales order** data source. Several initial fields appear in the **Data table** control, because we are using a connector that supports that capability.
 
 	![Data table](Media/preOrderDataTable.png "Data table")
 
-7. In the right pane, click or tap the eye icon to show or hide individual fields.  For example, click or tap the eye icon next to  **CustomerPurchaseOrderReference** to hide this field. 
+7. In the right pane, click or tap the eye icon to show or hide individual fields. For example, click or tap the eye icon next to **CustomerPurchaseOrderReference** to hide this field.
 
 8. In the right pane, reorder the fields by dragging them up or down.
 
 	![Reorder the fields as desired](Media/fieldReorderDataTable.png "Reorder the fields")
   
-  	The **SalesOrderTable** control shows the fields in the order that you specified. 
+  	The **SalesOrderTable** control shows the fields in the order that you specified.
   
 	![Updated Data table](Media/postOrderDataTable.png "Updated Data table")
 
-### Restyle the header for the **Data table** control
+### Restyle the header for the Data table control
 
-1. With the **Data table** control selected, in the right pane, click or tap the **Advanced** tab.
+1. While the **Data table** control is selected, in the right pane, click or tap the **Advanced** tab.
 2. Click or tap the field for the **HeadingFill** property, and then change the value to **RGBA(62,96,170,1)**.
 3. Click or tap the field for the **HeadingColor** property, and then change the value to **White**.
 4. Click or tap the field for the **HeadingSize** property, and then change the value to **14**.
+
 	![Data table](Media/restyledDataTable.png "Data table")
 
-### Connect a **Data table** control to another control
+### Connect a Data table control to another control
 
 1. Add an **Edit** form control to the screen.
-2. Resize the **Data table** and the **Edit form** controls so that the **Data table** control appears in the left part of the screen and the **Edit form** control appears the right part of the screen.
-	![Data table and **Edit** form on the same screen](Media/dataTableEmptyForm.png "Data table and Edit form on the same screen")
-3. With **Form1** selected, in the right pane, change the number of columns to **1**.  
-4. Connect **Form1** to the **Sales order** data source. A number of initial fields will be displayed in **Form1**.
-	![**Form1** with initial fields](Media/dataTableDisconnectedForm.png "**Form1** with initial fields")
+2. Resize the **Data table** and **Edit form** controls so that the **Data table** control appears in the left part of the screen and the **Edit form** control appears the right part of the screen.
+
+	![Data table and Edit form on the same screen](Media/dataTableEmptyForm.png "Data table and Edit form on the same screen")
+
+3. While **Form1** is selected, in the right pane, change the number of columns to **1**.
+4. Connect **Form1** to the **Sales order** data source. Several initial fields appear in **Form1**.
+
+	![Form1 with initial fields](Media/dataTableDisconnectedForm.png "Form1 with initial fields")
+
 5. In the right pane, click or tap the **Advanced** tab.
 6. Set the **Item** property for **Form1** to **SalesOrderTable.Selected**. **Form1** shows information from the row that is selected in the **Data table** control.
-	![**Edit** form connected to the Data table](Media/connectedFormDataTable.png "Edit form connected to the Data table")
+
+	![Edit form connected to the Data table](Media/connectedFormDataTable.png "Edit form connected to the Data table")
