@@ -109,13 +109,13 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 6. In the list of entities, click or tap **Sales order**, and then click or tap **Connect**.
   	![Select the **Sales order** entity](Media/chooseSODataTable.png "Select the Sales order entity")
    
-	The **Data table** control is now attached to the **Sales order** data source. However, no data will be shown until you select fields.
+	The **Data table** control is now attached to the **Sales order** data source. A number of initial fields will be displayed in the **Data table** control since we are using a connector that supports that capability.  
 
-7. In the right pane, click or tap the eye icon for each field that you want to show. For this example, select **SalesOrderId**, **Account**, **OrderDate**, and **Status**.
-	**SalesOrderTable** shows data from the fields that you specified.
 	![Data table](Media/preOrderDataTable.png "Data table")
 
-8. Reorder the fields by dragging them up or down in the right pane.
+7. In the right hand pane, click the eye icon to show or hide individual fields.  For example, click the eye icon next to  **CustomerPurchaseOrderReference** to hide this field. 
+
+8. In the right hand pane, reorder the fields by dragging them up or down in the right pane.
 
 	![Reorder the fields as desired](Media/fieldReorderDataTable.png "Reorder the fields")
   
@@ -136,9 +136,9 @@ PowerApps introduced the **Data table** control on May 5, 2017. This section pro
 1. Add an **Edit** form control to the screen.
 2. Resize the **Data table** and the **Edit form** controls so that the **Data table** control appears in the left part of the screen and the **Edit form** control appears the right part of the screen.
 	![Data table and **Edit** form on the same screen](Media/dataTableEmptyForm.png "Data table and Edit form on the same screen")
-3. Connect the **Edit form** control to the **Sales order** data source.
-4. With the **Edit form** control selected, select the fields to show. For this example, select **SalesOrderId**, **Status**, **Name**, **Description**, and **Total amount**.
-	![**Edit** form the shows five fields](Media/dataTableDisconnectedForm.png "Edit form that shows five fields")
+3. With **Form1** selected, change the number of columns to **1** in the right hand pane.  
+4. Connect **Form1** to the **Sales order** data source. A number of initial fields will be displayed in **Form1**.
+	![**Form1** with initial fields](Media/dataTableDisconnectedForm.png "**Form1** with initial fields")
 5. In the right pane, click or tap the **Advanced** tab.
-6. Set the **Item** property for the **Edit form** control to **SalesOrderTable.Selected**. The **Edit form** control shows information from the row that is selected in the **Data table** control.
+6. Set the **Item** property for **Form1** to **SalesOrderTable.Selected**. **Form1** shows information from the row that is selected in the **Data table** control.
 	![**Edit** form connected to the Data table](Media/connectedFormDataTable.png "Edit form connected to the Data table")
