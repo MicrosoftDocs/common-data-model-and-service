@@ -93,7 +93,7 @@ Follow these steps to register and configure your Azure Function in Azure AD.
     1. Click **Required permissions** to open a new pane.
     1. Click **Add**.
     1. Navigate to **Select an API**.
-    1. Search for and select **PowerApps Runtime Service**, and then click **Select**. If you can't find this service, see "Required permissions service isn't found" in the "Troubleshooting" section, later in this topic.
+    1. Search for and select **Common Data Service**, and then click **Select**. If you can't find this service, see "Required permissions service isn't found" in the "Troubleshooting" section, later in this topic.
     1. Select all the check boxes under **Delegated permissions**, and then click **Select**.
     1. Click **Done** to complete the setup of permissions for this service.
     1. Repeat the previous three steps for **Windows Azure Service Management API**.
@@ -462,7 +462,7 @@ This section provides information about the issues that are most commonly encoun
 
 ## Required permissions service isn't found
 
-In some Azure AD configurations, such as configurations that have nested tenants, you might not be able to find **PowerApps Runtime Service** and **Windows Azure Service Management API** when you set up the required permissions in the previous step. In this case, you must directly modify the application's JSON manifest by clicking **Manifest** at the top of the registered app pane. Add the following entries under the JSON array that is named **requiredResourceAccess**, but be sure to maintain the validity of the manifest. When you've finished, click **Save**.
+In Azure AD directories where PowerApps and Azure Resource Manager were first used during Preview, you might not be able to find the exact names **Common Data Service** and **Windows Azure Service Management API** when you set up the required permissions in the previous step. In this case, you must directly modify the application's JSON manifest by clicking **Manifest** at the top of the registered app pane. Add the following entries under the JSON array that is named **requiredResourceAccess**, but be sure to maintain the validity of the manifest. When you've finished, click **Save**.
 
 ```javascript
 {
@@ -485,6 +485,8 @@ In some Azure AD configurations, such as configurations that have nested tenants
 }
 ```
 
+If the required permission still shows as invalid, please make sure that a user of your active directory tenant, has already signed up for PowerApps and created a database as described in the Database Acquisition section.
+
 ## Assembly load issue after you publish to Azure
 
 If you started from a Visual Studio Function Application project and published it to the Azure Functions portal, you might encounter an issue where the assembly loads when the Azure Function is called. The error message might resemble the following example.
@@ -500,3 +502,4 @@ To resolve this issue, delete the project.lock.json file by following these step
 1. Select the file that is named **project.lock.json**.
 1. Click **Delete** at the top of the pane.
 1. Reissue the request from the client.
+

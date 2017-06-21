@@ -76,7 +76,7 @@ Follow these steps to register and configure an application in Azure AD.
     1. Click **Required permissions** to open a new pane.
     1. Click **Add**.
     1. Navigate to **Select an API**.
-    1. Search for and select **PowerApps Runtime Service**, and then click **Select**. If you can't find this service, see "Required permissions service isn't found" in the "Troubleshooting" section, later in this topic.
+    1. Search for and select **Common Data Service**, and then click **Select**. If you can't find this service, see "Required permissions service isn't found" in the "Troubleshooting" section, later in this topic.
     1. Select all the entries under **Delegated permissions**, and then click **Select**.
     1. Click **Done** to complete the setup of permissions for this service.
     1. Repeat the preceding steps for **Windows Azure Service Management API**.
@@ -244,7 +244,7 @@ Here are some of the interesting calls that will be made to hosts:
 
 The request and response contents of the preceding calls will describe the operation type, data, and metadata that the SDK passed to and from the Common Data Service. You can also find authentication information in these calls, in the form of the **Authorization** request header that goes to **management.azure.com** and **https://[unique-id].rsu.powerapps.com**. 
 
-You can inspect these security tokens in more detail by decoding them at [jwt.io](https://jwt.io/). The following example shows a security token that is used to call the Common Data Service. Some of the properties have been removed. Note that the **appid** value matches the **AAD application ID** configuration value, the **upn** value matches the signed-in Azure AD user, and the **aud** value matches the resource ID for **PowerApps Runtime Service**. (In security tokens from calls to **management.azure.com**, the **aud** value will match the resource ID of **Windows Azure Service Management API**.)
+You can inspect these security tokens in more detail by decoding them at [jwt.io](https://jwt.io/). The following example shows a security token that is used to call the Common Data Service. Some of the properties have been removed. Note that the **appid** value matches the **AAD application ID** configuration value, the **upn** value matches the signed-in Azure AD user, and the **aud** value matches the resource ID for **Common Data Service**. (In security tokens from calls to **management.azure.com**, the **aud** value will match the resource ID of **Windows Azure Service Management API**.)
 
 ```javascript
 {
@@ -253,14 +253,14 @@ You can inspect these security tokens in more detail by decoding them at [jwt.io
   "appid": "00000000-0000-0000-0000-000000000002",
   "appidacr": "0",
   "deviceid": "00000000-0000-0000-0000-000000000003",
-  "family_name": "Kamoosi",
-  "given_name": "Nima",
-  "name": "Nima Kamoosi",
+  "family_name": "Smith",
+  "given_name": "John",
+  "name": "John Smith",
   "oid": "00000000-0000-0000-0000-000000000004",
   "scp": "user_impersonation",
   "tid": "00000000-0000-0000-0000-000000000005",
-  "unique_name": "nimak@microsoft.com",
-  "upn": "nimak@microsoft.com",
+  "unique_name": "jsmith@contoso.com",
+  "upn": "jsmith@contoso.com",
   "ver": "1.0"
 }
 ```
@@ -271,7 +271,7 @@ This section describes some common issues that are encountered and reported by c
 
 ## Required permissions service isn't found
 
-In some Azure AD configurations, such as configurations that have nested tenants, you might not be able to find **PowerApps Runtime Service** and **Windows Azure Service Management API** when you set up the required permissions that are described in the "Application registration" section earlier in this topic. In this case, you must directly modify the application's JSON manifest by clicking **Manifest** at the top of the registered app pane. Add the following entries under the JSON array that is named **requiredResourceAccess**, but be sure to maintain validity of the manifest. When you've finished, click **Save**.
+In Azure AD directories where PowerApps and Azure Resource Manager were first used during Preview, you might not be able to find the exact names **Common Data Service** and **Windows Azure Service Management API** when you set up the required permissions in the previous step. In this case, you must directly modify the application's JSON manifest by clicking **Manifest** at the top of the registered app pane. Add the following entries under the JSON array that is named **requiredResourceAccess**, but be sure to maintain the validity of the manifest. When you've finished, click **Save**.
 
 ```javascript
 {
@@ -293,6 +293,8 @@ In some Azure AD configurations, such as configurations that have nested tenants
     ]
 }
 ```
+
+If the required permission still shows as invalid, please make sure that a user of your active directory tenant, has already signed up for PowerApps and created a database as described in the Database Acquisition section.
 
 ## Offline NuGet package
 
