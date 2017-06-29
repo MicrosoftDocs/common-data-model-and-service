@@ -28,6 +28,7 @@ Before you use the Data Integration feature, you should be aware of some importa
 
 ![Dynamics 365 Data Integration services and relationships](media/dynamics-integration.png)
 
+
 ## Connections
 
 Before you can work with a Data Integration project, you must provision a connection for each system that you intend to work with in the Microsoft PowerApps portal. You then reference those connections in a Data Integration project. Connections are stored in a Common Data Service environment. However, they operate above environments. The Data Integration projects use a connection that is stored in an environment to move data into and out of other systems, and into and out of an environment. Data doesn’t have to move into or out of the same environment as the connection.
@@ -79,33 +80,8 @@ Currently, the default values and transforms are in JavaScript Object Notation (
 
 The following example shows a default value.
 
-    [{"transformType":"Default","defaultValue":"Organization"}]
+![Transforms](media/transformUI.png)
 
-The following example shows a value map.
-
-    [{"transformType":"ValueMap","valueMap":{
-    "us":"US",
-    "usa":"US",
-    "united States":"US",
-    "united States of America":"US",
-    "germany":"DE",
-    "de":"DE",
-    "deu":"DE",
-    "france":"FR",
-    "fr":"FR",
-    "fra":"FR",
-    "uk":"GB",
-    "united Kingdom":"GB",
-    "ja":"JA",
-    "jap":"JA",
-    "japan":"JA",
-    "india":"IN",
-    "in":"IN",
-
-    "ind":"IN",
-        "au":"AU",
-        "ca":"CA"
-    }}]
 
 ## Synchronization direction
 
