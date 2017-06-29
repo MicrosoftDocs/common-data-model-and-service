@@ -148,13 +148,20 @@ If you are starting with an empty database, you will need to create an organizat
 
 ## Prerequisites
 
+## System requirements 
+
 You must have the following items:
 
-+ An instance of Microsoft Dynamics 365 for Operations update 7 or later. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
++ An instance of ** Microsoft Dynamics 365 for Operations update 7 or later**. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
++ The **most current version of Dynamics 365 for Sales.** Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales.
++ A **Dynamics 365 for Sales solution** to help guarantee that the business keys work correctly. Work with your TAP customer contact or the product team to obtain and install the solution.
++ An **environment in the Common Data Service**. You must also have created a **database** in that environment.
 
-+ The most current version of Dynamics 365 for Sales. Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales.
-+ A Dynamics 365 for Sales solution to help guarantee that the business keys work correctly. Work with your TAP customer contact or the product team to obtain and install the solution.
-+ An environment in the Common Data Service. You must also have created a database in that environment.
+## Custom entities
+If you have a custom entity in Dynamics 365 for Sales, you do not have to do anything.  If you have a custom entity in Dynamics 365 for Operations, you must turn on Change Tracking. To do this:
+1. Choose System Administration > Data Management IT > Data Entities
+2. Select your custom entity
+3. Enable change tracking from the menu.
 
 ## Dynamics 365 accounts
 
