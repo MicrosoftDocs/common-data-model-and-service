@@ -180,10 +180,6 @@ You must have the following items:
 + A Dynamics 365 for Sales solution to help guarantee that the business keys work correctly. Work with your TAP customer contact or the product team to obtain and install the solution.
 + An environment in the Common Data Service. You must also have created a database in that environment.
 
-## Tenant ID
-
-To access the Data Integration feature, you might have to provide your tenant ID to Microsoft.
-
 ## Dynamics 365 accounts
 
 You will need an account that has read and write privileges for the systems you want to integrate data with.
