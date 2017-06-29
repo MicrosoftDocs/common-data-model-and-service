@@ -39,7 +39,7 @@ Any connection you create on an environment where you have administration privil
 
 ## Data Integration
 
-The Data Integration feature is currently available as a tab in the PowerApps Admin Center. It is also available in the **Business platform admin center** ("businessplatform.microsoft.com") 
+The Data Integration feature is currently available as a tab in the **PowerApps Admin Center**. ("admin.powerapps.com") It is also available in the **Business platform admin center** ("admin.businessplatform.microsoft.com") 
 
 ## Projects
 
