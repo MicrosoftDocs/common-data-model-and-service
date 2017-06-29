@@ -58,7 +58,7 @@ Projects enable the flow of data between systems. A project is a list of one or 
 
 In this example, the data that should flow to the destination is not the guid record id (ProjectRecordID) in the Project table, but rather the values of “Blue”, “Red”, or “Yellow” which are in the ProjectBizKey column.  Sometimes the Data Integrator can either provide or automatically discover the business key for a related table. If not, you will need to identify the business key in the related table as part of the connection set your project is using in the **Integration keys** tab. When you first create a connection set this tab is empty. Entities will appear in a list in this tab once you identify them for use in a project.
 
-Fields from related tables will show in the Data Integration task as <transactionEntityField>.<fieldFromRelatedTable>. Using the example above, if you want to map ProjectBizKey field when you are mapping ProjectTicket fields, then you will choose the Project.ProjectBizkey field from the drop down. You can easily find all of the integration keys associated with foreign keys in a table by typing “.” in the search field of the drop down.
+Fields from related tables will show in the Data Integration task as (transactionEntityField).(fieldFromRelatedTable). Using the example above, if you want to map ProjectBizKey field when you are mapping ProjectTicket fields, then you will choose the Project.ProjectBizkey field from the drop down. You can easily find all of the integration keys associated with foreign keys in a table by typing “.” in the search field of the drop down.
 
 
 ### Organizations 
