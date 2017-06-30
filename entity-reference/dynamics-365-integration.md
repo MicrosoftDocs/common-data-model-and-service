@@ -266,8 +266,7 @@ If your project does not have all of the attributes you wish to map, you can add
 
 1. Choose **Add mapping**. On a mapping screen, choose **Add mapping**.  This will add a new line at the bottom of the map table.
 2. Select the attributes you wish to map.
-
-+ Select the attribute for each source that you want to add.
+3. Select the attribute for each source that you want to add.
 
 ## Run a project
 
