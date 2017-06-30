@@ -68,19 +68,32 @@ Fields from related tables will show in the Data Integration task as (transactio
 
 ## Transformations 
 
-We currently provide three types of transformations: default values, value maps, and truncate. Default values are values that are filled into a field when  no value is available. Default values are required in order to map to an entity that has a required field but there is no source field to map from. Value maps define how values that are present in one entity should be mapped to values in the other entity.
+We currently provide several types of transformations.  You should inspect the transformations that we provide as part of a template and make sure that they are appropriate for your integration project. Visit all sides of mappings: source to the Common Data Service, and the Common Data Service to destination. On a mapping page, note that on each row that maps a field, in the middle **Map Type** column, there is either an equal sign (**=**) or **Fn**. **Fn** indicates that a function, or transformation, has been applied. Click the equal or Fn symbol to create or edit a transformation. 
 
-You should inspect the default values and value maps that we provide for your project, and make sure that they are aligned with the values in your entities. Visit all sides of mappings: source to the Common Data Service, and the Common Data Service to destination. The example that follows shows both default values and value maps. You can directly edit and save your changes back to the project.
+### Default
 
-Eventually, you will be able to specify more complex transformations and filters on the data. On each row that maps a field, in the middle **Map Type** column, there is either an equal sign (**=**) or **Fn**. **Fn** indicates that a function, or transformation, has been applied. Currently, **Fn** is available only for fields that we know you might have to customize. To edit a default value or value map, click the pencil symbol next to the **Fn**.
+Default values are values that are filled into a destination field when no source field value is available. Use default values for fields that are required on the destination entity when you have no corresponding source field. 
+
+### Truncate
+ 
+ Truncate will terminate a string to the length of the destination target. Numeric values (such as from Decimal to Integer) are automatically truncated.
+
+### Value map
+
+Value maps define how values that are present in one entity should be mapped to values in the other entity.  Eventually, you will be able to specify more complex transformations and filters on the data. 
 
 ![Mapping fields between Dynamics 365 and the Common Data Service](media/dynamics-integration-mapping.png)
 
 Currently, the default values and transforms are in JavaScript Object Notation (JSON) format. However, the format will likely change over time.
 
-The following example shows a default value.
+The following example shows a default value.  If you want to supply both a map and a default value, leave a blank on the right column and supply a value on the right side. 
 
 ![Transforms](media/transformUI.png)
+
+
+### Country region code
+
+This transformation is used to convert address values into a format that can be used on the destination fields.
 
 
 ## Synchronization direction
@@ -143,9 +156,6 @@ If you are starting with an empty database, you will need to create an organizat
 
 # Running a Data Integration project
 
-> [!WARNING]
-> Don’t use the Data Integration feature with production data or production environments until Microsoft releases it as Generally Available (GA). Otherwise, you might lose data. For example, data might be corrupted or overwritten. For additional guidance, see your Technology Adoption Program (TAP) agreement.
-
 ## Prerequisites
 
 ## System requirements 
@@ -154,7 +164,7 @@ You must have the following items:
 
 + An instance of ** Microsoft Dynamics 365 for Operations update 7 or later**. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
 + The **most current version of Dynamics 365 for Sales.** Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales.
-+ A **Dynamics 365 for Sales solution** to help guarantee that the business keys work correctly. Work with your TAP customer contact or the product team to obtain and install the solution.
++ A **Dynamics 365 for Sales solution** to help guarantee that the business keys work correctly. 
 + An **environment in the Common Data Service**. You must also have created a **database** in that environment.
 
 ## Custom entities
@@ -203,7 +213,7 @@ Ensure that you have an account in Operations with a role that enables read acce
 
 To work with the Data Integration feature, follow these steps.
 
-1. Open the PowerApps Admin Center at <https://admin.powerapps.com>. The **Data Integration** tab should appear in the left navigation pane. If it doesn’t appear there, and you’re an authorized TAP customer, check with your Microsoft contact.
+1. Open the PowerApps Admin Center at <https://admin.powerapps.com>. The **Data Integration** tab should appear in the left navigation pane. 
 2. Click the **Data Integration** tab. The **Data Integration projects (Technical Preview)** page should appear. If you’re just starting to use the feature, you should see a **New Project** link that you can use to create a new project.
 
 ## Create a connection set
@@ -267,7 +277,6 @@ If your project does not have all of the attributes you wish to map, you can add
 ## Run a project
 
 To run a project, click **Sync Now** in the upper-right corner. After a project has started synchronization, click the **Scheduling** tab to monitor the progress of the project.
-
 
 # Common errors and debugging your project
 
