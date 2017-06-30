@@ -34,7 +34,7 @@ The SDK uses the term _entityset_ where other material that describes relational
 
 ## Programming model
 
-The programming model that was chosen for the C# SDK uses all the facilities from C# to build an embedded domain-specific language. Most of the application programming interfaces (APIs) that the SDK offers are implemented as asynchronous calls. Asynchronous calls are run in such a manner that an awaited call doesn't block the thread that it's running on. Instead, the flow of control immediately returns to the caller. After the call is completed, execution resumes from the continuation of the await. 
+The programming model that was chosen for the C# SDK uses all the facilities from C# to build an embedded domain-specific language. Most of the application programming interfaces (APIs) that the SDK offers are implemented as asynchronous calls. Asynchronous calls are run in such a manner that an awaited call doesn't block the thread that it's running on. Instead, the flow of control immediately returns to the caller. After the call is completed, execution resumes from the continuation of the await. You may want to peruse https://docs.microsoft.com/en-us/dotnet/articles/csharp/async for an overview of this technique.
 
 Most of the APIs are written to support lambda functions. We will explain this term later in the topic when we go through some examples. 
 
@@ -106,11 +106,40 @@ Insertions, like all other data manipulation, are done through executors, such a
 
 The code inserts two entities into the executor through a fluent syntax that chains the calls. The APIs are created to encourage this style, but you can also do the insertions as two separate calls to **Insert**.
 
-<!---
-Describe the InsertAndRetrieveEntity
-TODO: Create a more elaborate example where 1:n data is stored in one transaction.
+There is another similar method available on the BatchExecutor called **InsertAndRetrieveEntity**:
 
--->
+```cs
+private static async Task InsertAndRetrieveAsync(Client client)
+{
+    // Insert Surface and Phone product lines
+    var surfaceCategory = new ProductCategory()
+    {
+        Name = "Surface",
+        Description = "Surface produce line"
+    };
+    var phoneCategory = new ProductCategory()
+    {
+        Name = "Phone",
+        Description = "Phone produce line"
+    };
+
+    var executor = client.CreateRelationalBatchExecuter(
+            RelationalBatchExecutionMode.Transactional);
+
+    OperationResult<ProductCategory> category1, category2;
+    executor
+        .InsertAndRetrieveEntity(surfaceCategory, out category1)
+        .InsertAndRetrieveEntity(phoneCategory, out category2);
+
+    await executor.ExecuteAsync();
+
+    // At this time (after the execution is finished) the out parameters 
+    // will have their fields (including predefined fields and autonumber 
+    // fields) populated.
+}
+```
+
+As indicated, the out parameters will be populated with the values that are actually inserted into the database, including the values of autonumber fields, the createdBy fields and so on. Using this method can sometimes save a roundtrip to the server to get the data.
 
 ## Reading data from OOB entitysets
 
@@ -148,29 +177,92 @@ static async Task SimpleSelectAsync(Client client)
 
 Once again, we do the work by using an asynchronous method. We first create a query builder that is based on the entityset that we want to query (ProductCategory in this case). The query builder is used as a starting point to add the parts that define the query. In this case, we are looking for product categories that have the name "Electronics", and we want them to be ordered by the category ID. We require only three field values: the category ID, the name, and the description. After the query has been created, another executor can use it to fetch the records. 
 
-<!---
-You can do multiple queries at the time.
-
-            selectExecutor
-                .Query(queryProductExtension, out productExtensionResult)
-                .Query(querySampleEntity, out productCategoryResult)
-                .Query(queryTeam, out teamResult)
-                .ExecuteAsync().Wait();
--->                
-
 There are a few interesting things that you should notice. The **where** clause is expressed by using a lambda function. It's important that you understand that the lambda functions that are used in this context are never actually run. They are used only to express the programmer's intention. When the query is run (in the executor), the lambda function is translated to a query that is understood by the back end. Therefore, the lambda function serves as a structure that the expression is expressed in. 
 
 Lambda functions have several benefits. The most important benefit is that the tooling in Microsoft Visual Studio provides a great experience because of its knowledge of the entitysets that are involved. The same strategy is used when the sorting option is specified. A lambda function is presented that maps a ProductCategory instance onto an array of fields to order by. (In this case, the instance is named pc, but this name has no significance outside the scope of the lambda function.) Finally, the projection is specified. The projection is the data that is required from each entity that is matched by the query. In this case, we are interested in the fields that are listed in the projection clauses. Another lambda takes a ProductCategory instance and returns the fields to include. Note that, for performance reasons, there is no option to automatically select all fields.
 
 The **out** parameter of the **Query** method on the executor is used to enumerate the results when the await returns in the **queryResult** variable. The type of this variable indicates that the result is a read-only list of product category entities that can conveniently be enumerated.
 
+Note, that in the simple examples we are showing here, there is rarely any need to do several things at once, but for more realistic scenarios it may be useful to do many things in one ExecuteAsync() call, i.e. within a single transaction. To accomplish that you can add any number of things to the executor before execution. 
+
+```cs
+var executor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+executor
+    .Query(query1, out queryResult1);
+    // Many more operations...
+    .Query(query2, out queryResult2);
+
+await executor.ExecuteAsync();
+```
+
 ### Joining data from multiple entitysets
 
 In the preceding examples, we have been working with single entitysets. However, this scenario is rare. Typically, the requirements specify that entities should be read from several entitysets and joined together to create useful results. In this section, we will describe how these joins are done in the C# SDK.
 
-#### Joins
+#### Using IncludeRelated
+While it is perfectly valid to do joins in the typical manner, specifying the joined entityset and its join condition and type, there are more declarative ways of accomplishing joins in the CDS SDK. The entitysets can be defined to partake in relationships with other entities as they are designed. This declarative information can be leveraged in code without much effort, as we will show below.
 
-The most common way to achieve joins is by specifying the **join** clause on the query. Because the entitysets carry with them a lot of metadata that describes the relationships among them, you typically don't have to specify the fields that are used to do the join in the query.
+Let us consider a case where where want to traverse the products, and for each of the products we want to know the details of the product category to which the product belongs.
+
+```cs
+static async Task SelectWithRelatedAsync(Client client)
+{
+    var query = client.GetRelationalEntitySet<Product>()
+        .CreateQueryBuilder()
+        .Project(builder => builder.SelectField(p => p.Name)
+            .IncludeRelated(f => f.ProductCategory)
+                .ProjectRelated(pc => pc.SelectField(f => f.Name)));
+
+    OperationResult<IReadOnlyList<Product>> result = null;
+
+    await client.CreateRelationalBatchExecuter(
+        RelationalBatchExecutionMode.Transactional)
+        .Query(query, out result)
+        .ExecuteAsync();
+
+    foreach (Product p in await result)
+    {
+        Console.WriteLine("Product " + p.Name + " in category: " + p.ProductCategory.Entity.Name);
+    }
+}
+```
+
+The interesting part in this example is limited to the **Project** clause ion the query builder. Here an **IncludeRelated** clause if provided to specify that a related entity is required. The lambda function again serves to designate what relation to consume - In this case it is the name of the lookup field on the Product that provides the category. Once the relationship has been selected, you need to specify which fields are required on the related entity (i.e. on the category entity). This information is provided in the **ProjectRelated** call. In this case, we require only the category name.
+
+Let us now concentrate on a more complicated example where we want to traverse the categories and want the collection of products in that category.
+
+<!-- This does not currently work. Promised in 1.14 -->
+
+```cs
+static async Task SelectWithRelated1Async(Client client)
+{
+    var query = client.GetRelationalEntitySet<ProductCategory>()
+        .CreateQueryBuilder()
+        .Project(builder => builder.SelectField(category => category.Name)
+            .IncludeRelated(category => category.Product_ProductCategory)
+                .ProjectRelated(product => product.SelectField(f => f.Name)));
+
+    OperationResult<IReadOnlyList<ProductCategory>> result = null;
+
+    await client.CreateRelationalBatchExecuter(
+        RelationalBatchExecutionMode.Transactional)
+        .Query(query, out result)
+        .ExecuteAsync();
+
+    foreach (ProductCategory pc in await result)
+    {
+        Console.WriteLine("Product category " + pc.Name);
+        foreach (var p in pc.Product_ProductCategory)
+        {
+            Console.WriteLine("     Product " + p.Entity.Name);
+        }
+    }
+}
+```
+ 
+#### Join clause
+
+Another way to do joins is by specifying the **join** clause on the query. Because the entitysets carry with them a lot of metadata that describes the relationships among them, you typically don't have to specify the fields that are used to do the join in the query.
 
 <!---
 TODO: Create a more elaborate example where 1:n data is stored in one transaction.
@@ -451,6 +543,35 @@ TODO example
 
 ### Using group by clauses
 
+### Nested Queries
+It is possible to nest queries, which can make writing complex queries where you would otherwise use joins easier. It works by passing an extra parameter in the lambda in the where clause; this extra parameter is used to build the exists clause.
+
+```cs
+public async void TestSimpleExistsAsync(Client client)
+{
+    var employees = client.GetRelationalEntitySet<Employee>();
+    var departments = client.GetRelationalEntitySet<Department>();
+
+    // Use an exists join in there where clause to denote
+    // "Give me the ids of employees that are work in a department this is not "Dept1",
+    // ordered by the employee id
+    var query = employees
+        .CreateQueryBuilder()
+        .Where((e, sb) => sb.Exists(
+                                departments,
+                                builder => builder
+                                    .Where(d => d.DepartmentName != "Dept1" && e.Department == d.CreateReference())
+                                    .Project(d => d.SelectNoFields())))
+        .OrderByAscending(e => new object[] { e.Id })
+        .Project(e => e.SelectField(i => i.Id));
+
+    var queryResult = query.CreateQueryResultType();
+    var executor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
+
+    await executor.Query(query, out queryResult).ExecuteAsync().Wait();
+}
+```
+
 ### Paging
 
 In some scenarios, it's useful to be able to fetch a certain number of records after several records have been skipped. To achieve this result, you can add **Take** and **Skip** clauses to the query. The following example shows how to fetch the three most expensive products.
@@ -547,9 +668,47 @@ private static async Task UpdateExampleAsync(Client client)
     await updateExecutor.ExecuteAsync();
 }
 ```
+The system uses optimistic concurrency control (OCC) where no locking is performed, and the system will throw an UpdateConflict exception if it turns out that changes have been to the same data from several transactions. The user needs to decide what to do in this case. One approach is to restart the transaction.
+
+There is a useful method on the RelationalBatchExecutor called UpdateAndRetrieveEntity that will return the record after the updates have been applied, which can sometime save a roundtrip to the server.
+
+```cs
+private static async Task UpdateExampleAsync(Client client)
+{
+    // In this example we will markup our product prices by 10 percent
+    var query = client.GetRelationalEntitySet<Product>()
+        .CreateQueryBuilder()
+        .Project(p => p.SelectField(f => f.SellingUnitPrice));
+
+    OperationResult<IReadOnlyList<Product>> allProducts = null;
+    await client.CreateRelationalBatchExecuter(
+        RelationalBatchExecutionMode.Transactional)
+        .Query(query, out allProducts)
+        .ExecuteAsync();
+
+    var updateExecutor = client.CreateRelationalBatchExecuter(
+        RelationalBatchExecutionMode.Transactional);
+
+    foreach (Product entry in allProducts.Result)
+    {
+        ITypedRelationalFieldUpdates<Product> updates = 
+            client.CreateRelationalFieldUpdates<Product>();
+
+        Currency newPrice = new Currency()
+        {
+            Amount = entry.SellingUnitPrice.Amount * 1.10m,
+            Code = entry.SellingUnitPrice.Code
+        };
+        updates.UpdateAndRetrieve(pc => pc.SellingUnitPrice, newPrice);
+
+        updateExecutor.Update(entry, updates);
+    }
+
+    await updateExecutor.ExecuteAsync();
+}
+```
 
 ## Deleting data
-
 Currently, data is deleted by enumerating the data that must be deleted, inserting that data into a delete executor, and firing the **ExecuteAsync** method as usual. Here is an example.
 
 ```cs
@@ -601,7 +760,83 @@ static async Task SimpleDeleteTestAsync(Client client)
 
 In this example, we are using **Delete** on **deleteExecutor** to indicate that we want the record to be deleted. **Delete** deletes the entity but will throw an optimistic concurrency check exception if the entity was edited after it was first selected. Another method that is named **DeleteWithoutConcurrencyCheck**  will delete the record without considering whether changes were made since the entity was selected. 
 
-## Reading data by using generic entitysets
+## Working with documents in Azure storage
+Sometimes you need to store things that do not fall within the other types that available for fields. This could be the case if you wanted to store sound bites, video clips, PDF files, word documents etc. For this purpose the CDS SDK has the concept of **blob storage**.
+
+The idea is quite simple. You store the information in the form of a stream (i.e. in an instance of a class derived from System.IO.Stream). When you insert this into blob storage, you get a blob reference back. With this in hand you can get the data back from blob storage through the use of the **GetBlob** method on the **BlobBatchExecutor**.  
+
+The following code should make this easier to understand:
+
+```cs
+public static async void BlobExampleAsync(Client client)
+{
+    // Blobs are stored in Azure blob storage. When inserted, a reference
+    // is passed back to you, so you can save that in your entity.
+
+    // Let's save a picture. Here we are getting the picture from the wikipedia 
+    // article describing databases:
+    // https://en.wikipedia.org/wiki/Database#/media/File:Postgres_Query.jpg
+
+    WebRequest request = WebRequest.Create("https://en.wikipedia.org/wiki/Database#/media/File:Postgres_Query.jpg");
+    WebResponse response = await request.GetResponseAsync();
+
+    System.IO.Stream responseStream = response.GetResponseStream();
+    // Bitmap bitmap2 = new Bitmap(responseStream);
+
+    // We now have a stream to work with. Let's insert it into blob storage. 
+    // The example may be a little contrived since there is an Image type
+    // already available, but we will go with it anyway.
+    var blobExecuter = client.CreateBlobBatchExecuter();
+    OperationResult<BlobReference> uploadBlobResult = null;
+
+    await blobExecuter
+        .UploadBlob(responseStream, out uploadBlobResult)
+        .ExecuteAsync();
+
+    BlobReference photoReference = await uploadBlobResult;
+
+    // Now that we have the blob reference, we can use it in a field
+    // of type Blob reference.
+
+    // When you have the blob reference you can access it by:
+    blobExecuter = client.CreateBlobBatchExecuter();
+
+    OperationResult<System.IO.Stream> getBlobResult = null;
+
+    await blobExecuter.GetBlob(photoReference, out getBlobResult)
+        .ExecuteAsync();
+}
+``` 
+
+## Reflecting over definitions of entitysets
+Sometimes it is useful to be able to see the details about the entities that you are working with programmatically. In .NET you do this through the Type object - In the SDK we have a lot more information recorded in metadata. There is a subsystem of the SDK that allows you to query this information. 
+
+```cs
+public static async void GetClassMetadata(IClient client, string entityName)
+{
+    OperationResult<RelationalEntitySetModel> resmResult;
+    var executor = client.CreateModelingBatchExecuter(ModelingBatchExecutionMode.Transactional);
+
+    executor.ReadEntitySet(new Microsoft.CommonDataService.EntitySetIdentifier(entityName),
+        out resmResult);
+                        
+    await executor.ExecuteAsync();
+
+    var res = await resmResult;
+
+    Console.WriteLine("Name        " + res.Identifier);
+    Console.WriteLine("DisplayName " + res.DisplayName);
+    Console.WriteLine("Fields");
+
+    foreach (var field in res.Fields)
+    {
+        Console.WriteLine("    " + field.Identifier + "(" + field.DisplayName + ") : " + field.Type.ToString());
+    }
+}
+```
+The sample works by using a special executor, the **ModelingBatchExecutor**. There is a **ReadEntitySet** method that asks the server to return the metadata when the executor executes. There is a lot of additional metadata, like the content of field groups, teh entity and field descriptions added by the maker, that the example above does not illustrate. Take it for a spin to explore.
+
+## Working with non-typed entitysets
 
 Earlier in this topic, we were working with a fully designed OOB entityset. Therefore, to write the code, we could use the full range of features in C# and the Visual Studio tooling (especially IntelliSense and debugging support). However, in some cases, you won't have the fully compiled classes to work with. For example, you're working with your custom entitysets, but you haven't generated a C# class for them. Another case where the following techniques become interesting is when you've customized an OOB entityset (for example, by adding a new field). In these cases, you can refer to fields by using a weaker model where fields are described by their names.
 
