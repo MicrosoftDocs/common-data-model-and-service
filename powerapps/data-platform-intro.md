@@ -14,7 +14,7 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="02/24/2017"
+   ms.date="06/23/2017"
    ms.author="kfend"/>
 
 # Understand entities in the Common Data Service
@@ -78,13 +78,15 @@ You can navigate between records in entities if they have a relationship that's 
 ## Standard entities
 For a list of the entities and their fields, and a list of the enumerations, see [Standard entities](https://docs.microsoft.com/common-data-service/entity-reference/standard-entities).
 
-Functional group | Description 
---- | --- 
-Customer Service | The Customer Service entities manage issues from your customers, including tracking, escalation, and documentation. | Case<br> Case Activity<br> Case Activity KB Article<br> Case Worker Assignment<br> KB Article
-Foundation | The Foundation entities contain information that is relevant to nearly every other entity group. This group contains entities such as Address and Currency. 
-People, Organizations, and Groups | These entities encompass a rich set of people and organizations that you might interact with, including employees, contractors, donors, volunteers, fans, alumni, and families. 
-Purchasing | The Purchasing entities let you create purchasing solutions.  
-Sales | The Sales entities let you create end-to-end sales solutions, from tracking leads and opportunities, to following through with contacts, accepting and delivering orders, and sending invoices. 
+Functional Group	| Description
+--- | ---
+Customer service | The customer service entities manage issues from your customers, including tracking, escalation, and documentation.
+Foundation | The Foundation entities contain information that is relevant to nearly every other entity group. This group contains entities such as Address and Currency.
+Human resources | The human resources entities let you manage employment information, jobs, leaves, and positions.
+Person, organization, and group |	These entities encompass a rich set of people and organizations that you might interact with, including workers, vendors, tenants, fans, alumni, and families.
+Productivity | The productivity entities let you track events and messages.
+Purchasing |The Purchasing entities let you create purchasing solutions.
+Sales |The Sales entities let you create end-to-end sales solutions, from tracking leads and opportunities, to following through with contacts, to accepting and delivering orders, to sending invoices. 
 
 ## Get started ##
 Try it out by creating an app using a standard entity or [create a custom entity](data-platform-create-entity.md), and then [create an app that uses that entity](data-platform-create-app.md).
