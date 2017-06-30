@@ -234,7 +234,7 @@ Before you create a project, you must first create a connection set. To create a
 To create a new project, follow these steps.
 
 1. Click the **New Project** link in the upper-right corner, or click the link that is provided on the page. The **New Data Integration** wizard starts.
-2. Enter a name for the project.
+2. Enter a name for the project.  The project name may only contain alphanumeric characters (no special characters.)
 3. Select a predefined project template to create a base project that you can run directly. (Eventually, you will be able to customize the project before you run it. However, project customization isn’t yet supported.)
 4. Choose Next.
 5. Select a connection set. Here you choose your connection set for your project. This will show the connections you have previously provided.
