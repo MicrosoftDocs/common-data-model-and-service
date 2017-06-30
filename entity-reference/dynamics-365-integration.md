@@ -18,9 +18,7 @@ ms.assetid: 0c7f8e4f-8433-447f-85b2-8e3788b3714a
 
 The Dynamics 365 Data Integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through Common Data Service. This feature enables a basic flow of accounts and other entity data to enable a prospect-to-cash scenario. This document describes the capabilities, usage guidelines, and current limitations of the Data Integration feature.
 
-The Microsoft Dynamics 365 Data Integration feature is available to customers who have at least one Dynamics 365 product. It enables the flow of data between Microsoft Dynamics products through Common Data Service (CDS). For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party Data Integration tool.
-
-The data integration feature is available to customers who have at least one Dynamics 365 product. 
+The Microsoft Dynamics 365 Data Integration feature is available to customers who have at least one Dynamics 365 product. It enables the flow of data between Microsoft Dynamics products through Common Data Service (CDS). For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party data integration tool. 
 
 # Concepts
 
@@ -39,7 +37,7 @@ Any connection you create on an environment where you have administration privil
 
 ## Data Integration
 
-The Data Integration feature is currently available as a tab in the **PowerApps Admin Center**. ("admin.powerapps.com") It is also available in the **Business platform admin center** ("admin.businessplatform.microsoft.com") 
+The Data Integration feature is currently available as a tab in the [PowerApps Admin Center](http://admin.powerapps.com). It is also available in the [Business platform admin center](admin.businessplatform.microsoft.com). 
 
 ## Projects
 
@@ -52,13 +50,13 @@ Projects enable the flow of data between systems. A project is a list of one or 
 
 ### Integration keys
 
-**Integration keys** are the keys the Data Integrator uses to join entities that should also be part of the integration task. For example, in the diagram shown below, each project ticket is associated with a project (Projects are named “Blue”, “Red”, or “Yellow”).  
+**Integration keys** are the keys the Data Integrator uses to join entities that should also be part of the integration task. For example, in the diagram shown below, each project ticket is associated with a project. (Projects are named “Blue”, “Red”, or “Yellow”.) 
 
 ![ProjectTicket entity and related project entity](media/surrogateFK.png)
 
-In this example, the data that should flow to the destination is not the guid record id (ProjectRecordID) in the Project table, but rather the values of “Blue”, “Red”, or “Yellow” which are in the ProjectBizKey column.  Sometimes the Data Integrator can either provide or automatically discover the business key for a related table. If not, you will need to identify the business key in the related table as part of the connection set your project is using in the **Integration keys** tab. When you first create a connection set this tab is empty. Entities will appear in a list in this tab once you identify them for use in a project.
+In this example, the data that should flow to the destination is not the GUID record id (ProjectRecordID) in the Project table, but rather the values of “Blue”, “Red”, or “Yellow” which are in the ProjectBizKey column.  Sometimes the Data Integrator can either provide or automatically discover the business key for a related table. If not, you will need to identify the business key in the related table as part of the connection set your project is using in the **Integration keys** tab. When you first create a connection set this tab is empty. Entities will appear in a list in this tab once you identify them for use in a project.
 
-Fields from related tables will show in the Data Integration task as (transactionEntityField).(fieldFromRelatedTable). Using the example above, if you want to map ProjectBizKey field when you are mapping ProjectTicket fields, then you will choose the Project.ProjectBizkey field from the drop down. You can easily find all of the integration keys associated with foreign keys in a table by typing “.” in the search field of the drop down.
+Fields from related tables will show in the Data Integration task as (transactionEntityField).(fieldFromRelatedTable). Using the example above, if you want to map ProjectBizKey field when you are mapping ProjectTicket fields, then you will choose the Project.ProjectBizkey field from the drop down. You can easily find all of the integration keys associated with foreign keys in a table by typing “.” (a period) in the search field of the drop down.
 
 
 ### Organizations 
@@ -76,7 +74,7 @@ Default values are values that are filled into a destination field when no sourc
 
 ### Truncate
  
- Truncate will terminate a string to the length of the destination target. Numeric values (such as from Decimal to Integer) are automatically truncated.
+Truncate will terminate a string to the length of the destination target. Numeric values (such as from Decimal to Integer) are automatically truncated.
 
 ### Value map
 
@@ -119,7 +117,7 @@ When you create a new project, we ask you for explicit consent, because we are m
 + Data from a high-compliance system (such as Dynamics 365 for Sales) might be brought into a less-compliant system (such as the Common Data Service or Dynamics 365 for Operations).
 + Data might be moved between regional data centers, such as North America and Europe.
 
-Be sure to read the **Privacy Notice and Consent** page carefully, and make sure that the correct persons give consent. We won’t create a project unless consent is given. We record the consent in our log files.
+Be sure to read the **Privacy Notice and Consent** page carefully, and make sure that the correct people give consent. We won’t create a project unless consent is given. We record the consent in our log files.
 
 ## Running a project
 
@@ -136,7 +134,7 @@ Eventually, the **Scheduling** tab will also show error records. However, this f
 
 In a production Common Data Service database, organization records should already exist. Then, in your integration project, you just need to specify which organization you want to use. However, if you are just testing the Data integrator or if you want to prepare a Common Data Service for more general use, you may need to delete all of the sample data. To do this:
 
-1. Go to the PowerApps site at <https://web.powerapps.com>.
+1. Go to the [PowerApps site](https://web.powerapps.com).
 2. On the left, choose **Common Data Service**. This will expand the list of items below.
 3. Then, choose **Entities**. This will open the Entities list page.
 4. In the upper right, there is a “**...**” menu.  Select it and you should see a drop-down which includes “Clear all data”.
@@ -144,12 +142,12 @@ In a production Common Data Service database, organization records should alread
 
 If you are starting with an empty database, you will need to create an organization record for every organization you want to integrate with data. To do this:
 
-1. Go to the PowerApps site at <https://web.powerapps.com>.
+1. Go to the [PowerApps site](https://web.powerapps.com).
 2. On the left, choose **Common Data Service**. This will expand the list of items below.
 3. In the entity list, find the **Organization** entity. (The fast way is to use the search control.)
 4. In the details page for the Organization entity choose to “**Open in Excel**.”
 5. When the Excel spreadsheet opens, choose to “**Enable Editing**.”
-6. Add an Organization row in the spreadsheet.  Use the “**Microsoft PowerApps Office Data Connector Add-in** to help you put in the required fields.  It shows a star “*” by all required fields.  And, you can simply choose legal values right in the add-in. 
+6. Add an Organization row in the spreadsheet.  Use the “**Microsoft PowerApps Office Data Connector Add-in** to help you put in the required fields.  It shows a star “\*” by all required fields.  And, you can simply choose legal values right in the add-in. 
 7. Choose to **Publish** back into CDS. (The command is located in the bottom of the Data Connector Add-in.)
 8. Double check that the record was written by selecting the Data tab in the PowerApps site.
 
@@ -162,15 +160,15 @@ If you are starting with an empty database, you will need to create an organizat
 
 You must have the following items:
 
-+ An instance of ** Microsoft Dynamics 365 for Operations update 7 or later**. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
++ An instance of **Microsoft Dynamics 365 for Operations platform update 7 or later**. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
 + The **most current version of Dynamics 365 for Sales.** Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales.
 + A **Dynamics 365 for Sales solution** to help guarantee that the business keys work correctly. 
 + An **environment in the Common Data Service**. You must also have created a **database** in that environment.
 
 ## Custom entities
 If you have a custom entity in Dynamics 365 for Sales, you do not have to do anything.  If you have a custom entity in Dynamics 365 for Operations, you must turn on Change Tracking. To do this:
-1. Choose System Administration > Data Management IT > Data Entities
-2. Select your custom entity
+1. Choose **System Administration** > **Data Management IT** > **Data Entities**.
+2. Select your custom entity.
 3. Enable change tracking from the menu.
 
 ## Dynamics 365 accounts
@@ -186,10 +184,10 @@ To read data from Sales:
 + **Read** with deep access for any entity that is a partner in a relationship with an entity that is included in a Data Integration project as a source.
 
 To write data to Sales:
-+ **Create/Read/Write/Delete/Append/Append To/Assign/Share/Reparent** with deep access for any entity that is included in a Data Integration project as a destination.  Share is not strictly required at this time but may be required in the future.  Reparent is only need for some entities, but it is probably easier simply to allow it on all synced-in entities.
++ **Create/Read/Write/Delete/Append/Append To/Assign/Share/Reparent** with deep access for any entity that is included in a Data Integration project as a destination.  Share is not strictly required at this time but may be required in the future. Reparent is only needed for some entities, but it is probably easier simply to allow it on all synced-in entities.
 + **Read/Append** To with deep access for any entity that is a partner in a relationship with an entity that is included in a Data Integration project as a source.
 
-The default team of the BU that records are synced into in the connection set (that is, the default team of the BU in the connection set) must have a read privilege to the entities which are going to be owned by it (that is, all entities which are to be synced in the project.) Consequently, the team must be assigned a role which has at least read access to those entities which are synced into it.  Since team members inherit roles assigned to teams, it is desirable to use a separate low-privilege role for this purpose (that is, of allowing read privilege for the team so that the team can own the synced records).
+The default team of the business unit that records are synced into in the connection set (that is, the default team of the business unit in the connection set) must have a read privilege to the entities which are going to be owned by it (that is, all entities which are to be synced in the project.) Consequently, the team must be assigned a role which has at least read access to those entities which are synced into it.  Since team members inherit roles assigned to teams, it is desirable to use a separate low-privilege role for this purpose (that is, of allowing read privilege for the team so that the team can own the synced records).
 
 ### Dynamics 365 for Operations
 
@@ -198,13 +196,10 @@ Ensure that you have an account in Operations with a role that enables read acce
 
 ## Create connections
 
-> You must create a PowerApps connection for each system that you will work with.
+You must create a PowerApps connection for each system that you will work with.
 
-1. Go to the PowerApps site at <https://web.powerapps.com>.
-2. Click **Connections**.
-    
-   The **Connections** page shows all the connections that you’ve provisioned. If you don’t yet have the connections that are required for your Data Integration project, you must create a new connection.
-
+1. Go to the [PowerApps site](https://web.powerapps.com).
+2. Click **Connections**. The **Connections** page shows all the connections that you’ve provisioned. If you don’t yet have the connections that are required for your Data Integration project, you must create a new connection.
 3. Click **New connection**.
 4. In the list of connection types that PowerApps can work with, select a connection type. For example, if you’re working with Dynamics 365 for Sales, select **Dynamics 365**. Then, in the dialog box, enter your identity and access credentials.
 5. On the PowerApps site, on the **Entities** tab, you should see a list of standard entities. If you don’t see a list of standard entities, you must create a Common Data Service environment and database.
@@ -213,7 +208,7 @@ Ensure that you have an account in Operations with a role that enables read acce
 
 To work with the Data Integration feature, follow these steps.
 
-1. Open the PowerApps Admin Center at <https://admin.powerapps.com>. The **Data Integration** tab should appear in the left navigation pane. 
+1. Open the [PowerApps Admin Center](https://admin.powerapps.com). The **Data Integration** tab should appear in the left navigation pane. 
 2. Click the **Data Integration** tab. The **Data Integration projects (Technical Preview)** page should appear. If you’re just starting to use the feature, you should see a **New Project** link that you can use to create a new project.
 
 ## Create a connection set
@@ -226,14 +221,14 @@ Before you create a project, you must first create a connection set. To create a
 4. Select an Environment.
 5. Provide an **Environment** for the Common Data Service (where you want the integration data to land.)
 
-> [!NOTE]
-> You are likely not done at this point.  It is legal to create a connection set that only has two connections.  This is for connections that are only pushing data into the Common Data Service. If you want data to move between Sales to Operations (or vice versa) then take the next step of adding a **third connection**. If not, you are done at this point.
+    > [!NOTE]
+    > You are likely not done at this point.  It is legal to create a connection set that only has two connections.  This is for connections that are only pushing data into the Common Data Service. If you want data to move between Sales to Operations (or vice versa) then take the next step of adding a **third connection**. If not, you are done at this point.
 
 6. Add a third connection for a destination such as to Dynamics 365 for Operations.
 7. Provide **Organization** mappings.  These are the organizational units (such as legal entity or company or business unit) that will shape or refine the data you integrate across the systems.
 
-> [!NOTE]
-> You may want to add additional organization mappings so that the same connection set may be used with different business unit combinations. However, you can do this later by simply adding them to the connection set, once created.
+    > [!NOTE]
+    > You may want to add additional organization mappings so that the same connection set may be used with different business unit combinations. However, you can do this later by simply adding them to the connection set, once created.
 
 8. Choose to **Create** your connection set. 
 
@@ -281,6 +276,7 @@ To run a project, click **Sync Now** in the upper-right corner. After a project 
 # Common errors and debugging your project
 
 Below is a checklist of items you can use to make sure things are working correctly.
+
 ## Connections
 
 ### Connections not showing in in the data integrator
