@@ -3,7 +3,7 @@ title: "Manipulate your data by using the Common Data Service SDK | Microsoft Do
 description: ""
 author: "pvillads"
 manager: "robinarh"
-ms.date: "02/03/2017"
+ms.date: "07/07/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -34,7 +34,7 @@ The SDK uses the term _entityset_ where other material that describes relational
 
 ## Programming model
 
-The programming model that was chosen for the C# SDK uses all the facilities from C# to build an embedded domain-specific language. Most of the application programming interfaces (APIs) that the SDK offers are implemented as asynchronous calls. Asynchronous calls are run in such a manner that an awaited call doesn't block the thread that it's running on. Instead, the flow of control immediately returns to the caller. After the call is completed, execution resumes from the continuation of the await. You may want to peruse https://docs.microsoft.com/en-us/dotnet/articles/csharp/async for an overview of this technique.
+The programming model that was chosen for the C# SDK uses all the facilities from C# to build an embedded domain-specific language. Most of the application programming interfaces (APIs) that the SDK offers are implemented as asynchronous calls. Asynchronous calls are run in such a manner that an awaited call doesn't block the thread that it's running on. Instead, the flow of control immediately returns to the caller. After the call is completed, execution resumes from the continuation of the await. For more information, and an overview of this technique, see [Asynchronous programming](https://docs.microsoft.com/en-us/dotnet/csharp/async).
 
 Most of the APIs are written to support lambda functions. We will explain this term later in the topic when we go through some examples. 
 
@@ -106,7 +106,7 @@ Insertions, like all other data manipulation, are done through executors, such a
 
 The code inserts two entities into the executor through a fluent syntax that chains the calls. The APIs are created to encourage this style, but you can also do the insertions as two separate calls to **Insert**.
 
-There is another similar method available on the BatchExecutor called **InsertAndRetrieveEntity**:
+There is a similar method available on the BatchExecutor called **InsertAndRetrieveEntity**:
 
 ```cs
 private static async Task InsertAndRetrieveAsync(Client client)
@@ -139,7 +139,7 @@ private static async Task InsertAndRetrieveAsync(Client client)
 }
 ```
 
-As indicated, the out parameters will be populated with the values that are actually inserted into the database, including the values of autonumber fields, the createdBy fields and so on. Using this method can sometimes save a roundtrip to the server to get the data.
+As indicated, the out parameters are populated with the values that are  inserted into the database. This includes the values of autonumber fields, the createdBy fields, and so on. Using this method can sometimes save a roundtrip to the server to retrieve the data.
 
 ## Reading data from OOB entitysets
 
@@ -183,7 +183,7 @@ Lambda functions have several benefits. The most important benefit is that the t
 
 The **out** parameter of the **Query** method on the executor is used to enumerate the results when the await returns in the **queryResult** variable. The type of this variable indicates that the result is a read-only list of product category entities that can conveniently be enumerated.
 
-Note, that in the simple examples we are showing here, there is rarely any need to do several things at once, but for more realistic scenarios it may be useful to do many things in one ExecuteAsync() call, i.e. within a single transaction. To accomplish that you can add any number of things to the executor before execution. 
+Note, that in the simple examples shown here, there is rarely a need to do several things at the same time. However for more realistic scenarios, it may be useful to do many things in one ExecuteAsync() call, i.e. within a single transaction. To do that, you can add any number of things to the executor before execution. 
 
 ```cs
 var executor = client.CreateRelationalBatchExecuter(RelationalBatchExecutionMode.Transactional);
@@ -200,9 +200,7 @@ await executor.ExecuteAsync();
 In the preceding examples, we have been working with single entitysets. However, this scenario is rare. Typically, the requirements specify that entities should be read from several entitysets and joined together to create useful results. In this section, we will describe how these joins are done in the C# SDK.
 
 #### Using IncludeRelated
-While it is perfectly valid to do joins in the typical manner, specifying the joined entityset and its join condition and type, there are more declarative ways of accomplishing joins in the CDS SDK. The entitysets can be defined to partake in relationships with other entities as they are designed. This declarative information can be leveraged in code without much effort, as we will show below.
-
-Let us consider a case where where want to traverse the products, and for each of the products we want to know the details of the product category to which the product belongs.
+While it is perfectly valid to do joins in the typical manner, specifying the joined entityset and its join condition and type, there are more declarative ways of accomplishing joins in the CDS SDK. The entitysets can be defined to partake in relationships with other entities as they are designed. This declarative information can be leveraged in code without much effort. Consider a case where where want to traverse the products, and for each of the products we want to know the details of the product category to which the product belongs.
 
 ```cs
 static async Task SelectWithRelatedAsync(Client client)
@@ -227,9 +225,9 @@ static async Task SelectWithRelatedAsync(Client client)
 }
 ```
 
-The interesting part in this example is limited to the **Project** clause ion the query builder. Here an **IncludeRelated** clause if provided to specify that a related entity is required. The lambda function again serves to designate what relation to consume - In this case it is the name of the lookup field on the Product that provides the category. Once the relationship has been selected, you need to specify which fields are required on the related entity (i.e. on the category entity). This information is provided in the **ProjectRelated** call. In this case, we require only the category name.
+In this example, we are limited to the **Project** clause ion the query builder. Here an **IncludeRelated** clause is provided to specify that a related entity is required. The lambda function again serves to designate what relation to consume. In this case it is the name of the lookup field on the Product that provides the category. After the relationship has been selected, you need to specify which fields are required on the related entity (i.e. on the category entity). This information is provided in the **ProjectRelated** call. In this case, only the category name is required.
 
-Let us now concentrate on a more complicated example where we want to traverse the categories and want the collection of products in that category.
+In the following, more complicated example, we want to traverse the categories and we want the collection of products in that category.
 
 <!-- This does not currently work. Promised in 1.14 -->
 
@@ -761,11 +759,11 @@ static async Task SimpleDeleteTestAsync(Client client)
 In this example, we are using **Delete** on **deleteExecutor** to indicate that we want the record to be deleted. **Delete** deletes the entity but will throw an optimistic concurrency check exception if the entity was edited after it was first selected. Another method that is named **DeleteWithoutConcurrencyCheck**  will delete the record without considering whether changes were made since the entity was selected. 
 
 ## Working with documents in Azure storage
-Sometimes you need to store things that do not fall within the other types that available for fields. This could be the case if you wanted to store sound bites, video clips, PDF files, word documents etc. For this purpose the CDS SDK has the concept of **blob storage**.
+Sometimes you need to store things that don't fall within the other types that available for fields. For example, if you wanted to store sound bites, video clips, PDF files, or Microsoft Word documents. For this purpose, the CDS SDK has the concept of **blob storage**.
 
-The idea is quite simple. You store the information in the form of a stream (i.e. in an instance of a class derived from System.IO.Stream). When you insert this into blob storage, you get a blob reference back. With this in hand you can get the data back from blob storage through the use of the **GetBlob** method on the **BlobBatchExecutor**.  
+The idea is quite simple. You store the information in the form of a stream (i.e. in an instance of a class derived from System.IO.Stream). When you insert this into blob storage, you get a blob reference back. With this, you can get the data back from blob storage by using the **GetBlob** method on the **BlobBatchExecutor**.  
 
-The following code should make this easier to understand:
+The following code provides more information:
 
 ```cs
 public static async void BlobExampleAsync(Client client)
