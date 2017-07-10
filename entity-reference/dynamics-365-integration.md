@@ -18,7 +18,7 @@ ms.assetid: 0c7f8e4f-8433-447f-85b2-8e3788b3714a
 
 The Dynamics 365 Data Integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through Common Data Service. This feature enables a basic flow of accounts and other entity data to enable a prospect-to-cash scenario. This document describes the capabilities, usage guidelines, and current limitations of the Data Integration feature.
 
-The Microsoft Dynamics 365 Data Integration feature is available to customers who have at least one Dynamics 365 product. It enables the flow of data between Microsoft Dynamics products through Common Data Service (CDS). For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party data integration tool. 
+The Microsoft Dynamics 365 Data Integration feature is available to customers who have Dynamics 365 for Finance and Operations. It enables the flow of data between Microsoft Dynamics products through Common Data Service (CDS). For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Operations. Users don’t have to manually move the data or use a third-party data integration tool. 
 
 # Concepts
 
@@ -33,7 +33,7 @@ Before you can work with a Data Integration project, you must provision a connec
 
 When you provision a connection on the PowerApps site, unlike other connection services, you aren’t asked to select a specific instance of your target system. The connections on the PowerApps site just pair your Active Directory credentials with a target system. Later, when you specify a connection in a project, you will select from your set of accessible data set instances.
 
-Any connection you create on an environment where you have administration privileges will show up in the Data integrator.  One common environment where people often create connections but do not have administrative rights is "Microsoft (default)".  If you create a connection in this environment it will not appear as a connection you can use for Data Integration projects.
+Any connection you create in an environment where you have environment administrator privileges will be available to you in the data integrator. One common mistake is to provision connections in the "<MyCompany> (defulat)" environment - where you may have access, but not environment administrative rights. 
 
 ## Data Integration
 
@@ -41,11 +41,11 @@ The Data Integration feature is currently available as a tab in the [PowerApps A
 
 ## Projects
 
-Projects enable the flow of data between systems. A project is a list of one or more tasks. Each task identifies a mapping between a source entity and a Common Data Service entity, and then, optionally, a mapping between the Common Data Service entity and a destination entity. Mappings indicate which fields map to which other fields. They also specify default values and value maps. Tasks are run in the order in which they appear.
+Projects enable the flow of data between systems. A project is a list of one or more tasks. Each task identifies a mapping between a source entity and a Common Data Service entity, and then, optionally, a mapping between the Common Data Service entity and a destination entity. Mappings indicate which fields map to which other fields. They also specify default values and value maps. Tasks are run in the order in which they appear in the project task list.
 
 ## Connection sets
 
-**Connection sets** are a collection of two more connections, organization mapping information (or legal entity), and integration keys that can be reused among projects. You may start using a connection set for development and then switch to a different one for production. One key piece of information that is stored with connection sets are organization unit mappings. These are mappings between the Operations’ legal entity (or Company) and the Common Data Service organization and Sales’ business units. You may store multiple organization mappings in a connection set. When you use a connection set you will also choose a specific organization mapping for a given project.
+**Connection sets** are a collection of two more connections, organization mapping information, and integration keys that can be reused among projects. You may start using a connection set for development and then switch to a different one for production. One key piece of information that is stored with a connection set is organization unit mappings. These are mappings between the Operations’ legal entity (or Company) and the Common Data Service organizations and Sales’ organizaiton or business units. You may store multiple organization mappings in a connection set. Later on, when you use a connection set you will choose which specific organization mapping you want for a given project.
 
 
 ### Integration keys
@@ -61,7 +61,7 @@ Fields from related tables will show in the Data Integration task as (transactio
 
 ### Organizations 
 
-**Organizations** are organizational units that scope the data in your integration task. For example, in Dynamics 365 for Operations you supply a legal entity or company.  In Dynamics 365 for Sales you specify either the root business unit (the Organization which corresponds to the instance) or business units below the root level. For the Common Data Service you must specify an organization. Organizations in the Common Data service are stored in the Organization entity. You can see the values there by using the PowerApps Maker portal to find the Organization entity and inspecting its data.  If an organization record does not exist, you must create one to use the Data integrator.  (See below for instructions on how to do this.)
+**Organizations** are organizational units that scope the data in your integration task. For example, in Dynamics 365 for Operations you supply a legal entity or company.  In Dynamics 365 for Sales you specify either the root business unit (the organization which corresponds to the instance) or business units below the root level. For the Common Data Service you must specify an organization. Organizations in the Common Data service are stored in the Organization entity. You can see the values there by using the PowerApps Maker portal to find the Organization entity and inspecting its data.  If an organization record does not exist, you must create one to use the Data integrator.  (See below for instructions on how to do this.)
 
 
 ## Transformations 
@@ -161,15 +161,25 @@ If you are starting with an empty database, you will need to create an organizat
 You must have the following items:
 
 + An instance of **Microsoft Dynamics 365 for Operations platform update 7 or later**. (You might have to apply some hotfixes.) You should stay current with the latest updates of Dynamics 365 for Operations.
-+ The **most current version of Dynamics 365 for Sales.** Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales.
+
+
++ The **most current version of Dynamics 365 for Sales.** Minor mapping issues will be fixed in later versions of Dynamics 365 for Sales. 
 + A **Dynamics 365 for Sales solution** to help guarantee that the business keys work correctly. 
-+ An **environment in the Common Data Service**. You must also have created a **database** in that environment.
++ An **environment in the Common Data Service**. You must also have created a **database** in that environment.  Ensure that you are an environment administrator on the CDS database you want to work with. 
+
+Note:  If you worked with the data integration feature prior to general availabity, please delete all old connections and projects.
 
 ## Custom entities
-If you have a custom entity in Dynamics 365 for Sales, you do not have to do anything.  If you have a custom entity in Dynamics 365 for Operations, you must turn on Change Tracking. To do this:
+If you have a custom entity in Dynamics 365 for Sales, you do not have to do anything.  
+
+If you have a custom entity in Dynamics 365 for Operations, you must turn on Change Tracking. To do this:
 1. Choose **System Administration** > **Data Management IT** > **Data Entities**.
 2. Select your custom entity.
 3. Enable change tracking from the menu.
+
+Also, then refresh the entity list. Even if you have previously enabled change tracking. Go to Data Management > Framework parameters > Entity settings and choose to Refresh the entity list.
+
+
 
 ## Dynamics 365 accounts
 
@@ -280,7 +290,7 @@ Below is a checklist of items you can use to make sure things are working correc
 
 ### Connections not showing in in the data integrator
 
-Connections created in any environment will show up in the data integrator. However, you must be an admin on the environment where you create the connection. A common error is to create a connection on the Microsoft (Default) environment. You are not an administrator on that environment so you connection will not be available in the data integrator.
+Connections created in any environment will show up in the data integrator. However, you must be an admin on the environment where you create the connection. A common error is to create a connection on the <MyCompany> (default) environment. 
 
 Make sure you have appropriate authority on environments where you create connections so they will show up.
 
@@ -289,3 +299,8 @@ Make sure you have appropriate authority on environments where you create connec
 If you create a connection set to a single service (Dynamics 365 for Sales or Dynamics 365 for Operations) and then the Common Data Service, and if you then choose a template that requires three connections, you will not see your connection set in the choose a connection set dropdown. And, if it's the only connection set you have created you won't see any connection sets at all. You will not be able to proceed past that step in the Create Project Wizard. You can, however, use a connection set with three connections with a template that requires only two - as long as the template's required sources are in the connection set.
 
 Make sure the connections in your connection set matches the connections in the template you are going to use.
+
+### No source entities on the left hand side of a mapping page when moving data from Dynamics 365 for Operations to CDS
+
+In Dynamics 365 for Finance and Operations, Refresh the entity list. Go to Data Management > Framework parameters > Entity settings and choose to Refresh the entity list. 
+
