@@ -160,17 +160,12 @@ If you are starting with an empty database, you will need to create an organizat
 
 You must have the following items:
 
++ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update with Platform update 8 (App 7.2.11792.56024 w/ Platform 7.0.4565.16212). Support for App 7.1 will be added with a hotfix.
++ Prospect to Cash integration solution for CRM.
++ Dynamics 365 Sales, Enterprise Edition. The integration solution is compatible with Microsoft Dynamics 365 Customer Engagement Version 1612 (8.2.1.207) (DB 8.2.1.207) online.
++ An environment in the Common Data Service. The environment must have a database for integration and you must be an environment administrator for that database.
 
-+ You need Finance and Operations Update 8. And, you need the updated CRM solution. System requirements:
-Dynamics 365 Finance and Operations, Enterprise Edition
-    + Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update with Platform update 8 (App 7.2.11792.56024 w/ Platform 7.0.4565.16212)
-    + Support for App 7.1 will be added with hotfix soon
-+ Dynamics 365 Sales, Enterprise Edition
-    + Solution was developed for Microsoft Dynamics 365 Version 1612 (8.2.1.207) (DB 8.2.1.207) online
-    + Prospect to cash solution for Sales, version 1.10.0.0 or later
-+ An **environment in the Common Data Service**. You must also have created a **database** in that environment.  Ensure that you are an environment administrator on the CDS database you want to work with. 
-
-Note:  If you worked with the data integration feature prior to general availabity, please delete all old connections and projects.
+Note:  If you worked with the data integration feature prior to general availabity, delete all old connections and projects.
 
 ## Custom entities
 If you have a custom entity in Dynamics 365 for Sales, you do not have to do anything.  
