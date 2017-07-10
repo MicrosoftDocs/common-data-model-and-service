@@ -226,13 +226,15 @@ To work with the Data Integration feature, follow these steps.
 Before you create a project, you must first create a connection set. To create a connection set:
 
 1. From the main project page by choosing the **Connection Set** tab.
-2. Select **New connection set**.
+2. Select **New connection set** and provide a Connection Set name.  
+ > [!NOTE]
+    > Connection set names may only contain alphaNumeric characters at this point in time.  No special characters.  No whitespace characters.  This is a temporary limitation that will be removed in the future. 
 3. Provide a **connection to a service** such as Dynamics 365 for Sales.
 4. Select an Environment.
 5. Provide an **Environment** for the Common Data Service (where you want the integration data to land.)
 
     > [!NOTE]
-    > You are likely not done at this point.  It is legal to create a connection set that only has two connections.  This is for connections that are only pushing data into the Common Data Service. If you want data to move between Sales to Operations (or vice versa) then take the next step of adding a **third connection**. If not, you are done at this point.
+    > You are likely not done at this point.  It is legal to create a connection set that only has two connections.  This is for connections that are only pushing data into the Common Data Service. If you want data to move between Sales to Operations (or vice versa) then take the next step of adding a **third connection**. If not, you are done at this point
 
 6. Add a third connection for a destination such as to Dynamics 365 for Operations.
 7. Provide **Organization** mappings.  These are the organizational units (such as legal entity or company or business unit) that will shape or refine the data you integrate across the systems.
@@ -249,7 +251,10 @@ Before you create a project, you must first create a connection set. To create a
 To create a new project, follow these steps.
 
 1. Click the **New Project** link in the upper-right corner, or click the link that is provided on the page. The **New Data Integration** wizard starts.
-2. Enter a name for the project.  The project name may only contain alphanumeric characters (no special characters.)
+2. Enter a name for the project.  
+ > [!NOTE]
+    > Project names may only contain alphaNumeric characters at this point in time.  No special characters.  No whitespace characters.  This is a temporary limitation that will be removed in the future. 
+
 3. Select a predefined project template to create a base project that you can run directly. (Eventually, you will be able to customize the project before you run it. However, project customization isn’t yet supported.)
 4. Choose Next.
 5. Select a connection set. Here you choose your connection set for your project. This will show the connections you have previously provided.
