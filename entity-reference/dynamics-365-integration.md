@@ -33,7 +33,7 @@ Before you can work with a Data Integration project, you must provision a connec
 
 When you provision a connection on the PowerApps site, unlike other connection services, you aren’t asked to select a specific instance of your target system. The connections on the PowerApps site just pair your Active Directory credentials with a target system. Later, when you specify a connection in a project, you will select from your set of accessible data set instances.
 
-Any connection you create in an environment where you have environment administrator privileges will be available to you in the data integrator. One common mistake is to provision connections in the "<MyCompany> (defulat)" environment - where you may have access, but not environment administrative rights. 
+Any connection you create in an environment where you have environment administrator privileges will be available to you in the data integrator. One common mistake is to provision connections in the "<MyCompany> (default)" environment - where you may have access, but not environment administrative rights. 
 
 ## Data Integration
 
@@ -45,7 +45,7 @@ Projects enable the flow of data between systems. A project is a list of one or 
 
 ## Connection sets
 
-**Connection sets** are a collection of two more connections, organization mapping information, and integration keys that can be reused among projects. You may start using a connection set for development and then switch to a different one for production. One key piece of information that is stored with a connection set is organization unit mappings. These are mappings between the Operations’ legal entity (or Company) and the Common Data Service organizations and Sales’ organizaiton or business units. You may store multiple organization mappings in a connection set. Later on, when you use a connection set you will choose which specific organization mapping you want for a given project.
+**Connection sets** are a collection of two more connections, organization mapping information, and integration keys that can be reused among projects. You may start using a connection set for development and then switch to a different one for production. One key piece of information that is stored with a connection set is organization unit mappings. These are mappings between the Operations’ legal entity (or Company) and the Common Data Service organizations and Sales’ organization or business units. You may store multiple organization mappings in a connection set. Later on, when you use a connection set you will choose which specific organization mapping you want for a given project.
 
 
 ### Integration keys
@@ -177,8 +177,6 @@ If you have a custom entity in Dynamics 365 for Operations, you must turn on Cha
 
 Also, then refresh the entity list. Even if you have previously enabled change tracking. Go to Data Management > Framework parameters > Entity settings and choose to Refresh the entity list.
 
-
-
 ## Dynamics 365 accounts
 
 You will need an account that has read and write privileges for the systems you want to integrate data with.
@@ -200,7 +198,6 @@ The default team of the business unit that records are synced into in the connec
 ### Dynamics 365 for Operations
 
 Ensure that you have an account in Operations with a role that enables read access to the entities you are pulling data from and write access for the entities you will push into Operations.
-
 
 ## Create connections
 
@@ -226,7 +223,7 @@ Before you create a project, you must first create a connection set. To create a
 1. From the main project page by choosing the **Connection Set** tab.
 2. Select **New connection set** and provide a Connection Set name.  
   >[!NOTE]
-    > Connection set names may only contain alphaNumeric characters at this point in time.  No special characters.  No whitespace characters.  This is a temporary limitation that will be removed in the future. 
+  > Connection set names may only contain alphaNumeric characters at this point in time.  No special characters.  No whitespace characters.  This is a temporary limitation that will be removed in the future. 
 3. Provide a **connection to a service** such as Dynamics 365 for Sales.
 4. Select an Environment.
 5. Provide an **Environment** for the Common Data Service (where you want the integration data to land.)
@@ -238,7 +235,7 @@ Before you create a project, you must first create a connection set. To create a
 7. Provide **Organization** mappings.  These are the organizational units (such as legal entity or company or business unit) that will shape or refine the data you integrate across the systems.
 
   > [!NOTE]
-    > You may want to add additional organization mappings so that the same connection set may be used with different business unit combinations. However, you can do this later by simply adding them to the connection set, once created.
+  > You may want to add additional organization mappings so that the same connection set may be used with different business unit combinations. However, you can do this later by simply adding them to the connection set, once created.
 
 8. Choose to **Create** your connection set. 
 
