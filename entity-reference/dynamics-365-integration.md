@@ -227,19 +227,19 @@ Before you create a project, you must first create a connection set. To create a
 
 1. From the main project page by choosing the **Connection Set** tab.
 2. Select **New connection set** and provide a Connection Set name.  
- > [!NOTE]
+  >[!NOTE]
     > Connection set names may only contain alphaNumeric characters at this point in time.  No special characters.  No whitespace characters.  This is a temporary limitation that will be removed in the future. 
 3. Provide a **connection to a service** such as Dynamics 365 for Sales.
 4. Select an Environment.
 5. Provide an **Environment** for the Common Data Service (where you want the integration data to land.)
 
-    > [!NOTE]
+  > [!NOTE]
     > You are likely not done at this point.  It is legal to create a connection set that only has two connections.  This is for connections that are only pushing data into the Common Data Service. If you want data to move between Sales to Operations (or vice versa) then take the next step of adding a **third connection**. If not, you are done at this point
 
 6. Add a third connection for a destination such as to Dynamics 365 for Operations.
 7. Provide **Organization** mappings.  These are the organizational units (such as legal entity or company or business unit) that will shape or refine the data you integrate across the systems.
 
-    > [!NOTE]
+  > [!NOTE]
     > You may want to add additional organization mappings so that the same connection set may be used with different business unit combinations. However, you can do this later by simply adding them to the connection set, once created.
 
 8. Choose to **Create** your connection set. 
