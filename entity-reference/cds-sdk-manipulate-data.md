@@ -26,7 +26,7 @@ The C# Common Data Service SDK is designed for building responsive applications 
 
 In this approach, details about how data is accessed are hidden to the user. This is the same strategy that is used in Language Integrated Query (LINQ). However, the language that is used here is geared more toward enterprise resource planning (ERP) applications and is backed by a solid modeling framework that describes your entitysets.
 
-The examples that follow demonstrate typical data access scenarios by using the out-of-box (OOB) entities. These entities are the entitysets that are released together with the SDK. These entitysets simplify the examples, because the tooling in the maker portal has created type-safe representations that are easy to work with. Although this way of working with entitysets is the recommended way, you can also work with entitysets that aren't defined in this manner. An example is provided at the end of this topic. In the maker portal in your environment, you can see how the OOB entities are defined (the fields, the relationships that the entityset has to other entitysets, and so on). 
+The examples that follow demonstrate typical data access scenarios by using the standard entities. These entities are the entitysets that are released together with the SDK. These entitysets simplify the examples, because the tooling in the maker portal has created type-safe representations that are easy to work with. Although this way of working with entitysets is the recommended way, you can also work with entitysets that aren't defined in this manner. An example is provided at the end of this topic. In the maker portal in your environment, you can see how the standard entities are defined (the fields, the relationships that the entityset has to other entitysets, and so on). For more information about the standard entities, see [Standard entities](standard-entities.md).
 
 ## Terminology
 
@@ -100,7 +100,7 @@ namespace SdkConsoleApp
 
 The code first creates a client instance. In this case, the user name is used to create the security principal that is then used to create the client. Because the client holds unmanaged resources and implements **IDisposable**, it's a good practice to create the client in a **using** statement. The client instance is then passed to the **InsertAsync** method that does the actual work.
 
-As the **async** keyword indicates, the **InsertAsync** method is asynchronous. (Per another good practice, the naming convention also reflects the fact that the method is asynchronous.) In this example, two product categories are created by instantiating the OOB entityset types. These entities are the entities that must be inserted.
+As the **async** keyword indicates, the **InsertAsync** method is asynchronous. (Per another good practice, the naming convention also reflects the fact that the method is asynchronous.) In this example, two product categories are created by instantiating the standard entityset types. These entities are the entities that must be inserted.
 
 Insertions, like all other data manipulation, are done through executors, such as the executor that is created in the next lines. The entities that are created are then added to the executor by using the **Insert** method. When the **ExecuteAsync** method is called on this executor, the system serializes the entities, sends them to the server side over the wire, starts a transaction, and inserts the entities. Because the call to the **ExecuteAsync** method is asynchronous, the call isn't a blocking call. As we mentioned above, this paradigm is used extensively in the C# SDK. You never explicitly manage a transaction. Instead, you let executors manage transactions on your behalf.
 
@@ -141,11 +141,11 @@ private static async Task InsertAndRetrieveAsync(Client client)
 
 As indicated, the out parameters are populated with the values that are  inserted into the database. This includes the values of autonumber fields, the createdBy fields, and so on. Using this method can sometimes save a roundtrip to the server to retrieve the data.
 
-## Reading data from OOB entitysets
+## Reading data from standard entitysets
 
 In this section, we explain how to select data that is stored in the Common Data Service relational back end. We start with some simple examples and then build on those examples to help you understand more complex scenarios.
 
-First, we will go through the process for getting some data from the ProductCategory OOB entityset. This entityset, like most of the other OOB entitysets, has data in it, so that you can see the effects of the operations. The easiest way to see these effects is to use View Data on the entityset in the maker portal.
+First, we will go through the process for getting some data from the ProductCategory standard entityset. This entityset, like most of the other standard entitysets, has data in it, so that you can see the effects of the operations. The easiest way to see these effects is to use View Data on the entityset in the maker portal.
 
 ```cs
 static async Task SimpleSelectAsync(Client client)
@@ -836,7 +836,7 @@ The sample works by using a special executor, the **ModelingBatchExecutor**. The
 
 ## Working with non-typed entitysets
 
-Earlier in this topic, we were working with a fully designed OOB entityset. Therefore, to write the code, we could use the full range of features in C# and the Visual Studio tooling (especially IntelliSense and debugging support). However, in some cases, you won't have the fully compiled classes to work with. For example, you're working with your custom entitysets, but you haven't generated a C# class for them. Another case where the following techniques become interesting is when you've customized an OOB entityset (for example, by adding a new field). In these cases, you can refer to fields by using a weaker model where fields are described by their names.
+Earlier in this topic, we were working with a fully designed standard entityset. Therefore, to write the code, we could use the full range of features in C# and the Visual Studio tooling (especially IntelliSense and debugging support). However, in some cases, you won't have the fully compiled classes to work with. For example, you're working with your custom entitysets, but you haven't generated a C# class for them. Another case where the following techniques become interesting is when you've customized an standard entityset (for example, by adding a new field). In these cases, you can refer to fields by using a weaker model where fields are described by their names.
 
 The following example shows some code that uses this approach.
 
