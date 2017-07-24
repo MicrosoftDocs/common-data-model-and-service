@@ -298,7 +298,7 @@ Below is a checklist of items you can use to make sure things are working correc
 
 ### Connections not showing in in the data integrator
 
-Connections created in any environment will show up in the data integrator. However, you must be an admin on the environment where you create the connection. A common error is to create a connection on the <MyCompany> (default) environment. 
+Connections created in any environment will show up in the data integrator. However, you must be an admin on the environment where you create the connection. A common error is to create a connection on the <MyCompany> (default) environment when you do not have administration privileges on that environment. You must have administrative privileges on the environment you create connections in so that they are available in the Data Integrator.
 
 Make sure you have appropriate authority on environments where you create connections so they will show up.
 
