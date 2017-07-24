@@ -130,8 +130,7 @@ Once you have inspected the mappings and made other adjustments you can just run
 
 1. Run a project on demand by choosing the "Run" button.
 2. Re-run a project with all of the data by choosing the "..." menu at the right of a project on the project list.  Then choose "Run project with all data".
-3. Schedule a project to run on a recurring basis. Click on a project to see project details.  Then, choose the "Scheduling" tab.  On this page you can schedul project runs up to the granuliaty of a minute.  You can provide a start date and time.  If you do not provide an end date or time, the project will continue to run indefinitely. 
-
+3. Schedule a project to run on a recurring basis. Click on a project to see project details.  Then, choose the "Scheduling" tab.  On this page you can schedule project runs up to the granularity of a minute.  You can provide a start date and time.  If you do not provide an end date or time, the project will continue to run indefinitely.
 
 ## Monitoring a project run
 
