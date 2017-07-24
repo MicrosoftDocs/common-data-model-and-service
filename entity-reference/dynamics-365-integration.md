@@ -95,11 +95,10 @@ The following example shows a default value.  If you want to supply both a map a
 This transformation is used to convert address values into a format that can be used on the destination fields.
 
 
-## Synchronization direction
+## Synchronization
 
-Data Integration projects synchronize data in only one direction. This system is therefore a single-master system. The flow through a project goes only from source to destination. The source always overwrites the destination. If you edit data in the destination so that it differs from the data in the source, and you then synchronize the project, the Data Integration project writes over the data in the destination system. A template can define either Dynamics 365 for Sales or Dynamics 365 for Operations as the source.
+A task within a data Integration projects synchronizes data in one direction.  This means that a task can pull Account/Customer data from, for instance, Dynamics 365 for Sales and push to Dynamics 365 for Operations and then a second project can pull Product or Invoice or other data from Dynamics 365 for Operations and push it to Dynamics 365 for Sales.  So, while there is single source, we can move data from different systems to each other.  This is how the Prospect to Cash scenario is enabled. 
 
-Eventually, we plan to support a multi-master system. In a multi-master system, if the user edits data in either the source or the destination, the other system is updated. However, this feature isn’t yet implemented.
 
 ## Business keys
 
@@ -120,16 +119,25 @@ When you create a new project, we ask you for explicit consent, because we are m
 
 Be sure to read the **Privacy Notice and Consent** page carefully, and make sure that the correct people give consent. We won’t create a project unless consent is given. We record the consent in our log files.
 
+## Project Creation
+
+Once you provide consent, the system leaves you in a state where you can simply run the project by choosing Run.  However, you should first inspect the mapping in the task to make sure that the values will be mapped as you expect. Make any adjustments that are required to help guarantee that the data will flow correctly. Pay special attention to default values and value maps. In this topic, we outline specific default values and value maps for several of the key entities that enable the prospect-to-cash scenario.
+
+
 ## Running a project
 
-Currently, we can run a project only on demand. We haven’t yet implemented the Scheduled runs feature. First, inspect the mapping in the task to make sure that the values will be mapped as you expect. Make any adjustments that are required to help guarantee that the data will flow correctly. Pay special attention to default values and value maps. In this topic, we outline specific default values and value maps for several of the key entities that enable the prospect-to-cash scenario.
+Once you have inspected the mappings and made other adjustments you can just run the project,   However, you have several options on how to run a project. You can: 
+
+1. Run a project on demand by choosing the "Run" button.
+2. Re-run a project with all of the data by choosing the "..." menu at the right of a project on the project list.  Then choose "Run project with all data".
+3. Schedule a project to run on a recurring basis. Click on a project to see project details.  Then, choose the "Scheduling" tab.  On this page you can schedul project runs up to the granuliaty of a minute.  You can provide a start date and time.  If you do not provide an end date or time, the project will continue to run indefinitely. 
 
 
 ## Monitoring a project run
 
-The **Scheduling** tab provides a dashboard where you can currently view a list of current and previous project runs. If you click a project run, you can view detailed progress information as the Data Integration project moves data along the paths from source to destination.
+The **Execution History** tab provides a dashboard where you can currently view a list of current and previous project runs. If you click a project run, you can view detailed progress information as the Data Integration project moves data along the paths from source to destination.
 
-Eventually, the **Scheduling** tab will also show error records. However, this feature isn’t yet implemented.
+
 
 # Preparing the Common Data Service
 
