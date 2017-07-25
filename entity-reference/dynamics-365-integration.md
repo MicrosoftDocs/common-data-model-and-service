@@ -3,7 +3,7 @@ title: Dynamics 365 data integration  | Microsoft Docs
 description: The Dynamics 365 data integration feature enable the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through the Common Data Service.
 author: "lancedMicrosoft"
 manager: "robinarh"
-ms.date: "06/30/2017"
+ms.date: "07/23/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -97,7 +97,7 @@ This transformation is used to convert address values into a format that can be 
 
 ## Synchronization
 
-A task within a data Integration projects synchronizes data in one direction.  This means that a task can pull Account/Customer data from, for instance, Dynamics 365 for Sales and push to Dynamics 365 for Operations and then a second project can pull Product or Invoice or other data from Dynamics 365 for Operations and push it to Dynamics 365 for Sales.  So, while there is single source, we can move data from different systems to each other.  This is how the Prospect to Cash scenario is enabled. 
+A task within a Data Integration project synchronizes data in one direction.  This means that a task can pull Account/Customer data from, for instance, Dynamics 365 for Sales and push to Dynamics 365 for Operations and then a second project can pull Product or Invoice or other data from Dynamics 365 for Operations and push it to Dynamics 365 for Sales.  So, while there is single source, we can move data from different systems to each other.  This is how the Prospect to Cash scenario is enabled. 
 
 
 ## Business keys
