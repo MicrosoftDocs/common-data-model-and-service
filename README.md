@@ -22,6 +22,7 @@ Entity Reference
 * [Standard Enumerations](entity-reference/standard-enumerations.md "Entity Versioning")
 * [Known Issues](entity-reference/known-issues.md "Known Issues")
 
+Needs update.
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 a change.
