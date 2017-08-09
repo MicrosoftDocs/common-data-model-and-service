@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "names"
 audience: "Developer, IT Pro"
 ms.assetid: "de678eaa-6ef2-483a-93ec-17ff7b713159"
+ms.reviewer: robinr
+ms.author: clwesene
 ---
 
 # Naming conventions

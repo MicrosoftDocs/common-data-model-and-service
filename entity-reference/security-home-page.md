@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "CDS, security, RLS"
 audience: "Developer"
 ms.assetid: c8428002-66e9-46b7-bc3b-0bb4cde2ec52
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Trustworthy Platform

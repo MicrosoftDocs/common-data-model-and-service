@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "C#, SDK"
 audience: "Developer"
 ms.assetid: "322c6743-58f0-4201-8005-3eaad8728584"
+ms.reviewer: robinr
+ms.author: nimak
 ---
 
 # Building apps with the Common Data Service 

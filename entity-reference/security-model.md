@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "security, access, open, restricted, role-based, roles, permission, permissions set, database owner, organization user"
 audience: "Developer, IT Pro"
 ms.assetid: "775f3c15-da19-450a-83b0-b363d77f9725"
+ms.reviewer: robinr
+ms.author: maertenm
 ---
 
 # Security model

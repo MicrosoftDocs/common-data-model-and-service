@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "cfc1547f-38e5-4781-abf3-9c9da112c080"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Human resources reference 

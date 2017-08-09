@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "overview, introduction"
 audience: "Developer, IT Pro"
 ms.assetid: "7b99bfba-f263-42da-9d15-1b66dce857a5"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Getting Data into the Common Data Service

@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "standard entities, ERD, foundation"
 audience: "Developer, IT Pro"
 ms.assetid: "77b73530-38a4-4dda-966b-000b0a3fb062"
+ms.reviewer: robinr
+ms.author: clwesene
 ---
 
 # Foundation entities

@@ -12,6 +12,8 @@ keywords: "overview, introduction"
 
 audience: "Developer, IT Pro"
 ms.assetid: 0c7f8e4f-8433-447f-85b2-8e3788b3714a
+ms.reviewer: robinr
+ms.author: lanced
 ---
 
 # Dynamics 365 Data Integration

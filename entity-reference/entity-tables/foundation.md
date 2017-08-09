@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "c06c0de3-404b-4b44-9d58-6f63760f2a24"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Foundation reference 

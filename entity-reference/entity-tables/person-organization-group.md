@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "cb6723ce-88d9-4e54-81a0-2f532965d3be"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Person, organization, and group reference 
