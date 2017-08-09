@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "overview, introduction"
 audience: "Developer, IT Pro"
 ms.assetid: "c0808105-664f-4146-8adb-82fe4ee6c8b4"
+ms.reviewer: robinr
+ms.author: clwesene
 ---
 
 # Common Data Service

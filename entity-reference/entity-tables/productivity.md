@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "8ed2fc48-8ee7-4279-823d-7690bf944add"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Productivity reference 

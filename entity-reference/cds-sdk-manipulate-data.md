@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "C#, SDK"
 audience: "Developer"
 ms.assetid: "d4ee3160-96cb-47b7-8e24-cdc57c9d8420"
+ms.reviewer: robinr
+ms.author: pvillads
 ---
 
 # Manipulate your data by using the Common Data Service SDK

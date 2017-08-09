@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "b332c83a-cd81-41c0-8ca5-4cd8da77cccf"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Purchasing reference 

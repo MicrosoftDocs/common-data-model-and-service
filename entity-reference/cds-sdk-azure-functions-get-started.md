@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "Common Data Service, CDS, C#, SDK, Azure Functions"
 audience: "Developer"
 ms.assetid: "2308e302-ec0b-437a-82a3-dc71150b9d81"
+ms.reviewer: robinr
+ms.author: nimak
 ---
 
 # Get started with the Common Data Service SDK by using Azure Functions

@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "lookup, ERD, referential integrity, composition"
 audience: "Developer, IT Pro"
 ms.assetid: "a3acd7bb-eb94-4c86-854f-9c7c5b526e75"
+ms.reviewer: robinr
+ms.author: clwesene
 ---
 
 # Entity relationships and lookup fields

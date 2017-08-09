@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "common data service, SDK, EULA"
 audience: "Developer, IT Pro"
 ms.assetid: "ce210584-8c62-4f68-b7af-fb655ed2f436"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 **MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS MICROSOFT COMMON DATA SERVICE SOFTWARE DEVELOPMENT KIT**
