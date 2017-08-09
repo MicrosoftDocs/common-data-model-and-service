@@ -12,6 +12,8 @@ keywords: "overview, introduction"
 
 audience: "Developer, IT Pro"
 ms.assetid: 0c7f8e4f-8433-447f-85b2-8e3788b3714a
+ms.reviewer: robinr
+ms.author: lanced
 ---
 
 # Dynamics 365 Data Integration
@@ -169,7 +171,7 @@ If you are starting with an empty database, you will need to create an organizat
 You must have the following items:
 
 + Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update with Platform update 8 (App 7.2.11792.56024 w/ Platform 7.0.4565.16212). Support for App 7.1 will be added with a hotfix.
-+ Prospect to Cash integration solution for CRM.
++ [Prospect to Cash integration solution for CRM](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/MD365FNOPENTProspectToCash). 
 + Dynamics 365 Sales, Enterprise Edition. The integration solution is compatible with Microsoft Dynamics 365 Customer Engagement Version 1612 (8.2.1.207) (DB 8.2.1.207) online.
 + An environment in the Common Data Service. The environment must have a database for integration and you must be an environment administrator for that database.
 

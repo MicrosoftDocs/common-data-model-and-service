@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "overview, introduction"
 audience: "Developer, IT Pro"
 ms.assetid: "08e44686-60b1-4d35-a020-9053489223da"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Common data model overview

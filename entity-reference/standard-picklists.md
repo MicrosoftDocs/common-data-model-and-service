@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "364f88ac-0fcc-44dd-9e9a-9512e8420def"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Standard picklists

@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "standard entities, ERD, purchasing, purchase order, supplier invoice"
 audience: "Developer, IT Pro"
 ms.assetid: "627ff741-f312-4ff7-b6f3-5ac9e6708a6e"
+ms.reviewer: robinr
+ms.author: clwesene
 ---
 
 # Purchasing entities

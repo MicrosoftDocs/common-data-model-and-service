@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "foundation, person, organization, group, customer service, sales, purchasing, productivity, human resources, standard entity, standard picklist"
 audience: "Developer, IT Pro"
 ms.assetid: "45b5e70c-f637-4ef0-9b7c-292c92da3be5"
+ms.reviewer: robinr
+ms.author: clwesene
 ---
 
 # Standard entities

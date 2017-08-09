@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "Outlook"
 audience: "Developer, IT Pro"
 ms.assetid: "118c3e49-c19c-428d-a828-a7912c576f41"
+ms.reviewer: robinr
+ms.author: cgarty
 ---
 
 # Outlook Add-in

@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "standard entities, ERD, person, organization, group"
 audience: "Developer, IT Pro"
 ms.assetid: "c9e7b649-2ee3-4985-986b-0e139259ae6d"
+ms.reviewer: robinr
+ms.author: clwesene
 ---
 
 # Person, organization, and group entities

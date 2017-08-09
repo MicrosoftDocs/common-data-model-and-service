@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "standard entities, ERD, productivity"
 audience: "Developer, IT Pro"
 ms.assetid: ea5622ef-b2fa-4baf-aa04-d27211e31147
+ms.reviewer: robinr
+ms.author: clwesene
 ---
 
 # Productivity entities

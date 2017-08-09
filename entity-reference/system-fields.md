@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "generated fields, RecordID"
 audience: "Developer, IT Pro"
 ms.assetid: "2fd13f59-0562-4aff-abe0-9eb3b7d49efe"
+ms.reviewer: robinr
+ms.author: clwesene
 ---
 
 # System fields

@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "Common Data Service, CDS, C#, SDK"
 audience: "Developer"
 ms.assetid: "34eddae8-3715-4bd6-b921-5bfb82d9df1c"
+ms.reviewer: robinr
+ms.author: nimak
 ---
 
 # Get started with the Common Data Service SDK

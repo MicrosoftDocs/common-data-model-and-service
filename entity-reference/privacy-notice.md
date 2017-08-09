@@ -11,6 +11,8 @@ ms.technology: "CommonDataService"
 keywords: "field name, custom entity, names"
 audience: "Developer, IT Pro"
 ms.assetid: "fb147764-c03f-4c0e-9e03-03821f3c81e8"
+ms.reviewer: robinr
+ms.author: robinr
 ---
 
 # Privacy notice
