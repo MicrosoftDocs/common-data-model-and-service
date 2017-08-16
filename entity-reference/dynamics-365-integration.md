@@ -175,7 +175,10 @@ You must have the following items:
 + Dynamics 365 Sales, Enterprise Edition. The integration solution is compatible with Microsoft Dynamics 365 Customer Engagement Version 1612 (8.2.1.207) (DB 8.2.1.207) online.
 + An environment in the Common Data Service. The environment must have a database for integration and you must be an environment administrator for that database.
 
-Note:  If you worked with the data integration feature prior to general availabity, delete all old connections and projects.
+For more information on configuring a Prospect to cash scenario, see [Prospect to cash](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/prospect-to-cash).
+
+> [!NOTE]
+> If you worked with the data integration feature prior to general availabity, delete all old connections and projects.
 
 ## Custom entities
 If you have a custom entity in Dynamics 365 for Sales, you do not have to do anything.  
