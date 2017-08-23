@@ -2,7 +2,7 @@
 layout: HubPage
 hide_bc: true
 title: Common Data Service Documentation | Microsoft Docs
-description: TK from Robin Reynolds-Haertle
+description: Common Data Service documentation
 ---
 <div id="main" class="v2">
     <div class="container">
