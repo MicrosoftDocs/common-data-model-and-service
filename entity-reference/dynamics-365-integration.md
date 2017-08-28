@@ -178,7 +178,7 @@ And, you must also have:
 + An environment in the Common Data Service. The environment must have a database for integration and you must be an environment administrator for that database.
 
 
-## Other links
+## Integration solutions
 + [Prospect to Cash integration solution for CRM](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/MD365FNOPENTProspectToCash). 
 
 For more information on configuring a Prospect to cash scenario, see [Prospect to cash](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/prospect-to-cash).
