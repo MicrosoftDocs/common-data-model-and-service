@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 data integration  | Microsoft Docs
-description: The Dynamics 365 data integration feature enable the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through the Common Data Service.
+description: The Dynamics 365 data integration feature enable the flow of data between Dynamics 365 for Sales, Dynamics 365 for Finance and Operations Enterprise Edition, and other products through the Common Data Service.
 author: "lancedMicrosoft"
 manager: "robinarh"
 ms.date: "07/23/2017"
@@ -18,7 +18,7 @@ ms.author: lanced
 
 # Dynamics 365 Data Integration
 
-The Dynamics 365 Data Integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Operations, and other products through Common Data Service. For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Operations. You don’t have to manually move the data or use a third-party data integration tool. This document describes the capabilities, usage guidelines, and current limitations of the Data Integration feature, particulary with respect to the prospect-to-cash scenario.
+The Dynamics 365 Data Integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Finance and Operations Enterprise Edition, and other products through Common Data Service. For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Finance and Operations Enterprise Edition. You don’t have to manually move the data or use a third-party data integration tool. This document describes the capabilities, usage guidelines, and current limitations of the Data Integration feature, particulary with respect to the prospect-to-cash scenario.
 
 > [!NOTE]
 > The Data Integration feature is available to customers who have Dynamics 365 for Finance and Operations.
@@ -64,7 +64,7 @@ Fields from related tables will show in the Data Integration task as (transactio
 
 ### Organizations 
 
-**Organizations** are organizational units that scope the data in your integration task. For example, in Dynamics 365 for Operations you supply a legal entity or company.  In Dynamics 365 for Sales you specify either the root business unit (the organization which corresponds to the instance) or business units below the root level. For the Common Data Service you must specify an organization. Organizations in the Common Data service are stored in the Organization entity. You can see the values there by using the PowerApps Maker portal to find the Organization entity and inspecting its data.  If an organization record does not exist, you must create one to use the Data integrator.  (See below for instructions on how to do this.)
+**Organizations** are organizational units that scope the data in your integration task. For example, in Dynamics 365 for Finance and Operations Enterprise Edition you supply a legal entity or company.  In Dynamics 365 for Sales you specify either the root business unit (the organization which corresponds to the instance) or business units below the root level. For the Common Data Service you must specify an organization. Organizations in the Common Data service are stored in the Organization entity. You can see the values there by using the PowerApps Maker portal to find the Organization entity and inspecting its data.  If an organization record does not exist, you must create one to use the Data integrator.  (See below for instructions on how to do this.)
 
 
 ## Transformations 
@@ -99,16 +99,16 @@ This transformation is used to convert address values into a format that can be 
 
 ## Synchronization
 
-A task within a Data Integration project synchronizes data in one direction.  This means that a task can pull Account/Customer data from, for instance, Dynamics 365 for Sales and push to Dynamics 365 for Operations and then a second project can pull Product or Invoice or other data from Dynamics 365 for Operations and push it to Dynamics 365 for Sales.  So, while there is single source, we can move data from different systems to each other.  This is how the Prospect to Cash scenario is enabled. 
+A task within a Data Integration project synchronizes data in one direction.  This means that a task can pull Account/Customer data from, for instance, Dynamics 365 for Sales and push to Dynamics 365 for Finance and Operations Enterprise Edition and then a second project can pull Product or Invoice or other data from Dynamics 365 for Finance and Operations Enterprise Edition and push it to Dynamics 365 for Sales.  So, while there is single source, we can move data from different systems to each other.  This is how the Prospect to Cash scenario is enabled. 
 
 
 ## Business keys
 
-The predefined templates assume synchronization based on a business key. (Sometimes called a natural key.) A business key is a key that the business wants to enforce uniformly across multiple systems (for example, both Dynamics 365 for Sales and Dynamics 365 for Operations). For example, a car rental company uses a car’s vehicle identification number (VIN) as a unique way to identify cars across all its internal systems. As another example, many Microsoft Dynamics customers might want to use the same customer ID for a customer in both Dynamics 365 for Sales and Dynamics 365 for Operations. We designed the Data Integration feature so that customers can use a business key across multiple systems.
+The predefined templates assume synchronization based on a business key. (Sometimes called a natural key.) A business key is a key that the business wants to enforce uniformly across multiple systems (for example, both Dynamics 365 for Sales and Dynamics 365 for Finance and Operations Enterprise Edition). For example, a car rental company uses a car’s vehicle identification number (VIN) as a unique way to identify cars across all its internal systems. As another example, many Microsoft Dynamics customers might want to use the same customer ID for a customer in both Dynamics 365 for Sales and Dynamics 365 for Finance and Operations Enterprise Edition. We designed the Data Integration feature so that customers can use a business key across multiple systems.
 
-By default, Dynamics 365 for Sales doesn’t require a business key. To enable business keys, we will provide a Dynamics 365 for Sales solution. After you import the solution into your Dynamics 365 for Sales system, the Data Integration projects will work. In general, we will augment Dynamics 365 for Sales either by using an existing field or by creating a new column for the business key. In the case of the Dynamics 365 for Sales entity that we want to synchronize with the Dynamics 365 for Operations entity, we use the **Account.Account Number** field in Dynamics 365 for Sales, and make it both required and unique. You're responsible for making sure that there is a valid customer identification value in the **Account.Account Number** field in Dynamics 365 for Sales. If there is no value in this field, we won’t synchronize the records from Dynamics 365 for Sales to Dynamics 365 for Operations.
+By default, Dynamics 365 for Sales doesn’t require a business key. To enable business keys, we will provide a Dynamics 365 for Sales solution. After you import the solution into your Dynamics 365 for Sales system, the Data Integration projects will work. In general, we will augment Dynamics 365 for Sales either by using an existing field or by creating a new column for the business key. In the case of the Dynamics 365 for Sales entity that we want to synchronize with the Dynamics 365 for Finance and Operations Enterprise Edition entity, we use the **Account.Account Number** field in Dynamics 365 for Sales, and make it both required and unique. You're responsible for making sure that there is a valid customer identification value in the **Account.Account Number** field in Dynamics 365 for Sales. If there is no value in this field, we won’t synchronize the records from Dynamics 365 for Sales to Dynamics 365 for Finance and Operations Enterprise Edition.
 
-Additionally, data in Dynamics 365 for Operations is only guaranteed to be unique with a combination of legal entity and the key of an entity. If you wish to integrate data from Dynamics 365 for Operations to Dynamics 365 for Sales, then the data you synchronize should be unique independent of Legal entity as well in same way we require data to be unique in Dynamics 365 for Sales.
+Additionally, data in Dynamics 365 for Finance and Operations Enterprise Edition is only guaranteed to be unique with a combination of legal entity and the key of an entity. If you wish to integrate data from Dynamics 365 for Finance and Operations Enterprise Edition to Dynamics 365 for Sales, then the data you synchronize should be unique independent of Legal entity as well in same way we require data to be unique in Dynamics 365 for Sales.
 
 Eventually, we will enable Data Integration that doesn’t require business keys. Instead, mapping tables will be used.
 
@@ -116,7 +116,7 @@ Eventually, we will enable Data Integration that doesn’t require business keys
 
 When you create a new project, we ask you for explicit consent, because we are moving data between systems. There are two areas of concern:
 
-+ Data from a high-compliance system (such as Dynamics 365 for Sales) might be brought into a less-compliant system (such as the Common Data Service or Dynamics 365 for Operations).
++ Data from a high-compliance system (such as Dynamics 365 for Sales) might be brought into a less-compliant system (such as the Common Data Service or Dynamics 365 for Finance and Operations Enterprise Edition).
 + Data might be moved between regional data centers, such as North America and Europe.
 
 Be sure to read the **Privacy Notice and Consent** page carefully, and make sure that the correct people give consent. We won’t create a project unless consent is given. We record the consent in our log files.
@@ -168,12 +168,18 @@ If you are starting with an empty database, you will need to create an organizat
 
 ## System requirements 
 
-You must have the following items:
+You must have either:
 
 + Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update with Platform update 8 (App 7.2.11792.56024 w/ Platform 7.0.4565.16212). Support for App 7.1 will be added with a hotfix.
-+ [Prospect to Cash integration solution for CRM](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/MD365FNOPENTProspectToCash). 
+Or,
 + Dynamics 365 Sales, Enterprise Edition. The integration solution is compatible with Microsoft Dynamics 365 Customer Engagement Version 1612 (8.2.1.207) (DB 8.2.1.207) online.
+
+And, you must also have:
 + An environment in the Common Data Service. The environment must have a database for integration and you must be an environment administrator for that database.
+
+
+## Integration solutions
++ [Prospect to Cash integration solution for CRM](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/MD365FNOPENTProspectToCash). 
 
 For more information on configuring a Prospect to cash scenario, see [Prospect to cash](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/prospect-to-cash).
 
@@ -183,7 +189,7 @@ For more information on configuring a Prospect to cash scenario, see [Prospect t
 ## Custom entities
 If you have a custom entity in Dynamics 365 for Sales, you do not have to do anything.  
 
-If you have a custom entity in Dynamics 365 for Operations, you must turn on Change Tracking. To do this:
+If you have a custom entity in Dynamics 365 for Finance and Operations Enterprise Edition, you must turn on Change Tracking. To do this:
 1. Choose **System Administration** > **Data Management IT** > **Data Entities**.
 2. Select your custom entity.
 3. Enable change tracking from the menu.
@@ -208,9 +214,12 @@ To write data to Sales:
 
 The default team of the business unit that records are synced into in the connection set (that is, the default team of the business unit in the connection set) must have a read privilege to the entities which are going to be owned by it (that is, all entities which are to be synced in the project.) Consequently, the team must be assigned a role which has at least read access to those entities which are synced into it.  Since team members inherit roles assigned to teams, it is desirable to use a separate low-privilege role for this purpose (that is, of allowing read privilege for the team so that the team can own the synced records).
 
-### Dynamics 365 for Operations
+### Dynamics 365 for Finance and Operations Enterprise Edition
 
-Ensure that you have an account in Operations with a role that enables read access to the entities you are pulling data from and write access for the entities you will push into Operations.
+Ensure that 
+
++ You have an account in Operations with a role that enables read access to the entities you are pulling data from and write access for the entities you will push into Operations.   
++ Your Dynamics 365 for Finance and Operations Enterrprise Edition is enabled for batch processing.  
 
 ## Create connections
 
@@ -244,7 +253,7 @@ Before you create a project, you must first create a connection set. To create a
   > [!NOTE]
     > You are likely not done at this point.  It is legal to create a connection set that only has two connections.  This is for connections that are only pushing data into the Common Data Service. If you want data to move between Sales to Operations (or vice versa) then take the next step of adding a **third connection**. If not, you are done at this point
 
-6. Add a third connection for a destination such as to Dynamics 365 for Operations.
+6. Add a third connection for a destination such as to Dynamics 365 for Finance and Operations Enterprise Edition.
 7. Provide **Organization** mappings.  These are the organizational units (such as legal entity or company or business unit) that will shape or refine the data you integrate across the systems.
 
   > [!NOTE]
@@ -309,11 +318,11 @@ Make sure you have appropriate authority on environments where you create connec
 
 ### Connection set not showing in create new project
 
-If you create a connection set to a single service (Dynamics 365 for Sales or Dynamics 365 for Operations) and then the Common Data Service, and if you then choose a template that requires three connections, you will not see your connection set in the choose a connection set dropdown. And, if it's the only connection set you have created you won't see any connection sets at all. You will not be able to proceed past that step in the Create Project Wizard. You can, however, use a connection set with three connections with a template that requires only two - as long as the template's required sources are in the connection set.
+If you create a connection set to a single service (Dynamics 365 for Sales or Dynamics 365 for Finance and Operations Enterprise Edition) and then the Common Data Service, and if you then choose a template that requires three connections, you will not see your connection set in the choose a connection set dropdown. And, if it's the only connection set you have created you won't see any connection sets at all. You will not be able to proceed past that step in the Create Project Wizard. You can, however, use a connection set with three connections with a template that requires only two - as long as the template's required sources are in the connection set.
 
 Make sure the connections in your connection set matches the connections in the template you are going to use.
 
-### No source entities on the left hand side of a mapping page when moving data from Dynamics 365 for Operations to CDS
+### No source entities on the left hand side of a mapping page when moving data from Dynamics 365 for Finance and Operations Enterprise Edition to CDS
 
 In Dynamics 365 for Finance and Operations, Refresh the entity list. Go to Data Management > Framework parameters > Entity settings and choose to Refresh the entity list. 
 
