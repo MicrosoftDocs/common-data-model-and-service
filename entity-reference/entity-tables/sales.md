@@ -3,7 +3,7 @@ title: "Sales reference | Microsoft Docs"
 description: "The sales entities let you create end-to-end sales solutions."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "05/08/2017"
+ms.date: "11/07/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -11,8 +11,6 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "9ba908bd-88f9-4236-96be-401c9da4d3a2"
-ms.reviewer: robinr
-ms.author: robinr
 ---
 
 # Sales reference 
@@ -35,7 +33,8 @@ FacebookIdentity | Data: Text<br>Maximum length: 128
 FreightTerms | Picklist: FreightTerms<br>Values: FOB, NoCharge
 FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Picklist: Gender<br>Values: Female, Male, Nonspecific, NotSpecified
-IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
+Image | Data: ImageUrl
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, NotSpecified, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
@@ -64,7 +63,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: AccountStatus<br>Values: Active, Inactive<br>Required
 StockExchange | Picklist: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
 StockTicker | Data: Text<br>Maximum length: 128
@@ -103,7 +102,7 @@ Field | Description
 ---|---
 Account<br>Primary key | Lookup: Account<br>Required
 Contact | Lookup: Contact<br>Required
-DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+DataSource | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required<br>Description: Source
 Description | Data: Text<br>Maximum length: 128
 
 ### Relationships
@@ -224,7 +223,8 @@ EmailAlternate | Data: Text<br>Maximum length: 80
 EmailPrimary | Data: Text<br>Maximum length: 80
 FacebookIdentity | Data: Text<br>Maximum length: 2048
 FullName | Data: Text<br>Maximum length: 2048
-IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
+Image | Data: ImageUrl
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, NotSpecified, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 KeyProductName | Data: Text<br>Maximum length: 2048
 LinkedInIdentity | Data: Text<br>Maximum length: 2048
 MailingPostalAddress | Data: Address
@@ -248,7 +248,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 2048
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 2048
-Source | Picklist: Source<br>Values: Default
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent
 Status | Picklist: CompetitorStatus<br>Values: Active, Inactive
 StockExchange | Data: Text<br>Maximum length: 2048
 StockTicker | Data: Text<br>Maximum length: 2048
@@ -387,7 +387,8 @@ FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Picklist: Gender<br>Values: Female, Male, Nonspecific, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
-IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
+Image | Data: ImageUrl
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, NotSpecified, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsDecisionMaker | Data: Boolean
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsInterestConfirmed | Data: Boolean<br>Description: Interest confirmed
@@ -415,7 +416,7 @@ PurchaseTimeline | Picklist: PurchaseTimeframe<br>Values: Immediate, NextQuarter
 QualificationDescription | Data: Memo
 QualifyingOpportunity | Lookup: Opportunity
 SatoriId | Data: Text<br>Maximum length: 128
-ScheduleFollowUpProspect | Data: DateTime<br>Description: Schedule propsect follow up
+ScheduleFollowUpProspect | Data: DateTime<br>Description: Schedule prospect follow up
 ScheduleFollowUpQualify | Data: DateTime<br>Description: Schedule qualify follow up
 ShippingPostalAddress | Data: Address
 SIC | Data: Text<br>Maximum length: 2048<br>Description: SIC code
@@ -423,7 +424,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: LeadStatus<br>Values: Cancelled, Contacted, Disqualified, New, NoLongerInterested, Qualified<br>Required
 StockExchange | Picklist: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
 StockTicker | Data: Text<br>Maximum length: 128
@@ -488,7 +489,7 @@ Associates a lead and a contact. This entity creates a many-to-many relationship
 Field | Description
 ---|---
 Contact | Lookup: Contact<br>Required
-DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+DataSource | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required<br>Description: Source
 Description | Data: Text<br>Maximum length: 128
 Lead<br>Primary key | Lookup: Lead<br>Required
 
@@ -593,7 +594,7 @@ EstimatedCloseDate | Data: DateTime
 EstimatedValueAmount | Data: Currency<br>Required, Decimal places: 6
 FollowupProspectDate | Data: DateTime
 FollowupQualifyDate | Data: DateTime
-IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale<br>Required
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, NotSpecified, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale<br>Required
 IsDecisionMaker | Data: Boolean
 Name | Data: Text<br>Required, Maximum length: 128
 NextFollowupDate | Data: Date<br>Description: Next follow-up date
@@ -713,7 +714,8 @@ EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
+Image | Data: ImageUrl
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, NotSpecified, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
@@ -736,7 +738,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: PartnerStatus<br>Values: Active, Inactive<br>Required
 StockExchange | Picklist: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
 StockTicker | Data: Text<br>Maximum length: 128
