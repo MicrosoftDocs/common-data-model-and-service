@@ -3,7 +3,7 @@ title: "Purchasing reference | Microsoft Docs"
 description: "The purchasing entities let you create purchasing solutions and track vendor invoices."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "05/08/2017"
+ms.date: "11/07/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -11,8 +11,6 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "b332c83a-cd81-41c0-8ca5-4cd8da77cccf"
-ms.reviewer: robinr
-ms.author: robinr
 ---
 
 # Purchasing reference 
@@ -21,28 +19,41 @@ An offer for a commercial engagement issued by the company to a vendor to make a
 
 Field | Description
 ---|---
+ApprovalStatus | Picklist: ApprovalStatus<br>Values: Approved, Confirmed, Draft, Finalized, InExternalReview, InReview, Rejected
+Attention | Data: Text<br>Maximum length: 255
 BillingAddress | Data: Address
 BusinessUnit | Lookup: BusinessUnit
+ConfirmedDeliveryDate | Data: DateTime
+DeliveryPostalAddress | Data: Address<br>Description: Delivery address
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Decimal places: 6
+ExpectedDeliveryDate | Data: DateTime
 ExpectedShipDate | Data: DateTime
 FreightTerms | Picklist: FreightTerms<br>Values: FOB, NoCharge
+IsDropShipment | Data: Boolean<br>Description: It is dropshipment
 OrderDate | Data: DateTime<br>Required
 Organization | Lookup: Organization
 PaymentTerms | Picklist: PaymentTerms<br>Values: Net30, Net45, Net60, TwoPercent10Net30
+PriceIncludesSalesTax | Data: Boolean
+PromisedDeliveryDate | Data: DateTime
+PromisedShipDate | Data: DateTime
 PurchaseOrderId<br>Primary key | Number sequence: <br>Unique, Searchable<br>Description: Order ID
 RequestedDeliveryDate | Data: DateTime
 ShippingAddress | Data: Address
 ShippingMethod | Picklist: ShippingMethod<br>Values: AirBorne, DHL, Fedex, PostalMail, UPS
 Status | Picklist: PurchaseOrderStatus<br>Values: Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended<br>Required<br>Description: Order status
+TaxRegistrationNumber | Data: Text<br>Maximum length: 255
 TotalAmount | Data: Currency<br>Decimal places: 6
 TotalChargeAmount | Data: Currency<br>Decimal places: 6
 TotalDiscountAmount | Data: Currency<br>Decimal places: 6
 TotalTaxAmount | Data: Currency<br>Decimal places: 6
 Vendor | Lookup: Vendor<br>Required
 VendorContact | Lookup: Contact
+VendorForInvoice | Lookup: Vendor
 VendorInvoice | Data: Text<br>Maximum length: 128
+VendorReference | Data: Text<br>Maximum length: 255
 WorkerBuyer | Lookup: Worker<br>Description: Purchase person
+WorkerRequester | Lookup: Worker<br>Description: Requesting person
 
 ### Relationships
 
@@ -53,6 +64,8 @@ Worker|Purchase person|OneToMany|Association
 Contact|Vendor contact|OneToMany|Association
 BusinessUnit|Business unit|OneToMany|Association
 Organization|Organization|OneToMany|Association
+Vendor|Vendor for invoice|OneToMany|Association
+Worker|Requesting person|OneToMany|Association
 
 
 ### Field groups
@@ -99,21 +112,96 @@ DefaultLookup|DefaultLookup field group|PurchaseOrder<br>ChargeType<br>Name<br>A
 DefaultReport|DefaultReport field group|PurchaseOrder<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|DefaultIdentification field group|PurchaseOrder<br>ChargeType
 
+## PurchaseOrderHistory (Purchase order history) Entity 
+Saves a copy of changes to a purchase order 
+
+Field | Description
+---|---
+ApprovalStatus | Picklist: ApprovalStatus<br>Values: Approved, Confirmed, Draft, Finalized, InExternalReview, InReview, Rejected
+Attention | Data: Text<br>Maximum length: 255
+BillingAddress | Data: Address
+BusinessUnit | Lookup: BusinessUnit
+ConfirmedDeliveryDate | Data: DateTime
+DeliveryPostalAddress | Data: Address<br>Description: Delivery address
+Description | Data: Text<br>Maximum length: 255
+DiscountAmount | Data: Currency<br>Decimal places: 6
+DiscountPercent | Data: Number
+ExpectedDeliveryDate | Data: DateTime
+ExpectedShipDate | Data: DateTime
+FreightTerms | Picklist: FreightTerms<br>Values: FOB, NoCharge
+IsDropShipment | Data: Boolean<br>Description: It is dropshipment
+OrderDate | Data: DateTime<br>Required
+Organization | Lookup: Organization
+PaymentTerms | Picklist: PaymentTerms<br>Values: Net30, Net45, Net60, TwoPercent10Net30
+PriceIncludesSalesTax | Data: Boolean
+PromisedDeliveryDate | Data: DateTime
+PromisedShipDate | Data: DateTime
+PurchaseOrderId<br>Primary key | Data: Text<br>Required, Maximum length: 255<br>Description: Order ID
+RequestedDeliveryDate | Data: DateTime
+ShippingAddress | Data: Address
+ShippingMethod | Picklist: ShippingMethod<br>Values: AirBorne, DHL, Fedex, PostalMail, UPS
+Status | Picklist: PurchaseOrderStatus<br>Values: Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended<br>Required<br>Description: Order status
+TaxRegistrationNumber | Data: Text<br>Maximum length: 255
+TotalAmount | Data: Currency<br>Decimal places: 6
+TotalChargeAmount | Data: Currency<br>Decimal places: 6
+TotalDiscountAmount | Data: Currency<br>Decimal places: 6
+TotalTaxAmount | Data: Currency<br>Decimal places: 6
+ValidFrom | Data: DateTime<br>Required<br>Description: Valid from date time
+ValidTo | Data: DateTime<br>Required<br>Description: Valid to date time
+Vendor | Lookup: Vendor<br>Required
+VendorContact | Lookup: Contact
+VendorForInvoice | Lookup: Vendor
+VendorInvoice | Data: Text<br>Maximum length: 128
+VendorReference | Data: Text<br>Maximum length: 255
+WorkerBuyer | Lookup: Worker<br>Description: Purchase person
+WorkerRequester | Lookup: Worker<br>Description: Requesting person
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Worker|Requesting person|OneToMany|Association
+Vendor|Vendor for invoice|OneToMany|Association
+Organization|Organization|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
+Contact|Vendor contact|OneToMany|Association
+Worker|Purchase person|OneToMany|Association
+Vendor|Vendor|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCard|DefaultCard field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>WorkerBuyer
+DefaultCreate|DefaultCreate field group|Vendor<br>OrderDate<br>Description<br>WorkerBuyer<br>VendorContact<br>FreightTerms<br>ShippingMethod<br>ShippingAddress<br>VendorInvoice<br>BillingAddress<br>Status<br>ValidFrom<br>ValidTo
+DefaultDetails|DefaultDetails field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description<br>Status<br>WorkerBuyer<br>VendorContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>ShippingAddress<br>VendorInvoice<br>BillingAddress<br>TotalChargeAmount<br>TotalDiscountAmount<br>TotalTaxAmount<br>ValidFrom<br>ValidTo
+DefaultIdentification|DefaultIdentification field group|PurchaseOrderId<br>Description<br>ValidFrom<br>ValidTo
+DefaultList|DefaultList field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Status<br>WorkerBuyer<br>TotalAmount
+DefaultLookup|DefaultLookup field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description<br>ValidFrom<br>ValidTo
+DefaultReport|DefaultReport field group|PurchaseOrderId<br>Vendor<br>OrderDate<br>Description<br>WorkerBuyer<br>VendorContact<br>TotalAmount<br>FreightTerms<br>ShippingMethod<br>VendorInvoice<br>ValidFrom<br>ValidTo
+
 ## PurchaseOrderLine (Purchase order line) Entity 
 A component of a purchase order that contains a portion of the total amount including information such as product, quantity, and price. 
 
 Field | Description
 ---|---
 BusinessUnit | Lookup: BusinessUnit
+ConfirmedDeliveryDate | Data: DateTime
 DeliveryPostalAddress | Data: Address<br>Description: Delivery address
 Description | Data: Text<br>Maximum length: 255
 DiscountAmount | Data: Currency<br>Required, Decimal places: 6
+ExpectedDeliveryDate | Data: DateTime
 ExpectedShipDate | Data: DateTime
 LineAmount | Data: Currency<br>Required, Decimal places: 6
 MostRecentActualReceiptDate | Data: DateTime<br>Description: Most recent actual ship date
+MostRecentActualShipDate | Data: DateTime
 Name | Data: Text<br>Maximum length: 60
+PriceUnitQuantity | Data: Quantity
+ProcurementCategory | Data: Text<br>Maximum length: 255
 Product | Lookup: Product
 ProductName | Data: Text<br>Required, Maximum length: 60
+PromisedDeliveryDate | Data: DateTime
 PromisedShipDate | Data: DateTime
 PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
 Quantity | Data: Quantity<br>Required
@@ -124,6 +212,7 @@ TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
 TotalTaxAmount | Data: Currency<br>Decimal places: 6
 UnitPrice | Data: Currency<br>Required, Decimal places: 6
 VendorProductName | Data: Text<br>Maximum length: 60
+WorkerRequester | Lookup: Worker<br>Description: Requester
 
 ### Relationships
 
@@ -132,6 +221,7 @@ Related entity | Description | Cardinality | Type
 PurchaseOrder|Purchase order|OneToMany|Composition
 Product|Product|OneToMany|Association
 BusinessUnit|Business unit|OneToMany|Association
+Worker|Requester|OneToMany|Association
 
 
 ### Field groups
@@ -177,6 +267,63 @@ DefaultDetails|DefaultDetails field group|PurchaseOrderLine<br>ChargeType<br>Nam
 DefaultLookup|DefaultLookup field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Amount
 DefaultReport|DefaultReport field group|PurchaseOrderLine<br>ChargeType<br>Name<br>Description<br>Amount
 DefaultIdentification|DefaultIdentification field group|PurchaseOrderLine<br>ChargeType
+
+## PurchaseOrderLineHistory (Purchase order line history) Entity 
+Saves a copy of changes to a purchase order line 
+
+Field | Description
+---|---
+BusinessUnit | Lookup: BusinessUnit
+ConfirmedDeliveryDate | Data: DateTime
+DeliveryPostalAddress | Data: Address<br>Description: Delivery address
+Description | Data: Text<br>Maximum length: 255
+DiscountAmount | Data: Currency<br>Required, Decimal places: 6
+DiscountPercent | Data: Number
+ExpectedDeliveryDate | Data: DateTime
+ExpectedShipDate | Data: DateTime
+LineAmount | Data: Currency<br>Required, Decimal places: 6
+MostRecentActualReceiptDate | Data: DateTime<br>Description: Most recent actual ship date
+MostRecentActualShipDate | Data: DateTime
+Name | Data: Text<br>Maximum length: 60
+PriceUnitQuantity | Data: Quantity
+ProcurementCategory | Data: Text<br>Maximum length: 255
+Product | Lookup: Product
+ProductName | Data: Text<br>Required, Maximum length: 60
+PromisedDeliveryDate | Data: DateTime
+PromisedShipDate | Data: DateTime
+PurchaseOrderId<br>Primary key | Data: Text<br>Required, Maximum length: 255
+Quantity | Data: Quantity<br>Required
+RequestedDeliveryDate | Data: DateTime
+Sequence | Data: BigInteger<br>Required
+Status | Picklist: PurchaseOrderLineStatus<br>Values: Blocked, Closed, Confirmed, Invoiced, Open, Received, Suspended<br>Required<br>Description: Order line status
+TotalChargeAmount | Data: Currency<br>Required, Decimal places: 6
+TotalTaxAmount | Data: Currency<br>Decimal places: 6
+UnitPrice | Data: Currency<br>Required, Decimal places: 6
+ValidFrom | Data: DateTime<br>Required
+ValidTo | Data: DateTime<br>Required
+VendorProductName | Data: Text<br>Maximum length: 60
+WorkerRequester | Lookup: Worker<br>Description: Requester
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Worker|Requester|OneToMany|Association
+BusinessUnit|Business unit|OneToMany|Association
+Product|Product|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCard|DefaultCard field group|Sequence<br>Product<br>ProductName<br>Status<br>Quantity
+DefaultCreate|DefaultCreate field group|PurchaseOrderId<br>Sequence<br>Product<br>Description<br>Quantity<br>Status<br>UnitPrice<br>LineAmount<br>ProductName
+DefaultDetails|DefaultDetails field group|PurchaseOrderId<br>Sequence<br>Product<br>ProductName<br>Description<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>PromisedShipDate<br>MostRecentActualReceiptDate<br>DeliveryPostalAddress<br>TotalChargeAmount<br>TotalTaxAmount<br>ValidFrom<br>ValidTo
+DefaultIdentification|DefaultIdentification field group|PurchaseOrderId<br>Sequence<br>ValidFrom<br>ValidTo
+DefaultList|DefaultList field group|PurchaseOrderId<br>Sequence<br>Product<br>ProductName<br>Status<br>Quantity<br>LineAmount<br>ValidFrom<br>ValidTo
+DefaultLookup|DefaultLookup field group|PurchaseOrderId<br>Sequence<br>ProductName<br>Status<br>Quantity
+DefaultReport|DefaultReport field group|PurchaseOrderId<br>Sequence<br>Product<br>ProductName<br>Status<br>Quantity<br>UnitPrice<br>LineAmount<br>PromisedShipDate<br>MostRecentActualReceiptDate<br>ValidFrom<br>ValidTo
 
 ## PurchaseOrderLineReceipt (Purchase order line receipt) Entity 
 The receipt of product on the line of a purchase order for part or all of the line quantity. 
@@ -277,6 +424,36 @@ DefaultLookup|DefaultLookup field group|PurchaseOrder<br>Name<br>RateCode<br>Tax
 DefaultReport|DefaultReport field group|PurchaseOrder<br>Name<br>RateCode<br>TaxType<br>Amount<br>Description
 DefaultIdentification|DefaultIdentification field group|PurchaseOrder<br>Name
 
+## PurchaseOrderVersion (Purchase:purchaseorderversion) Entity 
+Purchase:purchaseorderversionhelp 
+
+Field | Description
+---|---
+ExternalVisibility | Picklist: PurchaseOrderVersionExternalVisibility<br>Values: NotVisible, Visible
+PurchaseOrder<br>Primary key | Lookup: PurchaseOrder<br>Required
+ValidFrom | Data: DateTime<br>Required<br>Description: Valid from date time
+ValidTo | Data: DateTime<br>Required<br>Description: Valid to date time
+VersionNumber | Data: Text<br>Maximum length: 255
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+PurchaseOrder|Purchase order|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCard|DefaultCard field group|VersionNumber<br>ValidFrom<br>ValidTo
+DefaultCreate|DefaultCreate field group|VersionNumber<br>ValidFrom<br>ValidTo
+DefaultDetails|DefaultDetails field group|VersionNumber<br>ValidFrom<br>ValidTo
+DefaultIdentification|DefaultIdentification field group|VersionNumber<br>ValidFrom<br>ValidTo
+DefaultList|DefaultList field group|VersionNumber<br>ValidFrom<br>ValidTo
+DefaultLookup|DefaultLookup field group|VersionNumber<br>ValidFrom<br>ValidTo
+DefaultReport|DefaultReport field group|VersionNumber<br>ValidFrom<br>ValidTo
+
 ## Vendor (Vendor) Entity 
 An organization that has sold products to the customer at least once. 
 
@@ -291,7 +468,8 @@ EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Picklist: Gender<br>Values: Female, Male, Nonspecific, NotSpecified
-IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
+Image | Data: ImageUrl
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, NotSpecified, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsDisabledOwned | Data: Boolean<br>Description: Disabled owned
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsMinorityOwned | Data: Boolean<br>Description: Minority owned
@@ -318,7 +496,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: VendorStatus<br>Values: Active, Blocked, Inactive<br>Required
 StockExchange | Picklist: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
 StockTicker | Data: Text<br>Maximum length: 128
@@ -357,7 +535,7 @@ Associates a vendor and a contact. This entity creates a many-to-many relationsh
 Field | Description
 ---|---
 Contact | Lookup: Contact<br>Required
-DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+DataSource | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required<br>Description: Source
 Description | Data: Text<br>Maximum length: 128
 Vendor<br>Primary key | Lookup: Vendor<br>Required
 
