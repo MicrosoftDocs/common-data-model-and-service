@@ -3,7 +3,7 @@ title: "Customer service reference | Microsoft Docs"
 description: "The customer service entities manage issues from your customers, including tracking, escalation, and documentation."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "05/08/2017"
+ms.date: "11/07/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -11,8 +11,6 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "ddd9b0a1-bd9e-46a9-bea0-ba021cf2f219"
-ms.reviewer: robinr
-ms.author: robinr
 ---
 
 # Customer service reference 
@@ -79,6 +77,7 @@ ContactType | Picklist: CaseOriginCode<br>Values: Email, Facebook, Other, Phone,
 Description | Data: Text<br>Maximum length: 255
 EndDate | Data: DateTime<br>Searchable
 HasKBArticle | Data: Boolean<br>Required<br>Description: Has KB article(s)
+Image | Data: ImageUrl
 IsReassignment | Data: Boolean<br>Required
 IsSeverityChange | Data: Boolean<br>Required<br>Description: Is severity changed
 IsStatusChange | Data: Boolean<br>Required<br>Description: Is status changed
