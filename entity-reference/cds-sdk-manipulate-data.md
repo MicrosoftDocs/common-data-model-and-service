@@ -18,7 +18,7 @@ ms.author: pvillads
 # Manipulate your data by using the Common Data Service SDK
 
 > [!NOTE]
-> This feature is preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
+> This feature is in preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
 
 This topic explains how you can use the C# software development kit (SDK) for the Common Data Service to work with data that is stored in the Common Data Service data cloud. The examples in this topic involve create, read, update, and delete (CRUD) operations on business data that is stored in relational data stores.
 
