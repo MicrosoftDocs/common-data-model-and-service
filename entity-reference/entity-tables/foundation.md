@@ -3,7 +3,7 @@ title: "Foundation reference | Microsoft Docs"
 description: "The foundation entities are used to drive other entities in the Common Data Model."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "05/08/2017"
+ms.date: "11/07/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -11,11 +11,80 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "c06c0de3-404b-4b44-9d58-6f63760f2a24"
-ms.reviewer: robinr
-ms.author: robinr
 ---
 
 # Foundation reference 
+## BusinessProfile (Business profile) Entity 
+A supporting set of attributes related to either an Account, Vendor, Lead, Partner or Opportunity. A business profile contains information sourced from a third party to validate data quality and support reporting and analytics. 
+
+Field | Description
+---|---
+Account | Lookup: Account
+BusinessProfileId<br>Primary key | Number sequence: <br>Unique, Searchable
+BusinessUnit | Lookup: BusinessUnit
+CityMatchGrade | Data: Text<br>Maximum length: 20
+Competitor | Lookup: Competitor
+Delist | Data: Boolean
+DensityMatchGrade | Data: Text<br>Maximum length: 20
+DomesticUltimateDUNSNumber | Data: Text<br>Maximum length: 128
+DomesticUltimateOrganizationName | Data: Text<br>Maximum length: 255
+DUNSNumber | Data: Text<br>Required, Maximum length: 128
+FinancialYearRevenueLastReported | Data: Currency<br>Decimal places: 6<br>Description: Financial year revenue (last reported)
+FinancialYearToDate | Data: Date
+GlobalUltimateDUNSNumber | Data: Text<br>Maximum length: 128
+GlobalUltimateOrganizationName | Data: Text<br>Maximum length: 255
+IsStandaloneOrganization | Data: Boolean
+Lead | Lookup: Lead
+LocationType | Data: Text<br>Maximum length: 128
+MatchConfidenceCode | Data: Text<br>Maximum length: 20
+NumberOfEmployeesLocal | Data: BigInteger<br>Description: Number of employees (local)
+NumberOfEmployeesTotal | Data: BigInteger<br>Description: Number of employees (total)
+Opportunity | Lookup: Opportunity
+OrganizationName | Data: Text<br>Maximum length: 255
+OrganizationNameMatchGrade | Data: Text<br>Maximum length: 20
+ParentDUNSNumber | Data: Text<br>Maximum length: 128
+ParentOrganizationName | Data: Text<br>Maximum length: 255<br>Description: Parent business name
+Partner | Lookup: Partner
+PostalCodeMatchGrade | Data: Text<br>Maximum length: 20
+PrimaryAddress | Data: Address
+PrimaryPhone | Data: Text<br>Maximum length: 32
+PrimaryPhoneMatchGrade | Data: Text<br>Maximum length: 20
+SICIndustryCode | Data: Text<br>Maximum length: 20
+SICIndustryCodeDescription | Data: Text<br>Maximum length: 255
+SICIndustryCodeMatchGrade | Data: Text<br>Maximum length: 20<br>Description: SIC industy code match grade
+Source | Picklist: BusinessProfileSource<br>Values: DunBradstreet, Other
+StateMatchGrade | Data: Text<br>Maximum length: 20
+StreetNameMatchGrade | Data: Text<br>Maximum length: 20
+StreetNumberMatchGrade | Data: Text<br>Maximum length: 20
+TradeStyleName | Data: Text<br>Maximum length: 255
+UniquenessMatchGrade | Data: Text<br>Maximum length: 20
+Vendor | Lookup: Vendor
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+BusinessUnit|Business unit|OneToMany|Association
+Vendor|Vendor|OneToMany|Association
+Partner|Partner|OneToMany|Association
+Opportunity|Opportunity|OneToMany|Association
+Lead|Lead|OneToMany|Association
+Competitor|Competitor|OneToMany|Association
+Account|Account|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCard|DefaultCard field group|BusinessProfileId<br>DUNSNumber<br>OrganizationName
+DefaultCreate|DefaultCreate field group|DUNSNumber<br>OrganizationName<br>PrimaryPhone<br>PrimaryAddress
+DefaultDetails|DefaultDetails field group|BusinessProfileId<br>DUNSNumber<br>OrganizationName<br>NumberOfEmployeesTotal<br>FinancialYearRevenueLastReported
+DefaultIdentification|DefaultIdentification field group|BusinessProfileId<br>OrganizationName
+DefaultList|DefaultList field group|BusinessProfileId<br>DUNSNumber<br>OrganizationName<br>NumberOfEmployeesTotal<br>FinancialYearRevenueLastReported
+DefaultLookup|DefaultLookup field group|BusinessProfileId<br>OrganizationName
+DefaultReport|DefaultReport field group|BusinessProfileId<br>DUNSNumber<br>OrganizationName<br>NumberOfEmployeesTotal<br>FinancialYearRevenueLastReported
+
 ## BusinessUnit (Business unit) Entity 
 A division or unit within an organization with a defined business function. 
 
@@ -27,6 +96,7 @@ Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FullName | Data: Text<br>Searchable, Maximum length: 128
+Image | Data: ImageUrl
 IsDefaultForOrganization | Data: Boolean<br>Required
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
@@ -43,7 +113,7 @@ Phone03 | Data: Phone
 PhonePrimary | Data: Phone
 SatoriId | Data: Text<br>Maximum length: 128
 ShippingPostalAddress | Data: Address
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: BusinessUnitStatus<br>Values: Active, Inactive<br>Required
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
@@ -77,7 +147,7 @@ Field | Description
 ---|---
 BusinessUnit<br>Primary key | Lookup: BusinessUnit<br>Required
 Contact | Lookup: Contact<br>Required
-DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+DataSource | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required<br>Description: Source
 Description | Data: Text<br>Maximum length: 128
 
 ### Relationships
@@ -170,7 +240,8 @@ Field | Description
 DefaultBuyingUnitOfMeasure | Picklist: UnitOfMeasure<br>Values: Bag, Box, Bucket, Centilitre, Centimeter, CubicCentimeter, CubicFeet, CubicInch, CubicMeter, CubicMillimeter, CubicYard, Day, Deciliter, DegreesBrix, Dozen, Each, Feet, FluidOunce, Gallon, GigaByte, Gram, HalfCubicInch, HalfInch, HalfPint, HalfPound, HalfSquareInch, Hour, Inch, Keg, Kilogram, Kilometer, KilowattHour, Litre, Meter, Mgpx, Mile, Milligram, Millilitre, Millimeter, Minute, Month, Ohm, OneEighthCubicInch, OneEighthInch, OneEighthSquareInch, Option, Ounce, Pair, Pallet, PascalSecond, Percentage, pHValue, Piece, Pint, Pound, Quart, QuarterCubicInch, QuarterInch, QuarterPound, QuarterSquareInch, Second, SetOfEquipment, SquareCentimeter, SquareFeet, SquareInch, SquareMeter, SquareMile, SquareMillimeter, SquareYard, Ton, Tray, Yard
 DefaultSellingQuantity | Data: Quantity
 DefaultStockingUnitOfMeasure | Picklist: UnitOfMeasure<br>Values: Bag, Box, Bucket, Centilitre, Centimeter, CubicCentimeter, CubicFeet, CubicInch, CubicMeter, CubicMillimeter, CubicYard, Day, Deciliter, DegreesBrix, Dozen, Each, Feet, FluidOunce, Gallon, GigaByte, Gram, HalfCubicInch, HalfInch, HalfPint, HalfPound, HalfSquareInch, Hour, Inch, Keg, Kilogram, Kilometer, KilowattHour, Litre, Meter, Mgpx, Mile, Milligram, Millilitre, Millimeter, Minute, Month, Ohm, OneEighthCubicInch, OneEighthInch, OneEighthSquareInch, Option, Ounce, Pair, Pallet, PascalSecond, Percentage, pHValue, Piece, Pint, Pound, Quart, QuarterCubicInch, QuarterInch, QuarterPound, QuarterSquareInch, Second, SetOfEquipment, SquareCentimeter, SquareFeet, SquareInch, SquareMeter, SquareMile, SquareMillimeter, SquareYard, Ton, Tray, Yard
-Description | Data: Text<br>Maximum length: 255
+Description | Data: Text<br>Searchable, Maximum length: 255
+Image | Data: ImageUrl
 IsStocked | Data: Boolean
 Name | Data: Text<br>Required, Searchable, Maximum length: 60
 Organization | Lookup: Organization
@@ -209,7 +280,7 @@ Field | Description
 ---|---
 CategoryId<br>Primary key | Number sequence: <br>Unique, Searchable
 Description | Data: MultilineText
-Name | Data: Text<br>Required, Maximum length: 60<br>Description: Category name
+Name | Data: Text<br>Required, Searchable, Maximum length: 60<br>Description: Category name
 Organization | Lookup: Organization
 ParentProductCategory | Lookup: ProductCategory
 
@@ -261,6 +332,40 @@ DefaultLookup|DefaultLookup field group|Product<br>ProductCategory
 DefaultReport|DefaultReport field group|Product<br>ProductCategory
 DefaultIdentification|DefaultIdentification field group|Product<br>ProductCategory
 
+## ProductIdentifier (Product identifier) Entity 
+The productidentifier entity contains a product identification that is available for users. 
+
+Field | Description
+---|---
+Account | Lookup: Account
+Identifier | Data: Text<br>Required, Maximum length: 255
+Product<br>Primary key | Lookup: Product<br>Required
+Quantity | Data: Quantity
+Sequence | Data: BigInteger<br>Required
+Type | Picklist: ProductIdentifierType<br>Values: CP, GTIN, IN, ISN, PSN, VP<br>Required
+Vendor | Lookup: Vendor
+
+### Relationships
+
+Related entity | Description | Cardinality | Type 
+---|---|---|---
+Account|Account|OneToMany|Association
+Vendor|Vendor|OneToMany|Association
+Product|Product|OneToMany|Association
+
+
+### Field groups
+
+Field group | Description | Fields
+---|---|---
+DefaultCard|DefaultCard field group|Product<br>Identifier<br>Sequence<br>Quantity
+DefaultCreate|DefaultCreate field group|Product<br>Identifier<br>Sequence<br>Vendor<br>Account<br>Quantity<br>Type
+DefaultDetails|DefaultDetails field group|Product<br>Identifier<br>Sequence<br>Vendor<br>Account<br>Quantity<br>Type
+DefaultIdentification|DefaultIdentification field group|Product<br>Identifier
+DefaultList|DefaultList field group|Product<br>Identifier<br>Sequence<br>Quantity<br>Type
+DefaultLookup|DefaultLookup field group|Product<br>Identifier<br>Sequence<br>Type
+DefaultReport|DefaultReport field group|Product<br>Identifier<br>Sequence<br>Vendor<br>Account<br>Quantity<br>Type
+
 ## UnitOfMeasureConversion (Unit of measure conversion) Entity 
 The linear conversion rate of one unit of measure to another. 
 
@@ -296,7 +401,7 @@ DisplayName | Data: Text<br>Required, Maximum length: 255
 Email | Data: Text<br>Maximum length: 255
 GivenName | Data: Text<br>Maximum length: 255
 GraphIdentifier<br>Primary key | Data: Text<br>Required, Unique, Searchable, Maximum length: 36
-IsSecurityEnabled | Data: Boolean<br>Required
+IsSecurityEnabled | Data: Boolean
 Surname | Data: Text<br>Maximum length: 255
 Type | Picklist: UserOrGroupType<br>Values: Group, ServicePrincipal, User<br>Required
 

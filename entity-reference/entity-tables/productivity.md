@@ -3,7 +3,7 @@ title: "Productivity reference | Microsoft Docs"
 description: "The productivity entities let you track events and messages."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "05/08/2017"
+ms.date: "11/07/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -11,8 +11,6 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "8ed2fc48-8ee7-4279-823d-7690bf944add"
-ms.reviewer: robinr
-ms.author: robinr
 ---
 
 # Productivity reference 
