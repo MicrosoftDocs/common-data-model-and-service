@@ -3,7 +3,7 @@ title: "Person, organization, and group reference | Microsoft Docs"
 description: "The people, organizations, and groups entities encompass a rich set of people and organizations that you might interact with."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "05/08/2017"
+ms.date: "11/07/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -11,8 +11,6 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "cb6723ce-88d9-4e54-81a0-2f532965d3be"
-ms.reviewer: robinr
-ms.author: robinr
 ---
 
 # Person, organization, and group reference 
@@ -34,6 +32,7 @@ Generation | Data: Text<br>Maximum length: 128
 GraduationClass | Data: Text<br>Maximum length: 128
 GraduationDate | Data: Date
 HomePostalAddress | Data: Address
+Image | Data: ImageUrl
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInIdentity | Data: Text<br>Maximum length: 128
@@ -50,7 +49,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: AlumnusStatus<br>Values: Current, Inactive, Past<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
@@ -106,7 +105,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: ApplicationUserStatus<br>Values: Active, Inactive<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
@@ -137,7 +136,7 @@ Field | Description
 ---|---
 ApplicationUser<br>Primary key | Lookup: ApplicationUser<br>Required
 Contact | Lookup: Contact<br>Required
-DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+DataSource | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required<br>Description: Source
 Description | Data: Text<br>Maximum length: 128
 IsOwner | Data: Boolean<br>Required
 
@@ -180,7 +179,7 @@ OtherPostalAddress | Data: Address
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhonePrimary | Data: Phone
 ShippingPostalAddress | Data: Address
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: ApplicationUserGroupStatus<br>Values: Active, Inactive<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
@@ -219,6 +218,7 @@ FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Picklist: Gender<br>Values: Female, Male, Nonspecific, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address
+Image | Data: ImageUrl
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
@@ -237,7 +237,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: ConstituentStatus<br>Values: Active, Inactive<br>Required
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
@@ -279,6 +279,7 @@ Gender | Picklist: Gender<br>Values: Female, Male, Nonspecific, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
 GovernmentIdentifier | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address
+Image | Data: ImageUrl
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsPostalMailAllowed | Data: Boolean
@@ -301,7 +302,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: Status<br>Values: Active, Inactive<br>Required
 TwitterIdentity | Data: Text<br>Maximum length: 128
 WebsiteURL | Data: Text<br>Maximum length: 255
@@ -369,6 +370,7 @@ EmailPrimary | Data: Email<br>Searchable
 FamilyId<br>Primary key | Number sequence: <br>Unique, Searchable
 FullName | Data: Text<br>Searchable, Maximum length: 128
 GroupName | Data: Text<br>Maximum length: 128
+Image | Data: ImageUrl
 MailingPostalAddress | Data: Address
 OtherPostalAddress | Data: Address
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
@@ -377,7 +379,7 @@ Phone02 | Data: Phone
 Phone03 | Data: Phone
 PhonePrimary | Data: Phone
 ShippingPostalAddress | Data: Address
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: FamilyStatus<br>Values: Active, Inactive<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
@@ -405,7 +407,7 @@ Field | Description
 Description | Data: Text<br>Maximum length: 128
 Family<br>Primary key | Lookup: Family<br>Required
 Person | Lookup: Person<br>Required
-PrimaryRole | Picklist: FamilyRole<br>Values: ElderSiblings, Father, GrandParents, Mother, YoungerSiblings<br>Required
+PrimaryRole | Picklist: FamilyRole<br>Values: ElderSiblings, Father, GrandParents, Mother, NotSpecified, YoungerSiblings<br>Required
 Status | Picklist: FamilyMemberStatus<br>Values: Active, Inactive<br>Required
 
 ### Relationships
@@ -446,6 +448,7 @@ FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Picklist: Gender<br>Values: Female, Male, Nonspecific, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address
+Image | Data: ImageUrl
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
@@ -464,7 +467,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: FanStatus<br>Values: Bronze, Club, Gold, Platinum, PreferenceTicket, SeasonTicketHolder, Silver<br>Required<br>Description: Fan status
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
@@ -498,6 +501,7 @@ EmailPrimary | Data: Email<br>Searchable
 FullName | Data: Text<br>Searchable, Maximum length: 128
 GroupName | Data: Text<br>Maximum length: 128
 HouseholdId<br>Primary key | Number sequence: <br>Unique, Searchable
+Image | Data: ImageUrl
 MailingPostalAddress | Data: Address
 OtherPostalAddress | Data: Address
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
@@ -506,7 +510,7 @@ Phone02 | Data: Phone
 Phone03 | Data: Phone
 PhonePrimary | Data: Phone
 ShippingPostalAddress | Data: Address
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: HouseholdStatus<br>Values: Active, Inactive<br>Required
 WebsiteURL | Data: Text<br>Maximum length: 255
 
@@ -534,7 +538,7 @@ Field | Description
 Description | Data: Text<br>Maximum length: 128
 Household<br>Primary key | Lookup: Household<br>Required
 Person | Lookup: Person<br>Required
-PrimaryRole | Picklist: HouseholdRole<br>Values: ElderSiblings, Father, GrandParents, Mother, YoungerSiblings<br>Required
+PrimaryRole | Picklist: HouseholdRole<br>Values: ElderSiblings, Father, GrandParents, Mother, NotSpecified, YoungerSiblings<br>Required
 Status | Picklist: HouseholdMemberStatus<br>Values: Active, Inactive<br>Required
 
 ### Relationships
@@ -568,7 +572,8 @@ EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
-IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
+Image | Data: ImageUrl
+IndustryCode | Picklist: IndustryCode<br>Values: Accounting, Agriculture, BroadcastingPrintingPublishing, Brokers, BuildingSupplyRetail, BusinessServices, Consulting, ConsumerServices, DesignCreativeManagement, DistributorsDispatchersProcessors, DoctorOfficesClinics, DurableManufacturing, EatingDrinkingPlaces, EntertainmentRetail, EquipmentRentalLeasing, Financial, FoodTobaccoProcessing, InboundCapitalIntensiveProcessing, InboundRepairServices, Insurance, LegalServices, NonDurableMerchandiseRetail, NotSpecified, OutboundConsumerService, Petrochemicals, ServiceRetail, SIGAffiliations, SocialServices, SpecialOutboundTradeContractors, SpecialtyRealty, Transportation, UtilityCreationDistribution, VehicleRetail, Wholesale
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsInternal | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
@@ -591,7 +596,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: OrganizationStatus<br>Values: Active, Inactive<br>Required
 StockExchange | Picklist: StockExchange<br>Values: BMESpanishExchanges, Euronext, FrankfurtStockExchange, HongKongStockExchange, ItalianStockExchange, KoreaExchange, LondonStockExchange, NASDAQ, NYSE, OMXNordicExchanges, ShanghaiStockExchange, ShenzhenStockExchange, SWXSwissExchange, TokyoStockExchange, TorontoStockExchange
 StockTicker | Data: Text<br>Maximum length: 128
@@ -627,7 +632,7 @@ Associates an organization and a contact. This entity creates a many-to-many rel
 Field | Description
 ---|---
 Contact | Lookup: Contact<br>Required
-DataSource | Picklist: Source<br>Values: Default<br>Required<br>Description: Source
+DataSource | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required<br>Description: Source
 Description | Data: Text<br>Maximum length: 128
 Organization<br>Primary key | Lookup: Organization<br>Required
 
@@ -661,6 +666,7 @@ EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
 FullName | Data: Text<br>Searchable, Maximum length: 128
 GroupName | Data: Text<br>Maximum length: 128
+Image | Data: ImageUrl
 MailingPostalAddress | Data: Address
 OtherPostalAddress | Data: Address
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
@@ -669,7 +675,7 @@ Phone02 | Data: Phone
 Phone03 | Data: Phone
 PhonePrimary | Data: Phone
 ShippingPostalAddress | Data: Address
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: TeamStatus<br>Values: Active, Inactive<br>Required
 TeamId<br>Primary key | Number sequence: <br>Unique, Searchable
 WebsiteURL | Data: Text<br>Maximum length: 255
@@ -736,6 +742,7 @@ FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Picklist: Gender<br>Values: Female, Male, Nonspecific, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address
+Image | Data: ImageUrl
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 IsSecurityPrincipal | Data: Boolean<br>Required
@@ -754,7 +761,7 @@ SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedI
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: TenantStatus<br>Values: Active, Inactive<br>Required
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128
@@ -783,38 +790,44 @@ A person who is engaged by an organization as an employee, contractor, or volunt
 
 Field | Description
 ---|---
+Alias | Data: Text<br>Maximum length: 64
 Birthdate | Data: Date
+Building | Data: Text<br>Maximum length: 64
 BusinessPostalAddress | Data: Address
 BusinessUnit | Lookup: BusinessUnit
 Description | Data: Text<br>Maximum length: 128
 EmailAlternate | Data: Email
 EmailPrimary | Data: Email<br>Searchable
+ExternalReference | Data: Text<br>Maximum length: 64
 FacebookIdentity | Data: Text<br>Maximum length: 128
 FullName | Data: Text<br>Searchable, Maximum length: 128
 Gender | Picklist: Gender<br>Values: Female, Male, Nonspecific, NotSpecified
 Generation | Data: Text<br>Maximum length: 128
 HomePostalAddress | Data: Address
+Image | Data: ImageUrl
 IsEmailContactAllowed | Data: Boolean<br>Required
 IsPhoneContactAllowed | Data: Boolean<br>Required
 LinkedInAPIURL | Data: MultilineText
 LinkedInIdentity | Data: Text<br>Maximum length: 128
 Manager | Lookup: Worker
 Name | Data: PersonName<br>Description: Given name
-OfficeGraphIdentifier | Data: Text<br>Maximum length: 200
+OfficeGraphIdentifier | Data: Text<br>Searchable, Maximum length: 200
 Organization | Lookup: Organization
+OriginalHireDate | Data: DateTime
 PartyType | Picklist: PartyType<br>Values: Group, Organization, Person<br>Required
 PhoneBusiness | Data: Phone
 PhoneCell | Data: Phone
 PhoneHome | Data: Phone
 PhonePrimary | Data: Phone
 Profession | Data: Text<br>Maximum length: 128
+Room | Data: Text<br>Maximum length: 64
 SatoriId | Data: Text<br>Maximum length: 128
 ShippingPostalAddress | Data: Address
 SocialNetwork01 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetwork02 | Picklist: SocialNetwork<br>Values: Facebook, Konnects, LinkedIn, Myspace, Twitter, XING
 SocialNetworkIdentity01 | Data: Text<br>Maximum length: 128
 SocialNetworkIdentity02 | Data: Text<br>Maximum length: 128
-Source | Picklist: Source<br>Values: Default<br>Required
+Source | Picklist: Source<br>Values: Attract, CustomerEngagement, Default, Finance, Gauge, Greenhouse, iCIMS, LinkedIn, Onboarding, Operations, Talent<br>Required
 Status | Picklist: WorkerStatus<br>Values: Active, Inactive<br>Required
 TaxIdentificationIssuer | Data: Text<br>Maximum length: 128
 TaxIdentificationNumber | Data: Text<br>Maximum length: 128

@@ -3,7 +3,7 @@ title: "Human resources reference | Microsoft Docs"
 description: "The human resources entities let you manage employment information, jobs, leaves, and positions."
 author: "robinarh"
 manager: "robinarh"
-ms.date: "05/08/2017"
+ms.date: "11/07/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -11,8 +11,6 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "cfc1547f-38e5-4781-abf3-9c9da112c080"
-ms.reviewer: robinr
-ms.author: robinr
 ---
 
 # Human resources reference 
@@ -243,7 +241,7 @@ AvailableForAssignment | Data: DateTime
 Department | Lookup: Department
 Description | Data: Text<br>Maximum length: 2048
 FullTimeEquivalent | Data: Number
-Job | Lookup: Job<br>Required
+Job | Lookup: Job
 ParentPosition | Lookup: Position
 PositionId<br>Primary key | Number sequence: <br>Unique, Searchable
 PositionType | Lookup: PositionType
@@ -279,7 +277,7 @@ Classification of positions in an organization (for example, full-time, part-tim
 
 Field | Description
 ---|---
-Classification | Picklist: PositionClassification<br>Values: FullTime, PartTime
+Classification | Picklist: PositionClassification<br>Values: FullTime, NotSpecified, PartTime
 Description | Data: Text<br>Required, Maximum length: 2048
 PositionTypeId<br>Primary key | Number sequence: <br>Unique, Searchable
 
