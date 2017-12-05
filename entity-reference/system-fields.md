@@ -3,7 +3,7 @@ title: "System fields | Common Data Model"
 description: "A set of standard fields is included with every entity."
 author: "clwesene"
 manager: "robinarh"
-ms.date: "11/02/2016"
+ms.date: 12/04/2017
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -22,7 +22,7 @@ A set of standard fields is included with every entity. These fields are used to
 Field Name | Description
 ---|---
 RecordID | Type: BigInteger<br>Description: Uniquely identifies an instance of an entity.
-Created By (CreatedByUser) | Type: Text<br>Description: The RecordID of the user who created the entity instance.
+Created By (CreatedByUser) | Type: Text<br>Description: The unique identifier of the user who created the entity instance.
 Created Record Date (CreatedOnDateTime) | Type: DateTime<br>Description: The date and time when the entity instance was created.
-Last Modified By (LastModifiedByUser) | Type: Text<br>Description: The RecordID of the user who last modified the entity instance.
+Last Modified By (LastModifiedByUser) | Type: Text<br>Description: The unique identifier of the user who last modified the entity instance.
 Modified Record Date (LastModifiedDateTime) | Type: DateTime<br>Description: The date and time when the entity instance was last modified.
