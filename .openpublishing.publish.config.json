@@ -1,7 +1,6 @@
 {
   "build_entry_point": "docs",
   "need_generate_pdf": true,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "entity-reference",
@@ -36,10 +35,11 @@
     }
   ],
   "notification_subscribers": [
-    "robinr@microsoft.com"
+    "jdaly@microsoft.com"
   ],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -48,5 +48,7 @@
       "branch_mapping": {}
     }
   ],
-  "need_generate_pdf_url_template": false
+  "branch_target_mapping": {},
+  "need_generate_pdf_url_template": false,
+  "need_generate_intellisense": false
 }
