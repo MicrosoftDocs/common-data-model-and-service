@@ -3,4 +3,4 @@
 ## [Migration issues]
 
 
-# [Commond Data Service (Legacy)](/common-data-service/entity-reference/introduction.md)
+# [Commond Data Service (Legacy)](/common-data-service/entity-reference/introduction)
