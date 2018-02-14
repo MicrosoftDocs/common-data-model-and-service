@@ -1,1 +1,1 @@
-# [Index](index.md)
+# [Migrate to latest Common Data Service](migrate-latest-cds.md)
