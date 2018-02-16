@@ -22,7 +22,7 @@ description: Common Data Service documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hubs/common-data-service-isv.svg" alt="" />
+                                                        <img src="media/hub/common-data-service-getting-data.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -41,7 +41,7 @@ description: Common Data Service documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hubs/common-data-service-building.svg" alt="" />
+                                                        <img src="media/hub/common-data-service-building.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -60,7 +60,7 @@ description: Common Data Service documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hubs/common-data-service-getting-data.svg" alt="" />
+                                                        <img src="media/hub/common-data-service-isv.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
