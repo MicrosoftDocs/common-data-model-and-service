@@ -1,5 +1,5 @@
-# [Migrate to latest Commond Data Service](/common-data-service/migrate/migrate-latest-cds)
-# [Commond Data Service (Legacy)](introduction.md)
+# [Migrate to new Commond Data Service](/common-data-service/migrate/migrate-new-cds)
+# [Common Data Service (Legacy)](introduction.md)
 ## [Getting data into the Common Data Service](data-integration-home-page.md)
 ### [Dynamics 365 data integration](dynamics-365-integration.md)
 ## [Building apps with the Common Data Service](cds-sdk-home-page.md)
