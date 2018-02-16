@@ -16,7 +16,7 @@ description: Common Data Service documentation
                         <ul id="home-all" class="cardsC">
                             <p style="margin: -12px 0px 24px 12px">The Common Data Service is an Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
                             <li>
-                                <a href="/migrate/migrate-new-cds">
+                                <a href="/common-data-service/migrate/migrate-new-cds">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -26,7 +26,7 @@ description: Common Data Service documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Migrating to the new Common Data Service</h3>
+                                                    <h3>Migrate to the new Common Data Service</h3>
                                                     <p>Learn how to migrate from the legacy version to new version of Common Data Service.</p>
                                                 </div>
                                             </div>
@@ -45,7 +45,7 @@ description: Common Data Service documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Building Apps with the new Common Data Service</h3>
+                                                    <h3>Build Apps with the new Common Data Service</h3>
                                                     <p>Build compelling apps quickly with PowerApps, or with the new Common Data Service SDK.</p>
                                                 </div>
                                             </div>
@@ -54,7 +54,7 @@ description: Common Data Service documentation
                                 </a>
                             </li>
                             <li>
-                                <a href="/entity-reference/introduction">
+                                <a href="/common-data-service/entity-reference/introduction">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
