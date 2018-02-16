@@ -1,6 +1,6 @@
-# [Migrate to latest Common Data Service](migrate-latest-cds.md)
+# [Migrate to new Common Data Service](migrate-new-cds.md)
 ## [Get Started]
 ## [Migration issues]
 
 
-# [Commond Data Service (Legacy)](/common-data-service/entity-reference/introduction)
+# [Common Data Service (Legacy)](/common-data-service/entity-reference/introduction)
