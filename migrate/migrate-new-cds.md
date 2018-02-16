@@ -1,5 +1,5 @@
 ---
-title: "Migrate to latest Common Data Service | Microsoft Docs"
+title: "Migrate to new Common Data Service | Microsoft Docs"
 description: ""
 author: "KumarVivek"
 manager: "kvivek"
@@ -15,6 +15,6 @@ ms.reviewer: ""
 ms.author: "kvivek"
 ---
 
-# Migrate to latest Common Data Service
+# Migrate to new Common Data Service
 
 TODO: Add content here.

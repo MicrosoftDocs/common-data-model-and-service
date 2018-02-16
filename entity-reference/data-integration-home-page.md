@@ -1,5 +1,5 @@
 ---
-title: Getting Data into the Common Data Service  | Microsoft Docs
+title: Getting Data into the Common Data Service (Legacy)  | Microsoft Docs
 description: 
 author: "robinarh"
 manager: "robinarh"
@@ -15,7 +15,7 @@ ms.reviewer: robinr
 ms.author: robinr
 ---
 
-# Getting Data into the Common Data Service
+# Getting Data into the Common Data Service (Legacy)
 
 To be most useful and relevant to today's users, applications should let every user act on the same data. This capability is important, because it helps guarantee that all users see the latest (and correct) data, and can therefore make correct decisions and take any appropriate action that is required.
 
