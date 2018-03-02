@@ -17,7 +17,7 @@
    ms.date="05/30/2017"
    ms.author="kfend"/>
    
-# Column control in PowerApps
+# Column control in PowerApps (in CDS content)
 
 Provides the display experience for a single field in a [**Data table**](https://powerapps.microsoft.com/en-us/tutorials/control-data-table/) control.
 
