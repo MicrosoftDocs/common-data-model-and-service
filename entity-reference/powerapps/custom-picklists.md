@@ -18,6 +18,9 @@ ms.author: kfend
 
 ---
 # Create custom picklists
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 It's now possible to create your own picklists, in addition to the ones that are available out-of-the-box. Picklists, which are basically a named list of items that include a name and descriptions, are a simple concept. When the picklist fields are rendered, a drop-down menu that contains the display names of the items will appear. 
 
 Picklists are added by using the menu item, **Picklists** on the **Common Data Service** tab, under the **Entities** menu. Click the menu to view all of the picklists that are currently defined in your environment. Several commonly used picklists are already defined for you and can easily be identified by their type, **Standard**. The ones that you create for yourself are the type **Custom**.

@@ -17,6 +17,9 @@ ms.author: pvillads
 
 # Manipulate your data by using the Common Data Service SDK
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 > [!NOTE]
 > This feature is in preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
 

@@ -18,6 +18,9 @@ ms.author: kfend
 
 ---
 # Delete a custom entity
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 You can delete custom entities, but you can't delete standard entities.
 
 1. On [powerapps.com](https://web.powerapps.com), expand the **Common Data Service** section and click or tap **Entities** in the left navigation pane. You can filter the list of entities by typing one or more characters in the search bar above the list.

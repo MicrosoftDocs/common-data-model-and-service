@@ -16,3 +16,6 @@ ms.author: maertenm
 ---
 
 # Record-level security
+
+[!INCLUDE [](../includes/new-version.md)]
+

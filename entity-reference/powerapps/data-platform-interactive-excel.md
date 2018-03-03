@@ -18,6 +18,9 @@ ms.author: kfend
 
 ---
 # Open entity data in Excel
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 By opening entity data in Microsoft Excel, you can quickly and easily view and edit data by using the Microsoft PowerApps Excel Add-in. The PowerApps Excel Add-in requires Microsoft Excel 2016.
 
 > [!NOTE]

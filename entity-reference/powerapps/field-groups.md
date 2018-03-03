@@ -18,6 +18,9 @@ ms.author: aneesa
 
 ---
 # Use field groups
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 Field groups provide a way to group one or more fields of an entity. Field groups can help speed up and simplify the creation and maintenance of apps. A field group contains one or more fields, and a field can appear in any number of field groups. A field can't appear more than once in a field group.
 
 Field groups are stored on an entity and shared across all apps that use the same entity. At any given time, many different apps may use the same entity and field groups of that entity. This centralization and sharing of field groups helps enforce consistency, because a field group will always display the same fields wherever it's used. This makes maintenance easy because a change to a field group is automatically reflected in all the places using that field group. Field groups help speed up the app authoring and customization process because an application author works with groups of fields, rather than individual fields.
@@ -48,7 +51,7 @@ Common Data Service includes several default field groups on entities. These fie
 4. Click or tap the **Save** button.
 
 > [!NOTE]
-> Modifying field groups for [standard entities](../guided-learning/manage-data.yml#step-2) isn't currently supported, but you can modify field groups for your custom entities.*
+> Modifying field groups for standard entities isn't currently supported, but you can modify field groups for your custom entities.*
 
 ## Creating a field group
 Default field groups are automatically created when you create an entity. Creating additional field groups isn't currently supported.
@@ -66,7 +69,7 @@ Deleting a field group isn't currently supported.
 ## Field group usage
 The default field groups help speed up application authoring and customization. Some places where you can currently see field groups in action are:
 
-* **Entity form control** - Entity form control uses the default field groups to display dynamic forms that help speed up the app authoring process, help enforce consistency, and also ease maintenance. For more details, see [Use the Entity Form control](entity-form-control.md).
+* **Entity form control** - Entity form control uses the default field groups to display dynamic forms that help speed up the app authoring process, help enforce consistency, and also ease maintenance.
 * **Lookup control** - If one of the fields that you add on your screen is a reference to another linked entity, the field is rendered as a lookup control (picklist). When a user clicks the lookup control to select a record from the linked entity, the fields displayed are determined by the **DefaultLookup** field group on the linked entity. Only the first two fields of the **DefaultLookup** field group are used.
 * **Creating an app** - When you generate an app by choosing the option to create an app from data, the screens for the entity that you select are automatically created. The **Display form** control on the **Display** screen and the **Edit form** control on the **Edit** screen use the **DefaultDetails** field group to determine which fields will be added by default to those screens.
 

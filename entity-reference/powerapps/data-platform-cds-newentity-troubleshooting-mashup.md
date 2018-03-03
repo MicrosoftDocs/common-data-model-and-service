@@ -19,6 +19,9 @@ ms.author: millopis
 
 ---
 # Troubleshooting - Unable to create or retrieve a mashup for this database
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 When using the **New Entities from Data (Technical Preview)** feature, you might run into an error that looks like the following:
 
     *Unable to create or retrieve a mashup for the current database*

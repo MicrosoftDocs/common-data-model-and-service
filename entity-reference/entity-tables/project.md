@@ -12,8 +12,7 @@ keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: ""
 ---
-
-# Project reference 
+[!INCLUDE [](../../includes/new-version.md)]
 ## Project (Project) Entity 
 Project 
 

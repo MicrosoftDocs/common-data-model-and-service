@@ -12,8 +12,7 @@ keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: ""
 ---
-
-# Retail reference 
+[!INCLUDE [](../../includes/new-version.md)]
 ## RetailChannel (Retail channel) Entity 
 This entity is used to define the variety of channels that retailers use to drive a customer's shopping experience and the transactions that they have with each customer. examples of retail channels include retail stores, online stores, call centers, or mobile app stores. 
 

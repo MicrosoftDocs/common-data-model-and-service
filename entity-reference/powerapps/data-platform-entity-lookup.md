@@ -18,6 +18,9 @@ ms.author: kfend
 
 ---
 # Build a relationship between entities
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 Data in one entity often relates to data in another entity. For example, you might have a **Customers** entity and an **Orders** entity, and the **Orders** entity might have a lookup relation to the **Customers** entity to show which customer placed the order. You can use a lookup field to show data from the **Customers** entity for the customer who placed the order. For more information, see [Entity relationships and lookup fields](https://docs.microsoft.com/common-data-service/entity-reference/relationships).
 
 ## Define a relationship

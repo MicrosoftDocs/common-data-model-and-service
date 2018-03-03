@@ -18,6 +18,9 @@ ms.author: kfend
 
 ---
 # Manage custom fields
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 You can create and update one or more custom fields in any entity. When you create a custom field, you specify a set of properties, such as the field's name, its display name, and the type of data that it will contain. For more information, see [Enity field data types](https://docs.microsoft.com/common-data-service/entity-reference/field-data-types) and [Entity field properties](https://docs.microsoft.com/common-data-service/entity-reference/field-properties).
 
 > [!NOTE]

@@ -18,6 +18,9 @@ ms.author: kfend
 
 ---
 # Import or export data from the Common Data Service
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 You can move data into or out of the Common Data Service in one of two ways:
 
 * If you want to do a one-time bulk import or export of data, you can use Microsoft Excel for multiple entities.

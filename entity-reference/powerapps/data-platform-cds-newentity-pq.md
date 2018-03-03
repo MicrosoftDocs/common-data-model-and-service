@@ -19,6 +19,9 @@ ms.author: millopis
 
 ---
 # Create new entities in the Common Data Service (CDS) using Power Query
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 With the integration of **Power Query**, business app developers can create new entities in the Common Data Service (CDS) from a wide range of data sources.
 
 The **Common Data Service** lets users securely store and manage data within a set of standard and custom entities. An *entity* is a set of fields used to store data, similar to a table within a database. Once the data is stored in the Common Data Service, you can use **Microsoft PowerApps** to build rich applications that use the stored data.

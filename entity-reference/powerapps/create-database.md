@@ -18,7 +18,10 @@ ms.author: kfend
 
 ---
 # Create a Common Data Service database
-You can create a database and build apps by using Common Data Service as a data store. You can either create your own custom entities or use the predefined entities. To create a database, you first need to either create an environment, or be assigned to an existing environment as an administrator. In addition, you must be assigned the appropriate license. For information on purchasing a plan for using the Common Data Service, see [Pricing info](pricing-billing-skus.md).
+
+[!INCLUDE [](../../includes/new-version.md)]
+
+You can create a database and build apps by using Common Data Service as a data store. You can either create your own custom entities or use the predefined entities. To create a database, you first need to either create an environment, or be assigned to an existing environment as an administrator. In addition, you must be assigned the appropriate license.
 
 There are three ways to create a database:
 

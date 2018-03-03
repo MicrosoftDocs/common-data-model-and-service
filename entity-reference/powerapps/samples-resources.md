@@ -18,6 +18,9 @@ ms.author: kfend
 
 ---
 # Samples and other resources  for the Common Data Service
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 ## Samples
 There are several samples that use the Common Data Service. To find these samples, on [powerapps.com](https://web.powerapps.com), select **Home** in the navigation pane.
 

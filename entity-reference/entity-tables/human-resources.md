@@ -12,8 +12,7 @@ keywords: ""
 audience: "Developer, IT Pro"
 ms.assetid: "cfc1547f-38e5-4781-abf3-9c9da112c080"
 ---
-
-# Human resources reference 
+[!INCLUDE [](../../includes/new-version.md)]
 ## Employment (Employment) Entity 
 Employment information of a worker who has been hired by an organization. 
 

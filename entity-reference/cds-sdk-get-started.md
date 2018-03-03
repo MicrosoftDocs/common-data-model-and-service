@@ -17,6 +17,9 @@ ms.author: nimak
 
 # Get started with the Common Data Service SDK
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 > [!NOTE]
 > This feature is preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
 
@@ -33,6 +36,9 @@ There are four main steps:
 
 # Database acquisition
 
+
+
+
 Currently, the Common Data Service is available only through PowerApps. You must get access to a PowerApps environment and make sure that it contains a Common Data Service database. You can then configure the SDK to access that database.
 
 ## Prerequisites
@@ -48,6 +54,9 @@ After you acquire an environment that contains a database, you can use that envi
 + **Environment ID:** d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
 
 # Application registration
+
+
+
 
 To enable your application to access the Common Data Service, you must register your application in Azure AD. You can then establish an identity for your application and specify the permission level that it requires in order to access the APIs.
 
@@ -84,6 +93,9 @@ Follow these steps to register and configure an application in Azure AD.
     1. Repeat the preceding steps for **Windows Azure Service Management API**.
 
 # Console project creation and configuration
+
+
+
 
 You can skip most of this step if you choose to start from the sample console application that we provide. If you choose to start from scratch, you must create a new Visual Studio C# Console Application project and apply the Common Data Service SDK NuGet package. This step will add all assembly references that are required in order to start programming. You also add configuration values that you obtained in previous steps to the app.config file, so that the SDK works correctly.
 
@@ -136,6 +148,9 @@ For the private preview release, a project that is named SampleConsoleApplicatio
 Note that **Type** is set to **User** inside the opening **\<Credentials\>** tag. This value indicates that you will be prompted to sign in at startup. To save time by automating your sign-in, remove the **\<UserSource\>Prompt\</UserSource\>** XML element inside the **Credentials** element. This element and its value indicate that you will always be prompted at run time.
 
 # Programming and running the console application
+
+
+
 
 At this point, you can program against the APIs. You can then run and debug your application as you would run and debug any other .NET application. 
 
@@ -268,6 +283,9 @@ You can inspect these security tokens in more detail by decoding them at [jwt.io
 ```
 
 # Troubleshooting
+
+
+
 
 This section describes some common issues that are encountered and reported by consumers of this topic.
 

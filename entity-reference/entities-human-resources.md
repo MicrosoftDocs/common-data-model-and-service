@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # Human resources entities
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 The human resources entities let you manage employment information, jobs, leaves, and positions.
 
 ## Human resources ERD

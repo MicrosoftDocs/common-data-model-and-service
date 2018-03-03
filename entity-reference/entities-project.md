@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # Project entities
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 
 ## Project ERD
 
