@@ -14,6 +14,9 @@ ms.assetid: ""
 ---
 
 # Project reference 
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 ## Project (Project) Entity 
 Project 
 

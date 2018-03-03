@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # Entity relationships and lookup fields
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 ## Entity relationship diagrams
 
 For each entity group, there is an entity relationship diagram (ERD) that describes the entities and their relationships with each other. An entity is described by an entity object.

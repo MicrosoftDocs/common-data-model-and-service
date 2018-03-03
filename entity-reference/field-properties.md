@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # Entity field properties
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 Some field types have additional properties that affect what you can store in the field.
 
 Property | Applies To | Description

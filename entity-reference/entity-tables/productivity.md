@@ -14,6 +14,9 @@ ms.assetid: "8ed2fc48-8ee7-4279-823d-7690bf944add"
 ---
 
 # Productivity reference 
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 ## Event (Event) Entity 
 An event (appointment, meeting) within a users mailbox or related to data within the common data service. this entity is connect to the microsoft graph to retrieve mail box events. 
 

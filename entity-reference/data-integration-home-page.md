@@ -17,6 +17,9 @@ ms.author: robinr
 
 # Getting Data into the Common Data Service (Legacy)
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 To be most useful and relevant to today's users, applications should let every user act on the same data. This capability is important, because it helps guarantee that all users see the latest (and correct) data, and can therefore make correct decisions and take any appropriate action that is required.
 
 The Common Data Service makes it very easy for customers to bring their data together, so that all users and apps can act on it. The first feature in this space is the Prospect to Cash data integration, which is currently in preview. To learn more about the Prospect to Cash feature, see [Dynamics 365 data integration](dynamics-365-integration.md). That topic describes the capabilities, usage guidelines, and current limitations of the Microsoft Dynamics 365 data integration feature.

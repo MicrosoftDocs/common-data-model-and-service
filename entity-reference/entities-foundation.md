@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # Foundation entities
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 The foundation entities are used to drive other entities in the Common Data Model. They contain information that is relevant to nearly every other entity functional group.
 
 ## Foundation ERD

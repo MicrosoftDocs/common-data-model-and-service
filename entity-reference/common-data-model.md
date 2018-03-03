@@ -17,6 +17,9 @@ ms.author: robinr
 
 # Common data model overview
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 At the core of the  Common Data Service is the common data model.  The common data model comes pre-populated with many business entities that are useful across a variety of business and application domains.  These entities can be used by apps built atop the Common Data Service via PowerApps or the Common Data Service SDK, or by the integration capabilities that the Common Data Service provides customers.  The common data model is fully extensible - you can add fields to any of the entities that come with the Common Data Service, or create your own. The benefit of the common data model is that applications can work against data without needing to explicitly know where that data is coming from.  
 
 The common data model provides a rich and productive development platform through the following features: 

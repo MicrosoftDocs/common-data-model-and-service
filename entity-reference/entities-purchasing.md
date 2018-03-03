@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # Purchasing entities
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 The purchasing entities let you create purchasing solutions and track vendor invoices.
 
 ## Purchase order ERD

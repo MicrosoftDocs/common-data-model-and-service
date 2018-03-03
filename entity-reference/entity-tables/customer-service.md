@@ -14,6 +14,9 @@ ms.assetid: "ddd9b0a1-bd9e-46a9-bea0-ba021cf2f219"
 ---
 
 # Customer service reference 
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 ## Case (Case) Entity 
 A problem, question, or request encountered by a customer on a product, service, or interaction that requires support intervention. 
 

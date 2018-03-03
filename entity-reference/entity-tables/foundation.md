@@ -14,6 +14,9 @@ ms.assetid: "c06c0de3-404b-4b44-9d58-6f63760f2a24"
 ---
 
 # Foundation reference 
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 ## BusinessProfile (Business profile) Entity 
 A supporting set of attributes related to either an Account, Vendor, Lead, Partner or Opportunity. A business profile contains information sourced from a third party to validate data quality and support reporting and analytics. 
 

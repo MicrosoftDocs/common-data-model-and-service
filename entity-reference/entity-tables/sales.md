@@ -14,6 +14,9 @@ ms.assetid: "9ba908bd-88f9-4236-96be-401c9da4d3a2"
 ---
 
 # Sales reference 
+
+[!INCLUDE [](../../includes/new-version.md)]
+
 ## Account (Account) Entity 
 A person or organization that buys offered goods or services. 
 

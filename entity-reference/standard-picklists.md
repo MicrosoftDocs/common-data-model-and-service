@@ -17,6 +17,9 @@ ms.author: robinr
 
 # Standard picklists
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 Name | Values 
 ---|---
 AccountStatus | Active, Inactive 

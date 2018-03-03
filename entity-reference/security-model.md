@@ -17,6 +17,9 @@ ms.author: maertenm
 
 # Security model
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 The Common Data Service provides a security framework to help protect your data. You can control security for your data at several levels - at the database level, entity or now even record-level!  You can choose how to structure your security based on role memberships, Permission Sets and policies.  Read on to learn more about the ways you can secure your data.
 
 ## Database security

@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # Productivity entities
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 The productivity entities let you track events and messages.
 
 ## Productivity ERD

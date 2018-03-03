@@ -17,6 +17,9 @@ ms.author: nimak
 
 # Building apps with the Common Data Service 
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 An important goal for the Common Data Service is that app creators of all skill levels should be able to use it to quickly and easily create apps. We support several patterns for application creation, as shown in the following table.<p>
 
 | PowerApps | PowerApps, powered-up | Rich client apps | Web/SaaS apps |
