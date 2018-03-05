@@ -15,7 +15,7 @@ description: Common Data Service documentation
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <p style="margin: -12px 0px 24px 12px">The Common Data Service is an Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
-                            <li>
+                            <!--<li>
                                 <a href="/common-data-service/migrate/migrate-new-cds">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -33,7 +33,7 @@ description: Common Data Service documentation
                                         </div>
                                     </div>
                                 </a>
-                            </li>
+                            </li>-->
                             <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=848014">
                                     <div class="cardSize">
@@ -46,7 +46,7 @@ description: Common Data Service documentation
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Build Apps with the new Common Data Service</h3>
-                                                    <p>Build compelling apps quickly with PowerApps, or with the new Common Data Service SDK.</p>
+                                                    <p>Build compelling canvas or model-driven apps using PowerApps.</p>
                                                 </div>
                                             </div>
                                         </div>
