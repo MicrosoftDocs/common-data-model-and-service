@@ -46,7 +46,7 @@ description: Common Data Service documentation
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Build Apps with the new Common Data Service</h3>
-                                                    <p>Build compelling apps quickly with PowerApps, or with the new Common Data Service SDK.</p>
+                                                    <p>Build compelling canvas or model-driven apps using PowerApps.</p>
                                                 </div>
                                             </div>
                                         </div>
