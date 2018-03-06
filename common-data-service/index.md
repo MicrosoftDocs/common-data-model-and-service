@@ -1,12 +1,12 @@
 --- 
 layout: HubPage
 hide_bc: true
-title: Common Data Service Documentation | Microsoft Docs
-description: Common Data Service documentation
+title: Common Data Service for Apps Documentation | Microsoft Docs
+description: Common Data Service for Apps documentation
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Common Data Service</h1>
+        <h1>Common Data Service for Apps</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -14,7 +14,7 @@ description: Common Data Service documentation
                     <li>
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
-                            <p style="margin: -12px 0px 24px 12px">The Common Data Service is an Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
+                            <p style="margin: -12px 0px 24px 12px">Common Data Service for Apps (CDS Apps) is a Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
                             <!--<li>
                                 <a href="/common-data-service/migrate/migrate-new-cds">
                                     <div class="cardSize">
@@ -45,7 +45,7 @@ description: Common Data Service documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Build Apps with the new Common Data Service</h3>
+                                                    <h3>Build Apps with Common Data Service for Apps</h3>
                                                     <p>Build compelling canvas or model-driven apps using PowerApps.</p>
                                                 </div>
                                             </div>
@@ -139,18 +139,13 @@ description: Common Data Service documentation
         <h2>Learn more</h2>
         <ul class="links">
            <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=848017">
-                    Business Platform Home
+                <a href="https://powerapps.microsoft.com">
+                    PowerApps
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=848018">
-                    ISV homepage
-                </a>
-            </li>
-            <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=848019">
-                    Common Data Service Blog
+                <a href="https://flow.microsoft.com">
+                    Microsoft Flow
                 </a>
             </li>
             <li>

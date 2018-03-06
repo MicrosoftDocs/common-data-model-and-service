@@ -1,4 +1,3 @@
-# [Migrate to new Common Data Service](/common-data-service/migrate/migrate-new-cds)
 # [Common Data Service (Legacy)](introduction.md)
 ## [Getting data into the Common Data Service (Legacy)](data-integration-home-page.md)
 ### [Dynamics 365 data integration](dynamics-365-integration.md)
