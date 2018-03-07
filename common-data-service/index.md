@@ -1,7 +1,7 @@
 --- 
 layout: HubPage
 hide_bc: true
-title: Common Data Service Documentation | Microsoft Docs
+title: Common Data Service for Apps Documentation | Microsoft Docs
 description: Common Data Service documentation
 ---
 <div id="main" class="v2">
@@ -14,9 +14,9 @@ description: Common Data Service documentation
                     <li>
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
-                            <p style="margin: -12px 0px 24px 12px">The Common Data Service is an Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
+                            <p style="margin: -12px 0px 24px 12px">Common Data Service for Apps is a Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
                             <li>
-                                <a href="/common-data-service/migrate/migrate-new-cds">
+                                <a href="/common-data-service/upgrade/introduction-upgrade-cds">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -26,8 +26,8 @@ description: Common Data Service documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Migrate to the new Common Data Service</h3>
-                                                    <p>Learn how to migrate from the legacy version to new version of Common Data Service.</p>
+                                                    <h3>Upgrade to the Common Data Service for Apps</h3>
+                                                    <p>Learn how to upgrade from the legacy version of Common Data Service to Common Data Service for Apps.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -45,7 +45,7 @@ description: Common Data Service documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Build Apps with the new Common Data Service</h3>
+                                                    <h3>Build Apps with Common Data Service for Apps</h3>
                                                     <p>Build compelling canvas or model-driven apps using PowerApps.</p>
                                                 </div>
                                             </div>
@@ -64,7 +64,7 @@ description: Common Data Service documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Legacy Common Data Service</h3>
+                                                    <h3>Common Data Service</h3>
                                                     <p>Information about the legacy version of Common Data Service.</p>
                                                 </div>
                                             </div>
