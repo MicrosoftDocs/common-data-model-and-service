@@ -139,18 +139,13 @@ description: Common Data Service documentation
         <h2>Learn more</h2>
         <ul class="links">
            <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=848017">
-                    Business Platform Home
+                <a href="https://powerapps.microsoft.com">
+                    PowerApps
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=848018">
-                    ISV homepage
-                </a>
-            </li>
-            <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=848019">
-                    Common Data Service Blog
+                <a href="https://flow.microsoft.com">
+                    Microsoft Flow
                 </a>
             </li>
             <li>
