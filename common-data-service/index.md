@@ -14,7 +14,7 @@ description: Common Data Service for Apps documentation
                     <li>
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
-                            <p style="margin: -12px 0px 24px 12px">Common Data Service for Apps (CDS Apps) is a Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
+                            <p style="margin: -12px 0px 24px 12px">Common Data Service for Apps is a Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
                             <!--<li>
                                 <a href="/common-data-service/migrate/migrate-new-cds">
                                     <div class="cardSize">
@@ -35,7 +35,7 @@ description: Common Data Service for Apps documentation
                                 </a>
                             </li>-->
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=848014">
+                                <a href="/powerapps/model-driven-apps">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
