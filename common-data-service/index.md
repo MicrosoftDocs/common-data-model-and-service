@@ -2,11 +2,11 @@
 layout: HubPage
 hide_bc: true
 title: Common Data Service for Apps Documentation | Microsoft Docs
-description: Common Data Service documentation
+description: Common Data Service for Apps documentation
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Common Data Service</h1>
+        <h1>Common Data Service for Apps</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -26,7 +26,7 @@ description: Common Data Service documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Upgrade to the Common Data Service for Apps</h3>
+                                                    <h3>Upgrade to Common Data Service for Apps</h3>
                                                     <p>Learn how to upgrade from the legacy version of Common Data Service to Common Data Service for Apps.</p>
                                                 </div>
                                             </div>
@@ -35,7 +35,7 @@ description: Common Data Service documentation
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=848014">
+                                <a href="/powerapps/model-driven-apps">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -64,7 +64,7 @@ description: Common Data Service documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Common Data Service</h3>
+                                                    <h3>Legacy Common Data Service</h3>
                                                     <p>Information about the legacy version of Common Data Service.</p>
                                                 </div>
                                             </div>
