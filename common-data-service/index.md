@@ -35,7 +35,7 @@ description: Common Data Service for Apps documentation
                                 </a>
                             </li>-->
                             <li>
-                                <a href="/powerapps/model-driven-apps">
+                                <a href="/powerapps/maker/common-data-service/data-platform-intro">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
