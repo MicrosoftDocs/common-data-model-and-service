@@ -28,7 +28,7 @@ The data integration feature enables the flow of data between Microsoft Dynamics
 
 The data integration feature is available to customers who have at least one Dynamics 365 product.
 
-If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
+<!--If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).-->
 
 ## See also
 [Dynamics 365 Data Integration](dynamics-365-integration.md)

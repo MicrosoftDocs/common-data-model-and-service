@@ -20,8 +20,8 @@ ms.author: nimak
 [!INCLUDE [](../includes/new-version.md)]
 
 
-> [!NOTE]
-> This feature is preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
+<!-- [!NOTE]
+> This feature is preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com). -->
 
 ## Overview
 
