@@ -15,7 +15,7 @@ ms.assetid: "b332c83a-cd81-41c0-8ca5-4cd8da77cccf"
 
 # Purchasing reference 
 
-[!INCLUDE [](../../includes/new-version.md)]
+[!INCLUDE [](../../includes/new-version-cdm.md)]
 
 ## PurchaseOrder (Purchase order) Entity 
 An offer for a commercial engagement issued by the company to a vendor to make a purchase. 

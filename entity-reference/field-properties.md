@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Entity field properties
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 Some field types have additional properties that affect what you can store in the field.

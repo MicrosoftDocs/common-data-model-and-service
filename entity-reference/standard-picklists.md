@@ -17,7 +17,7 @@ ms.author: robinr
 
 # Standard picklists
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 Name | Values 

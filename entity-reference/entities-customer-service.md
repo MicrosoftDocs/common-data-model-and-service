@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Customer service entities
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 The customer service entities manage issues from your customers, including tracking, escalation, and documentation.

@@ -15,7 +15,7 @@ ms.assetid: "cb6723ce-88d9-4e54-81a0-2f532965d3be"
 
 # Person, organization, and group reference 
 
-[!INCLUDE [](../../includes/new-version.md)]
+[!INCLUDE [](../../includes/new-version-cdm.md)]
 
 ## Alumnus (Alumnus) Entity 
 A graduate of a school. 

@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Entity relationships and lookup fields
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 ## Entity relationship diagrams

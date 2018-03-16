@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Entity versioning
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 Entities created with the common data model during the Public Preview will be not be supported when the Common Data Service (Version 1.0) is released. While in some cases there are no or minor changes, other areas have undergone a more significant change based on the feedback received during the preview.

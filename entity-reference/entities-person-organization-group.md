@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Person, organization, and group entities
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 The people, organizations, and groups entities encompass a rich set of people and organizations that you might interact with, including employees, contractors, donors, volunteers, fans, alumni, and families.

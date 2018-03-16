@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> This topic is about the legacy version of Common Data Model, which is deprecated. For information about the new Common Data Model, see [Common Data Model Overview](/powerapps/common-data-model/overview).

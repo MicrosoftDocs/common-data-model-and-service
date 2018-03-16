@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Entity field data types
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 The following table describes the data types that are used in the entities.
