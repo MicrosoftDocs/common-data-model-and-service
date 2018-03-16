@@ -3,7 +3,7 @@ title: "Manipulate your data by using the Common Data Service SDK | Microsoft Do
 description: ""
 author: "pvillads"
 manager: "robinarh"
-ms.date: "07/07/2017"
+ms.date: "03/21/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
