@@ -17,7 +17,7 @@ ms.author: pvillads
 
 # Manipulate your data by using the Common Data Service SDK
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cds-sdk.md)]
 
 
 <!-- [!NOTE]
