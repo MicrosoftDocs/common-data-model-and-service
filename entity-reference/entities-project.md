@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Project entities
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 

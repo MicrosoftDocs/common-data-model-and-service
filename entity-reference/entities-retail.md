@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Retail entities
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 

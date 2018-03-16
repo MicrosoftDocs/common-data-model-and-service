@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Purchasing entities
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 The purchasing entities let you create purchasing solutions and track vendor invoices.

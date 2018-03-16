@@ -3,7 +3,7 @@ title: "Get started with the Common Data Service SDK | Microsoft Docs"
 description: ""
 author: "nimakms"
 manager: "robinarh"
-ms.date: "05/15/2017"
+ms.date: "03/21/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -17,7 +17,7 @@ ms.author: nimak
 
 # Get started with the Common Data Service SDK
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cds-sdk.md)]
 
 
 <!-- [!NOTE]

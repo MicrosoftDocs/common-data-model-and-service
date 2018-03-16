@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> The preview program for the Common Data Service SDK has ended. For information about building apps using the Common Data Service for Apps, see [Common Data Service for Apps](/powerapps/maker/common-data-service/data-platform-intro).

@@ -17,7 +17,7 @@ ms.author: clwesene
 
 # Productivity entities
 
-[!INCLUDE [](../includes/new-version.md)]
+[!INCLUDE [](../includes/new-version-cdm.md)]
 
 
 The productivity entities let you track events and messages.
