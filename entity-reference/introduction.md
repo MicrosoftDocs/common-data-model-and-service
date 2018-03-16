@@ -1,5 +1,5 @@
 ---
-title: "Common Data Service and Common Data Model overview (Legacy)  | Common Data Model"
+title: "Common Data Service and Common Data Model overview (Previous Version)  | Common Data Model"
 description: "The Common Data Service is the Microsoft Azure–based business application model and storage mechanism for the Microsoft business application platform."
 author: "clwesene"
 manager: "robinarh"
@@ -15,7 +15,7 @@ ms.reviewer: robinr
 ms.author: clwesene
 ---
 
-# Common Data Service (Legacy)
+# Common Data Service (Previous Version)
 
 [!INCLUDE [](../includes/new-version.md)]
 

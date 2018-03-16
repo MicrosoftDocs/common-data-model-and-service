@@ -1,5 +1,5 @@
 ---
-title: Getting Data into the Common Data Service (Legacy)  | Microsoft Docs
+title: Getting Data into the Common Data Service (Previous Version)  | Microsoft Docs
 description: 
 author: "robinarh"
 manager: "robinarh"
@@ -15,7 +15,7 @@ ms.reviewer: robinr
 ms.author: robinr
 ---
 
-# Getting Data into the Common Data Service (Legacy)
+# Getting Data into the Common Data Service (Previous Version)
 
 [!INCLUDE [](../includes/new-version.md)]
 

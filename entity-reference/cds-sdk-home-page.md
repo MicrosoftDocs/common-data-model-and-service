@@ -1,5 +1,5 @@
 ---
-title: "Building apps with the Common Data Service | Microsoft Docs"
+title: "Building apps with the Common Data Service (Previous Version)| Microsoft Docs"
 description: "The Common Data Service helps all types of users create apps with the Common Data Service."
 author: "nimakms"
 manager: "robinarh"
@@ -15,7 +15,7 @@ ms.reviewer: robinr
 ms.author: nimak
 ---
 
-# Building apps with the Common Data Service 
+# Building apps with the Common Data Service (Previous Version)
 
 [!INCLUDE [](../includes/new-version.md)]
 

@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> This topic is about the legacy version of Common Data Service, which is deprecated. For information about the new Common Data Service for Apps, see [Common Data Service for Apps](/powerapps/maker/common-data-service/data-platform-intro).
+> This topic is about the previous version of Common Data Service. For information about the new Common Data Service for Apps, see [Common Data Service for Apps](/powerapps/maker/common-data-service/data-platform-intro).

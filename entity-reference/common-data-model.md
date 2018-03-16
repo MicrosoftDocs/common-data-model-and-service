@@ -1,5 +1,5 @@
 ---
-title: "Common Data Model home page  | Microsoft Docs"
+title: "Common Data Model home page (Previous Version) | Microsoft Docs"
 description: "The common data model comes pre-populated with many business entities that are useful across a variety of business and application domains."
 author: "robinarh"
 manager: "robinarh"
@@ -15,7 +15,7 @@ ms.reviewer: robinr
 ms.author: robinr
 ---
 
-# Common data model overview
+# Common data model overview (Previous Version)
 
 [!INCLUDE [](../includes/new-version-cdm.md)]
 
