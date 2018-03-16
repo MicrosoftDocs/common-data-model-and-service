@@ -15,7 +15,7 @@ ms.reviewer: robinr
 ms.author: robinr
 ---
 
-# Trustworthy Platform (Legacy)
+# Trustworthy Platform
 
 [!INCLUDE [](../includes/new-version.md)]
 
