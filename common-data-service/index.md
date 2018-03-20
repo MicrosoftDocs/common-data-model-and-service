@@ -1,6 +1,7 @@
 --- 
 layout: HubPage
 hide_bc: true
+ms.topic: hub-page
 title: Common Data Service Documentation | Microsoft Docs
 description: Common Data Service documentation
 ---
