@@ -17,6 +17,9 @@ ms.author: robinr
 
 # Trustworthy Platform
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 The Common Data Service provides a security framework to help protect your data. All applications that use the Common Data Service, such as Microsoft PowerApps, Microsoft Power BI, and Microsoft Flow, are subject to the security that is defined in the security framework.
 
 Common Data Service security is based on role-based security. Data in the Common Data Service can be secured at several levels:

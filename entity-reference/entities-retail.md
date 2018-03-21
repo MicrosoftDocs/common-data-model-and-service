@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # Retail entities
 
+[!INCLUDE [](../includes/new-version-cdm.md)]
+
+
 
 
 ## Retail ERD

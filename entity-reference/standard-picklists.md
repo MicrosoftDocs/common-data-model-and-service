@@ -17,6 +17,9 @@ ms.author: robinr
 
 # Standard picklists
 
+[!INCLUDE [](../includes/new-version-cdm.md)]
+
+
 Name | Values 
 ---|---
 AccountStatus | Active, Inactive 
