@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # System fields
 
+[!INCLUDE [](../includes/new-version-cdm.md)]
+
+
 A set of standard fields is included with every entity. These fields are used to provide behaviors such as concurrency management, security, and audit trails.
 
 Field Name | Description

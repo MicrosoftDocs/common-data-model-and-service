@@ -3,7 +3,7 @@ title: "Get started with the Common Data Service SDK by using Azure Functions | 
 description: ""
 author: "nimakms"
 manager: "robinarh"
-ms.date: "05/15/2017"
+ms.date: "03/21/2017"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -17,8 +17,11 @@ ms.author: nimak
 
 # Get started with the Common Data Service SDK by using Azure Functions
 
-> [!NOTE]
-> This feature is preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
+[!INCLUDE [](../includes/new-version-cds-sdk.md)]
+
+
+<!-- [!NOTE]
+> This feature is preview. If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).-->
 
 ## Overview
 
@@ -37,6 +40,9 @@ In addition, you can use the Azure Function from a PowerApps application. There 
 
 # Database acquisition
 
+
+
+
 Currently, the Common Data Service is available only through PowerApps. You must get access to a PowerApps environment and make sure that it contains a database. You can then configure the SDK to access that database.
 
 ## Prerequisites
@@ -52,6 +58,9 @@ After you acquire an environment that contains a database, you can use that envi
 + **Environment ID:** d1ec10fa-74d5-44e5-b0f7-e448e3ca7509
 
 # Application registration
+
+
+
 
 To give your Azure Function access to the Common Data Service, you must register applications of the **Web app / API** type in Azure AD. You can then establish an identity for your applications and specify the permission level that they require in order to access the APIs. You must also register the applications that call the Azure Function. In this topic, we will use a simple console application to call into the Azure Function. For this step, we will require a **Native application** registration. Later, as an advanced step, we will configure a PowerApps Custom connector to call the Azure Function. For this step, we will have to register another **Web app / API** application. In order for the end-to-end flow to work correctly, all these apps will have to be configured in Azure AD so that they have correct **Required permissions** and **known client applications** values.
 
@@ -178,6 +187,9 @@ For seamless propagation of the required permissions to clients, set up known cl
 
 # Azure Function creation, configuration and programming
 
+
+
+
 You can create and configure your [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) from the web portal. There you will be able to use the CDS CSharp Functions template, and configure the Common Data Service for authentication, and target environment.
 
 ## Prerequisites
@@ -249,6 +261,9 @@ Update the template code:
 1. Click **Save** at the top of the pane.
 
 # Console client app creation and configuration
+
+
+
 
 ## Prerequisites
 
@@ -365,6 +380,9 @@ Configure the target environment and security setting of the app by replacing th
 **Note:** If you see log errors that are related to assembly loading, see "Assembly load issue after you publish to Azure" in the "Troubleshooting" section, later in this topic. 
 
 # Advanced: PowerApps Custom API creation and configuration
+
+
+
 In order for the Azure Function to be called from an app, it must first be wrapped by a Custom connector that defines its API structure and authentication settings.
 
 Prepare the [swagger](http://swagger.io/) file that defines your Azure Function by copying the following content to a .json file and modifying the **host** and **default code** values. To get these values, open the Azure Function edit page, and click **Copy function URL** in the upper right.
@@ -437,6 +455,9 @@ Now you can create a cusom API to match the Azure Function from previous step.
     1. You should see an authorization page asking you to **Accept** terms of the app, including permissions to access CDS on your behalf. 
 
 # Advanced - PowerApps app building and testing 
+
+
+
 The created custom API can be used to call the Azure Function from an app. You can create the app and configure a button control to connect with the custom API inside PowerApps Studio. Then you can also test calling the function from PowerApps Player. 
 
 1. Create an app
@@ -459,6 +480,9 @@ The created custom API can be used to call the Azure Function from an app. You c
     1. Click **Update**, and note that the **Description** field of that record is updated. 
 
 # Troubleshooting
+
+
+
 
 This section provides information about the issues that are most commonly encountered and reported by consumers of this topic.
 

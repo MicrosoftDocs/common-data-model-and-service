@@ -17,6 +17,9 @@ ms.author: clwesene
 
 # Naming conventions
 
+[!INCLUDE [](../includes/new-version-cdm.md)]
+
+
 To provide a consistent experience across objects, and to improve discoverability and usability, the common data model follows these naming conventions:
 
 * Entity names are singular. Examples: Tenant, Family, SalesOrder.
