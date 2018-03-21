@@ -3,7 +3,7 @@ title: "Trustworthy Platform | Microsoft Docs"
 description: "Security home page"
 author: "robinarh"
 manager: "robinarh"
-ms.date: "05/03/2017"
+ms.date: "03/21/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -16,6 +16,9 @@ ms.author: robinr
 ---
 
 # Trustworthy Platform
+
+[!INCLUDE [](../includes/new-version.md)]
+
 
 The Common Data Service provides a security framework to help protect your data. All applications that use the Common Data Service, such as Microsoft PowerApps, Microsoft Power BI, and Microsoft Flow, are subject to the security that is defined in the security framework.
 

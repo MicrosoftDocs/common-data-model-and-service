@@ -1,9 +1,9 @@
 ---
-title: Getting Data into the Common Data Service (Legacy)  | Microsoft Docs
+title: Getting Data into the Common Data Service (Previous Version)  | Microsoft Docs
 description: 
 author: "robinarh"
 manager: "robinarh"
-ms.date: "04/24/2017"
+ms.date: "03/21/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -15,7 +15,10 @@ ms.reviewer: robinr
 ms.author: robinr
 ---
 
-# Getting Data into the Common Data Service (Legacy)
+# Getting Data into the Common Data Service (Previous Version)
+
+[!INCLUDE [](../includes/new-version.md)]
+
 
 To be most useful and relevant to today's users, applications should let every user act on the same data. This capability is important, because it helps guarantee that all users see the latest (and correct) data, and can therefore make correct decisions and take any appropriate action that is required.
 
@@ -25,7 +28,7 @@ The data integration feature enables the flow of data between Microsoft Dynamics
 
 The data integration feature is available to customers who have at least one Dynamics 365 product.
 
-If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).
+<!--If you are interested in participating in the preview program, contact us at [cdspreviewprogs_at_microsoft.com](mailto:cdspreviewprogs@microsoft.com).-->
 
 ## See also
 [Dynamics 365 Data Integration](dynamics-365-integration.md)

@@ -3,7 +3,7 @@ title: "MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS MICROSOFT COMMON DATA SERVI
 description: 
 author: "robinarh"
 manager: "robinarh"
-ms.date: "03/24/2017"
+ms.date: "03/21/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -14,6 +14,8 @@ ms.assetid: "ce210584-8c62-4f68-b7af-fb655ed2f436"
 ms.reviewer: robinr
 ms.author: robinr
 ---
+
+[!INCLUDE [](../includes/new-version-cds-sdk.md)]
 
 **MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS MICROSOFT COMMON DATA SERVICE SOFTWARE DEVELOPMENT KIT**
 

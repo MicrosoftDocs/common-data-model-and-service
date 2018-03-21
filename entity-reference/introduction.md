@@ -1,9 +1,9 @@
 ---
-title: "Common Data Service and Common Data Model overview (Legacy)  | Common Data Model"
+title: "Common Data Service and Common Data Model overview (Previous Version)  | Common Data Model"
 description: "The Common Data Service is the Microsoft Azure–based business application model and storage mechanism for the Microsoft business application platform."
 author: "clwesene"
 manager: "robinarh"
-ms.date: "11/02/2016"
+ms.date: "03/21/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -15,10 +15,10 @@ ms.reviewer: robinr
 ms.author: clwesene
 ---
 
-# Common Data Service (Legacy)
+# Common Data Service (Previous Version)
 
-> [!IMPORTANT]
-> This is the legacy version of Common Data Service. For information about new version of Common Data Service, see [ADD TOPIC LINK].
+[!INCLUDE [](../includes/new-version.md)]
+
 
 The Common Data Service is the Microsoft Azure–based business application platform that enables you to easily build and extend applications with their business data.  The Common Data Service does the heavy lifting of bringing together your data from across the Dynamics 365 family of services so you can focus on building and delivering the apps, insights and process automation that matter to you and your customers with PowerApps, Power BI, and Microsoft Flow.   
  

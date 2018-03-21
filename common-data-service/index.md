@@ -33,9 +33,9 @@ description: Common Data Service for Apps documentation
                                         </div>
                                     </div>
                                 </a>
-                            </li>
+                            </li>-->
                             <li>
-                                <a href="/powerapps/model-driven-apps">
+                                <a href="/powerapps/maker/common-data-service/data-platform-intro">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -64,8 +64,8 @@ description: Common Data Service for Apps documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Legacy Common Data Service</h3>
-                                                    <p>Information about the legacy version of Common Data Service.</p>
+                                                    <h3>Common Data Service</h3>
+                                                    <p>Information about the previous version of Common Data Service.</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -16,3 +16,6 @@ ms.author: cgarty
 ---
 
 # Outlook Add-in
+
+[!INCLUDE [](../includes/new-version.md)]
+

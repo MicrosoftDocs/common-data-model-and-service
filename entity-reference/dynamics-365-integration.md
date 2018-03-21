@@ -3,7 +3,7 @@ title: Dynamics 365 data integration  | Microsoft Docs
 description: The Dynamics 365 data integration feature enable the flow of data between Dynamics 365 for Sales, Dynamics 365 for Finance and Operations Enterprise Edition, and other products through the Common Data Service.
 author: sabinn-msft
 manager: robinarh
-ms.date: "07/23/2017"
+ms.date: "03/21/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -18,12 +18,18 @@ ms.author: sabinn
 
 # Dynamics 365 Data Integration
 
+[!INCLUDE [](../includes/new-version.md)]
+
+
 The Dynamics 365 Data Integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Finance and Operations Enterprise Edition, and other products through Common Data Service. For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Finance and Operations Enterprise Edition. You don’t have to manually move the data or use a third-party data integration tool. This document describes the capabilities, usage guidelines, and current limitations of the Data Integration feature, particulary with respect to the prospect-to-cash scenario.
 
 > [!NOTE]
 > The Data Integration feature is available to customers who have Dynamics 365 for Finance and Operations.
 
 # Concepts
+
+
+
 
 Before you use the Data Integration feature, you should be aware of some important concepts. The following illustration shows the main services and relationships that are involved in Data Integration.
 
@@ -142,6 +148,9 @@ The **Execution History** tab provides a dashboard where you can currently view 
 
 # Preparing the Common Data Service
 
+
+
+
 In a production Common Data Service database, organization records should already exist. Then, in your integration project, you just need to specify which organization you want to use. However, if you are just testing the Data integrator or if you want to prepare a Common Data Service for more general use, you may need to delete all of the sample data. To do this:
 
 1. Go to the [PowerApps site](https://web.powerapps.com).
@@ -163,6 +172,9 @@ If you are starting with an empty database, you will need to create an organizat
 
 
 # Running a Data Integration project
+
+
+
 
 ## Prerequisites
 
@@ -305,6 +317,9 @@ If your project does not have all of the attributes you wish to map, you can add
 To run a project, click **Sync Now** in the upper-right corner. After a project has started synchronization, click the **Scheduling** tab to monitor the progress of the project.
 
 # Common errors and debugging your project
+
+
+
 
 Below is a checklist of items you can use to make sure things are working correctly.
 
