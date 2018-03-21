@@ -33,7 +33,7 @@ description: Common Data Service for Apps documentation
                                         </div>
                                     </div>
                                 </a>
-                            </li>-->
+                            </li>
                             <li>
                                 <a href="/powerapps/maker/common-data-service/data-platform-intro">
                                     <div class="cardSize">
