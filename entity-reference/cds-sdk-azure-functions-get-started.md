@@ -3,7 +3,7 @@ title: "Get started with the Common Data Service SDK by using Azure Functions | 
 description: ""
 author: "nimakms"
 manager: "robinarh"
-ms.date: "03/21/2017"
+ms.date: "03/21/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"

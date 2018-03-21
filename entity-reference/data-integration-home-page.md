@@ -3,7 +3,7 @@ title: Getting Data into the Common Data Service (Previous Version)  | Microsoft
 description: 
 author: "robinarh"
 manager: "robinarh"
-ms.date: "04/24/2017"
+ms.date: "03/21/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
