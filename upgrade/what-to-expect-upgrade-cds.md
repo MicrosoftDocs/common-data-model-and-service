@@ -49,7 +49,7 @@ There are several differences in the latest release of CDS for Apps that you sho
 - [Unit of Measure (UoM)](#unit-of-measure-uom)
 - [Organization Striping](#organization-striping)
 - [Image](#image)
-- [Complex data type](#complex-data-types) 
+- [Complex data types](#complex-data-types) 
 
 ### Some entities won't be upgraded
 
