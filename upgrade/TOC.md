@@ -1,9 +1,8 @@
 # [Upgrade to Common Data Services for Apps](introduction-upgrade-cds.md)
 ## [Get started with the database upgrade](get-started.md)
-## [Troubleshoot issues with database upgrade](troubleshoot-issues-db-upgrade.md)
+## [What to expect on upgrading](what-to-expect-upgrade-cds.md)
 ## [PowerApps Maker: Upgrade apps](upgrade-powerapps.md)
 ## [Microsoft Flows Maker: Upgrade flows](upgrade-flows.md)
-
 
 
 # [Common Data Service (Legacy)](/common-data-service/entity-reference/introduction)
