@@ -1,8 +1,8 @@
 ---
 title: "What to expect on upgrading to CDS for Apps | Microsoft Docs"
-description: "The topic provides information about things you might want to know and consider when upgrading from previous version of Common Data Service (CDS) to CDS for Apps"
+description: "The topic provides information about things to expect and consider when upgrading from previous version of Common Data Service (CDS) to CDS for Apps."
 author: "KumarVivek"
-manager: "robinarh"
+manager: "kvivek"
 ms.date: "05/15/2018"
 ms.topic: "topic"
 ms.prod: ""
@@ -85,7 +85,7 @@ These entities have been deprecated and won't be upgraded.
 
 The names of most attribute data types have changed during the upgrade process. In most cases, though, the underlying behavior of the data types themselves hasn’t changed significantly.
 
-<table>
+<table width="60%">
     <tbody>
         <tr>
             <td width="13    0" valign="top">
@@ -503,7 +503,7 @@ For more information on security concepts in CDS for Apps, see
 
 Some system fields will be different after the upgrade.
 
-<table>
+<table width="60%">
 <tbody>
 <tr>
 <td width="123">
@@ -565,12 +565,11 @@ Some system fields will be different after the upgrade.
 <p>ModifiedBy</p>
 </td>
 <td width="259">
-<p>&nbsp;Not upgraded. Will display the system account that was used to run the upgrade process.</p>
+<p>Not upgraded. Will display the system account that was used to run the upgrade process.</p>
 </td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
 
 For more information on the behavior of these system fields on import, see [Import auditing data
 ](https://docs.microsoft.com/dynamics365/customer-engagement/developer/run-data-import#import-auditing-data).
