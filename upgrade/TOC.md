@@ -4,4 +4,4 @@
 ## [PowerApps Maker: Upgrade apps](upgrade-powerapps.md)
 ## [Microsoft Flows Maker: Upgrade flows](upgrade-flows.md)
 
-# [Common Data Service (Legacy)](/common-data-service/entity-reference/introduction)
+# [Common Data Service (Previous Version)](/common-data-service/entity-reference/introduction)
