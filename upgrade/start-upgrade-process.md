@@ -87,45 +87,24 @@ To start upgrading your database to the latest CDS for Apps: 
 3.  On the **Upgrade** page, select the language and currency of the database,
     and then select **Create test database**.  
 
-    [Create test database](media/create-test-database.png)
+    ![Create test database](media/create-test-database.png)
 
->   C:\\Users\\kvivek\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\6BC7F560.tmp
+    A test database with the latest version of CDS for Apps is created. You can view the schema of the new database during the creation process, as shown in the following example. 
 
->    
+    ![Database schema](media/db-schema.png)
 
- 
+After the test database is created, the environment looks like the following:  
 
->   A test database with the latest version of CDS for Apps is created. You can
->   view the schema of this new database during the creation process, as shown
->   in the following example. 
+![After database upgrade](media/after-db-upgrade.png)
 
->   [./media/image6.png](./media/image6.png)
-
->   C:\\Users\\kvivek\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\5048E26E.tmp
-
->    
-
->    After the test database is created, the environment looks like the
->   following:  
-
->   [./media/image2.png](./media/image2.png)
-
->   C:\\Users\\kvivek\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\9BA668AC.tmp
-
->    
-
-Next step
----------
+## Next step
 
 Verify that the apps and flows are working as expected with the test database on
 the latest version of CDS for Apps. 
 
->   You can view all changes that occurred during creation of the test database,
->   including the following information:   
+You can view all changes that occurred during creation of the test database, including any errors that occurred while copying data from the original database to the test database.  
 
--   Any errors that occurred while copying data from the original database to
-    the test database.  
+![Errors during database upgrade](media/error-db-upgrade.png)
 
->   [./media/image7.png](./media/image7.png)
-
->   C:\\Users\\kvivek\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\E8324F9A.tmp
+> [!div class="nextstepaction"]
+> [Step 2: Upgrade and verify your apps and flows](upgrade-verify-apps-flows.md)

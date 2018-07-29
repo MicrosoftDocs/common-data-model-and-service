@@ -18,11 +18,9 @@ ms.author: kitabriz
 
 The previous version of Common Data Service was enhanced and released as **Common Data Service (CDS) for Apps** in March 2018 to offer significant new capabilities such as server-side logic, improved app-building experience, and a solid extensibility platform (based on the proven Dynamics 365 xRM platform) for developers and ISVs. More information: [New features in the Common Data Service for Apps and PowerApps Spring Update](https://powerapps.microsoft.com/en-us/blog/cds-for-apps-march/).
 
-To use the new capabilities in CDS for Apps, existing users on the previous version of Common Data Service can upgrade to the latest CDS for Apps. The upgrade process involves following three steps: 
-1. Start upgrading your database to CDS for Apps 
-2. Upgrade and verify your apps and flows with the new CDS for Apps database 
-3. Complete your database upgrade 
+To use the new capabilities in CDS for Apps, existing users on the previous version of Common Data Service can upgrade to the latest CDS for Apps. 
 
-### Next step
+## Next steps
 
-There are things that you should expect or be aware of when upgrading your previous version of Common Data Service to CDS for Apps: [What to expect on upgrading](what-to-expect.md).
+- [Overview of the upgrade process](upgrade-overview.md): Provides overview of the steps involved in the upgrade process.
+- [What to expect on upgrading](what-to-expect.md): Provides information about things to expect when upgrading your previous version of Common Data Service to CDS for Apps.

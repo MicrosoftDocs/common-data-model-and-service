@@ -74,6 +74,8 @@ Apps.  
     expected, the administrator can then proceed to the final upgrade step (Step
     3). 
 
+More information: [Step 2: Upgrade and verify your apps and flows](upgrade-verify-apps-flows.md)
+
 ## Step 3: Complete the database upgrade
 
 During this step, the database is upgraded to the latest version. This is the

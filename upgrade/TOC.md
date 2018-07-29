@@ -1,8 +1,8 @@
 # [Upgrade to Common Data Services for Apps](introduction-upgrade-cds.md)
-## [What to expect on upgrading](what-to-expect.md)
 ## [Overview of the upgrade process](upgrade-overview.md)
+## [What to expect on upgrading](what-to-expect.md)
 ## [Step 1: Start upgrade process](start-upgrade-process.md)
-## [PowerApps Maker: Upgrade apps](upgrade-powerapps.md)
-## [Microsoft Flows Maker: Upgrade flows](upgrade-flows.md)
+## [Step 2: Upgrade and verify your apps and flows](upgrade-verify-apps-flows.md)
+## [Step 3: Complete upgrade process](complete-upgrade-process.md)
 
 # [Common Data Service (Previous Version)](/common-data-service/entity-reference/introduction)
