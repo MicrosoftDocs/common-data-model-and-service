@@ -27,7 +27,7 @@ description: Common Data Service for Apps documentation
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Upgrade to Common Data Service for Apps</h3>
-                                                    <p>Learn how to upgrade from the legacy version of Common Data Service to Common Data Service for Apps.</p>
+                                                    <p>Learn how to upgrade from the previous version of Common Data Service to Common Data Service for Apps.</p>
                                                 </div>
                                             </div>
                                         </div>
