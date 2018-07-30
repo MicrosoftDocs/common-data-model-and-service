@@ -52,6 +52,8 @@ At the end of the Step 1, the environment looks like this:  
 
 ![After database upgrade](media/after-db-upgrade.png)
 
+More information: [Step 1: Start upgrade process for your existing database to CDS for Apps](start-upgrade-process.md)
+
 ## Step 2: Upgrade and verify the apps and flows to work with test database
 
 In step 1, a copy of the apps and flows connecting to the current
@@ -91,3 +93,9 @@ final step; the process is irreversible at this point.  
 -   Apps and flows will now work with the latest version of the database.
 
 -   The test database is deleted. 
+
+More information: [Step 3: Complete the upgrade process for your existing database to CDS for Apps](complete-upgrade-process.md)
+
+## Next step
+
+[What to expect on upgrading to CDS for Apps](what-to-expect.md)

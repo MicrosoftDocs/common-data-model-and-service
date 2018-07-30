@@ -257,4 +257,4 @@ Contact, and User.
 
 ## Next step
 
-[Overview of the upgrade process](upgrade-overview.md)
+[Step 1: Start upgrade process for your existing database to CDS for Apps](start-upgrade-process.md)

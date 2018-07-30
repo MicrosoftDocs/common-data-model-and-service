@@ -115,3 +115,5 @@ remove the “[Upgraded]” prefix from the new flow.
 
 ## Next step
 
+> [!div class="nextstepaction"]
+> [Step 3: Complete the upgrade process](complete-upgrade-process.md)
