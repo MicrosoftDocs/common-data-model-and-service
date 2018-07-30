@@ -77,11 +77,11 @@ closely with admins. 
 
     Warning signs indicate all the errors, including any that existed before the upgrade. 
 
-    ![App upgrade warnings](media/app-upgrade-warnings.jpeg)
+    ![App upgrade warnings](media/app-upgrade-warnings.png)
 
 1.  After correcting the errors, save the app. 
 
-    ![Save upgraded app](./media/save-upgraded-app.jpeg)
+    ![Save upgraded app](media/save-upgraded-app.png)
 
 1.  Run the app and verify that it works as required.  
 
