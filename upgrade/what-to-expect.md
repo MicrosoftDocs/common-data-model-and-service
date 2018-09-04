@@ -189,7 +189,9 @@ For more information on security concepts in CDS for Apps, see [Security
 concepts](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-concepts).
 
 ### System fields
-
+Currency code
+is set at the row level. The monetary value and exchange rate to the base
+currency are also stored for each currency field.
 Some system fields will be different after the upgrade.
 
 | **Previously**   | **Common Data Service for Apps** |  |
@@ -216,9 +218,7 @@ a warning will be logged.
 
 Previously, every currency field was represented by two fields: currency code
 and monetary value. These codes and values are upgraded as is. Support for
-currency in CDS for Apps going forward is significantly different. Currency code
-is set at the row level. The monetary value and exchange rate to the base
-currency are also stored for each currency field. For more information about
+currency in CDS for Apps going forward is significantly different. In CDS for Apps, each currency field contains the migrated currency code, monetary value, but also contains a base currency and exchange rate. For more information about
 currency support in CDS for Apps, see [Using currency
 fields](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/types-of-fields#BKMK_UsingCurrencyFields).
 
