@@ -67,7 +67,7 @@ process before initiating the upgrade. 
 
 The upgrade process consists of three steps as described later. Only the third
 step involves downtime for the database as well as the apps and flows connecting
-to it. 
+to it. We encourage admins to communciate to users when step 3 is planned to be executed. 
 
 ## Start the database upgrade process
 
