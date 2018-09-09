@@ -97,7 +97,7 @@ To make the flow-upgrade process seamless, you will find that the affected flows
 have already been cloned and prefixed with the word "[Upgraded]". To ensure that
 your flows are upgraded correctly, do the following:
 
-1.  Navigate to the **Microsoft Flow Portal** and select the environment in
+1.  Navigate to the Microsoft Flow Portal and select the environment in
     which your CDS database is being upgraded.
 
 2.  Edit the "[Upgraded]" flow to ensure that the flow definition looks
@@ -112,6 +112,22 @@ remove the “[Upgraded]” prefix from the new flow.
 
 > [!NOTE]
 > You will receive an email informing you that the upgrade process is complete.
+
+## Step 2.3: Update your apps to use upgraded flows
+
+After your apps and flows are upgraded, the upgraded app will still be pointing to the old flow. You will need to configure your upgraded app to use the upgraded flow.
+
+![Flow upgrade report](media/flow-upgrade-message.png)
+
+To update your app to point to your upgraded flow, do the following:
+
+1. Within your updated app, you will see that in the rule bar, it shows that the button is still referring to the old flow (for example: **EmailCDSentities**). Select **Action** > **Flows** to open the right pane. You will notice that both the old and upgraded flows are visible.
+    ![Upgrade flows](media/upgrade-flow-01.png)
+
+1.  Select the upgraded flow to update the rule. 
+    ![Use the upgraded flow](media/upgrade-flow-02.png)
+
+1.  Test and validate your flow.
 
 ## Next step
 

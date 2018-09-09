@@ -18,7 +18,11 @@ ms.author: kitabriz
 
 The previous version of Common Data Service was enhanced and released as **Common Data Service (CDS) for Apps** in March 2018 to offer significant new capabilities such as server-side logic, improved app-building experience, and a solid extensibility platform (based on the proven Dynamics 365 xRM platform) for developers and ISVs. More information: [New features in the Common Data Service for Apps and PowerApps Spring Update](https://powerapps.microsoft.com/en-us/blog/cds-for-apps-march/).
 
-To use the new capabilities in CDS for Apps, existing users on the previous version of Common Data Service can upgrade to the latest CDS for Apps. 
+To use the new capabilities in CDS for Apps, existing users on the previous version of Common Data Service can upgrade to the latest CDS for Apps.
+
+## Support end date: previous version of CDS 
+All users of the previous version of CDS must upgrade by October 31, 2018. After this date, the previous version of CDS won't be supported.
+ 
 
 ## Next steps
 
