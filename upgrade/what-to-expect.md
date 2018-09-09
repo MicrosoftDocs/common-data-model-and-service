@@ -3,7 +3,7 @@ title: "What to expect on upgrading to CDS for Apps | Microsoft Docs"
 description: "The topic provides information about things to expect and consider when upgrading from previous version of Common Data Service to CDS for Apps."
 author: "kitabriz"
 manager: "annbe"
-ms.date: "05/15/2018"
+ms.date: "09/10/2018"
 ms.topic: "topic"
 ms.prod: ""
 ms.service: "CommonDataService"
@@ -198,7 +198,7 @@ Some system fields will be different after the upgrade.
 |------------------|----------------------------------|--|
 | **Field Name**   | **Field Name**                   | **Mapping Notes**                                                                                                                                                                                                                                             |
 | CreatedDateTime  | OverriddenCreatedOn              | Set to the value from the previous release of CDS. **CreatedOn** value will reflect when the upgrade process was run.                                                                                                                                         |
-| CreatedBy        | CreatedOnBehalfBy                | **CreatedOnBehalfBy** is set to the value from the previous release of CDS. **CreatedBy** will reflect the system account used to run the upgrade process. If the user from CDS 1.0 cannot be synced, it will be replaced by the intenral service account used to run the upgrade. |
+| CreatedBy        | CreatedOnBehalfBy                | **CreatedOnBehalfBy** is set to the value from the previous release of CDS. **CreatedBy** will reflect the system account used to run the upgrade process. If the user from previous version of CDS cannot be synced, it will be replaced by the internal service account used to run the upgrade. |
 | ModifiedDateTime | ModifiedOn                       | Not upgraded. Will display the date and time when the upgrade process was run.                                                                                                                                                                                |
 | ModifiedBy       | ModifiedBy                       | Not upgraded. Will display the system account that was used to run the upgrade process.                                                                                                                                                                       |
 
