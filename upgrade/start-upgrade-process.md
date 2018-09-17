@@ -45,17 +45,7 @@ production database. 
 
 ### Can I upgrade databases in any environment? 
 
-You can upgrade databases in any environment *except* the following: 
-
--   Default environment 
-
--   Developer environment 
-
--   Environments in a region other than your Azure Active Directory default
-    region 
-
-The ability to upgrade databases in these environments should be available
-soon. 
+You can upgrade databases in any environment except the **Default** environment. The ability to upgrade databases in this environment will be available soon.
 
 ### Can I cancel the upgrade process once it’s initiated? 
 
