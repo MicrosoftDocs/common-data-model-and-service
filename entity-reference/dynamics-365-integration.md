@@ -19,7 +19,7 @@ ms.author: sabinn
 # Dynamics 365 Data Integration (Legacy content)
 
 > [!IMPORTANT]
-> This topic is about the previous version of Common Data Service, and is no longer updated or maintained.<br/>For the latest information about the Dynamics 365 Data Integration feature, see this topic: [Integrate data into Common Data Service for Apps](/powerapps/administrator/data-integrator).
+> This is a legacy topic that is no longer updated or maintained.<br/>For the latest information about the Dynamics 365 Data Integration feature, see this topic: [Integrate data into Common Data Service for Apps](/powerapps/administrator/data-integrator).
 
 
 The Dynamics 365 Data Integration feature enables the flow of data between Dynamics 365 for Sales, Dynamics 365 for Finance and Operations Enterprise Edition, and other products through Common Data Service. For example, customer information in Microsoft Dynamics 365 for Sales can flow to Microsoft Dynamics 365 for Finance and Operations Enterprise Edition. You don’t have to manually move the data or use a third-party data integration tool. This document describes the capabilities, usage guidelines, and current limitations of the Data Integration feature, particulary with respect to the prospect-to-cash scenario.
