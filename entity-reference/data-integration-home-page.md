@@ -17,7 +17,8 @@ ms.author: robinr
 
 # Getting Data into the Common Data Service (Previous Version)
 
-[!INCLUDE [](../includes/new-version.md)]
+> [!IMPORTANT]
+> This topic is about the previous version of Common Data Service, and is no longer updated or maintained.<br/>For the latest information, see this topic: [Integrate data into Common Data Service for Apps](/powerapps/administrator/data-integrator).
 
 
 To be most useful and relevant to today's users, applications should let every user act on the same data. This capability is important, because it helps guarantee that all users see the latest (and correct) data, and can therefore make correct decisions and take any appropriate action that is required.
