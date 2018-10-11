@@ -122,9 +122,11 @@ After your apps and flows are upgraded, the upgraded app will still be pointing 
 To update your app to point to your upgraded flow, do the following:
 
 1. Within your updated app, you will see that in the rule bar, it shows that the button is still referring to the old flow (for example: **EmailCDSentities**). Select **Action** > **Flows** to open the right pane. You will notice that both the old and upgraded flows are visible.
+
     ![Upgrade flows](media/upgrade-flow-01.png)
 
-1.  Select the upgraded flow to update the rule. 
+1.  Select the upgraded flow to update the rule.
+
     ![Use the upgraded flow](media/upgrade-flow-02.png)
 
 1.  Test and validate your flow.
