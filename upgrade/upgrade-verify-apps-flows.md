@@ -40,7 +40,7 @@ Here is a sample email that users receive: 
 The email asking to verify apps lists all the apps in the environment where the
 user has edit permissions.
 
-> [!]IMPORTANT]
+> [!IMPORTANT]
 > App makers play a key role of updating and verifying the apps and should work
 closely with admins. 
 
