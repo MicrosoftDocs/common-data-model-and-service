@@ -20,8 +20,9 @@ The previous version of Common Data Service was enhanced and released as **Commo
 
 To use the new capabilities in CDS for Apps, existing users on the previous version of Common Data Service can upgrade to the latest CDS for Apps.
 
-## Support end date: previous version of CDS 
-All users of the previous version of CDS must upgrade by October 31, 2018. After this date, the previous version of CDS won't be supported.
+<!-- ## Support end date: previous version of CDS
+
+All users of the previous version of CDS must upgrade by TBD. After this date, the previous version of CDS won't be supported. -->
  
 
 ## Next steps

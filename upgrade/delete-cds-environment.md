@@ -15,14 +15,14 @@ ms.author: jdaly
 ---
 # Delete your previous version Common Data Service environment
 
-Now that the new Common Data Service for Apps is available you can choose one of the following:
+Now that the new Common Data Service for Apps is available you must choose one of the following:
 
 - Upgrade your previous version of CDS to CDS for Apps.
 - Delete your previous version CDS environment and create a new CDS for Apps environment.
 
 If you have business data and apps currently using the previous version of CDS, or if you have any Apps or flows as part of your environment, you should follow the steps described in [Overview of the upgrade process](upgrade-overview.md).
 
-If you don't have any important business data in your CDS database and you have no other Apps or Flows created for the environment, you can choose to simply delete the entire environment and request a new CDS for Apps environment. For example, if you were just evaluating the previous version of CDS, this may be the easiest option for you.
+If you don't have any important business data in your CDS database and you have no other Apps or Flows created for the environment, you can choose to simply delete the entire environment and request a new environment with a  CDS for Apps database. If you were just evaluating the previous version of CDS, this may be the easiest option for you.
 
 > [!WARNING]
 > Deleting an environment will delete all Apps and Flows defined for the environment. If you want to preserve the Apps and Flows, you must upgrade your environment.
@@ -32,7 +32,7 @@ If you don't have any important business data in your CDS database and you have 
 
 ## Step 1 : Verify that the environment is for the previous version of CDS
 
-1. Go to [https://admin.powerapps.com/environments](https://admin.powerapps.com/environments) you can view a list of the environments available to you.
+1. Go to [https://admin.powerapps.com/environments](https://admin.powerapps.com/environments) to view a list of the environments available to you.
 
 2. Select an environment and open it. An environment with the previous version of CDS will look like this:
 
