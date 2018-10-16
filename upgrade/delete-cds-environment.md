@@ -32,20 +32,20 @@ If you don't have any important business data in your CDS database and you have 
 
 ## Step 1 : Verify that the environment is for the previous version of CDS
 
-When you go to [https://admin.powerapps.com/environments](https://admin.powerapps.com/environments) you can view a list of the environments available to you.
+1. Go to [https://admin.powerapps.com/environments](https://admin.powerapps.com/environments) you can view a list of the environments available to you.
 
-Select an environment and open it. An environment with the previous version of CDS will look like this:
+2. Select an environment and open it. An environment with the previous version of CDS will look like this:
 
-![previous version CDS environment](media/previous-version-cds-environment.png)
+    ![previous version CDS environment](media/previous-version-cds-environment.png)
 
-You will find the following tabs: 
+    You will find the following tabs: 
 
-- **Details**
-- **Security**
-- **Resources**
-- **Database**
+    - **Details**
+    - **Security**
+    - **Resources**
+    - **Database**
 
-Environments using CDS for Apps will not have a **Database** tab and they will have an **Environment type** value set to **Dynamics365Instance**
+    Environments using CDS for Apps will not have a **Database** tab and they will have an **Environment type** value set to **Dynamics365Instance**
 
 ## Step 2 : Verify that the environment has no Apps or Flows you want to keep
 
@@ -78,4 +78,6 @@ Environments using CDS for Apps will not have a **Database** tab and they will h
 
     ![delete icon](media/delete-icon.png)
 
-<!-- And I get an error -->
+## Step 4: Create a new CDS for Apps environment
+
+Follow the instructions in [Create an environment](/powerapps/administrator/create-environment) to create a new environment with a CDS for Apps database.
