@@ -1,7 +1,7 @@
 ---
 title: "Complete the upgrade process for your existing database to CDS for Apps | Microsoft Docs"
 description: "Provides information on how to publish CDS for Apps database upgrade."
-author: "kitabriz"
+author: "JimDaly"
 manager: "annbe"
 ms.date: "09/10/2018"
 ms.topic: "article"
@@ -11,7 +11,7 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "IT Pro"
 ms.reviewer: kvivek
-ms.author: kitabriz
+ms.author: jdaly
 ---
 
 # Step 3: Complete the upgrade process for your existing database to CDS for Apps

@@ -1,7 +1,7 @@
 ---
 title: "What to expect on upgrading to CDS for Apps | Microsoft Docs"
 description: "The topic provides information about things to expect and consider when upgrading from previous version of Common Data Service to CDS for Apps."
-author: "kitabriz"
+author: "JimDaly"
 manager: "annbe"
 ms.date: "09/10/2018"
 ms.topic: "topic"
@@ -12,7 +12,7 @@ keywords: "Common Data Service for Apps, CDS for Apps, Upgrade"
 audience: "Administrator"
 ms.assetid: "26e8323d-8d74-480b-8180-870180e7bcd8"
 ms.reviewer: kvivek
-ms.author: kitabriz
+ms.author: jdaly
 ---
 
 # What to expect on upgrading to CDS for Apps

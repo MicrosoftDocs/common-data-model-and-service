@@ -1,7 +1,7 @@
 ---
 title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
-author: "kitabriz"
+author: "JimDaly"
 manager: "annbe"
 ms.date: "09/10/2018"
 ms.topic: "article"
@@ -11,7 +11,7 @@ ms.technology: "CommonDataService"
 keywords: ""
 audience: "IT Pro"
 ms.reviewer: kvivek
-ms.author: kitabriz
+ms.author: jdaly
 ---
 
 # Step 1: Start upgrade process for your existing database to CDS for Apps
