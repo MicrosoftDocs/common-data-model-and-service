@@ -1,1 +1,0 @@
-# Welcome to common-data-model!
