@@ -9,4 +9,4 @@ ms.author: robruc
 ms.reviewer:
 ---
 
-# What is Common Data Model (CDM}?
+# What is Common Data Model (CDM)?
