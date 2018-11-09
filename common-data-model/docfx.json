@@ -35,12 +35,13 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/common-data-service/upgrade/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "breadcrumb_path": "/common-data-model/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "upgrade",
+    "dest": "common-data-model",
     "markdownEngineName": "markdig"
   }
 }
