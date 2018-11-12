@@ -50,11 +50,11 @@ Whatever your intent, the CDM puts your data into a common format so that you ca
 
 ### Resources for CDS for Apps
 
-- [What is CDS for Apps?](../maker/common-data-service/data-platform-intro.md)
-- [Add data to an entity in CDS for Apps by using Power Query](../maker/common-data-service/data-platform-cds-newentity-pq.md)
-- [Introduction to solutions](../developer/common-data-service/introduction-solutions.md)
-- [Build a model-driven app](../maker/model-driven-apps/model-driven-app-overview.md)
-- [Build a canvas app](../maker/canvas-apps/getting-started.md)
+- [What is CDS for Apps?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+- [Add data to an entity in CDS for Apps by using Power Query](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
+- [Introduction to solutions](https://docs.microsoft.com/powerapps/developer/common-data-service/introduction-solutions)
+- [Build a model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- [Build a canvas app](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)
 - [Create a flow that uses CDS for Apps](https://docs.microsoft.com/flow/common-data-model-intro)
 
 ## Power BI
