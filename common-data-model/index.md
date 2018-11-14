@@ -11,11 +11,15 @@ ms.author: robruc
 
 # What is the Common Data Model?
 
-If you’ve ever run into challenges with data that’s *nearly* the same or that *should* work together (and then spent significant effort transforming fields and tables to work with your other data), you know that common data elements can save effort, streamline development, and enable faster analytics. The Common Data Model (CDM) can provide these capabilities and more with products and services such PowerApps, Power BI, Dynamics 365, and Azure, storing data in conformance with the CDM. 
+If you’ve ever run into challenges with data that’s *nearly* the same or that *should* work together (and then spent significant effort transforming fields and tables to work with your other data), you know that common data elements can save effort, streamline development, and enable faster analytics. The Common Data Model (CDM) can provide these capabilities and more with products and services such as PowerApps, Power BI, Dynamics 365, and Azure, storing data in conformance with the CDM. 
 
-The CDM is a standardized, modular, and extensible collection of data schemas that Microsoft published to help you to build, use, and analyze data. This collection of predefined schemas consists of entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of those schemas. More information: [CDM repo on GitHub](https://aka.ms/cdmrepo)
+The CDM is a standardized, modular, and extensible collection of data schemas that Microsoft published to help you build, use, and analyze data. This collection of predefined schemas consists of entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of those schemas. More information: [CDM repo on GitHub](https://aka.ms/cdmrepo)
 
-![Common Data Model](media/cdm-entities.png)
+
+<!--editor's note: In the Healthcare block of this image, "assessment" is misspelled (it's missing an 's'). Is it possible to correct that?-->
+
+
+![Common Data Model](media/cdm-entities.png "Common Data Model")
 
 More information: [CDM poster](https://aka.ms/cdmposter)
 
@@ -57,7 +61,7 @@ based on CDM schemas. These examples show how organizations use the CDM:
 
 - **Common Data Service (CDS) for Apps**, which supports Dynamics and PowerApps, stores data in conformance with the CDM definition. In fact, many of the original business entities in the CDM came from Dynamics offerings, such as Dynamics 365 for Sales and Dynamics 365 for Marketing.
 
-- **Industry verticals** such as healthcare are working closely with Microsoft to extend the CDM to their specific business concepts, such as **Patient** and **Care Plan**. That way, users can can share data and build services so partners can easily exchange data, create interoperable apps and services, and create quick analytics that are easy to share.
+- **Industry verticals** such as healthcare are working closely with Microsoft to extend the CDM to their specific business concepts, such as **Patient** and **Care Plan**. That way, users can share data and build services so partners can easily exchange data, create interoperable apps and services, and create quick analytics that are easy to share.
 
 ## Next step
 
