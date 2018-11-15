@@ -11,11 +11,11 @@ ms.author: robruc
 
 # How to use the Common Data Model
 
-With the Common Data Model (CDM), you can put your data into formats that represent concepts and activities that are commonly used and well understood. That way, you can query that data, reuse it, and interoperate with other businesses and apps that use the same format. This strategy matches that of, for example, manufacturers who produce AA batteries that fit in most remote controls. The CDM defines the size and shape of, for example, a **Contact** so that your app developers and business partners can parse that data and build your apps (or interoperate) with agility and confidence. The CDM is an open-source definition of standard entities and a metadata system that enable consistency of data and its meaning across apps and business processes.
+With the Common Data Model (CDM), you can put your data into formats that represent concepts and activities that are commonly used and well understood. That way, you can query that data, reuse it, and interoperate with other businesses and apps that use the same format. This strategy matches that of, for example, manufacturers who produce AA batteries that fit in most remote controls. The CDM defines the size and shape of a **Contact**, for example, so that your app developers and business partners can parse that data and build your apps (or interoperate) with agility and confidence. The CDM is an open-source definition of standard entities and a metadata system that enable consistency of data and its meaning across apps and business processes.
 
 Today, the CDM is used within Common Data Service (CDS) for Apps, which supports Dynamics and PowerApps, and the data-preparation capabilities in Power BI to create schematized files in Azure Data Lake.
 
-![Common Data Model with CDS for Apps](media/cdm-with-cds.png)
+![Common Data Model with CDS for Apps](media/cdm-with-cds.png "Common Data Model with CDS for Apps")
 
 You can use the CDM and CDS for Apps in these ways:
 
@@ -34,9 +34,9 @@ care, can benefit from the CDM and the platforms that support it.
 
 ## Data integration and Power Query Online
 
-Both platforms that currently support CDM also offer data-integration experiences through Power Query Online that allow users to bring in data from a variety of sources, transform it if necessary, and then map it to standard entities in the CDM or create custom entities. Power Query Online leverages the same visual, self-service data-prep experience as Power Query within Excel and Power BI Desktop, so existing users can ramp up quickly.
+Both platforms that currently support the CDM also offer data-integration experiences through Power Query Online that allow users to bring in data from a variety of sources, transform it if necessary, and then map it to standard entities in the CDM or create custom entities. Power Query Online leverages the same visual, self-service data-prep experience as Power Query within Excel and Power BI Desktop, so existing users can ramp up quickly.
 
-![Map data with entities in CDM](media/cdm-map-entities.png)
+![Map data with entities in CDM](media/cdm-map-entities.png "Map data with entities in CDM")
 
 ## Common Data Service for Apps
 
@@ -44,7 +44,7 @@ By using CDS for Apps, you can jumpstart apps using the CDM with business logic,
 
 - **Leverage packaged business applications**: Many Microsoft Dynamics solutions and third-party apps are built on top of (or at least leverage) CDS for Apps. When your data is in the CDM, you can take advantage of those packaged applications.
 
-- **Gain access to customized solutions**: Developers who understand and work with data in the CDM format have created an ecosystem of extensions and complete apps. For more information, see [introduction to solutions](https://docs.microsoft.com/powerapps/developer/common-data-service/introduction-solutions).
+- **Gain access to customized solutions**: Developers who understand and work with data in the CDM format have created an ecosystem of extensions and complete apps. For more information, see [Introduction to solutions](https://docs.microsoft.com/powerapps/developer/common-data-service/introduction-solutions).
 
 Whatever your intent, the CDM puts your data into a common format so that you can use, share, and analyze it more easily.
 
@@ -64,14 +64,14 @@ You can use the dataflows feature of Power BI to ingest data into the CDM from D
 > [!NOTE]
 > The dataflows functionality is in preview, and is subject to change and updates prior to general availability.
 
-Similar to how spreadsheets handle recalculations for all affected formulas, dataflows manage changes for an entity or data element on your behalf, automating updates, and alleviating what used to be tedious and time consuming logic checks for even a basic data refresh. With dataflows and a few clicks, analysts and report creators can handle tasks that once required data scientists to oversee (and many hours or days to complete).
+Similar to how spreadsheets handle recalculations for all affected formulas, dataflows manage changes for an entity or data element on your behalf, automating updates, and alleviating what used to be tedious and time-consuming logic checks for even a basic data refresh. With dataflows and a few clicks, analysts and report creators can handle tasks that once required data scientists to oversee (and many hours or days to complete).
 
 Organizations can incorporate dataflows in these ways, among others, to suit their needs:
 
 - Customize standard entities and create their own.
 - Create dataflows programmatically with custom definition files (model.json).
 - Leverage powerful Azure products such as Azure Machine Learning, Azure Databricks, and Azure Data Factory.
-- Add CSV data from Azure Blob Storage.
+- Add CSV data from Azure Blob storage.
 - Enjoy more storage, more frequent refreshes, incremental refresh, and computed and linked entities with Power BI Premium.
 
 ### Resources for Power BI
