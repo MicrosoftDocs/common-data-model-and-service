@@ -57,9 +57,9 @@ Whatever your intent, the CDM puts your data into a common format so that you ca
 - [Build a canvas app](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)
 - [Create a flow that uses CDS for Apps](https://docs.microsoft.com/flow/common-data-model-intro)
 
-## Power BI
+## Power BI Dataflows
 
-You can use the dataflows feature of Power BI to ingest data into the CDM from Dynamics 365, Salesforce, Azure SQL Database, Excel, SharePoint, or another source. You create and manage dataflows in app workspaces by using the Power BI service, and the data itself is stored as entities in the CDM in Azure Data Lake Storage Gen2.
+You can use the dataflows feature of Power BI to ingest data into the CDM form from Dynamics 365, Salesforce, Azure SQL Database, Excel, SharePoint, or another source. You create and manage dataflows in app workspaces by using the Power BI service. Once you've connected and prepared your data, you can choose to map it to a CDM standard entity or load it as a custom entity in CDM form in Azure Data Lake Storage Gen2.
 
 > [!NOTE]
 > The dataflows functionality is in preview, and is subject to change and updates prior to general availability.
