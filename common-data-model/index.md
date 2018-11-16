@@ -57,7 +57,7 @@ based on CDM schemas. These examples show how organizations use the CDM:
 
 - **Common Data Service (CDS) for Apps**, which supports Dynamics and PowerApps, stores data in conformance with the CDM definition. In fact, many of the original business entities in the CDM came from Dynamics offerings, such as Dynamics 365 for Sales and Dynamics 365 for Marketing.
 
-- **Industry verticals** such as healthcare are working closely with Microsoft to extend the CDM to their specific business concepts, such as **Patient** and **Care Plan** through [Industry Accelerators](industry-accelerators). That way, users can can share data and build services so partners can easily exchange data, create interoperable apps and services, and create quick analytics that are easy to share.
+- **Industry verticals** such as healthcare are working closely with Microsoft to extend the CDM to their specific business concepts, such as **Patient** and **Care Plan** through [Industry Accelerators](industry-accelerators.md). That way, users can can share data and build services so partners can easily exchange data, create interoperable apps and services, and create quick analytics that are easy to share.
 
 - **Power BI Dataflows** allows you to ingest data into the CDM form from a variety of sources such as Dynamics 365, Salesforce, Azure SQL Database, Excel, or SharePoint. Once you've connected and prepared your data, you can choose to map it to a CDM standard entity or load it as a custom entity in CDM form in Azure Data Lake Storage Gen2.
 
