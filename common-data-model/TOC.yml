@@ -6,6 +6,6 @@
   - name: Industry Accelerators
     href: industry-accelerators.md
       - name: Healthcare Accelerator
-      - href: health-accelerator.md
+        href: health-accelerator.md
       - name: Higher Education Accelerator
-      - href: hied-accelerator.md
+        href: hied-accelerator.md
