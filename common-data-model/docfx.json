@@ -37,7 +37,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/common-data-model/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "titleSuffix": "Common Data Model"
     },
     "fileMetadata": {},
     "template": [],
