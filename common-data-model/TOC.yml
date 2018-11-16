@@ -5,7 +5,8 @@
     href: use-common-data-model.md
   - name: Industry Accelerators
     href: industry-accelerators.md
+    items:
       - name: Healthcare Accelerator
         href: health-accelerator.md
-      - name: Higher Education Accelerator
+      - name: Higher-Education Accelerator
         href: hied-accelerator.md
