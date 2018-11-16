@@ -15,10 +15,6 @@ If you’ve ever run into challenges with data that’s *nearly* the same or tha
 
 The CDM is a standardized, modular, and extensible collection of data schemas that Microsoft published to help you build, use, and analyze data. This collection of predefined schemas consists of entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of those schemas. More information: [CDM repo on GitHub](https://aka.ms/cdmrepo)
 
-
-<!--editor's note: In the Healthcare block of this image, "assessment" is misspelled (it's missing an 's'). Is it possible to correct that?-->
-
-
 ![Common Data Model](media/cdm-entities.png "Common Data Model")
 
 More information: [CDM poster](https://aka.ms/cdmposter)
