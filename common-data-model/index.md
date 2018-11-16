@@ -1,15 +1,15 @@
 ---
-title: What is the Common Data Model | Microsoft Docs
+title: The Common Data Model | Microsoft Docs
 description: "Common Data Model is a standardized, modular, and extensible collection of data schemas that Microsoft published to help you build, use, and analyze data."
-author: RobertBruckner
+author: TheresaPalmer
 ms.service: powerapps
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 07/24/2018
-ms.author: robruc
+ms.date: 11/16/2018
+ms.author: tpalmer
 ---
 
-# What is the Common Data Model?
+# The Common Data Model
 
 If you’ve ever run into challenges with data that’s *nearly* the same or that *should* work together (and then spent significant effort transforming fields and tables to work with your other data), you know that common data elements can save effort, streamline development, and enable faster analytics. The Common Data Model (CDM) can provide these capabilities and more with products and services such PowerApps, Power BI, Dynamics 365, and Azure, storing data in conformance with the CDM. 
 
@@ -57,7 +57,9 @@ based on CDM schemas. These examples show how organizations use the CDM:
 
 - **Common Data Service (CDS) for Apps**, which supports Dynamics and PowerApps, stores data in conformance with the CDM definition. In fact, many of the original business entities in the CDM came from Dynamics offerings, such as Dynamics 365 for Sales and Dynamics 365 for Marketing.
 
-- **Industry verticals** such as healthcare are working closely with Microsoft to extend the CDM to their specific business concepts, such as **Patient** and **Care Plan**. That way, users can can share data and build services so partners can easily exchange data, create interoperable apps and services, and create quick analytics that are easy to share.
+- **Industry verticals** such as healthcare are working closely with Microsoft to extend the CDM to their specific business concepts, such as **Patient** and **Care Plan** through [Industry Accelerators](industry-accelerators). That way, users can can share data and build services so partners can easily exchange data, create interoperable apps and services, and create quick analytics that are easy to share.
+
+- **Power BI Dataflows** allows you to ingest data into the CDM form from a variety of sources such as Dynamics 365, Salesforce, Azure SQL Database, Excel, or SharePoint. Once you've connected and prepared your data, you can choose to map it to a CDM standard entity or load it as a custom entity in CDM form in Azure Data Lake Storage Gen2.
 
 ## Next step
 
