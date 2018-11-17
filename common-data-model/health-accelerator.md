@@ -33,11 +33,11 @@ The Healthcare accelerator provides a specific set of primary entities in suppor
 
 | | | | |
 | ------- | -----------------|------------------| ------------|
-| Patients |	Healthcare Services |	Care Plans |	Encounters |
-|Practitioners |	Clinical Impression Problems |	Risk Assessments 	|Specimens|
-|Organizations |	Allergy Intolerances |	Observations 	|Medications |
-|Devices |	Medication Administration |	Episodes of care 	|Locations |
-| 	Healthcare Services |	Medication Requests |	
+| Patients | Healthcare Services | Care Plans | Encounters |
+|Practitioners | Clinical Impression Problems | Risk Assessments |Specimens|
+|Organizations | Allergy Intolerances | Observations |Medications |
+|Devices | Medication Administration | Episodes of care |Locations |
+| Healthcare Services | Medication Requests | | |
 
 
 There are also a set of workflows included in the accelerator:
