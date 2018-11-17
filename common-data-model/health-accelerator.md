@@ -30,6 +30,7 @@ Dynamics Health 365 adds another layer to the rich feature set in the base Dynam
               
 ## Entities & Workflows
 The Healthcare accelerator provides a specific set of primary entities in support of the FHIR HL7 specification. Below are the entities that have been provided in the solution:
+
 | | | | |
 | ------- | -----------------|------------------| ------------|
 | Patients |	Healthcare Services |	Care Plans |	Encounters |
@@ -40,6 +41,7 @@ The Healthcare accelerator provides a specific set of primary entities in suppor
 
 
 There are also a set of workflows included in the accelerator:
+
 | | | | 
 | ------- | -----------------|------------------| 
 |Tasks |	Appointments (EMR) |	Procedures|
