@@ -1,3 +1,7 @@
 - name: "Common Data Service"
   tocHref: /common-data-service/
   topicHref: /common-data-service/
+  items:
+    - name: "Previous Version"
+      tocHref: /entity-reference/
+      topicHref: /entity-reference/
