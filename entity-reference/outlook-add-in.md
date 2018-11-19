@@ -19,3 +19,5 @@ ms.author: cgarty
 
 [!INCLUDE [](../includes/new-version.md)]
 
+Remove?
+
