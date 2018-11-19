@@ -1,0 +1,259 @@
+{
+  "redirections": [
+    {
+      "source_path": "entity-reference/powerapps/data-platform-intro.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/create-database.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/database-security.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-create-entity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-cds-newentity-pq.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-manage-fields.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/field-groups.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/custom-picklists.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-entity-lookup.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-create-app.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-create-app-scratch.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-delete-entity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-export-data.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-interactive-excel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/samples-resources.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/standard-entities.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/field-data-types.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/relationships.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/field-properties.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/system-fields.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/naming-conventions.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/versioning.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/privacy-notice.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entities-customer-service.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entity-tables/customer-service.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entities-foundation.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entity-tables/foundation.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entities-human-resources.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entity-tables/human-resources.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entities-person-organization-group.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entity-tables/person-organization-group.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entities-project.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entity-tables/project.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entities-productivity.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entity-tables/productivity.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entities-purchasing.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entity-tables/purchasing.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entities-retail.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entity-tables/retail.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entities-sales.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/entity-tables/sales.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/standard-picklists.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/common-data-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/data-integration-home-page.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/administrator/data-integrator",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/dynamics-365-integration.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/administrator/data-integrator",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/cds-sdk-home-page.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/introduction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/cds-sdk-azure-functions-get-started.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/introduction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/cds-sdk-get-started.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/introduction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/cds-sdk-manipulate-data.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/introduction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/cds-sdk-eula.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/introduction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/security-home-page.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/introduction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/security-model.md",
+      "redirect_url": "https://docs.microsoft.com/common-data-service/entity-reference/introduction",
+      "redirect_document_id": "false"
+    }
+  ]
+}
