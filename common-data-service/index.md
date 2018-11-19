@@ -14,7 +14,6 @@ description: Common Data Service for Apps documentation
                     <li>
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
-                            <p>Common Data Service for Apps is the data platform for PowerApps that lets you securely store and manage data used by business applications.</p>
                             <li>
                                 <a href="/powerapps/maker/common-data-service/data-platform-intro">
                                     <div class="cardSize">
