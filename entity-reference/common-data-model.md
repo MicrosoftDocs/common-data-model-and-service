@@ -19,7 +19,7 @@ ms.author: robinr
 
 The previous (legacy) version of Common Data Model documentation is available as a downloadable PDF [here](https://go.microsoft.com/fwlink/?linkid=2043404).
 
-For the latest documentation, see [What is Common Data Model?](/common-data-model/)
+For the latest documentation, see [Common Data Model](/common-data-model/)
 
 
 

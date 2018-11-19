@@ -14,26 +14,7 @@ description: Common Data Service for Apps documentation
                     <li>
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
-                            <p style="margin: -12px 0px 24px 12px">Common Data Service for Apps is a Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
-                            <!--<li>
-                                <a href="/common-data-service/migrate/migrate-new-cds">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/common-data-service-getting-data.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Migrate to the new Common Data Service</h3>
-                                                    <p>Learn how to migrate from the legacy version to new version of Common Data Service.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>-->
+                            <p style="margin: -12px 0px 24px 12px">Common Data Service for Apps is the data platform for PowerApps that lets you securely store and manage data used by business applications.</p>
                             <li>
                                 <a href="/powerapps/maker/common-data-service/data-platform-intro">
                                     <div class="cardSize">
@@ -64,8 +45,8 @@ description: Common Data Service for Apps documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Common Data Service</h3>
-                                                    <p>Information about the previous version of Common Data Service.</p>
+                                                    <h3>Common Data Service (Previous version)</h3>
+                                                    <p>Download the previous version of Common Data Service docs available as a PDF file.</p>
                                                 </div>
                                             </div>
                                         </div>
