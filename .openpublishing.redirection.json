@@ -254,6 +254,21 @@
       "source_path": "entity-reference/security-model.md",
       "redirect_url": "introduction",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/powerapps/data-platform-cds-newentity-troubleshooting-mashup.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/outlook-add-in.md",
+      "redirect_url": "introduction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "entity-reference/record-level-security.md",
+      "redirect_url": "introduction",
+      "redirect_document_id": "false"
     }
   ]
 }
