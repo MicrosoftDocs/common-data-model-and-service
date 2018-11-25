@@ -13,6 +13,36 @@ ms.author: tpalmer
 
 The following contains frequently asked questions and best practices around a variety of areas related to the Common Data Model, including general topics, Common Data Service, Azure Data Lake Gen2, and more. If you have additional questions or comments on the Common Data Model and related topics, please use the "feedback" option at the bottom or top of the page.
 
+
+**CDM General**  
+- [What is the Common Data Model?](#what-is-the-common-data-model)
+- [How does this relate to the Open Data Initiative?](#how-does-this-relate-to-the-open-data-initiative)
+- [How does CDM relate to other standard definitions like schema.org?](#how-does-cdm-relate-to-other-standard-definitions-like-schema.org)
+- [What type of semantic information can be defined with CDM?](#what-type-of-semantic-information-can-be-defined-with-cdm)
+- [How are schemas and other artifacts versioned?](#how-are-schemas-and-other-artifacts-versioned)
+- [Are there libraries to help read and write CDM metadata?](#are-there-libraries-to-help-read-and-write-cdm-metadata)
+
+
+**CDM & Common Data Service**  
+- [How does CDM relate to the Common Data Service?](#how-does-cdm-relate-to-the-common-data-service)
+- [How do I get all the standard entities in my CDS instance?](#how-do-i-get-all-the-standard-entities-in-my-cds-instance)
+
+
+**CDM in Azure Data Lake Gen2**  
+- [How to discover CDM content in the lake?](#how-to-discover-cdm-content-in-the-lake)
+- [How do I get started with CDM folders and ADLSg2?](#how-do-i-get-started-with-cdm-folders-and-adlsg2)
+- [What are the correct authorization levels for CDM folders in ADLSg2?](#what-are-the-correct-authorization-levels-for-cdm-folders-in-adlsg2)
+- [What are the expectations of a CDM data producer?](#what-are-the-expectations-of-a-cdm-data-producer)
+- [What are the expectations of a CDM data consumer?](#what-are-the-expectations-of-a-cdm-data-consumer)
+- [What is the cost implication of using CDM folders and Azure Data Lake Gen2?](#what-is-the-cost-implication-of-using-cdm-folders-and-azure-data-lake-gen2)
+- [How do I access CDM folders, model json files or data files?](#how-do-i-access-cdm-folders-model-json-files-or-data-files)
+
+
+**CDM in Power BI dataflows**  
+- [How does CDM relate to Power BI dataflows?](#how-does-cdm-relate-to-power-bi-dataflows)
+- [Will my dataflows be affected if there are new versions of the CDM standard entities?](#will-my-dataflows-be-affected-if-there-are-new-versions-of-the-cdm-standard-entities)
+
+
 ## CDM General
 
 ### What is the Common Data Model?
@@ -48,8 +78,8 @@ Some of the standard entities defined in CDM come out of the box with a CDS inst
 ### How to discover CDM content in the lake?
 Today, a CDM folder within the lake can be identified by the existing of a model.json file that conforms to the CDM model.json specification. We are actively working with the ADLS team to add better discovery mechanisms to make it easier to find and consume data and metadata in CDM folders.
 
-### How do I get started with CDM folders & ADLSg2?
-Start by created an Azure Data Lake Gen2 instance, with hierarchical namespaces enabled. Once the instance is available you can onboard it to a service that produces CDM folders, such as Power BI dataflows, or start by creating your own filesystem and CDM folder format then providing access to a service that consumers CDM folders or your own applications.
+### How do I get started with CDM folders and ADLSg2?
+Start by creating an Azure Data Lake Gen2 instance, with hierarchical namespaces enabled. Once the instance is available you can onboard it to a service that produces CDM folders, such as Power BI dataflows, or start by creating your own filesystem and CDM folder format then providing access to a service that consumers CDM folders or your own applications.
 
 ### What are the correct authorization levels for CDM folders in ADLSg2?
 In general the best practice is to set the least required privilege to complete the action. 
@@ -67,7 +97,7 @@ In the CDM ecosystem, the expectation is that a data consumer reads the metadata
 ### What is the cost implication of using CDM folders and Azure Data Lake Gen2?
 Today CDM folders and data files are treated as any other data. More details on Azure Data Lake Gen2 pricing [here](https://azure.microsoft.com/pricing/details/storage/data-lake/). Note that there are additional charges for cross-region data movement so you may 
 
-### How do I read/write CDM folders, model.json files or data files?
+### How do I access CDM folders, model json files or data files?
 CDM folders, model.json files or data files can be created, read, updated or deleted  through Azure Data Lake Gen2 APIs and SDKs. More details [here](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2
 )
 
