@@ -1,0 +1,7 @@
+- name: Docs
+  href: /
+  topicHref: /
+  items:
+  - name: Common Data Model
+    tocHref: /common-data-model/
+    topicHref: /common-data-model/
