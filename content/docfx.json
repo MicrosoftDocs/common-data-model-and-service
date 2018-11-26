@@ -37,8 +37,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/common-data-model/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None",
-      "titleSuffix": "Common Data Model"
+      "feedback_system": "None"
     },
     "fileMetadata": {},
     "template": [],
