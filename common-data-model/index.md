@@ -1,5 +1,5 @@
 ---
-title: The Common Data Model | Microsoft Docs
+title: The Common Data Model
 description: "Common Data Model is a standardized, modular, and extensible collection of data schemas that Microsoft published to help you build, use, and analyze data."
 author: TheresaPalmer
 ms.service: powerapps

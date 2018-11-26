@@ -1,5 +1,5 @@
 ---
-title: Higher Education Industry Accelerator for the Common Data Model | Microsoft Docs
+title: Higher Education Industry Accelerator
 description: The Dynamics 365 Higher Education Accelerator allows you to develop Higher Education solutions with extensions to the Common Data Model and out of box forms, views and dashboards.
 author: TheresaPalmer
 ms.service: powerapps

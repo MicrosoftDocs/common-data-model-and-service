@@ -1,5 +1,5 @@
 ---
-title: Healthcare Industry Accelerator for the Common Data Model | Microsoft Docs
+title: Healthcare Industry Accelerator
 description: The Dynamics 365 Healtchare Accelerator allows you to develop Healthcare solutions with extensions to the Common Data Model and out of box forms and views.
 author: TheresaPalmer
 ms.service: powerapps

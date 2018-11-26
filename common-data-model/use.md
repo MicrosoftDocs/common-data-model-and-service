@@ -1,5 +1,5 @@
 ---
-title: Development using the Common Data Model | Microsoft Docs
+title: Development
 description: "Provides information about how you can use the Common Data Model to develop apps and solutions."
 author: RobertBruckner
 ms.service: powerapps
