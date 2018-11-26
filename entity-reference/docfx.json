@@ -56,7 +56,10 @@
 
     "externalReference": [],
 
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/entity-reference/breadcrumb/toc.json",
+      "extendBreadcrumb": true
+    },
 
     "fileMetadata": {},
 
