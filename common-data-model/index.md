@@ -63,4 +63,4 @@ based on CDM schemas. These examples show how organizations use the CDM:
 
 ## Next step
 
-[How to use the Common Data Model](use-common-data-model.md): Describes the CDM in detail and discusses use cases for creating data in the CDM or transforming your existing data into the CDM.
+[How to use the Common Data Model](use.md): Describes the CDM in detail and discusses use cases for creating data in the CDM or transforming your existing data into the CDM.
