@@ -11,17 +11,17 @@ ms.author: tpalmer
 
 # The Dynamics 365 Healthcare Accelerator
 
-Rapidly develop healthcare solutions using Fast Healthcare Interoperability Resources (FHIR) entities such as patient, condition, and care plan in the [Dynamics 365 Healthcare Accelerator](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
+Rapidly develop healthcare solutions using Fast Healthcare Interoperability Resources (FHIR) entities (such as patient, condition, and care plan) in the [Dynamics 365 Healthcare Accelerator](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
 
 This accelerator was announced in July 2018 at Ignite, and the initial release includes these features:
 
 - extension of the Common Data Model (CDM) to include concepts for health, including entity definitions and relationships
-- **Patient**, **Practitioner**, **Related person**, and other customer-engagement forms that you can use out of the box or enhance
-- a sample app that demonstrates some possibilities on the Unified Interface
+- **Patient**, **Practitioner**, **Related person**, and other customer-engagement forms that you can enhance or use out of the box
+- a sample app that demonstrates some possibilities of the Unified Interface
 - support for building canvas and model-driven apps in PowerApps
 - support for extending the model with custom entities, forms, and relationships that meet your business needs
 - support for analytics
-- a solution for Common Data Service for Apps that you can install from AppSource
+- a Common Data Service for Apps solution that you can install from AppSource
 
 ## Site-map extensions
 
@@ -75,4 +75,4 @@ A clear understanding of which member of a patient's care team owns each facet o
 - Download the Dynamics 365 Healthcare Accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview)
 - The healthcare data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [GitHub](https://github.com/Microsoft/Dynamics-365-Industry-Accelerators/tree/master/health).
 - [More details](https://community.dynamics.com/365/b/healthaccelerator/archive/2018/07/19/dynamics-365-health-accelerator-solution-first-look) about the Health Accelerator
-- [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) on the accelerators.
+- [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators
