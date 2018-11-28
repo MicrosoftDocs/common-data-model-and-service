@@ -55,11 +55,13 @@ These properties are listed at the root of the model.json file and describe prop
 | name | string | The model name | Yes | 
 | description | string | The model description | No | 
 | version | string (enum) | The model schema version (currently must be 1.0) | Yes | 
-| modifiedTime | datetime |The last time the model definition was updated in ISO 8601 | No | 
-| annotations | Annotation[] | Array of optional model annotations - non essential of key/value pairs containing contextual information that can be used to store additional context | No | 
-| entities | Entity[] | The model entities | Yes | 
-| referenceModels | ReferenceModel[] | References to other used/extended models | No | 
-| relationships | Relationship[] | Relationships between entities in the model relationships can be from/to local or reference entities. When the relationship involves reference entity, the attributes needs to be resolved from the local entity in the referenced model | No | 
+| culture | string | An (IETF language tag)[] representing the language and country, supported by Windows and .NET (i.e. "en-US"). This value should be used to parse datatypes that can be culture sensitive such as datetimes, numbers etc. When not set, the datatype formats should match the [non-specified culture formats](#non-specified-culture) defined below. | No | 
+| modifiedTime | datetimeoffset |The last time the model definition was updated in ISO 8601. | No | 
+| isHidden | boolean | Whether or not this model is hidden. If set to 'true', this model is not intended for other applications to consumer. | No |
+| [annotations](#annotations) | Annotation[] | Array of optional model annotations - non essential of key/value pairs containing contextual information that can be used to store additional context | No | 
+| [entities](#entities) | Entity[] | The model entities | Yes | 
+| [referenceModels](#reference-models) | ReferenceModel[] | References to other used/extended models | No | 
+| [relationships](#relationships) | Relationship[] | Relationships between entities in the model relationships can be from/to local or reference entities. When the relationship involves reference entity, the attributes needs to be resolved from the local entity in the referenced model | No | 
 
 Sample:
 <pre>
@@ -68,7 +70,7 @@ Sample:
     "name": "OrdersProducts",  
     "description": "Model containing data for Order and Products.",  
     "version": "1.0",  
-    "modifiedTime": 2018-01-01T12:00:00Z,  
+    "modifiedTime": 2018-01-02T12:00:00+08:00,  
     "name": "OrdersProducts",  
     "annotations": [ ],  
     "entities": [ ],  
@@ -150,12 +152,12 @@ In the required columns, “n/a” means the field shouldn’t exist for that ty
 | ---------------- |---------------- |-------------------------------- |------------- | ------------- | 
 |$type | Constant | Type of entity being defined in this model. This attribute must be set to:  “LocalEntity”. | Yes | Yes | 
 |name | string | The entity name | Yes | Yes | 
-|Description | string | The entity description | No | No | 
-|annotations | Annotation[] | Array of optional model annotations - non essential of key/value pairs containing contextual information that can be used to store additional context | No | No | 
+|description | string | The entity description | No | No | 
+|[annotations](annotations) | Annotation[] | Array of optional model annotations - non essential of key/value pairs containing contextual information that can be used to store additional context | No | No | 
 |schemas | SchemaURI[] | A collection of URIs to the schema definitions the entity conforms to. <br> Allowed pattern: https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/<CDM folder hiearchy>/<entity name>.<entity version>.cdm.json  <br>Example: https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/Account.0.8.cdm.json | No | n/a | 
-|attributes | Attribute[] |  The attributes within the entity. Each entity must have at least one | Yes | n/a | 
-|partitions | Partition[] | The entity physical partitions (data files) | No | n/a | 
-|Source | String | The source (referenced) entity name | n/a | Yes | 
+|[attributes](#attributes) | Attribute[] |  The attributes within the entity. Each entity must have at least one | Yes | n/a | 
+|[partitions](#partitions) | Partition[] | The entity physical partitions (data files) | No | n/a | 
+|source | String | The source (referenced) entity name | n/a | Yes | 
 |modelId | String | The source (referenced) model id, must match the id of one of the model’s referenceModels | n/a | Yes | 
 
 LocalEntity Sample:
@@ -199,8 +201,8 @@ Attributes are the fields within an entity that corespond to data values within 
 | ---------------- |---------------- |-------------------------------- |------------- |
 |name | string | the attribute name | Yes | 
 |description | string | the attribute description | No | 
-|dataType | enum | This attribute should be set to one of:  string|int64|double|dateTime|decimal|boolean. | Yes | 
-|annotations  | Annotation[] | Array of optional model annotations - non essential of key/value pairs containing contextual information that can be used to store additional context | No | 
+|dataType | enum | This attribute should be set to one of:  string, int64, double, dateTime, dateTimeOffset, decimal, boolean, GUID, JSON. If a culture is specified then it should be used to parse the datatype. More details can be found [here](#datatype-formats). | Yes | 
+|[annotations](annotations)  | Annotation[] | Array of optional model annotations - non essential of key/value pairs containing contextual information that can be used to store additional context | No | 
 
 Sample:
 <pre>
@@ -241,7 +243,7 @@ The file format settings provide metadata related to the data files in the parti
 |delimiter | string | The delimiter type in the CSV file. If not specified, this can be interpreted as “,” | No | 
 |quoteStyle | string (enum) | The CSV quote style. This attribute should be set to one of:  “QuoteStyle.Csv”, “QuoteStyle.None”. If not specified, this can be interpreted as “QuoteStyle.Csv”. | No | 
 |csvStyle | string (enum) | The CSV style, values: This attribute should be set to one of:  “CsvStyle.QuoteAlways” “CsvStyle.QuoteAfterDelimiter” . By default, this will be set “CsvStyle.QuoteAlways”  | No | 
-|encoding | int | The CSV encoding. If not specified, this can be interpreted as “UTF8” | No  | 
+|encoding | string | The CSV encoding. If not specified, this can be interpreted as “UTF-8” | No  | 
 
 ### Relationships
 
@@ -252,16 +254,16 @@ Relationships describe how entities are connected, such as an Account has a Cont
 | Property | Type | Description | SingleKeyRelationship Required? | 
 | ---------------- |---------------- |-------------------------------- |------------- |
 |$type | string (enum) | Defines the type relationship, currently only one value is supported: “SingleKeyRelationship” | Yes | 
-|fromAttribute | ReferenceAttribute | The object in the source entity (see below) that refers to an attribute in another entity, “toAttribute”. | Yes | 
-|toAttribute | ReferenceAttribute | The object in the destination entity (see below) that is referred to by the “fromAttribute”. | Yes | 
-|encoding | int | the CSV encoding. By default, this will be set “65001” representing UTF8  | No  | 
+|fromAttribute | [ReferenceAttribute](#referenceattribute) | The object in the source entity (see below) that refers to an attribute in another entity, “toAttribute”. | Yes | 
+|toAttribute | [ReferenceAttribute](#referenceattribute) | The object in the destination entity (see below) that is referred to by the “fromAttribute”. | Yes | 
+|encoding | string | The CSV encoding. By default, this will be "UTF-8" (which is 65001 in Windows). | No  | 
 
 #### ReferenceAttribute
 
 | Property | Type | Description | Required? | 
 | ---------------- |---------------- |-------------------------------- |------------- |
-|entityName | string | the entity name in the local model (must exist in the model entities list) | Yes | 
-|attributeName | string | the attribute name (for referenced entities need to be resolved from the target entity in the referenced model) | Yes | 
+|entityName | string | The entity name in the local model (must exist in the model entities list). | Yes | 
+|attributeName | string | The attribute name (for referenced entities need to be resolved from the target entity in the referenced model). | Yes | 
 
 Sample:
 <pre>
@@ -280,6 +282,19 @@ Sample:
     ]
 </pre>
 
+## Datatype formats
+In general the recommendation is for data producers to leverage datatype formats that are not culture sensitive, such as ISO 8601 for datetime/datetimeoffsets. However, if a data producer writes data with culture-specific formats, the "culture" property must be set in the model.json format and consumers must leverage that value to properly parse the data in the partition files.
+
+### Non-specified Culture
+When "culture" is not specified in the model.json, consumers can assume the following data formats:
+
+|Datatype	| Format |	Description|
+| ---------------- |---------------- |-------------------------------- |
+|datetime	|2018-01-02T12:00:00Z| ISO 8601|
+|datetimeoffset|	2018-01-02T12:00:00+08:00|	ISO 8601 with timezone offset. |
+|decimal|	1.0 | A decimal number with "." or a period as the decimal separator. |
+
+
 ## Model file attributes
  
 We also suggest setting metadata as file properties directly on model.json for effective discovery of data producer metadata by applications. 
@@ -287,7 +302,7 @@ We also suggest setting metadata as file properties directly on model.json for e
 
 |Name	|Required|	Description|
 | ---------------- |---------------- |-------------------------------- |
-|Application Name	|No	|An application name that is meaningful to a business user and can be shown in a user interface (UI)|
+|Application Name	|No	|An application name that is meaningful to a business user and can be shown in a user interface (UI).  |
 |Application Instance Name|	No|	An instance name for disambiguation if needed; The value should be meaningful for business user. |
 |Model Name|	No|	Same value as the "Name" property inside the [model.json](#root-properties)|
 
