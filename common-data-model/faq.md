@@ -86,7 +86,7 @@ In general the best practice is to set the least required privilege to complete 
 
 For data producers, this means full CRUD to content within their filesystem. For data consumers, this means read access only. When data producers are providing access to their filesystem, best practice is to create groups and set ACLs for the group, then manage membership through AAD. This will make it easier to add consumers going forward. 
 
-More details [here](data-lake.md/#Authorization)
+More details [here](data-lake.md#authorization)
 
 ### What are the expectations of a CDM data producer?
 In the CDM ecosystem, the expectation is that the data producer provides sufficient information for a data consumer to understand and parse the data files. A general principle is to make the metadata as rich as possible to simplify the experience for data consumers. 

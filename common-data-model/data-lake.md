@@ -21,8 +21,8 @@ The previous graphic shows the wide spectrum of services and users that can cont
 
 These terms are used throughout the documentation.
 
-|    Concept           |    Definition                                           |
-|-----------------------|----------------------------------------------------------|
+| Concept | Definition |
+|--|--|
 |    CDM folder       |    A folder in a data lake that conforms to specific, well-defined, and standardized metadata structures and self-describing data. These folders facilitate effortless metadata discovery and interoperability between data producers and data consumers.    |
 |   model.json |    A metadata file within an Azure Data Lake Storage Gen2 folder that follows the CDM metadata format. If this file exists in such a folder, it's a CDM folder.   |
 |    Data producer    |    A service or app that creates data in CDM folders in Azure Data Lake Storage Gen2.  |
