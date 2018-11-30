@@ -2,7 +2,7 @@
 title: Healthcare Accelerator - Dynamics 365 | Microsoft Docs
 description: Develop healthcare solutions with the extensions to the Common Data Model and built-in forms and views of the Dynamics 365 Healthcare Accelerator.
 author: TheresaPalmer
-ms.service: powerapps
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 11/16/2018

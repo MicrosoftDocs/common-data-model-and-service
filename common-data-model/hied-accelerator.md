@@ -2,7 +2,7 @@
 title: Higher-Education Accelerator -Dynamics 365 | Microsoft Docs
 description: Develop higher-education solutions with the extensions to the Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 Higher-Education Accelerator.
 author: TheresaPalmer
-ms.service: powerapps
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 11/16/2018
