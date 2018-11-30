@@ -11,7 +11,7 @@ ms.author: tpalmer
 
 # The Common Data Model and Microsoft Azure Data Lake Storage Gen2 Preview
 
-Data stored in the Common Data Model (CDM) format provides semantic consistency across apps and deployments. With the evolution of the CDM metadata system, the CDM brings the same structural consistency and semantic meaning to the data stored in Azure Data Lake Storage Gen2 Preview with hierarchical namespaces and folders containing schematized data in standard CDM format. The standardized metadata and self-describing data in an Azure data lake facilitates effortless metadata discovery and interoperability between data producers and consumers such as Power BI, Azure Data Factory, Azure Databricks, and Azure Machine Learning service.
+Data stored in the Common Data Model (CDM) format provides semantic consistency across apps and deployments. With the evolution of the CDM metadata system, the CDM brings the same structural consistency and semantic meaning to the data stored in Azure Data Lake Storage Gen2 Preview with hierarchical namespaces and folders that contain schematized data in standard CDM format. The standardized metadata and self-describing data in an Azure data lake facilitates metadata discovery and interoperability between data producers and consumers such as Power BI, Azure Data Factory, Azure Databricks, and Azure Machine Learning service.
 
 ![CDM data producers and consumers in ADLSg2](media/cdm-data-lake.png)
 
@@ -23,7 +23,7 @@ These terms are used throughout the documentation.
 
 | Concept | Definition |
 |--|--|
-|    CDM folder       |    A folder in a data lake that conforms to specific, well-defined, and standardized metadata structures and self-describing data. These folders facilitate effortless metadata discovery and interoperability between data producers and data consumers.    |
+|    CDM folder       |    A folder in a data lake that conforms to specific, well-defined, and standardized metadata structures and self-describing data. These folders facilitate metadata discovery and interoperability between data producers and data consumers.    |
 |   model.json |    A metadata file in an Azure Data Lake Storage Gen2 Preview folder that follows the CDM metadata format. If this file exists in such a folder, it's a CDM folder.   |
 |    Data producer    |    A service or app that creates data in CDM folders in Azure Data Lake Storage Gen2 Preview.  |
 |    Data consumer    |    A service or app that consumes data in CDM folders in Azure Data Lake Storage Gen2 Preview.      |
@@ -72,16 +72,16 @@ Azure Data Lake Storage Gen2 Preview supports a variety of authentication scheme
 
 ### Active Directory OAuth Bearer token and POSIX ACLs
 
-Azure AD bearer tokens are acquired and refreshed by the driver using either the identity of the end user or a configured Service Principal. Once a token is acquired, all access is authorized on a per-call basis using the identity associated with the supplied token and evaluated against the assigned portable operating system interface (POSIX) ACL. This provides the authorized person or services full access to resources within the scope they were authorized to and nothing more.
+The driver acquires and refreshes Azure Active Directory bearer tokens using either the identity of the end user or a configured Service Principal. After a token is acquired, all access is authorized on a per-call basis using the identity that's associated with the supplied token and evaluated against the assigned portable operating system interface (POSIX) ACL. This evaluation provides the authorized person or services full access to resources only within the scope for which they're authorized.
 
 #### Authorizing data producers
 
-Data producers require full create, read, update, and delete (CRUD) permissions to their file system, including the CDM folders and files that they own. The identity of the data producer would be given read and write permission to the specific file share associated with the Data Producer. This allows multiple Data Producers to easily share the same Azure Data Lake Storage Gen2 lake without compromising security. In addition, it allows for auditing of access to resources in the storage and authorizing individuals to access CDM folders.
+Data producers require full create, read, update, and delete (CRUD) permissions to their file system, including the CDM folders and files that they own. The identity of the data producer is given read and write permission to the specific file share that's associated with the data producer. This allows multiple data producers to easily share the same data lake without compromising security. In addition, it allows auditing of access to resources in the storage and authorizing individuals to access CDM folders.
 
 #### Authorizing data consumers
 
-Sharing CDM folders with data consumers, i.e. people, services intended to read the data, is made simple with Active Directory OAuth Bearer token and POSIX ACLs. All that is required is that access is granted to an Active Directory object of your choice to the CDM folder. It's recommended that all access to the CDM folder any identity other than the data producer be granted as read only. This protects the integrity of the data that the producer generates and provides administrators with the ability to monitor who accessed the CDM folder via audit logs. 
+Sharing CDM folders with data consumers (that is, people and services intended to read the data) is simplified with Active Directory OAuth Bearer tokens and POSIX ACLs. The only requirement is granting access to an Active Directory object of your choice to the CDM folder. You should grant read-only access to any identity other than the data producer. This approach protects the integrity of the data that the producer generates and allows administrators to use audit logs to monitor who accesses the CDM folder. 
 
 ### Alternative forms of authorization
 
-One of the most common types is Storage Account Key or Shared Key authorization. This permits holders of the key to access to ALL resources in the account. Provides the holder of the key full access to all resources in the lake. While this is the simplest path, its less favorable because it limits the ability to share specific resources in the lake and does not provide customers with any auditing of who accessed the storage. Full details of the available schemes are provided in the [Azure Storage security guide](https://docs.microsoft.com/azure/storage/common/storage-security-guide).
+Storage Account Key or Shared Key authorization is commonly used; these forms permit holders of the key to access all resources in the account. This path is the simplest but limits the ability to share specific resources in the lake and doesn't allow administrators to audit who accessed the storage. The [Azure Storage security guide](https://docs.microsoft.com/azure/storage/common/storage-security-guide) provides full details about the available schemes.
