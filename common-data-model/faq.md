@@ -19,7 +19,7 @@ This topic contains frequently asked questions and best practices around a varie
   - [How does the CDM relate to other standard definitions?](#how-does-the-cdm-relate-to-other-standard-definitions)
   - [What type of semantic information can be defined with the CDM?](#what-type-of-semantic-information-can-be-defined-with-the-cdm)
   - [How are schemas and other artifacts versioned?](#how-are-schemas-and-other-artifacts-versioned)
-  - Are there libraries to help read and write CDM metadata?
+  - [Are there libraries to help read and write CDM metadata?](#are-there-libraries-to-help-read-and-write-cdm-data)
 
 - CDS for Apps
   - How does the CDM relate to CDS for Apps?
@@ -48,7 +48,7 @@ The Common Data Model (CDM) comprises a standardized metadata system and data sc
 
 The Open Data Initiative, announced in September 2018 at Ignite, is a vision that was jointly developed by Adobe, Microsoft, and SAP. The Common Data Model, including the CDM metadata format and standard entities, will continue to evolve and directly accrue value toward the Open Data Initiative.<br>[More information](https://aka.ms/opendatainitiative)
 
-### How does CDM relate to other standard definitions
+### How does the CDM relate to other standard definitions
 
 The CDM schema and standard entities are influenced by existing standards, such as schema.org, throughout a variety of industries. Many CDM standard entities originated from Dynamics 365 but, as we extended to new industries and areas, we look to public standards in that space to help define extensions to CDM. CDM standard entities are open source and available under a Creative Commons license.
 
