@@ -22,8 +22,8 @@ This topic contains frequently asked questions and best practices around a varie
   - [Where can I find libraries to help read and write CDM metadata?](#where-can-i-find-libraries-to-help-read-and-write-cdm-metadata)
 
 - CDS for Apps
-  - How does the CDM relate to CDS for Apps?
-  - How do I get all the standard entities in my instance of CDS for Apps?
+  - [How does the CDM relate to CDS for Apps?](#how-does-the-cdm-relate-to-cds-for-apps)
+  - [How do I get all the standard entities in my instance of CDS for Apps database?](#how-do-i-get-all-the-standard-entities-in-my-instance-of-cds-for-apps-database)
 
 - Azure Data Lake Storage Gen2 Preview
   - How do I discover CDM content in the lake?
