@@ -11,32 +11,32 @@ ms.author: tpalmer
 
 # Frequently asked questions about the Common Data Model
 
-This topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model (CDM), including general topics, Common Data Service (CDS) for Apps, and Azure Data Lake Storage Gen2 Preview. If you have more questions or comments on the Common Data Model and related topics, please use the "feedback" option at the bottom or top of the page.
+This topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model (CDM), including general topics, Common Data Service (CDS) for Apps, and Azure Data Lake Storage Gen2 Preview. If you have more questions or comments on the Common Data Model and related topics, we recommend that you [submit an issue in Git](https://github.com/microsoft/cdm/issues).
 
-- General
-  - [What is the Common Data Model?](#what-is-the-common-data-model)
-  - [How does this relate to the Open Data Initiative?](#how-does-this-relate-to-the-open-data-initiative)
-  - [How does the CDM relate to other standard definitions such as schema.org?](#how-does-cdm-relate-to-other-standard-definitions-like-schema.org)
-  - [What type of semantic information can be defined with the CDM?](#what-type-of-semantic-information-can-be-defined-with-cdm)
-  - [How are schemas and other artifacts versioned?](#how-are-schemas-and-other-artifacts-versioned)
-  - [Are there libraries to help read and write CDM metadata?](#are-there-libraries-to-help-read-and-write-cdm-metadata)
+- [General](#general)
+  - What is the Common Data Model?
+  - How does this relate to the Open Data Initiative?
+  - How does the CDM relate to other standard definitions such as schema.org?
+  - What type of semantic information can be defined with the CDM?
+  - How are schemas and other artifacts versioned?
+  - Are there libraries to help read and write CDM metadata?
 
-- CDS for Apps
-  - [How does the CDM relate to CDS for Apps?](#how-does-cdm-relate-to-the-common-data-service)
-  - [How do I get all the standard entities in my instance of CDS for Apps?](#how-do-i-get-all-the-standard-entities-in-my-cds-instance)
+- [CDS for Apps](#cds-for-apps)
+  - How does the CDM relate to CDS for Apps?
+  - How do I get all the standard entities in my instance of CDS for Apps?
 
-- Azure Data Lake Storage Gen2 Preview
-  - [How to discover CDM content in the lake?](#how-to-discover-cdm-content-in-the-lake)
-  - [How do I get started with CDM folders and Azure Data Lake Storage Gen2 Preview?](#how-do-i-get-started-with-cdm-folders-and-azure-data-lake-storage-gen2-preview)
-  - [What are the correct authorization levels for CDM folders in Azure Data Lake Storage Gen2 Preview?](#what-are-the-correct-authorization-levels-for-cdm-folders-in-azure-data-lake-storage-gen2-preview)
-  - [What are the expectations of a CDM data producer?](#what-are-the-expectations-of-a-cdm-data-producer)
-  - [What are the expectations of a CDM data consumer?](#what-are-the-expectations-of-a-cdm-data-consumer)
-  - [What is the cost implication of using CDM folders and Azure Data Lake Storage Gen2 Preview?](#what-is-the-cost-implication-of-using-cdm-folders-and-azure-data-lake-storage-gen2-preview)
-  - [How do I access CDM folders, model.json files, or data files?](#how-do-i-access-cdm-folders-model-json-files-or-data-files)
+- [Azure Data Lake Storage Gen2 Preview](#azure-data-lake-storage-gen2-preview)
+  - How to discover CDM content in the lake?
+  - How do I get started with CDM folders and Azure Data Lake Storage Gen2 Preview?
+  - What are the correct authorization levels for CDM folders in Azure Data Lake Storage Gen2 Preview?
+  - What are the expectations of a CDM data producer?
+  - What are the expectations of a CDM data consumer?
+  - What is the cost implication of using CDM folders and Azure Data Lake Storage Gen2 Preview?
+  - How do I access CDM folders, model.json files, or data files?
 
-- Power BI dataflows
-  - [How does the CDM relate to Power BI dataflows?](#how-does-cdm-relate-to-power-bi-dataflows)
-  - [Will my dataflows be affected if there are new versions of the CDM standard entities?](#will-my-dataflows-be-affected-if-there-are-new-versions-of-the-cdm-standard-entities)
+- [Power BI dataflows](#power-bi-dataflows)
+  - How does the CDM relate to Power BI dataflows?
+  - Will my dataflows be affected if there are new versions of the CDM standard entities?
 
 ## General
 
