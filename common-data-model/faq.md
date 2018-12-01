@@ -19,14 +19,14 @@ This topic contains frequently asked questions and best practices around a varie
   - [How does the CDM relate to other standard definitions?](#how-does-the-cdm-relate-to-other-standard-definitions)
   - [What type of semantic information can be defined with the CDM?](#what-type-of-semantic-information-can-be-defined-with-the-cdm)
   - [How are schemas and other artifacts versioned?](#how-are-schemas-and-other-artifacts-versioned)
-  - [Where can I find libraries to help read and write CDM metadata?](#where-can-i-find-libraries-to-help-read-and-write-cdm-data)
+  - [Where can I find libraries to help read and write CDM metadata?](#where-can-i-find-libraries-to-help-read-and-write-cdm-metadata)
 
 - CDS for Apps
   - How does the CDM relate to CDS for Apps?
   - How do I get all the standard entities in my instance of CDS for Apps?
 
 - Azure Data Lake Storage Gen2 Preview
-  - How to discover CDM content in the lake?
+  - How do I discover CDM content in the lake?
   - [How do I get started?](#how-do-i-get-started)
   - [What are the correct authorization levels for CDM folders?](#what-are-the-correct-authorization-levels-for-cdm-folders)
   - What are the expectations of a CDM data producer?
