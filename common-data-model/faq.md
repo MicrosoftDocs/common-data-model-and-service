@@ -14,8 +14,8 @@ ms.author: tpalmer
 This topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model (CDM), including general topics, Common Data Service (CDS) for Apps, and Azure Data Lake Storage Gen2 Preview. If you have more questions or comments on the Common Data Model and related topics, we recommend that you [submit an issue in Git](https://github.com/microsoft/cdm/issues).
 
 - General
-  - What is the Common Data Model?
-  - How does this relate to the Open Data Initiative?
+  - [What is the Common Data Model?](#what-is-the-common-data-model)
+  - [How does the CDM relate to the Open Data Initiative?](#how-does-the-cdm-relate-to-the-open-data-initiative)
   - How does the CDM relate to other standard definitions such as schema.org?
   - What type of semantic information can be defined with the CDM?
   - How are schemas and other artifacts versioned?
@@ -44,7 +44,7 @@ This topic contains frequently asked questions and best practices around a varie
 
 The Common Data Model (CDM) comprises a standardized metadata system and data schemas that help applications and services interoperate and help you get more value from your data. The CDM simplifies data integration and application-development scenarios, allowing independent development while maintaining shared meaning of data.<br>[More information](index.md)
 
-### How does this relate to the Open Data Initiative
+### How does the CDM relate to the Open Data Initiative
 
 The Open Data Initiative, announced in September 2018 at Ignite, is a vision that was jointly developed by Adobe, Microsoft, and SAP. The Common Data Model, including the CDM metadata format and standard entities, will continue to evolve and directly accrue value toward the Open Data Initiative.<br>[More information](https://aka.ms/opendatainitiative)
 
