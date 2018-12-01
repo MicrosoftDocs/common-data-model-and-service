@@ -80,11 +80,11 @@ Some standard entities in the CDM are built in to each CDS for Apps database. Ot
 
 Today, a CDM folder within the lake can be identified by the existence of a model.json file that conforms to the CDM model.json specification. We're working to add better discovery mechanisms so that you can more easily find and consume data and metadata in CDM folders.
 
-### How do I get started with CDM folders and Azure Data Lake Gen2 Storage Preview
+### How do I get started
 
 Start by creating an instance of Azure Data Lake Storage Gen2 Preview, with hierarchical namespaces enabled. When the instance is available, you can onboard it to a service that produces CDM folders (such as Power BI dataflows) or create your own filesystem and CDM folder format. Then provide access to a service that consumes CDM folders or your own applications.
 
-### What are the correct authorization levels for CDM folders in Azure Data Lake Gen2 Storage Preview
+### What are the correct authorization levels for CDM folders
 
 In general, the best practice is to set the least required privilege to complete the action.
 
@@ -94,11 +94,11 @@ For data producers, this strategy means full create, read, update, and delete (C
 
 In the CDM ecosystem, data producers are expected to provide sufficient information for a data consumer to understand and parse the data files. A general principle is to make the metadata as rich as possible to simplify the experience for data consumers.
 
-### What are the expectations of a CDM data consumer?
+### What are the expectations of a CDM data consumer
 
 In the CDM ecosystem, data consumers are expected to read the metadata and data as the producer described and not to modify any data that consumer didn't also produce. If a data consumer wants to extend or modify the data from another data producer, the consumer then becomes a data producer and should follow the best practices of data producers.
 
-### What is the cost implication of using CDM folders and Azure Data Lake Storage Gen2 Preview
+### What is the cost implication
 
 Today CDM folders and data files are treated the same as any other data ([more details on pricing](https://azure.microsoft.com/pricing/details/storage/data-lake/) for Azure Data Lake Storage Gen2 Preview). Moving data between regions incurs additional charges.
 
