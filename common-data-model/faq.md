@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 This topic contains frequently asked questions and best practices around a variety of areas related to the Common Data Model (CDM), including general topics, Common Data Service (CDS) for Apps, and Azure Data Lake Storage Gen2 Preview. If you have more questions or comments on the Common Data Model and related topics, we recommend that you [submit an issue in Git](https://github.com/microsoft/cdm/issues).
 
-- [General](#general)
+- General
   - What is the Common Data Model?
   - How does this relate to the Open Data Initiative?
   - How does the CDM relate to other standard definitions such as schema.org?
@@ -21,11 +21,11 @@ This topic contains frequently asked questions and best practices around a varie
   - How are schemas and other artifacts versioned?
   - Are there libraries to help read and write CDM metadata?
 
-- [CDS for Apps](#cds-for-apps)
+- CDS for Apps
   - How does the CDM relate to CDS for Apps?
   - How do I get all the standard entities in my instance of CDS for Apps?
 
-- [Azure Data Lake Storage Gen2 Preview](#azure-data-lake-storage-gen2-preview)
+- Azure Data Lake Storage Gen2 Preview
   - How to discover CDM content in the lake?
   - How do I get started with CDM folders and Azure Data Lake Storage Gen2 Preview?
   - What are the correct authorization levels for CDM folders in Azure Data Lake Storage Gen2 Preview?
@@ -34,7 +34,7 @@ This topic contains frequently asked questions and best practices around a varie
   - What is the cost implication of using CDM folders and Azure Data Lake Storage Gen2 Preview?
   - How do I access CDM folders, model.json files, or data files?
 
-- [Power BI dataflows](#power-bi-dataflows)
+- Power BI dataflows
   - How does the CDM relate to Power BI dataflows?
   - Will my dataflows be affected if there are new versions of the CDM standard entities?
 
