@@ -16,8 +16,8 @@ This topic contains frequently asked questions and best practices around a varie
 - General
   - [What is the Common Data Model?](#what-is-the-common-data-model)
   - [How does the CDM relate to the Open Data Initiative?](#how-does-the-cdm-relate-to-the-open-data-initiative)
-  - How does the CDM relate to other standard definitions such as schema.org?
-  - What type of semantic information can be defined with the CDM?
+  - [How does the CDM relate to other standard definitions such as schema.org?](#how-does-the-cdm-relate-to-other-standard-definitions-such-as-schema.org)
+  - [What type of semantic information can be defined with the CDM?](#what-type-of-semantic-information-can-be-defined-with-the-cdm)
   - How are schemas and other artifacts versioned?
   - Are there libraries to help read and write CDM metadata?
 
