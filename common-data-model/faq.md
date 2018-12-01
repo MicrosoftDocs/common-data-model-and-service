@@ -27,11 +27,11 @@ This topic contains frequently asked questions and best practices around a varie
 
 - Azure Data Lake Storage Gen2 Preview
   - How to discover CDM content in the lake?
-  - How do I get started with CDM folders and Azure Data Lake Storage Gen2 Preview?
-  - What are the correct authorization levels for CDM folders in Azure Data Lake Storage Gen2 Preview?
+  - [How do I get started?](#how-do-i-get-started?)
+  - [What are the correct authorization levels for CDM folders](#what-are-the-correct-authorization-levels-for-CDM-folders)?
   - What are the expectations of a CDM data producer?
   - What are the expectations of a CDM data consumer?
-  - What is the cost implication of using CDM folders and Azure Data Lake Storage Gen2 Preview?
+  - [What is the cost implication?](#what-is-the-cost-implication)
   - How do I access CDM folders, model.json files, or data files?
 
 - Power BI dataflows
