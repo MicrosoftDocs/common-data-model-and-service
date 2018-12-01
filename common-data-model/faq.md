@@ -19,7 +19,7 @@ This topic contains frequently asked questions and best practices around a varie
   - [How does the CDM relate to other standard definitions?](#how-does-the-cdm-relate-to-other-standard-definitions)
   - [What type of semantic information can be defined with the CDM?](#what-type-of-semantic-information-can-be-defined-with-the-cdm)
   - [How are schemas and other artifacts versioned?](#how-are-schemas-and-other-artifacts-versioned)
-  - [Are there libraries to help read and write CDM metadata?](#are-there-libraries-to-help-read-and-write-cdm-data)
+  - [Where can I find libraries to help read and write CDM metadata?](#where-can-i-find-libraries-to-help-read-and-write-cdm-data)
 
 - CDS for Apps
   - How does the CDM relate to CDS for Apps?
@@ -60,7 +60,7 @@ The CDM schema definitions include a wide variety of semantic information, such 
 
 There’s a major/minor versioning system in the standard-entity definitions, as well as the schema format itself. For the standard entities, you can find the version in the URI (Account.0.8.cdm.json) and entity definition.
 
-### Are there libraries to help read and write CDM metadata
+### Where can I find libraries to help read and write CDM metadata
 
 You can find sample libraries to read CDM schema documents in [TypeScript](https://github.com/Microsoft/CDM/tree/master/src) as well as sample libraries in [.NET](https://aka.ms/AA39f6f) and [Python](https://aka.ms/AA39n1b) to read/write model.json files. More libraries are coming soon; please add your requests/comments at the library location in the GitHub repository.
 
