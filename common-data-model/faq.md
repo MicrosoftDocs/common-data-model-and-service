@@ -119,4 +119,4 @@ When entities in a dataflow are mapped to a CDM standard entity, such as Account
 
 ## More questions
 
-If you have more questions or comments on the CDM and related topics, we recommend that you use the "feedback" option below or at the top of this topic.
+If you have more questions or comments on the CDM and related topics, we recommend that you use submit an issue at https://github.com/microsoft/cdm/issues.
