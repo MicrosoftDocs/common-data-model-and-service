@@ -10,3 +10,10 @@
         href: health-accelerator.md
       - name: Higher-Education Accelerator
         href: hied-accelerator.md
+  - name: CDM in Azure Data Lake
+    href: data-lake.md
+    items:
+      - name: Model metadata
+        href: model-json.md
+  - name: Frequently Asked Questions
+    href: faq.md
