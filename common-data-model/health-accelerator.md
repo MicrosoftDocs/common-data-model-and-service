@@ -2,7 +2,7 @@
 title: Healthcare Accelerator - Dynamics 365 | Microsoft Docs
 description: Develop healthcare solutions with the extensions to the Common Data Model and built-in forms and views of the Dynamics 365 Healthcare Accelerator.
 author: TheresaPalmer
-ms.service: powerapps
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 11/16/2018
@@ -11,7 +11,7 @@ ms.author: tpalmer
 
 # The Dynamics 365 Healthcare Accelerator
 
-Rapidly develop healthcare solutions using Fast Healthcare Interoperability Resources (FHIR) entities (such as patient, condition, and care plan) in the [Dynamics 365 Healthcare Accelerator](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
+Rapidly develop healthcare solutions using [Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/overview.html) entities (such as patient, condition, and care plan) in the [Dynamics 365 Healthcare Accelerator](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
 
 This accelerator was announced in July 2018 at Ignite, and the initial release includes these features:
 
@@ -31,7 +31,7 @@ This accelerator adds a layer to the rich feature set of the base Dynamics 365 f
 
 ## Entities and workflows
 
-The Healthcare Accelerator provides these entities in support of the FHIR HL7 specification:
+The Healthcare Accelerator provides these entities in support of the FHIR HL7 (Health Level Seven) specification:
 
 | | | | |
 | ------- | -----------------|------------------| ------------|
@@ -54,7 +54,7 @@ The Healthcare Accelerator combines standard CRM entities with customized entiti
 
 ### Patient/Practitioner 360
 
-This view shows EMR data directly within a patient or practitioner-specific form in Dynamics. The data model shows appointments, procedures, medications, and other patient/practitioner data in context and a user-friendly interface.
+This view shows Electronic Medical Record (EMR) data directly within a patient or practitioner-specific form in Dynamics. The data model shows appointments, procedures, medications, and other patient/practitioner data in context and a user-friendly interface.
 
 ![Patient Practitioner 360](media/health-patientpractitioner.png)
 

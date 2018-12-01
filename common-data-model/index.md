@@ -2,7 +2,7 @@
 title: The Common Data Model
 description: "Common Data Model is a standardized, modular, and extensible collection of data schemas that Microsoft published to help you build, use, and analyze data."
 author: TheresaPalmer
-ms.service: powerapps
+ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
 ms.date: 11/16/2018
@@ -11,9 +11,9 @@ ms.author: tpalmer
 
 # The Common Data Model
 
-If you’ve ever run into challenges with data that’s *nearly* the same or that *should* work together (and then spent significant effort transforming fields and tables to work with your other data), you know that common data elements can save effort, streamline development, and enable faster analytics. The Common Data Model (CDM) can provide these capabilities and more with products and services such as PowerApps, Power BI, Dynamics 365, and Azure, storing data in conformance with the CDM. 
+If you’ve ever run into challenges with data that’s *nearly* the same or that *should* work together (and then spent significant effort transforming fields and tables to work with your other data), you know that common data elements can save effort, streamline development, and enable faster analytics. The Common Data Model (CDM) can provide these capabilities and more with products and services such as PowerApps, Power BI, Dynamics 365, and Azure, storing data in conformance with the CDM.
 
-The CDM is a standardized, modular, and extensible collection of data schemas that Microsoft published to help you build, use, and analyze data. This collection of predefined schemas consists of entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of those schemas. More information: [CDM repo on GitHub](https://aka.ms/cdmrepo)
+The CDM is a standardized, modular, and extensible collection of data schemas that Microsoft published to help you build, use, and analyze data. This collection of predefined schemas consists of entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of those schemas. More information: [CDM repository on GitHub](https://aka.ms/cdmrepo)
 
 ![Common Data Model](media/cdm-entities.png "Common Data Model")
 
