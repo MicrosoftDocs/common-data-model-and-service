@@ -32,11 +32,11 @@ This topic contains frequently asked questions and best practices around a varie
   - [What are the expectations of a CDM data producer?](#what-are-the-expectations-of-a-cdm-data-producer)
   - [What are the expectations of a CDM data consumer?](#what-are-the-expectations-of-a-cdm-data-consumer)
   - [What is the cost implication?](#what-is-the-cost-implication)
-  - [How do I access CDM folders, model.json files, or data files?](#how-do-i-access-cdm-folders-model-json-files-or-data-files)]
+  - [How do I access CDM folders, model.json files, or data files?](#how-do-i-access-cdm-artifacts)
 
 - Power BI dataflows
-  - How does the CDM relate to Power BI dataflows?
-  - Will my dataflows be affected if there are new versions of the CDM standard entities?
+  - [How does the CDM relate to Power BI dataflows?](#how-does-the-cdm-relate-to-power-bi-dataflows)
+  - [Will my dataflows be affected if the CDM standard entities are revised?](#will-my-dataflows-be-affected-if-the-cdm-standard-entities-are-revised)
 
 ## General
 
@@ -102,7 +102,7 @@ In the CDM ecosystem, data consumers are expected to read the metadata and data 
 
 Today CDM folders and data files are treated the same as any other data ([more details on pricing](https://azure.microsoft.com/pricing/details/storage/data-lake/) for Azure Data Lake Storage Gen2 Preview). Moving data between regions incurs additional charges.
 
-### How do I access CDM folders, model json files, and data files
+### How do I access CDM artifacts
 
 You can create, read, update, or delete CDM folders, model.json files, and data files through APIs and SDKs for Azure Data Lake Storage Gen2 Preview.<br>[More information](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2
 )
