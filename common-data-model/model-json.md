@@ -65,7 +65,7 @@ These properties are listed at the root of the model.json file and describe prop
 | description | string | The model description | No |
 | version | string (enum) | The model schema version (currently must be 1.0) | Yes |
 | culture | string | An IETF language tag (for example, "en-US") that represents the language and country/region, supported by Windows and .NET. This value should be used to parse datatypes that can be culture-sensitive such as datetimes and numbers. When not set, the datatype formats should match the [non-specified culture formats](#non-specified-culture) defined later in this topic. | No |
-| modifiedTime | datetimeoffset |The most recent time when the model definition was updated in date time offset per [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601). | No |
+| modifiedTime | datetimeoffset |The most recent time when the model definition was updated in date time offset per [ISO 8601](https://www.wikipedia.org/wiki/ISO_8601). | No |
 | isHidden | boolean | Whether this model is hidden. If set to 'true', this model isn't intended for other applications to consume. | No |
 | [annotations](#annotations) | Annotation[] | Array of optional model annotations - non-essential key/value pairs that contain contextual information that can be used to store additional context | No |
 | [entities](#entities) | Entity[] | The model entities | Yes |
@@ -241,7 +241,7 @@ The partition array indicates the name and location of the actual data files tha
 | ---------------- |---------------- |-------------------------------- |------------- |
 |name | string | The partition name | Yes |
 |description | string | The partition description | No |
-|refreshTime | datetimeoffset | The most recent date when the partition data was updated in date time offset per [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) | No |
+|refreshTime | datetimeoffset | The most recent date when the partition data was updated in date time offset per [ISO 8601](https://www.wikipedia.org/wiki/ISO_8601) | No |
 |location | URI | The partition physical file location, including the file itself. If null, this entity definition is for schema purposes only. | No |
 |fileFormatSettings | FileFormatSettings | Optional file format settings. | No |
 
@@ -249,7 +249,7 @@ The partition array indicates the name and location of the actual data files tha
 
 Property name: **fileFormatSettings**
 
-The file-format settings provide metadata related to the data files in the partition. Depending on the type, you may find different fields defined, but only one type is supported today. Encoding of the data files is UTF-8, in the future there will be an optional property to specify other encodings.
+The file-format settings provide metadata related to the data files in the partition. Depending on the type, you may find different fields defined, but only one type is supported today. Encoding of the data files is UTF-8, but you can request other encodings by creating an issue in the [GitHub repository](https://aka.ms/cdmrepo).
 
 | Property | Type | Description | CsvFormatSetting Required? |
 | ---------------- |---------------- |-------------------------------- |------------- |
@@ -306,8 +306,8 @@ When "culture" isn't specified in the model.json, consumers can assume these dat
 
 |Datatype | Format | Description|
 | ---------------- |---------------- |-------------------------------- |
-|datetime | 2018-01-02T12:00:00Z| A UTC datetime in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) |
-|datetimeoffset| 2018-01-02T12:00:00+08:00 | A datetime in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) with timezone offset. |
+|datetime | 2018-01-02T12:00:00Z| A UTC datetime in [ISO 8601](https://www.wikipedia.org/wiki/ISO_8601) |
+|datetimeoffset| 2018-01-02T12:00:00+08:00 | A datetime in [ISO 8601](https://www.wikipedia.org/wiki/ISO_8601) with timezone offset. |
 |decimal| 1.0 | A decimal number with "." or a period as the decimal separator. |
 
 ## Model-file attributes
