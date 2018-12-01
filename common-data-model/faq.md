@@ -26,10 +26,10 @@ This topic contains frequently asked questions and best practices around a varie
   - [How do I get all the standard entities in my CDS for Apps database?](#how-do-i-get-all-the-standard-entities-in-my-cds-for-apps-database)
 
 - Azure Data Lake Storage Gen2 Preview
-  - How do I discover CDM content in the lake?
+  - [How do I discover CDM content in the lake?](#how-do-i-discover-cdm-content-in-the-lake)
   - [How do I get started?](#how-do-i-get-started)
   - [What are the correct authorization levels for CDM folders?](#what-are-the-correct-authorization-levels-for-cdm-folders)
-  - What are the expectations of a CDM data producer?
+  - [What are the expectations of a CDM data producer?](#what-are-the-expectations-of-a-cdm-data-producer)
   - What are the expectations of a CDM data consumer?
   - [What is the cost implication?](#what-is-the-cost-implication)
   - How do I access CDM folders, model.json files, or data files?
