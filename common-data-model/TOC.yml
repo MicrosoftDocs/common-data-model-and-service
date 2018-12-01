@@ -1,7 +1,7 @@
-- name: The Common Data Model
+- name: The Common Data Model (CDM)
   href: index.md
   items:
-  - name: How to use the Common Data Model
+  - name: How to use the CDM
     href: use.md
   - name: Industry Accelerators
     href: industry-accelerators.md
@@ -15,5 +15,5 @@
     items:
       - name: Model metadata
         href: model-json.md
-  - name: Frequently Asked Questions
+  - name: Frequently asked questions
     href: faq.md
