@@ -30,9 +30,9 @@ This topic contains frequently asked questions and best practices around a varie
   - [How do I get started?](#how-do-i-get-started)
   - [What are the correct authorization levels for CDM folders?](#what-are-the-correct-authorization-levels-for-cdm-folders)
   - [What are the expectations of a CDM data producer?](#what-are-the-expectations-of-a-cdm-data-producer)
-  - What are the expectations of a CDM data consumer?
+  - [What are the expectations of a CDM data consumer?](#what-are-the-expectations-of-a-cdm-data-consumer)
   - [What is the cost implication?](#what-is-the-cost-implication)
-  - How do I access CDM folders, model.json files, or data files?
+  - [How do I access CDM folders, model.json files, or data files?](#how-do-i-access-cdm-folders-model.json-files-or-data-files)]
 
 - Power BI dataflows
   - How does the CDM relate to Power BI dataflows?
