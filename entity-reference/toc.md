@@ -1,6 +1,6 @@
 # [Upgrade to Common Data Service for Apps](/common-data-service/upgradecds/introduction-upgrade-cds)
 # [Common Data Service (Previous Version)](introduction.md)
-## [Getting data into the Common Data Service (Previous Version)](data-integration-home-page.md)
+<!--## [Getting data into the Common Data Service (Previous Version)](data-integration-home-page.md)
 ### [Dynamics 365 data integration](dynamics-365-integration.md)
 ## [Building apps with the Common Data Service (Previous Version)](cds-sdk-home-page.md)
 ### [Get started with the Common Data Service SDK using Azure Functions](cds-sdk-azure-functions-get-started.md)
@@ -8,9 +8,9 @@
 ### [Manipulate your data using the Common Data Service SDK](cds-sdk-manipulate-data.md)
 ### [License](cds-sdk-eula.md)
 ## [Trustworthy platform](security-home-page.md)
-### [Security model](security-model.md)
-## [Common Data Model (Previous Version)](common-data-model.md)
-### [Standard entities](standard-entities.md)
+### [Security model](security-model.md)-->
+# [Common Data Model (Previous Version)](common-data-model.md)
+<!--### [Standard entities](standard-entities.md)
 ### [Entity field data types](field-data-types.md)
 ### [Entity relationships](relationships.md)
 ### [Entity field properties](field-properties.md)
@@ -53,5 +53,5 @@
 ### [Import or export data](powerapps/data-platform-export-data.md)
 ### [Manage data in Excel](powerapps/data-platform-interactive-excel.md)
 ### [Samples and resources](powerapps/samples-resources.md)
-<!--# [Index](index.md)-->
+-->
 

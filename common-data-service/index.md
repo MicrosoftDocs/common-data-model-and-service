@@ -14,7 +14,6 @@ description: Common Data Service for Apps documentation
                     <li>
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
-                            <p style="margin: -12px 0px 24px 12px">Common Data Service for Apps is a Microsoft Azure-based service that enables app creators to easily build new applications or extend their existing applications.</p>
                             <li>
                                 <a href="/common-data-service/upgrade/introduction-upgrade-cds">
                                     <div class="cardSize">
@@ -64,71 +63,14 @@ description: Common Data Service for Apps documentation
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Common Data Service</h3>
-                                                    <p>Information about the previous version of Common Data Service.</p>
+                                                    <h3>Common Data Service (Previous version)</h3>
+                                                    <p>Download the previous version of Common Data Service docs available as a PDF file.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <!--<li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=848016">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/commondataservice/common-data-service-learn-about.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Learn about the common data model</h3>
-                                                    <p>Learn about the extensible data model that is at the core of the Common Data Service.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=848018">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/commondataservice/common-data-service-isv.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Get started now!</h3>
-                                                    <p>Engage as an ISV and get started building apps with the Common Data Service now!</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=848942">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/commondataservice/common-data-service-explore-services.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Explore Resources</h3>
-                                                    <p>Get started with the Common Data Service through our Guided Learning courses.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>-->
                         </ul>
                     </li>
                 </ul>

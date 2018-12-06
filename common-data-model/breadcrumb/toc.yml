@@ -1,3 +1,7 @@
-- name: "Common Data Service"
-  tocHref: /common-data-service/
-  topicHref: /common-data-service/
+- name: Docs
+  href: /
+  topicHref: /
+  items:
+  - name: Common Data Model
+    tocHref: /common-data-model/
+    topicHref: /common-data-model/
