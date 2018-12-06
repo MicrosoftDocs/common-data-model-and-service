@@ -15,7 +15,7 @@ description: Common Data Service for Apps documentation
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="/common-data-service/upgrade/introduction-upgrade-cds">
+                                <a href="/common-data-service/upgradecds/introduction-upgrade-cds">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
