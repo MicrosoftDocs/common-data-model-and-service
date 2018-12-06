@@ -7,3 +7,4 @@
 ## [(Optional) Delete your previous version CDS environment](delete-cds-environment.md)
 
 # [Common Data Service (Previous Version)](/common-data-service/entity-reference/introduction)
+# [Common Data Model (Previous Version)](/common-data-model/)
