@@ -1,0 +1,10 @@
+- Upgrade your previous version of CDS to CDS for Apps.
+    - This is the best option to preserve any apps or flows that use the previous version of CDS.
+    - More information: [Overview of the upgrade process](../upgrade-overview.md).
+- Wait for capability to delete your previous version CDS database, then create a new CDS for Apps database in the existing environment.
+    - We are working to provide a method to simply delete your previous version CDS database without deleting the environment.
+    - This method will work with your default environment.
+    - This method will not attempt to upgrade any existing apps of flows using the previous version CDS database.
+- Delete the non-default environment that contains your previous version CDS database and create a new CDS for Apps environment.
+    - If you have no existing apps or flows using the previous version CDS database, or you don't care to preserve these apps and flows, you can get access to a new environment and add a CDS for Apps database to the new environment.
+    - This does not work for your default environment.

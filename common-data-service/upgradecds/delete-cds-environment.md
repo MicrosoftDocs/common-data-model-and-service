@@ -15,12 +15,9 @@ ms.author: jdaly
 ---
 # Delete your previous version Common Data Service environment
 
-Now that the new Common Data Service for Apps is available you must choose one of the following:
+Now that the new Common Data Service for Apps upgrade is available you can choose one of the following:
 
-- Upgrade your previous version of CDS to CDS for Apps.
-- Delete your previous version CDS environment and create a new CDS for Apps environment.
-
-For your default environment, or if you have business data and apps currently using the previous version of CDS, or if you have any Apps or flows as part of your environment, you should follow the steps described in [Overview of the upgrade process](upgrade-overview.md).
+[!INCLUDE [options](includes/options.md)]
 
 For a non-default environment, if you don't have any important business data in your CDS database and you have no other Apps or Flows created for the environment, you can choose to simply delete the entire environment and request a new environment with a  CDS for Apps database. If you were just evaluating the previous version of CDS, this may be the easiest option for you.
 
