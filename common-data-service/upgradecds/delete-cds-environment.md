@@ -20,7 +20,7 @@ Now that the new Common Data Service for Apps upgrade is available you can choos
 <!-- Mostly same content found in introduction-upgrade-cds.md -->
 - Upgrade your previous version of CDS to CDS for Apps.
     - This is the best option to preserve any apps or flows that use the previous version of CDS.
-    - More information: [Overview of the upgrade process](../upgrade-overview.md).
+    - More information: [Overview of the upgrade process](upgrade-overview.md).
 - Wait for the capability to delete your previous version CDS database, then create a new CDS for Apps database in the existing environment.
     - We are working to provide a method to simply delete your previous version CDS database without deleting the environment.
     - This method will work with your default environment.
