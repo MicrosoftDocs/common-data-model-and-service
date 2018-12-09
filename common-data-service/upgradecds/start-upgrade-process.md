@@ -25,7 +25,7 @@ CDS. 
 These are some frequently asked questions (FAQs) before upgrading your database.
 
 - [Which databases do I need to upgrade?](#which-databases-do-i-need-to-upgrade)
-- [Can I upgrade databases in any environment?](#can-i-upgrade-databases-in-any-environment)
+- [How long will this take?](#how-long-will-this-take)
 - [Can I cancel the upgrade process once it’s initiated?](#can-i-cancel-the-upgrade-process-once-its-initiated)
 - [Will there be any downtime of the database or apps in production during the upgrade?](#will-there-be-any-downtime-of-the-database-or-apps-in-production-during-the-upgrade-process)
 
@@ -43,9 +43,12 @@ We recommend first upgrading a test or trial database (on the previous version
 of CDS) to familiarize yourself with the process before upgrading your
 production database. 
 
-### Can I upgrade databases in any environment? 
+### How long will this take?
 
-You can upgrade databases in any environment except the **Default** environment. The ability to upgrade databases in this environment will be available soon.
+The duration of the upgrade will require several hours. The actual amount of time depends on the amount of data in the database.
+
+The first step creates a test migration and should provide some indication of how long the final migration in the 3rd step will require. There is no visual indicator of the progress of the migration.
+
 
 ### Can I cancel the upgrade process once it’s initiated? 
 
@@ -95,6 +98,8 @@ the latest version of CDS for Apps. 
 You can view all changes that occurred during creation of the test database, including any errors that occurred while copying data from the original database to the test database.  
 
 ![Errors during database upgrade](media/error-db-upgrade.png)
+
+If you encounter any errors, see [Errors and resolutions](errors-resolutions.md) for information to help troubleshooting.
 
 > [!div class="nextstepaction"]
 > [Step 2: Upgrade and verify your apps and flows](upgrade-verify-apps-flows.md)

@@ -20,7 +20,7 @@ The previous version of Common Data Service (CDS) was enhanced and released as *
 
 ## Options
 
-To use the new capabilities in CDS for Apps, existing users on the previous version of Common Data Service can upgrade to the latest CDS for Apps using the following steps.
+To use the new capabilities in CDS for Apps, existing users on the previous version of Common Data Service can upgrade to the latest CDS for Apps using one of the following options:
 
 <!-- Mostly same content found in delete-cds-environment.md -->
 - Upgrade your previous version of CDS to CDS for Apps.

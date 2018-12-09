@@ -31,7 +31,7 @@ There are extensive changes in the latest release of the [Common Data Model
 (CDM)](https://github.com/Microsoft/CDM). To maximize application compatibility,
 the upgrade process installs a *solution* in CDS for Apps that contains your
 schema, including standard entities in the CDM and customizations, and then
-copies data from your existing CDS database into these entities. For information
+copies data from your existing previous version CDS database into these entities. For information
 about solutions, see [Solutions
 overview](https://docs.microsoft.com/dynamics365/customer-engagement/customize/solutions-overview).
 
@@ -39,13 +39,12 @@ The following solutions are installed in an upgraded CDS for Apps database:
 
 | Solution                   | Description   |
 |----------------------------|---------------|
-| CDS Upgrade Foundation     | This managed solution contains the upgraded schema of the previous release of the CDM. See the considerations section below for information on the differences in the schema in this solution from the previous release. You can consider this solution to be temporary. Following upgrade, review the new standard schema in CDS for Apps and decide whether you want to manually move your data into these entities or continue to run your applications as upgraded if it suits your needs. |
-| CDS Upgrade Customizations | This unmanaged solution contains customizations to the standard entities. This includes new entities added to the database and changes to the CDM schema. |
-| HCM Common                 | This managed solution contains entities for the Human Capital Management (HCM) application on CDS for Apps. This is a standard solution also installed as part of the [Dynamics 365 for Talent](https://dynamics.microsoft.com/talent/overview/) application.                                                                                                                                                                                                                                  |
-| HCM Common Temp            | This unmanaged solution contains customizations to the HCMCommon|
+|CDS Upgrade Foundation| This managed solution contains the upgraded schema of the previous release of the CDM. See the [considerations](#considerations-when-upgrading-your-environment) section below for information on the differences in the schema in this solution from the previous release. You can consider this solution to be temporary. Following upgrade, review the new standard schema in CDS for Apps and decide whether you want to manually move your data into these entities or continue to run your applications as upgraded if it suits your needs. |
+|CDS Upgrade Customizations | This unmanaged solution contains customizations to the standard entities. This includes new entities added to the database and changes to the CDM schema. |
+|HCM Common|This managed solution contains entities for the Human Capital Management (HCM) application on CDS for Apps. This is a standard solution also installed as part of the [Dynamics 365 for Talent](https://dynamics.microsoft.com/talent/overview/) application. |
+|HCM Common Temp| This unmanaged solution contains customizations to the HCMCommon|
 
-Considerations when upgrading your environment
-----------------------------------------------
+## Considerations when upgrading your environment
 
 There are several differences between the previous version of CDS and CDS for Apps that you
 should be aware of when upgrading to CDS for Apps.
@@ -116,36 +115,36 @@ The names of most attribute data types have changed during the upgrade process.
 In most cases, though, the underlying behavior of the data types themselves
 hasn’t changed significantly.
 
-| **Previously**         | **Common Data Service for Apps** |                |            |
-|------------------------|----------------------------------|----------------|------------|
-| **Field Type**         | **Data Type**                    | **Field Type** | **Format** |
-| Email                  | Single Line of Text              | Simple         | Email      |
-| Text                   | Single Line of Text              | Simple         | Text       |
-| Multiline Text         | Multiple Lines of Text           |                |            |
-| Address                | Multiple text fields             |                |            |
-| AutoNumber             | Whole Number                     |                |            |
-| Boolean                | Two Options                      |                |            |
-| Currency/Currency code | Decimal / Option Set             |                |            |
-| Date                   | Date and Time                    |                |            |
-| DateTime               | Date and Time                    |                |            |
-| Guid                   | Simple Line of text              |                |            |
-| Image                  | Image                            |                |            |
-| Integer                | Whole Number                     |                |            |
-| Large Text             | Multiple Lines of Text           | Simple         |            |
-| Number                 | Whole Number                     |                |            |
-| PersonName             | Multiple text fields             |                |            |
-| Phone                  | Single Line of Text              | Simple         | Phone      |
-| Picklist               | Option Set                       |                |            |
-| Quantity               | Whole Number                     |                |            |
-| User or Group          | Not Upgraded                     |                |            |
-| WebsiteUrl             | Simple line of Text              | Simple         | Url        |
+| **Previously**         | **Common Data Service for Apps** |            |
+|------------------------|----------------------------------|------------|
+| **Field Type**         | **Data Type**                    | **Format** |
+| Email                  | Single Line of Text              | Email      |
+| Text                   | Single Line of Text              | Text       |
+| Multiline Text         | Multiple Lines of Text           |            |
+| Address                | Multiple text fields             |            |
+| AutoNumber             | Whole Number                     |            |
+| Boolean                | Two Options                      |            |
+| Currency/Currency code | Decimal / Option Set             |            |
+| Date                   | Date and Time                    |            |
+| DateTime               | Date and Time                    |            |
+| Guid                   | Single Line of text              |            |
+| Image                  | Image                            |            |
+| Integer                | Whole Number                     |            |
+| Large Text             | Multiple Lines of Text           |            |
+| Number                 | Whole Number                     |            |
+| PersonName             | Multiple text fields             |            |
+| Phone                  | Single Line of Text              | Phone      |
+| Picklist               | Option Set                       |            |
+| Quantity               | Whole Number                     |            |
+| User or Group          | Not Upgraded                     |            |
+| WebsiteUrl             | Single line of Text              | Url        |
 
 ### Entity and field naming
 
 Entity and field names longer than 50 characters are truncated and ensured to be
-unique. Logical, that is, unique names, will now contain a publisher prefix.
+unique. Logical, that is, unique names, will now contain a customization prefix.
 Canvas applications that reference these names will also be updated to use the
-new name after you go through the upgrade process.
+new name after you go through the upgrade process. More information: [Customization prefix](/powerapps/maker/common-data-service/change-solution-publisher-prefix)
 
 CDS for Apps has a primary name field, which is used in applications to easily
 identify a row. For custom entities, the business key is used if it is a string.
@@ -173,7 +172,7 @@ These are some examples of differences following the upgrade process:
     permissions. As a result, users with Create, but not Update will not be able
     to set a Lookup value while creating a record. An administrator can address
     this by explicitly grant these users the Append privilege for the entity in
-    question.
+    question. More information: [Create or configure a custom security role](/powerapps/administrator/database-security#create-or-configure-a-custom-security-role)
 
 -   Business Units and Teams are used to manage security at organizational
     levels in CDS for Apps. Administrators can decide to extend their
@@ -186,26 +185,24 @@ These are some examples of differences following the upgrade process:
     permissions to all upgraded entities and given it to every user.
 
 For more information on security concepts in CDS for Apps, see [Security
-concepts](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-concepts).
+model](/powerapps/developer/common-data-service/security-model).
 
 ### System fields
-Currency code
-is set at the row level. The monetary value and exchange rate to the base
+
+Currency code is set at the row level. The monetary value and exchange rate to the base
 currency are also stored for each currency field.
 Some system fields will be different after the upgrade.
 
 | **Previously**   | **Common Data Service for Apps** |  |
 |------------------|----------------------------------|--|
-| **Field Name**   | **Field Name**                   | **Mapping Notes**                                                                                                                                                                                                                                             |
-| CreatedDateTime  | OverriddenCreatedOn              | Set to the value from the previous release of CDS. **CreatedOn** value will reflect when the upgrade process was run.                                                                                                                                         |
-| CreatedBy        | CreatedOnBehalfBy                | **CreatedOnBehalfBy** is set to the value from the previous release of CDS. **CreatedBy** will reflect the system account used to run the upgrade process. If the user from previous version of CDS cannot be synced, it will be replaced by the internal service account used to run the upgrade. |
-| ModifiedDateTime | ModifiedOn                       | Not upgraded. Will display the date and time when the upgrade process was run.                                                                                                                                                                                |
-| ModifiedBy       | ModifiedBy                       | Not upgraded. Will display the system account that was used to run the upgrade process.                                                                                                                                                                       |
+|**Field Name**   | **Field Name**| **Mapping Notes**|
+|`CreatedDateTime`| `OverriddenCreatedOn`| Set to the value from the previous release of CDS. **CreatedOn** value will reflect when the upgrade process was run.|
+|`CreatedBy`| `CreatedOnBehalfBy`| **CreatedOnBehalfBy** is set to the value from the previous release of CDS. **CreatedBy** will reflect the system account used to run the upgrade process. If the user from previous version of CDS cannot be synced, it will be replaced by the internal service account used to run the upgrade. |
+|`ModifiedDateTime` | `ModifiedOn`| Not upgraded. Will display the date and time when the upgrade process was run.|
+|`ModifiedBy`| `ModifiedBy`| Not upgraded. Will display the system account that was used to run the upgrade process.|
 
 For more information on the behavior of these system fields on import, see
-[Import auditing
-data](https://docs.microsoft.com/dynamics365/customer-engagement/developer/run-data-import#import-auditing-data)
-.
+[Import auditing data](/powerapps/developer/common-data-service/run-data-import#import-auditing-data).
 
 ### DateTime
 
@@ -218,9 +215,7 @@ a warning will be logged.
 
 Previously, every currency field was represented by two fields: currency code
 and monetary value. These codes and values are upgraded as is. Support for
-currency in CDS for Apps going forward is significantly different. In CDS for Apps, each currency field contains the migrated currency code, monetary value, but also contains a base currency and exchange rate. For more information about
-currency support in CDS for Apps, see [Using currency
-fields](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/types-of-fields#BKMK_UsingCurrencyFields).
+currency in CDS for Apps going forward is significantly different. In CDS for Apps, each currency field contains the migrated currency code, monetary value, but also contains a base currency and exchange rate. For more information about currency support in CDS for Apps, see [Using currency fields](/powerapps/maker/common-data-service/types-of-fields#using-currency-fields).
 
 ### Unit of Measure (UoM)
 
