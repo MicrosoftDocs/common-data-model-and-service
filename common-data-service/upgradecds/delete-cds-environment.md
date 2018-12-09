@@ -3,7 +3,7 @@ title: "Delete your previous version Common Data Service environment | Microsoft
 description: "Provides instructions on how to delete the environment containing the previous version of Common Data Service"
 author: "JimDaly"
 manager: "annbe"
-ms.date: "10/16/2018"
+ms.date: "12/09/2018"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"

@@ -3,7 +3,7 @@ title: "Complete the upgrade process for your existing database to CDS for Apps 
 description: "Provides information on how to publish CDS for Apps database upgrade."
 author: "JimDaly"
 manager: "annbe"
-ms.date: "09/10/2018"
+ms.date: "12/09/2018"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
