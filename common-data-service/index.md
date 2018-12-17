@@ -15,6 +15,25 @@ description: Common Data Service for Apps documentation
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
+                                <a href="/common-data-service/upgradecds/introduction-upgrade-cds">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub/common-data-service-getting-data.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Upgrade to Common Data Service for Apps</h3>
+                                                    <p>Learn how to upgrade from the previous version of Common Data Service to Common Data Service for Apps.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="/powerapps/maker/common-data-service/data-platform-intro">
                                     <div class="cardSize">
                                         <div class="cardPadding">
