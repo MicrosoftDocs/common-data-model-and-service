@@ -66,9 +66,17 @@ to it. We encourage admins to communciate to users when step 3 is planned to be
 
 To start upgrading your database to the latest CDS for Apps: 
 
-1.  If you’re an environment Administrator, go to the [PowerApps admin
+<!-- 1.  If you’re an environment Administrator, go to the [PowerApps admin
     center](https://admin.powerapps.com/), and in the left navigation pane,
     select **Environments**. 
+
+    Environments that have a database on the previous version of CDS have **Upgrade now** listed next to them. 
+
+    ![Environments](media/environments.png) -->
+
+1.  If you’re an environment Administrator, 
+    go to [https://aka.ms/cdsupgrade ](https://aka.ms/cdsupgrade ), 
+    and in the left navigation pane, select **Environments**. 
 
     Environments that have a database on the previous version of CDS have **Upgrade now** listed next to them. 
 
@@ -81,6 +89,9 @@ To start upgrading your database to the latest CDS for Apps: 
     and then select **Create test database**.  
 
     ![Create test database](media/create-test-database.png)
+
+    > [!IMPORTANT]
+    > It may take several hours to create the test database. There is no progress bar. The spinning icon for the first step indicates is is running.
 
     A test database with the latest version of CDS for Apps is created. You can view the schema of the new database during the creation process, as shown in the following example. 
 
