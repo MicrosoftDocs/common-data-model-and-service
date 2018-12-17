@@ -1,3 +1,4 @@
+# [Upgrade to Common Data Service for Apps](/common-data-service/upgradecds/introduction-upgrade-cds)
 # [Common Data Service (Previous Version)](introduction.md)
 <!--## [Getting data into the Common Data Service (Previous Version)](data-integration-home-page.md)
 ### [Dynamics 365 data integration](dynamics-365-integration.md)
