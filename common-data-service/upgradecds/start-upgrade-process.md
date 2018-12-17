@@ -75,7 +75,7 @@ To start upgrading your database to the latest CDS for Apps: 
     ![Environments](media/environments.png) -->
 
 1.  If you’re an environment Administrator, 
-    go to [https://aka.ms/cdsupgrade ](https://aka.ms/cdsupgrade ), 
+    go to [https://aka.ms/cdsupgrade](https://aka.ms/cdsupgrade), 
     and in the left navigation pane, select **Environments**. 
 
     Non-default environments that have a database on the previous version of CDS have **Upgrade now** listed next to them. 
