@@ -30,7 +30,10 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+    "feedback_system": "GitHub",
+    "feedback_github_repo": "MicrosoftDocs/common-data-model-and-service"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "common-data-service"
