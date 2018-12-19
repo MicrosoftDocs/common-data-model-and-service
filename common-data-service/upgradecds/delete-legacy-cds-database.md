@@ -32,7 +32,7 @@ You can get these values from the URL in the admin portal using the following st
 
 1. Open the admin portal [https://admin.powerapps.com](https://admin.powerapps.com)
 1. Navigate to the environment that has the previous version CDS database you want to delete.
-1. Click **Import resources** in the top left corner.
+1. Click **Import resources** in the top right corner.
 
     ![Import resources button](media/import-resources-button.png)
 
@@ -45,7 +45,7 @@ https://admin.powerapps.com/environments/24939e57-927a-4267-8cb1-d53d195bcc9e/na
 - The value between `environments/` and `/namespaces` is the `EnvironmentName`
 - The value between `namespaces/` and `/import` is the `DatabaseId`
 
-Copy these values since you will need them when you run the `Remove-LegacyCDSDatabase` cmdlet.
+Copy these values since you will need them when you edit the script to run the  the `Remove-LegacyCDSDatabase` cmdlet in [Step 3: Edit and run script](#step-3-edit-and-run-script)
 
 ## Step 2: Install scripts and open PowerShell
 
