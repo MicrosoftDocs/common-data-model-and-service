@@ -62,7 +62,7 @@ Copy these values since you will need them when you edit the script to run the  
     1. While viewing the `PowerAppsCmdlets-V5` sub-folder, select the Windows Explorer **File** tab.
     1. Select **Open Windows PowerShell** > **Open Windows PowerShell as administrator**.
     
-        ![FOO](media/open-windows-powershell-as-administrator.png)
+        ![Opening powershell as an administrator](media/open-windows-powershell-as-administrator.png)
 
     1. Click **Yes** in the **User Account Control** dialog.
     1. A PowerShell window will open. It should look something like this:
@@ -98,10 +98,22 @@ Copy these values since you will need them when you edit the script to run the  
 If the script runs successfully you should see output similar to the following:
 
 ```powershell
-
-TODO
-
+StatusCode        : 204
+StatusDescription : No Content
+Content           : {}
+RawContent        : HTTP/1.1 204 No Content
+                    Pragma: no-cache
+                    Strict-Transport-Security: max-age=31536000; includeSubDomains
+                    x-ms-request-id: westus:189b620e-89b4-44fd-98c5-dfd79b2d6be5
+                    x-ms-correlation-request-id: 18...
+Headers           : {[Pragma, no-cache], 
+                    [Strict-Transport-Security, max-age=31536000; includeSubDomains],
+                    [x-ms-request-id, westus:189b620e-89b4-44fd-98c5-dfd79b2d6be5], 
+                    [x-ms-correlation-request-id, 189b620e-89b4-44fd-98c5-dfd79b2d6be5]
+                    ...}
+RawContentLength  : 0
 ```
+It should return a `StatusCode` value of `204`.
 
 ## Troubleshooting
 
