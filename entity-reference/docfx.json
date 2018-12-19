@@ -58,7 +58,9 @@
 
     "globalMetadata": {
       "breadcrumb_path": "/entity-reference/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/common-data-model-and-service"
     },
 
     "fileMetadata": {},
