@@ -117,8 +117,23 @@ It should return a `StatusCode` value of `204`.
 
 ## Troubleshooting
 
-This list contains potential issues you may encounter when you run the script
+This list contains potential issues you may encounter when you run the script.
 
-### TODO Error condition 1
+### Invalid EnvironmentName or DatabaseId
 
-TODO: Like invalid id values or something
+The following error occurrs if the GUID values you captured for the environment and namespace are not valid. You should double-check the values and try again.
+
+```powershell
+StatusCode              : NotFound
+StatusDescription       : Not Found
+IsMutuallyAuthenticated : False
+Headers                 : {Pragma, Strict-Transport-Security, x-ms-request-id, x-ms-correlation-request-id...}
+SupportsHeaders         : True
+ContentType             : application/json; charset=utf-8
+CharacterSet            : utf-8
+LastModified            : 12/19/2018 4:48:24 PM
+ProtocolVersion         : 1.1
+ResponseUri             : https://api.cds.microsoft.com/providers/Microsoft.CommonDataModel/namespaces/...?                              api-version=2016-11-01&$filter=environment eq '...'
+Method                  : GET
+IsFromCache             : False
+```
