@@ -3,7 +3,7 @@ title: "Delete your previous version Common Data Service database | Microsoft Do
 description: "Provides instructions on how to delete the previous version of Common Data Service database"
 author: "JimDaly"
 manager: "annbe"
-ms.date: "12/19/2018"
+ms.date: "01/07/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -47,27 +47,49 @@ https://admin.powerapps.com/environments/24939e57-927a-4267-8cb1-d53d195bcc9e/na
 
 Copy these values since you will need them when you edit the script to run the  the `Remove-LegacyCDSDatabase` cmdlet in [Step 3: Edit and run script](#step-3-edit-and-run-script)
 
-## Step 2: Install scripts and open PowerShell
+## Step 2: Open PowerShell and install PowerShell module
 
-1. Download the [PowerShell scripts file](https://go.microsoft.com/fwlink/?linkid=2006349).
+1. Open a PowerShell command window (as administrator)
 
-1. Unzip the file into a folder. The default folder name will be `PowerAppsCmdlets-V5` and it will have a sub-folder also named `PowerAppsCmdlets-V5`.
-
-    For example you could extract the files to a `C:\temp\` folder and the files will be in `C:\temp\PowerAppsCmdlets-V5\PowerAppsCmdlets-V5`
-
-1. Open a PowerShell command window (as administrator) in the sub-folder that contains the scripts.
-
-    There are many ways to do this. If you are already familar, use whatever method you like. If you haven't done this before, here is one method:
-
-    1. While viewing the `PowerAppsCmdlets-V5` sub-folder, select the Windows Explorer **File** tab.
-    1. Select **Open Windows PowerShell** > **Open Windows PowerShell as administrator**.
+    1. Press the Windows key
+    1. Type `Windows PowerShell`
     
         ![Opening powershell as an administrator](media/open-windows-powershell-as-administrator.png)
 
+    1. Select the **Run as Administrator** option.
     1. Click **Yes** in the **User Account Control** dialog.
-    1. A PowerShell window will open. It should look something like this:
 
-        ![PowerShell window](media/powershell-window.png)
+        A PowerShell window will open.
+
+1. Install the administration PowerShell module
+    1. Copy this command: `Install-Module -Name Microsoft.PowerApps.Administration.PowerShell`
+    1. Paste the command into the PowerShell window.
+
+        ![Install module](media/install-module.png)
+
+    When installing the module, you may get the following prompts:
+
+        ```powershell
+        NuGet provider is required to continue
+        PowerShellGet requires NuGet provider version '2.8.5.201' or newer to interact with NuGet-based repositories. The NuGet
+        provider must be available in 'C:\Program Files\PackageManagement\ProviderAssemblies' or
+        'C:\Users\you\AppData\Local\PackageManagement\ProviderAssemblies'. You can also install the NuGet provider by
+        running 'Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force'. Do you want PowerShellGet to install
+        and import the NuGet provider now?
+        [Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"):
+        ```
+
+    Type `Y` to continue
+
+        ```powershell
+        Untrusted repository
+        You are installing the modules from an untrusted repository. If you trust this repository, change its
+        InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from
+        'PSGallery'?
+        [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
+        ```
+
+    Type `Y` to continue
 
 ## Step 3: Edit and run script
 
@@ -76,10 +98,6 @@ Copy these values since you will need them when you edit the script to run the  
     ```powershell
     $EnvironmentName = "<paste your EnvironmentName value here>"
     $DatabaseId = "<paste your DatabaseId value here>"
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
-    Import-Module .\Microsoft.PowerApps.Administration.PowerShell.psm1 -Force
-    Import-Module .\Microsoft.PowerApps.PowerShell.psm1 -Force
-    dir . | Unblock-File
     # Will prompt you for account credentials
     Add-PowerAppsAccount
     # Run the command to delete the database
@@ -88,9 +106,10 @@ Copy these values since you will need them when you edit the script to run the  
 
 1. Edit the script to set the `$EnvironmentName` and `$DatabaseId` variables with the GUID values you got from [Step 1: Get your environment and database ids](#step-1-get-your-environment-and-database-ids).
 
-1. Copy the edited script and paste it into the PowerShell command window you opened in [Step 2: Install scripts and open PowerShell](#step-2-install-scripts-and-open-powershell)
+1. Copy the edited script and paste it into the PowerShell command window you opened in [Step 2: Open PowerShell and install PowerShell module](#step-2-open-powershell-and-install-powershell-module)
 
 1. Press **Enter** to run the script.
+
 1. Enter your account credentials in the dialog that opens.
 
     ![Prompt for credentials](media/add-powerappsaccount-dialog.png)
@@ -104,16 +123,15 @@ Content           : {}
 RawContent        : HTTP/1.1 204 No Content
                     Pragma: no-cache
                     Strict-Transport-Security: max-age=31536000; includeSubDomains
-                    x-ms-request-id: westus:189b620e-89b4-44fd-98c5-dfd79b2d6be5
-                    x-ms-correlation-request-id: 18...
-Headers           : {[Pragma, no-cache], 
-                    [Strict-Transport-Security, max-age=31536000; includeSubDomains],
-                    [x-ms-request-id, westus:189b620e-89b4-44fd-98c5-dfd79b2d6be5], 
-                    [x-ms-correlation-request-id, 189b620e-89b4-44fd-98c5-dfd79b2d6be5]
-                    ...}
+                    x-ms-request-id: westus:3a26c2f4-1505-49e5-9db2-70260fe00a26
+                    x-ms-correlation-request-id: 3a...
+Headers           : {[Pragma, no-cache], [Strict-Transport-Security, max-age=31536000; includeSubDomains],
+                    [x-ms-request-id, westus:3a26c2f4-1505-49e5-9db2-70260fe00a26], [x-ms-correlation-request-id,
+                    3a26c2f4-1505-49e5-9db2-70260fe00a26]...}
 RawContentLength  : 0
 ```
-It should return a `StatusCode` value of `204`.
+
+It should return a `StatusCode` value of `204` when it runs successfully.
 
 ## Troubleshooting
 
@@ -121,7 +139,7 @@ This list contains potential issues you may encounter when you run the script.
 
 ### Invalid EnvironmentName or DatabaseId
 
-The following error occurrs if the GUID values you captured for the environment and namespace are not valid. You should double-check the values and try again.
+The following error occurs if the GUID values you captured for the environment and namespace are not valid. You should double-check the values and try again.
 
 ```powershell
 StatusCode              : NotFound
@@ -133,7 +151,7 @@ ContentType             : application/json; charset=utf-8
 CharacterSet            : utf-8
 LastModified            : 12/19/2018 4:48:24 PM
 ProtocolVersion         : 1.1
-ResponseUri             : https://api.cds.microsoft.com/providers/Microsoft.CommonDataModel/namespaces/...?                              api-version=2016-11-01&$filter=environment eq '...'
+ResponseUri             : https://api.cds.microsoft.com/providers/Microsoft.CommonDataModel/namespaces/...?api-version=2016-11-01&$filter=environment eq '...'
 Method                  : GET
 IsFromCache             : False
 ```
