@@ -30,7 +30,7 @@ When you run the `Remove-LegacyCDSDatabase` cmdlet you will need to pass in two 
 
 You can get these values from the URL in the admin portal using the following steps:
 
-1. Open the admin portal [https://admin.powerapps.com](https://admin.powerapps.com)
+1. Open the admin portal ([https://admin.powerapps.com](https://admin.powerapps.com))
 1. Navigate to the environment that has the previous version CDS database you want to delete.
 1. Click **Import resources** in the top right corner.
 
@@ -51,7 +51,7 @@ Copy these values since you will need them when you edit the script to run the  
 
 1. Open a PowerShell command window (as administrator)
 
-    1. Press the Windows key
+    1. Press the **Windows** key or click **Start**.
     1. Type `Windows PowerShell`
     
         ![Opening powershell as an administrator](media/open-windows-powershell-as-administrator.png)
@@ -63,7 +63,7 @@ Copy these values since you will need them when you edit the script to run the  
 
 1. Install the administration PowerShell module
     1. Copy this command: `Install-Module -Name Microsoft.PowerApps.Administration.PowerShell`
-    1. Paste the command into the PowerShell window.
+    1. Paste the command into the PowerShell window and press **enter**.
 
         ![Install module](media/install-module.png)
 
@@ -132,6 +132,10 @@ RawContentLength  : 0
 ```
 
 It should return a `StatusCode` value of `204` when it runs successfully.
+
+When your return to view the database using the admin portal [https://admin.powerapps.com](https://admin.powerapps.com), you will see the following option to create a new database:
+
+![Create database](media/create-database.png)
 
 ## Troubleshooting
 
