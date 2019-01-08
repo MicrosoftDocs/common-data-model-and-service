@@ -4,7 +4,7 @@
 ## [Step 1: Start upgrade process](start-upgrade-process.md)
 ## [Step 2: Upgrade and verify your apps and flows](upgrade-verify-apps-flows.md)
 ## [Step 3: Complete upgrade process](complete-upgrade-process.md)
-## [(Optional) Delete your previous version CDS environment](delete-cds-environment.md)
+## [(Optional) Delete your previous version CDS database](delete-legacy-cds-database.md)
 ## [Errors and resolutions](errors-resolutions.md)
 
 # [Common Data Service (Previous Version)](/common-data-service/entity-reference/introduction)
