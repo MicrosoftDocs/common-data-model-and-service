@@ -11,11 +11,11 @@ ms.author: tpalmer
 
 # The Common Data Model
 
-If you’ve ever had to use data from multiple systems and applications together, you know that common data elements can save effort, streamline development, and enable faster analytics. Without being able to share and understand the same data easily, each application or data integration project requires a custom implementation which can be time consuming, very costly and required repeated effort.
+If you’ve ever had to use data from multiple systems and applications together, you know that common data elements can save effort, streamline development, and enable faster analytics. Without being able to share and understand the same data easily, each application or data integration project requires a custom implementation, which can consume a lot of time, costly a lot of money, and require repeated effort.
 
-The Common Data Model (CDM) simplifies this procress by providing a shared data language used by business and analytical applications. The CDM metadata system enables consistency of data and its meaning across applications and business processes, such as PowerApps, Power BI, Dynamics 365, Azure and more, which store data in conformance with the CDM.
+The Common Data Model (CDM) simplifies this procress by providing a shared data language for business and analytical applications to use. The CDM metadata system enables consistency of data and its meaning across applications and business processes (such as PowerApps, Power BI, Dynamics 365, and Azure), which store data in conformance with the CDM.
 
-In addition to the metadata system, the Common Data Model includes a set of a standardized, extensible data schemas published by Microsoft and our partners. This collection of predefined schemas consists of entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of the standard entities. More information: [CDM repository on GitHub](https://aka.ms/cdmrepo)
+In addition to the metadata system, the CDM includes a set of a standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of the standard entities. More information: [CDM repository on GitHub](https://aka.ms/cdmrepo)
 
 ![Common Data Model](media/cdm-entities.png "Common Data Model")
 
@@ -59,14 +59,14 @@ based on CDM schemas. These examples show how organizations use the CDM:
 
 - **Common Data Service (CDS) for Apps**, which supports Dynamics and PowerApps, stores data in conformance with the CDM definition. In fact, many of the original business entities in the CDM came from Dynamics offerings, such as Dynamics 365 for Sales and Dynamics 365 for Marketing.
 
-- **Industries** such as healthcare are working closely with Microsoft to extend the CDM to their specific business concepts, such as **Patient** and **Care Plan** through [Industry Accelerators](industry-accelerators.md). This extends the benefit of the CDM standard entities to these verticals making it easier for industry solutions to interoperate. 
+- **Industries** such as healthcare are working closely with Microsoft to extend the CDM to their specific business concepts, such as **Patient** and **Care Plan** through [Industry Accelerators](industry-accelerators.md). This extends the benefit of the CDM standard entities to these verticals so that industry solutions interoperate more easily. 
 
 - **Power BI Dataflows** allows you to ingest data into the CDM form from a variety of sources such as Dynamics 365, Salesforce, Azure SQL Database, Excel, or SharePoint. Once you've connected and prepared your data, you can choose to map it to a CDM standard entity or load it as a custom entity in CDM form in Azure Data Lake Storage Gen2.
 
-- **Azure Data Lake Gen2 (Preview)** combines the power of a Hadoop compatible file system with integrated hierarchical namespace with the massive scale and economy of Azure Blob Storage to help speed your transition from proof of concept to production. CDM brings semantic consistency to data within the lake, making it easier for applications and services to interoperate when data is stored in CDM form.
+- **Azure Data Lake Storage Gen2 (Preview)** helps speed your transition from proof of concept to production by combining the power of a file system that's compatible with Hadoop, an integrated hierarchical namespace, and the massive scale and economy of Azure Blob Storage. CDM brings semantic consistency to data within the lake so that applications and services can interoperate more easily when data is stored in CDM form.
 
 ## Next steps
 
 [How to use the Common Data Model](use.md): Describes the CDM in detail and discusses use cases for creating data in the CDM or transforming your existing data into the CDM.  
-[Learn more about Industry Accelerators](industry-accelerators.md): Describes the effort around industry extensions and the solutions Microsoft has already released.  
-[The Common Data Model and Microsoft Azure Data Lake Storage Gen2 Preview](data-lake.md): Describes how data in CDM from stored in Azure Data Lake Gen2 Preview makes it easier for services in the Azure ecosystem to exchange data.
+[Learn more about Industry Accelerators](industry-accelerators.md): Describes the effort around industry extensions and the solutions that Microsoft has already released.  
+[The Common Data Model and Microsoft Azure Data Lake Storage Gen2 Preview](data-lake.md): Describes how putting data in CDM form and storing it in Azure Data Lake Storage Gen2 Preview helps services in the Azure ecosystem to exchange data.
