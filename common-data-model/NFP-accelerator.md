@@ -1,6 +1,6 @@
 ---
 title: Nonprofit Accelerator -Dynamics 365 | Microsoft Docs
-description: Rapidly develop nonprofit fundraising, grant/award, program delivery and impact tracking solutions using nonprofit entities in the [Dynamics 365 Nonprofit Accelerator](https://appsource.microsoft.com/en-us/product/dynamics-365/msnfp.msftnonprofitcommondatamodel?tab=overview). 
+description: Rapidly develop nonprofit fundraising, grant/award, program delivery and impact tracking solutions using nonprofit entities in the Dynamics 365 Nonprofit Accelerator. 
 author: Smith Codio
 ms.service: common-data-model
 ms.reviewer: anneta
