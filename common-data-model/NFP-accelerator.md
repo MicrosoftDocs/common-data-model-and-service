@@ -76,20 +76,20 @@ The Nonprofit Accelerator provides the following entities as standard:
 |                  |                   | Disbursement Distribution |                                        |
 
 
-**Forms and dashboards:**
+##Forms and dashboards:
 
 The Dynamics 365 Nonprofit Accelerator combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, views, and dashboards that demonstrate the new entities and the data model.
 
-**Constituent Management**
+###Constituent Management
 360 degree view and tracking of constituent's data to include profile, relationships, and complete history of engagement with the organization involving donations, communications, marketing, grants, case management, etc.
 
-![](media/media/NFP-DonorCommitments.png)
+![Donor and Household](media/media/NFP-DonorCommitments.png)
 
 
-**Donation Management**
+###Donation Management
 Acknowledgement of donation, tracking pledges and donations from individuals and institutions to include one-time and recurring donations, GIK, grant payments, and bequests, restricted and unrestricted tracking, call center support, revenue recognition in the accounting system of record.
 
-![](NFP-HouseholdsDashboard_UCI.png)
+![Household Commitments](NFP-HouseholdsDashboard_UCI.png)
 
 
 **Additional Resources:**
