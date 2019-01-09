@@ -36,7 +36,7 @@ at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial
 
 -   documentation that supports adoption of the Accelerator
 
-**Site Map Extensions:**
+## Site Map Extensions
 
 With the Nonprofit Accelerator plugged in to the Dynamics 365 platform, you can
 optimize individual aspects of nonprofit business processes including
@@ -52,7 +52,7 @@ standard](https://iatistandard.org/en/).
 
 ![](media/NFP-SitemapV1.png)
 
-**Entities and workflows:**
+## Entities and workflows
 
 The Nonprofit Accelerator provides the following entities as standard:
 
@@ -76,23 +76,23 @@ The Nonprofit Accelerator provides the following entities as standard:
 |                  |                   | Disbursement Distribution |                                        |
 
 
-##Forms and dashboards:
+## Forms and dashboards
 
 The Dynamics 365 Nonprofit Accelerator combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, views, and dashboards that demonstrate the new entities and the data model.
 
-###Constituent Management
+### Constituent Management
 360 degree view and tracking of constituent's data to include profile, relationships, and complete history of engagement with the organization involving donations, communications, marketing, grants, case management, etc.
 
-![Donor and Household](media/media/NFP-DonorCommitments.png)
+![Donor and Household](media/NFP-DonorCommitments.png)
 
 
-###Donation Management
+### Donation Management
 Acknowledgement of donation, tracking pledges and donations from individuals and institutions to include one-time and recurring donations, GIK, grant payments, and bequests, restricted and unrestricted tracking, call center support, revenue recognition in the accounting system of record.
 
-![Household Commitments](NFP-HouseholdsDashboard_UCI.png)
+![Household Commitments](media/NFP-HouseholdsDashboard_UCI.png)
 
 
-**Additional Resources:**
+## Additional Resources
 
 1.  Download the Dynamics 365 Nonprofit Accelerator from
     [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/msnfp.msftnonprofitcommondatamodel?src=office&tab=Overview)
