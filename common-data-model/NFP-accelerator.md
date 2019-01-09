@@ -82,11 +82,11 @@ The Dynamics 365 Nonprofit Accelerator combines standard Dynamics 365 entities w
 
 **Constituent Management**
 360 degree view and tracking of constituent's data to include profile, relationships, and complete history of engagement with the organization involving donations, communications, marketing, grants, case management, etc. 
-
+![](media/NFP-HouseholdsDashboard_UCI.png)
 
 **Donation Management**
 Acknowledgement of donation, tracking pledges and donations from individuals and institutions to include one-time and recurring donations, GIK, grant payments, and bequests, restricted and unrestricted tracking, call center support, revenue recognition in the accounting system of record.
-
+![](media/NFP-DonorCommitments.png)
 
 
 **Additional Resources:**
