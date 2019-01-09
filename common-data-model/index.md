@@ -15,7 +15,7 @@ If you’ve ever had to use data from multiple systems and applications together
 
 The Common Data Model (CDM) simplifies this procress by providing a shared data language for business and analytical applications to use. The CDM metadata system enables consistency of data and its meaning across applications and business processes (such as PowerApps, Power BI, Dynamics 365, and Azure), which store data in conformance with the CDM.
 
-In addition to the metadata system, the CDM includes a set of a standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of the standard entities. More information: [CDM repository on GitHub](https://aka.ms/cdmrepo)
+In addition to the metadata system, the CDM includes a set of standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of the standard entities. More information: [CDM repository on GitHub](https://aka.ms/cdmrepo)
 
 ![Common Data Model](media/cdm-entities.png "Common Data Model")
 
