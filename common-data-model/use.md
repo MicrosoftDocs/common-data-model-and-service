@@ -13,17 +13,17 @@ ms.author: tpalmer
 
 With the Common Data Model (CDM), you can put your data into formats that represent concepts and activities that are commonly used and well understood. That way, you can query that data, reuse it, and interoperate with other businesses and apps that use the same format. This strategy matches that of, for example, manufacturers who produce AA batteries that fit in most remote controls. The CDM defines the size and shape of a **Contact**, for example, so that your app developers and business partners can parse that data and build your apps (or interoperate) with agility and confidence. The CDM is an open-source definition of standard entities and a metadata system that enable consistency of data and its meaning across apps and business processes.
 
-Today, the CDM is used within Common Data Service (CDS) for Apps, which supports Dynamics and PowerApps, and the data-preparation capabilities in Power BI dataflows to create schematized files in Azure Data Lake. The CDM definitions are open and avaiable to any service or application that wishes to use them.
+Today, the CDM is used within Common Data Service (CDS) for Apps, which supports Dynamics 365, PowerApps, and the data-preparation capabilities in Power BI dataflows to create schematized files in Azure Data Lake. The CDM definitions are open and available to any service or application that wants to use them.
 
 ![Common Data Model with CDS for Apps](media/cdm-with-cds.png "Common Data Model with CDS for Apps")
 
 You can use the CDM in multiple applications and platforms:
 
-- **Bring your data together in CDS**: You can use the Common Data Service for Apps to bring your data together in the standardized format of the CDM and quickly create powerful apps. The data can then be used accessed in Microsoft apps and services such as Dynamics, PowerApps, Microsoft Flow, Power BI, or your own custom apps.
+- **Bring your data together in CDS for Apps**: You can use CDS for Apps to bring your data together in the standardized format of the CDM and quickly create powerful apps. The data can then be managed in Microsoft apps and services such as Dynamics 365, PowerApps, Microsoft Flow, Power BI, or your own custom apps.
 
-- **Extend CDM standard entities**: The CDM is extensible, so you can extend existing entities or create entities that are specific to your organization. These entities can be related back to the CDM standard entities making it easier for your app to leverage the full power of the platform.
+- **Extend CDM standard entities**: The CDM is extensible, so you can extend existing entities or create entities that are specific to your organization. These entities can relate back to the CDM standard entities so that your app can more easily leverage the full power of the platform.
 
-- **Create your own repositories of data with Azure Data Lake gen2**: You can build repositories of data that adhere to the schema of the CDM and connect to those data sources using Microsoft data connectors. This lets you build custom line-of-business apps that use or share your data in the CDM, regardless of where the data originated or is stored.
+- **Create your own repositories of data with Azure Data Lake Storage Gen2 (Preview)**: You can build repositories of data that adhere to the schema of the CDM, and you can connect to those data sources by using Microsoft data connectors. Then you can build custom, line-of-business apps that use or share your data in the CDM, regardless of where the data originated or resides.
 
 - **Quickly derive and distribute insights using Power BI**: You can use advanced data-preparation services with Power BI dataflows to load data into CDM form, including templates that map into CDM standard entities. Then you can create report-generating apps that automatically pull your data from the CDM into customized insights for individuals and groups in your organization.
 
@@ -78,12 +78,12 @@ Organizations can incorporate dataflows in these ways, among others, to suit the
 - [Connect to data created by Power BI dataflows in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-dataflows)
 - [Developer resources for Power BI dataflows](https://docs.microsoft.com/power-bi/service-dataflows-developer-resources)
 
-## The Common Data Model and Microsoft Azure Data Lake Storage Gen2 Preview
+## The Common Data Model and Microsoft Azure Data Lake Storage Gen2 (Preview)
 
-Azure Data Lake Gen2 (Preview) is designed specifically for enterprises to run large scale analytics workloads in the cloud. While data stored within ADLSg2 is easily accessbile to a wide variety of applications and services, each consumer needs to do the work to understand the meaning of the data before it can provide value. The Common Data Model simplifies this for data stored in ADLSg2 in CDM form by providinga metadata system to describe the data and standard entity shapes producers can map to. See [CDM and Azure Data Lake Gen2 Preview](data-lake.md) for more information.
+Azure Data Lake Storage Gen2 (Preview) is designed specifically for enterprises to run large-scale analytics workloads in the cloud. A wide variety of applications and services can easily access data in this format, but each consumer must understand the meaning of the data before it can provide value. The CDM simplifies this process by providing a metadata system that describes the data and standard entites to which producers can map. More information: [CDM and Azure Data Lake Storage Gen2 (Preview)](data-lake.md).
 
-### Resources for CDM & ADLSg2
+### Resources for CDM and Azure Data Lake Storage Gen2 (Preview)
 
-- [Introduction to Azure Data Lake Storage gen2 Preview](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
+- [Introduction to Azure Data Lake Storage Gen2 (Preview)](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
 - [Azure Data Services dismantle data silos and unlock insights](https://aka.ms/cdmadsblog)
 - [CDM and Azure Data Services Integration (tutorial)](https://github.com/Azure-Samples/cdm-azure-data-services-integration/blob/master/Tutorial/CDM-Azure-Data-Services-Integration-Tutorial.md)
