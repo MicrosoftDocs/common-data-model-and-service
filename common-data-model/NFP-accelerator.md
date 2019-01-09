@@ -34,7 +34,7 @@ at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial
 
 -   a Common Data Service for Apps solution that you can install from AppSource
 
--   Documentation that supports adoption of the Accelerator
+-   documentation that supports adoption of the Accelerator
 
 **Site Map Extensions:**
 
@@ -74,6 +74,20 @@ The Nonprofit Accelerator provides the following entities as standard:
 |                  | Payment Method    | Delivery Framework        |                                        |
 |                  | Payment Processor | Budget                    |                                        |
 |                  |                   | Disbursement Distribution |                                        |
+
+
+**Forms and dashboards:**
+
+The Dynamics 365 Nonprofit Accelerator combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, views, and dashboards that demonstrate the new entities and the data model.
+
+**Constituent Management**
+360 degree view and tracking of constituent's data to include profile, relationships, and complete history of engagement with the organization involving donations, communications, marketing, grants, case management, etc. 
+
+
+**Donation Management**
+Acknowledgement of donation, tracking pledges and donations from individuals and institutions to include one-time and recurring donations, GIK, grant payments, and bequests, restricted and unrestricted tracking, call center support, revenue recognition in the accounting system of record.
+
+
 
 **Additional Resources:**
 
