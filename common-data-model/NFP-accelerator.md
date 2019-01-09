@@ -50,7 +50,7 @@ end-to-end fundraising, grants/awards lifecycles and standards-based program
 delivery and impact tracking based on the [IATI
 standard](https://iatistandard.org/en/).
 
-![](media/07aa6b70c5e36346952541537b41c6f5.png)
+![](media/NFP-SitemapV1.png)
 
 **Entities and workflows:**
 
