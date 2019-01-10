@@ -11,7 +11,7 @@ ms.author: smithc
 
 # The Dynamics 365 Nonprofit Accelerator
 
-The Accelerator was announced at the initial Microsoft CXO Summit in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
+The Accelerator was announced at the initial Microsoft CXO Summit in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact)
 and released in [November 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
 at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial release includes the following features:
 
