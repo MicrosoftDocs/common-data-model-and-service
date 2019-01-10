@@ -78,18 +78,24 @@ The Nonprofit Accelerator provides the following entities as standard:
 
 ## Forms and dashboards
 
-The Dynamics 365 Nonprofit Accelerator combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, views, and dashboards that demonstrate the new entities and the data model.
+The Dynamics 365 Nonprofit Accelerator combines standard Dynamics 365 entities with entities customized specifically for nonprofit use cases to make it easier to build nonprofit industry solutions.  This section provides examples of the forms and dashboards that demonstrate the new entities in the Dynamics 365 Nonprofit Common Data Model.
 
 ### Constituent Management
-360 degree view and tracking of constituent's data to include profile, relationships, and complete history of engagement with the organization involving donations, communications, marketing, grants, case management, etc.
+Complete nonprofit constituent profiles for individuals, households and organizations including constituent biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations and grants/awards.
 
-![Donor and Household](media/NFP-DonorCommitments.png)
+![Donor](media/NFP-JoeyConstituentUCI.png)
 
 
 ### Donation Management
-Acknowledgement of donation, tracking pledges and donations from individuals and institutions to include one-time and recurring donations, GIK, grant payments, and bequests, restricted and unrestricted tracking, call center support, revenue recognition in the accounting system of record.
+Sample donation dashboard includes gift acknowledgement, individual and organizational pledge and and gift tracking, one-time and recurring gifts, gift in kind, grant disbursements.
 
 ![Household Commitments](media/NFP-HouseholdsDashboard_UCI.png)
+
+
+### Indicators and Indicator Values
+Program Delivery & Results entity that details what will be measured to track evidence of impact and qualitative or quantitative measurements of evidence of impact.
+
+![Indicators](media/NFP-Indicators.png)
 
 
 ## Additional Resources
