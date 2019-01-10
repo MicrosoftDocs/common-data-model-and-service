@@ -16,7 +16,7 @@ The Common Data Model (CDM) originated from Microsoft Dynamics, as you can see f
 -	[Healthcare](health-accelerator.md)
 -	Education including [Higher Ed](hied-accelerator.md) and K-12
 -	Automotive (Manufacturing)
--	Nonprofit
+-	[Nonprofit](NFP-accelerator.md)
 -	Retail
 -	Financial services (credit union, banking, wealth management)
 
