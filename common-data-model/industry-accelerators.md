@@ -14,9 +14,9 @@ The Common Data Model (CDM) originated from Microsoft Dynamics, as you can see f
 
 [Industry Accelerators](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) are foundational components within the Microsoft Power platform and Dynamics 365 that enable ISVs and other solution providers to quickly build industry vertical solutions. The accelerators extend the CDM to include new entities to support a data schema for concepts within specific industries. Microsoft is focused on delivering accelerators for these industries and others:
 -	[Healthcare](health-accelerator.md)
--	Education (Higher Ed / K-12)
+-	Education including [Higher Ed](hied-accelerator.md) and K-12
 -	Automotive (Manufacturing)
--	Nonprofit
+-	[Nonprofit](NFP-accelerator.md)
 -	Retail
 -	Financial services (credit union, banking, wealth management)
 

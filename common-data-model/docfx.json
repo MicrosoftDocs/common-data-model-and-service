@@ -37,7 +37,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/common-data-model/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/common-data-model-and-service",
+      "feedback_product_url": "https://github.com/Microsoft/CDM/issues",
       "titleSuffix": "Common Data Model"
     },
     "fileMetadata": {},

@@ -1,0 +1,106 @@
+---
+title: Nonprofit Accelerator - Dynamics 365 | Microsoft Docs
+description: Rapidly develop nonprofit fundraising, grant/award, program delivery, and impact-tracking solutions by using nonprofit entities in the Dynamics 365 Nonprofit Accelerator. 
+author: smithy7
+ms.service: common-data-model
+ms.reviewer: anneta
+ms.topic: article
+ms.date: 1/08/2019
+ms.author: smithc
+---
+
+# The Dynamics 365 Nonprofit Accelerator
+
+This accelerator was announced at the initial Microsoft CXO Summit in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact)
+
+and released in [November 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
+at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial release includes these features:
+
+-   Extension of the Common Data Model (CDM) to include concepts for managing constituents, raising funds, grants/awards, program delivery, and tracking impact, including entity definitions and relationships.
+
+-   Individual, Household and Organization customer-engagement forms that you
+    can enhance or use out of the box.
+
+-   A sample app for managing constituents that demonstrates some possibilities of
+    the Unified Interface.
+
+-   Support for building canvas and model-driven apps in PowerApps.
+
+-   Support for extending the model with custom entities, forms, and
+    relationships that meet your nonprofit needs.
+
+-   Support for analytics.
+
+-   A solution that's based on Common Data Service (CDS) for Apps and that you can install from AppSource.
+
+-   Documentation that helps you adopt the accelerator.
+
+## Sitemap extensions
+
+With the Nonprofit Accelerator plugged in to the Dynamics 365 platform, you can optimize individual aspects of nonprofit business processes, including raising funds, managing grants and awards, program delivery, and tracking impact. You can also leverage the entire constituent-engagement solution within Dynamics 365.
+
+This accelerator adds a nonprofit layer to the rich feature set of the base Dynamics 365 functionality by adding nonprofit entities to record detailed constituent profiles for individuals, households, and organizations. The current data model supports end-to-end fundraising, grants/awards lifecycles, standards-based program delivery, and impact tracking based on the [IATI standard](https://iatistandard.org).
+
+![](media/NFP-SitemapV1.png)
+
+## Entities and workflows
+
+These entities are built in to the Nonprofit Accelerator:
+
+| **Constituent**  | **Fundraising**   | **Grants/Awards**         | **Program Delivery & Impact Tracking** |
+|------------------|-------------------|---------------------------|----------------------------------------|
+| Account          | Lead              | Lead                      | Objective                              |
+| Contact          | Opportunity       | Opportunity               | Delivery Framework                     |
+| Address          | Campaign          | Campaign                  | Budget                                 |
+| Connection       | Designation       | OFAC Match                | Result                                 |
+| Salutation       | Designation Plan  | Docket                    | Indicator                              |
+| Employment       | Credit Plan       | Recommendation            | Indicator Value                        |
+| Education        | Credit Recipient  | Request                   |                                        |
+| Preference       | Designated Credit | Report                    |                                        |
+|                  | Donor Commitment  | Award                     |                                        |
+|                  | Planned Giving    | Award Version             |                                        |
+|                  | Payment Schedule  | Review                    |                                        |
+|                  | Payment Asset     | Disbursement              |                                        |
+|                  | Transaction       | Objective                 |                                        |
+|                  | Payment Method    | Delivery Framework        |                                        |
+|                  | Payment Processor | Budget                    |                                        |
+|                  |                   | Disbursement Distribution |                                        |
+
+
+## Forms and dashboards
+
+The Nonprofit Accelerator combines standard Dynamics 365 entities with entities that are customized specifically for nonprofit use cases to help you build nonprofit industry solutions. This section provides examples of the forms and dashboards that demonstrate the entities in the Dynamics 365 Nonprofit Common Data Model.
+
+### Constituent management
+
+Complete constituent profiles for individuals, households, and organizations, including biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations, and grants/awards.
+
+![Donor](media/NFP-JoeyConstituentUCI.png)
+
+### Donation management
+
+The sample dashboard for donations includes gift acknowledgement, tracking of individual and organizational pledges and gifts, one-time and recurring gifts, gifts in kind, and grant disbursements.
+
+![Household Commitments](media/NFP-HouseholdsDashboard_UCI.png)
+
+### Indicators and indicator values
+
+Program Delivery & Results entity that details what will be measured to track evidence of impact and qualitative or quantitative measurements of evidence of impact.
+
+![Indicators](media/NFP-Indicators.png)
+
+## Additional resources
+
+- Download the Dynamics 365 Nonprofit Accelerator from
+    [AppSource](https://appsource.microsoft.com/product/dynamics-365/msnfp.msftnonprofitcommondatamodel?src=office&tab=Overview).
+
+- The nonprofit Common Data Model, solutions, data samples, Power BI examples,
+    SDK extensions, and more are provided as part of the open-source creative
+    license available on
+    [GitHub](https://github.com/Microsoft/Dynamics-365-Industry-Accelerators/tree/master/nfp).
+
+ - First look at the [Nonprofit
+    Accelerator](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/11/08/a-first-look-at-the-dynamics-365-nonprofit-accelerator).
+
+- [Additional
+    topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators.
