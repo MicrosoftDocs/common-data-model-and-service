@@ -11,9 +11,7 @@ ms.author: smithc
 
 # The Dynamics 365 Nonprofit Accelerator
 
-This accelerator was announced at the initial Microsoft CXO Summit in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact)
-
-and released in [November 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
+This accelerator was announced at the initial Microsoft CXO Summit in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact) and released in [November 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
 at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial release includes these features:
 
 -   Extension of the Common Data Model (CDM) to include concepts for managing constituents, raising funds, grants/awards, program delivery, and tracking impact, including entity definitions and relationships.
@@ -39,11 +37,7 @@ at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial
 
 With the Nonprofit Accelerator plugged in to the Dynamics 365 platform, you can optimize individual aspects of nonprofit business processes, including raising funds, managing grants and awards, program delivery, and tracking impact. You can also leverage the entire constituent-engagement solution within Dynamics 365.
 
-This accelerator adds a nonprofit layer to the rich feature set of the base
-Dynamics 365 functionality by adding nonprofit entities to record detailed
-constituent profiles for individuals, households and organizations. The current data model supports
-end-to-end fundraising, grants/awards lifecycles and standards-based program
-delivery and impact tracking based on the [IATI
+This accelerator adds a nonprofit layer to the rich feature set of the base Dynamics 365 functionality by adding nonprofit entities to record detailed constituent profiles for individuals, households, and organizations. The current data model supports end-to-end fundraising, grants/awards lifecycles, standards-based program delivery, and impact tracking based on the [IATI
 standard](https://iatistandard.org/en/).
 
 ![](media/NFP-SitemapV1.png)
@@ -94,7 +88,7 @@ Program Delivery & Results entity that details what will be measured to track ev
 
 ![Indicators](media/NFP-Indicators2.png)
 
-## Additional resources
+## More resources
 
 - Download the Dynamics 365 Nonprofit Accelerator from
     [AppSource](https://appsource.microsoft.com/product/dynamics-365/msnfp.msftnonprofitcommondatamodel?src=office&tab=Overview).
