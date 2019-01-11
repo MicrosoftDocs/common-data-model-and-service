@@ -3,7 +3,7 @@ title: "Upgrade and verify your apps and flows | Microsoft Docs"
 description: "Provides information about upgrading your apps and flows, and then verifying it to ensure it works with the test CDS for Apps database."
 author: "JimDaly"
 manager: "annbe"
-ms.date: "12/09/2018"
+ms.date: "01/11/2018"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -20,7 +20,7 @@ The following users are sent an email asking them to verify that their apps and
 flows are working as expected with the test version (CDS for Apps) of the
 database. 
 
--   App and flow owners (creators) who have apps and flows that connect to the
+-   App and flow owners (creators) who have apps and flows that connect to the previous version CDS
     database. 
 
 -   Users who have edit permissions on the apps. 
@@ -30,6 +30,8 @@ database. 
 [determine](https://docs.microsoft.com/en-us/powerapps/administrator/admin-manage-apps)
 from the PowerApps admin center whether any security groups have edit
 permissions on an app, and then reach out to those users separately.
+>
+> Emails will not be sent to owners of Apps and flows that do not connect to the previous version CDS database
 
 Here is a sample email that users receive: 
 

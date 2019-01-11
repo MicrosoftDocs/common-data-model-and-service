@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "annbe"
-ms.date: "12/09/2018"
+ms.date: "01/11/2018"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -22,13 +22,13 @@ The previous version of Common Data Service (CDS) was enhanced and released as *
 
 To use the new capabilities in CDS for Apps, existing users on the previous version of Common Data Service can upgrade to the latest CDS for Apps using one of the following options:
 
-- Upgrade your previous version of CDS to CDS for Apps.
+- **Upgrade your previous version of CDS to CDS for Apps.**
     - This is the best option to preserve any apps or flows that use the previous version of CDS.
     - More information: [Overview of the upgrade process](upgrade-overview.md).
-- Delete your previous version CDS database, then create a new CDS for Apps database in the existing environment.
+- **Delete your previous version CDS database, then create a new CDS for Apps database in the existing environment.**
     - If you haven't used the previous version CDS database or you don't care to preserve any apps for flows that used it. This is a simple option that will allow you to use CDS for Apps right away with a minimum amount of time.
     - More information: [Delete your previous version Common Data Service database](delete-legacy-cds-database.md)
-- Do nothing
+- **Do nothing**
     - When the previous version of CDS is discontinued, all remaining previous version CDS databases will be deleted. This date will be announced soon.
 
 
