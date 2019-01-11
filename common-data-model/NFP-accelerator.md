@@ -14,24 +14,24 @@ ms.author: smithc
 This accelerator was announced at the initial Microsoft CXO Summit in [April 2018](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact) and released in [November 2018](https://blogs.microsoft.com/on-the-issues/2018/11/08/new-dynamics-365-nonprofit-accelerator-supports-organizations-with-end-to-end-solutions)
 at the [NetHope Global Summit](https://youtu.be/eV4N0mK0-so?t=2169). The initial release includes these features:
 
--   Extension of the Common Data Model (CDM) to include concepts for managing constituents, raising funds, grants/awards, program delivery, and tracking impact, including entity definitions and relationships.
+- Extension of the Common Data Model (CDM) to include concepts for managing constituents, raising funds, grants/awards, program delivery, and tracking impact, including entity definitions and relationships.
 
--   Individual, Household and Organization customer-engagement forms that you
+- Individual, Household and Organization customer-engagement forms that you
     can enhance or use out of the box.
 
--   A sample app for managing constituents that demonstrates some possibilities of
+- A sample app for managing constituents that demonstrates some possibilities of
     the Unified Interface.
 
--   Support for building canvas and model-driven apps in PowerApps.
+- Support for building canvas and model-driven apps in PowerApps.
 
--   Support for extending the model with custom entities, forms, and
+- Support for extending the model with custom entities, forms, and
     relationships that meet your nonprofit needs.
 
--   Support for analytics.
+- Support for analytics.
 
--   A solution that's based on Common Data Service (CDS) for Apps and that you can install from AppSource.
+- A solution that's based on Common Data Service (CDS) for Apps and that you can install from AppSource.
 
--   Documentation that helps you adopt the accelerator.
+- Documentation that helps you adopt the accelerator.
 
 ## Sitemap extensions
 
@@ -65,7 +65,6 @@ These entities are built in to the Nonprofit Accelerator:
 |                  | Payment Processor | Budget                    |                                        |
 |                  |                   | Disbursement Distribution |                                        |
 
-
 ## Forms and dashboards
 
 The Nonprofit Accelerator combines standard Dynamics 365 entities with entities that are customized specifically for nonprofit use cases to help you build nonprofit industry solutions. This section provides examples of the forms and dashboards that demonstrate the entities in the Dynamics 365 Nonprofit Common Data Model.
@@ -98,7 +97,7 @@ Program Delivery & Results entity that details what will be measured to track ev
     license available on
     [GitHub](https://github.com/Microsoft/Dynamics-365-Industry-Accelerators/tree/master/nfp).
 
- - First look at the [Nonprofit
+- First look at the [Nonprofit
     Accelerator](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/11/08/a-first-look-at-the-dynamics-365-nonprofit-accelerator).
 
 - [Additional
