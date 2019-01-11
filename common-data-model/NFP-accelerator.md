@@ -45,7 +45,7 @@ leverage the entire constituent-engagement solution within Dynamics 365.
 
 This accelerator adds a nonprofit layer to the rich feature set of the base
 Dynamics 365 functionality by adding nonprofit entities to record detailed
-constituent profiles for individuals, households and organizations, the
+constituent profiles for individuals, households and organizations. The current data model supports
 end-to-end fundraising, grants/awards lifecycles and standards-based program
 delivery and impact tracking based on the [IATI
 standard](https://iatistandard.org/en/).
@@ -83,13 +83,13 @@ The Dynamics 365 Nonprofit Accelerator combines standard Dynamics 365 entities w
 ### Constituent Management
 Complete nonprofit constituent profiles for individuals, households and organizations including constituent biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations and grants/awards.
 
-![Donor](media/NFP-JoeyConstituentUCI.png)
+![Donor](media/NFP-ConstituentMgmt2.png)
 
 
 ### Donation Management
 Sample donation dashboard includes gift acknowledgement, individual and organizational pledge and and gift tracking, one-time and recurring gifts, gift in kind, grant disbursements.
 
-![Household Commitments](media/NFP-HouseholdsDashboard_UCI.png)
+![Household Commitments](media/NFP-HouseholdDashboard.png)
 
 
 ### Indicators and Indicator Values
