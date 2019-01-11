@@ -95,7 +95,7 @@ Sample donation dashboard includes gift acknowledgement, individual and organiza
 ### Indicators and Indicator Values
 Program Delivery & Results entity that details what will be measured to track evidence of impact and qualitative or quantitative measurements of evidence of impact.
 
-![Indicators](media/NFP-Indicators.png)
+![Indicators](media/NFP-Indicators2.png)
 
 
 ## Additional Resources
