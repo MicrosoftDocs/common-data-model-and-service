@@ -73,19 +73,19 @@ The Nonprofit Accelerator combines standard Dynamics 365 entities with entities 
 
 Complete constituent profiles for individuals, households, and organizations, including biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations, and grants/awards.
 
-![Donor](media/NFP-ConstituentMgmt2.png)
+![Donor](media/NFP-ConstituentMgmt4.png)
 
 ### Donation management
 
 The sample dashboard for donations includes gift acknowledgement, tracking of individual and organizational pledges and gifts, one-time and recurring gifts, gifts in kind, and grant disbursements.
 
-![Household Commitments](media/NFP-HouseholdDashboard.png)
+![Household Commitments](media/NFP-HouseholdsDashboard4.png)
 
 ### Indicators and indicator values
 
 Program Delivery & Results entity that details what will be measured to track evidence of impact and qualitative or quantitative measurements of evidence of impact.
 
-![Indicators](media/NFP-Indicators2.png)
+![Indicators](media/NFP-Indicators4.png)
 
 ## More resources
 
