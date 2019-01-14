@@ -3,7 +3,7 @@ title: "Delete your previous version Common Data Service database | Microsoft Do
 description: "Provides instructions on how to delete the previous version of Common Data Service database"
 author: "JimDaly"
 manager: "annbe"
-ms.date: "01/07/2019"
+ms.date: "01/14/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -18,6 +18,9 @@ ms.author: jdaly
 If you don't have any important data in the previous version CDS database, you can simply delete it and then add a new CDS for Apps database.
 
 You can do this using a new `Remove-LegacyCDSDatabase` PowerShell cmdlet provided with the [PowerApps cmdlets for administrators](/powerapps/administrator/powerapps-powershell#powerapps-cmdlets-for-administrators-preview)
+
+> [!NOTE]
+> If you aren't comfortable using PowerShell, you can contact PowerApps support and request that they delete your database for you.
 
 This topic will describe the steps required to install the PowerShell scripts and run the `Remove-LegacyCDSDatabase` PowerShell cmdlet. For more information on other cmdlets you can use, see [PowerShell support for PowerApps (preview)](/powerapps/administrator/powerapps-powershell).
 
