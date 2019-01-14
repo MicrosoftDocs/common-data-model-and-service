@@ -3,7 +3,7 @@ title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "annbe"
-ms.date: "12/09/2018"
+ms.date: "01/14/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -81,6 +81,8 @@ To start upgrading your database to the latest CDS for Apps: 
 
     > [!IMPORTANT]
     > It may take several hours to create the test database. There is no progress bar. The spinning icon for the first step indicates is is running.
+    >
+    > You might want to start this in the afternoon and check it the next day to see how it went.
 
     A test database with the latest version of CDS for Apps is created. You can view the schema of the new database during the creation process, as shown in the following example. 
 
