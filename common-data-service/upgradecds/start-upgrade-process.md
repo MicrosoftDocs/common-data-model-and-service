@@ -56,6 +56,9 @@ No, you cannot cancel the upgrade process for a database once you initiate it.
 It’s important that you read through this entire document and understand the
 process before initiating the upgrade. 
 
+> [!IMPORTANT]
+> Once you start the upgrade process you must not delete the database. This will leave your environment in an inconsistent state. If you choose to abandon the upgrade process after you have started, contact support for assistance.
+
 ### Will there be any downtime of the database or apps in production during the upgrade? 
 
 The upgrade process consists of three steps as described later. Only the third

@@ -16,6 +16,9 @@ ms.author: jdaly
 
 # Overview of the upgrade process
 
+> [!IMPORTANT]
+> Once you start the upgrade process you must not delete the database. This will leave your environment in an inconsistent state. If you choose to abandon the upgrade process after you have started, contact support for assistance.
+
 The upgrade from previous version of CDS to CDS for Apps is a three-step process.
 
 The following graphic depicts an environment containing the previous version of
