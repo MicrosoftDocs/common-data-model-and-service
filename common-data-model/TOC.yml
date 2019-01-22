@@ -22,5 +22,3 @@
     items:
       - name: Account
         href: account.md
-  - name: Frequently asked questions
-    href: faq.md
