@@ -49,13 +49,13 @@ closely with admins. 
 1.  If you select an app, it opens in PowerApps Studio, and prompts you to
     upgrade the app.
 
-    - If you select to upgrade the app, a draft copy of the app is created and
+    - If you select **Get my app ready**, a draft copy of the app is created and
         connected to the test database with the latest version of CDS for Apps.
 
         ![Upgrade app](media/upgrade-app-01.png)
 
-    - If you select **Skip for now**, you’ll be prompted again to upgrade the app
-    the next time you (or anyone who has edit permissions) open the app for
+    - If you select **Not right now**, you’ll be prompted again to upgrade the app
+    the next time you (or anyone who has edit permissions) opens the app for
     editing. If you’re editing the app when the environment administrator starts
     the upgrade processes, it’s highly recommended that you save and publish
     your ongoing work and then select the option to upgrade the app. The draft
