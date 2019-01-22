@@ -18,7 +18,7 @@
       - name: Model metadata
         href: model-json.md
    - name: Schema References
-    href: schema-references.md
-    items:
-      - name: Account
-        href: account.md
+     href: schema-references.md
+     items:
+       - name: Account
+         href: account.md
