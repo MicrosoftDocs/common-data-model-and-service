@@ -20,6 +20,6 @@
   - name: Schema References
     href: schema-references.md
     items:
-      - name: Account
+      - name: Account1
         href: schema/Account.md
         topicHref: schema/Account.md
