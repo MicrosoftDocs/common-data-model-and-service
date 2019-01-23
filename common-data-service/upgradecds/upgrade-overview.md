@@ -55,6 +55,9 @@ At the end of the Step 1, the environment looks like this:  
 
 ![After database upgrade](media/after-db-upgrade.png)
 
+> [!IMPORTANT]
+> You cannot edit the database schema while step 1 is running. You cannot add or modify entities during this time because it would make the test database invalid.
+
 More information: [Step 1: Start upgrade process for your existing database to CDS for Apps](start-upgrade-process.md)
 
 ## Step 2: Upgrade and verify the apps and flows to work with test database
