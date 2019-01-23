@@ -1,2 +1,5 @@
 - name: Account
   href: Account.md
+- name: core
+  href: core/toc.yml
+  topicHref: core/overview.md
