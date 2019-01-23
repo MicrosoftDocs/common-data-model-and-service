@@ -1,5 +1,0 @@
-- name: Schema
-  href: schema-index.md
-  items:
-    - name: Account
-      href: schema/Account.md
