@@ -21,4 +21,4 @@
     href: schema-references.md
     items:
       - name: Account
-        href: Account.md
+        href: schema/Account.md
