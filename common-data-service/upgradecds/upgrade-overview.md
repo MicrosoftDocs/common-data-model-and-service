@@ -16,6 +16,9 @@ ms.author: jdaly
 
 # Overview of the upgrade process
 
+> [!IMPORTANT]
+> Once you start the upgrade process you must not delete the database. This will leave your environment in an inconsistent state. If you choose to abandon the upgrade process after you have started, contact support for assistance.
+
 The upgrade from previous version of CDS to CDS for Apps is a three-step process.
 
 The following graphic depicts an environment containing the previous version of
@@ -51,6 +54,9 @@ center](https://admin.powerapps.com/). 
 At the end of the Step 1, the environment looks like this:  
 
 ![After database upgrade](media/after-db-upgrade.png)
+
+> [!IMPORTANT]
+> You cannot edit the database schema while step 1 is running. You cannot add or modify entities during this time because it would make the test database invalid.
 
 More information: [Step 1: Start upgrade process for your existing database to CDS for Apps](start-upgrade-process.md)
 

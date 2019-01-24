@@ -24,9 +24,12 @@ To use the new capabilities in CDS for Apps, existing users on the previous vers
 
 - **Upgrade your previous version of CDS to CDS for Apps.**
     - This is the best option to preserve any apps or flows that use the previous version of CDS.
+    - This process will require several hours and require cooperation with the authors of any apps or flows connected to this database.
     - More information: [Overview of the upgrade process](upgrade-overview.md).
 - **Delete your previous version CDS database, then create a new CDS for Apps database in the existing environment.**
     - If you haven't used the previous version CDS database or you don't care to preserve any apps for flows that used it. This is a simple option that will allow you to use CDS for Apps right away with a minimum amount of time.
+        > [!IMPORTANT]
+        > Do not delete a database if you have started the upgrade process.
     - More information: [Delete your previous version Common Data Service database](delete-legacy-cds-database.md)
 - **Do nothing**
     - When the previous version of CDS is discontinued, all remaining previous version CDS databases will be deleted. This date will be announced soon.
