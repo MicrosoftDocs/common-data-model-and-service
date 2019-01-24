@@ -1,12 +1,12 @@
 - name: core
-  href:  /core/overview.md
+  href:  core/overview.md
   items: 
   - name: foundations
-    href:  /core/foundations/overview.md
+    href:  core/foundations/overview.md
     items: 
     - name: founds.md
-      href: /core/foundations/founds.md
+      href: core/foundations/founds.md
   - name: Email.md
-    href: /core/Email.md
+    href: core/Email.md
 - name: Account.md
-  href: /Account.md
+  href: Account.md
