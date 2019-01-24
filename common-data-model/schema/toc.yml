@@ -3,5 +3,5 @@
 - name: core
   href: core/overview.md
   items:
-    - name: "Core"
-      href: core/Email.md
+  - name: "Core"
+    href: core/Email.md
