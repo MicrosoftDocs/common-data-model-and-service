@@ -5,3 +5,8 @@
   items:
   - name: "Emailll"
     href: core/Email.md
+  - name: "Foundations"
+    href: core/foundations/overview.md
+    items:
+      - name: "Foundations JSON"
+        href: core/foundations/founds.md
