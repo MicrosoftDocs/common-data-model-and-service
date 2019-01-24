@@ -19,11 +19,3 @@
         href: model-json.md
   - name: Schema References
     href: schema/overview.yml
-    items:
-      - name: Account
-        href: schema/Account.md
-      - name: Core
-        href: schema/core/overview.md
-        items:
-          - name: Email
-            href: schema/core/Email.md
