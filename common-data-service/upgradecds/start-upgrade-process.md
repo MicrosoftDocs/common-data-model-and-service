@@ -78,7 +78,10 @@ To start upgrading your database to the latest CDS for Apps: 
 
 1.  If you’re an environment Administrator, go to the [PowerApps admin
     center](https://admin.powerapps.com/), and in the left navigation pane,
-    select **Environments**. 
+    select **Environments**.
+
+    > [!IMPORTANT]
+    > See [No environments visible](errors-resolutions.md#no-environments-visible) if you don't see a list of environments.
 
     Environments that have a database on the previous version of CDS have **Upgrade now** listed next to them. 
 
