@@ -18,4 +18,5 @@
       - name: Model metadata
         href: model-json.md
   - name: Schema References
-    href: schema/overview.yml
+    href: schema/toc.yml
+    topicHref: schema/overview.md
