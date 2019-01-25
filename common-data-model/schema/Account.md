@@ -1,5 +1,5 @@
 # Account
-
+title: Account
 ## Properties
 
 Display name: Account
