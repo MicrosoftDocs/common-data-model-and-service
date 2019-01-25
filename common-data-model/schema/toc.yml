@@ -4,9 +4,9 @@
   - name: foundations
     href:  core/foundations/overview.md
     items: 
-    - name: founds.md
+    - name: Founds
       href: core/foundations/founds.md
-  - name: Email.md
+  - name: Email
     href: core/Email.md
-- name: Account.md
+- name: Account
   href: Account.md
