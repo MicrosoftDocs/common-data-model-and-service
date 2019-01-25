@@ -104,8 +104,7 @@ Today CDM folders and data files are treated the same as any other data ([more d
 
 ### How do I access CDM artifacts
 
-You can create, read, update, or delete CDM folders, model.json files, and data files through APIs and SDKs for Azure Data Lake Storage Gen2 Preview.<br>[More information](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2
-)
+You can create, read, update, or delete CDM folders, model.json files, and data files through APIs for Azure Data Lake Storage Gen2 Preview.<br>[More information](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2)
 
 ## Power BI dataflows
 
