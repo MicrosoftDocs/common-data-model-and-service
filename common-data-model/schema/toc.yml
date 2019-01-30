@@ -1,12 +1,125 @@
-- name: core
-  href:  core/overview.md
+- name: composites
+  href:  composites/overview.md
   items: 
-  - name: foundations
-    href:  core/foundations/overview.md
-    items: 
-    - name: Founds22
-      href: core/foundations/founds.md
+  - name: address
+    href: composites/Address.md
+  - name: Customers
+    href: composites/Customers.md
+  - name: Photo
+    href: composites/Photo.md
+  - name: simpleCust
+    href: composites/simpleCust.md
+- name: E2EResolution
+  href:  E2EResolution/overview.md
+  items: 
+  - name: BusinessDocument
+    href: E2EResolution/BusinessDocument.md
+  - name: Communication
+    href: E2EResolution/Communication.md
+  - name: E2EArrayAll
+    href: E2EResolution/E2EArrayAll.md
+  - name: E2EArrayOne
+    href: E2EResolution/E2EArrayOne.md
+  - name: E2ESingleAll
+    href: E2EResolution/E2ESingleAll.md
+  - name: E2ESingleOne
+    href: E2EResolution/E2ESingleOne.md
   - name: Email
-    href: core/Email.md
-- name: Account
-  href: Account.md
+    href: E2EResolution/Email.md
+  - name: EmploymentOffer
+    href: E2EResolution/EmploymentOffer.md
+  - name: HumanResources
+    href: E2EResolution/HumanResources.md
+  - name: Letter
+    href: E2EResolution/Letter.md
+  - name: Meeting
+    href: E2EResolution/Meeting.md
+  - name: PolyBase
+    href: E2EResolution/PolyBase.md
+  - name: PolyDerivedA
+    href: E2EResolution/PolyDerivedA.md
+  - name: PolyDerivedB
+    href: E2EResolution/PolyDerivedB.md
+  - name: PolyDerivedC
+    href: E2EResolution/PolyDerivedC.md
+- name: KnowledgeGraph
+  href:  KnowledgeGraph/overview.md
+  items: 
+  - name: LinguisticAlternate
+    href: KnowledgeGraph/LinguisticAlternate.md
+  - name: LocalizedName
+    href: KnowledgeGraph/LocalizedName.md
+  - name: Taxonomy
+    href: KnowledgeGraph/Taxonomy.md
+- name: MiniDyn
+  href:  MiniDyn/overview.md
+  items: 
+  - name: sub
+    href:  MiniDyn/sub/overview.md
+    items: 
+    - name: Account
+      href: MiniDyn/sub/Account.md
+    - name: Currency
+      href: MiniDyn/sub/Currency.md
+    - name: Lead
+      href: MiniDyn/sub/Lead.md
+    - name: Opportunity
+      href: MiniDyn/sub/Opportunity.md
+  - name: Account
+    href: MiniDyn/Account.md
+  - name: Address
+    href: MiniDyn/Address.md
+  - name: Base
+    href: MiniDyn/Base.md
+  - name: Currency
+    href: MiniDyn/Currency.md
+  - name: User
+    href: MiniDyn/User.md
+- name: overrides
+  href:  overrides/overview.md
+  items: 
+  - name: NamedItems
+    href: overrides/NamedItems.md
+  - name: NamedMassiveItems
+    href: overrides/NamedMassiveItems.md
+  - name: sampleList
+    href: overrides/sampleList.md
+- name: POVResolution
+  href:  POVResolution/overview.md
+  items: 
+  - name: sub1
+    href:  POVResolution/sub1/overview.md
+    items: 
+    - name: Linked
+      href: POVResolution/sub1/Linked.md
+    - name: Linked3
+      href: POVResolution/sub1/Linked3.md
+    - name: Main
+      href: POVResolution/sub1/Main.md
+  - name: Linked
+    href: POVResolution/Linked.md
+  - name: Linked2
+    href: POVResolution/Linked2.md
+  - name: Main
+    href: POVResolution/Main.md
+  - name: Secondary
+    href: POVResolution/Secondary.md
+- name: webClicks
+  href:  webClicks/overview.md
+  items: 
+  - name: Device
+    href: webClicks/Device.md
+  - name: EmailAddress
+    href: webClicks/EmailAddress.md
+  - name: ExperienceEvent
+    href: webClicks/ExperienceEvent.md
+  - name: PhoneNumber
+    href: webClicks/PhoneNumber.md
+  - name: WebInfo
+    href: webClicks/WebInfo.md
+  - name: WebInteraction
+    href: webClicks/WebInteraction.md
+  - name: WebPageDetails
+    href: webClicks/WebPageDetails.md
+  - name: WebReferrer
+    href: webClicks/WebReferrer.md
