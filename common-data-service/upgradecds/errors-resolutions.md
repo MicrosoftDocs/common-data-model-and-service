@@ -25,7 +25,7 @@ This section provides information about possible errors you might see during upg
 
 ## Deleting test databases
 
-Any Test databases created during step 1 will automatically be deleted 2 days after the upgrade succeeds. You don't need to delete them.
+Any test databases created during step 1 will automatically be deleted 2 days after the upgrade succeeds. You don't need to delete them.
 
 If one or more upgrade attempts fail, the test databases will remain until the upgrade finally succeeds.
 
