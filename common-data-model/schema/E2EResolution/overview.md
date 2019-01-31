@@ -1,5 +1,5 @@
 ---
-title: Device
+title: E2EResolution
 description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
