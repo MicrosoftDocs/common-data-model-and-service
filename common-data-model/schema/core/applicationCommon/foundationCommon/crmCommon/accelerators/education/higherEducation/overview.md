@@ -1,5 +1,5 @@
 ---
-title: docs
+title: higherEducation
 description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta

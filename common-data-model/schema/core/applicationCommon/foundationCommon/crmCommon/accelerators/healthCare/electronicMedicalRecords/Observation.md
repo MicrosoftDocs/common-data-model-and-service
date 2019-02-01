@@ -1,0 +1,7923 @@
+---
+title: Observation_
+description: some description
+ms.service:: common-data-model
+ms.reviewer: anneta
+ms.topic: article
+ms.date: 2/1/2019
+ms.author: tpalmer
+---
+# Observation
+
+## Properties
+
+Display Name: Observation
+
+Description: Measurements and simple assertions made about a patient, device or other subject.
+
+Latest Version: 0.8.1
+
+Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json](https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json)
+
+## Instances
+
+## Attributes - Summary
+
+<table><tr><th>Name</th><th>Description</th><th>First Included in Instance</th></tr><tr><td>createdOn</td><td>Date and time when the record was created.</td><td> </td></tr><tr><td>createdBy</td><td>Shows who created the record.</td><td> </td></tr><tr><td>modifiedOn</td><td>Date and time when the record was modified.</td><td> </td></tr><tr><td>modifiedBy</td><td>Shows who last updated the record.</td><td> </td></tr><tr><td>createdOnBehalfBy</td><td>Shows who created the record on behalf of another user.</td><td> </td></tr><tr><td>modifiedOnBehalfBy</td><td>Shows who last updated the record on behalf of another user.</td><td> </td></tr><tr><td>overriddenCreatedOn</td><td>Date and time that the record was migrated.</td><td> </td></tr><tr><td>importSequenceNumber</td><td>Unique identifier of the data import or data migration that created this record.</td><td> </td></tr><tr><td>ownerIdType</td><td>The type of owner, either User or Team.</td><td> </td></tr><tr><td>ownerId</td><td>Owner Id</td><td> </td></tr><tr><td>owningBusinessUnit</td><td>Unique identifier for the business unit that owns the record</td><td> </td></tr><tr><td>owningUser</td><td>Unique identifier of the user that owns the activity.</td><td> </td></tr><tr><td>owningTeam</td><td>Unique identifier for the team that owns the record.</td><td> </td></tr><tr><td>timeZoneRuleVersionNumber</td><td>For internal use only.</td><td> </td></tr><tr><td>UTCConversionTimeZoneCode</td><td>Time zone code that was in use when the record was created.</td><td> </td></tr><tr><td>versionNumber</td><td>Version Number</td><td> </td></tr><tr><td>observationId</td><td>Unique identifier for entity instances</td><td> </td></tr><tr><td>stateCode</td><td>Status of the Observation</td><td> </td></tr><tr><td>stateCode_display</td><td>undefined</td><td> </td></tr><tr><td>statusCode</td><td>Reason for the status of the Observation</td><td> </td></tr><tr><td>statusCode_display</td><td>undefined</td><td> </td></tr><tr><td>description</td><td>The name of the custom entity.</td><td> </td></tr><tr><td>bodySite</td><td>Indicates the site on the subject's body where the observation was made (i.e. the target site).</td><td> </td></tr><tr><td>code</td><td>Describes what was observed. Sometimes this is called the observation "name".</td><td> </td></tr><tr><td>comment</td><td>May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.</td><td> </td></tr><tr><td>conextTypeEncounter</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td><td> </td></tr><tr><td>conextTypeEpisodeOfCare</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td><td> </td></tr><tr><td>contextType</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td><td> </td></tr><tr><td>contextType_display</td><td>undefined</td><td> </td></tr><tr><td>dataAbsentReason</td><td>Provides a reason why the expected value in the element Observation.value[x] is missing.</td><td> </td></tr><tr><td>device</td><td>The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td><td> </td></tr><tr><td>deviceType</td><td>The device used to generate the observation data.</td><td> </td></tr><tr><td>deviceType_display</td><td>undefined</td><td> </td></tr><tr><td>deviceTypeDevice</td><td>The device used to generate the observation data.</td><td> </td></tr><tr><td>deviceTypeDeviceMetric</td><td>The device  metric used to generate the observation data.</td><td> </td></tr><tr><td>effectiveEnd</td><td>The  End time-period the observed value is asserted as being true. For biological subjects</td><td> </td></tr><tr><td>effectiveStart</td><td>The start time-period the observed value is asserted as being true. For biological subjects</td><td> </td></tr><tr><td>effectiveType</td><td>Clinically relevant time/time-period for observation.</td><td> </td></tr><tr><td>effectiveType_display</td><td>undefined</td><td> </td></tr><tr><td>effectiveTypeDateTime</td><td>Enable this field if the Effective type field is Date time.</td><td> </td></tr><tr><td>episodeOfCare</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td><td> </td></tr><tr><td>identifier</td><td>A unique identifier assigned to this observation.</td><td> </td></tr><tr><td>interpretation</td><td>The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status</td><td> </td></tr><tr><td>issuedDate</td><td>The date and time this observation was made available to providers, typically after the results have been reviewed and verified.</td><td> </td></tr><tr><td>method</td><td>Indicates the mechanism used to perform the observation.</td><td> </td></tr><tr><td>observationNumber</td><td>A unique identifier assigned to this observation.</td><td> </td></tr><tr><td>specimen</td><td>The specimen that was used when this observation was made.</td><td> </td></tr><tr><td>status</td><td>The status of the result value.</td><td> </td></tr><tr><td>status_display</td><td>undefined</td><td> </td></tr><tr><td>subjectType</td><td>The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td><td> </td></tr><tr><td>subjectType_display</td><td>undefined</td><td> </td></tr><tr><td>subjectTypeDevice</td><td>The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td><td> </td></tr><tr><td>subjectTypeGroup</td><td>The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td><td> </td></tr><tr><td>subjectTypeLocation</td><td>The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td><td> </td></tr><tr><td>subjectTypePatient</td><td>The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td><td> </td></tr><tr><td>valueBoolean</td><td>The boolean information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valueCodeableConcept</td><td>The codeable concept information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valueDateType</td><td>The date and time  information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valuePeriodEndDate</td><td>The period end date information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valuePeriodStartDate</td><td>The period start date information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valueQuantityCode</td><td>Coded form of the unit.</td><td> </td></tr><tr><td>valueQuantitySystem</td><td>System that defines coded unit form.</td><td> </td></tr><tr><td>valueQuantityUnit</td><td>Unit representation.</td><td> </td></tr><tr><td>valueRangeHighLimit</td><td>The value high range information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valueRangeLowLimit</td><td>The range low value information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valueRatioDenominatorCode</td><td>The denominator code information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valueRatioDenominatorComparator</td><td>The denominator comparator information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valueRatioDenominatorComparator_display</td><td>undefined</td><td> </td></tr><tr><td>valueratioDenominatorSystem</td><td>The denominator system information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valueRatioDenominatorUnit</td><td>undefined</td><td> </td></tr><tr><td>valueratioDenominatorvalue</td><td>undefined</td><td> </td></tr><tr><td>valueRatioNumeratorCode</td><td>undefined</td><td> </td></tr><tr><td>valueRatioNumeratorComparator</td><td>undefined</td><td> </td></tr><tr><td>valueRatioNumeratorComparator_display</td><td>undefined</td><td> </td></tr><tr><td>valueRatioNumeratorSystem</td><td>undefined</td><td> </td></tr><tr><td>valueRatioNumeratorUnit</td><td>undefined</td><td> </td></tr><tr><td>valueRatioNumeratorValue</td><td>undefined</td><td> </td></tr><tr><td>valueSampledDataTypeData</td><td>Decimal values with spaces, or "E" | "U" | "L"</td><td> </td></tr><tr><td>valueSampledDataTypeDimension</td><td>Number of sample points at each time point.</td><td> </td></tr><tr><td>valueSampledDataTypeFactor</td><td>Multiply data by this before adding to origin.</td><td> </td></tr><tr><td>valueSampledDataTypeLowerLimit</td><td>Lower limit of detection</td><td> </td></tr><tr><td>valueSampledDataTypeOrigin</td><td>Zero value and units.</td><td> </td></tr><tr><td>valueSampledDataTypePeriod</td><td>Number of milliseconds between samples.</td><td> </td></tr><tr><td>valueSampledDataTypeUpperLimit</td><td>Upper limit of detection.</td><td> </td></tr><tr><td>valueString</td><td>undefined</td><td> </td></tr><tr><td>valueType</td><td>The information determined as a result of making the observation, if the information has a simple value.</td><td> </td></tr><tr><td>valueType_display</td><td>undefined</td><td> </td></tr><tr><td>valueTypeQuantityComparator</td><td>How the Quantity should be understood and represented.</td><td> </td></tr><tr><td>valueTypeQuantityComparator_display</td><td>undefined</td><td> </td></tr><tr><td>valueTypeQuantityValue</td><td>Numerical value (with implicit precision).</td><td> </td></tr></table>
+
+## Attribute - Details
+
+### createdOn
+
+Date and time when the record was created.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### means.measurement.date.creation
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created On</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was created.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>createdon</td><td>string</td><td>undefined</td></tr></table>
+
+
+### createdBy
+
+Shows who created the record.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### means.userId
+
+contains a userId
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "userId",
+  "name": "createdBy",
+  "appliedTraits": [
+    "is.CDS.standard",
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Created By"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Shows who created the record."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Created By",
+  "description": "Shows who created the record.",
+  "isNullable": true,
+  "sourceName": "createdby"
+}
+```
+
+### modifiedOn
+
+Date and time when the record was modified.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### means.measurement.date.modify
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified On</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was modified.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedon</td><td>string</td><td>undefined</td></tr></table>
+
+
+### modifiedBy
+
+Shows who last updated the record.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### means.userId
+
+contains a userId
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "userId",
+  "name": "modifiedBy",
+  "appliedTraits": [
+    "is.CDS.standard",
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Modified By"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Shows who last updated the record."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Modified By",
+  "description": "Shows who last updated the record.",
+  "isNullable": true,
+  "sourceName": "modifiedby"
+}
+```
+
+### createdOnBehalfBy
+
+Shows who created the record on behalf of another user.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### means.userId
+
+contains a userId
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By (Delegate)</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "userId",
+  "name": "createdOnBehalfBy",
+  "appliedTraits": [
+    "is.CDS.standard",
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Created By (Delegate)"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Shows who created the record on behalf of another user."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Created By (Delegate)",
+  "description": "Shows who created the record on behalf of another user.",
+  "isNullable": true,
+  "sourceName": "createdonbehalfby"
+}
+```
+
+### modifiedOnBehalfBy
+
+Shows who last updated the record on behalf of another user.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### means.userId
+
+contains a userId
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By (Delegate)</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "userId",
+  "name": "modifiedOnBehalfBy",
+  "appliedTraits": [
+    "is.CDS.standard",
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Modified By (Delegate)"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Shows who last updated the record on behalf of another user."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Modified By (Delegate)",
+  "description": "Shows who last updated the record on behalf of another user.",
+  "isNullable": true,
+  "sourceName": "modifiedonbehalfby"
+}
+```
+
+### overriddenCreatedOn
+
+Date and time that the record was migrated.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### means.measurement.date.creation
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Record Created On</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time that the record was migrated.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>overriddencreatedon</td><td>string</td><td>undefined</td></tr></table>
+
+
+### importSequenceNumber
+
+Unique identifier of the data import or data migration that created this record.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Unique identifier of the data import or data migration that created this record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the data import or data migration that created this record.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>importsequencenumber</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### ownerIdType
+
+The type of owner, either User or Team.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.entityName
+
+
+##### is.readOnly
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Type</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The type of owner, either User or Team.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owneridtype</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.linkedEntity.name
+
+Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
+
+
+##### is.CDS.owner
+
+contains a User or Team ID
+
+
+### ownerId
+
+Owner Id
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>ownerid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Id</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.linkedEntity.identifier
+
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
+
+
+##### is.CDS.owner
+
+contains a User or Team ID
+
+
+### owningBusinessUnit
+
+Unique identifier for the business unit that owns the record
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning Business Unit</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the business unit that owns the record</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "owningBusinessUnit",
+  "appliedTraits": [
+    "is.CDS.standard",
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Owning Business Unit"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Unique identifier for the business unit that owns the record"
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Owning Business Unit",
+  "description": "Unique identifier for the business unit that owns the record",
+  "isNullable": true,
+  "sourceName": "owningbusinessunit"
+}
+```
+
+### owningUser
+
+Unique identifier of the user that owns the activity.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### means.userId
+
+contains a userId
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning User</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the user that owns the activity.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "userId",
+  "name": "owningUser",
+  "appliedTraits": [
+    "is.CDS.standard",
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Owning User"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Unique identifier for the user that owns the record."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Owning User",
+  "description": "Unique identifier for the user that owns the record.",
+  "isNullable": true,
+  "sourceName": "owninguser"
+}
+```
+
+### owningTeam
+
+Unique identifier for the team that owns the record.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning Team</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the team that owns the record.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "owningTeam",
+  "appliedTraits": [
+    "is.CDS.standard",
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Owning Team"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Unique identifier for the team that owns the record."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Owning Team",
+  "description": "Unique identifier for the team that owns the record.",
+  "isNullable": true,
+  "sourceName": "owningteam"
+}
+```
+
+### timeZoneRuleVersionNumber
+
+For internal use only.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Zone Rule Version Number</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>timezoneruleversionnumber</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### UTCConversionTimeZoneCode
+
+Time zone code that was in use when the record was created.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>UTC Conversion Time Zone Code</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time zone code that was in use when the record was created.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>utcconversiontimezonecode</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### versionNumber
+
+Version Number
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int64</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### is.dataFormat.big
+
+
+##### means.measurement.version
+
+
+##### is.CDS.standard
+
+identifies attributes that are part of the cdsStandard base set.
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version Number</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version Number</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>versionnumber</td><td>string</td><td>undefined</td></tr></table>
+
+
+### observationId
+
+Unique identifier for entity instances
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>msemr_observationid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.identifiedBy
+
+names a specifc identity attribute to use with an entity
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Observation_/hasAttributes/observationId"</td><td>attribute</td><td>undefined</td></tr></table>
+
+Definition:
+
+```
+"Observation_/hasAttributes/observationId"
+```
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Observation</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_observationid</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>1</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### stateCode
+
+Status of the Observation
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Observation</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "Active",
+    "attributeValue": "0",
+    "displayOrder": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Inactive",
+    "attributeValue": "1",
+    "displayOrder": "1"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### means.entityState
+
+the attribute represents the current state of the entity.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Observation_/hasAttributes/stateCode"</td><td>attribute</td><td>undefined</td></tr></table>
+
+Definition:
+
+```
+"Observation_/hasAttributes/stateCode"
+```
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Observation</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>statecode</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>24</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### stateCode_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>stateCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### statusCode
+
+Reason for the status of the Observation
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Status</td></tr><tr><td>description</td><td>Reason for the status of the Observation</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "Active",
+    "attributeValue": "1",
+    "displayOrder": "0",
+    "correlatedValue": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Inactive",
+    "attributeValue": "2",
+    "displayOrder": "6",
+    "correlatedValue": "1"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Registered",
+    "attributeValue": "935000001",
+    "displayOrder": "1",
+    "correlatedValue": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Preliminary",
+    "attributeValue": "935000002",
+    "displayOrder": "2",
+    "correlatedValue": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Final",
+    "attributeValue": "935000003",
+    "displayOrder": "3",
+    "correlatedValue": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Amended",
+    "attributeValue": "935000004",
+    "displayOrder": "4",
+    "correlatedValue": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Corrected",
+    "attributeValue": "935000005",
+    "displayOrder": "5",
+    "correlatedValue": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Cancelled",
+    "attributeValue": "935000006",
+    "displayOrder": "7",
+    "correlatedValue": "1"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Entered in Error",
+    "attributeValue": "935000007",
+    "displayOrder": "8",
+    "correlatedValue": "1"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Unknown",
+    "attributeValue": "935000008",
+    "displayOrder": "9",
+    "correlatedValue": "1"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>9</td><td>1</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.correlatedWith
+
+the attribute value is correlated with the sourceAttribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>stateCode</td><td>attributeName</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Observation Status</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Observation</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>statuscode</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>26</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### statusCode_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>statusCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### description
+
+The name of the custom entity.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_description</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_description</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>33</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### bodySite
+
+Indicates the site on the subject's body where the observation was made (i.e. the target site).
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Body Site</td></tr><tr><td>description</td><td>Indicates the site on the subject's body where the observation was made (i.e. the target site).</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_bodysite</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Body Site</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the site on the subject's body where the observation was made (i.e. the target site).</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_bodysite</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>34</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "bodySite",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Body Site"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Indicates the site on the subject's body where the observation was made (i.e. the target site)."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Body Site",
+  "description": "Indicates the site on the subject's body where the observation was made (i.e. the target site).",
+  "isNullable": true,
+  "sourceName": "msemr_bodysite",
+  "sourceOrdering": 34
+}
+```
+
+### code
+
+Describes what was observed. Sometimes this is called the observation "name".
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Code</td></tr><tr><td>description</td><td>Describes what was observed. Sometimes this is called the observation "name".</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_code</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Code</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Describes what was observed. Sometimes this is called the observation "name".</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_code</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>35</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "code",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Code"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Describes what was observed. Sometimes this is called the observation \"name\"."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Code",
+  "description": "Describes what was observed. Sometimes this is called the observation \"name\".",
+  "isNullable": true,
+  "sourceName": "msemr_code",
+  "sourceOrdering": 35
+}
+```
+
+### comment
+
+May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Comment</td></tr><tr><td>description</td><td>May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>256</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_comment</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Comment</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_comment</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>36</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>256</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### conextTypeEncounter
+
+The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Encounter</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_conexttypeencounter</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Encounter</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_conexttypeencounter</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>37</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "conextTypeEncounter",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Encounter"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Encounter",
+  "description": "The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.",
+  "isNullable": true,
+  "sourceName": "msemr_conexttypeencounter",
+  "sourceOrdering": 37
+}
+```
+
+### conextTypeEpisodeOfCare
+
+The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Episode Of Care</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_conexttypeepisodeofcare</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Episode Of Care</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_conexttypeepisodeofcare</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>38</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "conextTypeEpisodeOfCare",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Episode Of Care"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Episode Of Care",
+  "description": "The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.",
+  "isNullable": true,
+  "sourceName": "msemr_conexttypeepisodeofcare",
+  "sourceOrdering": 38
+}
+```
+
+### contextType
+
+The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Context Type</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_contexttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "Encounter",
+    "attributeValue": "935000000",
+    "displayOrder": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Episode Of Care",
+    "attributeValue": "935000001",
+    "displayOrder": "1"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Encounter</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Episode Of Care</td><td>935000001</td><td>1</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Context Type</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_contexttype</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>39</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### contextType_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>contextType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### dataAbsentReason
+
+Provides a reason why the expected value in the element Observation.value[x] is missing.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Data Absent Reason</td></tr><tr><td>description</td><td>Provides a reason why the expected value in the element Observation.value[x] is missing.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_dataabsentreason</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data Absent Reason</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Provides a reason why the expected value in the element Observation.value[x] is missing.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_dataabsentreason</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>41</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "dataAbsentReason",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Data Absent Reason"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Provides a reason why the expected value in the element Observation.value[x] is missing."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Data Absent Reason",
+  "description": "Provides a reason why the expected value in the element Observation.value[x] is missing.",
+  "isNullable": true,
+  "sourceName": "msemr_dataabsentreason",
+  "sourceOrdering": 41
+}
+```
+
+### device
+
+The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject (Device)</td></tr><tr><td>description</td><td>The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_device</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subject (Device)</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_device</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>42</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "device",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Subject (Device)"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Subject (Device)",
+  "description": "The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.",
+  "isNullable": true,
+  "sourceName": "msemr_device",
+  "sourceOrdering": 42
+}
+```
+
+### deviceType
+
+The device used to generate the observation data.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Type</td></tr><tr><td>description</td><td>The device used to generate the observation data.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_devicetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "Device",
+    "attributeValue": "935000000",
+    "displayOrder": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Device Metric",
+    "attributeValue": "935000001",
+    "displayOrder": "1"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Device</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Device Metric</td><td>935000001</td><td>1</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Device Type</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The device used to generate the observation data.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_devicetype</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>43</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### deviceType_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>deviceType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### deviceTypeDevice
+
+The device used to generate the observation data.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device</td></tr><tr><td>description</td><td>The device used to generate the observation data.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_devicetypedevice</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Device</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The device used to generate the observation data.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_devicetypedevice</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>45</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "deviceTypeDevice",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Device"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The device used to generate the observation data."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Device",
+  "description": "The device used to generate the observation data.",
+  "isNullable": true,
+  "sourceName": "msemr_devicetypedevice",
+  "sourceOrdering": 45
+}
+```
+
+### deviceTypeDeviceMetric
+
+The device  metric used to generate the observation data.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Metric</td></tr><tr><td>description</td><td>The device  metric used to generate the observation data.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_devicetypedevicemetric</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Device Metric</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The device  metric used to generate the observation data.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_devicetypedevicemetric</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>46</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### effectiveEnd
+
+The  End time-period the observed value is asserted as being true. For biological subjects
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective End</td></tr><tr><td>description</td><td>The  End time-period the observed value is asserted as being true. For biological subjects</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectiveend</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Effective End</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The  End time-period the observed value is asserted as being true. For biological subjects</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_effectiveend</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>47</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### effectiveStart
+
+The start time-period the observed value is asserted as being true. For biological subjects
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective Start</td></tr><tr><td>description</td><td>The start time-period the observed value is asserted as being true. For biological subjects</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectivestart</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Effective Start</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The start time-period the observed value is asserted as being true. For biological subjects</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_effectivestart</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>48</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### effectiveType
+
+Clinically relevant time/time-period for observation.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective Type</td></tr><tr><td>description</td><td>Clinically relevant time/time-period for observation.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectivetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "Date time",
+    "attributeValue": "935000000",
+    "displayOrder": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Period",
+    "attributeValue": "935000001",
+    "displayOrder": "1"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Date time</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Period</td><td>935000001</td><td>1</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Effective Type</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Clinically relevant time/time-period for observation.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_effectivetype</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>49</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### effectiveType_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>effectiveType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### effectiveTypeDateTime
+
+Enable this field if the Effective type field is Date time.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective Type Date</td></tr><tr><td>description</td><td>Enable this field if the Effective type field is Date time.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectivetypedatetime</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Effective Type Date</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable this field if the Effective type field is Date time.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_effectivetypedatetime</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>51</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### episodeOfCare
+
+The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Episode of Care</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_episodeofcare</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Episode of Care</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_episodeofcare</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>52</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "episodeOfCare",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Episode of Care"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Episode of Care",
+  "description": "The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.",
+  "isNullable": true,
+  "sourceName": "msemr_episodeofcare",
+  "sourceOrdering": 52
+}
+```
+
+### identifier
+
+A unique identifier assigned to this observation.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Identifier</td></tr><tr><td>description</td><td>A unique identifier assigned to this observation.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_identifier</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Identifier</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A unique identifier assigned to this observation.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_identifier</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>53</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### interpretation
+
+The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interpretation</td></tr><tr><td>description</td><td>The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_interpretation</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Interpretation</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_interpretation</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>54</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "interpretation",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Interpretation"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status"
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Interpretation",
+  "description": "The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status",
+  "isNullable": true,
+  "sourceName": "msemr_interpretation",
+  "sourceOrdering": 54
+}
+```
+
+### issuedDate
+
+The date and time this observation was made available to providers, typically after the results have been reviewed and verified.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Issued Date</td></tr><tr><td>description</td><td>The date and time this observation was made available to providers, typically after the results have been reviewed and verified.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_issueddate</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Issued Date</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The date and time this observation was made available to providers, typically after the results have been reviewed and verified.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_issueddate</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>55</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### method
+
+Indicates the mechanism used to perform the observation.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Method</td></tr><tr><td>description</td><td>Indicates the mechanism used to perform the observation.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_method</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Method</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the mechanism used to perform the observation.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_method</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>56</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "method",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Method"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Indicates the mechanism used to perform the observation."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Method",
+  "description": "Indicates the mechanism used to perform the observation.",
+  "isNullable": true,
+  "sourceName": "msemr_method",
+  "sourceOrdering": 56
+}
+```
+
+### observationNumber
+
+A unique identifier assigned to this observation.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Number</td></tr><tr><td>description</td><td>A unique identifier assigned to this observation.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_observationnumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Observation Number</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A unique identifier assigned to this observation.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_observationnumber</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>57</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### specimen
+
+The specimen that was used when this observation was made.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Specimen</td></tr><tr><td>description</td><td>The specimen that was used when this observation was made.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_specimen</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Specimen</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The specimen that was used when this observation was made.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_specimen</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>58</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### status
+
+The status of the result value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>The status of the result value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "Corrected",
+    "attributeValue": "935000004",
+    "displayOrder": "4"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Cancelled",
+    "attributeValue": "935000005",
+    "displayOrder": "5"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Entered in Error",
+    "attributeValue": "935000006",
+    "displayOrder": "6"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Unknown",
+    "attributeValue": "935000007",
+    "displayOrder": "7"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Registered",
+    "attributeValue": "935000000",
+    "displayOrder": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Preliminary",
+    "attributeValue": "935000001",
+    "displayOrder": "1"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Final",
+    "attributeValue": "935000002",
+    "displayOrder": "2"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Amended",
+    "attributeValue": "935000003",
+    "displayOrder": "3"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Corrected</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>5</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>6</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>7</td></tr><tr><td>en</td><td>Registered</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Final</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Amended</td><td>935000003</td><td>3</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The status of the result value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_status</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>59</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### status_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>status</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### subjectType
+
+The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject Type</td></tr><tr><td>description</td><td>The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "Patient",
+    "attributeValue": "935000000",
+    "displayOrder": "3"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Group",
+    "attributeValue": "935000001",
+    "displayOrder": "1"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Device",
+    "attributeValue": "935000002",
+    "displayOrder": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Location",
+    "attributeValue": "935000003",
+    "displayOrder": "2"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td><td>3</td></tr><tr><td>en</td><td>Group</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Device</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Location</td><td>935000003</td><td>2</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subject Type</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_subjecttype</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>61</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### subjectType_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>subjectType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### subjectTypeDevice
+
+The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device</td></tr><tr><td>description</td><td>The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypedevice</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Device</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_subjecttypedevice</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>63</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "subjectTypeDevice",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Device"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Device",
+  "description": "The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.",
+  "isNullable": true,
+  "sourceName": "msemr_subjecttypedevice",
+  "sourceOrdering": 63
+}
+```
+
+### subjectTypeGroup
+
+The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Group</td></tr><tr><td>description</td><td>The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypegroup</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Group</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_subjecttypegroup</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>64</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "subjectTypeGroup",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Group"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Group",
+  "description": "The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.",
+  "isNullable": true,
+  "sourceName": "msemr_subjecttypegroup",
+  "sourceOrdering": 64
+}
+```
+
+### subjectTypeLocation
+
+The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Location</td></tr><tr><td>description</td><td>The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypelocation</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_subjecttypelocation</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>65</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "subjectTypeLocation",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Location"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Location",
+  "description": "The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.",
+  "isNullable": true,
+  "sourceName": "msemr_subjecttypelocation",
+  "sourceOrdering": 65
+}
+```
+
+### subjectTypePatient
+
+The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Patient</td></tr><tr><td>description</td><td>The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypepatient</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Patient</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_subjecttypepatient</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>66</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "subjectTypePatient",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Patient"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Patient",
+  "description": "The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.",
+  "isNullable": true,
+  "sourceName": "msemr_subjecttypepatient",
+  "sourceOrdering": 66
+}
+```
+
+### valueBoolean
+
+The boolean information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Boolean</td></tr><tr><td>description</td><td>The boolean information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueboolean</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.boolean
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Boolean</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The boolean information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valueboolean</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>67</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueCodeableConcept
+
+The codeable concept information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Codeable Concept</td></tr><tr><td>description</td><td>The codeable concept information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuecodeableconcept</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Codeable Concept</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The codeable concept information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuecodeableconcept</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>69</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "valueCodeableConcept",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Value Codeable Concept"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The codeable concept information determined as a result of making the observation, if the information has a simple value."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Value Codeable Concept",
+  "description": "The codeable concept information determined as a result of making the observation, if the information has a simple value.",
+  "isNullable": true,
+  "sourceName": "msemr_valuecodeableconcept",
+  "sourceOrdering": 69
+}
+```
+
+### valueDateType
+
+The date and time  information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Date Time</td></tr><tr><td>description</td><td>The date and time  information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuedatetype</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Date Time</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The date and time  information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuedatetype</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>70</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valuePeriodEndDate
+
+The period end date information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Period End Date</td></tr><tr><td>description</td><td>The period end date information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueperiodenddate</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Period End Date</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The period end date information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valueperiodenddate</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>71</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valuePeriodStartDate
+
+The period start date information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Period Start Date</td></tr><tr><td>description</td><td>The period start date information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueperiodstartdate</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.date
+
+
+##### means.measurement.date
+
+
+##### is.dataFormat.time
+
+
+##### means.measurement.time
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Period Start Date</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The period start date information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valueperiodstartdate</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>72</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueQuantityCode
+
+Coded form of the unit.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Quantity Code</td></tr><tr><td>description</td><td>Coded form of the unit.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuequantitycode</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Quantity Code</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Coded form of the unit.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuequantitycode</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>73</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "valueQuantityCode",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Value Quantity Code"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Coded form of the unit."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Value Quantity Code",
+  "description": "Coded form of the unit.",
+  "isNullable": true,
+  "sourceName": "msemr_valuequantitycode",
+  "sourceOrdering": 73
+}
+```
+
+### valueQuantitySystem
+
+System that defines coded unit form.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Quantity System</td></tr><tr><td>description</td><td>System that defines coded unit form.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuequantitysystem</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Quantity System</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>System that defines coded unit form.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuequantitysystem</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>74</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueQuantityUnit
+
+Unit representation.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Quantity Unit</td></tr><tr><td>description</td><td>Unit representation.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuequantityunit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Quantity Unit</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unit representation.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuequantityunit</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>75</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueRangeHighLimit
+
+The value high range information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Range High Limit</td></tr><tr><td>description</td><td>The value high range information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerangehighlimit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Range High Limit</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The value high range information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuerangehighlimit</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>76</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueRangeLowLimit
+
+The range low value information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Range Low Limit</td></tr><tr><td>description</td><td>The range low value information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerangelowlimit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Range Low Limit</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The range low value information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuerangelowlimit</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>77</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueRatioDenominatorCode
+
+The denominator code information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator  Code</td></tr><tr><td>description</td><td>The denominator code information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorcode</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Denominator  Code</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The denominator code information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valueratiodenominatorcode</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>78</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "valueRatioDenominatorCode",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Ratio Denominator  Code"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.describedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "The denominator code information determined as a result of making the observation, if the information has a simple value."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Ratio Denominator  Code",
+  "description": "The denominator code information determined as a result of making the observation, if the information has a simple value.",
+  "isNullable": true,
+  "sourceName": "msemr_valueratiodenominatorcode",
+  "sourceOrdering": 78
+}
+```
+
+### valueRatioDenominatorComparator
+
+The denominator comparator information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator Comparator</td></tr><tr><td>description</td><td>The denominator comparator information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorcomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "<",
+    "attributeValue": "935000000",
+    "displayOrder": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "<=",
+    "attributeValue": "935000001",
+    "displayOrder": "1"
+  },
+  {
+    "languageTag": "en",
+    "displayText": ">",
+    "attributeValue": "935000002",
+    "displayOrder": "2"
+  },
+  {
+    "languageTag": "en",
+    "displayText": ">=",
+    "attributeValue": "935000003",
+    "displayOrder": "3"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td><</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td><=</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>></td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>>=</td><td>935000003</td><td>3</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Denominator Comparator</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The denominator comparator information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valueratiodenominatorcomparator</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>79</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueRatioDenominatorComparator_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>valueRatioDenominatorComparator</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### valueratioDenominatorSystem
+
+The denominator system information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator System</td></tr><tr><td>description</td><td>The denominator system information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorsystem</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Denominator System</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The denominator system information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valueratiodenominatorsystem</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>81</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueRatioDenominatorUnit
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator Unit</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorunit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Denominator Unit</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valueratiodenominatorunit</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>82</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueratioDenominatorvalue
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator Value</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorvalue</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.numeric.shaped
+
+for setting the exact precision and scale of numeric values
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Denominator Value</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valueratiodenominatorvalue</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>83</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-100000000000</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueRatioNumeratorCode
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Code</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorcode</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.dataFormat.guid
+
+
+##### means.identity.entityId
+
+
+##### is.CDS.lookup
+
+The attribute represents a style of lookup in CDS for Applications
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator Code</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuerationumeratorcode</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>84</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### does.referenceEntity
+
+turns all attributes from an entity into one key valued attribute
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+  "relationship": "hasA",
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+
+Definition:
+
+```
+{
+  "relationship": "hasA",
+  "dataType": "entityId",
+  "name": "valueRatioNumeratorCode",
+  "appliedTraits": [
+    {
+      "traitReference": "is.CDS.lookup",
+      "arguments": [
+        {
+          "name": "style",
+          "value": "single"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.requiredAtLevel",
+      "arguments": [
+        {
+          "name": "level",
+          "value": "none"
+        }
+      ]
+    },
+    {
+      "traitReference": "is.localized.displayedAs",
+      "arguments": [
+        {
+          "entityReference": {
+            "entityShape": "localizedTable",
+            "constantValues": [
+              [
+                "en",
+                "Ratio Numerator Code"
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "displayName": "Ratio Numerator Code",
+  "isNullable": true,
+  "sourceName": "msemr_valuerationumeratorcode",
+  "sourceOrdering": 84
+}
+```
+
+### valueRatioNumeratorComparator
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Comparator</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorcomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "<",
+    "attributeValue": "935000000",
+    "displayOrder": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "<=",
+    "attributeValue": "935000001",
+    "displayOrder": "1"
+  },
+  {
+    "languageTag": "en",
+    "displayText": ">",
+    "attributeValue": "935000002",
+    "displayOrder": "2"
+  },
+  {
+    "languageTag": "en",
+    "displayText": ">=",
+    "attributeValue": "935000003",
+    "displayOrder": "3"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td><</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td><=</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>></td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>>=</td><td>935000003</td><td>3</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator Comparator</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuerationumeratorcomparator</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>85</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueRatioNumeratorComparator_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>valueRatioNumeratorComparator</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### valueRatioNumeratorSystem
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator  System</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorsystem</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator  System</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuerationumeratorsystem</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>87</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueRatioNumeratorUnit
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Unit</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorunit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator Unit</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuerationumeratorunit</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>88</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueRatioNumeratorValue
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Value</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorvalue</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.numeric.shaped
+
+for setting the exact precision and scale of numeric values
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator Value</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuerationumeratorvalue</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>89</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-100000000000</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueSampledDataTypeData
+
+Decimal values with spaces, or "E" | "U" | "L"
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled DataType Data</td></tr><tr><td>description</td><td>Decimal values with spaces, or "E" | "U" | "L"</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedata</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Sampled DataType Data</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Decimal values with spaces, or "E" | "U" | "L"</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuesampleddatatypedata</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>90</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueSampledDataTypeDimension
+
+Number of sample points at each time point.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Dimension</td></tr><tr><td>description</td><td>Number of sample points at each time point.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedimension</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Sampled Data Type Dimension</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number of sample points at each time point.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuesampleddatatypedimension</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>91</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueSampledDataTypeFactor
+
+Multiply data by this before adding to origin.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Factor</td></tr><tr><td>description</td><td>Multiply data by this before adding to origin.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypefactor</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.numeric.shaped
+
+for setting the exact precision and scale of numeric values
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Sampled Data Type Factor</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Multiply data by this before adding to origin.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuesampleddatatypefactor</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>92</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-100000000000</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueSampledDataTypeLowerLimit
+
+Lower limit of detection
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Lower Limit</td></tr><tr><td>description</td><td>Lower limit of detection</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypelowerlimit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.numeric.shaped
+
+for setting the exact precision and scale of numeric values
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Sampled Data Type Lower Limit</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lower limit of detection</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuesampleddatatypelowerlimit</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>93</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-100000000000</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueSampledDataTypeOrigin
+
+Zero value and units.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Origin</td></tr><tr><td>description</td><td>Zero value and units.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypeorigin</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Sampled Data Type Origin</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Zero value and units.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuesampleddatatypeorigin</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>94</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueSampledDataTypePeriod
+
+Number of milliseconds between samples.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Period</td></tr><tr><td>description</td><td>Number of milliseconds between samples.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypeperiod</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.numeric.shaped
+
+for setting the exact precision and scale of numeric values
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Sampled Data Type Period</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number of milliseconds between samples.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuesampleddatatypeperiod</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>95</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-100000000000</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueSampledDataTypeUpperLimit
+
+Upper limit of detection.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Upper Limit</td></tr><tr><td>description</td><td>Upper limit of detection.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypeupperlimit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.numeric.shaped
+
+for setting the exact precision and scale of numeric values
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Sampled Data Type Upper Limit</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Upper limit of detection.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuesampleddatatypeupperlimit</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>96</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-100000000000</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+
+
+### valueString
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value String</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuestring</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value String</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuestring</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>97</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueType
+
+The information determined as a result of making the observation, if the information has a simple value.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Type</td></tr><tr><td>description</td><td>The information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "Boolean",
+    "attributeValue": "935000003",
+    "displayOrder": "3"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Range",
+    "attributeValue": "935000004",
+    "displayOrder": "4"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Ratio",
+    "attributeValue": "935000005",
+    "displayOrder": "5"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Sample Data",
+    "attributeValue": "935000006",
+    "displayOrder": "6"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Attachment",
+    "attributeValue": "935000007",
+    "displayOrder": "7"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Quantity",
+    "attributeValue": "935000000",
+    "displayOrder": "0"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Codeable Concept",
+    "attributeValue": "935000001",
+    "displayOrder": "1"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Time",
+    "attributeValue": "935000008",
+    "displayOrder": "8"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Date Time",
+    "attributeValue": "935000009",
+    "displayOrder": "9"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "Period",
+    "attributeValue": "935000010",
+    "displayOrder": "10"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "String",
+    "attributeValue": "935000002",
+    "displayOrder": "2"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Boolean</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>Range</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>Ratio</td><td>935000005</td><td>5</td></tr><tr><td>en</td><td>Sample Data</td><td>935000006</td><td>6</td></tr><tr><td>en</td><td>Attachment</td><td>935000007</td><td>7</td></tr><tr><td>en</td><td>Quantity</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Time</td><td>935000008</td><td>8</td></tr><tr><td>en</td><td>Date Time</td><td>935000009</td><td>9</td></tr><tr><td>en</td><td>Period</td><td>935000010</td><td>10</td></tr><tr><td>en</td><td>String</td><td>935000002</td><td>2</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value Type</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The information determined as a result of making the observation, if the information has a simple value.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuetype</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>98</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueType_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>valueType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### valueTypeQuantityComparator
+
+How the Quantity should be understood and represented.
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Comparator</td></tr><tr><td>description</td><td>How the Quantity should be understood and represented.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetypequantitycomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+  {
+    "languageTag": "en",
+    "displayText": "<=",
+    "attributeValue": "935000001",
+    "displayOrder": "1"
+  },
+  {
+    "languageTag": "en",
+    "displayText": ">=",
+    "attributeValue": "935000002",
+    "displayOrder": "2"
+  },
+  {
+    "languageTag": "en",
+    "displayText": ">",
+    "attributeValue": "935000003",
+    "displayOrder": "3"
+  },
+  {
+    "languageTag": "en",
+    "displayText": "<",
+    "attributeValue": "935000000",
+    "displayOrder": "0"
+  }
+]</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.integer
+
+
+##### does.haveDefault
+
+An attribute has a default value
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td><=</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>>=</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>></td><td>935000003</td><td>3</td></tr><tr><td>en</td><td><</td><td>935000000</td><td>0</td></tr></table>
+</td><td>any</td><td>undefined</td></tr></table>
+
+
+##### is.constrainedList
+
+the values of an attribute are taken from or looked up from a fixed list of possibilities
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quantity Comparator</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>How the Quantity should be understood and represented.</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuetypequantitycomparator</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+
+
+### valueTypeQuantityComparator_display
+
+undefined
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.character
+
+
+##### is.dataFormat.big
+
+
+##### is.dataFormat.array
+
+
+##### means.reference.displayText
+
+
+##### is.readOnly
+
+
+##### is.addedInSupportOf
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>valueTypeQuantityComparator</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+
+### valueTypeQuantityValue
+
+Numerical value (with implicit precision).
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Value</td></tr><tr><td>description</td><td>Numerical value (with implicit precision).</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetypequantityvalue</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+
+#### Traits
+
+##### is.dataFormat.numeric.shaped
+
+for setting the exact precision and scale of numeric values
+
+
+##### is.requiredAtLevel
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+
+##### is.localized.displayedAs
+
+Holds the list of language specific display text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quantity Value</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.localized.describedAs
+
+Holds the list of language specific descriptive text for an object.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Numerical value (with implicit precision).</td></tr></table>
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+
+##### is.nullable
+
+The attribute value may be set to NULL.
+
+
+##### is.CDS.sourceNamed
+
+the unique name that identifies this object in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_valuetypequantityvalue</td><td>string</td><td>undefined</td></tr></table>
+
+
+##### is.CDS.ordered
+
+the column number for an attribute with an entity in CDS for Applications.
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>102</td><td>integer</td><td>undefined</td></tr></table>
+
+
+##### is.constrained
+
+maximum length or value constraints
+
+<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-100000000000</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+
+
