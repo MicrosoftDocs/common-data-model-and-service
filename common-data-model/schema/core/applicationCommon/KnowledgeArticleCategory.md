@@ -32,7 +32,7 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 
 ## Attribute - Details
 
-<a name="knowledgeArticleId1">### knowledgeArticleId</a>
+### <a name="knowledgeArticleId1">knowledgeArticleId</a>
 
 undefined
 
