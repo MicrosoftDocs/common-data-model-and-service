@@ -23,11 +23,16 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 
 ## Attributes - Summary
 
-<table><tr><th>Name</th><th>Description</th><th>First Included in Instance</th></tr><tr><td>knowledgeArticleId</td><td>undefined</td><td> </td></tr><tr><td>categoryId</td><td>undefined</td><td> </td></tr><tr><td>knowledgeArticleCategoryId</td><td>Unique identifier of the Category for the knowledge article.</td><td> </td></tr><tr><td>versionNumber</td><td>undefined</td><td> </td></tr></table>
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[knowledgeArticleId](#knowledgeArticleId1)|| |
+|categoryId|| |
+|knowledgeArticleCategoryId|Unique identifier of the Category for the knowledge article.<br>second line test.| |
+|versionNumber|| |
 
 ## Attribute - Details
 
-### knowledgeArticleId
+<a name="knowledgeArticleId1">### knowledgeArticleId</a>
 
 undefined
 
