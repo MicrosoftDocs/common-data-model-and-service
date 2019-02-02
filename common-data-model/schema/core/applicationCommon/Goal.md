@@ -27,7 +27,7 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 
 ## Attribute - Details
 
-### createdOn
+###createdOn
 
 Date and time when the record was created.
 
