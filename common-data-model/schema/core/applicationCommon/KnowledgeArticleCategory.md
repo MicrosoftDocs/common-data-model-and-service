@@ -27,7 +27,7 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 |---|---|---|
 |[knowledgeArticleId](#knowledgeArticleId1)|| |
 |categoryId|| |
-|knowledgeArticleCategoryId|Unique identifier of the Category for the knowledge article.<br>second line test.| |
+|knowledgeArticleCategoryId|Unique identifier of the <br>Category for the knowledge article.<br>second line test.| |
 |versionNumber|| |
 
 ## Attribute - Details
