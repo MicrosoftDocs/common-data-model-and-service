@@ -11,6 +11,8 @@ ms.author: tpalmer
 
 ## Properties 2
 
+[createdOn](#my-bookmark)
+
 Display Name: Goal
 
 Description: Target objective for a user or a team for a specified time period.
