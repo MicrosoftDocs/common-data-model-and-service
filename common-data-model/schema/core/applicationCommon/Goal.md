@@ -11,7 +11,7 @@ ms.author: tpalmer
 
 ## Properties 2
 
-[createdOn](#my-bookmark)
+[createdOn](#createdon)
 
 Display Name: Goal
 
@@ -29,7 +29,6 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 
 ## Attribute - Details
 
-<a name="my-bookmark"></a>
 ### createdOn
 
 Date and time when the record was created.
