@@ -9,7 +9,7 @@ ms.author: tpalmer
 ---
 # Goal
 
-##Properties 2
+## Properties 2
 
 Display Name: Goal
 
