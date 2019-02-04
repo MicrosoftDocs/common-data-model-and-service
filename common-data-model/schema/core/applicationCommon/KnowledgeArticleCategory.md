@@ -21,6 +21,10 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 
 ## Instances
 
+[/core/applicationCommon/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews](KnowledgeArticleViews.md)
+
+[/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews](foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md)
+
 ## Attributes - Summary
 
 |Name|Description|First Included in Instance|
