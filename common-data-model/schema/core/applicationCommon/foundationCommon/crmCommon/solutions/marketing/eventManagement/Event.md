@@ -1,12 +1,13 @@
 ---
-title: Event_
+title: Event
 description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/1/2019
+ms.date: 2/5/2019
 ms.author: tpalmer
 ---
+
 # Event
 
 ## Properties
@@ -21,161 +22,353 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 
 ## Instances
 
+[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event](Event.md)
+
 ## Attributes - Summary
 
-<table><tr><th>Name</th><th>Description</th><th>First Included in Instance</th></tr><tr><td>createdOn</td><td>Date and time when the record was created.</td><td> </td></tr><tr><td>createdBy</td><td>Shows who created the record.</td><td> </td></tr><tr><td>modifiedOn</td><td>Date and time when the record was modified.</td><td> </td></tr><tr><td>modifiedBy</td><td>Shows who last updated the record.</td><td> </td></tr><tr><td>createdOnBehalfBy</td><td>Shows who created the record on behalf of another user.</td><td> </td></tr><tr><td>modifiedOnBehalfBy</td><td>Shows who last updated the record on behalf of another user.</td><td> </td></tr><tr><td>overriddenCreatedOn</td><td>Date and time that the record was migrated.</td><td> </td></tr><tr><td>importSequenceNumber</td><td>Unique identifier of the data import or data migration that created this record.</td><td> </td></tr><tr><td>ownerIdType</td><td>The type of owner, either User or Team.</td><td> </td></tr><tr><td>ownerId</td><td>Owner Id</td><td> </td></tr><tr><td>owningBusinessUnit</td><td>Unique identifier for the business unit that owns the record</td><td> </td></tr><tr><td>owningUser</td><td>Unique identifier of the user that owns the activity.</td><td> </td></tr><tr><td>owningTeam</td><td>Unique identifier for the team that owns the record.</td><td> </td></tr><tr><td>timeZoneRuleVersionNumber</td><td>For internal use only.</td><td> </td></tr><tr><td>UTCConversionTimeZoneCode</td><td>Time zone code that was in use when the record was created.</td><td> </td></tr><tr><td>versionNumber</td><td>Version Number</td><td> </td></tr><tr><td>eventId</td><td>Unique identifier for entity instances</td><td> </td></tr><tr><td>stateCode</td><td>Status of the Event</td><td> </td></tr><tr><td>stateCode_display</td><td>undefined</td><td> </td></tr><tr><td>statusCode</td><td>Reason for the status of the Event</td><td> </td></tr><tr><td>statusCode_display</td><td>undefined</td><td> </td></tr><tr><td>name</td><td>The name of the custom entity.</td><td> </td></tr><tr><td>processId</td><td>Contains the id of the process associated with the entity.</td><td> </td></tr><tr><td>stageId</td><td>Contains the id of the stage where the entity is located.</td><td> </td></tr><tr><td>traversedPath</td><td>A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.</td><td> </td></tr><tr><td>entityImageId</td><td>undefined</td><td> </td></tr><tr><td>baseRecurrentEventID</td><td>undefined</td><td> </td></tr><tr><td>bookedFlightReservations</td><td>Flight reservations booking status</td><td> </td></tr><tr><td>bookedFlightReservations_display</td><td>undefined</td><td> </td></tr><tr><td>bookRooms</td><td>undefined</td><td> </td></tr><tr><td>bookRooms_display</td><td>undefined</td><td> </td></tr><tr><td>budgetAllocated</td><td>undefined</td><td> </td></tr><tr><td>transactionCurrencyId</td><td>Unique identifier of the currency associated with the entity.</td><td> </td></tr><tr><td>exchangeRate</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td><td> </td></tr><tr><td>budgetAllocatedBase</td><td>Value of the Budget Allocated in base currency.</td><td> </td></tr><tr><td>cateringRequired</td><td>undefined</td><td> </td></tr><tr><td>cateringRequired_display</td><td>undefined</td><td> </td></tr><tr><td>checkInCount</td><td>Check-in count</td><td> </td></tr><tr><td>confirmedHotelChoices</td><td>Hotel choices confirmation status</td><td> </td></tr><tr><td>confirmedHotelChoices_display</td><td>undefined</td><td> </td></tr><tr><td>countdownInDays</td><td>undefined</td><td> </td></tr><tr><td>createMarketingCollateral</td><td>undefined</td><td> </td></tr><tr><td>createMarketingCollateral_display</td><td>undefined</td><td> </td></tr><tr><td>definePackagesandPricing</td><td>undefined</td><td> </td></tr><tr><td>definePackagesandPricing_display</td><td>undefined</td><td> </td></tr><tr><td>defineSessions</td><td>undefined</td><td> </td></tr><tr><td>defineSessions_display</td><td>undefined</td><td> </td></tr><tr><td>defineTeam</td><td>undefined</td><td> </td></tr><tr><td>defineTeam_display</td><td>undefined</td><td> </td></tr><tr><td>description</td><td>undefined</td><td> </td></tr><tr><td>developMarketingPlan</td><td>undefined</td><td> </td></tr><tr><td>developMarketingPlan_display</td><td>undefined</td><td> </td></tr><tr><td>earlyBirdCutOffDate</td><td>undefined</td><td> </td></tr><tr><td>eventDebriefing</td><td>undefined</td><td> </td></tr><tr><td>eventDebriefing_display</td><td>undefined</td><td> </td></tr><tr><td>eventEndDate</td><td>undefined</td><td> </td></tr><tr><td>eventFormat</td><td>undefined</td><td> </td></tr><tr><td>eventFormat_display</td><td>undefined</td><td> </td></tr><tr><td>eventStartDate</td><td>undefined</td><td> </td></tr><tr><td>eventTimeZone</td><td>undefined</td><td> </td></tr><tr><td>eventTimeZoneName</td><td>undefined</td><td> </td></tr><tr><td>eventType</td><td>undefined</td><td> </td></tr><tr><td>eventType_display</td><td>undefined</td><td> </td></tr><tr><td>eventVenueCost</td><td>undefined</td><td> </td></tr><tr><td>eventVenueCostBase</td><td>Value of the Event Venue Cost in base currency.</td><td> </td></tr><tr><td>expectedOutcome</td><td>undefined</td><td> </td></tr><tr><td>followUpOnLeads</td><td>undefined</td><td> </td></tr><tr><td>followUpOnLeads_display</td><td>undefined</td><td> </td></tr><tr><td>guestLogistics</td><td>Whether guest logistics are required or not.</td><td> </td></tr><tr><td>guestLogistics_display</td><td>undefined</td><td> </td></tr><tr><td>identifySpeakers</td><td>undefined</td><td> </td></tr><tr><td>identifySpeakers_display</td><td>undefined</td><td> </td></tr><tr><td>identifySponsors</td><td>undefined</td><td> </td></tr><tr><td>identifySponsors_display</td><td>undefined</td><td> </td></tr><tr><td>isRecurringEvent</td><td>undefined</td><td> </td></tr><tr><td>isTemplate</td><td>undefined</td><td> </td></tr><tr><td>isTemplate_display</td><td>undefined</td><td> </td></tr><tr><td>language</td><td>The language of the webinar</td><td> </td></tr><tr><td>language_display</td><td>undefined</td><td> </td></tr><tr><td>makePaymentsDue</td><td>undefined</td><td> </td></tr><tr><td>makePaymentsDue_display</td><td>undefined</td><td> </td></tr><tr><td>manageRegistrationCount</td><td>undefined</td><td> </td></tr><tr><td>manageRegistrationCount_display</td><td>undefined</td><td> </td></tr><tr><td>maximumEventCapacity</td><td>undefined</td><td> </td></tr><tr><td>maxNumberOfRegistrations</td><td>undefined</td><td> </td></tr><tr><td>miscellaneousCosts</td><td>undefined</td><td> </td></tr><tr><td>miscellaneousCostsBase</td><td>Value of the Miscellaneous Costs in base currency.</td><td> </td></tr><tr><td>notifyAuthoritiesOfEvent</td><td>undefined</td><td> </td></tr><tr><td>notifyAuthoritiesOfEvent_display</td><td>undefined</td><td> </td></tr><tr><td>planRegistration</td><td>undefined</td><td> </td></tr><tr><td>planRegistration_display</td><td>undefined</td><td> </td></tr><tr><td>presentationManagerUrl</td><td>undefined</td><td> </td></tr><tr><td>primaryGoal</td><td>undefined</td><td> </td></tr><tr><td>primaryGoal_display</td><td>undefined</td><td> </td></tr><tr><td>primaryVenue</td><td>undefined</td><td> </td></tr><tr><td>producer</td><td>undefined</td><td> </td></tr><tr><td>publicEventURL</td><td>undefined</td><td> </td></tr><tr><td>publishStatus</td><td>undefined</td><td> </td></tr><tr><td>publishStatus_display</td><td>undefined</td><td> </td></tr><tr><td>readableEventID</td><td>undefined</td><td> </td></tr><tr><td>recurrencePattern</td><td>undefined</td><td> </td></tr><tr><td>recurrentEventStatus</td><td>undefined</td><td> </td></tr><tr><td>registrationCount</td><td>Registration count of the Event.</td><td> </td></tr><tr><td>registrationsTarget</td><td>undefined</td><td> </td></tr><tr><td>requestSponsorship</td><td>undefined</td><td> </td></tr><tr><td>requestSponsorship_display</td><td>undefined</td><td> </td></tr><tr><td>revenueFromSponsorship</td><td>undefined</td><td> </td></tr><tr><td>revenueFromSponsorshipBase</td><td>Value of the Revenue from Sponsorship in base currency.</td><td> </td></tr><tr><td>scheduleAirportPickups</td><td>Airport pickups scheduling status</td><td> </td></tr><tr><td>scheduleAirportPickups_display</td><td>undefined</td><td> </td></tr><tr><td>scheduleSessions</td><td>undefined</td><td> </td></tr><tr><td>scheduleSessions_display</td><td>undefined</td><td> </td></tr><tr><td>selectSpeakers</td><td>undefined</td><td> </td></tr><tr><td>selectSpeakers_display</td><td>undefined</td><td> </td></tr><tr><td>selectVendors</td><td>undefined</td><td> </td></tr><tr><td>selectVendors_display</td><td>undefined</td><td> </td></tr><tr><td>sendEventInvitation</td><td>Event invitation sending status</td><td> </td></tr><tr><td>sendEventInvitation_display</td><td>undefined</td><td> </td></tr><tr><td>sendMarketingMaterial</td><td>undefined</td><td> </td></tr><tr><td>sendMarketingMaterial_display</td><td>undefined</td><td> </td></tr><tr><td>sendPreEventReminders</td><td>undefined</td><td> </td></tr><tr><td>sendPreEventReminders_display</td><td>undefined</td><td> </td></tr><tr><td>sendThankYouEmails</td><td>undefined</td><td> </td></tr><tr><td>sendThankYouEmails_display</td><td>undefined</td><td> </td></tr><tr><td>showWaitlist</td><td>undefined</td><td> </td></tr><tr><td>targetRevenue</td><td>undefined</td><td> </td></tr><tr><td>targetRevenueBase</td><td>Value of the Target Revenue in base currency.</td><td> </td></tr><tr><td>teamDebriefing</td><td>undefined</td><td> </td></tr><tr><td>teamDebriefing_display</td><td>undefined</td><td> </td></tr><tr><td>totalCostOfEventsActivities</td><td>undefined</td><td> </td></tr><tr><td>totalCostOfEventsActivitiesBase</td><td>Value of the Total Cost of Events Activities in base currency.</td><td> </td></tr><tr><td>totalCostOfExternalMembers</td><td>undefined</td><td> </td></tr><tr><td>totalCostOfExternalMembersBase</td><td>Value of the Total cost of External Members in base currency.</td><td> </td></tr><tr><td>totalRegistrationFee</td><td>undefined</td><td> </td></tr><tr><td>totalRegistrationFeeBase</td><td>Value of the Total Registration Fee in base currency.</td><td> </td></tr><tr><td>totalRevenueFromTheEvent</td><td>undefined</td><td> </td></tr><tr><td>totalRevenueFromTheEventBase</td><td>Value of the Total Revenue from the event in base currency.</td><td> </td></tr><tr><td>waitlistStartingPoint</td><td>Waitlist Starting Point</td><td> </td></tr><tr><td>waitlistthisEvent</td><td>undefined</td><td> </td></tr><tr><td>waitlistthisEvent_display</td><td>undefined</td><td> </td></tr><tr><td>webinarConfigurationId</td><td>Webinar Configuration</td><td> </td></tr><tr><td>webinarID</td><td>Webinar ID of the Event.</td><td> </td></tr><tr><td>webinarNotificationSeen</td><td>Whether the webinar creation notification has been seen or not</td><td> </td></tr><tr><td>webinarOperation</td><td>undefined</td><td> </td></tr><tr><td>webinarStatus</td><td>undefined</td><td> </td></tr><tr><td>webinarStatusReason</td><td>undefined</td><td> </td></tr><tr><td>webinarType</td><td>undefined</td><td> </td></tr><tr><td>webinarURL</td><td>URL of the webinar. This might be URL of external webinar provider.</td><td> </td></tr><tr><td>sendSurveys</td><td>undefined</td><td> </td></tr><tr><td>sendSurveys_display</td><td>undefined</td><td> </td></tr><tr><td>eventURLspecified</td><td>Determines whether an event URL is specified.</td><td> </td></tr><tr><td>sessionsCount</td><td>The number of sessions in this event</td><td> </td></tr><tr><td>sessionsCountDate</td><td>Last Updated time of rollup field Session count.</td><td> </td></tr><tr><td>sessionsCountState</td><td>State of rollup field Session count.</td><td> </td></tr><tr><td>allowAnonymousRegistrations</td><td>undefined</td><td> </td></tr><tr><td>portalBannerImage</td><td>The portal banner image.</td><td> </td></tr><tr><td>eventURL</td><td>undefined</td><td> </td></tr></table>
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Event](Event.md)|
+|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Event](Event.md)|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Event](Event.md)|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Event](Event.md)|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Event](Event.md)|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Event](Event.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Event](Event.md)|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Event](Event.md)|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Event](Event.md)|
+|[ownerId](#ownerId)|Owner Id|[eventManagement/Event](Event.md)|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Event](Event.md)|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Event](Event.md)|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Event](Event.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Event](Event.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Event](Event.md)|
+|[versionNumber](#versionNumber)|Version Number|[eventManagement/Event](Event.md)|
+|[eventId](#eventId)|Unique identifier for entity instances|[eventManagement/Event](Event.md)|
+|[stateCode](#stateCode)|Status of the Event|[eventManagement/Event](Event.md)|
+|[stateCode_display](#stateCode_display)||[eventManagement/Event](Event.md)|
+|[statusCode](#statusCode)|Reason for the status of the Event|[eventManagement/Event](Event.md)|
+|[statusCode_display](#statusCode_display)||[eventManagement/Event](Event.md)|
+|[name](#name)|The name of the custom entity.|[eventManagement/Event](Event.md)|
+|[processId](#processId)|Contains the id of the process associated with the entity.|[eventManagement/Event](Event.md)|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[eventManagement/Event](Event.md)|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[eventManagement/Event](Event.md)|
+|[entityImageId](#entityImageId)||[eventManagement/Event](Event.md)|
+|[baseRecurrentEventID](#baseRecurrentEventID)||[eventManagement/Event](Event.md)|
+|[bookedFlightReservations](#bookedFlightReservations)|Flight reservations booking status|[eventManagement/Event](Event.md)|
+|[bookedFlightReservations_display](#bookedFlightReservations_display)||[eventManagement/Event](Event.md)|
+|[bookRooms](#bookRooms)||[eventManagement/Event](Event.md)|
+|[bookRooms_display](#bookRooms_display)||[eventManagement/Event](Event.md)|
+|[budgetAllocated](#budgetAllocated)||[eventManagement/Event](Event.md)|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/Event](Event.md)|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/Event](Event.md)|
+|[budgetAllocatedBase](#budgetAllocatedBase)|Value of the Budget Allocated in base currency.|[eventManagement/Event](Event.md)|
+|[cateringRequired](#cateringRequired)||[eventManagement/Event](Event.md)|
+|[cateringRequired_display](#cateringRequired_display)||[eventManagement/Event](Event.md)|
+|[checkInCount](#checkInCount)|Check-in count|[eventManagement/Event](Event.md)|
+|[confirmedHotelChoices](#confirmedHotelChoices)|Hotel choices confirmation status|[eventManagement/Event](Event.md)|
+|[confirmedHotelChoices_display](#confirmedHotelChoices_display)||[eventManagement/Event](Event.md)|
+|[countdownInDays](#countdownInDays)||[eventManagement/Event](Event.md)|
+|[createMarketingCollateral](#createMarketingCollateral)||[eventManagement/Event](Event.md)|
+|[createMarketingCollateral_display](#createMarketingCollateral_display)||[eventManagement/Event](Event.md)|
+|[definePackagesandPricing](#definePackagesandPricing)||[eventManagement/Event](Event.md)|
+|[definePackagesandPricing_display](#definePackagesandPricing_display)||[eventManagement/Event](Event.md)|
+|[defineSessions](#defineSessions)||[eventManagement/Event](Event.md)|
+|[defineSessions_display](#defineSessions_display)||[eventManagement/Event](Event.md)|
+|[defineTeam](#defineTeam)||[eventManagement/Event](Event.md)|
+|[defineTeam_display](#defineTeam_display)||[eventManagement/Event](Event.md)|
+|[description](#description)||[eventManagement/Event](Event.md)|
+|[developMarketingPlan](#developMarketingPlan)||[eventManagement/Event](Event.md)|
+|[developMarketingPlan_display](#developMarketingPlan_display)||[eventManagement/Event](Event.md)|
+|[earlyBirdCutOffDate](#earlyBirdCutOffDate)||[eventManagement/Event](Event.md)|
+|[eventDebriefing](#eventDebriefing)||[eventManagement/Event](Event.md)|
+|[eventDebriefing_display](#eventDebriefing_display)||[eventManagement/Event](Event.md)|
+|[eventEndDate](#eventEndDate)||[eventManagement/Event](Event.md)|
+|[eventFormat](#eventFormat)||[eventManagement/Event](Event.md)|
+|[eventFormat_display](#eventFormat_display)||[eventManagement/Event](Event.md)|
+|[eventStartDate](#eventStartDate)||[eventManagement/Event](Event.md)|
+|[eventTimeZone](#eventTimeZone)||[eventManagement/Event](Event.md)|
+|[eventTimeZoneName](#eventTimeZoneName)||[eventManagement/Event](Event.md)|
+|[eventType](#eventType)||[eventManagement/Event](Event.md)|
+|[eventType_display](#eventType_display)||[eventManagement/Event](Event.md)|
+|[eventVenueCost](#eventVenueCost)||[eventManagement/Event](Event.md)|
+|[eventVenueCostBase](#eventVenueCostBase)|Value of the Event Venue Cost in base currency.|[eventManagement/Event](Event.md)|
+|[expectedOutcome](#expectedOutcome)||[eventManagement/Event](Event.md)|
+|[followUpOnLeads](#followUpOnLeads)||[eventManagement/Event](Event.md)|
+|[followUpOnLeads_display](#followUpOnLeads_display)||[eventManagement/Event](Event.md)|
+|[guestLogistics](#guestLogistics)|Whether guest logistics are required or not.|[eventManagement/Event](Event.md)|
+|[guestLogistics_display](#guestLogistics_display)||[eventManagement/Event](Event.md)|
+|[identifySpeakers](#identifySpeakers)||[eventManagement/Event](Event.md)|
+|[identifySpeakers_display](#identifySpeakers_display)||[eventManagement/Event](Event.md)|
+|[identifySponsors](#identifySponsors)||[eventManagement/Event](Event.md)|
+|[identifySponsors_display](#identifySponsors_display)||[eventManagement/Event](Event.md)|
+|[isRecurringEvent](#isRecurringEvent)||[eventManagement/Event](Event.md)|
+|[isTemplate](#isTemplate)||[eventManagement/Event](Event.md)|
+|[isTemplate_display](#isTemplate_display)||[eventManagement/Event](Event.md)|
+|[language](#language)|The language of the webinar|[eventManagement/Event](Event.md)|
+|[language_display](#language_display)||[eventManagement/Event](Event.md)|
+|[makePaymentsDue](#makePaymentsDue)||[eventManagement/Event](Event.md)|
+|[makePaymentsDue_display](#makePaymentsDue_display)||[eventManagement/Event](Event.md)|
+|[manageRegistrationCount](#manageRegistrationCount)||[eventManagement/Event](Event.md)|
+|[manageRegistrationCount_display](#manageRegistrationCount_display)||[eventManagement/Event](Event.md)|
+|[maximumEventCapacity](#maximumEventCapacity)||[eventManagement/Event](Event.md)|
+|[maxNumberOfRegistrations](#maxNumberOfRegistrations)||[eventManagement/Event](Event.md)|
+|[miscellaneousCosts](#miscellaneousCosts)||[eventManagement/Event](Event.md)|
+|[miscellaneousCostsBase](#miscellaneousCostsBase)|Value of the Miscellaneous Costs in base currency.|[eventManagement/Event](Event.md)|
+|[notifyAuthoritiesOfEvent](#notifyAuthoritiesOfEvent)||[eventManagement/Event](Event.md)|
+|[notifyAuthoritiesOfEvent_display](#notifyAuthoritiesOfEvent_display)||[eventManagement/Event](Event.md)|
+|[planRegistration](#planRegistration)||[eventManagement/Event](Event.md)|
+|[planRegistration_display](#planRegistration_display)||[eventManagement/Event](Event.md)|
+|[presentationManagerUrl](#presentationManagerUrl)||[eventManagement/Event](Event.md)|
+|[primaryGoal](#primaryGoal)||[eventManagement/Event](Event.md)|
+|[primaryGoal_display](#primaryGoal_display)||[eventManagement/Event](Event.md)|
+|[primaryVenue](#primaryVenue)||[eventManagement/Event](Event.md)|
+|[producer](#producer)||[eventManagement/Event](Event.md)|
+|[publicEventURL](#publicEventURL)||[eventManagement/Event](Event.md)|
+|[publishStatus](#publishStatus)||[eventManagement/Event](Event.md)|
+|[publishStatus_display](#publishStatus_display)||[eventManagement/Event](Event.md)|
+|[readableEventID](#readableEventID)||[eventManagement/Event](Event.md)|
+|[recurrencePattern](#recurrencePattern)||[eventManagement/Event](Event.md)|
+|[recurrentEventStatus](#recurrentEventStatus)||[eventManagement/Event](Event.md)|
+|[registrationCount](#registrationCount)|Registration count of the Event.|[eventManagement/Event](Event.md)|
+|[registrationsTarget](#registrationsTarget)||[eventManagement/Event](Event.md)|
+|[requestSponsorship](#requestSponsorship)||[eventManagement/Event](Event.md)|
+|[requestSponsorship_display](#requestSponsorship_display)||[eventManagement/Event](Event.md)|
+|[revenueFromSponsorship](#revenueFromSponsorship)||[eventManagement/Event](Event.md)|
+|[revenueFromSponsorshipBase](#revenueFromSponsorshipBase)|Value of the Revenue from Sponsorship in base currency.|[eventManagement/Event](Event.md)|
+|[scheduleAirportPickups](#scheduleAirportPickups)|Airport pickups scheduling status|[eventManagement/Event](Event.md)|
+|[scheduleAirportPickups_display](#scheduleAirportPickups_display)||[eventManagement/Event](Event.md)|
+|[scheduleSessions](#scheduleSessions)||[eventManagement/Event](Event.md)|
+|[scheduleSessions_display](#scheduleSessions_display)||[eventManagement/Event](Event.md)|
+|[selectSpeakers](#selectSpeakers)||[eventManagement/Event](Event.md)|
+|[selectSpeakers_display](#selectSpeakers_display)||[eventManagement/Event](Event.md)|
+|[selectVendors](#selectVendors)||[eventManagement/Event](Event.md)|
+|[selectVendors_display](#selectVendors_display)||[eventManagement/Event](Event.md)|
+|[sendEventInvitation](#sendEventInvitation)|Event invitation sending status|[eventManagement/Event](Event.md)|
+|[sendEventInvitation_display](#sendEventInvitation_display)||[eventManagement/Event](Event.md)|
+|[sendMarketingMaterial](#sendMarketingMaterial)||[eventManagement/Event](Event.md)|
+|[sendMarketingMaterial_display](#sendMarketingMaterial_display)||[eventManagement/Event](Event.md)|
+|[sendPreEventReminders](#sendPreEventReminders)||[eventManagement/Event](Event.md)|
+|[sendPreEventReminders_display](#sendPreEventReminders_display)||[eventManagement/Event](Event.md)|
+|[sendThankYouEmails](#sendThankYouEmails)||[eventManagement/Event](Event.md)|
+|[sendThankYouEmails_display](#sendThankYouEmails_display)||[eventManagement/Event](Event.md)|
+|[showWaitlist](#showWaitlist)||[eventManagement/Event](Event.md)|
+|[targetRevenue](#targetRevenue)||[eventManagement/Event](Event.md)|
+|[targetRevenueBase](#targetRevenueBase)|Value of the Target Revenue in base currency.|[eventManagement/Event](Event.md)|
+|[teamDebriefing](#teamDebriefing)||[eventManagement/Event](Event.md)|
+|[teamDebriefing_display](#teamDebriefing_display)||[eventManagement/Event](Event.md)|
+|[totalCostOfEventsActivities](#totalCostOfEventsActivities)||[eventManagement/Event](Event.md)|
+|[totalCostOfEventsActivitiesBase](#totalCostOfEventsActivitiesBase)|Value of the Total Cost of Events Activities in base currency.|[eventManagement/Event](Event.md)|
+|[totalCostOfExternalMembers](#totalCostOfExternalMembers)||[eventManagement/Event](Event.md)|
+|[totalCostOfExternalMembersBase](#totalCostOfExternalMembersBase)|Value of the Total cost of External Members in base currency.|[eventManagement/Event](Event.md)|
+|[totalRegistrationFee](#totalRegistrationFee)||[eventManagement/Event](Event.md)|
+|[totalRegistrationFeeBase](#totalRegistrationFeeBase)|Value of the Total Registration Fee in base currency.|[eventManagement/Event](Event.md)|
+|[totalRevenueFromTheEvent](#totalRevenueFromTheEvent)||[eventManagement/Event](Event.md)|
+|[totalRevenueFromTheEventBase](#totalRevenueFromTheEventBase)|Value of the Total Revenue from the event in base currency.|[eventManagement/Event](Event.md)|
+|[waitlistStartingPoint](#waitlistStartingPoint)|Waitlist Starting Point|[eventManagement/Event](Event.md)|
+|[waitlistthisEvent](#waitlistthisEvent)||[eventManagement/Event](Event.md)|
+|[waitlistthisEvent_display](#waitlistthisEvent_display)||[eventManagement/Event](Event.md)|
+|[webinarConfigurationId](#webinarConfigurationId)|Webinar Configuration|[eventManagement/Event](Event.md)|
+|[webinarID](#webinarID)|Webinar ID of the Event.|[eventManagement/Event](Event.md)|
+|[webinarNotificationSeen](#webinarNotificationSeen)|Whether the webinar creation notification has been seen or not|[eventManagement/Event](Event.md)|
+|[webinarOperation](#webinarOperation)||[eventManagement/Event](Event.md)|
+|[webinarStatus](#webinarStatus)||[eventManagement/Event](Event.md)|
+|[webinarStatusReason](#webinarStatusReason)||[eventManagement/Event](Event.md)|
+|[webinarType](#webinarType)||[eventManagement/Event](Event.md)|
+|[webinarURL](#webinarURL)|URL of the webinar. This might be URL of external webinar provider.|[eventManagement/Event](Event.md)|
+|[sendSurveys](#sendSurveys)||[eventManagement/Event](Event.md)|
+|[sendSurveys_display](#sendSurveys_display)||[eventManagement/Event](Event.md)|
+|[eventURLspecified](#eventURLspecified)|Determines whether an event URL is specified.|[eventManagement/Event](Event.md)|
+|[sessionsCount](#sessionsCount)|The number of sessions in this event|[eventManagement/Event](Event.md)|
+|[sessionsCountDate](#sessionsCountDate)|Last Updated time of rollup field Session count.|[eventManagement/Event](Event.md)|
+|[sessionsCountState](#sessionsCountState)|State of rollup field Session count.|[eventManagement/Event](Event.md)|
+|[allowAnonymousRegistrations](#allowAnonymousRegistrations)||[eventManagement/Event](Event.md)|
+|[portalBannerImage](#portalBannerImage)|The portal banner image.|[eventManagement/Event](Event.md)|
+|[eventURL](#eventURL)||[eventManagement/Event](Event.md)|
 
 ## Attribute - Details
 
-### createdOn
+### <a name="createdOn">createdOn</a>
 
 Date and time when the record was created.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Created On</td></tr>
+<tr><td>description</td><td>Date and time when the record was created.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>createdon</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
-
 
 ##### means.measurement.time
 
-
 ##### means.measurement.date.creation
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created On</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Created On</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was created.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Date and time when the record was created.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>createdon</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>createdon</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### createdBy
+### <a name="createdBy">createdBy</a>
 
 Shows who created the record.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Created By</td></tr>
+<tr><td>description</td><td>Shows who created the record.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>createdby</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Created By</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows who created the record.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>createdby</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -244,155 +437,189 @@ Definition:
 }
 ```
 
-### modifiedOn
+</details>
+
+### <a name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Modified On</td></tr>
+<tr><td>description</td><td>Date and time when the record was modified.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>modifiedon</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
-
 
 ##### means.measurement.time
 
-
 ##### means.measurement.date.modify
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified On</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Modified On</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was modified.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Date and time when the record was modified.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedon</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>modifiedon</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### modifiedBy
+### <a name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Modified By</td></tr>
+<tr><td>description</td><td>Shows who last updated the record.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>modifiedby</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Modified By</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows who last updated the record.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -461,90 +688,108 @@ Definition:
 }
 ```
 
-### createdOnBehalfBy
+</details>
+
+### <a name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Created By (Delegate)</td></tr>
+<tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>createdonbehalfby</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By (Delegate)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Created By (Delegate)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -613,90 +858,108 @@ Definition:
 }
 ```
 
-### modifiedOnBehalfBy
+</details>
+
+### <a name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Modified By (Delegate)</td></tr>
+<tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>modifiedonbehalfby</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By (Delegate)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Modified By (Delegate)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -765,347 +1028,438 @@ Definition:
 }
 ```
 
-### overriddenCreatedOn
+</details>
+
+### <a name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Record Created On</td></tr>
+<tr><td>description</td><td>Date and time that the record was migrated.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>overriddencreatedon</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
-
 
 ##### means.measurement.time
 
-
 ##### means.measurement.date.creation
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Record Created On</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Record Created On</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time that the record was migrated.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Date and time that the record was migrated.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>overriddencreatedon</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>overriddencreatedon</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### importSequenceNumber
+### <a name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Unique identifier of the data import or data migration that created this record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Import Sequence Number</td></tr>
+<tr><td>description</td><td>Unique identifier of the data import or data migration that created this record.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>-2147483648</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>importsequencenumber</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Import Sequence Number</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the data import or data migration that created this record.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the data import or data migration that created this record.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>importsequencenumber</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>importsequencenumber</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### ownerIdType
+### <a name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owner Type</td></tr>
+<tr><td>description</td><td>The type of owner, either User or Team.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+<tr><td>sourceName</td><td>owneridtype</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.entityName
 
-
 ##### is.readOnly
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Type</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owner Type</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The type of owner, either User or Team.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>The type of owner, either User or Team.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owneridtype</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>owneridtype</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.name
 
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
-
 ##### is.CDS.owner
 
 contains a User or Team ID
 
+</details>
 
-### ownerId
+### <a name="ownerId">ownerId</a>
 
 Owner Id
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>ownerid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owner</td></tr>
+<tr><td>description</td><td>Owner Id</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>sourceName</td><td>ownerid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owner</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Id</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owner Id</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
-
 ##### is.CDS.owner
 
 contains a User or Team ID
 
+</details>
 
-### owningBusinessUnit
+### <a name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owning Business Unit</td></tr>
+<tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>owningbusinessunit</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning Business Unit</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owning Business Unit</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the business unit that owns the record</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier for the business unit that owns the record</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -1174,90 +1528,108 @@ Definition:
 }
 ```
 
-### owningUser
+</details>
+
+### <a name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owning User</td></tr>
+<tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>owninguser</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning User</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owning User</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the user that owns the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the user that owns the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -1326,85 +1698,104 @@ Definition:
 }
 ```
 
-### owningTeam
+</details>
+
+### <a name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owning Team</td></tr>
+<tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>owningteam</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning Team</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owning Team</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the team that owns the record.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier for the team that owns the record.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -1473,215 +1864,291 @@ Definition:
 }
 ```
 
-### timeZoneRuleVersionNumber
+</details>
+
+### <a name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr>
+<tr><td>description</td><td>For internal use only.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>-1</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Zone Rule Version Number</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Time Zone Rule Version Number</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>For internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>timezoneruleversionnumber</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>timezoneruleversionnumber</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-1</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### UTCConversionTimeZoneCode
+### <a name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr>
+<tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>-1</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>UTC Conversion Time Zone Code</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>UTC Conversion Time Zone Code</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time zone code that was in use when the record was created.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Time zone code that was in use when the record was created.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>utcconversiontimezonecode</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>utcconversiontimezonecode</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-1</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### versionNumber
+### <a name="versionNumber">versionNumber</a>
 
 Version Number
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int64</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Version Number</td></tr>
+<tr><td>description</td><td>Version Number</td></tr>
+<tr><td>dataFormat</td><td>Int64</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>versionnumber</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.dataFormat.big
 
-
 ##### means.measurement.version
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version Number</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Version Number</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version Number</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Version Number</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>versionnumber</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>versionnumber</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### eventId
+### <a name="eventId">eventId</a>
 
 Unique identifier for entity instances
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>msevtmgt_eventid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event</td></tr>
+<tr><td>description</td><td>Unique identifier for entity instances</td></tr>
+<tr><td>isPrimaryKey</td><td>true</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.identifiedBy
 
 names a specifc identity attribute to use with an entity
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Event_/hasAttributes/eventId"</td><td>attribute</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>attribute</td><td>"Event_/hasAttributes/eventId"</td><td>attribute</td><td></td></tr>
+</table>
 
 Definition:
 
@@ -1693,46 +2160,67 @@ Definition:
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier for entity instances</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>1</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>1</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### stateCode
+### <a name="stateCode">stateCode</a>
 
 Status of the Event
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Event</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Status</td></tr>
+<tr><td>description</td><td>Status of the Event</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>sourceName</td><td>statecode</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Active",
@@ -1745,31 +2233,40 @@ Status of the Event
     "attributeValue": "1",
     "displayOrder": "1"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr>
+<tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### means.entityState
 
 the attribute represents the current state of the entity.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Event_/hasAttributes/stateCode"</td><td>attribute</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>attribute</td><td>"Event_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr>
+</table>
 
 Definition:
 
@@ -1781,76 +2278,102 @@ Definition:
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Event</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Status of the Event</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>statecode</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>statecode</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>24</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>24</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### stateCode_display
+### <a name="stateCode_display">stateCode_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>stateCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>stateCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### statusCode
+### <a name="statusCode">statusCode</a>
 
 Reason for the status of the Event
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Event</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Status Reason</td></tr>
+<tr><td>description</td><td>Reason for the status of the Event</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>statuscode</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Active",
@@ -1865,487 +2388,623 @@ Reason for the status of the Event
     "displayOrder": "1",
     "correlatedValue": "1"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>correlatedValue</th></tr>
+<tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
-
 
 ##### is.correlatedWith
 
 the attribute value is correlated with the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>stateCode</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>stateCode</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Status Reason</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Event</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Reason for the status of the Event</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>statuscode</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>statuscode</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>26</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>26</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### statusCode_display
+### <a name="statusCode_display">statusCode_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>statusCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>statusCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### name
+### <a name="name">name</a>
 
 The name of the custom entity.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_name</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event Name</td></tr>
+<tr><td>description</td><td>The name of the custom entity.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>100</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_name</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.identity.name
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event Name</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event Name</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>The name of the custom entity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_name</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_name</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>33</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>33</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### processId
+### <a name="processId">processId</a>
 
 Contains the id of the process associated with the entity.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Process Id</td></tr><tr><td>description</td><td>Contains the id of the process associated with the entity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>processid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Process Id</td></tr>
+<tr><td>description</td><td>Contains the id of the process associated with the entity.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>processid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### is.dataFormat.guid
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Process Id</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Process Id</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contains the id of the process associated with the entity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Contains the id of the process associated with the entity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>processid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>processid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>34</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>34</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### stageId
+### <a name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stage Id</td></tr><tr><td>description</td><td>Contains the id of the stage where the entity is located.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stageid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Stage Id</td></tr>
+<tr><td>description</td><td>Contains the id of the stage where the entity is located.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>stageid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### is.dataFormat.guid
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Stage Id</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Stage Id</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contains the id of the stage where the entity is located.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Contains the id of the stage where the entity is located.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>stageid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>stageid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>35</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>35</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### traversedPath
+### <a name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Traversed Path</td></tr><tr><td>description</td><td>A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1250</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>traversedpath</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Traversed Path</td></tr>
+<tr><td>description</td><td>A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>1250</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>traversedpath</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Traversed Path</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Traversed Path</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>traversedpath</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>traversedpath</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>36</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>36</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1250</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>1250</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### entityImageId
+### <a name="entityImageId">entityImageId</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>entityimageid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>entityimageid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>entityimageid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>entityimageid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>37</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>37</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### baseRecurrentEventID
+### <a name="baseRecurrentEventID">baseRecurrentEventID</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Base Recurrent Event ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>40</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_baserecurrenteventid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Base Recurrent Event ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>40</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_baserecurrenteventid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Base Recurrent Event ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Base Recurrent Event ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_baserecurrenteventid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_baserecurrenteventid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>41</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>41</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>40</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>40</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### bookedFlightReservations
+### <a name="bookedFlightReservations">bookedFlightReservations</a>
 
 Flight reservations booking status
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Booked Flight reservations?</td></tr><tr><td>description</td><td>Flight reservations booking status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_bookedflightreservations</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Booked Flight reservations?</td></tr>
+<tr><td>description</td><td>Flight reservations booking status</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_bookedflightreservations</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -2370,105 +3029,136 @@ Flight reservations booking status
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Booked Flight reservations?</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Booked Flight reservations?</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Flight reservations booking status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Flight reservations booking status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_bookedflightreservations</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_bookedflightreservations</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>42</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>42</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### bookedFlightReservations_display
+### <a name="bookedFlightReservations_display">bookedFlightReservations_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>bookedFlightReservations</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>bookedFlightReservations</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### bookRooms
+### <a name="bookRooms">bookRooms</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Book Rooms</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_bookrooms</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Book Rooms</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_bookrooms</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -2493,230 +3183,288 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Book Rooms</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Book Rooms</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_bookrooms</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_bookrooms</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>44</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>44</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### bookRooms_display
+### <a name="bookRooms_display">bookRooms_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>bookRooms</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>bookRooms</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### budgetAllocated
+### <a name="budgetAllocated">budgetAllocated</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget Allocated</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_budgetallocated</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Budget Allocated</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_budgetallocated</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Budget Allocated</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Budget Allocated</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_budgetallocated</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_budgetallocated</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>46</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>46</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### transactionCurrencyId
+### <a name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_transactioncurrencyid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Currency</td></tr>
+<tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_transactioncurrencyid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Currency</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the currency associated with the entity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the currency associated with the entity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_transactioncurrencyid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_transactioncurrencyid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>155</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>155</td><td>integer</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -2785,151 +3533,211 @@ Definition:
 }
 ```
 
-### exchangeRate
+</details>
+
+### <a name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Exchange Rate</td></tr>
+<tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>100000000000</td></tr>
+<tr><td>minimumValue</td><td>1E-10</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>exchangerate</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange Rate</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Exchange Rate</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>exchangerate</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>exchangerate</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>49</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>49</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1E-10</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>1E-10</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### budgetAllocatedBase
+### <a name="budgetAllocatedBase">budgetAllocatedBase</a>
 
 Value of the Budget Allocated in base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget Allocated (Base)</td></tr><tr><td>description</td><td>Value of the Budget Allocated in base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_budgetallocated_base</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Budget Allocated (Base)</td></tr>
+<tr><td>description</td><td>Value of the Budget Allocated in base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_budgetallocated_base</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>budgetAllocated</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>budgetAllocated</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Budget Allocated (Base)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Budget Allocated (Base)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Budget Allocated in base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value of the Budget Allocated in base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_budgetallocated_base</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_budgetallocated_base</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>50</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>50</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### cateringRequired
+### <a name="cateringRequired">cateringRequired</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Catering required?</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_cateringrequired</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Catering required?</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_cateringrequired</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "No",
@@ -2942,159 +3750,213 @@ undefined
     "attributeValue": "100000002",
     "displayOrder": "1"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Catering required?</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Catering required?</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_cateringrequired</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_cateringrequired</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>51</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>51</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### cateringRequired_display
+### <a name="cateringRequired_display">cateringRequired_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>cateringRequired</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>cateringRequired</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### checkInCount
+### <a name="checkInCount">checkInCount</a>
 
 Check-in count
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Check-in count</td></tr><tr><td>description</td><td>Check-in count</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_checkincount</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Check-in count</td></tr>
+<tr><td>description</td><td>Check-in count</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_checkincount</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Check-in count</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Check-in count</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Check-in count</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Check-in count</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_checkincount</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_checkincount</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>53</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>53</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### confirmedHotelChoices
+### <a name="confirmedHotelChoices">confirmedHotelChoices</a>
 
 Hotel choices confirmation status
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Confirmed Hotel choices?</td></tr><tr><td>description</td><td>Hotel choices confirmation status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_confirmedhotelchoices</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Confirmed Hotel choices?</td></tr>
+<tr><td>description</td><td>Hotel choices confirmation status</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_confirmedhotelchoices</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -3119,159 +3981,209 @@ Hotel choices confirmation status
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Confirmed Hotel choices?</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Confirmed Hotel choices?</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hotel choices confirmation status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Hotel choices confirmation status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_confirmedhotelchoices</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_confirmedhotelchoices</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>54</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>54</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### confirmedHotelChoices_display
+### <a name="confirmedHotelChoices_display">confirmedHotelChoices_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>confirmedHotelChoices</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>confirmedHotelChoices</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### countdownInDays
+### <a name="countdownInDays">countdownInDays</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Countdown in Days</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_countdownindays</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Countdown in Days</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_countdownindays</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Countdown in Days</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Countdown in Days</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_countdownindays</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_countdownindays</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>56</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>56</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### createMarketingCollateral
+### <a name="createMarketingCollateral">createMarketingCollateral</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Create Marketing Collateral</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_createmarketingcollateral</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Create Marketing Collateral</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_createmarketingcollateral</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -3296,97 +4208,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Create Marketing Collateral</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Create Marketing Collateral</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_createmarketingcollateral</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_createmarketingcollateral</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>57</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>57</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### createMarketingCollateral_display
+### <a name="createMarketingCollateral_display">createMarketingCollateral_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>createMarketingCollateral</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>createMarketingCollateral</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### definePackagesandPricing
+### <a name="definePackagesandPricing">definePackagesandPricing</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Define Packages and Pricing</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_definepackagesandpricing</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Define Packages and Pricing</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_definepackagesandpricing</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -3411,97 +4350,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Define Packages and Pricing</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Define Packages and Pricing</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_definepackagesandpricing</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_definepackagesandpricing</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>59</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>59</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### definePackagesandPricing_display
+### <a name="definePackagesandPricing_display">definePackagesandPricing_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>definePackagesandPricing</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>definePackagesandPricing</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### defineSessions
+### <a name="defineSessions">defineSessions</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Define Sessions</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_definesessions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Define Sessions</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_definesessions</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -3526,97 +4492,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Define Sessions</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Define Sessions</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_definesessions</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_definesessions</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>61</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>61</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### defineSessions_display
+### <a name="defineSessions_display">defineSessions_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>defineSessions</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>defineSessions</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### defineTeam
+### <a name="defineTeam">defineTeam</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Define Team</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_defineteam</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Define Team</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_defineteam</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -3641,157 +4634,199 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Define Team</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Define Team</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_defineteam</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_defineteam</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>63</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>63</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### defineTeam_display
+### <a name="defineTeam_display">defineTeam_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>defineTeam</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>defineTeam</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### description
+### <a name="description">description</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_description</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Description</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>2000</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_description</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Description</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_description</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_description</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>65</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>65</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>2000</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>2000</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### developMarketingPlan
+### <a name="developMarketingPlan">developMarketingPlan</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Develop Marketing Plan</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_developmarketingplan</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Develop Marketing Plan</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_developmarketingplan</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -3816,153 +4851,192 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Develop Marketing Plan</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Develop Marketing Plan</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_developmarketingplan</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_developmarketingplan</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>66</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>66</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### developMarketingPlan_display
+### <a name="developMarketingPlan_display">developMarketingPlan_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>developMarketingPlan</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>developMarketingPlan</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### earlyBirdCutOffDate
+### <a name="earlyBirdCutOffDate">earlyBirdCutOffDate</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Early Bird Cut-off Date</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_earlybirdcutoffdate</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Early Bird Cut-off Date</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_earlybirdcutoffdate</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Early Bird Cut-off Date</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Early Bird Cut-off Date</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_earlybirdcutoffdate</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_earlybirdcutoffdate</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>68</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>68</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### eventDebriefing
+### <a name="eventDebriefing">eventDebriefing</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Debriefing</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventdebriefing</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event Debriefing</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventdebriefing</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -3987,153 +5061,192 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event Debriefing</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event Debriefing</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventdebriefing</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventdebriefing</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>69</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>69</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### eventDebriefing_display
+### <a name="eventDebriefing_display">eventDebriefing_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>eventDebriefing</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>eventDebriefing</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### eventEndDate
+### <a name="eventEndDate">eventEndDate</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event End Date</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventenddate</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event End Date</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventenddate</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event End Date</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event End Date</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventenddate</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventenddate</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>71</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>71</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### eventFormat
+### <a name="eventFormat">eventFormat</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Format</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventformat</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event Format</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventformat</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "On Site",
@@ -4152,279 +5265,347 @@ undefined
     "attributeValue": "100000003",
     "displayOrder": "2"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>On Site</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Webinar</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Hybrid</td><td>100000003</td><td>2</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>On Site</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>Webinar</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Hybrid</td><td>100000003</td><td>2</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event Format</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event Format</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventformat</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventformat</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>72</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>72</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### eventFormat_display
+### <a name="eventFormat_display">eventFormat_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>eventFormat</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>eventFormat</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### eventStartDate
+### <a name="eventStartDate">eventStartDate</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Start Date</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventstartdate</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event Start Date</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventstartdate</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.date
 
-
 ##### means.measurement.date
-
 
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event Start Date</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event Start Date</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventstartdate</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventstartdate</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>74</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>74</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### eventTimeZone
+### <a name="eventTimeZone">eventTimeZone</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Time Zone</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumValue</td><td>1500</td></tr><tr><td>minimumValue</td><td>-1500</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventtimezone</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event Time Zone</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumValue</td><td>1500</td></tr>
+<tr><td>minimumValue</td><td>-1500</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventtimezone</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.location.timezone
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event Time Zone</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event Time Zone</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventtimezone</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventtimezone</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>75</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>75</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1500</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>1500</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-1500</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>1500</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### eventTimeZoneName
+### <a name="eventTimeZoneName">eventTimeZoneName</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Time Zone Name</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventtimezonename</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event Time Zone Name</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>100</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventtimezonename</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### means.identity.name
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event Time Zone Name</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event Time Zone Name</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventtimezonename</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventtimezonename</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>76</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>76</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### eventType
+### <a name="eventType">eventType</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Type</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event Type</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventtype</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Executive Briefing",
@@ -4455,290 +5636,377 @@ undefined
     "attributeValue": "100000005",
     "displayOrder": "4"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Executive Briefing</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Conference</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Demonstration</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Training</td><td>100000004</td><td>3</td></tr><tr><td>en</td><td>Webcast</td><td>100000005</td><td>4</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Executive Briefing</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>Conference</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Demonstration</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Training</td><td>100000004</td><td>3</td></tr>
+<tr><td>en</td><td>Webcast</td><td>100000005</td><td>4</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event Type</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event Type</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventtype</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventtype</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>77</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>77</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### eventType_display
+### <a name="eventType_display">eventType_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>eventType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>eventType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### eventVenueCost
+### <a name="eventVenueCost">eventVenueCost</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Venue Cost</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventvenuecost</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event Venue Cost</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventvenuecost</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event Venue Cost</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event Venue Cost</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventvenuecost</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventvenuecost</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>79</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>79</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### eventVenueCostBase
+### <a name="eventVenueCostBase">eventVenueCostBase</a>
 
 Value of the Event Venue Cost in base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Venue Cost (Base)</td></tr><tr><td>description</td><td>Value of the Event Venue Cost in base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventvenuecost_base</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event Venue Cost (Base)</td></tr>
+<tr><td>description</td><td>Value of the Event Venue Cost in base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventvenuecost_base</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>eventVenueCost</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>eventVenueCost</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event Venue Cost (Base)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event Venue Cost (Base)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Event Venue Cost in base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value of the Event Venue Cost in base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventvenuecost_base</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventvenuecost_base</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>80</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>80</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### expectedOutcome
+### <a name="expectedOutcome">expectedOutcome</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expected Outcome</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_expectedoutcome</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Expected Outcome</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>2000</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_expectedoutcome</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Expected Outcome</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Expected Outcome</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_expectedoutcome</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_expectedoutcome</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>81</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>81</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>2000</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>2000</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### followUpOnLeads
+### <a name="followUpOnLeads">followUpOnLeads</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Follow up on Leads</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_followuponleads</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Follow up on Leads</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_followuponleads</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -4763,97 +6031,127 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Follow up on Leads</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Follow up on Leads</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_followuponleads</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_followuponleads</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>82</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>82</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### followUpOnLeads_display
+### <a name="followUpOnLeads_display">followUpOnLeads_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>followUpOnLeads</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>followUpOnLeads</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### guestLogistics
+### <a name="guestLogistics">guestLogistics</a>
 
 Whether guest logistics are required or not.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Guest Logistics?</td></tr><tr><td>description</td><td>Whether guest logistics are required or not.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_guestlogistics</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Guest Logistics?</td></tr>
+<tr><td>description</td><td>Whether guest logistics are required or not.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_guestlogistics</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "No",
@@ -4866,105 +6164,134 @@ Whether guest logistics are required or not.
     "attributeValue": "100000002",
     "displayOrder": "1"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Guest Logistics?</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Guest Logistics?</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Whether guest logistics are required or not.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Whether guest logistics are required or not.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_guestlogistics</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_guestlogistics</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>84</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>84</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### guestLogistics_display
+### <a name="guestLogistics_display">guestLogistics_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>guestLogistics</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>guestLogistics</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### identifySpeakers
+### <a name="identifySpeakers">identifySpeakers</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Identify Speakers</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_identifyspeakers</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Identify Speakers</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_identifyspeakers</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -4989,97 +6316,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Identify Speakers</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Identify Speakers</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_identifyspeakers</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_identifyspeakers</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>86</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>86</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### identifySpeakers_display
+### <a name="identifySpeakers_display">identifySpeakers_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>identifySpeakers</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>identifySpeakers</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### identifySponsors
+### <a name="identifySponsors">identifySponsors</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Identify Sponsors</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_identifysponsors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Identify Sponsors</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_identifysponsors</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not applicable",
@@ -5098,144 +6452,185 @@ undefined
     "attributeValue": "100000003",
     "displayOrder": "2"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not applicable</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Incomplete</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Complete</td><td>100000003</td><td>2</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>Incomplete</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Complete</td><td>100000003</td><td>2</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Identify Sponsors</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Identify Sponsors</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_identifysponsors</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_identifysponsors</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>88</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>88</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### identifySponsors_display
+### <a name="identifySponsors_display">identifySponsors_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>identifySponsors</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>identifySponsors</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### isRecurringEvent
+### <a name="isRecurringEvent">isRecurringEvent</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Recurring Event</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_isrecurringevent</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Is Recurring Event</td></tr>
+<tr><td>dataFormat</td><td>Boolean</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_isrecurringevent</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.boolean
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.boolean
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Recurring Event</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Is Recurring Event</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_isrecurringevent</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_isrecurringevent</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>90</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>90</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### isTemplate
+### <a name="isTemplate">isTemplate</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Template</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_istemplate</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Is Template</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_istemplate</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Yes",
@@ -5248,97 +6643,125 @@ undefined
     "attributeValue": "100000002",
     "displayOrder": "1"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Template</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Is Template</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_istemplate</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_istemplate</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>92</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>92</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### isTemplate_display
+### <a name="isTemplate_display">isTemplate_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>isTemplate</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>isTemplate</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### language
+### <a name="language">language</a>
 
 The language of the webinar
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Language</td></tr><tr><td>description</td><td>The language of the webinar</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_language</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Language</td></tr>
+<tr><td>description</td><td>The language of the webinar</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_language</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "English",
@@ -5423,105 +6846,146 @@ The language of the webinar
     "attributeValue": "100000012",
     "displayOrder": "13"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>English</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>French</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>German</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>Spanish</td><td>100000003</td><td>3</td></tr><tr><td>en</td><td>Italian</td><td>100000004</td><td>4</td></tr><tr><td>en</td><td>Russian</td><td>100000005</td><td>5</td></tr><tr><td>en</td><td>Dutch</td><td>100000006</td><td>6</td></tr><tr><td>en</td><td>Turkish</td><td>100000007</td><td>7</td></tr><tr><td>en</td><td>Portuguese</td><td>100000008</td><td>8</td></tr><tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td><td>9</td></tr><tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td><td>10</td></tr><tr><td>en</td><td>Japanese</td><td>100000010</td><td>11</td></tr><tr><td>en</td><td>Korean</td><td>100000011</td><td>12</td></tr><tr><td>en</td><td>Hebrew</td><td>100000012</td><td>13</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>English</td><td>100000000</td><td>0</td></tr>
+<tr><td>en</td><td>French</td><td>100000001</td><td>1</td></tr>
+<tr><td>en</td><td>German</td><td>100000002</td><td>2</td></tr>
+<tr><td>en</td><td>Spanish</td><td>100000003</td><td>3</td></tr>
+<tr><td>en</td><td>Italian</td><td>100000004</td><td>4</td></tr>
+<tr><td>en</td><td>Russian</td><td>100000005</td><td>5</td></tr>
+<tr><td>en</td><td>Dutch</td><td>100000006</td><td>6</td></tr>
+<tr><td>en</td><td>Turkish</td><td>100000007</td><td>7</td></tr>
+<tr><td>en</td><td>Portuguese</td><td>100000008</td><td>8</td></tr>
+<tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td><td>9</td></tr>
+<tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td><td>10</td></tr>
+<tr><td>en</td><td>Japanese</td><td>100000010</td><td>11</td></tr>
+<tr><td>en</td><td>Korean</td><td>100000011</td><td>12</td></tr>
+<tr><td>en</td><td>Hebrew</td><td>100000012</td><td>13</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Language</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Language</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The language of the webinar</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>The language of the webinar</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_language</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_language</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>94</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>94</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### language_display
+### <a name="language_display">language_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>language</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>language</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### makePaymentsDue
+### <a name="makePaymentsDue">makePaymentsDue</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Make Payments Due</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_makepaymentsdue</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Make Payments Due</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_makepaymentsdue</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -5546,97 +7010,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Make Payments Due</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Make Payments Due</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_makepaymentsdue</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_makepaymentsdue</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>96</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>96</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### makePaymentsDue_display
+### <a name="makePaymentsDue_display">makePaymentsDue_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>makePaymentsDue</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>makePaymentsDue</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### manageRegistrationCount
+### <a name="manageRegistrationCount">manageRegistrationCount</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Manage Registration Count?</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_manageregistrationcount</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Manage Registration Count?</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_manageregistrationcount</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Yes",
@@ -5649,338 +7140,445 @@ undefined
     "attributeValue": "100000002",
     "displayOrder": "1"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Manage Registration Count?</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Manage Registration Count?</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_manageregistrationcount</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_manageregistrationcount</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>98</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>98</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### manageRegistrationCount_display
+### <a name="manageRegistrationCount_display">manageRegistrationCount_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>manageRegistrationCount</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>manageRegistrationCount</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### maximumEventCapacity
+### <a name="maximumEventCapacity">maximumEventCapacity</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Maximum Event Capacity</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_maximumeventcapacity</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Maximum Event Capacity</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_maximumeventcapacity</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maximum Event Capacity</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Maximum Event Capacity</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_maximumeventcapacity</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_maximumeventcapacity</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>100</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### maxNumberOfRegistrations
+### <a name="maxNumberOfRegistrations">maxNumberOfRegistrations</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max number of registrations</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_maxnumberofregistrations</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Max number of registrations</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_maxnumberofregistrations</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max number of registrations</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Max number of registrations</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_maxnumberofregistrations</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_maxnumberofregistrations</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>101</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>101</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### miscellaneousCosts
+### <a name="miscellaneousCosts">miscellaneousCosts</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Miscellaneous Costs</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_miscellaneouscosts</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Miscellaneous Costs</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_miscellaneouscosts</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Miscellaneous Costs</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Miscellaneous Costs</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_miscellaneouscosts</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_miscellaneouscosts</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>102</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>102</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### miscellaneousCostsBase
+### <a name="miscellaneousCostsBase">miscellaneousCostsBase</a>
 
 Value of the Miscellaneous Costs in base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Miscellaneous Costs (Base)</td></tr><tr><td>description</td><td>Value of the Miscellaneous Costs in base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_miscellaneouscosts_base</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Miscellaneous Costs (Base)</td></tr>
+<tr><td>description</td><td>Value of the Miscellaneous Costs in base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_miscellaneouscosts_base</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>miscellaneousCosts</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>miscellaneousCosts</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Miscellaneous Costs (Base)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Miscellaneous Costs (Base)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Miscellaneous Costs in base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value of the Miscellaneous Costs in base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_miscellaneouscosts_base</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_miscellaneouscosts_base</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>103</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>103</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### notifyAuthoritiesOfEvent
+### <a name="notifyAuthoritiesOfEvent">notifyAuthoritiesOfEvent</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notify Authorities of Event</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_notifyauthoritiesofevent</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Notify Authorities of Event</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_notifyauthoritiesofevent</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -6005,97 +7603,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Notify Authorities of Event</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Notify Authorities of Event</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_notifyauthoritiesofevent</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_notifyauthoritiesofevent</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>104</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>104</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### notifyAuthoritiesOfEvent_display
+### <a name="notifyAuthoritiesOfEvent_display">notifyAuthoritiesOfEvent_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>notifyAuthoritiesOfEvent</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>notifyAuthoritiesOfEvent</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### planRegistration
+### <a name="planRegistration">planRegistration</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Plan Registration</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_planregistration</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Plan Registration</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_planregistration</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -6120,160 +7745,201 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Plan Registration</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Plan Registration</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_planregistration</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_planregistration</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>106</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>106</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### planRegistration_display
+### <a name="planRegistration_display">planRegistration_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>planRegistration</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>planRegistration</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### presentationManagerUrl
+### <a name="presentationManagerUrl">presentationManagerUrl</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Presentation Manager URL</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_presentationmanagerurl</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Presentation Manager URL</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>200</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_presentationmanagerurl</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.URL
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Presentation Manager URL</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Presentation Manager URL</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_presentationmanagerurl</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_presentationmanagerurl</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>108</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>108</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>200</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>200</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### primaryGoal
+### <a name="primaryGoal">primaryGoal</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Goal</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_primarygoal</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Primary Goal</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_primarygoal</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Marketing",
@@ -6298,163 +7964,196 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Marketing</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Sales</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Education</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Morale</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Marketing</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>Sales</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Education</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Morale</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Primary Goal</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Primary Goal</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_primarygoal</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_primarygoal</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>109</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>109</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### primaryGoal_display
+### <a name="primaryGoal_display">primaryGoal_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>primaryGoal</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>primaryGoal</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### primaryVenue
+### <a name="primaryVenue">primaryVenue</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Venue</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_primaryvenue</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Primary Venue</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_primaryvenue</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Primary Venue</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Primary Venue</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_primaryvenue</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_primaryvenue</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>111</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>111</td><td>integer</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -6506,79 +8205,93 @@ Definition:
 }
 ```
 
-### producer
+</details>
 
-undefined
+### <a name="producer">producer</a>
+
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Producer</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_producer</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Producer</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_producer</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Producer</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Producer</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_producer</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_producer</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>112</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>112</td><td>integer</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -6630,76 +8343,98 @@ Definition:
 }
 ```
 
-### publicEventURL
+</details>
 
-undefined
+### <a name="publicEventURL">publicEventURL</a>
+
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event URL</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_publiceventurl</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event URL</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>200</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_publiceventurl</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### means.reference.URL
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event URL</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event URL</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_publiceventurl</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_publiceventurl</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>113</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>113</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>200</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>200</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### publishStatus
+### <a name="publishStatus">publishStatus</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Publish Status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_publishstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Publish Status</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_publishstatus</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Draft",
@@ -6724,387 +8459,508 @@ undefined
     "attributeValue": "100000003",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Draft</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Ready to publish</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>100000003</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Draft</td><td>100000000</td><td>0</td></tr>
+<tr><td>en</td><td>Ready to publish</td><td>100000001</td><td>1</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>2</td></tr>
+<tr><td>en</td><td>Published</td><td>100000003</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Publish Status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Publish Status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_publishstatus</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_publishstatus</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>114</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>114</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### publishStatus_display
+### <a name="publishStatus_display">publishStatus_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>publishStatus</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>publishStatus</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### readableEventID
+### <a name="readableEventID">readableEventID</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Readable Event ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_readableeventid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Readable Event ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>100</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_readableeventid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Readable Event ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Readable Event ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_readableeventid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_readableeventid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>116</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>116</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### recurrencePattern
+### <a name="recurrencePattern">recurrencePattern</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurrence pattern</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>512</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_recurrencepattern</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Recurrence pattern</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>512</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_recurrencepattern</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Recurrence pattern</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Recurrence pattern</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_recurrencepattern</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_recurrencepattern</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>117</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>117</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>512</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>512</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### recurrentEventStatus
+### <a name="recurrentEventStatus">recurrentEventStatus</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurrent Event Status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>4</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_recurrenteventstatus</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Recurrent Event Status</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>4</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_recurrenteventstatus</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.integer
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Recurrent Event Status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Recurrent Event Status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_recurrenteventstatus</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_recurrenteventstatus</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>118</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>118</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>4</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>4</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### registrationCount
+### <a name="registrationCount">registrationCount</a>
 
 Registration count of the Event.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Registration Count</td></tr><tr><td>description</td><td>Registration count of the Event.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_registrationcount</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Registration Count</td></tr>
+<tr><td>description</td><td>Registration count of the Event.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_registrationcount</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Registration Count</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Registration Count</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Registration count of the Event.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Registration count of the Event.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_registrationcount</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_registrationcount</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>119</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>119</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### registrationsTarget
+### <a name="registrationsTarget">registrationsTarget</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Registrations target</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_registrationstarget</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Registrations target</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_registrationstarget</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Registrations target</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Registrations target</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_registrationstarget</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_registrationstarget</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>120</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>120</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### requestSponsorship
+### <a name="requestSponsorship">requestSponsorship</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Request Sponsorship</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_requestsponsorship</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Request Sponsorship</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_requestsponsorship</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -7129,230 +8985,304 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Request Sponsorship</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Request Sponsorship</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_requestsponsorship</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_requestsponsorship</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>121</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>121</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### requestSponsorship_display
+### <a name="requestSponsorship_display">requestSponsorship_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>requestSponsorship</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>requestSponsorship</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### revenueFromSponsorship
+### <a name="revenueFromSponsorship">revenueFromSponsorship</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Revenue from Sponsorship</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_revenuefromsponsorship</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Revenue from Sponsorship</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_revenuefromsponsorship</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Revenue from Sponsorship</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Revenue from Sponsorship</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_revenuefromsponsorship</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_revenuefromsponsorship</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>123</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>123</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### revenueFromSponsorshipBase
+### <a name="revenueFromSponsorshipBase">revenueFromSponsorshipBase</a>
 
 Value of the Revenue from Sponsorship in base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Revenue from Sponsorship (Base)</td></tr><tr><td>description</td><td>Value of the Revenue from Sponsorship in base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_revenuefromsponsorship_base</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Revenue from Sponsorship (Base)</td></tr>
+<tr><td>description</td><td>Value of the Revenue from Sponsorship in base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_revenuefromsponsorship_base</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>revenueFromSponsorship</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>revenueFromSponsorship</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Revenue from Sponsorship (Base)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Revenue from Sponsorship (Base)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Revenue from Sponsorship in base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value of the Revenue from Sponsorship in base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_revenuefromsponsorship_base</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_revenuefromsponsorship_base</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>124</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>124</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### scheduleAirportPickups
+### <a name="scheduleAirportPickups">scheduleAirportPickups</a>
 
 Airport pickups scheduling status
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Schedule airport pickups?</td></tr><tr><td>description</td><td>Airport pickups scheduling status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_scheduleairportpickups</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Schedule airport pickups?</td></tr>
+<tr><td>description</td><td>Airport pickups scheduling status</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_scheduleairportpickups</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -7377,105 +9307,136 @@ Airport pickups scheduling status
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Schedule airport pickups?</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Schedule airport pickups?</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Airport pickups scheduling status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Airport pickups scheduling status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_scheduleairportpickups</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_scheduleairportpickups</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>125</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>125</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### scheduleAirportPickups_display
+### <a name="scheduleAirportPickups_display">scheduleAirportPickups_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>scheduleAirportPickups</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>scheduleAirportPickups</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### scheduleSessions
+### <a name="scheduleSessions">scheduleSessions</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Schedule Sessions</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_schedulesessions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Schedule Sessions</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_schedulesessions</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -7500,97 +9461,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Schedule Sessions</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Schedule Sessions</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_schedulesessions</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_schedulesessions</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>127</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>127</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### scheduleSessions_display
+### <a name="scheduleSessions_display">scheduleSessions_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>scheduleSessions</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>scheduleSessions</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### selectSpeakers
+### <a name="selectSpeakers">selectSpeakers</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Select Speakers</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_selectspeakers</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Select Speakers</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_selectspeakers</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -7615,97 +9603,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select Speakers</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Select Speakers</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_selectspeakers</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_selectspeakers</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>129</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>129</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### selectSpeakers_display
+### <a name="selectSpeakers_display">selectSpeakers_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>selectSpeakers</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>selectSpeakers</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### selectVendors
+### <a name="selectVendors">selectVendors</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Select Vendors</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_selectvendors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Select Vendors</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_selectvendors</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -7730,97 +9745,127 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select Vendors</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Select Vendors</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_selectvendors</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_selectvendors</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>131</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>131</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### selectVendors_display
+### <a name="selectVendors_display">selectVendors_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>selectVendors</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>selectVendors</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### sendEventInvitation
+### <a name="sendEventInvitation">sendEventInvitation</a>
 
 Event invitation sending status
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Event invitation</td></tr><tr><td>description</td><td>Event invitation sending status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendeventinvitation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Send Event invitation</td></tr>
+<tr><td>description</td><td>Event invitation sending status</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_sendeventinvitation</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -7845,105 +9890,136 @@ Event invitation sending status
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Send Event invitation</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Send Event invitation</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event invitation sending status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event invitation sending status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_sendeventinvitation</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_sendeventinvitation</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>133</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>133</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### sendEventInvitation_display
+### <a name="sendEventInvitation_display">sendEventInvitation_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>sendEventInvitation</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>sendEventInvitation</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### sendMarketingMaterial
+### <a name="sendMarketingMaterial">sendMarketingMaterial</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Marketing Material</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendmarketingmaterial</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Send Marketing Material</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_sendmarketingmaterial</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -7968,97 +10044,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Send Marketing Material</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Send Marketing Material</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_sendmarketingmaterial</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_sendmarketingmaterial</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>135</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>135</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### sendMarketingMaterial_display
+### <a name="sendMarketingMaterial_display">sendMarketingMaterial_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>sendMarketingMaterial</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>sendMarketingMaterial</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### sendPreEventReminders
+### <a name="sendPreEventReminders">sendPreEventReminders</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Pre Event Reminders</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendpreeventreminders</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Send Pre Event Reminders</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_sendpreeventreminders</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -8083,97 +10186,124 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Send Pre Event Reminders</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Send Pre Event Reminders</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_sendpreeventreminders</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_sendpreeventreminders</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>137</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>137</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### sendPreEventReminders_display
+### <a name="sendPreEventReminders_display">sendPreEventReminders_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>sendPreEventReminders</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>sendPreEventReminders</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### sendThankYouEmails
+### <a name="sendThankYouEmails">sendThankYouEmails</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Thank You Emails</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendthankyouemails</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Send Thank You Emails</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_sendthankyouemails</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -8198,277 +10328,363 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Send Thank You Emails</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Send Thank You Emails</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_sendthankyouemails</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_sendthankyouemails</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>139</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>139</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### sendThankYouEmails_display
+### <a name="sendThankYouEmails_display">sendThankYouEmails_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>sendThankYouEmails</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>sendThankYouEmails</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### showWaitlist
+### <a name="showWaitlist">showWaitlist</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Show Waitlist</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_showwaitlist</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Show Waitlist</td></tr>
+<tr><td>dataFormat</td><td>Boolean</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_showwaitlist</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.boolean
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Show Waitlist</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Show Waitlist</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_showwaitlist</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_showwaitlist</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>141</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>141</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### targetRevenue
+### <a name="targetRevenue">targetRevenue</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target Revenue</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_targetrevenue</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Target Revenue</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_targetrevenue</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Target Revenue</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Target Revenue</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_targetrevenue</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_targetrevenue</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>143</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>143</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### targetRevenueBase
+### <a name="targetRevenueBase">targetRevenueBase</a>
 
 Value of the Target Revenue in base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target Revenue (Base)</td></tr><tr><td>description</td><td>Value of the Target Revenue in base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_targetrevenue_base</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Target Revenue (Base)</td></tr>
+<tr><td>description</td><td>Value of the Target Revenue in base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_targetrevenue_base</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>targetRevenue</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>targetRevenue</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Target Revenue (Base)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Target Revenue (Base)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Target Revenue in base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value of the Target Revenue in base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_targetrevenue_base</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_targetrevenue_base</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>144</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>144</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### teamDebriefing
+### <a name="teamDebriefing">teamDebriefing</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Team Debriefing</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_teamdebriefing</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Team Debriefing</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_teamdebriefing</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -8493,691 +10709,920 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Team Debriefing</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Team Debriefing</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_teamdebriefing</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_teamdebriefing</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>145</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>145</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### teamDebriefing_display
+### <a name="teamDebriefing_display">teamDebriefing_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.character
 
-
 ##### is.dataFormat.big
-
 
 ##### is.dataFormat.array
 
-
 ##### means.reference.displayText
-
 
 ##### is.readOnly
 
-
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>teamDebriefing</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>teamDebriefing</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### totalCostOfEventsActivities
+### <a name="totalCostOfEventsActivities">totalCostOfEventsActivities</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Cost of Events Activities</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_totalcostofeventsactivities</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Total Cost of Events Activities</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_totalcostofeventsactivities</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total Cost of Events Activities</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Total Cost of Events Activities</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_totalcostofeventsactivities</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_totalcostofeventsactivities</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>147</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>147</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### totalCostOfEventsActivitiesBase
+### <a name="totalCostOfEventsActivitiesBase">totalCostOfEventsActivitiesBase</a>
 
 Value of the Total Cost of Events Activities in base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Cost of Events Activities (Base)</td></tr><tr><td>description</td><td>Value of the Total Cost of Events Activities in base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_totalcostofeventsactivities_base</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Total Cost of Events Activities (Base)</td></tr>
+<tr><td>description</td><td>Value of the Total Cost of Events Activities in base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_totalcostofeventsactivities_base</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>totalCostOfEventsActivities</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>totalCostOfEventsActivities</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total Cost of Events Activities (Base)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Total Cost of Events Activities (Base)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Total Cost of Events Activities in base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value of the Total Cost of Events Activities in base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_totalcostofeventsactivities_base</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_totalcostofeventsactivities_base</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>148</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>148</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### totalCostOfExternalMembers
+### <a name="totalCostOfExternalMembers">totalCostOfExternalMembers</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total cost of External Members</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_totalcostofexternalmembers</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Total cost of External Members</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_totalcostofexternalmembers</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total cost of External Members</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Total cost of External Members</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_totalcostofexternalmembers</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_totalcostofexternalmembers</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>149</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>149</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### totalCostOfExternalMembersBase
+### <a name="totalCostOfExternalMembersBase">totalCostOfExternalMembersBase</a>
 
 Value of the Total cost of External Members in base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total cost of External Members (Base)</td></tr><tr><td>description</td><td>Value of the Total cost of External Members in base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_totalcostofexternalmembers_base</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Total cost of External Members (Base)</td></tr>
+<tr><td>description</td><td>Value of the Total cost of External Members in base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_totalcostofexternalmembers_base</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>totalCostOfExternalMembers</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>totalCostOfExternalMembers</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total cost of External Members (Base)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Total cost of External Members (Base)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Total cost of External Members in base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value of the Total cost of External Members in base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_totalcostofexternalmembers_base</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_totalcostofexternalmembers_base</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>150</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>150</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### totalRegistrationFee
+### <a name="totalRegistrationFee">totalRegistrationFee</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Registration Fee (package cost)</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_totalregistrationfee</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Total Registration Fee (package cost)</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_totalregistrationfee</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total Registration Fee (package cost)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Total Registration Fee (package cost)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_totalregistrationfee</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_totalregistrationfee</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>151</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>151</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### totalRegistrationFeeBase
+### <a name="totalRegistrationFeeBase">totalRegistrationFeeBase</a>
 
 Value of the Total Registration Fee in base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Registration Fee (package cost) (Base)</td></tr><tr><td>description</td><td>Value of the Total Registration Fee in base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_totalregistrationfee_base</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Total Registration Fee (package cost) (Base)</td></tr>
+<tr><td>description</td><td>Value of the Total Registration Fee in base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_totalregistrationfee_base</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>totalRegistrationFee</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>totalRegistrationFee</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total Registration Fee (package cost) (Base)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Total Registration Fee (package cost) (Base)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Total Registration Fee in base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value of the Total Registration Fee in base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_totalregistrationfee_base</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_totalregistrationfee_base</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>152</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>152</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### totalRevenueFromTheEvent
+### <a name="totalRevenueFromTheEvent">totalRevenueFromTheEvent</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Revenue from the event</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_totalrevenuefromtheevent</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Total Revenue from the event</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_totalrevenuefromtheevent</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total Revenue from the event</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Total Revenue from the event</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_totalrevenuefromtheevent</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_totalrevenuefromtheevent</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>153</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>153</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### totalRevenueFromTheEventBase
+### <a name="totalRevenueFromTheEventBase">totalRevenueFromTheEventBase</a>
 
 Value of the Total Revenue from the event in base currency.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Revenue from the event (Base)</td></tr><tr><td>description</td><td>Value of the Total Revenue from the event in base currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_totalrevenuefromtheevent_base</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Total Revenue from the event (Base)</td></tr>
+<tr><td>description</td><td>Value of the Total Revenue from the event in base currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_totalrevenuefromtheevent_base</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### means.measurement.currency
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>totalRevenueFromTheEvent</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>totalRevenueFromTheEvent</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total Revenue from the event (Base)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Total Revenue from the event (Base)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Total Revenue from the event in base currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value of the Total Revenue from the event in base currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_totalrevenuefromtheevent_base</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_totalrevenuefromtheevent_base</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>154</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>154</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>922337203685477</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### waitlistStartingPoint
+### <a name="waitlistStartingPoint">waitlistStartingPoint</a>
 
 Waitlist Starting Point
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waitlist Starting Point</td></tr><tr><td>description</td><td>Waitlist Starting Point</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_waitliststartingpoint</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Waitlist Starting Point</td></tr>
+<tr><td>description</td><td>Waitlist Starting Point</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_waitliststartingpoint</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waitlist Starting Point</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Waitlist Starting Point</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waitlist Starting Point</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Waitlist Starting Point</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_waitliststartingpoint</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_waitliststartingpoint</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>156</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>156</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### waitlistthisEvent
+### <a name="waitlistthisEvent">waitlistthisEvent</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waitlist this Event</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_waitlistthisevent</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Waitlist this Event</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_waitlistthisevent</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "No",
@@ -9190,611 +11635,777 @@ undefined
     "attributeValue": "100000002",
     "displayOrder": "1"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waitlist this Event</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Waitlist this Event</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_waitlistthisevent</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_waitlistthisevent</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>157</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>157</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### waitlistthisEvent_display
+### <a name="waitlistthisEvent_display">waitlistthisEvent_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>waitlistthisEvent</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>waitlistthisEvent</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### webinarConfigurationId
+### <a name="webinarConfigurationId">webinarConfigurationId</a>
 
 Webinar Configuration
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Webinar Configuration</td></tr><tr><td>description</td><td>Webinar Configuration</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_webinarconfigurationid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Webinar Configuration</td></tr>
+<tr><td>description</td><td>Webinar Configuration</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_webinarconfigurationid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar Configuration</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar Configuration</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar Configuration</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar Configuration</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_webinarconfigurationid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_webinarconfigurationid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>159</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>159</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### webinarID
+### <a name="webinarID">webinarID</a>
 
 Webinar ID of the Event.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Webinar ID</td></tr><tr><td>description</td><td>Webinar ID of the Event.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_webinarid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Webinar ID</td></tr>
+<tr><td>description</td><td>Webinar ID of the Event.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>100</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_webinarid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar ID of the Event.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar ID of the Event.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_webinarid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_webinarid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>160</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>160</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### webinarNotificationSeen
+### <a name="webinarNotificationSeen">webinarNotificationSeen</a>
 
 Whether the webinar creation notification has been seen or not
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Webinar Notification Seen</td></tr><tr><td>description</td><td>Whether the webinar creation notification has been seen or not</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_webinarnotificationseen</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Webinar Notification Seen</td></tr>
+<tr><td>description</td><td>Whether the webinar creation notification has been seen or not</td></tr>
+<tr><td>dataFormat</td><td>Boolean</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_webinarnotificationseen</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.boolean
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.boolean
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar Notification Seen</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar Notification Seen</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Whether the webinar creation notification has been seen or not</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Whether the webinar creation notification has been seen or not</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_webinarnotificationseen</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_webinarnotificationseen</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>161</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>161</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### webinarOperation
+### <a name="webinarOperation">webinarOperation</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Webinar Operation</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_webinaroperation</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Webinar Operation</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>100</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_webinaroperation</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar Operation</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar Operation</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_webinaroperation</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_webinaroperation</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>163</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>163</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### webinarStatus
+### <a name="webinarStatus">webinarStatus</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Webinar Status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_webinarstatus</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Webinar Status</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>100</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_webinarstatus</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar Status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar Status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_webinarstatus</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_webinarstatus</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>164</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>164</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>100</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>100</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### webinarStatusReason
+### <a name="webinarStatusReason">webinarStatusReason</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Webinar Status Reason</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>5000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_webinarstatusreason</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Webinar Status Reason</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>5000</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_webinarstatusreason</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar Status Reason</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar Status Reason</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_webinarstatusreason</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_webinarstatusreason</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>165</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>165</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>5000</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>5000</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### webinarType
+### <a name="webinarType">webinarType</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Webinar Type</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_webinartype</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Webinar Type</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_webinartype</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar Type</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar Type</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_webinartype</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_webinartype</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>166</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>166</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### webinarURL
+### <a name="webinarURL">webinarURL</a>
 
 URL of the webinar. This might be URL of external webinar provider.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Webinar URL</td></tr><tr><td>description</td><td>URL of the webinar. This might be URL of external webinar provider.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_webinarurl</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Webinar URL</td></tr>
+<tr><td>description</td><td>URL of the webinar. This might be URL of external webinar provider.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>200</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_webinarurl</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### means.reference.URL
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Webinar URL</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Webinar URL</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>URL of the webinar. This might be URL of external webinar provider.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>URL of the webinar. This might be URL of external webinar provider.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_webinarurl</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_webinarurl</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>167</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>167</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>200</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>200</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### sendSurveys
+### <a name="sendSurveys">sendSurveys</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Surveys</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendsurveys</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Send Surveys</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_sendsurveys</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Not started",
@@ -9819,528 +12430,692 @@ undefined
     "attributeValue": "100000004",
     "displayOrder": "3"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr>
+<tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr>
+<tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr>
+<tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>recommended</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Send Surveys</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Send Surveys</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_sendsurveys</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_sendsurveys</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>172</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>172</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### sendSurveys_display
+### <a name="sendSurveys_display">sendSurveys_display</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>sendSurveys</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>sendSurveys</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### eventURLspecified
+### <a name="eventURLspecified">eventURLspecified</a>
 
 Determines whether an event URL is specified.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event URL specified</td></tr><tr><td>description</td><td>Determines whether an event URL is specified.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_eventurlspecified</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Event URL specified</td></tr>
+<tr><td>description</td><td>Determines whether an event URL is specified.</td></tr>
+<tr><td>dataFormat</td><td>Boolean</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msdyncrm_eventurlspecified</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.boolean
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.boolean
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event URL specified</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Event URL specified</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Determines whether an event URL is specified.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Determines whether an event URL is specified.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msdyncrm_eventurlspecified</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msdyncrm_eventurlspecified</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>174</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>174</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### sessionsCount
+### <a name="sessionsCount">sessionsCount</a>
 
 The number of sessions in this event
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Session count</td></tr><tr><td>description</td><td>The number of sessions in this event</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_sessionscount</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Session count</td></tr>
+<tr><td>description</td><td>The number of sessions in this event</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>-2147483648</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msdyncrm_sessionscount</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session count</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Session count</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The number of sessions in this event</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>The number of sessions in this event</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msdyncrm_sessionscount</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msdyncrm_sessionscount</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>176</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>176</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### sessionsCountDate
+### <a name="sessionsCountDate">sessionsCountDate</a>
 
 Last Updated time of rollup field Session count.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Session count (Last Updated On)</td></tr><tr><td>description</td><td>Last Updated time of rollup field Session count.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_sessionscount_date</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Session count (Last Updated On)</td></tr>
+<tr><td>description</td><td>Last Updated time of rollup field Session count.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msdyncrm_sessionscount_date</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.date
 
-
 ##### means.measurement.date
-
 
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>sessionsCount</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>sessionsCount</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session count (Last Updated On)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Session count (Last Updated On)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last Updated time of rollup field Session count.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Last Updated time of rollup field Session count.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msdyncrm_sessionscount_date</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msdyncrm_sessionscount_date</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>177</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>177</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### sessionsCountState
+### <a name="sessionsCountState">sessionsCountState</a>
 
 State of rollup field Session count.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Session count (State)</td></tr><tr><td>description</td><td>State of rollup field Session count.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_sessionscount_state</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Session count (State)</td></tr>
+<tr><td>description</td><td>State of rollup field Session count.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>-2147483648</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msdyncrm_sessionscount_state</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.calculationOf
 
 the attribute value is the result of a calculation on the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>sessionsCount</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>sessionsCount</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session count (State)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Session count (State)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>State of rollup field Session count.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>State of rollup field Session count.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msdyncrm_sessionscount_state</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msdyncrm_sessionscount_state</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>178</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>178</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### allowAnonymousRegistrations
+### <a name="allowAnonymousRegistrations">allowAnonymousRegistrations</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow Anonymous Registrations</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>adx_allowanonymousregistrations</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Allow Anonymous Registrations</td></tr>
+<tr><td>dataFormat</td><td>Boolean</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>adx_allowanonymousregistrations</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.boolean
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.boolean
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow Anonymous Registrations</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Allow Anonymous Registrations</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>adx_allowanonymousregistrations</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>adx_allowanonymousregistrations</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>179</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>179</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### portalBannerImage
+### <a name="portalBannerImage">portalBannerImage</a>
 
 The portal banner image.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Portal Banner Image</td></tr><tr><td>description</td><td>The portal banner image.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>adx_headerimage</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Portal Banner Image</td></tr>
+<tr><td>description</td><td>The portal banner image.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>adx_headerimage</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Portal Banner Image</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Portal Banner Image</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The portal banner image.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>The portal banner image.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>adx_headerimage</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>adx_headerimage</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>181</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>181</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### eventURL
+### <a name="eventURL">eventURL</a>
 
-undefined
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json/Event
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Portal Event URL</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventurl</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Portal Event URL</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>200</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>msevtmgt_eventurl</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### means.reference.URL
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Portal Event URL</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Portal Event URL</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>msevtmgt_eventurl</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>msevtmgt_eventurl</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>182</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>182</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>200</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>200</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 

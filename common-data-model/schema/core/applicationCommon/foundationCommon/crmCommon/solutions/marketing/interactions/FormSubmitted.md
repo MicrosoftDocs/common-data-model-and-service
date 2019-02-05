@@ -1,19 +1,18 @@
 ---
-title: FormSubmitted_
+title: FormSubmitted
 description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/1/2019
+ms.date: 2/5/2019
 ms.author: tpalmer
 ---
+
 # Form submitted
 
 ## Properties
 
 Display Name: Form submitted
-
-Description: undefined
 
 Latest Version: 0.8.1
 
@@ -21,36 +20,83 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 
 ## Instances
 
+[/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted](FormSubmitted.md)
+
 ## Attributes - Summary
 
-<table><tr><th>Name</th><th>Description</th><th>First Included in Instance</th></tr><tr><td>interactionId</td><td>Unique identifier of the interaction.</td><td> </td></tr><tr><td>formId</td><td>Form</td><td> </td></tr><tr><td>pageId</td><td>Marketing page</td><td> </td></tr><tr><td>messageId</td><td>Message</td><td> </td></tr><tr><td>contactId</td><td>Contact</td><td> </td></tr><tr><td>accountId</td><td>Account</td><td> </td></tr><tr><td>customerJourneyId</td><td>Customer journey</td><td> </td></tr><tr><td>formName</td><td>Form name</td><td> </td></tr><tr><td>formSubmissionId</td><td>Form submission ID</td><td> </td></tr><tr><td>customerJourneyIterationId</td><td>Customer journey iteration ID</td><td> </td></tr><tr><td>result</td><td>Result</td><td> </td></tr><tr><td>visitorId</td><td>Visitor ID</td><td> </td></tr><tr><td>sessionId</td><td>Session ID</td><td> </td></tr><tr><td>contactMatchingResult</td><td>Contact matching result</td><td> </td></tr><tr><td>leadMatchingResult</td><td>Lead matching result</td><td> </td></tr><tr><td>countryIsoCode</td><td>Country ISO code</td><td> </td></tr><tr><td>state</td><td>State</td><td> </td></tr><tr><td>city</td><td>City</td><td> </td></tr><tr><td>postalCode</td><td>Postal code</td><td> </td></tr><tr><td>browserId</td><td>Browser ID</td><td> </td></tr><tr><td>browserVersion</td><td>Browser version</td><td> </td></tr><tr><td>operatingSystemId</td><td>Operating system ID</td><td> </td></tr><tr><td>operatingSystemVersion</td><td>Operating system version</td><td> </td></tr><tr><td>referrerUri</td><td>Referrer URL</td><td> </td></tr><tr><td>sendingId</td><td>Sending ID</td><td> </td></tr><tr><td>searchPhrase</td><td>Search phrase</td><td> </td></tr><tr><td>searchEngineName</td><td>Search engine name</td><td> </td></tr><tr><td>visitDuration</td><td>Visit duration</td><td> </td></tr><tr><td>visitorReturningStatus</td><td>Visitor returning status</td><td> </td></tr><tr><td>contactFailureMessage</td><td>Contact failure message</td><td> </td></tr><tr><td>leadFailureMessage</td><td>Lead failure message</td><td> </td></tr><tr><td>timestamp</td><td>Timestamp</td><td> </td></tr><tr><td>visitorAnonymousStatus</td><td>Visitor anonymous status</td><td> </td></tr><tr><td>leadId</td><td>Lead ID</td><td> </td></tr></table>
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/FormSubmitted](FormSubmitted.md)|
+|[formId](#formId)|Form|[interactions/FormSubmitted](FormSubmitted.md)|
+|[pageId](#pageId)|Marketing page|[interactions/FormSubmitted](FormSubmitted.md)|
+|[messageId](#messageId)|Message|[interactions/FormSubmitted](FormSubmitted.md)|
+|[contactId](#contactId)|Contact|[interactions/FormSubmitted](FormSubmitted.md)|
+|[accountId](#accountId)|Account|[interactions/FormSubmitted](FormSubmitted.md)|
+|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/FormSubmitted](FormSubmitted.md)|
+|[formName](#formName)|Form name|[interactions/FormSubmitted](FormSubmitted.md)|
+|[formSubmissionId](#formSubmissionId)|Form submission ID|[interactions/FormSubmitted](FormSubmitted.md)|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/FormSubmitted](FormSubmitted.md)|
+|[result](#result)|Result|[interactions/FormSubmitted](FormSubmitted.md)|
+|[visitorId](#visitorId)|Visitor ID|[interactions/FormSubmitted](FormSubmitted.md)|
+|[sessionId](#sessionId)|Session ID|[interactions/FormSubmitted](FormSubmitted.md)|
+|[contactMatchingResult](#contactMatchingResult)|Contact matching result|[interactions/FormSubmitted](FormSubmitted.md)|
+|[leadMatchingResult](#leadMatchingResult)|Lead matching result|[interactions/FormSubmitted](FormSubmitted.md)|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/FormSubmitted](FormSubmitted.md)|
+|[state](#state)|State|[interactions/FormSubmitted](FormSubmitted.md)|
+|[city](#city)|City|[interactions/FormSubmitted](FormSubmitted.md)|
+|[postalCode](#postalCode)|Postal code|[interactions/FormSubmitted](FormSubmitted.md)|
+|[browserId](#browserId)|Browser ID|[interactions/FormSubmitted](FormSubmitted.md)|
+|[browserVersion](#browserVersion)|Browser version|[interactions/FormSubmitted](FormSubmitted.md)|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/FormSubmitted](FormSubmitted.md)|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/FormSubmitted](FormSubmitted.md)|
+|[referrerUri](#referrerUri)|Referrer URL|[interactions/FormSubmitted](FormSubmitted.md)|
+|[sendingId](#sendingId)|Sending ID|[interactions/FormSubmitted](FormSubmitted.md)|
+|[searchPhrase](#searchPhrase)|Search phrase|[interactions/FormSubmitted](FormSubmitted.md)|
+|[searchEngineName](#searchEngineName)|Search engine name|[interactions/FormSubmitted](FormSubmitted.md)|
+|[visitDuration](#visitDuration)|Visit duration|[interactions/FormSubmitted](FormSubmitted.md)|
+|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|[interactions/FormSubmitted](FormSubmitted.md)|
+|[contactFailureMessage](#contactFailureMessage)|Contact failure message|[interactions/FormSubmitted](FormSubmitted.md)|
+|[leadFailureMessage](#leadFailureMessage)|Lead failure message|[interactions/FormSubmitted](FormSubmitted.md)|
+|[timestamp](#timestamp)|Timestamp|[interactions/FormSubmitted](FormSubmitted.md)|
+|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/FormSubmitted](FormSubmitted.md)|
+|[leadId](#leadId)|Lead ID|[interactions/FormSubmitted](FormSubmitted.md)|
 
 ## Attribute - Details
 
-### interactionId
+### <a name="interactionId">interactionId</a>
 
 Unique identifier of the interaction.
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interaction Id</td></tr><tr><td>description</td><td>Unique identifier of the interaction.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>interactionId</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Interaction Id</td></tr>
+<tr><td>description</td><td>Unique identifier of the interaction.</td></tr>
+<tr><td>isPrimaryKey</td><td>true</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>sourceName</td><td>interactionId</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.identifiedBy
 
 names a specifc identity attribute to use with an entity
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"FormSubmitted_/hasAttributes/interactionId"</td><td>attribute</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>attribute</td><td>"FormSubmitted_/hasAttributes/interactionId"</td><td>attribute</td><td></td></tr>
+</table>
 
 Definition:
 
@@ -62,113 +108,146 @@ Definition:
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Interaction Id</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Interaction Id</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the interaction.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the interaction.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>interactionId</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>interactionId</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>1</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>1</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### formId
+### <a name="formId">formId</a>
 
 Form
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Form</td></tr><tr><td>description</td><td>Form</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>FormId</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Form</td></tr>
+<tr><td>description</td><td>Form</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>FormId</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form</td></tr><tr><td>en</td><td>Form ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Form</td></tr>
+<tr><td>en</td><td>Form ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form</td></tr><tr><td>en</td><td>Form ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Form</td></tr>
+<tr><td>en</td><td>Form ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>FormId</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>FormId</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -236,80 +315,102 @@ Definition:
 }
 ```
 
-### pageId
+</details>
+
+### <a name="pageId">pageId</a>
 
 Marketing page
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Marketing page</td></tr><tr><td>description</td><td>Marketing page</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>PageId</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Marketing page</td></tr>
+<tr><td>description</td><td>Marketing page</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>PageId</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing page</td></tr><tr><td>en</td><td>Page ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Marketing page</td></tr>
+<tr><td>en</td><td>Page ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Marketing page</td></tr><tr><td>en</td><td>Page ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Marketing page</td></tr>
+<tr><td>en</td><td>Page ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>PageId</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>PageId</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -377,80 +478,102 @@ Definition:
 }
 ```
 
-### messageId
+</details>
+
+### <a name="messageId">messageId</a>
 
 Message
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Message</td></tr><tr><td>description</td><td>Message</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>MessageId</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Message</td></tr>
+<tr><td>description</td><td>Message</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>MessageId</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Message</td></tr><tr><td>en</td><td>Message ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Message</td></tr>
+<tr><td>en</td><td>Message ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Message</td></tr><tr><td>en</td><td>Message ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Message</td></tr>
+<tr><td>en</td><td>Message ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>MessageId</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>MessageId</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -518,80 +641,102 @@ Definition:
 }
 ```
 
-### contactId
+</details>
+
+### <a name="contactId">contactId</a>
 
 Contact
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact</td></tr><tr><td>description</td><td>Contact</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>ContactId</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Contact</td></tr>
+<tr><td>description</td><td>Contact</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>ContactId</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact</td></tr><tr><td>en</td><td>Contact ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Contact</td></tr>
+<tr><td>en</td><td>Contact ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact</td></tr><tr><td>en</td><td>Contact ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Contact</td></tr>
+<tr><td>en</td><td>Contact ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>ContactId</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>ContactId</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -659,80 +804,102 @@ Definition:
 }
 ```
 
-### accountId
+</details>
+
+### <a name="accountId">accountId</a>
 
 Account
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account</td></tr><tr><td>description</td><td>Account</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>AccountId</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Account</td></tr>
+<tr><td>description</td><td>Account</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>AccountId</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Account</td></tr><tr><td>en</td><td>Account ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Account</td></tr>
+<tr><td>en</td><td>Account ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Account</td></tr><tr><td>en</td><td>Account ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Account</td></tr>
+<tr><td>en</td><td>Account ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>AccountId</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>AccountId</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -800,80 +967,102 @@ Definition:
 }
 ```
 
-### customerJourneyId
+</details>
+
+### <a name="customerJourneyId">customerJourneyId</a>
 
 Customer journey
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer journey</td></tr><tr><td>description</td><td>Customer journey</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>CustomerJourneyId</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Customer journey</td></tr>
+<tr><td>description</td><td>Customer journey</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>CustomerJourneyId</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer journey</td></tr><tr><td>en</td><td>Customer Journey ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Customer journey</td></tr>
+<tr><td>en</td><td>Customer Journey ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer journey</td></tr><tr><td>en</td><td>Customer Journey ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Customer journey</td></tr>
+<tr><td>en</td><td>Customer Journey ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>CustomerJourneyId</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>CustomerJourneyId</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -941,1275 +1130,1735 @@ Definition:
 }
 ```
 
-### formName
+</details>
+
+### <a name="formName">formName</a>
 
 Form name
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Form name</td></tr><tr><td>description</td><td>Form name</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Form name</td></tr>
+<tr><td>description</td><td>Form name</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form name</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Form name</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form name</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Form name</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### formSubmissionId
+### <a name="formSubmissionId">formSubmissionId</a>
 
 Form submission ID
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Form submission ID</td></tr><tr><td>description</td><td>Form submission ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Form submission ID</td></tr>
+<tr><td>description</td><td>Form submission ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form submission ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Form submission ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form submission ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Form submission ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### customerJourneyIterationId
+### <a name="customerJourneyIterationId">customerJourneyIterationId</a>
 
 Customer journey iteration ID
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer journey iteration ID</td></tr><tr><td>description</td><td>Customer journey iteration ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Customer journey iteration ID</td></tr>
+<tr><td>description</td><td>Customer journey iteration ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer journey iteration ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Customer journey iteration ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer journey iteration ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Customer journey iteration ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### result
+### <a name="result">result</a>
 
 Result
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Result</td></tr><tr><td>description</td><td>Result</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Result</td></tr>
+<tr><td>description</td><td>Result</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Result</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Result</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Result</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Result</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### visitorId
+### <a name="visitorId">visitorId</a>
 
 Visitor ID
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Visitor ID</td></tr><tr><td>description</td><td>Visitor ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Visitor ID</td></tr>
+<tr><td>description</td><td>Visitor ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visitor ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Visitor ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visitor ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Visitor ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### sessionId
+### <a name="sessionId">sessionId</a>
 
 Session ID
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Session ID</td></tr><tr><td>description</td><td>Session ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Session ID</td></tr>
+<tr><td>description</td><td>Session ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Session ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Session ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Session ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### contactMatchingResult
+### <a name="contactMatchingResult">contactMatchingResult</a>
 
 Contact matching result
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact matching result</td></tr><tr><td>description</td><td>Contact matching result</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Contact matching result</td></tr>
+<tr><td>description</td><td>Contact matching result</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact matching result</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Contact matching result</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact matching result</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Contact matching result</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### leadMatchingResult
+### <a name="leadMatchingResult">leadMatchingResult</a>
 
 Lead matching result
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead matching result</td></tr><tr><td>description</td><td>Lead matching result</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Lead matching result</td></tr>
+<tr><td>description</td><td>Lead matching result</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead matching result</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Lead matching result</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead matching result</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Lead matching result</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### countryIsoCode
+### <a name="countryIsoCode">countryIsoCode</a>
 
 Country ISO code
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country ISO code</td></tr><tr><td>description</td><td>Country ISO code</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Country ISO code</td></tr>
+<tr><td>description</td><td>Country ISO code</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country ISO code</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Country ISO code</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country ISO code</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Country ISO code</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### state
+### <a name="state">state</a>
 
 State
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>State</td></tr><tr><td>description</td><td>State</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>State</td></tr>
+<tr><td>description</td><td>State</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>State</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>State</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>State</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>State</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### city
+### <a name="city">city</a>
 
 City
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>City</td></tr><tr><td>description</td><td>City</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>City</td></tr>
+<tr><td>description</td><td>City</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>City</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>City</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>City</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>City</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### postalCode
+### <a name="postalCode">postalCode</a>
 
 Postal code
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Postal code</td></tr><tr><td>description</td><td>Postal code</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Postal code</td></tr>
+<tr><td>description</td><td>Postal code</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Postal code</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Postal code</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Postal code</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Postal code</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### browserId
+### <a name="browserId">browserId</a>
 
 Browser ID
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Browser ID</td></tr><tr><td>description</td><td>Browser ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Browser ID</td></tr>
+<tr><td>description</td><td>Browser ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Browser ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Browser ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Browser ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Browser ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### browserVersion
+### <a name="browserVersion">browserVersion</a>
 
 Browser version
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Browser version</td></tr><tr><td>description</td><td>Browser version</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Browser version</td></tr>
+<tr><td>description</td><td>Browser version</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Browser version</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Browser version</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Browser version</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Browser version</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### operatingSystemId
+### <a name="operatingSystemId">operatingSystemId</a>
 
 Operating system ID
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operating system ID</td></tr><tr><td>description</td><td>Operating system ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Operating system ID</td></tr>
+<tr><td>description</td><td>Operating system ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Operating system ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Operating system ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Operating system ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Operating system ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### operatingSystemVersion
+### <a name="operatingSystemVersion">operatingSystemVersion</a>
 
 Operating system version
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operating system version</td></tr><tr><td>description</td><td>Operating system version</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Operating system version</td></tr>
+<tr><td>description</td><td>Operating system version</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Operating system version</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Operating system version</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Operating system version</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Operating system version</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### referrerUri
+### <a name="referrerUri">referrerUri</a>
 
 Referrer URL
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Referrer URL</td></tr><tr><td>description</td><td>Referrer URL</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Referrer URL</td></tr>
+<tr><td>description</td><td>Referrer URL</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Referrer URL</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Referrer URL</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Referrer URL</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Referrer URL</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### sendingId
+### <a name="sendingId">sendingId</a>
 
 Sending ID
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sending ID</td></tr><tr><td>description</td><td>Sending ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Sending ID</td></tr>
+<tr><td>description</td><td>Sending ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sending ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Sending ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sending ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Sending ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### searchPhrase
+### <a name="searchPhrase">searchPhrase</a>
 
 Search phrase
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Search phrase</td></tr><tr><td>description</td><td>Search phrase</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Search phrase</td></tr>
+<tr><td>description</td><td>Search phrase</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Search phrase</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Search phrase</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Search phrase</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Search phrase</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### searchEngineName
+### <a name="searchEngineName">searchEngineName</a>
 
 Search engine name
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Search engine name</td></tr><tr><td>description</td><td>Search engine name</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Search engine name</td></tr>
+<tr><td>description</td><td>Search engine name</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Search engine name</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Search engine name</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Search engine name</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Search engine name</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### visitDuration
+### <a name="visitDuration">visitDuration</a>
 
 Visit duration
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Visit duration</td></tr><tr><td>description</td><td>Visit duration</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Visit duration</td></tr>
+<tr><td>description</td><td>Visit duration</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visit duration</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Visit duration</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visit duration</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Visit duration</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### visitorReturningStatus
+### <a name="visitorReturningStatus">visitorReturningStatus</a>
 
 Visitor returning status
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Visitor returning status</td></tr><tr><td>description</td><td>Visitor returning status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Visitor returning status</td></tr>
+<tr><td>description</td><td>Visitor returning status</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visitor returning status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Visitor returning status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visitor returning status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Visitor returning status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### contactFailureMessage
+### <a name="contactFailureMessage">contactFailureMessage</a>
 
 Contact failure message
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contact failure message</td></tr><tr><td>description</td><td>Contact failure message</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Contact failure message</td></tr>
+<tr><td>description</td><td>Contact failure message</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact failure message</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Contact failure message</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contact failure message</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Contact failure message</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### leadFailureMessage
+### <a name="leadFailureMessage">leadFailureMessage</a>
 
 Lead failure message
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead failure message</td></tr><tr><td>description</td><td>Lead failure message</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Lead failure message</td></tr>
+<tr><td>description</td><td>Lead failure message</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead failure message</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Lead failure message</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead failure message</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Lead failure message</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### timestamp
+### <a name="timestamp">timestamp</a>
 
 Timestamp
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timestamp</td></tr><tr><td>description</td><td>Timestamp</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Timestamp</td></tr>
+<tr><td>description</td><td>Timestamp</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.date
 
-
 ##### means.measurement.date
-
 
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Timestamp</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Timestamp</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Timestamp</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Timestamp</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### visitorAnonymousStatus
+### <a name="visitorAnonymousStatus">visitorAnonymousStatus</a>
 
 Visitor anonymous status
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Visitor anonymous status</td></tr><tr><td>description</td><td>Visitor anonymous status</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Visitor anonymous status</td></tr>
+<tr><td>description</td><td>Visitor anonymous status</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visitor anonymous status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Visitor anonymous status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visitor anonymous status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Visitor anonymous status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 
-### leadId
+### <a name="leadId">leadId</a>
 
 Lead ID
 
+First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json/FormSubmitted
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead ID</td></tr><tr><td>description</td><td>Lead ID</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Lead ID</td></tr>
+<tr><td>description</td><td>Lead ID</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Lead ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lead ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Lead ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
+</details>
 

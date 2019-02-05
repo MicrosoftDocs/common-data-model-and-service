@@ -1,12 +1,13 @@
 ---
-title: SocialActivity_
+title: SocialActivity
 description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/1/2019
+ms.date: 2/5/2019
 ms.author: tpalmer
 ---
+
 # Social Activity
 
 ## Properties
@@ -21,161 +22,267 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 
 ## Instances
 
+[/core/applicationCommon/SocialActivity.cdm.json/SocialActivity](SocialActivity.md)
+
+[/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json/SocialActivity](foundationCommon/crmCommon/SocialActivity.md)
+
 ## Attributes - Summary
 
-<table><tr><th>Name</th><th>Description</th><th>First Included in Instance</th></tr><tr><td>createdOn</td><td>Date and time when the record was created.</td><td> </td></tr><tr><td>createdBy</td><td>Shows who created the record.</td><td> </td></tr><tr><td>modifiedOn</td><td>Date and time when the record was modified.</td><td> </td></tr><tr><td>modifiedBy</td><td>Shows who last updated the record.</td><td> </td></tr><tr><td>createdOnBehalfBy</td><td>Shows who created the record on behalf of another user.</td><td> </td></tr><tr><td>modifiedOnBehalfBy</td><td>Shows who last updated the record on behalf of another user.</td><td> </td></tr><tr><td>overriddenCreatedOn</td><td>Date and time that the record was migrated.</td><td> </td></tr><tr><td>importSequenceNumber</td><td>Unique identifier of the data import or data migration that created this record.</td><td> </td></tr><tr><td>ownerIdType</td><td>The type of owner, either User or Team.</td><td> </td></tr><tr><td>ownerId</td><td>Owner Id</td><td> </td></tr><tr><td>owningBusinessUnit</td><td>Unique identifier for the business unit that owns the record</td><td> </td></tr><tr><td>owningUser</td><td>Unique identifier of the user that owns the activity.</td><td> </td></tr><tr><td>owningTeam</td><td>Unique identifier for the team that owns the record.</td><td> </td></tr><tr><td>timeZoneRuleVersionNumber</td><td>For internal use only.</td><td> </td></tr><tr><td>UTCConversionTimeZoneCode</td><td>Time zone code that was in use when the record was created.</td><td> </td></tr><tr><td>versionNumber</td><td>Version Number</td><td> </td></tr><tr><td>activityTypeCode</td><td>Type of activity.</td><td> </td></tr><tr><td>activityId</td><td>Unique identifier of the activity.</td><td> </td></tr><tr><td>isBilled</td><td>Information regarding whether the fax activity was billed as part of resolving a case.</td><td> </td></tr><tr><td>isRegularActivity</td><td>Information regarding whether the activity is a regular activity type or event type.</td><td> </td></tr><tr><td>isWorkflowCreated</td><td>Information regarding whether the activity was created from a workflow rule.</td><td> </td></tr><tr><td>priorityCode</td><td>Priority of the activity.</td><td> </td></tr><tr><td>priorityCode_display</td><td>undefined</td><td> </td></tr><tr><td>regardingObjectTypeCode</td><td>The name of the entity linked by regardingObjectId</td><td> </td></tr><tr><td>regardingObjectId</td><td>Unique identifier of the object with which the activity is associated.</td><td> </td></tr><tr><td>scheduledEnd</td><td>Scheduled end time of the activity.</td><td> </td></tr><tr><td>scheduledStart</td><td>Scheduled start time of the activity.</td><td> </td></tr><tr><td>sortDate</td><td>Shows the date and time by which the activities are sorted.</td><td> </td></tr><tr><td>subject</td><td>Subject associated with the activity.</td><td> </td></tr><tr><td>scheduledDurationMinutes</td><td>Scheduled duration of the activity, specified in minutes.</td><td> </td></tr><tr><td>actualDurationMinutes</td><td>Actual duration of the activity in minutes.</td><td> </td></tr><tr><td>actualEnd</td><td>Actual end time of the activity.</td><td> </td></tr><tr><td>actualStart</td><td>Actual start time of the activity.</td><td> </td></tr><tr><td>activityAdditionalParams</td><td>Additional information provided by the external application as JSON. For internal use only.</td><td> </td></tr><tr><td>to</td><td>Enter the account, contact, lead, or user recipients of the phone call.</td><td> </td></tr><tr><td>from</td><td>Enter the account, contact, lead, or user who made the phone call.</td><td> </td></tr><tr><td>resources</td><td>Users or facility/equipment that are required for the activity.</td><td> </td></tr><tr><td>community</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td><td> </td></tr><tr><td>community_display</td><td>undefined</td><td> </td></tr><tr><td>directionCode</td><td>Select the direction of the activity as incoming or outbound.</td><td> </td></tr><tr><td>description</td><td>Shows information about the social post content. This field is read-only.</td><td> </td></tr><tr><td>traversedPath</td><td>For internal use only.</td><td> </td></tr><tr><td>processId</td><td>Unique identifier of the Process.</td><td> </td></tr><tr><td>stageId</td><td>Unique identifier of the Stage.</td><td> </td></tr><tr><td>stateCode</td><td>Shows whether the social activity completed. This field is read-only.</td><td> </td></tr><tr><td>stateCode_display</td><td>undefined</td><td> </td></tr><tr><td>statusCode</td><td>Shows whether the social activity is completed, failed, or processing. This field is read-only.</td><td> </td></tr><tr><td>statusCode_display</td><td>undefined</td><td> </td></tr><tr><td>transactionCurrencyId</td><td>Choose the local currency for the record to make sure budgets are reported in the correct currency.</td><td> </td></tr><tr><td>exchangeRate</td><td>Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.</td><td> </td></tr><tr><td>sentimentValue</td><td>Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.</td><td> </td></tr><tr><td>postedOn</td><td>For internal use only.</td><td> </td></tr><tr><td>postURL</td><td>Shows the URL of the post.</td><td> </td></tr><tr><td>inResponseTo</td><td>Unique identifier for the responses to a post. For internal use only.</td><td> </td></tr><tr><td>postMessageType</td><td>Shows if the social post originated as a private or public message.</td><td> </td></tr><tr><td>postMessageType_display</td><td>undefined</td><td> </td></tr><tr><td>postId</td><td>Unique identifier of the post. For internal use only.</td><td> </td></tr><tr><td>threadId</td><td>Unique identifier of the social conversation. For internal use only.</td><td> </td></tr><tr><td>SLAInvokedId</td><td>Last SLA that was applied to this Social Activity. This field is for internal use only.</td><td> </td></tr><tr><td>postFromProfileId</td><td>Shows the author of the post on the corresponding social channel.</td><td> </td></tr><tr><td>postToProfileId</td><td>Shows the recipients of the social post.</td><td> </td></tr><tr><td>postAuthorAccountType</td><td>The type of post author account, either Account or Contact.</td><td> </td></tr><tr><td>postAuthorAccount</td><td>Shows the parent account of the author of the post.</td><td> </td></tr><tr><td>postAuthorType</td><td>The type of post author, either Account or Contact.</td><td> </td></tr><tr><td>postAuthor</td><td>Shows the contact or account that authored the post.</td><td> </td></tr><tr><td>socialAdditionalParams</td><td>For internal use only.</td><td> </td></tr><tr><td>SLAId</td><td>Choose the service level agreement (SLA) that you want to apply to the Social Activity record.</td><td> </td></tr><tr><td>onHoldTime</td><td>Shows how long, in minutes, that the record was on hold.</td><td> </td></tr><tr><td>lastOnHoldTime</td><td>Contains the date and time stamp of the last on hold time.</td><td> </td></tr></table>
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[ownerId](#ownerId)|Owner Id|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[versionNumber](#versionNumber)|Version Number|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[priorityCode_display](#priorityCode_display)||[applicationCommon/SocialActivity](SocialActivity.md)|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[subject](#subject)|Subject associated with the activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[actualStart](#actualStart)|Actual start time of the activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[community_display](#community_display)||[applicationCommon/SocialActivity](SocialActivity.md)|
+|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[description](#description)|Shows information about the social post content. This field is read-only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[processId](#processId)|Unique identifier of the Process.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[stageId](#stageId)|Unique identifier of the Stage.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[stateCode](#stateCode)|Shows whether the social activity completed. This field is read-only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[stateCode_display](#stateCode_display)||[applicationCommon/SocialActivity](SocialActivity.md)|
+|[statusCode](#statusCode)|Shows whether the social activity is completed, failed, or processing. This field is read-only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[statusCode_display](#statusCode_display)||[applicationCommon/SocialActivity](SocialActivity.md)|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[sentimentValue](#sentimentValue)|Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postedOn](#postedOn)|For internal use only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postURL](#postURL)|Shows the URL of the post.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[inResponseTo](#inResponseTo)|Unique identifier for the responses to a post. For internal use only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postMessageType](#postMessageType)|Shows if the social post originated as a private or public message.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postMessageType_display](#postMessageType_display)||[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postId](#postId)|Unique identifier of the post. For internal use only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[threadId](#threadId)|Unique identifier of the social conversation. For internal use only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this Social Activity. This field is for internal use only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postFromProfileId](#postFromProfileId)|Shows the author of the post on the corresponding social channel.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postToProfileId](#postToProfileId)|Shows the recipients of the social post.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postAuthorAccountType](#postAuthorAccountType)|The type of post author account, either Account or Contact.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postAuthorAccount](#postAuthorAccount)|Shows the parent account of the author of the post.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postAuthorType](#postAuthorType)|The type of post author, either Account or Contact.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[postAuthor](#postAuthor)|Shows the contact or account that authored the post.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[socialAdditionalParams](#socialAdditionalParams)|For internal use only.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Social Activity record.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/SocialActivity](SocialActivity.md)|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/SocialActivity](SocialActivity.md)|
 
 ## Attribute - Details
 
-### createdOn
+### <a name="createdOn">createdOn</a>
 
 Date and time when the record was created.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Created On</td></tr>
+<tr><td>description</td><td>Date and time when the record was created.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>createdon</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
-
 
 ##### means.measurement.time
 
-
 ##### means.measurement.date.creation
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created On</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Created On</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was created.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Date and time when the record was created.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>createdon</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>createdon</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### createdBy
+### <a name="createdBy">createdBy</a>
 
 Shows who created the record.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Created By</td></tr>
+<tr><td>description</td><td>Shows who created the record.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>createdby</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Created By</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows who created the record.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>createdby</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>createdby</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -244,155 +351,189 @@ Definition:
 }
 ```
 
-### modifiedOn
+</details>
+
+### <a name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Modified On</td></tr>
+<tr><td>description</td><td>Date and time when the record was modified.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>modifiedon</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
-
 
 ##### means.measurement.time
 
-
 ##### means.measurement.date.modify
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified On</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Modified On</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was modified.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Date and time when the record was modified.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedon</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>modifiedon</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### modifiedBy
+### <a name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Modified By</td></tr>
+<tr><td>description</td><td>Shows who last updated the record.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>modifiedby</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Modified By</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows who last updated the record.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedby</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -461,90 +602,108 @@ Definition:
 }
 ```
 
-### createdOnBehalfBy
+</details>
+
+### <a name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Created By (Delegate)</td></tr>
+<tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>createdonbehalfby</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By (Delegate)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Created By (Delegate)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>createdonbehalfby</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -613,90 +772,108 @@ Definition:
 }
 ```
 
-### modifiedOnBehalfBy
+</details>
+
+### <a name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Modified By (Delegate)</td></tr>
+<tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>modifiedonbehalfby</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By (Delegate)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Modified By (Delegate)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -765,347 +942,438 @@ Definition:
 }
 ```
 
-### overriddenCreatedOn
+</details>
+
+### <a name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Record Created On</td></tr>
+<tr><td>description</td><td>Date and time that the record was migrated.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>overriddencreatedon</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
-
 
 ##### means.measurement.time
 
-
 ##### means.measurement.date.creation
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Record Created On</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Record Created On</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time that the record was migrated.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Date and time that the record was migrated.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>overriddencreatedon</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>overriddencreatedon</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### importSequenceNumber
+### <a name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Unique identifier of the data import or data migration that created this record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Import Sequence Number</td></tr>
+<tr><td>description</td><td>Unique identifier of the data import or data migration that created this record.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>-2147483648</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>importsequencenumber</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Import Sequence Number</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the data import or data migration that created this record.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the data import or data migration that created this record.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>importsequencenumber</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>importsequencenumber</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### ownerIdType
+### <a name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owner Type</td></tr>
+<tr><td>description</td><td>The type of owner, either User or Team.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+<tr><td>sourceName</td><td>owneridtype</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.entityName
 
-
 ##### is.readOnly
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Type</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owner Type</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The type of owner, either User or Team.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>The type of owner, either User or Team.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owneridtype</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>owneridtype</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.name
 
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
-
 ##### is.CDS.owner
 
 contains a User or Team ID
 
+</details>
 
-### ownerId
+### <a name="ownerId">ownerId</a>
 
 Owner Id
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>ownerid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owner</td></tr>
+<tr><td>description</td><td>Owner Id</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>sourceName</td><td>ownerid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owner</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Id</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owner Id</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>ownerid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
-
 ##### is.CDS.owner
 
 contains a User or Team ID
 
+</details>
 
-### owningBusinessUnit
+### <a name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owning Business Unit</td></tr>
+<tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>owningbusinessunit</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning Business Unit</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owning Business Unit</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the business unit that owns the record</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier for the business unit that owns the record</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owningbusinessunit</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -1174,90 +1442,108 @@ Definition:
 }
 ```
 
-### owningUser
+</details>
+
+### <a name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owning User</td></tr>
+<tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>owninguser</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### means.userId
 
 contains a userId
 
-
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning User</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owning User</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the user that owns the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the user that owns the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owninguser</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "userId"...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -1326,85 +1612,104 @@ Definition:
 }
 ```
 
-### owningTeam
+</details>
+
+### <a name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Owning Team</td></tr>
+<tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>owningteam</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owning Team</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Owning Team</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the team that owns the record.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier for the team that owns the record.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>owningteam</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -1473,192 +1778,268 @@ Definition:
 }
 ```
 
-### timeZoneRuleVersionNumber
+</details>
+
+### <a name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr>
+<tr><td>description</td><td>For internal use only.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>-1</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Zone Rule Version Number</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Time Zone Rule Version Number</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>For internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>timezoneruleversionnumber</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>timezoneruleversionnumber</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-1</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### UTCConversionTimeZoneCode
+### <a name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr>
+<tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>-1</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>UTC Conversion Time Zone Code</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>UTC Conversion Time Zone Code</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time zone code that was in use when the record was created.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Time zone code that was in use when the record was created.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>utcconversiontimezonecode</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>utcconversiontimezonecode</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-1</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-1</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### versionNumber
+### <a name="versionNumber">versionNumber</a>
 
 Version Number
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int64</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Version Number</td></tr>
+<tr><td>description</td><td>Version Number</td></tr>
+<tr><td>dataFormat</td><td>Int64</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>versionnumber</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.dataFormat.big
 
-
 ##### means.measurement.version
-
 
 ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version Number</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Version Number</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version Number</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Version Number</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>versionnumber</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>versionnumber</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### activityTypeCode
+### <a name="activityTypeCode">activityTypeCode</a>
 
 Type of activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Activity Type</td></tr>
+<tr><td>description</td><td>Type of activity.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+<tr><td>sourceName</td><td>activitytypecode</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Fax"
@@ -1731,98 +2112,137 @@ Type of activity.
     "languageTag": "en",
     "displayText": "Portal Comment"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.entityName
 
-
 ##### is.readOnly
-
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fax</td></tr><tr><td>en</td><td>Phone Call</td></tr><tr><td>en</td><td>Email</td></tr><tr><td>en</td><td>Letter</td></tr><tr><td>en</td><td>Appointment</td></tr><tr><td>en</td><td>Task</td></tr><tr><td>en</td><td>Recurring Appointment</td></tr><tr><td>en</td><td>Quick Campaign</td></tr><tr><td>en</td><td>Campaign Activity</td></tr><tr><td>en</td><td>Campaign Response</td></tr><tr><td>en</td><td>Case Resolution</td></tr><tr><td>en</td><td>Service Activity</td></tr><tr><td>en</td><td>Opportunity Close</td></tr><tr><td>en</td><td>Order Close</td></tr><tr><td>en</td><td>Quote Close</td></tr><tr><td>en</td><td>Alert Subscription</td></tr><tr><td>en</td><td>Invite Redemption</td></tr><tr><td>en</td><td>Portal Comment</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Fax</td></tr>
+<tr><td>en</td><td>Phone Call</td></tr>
+<tr><td>en</td><td>Email</td></tr>
+<tr><td>en</td><td>Letter</td></tr>
+<tr><td>en</td><td>Appointment</td></tr>
+<tr><td>en</td><td>Task</td></tr>
+<tr><td>en</td><td>Recurring Appointment</td></tr>
+<tr><td>en</td><td>Quick Campaign</td></tr>
+<tr><td>en</td><td>Campaign Activity</td></tr>
+<tr><td>en</td><td>Campaign Response</td></tr>
+<tr><td>en</td><td>Case Resolution</td></tr>
+<tr><td>en</td><td>Service Activity</td></tr>
+<tr><td>en</td><td>Opportunity Close</td></tr>
+<tr><td>en</td><td>Order Close</td></tr>
+<tr><td>en</td><td>Quote Close</td></tr>
+<tr><td>en</td><td>Alert Subscription</td></tr>
+<tr><td>en</td><td>Invite Redemption</td></tr>
+<tr><td>en</td><td>Portal Comment</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity Type</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Activity Type</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Type of activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>activitytypecode</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>activitytypecode</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.name
 
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
+</details>
 
-### activityId
+### <a name="activityId">activityId</a>
 
 Unique identifier of the activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity</td></tr><tr><td>description</td><td>Unique identifier of the activity.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>activityid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Activity</td></tr>
+<tr><td>description</td><td>Unique identifier of the activity.</td></tr>
+<tr><td>isPrimaryKey</td><td>true</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>sourceName</td><td>activityid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.identifiedBy
 
 names a specifc identity attribute to use with an entity
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"SocialActivity_/hasAttributes/activityId"</td><td>attribute</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>attribute</td><td>"SocialActivity_/hasAttributes/activityId"</td><td>attribute</td><td></td></tr>
+</table>
 
 Definition:
 
@@ -1834,183 +2254,266 @@ Definition:
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Activity</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>activityid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>activityid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
+</details>
 
-### isBilled
+### <a name="isBilled">isBilled</a>
 
 Information regarding whether the fax activity was billed as part of resolving a case.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Billed</td></tr><tr><td>description</td><td>Information regarding whether the fax activity was billed as part of resolving a case.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isbilled</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Is Billed</td></tr>
+<tr><td>description</td><td>Information regarding whether the fax activity was billed as part of resolving a case.</td></tr>
+<tr><td>dataFormat</td><td>Boolean</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>isbilled</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.boolean
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.boolean
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Billed</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Is Billed</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information regarding whether the fax activity was billed as part of resolving a case.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Information regarding whether the fax activity was billed as part of resolving a case.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>isbilled</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>isbilled</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### isRegularActivity
+### <a name="isRegularActivity">isRegularActivity</a>
 
 Information regarding whether the activity is a regular activity type or event type.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Regular Activity</td></tr><tr><td>description</td><td>Information regarding whether the activity is a regular activity type or event type.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>isregularactivity</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Is Regular Activity</td></tr>
+<tr><td>description</td><td>Information regarding whether the activity is a regular activity type or event type.</td></tr>
+<tr><td>dataFormat</td><td>Boolean</td></tr>
+<tr><td>sourceName</td><td>isregularactivity</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.boolean
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.boolean
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Regular Activity</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Is Regular Activity</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information regarding whether the activity is a regular activity type or event type.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Information regarding whether the activity is a regular activity type or event type.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>isregularactivity</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>isregularactivity</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### isWorkflowCreated
+### <a name="isWorkflowCreated">isWorkflowCreated</a>
 
 Information regarding whether the activity was created from a workflow rule.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Workflow Created</td></tr><tr><td>description</td><td>Information regarding whether the activity was created from a workflow rule.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isworkflowcreated</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Is Workflow Created</td></tr>
+<tr><td>description</td><td>Information regarding whether the activity was created from a workflow rule.</td></tr>
+<tr><td>dataFormat</td><td>Boolean</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>isworkflowcreated</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.boolean
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.boolean
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Workflow Created</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Is Workflow Created</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Information regarding whether the activity was created from a workflow rule.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Information regarding whether the activity was created from a workflow rule.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>isworkflowcreated</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>isworkflowcreated</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### priorityCode
+### <a name="priorityCode">priorityCode</a>
 
 Priority of the activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Priority</td></tr>
+<tr><td>description</td><td>Priority of the activity.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>prioritycode</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Low",
@@ -2029,222 +2532,278 @@ Priority of the activity.
     "attributeValue": "2",
     "displayOrder": "2"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr>
+<tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr>
+<tr><td>en</td><td>High</td><td>2</td><td>2</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Priority</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority of the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Priority of the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>prioritycode</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>prioritycode</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### priorityCode_display
+### <a name="priorityCode_display">priorityCode_display</a>
 
-undefined
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>priorityCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>priorityCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### regardingObjectTypeCode
+### <a name="regardingObjectTypeCode">regardingObjectTypeCode</a>
 
 The name of the entity linked by regardingObjectId
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Regarding Type</td></tr><tr><td>description</td><td>The name of the entity linked by regardingObjectId</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>regardingobjecttypecode</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Regarding Type</td></tr>
+<tr><td>description</td><td>The name of the entity linked by regardingObjectId</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+<tr><td>sourceName</td><td>regardingobjecttypecode</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.entityName
 
-
 ##### is.readOnly
-
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Regarding Type</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Regarding Type</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the entity linked by regardingObjectId</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>The name of the entity linked by regardingObjectId</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>regardingobjecttypecode</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>regardingobjecttypecode</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.name
 
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
+</details>
 
-### regardingObjectId
+### <a name="regardingObjectId">regardingObjectId</a>
 
 Unique identifier of the object with which the activity is associated.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Regarding</td></tr><tr><td>description</td><td>Unique identifier of the object with which the activity is associated.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>regardingobjectid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Regarding</td></tr>
+<tr><td>description</td><td>Unique identifier of the object with which the activity is associated.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>regardingobjectid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Regarding</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Regarding</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the object with which the activity is associated.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the object with which the activity is associated.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>regardingobjectid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>regardingobjectid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
-
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
-  "explanation": "Place holder that merges with ...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
+  "explanation": "Place holder that merges with ...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -2257,145 +2816,192 @@ Definition:
 }
 ```
 
-### scheduledEnd
+</details>
+
+### <a name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Due Date</td></tr><tr><td>description</td><td>Scheduled end time of the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>scheduledend</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Due Date</td></tr>
+<tr><td>description</td><td>Scheduled end time of the activity.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>scheduledend</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Due Date</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Due Date</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Scheduled end time of the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Scheduled end time of the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>scheduledend</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>scheduledend</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### scheduledStart
+### <a name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>description</td><td>Scheduled start time of the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>scheduledstart</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Start Date</td></tr>
+<tr><td>description</td><td>Scheduled start time of the activity.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>scheduledstart</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Start Date</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Start Date</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Scheduled start time of the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Scheduled start time of the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>scheduledstart</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>scheduledstart</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### sortDate
+### <a name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sort Date</td></tr><tr><td>description</td><td>Shows the date and time by which the activities are sorted.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sortdate</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Sort Date</td></tr>
+<tr><td>description</td><td>Shows the date and time by which the activities are sorted.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>sortdate</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
-
 
 ##### means.measurement.time
 
-
 ##### is.ordered
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"SocialActivity_/hasAttributes/sortDate"</td><td>attribute</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>attribute</td><td>"SocialActivity_/hasAttributes/sortDate"</td><td>attribute</td><td></td></tr>
+</table>
 
 Definition:
 
@@ -2407,612 +3013,809 @@ Definition:
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sort Date</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Sort Date</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows the date and time by which the activities are sorted.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows the date and time by which the activities are sorted.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>sortdate</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>sortdate</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### subject
+### <a name="subject">subject</a>
 
 Subject associated with the activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject</td></tr><tr><td>description</td><td>Subject associated with the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>subject</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Subject</td></tr>
+<tr><td>description</td><td>Subject associated with the activity.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>200</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>subject</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subject</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Subject</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subject associated with the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Subject associated with the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>subject</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>subject</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>200</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>200</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### scheduledDurationMinutes
+### <a name="scheduledDurationMinutes">scheduledDurationMinutes</a>
 
 Scheduled duration of the activity, specified in minutes.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Scheduled Duration</td></tr><tr><td>description</td><td>Scheduled duration of the activity, specified in minutes.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>scheduleddurationminutes</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Scheduled Duration</td></tr>
+<tr><td>description</td><td>Scheduled duration of the activity, specified in minutes.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>scheduleddurationminutes</td></tr>
+</table>
 
 #### Traits
 
+<details>
+<summary>Traits details.</summary>
+
 ##### is.dataFormat.integer
 
-
 ##### means.measurement.duration.minutes
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Scheduled Duration</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Scheduled Duration</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Scheduled duration of the activity, specified in minutes.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Scheduled duration of the activity, specified in minutes.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>scheduleddurationminutes</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>scheduleddurationminutes</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### actualDurationMinutes
+### <a name="actualDurationMinutes">actualDurationMinutes</a>
 
 Actual duration of the activity in minutes.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual Duration</td></tr><tr><td>description</td><td>Actual duration of the activity in minutes.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualdurationminutes</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Actual Duration</td></tr>
+<tr><td>description</td><td>Actual duration of the activity in minutes.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>0</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>actualdurationminutes</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.integer
 
-
 ##### means.measurement.duration.minutes
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual Duration</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Actual Duration</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual duration of the activity in minutes.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Actual duration of the activity in minutes.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>actualdurationminutes</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>actualdurationminutes</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>0</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>0</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### actualEnd
+### <a name="actualEnd">actualEnd</a>
 
 Actual end time of the activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual End</td></tr><tr><td>description</td><td>Actual end time of the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualend</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Actual End</td></tr>
+<tr><td>description</td><td>Actual end time of the activity.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>actualend</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### means.measurement.date.end
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual End</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Actual End</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual end time of the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Actual end time of the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>actualend</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>actualend</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### actualStart
+### <a name="actualStart">actualStart</a>
 
 Actual start time of the activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual Start</td></tr><tr><td>description</td><td>Actual start time of the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualstart</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Actual Start</td></tr>
+<tr><td>description</td><td>Actual start time of the activity.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>actualstart</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.date
 
-
 ##### means.measurement.date
-
 
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### means.measurement.date.start
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual Start</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Actual Start</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual start time of the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Actual start time of the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>actualstart</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>actualstart</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### activityAdditionalParams
+### <a name="activityAdditionalParams">activityAdditionalParams</a>
 
 Additional information provided by the external application as JSON. For internal use only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Additional Parameters</td></tr><tr><td>description</td><td>Additional information provided by the external application as JSON. For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>8192</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>activityadditionalparams</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Activity Additional Parameters</td></tr>
+<tr><td>description</td><td>Additional information provided by the external application as JSON. For internal use only.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>8192</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>activityadditionalparams</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### means.content.text.JSON
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity Additional Parameters</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Activity Additional Parameters</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Additional information provided by the external application as JSON. For internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Additional information provided by the external application as JSON. For internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>activityadditionalparams</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>activityadditionalparams</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>8192</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>8192</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### to
+### <a name="to">to</a>
 
 Enter the account, contact, lead, or user recipients of the phone call.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Call To</td></tr><tr><td>description</td><td>Enter the account, contact, lead, or user recipients of the phone call.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>to</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Call To</td></tr>
+<tr><td>description</td><td>Enter the account, contact, lead, or user recipients of the phone call.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>to</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### is.dataFormat.guid
-
 
 ##### is.CDS.partyList
 
 contains a link to ActivityParty to identify the set of party members
 
-
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>multi</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>multi</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Call To</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Call To</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enter the account, contact, lead, or user recipients of the phone call.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Enter the account, contact, lead, or user recipients of the phone call.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>to</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>to</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### from
+### <a name="from">from</a>
 
 Enter the account, contact, lead, or user who made the phone call.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Call From</td></tr><tr><td>description</td><td>Enter the account, contact, lead, or user who made the phone call.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>from</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Call From</td></tr>
+<tr><td>description</td><td>Enter the account, contact, lead, or user who made the phone call.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>from</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### is.dataFormat.guid
-
 
 ##### is.CDS.partyList
 
 contains a link to ActivityParty to identify the set of party members
 
-
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Call From</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Call From</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enter the account, contact, lead, or user who made the phone call.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Enter the account, contact, lead, or user who made the phone call.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>from</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>from</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### resources
+### <a name="resources">resources</a>
 
 Users or facility/equipment that are required for the activity.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Resources</td></tr><tr><td>description</td><td>Users or facility/equipment that are required for the activity.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>resources</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Resources</td></tr>
+<tr><td>description</td><td>Users or facility/equipment that are required for the activity.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>resources</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### is.dataFormat.guid
-
 
 ##### is.CDS.partyList
 
 contains a link to ActivityParty to identify the set of party members
 
-
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>multi</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>multi</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Resources</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Resources</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Users or facility/equipment that are required for the activity.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Users or facility/equipment that are required for the activity.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>resources</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>resources</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### community
+### <a name="community">community</a>
 
 Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Channel</td></tr><tr><td>description</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>community</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Social Channel</td></tr>
+<tr><td>description</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>community</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Facebook",
@@ -3031,410 +3834,545 @@ Shows how contact about the activity originated, such as from Twitter or Faceboo
     "attributeValue": "0",
     "displayOrder": "2"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Facebook</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Twitter</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Other</td><td>0</td><td>2</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Facebook</td><td>1</td><td>0</td></tr>
+<tr><td>en</td><td>Twitter</td><td>2</td><td>1</td></tr>
+<tr><td>en</td><td>Other</td><td>0</td><td>2</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Social Channel</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Social Channel</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>community</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>community</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### community_display
+### <a name="community_display">community_display</a>
 
-undefined
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>community</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>community</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### directionCode
+### <a name="directionCode">directionCode</a>
 
 Select the direction of the activity as incoming or outbound.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Direction</td></tr><tr><td>description</td><td>Select the direction of the activity as incoming or outbound.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Boolean</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>directioncode</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Direction</td></tr>
+<tr><td>description</td><td>Select the direction of the activity as incoming or outbound.</td></tr>
+<tr><td>dataFormat</td><td>Boolean</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>directioncode</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.boolean
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Direction</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Direction</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Select the direction of the activity as incoming or outbound.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Select the direction of the activity as incoming or outbound.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>directioncode</td><td>string</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>directioncode</td><td>string</td><td></td></tr>
+</table>
 
+</details>
 
-### description
+### <a name="description">description</a>
 
 Shows information about the social post content. This field is read-only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post Description</td></tr><tr><td>description</td><td>Shows information about the social post content. This field is read-only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>description</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Post Description</td></tr>
+<tr><td>description</td><td>Shows information about the social post content. This field is read-only.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>2000</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>description</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post Description</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Post Description</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows information about the social post content. This field is read-only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows information about the social post content. This field is read-only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>description</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>description</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>12</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>12</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>2000</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>2000</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### traversedPath
+### <a name="traversedPath">traversedPath</a>
 
 For internal use only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Traversed Path</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>1250</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>traversedpath</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Traversed Path</td></tr>
+<tr><td>description</td><td>For internal use only.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>1250</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>traversedpath</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Traversed Path</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Traversed Path</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>For internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>traversedpath</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>traversedpath</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>15</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>15</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>1250</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>1250</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### processId
+### <a name="processId">processId</a>
 
 Unique identifier of the Process.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Process</td></tr><tr><td>description</td><td>Unique identifier of the Process.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>processid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Process</td></tr>
+<tr><td>description</td><td>Unique identifier of the Process.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>processid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### is.dataFormat.guid
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Process</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Process</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Process.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the Process.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>processid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>processid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>37</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>37</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### stageId
+### <a name="stageId">stageId</a>
 
 Unique identifier of the Stage.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Process Stage</td></tr><tr><td>description</td><td>Unique identifier of the Stage.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stageid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Process Stage</td></tr>
+<tr><td>description</td><td>Unique identifier of the Stage.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>stageid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
 
-
 ##### is.dataFormat.guid
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Process Stage</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Process Stage</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the Stage.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the Stage.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>stageid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>stageid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>48</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>48</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### stateCode
+### <a name="stateCode">stateCode</a>
 
 Shows whether the social activity completed. This field is read-only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the social activity completed. This field is read-only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Status</td></tr>
+<tr><td>description</td><td>Shows whether the social activity completed. This field is read-only.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>statecode</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Open",
@@ -3453,31 +4391,41 @@ Shows whether the social activity completed. This field is read-only.
     "attributeValue": "2",
     "displayOrder": "2"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr>
+<tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr>
+<tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### means.entityState
 
 the attribute represents the current state of the entity.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"SocialActivity_/hasAttributes/stateCode"</td><td>attribute</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>attribute</td><td>"SocialActivity_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr>
+</table>
 
 Definition:
 
@@ -3489,81 +4437,106 @@ Definition:
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Status</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows whether the social activity completed. This field is read-only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows whether the social activity completed. This field is read-only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>statecode</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>statecode</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>49</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>49</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### stateCode_display
+### <a name="stateCode_display">stateCode_display</a>
 
-undefined
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>stateCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>stateCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### statusCode
+### <a name="statusCode">statusCode</a>
 
 Shows whether the social activity is completed, failed, or processing. This field is read-only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Shows whether the social activity is completed, failed, or processing. This field is read-only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Status Reason</td></tr>
+<tr><td>description</td><td>Shows whether the social activity is completed, failed, or processing. This field is read-only.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>statuscode</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Completed",
@@ -3599,186 +4572,232 @@ Shows whether the social activity is completed, failed, or processing. This fiel
     "displayOrder": "4",
     "correlatedValue": "2"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Completed</td><td>1</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Processing</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>4</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>correlatedValue</th></tr>
+<tr><td>en</td><td>Completed</td><td>1</td><td>0</td><td>1</td></tr>
+<tr><td>en</td><td>Failed</td><td>2</td><td>1</td><td>1</td></tr>
+<tr><td>en</td><td>Processing</td><td>3</td><td>2</td><td>1</td></tr>
+<tr><td>en</td><td>Open</td><td>4</td><td>3</td><td>0</td></tr>
+<tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.correlatedWith
 
 the attribute value is correlated with the sourceAttribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>stateCode</td><td>attributeName</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>sourceAttribute</td><td>stateCode</td><td>attributeName</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Status Reason</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows whether the social activity is completed, failed, or processing. This field is read-only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows whether the social activity is completed, failed, or processing. This field is read-only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>statuscode</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>statuscode</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>50</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>50</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### statusCode_display
+### <a name="statusCode_display">statusCode_display</a>
 
-undefined
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>statusCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>statusCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### transactionCurrencyId
+### <a name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Choose the local currency for the record to make sure budgets are reported in the correct currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Currency</td></tr>
+<tr><td>description</td><td>Choose the local currency for the record to make sure budgets are reported in the correct currency.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>transactioncurrencyid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Currency</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the local currency for the record to make sure budgets are reported in the correct currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Choose the local currency for the record to make sure budgets are reported in the correct currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>transactioncurrencyid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>transactioncurrencyid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>60</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>60</td><td>integer</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -3847,345 +4866,469 @@ Definition:
 }
 ```
 
-### exchangeRate
+</details>
+
+### <a name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Exchange Rate</td></tr>
+<tr><td>description</td><td>Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.</td></tr>
+<tr><td>dataFormat</td><td>Decimal</td></tr>
+<tr><td>maximumValue</td><td>100000000000</td></tr>
+<tr><td>minimumValue</td><td>1E-10</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>exchangerate</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange Rate</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Exchange Rate</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>exchangerate</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>exchangerate</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>62</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>62</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>1E-10</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>1E-10</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### sentimentValue
+### <a name="sentimentValue">sentimentValue</a>
 
 Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sentiment Value</td></tr><tr><td>description</td><td>Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Double</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sentimentvalue</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Sentiment Value</td></tr>
+<tr><td>description</td><td>Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.</td></tr>
+<tr><td>dataFormat</td><td>Double</td></tr>
+<tr><td>maximumValue</td><td>100000000000</td></tr>
+<tr><td>minimumValue</td><td>-100000000000</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>sentimentvalue</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.floatingPoint
 
-
 ##### is.dataFormat.big
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sentiment Value</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Sentiment Value</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>sentimentvalue</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>sentimentvalue</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>67</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>67</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-100000000000</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-100000000000</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>100000000000</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### postedOn
+### <a name="postedOn">postedOn</a>
 
 For internal use only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>postedon</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Created On</td></tr>
+<tr><td>description</td><td>For internal use only.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>postedon</td></tr>
+</table>
 
 #### Traits
+
+<details>
+<summary>Traits details.</summary>
 
 ##### is.dataFormat.date
 
-
 ##### means.measurement.date
-
 
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created On</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Created On</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>For internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>postedon</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>postedon</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>69</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>69</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### postURL
+### <a name="postURL">postURL</a>
 
 Shows the URL of the post.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post URL</td></tr><tr><td>description</td><td>Shows the URL of the post.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>posturl</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Post URL</td></tr>
+<tr><td>description</td><td>Shows the URL of the post.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>200</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>posturl</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.URL
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post URL</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Post URL</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows the URL of the post.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows the URL of the post.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>posturl</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>posturl</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>71</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>71</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>200</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>200</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### inResponseTo
+### <a name="inResponseTo">inResponseTo</a>
 
 Unique identifier for the responses to a post. For internal use only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In Response To</td></tr><tr><td>description</td><td>Unique identifier for the responses to a post. For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>160</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inresponseto</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>In Response To</td></tr>
+<tr><td>description</td><td>Unique identifier for the responses to a post. For internal use only.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>160</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>inresponseto</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>In Response To</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>In Response To</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the responses to a post. For internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier for the responses to a post. For internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>inresponseto</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>inresponseto</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>72</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>72</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>160</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>160</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### postMessageType
+### <a name="postMessageType">postMessageType</a>
 
 Shows if the social post originated as a private or public message.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Received As</td></tr><tr><td>description</td><td>Shows if the social post originated as a private or public message.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>postmessagetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td>[
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Received As</td></tr>
+<tr><td>description</td><td>Shows if the social post originated as a private or public message.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>postmessagetype</td></tr>
+<tr><td>valueConstrainedToList</td><td>true</td></tr>
+<tr><td>defaultValue</td><td><pre>[
   {
     "languageTag": "en",
     "displayText": "Public Message",
@@ -4198,315 +5341,401 @@ Shows if the social post originated as a private or public message.
     "attributeValue": "1",
     "displayOrder": "1"
   }
-]</td></tr></table>
+]</pre></td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### does.haveDefault
 
 An attribute has a default value
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Public Message</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Private Message</td><td>1</td><td>1</td></tr></table>
-</td><td>any</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr>
+<tr><td>en</td><td>Public Message</td><td>0</td><td>0</td></tr>
+<tr><td>en</td><td>Private Message</td><td>1</td><td>1</td></tr>
+</table>
 
+</td><td>any</td><td></td></tr>
+</table>
 
 ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Received As</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Received As</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows if the social post originated as a private or public message.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows if the social post originated as a private or public message.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>postmessagetype</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>postmessagetype</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>73</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>73</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### postMessageType_display
+### <a name="postMessageType_display">postMessageType_display</a>
 
-undefined
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.reference.displayText
 
-
 ##### is.readOnly
-
 
 ##### is.addedInSupportOf
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>postMessageType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>inSupportOf</td><td>postMessageType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
+</table>
 
+</details>
 
-### postId
+### <a name="postId">postId</a>
 
 Unique identifier of the post. For internal use only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post ID</td></tr><tr><td>description</td><td>Unique identifier of the post. For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>160</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>postid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Post ID</td></tr>
+<tr><td>description</td><td>Unique identifier of the post. For internal use only.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>160</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>postid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Post ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the post. For internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the post. For internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>postid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>postid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>74</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>74</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>160</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>160</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### threadId
+### <a name="threadId">threadId</a>
 
 Unique identifier of the social conversation. For internal use only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Thread ID</td></tr><tr><td>description</td><td>Unique identifier of the social conversation. For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>160</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>threadid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Thread ID</td></tr>
+<tr><td>description</td><td>Unique identifier of the social conversation. For internal use only.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>160</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>threadid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Thread ID</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Thread ID</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the social conversation. For internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Unique identifier of the social conversation. For internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>threadid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>threadid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>75</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>75</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>160</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>160</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### SLAInvokedId
+### <a name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this Social Activity. This field is for internal use only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last SLA applied</td></tr><tr><td>description</td><td>Last SLA that was applied to this Social Activity. This field is for internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>slainvokedid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Last SLA applied</td></tr>
+<tr><td>description</td><td>Last SLA that was applied to this Social Activity. This field is for internal use only.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>slainvokedid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last SLA applied</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Last SLA applied</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last SLA that was applied to this Social Activity. This field is for internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Last SLA that was applied to this Social Activity. This field is for internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>slainvokedid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>slainvokedid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>76</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>76</td><td>integer</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -4575,87 +5804,108 @@ Definition:
 }
 ```
 
-### postFromProfileId
+</details>
+
+### <a name="postFromProfileId">postFromProfileId</a>
 
 Shows the author of the post on the corresponding social channel.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Posted By</td></tr><tr><td>description</td><td>Shows the author of the post on the corresponding social channel.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>postfromprofileid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Posted By</td></tr>
+<tr><td>description</td><td>Shows the author of the post on the corresponding social channel.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>postfromprofileid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Posted By</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Posted By</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows the author of the post on the corresponding social channel.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows the author of the post on the corresponding social channel.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>postfromprofileid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>postfromprofileid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>84</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>84</td><td>integer</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -4724,507 +5974,636 @@ Definition:
 }
 ```
 
-### postToProfileId
+</details>
+
+### <a name="postToProfileId">postToProfileId</a>
 
 Shows the recipients of the social post.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Posted To</td></tr><tr><td>description</td><td>Shows the recipients of the social post.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>posttoprofileid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Posted To</td></tr>
+<tr><td>description</td><td>Shows the recipients of the social post.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>200</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>posttoprofileid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Posted To</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Posted To</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows the recipients of the social post.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows the recipients of the social post.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>posttoprofileid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>posttoprofileid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>85</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>85</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>200</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>200</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### postAuthorAccountType
+### <a name="postAuthorAccountType">postAuthorAccountType</a>
 
 The type of post author account, either Account or Contact.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post Author Account Type</td></tr><tr><td>description</td><td>The type of post author account, either Account or Contact.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>postauthoraccounttype</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Post Author Account Type</td></tr>
+<tr><td>description</td><td>The type of post author account, either Account or Contact.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+<tr><td>sourceName</td><td>postauthoraccounttype</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.entityName
 
-
 ##### is.readOnly
-
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post Author Account Type</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Post Author Account Type</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The type of post author account, either Account or Contact.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>The type of post author account, either Account or Contact.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>postauthoraccounttype</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>postauthoraccounttype</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.name
 
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
-
 ##### is.CDS.customer
 
 contains an Account or Contact ID
 
+</details>
 
-### postAuthorAccount
+### <a name="postAuthorAccount">postAuthorAccount</a>
 
 Shows the parent account of the author of the post.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post Author Account</td></tr><tr><td>description</td><td>Shows the parent account of the author of the post.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>postauthoraccount</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Post Author Account</td></tr>
+<tr><td>description</td><td>Shows the parent account of the author of the post.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>postauthoraccount</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post Author Account</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Post Author Account</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows the parent account of the author of the post.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows the parent account of the author of the post.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>postauthoraccount</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>postauthoraccount</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>96</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>96</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
-
 ##### is.CDS.customer
 
 contains an Account or Contact ID
 
+</details>
 
-### postAuthorType
+### <a name="postAuthorType">postAuthorType</a>
 
 The type of post author, either Account or Contact.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post Author Type</td></tr><tr><td>description</td><td>The type of post author, either Account or Contact.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>false</td></tr><tr><td>sourceName</td><td>postauthortype</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Post Author Type</td></tr>
+<tr><td>description</td><td>The type of post author, either Account or Contact.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>isReadOnly</td><td>true</td></tr>
+<tr><td>sourceName</td><td>postauthortype</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### means.entityName
 
-
 ##### is.readOnly
-
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post Author Type</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Post Author Type</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The type of post author, either Account or Contact.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>The type of post author, either Account or Contact.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>postauthortype</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>postauthortype</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.name
 
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
-
 ##### is.CDS.customer
 
 contains an Account or Contact ID
 
+</details>
 
-### postAuthor
+### <a name="postAuthor">postAuthor</a>
 
 Shows the contact or account that authored the post.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post Author</td></tr><tr><td>description</td><td>Shows the contact or account that authored the post.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>postauthor</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Post Author</td></tr>
+<tr><td>description</td><td>Shows the contact or account that authored the post.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>postauthor</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post Author</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Post Author</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows the contact or account that authored the post.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows the contact or account that authored the post.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>postauthor</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>postauthor</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>101</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>101</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
-
 ##### is.CDS.customer
 
 contains an Account or Contact ID
 
+</details>
 
-### socialAdditionalParams
+### <a name="socialAdditionalParams">socialAdditionalParams</a>
 
 For internal use only.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Additional Parameters</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>maximumLength</td><td>8192</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>socialadditionalparams</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Social Additional Parameters</td></tr>
+<tr><td>description</td><td>For internal use only.</td></tr>
+<tr><td>dataFormat</td><td>String</td></tr>
+<tr><td>maximumLength</td><td>8192</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>socialadditionalparams</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Social Additional Parameters</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Social Additional Parameters</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>For internal use only.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>socialadditionalparams</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>socialadditionalparams</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>103</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>103</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>8192</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>maximumLength</td><td>8192</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
-### SLAId
+### <a name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the Social Activity record.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SLA</td></tr><tr><td>description</td><td>Choose the service level agreement (SLA) that you want to apply to the Social Activity record.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Guid</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>slaid</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>SLA</td></tr>
+<tr><td>description</td><td>Choose the service level agreement (SLA) that you want to apply to the Social Activity record.</td></tr>
+<tr><td>dataFormat</td><td>Guid</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>slaid</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.character
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.character
 
 ##### is.dataFormat.big
 
-
 ##### is.dataFormat.array
-
 
 ##### is.dataFormat.guid
 
-
 ##### means.identity.entityId
-
 
 ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>style</td><td>single</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>style</td><td>single</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>SLA</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>SLA</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Choose the service level agreement (SLA) that you want to apply to the Social Activity record.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Choose the service level agreement (SLA) that you want to apply to the Social Activity record.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>slaid</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>slaid</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>125</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>125</td><td>integer</td><td></td></tr>
+</table>
 
 ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>addedAttribute</td><td>{
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>addedAttribute</td><td>{
   "relationship": "hasA",
-  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr></table>
+  "dataType": "entityI...(see Definition below)</td><td>attribute</td><td>an attribute definition should be passed for this argument. the attribute will be added to the entity instead of the default one.</td></tr>
+</table>
 
 Definition:
 
@@ -5293,129 +6672,176 @@ Definition:
 }
 ```
 
-### onHoldTime
+</details>
+
+### <a name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>On Hold Time (Minutes)</td></tr><tr><td>description</td><td>Shows how long, in minutes, that the record was on hold.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>onholdtime</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>On Hold Time (Minutes)</td></tr>
+<tr><td>description</td><td>Shows how long, in minutes, that the record was on hold.</td></tr>
+<tr><td>dataFormat</td><td>Int32</td></tr>
+<tr><td>maximumValue</td><td>2147483647</td></tr>
+<tr><td>minimumValue</td><td>-2147483648</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>onholdtime</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.integer
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.integer
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>On Hold Time (Minutes)</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>On Hold Time (Minutes)</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows how long, in minutes, that the record was on hold.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Shows how long, in minutes, that the record was on hold.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>onholdtime</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>onholdtime</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>126</td><td>integer</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>126</td><td>integer</td><td></td></tr>
+</table>
 
 ##### is.constrained
 
 maximum length or value constraints
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td>undefined</td></tr><tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>minimumValue</td><td>-2147483648</td><td>decimal</td><td></td></tr>
+<tr><td>maximumValue</td><td>2147483647</td><td>decimal</td><td></td></tr>
+</table>
 
+</details>
 
-### lastOnHoldTime
+### <a name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.
 
+First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivity
+
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last On Hold Time</td></tr><tr><td>description</td><td>Contains the date and time stamp of the last on hold time.</td></tr><tr><td>isPrimaryKey</td><td>false</td></tr><tr><td>dataFormat</td><td>DateTimeOffset</td></tr><tr><td>isReadOnly</td><td>false</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>lastonholdtime</td></tr><tr><td>valueConstrainedToList</td><td>false</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr>
+<tr><td>displayName</td><td>Last On Hold Time</td></tr>
+<tr><td>description</td><td>Contains the date and time stamp of the last on hold time.</td></tr>
+<tr><td>dataFormat</td><td>DateTimeOffset</td></tr>
+<tr><td>isNullable</td><td>true</td></tr>
+<tr><td>sourceName</td><td>lastonholdtime</td></tr>
+</table>
 
 #### Traits
 
-##### is.dataFormat.date
+<details>
+<summary>Traits details.</summary>
 
+##### is.dataFormat.date
 
 ##### means.measurement.date
 
-
 ##### is.dataFormat.time
 
-
 ##### means.measurement.time
-
 
 ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
+</table>
 
 ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Last On Hold Time</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Last On Hold Time</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contains the date and time stamp of the last on hold time.</td></tr></table>
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
+<tr><td>en</td><td>Contains the date and time stamp of the last on hold time.</td></tr>
+</table>
 
+</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
+</table>
 
 ##### is.nullable
 
 The attribute value may be set to NULL.
 
-
 ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>name</td><td>lastonholdtime</td><td>string</td><td>undefined</td></tr></table>
-
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>name</td><td>lastonholdtime</td><td>string</td><td></td></tr>
+</table>
 
 ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
-<table><tr><th>Parameter</th><th>Value</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>127</td><td>integer</td><td>undefined</td></tr></table>
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
+<tr><td>ordinal</td><td>127</td><td>integer</td><td></td></tr>
+</table>
 
+</details>
 
