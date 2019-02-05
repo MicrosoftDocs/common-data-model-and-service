@@ -152,21 +152,21 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the createdOn attribute are listed below.</summary>
 
-##### is.dataFormat.date
+- ##### is.dataFormat.date
 
-##### means.measurement.date
+- ##### means.measurement.date
 
-##### is.dataFormat.time
+- ##### is.dataFormat.time
 
-##### means.measurement.time
+- ##### means.measurement.time
 
-##### means.measurement.date.creation
+- ##### means.measurement.date.creation
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -174,7 +174,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -186,7 +186,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -198,11 +198,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -233,25 +233,25 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the createdBy attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### means.userId
+- ##### means.userId
 
 contains a userId
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -259,7 +259,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -267,7 +267,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -279,7 +279,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -291,11 +291,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -303,7 +303,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>createdby</td><td>string</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -403,21 +403,21 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
-##### is.dataFormat.date
+- ##### is.dataFormat.date
 
-##### means.measurement.date
+- ##### means.measurement.date
 
-##### is.dataFormat.time
+- ##### is.dataFormat.time
 
-##### means.measurement.time
+- ##### means.measurement.time
 
-##### means.measurement.date.modify
+- ##### means.measurement.date.modify
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -425,7 +425,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -437,7 +437,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -449,11 +449,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -484,25 +484,25 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### means.userId
+- ##### means.userId
 
 contains a userId
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -510,7 +510,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -518,7 +518,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -530,7 +530,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -542,11 +542,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -554,7 +554,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>modifiedby</td><td>string</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -654,25 +654,25 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### means.userId
+- ##### means.userId
 
 contains a userId
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -680,7 +680,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -688,7 +688,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -700,7 +700,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -712,11 +712,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -724,7 +724,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>createdonbehalfby</td><td>string</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -824,25 +824,25 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### means.userId
+- ##### means.userId
 
 contains a userId
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -850,7 +850,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -858,7 +858,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -870,7 +870,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -882,11 +882,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -894,7 +894,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>modifiedonbehalfby</td><td>string</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -994,21 +994,21 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
-##### is.dataFormat.date
+- ##### is.dataFormat.date
 
-##### means.measurement.date
+- ##### means.measurement.date
 
-##### is.dataFormat.time
+- ##### is.dataFormat.time
 
-##### means.measurement.time
+- ##### means.measurement.time
 
-##### means.measurement.date.creation
+- ##### means.measurement.date.creation
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -1016,7 +1016,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -1028,7 +1028,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -1040,11 +1040,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -1077,9 +1077,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -1087,7 +1087,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -1099,7 +1099,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -1111,11 +1111,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -1123,7 +1123,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>importsequencenumber</td><td>string</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -1155,17 +1155,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.entityName
+- ##### means.entityName
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -1173,7 +1173,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -1185,7 +1185,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -1197,7 +1197,7 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -1205,11 +1205,11 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>owneridtype</td><td>string</td><td></td></tr>
 </table>
 
-##### is.linkedEntity.name
+- ##### is.linkedEntity.name
 
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
-##### is.CDS.owner
+- ##### is.CDS.owner
 
 contains a User or Team ID
 
@@ -1235,21 +1235,21 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the ownerId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -1257,7 +1257,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -1265,7 +1265,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -1277,7 +1277,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -1289,7 +1289,7 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -1297,11 +1297,11 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>ownerid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.linkedEntity.identifier
+- ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
-##### is.CDS.owner
+- ##### is.CDS.owner
 
 contains a User or Team ID
 
@@ -1328,21 +1328,21 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -1350,7 +1350,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -1358,7 +1358,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -1370,7 +1370,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -1382,11 +1382,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -1394,7 +1394,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>owningbusinessunit</td><td>string</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -1494,25 +1494,25 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the owningUser attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### means.userId
+- ##### means.userId
 
 contains a userId
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -1520,7 +1520,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -1528,7 +1528,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -1540,7 +1540,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -1552,11 +1552,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -1564,7 +1564,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>owninguser</td><td>string</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -1664,21 +1664,21 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the owningTeam attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -1686,7 +1686,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -1694,7 +1694,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -1706,7 +1706,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -1718,11 +1718,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -1730,7 +1730,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>owningteam</td><td>string</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -1832,13 +1832,13 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -1846,7 +1846,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -1858,7 +1858,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -1870,11 +1870,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -1882,7 +1882,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>timezoneruleversionnumber</td><td>string</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -1916,13 +1916,13 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -1930,7 +1930,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -1942,7 +1942,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -1954,11 +1954,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -1966,7 +1966,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>utcconversiontimezonecode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -1998,17 +1998,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the versionNumber attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### means.measurement.version
+- ##### means.measurement.version
 
-##### is.CDS.standard
+- ##### is.CDS.standard
 
 identifies attributes that are part of the cdsStandard base set.
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2016,7 +2016,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2028,7 +2028,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2040,11 +2040,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2075,17 +2075,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the incidentId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.identifiedBy
+- ##### is.identifiedBy
 
 names a specifc identity attribute to use with an entity
 
@@ -2099,7 +2099,7 @@ Definition:
 "Case_/hasAttributes/incidentId"
 ```
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2107,7 +2107,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2119,7 +2119,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2131,7 +2131,7 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2139,7 +2139,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>incidentid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -2147,7 +2147,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10000</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -2238,15 +2238,15 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the emailAddress attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.identity.service.email
+- ##### means.identity.service.email
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2254,7 +2254,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2266,7 +2266,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2278,11 +2278,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2290,7 +2290,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>emailaddress</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -2298,7 +2298,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10024</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -2330,13 +2330,13 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the title attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2344,7 +2344,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>required</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2356,7 +2356,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2368,11 +2368,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2380,7 +2380,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>title</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -2388,7 +2388,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10029</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -2419,15 +2419,15 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the processId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2435,7 +2435,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2447,7 +2447,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2459,11 +2459,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2471,7 +2471,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>processid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -2502,15 +2502,15 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the stageId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2518,7 +2518,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2530,7 +2530,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2542,11 +2542,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2554,7 +2554,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>stageid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -2586,13 +2586,13 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the traversedPath attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2600,7 +2600,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2612,7 +2612,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2624,11 +2624,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2636,7 +2636,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>traversedpath</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -2644,7 +2644,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10032</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -2675,9 +2675,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the activitiesComplete attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2685,7 +2685,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2697,7 +2697,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2709,11 +2709,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2721,7 +2721,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>activitiescomplete</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -2754,9 +2754,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the actualServiceUnits attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2764,7 +2764,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2776,7 +2776,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2788,11 +2788,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2800,7 +2800,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>actualserviceunits</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -2808,7 +2808,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10035</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -2842,9 +2842,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the billedServiceUnits attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2852,7 +2852,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2864,7 +2864,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2876,11 +2876,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2888,7 +2888,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>billedserviceunits</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -2896,7 +2896,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10036</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -2928,9 +2928,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the blockedProfile attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -2938,7 +2938,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -2950,7 +2950,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -2962,11 +2962,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -2974,7 +2974,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>blockedprofile</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -3038,9 +3038,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the caseOriginCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -3056,11 +3056,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -3068,7 +3068,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -3080,7 +3080,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -3092,11 +3092,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -3104,7 +3104,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>caseorigincode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -3130,17 +3130,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the caseOriginCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>caseOriginCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -3190,9 +3190,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the caseTypeCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -3206,11 +3206,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -3218,7 +3218,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -3230,7 +3230,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -3242,11 +3242,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -3254,7 +3254,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>casetypecode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -3280,17 +3280,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the caseTypeCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>caseTypeCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -3319,9 +3319,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the checkEmail attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -3329,7 +3329,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -3341,7 +3341,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -3353,11 +3353,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -3365,7 +3365,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>checkemail</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -3396,17 +3396,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the contractDetailId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -3414,7 +3414,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -3422,7 +3422,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -3434,7 +3434,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -3446,11 +3446,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -3458,7 +3458,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>contractdetailid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -3466,7 +3466,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10045</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -3566,17 +3566,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the contractId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -3584,7 +3584,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -3592,7 +3592,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -3604,7 +3604,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -3616,11 +3616,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -3628,7 +3628,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>contractid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -3636,7 +3636,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10046</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -3757,9 +3757,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the contractServiceLevelCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -3773,11 +3773,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -3785,7 +3785,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -3797,7 +3797,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -3809,11 +3809,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -3821,7 +3821,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>contractservicelevelcode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -3847,17 +3847,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the contractServiceLevelCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>contractServiceLevelCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -3886,17 +3886,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the customerIdType attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.entityName
+- ##### means.entityName
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -3908,7 +3908,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -3920,7 +3920,7 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -3928,11 +3928,11 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>customeridtype</td><td>string</td><td></td></tr>
 </table>
 
-##### is.linkedEntity.name
+- ##### is.linkedEntity.name
 
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
-##### is.CDS.customer
+- ##### is.CDS.customer
 
 contains an Account or Contact ID
 
@@ -3959,17 +3959,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the customerId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -3977,7 +3977,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -3985,7 +3985,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -3997,7 +3997,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -4009,11 +4009,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -4021,11 +4021,11 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>customerid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.linkedEntity.identifier
+- ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
-##### is.CDS.customer
+- ##### is.CDS.customer
 
 contains an Account or Contact ID
 
@@ -4085,9 +4085,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the customerSatisfactionCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -4103,11 +4103,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -4115,7 +4115,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -4127,7 +4127,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -4139,11 +4139,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -4151,7 +4151,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>customersatisfactioncode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -4177,17 +4177,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the customerSatisfactionCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>customerSatisfactionCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -4217,13 +4217,13 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the description attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -4231,7 +4231,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -4243,7 +4243,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -4255,11 +4255,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -4267,7 +4267,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>description</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -4275,7 +4275,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10052</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -4306,17 +4306,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the entitlementId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -4324,7 +4324,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -4332,7 +4332,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -4344,7 +4344,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -4356,11 +4356,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -4368,7 +4368,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>entitlementid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -4376,7 +4376,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10053</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -4476,17 +4476,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the SLAId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -4494,7 +4494,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -4502,7 +4502,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -4514,7 +4514,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -4526,11 +4526,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -4538,7 +4538,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>slaid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -4546,7 +4546,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10054</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -4673,9 +4673,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the firstResponseSLAStatus attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -4690,11 +4690,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -4702,7 +4702,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -4714,7 +4714,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -4726,11 +4726,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -4738,7 +4738,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>firstresponseslastatus</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -4764,17 +4764,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the firstResponseSLAStatus_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>firstResponseSLAStatus</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -4803,15 +4803,15 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the followupBy attribute are listed below.</summary>
 
-##### is.dataFormat.date
+- ##### is.dataFormat.date
 
-##### means.measurement.date
+- ##### means.measurement.date
 
-##### is.dataFormat.time
+- ##### is.dataFormat.time
 
-##### means.measurement.time
+- ##### means.measurement.time
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -4819,7 +4819,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -4831,7 +4831,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -4843,11 +4843,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -4855,7 +4855,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>followupby</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -4886,9 +4886,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the followUpTaskCreated attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -4896,7 +4896,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -4908,7 +4908,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -4920,11 +4920,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -4932,7 +4932,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>followuptaskcreated</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -4972,9 +4972,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the incidentStageCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -4986,11 +4986,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -4998,7 +4998,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -5010,7 +5010,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -5022,11 +5022,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -5034,7 +5034,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>incidentstagecode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -5060,17 +5060,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the incidentStageCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>incidentStageCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -5099,9 +5099,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the isDecrementing attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -5109,7 +5109,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -5121,7 +5121,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -5133,11 +5133,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -5145,7 +5145,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>isdecrementing</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -5176,17 +5176,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the kbArticleId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -5194,7 +5194,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -5202,7 +5202,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -5214,7 +5214,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -5226,11 +5226,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -5238,7 +5238,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>kbarticleid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -5246,7 +5246,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10064</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -5348,9 +5348,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the messageTypeCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -5361,11 +5361,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -5373,7 +5373,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -5385,7 +5385,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -5397,11 +5397,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -5409,7 +5409,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>messagetypecode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -5435,17 +5435,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the messageTypeCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>messageTypeCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -5495,9 +5495,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the priorityCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -5511,11 +5511,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -5523,7 +5523,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -5535,7 +5535,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -5547,11 +5547,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -5559,7 +5559,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>prioritycode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -5585,17 +5585,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>priorityCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -5624,17 +5624,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the productId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -5642,7 +5642,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -5650,7 +5650,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -5662,7 +5662,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -5674,11 +5674,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -5686,7 +5686,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>productid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -5694,7 +5694,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10069</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -5795,13 +5795,13 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the productSerialNumber attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -5809,7 +5809,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -5821,7 +5821,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -5833,11 +5833,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -5845,7 +5845,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>productserialnumber</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -5853,7 +5853,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10070</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -5884,17 +5884,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the existingCase attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -5902,7 +5902,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -5910,7 +5910,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -5922,7 +5922,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -5934,11 +5934,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -5946,7 +5946,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>existingcase</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -5954,7 +5954,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10071</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -6081,9 +6081,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the resolveBySLAStatus attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -6098,11 +6098,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -6110,7 +6110,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -6122,7 +6122,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -6134,11 +6134,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -6146,7 +6146,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>resolvebyslastatus</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -6172,17 +6172,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the resolveBySLAStatus_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>resolveBySLAStatus</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -6211,17 +6211,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the responsibleContactId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -6229,7 +6229,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -6237,7 +6237,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -6249,7 +6249,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -6261,11 +6261,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -6273,7 +6273,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>responsiblecontactid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -6281,7 +6281,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10074</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -6383,11 +6383,11 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the sentimentValue attribute are listed below.</summary>
 
-##### is.dataFormat.floatingPoint
+- ##### is.dataFormat.floatingPoint
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -6395,7 +6395,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -6407,7 +6407,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -6419,11 +6419,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -6431,7 +6431,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>sentimentvalue</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -6439,7 +6439,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10075</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -6473,11 +6473,11 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the influenceScore attribute are listed below.</summary>
 
-##### is.dataFormat.floatingPoint
+- ##### is.dataFormat.floatingPoint
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -6485,7 +6485,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -6497,7 +6497,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -6509,11 +6509,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -6521,7 +6521,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>influencescore</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -6529,7 +6529,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10076</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -6582,9 +6582,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the serviceStage attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -6598,11 +6598,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -6610,7 +6610,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -6622,7 +6622,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -6634,11 +6634,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -6646,7 +6646,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>servicestage</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -6672,17 +6672,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the serviceStage_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>serviceStage</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -6720,9 +6720,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the severityCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -6734,11 +6734,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -6746,7 +6746,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -6758,7 +6758,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -6770,11 +6770,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -6782,7 +6782,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>severitycode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -6808,17 +6808,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the severityCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>severityCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -6847,17 +6847,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -6865,7 +6865,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -6873,7 +6873,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -6885,7 +6885,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -6897,11 +6897,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -6909,7 +6909,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>slainvokedid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -6917,7 +6917,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10081</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -7017,17 +7017,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the socialProfileId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -7035,7 +7035,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -7043,7 +7043,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -7055,7 +7055,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -7067,11 +7067,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -7079,7 +7079,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>socialprofileid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -7087,7 +7087,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10082</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -7207,9 +7207,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the stateCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -7223,11 +7223,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### means.entityState
+- ##### means.entityState
 
 the attribute represents the current state of the entity.
 
@@ -7241,7 +7241,7 @@ Definition:
 "Case_/hasAttributes/stateCode"
 ```
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -7249,7 +7249,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -7261,7 +7261,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -7273,7 +7273,7 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -7281,7 +7281,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>statecode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -7307,17 +7307,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>stateCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -7405,9 +7405,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the statusCode attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -7426,11 +7426,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.correlatedWith
+- ##### is.correlatedWith
 
 the attribute value is correlated with the sourceAttribute
 
@@ -7438,7 +7438,7 @@ the attribute value is correlated with the sourceAttribute
 <tr><td>sourceAttribute</td><td>stateCode</td><td>attributeName</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -7446,7 +7446,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -7458,7 +7458,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -7470,11 +7470,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -7482,7 +7482,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>statuscode</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -7508,17 +7508,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>statusCode</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
@@ -7547,17 +7547,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the subjectId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -7565,7 +7565,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>subject</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -7573,7 +7573,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -7585,7 +7585,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -7597,11 +7597,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -7609,7 +7609,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>subjectid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -7641,13 +7641,13 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the ticketNumber attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -7655,7 +7655,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -7667,7 +7667,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -7679,11 +7679,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -7691,7 +7691,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>ticketnumber</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -7699,7 +7699,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10088</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -7730,17 +7730,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the masterId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -7748,7 +7748,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -7756,7 +7756,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -7768,7 +7768,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -7780,11 +7780,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -7792,7 +7792,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>masterid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -7800,7 +7800,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10089</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -7900,17 +7900,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the parentCaseId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -7918,7 +7918,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -7926,7 +7926,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -7938,7 +7938,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -7950,11 +7950,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -7962,7 +7962,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>parentcaseid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -7970,7 +7970,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10090</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -8072,9 +8072,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the numberOfChildIncidents attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8082,7 +8082,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8094,7 +8094,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8106,11 +8106,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8118,7 +8118,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>numberofchildincidents</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8126,7 +8126,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10091</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -8158,9 +8158,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the merged attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8168,7 +8168,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8180,7 +8180,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8192,11 +8192,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8204,7 +8204,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>merged</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8235,9 +8235,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the routeCase attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8245,7 +8245,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8257,7 +8257,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8269,11 +8269,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8281,7 +8281,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>routecase</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8312,15 +8312,15 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the resolveBy attribute are listed below.</summary>
 
-##### is.dataFormat.date
+- ##### is.dataFormat.date
 
-##### means.measurement.date
+- ##### means.measurement.date
 
-##### is.dataFormat.time
+- ##### is.dataFormat.time
 
-##### means.measurement.time
+- ##### means.measurement.time
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8328,7 +8328,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8340,7 +8340,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8352,11 +8352,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8364,7 +8364,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>resolveby</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8395,15 +8395,15 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the responseBy attribute are listed below.</summary>
 
-##### is.dataFormat.date
+- ##### is.dataFormat.date
 
-##### means.measurement.date
+- ##### means.measurement.date
 
-##### is.dataFormat.time
+- ##### is.dataFormat.time
 
-##### means.measurement.time
+- ##### means.measurement.time
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8411,7 +8411,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8423,7 +8423,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8435,11 +8435,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8447,7 +8447,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>responseby</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8478,9 +8478,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the customerContacted attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8488,7 +8488,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8500,7 +8500,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8512,11 +8512,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8524,7 +8524,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>customercontacted</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8555,9 +8555,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the firstResponseSent attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8565,7 +8565,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8577,7 +8577,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8589,11 +8589,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8601,7 +8601,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>firstresponsesent</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8632,9 +8632,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the isEscalated attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8642,7 +8642,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8654,7 +8654,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8666,11 +8666,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8678,7 +8678,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>isescalated</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8709,15 +8709,15 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the escalatedOn attribute are listed below.</summary>
 
-##### is.dataFormat.date
+- ##### is.dataFormat.date
 
-##### means.measurement.date
+- ##### means.measurement.date
 
-##### is.dataFormat.time
+- ##### is.dataFormat.time
 
-##### means.measurement.time
+- ##### means.measurement.time
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8725,7 +8725,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8737,7 +8737,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8749,11 +8749,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8761,7 +8761,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>escalatedon</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8792,17 +8792,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the primaryContactId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -8810,7 +8810,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8818,7 +8818,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8830,7 +8830,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8842,11 +8842,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -8854,7 +8854,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>primarycontactid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -8862,7 +8862,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10105</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -8964,9 +8964,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -8974,7 +8974,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -8986,7 +8986,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -8998,11 +8998,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9010,7 +9010,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>onholdtime</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9018,7 +9018,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10106</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -9050,15 +9050,15 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
-##### is.dataFormat.date
+- ##### is.dataFormat.date
 
-##### means.measurement.date
+- ##### means.measurement.date
 
-##### is.dataFormat.time
+- ##### is.dataFormat.time
 
-##### means.measurement.time
+- ##### means.measurement.time
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -9066,7 +9066,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -9078,7 +9078,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -9090,11 +9090,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9102,7 +9102,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>lastonholdtime</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9133,17 +9133,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the resolveByKPIId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -9151,7 +9151,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -9159,7 +9159,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -9171,7 +9171,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -9183,11 +9183,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9195,7 +9195,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>resolvebykpiid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9203,7 +9203,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10108</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -9303,17 +9303,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the firstResponseByKPIId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -9321,7 +9321,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -9329,7 +9329,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -9341,7 +9341,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -9353,11 +9353,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9365,7 +9365,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>firstresponsebykpiid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9373,7 +9373,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10109</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -9473,9 +9473,9 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the decrementEntitlementTerm attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -9483,7 +9483,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -9495,7 +9495,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -9507,11 +9507,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9519,7 +9519,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>decremententitlementterm</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9546,15 +9546,15 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the entityImageId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -9562,11 +9562,11 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9574,7 +9574,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>entityimageid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9605,17 +9605,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the accountId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -9623,7 +9623,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -9631,7 +9631,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -9643,7 +9643,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -9655,11 +9655,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9667,7 +9667,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>accountid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9698,17 +9698,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the contactId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -9716,7 +9716,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -9724,7 +9724,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -9736,7 +9736,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -9748,11 +9748,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9760,7 +9760,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>contactid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9793,11 +9793,11 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
-##### is.dataFormat.numeric.shaped
+- ##### is.dataFormat.numeric.shaped
 
 for setting the exact precision and scale of numeric values
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -9805,7 +9805,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -9817,7 +9817,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -9829,11 +9829,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9841,7 +9841,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>exchangerate</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9849,7 +9849,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10125</td><td>integer</td><td></td></tr>
 </table>
 
-##### is.constrained
+- ##### is.constrained
 
 maximum length or value constraints
 
@@ -9881,17 +9881,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -9899,7 +9899,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -9907,7 +9907,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -9919,7 +9919,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -9931,11 +9931,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -9943,7 +9943,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>transactioncurrencyid</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -9951,7 +9951,7 @@ the column number for an attribute with an entity in CDS for Applications.
 <tr><td>ordinal</td><td>10126</td><td>integer</td><td></td></tr>
 </table>
 
-##### does.referenceEntity
+- ##### does.referenceEntity
 
 turns all attributes from an entity into one key valued attribute
 
@@ -10051,17 +10051,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -10069,7 +10069,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -10077,7 +10077,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -10089,7 +10089,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -10101,11 +10101,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -10113,7 +10113,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>createdbyexternalparty</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 
@@ -10144,17 +10144,17 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 <details>
 <summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.dataFormat.guid
+- ##### is.dataFormat.guid
 
-##### means.identity.entityId
+- ##### means.identity.entityId
 
-##### is.CDS.lookup
+- ##### is.CDS.lookup
 
 The attribute represents a style of lookup in CDS for Applications
 
@@ -10162,7 +10162,7 @@ The attribute represents a style of lookup in CDS for Applications
 <tr><td>style</td><td>single</td><td>string</td><td></td></tr>
 </table>
 
-##### is.requiredAtLevel
+- ##### is.requiredAtLevel
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
@@ -10170,7 +10170,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 <tr><td>level</td><td>none</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr>
 </table>
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -10182,7 +10182,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -10194,11 +10194,11 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.nullable
+- ##### is.nullable
 
 The attribute value may be set to NULL.
 
-##### is.CDS.sourceNamed
+- ##### is.CDS.sourceNamed
 
 the unique name that identifies this object in CDS for Applications.
 
@@ -10206,7 +10206,7 @@ the unique name that identifies this object in CDS for Applications.
 <tr><td>name</td><td>modifiedbyexternalparty</td><td>string</td><td></td></tr>
 </table>
 
-##### is.CDS.ordered
+- ##### is.CDS.ordered
 
 the column number for an attribute with an entity in CDS for Applications.
 

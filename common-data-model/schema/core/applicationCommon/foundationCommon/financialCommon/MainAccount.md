@@ -56,13 +56,13 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the mainAccountId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.identifiedBy
+- ##### is.identifiedBy
 
 names a specifc identity attribute to use with an entity
 
@@ -76,7 +76,7 @@ Definition:
 "MainAccount_/hasAttributes/mainAccountId"
 ```
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -88,7 +88,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -121,15 +121,15 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the name attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.identity.name
+- ##### means.identity.name
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -141,7 +141,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -174,13 +174,13 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the number attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -192,7 +192,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -225,13 +225,13 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the mainAccountCategoryKey attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -243,7 +243,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -255,7 +255,7 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.linkedEntity.identifier
+- ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
@@ -280,13 +280,13 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the currencyKey attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -298,7 +298,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -310,7 +310,7 @@ Holds the list of language specific descriptive text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.linkedEntity.identifier
+- ##### is.linkedEntity.identifier
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 

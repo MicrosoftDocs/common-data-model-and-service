@@ -57,13 +57,13 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the mainAccountCategoryId attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.identifiedBy
+- ##### is.identifiedBy
 
 names a specifc identity attribute to use with an entity
 
@@ -77,7 +77,7 @@ Definition:
 "MainAccountCategory_/hasAttributes/mainAccountCategoryId"
 ```
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -89,7 +89,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -122,13 +122,13 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the name attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -140,7 +140,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -173,15 +173,15 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the description attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.description
+- ##### means.reference.description
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -193,7 +193,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -226,9 +226,9 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the isClosed attribute are listed below.</summary>
 
-##### is.dataFormat.boolean
+- ##### is.dataFormat.boolean
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -240,7 +240,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -324,9 +324,9 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the accountType attribute are listed below.</summary>
 
-##### is.dataFormat.integer
+- ##### is.dataFormat.integer
 
-##### does.haveDefault
+- ##### does.haveDefault
 
 An attribute has a default value
 
@@ -345,11 +345,11 @@ An attribute has a default value
 </td><td>any</td><td></td></tr>
 </table>
 
-##### is.constrainedList
+- ##### is.constrainedList
 
 the values of an attribute are taken from or looked up from a fixed list of possibilities
 
-##### is.localized.displayedAs
+- ##### is.localized.displayedAs
 
 Holds the list of language specific display text for an object.
 
@@ -361,7 +361,7 @@ Holds the list of language specific display text for an object.
 </td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
 </table>
 
-##### is.localized.describedAs
+- ##### is.localized.describedAs
 
 Holds the list of language specific descriptive text for an object.
 
@@ -391,17 +391,17 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 <details>
 <summary>List of traits for the accountType_display attribute are listed below.</summary>
 
-##### is.dataFormat.character
+- ##### is.dataFormat.character
 
-##### is.dataFormat.big
+- ##### is.dataFormat.big
 
-##### is.dataFormat.array
+- ##### is.dataFormat.array
 
-##### means.reference.displayText
+- ##### means.reference.displayText
 
-##### is.readOnly
+- ##### is.readOnly
 
-##### is.addedInSupportOf
+- ##### is.addedInSupportOf
 
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
 <tr><td>inSupportOf</td><td>accountType</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr>
