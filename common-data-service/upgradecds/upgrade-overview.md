@@ -2,7 +2,7 @@
 title: "Overview of the upgrade process | Microsoft Docs"
 description: "Provides an overview of the upgrade process to CDS for Apps."
 author: "JimDaly"
-manager: "annbe"
+manager: "ryjones"
 ms.date: "12/09/2018"
 ms.topic: "article"
 ms.custom: ""
@@ -10,7 +10,7 @@ ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
 keywords: "Common Data Service for Apps, CDS for Apps, Upgrade"
 audience: "Administrator"
-ms.reviewer: kvivek
+ms.reviewer: jdaly
 ms.author: jdaly
 ---
 

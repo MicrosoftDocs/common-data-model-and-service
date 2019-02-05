@@ -2,7 +2,7 @@
 title: "Errors and resolutions when upgrading previous version of Common Data Service. | Microsoft Docs"
 description: "Provides known errors and resolutions when upgrading from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
-manager: "annbe"
+manager: "ryjones"
 ms.date: "02/04/2019"
 ms.topic: "article"
 ms.custom: ""
@@ -10,7 +10,7 @@ ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
 keywords: ""
 audience: "IT Pro"
-ms.reviewer: kvivek
+ms.reviewer: jdaly
 ms.author: jdaly
 ---
 # Errors and resolutions
