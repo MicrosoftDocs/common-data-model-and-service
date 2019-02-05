@@ -2,7 +2,7 @@
 title: "Upgrade to Common Data Service for Apps | Microsoft Docs"
 description: "Provides instructions on how to upgrade from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
-manager: "annbe"
+manager: "ryjones"
 ms.date: "01/24/2019"
 ms.topic: "article"
 ms.custom: ""
@@ -10,7 +10,7 @@ ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
 keywords: ""
 audience: "IT Pro"
-ms.reviewer: kvivek
+ms.reviewer: jdaly
 ms.author: jdaly
 ---
 
