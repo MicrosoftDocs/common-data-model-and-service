@@ -2,7 +2,7 @@
 title: "Delete your previous version Common Data Service database | Microsoft Docs"
 description: "Provides instructions on how to delete the previous version of Common Data Service database"
 author: "JimDaly"
-manager: "annbe"
+manager: "ryjones"
 ms.date: "01/14/2019"
 ms.topic: "article"
 ms.custom: ""
@@ -10,7 +10,7 @@ ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
 keywords: ""
 audience: "IT Pro"
-ms.reviewer: kvivek
+ms.reviewer: jdaly
 ms.author: jdaly
 ---
 # Delete your previous version Common Data Service database 

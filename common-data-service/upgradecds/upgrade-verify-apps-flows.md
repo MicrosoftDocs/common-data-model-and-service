@@ -2,7 +2,7 @@
 title: "Upgrade and verify your apps and flows | Microsoft Docs"
 description: "Provides information about upgrading your apps and flows, and then verifying it to ensure it works with the test CDS for Apps database."
 author: "JimDaly"
-manager: "annbe"
+manager: "ryjones"
 ms.date: "01/14/2019"
 ms.topic: "article"
 ms.custom: ""
@@ -10,7 +10,7 @@ ms.service: "CommonDataService"
 ms.technology: "CommonDataService"
 keywords: "Common Data Service for Apps, CDS for Apps, Upgrade"
 audience: "Administrator"
-ms.reviewer: kvivek
+ms.reviewer: jdaly
 ms.author: jdaly
 ---
 
