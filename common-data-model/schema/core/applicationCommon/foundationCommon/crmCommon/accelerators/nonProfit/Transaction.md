@@ -99,7 +99,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -180,7 +180,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -350,7 +350,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -431,7 +431,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -601,7 +601,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -771,7 +771,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -941,7 +941,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1024,7 +1024,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1102,7 +1102,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1182,7 +1182,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1275,7 +1275,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1441,7 +1441,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1611,7 +1611,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1779,7 +1779,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1863,7 +1863,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1945,7 +1945,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2022,7 +2022,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2131,7 +2131,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2230,7 +2230,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2286,7 +2286,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2383,7 +2383,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2420,7 +2420,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2500,7 +2500,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the adjustmentComment attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2595,7 +2595,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the adjustmentReason attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2671,7 +2671,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the adjustmentReason_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2716,7 +2716,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the adjustmentType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2792,7 +2792,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the adjustmentType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2830,7 +2830,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the amount attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2908,7 +2908,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3007,7 +3007,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3097,7 +3097,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the amountBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3201,7 +3201,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the anonymity attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3277,7 +3277,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the anonymity_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3313,7 +3313,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the bookDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3385,7 +3385,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dataEntryReference attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3480,7 +3480,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dataEntrySource attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3556,7 +3556,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dataEntrySource_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3595,7 +3595,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the effectiveCampaignId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3690,7 +3690,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the effectiveSourceCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3767,7 +3767,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRateDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3850,7 +3850,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isAdjusted attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3927,7 +3927,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the originalTxnAdjustedId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4024,7 +4024,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the originatingCampaignId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4122,7 +4122,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the originatingSourceCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4208,7 +4208,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postedDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4276,7 +4276,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the receivedDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4347,7 +4347,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionPaymentMethodId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4444,7 +4444,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionPaymentScheduleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4541,7 +4541,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionReceiptOnAccountId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

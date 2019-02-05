@@ -131,7 +131,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -212,7 +212,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -382,7 +382,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -463,7 +463,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -633,7 +633,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -803,7 +803,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -973,7 +973,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1056,7 +1056,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1134,7 +1134,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1214,7 +1214,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1307,7 +1307,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1473,7 +1473,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1643,7 +1643,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1811,7 +1811,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1895,7 +1895,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1977,7 +1977,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2054,7 +2054,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2163,7 +2163,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2262,7 +2262,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2318,7 +2318,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2415,7 +2415,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2455,7 +2455,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2573,7 +2573,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the audienceType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2664,7 +2664,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the audienceType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2718,7 +2718,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the AVSupport attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2807,7 +2807,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the AVSupport_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2861,7 +2861,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the byInvitationOnly attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2950,7 +2950,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the byInvitationOnly_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3004,7 +3004,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the camerasPermitted attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3093,7 +3093,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the camerasPermitted_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3134,7 +3134,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the checkInCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3221,7 +3221,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the detailedDescription attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3310,7 +3310,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the endTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3393,7 +3393,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the event attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3563,7 +3563,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the eventSpeakerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3657,7 +3657,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the externalUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3763,7 +3763,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the flipChart attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3852,7 +3852,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the flipChart_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3948,7 +3948,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the industry attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4044,7 +4044,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the industry_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4098,7 +4098,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the internetConnection attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4187,7 +4187,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the internetConnection_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4227,7 +4227,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the keywords attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4403,7 +4403,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the language attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4504,7 +4504,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the language_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4558,7 +4558,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the NDA attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4647,7 +4647,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the NDA_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4686,7 +4686,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the passSessions attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4854,7 +4854,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the presentationManagerUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4933,7 +4933,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the producer attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5130,7 +5130,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the publishStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5221,7 +5221,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the publishStatus_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5275,7 +5275,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the recordingsPermitted attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5364,7 +5364,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the recordingsPermitted_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5401,7 +5401,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the recurrencePattern attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5480,7 +5480,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the registrationCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5567,7 +5567,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5674,7 +5674,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionFormat attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5752,7 +5752,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionFormat_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5793,7 +5793,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionMaxCapacity attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5880,7 +5880,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionObjectives attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5970,7 +5970,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionPreRequisites attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6060,7 +6060,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionSummary attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6188,7 +6188,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6281,7 +6281,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6320,7 +6320,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the startTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -6403,7 +6403,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the venue attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6588,7 +6588,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the videoConferencing attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6677,7 +6677,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the videoConferencing_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6716,7 +6716,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webinarConfigurationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6810,7 +6810,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webinarID attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6899,7 +6899,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webinarNotificationSeen attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6974,7 +6974,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webinarOperation attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7049,7 +7049,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webinarStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7124,7 +7124,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webinarStatusReason attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7198,7 +7198,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webinarType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7277,7 +7277,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webinarURL attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7371,7 +7371,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the whiteBoard attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7460,7 +7460,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the whiteBoard_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7501,7 +7501,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the durationMins attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7589,7 +7589,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the totalNumberOfQuestionsAsked attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7675,7 +7675,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the totalNumberOfQuestionsAskedDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -7768,7 +7768,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the totalNumberOfQuestionsAskedState attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 

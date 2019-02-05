@@ -278,7 +278,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -359,7 +359,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -529,7 +529,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -610,7 +610,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -780,7 +780,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -950,7 +950,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1120,7 +1120,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1203,7 +1203,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1276,7 +1276,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1319,7 +1319,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1380,7 +1380,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1546,7 +1546,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1716,7 +1716,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1884,7 +1884,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1968,7 +1968,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2050,7 +2050,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2127,7 +2127,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2232,7 +2232,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerSizeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2320,7 +2320,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerSizeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2368,7 +2368,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2456,7 +2456,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2528,7 +2528,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the preferredContactMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2620,7 +2620,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the preferredContactMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2668,7 +2668,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the leadSourceCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2756,7 +2756,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the leadSourceCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2822,7 +2822,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the paymentTermsCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2913,7 +2913,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the paymentTermsCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2961,7 +2961,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the shippingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3049,7 +3049,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the shippingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3088,7 +3088,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3181,7 +3181,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the participatesInWorkflow attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3258,7 +3258,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isBackofficeCustomer attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3336,7 +3336,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the salutation attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3426,7 +3426,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the jobTitle attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3516,7 +3516,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the firstName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3608,7 +3608,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the department attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3698,7 +3698,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the nickName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3790,7 +3790,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the middleName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3882,7 +3882,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3974,7 +3974,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the suffix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4064,7 +4064,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiFirstName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4158,7 +4158,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fullName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4250,7 +4250,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiMiddleName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4344,7 +4344,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiLastName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4437,7 +4437,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the anniversary attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4520,7 +4520,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the birthDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4604,7 +4604,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the governmentId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4696,7 +4696,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiFullName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4790,7 +4790,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4880,7 +4880,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the employeeId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4984,7 +4984,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the genderCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5073,7 +5073,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the genderCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5114,7 +5114,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the annualIncome attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5213,7 +5213,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the hasChildrenCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5301,7 +5301,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the hasChildrenCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5349,7 +5349,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the educationCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5437,7 +5437,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the educationCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5477,7 +5477,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webSiteUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5595,7 +5595,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the familyStatusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5686,7 +5686,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the familyStatusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5726,7 +5726,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ftpSiteUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5818,7 +5818,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the EMailAddress1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5910,7 +5910,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the spousesName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6002,7 +6002,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the assistantName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6094,7 +6094,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the EMailAddress2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6186,7 +6186,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the assistantPhone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6278,7 +6278,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the EMailAddress3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6369,7 +6369,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6447,7 +6447,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the managerName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6539,7 +6539,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the managerPhone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6630,7 +6630,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6707,7 +6707,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6784,7 +6784,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6861,7 +6861,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotBulkEMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6938,7 +6938,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotBulkPostalMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -7036,7 +7036,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountRoleCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7126,7 +7126,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountRoleCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7174,7 +7174,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the territoryCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7262,7 +7262,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the territoryCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7303,7 +7303,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the creditLimit attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -7393,7 +7393,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the creditOnHold attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -7472,7 +7472,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the numberOfChildren attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7559,7 +7559,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the childrensNames attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7651,7 +7651,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mobilePhone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7743,7 +7743,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the pager attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7833,7 +7833,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7925,7 +7925,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8017,7 +8017,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8109,7 +8109,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8200,7 +8200,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the aging30 attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -8304,7 +8304,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8403,7 +8403,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8444,7 +8444,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the aging60 attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -8551,7 +8551,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8648,7 +8648,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8689,7 +8689,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the aging90 attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -8779,7 +8779,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentContactId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8872,7 +8872,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8980,7 +8980,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9071,7 +9071,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9111,7 +9111,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9203,7 +9203,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1PrimaryContactName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9295,7 +9295,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9387,7 +9387,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9479,7 +9479,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9571,7 +9571,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9663,7 +9663,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9755,7 +9755,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9847,7 +9847,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9939,7 +9939,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10029,7 +10029,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10122,7 +10122,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10229,7 +10229,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1FreightTermsCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10318,7 +10318,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1FreightTermsCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10358,7 +10358,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10449,7 +10449,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -10540,7 +10540,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10633,7 +10633,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -10768,7 +10768,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10862,7 +10862,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10902,7 +10902,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10994,7 +10994,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11086,7 +11086,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11178,7 +11178,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Composite attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11269,7 +11269,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11377,7 +11377,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11468,7 +11468,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11508,7 +11508,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11600,7 +11600,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2PrimaryContactName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11692,7 +11692,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11784,7 +11784,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11876,7 +11876,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11968,7 +11968,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12060,7 +12060,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12152,7 +12152,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12244,7 +12244,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12336,7 +12336,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12426,7 +12426,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12519,7 +12519,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12626,7 +12626,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2FreightTermsCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12715,7 +12715,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2FreightTermsCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12755,7 +12755,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12846,7 +12846,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -12937,7 +12937,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13030,7 +13030,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -13165,7 +13165,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -13259,7 +13259,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13299,7 +13299,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13391,7 +13391,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13483,7 +13483,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13575,7 +13575,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Composite attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13666,7 +13666,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3AddressId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13774,7 +13774,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3AddressTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -13865,7 +13865,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3AddressTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13905,7 +13905,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13997,7 +13997,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3PrimaryContactName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14089,7 +14089,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Line1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14181,7 +14181,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Line2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14273,7 +14273,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Line3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14365,7 +14365,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3City attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14457,7 +14457,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3StateOrProvince attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14549,7 +14549,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3County attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14641,7 +14641,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Country attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14733,7 +14733,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3PostOfficeBox attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14823,7 +14823,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3PostalCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14916,7 +14916,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3UTCOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15023,7 +15023,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3FreightTermsCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -15112,7 +15112,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3FreightTermsCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15152,7 +15152,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3UPSZone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15243,7 +15243,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Latitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -15334,7 +15334,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15427,7 +15427,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Longitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -15562,7 +15562,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3ShippingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -15656,7 +15656,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3ShippingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15696,7 +15696,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15788,7 +15788,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15880,7 +15880,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15972,7 +15972,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address3Composite attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16063,7 +16063,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the preferredSystemUserId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16233,7 +16233,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the masterId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16448,7 +16448,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the preferredAppointmentDayCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -16542,7 +16542,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the preferredAppointmentDayCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16602,7 +16602,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the preferredAppointmentTimeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -16692,7 +16692,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the preferredAppointmentTimeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16731,7 +16731,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotSendMM attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -16808,7 +16808,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentCustomerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16881,7 +16881,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentCustomerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16982,7 +16982,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the merged attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -17060,7 +17060,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the externalUserIdentifier attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -17149,7 +17149,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastUsedInCampaign attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -17232,7 +17232,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -17404,7 +17404,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -17494,7 +17494,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the annualIncomeBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -17594,7 +17594,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the creditLimitBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -17694,7 +17694,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the aging60Base attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -17794,7 +17794,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the aging90Base attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -17894,7 +17894,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the aging30Base attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -17992,7 +17992,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -18075,7 +18075,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -18158,7 +18158,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -18242,7 +18242,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -18331,7 +18331,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -18501,7 +18501,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -18673,7 +18673,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -18759,7 +18759,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -18842,7 +18842,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the followEmail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -18920,7 +18920,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeSpentByMeOnEmailAndMeetings attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19012,7 +19012,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the business2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19104,7 +19104,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the callback attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19196,7 +19196,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the company attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19288,7 +19288,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the home2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19379,7 +19379,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19472,7 +19472,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19565,7 +19565,7 @@ First included in: /core/applicationCommon/Contact.cdm.json/Contact
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the marketingOnly attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 

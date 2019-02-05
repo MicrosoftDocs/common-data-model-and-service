@@ -78,7 +78,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the annotationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -386,7 +386,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -508,7 +508,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -547,7 +547,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -717,7 +717,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectIdTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -786,7 +786,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -883,7 +883,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1054,7 +1054,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1142,7 +1142,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDocument attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1216,7 +1216,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the noteText attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1306,7 +1306,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mimeType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1396,7 +1396,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the langId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1486,7 +1486,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the documentBody attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1575,7 +1575,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1662,7 +1662,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fileSize attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1749,7 +1749,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fileName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1840,7 +1840,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2010,7 +2010,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2180,7 +2180,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2265,7 +2265,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2344,7 +2344,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2424,7 +2424,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2518,7 +2518,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stepId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2607,7 +2607,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2694,7 +2694,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2780,7 +2780,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2950,7 +2950,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3120,7 +3120,7 @@ First included in: /core/applicationCommon/Note.cdm.json/Note
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

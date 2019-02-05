@@ -137,7 +137,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -218,7 +218,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -388,7 +388,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -469,7 +469,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -639,7 +639,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -809,7 +809,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -979,7 +979,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1062,7 +1062,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1140,7 +1140,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1220,7 +1220,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1313,7 +1313,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1479,7 +1479,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1649,7 +1649,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1817,7 +1817,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1901,7 +1901,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1983,7 +1983,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2134,7 +2134,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2240,7 +2240,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2331,7 +2331,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2399,7 +2399,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2464,7 +2464,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2554,7 +2554,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2636,7 +2636,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2675,7 +2675,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2744,7 +2744,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2853,7 +2853,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2928,7 +2928,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3003,7 +3003,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3091,7 +3091,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3173,7 +3173,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the category attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3257,7 +3257,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subcategory attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3370,7 +3370,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the instanceTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3450,7 +3450,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the instanceTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3489,7 +3489,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isMapiPrivate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3558,7 +3558,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizer attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3645,7 +3645,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requiredAttendees attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3740,7 +3740,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the optionalAttendees attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3834,7 +3834,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isWeekDayPattern attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3907,7 +3907,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ruleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3999,7 +3999,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isNthYearly attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4098,7 +4098,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4199,7 +4199,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4238,7 +4238,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the groupId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4331,7 +4331,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastExpandedInstanceDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4414,7 +4414,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the effectiveEndDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4497,7 +4497,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the patternStartDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4579,7 +4579,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isRegenerate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4654,7 +4654,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the firstDayOfWeek attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4742,7 +4742,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the outlookOwnerApptId attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4854,7 +4854,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the recurrencePatternType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4941,7 +4941,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the recurrencePatternType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4980,7 +4980,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the nextExpansionInstanceDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -5084,7 +5084,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the expansionStateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5174,7 +5174,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the expansionStateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5213,7 +5213,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the patternEndDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -5297,7 +5297,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the globalObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5386,7 +5386,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the effectiveStartDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -5471,7 +5471,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dayOfMonth attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5602,7 +5602,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5703,7 +5703,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5742,7 +5742,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the startTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -5827,7 +5827,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the occurrences attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5913,7 +5913,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isAllDayEvent attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -5990,7 +5990,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the seriesStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6066,7 +6066,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isNthMonthly attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6139,7 +6139,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the endTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -6224,7 +6224,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the daysOfWeekMask attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6311,7 +6311,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6433,7 +6433,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the instance attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6525,7 +6525,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the instance_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6565,7 +6565,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the deletedExceptionsList attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6656,7 +6656,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the interval attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6744,7 +6744,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the duration attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6913,7 +6913,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the monthOfYear attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7013,7 +7013,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the monthOfYear_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7053,7 +7053,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the location attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7162,7 +7162,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the patternEndType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7248,7 +7248,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the patternEndType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7287,7 +7287,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7459,7 +7459,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -7547,7 +7547,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7630,7 +7630,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7714,7 +7714,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7805,7 +7805,7 @@ First included in: /core/applicationCommon/RecurringAppointment.cdm.json/Recurri
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isUnsafe attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7891,7 +7891,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/RecurringA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the serviceId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

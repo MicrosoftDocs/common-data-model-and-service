@@ -55,7 +55,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mainAccountCategoryId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -120,7 +120,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -171,7 +171,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -224,7 +224,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isClosed attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -322,7 +322,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -389,7 +389,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

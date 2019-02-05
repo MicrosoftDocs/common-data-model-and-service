@@ -86,7 +86,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the feedbackId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -183,7 +183,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rating attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -271,7 +271,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the minRating attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -359,7 +359,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxRating attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -447,7 +447,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the normalizedRating attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -536,7 +536,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the comments attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -640,7 +640,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the source attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -729,7 +729,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the source_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -782,7 +782,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -881,7 +881,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -951,7 +951,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1050,7 +1050,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1089,7 +1089,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1168,7 +1168,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1338,7 +1338,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1508,7 +1508,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1593,7 +1593,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1763,7 +1763,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1933,7 +1933,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2018,7 +2018,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2188,7 +2188,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2268,7 +2268,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2361,7 +2361,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2531,7 +2531,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2624,7 +2624,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2717,7 +2717,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the closedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2887,7 +2887,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the closedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2972,7 +2972,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3058,7 +3058,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3143,7 +3143,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3315,7 +3315,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3404,7 +3404,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3493,7 +3493,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdByContact attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3663,7 +3663,7 @@ First included in: /core/applicationCommon/Feedback.cdm.json/Feedback
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfByContact attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

@@ -87,7 +87,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the kbArticleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -181,7 +181,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the kbArticleTemplateId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -345,7 +345,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -509,7 +509,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -599,7 +599,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the articleXml attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -689,7 +689,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -779,7 +779,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the number attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -869,7 +869,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the content attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -959,7 +959,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1049,7 +1049,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the comments attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1138,7 +1138,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1223,7 +1223,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1393,7 +1393,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1563,7 +1563,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1668,7 +1668,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1768,7 +1768,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1831,7 +1831,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1929,7 +1929,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1968,7 +1968,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2048,7 +2048,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the keyWords attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2139,7 +2139,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2225,7 +2225,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2310,7 +2310,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2480,7 +2480,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2652,7 +2652,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the languageCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2746,7 +2746,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2834,7 +2834,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3004,7 +3004,7 @@ First included in: /core/applicationCommon/Article.cdm.json/Article
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3087,7 +3087,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the publishToWeb attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3166,7 +3166,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the averageRating attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -3256,7 +3256,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the averageRatingWholeNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3344,7 +3344,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the downvotes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3429,7 +3429,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ratingCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3505,7 +3505,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ratingSum attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3593,7 +3593,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the upvotes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 

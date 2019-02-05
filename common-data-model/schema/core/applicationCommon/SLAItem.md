@@ -80,7 +80,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAItemId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -175,7 +175,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -262,7 +262,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -356,7 +356,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -446,7 +446,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the relatedField attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -535,7 +535,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -705,7 +705,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -790,7 +790,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -960,7 +960,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1045,7 +1045,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1217,7 +1217,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -1305,7 +1305,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1384,7 +1384,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1555,7 +1555,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the applicableWhenXml attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1645,7 +1645,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the successConditionsXml attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1733,7 +1733,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the solutionId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1838,7 +1838,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the componentState attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1925,7 +1925,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the componentState_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1963,7 +1963,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overwriteTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2041,7 +2041,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isManaged attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2113,7 +2113,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAItemIdUnique attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2194,7 +2194,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2282,7 +2282,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the failureAfter attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2372,7 +2372,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the warnAfter attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2460,7 +2460,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2553,7 +2553,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2633,7 +2633,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2726,7 +2726,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the workflowId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2819,7 +2819,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2989,7 +2989,7 @@ First included in: /core/applicationCommon/SLAItem.cdm.json/SLAItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

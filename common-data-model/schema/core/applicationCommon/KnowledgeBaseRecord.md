@@ -66,7 +66,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the knowledgeBaseRecordId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -161,7 +161,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -246,7 +246,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -416,7 +416,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -501,7 +501,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -671,7 +671,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -841,7 +841,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1011,7 +1011,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1177,7 +1177,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1234,7 +1234,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1321,7 +1321,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1411,7 +1411,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the privateUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1503,7 +1503,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the publicUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1596,7 +1596,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -1684,7 +1684,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1855,7 +1855,7 @@ First included in: /core/applicationCommon/KnowledgeBaseRecord.cdm.json/Knowledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the uniqueId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

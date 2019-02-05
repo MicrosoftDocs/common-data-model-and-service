@@ -88,7 +88,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the queueItemId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -183,7 +183,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the queueId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -353,7 +353,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectIdTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -422,7 +422,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -528,7 +528,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -616,7 +616,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -656,7 +656,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -745,7 +745,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the enteredOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -830,7 +830,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priority attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -918,7 +918,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the state attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1006,7 +1006,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the status attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1092,7 +1092,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1177,7 +1177,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1347,7 +1347,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1517,7 +1517,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1603,7 +1603,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the toRecipients attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1693,7 +1693,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sender attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1781,7 +1781,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1946,7 +1946,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2027,7 +2027,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2115,7 +2115,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2201,7 +2201,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2286,7 +2286,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the workerIdModifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2371,7 +2371,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2451,7 +2451,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2544,7 +2544,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2637,7 +2637,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the workerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2706,7 +2706,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the workerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2803,7 +2803,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2912,7 +2912,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3005,7 +3005,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3058,7 +3058,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3157,7 +3157,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3196,7 +3196,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3366,7 +3366,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3536,7 +3536,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3708,7 +3708,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3798,7 +3798,7 @@ First included in: /core/applicationCommon/QueueItem.cdm.json/QueueItem
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 

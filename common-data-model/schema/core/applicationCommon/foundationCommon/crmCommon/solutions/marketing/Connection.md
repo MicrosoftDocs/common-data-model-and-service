@@ -90,7 +90,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -260,7 +260,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -370,7 +370,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -467,7 +467,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -508,7 +508,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -594,7 +594,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the connectionId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -689,7 +689,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -768,7 +768,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the effectiveStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -850,7 +850,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isMaster attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -923,7 +923,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1003,7 +1003,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1096,7 +1096,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the relatedConnectionId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1267,7 +1267,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1356,7 +1356,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1526,7 +1526,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1611,7 +1611,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record2IdObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1680,7 +1680,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record2Id attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1856,7 +1856,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2026,7 +2026,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record2RoleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2196,7 +2196,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the effectiveEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2279,7 +2279,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record1RoleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2449,7 +2449,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2534,7 +2534,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2619,7 +2619,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record1IdObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2688,7 +2688,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record1Id attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2878,7 +2878,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2977,7 +2977,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3016,7 +3016,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3186,7 +3186,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3356,7 +3356,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3449,7 +3449,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3621,7 +3621,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3718,7 +3718,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record2ObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3806,7 +3806,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record2ObjectTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3854,7 +3854,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record1ObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3942,7 +3942,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the record1ObjectTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3982,7 +3982,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4073,7 +4073,7 @@ First included in: /core/applicationCommon/Connection.cdm.json/Connection
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

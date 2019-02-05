@@ -77,7 +77,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the salesLiteratureItemId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -172,7 +172,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -257,7 +257,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -427,7 +427,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -512,7 +512,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -682,7 +682,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -852,7 +852,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1022,7 +1022,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1103,7 +1103,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1189,7 +1189,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1276,7 +1276,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1364,7 +1364,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1451,7 +1451,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1541,7 +1541,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the abstract attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1631,7 +1631,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the attachedDocumentUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1723,7 +1723,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the authorName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1814,7 +1814,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the documentBody attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1892,7 +1892,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fileName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1985,7 +1985,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fileSize attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2080,7 +2080,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fileTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2168,7 +2168,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fileTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2207,7 +2207,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isCustomerViewable attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2285,7 +2285,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the keyWords attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2375,7 +2375,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mimeType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2463,7 +2463,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2541,7 +2541,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the salesLiteratureId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2707,7 +2707,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

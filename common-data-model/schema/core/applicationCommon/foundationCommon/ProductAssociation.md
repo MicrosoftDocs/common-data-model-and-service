@@ -77,7 +77,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productAssociationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -172,7 +172,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -257,7 +257,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -427,7 +427,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -512,7 +512,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -682,7 +682,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -852,7 +852,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1021,7 +1021,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1186,7 +1186,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1267,7 +1267,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1353,7 +1353,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1440,7 +1440,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1528,7 +1528,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1613,7 +1613,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the associatedProduct attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1777,7 +1777,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1944,7 +1944,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quantity attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2047,7 +2047,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productIsRequired attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2136,7 +2136,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productIsRequired_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2175,7 +2175,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the uoMId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2371,7 +2371,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2472,7 +2472,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2542,7 +2542,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2641,7 +2641,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2694,7 +2694,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the propertyCustomizationStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2779,7 +2779,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the propertyCustomizationStatus_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2820,7 +2820,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2908,7 +2908,7 @@ First included in: /core/applicationCommon/foundationCommon/ProductAssociation.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

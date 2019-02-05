@@ -49,7 +49,7 @@ First included in: /core/applicationCommon/KnowledgeArticleCategory.cdm.json/Kno
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the knowledgeArticleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -133,7 +133,7 @@ First included in: /core/applicationCommon/KnowledgeArticleCategory.cdm.json/Kno
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the categoryId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -187,7 +187,7 @@ First included in: /core/applicationCommon/KnowledgeArticleCategory.cdm.json/Kno
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the knowledgeArticleCategoryId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -266,7 +266,7 @@ First included in: /core/applicationCommon/KnowledgeArticleCategory.cdm.json/Kno
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 

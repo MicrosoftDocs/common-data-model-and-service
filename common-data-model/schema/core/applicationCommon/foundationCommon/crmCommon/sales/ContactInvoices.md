@@ -56,7 +56,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contactInvoiceId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -139,7 +139,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -220,7 +220,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -306,7 +306,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -393,7 +393,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -481,7 +481,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -568,7 +568,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -654,7 +654,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -738,7 +738,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the invoiceId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

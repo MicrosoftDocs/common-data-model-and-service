@@ -54,7 +54,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ledgerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -119,7 +119,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -172,7 +172,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -225,7 +225,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the companyKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -280,7 +280,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledg
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountingCurrencyKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

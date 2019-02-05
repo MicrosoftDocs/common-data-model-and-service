@@ -100,7 +100,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentIdTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -131,7 +131,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -186,7 +186,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerAddressId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -232,7 +232,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the addressNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -295,7 +295,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -348,7 +348,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -409,7 +409,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the addressTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -468,7 +468,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the addressTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -503,7 +503,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -558,7 +558,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the primaryContactName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -613,7 +613,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the line1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -668,7 +668,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the line2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -723,7 +723,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the line3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -778,7 +778,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the city attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -833,7 +833,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateOrProvince attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -888,7 +888,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the county attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -943,7 +943,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the country attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -998,7 +998,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postOfficeBox attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1051,7 +1051,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postalCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1107,7 +1107,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1177,7 +1177,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the freightTermsCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1234,7 +1234,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the freightTermsCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1269,7 +1269,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UPSZone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1323,7 +1323,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the latitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -1377,7 +1377,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1433,7 +1433,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the longitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -1531,7 +1531,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the shippingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1593,7 +1593,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the shippingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1628,7 +1628,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1683,7 +1683,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1738,7 +1738,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1792,7 +1792,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1834,7 +1834,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1967,7 +1967,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2015,7 +2015,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2148,7 +2148,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2196,7 +2196,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2252,7 +2252,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2310,7 +2310,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2359,7 +2359,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2409,7 +2409,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2460,7 +2460,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2509,7 +2509,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2552,7 +2552,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2608,7 +2608,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2741,7 +2741,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2874,7 +2874,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3009,7 +3009,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3061,7 +3061,7 @@ First included in: /core/applicationCommon/Address.cdm.json/Address
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the composite attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

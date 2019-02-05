@@ -105,7 +105,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -186,7 +186,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -356,7 +356,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -437,7 +437,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -607,7 +607,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -777,7 +777,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -947,7 +947,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1030,7 +1030,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1108,7 +1108,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1188,7 +1188,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1281,7 +1281,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1447,7 +1447,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1617,7 +1617,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1785,7 +1785,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1869,7 +1869,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1951,7 +1951,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2028,7 +2028,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the campaignId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2124,7 +2124,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailAddress attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2215,7 +2215,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2302,7 +2302,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2385,7 +2385,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2469,7 +2469,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2558,7 +2558,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2641,7 +2641,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2726,7 +2726,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the budgetedCost attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2816,7 +2816,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2988,7 +2988,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3078,7 +3078,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the budgetedCostBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3177,7 +3177,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the codeName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3269,7 +3269,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3360,7 +3360,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the expectedResponse attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3448,7 +3448,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the expectedRevenue attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3540,7 +3540,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the expectedRevenueBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3638,7 +3638,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isTemplate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3716,7 +3716,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the message attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3806,7 +3806,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objective attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3897,7 +3897,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the otherCost attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3989,7 +3989,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the otherCostBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4088,7 +4088,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the promotionCodeName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4179,7 +4179,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the proposedEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4262,7 +4262,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the proposedStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4359,7 +4359,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4458,7 +4458,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4549,7 +4549,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4651,7 +4651,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4692,7 +4692,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the totalActualCost attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4784,7 +4784,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the totalActualCostBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4884,7 +4884,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the totalCampaignActivityActualCost attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4976,7 +4976,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the totalCampaignActivityActualCostBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5107,7 +5107,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the typeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5199,7 +5199,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the typeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5238,7 +5238,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priceListId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5404,7 +5404,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

@@ -79,7 +79,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the teamId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -173,7 +173,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -319,7 +319,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the businessUnitId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -484,7 +484,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -572,7 +572,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -662,7 +662,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailAddress attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -753,7 +753,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -838,7 +838,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -923,7 +923,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1093,7 +1093,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1263,7 +1263,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1344,7 +1344,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1430,7 +1430,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1514,7 +1514,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the administratorId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1678,7 +1678,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDefault attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1752,7 +1752,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1845,7 +1845,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2015,7 +2015,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2186,7 +2186,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2275,7 +2275,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the queueId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2445,7 +2445,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2617,7 +2617,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2719,7 +2719,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the teamType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2804,7 +2804,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the teamType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2843,7 +2843,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the teamTemplateId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2936,7 +2936,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3105,7 +3105,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the systemManaged attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3178,7 +3178,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3261,7 +3261,7 @@ First included in: /core/applicationCommon/Team.cdm.json/Team
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

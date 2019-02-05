@@ -54,7 +54,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mainAccountId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -119,7 +119,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -172,7 +172,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the number attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -223,7 +223,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mainAccountCategoryKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -278,7 +278,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currencyKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

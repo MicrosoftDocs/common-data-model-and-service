@@ -88,7 +88,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productPriceLevelId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -183,7 +183,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -268,7 +268,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -438,7 +438,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -523,7 +523,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -693,7 +693,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -863,7 +863,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1033,7 +1033,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1114,7 +1114,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1200,7 +1200,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1287,7 +1287,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1375,7 +1375,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1461,7 +1461,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1544,7 +1544,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1628,7 +1628,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1719,7 +1719,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the amount attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -1809,7 +1809,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1981,7 +1981,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2071,7 +2071,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the amountBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2168,7 +2168,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2249,7 +2249,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the percentage attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2336,7 +2336,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priceLevelId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2540,7 +2540,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the pricingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2633,7 +2633,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the pricingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2671,7 +2671,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2836,7 +2836,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2942,7 +2942,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quantitySellingCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3032,7 +3032,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quantitySellingCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3073,7 +3073,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the roundingOptionAmount attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3165,7 +3165,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the roundingOptionAmountBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3278,7 +3278,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the roundingOptionCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3367,7 +3367,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the roundingOptionCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3433,7 +3433,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the roundingPolicyCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3524,7 +3524,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the roundingPolicyCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3563,7 +3563,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the uoMId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3733,7 +3733,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the uoMScheduleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

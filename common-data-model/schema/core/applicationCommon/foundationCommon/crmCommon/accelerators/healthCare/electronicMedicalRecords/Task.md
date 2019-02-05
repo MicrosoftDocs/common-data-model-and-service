@@ -147,7 +147,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -228,7 +228,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -398,7 +398,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -479,7 +479,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -649,7 +649,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -819,7 +819,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -989,7 +989,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1072,7 +1072,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1150,7 +1150,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1230,7 +1230,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1323,7 +1323,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1489,7 +1489,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1659,7 +1659,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1827,7 +1827,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1911,7 +1911,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1993,7 +1993,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2144,7 +2144,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2250,7 +2250,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2341,7 +2341,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2409,7 +2409,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2474,7 +2474,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2564,7 +2564,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2646,7 +2646,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2685,7 +2685,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2754,7 +2754,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2863,7 +2863,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2938,7 +2938,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3013,7 +3013,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3101,7 +3101,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3184,7 +3184,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledDurationMinutes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3266,7 +3266,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualDurationMinutes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3346,7 +3346,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3423,7 +3423,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3501,7 +3501,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the category attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3585,7 +3585,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subcategory attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3667,7 +3667,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityAdditionalParams attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3770,7 +3770,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3870,7 +3870,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3910,7 +3910,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4001,7 +4001,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the percentComplete attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4132,7 +4132,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4233,7 +4233,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4272,7 +4272,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4444,7 +4444,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4532,7 +4532,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4615,7 +4615,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4699,7 +4699,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4788,7 +4788,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the crmTaskAssignedUniqueId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4871,7 +4871,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5041,7 +5041,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5213,7 +5213,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5299,7 +5299,7 @@ First included in: /core/applicationCommon/Task.cdm.json/Task
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -5382,7 +5382,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the businessStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5552,7 +5552,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the code attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5722,7 +5722,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contextEncounter attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5892,7 +5892,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contextEpisodeofCare attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6077,7 +6077,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contextType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6166,7 +6166,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contextType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6206,7 +6206,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the definitionUri attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6296,7 +6296,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the descriptionFocus attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6386,7 +6386,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the descriptionFor attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6476,7 +6476,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the groupIdentifier attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6616,7 +6616,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the intent attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6711,7 +6711,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the intent_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6750,7 +6750,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the performerOwnerAgentDevice attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6920,7 +6920,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the performerOwnerOrganization attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7090,7 +7090,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the performerOwnerPatient attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7260,7 +7260,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the performerOwnerPractitioner attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7430,7 +7430,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the performerOwnerRelatedPerson attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7639,7 +7639,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the performerOwnerType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7732,7 +7732,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the performerOwnerType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7771,7 +7771,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the reason attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7941,7 +7941,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the reference attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8067,7 +8067,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requesterAgent attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8159,7 +8159,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requesterAgent_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8200,7 +8200,7 @@ This resource identifies an instance or a type of a manufactured item that is us
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requesterAgentDevice attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8371,7 +8371,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requesterAgentOrganization attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8541,7 +8541,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requesterAgentPatient attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8711,7 +8711,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requesterAgentPractitioner attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8881,7 +8881,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requesterAgentRelatedPerson attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9051,7 +9051,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requesterOnBehalfOf attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9221,7 +9221,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the restrictionPeriodEndDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -9304,7 +9304,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the restrictionPeriodStartDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -9389,7 +9389,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the restrictionRepetitions attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9550,7 +9550,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the status attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9649,7 +9649,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the status_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9688,7 +9688,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusReason attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9859,7 +9859,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the taskNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9975,7 +9975,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the taskPriority attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10066,7 +10066,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the taskPriority_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

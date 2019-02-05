@@ -60,7 +60,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the interactionId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -151,7 +151,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -314,7 +314,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -477,7 +477,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the messageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -640,7 +640,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerJourneyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -802,7 +802,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -866,7 +866,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sendingId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -930,7 +930,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerJourneyIterationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -994,7 +994,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the usageType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1058,7 +1058,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the interactionType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1122,7 +1122,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the blockedReason attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1186,7 +1186,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timestamp attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 

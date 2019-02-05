@@ -110,7 +110,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -205,7 +205,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -290,7 +290,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -460,7 +460,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -545,7 +545,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -715,7 +715,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -885,7 +885,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1054,7 +1054,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1219,7 +1219,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1300,7 +1300,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1386,7 +1386,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1473,7 +1473,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1561,7 +1561,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1648,7 +1648,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1739,7 +1739,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1822,7 +1822,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1906,7 +1906,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1996,7 +1996,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the vendorID attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2085,7 +2085,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the validFromDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2168,7 +2168,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the validToDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2253,7 +2253,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentCost attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2343,7 +2343,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2515,7 +2515,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2605,7 +2605,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentCostBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2703,7 +2703,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultUoMId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2873,7 +2873,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultUoMScheduleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3044,7 +3044,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3133,7 +3133,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isKit attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3210,7 +3210,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isStockItem attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3287,7 +3287,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentProductId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3459,7 +3459,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the price attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3551,7 +3551,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priceBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3669,7 +3669,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productStructure attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3755,7 +3755,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productStructure_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3794,7 +3794,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3906,7 +3906,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3997,7 +3997,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4037,7 +4037,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4130,7 +4130,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quantityDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4218,7 +4218,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quantityOnHand attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4307,7 +4307,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the size attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4398,7 +4398,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the standardCost attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4490,7 +4490,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the standardCostBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4614,7 +4614,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4715,7 +4715,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4785,7 +4785,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4884,7 +4884,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4925,7 +4925,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stockVolume attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5015,7 +5015,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stockWeight attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5104,7 +5104,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the supplierName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5196,7 +5196,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the vendorName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5288,7 +5288,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the vendorPartNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5378,7 +5378,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the hierarchyPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5467,7 +5467,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priceLevelId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5637,7 +5637,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5726,7 +5726,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5785,7 +5785,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5878,7 +5878,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

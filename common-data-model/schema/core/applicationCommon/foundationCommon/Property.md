@@ -91,7 +91,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dynamicPropertyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -186,7 +186,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -271,7 +271,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -441,7 +441,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -526,7 +526,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -696,7 +696,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -866,7 +866,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1035,7 +1035,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1200,7 +1200,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1281,7 +1281,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1367,7 +1367,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1454,7 +1454,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1542,7 +1542,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1629,7 +1629,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1721,7 +1721,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1843,7 +1843,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dataType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1935,7 +1935,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dataType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1976,7 +1976,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultValueInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2063,7 +2063,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultValueString attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2154,7 +2154,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultValueDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2242,7 +2242,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the baseDynamicPropertyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2412,7 +2412,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overwrittenDynamicPropertyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2495,7 +2495,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rootDynamicPropertyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2580,7 +2580,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the minValueDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2670,7 +2670,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxValueDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2760,7 +2760,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the precision attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2867,7 +2867,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2971,7 +2971,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3034,7 +3034,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3132,7 +3132,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3171,7 +3171,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3343,7 +3343,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultValueDouble attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -3433,7 +3433,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the minValueDouble attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -3523,7 +3523,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxValueDouble attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -3613,7 +3613,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the minValueInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3701,7 +3701,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxValueInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3786,7 +3786,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isReadOnly attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3858,7 +3858,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isHidden attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3930,7 +3930,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isRequired attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4005,7 +4005,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxLengthString attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4091,7 +4091,7 @@ First included in: /core/applicationCommon/foundationCommon/Property.cdm.json/Pr
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultValueOptionSet attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

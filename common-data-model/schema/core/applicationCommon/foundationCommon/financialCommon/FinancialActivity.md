@@ -60,7 +60,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the financialActivityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -125,7 +125,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mainAccountCategoryKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -180,7 +180,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mainAccountKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -235,7 +235,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the companyKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -290,7 +290,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -345,7 +345,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalCalendarPeriodKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -400,7 +400,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ledgerDimensionDisplayValue attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -451,7 +451,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -502,7 +502,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountingCurrencyAmount attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -553,7 +553,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountingDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -602,7 +602,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fina
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ledgerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

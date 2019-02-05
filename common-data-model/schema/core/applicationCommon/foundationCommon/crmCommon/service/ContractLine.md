@@ -106,7 +106,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -187,7 +187,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -357,7 +357,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -438,7 +438,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -608,7 +608,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -778,7 +778,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -948,7 +948,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1031,7 +1031,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1109,7 +1109,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1189,7 +1189,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1282,7 +1282,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1448,7 +1448,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1618,7 +1618,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1786,7 +1786,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1870,7 +1870,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1952,7 +1952,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2029,7 +2029,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contractDetailId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2125,7 +2125,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2213,7 +2213,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activeOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2294,7 +2294,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allotmentsOverage attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2382,7 +2382,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allotmentsRemaining attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2470,7 +2470,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allotmentsUsed attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2555,7 +2555,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contractId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2721,7 +2721,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contractStateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2804,7 +2804,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contractStateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2843,7 +2843,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2916,7 +2916,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3011,7 +3011,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the discount attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3101,7 +3101,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3273,7 +3273,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3363,7 +3363,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the discountBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3463,7 +3463,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the discountPercentage attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3552,7 +3552,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the effectivityCalendar attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3640,7 +3640,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the expiresOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3721,7 +3721,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the initialQuantity attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3809,7 +3809,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lineItemOrder attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3897,7 +3897,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the net attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3989,7 +3989,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the netBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4088,7 +4088,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the price attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4176,7 +4176,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priceBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4274,7 +4274,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4445,7 +4445,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productSerialNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4536,7 +4536,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4628,7 +4628,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rateBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4726,7 +4726,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the serviceAddress attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4905,7 +4905,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the serviceContractUnitsCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4993,7 +4993,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the serviceContractUnitsCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5058,7 +5058,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5159,7 +5159,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5229,7 +5229,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5328,7 +5328,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5368,7 +5368,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the totalAllotments attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5450,7 +5450,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the uoMId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5620,7 +5620,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the uoMScheduleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5790,7 +5790,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5883,7 +5883,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Co
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

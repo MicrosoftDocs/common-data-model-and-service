@@ -65,7 +65,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the campaignActivityItemId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -148,7 +148,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -229,7 +229,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -315,7 +315,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -402,7 +402,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -490,7 +490,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -577,7 +577,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -668,7 +668,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the campaignActivityIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -735,7 +735,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the campaignActivityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -814,7 +814,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the itemId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -932,7 +932,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the itemObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1003,7 +1003,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the itemObjectTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1042,7 +1042,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1122,7 +1122,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1214,7 +1214,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1284,7 +1284,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/CampaignAc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

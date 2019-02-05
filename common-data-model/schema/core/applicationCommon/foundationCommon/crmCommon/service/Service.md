@@ -76,7 +76,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the serviceId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -171,7 +171,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -256,7 +256,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -426,7 +426,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -511,7 +511,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -681,7 +681,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -851,7 +851,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1020,7 +1020,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1185,7 +1185,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1266,7 +1266,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1352,7 +1352,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1439,7 +1439,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1527,7 +1527,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1613,7 +1613,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1702,7 +1702,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the anchorOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1788,7 +1788,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the calendarId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1872,7 +1872,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1962,7 +1962,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the duration attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2046,7 +2046,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the granularity attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2196,7 +2196,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the initialStatusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2296,7 +2296,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the initialStatusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2334,7 +2334,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isSchedulable attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2407,7 +2407,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isVisible attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2483,7 +2483,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the resourceSpecId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2648,7 +2648,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the showResources attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2724,7 +2724,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the strategyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

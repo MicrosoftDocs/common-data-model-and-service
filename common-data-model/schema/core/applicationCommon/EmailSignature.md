@@ -77,7 +77,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailSignatureId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -172,7 +172,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -342,7 +342,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isPersonal attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -420,7 +420,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mimeType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -510,7 +510,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the body attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -600,7 +600,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -690,7 +690,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -779,7 +779,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -872,7 +872,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1043,7 +1043,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the presentationXml attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1132,7 +1132,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1217,7 +1217,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1387,7 +1387,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1472,7 +1472,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1552,7 +1552,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1647,7 +1647,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the generationTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1735,7 +1735,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the languageCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1829,7 +1829,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1914,7 +1914,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overwriteTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2019,7 +2019,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the componentState attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2106,7 +2106,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the componentState_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2145,7 +2145,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2315,7 +2315,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2485,7 +2485,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2577,7 +2577,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isCustomizable attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2650,7 +2650,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2735,7 +2735,7 @@ First included in: /core/applicationCommon/EmailSignature.cdm.json/EmailSignatur
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDefault attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 

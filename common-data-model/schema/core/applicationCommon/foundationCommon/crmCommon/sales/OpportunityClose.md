@@ -133,7 +133,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -214,7 +214,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -384,7 +384,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -465,7 +465,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -635,7 +635,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -805,7 +805,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -975,7 +975,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1058,7 +1058,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1136,7 +1136,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1216,7 +1216,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1309,7 +1309,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1475,7 +1475,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1645,7 +1645,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1813,7 +1813,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1897,7 +1897,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1979,7 +1979,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2130,7 +2130,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2236,7 +2236,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2327,7 +2327,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2395,7 +2395,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2460,7 +2460,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2550,7 +2550,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2632,7 +2632,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2671,7 +2671,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2740,7 +2740,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2849,7 +2849,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2924,7 +2924,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2999,7 +2999,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3087,7 +3087,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3170,7 +3170,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledDurationMinutes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3252,7 +3252,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualDurationMinutes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3332,7 +3332,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3409,7 +3409,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3487,7 +3487,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the category attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3571,7 +3571,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subcategory attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3653,7 +3653,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityAdditionalParams attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3736,7 +3736,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the to attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3823,7 +3823,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the from attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3942,7 +3942,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the instanceTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4022,7 +4022,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the instanceTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4061,7 +4061,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isMapiPrivate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4130,7 +4130,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizer attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4217,7 +4217,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requiredAttendees attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4304,7 +4304,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the optionalAttendees attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4391,7 +4391,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the seriesId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4466,7 +4466,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the BCC attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4555,7 +4555,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the CC attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4644,7 +4644,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sentOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4719,7 +4719,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the senderMailboxId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4825,7 +4825,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the deliveryPriorityCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4907,7 +4907,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the deliveryPriorityCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4946,7 +4946,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the resources attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5054,7 +5054,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the community attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5136,7 +5136,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the community_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5175,7 +5175,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the leftVoiceMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -5244,7 +5244,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the deliveryLastAttemptedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -5320,7 +5320,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeItemId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5402,7 +5402,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeWebLink attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5485,7 +5485,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postponeActivityProcessingUntil attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -5560,7 +5560,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customers attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5647,7 +5647,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the partners attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5735,7 +5735,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5844,7 +5844,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5944,7 +5944,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6007,7 +6007,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6105,7 +6105,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6144,7 +6144,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6316,7 +6316,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -6405,7 +6405,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6494,7 +6494,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6577,7 +6577,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6660,7 +6660,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6830,7 +6830,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7002,7 +7002,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7088,7 +7088,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -7171,7 +7171,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the serviceId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7343,7 +7343,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualRevenue attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -7435,7 +7435,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualRevenueBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -7533,7 +7533,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the competitorId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7703,7 +7703,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the opportunityIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7772,7 +7772,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the opportunityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7869,7 +7869,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7962,7 +7962,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

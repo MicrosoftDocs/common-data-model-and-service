@@ -58,7 +58,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalCalendarPeriodId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -123,7 +123,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalCalendarName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -174,7 +174,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the periodName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -225,7 +225,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the periodOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -272,7 +272,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yearName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -325,7 +325,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yearOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -372,7 +372,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quarter attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -425,7 +425,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quarterOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -472,7 +472,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the month attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 

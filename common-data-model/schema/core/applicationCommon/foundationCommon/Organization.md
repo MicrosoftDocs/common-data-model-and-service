@@ -392,7 +392,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -487,7 +487,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -574,7 +574,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the userGroupId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -657,7 +657,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the privilegeUserGroupId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -741,7 +741,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the recurrenceExpansionJobBatchSize attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -824,7 +824,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the recurrenceExpansionJobBatchInterval attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -907,7 +907,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalPeriodType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -989,7 +989,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalCalendarStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1073,7 +1073,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dateFormatCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1156,7 +1156,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dateFormatCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1196,7 +1196,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeFormatCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1279,7 +1279,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeFormatCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1319,7 +1319,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currencySymbol attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1409,7 +1409,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the weekStartDayCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1492,7 +1492,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the weekStartDayCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1532,7 +1532,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dateSeparator attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1671,7 +1671,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fullNameConventionCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1762,7 +1762,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fullNameConventionCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1833,7 +1833,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the negativeFormatCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1921,7 +1921,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the negativeFormatCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1961,7 +1961,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the numberFormat attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2050,7 +2050,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDisabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2128,7 +2128,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the disabledReason attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2218,7 +2218,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the kbPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2309,7 +2309,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentKbNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2396,7 +2396,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the casePrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2487,7 +2487,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentCaseNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2574,7 +2574,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contractPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2665,7 +2665,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentContractNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2752,7 +2752,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quotePrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2843,7 +2843,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentQuoteNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2930,7 +2930,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the orderPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3021,7 +3021,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentOrderNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3108,7 +3108,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the invoicePrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3199,7 +3199,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentInvoiceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3287,7 +3287,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the uniqueSpecifierLength attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3373,7 +3373,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3458,7 +3458,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3544,7 +3544,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYearFormat attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3634,7 +3634,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalPeriodFormat attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3723,7 +3723,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYearPeriodConnect attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3810,7 +3810,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the languageCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3904,7 +3904,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sortId attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3991,7 +3991,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dateFormatString attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4081,7 +4081,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeFormatString attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4171,7 +4171,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the pricingDecimalPrecision attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4253,7 +4253,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the showWeekNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4332,7 +4332,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the nextTrackingNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4417,7 +4417,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the tagMaxAggressiveCycles attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4492,7 +4492,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the systemUserId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4575,7 +4575,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4745,7 +4745,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the grantAccessToNetworkService attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4821,7 +4821,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowOutlookScheduledSyncs attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4893,7 +4893,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowMarketingEmailExecution attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4966,7 +4966,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sqlAccessGroupId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5075,7 +5075,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currencyFormatCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5162,7 +5162,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currencyFormatCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5200,7 +5200,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalSettingsUpdated attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -5273,7 +5273,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the reportingGroupId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5356,7 +5356,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the tokenExpiry attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5434,7 +5434,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the shareToPreviousOwnerOnAssign attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -5507,7 +5507,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the acknowledgementTemplateId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5600,7 +5600,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5770,7 +5770,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the integrationUserId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5855,7 +5855,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the trackingTokenIdBase attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5941,7 +5941,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the businessClosureCalendarId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6024,7 +6024,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowAutoUnsubscribeAcknowledgement attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6101,7 +6101,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowAutoUnsubscribe attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6179,7 +6179,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the picture attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6268,7 +6268,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6348,7 +6348,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the trackingPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6438,7 +6438,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the minOutlookSyncInterval attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6520,7 +6520,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the bulkOperationPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6605,7 +6605,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowAutoResponseCreation attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6684,7 +6684,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maximumTrackingNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6770,7 +6770,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the campaignPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6856,7 +6856,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sqlAccessGroupName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6949,7 +6949,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentCampaignNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7034,7 +7034,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYearDisplayCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7110,7 +7110,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the siteMapXml attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7199,7 +7199,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isRegistered attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -7277,7 +7277,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the reportingGroupName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7370,7 +7370,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentBulkOperationNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7457,7 +7457,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the schemaNamePrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7547,7 +7547,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ignoreInternalEmail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -7621,7 +7621,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the tagPollingPeriod attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7703,7 +7703,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the trackingTokenIdDigits attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7783,7 +7783,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the numberGroupFormat attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7873,7 +7873,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the longDateFormatCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7957,7 +7957,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8045,7 +8045,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8132,7 +8132,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentImportSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8214,7 +8214,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parsedTablePrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8300,7 +8300,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the v3CalloutConfigHash attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8388,7 +8388,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isFiscalPeriodMonthBased attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -8462,7 +8462,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the localeId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8550,7 +8550,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parsedTableColumnPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8635,7 +8635,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the supportUserId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8718,7 +8718,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the AMDesignator attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8817,7 +8817,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currencyDisplayOption attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8902,7 +8902,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currencyDisplayOption_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8942,7 +8942,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the minAddressBookSyncInterval attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9023,7 +9023,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDuplicateDetectionEnabledForOnlineCreateUpdate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9097,7 +9097,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the featureSet attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9187,7 +9187,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the blockedAttachments attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9275,7 +9275,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDuplicateDetectionEnabledForOfflineSync attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9347,7 +9347,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowOfflineScheduledSyncs attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9419,7 +9419,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowUnresolvedPartiesOnEmailSend attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9493,7 +9493,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeSeparator attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9583,7 +9583,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentParsedTableNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9666,7 +9666,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the minOfflineSyncInterval attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9747,7 +9747,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowWebExcelExport attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9821,7 +9821,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the referenceSiteMapXml attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9909,7 +9909,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDuplicateDetectionEnabledForImport attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9984,7 +9984,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the calendarType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10070,7 +10070,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SQMEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -10148,7 +10148,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the negativeCurrencyFormatCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10229,7 +10229,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowAddressBookSyncs attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -10352,7 +10352,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ISVIntegrationCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10443,7 +10443,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ISVIntegrationCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10482,7 +10482,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the decimalSymbol attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10568,7 +10568,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxUploadFileSize attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10649,7 +10649,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isAppMode attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -10721,7 +10721,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the enablePricingOnCreate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -10793,7 +10793,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isSOPIntegrationEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -10866,7 +10866,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the PMDesignator attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10952,7 +10952,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currencyDecimalPrecision attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11035,7 +11035,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxAppointmentDurationDays attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11118,7 +11118,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailSendPollingPeriod attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11199,7 +11199,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the renderSecureIFrameForEmail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -11272,7 +11272,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the numberSeparator attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11357,7 +11357,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the privReportingGroupId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11440,7 +11440,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the baseCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11611,7 +11611,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxRecordsForExportToExcel attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11694,7 +11694,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the privReportingGroupName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11786,7 +11786,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yearStartWeekCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11868,7 +11868,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isPresenceEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -11944,7 +11944,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDuplicateDetectionEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -12018,7 +12018,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the expireSubscriptionsInDays attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12099,7 +12099,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isAuditEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -12173,7 +12173,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the baseCurrencyPrecision attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12255,7 +12255,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the baseCurrencySymbol attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12341,7 +12341,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxRecordsForLookupFilters attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12422,7 +12422,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowEntityOnlyAudit attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -12516,7 +12516,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultRecurrenceEndRangeType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12606,7 +12606,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultRecurrenceEndRangeType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12646,7 +12646,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the futureExpansionWindow attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12729,7 +12729,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the pastExpansionWindow attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12812,7 +12812,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the recurrenceExpansionSynchCreateMax attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12895,7 +12895,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the recurrenceDefaultNumberOfOccurrences attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12977,7 +12977,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13147,7 +13147,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13316,7 +13316,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the getStartedPaneContentEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -13388,7 +13388,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the useReadForm attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -13462,7 +13462,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the initialVersion attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13551,7 +13551,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sampleDataImportId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13660,7 +13660,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the reportScriptErrors attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -13747,7 +13747,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the reportScriptErrors_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13785,7 +13785,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requireApprovalForUserEmail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -13857,7 +13857,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the requireApprovalForQueueEmail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -13931,7 +13931,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the goalRollupExpiryTime attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -14014,7 +14014,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the goalRollupFrequency attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -14095,7 +14095,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the autoApplyDefaultonCaseCreate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -14167,7 +14167,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the autoApplyDefaultonCaseUpdate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -14255,7 +14255,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYearFormatPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -14344,7 +14344,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYearFormatPrefix_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14404,7 +14404,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYearFormatSuffix attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -14494,7 +14494,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYearFormatSuffix_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14554,7 +14554,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYearFormatYear attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -14644,7 +14644,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYearFormatYear_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14697,7 +14697,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the discountCalculationMethod attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -14782,7 +14782,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the discountCalculationMethod_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14866,7 +14866,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalPeriodFormatPeriod attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -14960,7 +14960,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalPeriodFormatPeriod_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14998,7 +14998,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowClientMessageBarAd attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -15070,7 +15070,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowUserFormModePreference attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -15144,7 +15144,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the hashFilterKeywords attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15235,7 +15235,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the hashMaxCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -15323,7 +15323,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the hashDeltaSubjectCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -15411,7 +15411,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the hashMinAddressCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -15497,7 +15497,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the enableSmartMatching attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -15572,7 +15572,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the pinpointLanguageCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15641,7 +15641,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the orgDbOrgSettings attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15729,7 +15729,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isUserAccessAuditEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -15803,7 +15803,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the userAccessAuditingInterval attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -15884,7 +15884,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quickFindRecordLimitEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -15956,7 +15956,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the enableBingMapsIntegration attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -16028,7 +16028,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDefaultCountryCodeCheckEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -16102,7 +16102,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultCountryCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16190,7 +16190,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the useSkypeProtocol attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -16265,7 +16265,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the incomingEmailExchangeEmailRetrievalBatchSize attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -16350,7 +16350,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailCorrelationEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -16423,7 +16423,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yammerOAuthAccessTokenExpired attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -16501,7 +16501,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultEmailSettings attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16594,7 +16594,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yammerGroupId attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -16681,7 +16681,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yammerNetworkPermalink attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16785,7 +16785,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yammerPostMethod attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -16874,7 +16874,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yammerPostMethod_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -16927,7 +16927,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailConnectionChannel attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -17012,7 +17012,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailConnectionChannel_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -17051,7 +17051,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultEmailServerProfileId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -17143,7 +17143,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isAutoSaveEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -17217,7 +17217,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the bingMapsApiKey attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -17305,7 +17305,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the generateAlertsForErrors attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -17377,7 +17377,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the generateAlertsForInformation attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -17449,7 +17449,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the generateAlertsForWarnings attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -17521,7 +17521,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the notifyMailboxOwnerOfEmailServerLevelAlerts attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -17596,7 +17596,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maximumActiveBusinessProcessFlowsAllowedPerEntity attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -17682,7 +17682,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -17764,7 +17764,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowUsersSeeAppdownloadMessage attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -17837,7 +17837,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the signupOutlookDownloadFWLink attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -17922,7 +17922,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the cascadeStatusUpdate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -17999,7 +17999,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the restrictStatusUpdate attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -18075,7 +18075,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the suppressSLA attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -18148,7 +18148,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the socialInsightsTermsAccepted attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -18226,7 +18226,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the socialInsightsInstance attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -18314,7 +18314,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the disableSocialCare attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -18388,7 +18388,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxProductsInBundle attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -18470,7 +18470,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the useInbuiltRuleForDefaultPricelistSelection attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -18546,7 +18546,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the OOBPriceCalculationEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -18618,7 +18618,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isHierarchicalSecurityModelEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -18692,7 +18692,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maximumDynamicPropertiesAllowed attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -18773,7 +18773,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the usePositionHierarchy attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -18847,7 +18847,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxDepthForHierarchicalSecurityModel attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -18930,7 +18930,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the slaPauseStates attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19019,7 +19019,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the socialInsightsEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -19095,7 +19095,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isAppointmentAttachmentSyncEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -19167,7 +19167,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isAssignedTasksSyncEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -19239,7 +19239,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isContactMailingAddressSyncEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -19313,7 +19313,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxSupportedInternetExplorerVersion attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -19396,7 +19396,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the globalHelpUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19486,7 +19486,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the globalHelpUrlEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -19558,7 +19558,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the globalAppendUrlParametersEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -19632,7 +19632,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the KMSettings attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -19720,7 +19720,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createProductsWithoutParentInActiveState attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -19792,7 +19792,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isMailboxInactiveBackoffEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -19864,7 +19864,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isFullTextSearchEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -19936,7 +19936,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the enforceReadOnlyPlugins attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -20024,7 +20024,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sharePointDeploymentType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -20113,7 +20113,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sharePointDeploymentType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -20179,7 +20179,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationState attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -20270,7 +20270,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationState_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -20310,7 +20310,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultThemeData attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -20398,7 +20398,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isFolderBasedTrackingEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -20471,7 +20471,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webResourceHash attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -20557,7 +20557,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the expireChangeTrackingInDays attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -20640,7 +20640,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxFolderBasedTrackingMappings attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -20723,7 +20723,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the privacyStatementUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -20834,7 +20834,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the pluginTraceLogSetting attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -20920,7 +20920,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the pluginTraceLogSetting_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -20958,7 +20958,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isMailboxForcedUnlockingEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -21032,7 +21032,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mailboxIntermittentIssueMinRange attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -21115,7 +21115,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mailboxPermanentIssueMinRange attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -21198,7 +21198,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the highContrastThemeData attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -21287,7 +21287,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the delegatedAdminUserId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -21369,7 +21369,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isExternalSearchIndexEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -21441,7 +21441,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isMobileOfflineEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -21513,7 +21513,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isOfficeGraphEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -21585,7 +21585,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isOneDriveEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -21659,7 +21659,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the externalPartyEntitySettings attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -21749,7 +21749,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the externalPartyCorrelationKeys attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -21839,7 +21839,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxVerboseLoggingMailbox attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -21922,7 +21922,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxVerboseLoggingSyncCycles attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -22005,7 +22005,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mobileOfflineSyncInterval attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -22088,7 +22088,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the officeGraphDelveUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -22180,7 +22180,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mobileOfflineMinLicenseTrial attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -22263,7 +22263,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mobileOfflineMinLicenseProd attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -22346,7 +22346,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the daysSinceRecordLastModifiedMaxValue attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -22427,7 +22427,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the taskBasedFlowEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -22499,7 +22499,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the showKBArticleDeprecationNotification attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -22573,7 +22573,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the azureSchedulerJobCollectionName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -22663,7 +22663,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the cortanaProactiveExperienceEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -22735,7 +22735,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the officeAppsAutoDeploymentEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -22807,7 +22807,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the appDesignerExperienceEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -22879,7 +22879,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the enableImmersiveSkypeIntegration attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -22951,7 +22951,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the autoApplySLA attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -23023,7 +23023,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isEmailServerProfileContentFilteringEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -23095,7 +23095,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDelegateAccessEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -23167,7 +23167,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the displayNavigationTour attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -23239,7 +23239,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the useLegacyRendering attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -23312,7 +23312,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultMobileOfflineProfileId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -23405,7 +23405,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the kaPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -23491,7 +23491,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentKaNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -23574,7 +23574,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the currentCategoryNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -23656,7 +23656,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the categoryPrefix attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -23743,7 +23743,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maximumEntitiesWithActiveSLA attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -23831,7 +23831,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maximumSLAKPIPerEntityWithActiveSLA attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -23916,7 +23916,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isConflictDetectionEnabledForMobileClient attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -23989,7 +23989,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDelveActionHubIntegrationEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24065,7 +24065,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the orgInsightsEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24137,7 +24137,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the productRecommendationsEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24209,7 +24209,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the textAnalyticsEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24284,7 +24284,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxConditionsForMobileOfflineFilters attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -24369,7 +24369,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isFolderAutoCreatedonSP attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24441,7 +24441,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the powerBiFeatureEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24513,7 +24513,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isActionCardEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24585,7 +24585,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isEmailMonitoringAllowed attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24658,7 +24658,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isActivityAnalysisEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24734,7 +24734,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isAutoDataCaptureEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24808,7 +24808,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the externalBaseUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -24898,7 +24898,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isPreviewEnabledForActionCard attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -24970,7 +24970,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isPreviewForEmailMonitoringAllowed attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -25042,7 +25042,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the unresolveEmailAddressIfMultipleMatch attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -25117,7 +25117,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the riErrorStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -25204,7 +25204,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the widgetProperties attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -25292,7 +25292,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the enableMicrosoftFlowIntegration attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -25364,7 +25364,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isEnabledForAllRoles attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -25436,7 +25436,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isPreviewForAutoCaptureEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -25509,7 +25509,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the defaultCrmCustomName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -25597,7 +25597,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ACIWebEndpointUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -25687,7 +25687,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the enableLPAuthoring attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -25759,7 +25759,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isResourceBookingExchangeSyncEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -25831,7 +25831,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isMobileClientOnDemandSyncEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -25905,7 +25905,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postMessageWhitelistDomains attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -25994,7 +25994,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isRelationshipInsightsEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -26070,7 +26070,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the resolveSimilarUnresolvedEmailAddress attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -26142,7 +26142,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isTextWrapEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -26214,7 +26214,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionTimeoutEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -26289,7 +26289,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionTimeoutInMins attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -26377,7 +26377,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sessionTimeoutReminderInMins attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -26464,7 +26464,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the microsoftFlowEnvironment attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -26552,7 +26552,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inactivityTimeoutEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -26627,7 +26627,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inactivityTimeoutInMins attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -26715,7 +26715,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inactivityTimeoutReminderInMins attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -26800,7 +26800,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the syncOptInSelection attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -26894,7 +26894,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the syncOptInSelectionStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -26984,7 +26984,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the syncOptInSelectionStatus_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -27022,7 +27022,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isActionSupportFeatureEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -27094,7 +27094,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isBPFEntityCustomizationFeatureEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -27166,7 +27166,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the boundDashboardDefaultCardExpanded attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -27240,7 +27240,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the maxActionStepsInBPF attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -27321,7 +27321,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the serveStaticResourcesFromAzureCDN attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -27393,7 +27393,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isExternalFileStorageEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -27467,7 +27467,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the clientFeatureSet attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -27555,7 +27555,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isReadAuditEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -27628,7 +27628,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isNotesAnalysisEnabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -27704,7 +27704,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowLegacyDialogsEmbedding attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -27776,7 +27776,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the appointmentRichEditorExperience attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -27858,7 +27858,7 @@ First included in: /core/applicationCommon/foundationCommon/Organization.cdm.jso
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the schedulingEngine attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -27946,7 +27946,7 @@ First included in: /core/applicationCommon/foundationCommon/Organization.cdm.jso
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the schedulingEngine_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

@@ -62,7 +62,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the resourceGroupId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -224,7 +224,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the businessUnitId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -394,7 +394,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -475,7 +475,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -561,7 +561,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -648,7 +648,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -736,7 +736,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -823,7 +823,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -935,7 +935,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the groupTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1025,7 +1025,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the groupTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1063,7 +1063,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1141,7 +1141,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

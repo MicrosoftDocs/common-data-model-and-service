@@ -138,7 +138,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -219,7 +219,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -389,7 +389,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -470,7 +470,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -640,7 +640,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -810,7 +810,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -980,7 +980,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1063,7 +1063,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1141,7 +1141,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1221,7 +1221,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1314,7 +1314,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1480,7 +1480,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1650,7 +1650,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1818,7 +1818,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1902,7 +1902,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1984,7 +1984,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2061,7 +2061,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the goalId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2170,7 +2170,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2269,7 +2269,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2332,7 +2332,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2430,7 +2430,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2470,7 +2470,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the title attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2754,7 +2754,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalPeriod attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2873,7 +2873,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalPeriod_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3329,7 +3329,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYear attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3485,7 +3485,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fiscalYear_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3524,7 +3524,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the goalStartDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3607,7 +3607,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the goalEndDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3690,7 +3690,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the goalOwnerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3759,7 +3759,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the goalOwnerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3856,7 +3856,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentGoalId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4026,7 +4026,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4198,7 +4198,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4286,7 +4286,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the metricId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4456,7 +4456,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the treeId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4541,7 +4541,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the depth attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4629,7 +4629,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stretchTargetMoney attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4721,7 +4721,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stretchTargetMoneyBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4821,7 +4821,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stretchTargetDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -4911,7 +4911,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stretchTargetInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4999,7 +4999,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the targetMoney attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5091,7 +5091,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the targetMoneyBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5191,7 +5191,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the targetDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5281,7 +5281,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the targetInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5369,7 +5369,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualMoney attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5461,7 +5461,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualMoneyBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5561,7 +5561,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customRollupFieldMoney attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5653,7 +5653,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customRollupFieldMoneyBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5753,7 +5753,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inProgressMoney attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5845,7 +5845,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inProgressMoneyBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5945,7 +5945,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -6035,7 +6035,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customRollupFieldDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -6125,7 +6125,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inProgressDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -6215,7 +6215,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6303,7 +6303,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customRollupFieldInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6391,7 +6391,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inProgressInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6479,7 +6479,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the percentage attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -6567,7 +6567,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isFiscalPeriodGoal attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6643,7 +6643,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the considerOnlyGoalOwnersRecords attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -6716,7 +6716,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastRolledupDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -6800,7 +6800,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the targetString attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6890,7 +6890,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stretchTargetString attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6980,7 +6980,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualString attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7070,7 +7070,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customRollupFieldString attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7160,7 +7160,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inProgressString attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7270,7 +7270,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the amountDataType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7360,7 +7360,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the amountDataType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7399,7 +7399,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isAmount attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -7476,7 +7476,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollupQueryActualIntegerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7569,7 +7569,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollUpQueryActualMoneyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7662,7 +7662,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollUpQueryActualDecimalId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7755,7 +7755,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollUpQueryCustomIntegerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7848,7 +7848,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollUpQueryCustomMoneyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7941,7 +7941,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollUpQueryCustomDecimalId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8034,7 +8034,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollUpQueryInprogressIntegerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8127,7 +8127,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollUpQueryInprogressMoneyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8220,7 +8220,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollUpQueryInprogressDecimalId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8312,7 +8312,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollupOnlyFromChildGoals attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -8385,7 +8385,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the goalWithErrorId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8557,7 +8557,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the rollupErrorCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8645,7 +8645,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the computedTargetAsOfTodayPercentageAchieved attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -8735,7 +8735,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the computedTargetAsOfTodayMoney attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -8827,7 +8827,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the computedTargetAsOfTodayMoneyBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -8927,7 +8927,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the computedTargetAsOfTodayDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -9017,7 +9017,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the computedTargetAsOfTodayInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9103,7 +9103,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isOverride attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9180,7 +9180,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isOverridden attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9257,7 +9257,7 @@ First included in: /core/applicationCommon/Goal.cdm.json/Goal
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

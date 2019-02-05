@@ -80,7 +80,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -161,7 +161,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -331,7 +331,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -412,7 +412,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -582,7 +582,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -752,7 +752,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -922,7 +922,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1005,7 +1005,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1083,7 +1083,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1163,7 +1163,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1256,7 +1256,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1422,7 +1422,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1592,7 +1592,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1760,7 +1760,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1844,7 +1844,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1926,7 +1926,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2003,7 +2003,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dynamicPropertyInstanceIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2072,7 +2072,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dynamicPropertyInstanceid attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2172,7 +2172,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2265,7 +2265,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the valueInteger attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2353,7 +2353,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the valueDecimal attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2443,7 +2443,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the valueDouble attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -2532,7 +2532,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the valueString attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2620,7 +2620,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the dynamicPropertyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2785,7 +2785,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isValid attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2862,7 +2862,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2957,7 +2957,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -3045,7 +3045,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Prop
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

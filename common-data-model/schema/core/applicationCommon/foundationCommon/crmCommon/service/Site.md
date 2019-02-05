@@ -112,7 +112,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the siteId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -207,7 +207,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -292,7 +292,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -462,7 +462,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -547,7 +547,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -717,7 +717,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -887,7 +887,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1056,7 +1056,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1204,7 +1204,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1285,7 +1285,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1371,7 +1371,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1458,7 +1458,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1546,7 +1546,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1632,7 +1632,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1719,7 +1719,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1813,7 +1813,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1901,7 +1901,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1941,7 +1941,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2033,7 +2033,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2125,7 +2125,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2217,7 +2217,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2308,7 +2308,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -2399,7 +2399,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2491,7 +2491,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2583,7 +2583,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2676,7 +2676,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -2767,7 +2767,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2859,7 +2859,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2951,7 +2951,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3049,7 +3049,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3137,7 +3137,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3177,7 +3177,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3269,7 +3269,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3361,7 +3361,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3453,7 +3453,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3545,7 +3545,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3636,7 +3636,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3728,7 +3728,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3822,7 +3822,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3910,7 +3910,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3950,7 +3950,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4042,7 +4042,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4134,7 +4134,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4226,7 +4226,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4317,7 +4317,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -4408,7 +4408,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4500,7 +4500,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4592,7 +4592,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4685,7 +4685,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -4776,7 +4776,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4868,7 +4868,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4960,7 +4960,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5058,7 +5058,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5146,7 +5146,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5186,7 +5186,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5278,7 +5278,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5370,7 +5370,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5462,7 +5462,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5554,7 +5554,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5645,7 +5645,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5738,7 +5738,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailAddress attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5830,7 +5830,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Si
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

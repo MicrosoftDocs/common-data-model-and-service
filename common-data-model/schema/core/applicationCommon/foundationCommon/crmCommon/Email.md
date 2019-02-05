@@ -156,7 +156,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -237,7 +237,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -407,7 +407,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -488,7 +488,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -658,7 +658,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -828,7 +828,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -998,7 +998,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1081,7 +1081,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1159,7 +1159,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1239,7 +1239,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1332,7 +1332,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1498,7 +1498,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1668,7 +1668,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1836,7 +1836,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1920,7 +1920,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2002,7 +2002,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2153,7 +2153,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2259,7 +2259,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2350,7 +2350,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2418,7 +2418,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2483,7 +2483,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2573,7 +2573,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2655,7 +2655,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2694,7 +2694,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2763,7 +2763,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2872,7 +2872,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2947,7 +2947,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3022,7 +3022,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3110,7 +3110,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3193,7 +3193,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledDurationMinutes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3275,7 +3275,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualDurationMinutes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3355,7 +3355,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3432,7 +3432,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3510,7 +3510,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the category attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3594,7 +3594,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subcategory attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3676,7 +3676,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityAdditionalParams attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3759,7 +3759,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the to attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3854,7 +3854,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the from attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3941,7 +3941,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the BCC attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4038,7 +4038,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the CC attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4135,7 +4135,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sentOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -4210,7 +4210,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the senderMailboxId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4316,7 +4316,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the deliveryPriorityCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4398,7 +4398,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the deliveryPriorityCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4437,7 +4437,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the directionCode attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4621,7 +4621,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4732,7 +4732,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4772,7 +4772,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the submittedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4862,7 +4862,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4952,7 +4952,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mimeType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5041,7 +5041,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the readReceiptRequested attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -5119,7 +5119,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the trackingToken attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5209,7 +5209,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sender attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5299,7 +5299,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the toRecipients attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5388,7 +5388,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the deliveryReceiptRequested attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -5485,7 +5485,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5585,7 +5585,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5625,7 +5625,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the messageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5716,7 +5716,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the deliveryAttempts attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5802,7 +5802,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the compressed attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -5900,7 +5900,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the notifications attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5990,7 +5990,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the notifications_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6029,7 +6029,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6201,7 +6201,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -6289,7 +6289,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailSenderObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6358,7 +6358,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailSender attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6532,7 +6532,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sendersAccountObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6601,7 +6601,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sendersAccount attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6699,7 +6699,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the attachmentCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6781,7 +6781,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentActivityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6952,7 +6952,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inReplyTo attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7043,7 +7043,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the baseConversationIndexHash attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7130,7 +7130,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the conversationIndex attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7270,7 +7270,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the correlationMethod attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7365,7 +7365,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the correlationMethod_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7404,7 +7404,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postponeEmailProcessingUntil attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -7487,7 +7487,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7570,7 +7570,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7655,7 +7655,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isUnsafe attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7741,7 +7741,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7911,7 +7911,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8083,7 +8083,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8169,7 +8169,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -8253,7 +8253,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8344,7 +8344,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the attachmentOpenCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8430,7 +8430,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the conversationTrackingId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8513,7 +8513,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the delayedEmailSendTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -8596,7 +8596,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastOpenedTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -8681,7 +8681,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the linksClickedCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8769,7 +8769,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the openCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8857,7 +8857,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the replyCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -8943,7 +8943,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailTrackingId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9026,7 +9026,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the followEmailUserPreference attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9103,7 +9103,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isEmailFollowed attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9180,7 +9180,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailReminderExpiryTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -9284,7 +9284,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailReminderType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9374,7 +9374,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailReminderType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9440,7 +9440,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailReminderStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9531,7 +9531,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailReminderStatus_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9571,7 +9571,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the emailReminderText attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9662,7 +9662,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the templateId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9755,7 +9755,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the reminderActionCardId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9838,7 +9838,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isEmailReminderSet attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9915,7 +9915,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Email.cdm.
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the serviceId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

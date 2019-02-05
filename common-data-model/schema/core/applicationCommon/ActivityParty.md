@@ -73,7 +73,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -238,7 +238,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityPartyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -333,7 +333,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the partyObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -402,7 +402,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the partyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -567,7 +567,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the participationTypeMask attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -661,7 +661,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the participationTypeMask_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -701,7 +701,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the addressUsed attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -790,7 +790,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -867,7 +867,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -950,7 +950,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1035,7 +1035,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the effort attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -1123,7 +1123,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1201,7 +1201,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeEntryId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1286,7 +1286,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1341,7 +1341,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1418,7 +1418,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1495,7 +1495,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1575,7 +1575,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1700,7 +1700,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the instanceTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1788,7 +1788,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the instanceTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1826,7 +1826,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isPartyDeleted attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1901,7 +1901,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the addressUsedEmailColumnNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 

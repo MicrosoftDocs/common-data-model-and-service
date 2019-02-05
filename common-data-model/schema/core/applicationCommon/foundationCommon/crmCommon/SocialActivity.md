@@ -122,7 +122,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -203,7 +203,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -373,7 +373,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -454,7 +454,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -624,7 +624,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -794,7 +794,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -964,7 +964,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1047,7 +1047,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1125,7 +1125,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1205,7 +1205,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1298,7 +1298,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1464,7 +1464,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1634,7 +1634,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1802,7 +1802,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1886,7 +1886,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1968,7 +1968,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2119,7 +2119,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2225,7 +2225,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2316,7 +2316,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isBilled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2384,7 +2384,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isRegularActivity attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2449,7 +2449,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isWorkflowCreated attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2539,7 +2539,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2621,7 +2621,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2660,7 +2660,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2729,7 +2729,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the regardingObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2838,7 +2838,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2913,7 +2913,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2988,7 +2988,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sortDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3076,7 +3076,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3159,7 +3159,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduledDurationMinutes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3241,7 +3241,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualDurationMinutes attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3321,7 +3321,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualEnd attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3398,7 +3398,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the actualStart attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3476,7 +3476,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the activityAdditionalParams attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3559,7 +3559,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the to attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3655,7 +3655,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the from attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3750,7 +3750,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the resources attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3866,7 +3866,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the community attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3948,7 +3948,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the community_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3987,7 +3987,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the directionCode attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -4057,7 +4057,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4147,7 +4147,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4236,7 +4236,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4319,7 +4319,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4423,7 +4423,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4527,7 +4527,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4604,7 +4604,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4704,7 +4704,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4743,7 +4743,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4915,7 +4915,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -5005,7 +5005,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the sentimentValue attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -5093,7 +5093,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -5177,7 +5177,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postURL attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5269,7 +5269,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the inResponseTo attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5373,7 +5373,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postMessageType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5462,7 +5462,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postMessageType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5502,7 +5502,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5592,7 +5592,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the threadId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5681,7 +5681,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5851,7 +5851,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postFromProfileId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6022,7 +6022,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postToProfileId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6111,7 +6111,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postAuthorAccountType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6184,7 +6184,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postAuthorAccount attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6285,7 +6285,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postAuthorType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6358,7 +6358,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the postAuthor attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6460,7 +6460,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the socialAdditionalParams attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6549,7 +6549,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6721,7 +6721,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6807,7 +6807,7 @@ First included in: /core/applicationCommon/SocialActivity.cdm.json/SocialActivit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -6890,7 +6890,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/SocialActi
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the serviceId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

@@ -90,7 +90,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -185,7 +185,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -272,7 +272,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the businessHoursId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -374,7 +374,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -462,7 +462,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -501,7 +501,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -671,7 +671,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -841,7 +841,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1012,7 +1012,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1102,7 +1102,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the changedAttributeList attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1192,7 +1192,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the applicableFrom attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1281,7 +1281,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDefault attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1358,7 +1358,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1443,7 +1443,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1613,7 +1613,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1698,7 +1698,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1870,7 +1870,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -1958,7 +1958,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2037,7 +2037,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2221,7 +2221,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2320,7 +2320,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2376,7 +2376,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2473,7 +2473,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2511,7 +2511,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the solutionId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2616,7 +2616,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the componentState attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2703,7 +2703,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the componentState_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2741,7 +2741,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overwriteTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -2819,7 +2819,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isManaged attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -2891,7 +2891,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAIdUnique attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2970,7 +2970,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3050,7 +3050,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3158,7 +3158,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the applicableFromPickList attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3247,7 +3247,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the applicableFromPickList_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3286,7 +3286,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the workflowId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3378,7 +3378,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the allowPauseResume attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3465,7 +3465,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3550,7 +3550,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAType_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3589,7 +3589,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3759,7 +3759,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3930,7 +3930,7 @@ First included in: /core/applicationCommon/SLA.cdm.json/SLA
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the primaryEntityOTC attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 

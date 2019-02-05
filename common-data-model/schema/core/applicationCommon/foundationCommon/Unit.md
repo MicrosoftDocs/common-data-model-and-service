@@ -70,7 +70,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the uoMId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -165,7 +165,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -250,7 +250,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -420,7 +420,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -505,7 +505,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -675,7 +675,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -845,7 +845,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1015,7 +1015,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1096,7 +1096,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1182,7 +1182,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1269,7 +1269,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1357,7 +1357,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1443,7 +1443,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1530,7 +1530,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the baseUoM attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1700,7 +1700,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isScheduleBaseUoM attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1776,7 +1776,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1857,7 +1857,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the quantity attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -1944,7 +1944,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the uoMScheduleId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2109,7 +2109,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdByExternalParty attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2202,7 +2202,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedByExternalParty attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

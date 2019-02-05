@@ -65,7 +65,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the resourceId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -226,7 +226,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the businessUnitId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -391,7 +391,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -472,7 +472,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -558,7 +558,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -645,7 +645,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -733,7 +733,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -820,7 +820,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -911,7 +911,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the calendarId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -994,7 +994,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the displayInServiceViews attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1071,7 +1071,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the isDisabled attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -1147,7 +1147,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the objectTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1225,7 +1225,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the organizationId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1390,7 +1390,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the siteId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1556,7 +1556,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

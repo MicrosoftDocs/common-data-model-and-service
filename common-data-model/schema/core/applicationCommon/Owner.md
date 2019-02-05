@@ -51,7 +51,7 @@ First included in: /core/applicationCommon/Owner.cdm.json/Owner
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -106,7 +106,7 @@ First included in: /core/applicationCommon/Owner.cdm.json/Owner
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -202,7 +202,7 @@ First included in: /core/applicationCommon/Owner.cdm.json/Owner
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -290,7 +290,7 @@ First included in: /core/applicationCommon/Owner.cdm.json/Owner
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -349,7 +349,7 @@ First included in: /core/applicationCommon/Owner.cdm.json/Owner
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 

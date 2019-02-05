@@ -94,7 +94,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -175,7 +175,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -345,7 +345,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -426,7 +426,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -596,7 +596,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -766,7 +766,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -936,7 +936,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1019,7 +1019,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1097,7 +1097,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1177,7 +1177,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1270,7 +1270,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1436,7 +1436,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1606,7 +1606,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1774,7 +1774,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1858,7 +1858,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1940,7 +1940,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2017,7 +2017,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the listId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2112,7 +2112,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the listName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2199,7 +2199,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2282,7 +2282,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2366,7 +2366,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2457,7 +2457,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the cost attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2547,7 +2547,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2719,7 +2719,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2809,7 +2809,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the costBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -2927,7 +2927,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdFromCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3013,7 +3013,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdFromCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3053,7 +3053,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3142,7 +3142,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotSendOnOptOut attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3219,7 +3219,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ignoreInactiveListMembers attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3296,7 +3296,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastUsedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -3379,7 +3379,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lockStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -3458,7 +3458,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the memberCount attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3546,7 +3546,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the memberType attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3633,7 +3633,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the purpose attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3723,7 +3723,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the query attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3813,7 +3813,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the source attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3916,7 +3916,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4015,7 +4015,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4071,7 +4071,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4168,7 +4168,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4206,7 +4206,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/MarketingL
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the type attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 

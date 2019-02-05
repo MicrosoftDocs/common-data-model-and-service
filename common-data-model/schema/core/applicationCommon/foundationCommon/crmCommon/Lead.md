@@ -219,7 +219,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -300,7 +300,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -470,7 +470,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -551,7 +551,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -721,7 +721,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the createdOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -891,7 +891,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the modifiedOnBehalfBy attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1061,7 +1061,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -1144,7 +1144,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1222,7 +1222,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1302,7 +1302,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the ownerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1395,7 +1395,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningBusinessUnit attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1561,7 +1561,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningUser attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1731,7 +1731,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the owningTeam attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -1899,7 +1899,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -1983,7 +1983,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2065,7 +2065,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the versionNumber attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -2142,7 +2142,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the leadId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2238,7 +2238,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fullName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2329,7 +2329,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the processId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2412,7 +2412,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2496,7 +2496,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the traversedPath attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2585,7 +2585,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentAccountId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2755,7 +2755,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the parentContactId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -2925,7 +2925,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1AddressId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3019,7 +3019,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1AddressTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -3107,7 +3107,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1AddressTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3147,7 +3147,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1City attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3239,7 +3239,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Composite attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3329,7 +3329,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Country attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3421,7 +3421,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1County attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3513,7 +3513,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3604,7 +3604,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Latitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -3695,7 +3695,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Line1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3787,7 +3787,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Line2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3879,7 +3879,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Line3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -3972,7 +3972,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Longitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -4063,7 +4063,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4155,7 +4155,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1PostalCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4247,7 +4247,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1PostOfficeBox attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4345,7 +4345,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1ShippingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -4433,7 +4433,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1ShippingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4473,7 +4473,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1StateOrProvince attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4565,7 +4565,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4657,7 +4657,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4749,7 +4749,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1Telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4841,7 +4841,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1UPSZone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -4932,7 +4932,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address1UTCOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5024,7 +5024,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2AddressId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5118,7 +5118,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2AddressTypeCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -5206,7 +5206,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2AddressTypeCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5246,7 +5246,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2City attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5338,7 +5338,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Composite attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5428,7 +5428,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Country attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5520,7 +5520,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2County attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5612,7 +5612,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5703,7 +5703,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Latitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -5794,7 +5794,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Line1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5886,7 +5886,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Line2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -5978,7 +5978,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Line3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6071,7 +6071,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Longitude attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -6162,7 +6162,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Name attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6254,7 +6254,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2PostalCode attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6346,7 +6346,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2PostOfficeBox attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6444,7 +6444,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2ShippingMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -6532,7 +6532,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2ShippingMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6572,7 +6572,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2StateOrProvince attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6664,7 +6664,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6756,7 +6756,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6848,7 +6848,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2Telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -6940,7 +6940,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2UPSZone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7031,7 +7031,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the address2UTCOffset attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7125,7 +7125,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the budgetAmount attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -7215,7 +7215,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the transactionCurrencyId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7387,7 +7387,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the exchangeRate attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -7477,7 +7477,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the budgetAmountBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -7602,7 +7602,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the budgetStatus attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -7693,7 +7693,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the budgetStatus_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7733,7 +7733,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the companyName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7824,7 +7824,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the confirmInterest attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -7901,7 +7901,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerIdType attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -7974,7 +7974,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the customerId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8067,7 +8067,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the decisionMaker attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -8145,7 +8145,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8234,7 +8234,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotBulkEMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -8311,7 +8311,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotEMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -8388,7 +8388,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotFax attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -8465,7 +8465,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotPhone attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -8542,7 +8542,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotPostalMail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -8619,7 +8619,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the doNotSendMM attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -8697,7 +8697,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the EMailAddress1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8789,7 +8789,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the EMailAddress2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8881,7 +8881,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the EMailAddress3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -8974,7 +8974,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the estimatedAmount attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -9066,7 +9066,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the estimatedAmountBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -9164,7 +9164,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the estimatedCloseDate attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -9249,7 +9249,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the estimatedValue attribute are listed below.</summary>
 
 ##### is.dataFormat.floatingPoint
 
@@ -9337,7 +9337,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the evaluateFit attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -9415,7 +9415,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the fax attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9505,7 +9505,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the firstName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9797,7 +9797,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the industryCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -9917,7 +9917,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the industryCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -9971,7 +9971,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the initialCommunication attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10060,7 +10060,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the initialCommunication_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10100,7 +10100,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the jobTitle attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10190,7 +10190,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10281,7 +10281,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastUsedInCampaign attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -10385,7 +10385,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the leadQualityCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10475,7 +10475,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the leadQualityCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10577,7 +10577,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the leadSourceCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -10674,7 +10674,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the leadSourceCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10713,7 +10713,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the masterId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -10883,7 +10883,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the merged attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -10961,7 +10961,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the middleName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11053,7 +11053,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the mobilePhone attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11171,7 +11171,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the need attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11262,7 +11262,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the need_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11303,7 +11303,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the numberOfEmployees attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11390,7 +11390,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the pager attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11479,7 +11479,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the participatesInWorkflow attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -11589,7 +11589,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the preferredContactMethodCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11681,7 +11681,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the preferredContactMethodCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11729,7 +11729,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11817,7 +11817,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the priorityCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -11877,7 +11877,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the purchaseProcess attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -11967,7 +11967,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the purchaseProcess_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12007,7 +12007,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the qualificationComments attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12098,7 +12098,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the revenue attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -12190,7 +12190,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the revenueBase attribute are listed below.</summary>
 
 ##### is.dataFormat.numeric.shaped
 
@@ -12297,7 +12297,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the salesStage attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12385,7 +12385,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the salesStage_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12433,7 +12433,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the salesStageCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -12521,7 +12521,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the salesStageCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12561,7 +12561,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the salutation attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12650,7 +12650,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduleFollowupProspect attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -12733,7 +12733,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the scheduleFollowUpQualify attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -12817,7 +12817,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SIC attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -12926,7 +12926,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -13026,7 +13026,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13117,7 +13117,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -13219,7 +13219,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13259,7 +13259,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the subject attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13349,7 +13349,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the telephone1 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13441,7 +13441,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the telephone2 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13533,7 +13533,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the telephone3 attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13657,7 +13657,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the purchaseTimeFrame attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -13749,7 +13749,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the purchaseTimeFrame_display attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13789,7 +13789,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the webSiteUrl attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -13880,7 +13880,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14050,7 +14050,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the SLAInvokedId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14222,7 +14222,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the onHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.integer
 
@@ -14308,7 +14308,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the lastOnHoldTime attribute are listed below.</summary>
 
 ##### is.dataFormat.date
 
@@ -14391,7 +14391,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the followEmail attribute are listed below.</summary>
 
 ##### is.dataFormat.boolean
 
@@ -14469,7 +14469,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the timeSpentByMeOnEmailAndMeetings attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14556,7 +14556,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the entityImageId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14615,7 +14615,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the accountId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14708,7 +14708,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the contactId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14802,7 +14802,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiCompanyName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14896,7 +14896,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiFirstName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -14990,7 +14990,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiFullName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15084,7 +15084,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiLastName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15178,7 +15178,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the yomiMiddleName attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15271,7 +15271,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the campaignId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15441,7 +15441,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the relatedObjectId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15611,7 +15611,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the originatingCaseId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
@@ -15781,7 +15781,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 #### Traits
 
 <details>
-<summary>Traits details.</summary>
+<summary>List of traits for the qualifyingOpportunityId attribute are listed below.</summary>
 
 ##### is.dataFormat.character
 
