@@ -3,7 +3,7 @@ title: "Errors and resolutions when upgrading previous version of Common Data Se
 description: "Provides known errors and resolutions when upgrading from previous version of Common Data Service to CDS for Apps"
 author: "JimDaly"
 manager: "annbe"
-ms.date: "01/24/2019"
+ms.date: "02/04/2019"
 ms.topic: "article"
 ms.custom: ""
 ms.service: "CommonDataService"
@@ -17,9 +17,9 @@ ms.author: jdaly
 
 This section provides information about possible errors you might see during upgrade steps and how to resolve them.
 
-|Error  |Description and resolution  |
+|Example Error  |Description and resolution  |
 |--|--|
-|Errors to migrate From CDM `PositionWorkerAssignment` to CDS2 `cdm_positionworkerassignmentmaps`, exported record count 17 but imported record count 0, error count 17|The overall data upgrade has completed but we encountered an error while upgrading this entity due to which either one or more records failed to upgrade. These records will not be available to you in CDS for Apps. Please create a support ticket if you need the missing data extracted from previous version of CDS.|
+|Errors to migrate From CDM `ExampleEntityName` to CDS2 `cdm_exampleentityname`, exported record count 17 but imported record count 0, error count 17|The overall data upgrade has completed but we encountered an error while upgrading this entity due to which either one or more records failed to upgrade. These records will not be available to you in CDS for Apps. Please create a support ticket if you need the missing data extracted from previous version of CDS.|
 |`CdsUpgradeInternalFailure` . The CDS upgrade process has encountered an error. The tracking id for this request was \<value> |We encountered an error due to which Upgrade has failed. You may retry the step.| 
 |Can't find XRM ID for user with oid \<value> when assigning to role \<value> (source role \<value>) in environment \<value>|The user with AAD Object Id {0} wasn’t synced to the upgraded CDS instance yet, so the role assignment to role {1} can’t be migrated for that user. Unless the user is deleted or disabled in the AAD tenant, you can assign the necessary role manually once the user is synced (which can take up to a couple of days).<br/><br/>To find the user with AAD Object Id {0}, you can go to the following URL:<br/>`<`[Base CDS Url](#base-cds-url)`>/api/data/v9.0/systemusers()?$select=fullname&$filter=azureactivedirectoryobjectid%20eq%20{0}`<br/>and look at the value of the fullname property.<br/><br/>To find which role has the ID {1}, you can go to the following URL:<br/>`<`[Base CDS Url](#base-cds-url)`>/api/data/v9.0/roles({1})?$select=name`<br/>and look at the value of the name property.<br/><br/>You can then use the security tab in the Admin portal to assign the user to the role.|
 
