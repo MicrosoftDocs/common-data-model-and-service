@@ -17,7 +17,7 @@ There is no sub-folder in service.
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[ActivityParty](ActivityParty.md)|Person or group associated with an activity. An activity can have multiple activity parties.|
 |[Case](Case.md)|Service request case associated with a contract.|

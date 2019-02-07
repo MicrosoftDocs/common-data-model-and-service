@@ -17,7 +17,7 @@ There is no sub-folder in interactions.
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[ActivityContactDispatched](ActivityContactDispatched.md)|There is no description.|
 |[ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|There is no description.|

@@ -20,7 +20,7 @@ ms.author: tpalmer
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.|
 |[Activity](Activity.md)|Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.|

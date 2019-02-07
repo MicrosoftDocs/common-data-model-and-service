@@ -17,7 +17,7 @@ There is no sub-folder in financialCommon.
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[FinancialActivity](FinancialActivity.md)|Summarization of financial activity for a ledger, date, account, and dimension combination|
 |[FiscalCalendarPeriod](FiscalCalendarPeriod.md)|Represents the period in which financial activity occurred, as defined by a fiscal calendar.|

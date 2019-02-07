@@ -23,7 +23,7 @@ ms.author: tpalmer
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[Appointment](Appointment.md)|Commitment representing a time interval with start/end times and duration.|
 |[Connection](Connection.md)|Relationship between two entities.|

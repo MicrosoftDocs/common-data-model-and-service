@@ -23,7 +23,7 @@ ms.author: tpalmer
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.|
 |[AccountLeads](AccountLeads.md)|description.|

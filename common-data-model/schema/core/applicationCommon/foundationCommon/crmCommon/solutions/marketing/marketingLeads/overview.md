@@ -17,6 +17,6 @@ There is no sub-folder in marketingLeads.
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[LeadScoringModel](LeadScoringModel.md)|There is no description.|

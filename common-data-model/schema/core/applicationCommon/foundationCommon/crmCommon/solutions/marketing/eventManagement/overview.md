@@ -17,7 +17,7 @@ There is no sub-folder in eventManagement.
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.|
 |[AttendeePass](AttendeePass.md)|There is no description.|

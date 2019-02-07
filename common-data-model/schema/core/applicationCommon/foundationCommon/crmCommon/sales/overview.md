@@ -17,7 +17,7 @@ There is no sub-folder in sales.
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[Competitor](Competitor.md)|Business competing for the sale represented by a lead or opportunity.|
 |[CompetitorAddress](CompetitorAddress.md)|Additional addresses for a competitor. The first two addresses are stored in the competitor object.|

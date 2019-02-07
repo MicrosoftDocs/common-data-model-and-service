@@ -17,7 +17,7 @@ There is no sub-folder in higherEducation.
 
 ## Entities
 
-|Name|
+|Name|Description|
 |---|---|
 |[AcademicPeriod](AcademicPeriod.md)|The periods of time in which courses are offered by the institution,  such as a term or semester.|
 |[AcademicPeriodDetail](AcademicPeriodDetail.md)|Status between student and their academic periods.|
