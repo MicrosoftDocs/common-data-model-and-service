@@ -1,6 +1,6 @@
 # Common Data Model Documentation
 
-This is the GitHub repository for the technical product documentation for the Common Data Model. This documentation is published to  [https://docs.microsoft.com/common-data-models](https://docs.microsoft.com/common-data-model).
+This is the GitHub repository for the technical product documentation for the Common Data Model. This documentation is published to  [https://docs.microsoft.com/common-data-model](https://docs.microsoft.com/common-data-model).
 
 ## How to contribute
 
