@@ -1,10 +1,67 @@
 ---
-title: applicationCommo
+title: applicationCommon
 description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/5/2019
+ms.date: 2/7/2019
 ms.author: tpalmer
 ---
 
+# applicationCommon
+
+## Sub-folders
+
+|Name|
+|---|
+|[foundationCommon](foundationCommon/overview.md)|
+
+
+
+## Entities
+
+|Name|
+|---|
+|[Account](Account.md)|
+|[Activity](Activity.md)|
+|[ActivityParty](ActivityParty.md)|
+|[Address](Address.md)|
+|[Appointment](Appointment.md)|
+|[Article](Article.md)|
+|[ArticleComment](ArticleComment.md)|
+|[ArticleTemplate](ArticleTemplate.md)|
+|[BusinessUnit](BusinessUnit.md)|
+|[Connection](Connection.md)|
+|[ConnectionRole](ConnectionRole.md)|
+|[Contact](Contact.md)|
+|[Currency](Currency.md)|
+|[CustomerRelationship](CustomerRelationship.md)|
+|[Email](Email.md)|
+|[EmailSignature](EmailSignature.md)|
+|[Fax](Fax.md)|
+|[Feedback](Feedback.md)|
+|[Goal](Goal.md)|
+|[GoalMetric](GoalMetric.md)|
+|[KnowledgeArticle](KnowledgeArticle.md)|
+|[KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+|[KnowledgeArticleViews](KnowledgeArticleViews.md)|
+|[KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
+|[Letter](Letter.md)|
+|[Note](Note.md)|
+|[Organization](Organization.md)|
+|[overview](overview.md)|
+|[Owner](Owner.md)|
+|[PhoneCall](PhoneCall.md)|
+|[Position](Position.md)|
+|[Queue](Queue.md)|
+|[QueueItem](QueueItem.md)|
+|[RecurringAppointment](RecurringAppointment.md)|
+|[SLA](SLA.md)|
+|[SLAItem](SLAItem.md)|
+|[SLAKPIInstance](SLAKPIInstance.md)|
+|[SocialActivity](SocialActivity.md)|
+|[SocialProfile](SocialProfile.md)|
+|[Task](Task.md)|
+|[Team](Team.md)|
+|[Territory](Territory.md)|
+|[User](User.md)|
