@@ -18,10 +18,10 @@ There is no sub-folder in LinkedInLeads.
 ## Entities
 
 |Name|
-|---|
-|[LinkedInAccount](LinkedInAccount.md)|
-|[LinkedInCampaign](LinkedInCampaign.md)|
-|[LinkedInFormQuestion](LinkedInFormQuestion.md)|
-|[LinkedInFormSubmissionAnswer](LinkedInFormSubmissionAnswer.md)|
-|[LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
+|---|---|
+|[LinkedInAccount](LinkedInAccount.md)|The LinkedIn account where forms are created and published.|
+|[LinkedInCampaign](LinkedInCampaign.md)|Campaign used to capture submissions from prospects.|
+|[LinkedInFormQuestion](LinkedInFormQuestion.md)|There is no description.|
+|[LinkedInFormSubmissionAnswer](LinkedInFormSubmissionAnswer.md)|Answers to individual questions on a form submitted by a LinkedIn member|
+|[LinkedInLeadGenForm](LinkedInLeadGenForm.md)|Form shown to prospects on LinkedIn|
+|[LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|Submissions from prospects on LinkedIn|
