@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in interactions.
 
 
 ## Entities
@@ -48,7 +46,6 @@ ms.author: tpalmer
 |[InvalidSenderAddress](InvalidSenderAddress.md)|
 |[LeadScoreBoost](LeadScoreBoost.md)|
 |[OutOfEmailCredits](OutOfEmailCredits.md)|
-|[overview](overview.md)|
 |[PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
 |[RedirectLinkClicked](RedirectLinkClicked.md)|
 |[SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|

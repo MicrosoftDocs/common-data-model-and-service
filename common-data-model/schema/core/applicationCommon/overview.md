@@ -49,7 +49,6 @@ ms.author: tpalmer
 |[Letter](Letter.md)|
 |[Note](Note.md)|
 |[Organization](Organization.md)|
-|[overview](overview.md)|
 |[Owner](Owner.md)|
 |[PhoneCall](PhoneCall.md)|
 |[Position](Position.md)|

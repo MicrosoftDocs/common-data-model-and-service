@@ -37,7 +37,6 @@ ms.author: tpalmer
 |[Contact](Contact.md)|
 |[KnowledgeArticle](KnowledgeArticle.md)|
 |[Organization](Organization.md)|
-|[overview](overview.md)|
 |[PriceList](PriceList.md)|
 |[PriceListItem](PriceListItem.md)|
 |[Product](Product.md)|

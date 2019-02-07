@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in portals.
 
 
 ## Entities
@@ -44,7 +42,6 @@ ms.author: tpalmer
 |[InviteRedemption](InviteRedemption.md)|
 |[KnowledgeArticleViews](KnowledgeArticleViews.md)|
 |[Opportunity](Opportunity.md)|
-|[overview](overview.md)|
 |[PageTemplate](PageTemplate.md)|
 |[Poll](Poll.md)|
 |[PollOption](PollOption.md)|

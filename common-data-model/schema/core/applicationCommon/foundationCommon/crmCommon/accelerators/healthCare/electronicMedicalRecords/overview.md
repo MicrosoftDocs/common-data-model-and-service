@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in electronicMedicalRecords.
 
 
 ## Entities
@@ -40,7 +38,6 @@ ms.author: tpalmer
 |[MedicationAdministration](MedicationAdministration.md)|
 |[MedicationRequest](MedicationRequest.md)|
 |[Observation](Observation.md)|
-|[overview](overview.md)|
 |[PractitionerQualification](PractitionerQualification.md)|
 |[PractitionerRole](PractitionerRole.md)|
 |[Procedure](Procedure.md)|

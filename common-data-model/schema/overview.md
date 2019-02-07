@@ -20,6 +20,4 @@ ms.author: tpalmer
 
 ## Entities
 
-|Name|
-|---|
-|[overview](overview.md)|
+There is no entity in githubDocs/common-data-model/schema.

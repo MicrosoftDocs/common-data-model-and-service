@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in marketingLeads.
 
 
 ## Entities
@@ -22,4 +20,3 @@ ms.author: tpalmer
 |Name|
 |---|
 |[LeadScoringModel](LeadScoringModel.md)|
-|[overview](overview.md)|

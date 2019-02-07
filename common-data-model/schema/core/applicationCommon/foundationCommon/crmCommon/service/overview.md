@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in service.
 
 
 ## Entities
@@ -33,7 +31,6 @@ ms.author: tpalmer
 |[FacilityEquipment](FacilityEquipment.md)|
 |[IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
 |[KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[overview](overview.md)|
 |[Resource](Resource.md)|
 |[ResourceExpansion](ResourceExpansion.md)|
 |[ResourceSpecification](ResourceSpecification.md)|

@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in financialCommon.
 
 
 ## Entities
@@ -26,4 +24,3 @@ ms.author: tpalmer
 |[Ledger](Ledger.md)|
 |[MainAccount](MainAccount.md)|
 |[MainAccountCategory](MainAccountCategory.md)|
-|[overview](overview.md)|

@@ -39,7 +39,6 @@ ms.author: tpalmer
 |[MarketingList](MarketingList.md)|
 |[MarketingPage](MarketingPage.md)|
 |[MarketingWebsite](MarketingWebsite.md)|
-|[overview](overview.md)|
 |[PhoneCall](PhoneCall.md)|
 |[Segment](Segment.md)|
 |[Task](Task.md)|

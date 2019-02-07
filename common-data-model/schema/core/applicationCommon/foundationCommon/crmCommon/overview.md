@@ -43,7 +43,6 @@ ms.author: tpalmer
 |[Letter](Letter.md)|
 |[MarketingList](MarketingList.md)|
 |[MarketingListMember](MarketingListMember.md)|
-|[overview](overview.md)|
 |[PhoneCall](PhoneCall.md)|
 |[QuickCampaign](QuickCampaign.md)|
 |[RecurringAppointment](RecurringAppointment.md)|

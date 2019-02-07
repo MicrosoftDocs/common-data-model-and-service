@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in LinkedInLeads.
 
 
 ## Entities
@@ -27,4 +25,3 @@ ms.author: tpalmer
 |[LinkedInFormSubmissionAnswer](LinkedInFormSubmissionAnswer.md)|
 |[LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
 |[LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[overview](overview.md)|

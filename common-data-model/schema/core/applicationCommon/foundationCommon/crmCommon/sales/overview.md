@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in sales.
 
 
 ## Entities
@@ -42,7 +40,6 @@ ms.author: tpalmer
 |[Order](Order.md)|
 |[OrderClose](OrderClose.md)|
 |[OrderProduct](OrderProduct.md)|
-|[overview](overview.md)|
 |[PriceListItem](PriceListItem.md)|
 |[ProductSalesLiterature](ProductSalesLiterature.md)|
 |[PropertyInstance](PropertyInstance.md)|

@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in nonProfit.
 
 
 ## Entities
@@ -46,7 +44,6 @@ ms.author: tpalmer
 |[Objective](Objective.md)|
 |[OfacMatch](OfacMatch.md)|
 |[Opportunity](Opportunity.md)|
-|[overview](overview.md)|
 |[PaymentAsset](PaymentAsset.md)|
 |[PaymentMethod](PaymentMethod.md)|
 |[PaymentProcessor](PaymentProcessor.md)|

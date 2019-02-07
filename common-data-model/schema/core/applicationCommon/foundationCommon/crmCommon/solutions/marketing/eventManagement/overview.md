@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in eventManagement.
 
 
 ## Entities
@@ -36,7 +34,6 @@ ms.author: tpalmer
 |[HotelRoomReservation](HotelRoomReservation.md)|
 |[Invitation](Invitation.md)|
 |[Layout](Layout.md)|
-|[overview](overview.md)|
 |[Pass](Pass.md)|
 |[RegistrationResponse](RegistrationResponse.md)|
 |[Room](Room.md)|

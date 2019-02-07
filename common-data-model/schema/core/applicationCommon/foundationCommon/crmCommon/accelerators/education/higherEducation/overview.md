@@ -12,9 +12,7 @@ ms.author: tpalmer
 
 ## Sub-folders
 
-|Name|
-|---|
-
+There is no sub-folder in higherEducation.
 
 
 ## Entities
@@ -34,7 +32,6 @@ ms.author: tpalmer
 |[EducationLevel](EducationLevel.md)|
 |[ExtraCurricularActivity](ExtraCurricularActivity.md)|
 |[ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[overview](overview.md)|
 |[PreviousEducation](PreviousEducation.md)|
 |[Program](Program.md)|
 |[ProgramLevel](ProgramLevel.md)|

@@ -21,6 +21,4 @@ ms.author: tpalmer
 
 ## Entities
 
-|Name|
-|---|
-|[overview](overview.md)|
+There is no entity in solutions.
