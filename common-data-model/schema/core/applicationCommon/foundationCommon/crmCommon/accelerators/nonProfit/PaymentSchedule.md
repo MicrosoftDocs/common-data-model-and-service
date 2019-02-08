@@ -14,7 +14,7 @@ A gift transaction can be a one-time payment or a recurring payment (ie, monthly
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentSchedule.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/PaymentSchedule  
 
@@ -63,7 +63,7 @@ nonProfit/PaymentSchedule
 |[totalAmount](#totalAmount)|This will include both the Base and Donor Currencies|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
 |[totalamountBase](#totalamountBase)|Value of the Total Amount in base currency.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Payment Schedule entity are listed below.</summary>

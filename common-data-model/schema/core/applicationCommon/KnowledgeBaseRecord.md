@@ -14,7 +14,7 @@ Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeBaseRecord.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/KnowledgeBaseRecord  
 
@@ -39,7 +39,7 @@ applicationCommon/KnowledgeBaseRecord
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the Knowledge Base Record with respect to the base currency.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
 |[uniqueId](#uniqueId)|Shows the unique ID of the linked knowledge base (KB) article.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Knowledge Base Record entity are listed below.</summary>

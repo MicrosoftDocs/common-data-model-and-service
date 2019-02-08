@@ -14,7 +14,7 @@ Associates resources with their characteristics and specifies the proficiency le
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceCharacteristic.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/BookableResourceCharacteristic  
 
@@ -53,7 +53,7 @@ foundationCommon/BookableResourceCharacteristic
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcecharacteristic with respect to the base currency.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceCharacteristic with respect to the base currency.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Bookable Resource Characteristic entity are listed below.</summary>

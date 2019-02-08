@@ -14,7 +14,7 @@ Activity generated when a quote is closed.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/QuoteClose.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/QuoteClose  
 
@@ -105,7 +105,7 @@ sales/QuoteClose
 |[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[sales/QuoteClose](QuoteClose.md)|
 |[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[sales/QuoteClose](QuoteClose.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Quote Close entity are listed below.</summary>

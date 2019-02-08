@@ -14,7 +14,7 @@ Business, division, or department in the Microsoft Dynamics 365 database.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/BusinessUnit.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/BusinessUnit  
 
@@ -101,7 +101,7 @@ applicationCommon/BusinessUnit
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the businessunit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the businessunit with respect to the base currency.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Business Unit entity are listed below.</summary>

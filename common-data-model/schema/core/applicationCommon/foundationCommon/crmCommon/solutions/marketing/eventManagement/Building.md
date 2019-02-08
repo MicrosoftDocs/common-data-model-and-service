@@ -14,7 +14,7 @@ A single venue can be comprised of zero or more buildings where event activities
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Building  
 
@@ -81,7 +81,7 @@ eventManagement/Building
 |[numberOfRoomsDate](#numberOfRoomsDate)|Last Updated time of rollup field Number of Rooms.|[eventManagement/Building](Building.md)|
 |[numberOfRoomsState](#numberOfRoomsState)|State of rollup field Number of Rooms.|[eventManagement/Building](Building.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Building entity are listed below.</summary>

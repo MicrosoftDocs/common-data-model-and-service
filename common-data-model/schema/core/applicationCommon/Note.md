@@ -14,7 +14,7 @@ Note that is attached to one or more objects, including other notes.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Note.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Note  
 
@@ -51,7 +51,7 @@ applicationCommon/Note
 |[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the annotation.|[applicationCommon/Note](Note.md)|
 |[owningTeam](#owningTeam)|Unique identifier of the team who owns the note.|[applicationCommon/Note](Note.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Note entity are listed below.</summary>

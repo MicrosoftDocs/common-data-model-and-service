@@ -14,7 +14,7 @@ Defines the amount and type of support a customer should receive.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/Entitlement  
 
@@ -70,7 +70,7 @@ service/Entitlement
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the contact with respect to the base currency.|[service/Entitlement](Entitlement.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the contact.|[service/Entitlement](Entitlement.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Entitlement entity are listed below.</summary>

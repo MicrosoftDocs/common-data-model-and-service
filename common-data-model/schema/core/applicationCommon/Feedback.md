@@ -14,7 +14,7 @@ Container for feedback and ratings for knowledge articles.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Feedback.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Feedback  
 [portals/Feedback](foundationCommon/crmCommon/solutions/portals/Feedback.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json/Feedback")  
@@ -58,7 +58,7 @@ applicationCommon/Feedback
 |[createdByContact](#createdByContact)|Shows the contact who created the record.|[applicationCommon/Feedback](Feedback.md)|
 |[createdOnBehalfByContact](#createdOnBehalfByContact)|Shows the contact who created the record on behalf of another user.|[applicationCommon/Feedback](Feedback.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Feedback entity are listed below.</summary>

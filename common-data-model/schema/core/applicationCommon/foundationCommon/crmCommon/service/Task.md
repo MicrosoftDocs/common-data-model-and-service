@@ -14,7 +14,7 @@ Generic activity representing work needed to be done.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Task.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Task](../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
 [electronicMedicalRecords/Task](../accelerators/healthCare/electronicMedicalRecords/Task.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json/Task")  
@@ -79,7 +79,7 @@ service/Task
 |[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Task](../../../Task.md)|
 |[serviceId](#serviceId)|Choose the service that is associated with this activity.|[service/Task](Task.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Task entity are listed below.</summary>

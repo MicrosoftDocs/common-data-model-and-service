@@ -14,7 +14,7 @@ Captures the number of Found My Answer clicks in the portal.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/CaseDeflection.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/CaseDeflection  
 
@@ -48,7 +48,7 @@ portals/CaseDeflection
 |[contact](#contact)|Contact who found the answer when the ticket was created.|[portals/CaseDeflection](CaseDeflection.md)|
 |[knowledgeArticle](#knowledgeArticle)|Knowledge Articles|[portals/CaseDeflection](CaseDeflection.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Case Deflection entity are listed below.</summary>

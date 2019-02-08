@@ -14,7 +14,7 @@ Resource that can be scheduled.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/FacilityEquipment  
 
@@ -48,7 +48,7 @@ service/FacilityEquipment
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the equipment with respect to the base currency.|[service/FacilityEquipment](FacilityEquipment.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Facility/Equipment entity are listed below.</summary>

@@ -14,7 +14,7 @@ Top level of the Microsoft Dynamics 365 business hierarchy. The organization can
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Organization.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Organization  
 [foundationCommon/Organization](foundationCommon/Organization.md "/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization")  
@@ -362,7 +362,7 @@ applicationCommon/Organization
 |[allowLegacyDialogsEmbedding](#allowLegacyDialogsEmbedding)|Enable embedding of certain legacy dialogs in Unified Interface browser client|[applicationCommon/Organization](Organization.md)|
 |[appointmentRichEditorExperience](#appointmentRichEditorExperience)|Information on whether rich editing experience for Appointment is enabled.|[applicationCommon/Organization](Organization.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Organization entity are listed below.</summary>

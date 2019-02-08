@@ -14,7 +14,7 @@ The Care Team includes all the people and organizations who plan to participate 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/CareTeam  
 
@@ -59,7 +59,7 @@ electronicMedicalRecords/CareTeam
 |[subjectType](#subjectType)|Identifies the patient or group whose intended care is handled by the team.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
 |[subjectType_display](#subjectType_display)||[electronicMedicalRecords/CareTeam](CareTeam.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Care Team entity are listed below.</summary>

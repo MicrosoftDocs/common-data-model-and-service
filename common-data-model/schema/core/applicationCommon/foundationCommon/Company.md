@@ -14,7 +14,7 @@ Uniquely identifies a Company by name and type
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Company.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/Company  
 
@@ -47,7 +47,7 @@ foundationCommon/Company
 |[statusCode](#statusCode)|Reason for the status of the Company|[foundationCommon/Company](Company.md)|
 |[statusCode_display](#statusCode_display)||[foundationCommon/Company](Company.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Company entity are listed below.</summary>

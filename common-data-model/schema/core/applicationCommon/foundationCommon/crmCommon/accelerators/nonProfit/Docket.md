@@ -14,7 +14,7 @@ A Docket is used to associate inquiries (LOIs) and requests with a specific gran
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Docket.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Docket  
 
@@ -54,7 +54,7 @@ nonProfit/Docket
 |[type](#type)|The type of Docket.|[nonProfit/Docket](Docket.md)|
 |[type_display](#type_display)||[nonProfit/Docket](Docket.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Docket entity are listed below.</summary>

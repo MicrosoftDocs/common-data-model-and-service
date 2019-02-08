@@ -14,7 +14,7 @@ Item with a name and value in a property option set type.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/PropertyOptionSetItem.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/PropertyOptionSetItem  
 
@@ -43,7 +43,7 @@ foundationCommon/PropertyOptionSetItem
 |[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Property Option Set Item entity are listed below.</summary>

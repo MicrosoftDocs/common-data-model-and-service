@@ -14,7 +14,7 @@ Describes the intended objective(s) of carrying out the care plan.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/CarePlanGoal  
 
@@ -47,7 +47,7 @@ electronicMedicalRecords/CarePlanGoal
 |[carePlan](#carePlan)|Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
 |[goal](#goal)|Describes the intended objective(s) of carrying out the care plan. Goal can be achieving a particular change or merely maintaining a current state or even slowing a decline.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Care Plan Goal entity are listed below.</summary>

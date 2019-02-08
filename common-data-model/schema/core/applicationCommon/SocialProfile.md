@@ -14,7 +14,7 @@ This entity is used to store social profile information of its associated accoun
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SocialProfile.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/SocialProfile  
 
@@ -56,7 +56,7 @@ applicationCommon/SocialProfile
 |[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/SocialProfile](SocialProfile.md)|
 |[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/SocialProfile](SocialProfile.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Social Profile entity are listed below.</summary>

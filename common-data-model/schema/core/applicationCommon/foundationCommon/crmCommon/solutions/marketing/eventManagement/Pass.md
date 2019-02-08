@@ -14,7 +14,7 @@ Information about passes.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Pass  
 
@@ -58,7 +58,7 @@ eventManagement/Pass
 |[totalCost](#totalCost)||[eventManagement/Pass](Pass.md)|
 |[totalcostBase](#totalcostBase)|Value of the Total cost in base currency.|[eventManagement/Pass](Pass.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Pass entity are listed below.</summary>

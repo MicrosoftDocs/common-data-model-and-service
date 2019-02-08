@@ -16,7 +16,7 @@ Preferences also typically store demographic information in a series of dependen
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Preference  
 
@@ -58,7 +58,7 @@ nonProfit/Preference
 |[value](#value)|The user-entered value that may be attached to the referenced key. If none is present, default interpretation is "true"|[nonProfit/Preference](Preference.md)|
 |[weight](#weight)|Holds an integral value that may be incremented as the preference is re-expressed or emphasized by the Customer|[nonProfit/Preference](Preference.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Preference entity are listed below.</summary>

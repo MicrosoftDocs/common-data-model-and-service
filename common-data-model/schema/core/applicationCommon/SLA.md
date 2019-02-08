@@ -14,7 +14,7 @@ Contains information about the tracked service-level KPIs for cases that belong 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SLA.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/SLA  
 
@@ -63,7 +63,7 @@ applicationCommon/SLA
 |[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SLA](SLA.md)|
 |[primaryEntityOTC](#primaryEntityOTC)|Shows the primary entity that the SLA has been created for.|[applicationCommon/SLA](SLA.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the SLA entity are listed below.</summary>

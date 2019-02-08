@@ -14,7 +14,7 @@ A specific set of Roles/Locations/specialties/services that a practitioner may p
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/PractitionerRole  
 
@@ -54,7 +54,7 @@ electronicMedicalRecords/PractitionerRole
 |[practitioner](#practitioner)|Practitioner that is able to provide the defined services for the organization.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
 |[practitionerRoleNumber](#practitionerRoleNumber)|A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Practitioner Role entity are listed below.</summary>

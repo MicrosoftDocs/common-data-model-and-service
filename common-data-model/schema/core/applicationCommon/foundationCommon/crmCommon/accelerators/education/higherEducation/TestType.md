@@ -14,7 +14,7 @@ Type of test taken by a Student Contact
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/TestType  
 
@@ -45,7 +45,7 @@ higherEducation/TestType
 |[statusCode_display](#statusCode_display)||[higherEducation/TestType](TestType.md)|
 |[name](#name)|The name of the custom entity.|[higherEducation/TestType](TestType.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Test Type entity are listed below.</summary>

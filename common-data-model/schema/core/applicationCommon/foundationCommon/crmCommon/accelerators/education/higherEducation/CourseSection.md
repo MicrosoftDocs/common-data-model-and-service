@@ -14,7 +14,7 @@ The relationship between an instructor and a specific course.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/CourseSection.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/CourseSection  
 
@@ -52,7 +52,7 @@ higherEducation/CourseSection
 |[location](#location)|Specific Meeting Location|[higherEducation/CourseSection](CourseSection.md)|
 |[prerequisites](#prerequisites)|Prerequisites|[higherEducation/CourseSection](CourseSection.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Course Section entity are listed below.</summary>

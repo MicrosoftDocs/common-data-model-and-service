@@ -14,7 +14,7 @@ Instance of a product added to a bundle or kit.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/ProductAssociation.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/ProductAssociation  
 
@@ -50,7 +50,7 @@ foundationCommon/ProductAssociation
 |[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Product Association entity are listed below.</summary>

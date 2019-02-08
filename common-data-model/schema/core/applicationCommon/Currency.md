@@ -14,7 +14,7 @@ Currency in which a financial transaction is carried out.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Currency.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Currency  
 
@@ -44,7 +44,7 @@ applicationCommon/Currency
 |[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the transactioncurrency.|[applicationCommon/Currency](Currency.md)|
 |[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Currency](Currency.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Currency entity are listed below.</summary>

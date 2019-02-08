@@ -14,7 +14,7 @@ This is a placeholder entity referenced by the Payment Method object.  It is int
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentProcessor.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/PaymentProcessor  
 
@@ -45,7 +45,7 @@ nonProfit/PaymentProcessor
 |[statusCode_display](#statusCode_display)||[nonProfit/PaymentProcessor](PaymentProcessor.md)|
 |[name](#name)||[nonProfit/PaymentProcessor](PaymentProcessor.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Payment Processor entity are listed below.</summary>

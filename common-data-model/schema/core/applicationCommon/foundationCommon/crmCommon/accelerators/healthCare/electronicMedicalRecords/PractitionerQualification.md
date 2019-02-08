@@ -14,7 +14,7 @@ Qualifications obtained by training and certification.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/PractitionerQualification  
 
@@ -54,7 +54,7 @@ electronicMedicalRecords/PractitionerQualification
 |[providerNPINumber](#providerNPINumber)|An identifier for this qualification for the practitioner|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
 |[qualificationCode](#qualificationCode)|Coded representation of the qualification.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Practitioner Qualification entity are listed below.</summary>

@@ -14,7 +14,7 @@ Commitment representing a time interval with start/end times and duration.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Appointment.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Appointment  
 [crmCommon/Appointment](foundationCommon/crmCommon/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json/Appointment")  
@@ -93,7 +93,7 @@ applicationCommon/Appointment
 |[isUnsafe](#isUnsafe)|For internal use only.|[applicationCommon/Appointment](Appointment.md)|
 |[isDraft](#isDraft)|Information regarding whether the appointment is a draft.|[applicationCommon/Appointment](Appointment.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Appointment entity are listed below.</summary>

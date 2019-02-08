@@ -14,7 +14,7 @@ Business that represents a customer or potential customer. The company that is b
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Account](../../../../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
 [foundationCommon/Account](../../../Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
@@ -212,7 +212,7 @@ portals/Account
 |[adxModifiedByUsername](#adxModifiedByUsername)||[portals/Account](Account.md)|
 |[managingPartner](#managingPartner)|Unique identifier for Account associated with Account.|[portals/Account](Account.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Account entity are listed below.</summary>

@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/ContactInvoices.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/ContactInvoices  
 
@@ -31,7 +31,7 @@ sales/ContactInvoices
 |[contactId](#contactId)||[sales/ContactInvoices](ContactInvoices.md)|
 |[invoiceId](#invoiceId)||[sales/ContactInvoices](ContactInvoices.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the ContactInvoices entity are listed below.</summary>

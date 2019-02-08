@@ -14,7 +14,7 @@ Task performed, or to be performed, by a user for planning or running a campaign
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/CampaignActivity.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/CampaignActivity  
 
@@ -110,7 +110,7 @@ crmCommon/CampaignActivity
 |[typeCode_display](#typeCode_display)||[crmCommon/CampaignActivity](CampaignActivity.md)|
 |[serviceId](#serviceId)|Unique identifier of the associated service.|[crmCommon/CampaignActivity](CampaignActivity.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Campaign Activity entity are listed below.</summary>

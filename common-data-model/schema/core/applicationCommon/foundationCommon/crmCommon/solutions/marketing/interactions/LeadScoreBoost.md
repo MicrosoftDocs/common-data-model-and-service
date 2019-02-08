@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/LeadScoreBoost.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/LeadScoreBoost  
 
@@ -32,7 +32,7 @@ interactions/LeadScoreBoost
 |[interactionType](#interactionType)|Interaction type|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
 |[timestamp](#timestamp)|Timestamp|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Lead score boost entity are listed below.</summary>

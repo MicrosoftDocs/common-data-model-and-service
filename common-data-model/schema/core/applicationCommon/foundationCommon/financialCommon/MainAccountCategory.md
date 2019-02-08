@@ -14,7 +14,7 @@ Provides categorization of main accounts
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 financialCommon/MainAccountCategory  
 
@@ -29,7 +29,7 @@ financialCommon/MainAccountCategory
 |[accountType](#accountType)|The common account type for accounts in this category, such as revenue or liability|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
 |[accountType_display](#accountType_display)||[financialCommon/MainAccountCategory](MainAccountCategory.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Main Account Category entity are listed below.</summary>

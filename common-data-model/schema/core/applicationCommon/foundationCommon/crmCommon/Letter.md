@@ -14,7 +14,7 @@ Activity that tracks the delivery of a letter. The activity can contain the elec
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Letter.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Letter](../../Letter.md "/core/applicationCommon/Letter.cdm.json/Letter")  
 crmCommon/Letter  
@@ -80,7 +80,7 @@ crmCommon/Letter
 |[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Letter](../../Letter.md)|
 |[serviceId](#serviceId)|Unique identifier for an associated service.|[crmCommon/Letter](Letter.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Letter entity are listed below.</summary>

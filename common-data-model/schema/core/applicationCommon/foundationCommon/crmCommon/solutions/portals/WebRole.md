@@ -14,7 +14,7 @@ Sets the user's role for the Portal.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebRole.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/WebRole  
 
@@ -50,7 +50,7 @@ portals/WebRole
 |[anonymousUsersRole](#anonymousUsersRole)||[portals/WebRole](WebRole.md)|
 |[key](#key)|An alternate key that is not intended to be localized to allow retrieval of a specific Web Role in workflows or code.|[portals/WebRole](WebRole.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Web Role entity are listed below.</summary>

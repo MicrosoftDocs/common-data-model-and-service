@@ -14,7 +14,7 @@ Collection of system users that routinely collaborate. Teams can be used to simp
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Team.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Team  
 
@@ -52,7 +52,7 @@ applicationCommon/Team
 |[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/Team](Team.md)|
 |[processId](#processId)|Shows the ID of the process.|[applicationCommon/Team](Team.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Team entity are listed below.</summary>

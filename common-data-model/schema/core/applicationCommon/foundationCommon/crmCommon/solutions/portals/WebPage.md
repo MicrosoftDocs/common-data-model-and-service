@@ -14,7 +14,7 @@ Webpage
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/WebPage  
 
@@ -87,7 +87,7 @@ portals/WebPage
 |[commentPolicy_display](#commentPolicy_display)||[portals/WebPage](WebPage.md)|
 |[enableRatings](#enableRatings)|Setting this value to 'Yes' will allow users to rate the web page.|[portals/WebPage](WebPage.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Web Page entity are listed below.</summary>

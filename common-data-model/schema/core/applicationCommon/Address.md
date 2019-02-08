@@ -14,7 +14,7 @@ Address and shipping information. Used to store additional addresses for an acco
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Address.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Address  
 [higherEducation/Address](foundationCommon/crmCommon/accelerators/education/higherEducation/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address")  
@@ -75,7 +75,7 @@ applicationCommon/Address
 |[exchangeRate](#exchangeRate)||[applicationCommon/Address](Address.md)|
 |[composite](#composite)||[applicationCommon/Address](Address.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Address entity are listed below.</summary>

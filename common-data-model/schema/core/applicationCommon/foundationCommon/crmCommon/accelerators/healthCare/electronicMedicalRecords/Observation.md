@@ -14,7 +14,7 @@ Measurements and simple assertions made about a patient, device or other subject
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/Observation  
 
@@ -113,7 +113,7 @@ electronicMedicalRecords/Observation
 |[valueTypeQuantityComparator_display](#valueTypeQuantityComparator_display)||[electronicMedicalRecords/Observation](Observation.md)|
 |[valueTypeQuantityValue](#valueTypeQuantityValue)|Numerical value (with implicit precision).|[electronicMedicalRecords/Observation](Observation.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Observation entity are listed below.</summary>

@@ -14,7 +14,7 @@ Target objective for a user or a team for a specified time period.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Goal.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Goal  
 
@@ -111,7 +111,7 @@ applicationCommon/Goal
 |[isOverridden](#isOverridden)|Select whether the system rollup fields are updated. If set to Yes, the next system rollup will not update the values of the rollup fields with the system calculated values.|[applicationCommon/Goal](Goal.md)|
 |[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Goal](Goal.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Goal entity are listed below.</summary>

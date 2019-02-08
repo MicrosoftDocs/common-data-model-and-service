@@ -14,7 +14,7 @@ Information about a person that is involved in the care for a patient, but who i
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/RelatedPerson  
 
@@ -51,7 +51,7 @@ electronicMedicalRecords/RelatedPerson
 |[relatedPersonPeriodStartDate](#relatedPersonPeriodStartDate)|The period of time that this relationship is considered to be valid. If there are no dates defined, then the interval is unknown.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
 |[relationship](#relationship)|The nature of the relationship between a patient and the related person.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Related Person entity are listed below.</summary>

@@ -14,7 +14,7 @@ Comment on a knowledge base article.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleComment.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/ArticleComment  
 
@@ -35,7 +35,7 @@ applicationCommon/ArticleComment
 |[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the kbarticlecomment.|[applicationCommon/ArticleComment](ArticleComment.md)|
 |[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the kbarticlecomment.|[applicationCommon/ArticleComment](ArticleComment.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Article Comment entity are listed below.</summary>

@@ -14,7 +14,7 @@ A Disbursement represents an Award disbursement to an individual or organization
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Disbursement.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Disbursement  
 
@@ -70,7 +70,7 @@ nonProfit/Disbursement
 |[type](#type)|The type of Disbursement.|[nonProfit/Disbursement](Disbursement.md)|
 |[type_display](#type_display)||[nonProfit/Disbursement](Disbursement.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Disbursement entity are listed below.</summary>

@@ -14,7 +14,7 @@ Represents a model to evaluate skills or other related entities.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/RatingModel.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/RatingModel  
 
@@ -49,7 +49,7 @@ foundationCommon/RatingModel
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the ratingmodel with respect to the base currency.|[foundationCommon/RatingModel](RatingModel.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the RatingModel with respect to the base currency.|[foundationCommon/RatingModel](RatingModel.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Rating Model entity are listed below.</summary>

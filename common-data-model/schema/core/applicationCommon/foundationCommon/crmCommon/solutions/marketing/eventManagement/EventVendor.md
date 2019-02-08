@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventVendor.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/EventVendor  
 
@@ -47,7 +47,7 @@ eventManagement/EventVendor
 |[type](#type)||[eventManagement/EventVendor](EventVendor.md)|
 |[type_display](#type_display)||[eventManagement/EventVendor](EventVendor.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Event Vendor entity are listed below.</summary>

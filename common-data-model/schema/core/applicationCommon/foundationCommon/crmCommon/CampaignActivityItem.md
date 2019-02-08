@@ -14,7 +14,7 @@ Work item of a campaign activity, such as a list or sales literature.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/CampaignActivityItem.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/CampaignActivityItem  
 
@@ -39,7 +39,7 @@ crmCommon/CampaignActivityItem
 |[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the campaign activity item.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
 |[owningUser](#owningUser)|Unique identifier of the user that owns the campaign activity item.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Campaign Activity Item entity are listed below.</summary>

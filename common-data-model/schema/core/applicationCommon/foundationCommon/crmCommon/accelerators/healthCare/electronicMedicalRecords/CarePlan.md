@@ -14,7 +14,7 @@ Describes the intention of how one or more practitioners intend to deliver care 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/CarePlan  
 
@@ -61,7 +61,7 @@ electronicMedicalRecords/CarePlan
 |[subjectType](#subjectType)|Type of subject of the care plan|[electronicMedicalRecords/CarePlan](CarePlan.md)|
 |[subjectType_display](#subjectType_display)||[electronicMedicalRecords/CarePlan](CarePlan.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Care Plan entity are listed below.</summary>

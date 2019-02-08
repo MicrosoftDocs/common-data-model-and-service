@@ -14,7 +14,7 @@ A clinical condition, problem, diagnosis, or other event, situation, issue, or c
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/Condition  
 
@@ -87,7 +87,7 @@ electronicMedicalRecords/Condition
 |[verificationStatus](#verificationStatus)|Type of: The verification status to support the clinical status of the condition.|[electronicMedicalRecords/Condition](Condition.md)|
 |[verificationStatus_display](#verificationStatus_display)||[electronicMedicalRecords/Condition](Condition.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Condition entity are listed below.</summary>

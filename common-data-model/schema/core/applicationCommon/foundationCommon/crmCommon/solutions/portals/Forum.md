@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Forum.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/Forum  
 
@@ -59,7 +59,7 @@ portals/Forum
 |[websiteId](#websiteId)|Shows the Website associated with the forum.|[portals/Forum](Forum.md)|
 |[forumLanguageId](#forumLanguageId)|Option to make forums and forum posts language specific|[portals/Forum](Forum.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Forum entity are listed below.</summary>

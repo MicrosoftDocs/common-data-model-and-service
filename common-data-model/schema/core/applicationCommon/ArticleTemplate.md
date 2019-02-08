@@ -14,7 +14,7 @@ Template for a knowledge base article that contains the standard attributes of a
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleTemplate.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/ArticleTemplate  
 
@@ -48,7 +48,7 @@ applicationCommon/ArticleTemplate
 |[isCustomizable](#isCustomizable)|Information that specifies whether this component can be customized.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
 |[introducedVersion](#introducedVersion)|Version in which the form is introduced.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Article Template entity are listed below.</summary>

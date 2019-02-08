@@ -14,7 +14,7 @@ A quantitative or qualitative value of measurement of an Indicator
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/IndicatorValue  
 
@@ -59,7 +59,7 @@ nonProfit/IndicatorValue
 |[valueType](#valueType)|Defines the Value Type of the Indicator Value|[nonProfit/IndicatorValue](IndicatorValue.md)|
 |[valueType_display](#valueType_display)||[nonProfit/IndicatorValue](IndicatorValue.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Indicator Value entity are listed below.</summary>

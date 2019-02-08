@@ -14,7 +14,7 @@ Contains information about a tracked support KPI for a specific customer.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SLAItem.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/SLAItem  
 
@@ -53,7 +53,7 @@ applicationCommon/SLAItem
 |[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SLAItem](SLAItem.md)|
 |[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SLAItem](SLAItem.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the SLA Item entity are listed below.</summary>

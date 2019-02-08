@@ -14,7 +14,7 @@ Categorize resources that have capacity into categories such as roles.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceCategory.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/BookableResourceCategory  
 
@@ -48,7 +48,7 @@ foundationCommon/BookableResourceCategory
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcecategory with respect to the base currency.|[foundationCommon/BookableResourceCategory](BookableResourceCategory.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceCategory with respect to the base currency.|[foundationCommon/BookableResourceCategory](BookableResourceCategory.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Bookable Resource Category entity are listed below.</summary>

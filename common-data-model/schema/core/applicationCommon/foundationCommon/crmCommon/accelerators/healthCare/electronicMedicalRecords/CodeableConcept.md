@@ -14,7 +14,7 @@ A Codeable Concept represents a value that is usually supplied by providing a re
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/CodeableConcept  
 
@@ -46,7 +46,7 @@ electronicMedicalRecords/CodeableConcept
 |[type](#type)|Type of: Code-ableConcept represents a value that is usually supplied by providing a reference to one or more terminologies or ontologies, but may also be defined by the provision of text.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
 |[type_display](#type_display)||[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Codeable Concept entity are listed below.</summary>

@@ -14,7 +14,7 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [crmCommon/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
 [nonProfit/Lead](../../accelerators/nonProfit/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead")  
@@ -223,7 +223,7 @@ marketing/Lead
 |[startDate](#startDate)|Enter the start date for the last school or university|[marketing/Lead](Lead.md)|
 |[linkedInFormSubmissions](#linkedInFormSubmissions)|Number of submissions by this lead|[marketing/Lead](Lead.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Lead entity are listed below.</summary>

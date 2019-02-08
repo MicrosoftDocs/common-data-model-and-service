@@ -14,7 +14,7 @@ The master list of program versions start dates defined by the institution.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersionDetail.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/ProgramVersionDetail  
 
@@ -54,7 +54,7 @@ higherEducation/ProgramVersionDetail
 |[programVersionId](#programVersionId)|Lookup to the program version.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
 |[startDate](#startDate)|Start Date|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Program Version Detail entity are listed below.</summary>

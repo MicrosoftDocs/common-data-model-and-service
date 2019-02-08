@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Badge.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/Badge  
 
@@ -45,7 +45,7 @@ portals/Badge
 |[expiryDate](#expiryDate)||[portals/Badge](Badge.md)|
 |[issuedDate](#issuedDate)||[portals/Badge](Badge.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Badge entity are listed below.</summary>

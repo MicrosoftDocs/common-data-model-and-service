@@ -14,7 +14,7 @@ Relationship between an account or contact and an opportunity.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityRelationship.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/OpportunityRelationship  
 
@@ -47,7 +47,7 @@ sales/OpportunityRelationship
 |[opportunityStateCode](#opportunityStateCode)|Status of the opportunity.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
 |[opportunityStatusCode](#opportunityStatusCode)|Reason for the status of the opportunity.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Opportunity Relationship entity are listed below.</summary>

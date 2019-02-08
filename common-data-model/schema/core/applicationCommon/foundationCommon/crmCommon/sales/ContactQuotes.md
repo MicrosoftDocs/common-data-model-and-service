@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/ContactQuotes.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/ContactQuotes  
 
@@ -31,7 +31,7 @@ sales/ContactQuotes
 |[contactId](#contactId)||[sales/ContactQuotes](ContactQuotes.md)|
 |[quoteId](#quoteId)||[sales/ContactQuotes](ContactQuotes.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the ContactQuotes entity are listed below.</summary>

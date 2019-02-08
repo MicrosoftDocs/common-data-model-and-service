@@ -14,7 +14,7 @@ Instance of a property with its value.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [foundationCommon/PropertyInstance](../../PropertyInstance.md "/core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance")  
 sales/PropertyInstance  
@@ -52,7 +52,7 @@ sales/PropertyInstance
 |[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
 |[regardingObjectId](#regardingObjectId)|Shows the object that the property is associated with.|[sales/PropertyInstance](PropertyInstance.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Property Instance entity are listed below.</summary>

@@ -14,7 +14,7 @@ The LinkedIn account where forms are created and published.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInAccount.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 LinkedInLeads/LinkedInAccount  
 
@@ -58,7 +58,7 @@ LinkedInLeads/LinkedInAccount
 |[lastsynctimestamprollupDate](#lastsynctimestamprollupDate)|Last Updated time of rollup field Last sync.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
 |[lastsynctimestamprollupState](#lastsynctimestamprollupState)|State of rollup field Last sync.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the LinkedIn Account entity are listed below.</summary>

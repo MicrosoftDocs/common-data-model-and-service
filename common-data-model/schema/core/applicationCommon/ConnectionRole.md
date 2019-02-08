@@ -14,7 +14,7 @@ Role describing a relationship between a two records.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ConnectionRole.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/ConnectionRole  
 
@@ -49,7 +49,7 @@ applicationCommon/ConnectionRole
 |[isCustomizable](#isCustomizable)|Information that specifies whether this component can be customized.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
 |[introducedVersion](#introducedVersion)|Version in which the form is introduced.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Connection Role entity are listed below.</summary>

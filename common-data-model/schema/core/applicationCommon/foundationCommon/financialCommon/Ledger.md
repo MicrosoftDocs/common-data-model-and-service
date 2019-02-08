@@ -14,7 +14,7 @@ The collection of all accounts making up the central repository of accounting da
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 financialCommon/Ledger  
 
@@ -28,7 +28,7 @@ financialCommon/Ledger
 |[companyKey](#companyKey)|The company for which the ledger stores financial information|[financialCommon/Ledger](Ledger.md)|
 |[accountingCurrencyKey](#accountingCurrencyKey)|The currency in which all amounts in the ledger are expressed|[financialCommon/Ledger](Ledger.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Ledger entity are listed below.</summary>

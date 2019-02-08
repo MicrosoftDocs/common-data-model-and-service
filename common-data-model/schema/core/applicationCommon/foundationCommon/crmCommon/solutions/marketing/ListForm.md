@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/ListForm.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 marketing/ListForm  
 
@@ -46,7 +46,7 @@ marketing/ListForm
 |[formId](#formId)|Unique ID for the marketing form associated with the list form|[marketing/ListForm](ListForm.md)|
 |[listid](#listid)|Unique ID for Marketing List associated with List Form|[marketing/ListForm](ListForm.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the List Form entity are listed below.</summary>

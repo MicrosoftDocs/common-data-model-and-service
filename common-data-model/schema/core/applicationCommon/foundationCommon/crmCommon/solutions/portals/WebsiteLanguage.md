@@ -14,7 +14,7 @@ Languages supported and publishing status for the portal
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebsiteLanguage.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/WebsiteLanguage  
 
@@ -48,7 +48,7 @@ portals/WebsiteLanguage
 |[publishingState](#publishingState)|Lookup to Publishing State - publishing state of this website/language instance (draft/published)|[portals/WebsiteLanguage](WebsiteLanguage.md)|
 |[websiteId](#websiteId)|Lookup to Website|[portals/WebsiteLanguage](WebsiteLanguage.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Website Language entity are listed below.</summary>

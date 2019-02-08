@@ -14,7 +14,7 @@ The previous education history for a student.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/PreviousEducation.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/PreviousEducation  
 
@@ -57,7 +57,7 @@ higherEducation/PreviousEducation
 |[schoolNameId](#schoolNameId)|The school previously attended|[higherEducation/PreviousEducation](PreviousEducation.md)|
 |[studentId](#studentId)||[higherEducation/PreviousEducation](PreviousEducation.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Previous Education entity are listed below.</summary>

@@ -14,7 +14,7 @@ Storage of files used in the web Portals.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebFile.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/WebFile  
 
@@ -70,7 +70,7 @@ portals/WebFile
 |[blogPostId](#blogPostId)|Unique identifier for Blog Post associated with Web File.|[portals/WebFile](WebFile.md)|
 |[ideaId](#ideaId)|Shows the Idea associated with the Web File.|[portals/WebFile](WebFile.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Web File entity are listed below.</summary>

@@ -14,7 +14,7 @@ Amount of funds that can be designated for an Objective and/or Delivery Framewor
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Budget.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Budget  
 
@@ -55,7 +55,7 @@ nonProfit/Budget
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/Budget](Budget.md)|
 |[totalbudgetBase](#totalbudgetBase)|Value of the Total Budget in base currency.|[nonProfit/Budget](Budget.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Budget entity are listed below.</summary>

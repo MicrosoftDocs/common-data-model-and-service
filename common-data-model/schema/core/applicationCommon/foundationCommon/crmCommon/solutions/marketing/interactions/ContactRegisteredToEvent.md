@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ContactRegisteredToEvent.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/ContactRegisteredToEvent  
 
@@ -31,7 +31,7 @@ interactions/ContactRegisteredToEvent
 |[interactionType](#interactionType)|Interaction type|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
 |[timestamp](#timestamp)|Timestamp|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Event registration entity are listed below.</summary>

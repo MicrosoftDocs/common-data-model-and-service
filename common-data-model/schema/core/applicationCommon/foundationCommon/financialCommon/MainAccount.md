@@ -14,7 +14,7 @@ An account whose balance is displayed in major financial statements
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccount.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 financialCommon/MainAccount  
 
@@ -28,7 +28,7 @@ financialCommon/MainAccount
 |[mainAccountCategoryKey](#mainAccountCategoryKey)|The categorization of the main account, by which accounting aspects such as account type are defined|[financialCommon/MainAccount](MainAccount.md)|
 |[currencyKey](#currencyKey)|The currency in which amounts held by this account are expressed|[financialCommon/MainAccount](MainAccount.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Main Account entity are listed below.</summary>

@@ -14,7 +14,7 @@ The master list of all program versions defined by the institution.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersion.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/ProgramVersion  
 
@@ -51,7 +51,7 @@ higherEducation/ProgramVersion
 |[programId](#programId)|Lookup to the program.|[higherEducation/ProgramVersion](ProgramVersion.md)|
 |[programLevelId](#programLevelId)|Link to Program Level entity|[higherEducation/ProgramVersion](ProgramVersion.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Program Version entity are listed below.</summary>

@@ -14,7 +14,7 @@ Resource Expansions.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceExpansion.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/ResourceExpansion  
 
@@ -35,7 +35,7 @@ service/ResourceExpansion
 |[modifiedOn](#modifiedOn)|Date and time when the record was last modified.|[service/ResourceExpansion](ResourceExpansion.md)|
 |[objectId](#objectId)|Object being expanded.|[service/ResourceExpansion](ResourceExpansion.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Resource Expansion entity are listed below.</summary>

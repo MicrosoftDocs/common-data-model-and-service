@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/ContactLeads  
 
@@ -31,7 +31,7 @@ crmCommon/ContactLeads
 |[contactId](#contactId)||[crmCommon/ContactLeads](ContactLeads.md)|
 |[leadId](#leadId)||[crmCommon/ContactLeads](ContactLeads.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the ContactLeads entity are listed below.</summary>

@@ -14,7 +14,7 @@ This is the mechanism through which Foundations provide recommendations back to 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Recommendation.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Recommendation  
 
@@ -56,7 +56,7 @@ nonProfit/Recommendation
 |[status](#status)|Status of the Recommendation.|[nonProfit/Recommendation](Recommendation.md)|
 |[status_display](#status_display)||[nonProfit/Recommendation](Recommendation.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Recommendation entity are listed below.</summary>

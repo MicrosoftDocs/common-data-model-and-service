@@ -14,7 +14,7 @@ System operation used to perform lengthy and asynchronous operations on large da
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/QuickCampaign  
 
@@ -110,7 +110,7 @@ crmCommon/QuickCampaign
 |[targetMembersCount](#targetMembersCount)|Number of members to target.|[crmCommon/QuickCampaign](QuickCampaign.md)|
 |[serviceId](#serviceId)|Unique identifier for an associated service.|[crmCommon/QuickCampaign](QuickCampaign.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Quick Campaign entity are listed below.</summary>

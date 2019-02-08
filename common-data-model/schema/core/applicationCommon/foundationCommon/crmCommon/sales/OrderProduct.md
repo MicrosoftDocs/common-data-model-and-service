@@ -14,7 +14,7 @@ Line item in a sales order.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OrderProduct.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/OrderProduct  
 
@@ -100,7 +100,7 @@ sales/OrderProduct
 |[salesOrderDetailName](#salesOrderDetailName)|Sales Order Detail Name. Added for 1:n Referential relationship|[sales/OrderProduct](OrderProduct.md)|
 |[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|[sales/OrderProduct](OrderProduct.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Order Product entity are listed below.</summary>

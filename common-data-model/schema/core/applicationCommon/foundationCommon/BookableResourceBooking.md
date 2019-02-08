@@ -14,7 +14,7 @@ Represents the line details of a resource booking.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceBooking.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/BookableResourceBooking  
 
@@ -58,7 +58,7 @@ foundationCommon/BookableResourceBooking
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcebooking with respect to the base currency.|[foundationCommon/BookableResourceBooking](BookableResourceBooking.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceBooking with respect to the base currency.|[foundationCommon/BookableResourceBooking](BookableResourceBooking.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Bookable Resource Booking entity are listed below.</summary>

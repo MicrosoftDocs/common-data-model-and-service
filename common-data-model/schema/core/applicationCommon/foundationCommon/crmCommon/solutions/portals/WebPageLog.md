@@ -14,7 +14,7 @@ A record of a user viewing a Web Page
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPageLog.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/WebPageLog  
 
@@ -49,7 +49,7 @@ portals/WebPageLog
 |[IpAddress](#IpAddress)|Shows the IP address of the computer of the user who requested the file download.|[portals/WebPageLog](WebPageLog.md)|
 |[webPageId](#webPageId)|Unique identifier of the Web Page associated with the Web Page Log|[portals/WebPageLog](WebPageLog.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Web Page Log entity are listed below.</summary>

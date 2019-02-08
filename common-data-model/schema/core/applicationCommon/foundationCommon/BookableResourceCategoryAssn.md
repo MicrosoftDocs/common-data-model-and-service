@@ -14,7 +14,7 @@ Association entity to model the categorization of resources.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceCategoryAssn.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/BookableResourceCategoryAssn  
 
@@ -49,7 +49,7 @@ foundationCommon/BookableResourceCategoryAssn
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcecategoryassn with respect to the base currency.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceCategoryAssn with respect to the base currency.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Bookable Resource Category Assn entity are listed below.</summary>

@@ -14,7 +14,7 @@ Position of a user in the hierarchy
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Position.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Position  
 
@@ -45,7 +45,7 @@ applicationCommon/Position
 |[description](#description)|The description of the position.|[applicationCommon/Position](Position.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the position.|[applicationCommon/Position](Position.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Position entity are listed below.</summary>

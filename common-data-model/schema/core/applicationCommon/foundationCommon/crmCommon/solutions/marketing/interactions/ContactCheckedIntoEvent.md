@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ContactCheckedIntoEvent.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/ContactCheckedIntoEvent  
 
@@ -31,7 +31,7 @@ interactions/ContactCheckedIntoEvent
 |[interactionType](#interactionType)|Interaction type|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
 |[timestamp](#timestamp)|Timestamp|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Event check-in entity are listed below.</summary>

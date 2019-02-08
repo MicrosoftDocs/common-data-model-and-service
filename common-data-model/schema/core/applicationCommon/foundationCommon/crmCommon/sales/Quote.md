@@ -14,7 +14,7 @@ Formal offer for products and/or services, proposed at specific prices and relat
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/Quote  
 
@@ -124,7 +124,7 @@ sales/Quote
 |[contactId](#contactId)|Unique identifier of the contact associated with the quote.|[sales/Quote](Quote.md)|
 |[campaignId](#campaignId)|Shows the campaign that the order was created from.|[sales/Quote](Quote.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Quote entity are listed below.</summary>

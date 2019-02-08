@@ -14,7 +14,7 @@ Container for campaign activities and responses, sales literature, products, and
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/Campaign  
 [nonProfit/Campaign](accelerators/nonProfit/Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign")  
@@ -77,7 +77,7 @@ crmCommon/Campaign
 |[priceListId](#priceListId)|Choose the price list associated with this item to make sure the products associated with the campaign are offered at the correct prices.|[crmCommon/Campaign](Campaign.md)|
 |[entityImageId](#entityImageId)||[crmCommon/Campaign](Campaign.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Campaign entity are listed below.</summary>

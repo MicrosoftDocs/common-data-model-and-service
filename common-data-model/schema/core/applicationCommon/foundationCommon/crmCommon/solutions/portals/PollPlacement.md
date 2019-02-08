@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PollPlacement.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/PollPlacement  
 
@@ -46,7 +46,7 @@ portals/PollPlacement
 |[websiteId](#websiteId)|Unique identifier for Website associated with Poll Placement.|[portals/PollPlacement](PollPlacement.md)|
 |[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Poll Placement.|[portals/PollPlacement](PollPlacement.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Poll Placement entity are listed below.</summary>

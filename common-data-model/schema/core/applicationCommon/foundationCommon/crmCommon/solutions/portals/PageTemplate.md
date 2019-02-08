@@ -14,7 +14,7 @@ URL of the .aspx page used to create new webpages.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PageTemplate.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/PageTemplate  
 
@@ -54,7 +54,7 @@ portals/PageTemplate
 |[useWebsiteHeaderAndFooter](#useWebsiteHeaderAndFooter)|Control whether this web template page template will be rendered using the website header and footer, or control rendering of all page content.|[portals/PageTemplate](PageTemplate.md)|
 |[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Page Template.|[portals/PageTemplate](PageTemplate.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Page Template entity are listed below.</summary>

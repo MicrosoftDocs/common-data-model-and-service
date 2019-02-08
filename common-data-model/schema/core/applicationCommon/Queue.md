@@ -14,7 +14,7 @@ A list of records that require action, such as accounts, activities, and cases.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Queue.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Queue  
 
@@ -73,7 +73,7 @@ applicationCommon/Queue
 |[queueViewType](#queueViewType)|Select whether the queue is public or private. A public queue can be viewed by all. A private queue can be viewed only by the members added to the queue.|[applicationCommon/Queue](Queue.md)|
 |[queueViewType_display](#queueViewType_display)||[applicationCommon/Queue](Queue.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Queue entity are listed below.</summary>

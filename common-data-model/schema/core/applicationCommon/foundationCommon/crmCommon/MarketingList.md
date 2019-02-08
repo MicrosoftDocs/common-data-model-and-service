@@ -14,7 +14,7 @@ Group of existing or potential customers created for a marketing campaign or oth
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/MarketingList.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/MarketingList  
 [marketing/MarketingList](solutions/marketing/MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json/MarketingList")  
@@ -66,7 +66,7 @@ crmCommon/MarketingList
 |[statusCode_display](#statusCode_display)||[crmCommon/MarketingList](MarketingList.md)|
 |[type](#type)|Select whether you want the marketing list to be static or dynamic. The members in a static marketing list are unchanging. A dynamic marketing list is based on a dynamic query that retrieves the updated list of members|[crmCommon/MarketingList](MarketingList.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Marketing List entity are listed below.</summary>

@@ -14,7 +14,7 @@ A status report submitted by an awardee to the granting entity (i.e., a Foundati
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Report.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Report  
 
@@ -59,7 +59,7 @@ nonProfit/Report
 |[type](#type)|Type of Report.|[nonProfit/Report](Report.md)|
 |[type_display](#type_display)||[nonProfit/Report](Report.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Report entity are listed below.</summary>

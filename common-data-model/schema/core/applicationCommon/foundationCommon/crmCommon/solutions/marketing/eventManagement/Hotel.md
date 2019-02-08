@@ -14,7 +14,7 @@ This represents a single hotel property (for e.g, Marriott in Bellevue). Each in
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Hotel  
 
@@ -57,7 +57,7 @@ eventManagement/Hotel
 |[website](#website)|Hotel website|[eventManagement/Hotel](Hotel.md)|
 |[ZIPPostalCode](#ZIPPostalCode)|Hotel ZIP postal code|[eventManagement/Hotel](Hotel.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Hotel entity are listed below.</summary>

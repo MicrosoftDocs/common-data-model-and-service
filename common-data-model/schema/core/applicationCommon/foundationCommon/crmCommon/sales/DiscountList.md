@@ -14,7 +14,7 @@ Type of discount specified as either a percentage or an amount.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/DiscountList  
 
@@ -44,7 +44,7 @@ sales/DiscountList
 |[statusCode_display](#statusCode_display)||[sales/DiscountList](DiscountList.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the discount type.|[sales/DiscountList](DiscountList.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Discount List entity are listed below.</summary>

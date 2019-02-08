@@ -14,7 +14,7 @@ A Delivery Framework is a Management Unit of work defined by the organization or
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFramework.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/DeliveryFramework  
 
@@ -58,7 +58,7 @@ nonProfit/DeliveryFramework
 |[status](#status)|Status|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
 |[status_display](#status_display)||[nonProfit/DeliveryFramework](DeliveryFramework.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Delivery Framework entity are listed below.</summary>

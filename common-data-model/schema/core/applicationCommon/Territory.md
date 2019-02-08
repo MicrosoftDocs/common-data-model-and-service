@@ -14,7 +14,7 @@ Territory represents sales regions.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Territory.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Territory  
 
@@ -42,7 +42,7 @@ applicationCommon/Territory
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the territory with respect to the base currency.|[applicationCommon/Territory](Territory.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the territory.|[applicationCommon/Territory](Territory.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Territory entity are listed below.</summary>

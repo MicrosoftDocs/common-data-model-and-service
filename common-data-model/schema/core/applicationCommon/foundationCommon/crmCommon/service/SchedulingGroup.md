@@ -14,7 +14,7 @@ Resource group or team whose members can be scheduled for a service.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/SchedulingGroup.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/SchedulingGroup  
 
@@ -35,7 +35,7 @@ service/SchedulingGroup
 |[objectTypeCode](#objectTypeCode)|Type of entity with which the scheduling group is associated.|[service/SchedulingGroup](SchedulingGroup.md)|
 |[organizationId](#organizationId)|Unique identifier of the organization associated with the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Scheduling Group entity are listed below.</summary>

@@ -14,7 +14,7 @@ Biographical information about the education institutions a contact attended or 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Education.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Education  
 
@@ -59,7 +59,7 @@ nonProfit/Education
 |[institutionId](#institutionId)|Unique identifier for Account associated with Education.|[nonProfit/Education](Education.md)|
 |[lastYearAttended](#lastYearAttended)|End year for Education History being selected.|[nonProfit/Education](Education.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Education entity are listed below.</summary>

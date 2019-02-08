@@ -14,7 +14,7 @@ Selection rule that allows the scheduling engine to select a number of resources
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/ResourceSpecification  
 
@@ -46,7 +46,7 @@ service/ResourceSpecification
 |[requiredCount](#requiredCount)|Required number of resources that must be available. Use -1 to indicate all resources.|[service/ResourceSpecification](ResourceSpecification.md)|
 |[sameSite](#sameSite)|Value that specifies that all valid and available resources must be in the same site.|[service/ResourceSpecification](ResourceSpecification.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Resource Specification entity are listed below.</summary>

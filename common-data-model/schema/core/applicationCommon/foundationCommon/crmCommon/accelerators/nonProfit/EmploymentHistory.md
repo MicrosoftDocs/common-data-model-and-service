@@ -14,7 +14,7 @@ Historical and/or current information about where a contact works, volunteers or
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/EmploymentHistory.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/EmploymentHistory  
 
@@ -55,7 +55,7 @@ nonProfit/EmploymentHistory
 |[occupation_display](#occupation_display)||[nonProfit/EmploymentHistory](EmploymentHistory.md)|
 |[title](#title)|Title of the Job or position of the employee.|[nonProfit/EmploymentHistory](EmploymentHistory.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Employment History entity are listed below.</summary>

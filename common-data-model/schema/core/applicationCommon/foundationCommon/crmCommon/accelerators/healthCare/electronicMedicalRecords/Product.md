@@ -14,7 +14,7 @@ Information about products and their pricing information.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [foundationCommon/Product](../../../../Product.md "/core/applicationCommon/foundationCommon/Product.cdm.json/Product")  
 electronicMedicalRecords/Product  
@@ -87,7 +87,7 @@ electronicMedicalRecords/Product
 |[medicationCode](#medicationCode)|A code (or set of codes) that specify this medication, or a textual description if no code is available. Usage note: This could be a standard medication code.|[electronicMedicalRecords/Product](Product.md)|
 |[packageContainer](#packageContainer)|The kind of container that this package comes as.|[electronicMedicalRecords/Product](Product.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Product entity are listed below.</summary>

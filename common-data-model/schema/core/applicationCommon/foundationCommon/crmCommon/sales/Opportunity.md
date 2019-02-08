@@ -14,7 +14,7 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [nonProfit/Opportunity](../accelerators/nonProfit/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity")  
 sales/Opportunity  
@@ -146,7 +146,7 @@ sales/Opportunity
 |[contactId](#contactId)|Unique identifier of the contact associated with the opportunity.|[sales/Opportunity](Opportunity.md)|
 |[campaignId](#campaignId)|Shows the campaign that the opportunity was created from. The ID is used for tracking the success of the campaign.|[sales/Opportunity](Opportunity.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Opportunity entity are listed below.</summary>

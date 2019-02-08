@@ -14,7 +14,7 @@ For internal use only.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/SocialActivity](../../SocialActivity.md "/core/applicationCommon/SocialActivity.cdm.json/SocialActivity")  
 crmCommon/SocialActivity  
@@ -94,7 +94,7 @@ crmCommon/SocialActivity
 |[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
 |[serviceId](#serviceId)|Unique identifier for the associated service.|[crmCommon/SocialActivity](SocialActivity.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Social Activity entity are listed below.</summary>

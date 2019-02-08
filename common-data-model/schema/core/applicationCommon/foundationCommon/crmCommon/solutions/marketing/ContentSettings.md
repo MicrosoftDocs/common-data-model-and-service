@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/ContentSettings.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 marketing/ContentSettings  
 
@@ -54,7 +54,7 @@ marketing/ContentSettings
 |[googlePlusUrl](#googlePlusUrl)||[marketing/ContentSettings](ContentSettings.md)|
 |[youtubeUrl](#youtubeUrl)||[marketing/ContentSettings](ContentSettings.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Content Settings entity are listed below.</summary>

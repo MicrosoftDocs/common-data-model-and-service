@@ -14,7 +14,7 @@ The master list of all education levels mapped in the external system, such as A
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/EducationLevel.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/EducationLevel  
 
@@ -49,7 +49,7 @@ higherEducation/EducationLevel
 |[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/EducationLevel](EducationLevel.md)|
 |[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/EducationLevel](EducationLevel.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Education Level entity are listed below.</summary>

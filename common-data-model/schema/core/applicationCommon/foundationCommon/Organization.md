@@ -14,7 +14,7 @@ Top level of the Microsoft Dynamics 365 business hierarchy. The organization can
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Organization.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Organization](../Organization.md "/core/applicationCommon/Organization.cdm.json/Organization")  
 foundationCommon/Organization  
@@ -364,7 +364,7 @@ foundationCommon/Organization
 |[schedulingEngine](#schedulingEngine)|Scheduling engine for Appointments and Service Activities|[foundationCommon/Organization](Organization.md)|
 |[schedulingEngine_display](#schedulingEngine_display)||[foundationCommon/Organization](Organization.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Organization entity are listed below.</summary>

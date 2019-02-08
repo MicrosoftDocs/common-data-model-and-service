@@ -14,7 +14,7 @@ Prospective, pending and closed "deals" or gifts.  This entity allows nonprofit
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/OfacMatch  
 
@@ -53,7 +53,7 @@ nonProfit/OfacMatch
 |[sdnNumber](#sdnNumber)|Number of SDN match.|[nonProfit/OfacMatch](OfacMatch.md)|
 |[title](#title)|Title of SDN match.|[nonProfit/OfacMatch](OfacMatch.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the OFAC Match entity are listed below.</summary>

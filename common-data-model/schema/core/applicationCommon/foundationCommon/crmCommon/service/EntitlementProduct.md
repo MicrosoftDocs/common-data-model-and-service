@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/EntitlementProduct.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/EntitlementProduct  
 
@@ -31,7 +31,7 @@ service/EntitlementProduct
 |[productId](#productId)||[service/EntitlementProduct](EntitlementProduct.md)|
 |[entitlementId](#entitlementId)||[service/EntitlementProduct](EntitlementProduct.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Entitlement Product entity are listed below.</summary>

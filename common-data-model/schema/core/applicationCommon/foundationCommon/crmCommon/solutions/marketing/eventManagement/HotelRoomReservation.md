@@ -14,7 +14,7 @@ Each record of this type tracks a single request made by an event attendee (thro
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/HotelRoomReservation  
 
@@ -49,7 +49,7 @@ eventManagement/HotelRoomReservation
 |[rewardsProgramNumber](#rewardsProgramNumber)|Room reservation rewards program number|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
 |[specialRequests](#specialRequests)|Room reservation special requests|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Hotel Room Reservation entity are listed below.</summary>

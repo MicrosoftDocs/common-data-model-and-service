@@ -14,7 +14,7 @@ Group of undeleted system users and undeleted teams. Owners can be used to contr
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Owner.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Owner  
 
@@ -28,7 +28,7 @@ applicationCommon/Owner
 |[ownerIdType](#ownerIdType)||[applicationCommon/Owner](Owner.md)|
 |[yomiName](#yomiName)|Pronunciation of the name of the owner, written in phonetic hiragana or katakana characters.|[applicationCommon/Owner](Owner.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Owner entity are listed below.</summary>

@@ -14,7 +14,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Contact.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Contact](../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
 foundationCommon/Contact  
@@ -245,7 +245,7 @@ foundationCommon/Contact
 |[marketingOnly](#marketingOnly)|Whether is only for marketing|[applicationCommon/Contact](../Contact.md)|
 |[defaultPriceLevelId](#defaultPriceLevelId)|Choose the default price list associated with the contact to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.|[foundationCommon/Contact](Contact.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Contact entity are listed below.</summary>

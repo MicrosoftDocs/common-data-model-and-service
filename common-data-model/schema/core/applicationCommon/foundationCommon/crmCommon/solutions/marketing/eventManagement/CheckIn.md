@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/CheckIn.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/CheckIn  
 
@@ -62,7 +62,7 @@ eventManagement/CheckIn
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/CheckIn](CheckIn.md)|
 |[viewingDurationInMins](#viewingDurationInMins)||[eventManagement/CheckIn](CheckIn.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Check-in entity are listed below.</summary>

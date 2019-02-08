@@ -14,7 +14,7 @@ Agreement to provide customer service during a specified amount of time or numbe
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/Contract  
 
@@ -84,7 +84,7 @@ service/Contract
 |[billingContactId](#billingContactId)|Unique identifier of the contact to whom the contract is to be billed.|[service/Contract](Contract.md)|
 |[contactId](#contactId)|Unique identifier of the contact specified for the contract.|[service/Contract](Contract.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Contract entity are listed below.</summary>

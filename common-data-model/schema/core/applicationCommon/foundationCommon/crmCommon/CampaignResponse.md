@@ -14,7 +14,7 @@ Response from an existing or a potential new customer for a campaign.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/CampaignResponse.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/CampaignResponse  
 
@@ -118,7 +118,7 @@ crmCommon/CampaignResponse
 |[yomiLastName](#yomiLastName)|Type the phonetic spelling of the campaign responder's last name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|[crmCommon/CampaignResponse](CampaignResponse.md)|
 |[serviceId](#serviceId)|Unique identifier for the associated service.|[crmCommon/CampaignResponse](CampaignResponse.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Campaign Response entity are listed below.</summary>

@@ -14,7 +14,7 @@ Person with access to the Microsoft CRM system and who owns objects in the Micro
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/User](../../../User.md "/core/applicationCommon/User.cdm.json/User")  
 service/User  
@@ -161,7 +161,7 @@ service/User
 |[territoryId](#territoryId)|Unique identifier of the territory to which the user is assigned.|[applicationCommon/User](../../../User.md)|
 |[siteId](#siteId)|Site at which the user is located.|[service/User](User.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the User entity are listed below.</summary>

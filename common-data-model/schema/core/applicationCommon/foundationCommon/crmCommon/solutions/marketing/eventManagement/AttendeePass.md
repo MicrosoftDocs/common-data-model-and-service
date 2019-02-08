@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/AttendeePass.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/AttendeePass  
 
@@ -51,7 +51,7 @@ eventManagement/AttendeePass
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/AttendeePass](AttendeePass.md)|
 |[passPriceBase](#passPriceBase)|Value of the Pass Price in base currency.|[eventManagement/AttendeePass](AttendeePass.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Attendee Pass entity are listed below.</summary>

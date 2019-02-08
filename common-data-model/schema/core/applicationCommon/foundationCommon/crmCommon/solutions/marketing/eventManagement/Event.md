@@ -14,7 +14,7 @@ Container to manage and plan marketing activities that take place at a specific 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Event  
 
@@ -180,7 +180,7 @@ eventManagement/Event
 |[portalBannerImage](#portalBannerImage)|The portal banner image.|[eventManagement/Event](Event.md)|
 |[eventURL](#eventURL)||[eventManagement/Event](Event.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Event entity are listed below.</summary>

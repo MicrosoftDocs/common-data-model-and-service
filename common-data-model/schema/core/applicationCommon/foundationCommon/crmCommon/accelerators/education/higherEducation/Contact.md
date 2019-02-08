@@ -14,7 +14,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Contact](../../../../../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
 [foundationCommon/Contact](../../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
@@ -277,7 +277,7 @@ higherEducation/Contact
 |[race_display](#race_display)||[higherEducation/Contact](Contact.md)|
 |[studentStatusId](#studentStatusId)||[higherEducation/Contact](Contact.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Contact entity are listed below.</summary>

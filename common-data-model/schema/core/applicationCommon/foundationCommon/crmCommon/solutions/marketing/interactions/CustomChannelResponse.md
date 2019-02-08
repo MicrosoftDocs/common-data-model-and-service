@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CustomChannelResponse.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/CustomChannelResponse  
 
@@ -36,7 +36,7 @@ interactions/CustomChannelResponse
 |[interactionType](#interactionType)|Interaction type|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
 |[timestamp](#timestamp)|Timestamp|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Custom channel response entity are listed below.</summary>

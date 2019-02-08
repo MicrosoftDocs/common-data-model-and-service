@@ -14,7 +14,7 @@ The master list of registration statuses tracked by the institution. The registr
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/RegistrationStatus.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/RegistrationStatus  
 
@@ -49,7 +49,7 @@ higherEducation/RegistrationStatus
 |[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/RegistrationStatus](RegistrationStatus.md)|
 |[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/RegistrationStatus](RegistrationStatus.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Registration Status entity are listed below.</summary>

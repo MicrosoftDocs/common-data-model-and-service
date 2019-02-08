@@ -14,7 +14,7 @@ The details of a healthcare service available at a location.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/HealthcareService  
 
@@ -53,7 +53,7 @@ electronicMedicalRecords/HealthcareService
 |[notAvailableDuringStartDateTime](#notAvailableDuringStartDateTime)|Starting time with inclusive boundary|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
 |[providedby](#providedby)|The organization that provides this healthcare service.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Healthcare Service entity are listed below.</summary>

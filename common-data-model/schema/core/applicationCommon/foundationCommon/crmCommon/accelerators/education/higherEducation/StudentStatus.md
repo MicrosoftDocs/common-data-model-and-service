@@ -14,7 +14,7 @@ The master list of student statuses defined by the institution.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentStatus.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/StudentStatus  
 
@@ -49,7 +49,7 @@ higherEducation/StudentStatus
 |[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/StudentStatus](StudentStatus.md)|
 |[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/StudentStatus](StudentStatus.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Student Status entity are listed below.</summary>

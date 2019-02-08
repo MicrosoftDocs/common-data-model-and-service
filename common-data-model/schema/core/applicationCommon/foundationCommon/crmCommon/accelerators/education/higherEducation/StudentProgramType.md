@@ -14,7 +14,7 @@ The master list of program types defined by the institution, such as major, mino
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/StudentProgramType  
 
@@ -45,7 +45,7 @@ higherEducation/StudentProgramType
 |[statusCode_display](#statusCode_display)||[higherEducation/StudentProgramType](StudentProgramType.md)|
 |[name](#name)|The name of the program type.|[higherEducation/StudentProgramType](StudentProgramType.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Student Program Type entity are listed below.</summary>

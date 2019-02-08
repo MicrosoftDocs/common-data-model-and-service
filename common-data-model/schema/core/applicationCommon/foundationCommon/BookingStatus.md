@@ -14,7 +14,7 @@ Allows creation of multiple sub statuses mapped to a booking status option.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookingStatus.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/BookingStatus  
 
@@ -50,7 +50,7 @@ foundationCommon/BookingStatus
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookingstatus with respect to the base currency.|[foundationCommon/BookingStatus](BookingStatus.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookingStatus with respect to the base currency.|[foundationCommon/BookingStatus](BookingStatus.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Booking Status entity are listed below.</summary>

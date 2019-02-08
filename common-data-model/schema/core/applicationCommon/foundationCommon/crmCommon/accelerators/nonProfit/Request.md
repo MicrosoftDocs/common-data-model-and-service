@@ -14,7 +14,7 @@ Represents a request from an individual or institution for funding or support. A
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Request.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Request  
 
@@ -76,7 +76,7 @@ nonProfit/Request
 |[totalProjectBudget](#totalProjectBudget)|Total Project Budget, which may be in excess of a requested or awarded amount|[nonProfit/Request](Request.md)|
 |[totalprojectbudgetBase](#totalprojectbudgetBase)|Value of the Total Project Budget in base currency.|[nonProfit/Request](Request.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Request entity are listed below.</summary>

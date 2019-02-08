@@ -14,7 +14,7 @@ The root entity for a portal blog.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Blog.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/Blog  
 
@@ -57,7 +57,7 @@ portals/Blog
 |[websiteid](#websiteid)|Shows the website associated with the blog.|[portals/Blog](Blog.md)|
 |[blogPostLanguageId](#blogPostLanguageId)|Option to make blog posts language specific|[portals/Blog](Blog.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Blog entity are listed below.</summary>

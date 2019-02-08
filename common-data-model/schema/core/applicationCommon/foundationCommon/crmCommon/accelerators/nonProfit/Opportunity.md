@@ -14,7 +14,7 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Opportunity  
 [sales/Opportunity](../../sales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json/Opportunity")  
@@ -157,7 +157,7 @@ nonProfit/Opportunity
 |[solicitationType_display](#solicitationType_display)||[nonProfit/Opportunity](Opportunity.md)|
 |[sourceCode](#sourceCode)|Organization defined unique code for associated Campaign. This value is copied from associated Campaign at gift creation.|[nonProfit/Opportunity](Opportunity.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Opportunity entity are listed below.</summary>

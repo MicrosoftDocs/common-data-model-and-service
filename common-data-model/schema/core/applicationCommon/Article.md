@@ -14,7 +14,7 @@ Structured content that is part of the knowledge base.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Article.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Article  
 [portals/Article](foundationCommon/crmCommon/solutions/portals/Article.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article")  
@@ -52,7 +52,7 @@ applicationCommon/Article
 |[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Article](Article.md)|
 |[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Article](Article.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Article entity are listed below.</summary>

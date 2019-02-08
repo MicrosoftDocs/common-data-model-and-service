@@ -14,7 +14,7 @@ Service request case associated with a contract.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [service/Case](../../service/Case.md "/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json/Case")  
 portals/Case  
@@ -132,7 +132,7 @@ portals/Case
 |[resolutionDate](#resolutionDate)||[portals/Case](Case.md)|
 |[stepsToReproduce](#stepsToReproduce)||[portals/Case](Case.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Case entity are listed below.</summary>

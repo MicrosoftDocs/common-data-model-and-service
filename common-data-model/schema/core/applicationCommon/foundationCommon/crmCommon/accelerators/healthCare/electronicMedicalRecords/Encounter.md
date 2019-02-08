@@ -14,7 +14,7 @@ An interaction between a patient and healthcare provider(s) for the purpose of p
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/Encounter  
 
@@ -75,7 +75,7 @@ electronicMedicalRecords/Encounter
 |[priority_display](#priority_display)||[electronicMedicalRecords/Encounter](Encounter.md)|
 |[subjectPatient](#subjectPatient)|The patient or group present at the encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Encounter entity are listed below.</summary>

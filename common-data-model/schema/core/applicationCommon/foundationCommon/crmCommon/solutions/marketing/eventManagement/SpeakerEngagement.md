@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SpeakerEngagement.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/SpeakerEngagement  
 
@@ -52,7 +52,7 @@ eventManagement/SpeakerEngagement
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
 |[speakercostBase](#speakercostBase)|Value of the Speaker cost in base currency.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Speaker Engagement entity are listed below.</summary>

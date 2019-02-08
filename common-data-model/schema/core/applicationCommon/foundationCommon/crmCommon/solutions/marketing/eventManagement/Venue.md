@@ -14,7 +14,7 @@ The Venue describes the location at which all event sessions and activities take
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Venue.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Venue  
 
@@ -81,7 +81,7 @@ eventManagement/Venue
 |[wifiSSID](#wifiSSID)|SSID of Wifi|[eventManagement/Venue](Venue.md)|
 |[addressComposite](#addressComposite)||[eventManagement/Venue](Venue.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Venue entity are listed below.</summary>

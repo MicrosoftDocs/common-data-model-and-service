@@ -14,7 +14,7 @@ Activity that is created automatically when an opportunity is closed, containing
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityClose.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/OpportunityClose  
 
@@ -106,7 +106,7 @@ sales/OpportunityClose
 |[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[sales/OpportunityClose](OpportunityClose.md)|
 |[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[sales/OpportunityClose](OpportunityClose.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Opportunity Close entity are listed below.</summary>

@@ -14,7 +14,7 @@ Organizational knowledge for internal and external use.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/KnowledgeArticle](../KnowledgeArticle.md "/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
 foundationCommon/KnowledgeArticle  
@@ -89,7 +89,7 @@ foundationCommon/KnowledgeArticle
 |[expirationStateId](#expirationStateId)|Contains the id of the expiration state of the entity.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
 |[setProductAssociations](#setProductAssociations)|Set Product Associations|[foundationCommon/KnowledgeArticle](KnowledgeArticle.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Knowledge Article entity are listed below.</summary>

@@ -14,7 +14,7 @@ The master list of all program levels offered by the institution.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Program.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/Program  
 
@@ -49,7 +49,7 @@ higherEducation/Program
 |[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/Program](Program.md)|
 |[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/Program](Program.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Program entity are listed below.</summary>

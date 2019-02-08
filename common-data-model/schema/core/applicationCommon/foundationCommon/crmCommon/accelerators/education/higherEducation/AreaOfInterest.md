@@ -14,7 +14,7 @@ The master list of all area of interests offered by an institution.  Areas of in
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfInterest.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/AreaOfInterest  
 
@@ -49,7 +49,7 @@ higherEducation/AreaOfInterest
 |[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
 |[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/AreaOfInterest](AreaOfInterest.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Area of Interest entity are listed below.</summary>

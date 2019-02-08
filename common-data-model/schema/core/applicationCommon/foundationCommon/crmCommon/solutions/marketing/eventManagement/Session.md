@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Session.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Session  
 
@@ -105,7 +105,7 @@ eventManagement/Session
 |[totalNumberOfQuestionsAskedDate](#totalNumberOfQuestionsAskedDate)|Last Updated time of rollup field Total number of questions asked.|[eventManagement/Session](Session.md)|
 |[totalNumberOfQuestionsAskedState](#totalNumberOfQuestionsAskedState)|State of rollup field Total number of questions asked.|[eventManagement/Session](Session.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Session entity are listed below.</summary>

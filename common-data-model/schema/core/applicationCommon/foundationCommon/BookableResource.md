@@ -14,7 +14,7 @@ Resource that has capacity which can be allocated to work.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResource.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/BookableResource  
 
@@ -57,7 +57,7 @@ foundationCommon/BookableResource
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresource with respect to the base currency.|[foundationCommon/BookableResource](BookableResource.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResource with respect to the base currency.|[foundationCommon/BookableResource](BookableResource.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Bookable Resource entity are listed below.</summary>

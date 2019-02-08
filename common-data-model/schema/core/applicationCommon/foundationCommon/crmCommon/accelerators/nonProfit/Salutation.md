@@ -14,7 +14,7 @@ The way a donor or prospect is commonly addressed via written communication (lha
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Salutation.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Salutation  
 
@@ -78,7 +78,7 @@ Anytown, USA 11111|[nonProfit/Salutation](Salutation.md)|
 |[type](#type)|Indicates that this Salutation should be applied when the Customer is contacted for the indicated category of mailing or acknowledgement.|[nonProfit/Salutation](Salutation.md)|
 |[type_display](#type_display)||[nonProfit/Salutation](Salutation.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Salutation entity are listed below.</summary>

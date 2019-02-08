@@ -14,7 +14,7 @@ Specific types of payments, including in-kind gifts, stock and securities that a
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/PaymentAsset  
 
@@ -63,7 +63,7 @@ nonProfit/PaymentAsset
 |[symbol](#symbol)||[nonProfit/PaymentAsset](PaymentAsset.md)|
 |[transferredOnTransactionId](#transferredOnTransactionId)|Transferred On Transaction|[nonProfit/PaymentAsset](PaymentAsset.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Payment Asset entity are listed below.</summary>

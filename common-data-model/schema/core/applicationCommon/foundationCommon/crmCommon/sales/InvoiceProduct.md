@@ -14,7 +14,7 @@ Line item in an invoice containing detailed billing information for a product.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/InvoiceProduct  
 
@@ -99,7 +99,7 @@ sales/InvoiceProduct
 |[salesOrderDetailId](#salesOrderDetailId)|Unique identifier for Order Line associated with Invoice Line.|[sales/InvoiceProduct](InvoiceProduct.md)|
 |[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|[sales/InvoiceProduct](InvoiceProduct.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Invoice Product entity are listed below.</summary>

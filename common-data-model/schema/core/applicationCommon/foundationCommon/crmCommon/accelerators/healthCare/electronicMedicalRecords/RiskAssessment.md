@@ -14,7 +14,7 @@ An assessment of the likely outcome(s) for a patient or other subject as well as
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/RiskAssessment  
 
@@ -77,7 +77,7 @@ electronicMedicalRecords/RiskAssessment
 |[subjectType](#subjectType)|The patient or group the risk assessment applies to.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
 |[subjectType_display](#subjectType_display)||[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Risk Assessment entity are listed below.</summary>

@@ -14,7 +14,7 @@ Speaker bios of individuals speaking at an event
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Speaker  
 
@@ -67,7 +67,7 @@ eventManagement/Speaker
 |[type_display](#type_display)||[eventManagement/Speaker](Speaker.md)|
 |[website](#website)|Website URL|[eventManagement/Speaker](Speaker.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Speaker entity are listed below.</summary>

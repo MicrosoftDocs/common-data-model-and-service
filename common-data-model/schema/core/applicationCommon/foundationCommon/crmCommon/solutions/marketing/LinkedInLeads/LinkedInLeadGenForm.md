@@ -14,7 +14,7 @@ Form shown to prospects on LinkedIn
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 LinkedInLeads/LinkedInLeadGenForm  
 
@@ -60,7 +60,7 @@ LinkedInLeads/LinkedInLeadGenForm
 |[totalsubmissionsDate](#totalsubmissionsDate)|Last Updated time of rollup field Total submissions.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
 |[totalsubmissionsState](#totalsubmissionsState)|State of rollup field Total submissions.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the LinkedIn Lead Gen Form entity are listed below.</summary>

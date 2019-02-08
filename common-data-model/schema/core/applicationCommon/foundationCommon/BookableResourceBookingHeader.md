@@ -14,7 +14,7 @@ Reservation entity representing the summary of the associated resource bookings.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceBookingHeader.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/BookableResourceBookingHeader  
 
@@ -53,7 +53,7 @@ foundationCommon/BookableResourceBookingHeader
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcebookingheader with respect to the base currency.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceBookingHeader with respect to the base currency.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Bookable Resource Booking Header entity are listed below.</summary>

@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInFormQuestion.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 LinkedInLeads/LinkedInFormQuestion  
 
@@ -51,7 +51,7 @@ LinkedInLeads/LinkedInFormQuestion
 |[responseEditable](#responseEditable)|Can a LinkedIn user edit this response, or is it pre-filled based on their profile?|[LinkedInLeads/LinkedInFormQuestion](LinkedInFormQuestion.md)|
 |[responseType](#responseType)|Response format used for this question|[LinkedInLeads/LinkedInFormQuestion](LinkedInFormQuestion.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the LinkedIn Form Question entity are listed below.</summary>

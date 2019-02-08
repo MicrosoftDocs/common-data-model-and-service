@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SessionRegistration.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/SessionRegistration  
 
@@ -57,7 +57,7 @@ eventManagement/SessionRegistration
 |[timesCheckedIn](#timesCheckedIn)||[eventManagement/SessionRegistration](SessionRegistration.md)|
 |[webinarRegistrationID](#webinarRegistrationID)|Webinar ID of the Session Registration.|[eventManagement/SessionRegistration](SessionRegistration.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Session Registration entity are listed below.</summary>

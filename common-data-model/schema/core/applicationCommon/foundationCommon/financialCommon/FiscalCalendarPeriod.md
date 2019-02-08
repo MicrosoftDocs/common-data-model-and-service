@@ -14,7 +14,7 @@ Represents the period in which financial activity occurred, as defined by a fisc
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 financialCommon/FiscalCalendarPeriod  
 
@@ -32,7 +32,7 @@ financialCommon/FiscalCalendarPeriod
 |[quarterOffset](#quarterOffset)|The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
 |[month](#month)|The month containing the period.|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Fiscal Calendar Period entity are listed below.</summary>

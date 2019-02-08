@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/CustomRegistrationField.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/CustomRegistrationField  
 
@@ -48,7 +48,7 @@ eventManagement/CustomRegistrationField
 |[type](#type)||[eventManagement/CustomRegistrationField](CustomRegistrationField.md)|
 |[type_display](#type_display)||[eventManagement/CustomRegistrationField](CustomRegistrationField.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Custom Registration Field entity are listed below.</summary>

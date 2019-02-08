@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/LeadProduct.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/LeadProduct  
 
@@ -31,7 +31,7 @@ sales/LeadProduct
 |[leadId](#leadId)||[sales/LeadProduct](LeadProduct.md)|
 |[productId](#productId)||[sales/LeadProduct](LeadProduct.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the LeadProduct entity are listed below.</summary>

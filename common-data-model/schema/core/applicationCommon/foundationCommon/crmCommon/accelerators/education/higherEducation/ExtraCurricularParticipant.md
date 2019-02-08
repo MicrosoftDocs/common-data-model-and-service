@@ -14,7 +14,7 @@ The relationship between a Contact and a specific Extra Curricular Activity.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularParticipant.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/ExtraCurricularParticipant  
 
@@ -55,7 +55,7 @@ higherEducation/ExtraCurricularParticipant
 |[state](#state)||[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
 |[state_display](#state_display)||[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Extra Curricular Participant entity are listed below.</summary>

@@ -14,7 +14,7 @@ Item in the sales literature collection.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/SalesAttachment  
 
@@ -50,7 +50,7 @@ sales/SalesAttachment
 |[salesLiteratureId](#salesLiteratureId)|Unique identifier of the sales literature that is associated with the individual item.|[sales/SalesAttachment](SalesAttachment.md)|
 |[mode](#mode)|Defines the mode of the sales literature document attachment.|[sales/SalesAttachment](SalesAttachment.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Sales Attachment entity are listed below.</summary>

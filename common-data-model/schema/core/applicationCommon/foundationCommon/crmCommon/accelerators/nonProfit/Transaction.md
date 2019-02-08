@@ -14,7 +14,7 @@ Transactions (also referred to as donations) represent payments from the donor, 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Transaction.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Transaction  
 
@@ -72,7 +72,7 @@ nonProfit/Transaction
 |[transactionPaymentScheduleId](#transactionPaymentScheduleId)|Payment Schedule|[nonProfit/Transaction](Transaction.md)|
 |[transactionReceiptOnAccountId](#transactionReceiptOnAccountId)|Receipt On Account|[nonProfit/Transaction](Transaction.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Transaction entity are listed below.</summary>

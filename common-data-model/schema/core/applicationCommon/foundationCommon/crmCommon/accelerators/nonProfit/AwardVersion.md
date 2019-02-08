@@ -14,7 +14,7 @@ A point in time snapshot of the attributes of an Award.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/AwardVersion.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/AwardVersion  
 
@@ -57,7 +57,7 @@ nonProfit/AwardVersion
 |[status_display](#status_display)||[nonProfit/AwardVersion](AwardVersion.md)|
 |[submittedById](#submittedById)|Submitted By|[nonProfit/AwardVersion](AwardVersion.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Award Version entity are listed below.</summary>

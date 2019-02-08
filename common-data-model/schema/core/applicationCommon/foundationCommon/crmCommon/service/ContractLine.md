@@ -14,7 +14,7 @@ Line item in a contract that specifies the type of service a customer is entitle
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ContractLine.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/ContractLine  
 
@@ -79,7 +79,7 @@ service/ContractLine
 |[accountId](#accountId)|Unique identifier of the account with which the contract is associated.|[service/ContractLine](ContractLine.md)|
 |[contactId](#contactId)|Unique identifier for the contact associated with the contract line.|[service/ContractLine](ContractLine.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Contract Line entity are listed below.</summary>

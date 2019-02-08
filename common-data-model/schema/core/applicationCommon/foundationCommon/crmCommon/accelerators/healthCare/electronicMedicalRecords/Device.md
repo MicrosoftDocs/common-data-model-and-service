@@ -14,7 +14,7 @@ This entity identifies an instance or a type of a manufactured item that is used
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/Device  
 
@@ -66,7 +66,7 @@ electronicMedicalRecords/Device
 |[URL](#URL)|A network address on which the device may be contacted directly.|[electronicMedicalRecords/Device](Device.md)|
 |[version](#version)|The version of the device, if the device has multiple releases under the same model, or if the device is software or carries firmware.|[electronicMedicalRecords/Device](Device.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Device entity are listed below.</summary>

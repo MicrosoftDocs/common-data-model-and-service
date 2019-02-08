@@ -14,7 +14,7 @@ Associates resources with resource groups that they are a member of.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceGroup.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/BookableResourceGroup  
 
@@ -51,7 +51,7 @@ foundationCommon/BookableResourceGroup
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcegroup with respect to the base currency.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceGroup with respect to the base currency.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Bookable Resource Group entity are listed below.</summary>

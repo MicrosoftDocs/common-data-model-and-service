@@ -14,7 +14,7 @@ An area to which funds may be allocated, including a GL-relevant accounting code
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Designation  
 
@@ -65,7 +65,7 @@ nonProfit/Designation
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/Designation](Designation.md)|
 |[totaldisbursedBase](#totaldisbursedBase)|Value of the Total Disbursed in base currency.|[nonProfit/Designation](Designation.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Designation entity are listed below.</summary>

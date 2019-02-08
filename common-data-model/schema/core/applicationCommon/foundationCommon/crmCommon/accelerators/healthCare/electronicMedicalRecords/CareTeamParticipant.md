@@ -14,7 +14,7 @@ Identifies all people and organizations who are expected to be involved in the c
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/CareTeamParticipant  
 
@@ -58,7 +58,7 @@ electronicMedicalRecords/CareTeamParticipant
 |[periodStart](#periodStart)|Indicates when the specific member or organization did (or is intended to) come into effect and end.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
 |[role](#role)|Indicates specific responsibility of an individual within the care team, such as "Primary care physician", "Trained social worker counselor", "Caregiver", etc.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Care Team Participant entity are listed below.</summary>

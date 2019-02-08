@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingEmail.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 marketing/MarketingEmail  
 
@@ -62,7 +62,7 @@ marketing/MarketingEmail
 |[to](#to)||[marketing/MarketingEmail](MarketingEmail.md)|
 |[UICEntityID](#UICEntityID)||[marketing/MarketingEmail](MarketingEmail.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Marketing Email entity are listed below.</summary>

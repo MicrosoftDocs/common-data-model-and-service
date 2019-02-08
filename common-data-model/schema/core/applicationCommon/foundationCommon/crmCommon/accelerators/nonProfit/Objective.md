@@ -14,7 +14,7 @@ Used for the purpose of reporting on goals or strategies outside of program boun
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Objective.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Objective  
 
@@ -52,7 +52,7 @@ nonProfit/Objective
 |[parentObjectiveId](#parentObjectiveId)|Parent Objective|[nonProfit/Objective](Objective.md)|
 |[startDate](#startDate)|Start date off the objective|[nonProfit/Objective](Objective.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Objective entity are listed below.</summary>

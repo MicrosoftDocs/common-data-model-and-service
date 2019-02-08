@@ -14,7 +14,7 @@ Describes the event of a patient consuming or otherwise being administered a med
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/MedicationAdministration  
 
@@ -88,7 +88,7 @@ electronicMedicalRecords/MedicationAdministration
 |[subjectTypeGroup](#subjectTypeGroup)|The group receiving the medication.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
 |[subjectTypePatient](#subjectTypePatient)|he person receiving the medication.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Medication Administration entity are listed below.</summary>

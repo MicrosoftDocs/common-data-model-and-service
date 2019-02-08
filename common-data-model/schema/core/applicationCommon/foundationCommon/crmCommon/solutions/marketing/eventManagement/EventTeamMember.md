@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventTeamMember.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/EventTeamMember  
 
@@ -54,7 +54,7 @@ eventManagement/EventTeamMember
 |[role_display](#role_display)||[eventManagement/EventTeamMember](EventTeamMember.md)|
 |[user](#user)||[eventManagement/EventTeamMember](EventTeamMember.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Event Team Member entity are listed below.</summary>

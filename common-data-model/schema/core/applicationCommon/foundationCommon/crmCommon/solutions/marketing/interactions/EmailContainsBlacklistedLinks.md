@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailContainsBlacklistedLinks.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/EmailContainsBlacklistedLinks  
 
@@ -35,7 +35,7 @@ interactions/EmailContainsBlacklistedLinks
 |[timestamp](#timestamp)|Timestamp|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
 |[activityId](#activityId)|Activity ID|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Email contains blacklisted links entity are listed below.</summary>

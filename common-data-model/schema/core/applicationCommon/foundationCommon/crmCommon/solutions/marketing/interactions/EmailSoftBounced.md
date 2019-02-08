@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSoftBounced.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/EmailSoftBounced  
 
@@ -36,7 +36,7 @@ interactions/EmailSoftBounced
 |[remoteBounce](#remoteBounce)|Remote bounce|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
 |[activityId](#activityId)|Activity ID|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Email soft bounced entity are listed below.</summary>

@@ -14,7 +14,7 @@ Donor commitments track the frequency with which constituents donate funds to a 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/DonorCommitment  
 
@@ -69,7 +69,7 @@ nonProfit/DonorCommitment
 |[totalAmount](#totalAmount)||[nonProfit/DonorCommitment](DonorCommitment.md)|
 |[totalamountBase](#totalamountBase)|Value of the Total Amount in base currency.|[nonProfit/DonorCommitment](DonorCommitment.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Donor Commitment entity are listed below.</summary>

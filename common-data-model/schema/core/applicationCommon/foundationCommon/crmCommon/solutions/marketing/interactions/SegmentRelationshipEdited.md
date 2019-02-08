@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/SegmentRelationshipEdited  
 
@@ -46,7 +46,7 @@ interactions/SegmentRelationshipEdited
 |[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
 |[leadId](#leadId)|Lead ID|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Segment relationship edited entity are listed below.</summary>

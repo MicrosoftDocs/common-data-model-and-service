@@ -14,7 +14,7 @@ The master list of all area of studies offered by an institution.  Areas of stud
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/AreaOfStudy  
 
@@ -52,7 +52,7 @@ higherEducation/AreaOfStudy
 |[programTypeId](#programTypeId)|The program type for the area of study, such as major or concentration.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
 |[requiredCredits](#requiredCredits)|The number of credits required to be completed by a student pursuing the area of study.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Area of Study entity are listed below.</summary>

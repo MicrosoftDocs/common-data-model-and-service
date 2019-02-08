@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/BadgeType.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/BadgeType  
 
@@ -48,7 +48,7 @@ rgba(255,255,255,0.5)|[portals/BadgeType](BadgeType.md)|
 |[displayText](#displayText)|Actual shown label for the badge|[portals/BadgeType](BadgeType.md)|
 |[iconName](#iconName)|Add font awesome name such as fa-user|[portals/BadgeType](BadgeType.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Badge Type entity are listed below.</summary>

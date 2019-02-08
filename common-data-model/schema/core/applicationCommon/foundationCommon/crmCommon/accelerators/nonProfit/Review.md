@@ -14,7 +14,7 @@ The internal assessment of a Request made by a staff member (or team) and all of
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Review.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Review  
 
@@ -62,7 +62,7 @@ nonProfit/Review
 |[type](#type)|The type of Review.|[nonProfit/Review](Review.md)|
 |[type_display](#type_display)||[nonProfit/Review](Review.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Review entity are listed below.</summary>

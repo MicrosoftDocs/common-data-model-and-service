@@ -14,7 +14,7 @@ Credit Plans control who will be credited with hard or soft credits after a paym
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/CreditPlan  
 
@@ -51,7 +51,7 @@ nonProfit/CreditPlan
 |[creditType_display](#creditType_display)||[nonProfit/CreditPlan](CreditPlan.md)|
 |[validToDate](#validToDate)||[nonProfit/CreditPlan](CreditPlan.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Credit Plan entity are listed below.</summary>

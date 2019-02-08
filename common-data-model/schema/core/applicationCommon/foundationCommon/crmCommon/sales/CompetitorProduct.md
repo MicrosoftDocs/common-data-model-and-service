@@ -14,7 +14,7 @@ Association between a competitor and a product offered by the competitor.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorProduct.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/CompetitorProduct  
 
@@ -32,7 +32,7 @@ sales/CompetitorProduct
 |[competitorId](#competitorId)||[sales/CompetitorProduct](CompetitorProduct.md)|
 |[productId](#productId)||[sales/CompetitorProduct](CompetitorProduct.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Competitor Product entity are listed below.</summary>

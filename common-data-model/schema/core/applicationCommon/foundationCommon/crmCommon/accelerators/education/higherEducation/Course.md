@@ -14,7 +14,7 @@ The master list of all courses offered by an institution.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Course.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/Course  
 
@@ -56,7 +56,7 @@ higherEducation/Course
 |[startDate](#startDate)|The start date of the course.|[higherEducation/Course](Course.md)|
 |[subject](#subject)|The subject the course is related to.|[higherEducation/Course](Course.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Course entity are listed below.</summary>

@@ -14,7 +14,7 @@ Activity that represents work done to satisfy a customer's need.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Service.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/Service  
 
@@ -49,7 +49,7 @@ service/Service
 |[showResources](#showResources)|For internal use only.|[service/Service](Service.md)|
 |[strategyId](#strategyId)|Value that is taken from PluginTypeId in the Plugin Type record for the scheduling strategy. This is the ID of the scheduling strategy plug-in associated with the service.|[service/Service](Service.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Service entity are listed below.</summary>

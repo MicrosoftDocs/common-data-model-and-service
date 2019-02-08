@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/EntitlementContact.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/EntitlementContact  
 
@@ -31,7 +31,7 @@ service/EntitlementContact
 |[contactId](#contactId)||[service/EntitlementContact](EntitlementContact.md)|
 |[entitlementId](#entitlementId)||[service/EntitlementContact](EntitlementContact.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Entitlement Contact entity are listed below.</summary>

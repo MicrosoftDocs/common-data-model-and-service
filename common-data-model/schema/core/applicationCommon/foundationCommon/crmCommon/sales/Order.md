@@ -14,7 +14,7 @@ Quote that has been accepted.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Order.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/Order  
 
@@ -129,7 +129,7 @@ sales/Order
 |[contactId](#contactId)|Shows the parent contact related to the record. This information is used to link the contract to the contact selected in the Customer field for reporting and analytics.|[sales/Order](Order.md)|
 |[campaignId](#campaignId)|Shows the campaign that the order was created from.|[sales/Order](Order.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Order entity are listed below.</summary>

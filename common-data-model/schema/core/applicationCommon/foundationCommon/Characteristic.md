@@ -14,7 +14,7 @@ Skills, education and certifications of resources.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Characteristic.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/Characteristic  
 
@@ -50,7 +50,7 @@ foundationCommon/Characteristic
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the characteristic with respect to the base currency.|[foundationCommon/Characteristic](Characteristic.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the Characteristic with respect to the base currency.|[foundationCommon/Characteristic](Characteristic.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Characteristic entity are listed below.</summary>

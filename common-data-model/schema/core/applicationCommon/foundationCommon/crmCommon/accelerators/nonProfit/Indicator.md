@@ -14,7 +14,7 @@ An Indicator describes what will be measured to track evidence of a Result. Indi
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Indicator.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Indicator  
 
@@ -54,7 +54,7 @@ nonProfit/Indicator
 |[resultId](#resultId)|Result|[nonProfit/Indicator](Indicator.md)|
 |[startDate](#startDate)|Start Date of the Indicator|[nonProfit/Indicator](Indicator.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Indicator entity are listed below.</summary>

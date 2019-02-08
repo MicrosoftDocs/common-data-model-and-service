@@ -14,7 +14,7 @@ Additional addresses for a competitor. The first two addresses are stored in the
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/CompetitorAddress  
 
@@ -60,7 +60,7 @@ sales/CompetitorAddress
 |[UPSZone](#UPSZone)|United Parcel Service (UPS) zone for the address of the competitor.|[sales/CompetitorAddress](CompetitorAddress.md)|
 |[UTCOffset](#UTCOffset)|UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.|[sales/CompetitorAddress](CompetitorAddress.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Competitor Address entity are listed below.</summary>

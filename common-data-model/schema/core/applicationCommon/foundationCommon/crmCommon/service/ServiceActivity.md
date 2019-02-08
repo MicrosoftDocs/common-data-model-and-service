@@ -14,7 +14,7 @@ Activity offered by the organization to satisfy its customer's needs. Each servi
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ServiceActivity.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/ServiceActivity  
 
@@ -102,7 +102,7 @@ service/ServiceActivity
 |[location](#location)|Type the location where the service activity will take place, such as a conference room, customer office, or other venue.|[service/ServiceActivity](ServiceActivity.md)|
 |[siteId](#siteId)|Choose the site or location where the service activity will be performed.|[service/ServiceActivity](ServiceActivity.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Service Activity entity are listed below.</summary>

@@ -14,7 +14,7 @@ An order or request for both supply of the medication and the instructions for a
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/MedicationRequest  
 
@@ -85,7 +85,7 @@ electronicMedicalRecords/MedicationRequest
 |[substitutionAllowed](#substitutionAllowed)|True if the Prescriber allows a different drug to be dispensed from what was prescribed.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
 |[substitutionReason](#substitutionReason)|Indicates the reason for the substitution, or why substitution must or must not be performed.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Medication Request entity are listed below.</summary>

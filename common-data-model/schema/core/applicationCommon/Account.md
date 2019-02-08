@@ -14,7 +14,7 @@ Business that represents a customer or potential customer. The company that is b
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Account.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/Account  
 [foundationCommon/Account](foundationCommon/Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
@@ -195,7 +195,7 @@ applicationCommon/Account
 |[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.|[applicationCommon/Account](Account.md)|
 |[marketingOnly](#marketingOnly)|Whether is only for marketing|[applicationCommon/Account](Account.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Account entity are listed below.</summary>

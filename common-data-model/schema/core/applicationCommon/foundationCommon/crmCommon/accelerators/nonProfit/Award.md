@@ -14,7 +14,7 @@ The total amount of funding that has been agreed to be awarded to an individual 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/Award  
 
@@ -55,7 +55,7 @@ nonProfit/Award
 |[type](#type)|Type of Award|[nonProfit/Award](Award.md)|
 |[type_display](#type_display)||[nonProfit/Award](Award.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Award entity are listed below.</summary>

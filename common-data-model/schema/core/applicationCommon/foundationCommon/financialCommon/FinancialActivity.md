@@ -14,7 +14,7 @@ Summarization of financial activity for a ledger, date, account, and dimension c
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FinancialActivity.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 financialCommon/FinancialActivity  
 
@@ -34,7 +34,7 @@ financialCommon/FinancialActivity
 |[accountingDate](#accountingDate)|The date on which the financial activity was recognized|[financialCommon/FinancialActivity](FinancialActivity.md)|
 |[ledgerId](#ledgerId)|The ledger containing this financial activity|[financialCommon/FinancialActivity](FinancialActivity.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Financial Activity entity are listed below.</summary>

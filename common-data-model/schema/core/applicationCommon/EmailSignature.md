@@ -14,7 +14,7 @@ Signature for email message
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/EmailSignature.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/EmailSignature  
 
@@ -50,7 +50,7 @@ applicationCommon/EmailSignature
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/EmailSignature](EmailSignature.md)|
 |[isDefault](#isDefault)|Information that specifies whether the email signature is default to the user.|[applicationCommon/EmailSignature](EmailSignature.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Email Signature entity are listed below.</summary>

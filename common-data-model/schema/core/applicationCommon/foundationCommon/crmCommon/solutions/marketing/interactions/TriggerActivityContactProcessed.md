@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/TriggerActivityContactProcessed.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/TriggerActivityContactProcessed  
 
@@ -33,7 +33,7 @@ interactions/TriggerActivityContactProcessed
 |[timestamp](#timestamp)|Timestamp|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
 |[path](#path)|Path|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Trigger activity contact processed entity are listed below.</summary>

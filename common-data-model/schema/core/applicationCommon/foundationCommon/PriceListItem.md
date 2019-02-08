@@ -14,7 +14,7 @@ Information about how to price a product in the specified price level, including
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/PriceListItem.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/PriceListItem  
 [sales/PriceListItem](crmCommon/sales/PriceListItem.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PriceListItem.cdm.json/PriceListItem")  
@@ -60,7 +60,7 @@ foundationCommon/PriceListItem
 |[uoMId](#uoMId)|Unique identifier of the unit for the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
 |[uoMScheduleId](#uoMScheduleId)|Unique identifier of the unit schedule for the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Price List Item entity are listed below.</summary>

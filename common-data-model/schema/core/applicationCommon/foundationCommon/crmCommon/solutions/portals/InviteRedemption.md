@@ -14,7 +14,7 @@ Holds information about the redemption of an invite.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/InviteRedemption.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/InviteRedemption  
 
@@ -98,7 +98,7 @@ portals/InviteRedemption
 |[partners](#partners)|Shows the outsource vendor who the activity is associated with.|[portals/InviteRedemption](InviteRedemption.md)|
 |[ipAddress](#ipAddress)||[portals/InviteRedemption](InviteRedemption.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Invite Redemption entity are listed below.</summary>

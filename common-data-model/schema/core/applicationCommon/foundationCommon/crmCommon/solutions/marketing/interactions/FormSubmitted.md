@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormSubmitted.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/FormSubmitted  
 
@@ -56,7 +56,7 @@ interactions/FormSubmitted
 |[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/FormSubmitted](FormSubmitted.md)|
 |[leadId](#leadId)|Lead ID|[interactions/FormSubmitted](FormSubmitted.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Form submitted entity are listed below.</summary>

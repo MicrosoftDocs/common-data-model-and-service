@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Segment.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 marketing/Segment  
 
@@ -53,7 +53,7 @@ marketing/Segment
 |[segmentType](#segmentType)|Segment type|[marketing/Segment](Segment.md)|
 |[segmentType_display](#segmentType_display)||[marketing/Segment](Segment.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Segment entity are listed below.</summary>

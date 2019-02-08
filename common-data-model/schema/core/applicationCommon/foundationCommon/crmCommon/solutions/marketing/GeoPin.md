@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/GeoPin.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 marketing/GeoPin  
 
@@ -72,7 +72,7 @@ marketing/GeoPin
 |[state](#state)|State|[marketing/GeoPin](GeoPin.md)|
 |[websiteGeoPinsId](#websiteGeoPinsId)|Unique ID for the website associated with the geo pin.|[marketing/GeoPin](GeoPin.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Geo Pin entity are listed below.</summary>

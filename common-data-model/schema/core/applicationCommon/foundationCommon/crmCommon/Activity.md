@@ -14,7 +14,7 @@ Task performed, or to be performed, by a user. An activity is any action for whi
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
 crmCommon/Activity  
@@ -87,7 +87,7 @@ crmCommon/Activity
 |[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Activity](../../Activity.md)|
 |[serviceId](#serviceId)|Unique identifier of an associated service.|[crmCommon/Activity](Activity.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Activity entity are listed below.</summary>

@@ -14,7 +14,7 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/Lead  
 [nonProfit/Lead](accelerators/nonProfit/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead")  
@@ -190,7 +190,7 @@ crmCommon/Lead
 |[originatingCaseId](#originatingCaseId)|This attribute is used for Sample Service Business Processes.|[crmCommon/Lead](Lead.md)|
 |[qualifyingOpportunityId](#qualifyingOpportunityId)|Choose the opportunity that the lead was qualified on and then converted to.|[crmCommon/Lead](Lead.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Lead entity are listed below.</summary>

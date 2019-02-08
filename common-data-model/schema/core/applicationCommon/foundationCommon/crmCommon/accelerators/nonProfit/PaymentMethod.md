@@ -14,7 +14,7 @@ This is a parent entity for Payment Method customizations that may be supported 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentMethod.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/PaymentMethod  
 
@@ -55,7 +55,7 @@ nonProfit/PaymentMethod
 |[type](#type)||[nonProfit/PaymentMethod](PaymentMethod.md)|
 |[type_display](#type_display)||[nonProfit/PaymentMethod](PaymentMethod.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Payment Method entity are listed below.</summary>

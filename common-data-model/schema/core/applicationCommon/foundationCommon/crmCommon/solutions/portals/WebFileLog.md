@@ -14,7 +14,7 @@ A record of the download of a web file
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebFileLog.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/WebFileLog  
 
@@ -49,7 +49,7 @@ portals/WebFileLog
 |[IpAddress](#IpAddress)|Shows the IP address of the computer of the user who requested the file download.|[portals/WebFileLog](WebFileLog.md)|
 |[webFileId](#webFileId)|Unique identifier of the Web File associated with the Web File Log|[portals/WebFileLog](WebFileLog.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Web File Log entity are listed below.</summary>

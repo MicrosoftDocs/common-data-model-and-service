@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 marketingLeads/LeadScoringModel  
 
@@ -47,7 +47,7 @@ marketingLeads/LeadScoringModel
 |[insightsPlaceholder](#insightsPlaceholder)||[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
 |[modelDefinition](#modelDefinition)||[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Lead Scoring Model entity are listed below.</summary>

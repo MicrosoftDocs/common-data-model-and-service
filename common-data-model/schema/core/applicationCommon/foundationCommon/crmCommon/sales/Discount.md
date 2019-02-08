@@ -14,7 +14,7 @@ Price reduction made from the list price of a product or service based on the qu
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/Discount  
 
@@ -48,7 +48,7 @@ sales/Discount
 |[statusCode](#statusCode)|Select the discount's status.|[sales/Discount](Discount.md)|
 |[statusCode_display](#statusCode_display)||[sales/Discount](Discount.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Discount entity are listed below.</summary>

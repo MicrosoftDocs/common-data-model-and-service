@@ -14,7 +14,7 @@ An action that is or was performed on a patient. This can be a physical interven
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/Procedure  
 
@@ -63,7 +63,7 @@ electronicMedicalRecords/Procedure
 |[subjectType](#subjectType)|Type of Subject on whom procedure is performed|[electronicMedicalRecords/Procedure](Procedure.md)|
 |[subjectType_display](#subjectType_display)||[electronicMedicalRecords/Procedure](Procedure.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Procedure entity are listed below.</summary>

@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactDispatched.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/ActivityContactDispatched  
 
@@ -32,7 +32,7 @@ interactions/ActivityContactDispatched
 |[interactionType](#interactionType)|Interaction type|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
 |[timestamp](#timestamp)|Timestamp|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Activity contact dispatched entity are listed below.</summary>

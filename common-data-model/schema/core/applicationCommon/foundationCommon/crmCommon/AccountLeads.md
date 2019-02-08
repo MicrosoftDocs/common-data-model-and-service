@@ -14,7 +14,7 @@ description.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/AccountLeads.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/AccountLeads  
 
@@ -32,7 +32,7 @@ crmCommon/AccountLeads
 |[accountId](#accountId)||[crmCommon/AccountLeads](AccountLeads.md)|
 |[leadId](#leadId)||[crmCommon/AccountLeads](AccountLeads.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the AccountLeads entity are listed below.</summary>

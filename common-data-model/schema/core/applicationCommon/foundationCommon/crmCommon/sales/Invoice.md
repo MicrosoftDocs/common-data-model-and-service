@@ -14,7 +14,7 @@ Order that has been billed.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Invoice.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/Invoice  
 
@@ -119,7 +119,7 @@ sales/Invoice
 |[accountId](#accountId)|Unique identifier of the account with which the invoice is associated.|[sales/Invoice](Invoice.md)|
 |[contactId](#contactId)|Unique identifier of the contact associated with the invoice.|[sales/Invoice](Invoice.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Invoice entity are listed below.</summary>

@@ -14,7 +14,7 @@ Container for campaign activities and responses, sales literature, products, and
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [crmCommon/Campaign](../../Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json/Campaign")  
 nonProfit/Campaign  
@@ -95,7 +95,7 @@ nonProfit/Campaign
 |[subChannel](#subChannel)|Specific way in which the Channel communication will be carried out.|[nonProfit/Campaign](Campaign.md)|
 |[subChannel_display](#subChannel_display)||[nonProfit/Campaign](Campaign.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Campaign entity are listed below.</summary>

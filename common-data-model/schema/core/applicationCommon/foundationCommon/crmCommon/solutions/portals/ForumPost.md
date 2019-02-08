@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/ForumPost.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/ForumPost  
 
@@ -53,7 +53,7 @@ portals/ForumPost
 |[publishingStateId](#publishingStateId)|Shows the Publishing State associated with the forum post.|[portals/ForumPost](ForumPost.md)|
 |[regardingId](#regardingId)|Shows the forum post associated with the forum post.|[portals/ForumPost](ForumPost.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Forum Post entity are listed below.</summary>

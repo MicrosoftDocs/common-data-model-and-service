@@ -14,7 +14,7 @@ Activity generated automatically when an order is closed.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OrderClose.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/OrderClose  
 
@@ -105,7 +105,7 @@ sales/OrderClose
 |[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[sales/OrderClose](OrderClose.md)|
 |[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[sales/OrderClose](OrderClose.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Order Close entity are listed below.</summary>

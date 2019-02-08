@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/ForumThread.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/ForumThread  
 
@@ -56,7 +56,7 @@ portals/ForumThread
 |[typeId](#typeId)|Shows the forum Thread Type associated with the forum thread.|[portals/ForumThread](ForumThread.md)|
 |[viewCount](#viewCount)||[portals/ForumThread](ForumThread.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Forum Thread entity are listed below.</summary>

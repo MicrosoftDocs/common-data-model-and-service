@@ -14,7 +14,7 @@ Association between an opportunity and a product.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityProduct.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/OpportunityProduct  
 
@@ -78,7 +78,7 @@ sales/OpportunityProduct
 |[opportunityProductName](#opportunityProductName)|Opportunity Product Name. Added for 1:n Referential relationship|[sales/OpportunityProduct](OpportunityProduct.md)|
 |[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|[sales/OpportunityProduct](OpportunityProduct.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Opportunity Product entity are listed below.</summary>

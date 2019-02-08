@@ -14,7 +14,7 @@ Address information for a lead.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 crmCommon/LeadAddress  
 
@@ -62,7 +62,7 @@ crmCommon/LeadAddress
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the leadaddress with respect to the base currency.|[crmCommon/LeadAddress](LeadAddress.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the leadaddress.|[crmCommon/LeadAddress](LeadAddress.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Lead Address entity are listed below.</summary>

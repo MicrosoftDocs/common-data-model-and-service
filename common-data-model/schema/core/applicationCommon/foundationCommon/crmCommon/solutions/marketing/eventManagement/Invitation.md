@@ -14,7 +14,7 @@ Send invitations to existing contacts or email addresses and assign them to web 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Invitation  
 [portals/Invitation](../../portals/Invitation.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Invitation.cdm.json/Invitation")  
@@ -59,7 +59,7 @@ eventManagement/Invitation
 |[website](#website)|Unique identifier for Website associated with Invitation.|[portals/Invitation](../../portals/Invitation.md)|
 |[eventPortalInvitation](#eventPortalInvitation)|Indicates whether the Invitation is used by the Event Portal.|[eventManagement/Invitation](Invitation.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Invitation entity are listed below.</summary>

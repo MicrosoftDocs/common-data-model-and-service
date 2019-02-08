@@ -14,7 +14,7 @@ No of times an article is viewed per day
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleViews.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/KnowledgeArticleViews  
 [portals/KnowledgeArticleViews](foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
@@ -51,7 +51,7 @@ applicationCommon/KnowledgeArticleViews
 |[location](#location)|Shows where the knowledge was used|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
 |[location_display](#location_display)||[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Knowledge Article Views entity are listed below.</summary>

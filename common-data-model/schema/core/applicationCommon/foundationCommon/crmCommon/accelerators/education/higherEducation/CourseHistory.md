@@ -14,7 +14,7 @@ The course history for a student.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/CourseHistory.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 higherEducation/CourseHistory  
 
@@ -59,7 +59,7 @@ higherEducation/CourseHistory
 |[registrationStatusId](#registrationStatusId)|The registration status received.|[higherEducation/CourseHistory](CourseHistory.md)|
 |[studentId](#studentId)|Lookup to student (Contact)|[higherEducation/CourseHistory](CourseHistory.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Course History entity are listed below.</summary>

@@ -14,7 +14,7 @@ Lists the languages supported by the Portal
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PortalLanguage.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/PortalLanguage  
 
@@ -50,7 +50,7 @@ portals/PortalLanguage
 |[portalDisplayName](#portalDisplayName)|Localized display name of the portal language|[portals/PortalLanguage](PortalLanguage.md)|
 |[lcid](#lcid)|Locale ID that is assigned to the portal language|[portals/PortalLanguage](PortalLanguage.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Portal Language entity are listed below.</summary>

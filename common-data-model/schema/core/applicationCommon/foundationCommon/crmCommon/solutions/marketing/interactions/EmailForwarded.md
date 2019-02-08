@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailForwarded.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/EmailForwarded  
 
@@ -53,7 +53,7 @@ interactions/EmailForwarded
 |[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/EmailForwarded](EmailForwarded.md)|
 |[leadId](#leadId)|Lead ID|[interactions/EmailForwarded](EmailForwarded.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Email forwarded entity are listed below.</summary>

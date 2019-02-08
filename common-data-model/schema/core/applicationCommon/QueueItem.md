@@ -14,7 +14,7 @@ A specific item in a queue, such as a case record or an activity record.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/QueueItem.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/QueueItem  
 
@@ -61,7 +61,7 @@ applicationCommon/QueueItem
 |[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/QueueItem](QueueItem.md)|
 |[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/QueueItem](QueueItem.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Queue Item entity are listed below.</summary>

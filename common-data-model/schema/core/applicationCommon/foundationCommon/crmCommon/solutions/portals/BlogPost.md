@@ -14,7 +14,7 @@ A post belonging to a portal blog.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/BlogPost.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/BlogPost  
 
@@ -60,7 +60,7 @@ portals/BlogPost
 |[published](#published)|Specifies whether the Blog Post is published, or a draft.|[portals/BlogPost](BlogPost.md)|
 |[summary](#summary)|A descriptive summary of the Blog Post.|[portals/BlogPost](BlogPost.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Blog Post entity are listed below.</summary>

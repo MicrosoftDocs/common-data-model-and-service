@@ -14,7 +14,7 @@ User or facility/equipment that can be scheduled for a service.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Resource.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/Resource  
 
@@ -38,7 +38,7 @@ service/Resource
 |[siteId](#siteId)|Unique identifier of the site at which the resource is located.|[service/Resource](Resource.md)|
 |[entityImageId](#entityImageId)||[service/Resource](Resource.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Resource entity are listed below.</summary>

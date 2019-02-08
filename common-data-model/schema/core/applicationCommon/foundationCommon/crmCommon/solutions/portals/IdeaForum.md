@@ -14,7 +14,7 @@ The root entity for portal Ideas.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/IdeaForum  
 
@@ -59,7 +59,7 @@ portals/IdeaForum
 |[websiteId](#websiteId)|Shows the website associated with the idea forum.|[portals/IdeaForum](IdeaForum.md)|
 |[websiteLanguageId](#websiteLanguageId)|Option to make idea forums language specific|[portals/IdeaForum](IdeaForum.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Idea Forum entity are listed below.</summary>

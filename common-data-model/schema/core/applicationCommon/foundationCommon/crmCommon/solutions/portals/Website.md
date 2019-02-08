@@ -14,7 +14,7 @@ Web Portal
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Website.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/Website  
 
@@ -52,7 +52,7 @@ portals/Website
 |[primaryDomainName](#primaryDomainName)|Tracks the primary domain name of the Portal|[portals/Website](Website.md)|
 |[websiteLanguage](#websiteLanguage)||[portals/Website](Website.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Website entity are listed below.</summary>

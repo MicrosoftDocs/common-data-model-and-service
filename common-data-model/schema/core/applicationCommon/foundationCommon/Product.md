@@ -14,7 +14,7 @@ Information about products and their pricing information.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Product.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/Product  
 [electronicMedicalRecords/Product](crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
@@ -82,7 +82,7 @@ foundationCommon/Product
 |[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[foundationCommon/Product](Product.md)|
 |[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[foundationCommon/Product](Product.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Product entity are listed below.</summary>

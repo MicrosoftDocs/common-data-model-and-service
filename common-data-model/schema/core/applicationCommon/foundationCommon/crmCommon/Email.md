@@ -14,7 +14,7 @@ Activity that is delivered using email protocols.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Email](../../Email.md "/core/applicationCommon/Email.cdm.json/Email")  
 crmCommon/Email  
@@ -128,7 +128,7 @@ crmCommon/Email
 |[isEmailReminderSet](#isEmailReminderSet)|For internal use only. Shows whether this email Reminder is Set.|[applicationCommon/Email](../../Email.md)|
 |[serviceId](#serviceId)|Unique identifier for the associated service.|[crmCommon/Email](Email.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Email entity are listed below.</summary>

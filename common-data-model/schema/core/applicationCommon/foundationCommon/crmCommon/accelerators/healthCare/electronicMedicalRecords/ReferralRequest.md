@@ -14,7 +14,7 @@ Used to record and send details about a request for referral service or transfer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 electronicMedicalRecords/ReferralRequest  
 
@@ -84,7 +84,7 @@ electronicMedicalRecords/ReferralRequest
 |[subjectPatient](#subjectPatient)|The patient who is the subject of a referral or transfer of care request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
 |[type](#type)|An indication of the type of referral (or where applicable the type of transfer of care) request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Referral Request entity are listed below.</summary>

@@ -14,7 +14,7 @@ The layout entity is to provide users a quick way to specify the various differe
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Layout  
 
@@ -56,7 +56,7 @@ eventManagement/Layout
 |[units_display](#units_display)||[eventManagement/Layout](Layout.md)|
 |[usableArea](#usableArea)|Usable area (square units).|[eventManagement/Layout](Layout.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Layout entity are listed below.</summary>

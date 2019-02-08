@@ -14,7 +14,7 @@ This entity records the number of rooms that are allocated from a single hotel f
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/HotelRoomAllocation  
 
@@ -60,7 +60,7 @@ eventManagement/HotelRoomAllocation
 |[numberofRoomsReservedDate](#numberofRoomsReservedDate)|Last Updated time of rollup field Number of rooms reserved.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
 |[numberofRoomsReservedState](#numberofRoomsReservedState)|State of rollup field Number of rooms reserved.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Hotel Room Allocation entity are listed below.</summary>

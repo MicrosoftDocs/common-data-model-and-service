@@ -14,7 +14,7 @@ Item in a Service contract.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ServiceContractContact.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/ServiceContractContact  
 
@@ -33,7 +33,7 @@ service/ServiceContractContact
 |[contractId](#contractId)||[service/ServiceContractContact](ServiceContractContact.md)|
 |[serviceLevel](#serviceLevel)||[service/ServiceContractContact](ServiceContractContact.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Service Contract Contact entity are listed below.</summary>

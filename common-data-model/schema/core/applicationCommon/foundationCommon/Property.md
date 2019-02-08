@@ -14,7 +14,7 @@ Information about a product property.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Property.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 foundationCommon/Property  
 
@@ -64,7 +64,7 @@ foundationCommon/Property
 |[maxLengthString](#maxLengthString)|Shows the maximum allowed length of the property for a string data type.|[foundationCommon/Property](Property.md)|
 |[defaultValueOptionSet](#defaultValueOptionSet)|Shows the default value of the property.|[foundationCommon/Property](Property.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Property entity are listed below.</summary>

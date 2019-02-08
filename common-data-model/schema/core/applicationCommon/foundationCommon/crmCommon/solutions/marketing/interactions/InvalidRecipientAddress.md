@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/InvalidRecipientAddress.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/InvalidRecipientAddress  
 
@@ -34,7 +34,7 @@ interactions/InvalidRecipientAddress
 |[blockedReason](#blockedReason)|Blocked reason|[interactions/InvalidRecipientAddress](InvalidRecipientAddress.md)|
 |[timestamp](#timestamp)|Timestamp|[interactions/InvalidRecipientAddress](InvalidRecipientAddress.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the The recipient address isn't valid. entity are listed below.</summary>

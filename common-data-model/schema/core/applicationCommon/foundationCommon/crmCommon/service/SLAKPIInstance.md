@@ -14,7 +14,7 @@ Service level agreement (SLA) key performance indicator (KPI) instance that is t
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md "/core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance")  
 service/SLAKPIInstance  
@@ -51,7 +51,7 @@ service/SLAKPIInstance
 |[warningTimeReached_display](#warningTimeReached_display)||[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
 |[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by Regarding|[service/SLAKPIInstance](SLAKPIInstance.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the SLA KPI Instance entity are listed below.</summary>

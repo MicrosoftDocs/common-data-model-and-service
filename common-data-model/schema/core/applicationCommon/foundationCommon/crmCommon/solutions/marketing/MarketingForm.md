@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingForm.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 marketing/MarketingForm  
 
@@ -59,7 +59,7 @@ marketing/MarketingForm
 |[visualStyle](#visualStyle)||[marketing/MarketingForm](MarketingForm.md)|
 |[visualStyle_display](#visualStyle_display)||[marketing/MarketingForm](MarketingForm.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Marketing Form entity are listed below.</summary>

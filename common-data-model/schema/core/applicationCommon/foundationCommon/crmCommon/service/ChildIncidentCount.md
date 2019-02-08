@@ -14,7 +14,7 @@ For internal use only.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ChildIncidentCount.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 service/ChildIncidentCount  
 
@@ -32,7 +32,7 @@ service/ChildIncidentCount
 |[parentCaseId](#parentCaseId)||[service/ChildIncidentCount](ChildIncidentCount.md)|
 |[numberOfChildIncidents](#numberOfChildIncidents)||[service/ChildIncidentCount](ChildIncidentCount.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Child Incident Count entity are listed below.</summary>

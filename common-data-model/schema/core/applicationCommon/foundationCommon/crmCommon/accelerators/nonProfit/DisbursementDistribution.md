@@ -14,7 +14,7 @@ Defines the Delivery Framework(s) - i.e. Program, Project, Initiative - that con
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DisbursementDistribution.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/DisbursementDistribution  
 
@@ -53,7 +53,7 @@ nonProfit/DisbursementDistribution
 |[paymentDate](#paymentDate)|Payment Date|[nonProfit/DisbursementDistribution](DisbursementDistribution.md)|
 |[paymentId](#paymentId)|Payment|[nonProfit/DisbursementDistribution](DisbursementDistribution.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Disbursement Distribution entity are listed below.</summary>

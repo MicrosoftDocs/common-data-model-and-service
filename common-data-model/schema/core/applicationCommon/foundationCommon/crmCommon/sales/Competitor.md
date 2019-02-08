@@ -14,7 +14,7 @@ Business competing for the sale represented by a lead or opportunity.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Competitor.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 sales/Competitor  
 
@@ -107,7 +107,7 @@ sales/Competitor
 |[entityImageId](#entityImageId)||[sales/Competitor](Competitor.md)|
 |[yomiName](#yomiName)|Type the phonetic spelling of the competitor's name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|[sales/Competitor](Competitor.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Competitor entity are listed below.</summary>

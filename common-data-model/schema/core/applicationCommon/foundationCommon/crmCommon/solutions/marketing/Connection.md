@@ -14,7 +14,7 @@ Relationship between two entities.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
 marketing/Connection  
@@ -62,7 +62,7 @@ marketing/Connection
 |[name](#name)|Name of the connection.|[applicationCommon/Connection](../../../../Connection.md)|
 |[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Connection](../../../../Connection.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Connection entity are listed below.</summary>

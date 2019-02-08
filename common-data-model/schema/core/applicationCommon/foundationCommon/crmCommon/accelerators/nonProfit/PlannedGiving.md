@@ -14,7 +14,7 @@ A planned gift is a major gift made during a donor's lifetime or at the time of 
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 nonProfit/PlannedGiving  
 
@@ -160,7 +160,7 @@ nonProfit/PlannedGiving
 |[typeOfManagement](#typeOfManagement)|The type of management for the underlying asset or assets related to this Planned Giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
 |[typeOfManagement_display](#typeOfManagement_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Planned Giving entity are listed below.</summary>

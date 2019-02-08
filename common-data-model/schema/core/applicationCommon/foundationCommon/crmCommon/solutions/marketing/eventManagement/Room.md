@@ -14,7 +14,7 @@ A room is where a session may be held. A single room can be used in multiple dif
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Room.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 eventManagement/Room  
 
@@ -60,7 +60,7 @@ eventManagement/Room
 |[whiteBoard](#whiteBoard)|There is whiteboard or not.|[eventManagement/Room](Room.md)|
 |[whiteBoard_display](#whiteBoard_display)||[eventManagement/Room](Room.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Room entity are listed below.</summary>

@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactProcessingFailed.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 interactions/ActivityContactProcessingFailed  
 
@@ -32,7 +32,7 @@ interactions/ActivityContactProcessingFailed
 |[interactionType](#interactionType)|Interaction type|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
 |[timestamp](#timestamp)|Timestamp|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Activity contact processing failed entity are listed below.</summary>

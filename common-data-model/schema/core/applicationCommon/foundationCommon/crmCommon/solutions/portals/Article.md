@@ -14,7 +14,7 @@ Structured content that is part of the knowledge base.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Article](../../../../Article.md "/core/applicationCommon/Article.cdm.json/Article")  
 portals/Article  
@@ -59,7 +59,7 @@ portals/Article
 |[ratingSum](#ratingSum)|The sum of the values of all ratings applied to this article.|[portals/Article](Article.md)|
 |[upvotes](#upvotes)|The number of positive vote ratings applied to this article.|[portals/Article](Article.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Article entity are listed below.</summary>

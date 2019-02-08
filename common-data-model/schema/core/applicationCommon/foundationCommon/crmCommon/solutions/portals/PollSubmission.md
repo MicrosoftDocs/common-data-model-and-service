@@ -13,7 +13,7 @@ ms.author: tpalmer
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PollSubmission.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 portals/PollSubmission  
 
@@ -48,7 +48,7 @@ portals/PollSubmission
 |[pollOptionId](#pollOptionId)|Unique identifier for PollOption associated with Poll Submission.|[portals/PollSubmission](PollSubmission.md)|
 |[visitorID](#visitorID)||[portals/PollSubmission](PollSubmission.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Poll Submission entity are listed below.</summary>

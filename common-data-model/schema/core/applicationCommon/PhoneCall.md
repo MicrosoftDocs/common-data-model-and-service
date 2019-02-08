@@ -14,7 +14,7 @@ Activity to track a telephone call.
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/PhoneCall.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 applicationCommon/PhoneCall  
 [crmCommon/PhoneCall](foundationCommon/crmCommon/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
@@ -80,7 +80,7 @@ applicationCommon/PhoneCall
 |[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/PhoneCall](PhoneCall.md)|
 |[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Phone Call record.|[applicationCommon/PhoneCall](PhoneCall.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Phone Call entity are listed below.</summary>

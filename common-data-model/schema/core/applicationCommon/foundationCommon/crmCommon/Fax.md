@@ -14,7 +14,7 @@ Activity that tracks call outcome and number of pages for a fax and optionally s
 
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Fax.cdm.json" target="_blank">Link on GitHub</a>).  
 
-### Instances
+## Instances
 
 [applicationCommon/Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
 crmCommon/Fax  
@@ -82,7 +82,7 @@ crmCommon/Fax
 |[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Fax](../../Fax.md)|
 |[serviceId](#serviceId)|Unique identifier for an associated service.|[crmCommon/Fax](Fax.md)|
 
-### Traits
+## Traits
 
 <details>
 <summary>List of traits for the Fax entity are listed below.</summary>
