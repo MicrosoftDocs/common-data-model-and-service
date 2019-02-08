@@ -14,4 +14,4 @@ ms.author: tpalmer
 
 |Name|Description|
 |---|---|
-|[LeadScoringModel](LeadScoringModel.md)|There is no description.|
+|[LeadScoringModel](LeadScoringModel.md)||
