@@ -12,40 +12,19 @@ ms.author: tpalmer
 
 Association between a competitor and a product offered by the competitor.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorProduct.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-sales/CompetitorProduct  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[competitorProductId](#competitorProductId)|Unique identifier of the competitor product.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[name](#name)|name|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[competitorId](#competitorId)||[sales/CompetitorProduct](CompetitorProduct.md)|
-|[productId](#productId)||[sales/CompetitorProduct](CompetitorProduct.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Competitor Product entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CompetitorProduct_/hasAttributes/competitorProductId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "CompetitorProduct/hasAttributes/competitorProductId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CompetitorProduct/hasAttributes/competitorProductId](#competitorProductId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/sales/CompetitorProduct.cdm.json/CompetitorProduct/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -61,8 +40,24 @@ sales/CompetitorProduct
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+sales/CompetitorProduct  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[competitorProductId](#competitorProductId)|Unique identifier of the competitor product.|[sales/CompetitorProduct](CompetitorProduct.md)|
+|[versionNumber](#versionNumber)|Version Number|[sales/CompetitorProduct](CompetitorProduct.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/CompetitorProduct](CompetitorProduct.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/CompetitorProduct](CompetitorProduct.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/CompetitorProduct](CompetitorProduct.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/CompetitorProduct](CompetitorProduct.md)|
+|[name](#name)|name|[sales/CompetitorProduct](CompetitorProduct.md)|
+|[competitorId](#competitorId)||[sales/CompetitorProduct](CompetitorProduct.md)|
+|[productId](#productId)||[sales/CompetitorProduct](CompetitorProduct.md)|
 
 ### <a href=#competitorProductId name="competitorProductId">competitorProductId</a>
 
@@ -84,11 +79,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Comp
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CompetitorProduct_/hasAttributes/competitorProductId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "CompetitorProduct/hasAttributes/competitorProductId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CompetitorProduct/hasAttributes/competitorProductId](#competitorProductId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

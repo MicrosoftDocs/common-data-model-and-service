@@ -12,41 +12,19 @@ ms.author: tpalmer
 
 Item in a Service contract.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ServiceContractContact.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-service/ServiceContractContact  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[serviceContractContactId](#serviceContractContactId)|Unique identifier of the contact of the service contract.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/ServiceContractContact](ServiceContractContact.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[name](#name)|name|[service/ServiceContractContact](ServiceContractContact.md)|
-|[contactId](#contactId)||[service/ServiceContractContact](ServiceContractContact.md)|
-|[contractId](#contractId)||[service/ServiceContractContact](ServiceContractContact.md)|
-|[serviceLevel](#serviceLevel)||[service/ServiceContractContact](ServiceContractContact.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ServiceContractContact.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Service Contract Contact entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ServiceContractContact_/hasAttributes/serviceContractContactId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ServiceContractContact/hasAttributes/serviceContractContactId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ServiceContractContact/hasAttributes/serviceContractContactId](#serviceContractContactId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/service/ServiceContractContact.cdm.json/ServiceContractContact/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -62,8 +40,25 @@ service/ServiceContractContact
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+service/ServiceContractContact  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[serviceContractContactId](#serviceContractContactId)|Unique identifier of the contact of the service contract.|[service/ServiceContractContact](ServiceContractContact.md)|
+|[versionNumber](#versionNumber)|Version Number|[service/ServiceContractContact](ServiceContractContact.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ServiceContractContact](ServiceContractContact.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ServiceContractContact](ServiceContractContact.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ServiceContractContact](ServiceContractContact.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ServiceContractContact](ServiceContractContact.md)|
+|[name](#name)|name|[service/ServiceContractContact](ServiceContractContact.md)|
+|[contactId](#contactId)||[service/ServiceContractContact](ServiceContractContact.md)|
+|[contractId](#contractId)||[service/ServiceContractContact](ServiceContractContact.md)|
+|[serviceLevel](#serviceLevel)||[service/ServiceContractContact](ServiceContractContact.md)|
 
 ### <a href=#serviceContractContactId name="serviceContractContactId">serviceContractContactId</a>
 
@@ -85,11 +80,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ServiceContractContact_/hasAttributes/serviceContractContactId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ServiceContractContact/hasAttributes/serviceContractContactId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ServiceContractContact/hasAttributes/serviceContractContactId](#serviceContractContactId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

@@ -12,13 +12,43 @@ ms.author: tpalmer
 
 Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json" target="_blank">Link on GitHub</a>).  
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json" target="_blank">GitHub</a>.  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+- **is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+- **is.CDM.attributeGroup**  
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+
+- **is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ReferralRequest/hasAttributes/referralRequestId](#referralRequestId)</td><td>attribute</td><td></td></tr></table>
+
+- **means.entityState**  
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ReferralRequest/hasAttributes/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
+
+- **is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Referral Request</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+- **is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+- **is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_referralrequest</td><td>string</td><td></td></tr></table>
+
+</details>
 
 ## Instances
 
+Instances of this entity are listed below:  
 electronicMedicalRecords/ReferralRequest  
 
-## Attributes - Summary
+## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
@@ -83,45 +113,6 @@ electronicMedicalRecords/ReferralRequest
 |[subjectGroup](#subjectGroup)|Represents a defined collection of entities that may be discussed or acted upon collectively but which are not expected to act collectively and are not formally or legally recognized.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
 |[subjectPatient](#subjectPatient)|The patient who is the subject of a referral or transfer of care request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
 |[type](#type)|An indication of the type of referral (or where applicable the type of transfer of care) request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-
-## Traits
-
-<details>
-<summary>List of traits for the Referral Request entity are listed below.</summary>
-
-- **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
-
-- **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json/ReferralRequest/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
-
-- **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ReferralRequest_/hasAttributes/referralRequestId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ReferralRequest/hasAttributes/referralRequestId"
-  ```
-
-
-- **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ReferralRequest_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ReferralRequest/hasAttributes/stateCode"
-  ```
-
-
-- **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Referral Request</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>msemr_referralrequest</td><td>string</td><td></td></tr></table>
-
-</details>
-
-## Attribute - Details
-
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -822,11 +813,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ReferralRequest_/hasAttributes/referralRequestId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ReferralRequest/hasAttributes/referralRequestId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ReferralRequest/hasAttributes/referralRequestId](#referralRequestId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -867,11 +854,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 - **means.entityState**  
-the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ReferralRequest_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ReferralRequest/hasAttributes/stateCode"
-  ```
-
+the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ReferralRequest/hasAttributes/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

@@ -12,13 +12,43 @@ ms.author: tpalmer
 
 Order that has been billed.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Invoice.cdm.json" target="_blank">Link on GitHub</a>).  
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Invoice.cdm.json" target="_blank">GitHub</a>.  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+- **is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+- **is.CDM.attributeGroup**  
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/sales/Invoice.cdm.json/Invoice/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+
+- **is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Invoice/hasAttributes/invoiceId](#invoiceId)</td><td>attribute</td><td></td></tr></table>
+
+- **means.entityState**  
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Invoice/hasAttributes/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
+
+- **is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoice</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+- **is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Order that has been billed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+- **is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Invoice</td><td>string</td><td></td></tr></table>
+
+</details>
 
 ## Instances
 
+Instances of this entity are listed below:  
 sales/Invoice  
 
-## Attributes - Summary
+## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
@@ -118,45 +148,6 @@ sales/Invoice
 |[entityImageId](#entityImageId)||[sales/Invoice](Invoice.md)|
 |[accountId](#accountId)|Unique identifier of the account with which the invoice is associated.|[sales/Invoice](Invoice.md)|
 |[contactId](#contactId)|Unique identifier of the contact associated with the invoice.|[sales/Invoice](Invoice.md)|
-
-## Traits
-
-<details>
-<summary>List of traits for the Invoice entity are listed below.</summary>
-
-- **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
-
-- **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/sales/Invoice.cdm.json/Invoice/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
-
-- **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Invoice_/hasAttributes/invoiceId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Invoice/hasAttributes/invoiceId"
-  ```
-
-
-- **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Invoice_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Invoice/hasAttributes/stateCode"
-  ```
-
-
-- **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoice</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Order that has been billed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Invoice</td><td>string</td><td></td></tr></table>
-
-</details>
-
-## Attribute - Details
-
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -857,11 +848,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Invo
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Invoice_/hasAttributes/invoiceId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Invoice/hasAttributes/invoiceId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Invoice/hasAttributes/invoiceId](#invoiceId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -3055,11 +3042,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 - **means.entityState**  
-the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Invoice_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Invoice/hasAttributes/stateCode"
-  ```
-
+the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Invoice/hasAttributes/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

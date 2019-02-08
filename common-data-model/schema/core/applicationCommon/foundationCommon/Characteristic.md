@@ -12,13 +12,43 @@ ms.author: tpalmer
 
 Skills, education and certifications of resources.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Characteristic.cdm.json" target="_blank">Link on GitHub</a>).  
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Characteristic.cdm.json" target="_blank">GitHub</a>.  
+
+## Traits
+
+<details>
+<summary>Traits for this entity are listed below.  
+</summary>
+
+- **is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+- **is.CDM.attributeGroup**  
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon/<br>Characteristic.cdm.json/Characteristic/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+
+- **is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Characteristic/hasAttributes/characteristicId](#characteristicId)</td><td>attribute</td><td></td></tr></table>
+
+- **means.entityState**  
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Characteristic/hasAttributes/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
+
+- **is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Characteristic</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+- **is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Skills, education and certifications of resources.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+- **is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Characteristic</td><td>string</td><td></td></tr></table>
+
+</details>
 
 ## Instances
 
+Instances of this entity are listed below:  
 foundationCommon/Characteristic  
 
-## Attributes - Summary
+## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
@@ -49,45 +79,6 @@ foundationCommon/Characteristic
 |[statusCode_display](#statusCode_display)||[foundationCommon/Characteristic](Characteristic.md)|
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the characteristic with respect to the base currency.|[foundationCommon/Characteristic](Characteristic.md)|
 |[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the Characteristic with respect to the base currency.|[foundationCommon/Characteristic](Characteristic.md)|
-
-## Traits
-
-<details>
-<summary>List of traits for the Characteristic entity are listed below.</summary>
-
-- **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
-
-- **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon/<br>Characteristic.cdm.json/Characteristic/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
-
-- **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Characteristic_/hasAttributes/characteristicId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Characteristic/hasAttributes/characteristicId"
-  ```
-
-
-- **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Characteristic_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Characteristic/hasAttributes/stateCode"
-  ```
-
-
-- **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Characteristic</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Skills, education and certifications of resources.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>Characteristic</td><td>string</td><td></td></tr></table>
-
-</details>
-
-## Attribute - Details
-
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -788,11 +779,7 @@ First included in: /core/applicationCommon/foundationCommon/Characteristic.cdm.j
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Characteristic_/hasAttributes/characteristicId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Characteristic/hasAttributes/characteristicId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Characteristic/hasAttributes/characteristicId](#characteristicId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -978,11 +965,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 - **means.entityState**  
-the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Characteristic_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Characteristic/hasAttributes/stateCode"
-  ```
-
+the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Characteristic/hasAttributes/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

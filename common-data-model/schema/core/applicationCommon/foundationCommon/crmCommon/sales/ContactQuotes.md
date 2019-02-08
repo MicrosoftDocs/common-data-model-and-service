@@ -11,40 +11,19 @@ ms.author: tpalmer
 # ContactQuotes
 
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/ContactQuotes.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-sales/ContactQuotes  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[contactQuoteId](#contactQuoteId)|Unique identifier of the quotes for the contact.|[sales/ContactQuotes](ContactQuotes.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/ContactQuotes](ContactQuotes.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/ContactQuotes](ContactQuotes.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/ContactQuotes](ContactQuotes.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/ContactQuotes](ContactQuotes.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/ContactQuotes](ContactQuotes.md)|
-|[name](#name)|name|[sales/ContactQuotes](ContactQuotes.md)|
-|[contactId](#contactId)||[sales/ContactQuotes](ContactQuotes.md)|
-|[quoteId](#quoteId)||[sales/ContactQuotes](ContactQuotes.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/ContactQuotes.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the ContactQuotes entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ContactQuotes_/hasAttributes/contactQuoteId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ContactQuotes/hasAttributes/contactQuoteId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ContactQuotes/hasAttributes/contactQuoteId](#contactQuoteId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/sales/ContactQuotes.cdm.json/ContactQuotes/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -57,8 +36,24 @@ sales/ContactQuotes
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+sales/ContactQuotes  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[contactQuoteId](#contactQuoteId)|Unique identifier of the quotes for the contact.|[sales/ContactQuotes](ContactQuotes.md)|
+|[versionNumber](#versionNumber)|Version Number|[sales/ContactQuotes](ContactQuotes.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/ContactQuotes](ContactQuotes.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/ContactQuotes](ContactQuotes.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/ContactQuotes](ContactQuotes.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/ContactQuotes](ContactQuotes.md)|
+|[name](#name)|name|[sales/ContactQuotes](ContactQuotes.md)|
+|[contactId](#contactId)||[sales/ContactQuotes](ContactQuotes.md)|
+|[quoteId](#quoteId)||[sales/ContactQuotes](ContactQuotes.md)|
 
 ### <a href=#contactQuoteId name="contactQuoteId">contactQuoteId</a>
 
@@ -80,11 +75,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Cont
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ContactQuotes_/hasAttributes/contactQuoteId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ContactQuotes/hasAttributes/contactQuoteId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ContactQuotes/hasAttributes/contactQuoteId](#contactQuoteId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

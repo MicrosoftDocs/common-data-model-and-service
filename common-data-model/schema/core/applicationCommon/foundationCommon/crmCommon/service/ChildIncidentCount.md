@@ -12,40 +12,19 @@ ms.author: tpalmer
 
 For internal use only.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ChildIncidentCount.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-service/ChildIncidentCount  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[childIncidentCountId](#childIncidentCountId)||[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[name](#name)|name|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[parentCaseId](#parentCaseId)||[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[numberOfChildIncidents](#numberOfChildIncidents)||[service/ChildIncidentCount](ChildIncidentCount.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ChildIncidentCount.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Child Incident Count entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ChildIncidentCount_/hasAttributes/childIncidentCountId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ChildIncidentCount/hasAttributes/childIncidentCountId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ChildIncidentCount/hasAttributes/childIncidentCountId](#childIncidentCountId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/service/ChildIncidentCount.cdm.json/ChildIncidentCount/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -61,8 +40,24 @@ service/ChildIncidentCount
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+service/ChildIncidentCount  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[childIncidentCountId](#childIncidentCountId)||[service/ChildIncidentCount](ChildIncidentCount.md)|
+|[versionNumber](#versionNumber)|Version Number|[service/ChildIncidentCount](ChildIncidentCount.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ChildIncidentCount](ChildIncidentCount.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ChildIncidentCount](ChildIncidentCount.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ChildIncidentCount](ChildIncidentCount.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ChildIncidentCount](ChildIncidentCount.md)|
+|[name](#name)|name|[service/ChildIncidentCount](ChildIncidentCount.md)|
+|[parentCaseId](#parentCaseId)||[service/ChildIncidentCount](ChildIncidentCount.md)|
+|[numberOfChildIncidents](#numberOfChildIncidents)||[service/ChildIncidentCount](ChildIncidentCount.md)|
 
 ### <a href=#childIncidentCountId name="childIncidentCountId">childIncidentCountId</a>
 
@@ -83,11 +78,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ch
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ChildIncidentCount_/hasAttributes/childIncidentCountId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ChildIncidentCount/hasAttributes/childIncidentCountId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ChildIncidentCount/hasAttributes/childIncidentCountId](#childIncidentCountId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

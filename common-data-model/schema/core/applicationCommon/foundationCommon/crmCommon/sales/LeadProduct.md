@@ -11,40 +11,19 @@ ms.author: tpalmer
 # LeadProduct
 
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/LeadProduct.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-sales/LeadProduct  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[leadProductId](#leadProductId)|Unique identifier of the lead product.|[sales/LeadProduct](LeadProduct.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/LeadProduct](LeadProduct.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/LeadProduct](LeadProduct.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/LeadProduct](LeadProduct.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/LeadProduct](LeadProduct.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/LeadProduct](LeadProduct.md)|
-|[name](#name)|name|[sales/LeadProduct](LeadProduct.md)|
-|[leadId](#leadId)||[sales/LeadProduct](LeadProduct.md)|
-|[productId](#productId)||[sales/LeadProduct](LeadProduct.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/LeadProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the LeadProduct entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"LeadProduct_/hasAttributes/leadProductId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "LeadProduct/hasAttributes/leadProductId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[LeadProduct/hasAttributes/leadProductId](#leadProductId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/sales/LeadProduct.cdm.json/LeadProduct/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -57,8 +36,24 @@ sales/LeadProduct
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+sales/LeadProduct  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[leadProductId](#leadProductId)|Unique identifier of the lead product.|[sales/LeadProduct](LeadProduct.md)|
+|[versionNumber](#versionNumber)|Version Number|[sales/LeadProduct](LeadProduct.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/LeadProduct](LeadProduct.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/LeadProduct](LeadProduct.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/LeadProduct](LeadProduct.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/LeadProduct](LeadProduct.md)|
+|[name](#name)|name|[sales/LeadProduct](LeadProduct.md)|
+|[leadId](#leadId)||[sales/LeadProduct](LeadProduct.md)|
+|[productId](#productId)||[sales/LeadProduct](LeadProduct.md)|
 
 ### <a href=#leadProductId name="leadProductId">leadProductId</a>
 
@@ -80,11 +75,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Lead
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"LeadProduct_/hasAttributes/leadProductId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "LeadProduct/hasAttributes/leadProductId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[LeadProduct/hasAttributes/leadProductId](#leadProductId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

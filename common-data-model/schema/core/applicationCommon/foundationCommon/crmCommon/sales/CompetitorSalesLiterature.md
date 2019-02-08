@@ -11,40 +11,19 @@ ms.author: tpalmer
 # CompetitorSalesLiterature
 
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorSalesLiterature.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-sales/CompetitorSalesLiterature  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[competitorSalesLiteratureId](#competitorSalesLiteratureId)|Unique identifier of the sales literature for the competitor product.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[name](#name)|name|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[competitorId](#competitorId)||[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[salesLiteratureId](#salesLiteratureId)||[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorSalesLiterature.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the CompetitorSalesLiterature entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CompetitorSalesLiterature_/hasAttributes/competit...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "CompetitorSalesLiterature/hasAttributes/competitorSalesLiteratureId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CompetitorSalesLiterature/hasAttributes/competitorSalesLiteratureId](#competitorSalesLiteratureId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/sales/CompetitorSalesLiterature.cdm.json/CompetitorSalesLiterature/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -57,8 +36,24 @@ sales/CompetitorSalesLiterature
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+sales/CompetitorSalesLiterature  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[competitorSalesLiteratureId](#competitorSalesLiteratureId)|Unique identifier of the sales literature for the competitor product.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+|[versionNumber](#versionNumber)|Version Number|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+|[name](#name)|name|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+|[competitorId](#competitorId)||[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+|[salesLiteratureId](#salesLiteratureId)||[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
 
 ### <a href=#competitorSalesLiteratureId name="competitorSalesLiteratureId">competitorSalesLiteratureId</a>
 
@@ -80,11 +75,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Comp
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CompetitorSalesLiterature_/hasAttributes/competit...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "CompetitorSalesLiterature/hasAttributes/competitorSalesLiteratureId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CompetitorSalesLiterature/hasAttributes/competitorSalesLiteratureId](#competitorSalesLiteratureId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

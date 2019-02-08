@@ -12,40 +12,19 @@ ms.author: tpalmer
 
 description.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/AccountLeads.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-crmCommon/AccountLeads  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[accountLeadId](#accountLeadId)|Unique identifier of the lead for the account.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/AccountLeads](AccountLeads.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[name](#name)|name|[crmCommon/AccountLeads](AccountLeads.md)|
-|[accountId](#accountId)||[crmCommon/AccountLeads](AccountLeads.md)|
-|[leadId](#leadId)||[crmCommon/AccountLeads](AccountLeads.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/AccountLeads.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the AccountLeads entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"AccountLeads_/hasAttributes/accountLeadId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "AccountLeads/hasAttributes/accountLeadId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[AccountLeads/hasAttributes/accountLeadId](#accountLeadId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/AccountLeads.cdm.json/AccountLeads/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -61,8 +40,24 @@ crmCommon/AccountLeads
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+crmCommon/AccountLeads  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[accountLeadId](#accountLeadId)|Unique identifier of the lead for the account.|[crmCommon/AccountLeads](AccountLeads.md)|
+|[versionNumber](#versionNumber)|Version Number|[crmCommon/AccountLeads](AccountLeads.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[crmCommon/AccountLeads](AccountLeads.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/AccountLeads](AccountLeads.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/AccountLeads](AccountLeads.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/AccountLeads](AccountLeads.md)|
+|[name](#name)|name|[crmCommon/AccountLeads](AccountLeads.md)|
+|[accountId](#accountId)||[crmCommon/AccountLeads](AccountLeads.md)|
+|[leadId](#leadId)||[crmCommon/AccountLeads](AccountLeads.md)|
 
 ### <a href=#accountLeadId name="accountLeadId">accountLeadId</a>
 
@@ -84,11 +79,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/AccountLea
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"AccountLeads_/hasAttributes/accountLeadId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "AccountLeads/hasAttributes/accountLeadId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[AccountLeads/hasAttributes/accountLeadId](#accountLeadId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

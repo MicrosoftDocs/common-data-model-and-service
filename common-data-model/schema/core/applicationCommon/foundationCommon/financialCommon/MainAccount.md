@@ -12,36 +12,19 @@ ms.author: tpalmer
 
 An account whose balance is displayed in major financial statements  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccount.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-financialCommon/MainAccount  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[mainAccountId](#mainAccountId)|The surrogate key of the main account record|[financialCommon/MainAccount](MainAccount.md)|
-|[name](#name)|The user-readable name of the main account|[financialCommon/MainAccount](MainAccount.md)|
-|[number](#number)|The numerical designation of the account according to the chart of accounts, usually designed such that accounts of the same type have similar numbers|[financialCommon/MainAccount](MainAccount.md)|
-|[mainAccountCategoryKey](#mainAccountCategoryKey)|The categorization of the main account, by which accounting aspects such as account type are defined|[financialCommon/MainAccount](MainAccount.md)|
-|[currencyKey](#currencyKey)|The currency in which amounts held by this account are expressed|[financialCommon/MainAccount](MainAccount.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccount.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Main Account entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MainAccount_/hasAttributes/mainAccountId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "MainAccount/hasAttributes/mainAccountId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MainAccount/hasAttributes/mainAccountId](#mainAccountId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>financeCommon/MainAccount.cdm.json/MainAccount/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -54,8 +37,20 @@ financialCommon/MainAccount
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+financialCommon/MainAccount  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[mainAccountId](#mainAccountId)|The surrogate key of the main account record|[financialCommon/MainAccount](MainAccount.md)|
+|[name](#name)|The user-readable name of the main account|[financialCommon/MainAccount](MainAccount.md)|
+|[number](#number)|The numerical designation of the account according to the chart of accounts, usually designed such that accounts of the same type have similar numbers|[financialCommon/MainAccount](MainAccount.md)|
+|[mainAccountCategoryKey](#mainAccountCategoryKey)|The categorization of the main account, by which accounting aspects such as account type are defined|[financialCommon/MainAccount](MainAccount.md)|
+|[currencyKey](#currencyKey)|The currency in which amounts held by this account are expressed|[financialCommon/MainAccount](MainAccount.md)|
 
 ### <a href=#mainAccountId name="mainAccountId">mainAccountId</a>
 
@@ -75,11 +70,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 - **is.dataFormat.big**  
 - **is.dataFormat.array**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MainAccount_/hasAttributes/mainAccountId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "MainAccount/hasAttributes/mainAccountId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MainAccount/hasAttributes/mainAccountId](#mainAccountId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>MainAccountId</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

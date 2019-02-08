@@ -12,43 +12,19 @@ ms.author: tpalmer
 
 Comment on a knowledge base article.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleComment.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-applicationCommon/ArticleComment  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[kbArticleCommentId](#kbArticleCommentId)|Unique identifier of the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[kbArticleId](#kbArticleId)|Unique identifier of the knowledge base article to which the comment applies.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[title](#title)|Title of the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[commentText](#commentText)|Comment text for the knowledge base article.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[createdOn](#createdOn)|Date and time when the knowledge base article comment was created.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the knowledge base article comment was last modified.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/ArticleComment](ArticleComment.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization with which the article comment is associated.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the kbarticlecomment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the kbarticlecomment.|[applicationCommon/ArticleComment](ArticleComment.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleComment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Article Comment entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ArticleComment_/hasAttributes/kbArticleCommentId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ArticleComment/hasAttributes/kbArticleCommentId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ArticleComment/hasAttributes/kbArticleCommentId](#kbArticleCommentId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/ArticleComment.cdm.json/<br>ArticleComment/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -64,8 +40,27 @@ applicationCommon/ArticleComment
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+applicationCommon/ArticleComment  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[kbArticleCommentId](#kbArticleCommentId)|Unique identifier of the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[kbArticleId](#kbArticleId)|Unique identifier of the knowledge base article to which the comment applies.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[title](#title)|Title of the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[commentText](#commentText)|Comment text for the knowledge base article.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[createdOn](#createdOn)|Date and time when the knowledge base article comment was created.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[createdBy](#createdBy)|Unique identifier of the user who created the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[modifiedOn](#modifiedOn)|Date and time when the knowledge base article comment was last modified.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[versionNumber](#versionNumber)||[applicationCommon/ArticleComment](ArticleComment.md)|
+|[organizationId](#organizationId)|Unique identifier of the organization with which the article comment is associated.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the kbarticlecomment.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the kbarticlecomment.|[applicationCommon/ArticleComment](ArticleComment.md)|
 
 ### <a href=#kbArticleCommentId name="kbArticleCommentId">kbArticleCommentId</a>
 
@@ -87,11 +82,7 @@ First included in: /core/applicationCommon/ArticleComment.cdm.json/ArticleCommen
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ArticleComment_/hasAttributes/kbArticleCommentId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ArticleComment/hasAttributes/kbArticleCommentId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ArticleComment/hasAttributes/kbArticleCommentId](#kbArticleCommentId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

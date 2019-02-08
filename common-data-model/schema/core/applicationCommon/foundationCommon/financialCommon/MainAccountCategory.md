@@ -12,37 +12,19 @@ ms.author: tpalmer
 
 Provides categorization of main accounts  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-financialCommon/MainAccountCategory  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[mainAccountCategoryId](#mainAccountCategoryId)|The surrogate key of the main account category record|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[name](#name)|The display name of the main account category|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[description](#description)|The description of the main account category|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[isClosed](#isClosed)|Determines whether accounts of this category are closed for new transactions|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[accountType](#accountType)|The common account type for accounts in this category, such as revenue or liability|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[accountType_display](#accountType_display)||[financialCommon/MainAccountCategory](MainAccountCategory.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Main Account Category entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MainAccountCategory_/hasAttributes/mainAccountCategoryId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "MainAccountCategory/hasAttributes/mainAccountCategoryId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MainAccountCategory/hasAttributes/mainAccountCategoryId](#mainAccountCategoryId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>financeCommon/MainAccountCategory.cdm.json/MainAccountCategory/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -55,8 +37,21 @@ financialCommon/MainAccountCategory
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+financialCommon/MainAccountCategory  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[mainAccountCategoryId](#mainAccountCategoryId)|The surrogate key of the main account category record|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
+|[name](#name)|The display name of the main account category|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
+|[description](#description)|The description of the main account category|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
+|[isClosed](#isClosed)|Determines whether accounts of this category are closed for new transactions|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
+|[accountType](#accountType)|The common account type for accounts in this category, such as revenue or liability|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
+|[accountType_display](#accountType_display)||[financialCommon/MainAccountCategory](MainAccountCategory.md)|
 
 ### <a href=#mainAccountCategoryId name="mainAccountCategoryId">mainAccountCategoryId</a>
 
@@ -76,11 +71,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 - **is.dataFormat.big**  
 - **is.dataFormat.array**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MainAccountCategory_/hasAttributes/mainAccountCategoryId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "MainAccountCategory/hasAttributes/mainAccountCategoryId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MainAccountCategory/hasAttributes/mainAccountCategoryId](#mainAccountCategoryId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Main Account Category ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

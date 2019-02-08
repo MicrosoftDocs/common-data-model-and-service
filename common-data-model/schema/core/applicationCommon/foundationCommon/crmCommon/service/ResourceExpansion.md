@@ -12,43 +12,19 @@ ms.author: tpalmer
 
 Resource Expansions.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceExpansion.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-service/ResourceExpansion  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[resourceGroupExpansionId](#resourceGroupExpansionId)|Unique identifier of the resource expansion record.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/ResourceExpansion](ResourceExpansion.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[name](#name)|name|[service/ResourceExpansion](ResourceExpansion.md)|
-|[itemId](#itemId)|Item that is part of expansion of resource identified by object ID. One object ID can have many item IDs.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[methodCode](#methodCode)|Code for retrieval method.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[methodCode_display](#methodCode_display)||[service/ResourceExpansion](ResourceExpansion.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was last modified.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[objectId](#objectId)|Object being expanded.|[service/ResourceExpansion](ResourceExpansion.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceExpansion.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Resource Expansion entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ResourceExpansion_/hasAttributes/resourceGroupExpansionId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ResourceExpansion/hasAttributes/resourceGroupExpansionId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ResourceExpansion/hasAttributes/resourceGroupExpansionId](#resourceGroupExpansionId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/service/ResourceExpansion.cdm.json/ResourceExpansion/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -64,8 +40,27 @@ service/ResourceExpansion
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+service/ResourceExpansion  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[resourceGroupExpansionId](#resourceGroupExpansionId)|Unique identifier of the resource expansion record.|[service/ResourceExpansion](ResourceExpansion.md)|
+|[versionNumber](#versionNumber)|Version Number|[service/ResourceExpansion](ResourceExpansion.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ResourceExpansion](ResourceExpansion.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ResourceExpansion](ResourceExpansion.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ResourceExpansion](ResourceExpansion.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ResourceExpansion](ResourceExpansion.md)|
+|[name](#name)|name|[service/ResourceExpansion](ResourceExpansion.md)|
+|[itemId](#itemId)|Item that is part of expansion of resource identified by object ID. One object ID can have many item IDs.|[service/ResourceExpansion](ResourceExpansion.md)|
+|[methodCode](#methodCode)|Code for retrieval method.|[service/ResourceExpansion](ResourceExpansion.md)|
+|[methodCode_display](#methodCode_display)||[service/ResourceExpansion](ResourceExpansion.md)|
+|[modifiedOn](#modifiedOn)|Date and time when the record was last modified.|[service/ResourceExpansion](ResourceExpansion.md)|
+|[objectId](#objectId)|Object being expanded.|[service/ResourceExpansion](ResourceExpansion.md)|
 
 ### <a href=#resourceGroupExpansionId name="resourceGroupExpansionId">resourceGroupExpansionId</a>
 
@@ -87,11 +82,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ResourceExpansion_/hasAttributes/resourceGroupExpansionId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "ResourceExpansion/hasAttributes/resourceGroupExpansionId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ResourceExpansion/hasAttributes/resourceGroupExpansionId](#resourceGroupExpansionId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

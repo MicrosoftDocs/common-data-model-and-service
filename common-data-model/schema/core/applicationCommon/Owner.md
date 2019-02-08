@@ -12,36 +12,19 @@ ms.author: tpalmer
 
 Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Owner.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-applicationCommon/Owner  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[versionNumber](#versionNumber)||[applicationCommon/Owner](Owner.md)|
-|[ownerId](#ownerId)|Unique identifier for the Owner: systemuserid or teamid.|[applicationCommon/Owner](Owner.md)|
-|[name](#name)|Name of the Owner.|[applicationCommon/Owner](Owner.md)|
-|[ownerIdType](#ownerIdType)||[applicationCommon/Owner](Owner.md)|
-|[yomiName](#yomiName)|Pronunciation of the name of the owner, written in phonetic hiragana or katakana characters.|[applicationCommon/Owner](Owner.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Owner.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Owner entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Owner_/hasAttributes/ownerId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Owner/hasAttributes/ownerId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Owner/hasAttributes/ownerId](#ownerId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/Owner.cdm.json/Owner/<br>hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -57,8 +40,20 @@ applicationCommon/Owner
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+applicationCommon/Owner  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[versionNumber](#versionNumber)||[applicationCommon/Owner](Owner.md)|
+|[ownerId](#ownerId)|Unique identifier for the Owner: systemuserid or teamid.|[applicationCommon/Owner](Owner.md)|
+|[name](#name)|Name of the Owner.|[applicationCommon/Owner](Owner.md)|
+|[ownerIdType](#ownerIdType)||[applicationCommon/Owner](Owner.md)|
+|[yomiName](#yomiName)|Pronunciation of the name of the owner, written in phonetic hiragana or katakana characters.|[applicationCommon/Owner](Owner.md)|
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
@@ -109,11 +104,7 @@ First included in: /core/applicationCommon/Owner.cdm.json/Owner
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Owner_/hasAttributes/ownerId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Owner/hasAttributes/ownerId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Owner/hasAttributes/ownerId](#ownerId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

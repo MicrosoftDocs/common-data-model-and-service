@@ -12,36 +12,19 @@ ms.author: tpalmer
 
 The collection of all accounts making up the central repository of accounting data for a company.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-financialCommon/Ledger  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[ledgerId](#ledgerId)|The surrogate key of the ledger record|[financialCommon/Ledger](Ledger.md)|
-|[name](#name)|The user-readable name of the ledger|[financialCommon/Ledger](Ledger.md)|
-|[description](#description)|The description of the ledger|[financialCommon/Ledger](Ledger.md)|
-|[companyKey](#companyKey)|The company for which the ledger stores financial information|[financialCommon/Ledger](Ledger.md)|
-|[accountingCurrencyKey](#accountingCurrencyKey)|The currency in which all amounts in the ledger are expressed|[financialCommon/Ledger](Ledger.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Ledger entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Ledger_/hasAttributes/ledgerId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Ledger/hasAttributes/ledgerId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Ledger/hasAttributes/ledgerId](#ledgerId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>financeCommon/Ledger.cdm.json/Ledger/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -54,8 +37,20 @@ financialCommon/Ledger
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+financialCommon/Ledger  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[ledgerId](#ledgerId)|The surrogate key of the ledger record|[financialCommon/Ledger](Ledger.md)|
+|[name](#name)|The user-readable name of the ledger|[financialCommon/Ledger](Ledger.md)|
+|[description](#description)|The description of the ledger|[financialCommon/Ledger](Ledger.md)|
+|[companyKey](#companyKey)|The company for which the ledger stores financial information|[financialCommon/Ledger](Ledger.md)|
+|[accountingCurrencyKey](#accountingCurrencyKey)|The currency in which all amounts in the ledger are expressed|[financialCommon/Ledger](Ledger.md)|
 
 ### <a href=#ledgerId name="ledgerId">ledgerId</a>
 
@@ -75,11 +70,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledg
 - **is.dataFormat.big**  
 - **is.dataFormat.array**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Ledger_/hasAttributes/ledgerId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Ledger/hasAttributes/ledgerId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Ledger/hasAttributes/ledgerId](#ledgerId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>LedgerId</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

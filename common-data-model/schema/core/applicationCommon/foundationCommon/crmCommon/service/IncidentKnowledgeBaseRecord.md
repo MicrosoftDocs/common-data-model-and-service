@@ -11,40 +11,19 @@ ms.author: tpalmer
 # Incident KnowledgeBaseRecord
 
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/IncidentKnowledgeBaseRecord.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-service/IncidentKnowledgeBaseRecord  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[incidentKnowledgeBaseRecordId](#incidentKnowledgeBaseRecordId)|Unique identifier of the knowledgebase records for the incident.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[name](#name)|name|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[incidentId](#incidentId)||[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[knowledgeBaseRecordId](#knowledgeBaseRecordId)||[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/IncidentKnowledgeBaseRecord.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Incident KnowledgeBaseRecord entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"IncidentKnowledgeBaseRecord_/hasAttributes/incide...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "IncidentKnowledgeBaseRecord/hasAttributes/incidentKnowledgeBaseRecordId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[IncidentKnowledgeBaseRecord/hasAttributes/incidentKnowledgeBaseRecordId](#incidentKnowledgeBaseRecordId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/service/IncidentKnowledgeBaseRecord.cdm.json/IncidentKnowledgeBaseRecord/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -57,8 +36,24 @@ service/IncidentKnowledgeBaseRecord
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+service/IncidentKnowledgeBaseRecord  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[incidentKnowledgeBaseRecordId](#incidentKnowledgeBaseRecordId)|Unique identifier of the knowledgebase records for the incident.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+|[versionNumber](#versionNumber)|Version Number|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+|[name](#name)|name|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+|[incidentId](#incidentId)||[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+|[knowledgeBaseRecordId](#knowledgeBaseRecordId)||[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
 
 ### <a href=#incidentKnowledgeBaseRecordId name="incidentKnowledgeBaseRecordId">incidentKnowledgeBaseRecordId</a>
 
@@ -80,11 +75,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/In
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"IncidentKnowledgeBaseRecord_/hasAttributes/incide...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "IncidentKnowledgeBaseRecord/hasAttributes/incidentKnowledgeBaseRecordId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[IncidentKnowledgeBaseRecord/hasAttributes/incidentKnowledgeBaseRecordId](#incidentKnowledgeBaseRecordId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

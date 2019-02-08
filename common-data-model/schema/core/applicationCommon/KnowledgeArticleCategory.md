@@ -12,35 +12,19 @@ ms.author: tpalmer
 
 Category for a Knowledge Article.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleCategory.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-applicationCommon/KnowledgeArticleCategory  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[knowledgeArticleId](#knowledgeArticleId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
-|[categoryId](#categoryId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
-|[knowledgeArticleCategoryId](#knowledgeArticleCategoryId)|Unique identifier of the Category for the knowledge article.|[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleCategory.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Knowledge Article Category entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"KnowledgeArticleCategory_/hasAttributes/knowledge...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "KnowledgeArticleCategory/hasAttributes/knowledgeArticleCategoryId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[KnowledgeArticleCategory/hasAttributes/knowledgeArticleCategoryId](#knowledgeArticleCategoryId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/<br>KnowledgeArticleCategory.cdm.json/KnowledgeArticleCategory/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -56,8 +40,19 @@ applicationCommon/KnowledgeArticleCategory
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+applicationCommon/KnowledgeArticleCategory  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[knowledgeArticleId](#knowledgeArticleId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+|[categoryId](#categoryId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+|[knowledgeArticleCategoryId](#knowledgeArticleCategoryId)|Unique identifier of the Category for the knowledge article.|[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+|[versionNumber](#versionNumber)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
 
 ### <a href=#knowledgeArticleId name="knowledgeArticleId">knowledgeArticleId</a>
 
@@ -138,11 +133,7 @@ First included in: /core/applicationCommon/KnowledgeArticleCategory.cdm.json/Kno
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"KnowledgeArticleCategory_/hasAttributes/knowledge...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "KnowledgeArticleCategory/hasAttributes/knowledgeArticleCategoryId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[KnowledgeArticleCategory/hasAttributes/knowledgeArticleCategoryId](#knowledgeArticleCategoryId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

@@ -12,36 +12,13 @@ ms.author: tpalmer
 
 User or facility/equipment that can be scheduled for a service.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Resource.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-service/Resource  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[resourceId](#resourceId)|Unique identifier of the resource.|[service/Resource](Resource.md)|
-|[businessUnitId](#businessUnitId)|Business Unit Id|[service/Resource](Resource.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/Resource](Resource.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/Resource](Resource.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/Resource](Resource.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/Resource](Resource.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/Resource](Resource.md)|
-|[name](#name)|Name of the resource.|[service/Resource](Resource.md)|
-|[calendarId](#calendarId)|Unique identifier of the calendar for the resource.|[service/Resource](Resource.md)|
-|[displayInServiceViews](#displayInServiceViews)|For internal use only.|[service/Resource](Resource.md)|
-|[isDisabled](#isDisabled)|Information about whether the resource is enabled.|[service/Resource](Resource.md)|
-|[objectTypeCode](#objectTypeCode)|Type of entity with which the resource is associated.|[service/Resource](Resource.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization with which the resource is associated.|[service/Resource](Resource.md)|
-|[siteId](#siteId)|Unique identifier of the site at which the resource is located.|[service/Resource](Resource.md)|
-|[entityImageId](#entityImageId)||[service/Resource](Resource.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Resource.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Resource entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -60,8 +37,30 @@ service/Resource
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+service/Resource  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[resourceId](#resourceId)|Unique identifier of the resource.|[service/Resource](Resource.md)|
+|[businessUnitId](#businessUnitId)|Business Unit Id|[service/Resource](Resource.md)|
+|[versionNumber](#versionNumber)|Version Number|[service/Resource](Resource.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/Resource](Resource.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/Resource](Resource.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/Resource](Resource.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/Resource](Resource.md)|
+|[name](#name)|Name of the resource.|[service/Resource](Resource.md)|
+|[calendarId](#calendarId)|Unique identifier of the calendar for the resource.|[service/Resource](Resource.md)|
+|[displayInServiceViews](#displayInServiceViews)|For internal use only.|[service/Resource](Resource.md)|
+|[isDisabled](#isDisabled)|Information about whether the resource is enabled.|[service/Resource](Resource.md)|
+|[objectTypeCode](#objectTypeCode)|Type of entity with which the resource is associated.|[service/Resource](Resource.md)|
+|[organizationId](#organizationId)|Unique identifier of the organization with which the resource is associated.|[service/Resource](Resource.md)|
+|[siteId](#siteId)|Unique identifier of the site at which the resource is located.|[service/Resource](Resource.md)|
+|[entityImageId](#entityImageId)||[service/Resource](Resource.md)|
 
 ### <a href=#resourceId name="resourceId">resourceId</a>
 
@@ -83,11 +82,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Resource_/hasAttributes/resourceId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Resource/hasAttributes/resourceId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Resource/hasAttributes/resourceId](#resourceId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

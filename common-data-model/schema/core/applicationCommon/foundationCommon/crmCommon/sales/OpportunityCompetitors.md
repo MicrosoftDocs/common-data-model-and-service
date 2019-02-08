@@ -11,40 +11,19 @@ ms.author: tpalmer
 # OpportunityCompetitors
 
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityCompetitors.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-sales/OpportunityCompetitors  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[opportunityCompetitorId](#opportunityCompetitorId)|Unique identifier of the opportunity competitor.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[name](#name)|name|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[competitorId](#competitorId)||[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[opportunityId](#opportunityId)||[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityCompetitors.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the OpportunityCompetitors entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"OpportunityCompetitors_/hasAttributes/opportunityCompetitorId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "OpportunityCompetitors/hasAttributes/opportunityCompetitorId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OpportunityCompetitors/hasAttributes/opportunityCompetitorId](#opportunityCompetitorId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/sales/OpportunityCompetitors.cdm.json/OpportunityCompetitors/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -57,8 +36,24 @@ sales/OpportunityCompetitors
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+sales/OpportunityCompetitors  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[opportunityCompetitorId](#opportunityCompetitorId)|Unique identifier of the opportunity competitor.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+|[versionNumber](#versionNumber)|Version Number|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+|[name](#name)|name|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+|[competitorId](#competitorId)||[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+|[opportunityId](#opportunityId)||[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
 
 ### <a href=#opportunityCompetitorId name="opportunityCompetitorId">opportunityCompetitorId</a>
 
@@ -80,11 +75,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"OpportunityCompetitors_/hasAttributes/opportunityCompetitorId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "OpportunityCompetitors/hasAttributes/opportunityCompetitorId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[OpportunityCompetitors/hasAttributes/opportunityCompetitorId](#opportunityCompetitorId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

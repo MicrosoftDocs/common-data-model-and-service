@@ -11,40 +11,19 @@ ms.author: tpalmer
 # LeadCompetitors
 
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/LeadCompetitors.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-sales/LeadCompetitors  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[leadCompetitorId](#leadCompetitorId)|Unique identifier of the lead competitor.|[sales/LeadCompetitors](LeadCompetitors.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/LeadCompetitors](LeadCompetitors.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/LeadCompetitors](LeadCompetitors.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/LeadCompetitors](LeadCompetitors.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/LeadCompetitors](LeadCompetitors.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/LeadCompetitors](LeadCompetitors.md)|
-|[name](#name)|name|[sales/LeadCompetitors](LeadCompetitors.md)|
-|[competitorId](#competitorId)||[sales/LeadCompetitors](LeadCompetitors.md)|
-|[leadId](#leadId)||[sales/LeadCompetitors](LeadCompetitors.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/LeadCompetitors.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the LeadCompetitors entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 - **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"LeadCompetitors_/hasAttributes/leadCompetitorId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "LeadCompetitors/hasAttributes/leadCompetitorId"
-  ```
-
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[LeadCompetitors/hasAttributes/leadCompetitorId](#leadCompetitorId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/sales/LeadCompetitors.cdm.json/LeadCompetitors/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -57,8 +36,24 @@ sales/LeadCompetitors
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+sales/LeadCompetitors  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[leadCompetitorId](#leadCompetitorId)|Unique identifier of the lead competitor.|[sales/LeadCompetitors](LeadCompetitors.md)|
+|[versionNumber](#versionNumber)|Version Number|[sales/LeadCompetitors](LeadCompetitors.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/LeadCompetitors](LeadCompetitors.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/LeadCompetitors](LeadCompetitors.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/LeadCompetitors](LeadCompetitors.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/LeadCompetitors](LeadCompetitors.md)|
+|[name](#name)|name|[sales/LeadCompetitors](LeadCompetitors.md)|
+|[competitorId](#competitorId)||[sales/LeadCompetitors](LeadCompetitors.md)|
+|[leadId](#leadId)||[sales/LeadCompetitors](LeadCompetitors.md)|
 
 ### <a href=#leadCompetitorId name="leadCompetitorId">leadCompetitorId</a>
 
@@ -80,11 +75,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Lead
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"LeadCompetitors_/hasAttributes/leadCompetitorId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "LeadCompetitors/hasAttributes/leadCompetitorId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[LeadCompetitors/hasAttributes/leadCompetitorId](#leadCompetitorId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

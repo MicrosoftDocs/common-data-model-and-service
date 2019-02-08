@@ -12,33 +12,13 @@ ms.author: tpalmer
 
 Resource group or team whose members can be scheduled for a service.  
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/SchedulingGroup.cdm.json" target="_blank">Link on GitHub</a>).  
-
-## Instances
-
-service/SchedulingGroup  
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[resourceGroupId](#resourceGroupId)|Unique identifier of the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[businessUnitId](#businessUnitId)|Business Unit Id|[service/SchedulingGroup](SchedulingGroup.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/SchedulingGroup](SchedulingGroup.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[name](#name)|Name of the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[groupTypeCode](#groupTypeCode)|Scheduling group type code.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[groupTypeCode_display](#groupTypeCode_display)||[service/SchedulingGroup](SchedulingGroup.md)|
-|[objectTypeCode](#objectTypeCode)|Type of entity with which the scheduling group is associated.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
+Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/SchedulingGroup.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
 <details>
-<summary>List of traits for the Scheduling Group entity are listed below.</summary>
+<summary>Traits for this entity are listed below.  
+</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -57,8 +37,27 @@ service/SchedulingGroup
 
 </details>
 
-## Attribute - Details
+## Instances
 
+Instances of this entity are listed below:  
+service/SchedulingGroup  
+
+## Attributes
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[resourceGroupId](#resourceGroupId)|Unique identifier of the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
+|[businessUnitId](#businessUnitId)|Business Unit Id|[service/SchedulingGroup](SchedulingGroup.md)|
+|[versionNumber](#versionNumber)|Version Number|[service/SchedulingGroup](SchedulingGroup.md)|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/SchedulingGroup](SchedulingGroup.md)|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/SchedulingGroup](SchedulingGroup.md)|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/SchedulingGroup](SchedulingGroup.md)|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/SchedulingGroup](SchedulingGroup.md)|
+|[name](#name)|Name of the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
+|[groupTypeCode](#groupTypeCode)|Scheduling group type code.|[service/SchedulingGroup](SchedulingGroup.md)|
+|[groupTypeCode_display](#groupTypeCode_display)||[service/SchedulingGroup](SchedulingGroup.md)|
+|[objectTypeCode](#objectTypeCode)|Type of entity with which the scheduling group is associated.|[service/SchedulingGroup](SchedulingGroup.md)|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
 
 ### <a href=#resourceGroupId name="resourceGroupId">resourceGroupId</a>
 
@@ -80,11 +79,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Sc
 - **is.dataFormat.guid**  
 - **means.identity.entityId**  
 - **is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"SchedulingGroup_/hasAttributes/resourceGroupId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "SchedulingGroup/hasAttributes/resourceGroupId"
-  ```
-
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SchedulingGroup/hasAttributes/resourceGroupId](#resourceGroupId)</td><td>attribute</td><td></td></tr></table>
 
 - **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>systemrequired</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
