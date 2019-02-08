@@ -4,25 +4,40 @@ description: some description
 ms.service:: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 2/5/2019
+ms.date: 2/8/2019
 ms.author: tpalmer
 ---
 
 # Ledger
 
-## Properties
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">Link on GitHub</a>).  
+The collection of all accounts making up the central repository of accounting data for a company.  
 
-Display Name: Ledger
+### Instances
 
-Description: The collection of all accounts making up the central repository of accounting data for a company.
+financialCommon/Ledger  
 
-Latest Version: 0.8.1
+### Traits
 
-Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json](https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json)
+- **is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
-## Instances
+- **is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Ledger_/hasAttributes/ledgerId"</td><td>attribute</td><td></td></tr></table>Definition:  
+  ```
+  "Ledger/hasAttributes/ledgerId"
+  ```
 
-[/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger](Ledger.md)
+
+- **is.CDM.attributeGroup**  
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/financeCommon/Ledger.cdm.json/Ledger/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+
+- **is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ledger</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+- **is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The collection of all accounts making up the central repository of accounting data for a company.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 
 ## Attributes - Summary
 
@@ -36,285 +51,143 @@ Entity Definition on GitHub: [https://github.com/Microsoft/CDM/tree/master/schem
 
 ## Attribute - Details
 
-### <a name="ledgerId">ledgerId</a>
 
-The surrogate key of the ledger record
+### <a href=#ledgerId name="ledgerId">ledgerId</a>
 
-First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger
+The surrogate key of the ledger record  
+First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr>
-<tr><td>displayName</td><td>LedgerId</td></tr>
-<tr><td>description</td><td>The surrogate key of the ledger record</td></tr>
-<tr><td>isPrimaryKey</td><td>true</td></tr>
-<tr><td>dataFormat</td><td>String</td></tr>
-</table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LedgerId</td></tr><tr><td>description</td><td>The surrogate key of the ledger record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the ledgerId attribute are listed below.</summary>
 
-- ##### is.dataFormat.character
+- **is.dataFormat.character**  
+- **is.dataFormat.big**  
+- **is.dataFormat.array**  
+- **is.identifiedBy**  
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Ledger_/hasAttributes/ledgerId"</td><td>attribute</td><td></td></tr></table>Definition:  
+  ```
+  "Ledger/hasAttributes/ledgerId"
+  ```
 
-- ##### is.dataFormat.big
 
-- ##### is.dataFormat.array
+- **is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>LedgerId</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-- ##### is.identifiedBy
-
-names a specifc identity attribute to use with an entity
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>attribute</td><td>"Ledger_/hasAttributes/ledgerId"</td><td>attribute</td><td></td></tr>
-</table>
-
-Definition:
-
-```
-"Ledger_/hasAttributes/ledgerId"
-```
-
-- ##### is.localized.displayedAs
-
-Holds the list of language specific display text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>LedgerId</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
-
-- ##### is.localized.describedAs
-
-Holds the list of language specific descriptive text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>The surrogate key of the ledger record</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
+- **is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The surrogate key of the ledger record</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
-### <a name="name">name</a>
+### <a href=#name name="name">name</a>
 
-The user-readable name of the ledger
-
-First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger
+The user-readable name of the ledger  
+First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr>
-<tr><td>displayName</td><td>Name</td></tr>
-<tr><td>description</td><td>The user-readable name of the ledger</td></tr>
-<tr><td>dataFormat</td><td>String</td></tr>
-</table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The user-readable name of the ledger</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the name attribute are listed below.</summary>
 
-- ##### is.dataFormat.character
+- **is.dataFormat.character**  
+- **is.dataFormat.big**  
+- **is.dataFormat.array**  
+- **means.identity.name**  
+- **is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-- ##### is.dataFormat.big
-
-- ##### is.dataFormat.array
-
-- ##### means.identity.name
-
-- ##### is.localized.displayedAs
-
-Holds the list of language specific display text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>Name</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
-
-- ##### is.localized.describedAs
-
-Holds the list of language specific descriptive text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>The user-readable name of the ledger</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
+- **is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The user-readable name of the ledger</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
-### <a name="description">description</a>
+### <a href=#description name="description">description</a>
 
-The description of the ledger
-
-First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger
+The description of the ledger  
+First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr>
-<tr><td>displayName</td><td>Description</td></tr>
-<tr><td>description</td><td>The description of the ledger</td></tr>
-<tr><td>dataFormat</td><td>String</td></tr>
-</table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The description of the ledger</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the description attribute are listed below.</summary>
 
-- ##### is.dataFormat.character
+- **is.dataFormat.character**  
+- **is.dataFormat.big**  
+- **is.dataFormat.array**  
+- **means.reference.description**  
+- **is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-- ##### is.dataFormat.big
-
-- ##### is.dataFormat.array
-
-- ##### means.reference.description
-
-- ##### is.localized.displayedAs
-
-Holds the list of language specific display text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>Description</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
-
-- ##### is.localized.describedAs
-
-Holds the list of language specific descriptive text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>The description of the ledger</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
+- **is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The description of the ledger</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
-### <a name="companyKey">companyKey</a>
+### <a href=#companyKey name="companyKey">companyKey</a>
 
-The company for which the ledger stores financial information
-
-First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger
+The company for which the ledger stores financial information  
+First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr>
-<tr><td>displayName</td><td>Company Key</td></tr>
-<tr><td>description</td><td>The company for which the ledger stores financial information</td></tr>
-<tr><td>dataFormat</td><td>String</td></tr>
-</table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Key</td></tr><tr><td>description</td><td>The company for which the ledger stores financial information</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the companyKey attribute are listed below.</summary>
 
-- ##### is.dataFormat.character
+- **is.dataFormat.character**  
+- **is.dataFormat.big**  
+- **is.dataFormat.array**  
+- **is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Company Key</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-- ##### is.dataFormat.big
+- **is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The company for which the ledger stores financial information</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-- ##### is.dataFormat.array
-
-- ##### is.localized.displayedAs
-
-Holds the list of language specific display text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>Company Key</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
-
-- ##### is.localized.describedAs
-
-Holds the list of language specific descriptive text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>The company for which the ledger stores financial information</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
-
-- ##### is.linkedEntity.identifier
-
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Company.md" target="_blank">/core/applicationCommon/foundationCommon/Company.cdm.json/Company</a></td><td><a href="../Company.md#companyId" target="_blank">companyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
 
-### <a name="accountingCurrencyKey">accountingCurrencyKey</a>
+### <a href=#accountingCurrencyKey name="accountingCurrencyKey">accountingCurrencyKey</a>
 
-The currency in which all amounts in the ledger are expressed
-
-First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger
+The currency in which all amounts in the ledger are expressed  
+First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json/Ledger  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr>
-<tr><td>displayName</td><td>Accounting Currency Key</td></tr>
-<tr><td>description</td><td>The currency in which all amounts in the ledger are expressed</td></tr>
-<tr><td>dataFormat</td><td>String</td></tr>
-</table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Accounting Currency Key</td></tr><tr><td>description</td><td>The currency in which all amounts in the ledger are expressed</td></tr><tr><td>dataFormat</td><td>String</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the accountingCurrencyKey attribute are listed below.</summary>
 
-- ##### is.dataFormat.character
+- **is.dataFormat.character**  
+- **is.dataFormat.big**  
+- **is.dataFormat.array**  
+- **is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Accounting Currency Key</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-- ##### is.dataFormat.big
+- **is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The currency in which all amounts in the ledger are expressed</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-- ##### is.dataFormat.array
-
-- ##### is.localized.displayedAs
-
-Holds the list of language specific display text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>Accounting Currency Key</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
-
-- ##### is.localized.describedAs
-
-Holds the list of language specific descriptive text for an object.
-
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr>
-<tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr>
-<tr><td>en</td><td>The currency in which all amounts in the ledger are expressed</td></tr>
-</table>
-
-</td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr>
-</table>
-
-- ##### is.linkedEntity.identifier
-
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
+- **is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../Currency.md" target="_blank">/core/applicationCommon/Currency.cdm.json/Currency</a></td><td><a href="../../Currency.md#transactionCurrencyId" target="_blank">transactionCurrencyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 </details>
-
