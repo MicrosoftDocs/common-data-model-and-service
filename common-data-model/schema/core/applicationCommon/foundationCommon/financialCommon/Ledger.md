@@ -10,14 +10,28 @@ ms.author: tpalmer
 
 # Ledger
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">Link on GitHub</a>).  
 The collection of all accounts making up the central repository of accounting data for a company.  
+
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">Link on GitHub</a>).  
 
 ### Instances
 
 financialCommon/Ledger  
 
+## Attributes - Summary
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[ledgerId](#ledgerId)|The surrogate key of the ledger record|[financialCommon/Ledger](Ledger.md)|
+|[name](#name)|The user-readable name of the ledger|[financialCommon/Ledger](Ledger.md)|
+|[description](#description)|The description of the ledger|[financialCommon/Ledger](Ledger.md)|
+|[companyKey](#companyKey)|The company for which the ledger stores financial information|[financialCommon/Ledger](Ledger.md)|
+|[accountingCurrencyKey](#accountingCurrencyKey)|The currency in which all amounts in the ledger are expressed|[financialCommon/Ledger](Ledger.md)|
+
 ### Traits
+
+<details>
+<summary>List of traits for the Ledger entity are listed below.</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -30,7 +44,7 @@ financialCommon/Ledger
 
 
 - **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/financeCommon/Ledger.cdm.json/Ledger/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/foundationCommon/<br>financeCommon/Ledger.cdm.json/Ledger/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 - **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ledger</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -38,16 +52,7 @@ financialCommon/Ledger
 - **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The collection of all accounts making up the central repository of accounting data for a company.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[ledgerId](#ledgerId)|The surrogate key of the ledger record|[financialCommon/Ledger](Ledger.md)|
-|[name](#name)|The user-readable name of the ledger|[financialCommon/Ledger](Ledger.md)|
-|[description](#description)|The description of the ledger|[financialCommon/Ledger](Ledger.md)|
-|[companyKey](#companyKey)|The company for which the ledger stores financial information|[financialCommon/Ledger](Ledger.md)|
-|[accountingCurrencyKey](#accountingCurrencyKey)|The currency in which all amounts in the ledger are expressed|[financialCommon/Ledger](Ledger.md)|
+</details>
 
 ## Attribute - Details
 

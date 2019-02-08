@@ -10,44 +10,13 @@ ms.author: tpalmer
 
 # Designation
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json" target="_blank">Link on GitHub</a>).  
 An area to which funds may be allocated, including a GL-relevant accounting code.  Designations are the way a donor instructs an organization about how their donation should be spent or earmarked.  All nonprofit organizations strive to secure the largest % of unrestricted or undesignated funds possible so they can use this money at their own discretion toward the areas of greatest need, including the ability to pay down their operating costs.  Direct marketing-oriented nonprofits, and nonprofits with missions aligned to cause, cure, and global issues (like Oxfam) tend to have as few designations as they possibly can (~100-200 total designations) because they derive the majority of their funds from donors giving small gift amounts.  They also focus on recurring giving programs, which have a high administration cost if gifts are permitted to be designated or split designated across multiple funds.  A Higher Education organization, on the other hand, derives a large % of its annual fundraising from major donors, who typically want much more control about where they are directing their gifts.  
+
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json" target="_blank">Link on GitHub</a>).  
 
 ### Instances
 
 nonProfit/Designation  
-
-### Traits
-
-- **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
-
-- **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon/crmCommon/nonProfit/Designation.cdm.json/Designation/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
-
-- **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Designation_/hasAttributes/designationId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Designation/hasAttributes/designationId"
-  ```
-
-
-- **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Designation_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "Designation/hasAttributes/stateCode"
-  ```
-
-
-- **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Designation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>An area to which funds may be allocated, including a GL-relevant accounting code.  Designations are the way a donor instructs an organization about how their donation should be spent or earmarked.  All nonprofit organizations strive to secure the largest % of unrestricted or undesignated funds possible so they can use this money at their own discretion toward the areas of greatest need, including the ability to pay down their operating costs.  Direct marketing-oriented nonprofits, and nonprofits with missions aligned to cause, cure, and global issues (like Oxfam) tend to have as few designations as they possibly can (~100-200 total designations) because they derive the majority of their funds from donors giving small gift amounts.  They also focus on recurring giving programs, which have a high administration cost if gifts are permitted to be designated or split designated across multiple funds.  A Higher Education organization, on the other hand, derives a large % of its annual fundraising from major donors, who typically want much more control about where they are directing their gifts.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-- **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>msnfp_Designation</td><td>string</td><td></td></tr></table>
-
 
 ## Attributes - Summary
 
@@ -95,6 +64,42 @@ nonProfit/Designation
 |[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/Designation](Designation.md)|
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/Designation](Designation.md)|
 |[totaldisbursedBase](#totaldisbursedBase)|Value of the Total Disbursed in base currency.|[nonProfit/Designation](Designation.md)|
+
+### Traits
+
+<details>
+<summary>List of traits for the Designation entity are listed below.</summary>
+
+- **is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+- **is.CDM.attributeGroup**  
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json/<br>cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon/<br>crmCommon/nonProfit/Designation.cdm.json/Designation/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+
+- **is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Designation_/hasAttributes/designationId"</td><td>attribute</td><td></td></tr></table>Definition:  
+  ```
+  "Designation/hasAttributes/designationId"
+  ```
+
+
+- **means.entityState**  
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Designation_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
+  ```
+  "Designation/hasAttributes/stateCode"
+  ```
+
+
+- **is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Designation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+- **is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>An area to which funds may be allocated, including a GL-relevant accounting code.  Designations are the way a donor instructs an organization about how their donation should be spent or earmarked.  All nonprofit organizations strive to secure the largest % of unrestricted or undesignated funds possible so they can use this money at their own discretion toward the areas of greatest need, including the ability to pay down their operating costs.  Direct marketing-oriented nonprofits, and nonprofits with missions aligned to cause, cure, and global issues (like Oxfam) tend to have as few designations as they possibly can (~100-200 total designations) because they derive the majority of their funds from donors giving small gift amounts.  They also focus on recurring giving programs, which have a high administration cost if gifts are permitted to be designated or split designated across multiple funds.  A Higher Education organization, on the other hand, derives a large % of its annual fundraising from major donors, who typically want much more control about where they are directing their gifts.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+- **is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>msnfp_Designation</td><td>string</td><td></td></tr></table>
+
+</details>
 
 ## Attribute - Details
 

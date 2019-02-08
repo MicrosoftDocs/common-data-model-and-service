@@ -10,27 +10,12 @@ ms.author: tpalmer
 
 # Form visited
 
+
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/FormVisited.cdm.json" target="_blank">Link on GitHub</a>).  
 
 ### Instances
 
 interactions/FormVisited  
-
-### Traits
-
-- **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
-
-- **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"FormVisited_/hasAttributes/interactionId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "FormVisited/hasAttributes/interactionId"
-  ```
-
-
-- **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form visited</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
 
 ## Attributes - Summary
 
@@ -62,6 +47,26 @@ interactions/FormVisited
 |[timestamp](#timestamp)|Timestamp|[interactions/FormVisited](FormVisited.md)|
 |[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/FormVisited](FormVisited.md)|
 |[leadId](#leadId)|Lead ID|[interactions/FormVisited](FormVisited.md)|
+
+### Traits
+
+<details>
+<summary>List of traits for the Form visited entity are listed below.</summary>
+
+- **is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+- **is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"FormVisited_/hasAttributes/interactionId"</td><td>attribute</td><td></td></tr></table>Definition:  
+  ```
+  "FormVisited/hasAttributes/interactionId"
+  ```
+
+
+- **is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Form visited</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+</details>
 
 ## Attribute - Details
 

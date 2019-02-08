@@ -10,13 +10,31 @@ ms.author: tpalmer
 
 # Event registration
 
+
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ContactRegisteredToEvent.cdm.json" target="_blank">Link on GitHub</a>).  
 
 ### Instances
 
 interactions/ContactRegisteredToEvent  
 
+## Attributes - Summary
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+|[eventId](#eventId)|Event|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+|[contactId](#contactId)|Contact|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+|[accountId](#accountId)|Account|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+|[organizationId](#organizationId)|Organization ID|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+|[eventRegistrationId](#eventRegistrationId)|eventregistrationid|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+|[interactionType](#interactionType)|Interaction type|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+|[timestamp](#timestamp)|Timestamp|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+
 ### Traits
+
+<details>
+<summary>List of traits for the Event registration entity are listed below.</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -34,20 +52,7 @@ interactions/ContactRegisteredToEvent
 - **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event registration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[eventId](#eventId)|Event|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[contactId](#contactId)|Contact|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[accountId](#accountId)|Account|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[eventRegistrationId](#eventRegistrationId)|eventregistrationid|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+</details>
 
 ## Attribute - Details
 

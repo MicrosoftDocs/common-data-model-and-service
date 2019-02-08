@@ -10,27 +10,12 @@ ms.author: tpalmer
 
 # Email feedback loop
 
+
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailFeedbackLoop.cdm.json" target="_blank">Link on GitHub</a>).  
 
 ### Instances
 
 interactions/EmailFeedbackLoop  
-
-### Traits
-
-- **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
-
-- **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"EmailFeedbackLoop_/hasAttributes/interactionId"</td><td>attribute</td><td></td></tr></table>Definition:  
-  ```
-  "EmailFeedbackLoop/hasAttributes/interactionId"
-  ```
-
-
-- **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email feedback loop</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
 
 ## Attributes - Summary
 
@@ -47,6 +32,26 @@ interactions/EmailFeedbackLoop
 |[usageType](#usageType)|Usage type|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
 |[interactionType](#interactionType)|Interaction type|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
 |[timestamp](#timestamp)|Timestamp|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
+
+### Traits
+
+<details>
+<summary>List of traits for the Email feedback loop entity are listed below.</summary>
+
+- **is.CDM.entityVersion**  
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+
+- **is.identifiedBy**  
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"EmailFeedbackLoop_/hasAttributes/interactionId"</td><td>attribute</td><td></td></tr></table>Definition:  
+  ```
+  "EmailFeedbackLoop/hasAttributes/interactionId"
+  ```
+
+
+- **is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email feedback loop</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+</details>
 
 ## Attribute - Details
 

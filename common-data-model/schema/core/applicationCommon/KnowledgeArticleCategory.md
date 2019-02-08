@@ -10,14 +10,27 @@ ms.author: tpalmer
 
 # Knowledge Article Category
 
-Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleCategory.cdm.json" target="_blank">Link on GitHub</a>).  
 Category for a Knowledge Article.  
+
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleCategory.cdm.json" target="_blank">Link on GitHub</a>).  
 
 ### Instances
 
 applicationCommon/KnowledgeArticleCategory  
 
+## Attributes - Summary
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[knowledgeArticleId](#knowledgeArticleId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+|[categoryId](#categoryId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+|[knowledgeArticleCategoryId](#knowledgeArticleCategoryId)|Unique identifier of the Category for the knowledge article.|[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+|[versionNumber](#versionNumber)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+
 ### Traits
+
+<details>
+<summary>List of traits for the Knowledge Article Category entity are listed below.</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -30,7 +43,7 @@ applicationCommon/KnowledgeArticleCategory
 
 
 - **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/KnowledgeArticleCategory.cdm.json/KnowledgeArticleCategory/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/applicationCommon/<br>KnowledgeArticleCategory.cdm.json/KnowledgeArticleCategory/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 - **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Knowledge Article Category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -41,15 +54,7 @@ applicationCommon/KnowledgeArticleCategory
 - **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>KnowledgeArticlesCategories</td><td>string</td><td></td></tr></table>
 
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[knowledgeArticleId](#knowledgeArticleId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
-|[categoryId](#categoryId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
-|[knowledgeArticleCategoryId](#knowledgeArticleCategoryId)|Unique identifier of the Category for the knowledge article.|[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+</details>
 
 ## Attribute - Details
 

@@ -10,13 +10,31 @@ ms.author: tpalmer
 
 # Event check-in
 
+
 Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ContactCheckedIntoEvent.cdm.json" target="_blank">Link on GitHub</a>).  
 
 ### Instances
 
 interactions/ContactCheckedIntoEvent  
 
+## Attributes - Summary
+
+|Name|Description|First Included in Instance|
+|---|---|---|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+|[eventId](#eventId)|Event|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+|[contactId](#contactId)|Contact|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+|[accountId](#accountId)|Account|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+|[organizationId](#organizationId)|Organization ID|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+|[eventCheckinId](#eventCheckinId)|eventcheckinid|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+|[interactionType](#interactionType)|Interaction type|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+|[timestamp](#timestamp)|Timestamp|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+
 ### Traits
+
+<details>
+<summary>List of traits for the Event check-in entity are listed below.</summary>
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -34,20 +52,7 @@ interactions/ContactCheckedIntoEvent
 - **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Event check-in</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-
-## Attributes - Summary
-
-|Name|Description|First Included in Instance|
-|---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[eventId](#eventId)|Event|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[contactId](#contactId)|Contact|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[accountId](#accountId)|Account|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[eventCheckinId](#eventCheckinId)|eventcheckinid|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+</details>
 
 ## Attribute - Details
 
