@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Poll Option
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PollOption.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,38 +42,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/PollOption  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/PollOption](PollOption.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/PollOption](PollOption.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/PollOption](PollOption.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/PollOption](PollOption.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/PollOption](PollOption.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/PollOption](PollOption.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/PollOption](PollOption.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/PollOption](PollOption.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/PollOption](PollOption.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/PollOption](PollOption.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/PollOption](PollOption.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/PollOption](PollOption.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/PollOption](PollOption.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/PollOption](PollOption.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/PollOption](PollOption.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/PollOption](PollOption.md)|
-|[pollOptionId](#pollOptionId)|Shows the entity instance.|[portals/PollOption](PollOption.md)|
-|[stateCode](#stateCode)|Status of the Poll Option|[portals/PollOption](PollOption.md)|
-|[stateCode_display](#stateCode_display)||[portals/PollOption](PollOption.md)|
-|[statusCode](#statusCode)|Select the poll option's status.|[portals/PollOption](PollOption.md)|
-|[statusCode_display](#statusCode_display)||[portals/PollOption](PollOption.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/PollOption](PollOption.md)|
-|[answer](#answer)||[portals/PollOption](PollOption.md)|
-|[DisplayOrder](#DisplayOrder)||[portals/PollOption](PollOption.md)|
-|[pollId](#pollId)|Unique identifier for Poll associated with PollOption.|[portals/PollOption](PollOption.md)|
-|[votes](#votes)||[portals/PollOption](PollOption.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[pollOptionId](#pollOptionId)|Shows the entity instance.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[stateCode](#stateCode)|Status of the Poll Option|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[stateCode_display](#stateCode_display)||<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[statusCode](#statusCode)|Select the poll option's status.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[statusCode_display](#statusCode_display)||<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[answer](#answer)||<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[DisplayOrder](#DisplayOrder)||<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[pollId](#pollId)|Unique identifier for Poll associated with PollOption.|<a href="PollOption.md" target="_blank">portals/PollOption</a>|
+|[votes](#votes)||<a href="PollOption.md" target="_blank">portals/PollOption</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

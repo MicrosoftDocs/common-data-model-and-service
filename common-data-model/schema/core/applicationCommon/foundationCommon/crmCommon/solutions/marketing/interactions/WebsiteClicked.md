@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Website clicked
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/WebsiteClicked.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,43 +33,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/WebsiteClicked  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[contactId](#contactId)|Contact|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[accountId](#accountId)|Account|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[websiteId](#websiteId)|Website|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[pageAddress](#pageAddress)|Page address|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[pageId](#pageId)|Page ID|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[referrerUri](#referrerUri)|Referrer URL|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[searchPhrase](#searchPhrase)|Search phrase|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[searchEngineName](#searchEngineName)|Search engine name|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[link](#link)|Link|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[linkFriendlyName](#linkFriendlyName)|Link friendly name|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[visitorId](#visitorId)|Visitor ID|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[sessionId](#sessionId)|Session ID|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[state](#state)|State|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[city](#city)|City|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[postalCode](#postalCode)|Postal code|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[browserId](#browserId)|Browser ID|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[browserVersion](#browserVersion)|Browser version|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[visitDuration](#visitDuration)|Visit duration|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/WebsiteClicked](WebsiteClicked.md)|
-|[leadId](#leadId)|Lead ID|[interactions/WebsiteClicked](WebsiteClicked.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[contactId](#contactId)|Contact|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[accountId](#accountId)|Account|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[websiteId](#websiteId)|Website|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[pageAddress](#pageAddress)|Page address|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[pageId](#pageId)|Page ID|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[referrerUri](#referrerUri)|Referrer URL|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[searchPhrase](#searchPhrase)|Search phrase|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[searchEngineName](#searchEngineName)|Search engine name|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[link](#link)|Link|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[linkFriendlyName](#linkFriendlyName)|Link friendly name|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[visitorId](#visitorId)|Visitor ID|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[sessionId](#sessionId)|Session ID|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[state](#state)|State|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[city](#city)|City|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[postalCode](#postalCode)|Postal code|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[browserId](#browserId)|Browser ID|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[browserVersion](#browserVersion)|Browser version|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[visitDuration](#visitDuration)|Visit duration|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
+|[leadId](#leadId)|Lead ID|<a href="WebsiteClicked.md" target="_blank">interactions/WebsiteClicked</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

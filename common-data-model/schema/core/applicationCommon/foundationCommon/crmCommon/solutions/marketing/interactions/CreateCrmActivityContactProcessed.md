@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Create activity contact processed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCrmActivityContactProcessed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,22 +33,23 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/CreateCrmActivityContactProcessed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
-|[contactId](#contactId)|Contact|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
-|[accountId](#accountId)|Account|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
-|[activityId](#activityId)|Activity ID|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/CreateCrmActivityContactProcessed](CreateCrmActivityContactProcessed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
+|[contactId](#contactId)|Contact|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
+|[accountId](#accountId)|Account|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
+|[activityId](#activityId)|Activity ID|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="CreateCrmActivityContactProcessed.md" target="_blank">interactions/CreateCrmActivityContactProcessed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

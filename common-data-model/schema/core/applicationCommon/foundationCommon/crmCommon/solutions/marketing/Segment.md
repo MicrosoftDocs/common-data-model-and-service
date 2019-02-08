@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Segment
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Segment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,43 +42,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 marketing/Segment  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[marketing/Segment](Segment.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[marketing/Segment](Segment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[marketing/Segment](Segment.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[marketing/Segment](Segment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[marketing/Segment](Segment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[marketing/Segment](Segment.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[marketing/Segment](Segment.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[marketing/Segment](Segment.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[marketing/Segment](Segment.md)|
-|[ownerId](#ownerId)|Owner Id|[marketing/Segment](Segment.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[marketing/Segment](Segment.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[marketing/Segment](Segment.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[marketing/Segment](Segment.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[marketing/Segment](Segment.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[marketing/Segment](Segment.md)|
-|[versionNumber](#versionNumber)|Version Number|[marketing/Segment](Segment.md)|
-|[segmentId](#segmentId)|Unique ID for entity instances.|[marketing/Segment](Segment.md)|
-|[stateCode](#stateCode)|Status of the segment|[marketing/Segment](Segment.md)|
-|[stateCode_display](#stateCode_display)||[marketing/Segment](Segment.md)|
-|[statusCode](#statusCode)|Reason for the status of the Segment|[marketing/Segment](Segment.md)|
-|[statusCode_display](#statusCode_display)||[marketing/Segment](Segment.md)|
-|[segmentname](#segmentname)|The name of the custom entity.|[marketing/Segment](Segment.md)|
-|[description](#description)|The segment description|[marketing/Segment](Segment.md)|
-|[activationStatus](#activationStatus)||[marketing/Segment](Segment.md)|
-|[activationStatus_display](#activationStatus_display)||[marketing/Segment](Segment.md)|
-|[filterQuery](#filterQuery)|Filter query of a static segment.|[marketing/Segment](Segment.md)|
-|[memberIDs](#memberIDs)|Static segment member IDs|[marketing/Segment](Segment.md)|
-|[provisioningState](#provisioningState)||[marketing/Segment](Segment.md)|
-|[queryDefinition](#queryDefinition)|The segment query definition|[marketing/Segment](Segment.md)|
-|[segmentType](#segmentType)|Segment type|[marketing/Segment](Segment.md)|
-|[segmentType_display](#segmentType_display)||[marketing/Segment](Segment.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[segmentId](#segmentId)|Unique ID for entity instances.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[stateCode](#stateCode)|Status of the segment|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[stateCode_display](#stateCode_display)||<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[statusCode](#statusCode)|Reason for the status of the Segment|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[statusCode_display](#statusCode_display)||<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[segmentname](#segmentname)|The name of the custom entity.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[description](#description)|The segment description|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[activationStatus](#activationStatus)||<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[activationStatus_display](#activationStatus_display)||<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[filterQuery](#filterQuery)|Filter query of a static segment.|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[memberIDs](#memberIDs)|Static segment member IDs|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[provisioningState](#provisioningState)||<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[queryDefinition](#queryDefinition)|The segment query definition|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[segmentType](#segmentType)|Segment type|<a href="Segment.md" target="_blank">marketing/Segment</a>|
+|[segmentType_display](#segmentType_display)||<a href="Segment.md" target="_blank">marketing/Segment</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

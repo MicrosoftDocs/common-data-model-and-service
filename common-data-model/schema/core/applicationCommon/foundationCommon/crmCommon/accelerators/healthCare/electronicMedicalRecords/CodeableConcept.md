@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Codeable Concept
 
 A Codeable Concept represents a value that is usually supplied by providing a reference to one or more terminologies, but may also be defined by the provision of text.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,35 +46,36 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/CodeableConcept  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[codeableConceptId](#codeableConceptId)|Unique identifier for entity instances|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[stateCode](#stateCode)|Status of the Codeable Concept|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[statusCode](#statusCode)|Reason for the status of the Codeable Concept|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[entityImageId](#entityImageId)||[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[code](#code)|Code defined by a terminology system.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[text](#text)|Plain text representation of the concept.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[type](#type)|Type of: Code-ableConcept represents a value that is usually supplied by providing a reference to one or more terminologies or ontologies, but may also be defined by the provision of text.|[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
-|[type_display](#type_display)||[electronicMedicalRecords/CodeableConcept](CodeableConcept.md)|
+|[codeableConceptId](#codeableConceptId)|Unique identifier for entity instances|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[stateCode](#stateCode)|Status of the Codeable Concept|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[stateCode_display](#stateCode_display)||<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[statusCode](#statusCode)|Reason for the status of the Codeable Concept|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[statusCode_display](#statusCode_display)||<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[name](#name)|The name of the custom entity.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[entityImageId](#entityImageId)||<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[code](#code)|Code defined by a terminology system.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[text](#text)|Plain text representation of the concept.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[type](#type)|Type of: Code-ableConcept represents a value that is usually supplied by providing a reference to one or more terminologies or ontologies, but may also be defined by the provision of text.|<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
+|[type_display](#type_display)||<a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>|
 
 ### <a href=#codeableConceptId name="codeableConceptId">codeableConceptId</a>
 

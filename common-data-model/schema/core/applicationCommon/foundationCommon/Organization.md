@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Organization
 
 Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Organization.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,6 +43,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Organization](../Organization.md "/core/applicationCommon/Organization.cdm.json/Organization")  
 foundationCommon/Organization  
 
@@ -50,346 +51,346 @@ foundationCommon/Organization
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[organizationId](#organizationId)|Unique identifier of the organization.|[applicationCommon/Organization](../Organization.md)|
-|[name](#name)|Name of the organization. The name is set when Microsoft CRM is installed and should not be changed.|[applicationCommon/Organization](../Organization.md)|
-|[userGroupId](#userGroupId)|Unique identifier of the default group of users in the organization.|[applicationCommon/Organization](../Organization.md)|
-|[privilegeUserGroupId](#privilegeUserGroupId)|Unique identifier of the default privilege for users in the organization.|[applicationCommon/Organization](../Organization.md)|
-|[recurrenceExpansionJobBatchSize](#recurrenceExpansionJobBatchSize)|Specifies the value for number of instances created in on demand job in one shot.|[applicationCommon/Organization](../Organization.md)|
-|[recurrenceExpansionJobBatchInterval](#recurrenceExpansionJobBatchInterval)|Specifies the interval (in seconds) for pausing expansion job.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalPeriodType](#fiscalPeriodType)|Type of fiscal period used throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalCalendarStart](#fiscalCalendarStart)|Start date for the fiscal period that is to be used throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[dateFormatCode](#dateFormatCode)|Information about how the date is displayed throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[dateFormatCode_display](#dateFormatCode_display)||[applicationCommon/Organization](../Organization.md)|
-|[timeFormatCode](#timeFormatCode)|Information that specifies how the time is displayed throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[timeFormatCode_display](#timeFormatCode_display)||[applicationCommon/Organization](../Organization.md)|
-|[currencySymbol](#currencySymbol)|Symbol used for currency throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[weekStartDayCode](#weekStartDayCode)|Designated first day of the week throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[weekStartDayCode_display](#weekStartDayCode_display)||[applicationCommon/Organization](../Organization.md)|
-|[dateSeparator](#dateSeparator)|Character used to separate the month, the day, and the year in dates throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[fullNameConventionCode](#fullNameConventionCode)|Order in which names are to be displayed throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[fullNameConventionCode_display](#fullNameConventionCode_display)||[applicationCommon/Organization](../Organization.md)|
-|[negativeFormatCode](#negativeFormatCode)|Information that specifies how negative numbers are displayed throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[negativeFormatCode_display](#negativeFormatCode_display)||[applicationCommon/Organization](../Organization.md)|
-|[numberFormat](#numberFormat)|Specification of how numbers are displayed throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[isDisabled](#isDisabled)|Information that specifies whether the organization is disabled.|[applicationCommon/Organization](../Organization.md)|
-|[disabledReason](#disabledReason)|Reason for disabling the organization.|[applicationCommon/Organization](../Organization.md)|
-|[kbPrefix](#kbPrefix)|Prefix to use for all articles in Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[currentKbNumber](#currentKbNumber)|First article number to use. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[casePrefix](#casePrefix)|Prefix to use for all cases throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[currentCaseNumber](#currentCaseNumber)|First case number to use. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[contractPrefix](#contractPrefix)|Prefix to use for all contracts throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[currentContractNumber](#currentContractNumber)|First contract number to use. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[quotePrefix](#quotePrefix)|Prefix to use for all quotes throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[currentQuoteNumber](#currentQuoteNumber)|First quote number to use. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[orderPrefix](#orderPrefix)|Prefix to use for all orders throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[currentOrderNumber](#currentOrderNumber)|First order number to use. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[invoicePrefix](#invoicePrefix)|Prefix to use for all invoice numbers throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[currentInvoiceNumber](#currentInvoiceNumber)|First invoice number to use. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[uniqueSpecifierLength](#uniqueSpecifierLength)|Number of characters appended to invoice, quote, and order numbers.|[applicationCommon/Organization](../Organization.md)|
-|[createdOn](#createdOn)|Date and time when the organization was created.|[applicationCommon/Organization](../Organization.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the organization was last modified.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalYearFormat](#fiscalYearFormat)|Information that specifies how the name of the fiscal year is displayed throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalPeriodFormat](#fiscalPeriodFormat)|Information that specifies how the name of the fiscal period is displayed throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalYearPeriodConnect](#fiscalYearPeriodConnect)|Information that specifies how the names of the fiscal year and the fiscal period should be connected when displayed together.|[applicationCommon/Organization](../Organization.md)|
-|[languageCode](#languageCode)|Preferred language for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[sortId](#sortId)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[dateFormatString](#dateFormatString)|String showing how the date is displayed throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[timeFormatString](#timeFormatString)|Text for how time is displayed in Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[pricingDecimalPrecision](#pricingDecimalPrecision)|Number of decimal places that can be used for prices.|[applicationCommon/Organization](../Organization.md)|
-|[showWeekNumber](#showWeekNumber)|Information that specifies whether to display the week number in calendar displays throughout Microsoft CRM.|[applicationCommon/Organization](../Organization.md)|
-|[nextTrackingNumber](#nextTrackingNumber)|Next token to be placed on the subject line of an email message.|[applicationCommon/Organization](../Organization.md)|
-|[tagMaxAggressiveCycles](#tagMaxAggressiveCycles)|Maximum number of aggressive polling cycles executed for email auto-tagging when a new email is received.|[applicationCommon/Organization](../Organization.md)|
-|[systemUserId](#systemUserId)|Unique identifier of the system user for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the organization.|[applicationCommon/Organization](../Organization.md)|
-|[grantAccessToNetworkService](#grantAccessToNetworkService)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[allowOutlookScheduledSyncs](#allowOutlookScheduledSyncs)|Indicates whether scheduled synchronizations to Outlook are allowed.|[applicationCommon/Organization](../Organization.md)|
-|[allowMarketingEmailExecution](#allowMarketingEmailExecution)|Indicates whether marketing emails execution is allowed.|[applicationCommon/Organization](../Organization.md)|
-|[sqlAccessGroupId](#sqlAccessGroupId)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[currencyFormatCode](#currencyFormatCode)|Information about how currency symbols are placed throughout Microsoft Dynamics CRM.|[applicationCommon/Organization](../Organization.md)|
-|[currencyFormatCode_display](#currencyFormatCode_display)||[applicationCommon/Organization](../Organization.md)|
-|[fiscalSettingsUpdated](#fiscalSettingsUpdated)|Information that specifies whether the fiscal settings have been updated.|[applicationCommon/Organization](../Organization.md)|
-|[reportingGroupId](#reportingGroupId)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[tokenExpiry](#tokenExpiry)|Duration used for token expiration.|[applicationCommon/Organization](../Organization.md)|
-|[shareToPreviousOwnerOnAssign](#shareToPreviousOwnerOnAssign)|Information that specifies whether to share to previous owner on assign.|[applicationCommon/Organization](../Organization.md)|
-|[acknowledgementTemplateId](#acknowledgementTemplateId)|Unique identifier of the template to be used for acknowledgement when a user unsubscribes.|[applicationCommon/Organization](../Organization.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the organization.|[applicationCommon/Organization](../Organization.md)|
-|[integrationUserId](#integrationUserId)|Unique identifier of the integration user for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[trackingTokenIdBase](#trackingTokenIdBase)|Base number used to provide separate tracking token identifiers to users belonging to different deployments.|[applicationCommon/Organization](../Organization.md)|
-|[businessClosureCalendarId](#businessClosureCalendarId)|Unique identifier of the business closure calendar of organization.|[applicationCommon/Organization](../Organization.md)|
-|[allowAutoUnsubscribeAcknowledgement](#allowAutoUnsubscribeAcknowledgement)|Indicates whether automatic unsubscribe acknowledgement email is allowed to send.|[applicationCommon/Organization](../Organization.md)|
-|[allowAutoUnsubscribe](#allowAutoUnsubscribe)|Indicates whether automatic unsubscribe is allowed.|[applicationCommon/Organization](../Organization.md)|
-|[picture](#picture)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[versionNumber](#versionNumber)|Version number of the organization.|[applicationCommon/Organization](../Organization.md)|
-|[trackingPrefix](#trackingPrefix)|History list of tracking token prefixes.|[applicationCommon/Organization](../Organization.md)|
-|[minOutlookSyncInterval](#minOutlookSyncInterval)|Minimum allowed time between scheduled Outlook synchronizations.|[applicationCommon/Organization](../Organization.md)|
-|[bulkOperationPrefix](#bulkOperationPrefix)|Prefix used for bulk operation numbering.|[applicationCommon/Organization](../Organization.md)|
-|[allowAutoResponseCreation](#allowAutoResponseCreation)|Indicates whether automatic response creation is allowed.|[applicationCommon/Organization](../Organization.md)|
-|[maximumTrackingNumber](#maximumTrackingNumber)|Maximum tracking number before recycling takes place.|[applicationCommon/Organization](../Organization.md)|
-|[campaignPrefix](#campaignPrefix)|Prefix used for campaign numbering.|[applicationCommon/Organization](../Organization.md)|
-|[sqlAccessGroupName](#sqlAccessGroupName)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[currentCampaignNumber](#currentCampaignNumber)|Current campaign number. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalYearDisplayCode](#fiscalYearDisplayCode)|Information that specifies whether the fiscal year should be displayed based on the start date or the end date of the fiscal year.|[applicationCommon/Organization](../Organization.md)|
-|[siteMapXml](#siteMapXml)|XML string that defines the navigation structure for the application.|[applicationCommon/Organization](../Organization.md)|
-|[isRegistered](#isRegistered)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[reportingGroupName](#reportingGroupName)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[currentBulkOperationNumber](#currentBulkOperationNumber)|Current bulk operation number. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[schemaNamePrefix](#schemaNamePrefix)|Prefix used for custom entities and attributes.|[applicationCommon/Organization](../Organization.md)|
-|[ignoreInternalEmail](#ignoreInternalEmail)|Indicates whether incoming email sent by internal Microsoft Dynamics 365 users or queues should be tracked.|[applicationCommon/Organization](../Organization.md)|
-|[tagPollingPeriod](#tagPollingPeriod)|Normal polling frequency used for email receive auto-tagging in outlook.|[applicationCommon/Organization](../Organization.md)|
-|[trackingTokenIdDigits](#trackingTokenIdDigits)|Number of digits used to represent a tracking token identifier.|[applicationCommon/Organization](../Organization.md)|
-|[numberGroupFormat](#numberGroupFormat)|Specifies how numbers are grouped in Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[longDateFormatCode](#longDateFormatCode)|Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Organization](../Organization.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[currentImportSequenceNumber](#currentImportSequenceNumber)|Import sequence to use.|[applicationCommon/Organization](../Organization.md)|
-|[parsedTablePrefix](#parsedTablePrefix)|Prefix used for parsed tables.|[applicationCommon/Organization](../Organization.md)|
-|[v3CalloutConfigHash](#v3CalloutConfigHash)|Hash of the V3 callout configuration file.|[applicationCommon/Organization](../Organization.md)|
-|[isFiscalPeriodMonthBased](#isFiscalPeriodMonthBased)|Indicates whether the fiscal period is displayed as the month number.|[applicationCommon/Organization](../Organization.md)|
-|[localeId](#localeId)|Unique identifier of the locale of the organization.|[applicationCommon/Organization](../Organization.md)|
-|[parsedTableColumnPrefix](#parsedTableColumnPrefix)|Prefix used for parsed table columns.|[applicationCommon/Organization](../Organization.md)|
-|[supportUserId](#supportUserId)|Unique identifier of the support user for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[AMDesignator](#AMDesignator)|AM designator to use throughout Microsoft Dynamics CRM.|[applicationCommon/Organization](../Organization.md)|
-|[currencyDisplayOption](#currencyDisplayOption)|Indicates whether to display money fields with currency code or currency symbol.|[applicationCommon/Organization](../Organization.md)|
-|[currencyDisplayOption_display](#currencyDisplayOption_display)||[applicationCommon/Organization](../Organization.md)|
-|[minAddressBookSyncInterval](#minAddressBookSyncInterval)|Normal polling frequency used for address book synchronization in Microsoft Office Outlook.|[applicationCommon/Organization](../Organization.md)|
-|[isDuplicateDetectionEnabledForOnlineCreateUpdate](#isDuplicateDetectionEnabledForOnlineCreateUpdate)|Indicates whether duplicate detection during online create or update is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[featureSet](#featureSet)|Features to be enabled as an XML BLOB.|[applicationCommon/Organization](../Organization.md)|
-|[blockedAttachments](#blockedAttachments)|Prevent upload or download of certain attachment types that are considered dangerous.|[applicationCommon/Organization](../Organization.md)|
-|[isDuplicateDetectionEnabledForOfflineSync](#isDuplicateDetectionEnabledForOfflineSync)|Indicates whether duplicate detection of records during offline synchronization is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[allowOfflineScheduledSyncs](#allowOfflineScheduledSyncs)|Indicates whether background offline synchronization in Microsoft Office Outlook is allowed.|[applicationCommon/Organization](../Organization.md)|
-|[allowUnresolvedPartiesOnEmailSend](#allowUnresolvedPartiesOnEmailSend)|Indicates whether users are allowed to send email to unresolved parties (parties must still have an email address).|[applicationCommon/Organization](../Organization.md)|
-|[timeSeparator](#timeSeparator)|Text for how the time separator is displayed throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[currentParsedTableNumber](#currentParsedTableNumber)|First parsed table number to use.|[applicationCommon/Organization](../Organization.md)|
-|[minOfflineSyncInterval](#minOfflineSyncInterval)|Normal polling frequency used for background offline synchronization in Microsoft Office Outlook.|[applicationCommon/Organization](../Organization.md)|
-|[allowWebExcelExport](#allowWebExcelExport)|Indicates whether Web-based export of grids to Microsoft Office Excel is allowed.|[applicationCommon/Organization](../Organization.md)|
-|[referenceSiteMapXml](#referenceSiteMapXml)|XML string that defines the navigation structure for the application. This is the site map from the previously upgraded build and is used in a 3-way merge during upgrade.|[applicationCommon/Organization](../Organization.md)|
-|[isDuplicateDetectionEnabledForImport](#isDuplicateDetectionEnabledForImport)|Indicates whether duplicate detection of records during import is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[calendarType](#calendarType)|Calendar type for the system. Set to Gregorian US by default.|[applicationCommon/Organization](../Organization.md)|
-|[SQMEnabled](#SQMEnabled)|Setting for SQM data collection, 0 no, 1 yes enabled|[applicationCommon/Organization](../Organization.md)|
-|[negativeCurrencyFormatCode](#negativeCurrencyFormatCode)|Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[allowAddressBookSyncs](#allowAddressBookSyncs)|Indicates whether background address book synchronization in Microsoft Office Outlook is allowed.|[applicationCommon/Organization](../Organization.md)|
-|[ISVIntegrationCode](#ISVIntegrationCode)|Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[ISVIntegrationCode_display](#ISVIntegrationCode_display)||[applicationCommon/Organization](../Organization.md)|
-|[decimalSymbol](#decimalSymbol)|Symbol used for decimal in Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[maxUploadFileSize](#maxUploadFileSize)|Maximum allowed size of an attachment.|[applicationCommon/Organization](../Organization.md)|
-|[isAppMode](#isAppMode)|Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[enablePricingOnCreate](#enablePricingOnCreate)|Enable pricing calculations on a Create call.|[applicationCommon/Organization](../Organization.md)|
-|[isSOPIntegrationEnabled](#isSOPIntegrationEnabled)|Enable sales order processing integration.|[applicationCommon/Organization](../Organization.md)|
-|[PMDesignator](#PMDesignator)|PM designator to use throughout Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[currencyDecimalPrecision](#currencyDecimalPrecision)|Number of decimal places that can be used for currency.|[applicationCommon/Organization](../Organization.md)|
-|[maxAppointmentDurationDays](#maxAppointmentDurationDays)|Maximum number of days an appointment can last.|[applicationCommon/Organization](../Organization.md)|
-|[emailSendPollingPeriod](#emailSendPollingPeriod)|Normal polling frequency used for sending email in Microsoft Office Outlook.|[applicationCommon/Organization](../Organization.md)|
-|[renderSecureIFrameForEmail](#renderSecureIFrameForEmail)|Flag to render the body of email in the Web form in an IFRAME with the security='restricted' attribute set. This is additional security but can cause a credentials prompt.|[applicationCommon/Organization](../Organization.md)|
-|[numberSeparator](#numberSeparator)|Symbol used for number separation in Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[privReportingGroupId](#privReportingGroupId)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[baseCurrencyId](#baseCurrencyId)|Unique identifier of the base currency of the organization.|[applicationCommon/Organization](../Organization.md)|
-|[maxRecordsForExportToExcel](#maxRecordsForExportToExcel)|Maximum number of records that will be exported to a static Microsoft Office Excel worksheet when exporting from the grid.|[applicationCommon/Organization](../Organization.md)|
-|[privReportingGroupName](#privReportingGroupName)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[yearStartWeekCode](#yearStartWeekCode)|Information that specifies how the first week of the year is specified in Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[isPresenceEnabled](#isPresenceEnabled)|Information on whether IM presence is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[isDuplicateDetectionEnabled](#isDuplicateDetectionEnabled)|Indicates whether duplicate detection of records is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[expireSubscriptionsInDays](#expireSubscriptionsInDays)|Maximum number of days before deleting inactive subscriptions.|[applicationCommon/Organization](../Organization.md)|
-|[isAuditEnabled](#isAuditEnabled)|Enable or disable auditing of changes.|[applicationCommon/Organization](../Organization.md)|
-|[baseCurrencyPrecision](#baseCurrencyPrecision)|Number of decimal places that can be used for the base currency.|[applicationCommon/Organization](../Organization.md)|
-|[baseCurrencySymbol](#baseCurrencySymbol)|Symbol used for the base currency.|[applicationCommon/Organization](../Organization.md)|
-|[maxRecordsForLookupFilters](#maxRecordsForLookupFilters)|Maximum number of lookup and picklist records that can be selected by user for filtering.|[applicationCommon/Organization](../Organization.md)|
-|[allowEntityOnlyAudit](#allowEntityOnlyAudit)|Indicates whether auditing of changes to entity is allowed when no attributes have changed.|[applicationCommon/Organization](../Organization.md)|
-|[defaultRecurrenceEndRangeType](#defaultRecurrenceEndRangeType)|Type of default recurrence end range date.|[applicationCommon/Organization](../Organization.md)|
-|[defaultRecurrenceEndRangeType_display](#defaultRecurrenceEndRangeType_display)||[applicationCommon/Organization](../Organization.md)|
-|[futureExpansionWindow](#futureExpansionWindow)|Specifies the maximum number of months in future for which the recurring activities can be created.|[applicationCommon/Organization](../Organization.md)|
-|[pastExpansionWindow](#pastExpansionWindow)|Specifies the maximum number of months in past for which the recurring activities can be created.|[applicationCommon/Organization](../Organization.md)|
-|[recurrenceExpansionSynchCreateMax](#recurrenceExpansionSynchCreateMax)|Specifies the maximum number of instances to be created synchronously after creating a recurring appointment.|[applicationCommon/Organization](../Organization.md)|
-|[recurrenceDefaultNumberOfOccurrences](#recurrenceDefaultNumberOfOccurrences)|Specifies the default value for number of occurrences field in the recurrence dialog.|[applicationCommon/Organization](../Organization.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the organization.|[applicationCommon/Organization](../Organization.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the organization.|[applicationCommon/Organization](../Organization.md)|
-|[getStartedPaneContentEnabled](#getStartedPaneContentEnabled)|Indicates whether Get Started content is enabled for this organization.|[applicationCommon/Organization](../Organization.md)|
-|[useReadForm](#useReadForm)|Indicates whether the read-optimized form should be enabled for this organization.|[applicationCommon/Organization](../Organization.md)|
-|[initialVersion](#initialVersion)|Initial version of the organization.|[applicationCommon/Organization](../Organization.md)|
-|[sampleDataImportId](#sampleDataImportId)|Unique identifier of the sample data import job.|[applicationCommon/Organization](../Organization.md)|
-|[reportScriptErrors](#reportScriptErrors)|Picklist for selecting the organization preference for reporting scripting errors.|[applicationCommon/Organization](../Organization.md)|
-|[reportScriptErrors_display](#reportScriptErrors_display)||[applicationCommon/Organization](../Organization.md)|
-|[requireApprovalForUserEmail](#requireApprovalForUserEmail)|Indicates whether Send As Other User privilege is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[requireApprovalForQueueEmail](#requireApprovalForQueueEmail)|Indicates whether Send As Other User privilege is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[goalRollupExpiryTime](#goalRollupExpiryTime)|Number of days after the goal's end date after which the rollup of the goal stops automatically.|[applicationCommon/Organization](../Organization.md)|
-|[goalRollupFrequency](#goalRollupFrequency)|Number of hours between automatic rollup jobs .|[applicationCommon/Organization](../Organization.md)|
-|[autoApplyDefaultonCaseCreate](#autoApplyDefaultonCaseCreate)|Select whether to auto apply the default customer entitlement on case creation.|[applicationCommon/Organization](../Organization.md)|
-|[autoApplyDefaultonCaseUpdate](#autoApplyDefaultonCaseUpdate)|Select whether to auto apply the default customer entitlement on case update.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalYearFormatPrefix](#fiscalYearFormatPrefix)|Prefix for the display of the fiscal year.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalYearFormatPrefix_display](#fiscalYearFormatPrefix_display)||[applicationCommon/Organization](../Organization.md)|
-|[fiscalYearFormatSuffix](#fiscalYearFormatSuffix)|Suffix for the display of the fiscal year.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalYearFormatSuffix_display](#fiscalYearFormatSuffix_display)||[applicationCommon/Organization](../Organization.md)|
-|[fiscalYearFormatYear](#fiscalYearFormatYear)|Format for the year.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalYearFormatYear_display](#fiscalYearFormatYear_display)||[applicationCommon/Organization](../Organization.md)|
-|[discountCalculationMethod](#discountCalculationMethod)|Discount calculation method for the QOOI product.|[applicationCommon/Organization](../Organization.md)|
-|[discountCalculationMethod_display](#discountCalculationMethod_display)||[applicationCommon/Organization](../Organization.md)|
-|[fiscalPeriodFormatPeriod](#fiscalPeriodFormatPeriod)|Format in which the fiscal period will be displayed.|[applicationCommon/Organization](../Organization.md)|
-|[fiscalPeriodFormatPeriod_display](#fiscalPeriodFormatPeriod_display)||[applicationCommon/Organization](../Organization.md)|
-|[allowClientMessageBarAd](#allowClientMessageBarAd)|Indicates whether Outlook Client message bar advertisement is allowed.|[applicationCommon/Organization](../Organization.md)|
-|[allowUserFormModePreference](#allowUserFormModePreference)|Indicates whether individuals can select their form mode preference in their personal options.|[applicationCommon/Organization](../Organization.md)|
-|[hashFilterKeywords](#hashFilterKeywords)|Filter Subject Keywords|[applicationCommon/Organization](../Organization.md)|
-|[hashMaxCount](#hashMaxCount)|Maximum number of subject keywords or recipients used for correlation|[applicationCommon/Organization](../Organization.md)|
-|[hashDeltaSubjectCount](#hashDeltaSubjectCount)|Maximum difference allowed between subject keywords count of the email messaged to be correlated|[applicationCommon/Organization](../Organization.md)|
-|[hashMinAddressCount](#hashMinAddressCount)|Minimum number of recipients required to match for email messaged to be correlated|[applicationCommon/Organization](../Organization.md)|
-|[enableSmartMatching](#enableSmartMatching)|Use Smart Matching.|[applicationCommon/Organization](../Organization.md)|
-|[pinpointLanguageCode](#pinpointLanguageCode)||[applicationCommon/Organization](../Organization.md)|
-|[orgDbOrgSettings](#orgDbOrgSettings)|Organization settings stored in Organization Database.|[applicationCommon/Organization](../Organization.md)|
-|[isUserAccessAuditEnabled](#isUserAccessAuditEnabled)|Enable or disable auditing of user access.|[applicationCommon/Organization](../Organization.md)|
-|[userAccessAuditingInterval](#userAccessAuditingInterval)|The interval at which user access is checked for auditing.|[applicationCommon/Organization](../Organization.md)|
-|[quickFindRecordLimitEnabled](#quickFindRecordLimitEnabled)|Indicates whether a quick find record limit should be enabled for this organization (allows for faster Quick Find queries but prevents overly broad searches).|[applicationCommon/Organization](../Organization.md)|
-|[enableBingMapsIntegration](#enableBingMapsIntegration)|Enable Integration with Bing Maps|[applicationCommon/Organization](../Organization.md)|
-|[isDefaultCountryCodeCheckEnabled](#isDefaultCountryCodeCheckEnabled)|Enable or disable country code selection.|[applicationCommon/Organization](../Organization.md)|
-|[defaultCountryCode](#defaultCountryCode)|Text area to enter default country code.|[applicationCommon/Organization](../Organization.md)|
-|[useSkypeProtocol](#useSkypeProtocol)|Indicates default protocol selected for organization.|[applicationCommon/Organization](../Organization.md)|
-|[incomingEmailExchangeEmailRetrievalBatchSize](#incomingEmailExchangeEmailRetrievalBatchSize)|Setting for the Async Service Mailbox Queue. Defines the retrieval batch size of exchange server.|[applicationCommon/Organization](../Organization.md)|
-|[emailCorrelationEnabled](#emailCorrelationEnabled)|Flag to turn email correlation on or off.|[applicationCommon/Organization](../Organization.md)|
-|[yammerOAuthAccessTokenExpired](#yammerOAuthAccessTokenExpired)|Denotes whether the OAuth access token for Yammer network has expired|[applicationCommon/Organization](../Organization.md)|
-|[defaultEmailSettings](#defaultEmailSettings)|XML string containing the default email settings that are applied when a user or queue is created.|[applicationCommon/Organization](../Organization.md)|
-|[yammerGroupId](#yammerGroupId)|Denotes the Yammer group ID|[applicationCommon/Organization](../Organization.md)|
-|[yammerNetworkPermalink](#yammerNetworkPermalink)|Denotes the Yammer network permalink|[applicationCommon/Organization](../Organization.md)|
-|[yammerPostMethod](#yammerPostMethod)|Internal Use Only|[applicationCommon/Organization](../Organization.md)|
-|[yammerPostMethod_display](#yammerPostMethod_display)||[applicationCommon/Organization](../Organization.md)|
-|[emailConnectionChannel](#emailConnectionChannel)|Select if you want to use the Email Router or server-side synchronization for email processing.|[applicationCommon/Organization](../Organization.md)|
-|[emailConnectionChannel_display](#emailConnectionChannel_display)||[applicationCommon/Organization](../Organization.md)|
-|[defaultEmailServerProfileId](#defaultEmailServerProfileId)|Unique identifier of the default email server profile.|[applicationCommon/Organization](../Organization.md)|
-|[isAutoSaveEnabled](#isAutoSaveEnabled)|Information on whether auto save is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[bingMapsApiKey](#bingMapsApiKey)|Api Key to be used in requests to Bing Maps services.|[applicationCommon/Organization](../Organization.md)|
-|[generateAlertsForErrors](#generateAlertsForErrors)|Indicates whether alerts will be generated for errors.|[applicationCommon/Organization](../Organization.md)|
-|[generateAlertsForInformation](#generateAlertsForInformation)|Indicates whether alerts will be generated for information.|[applicationCommon/Organization](../Organization.md)|
-|[generateAlertsForWarnings](#generateAlertsForWarnings)|Indicates whether alerts will be generated for warnings.|[applicationCommon/Organization](../Organization.md)|
-|[notifyMailboxOwnerOfEmailServerLevelAlerts](#notifyMailboxOwnerOfEmailServerLevelAlerts)|Indicates whether mailbox owners will be notified of email server profile level alerts.|[applicationCommon/Organization](../Organization.md)|
-|[maximumActiveBusinessProcessFlowsAllowedPerEntity](#maximumActiveBusinessProcessFlowsAllowedPerEntity)|Maximum number of active business process flows allowed per entity|[applicationCommon/Organization](../Organization.md)|
-|[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[allowUsersSeeAppdownloadMessage](#allowUsersSeeAppdownloadMessage)|Indicates whether the showing tablet application notification bars in a browser is allowed.|[applicationCommon/Organization](../Organization.md)|
-|[signupOutlookDownloadFWLink](#signupOutlookDownloadFWLink)|CRM for Outlook Download URL|[applicationCommon/Organization](../Organization.md)|
-|[cascadeStatusUpdate](#cascadeStatusUpdate)|Flag to cascade Update on incident.|[applicationCommon/Organization](../Organization.md)|
-|[restrictStatusUpdate](#restrictStatusUpdate)|Flag to restrict Update on incident.|[applicationCommon/Organization](../Organization.md)|
-|[suppressSLA](#suppressSLA)|Indicates whether SLA is suppressed.|[applicationCommon/Organization](../Organization.md)|
-|[socialInsightsTermsAccepted](#socialInsightsTermsAccepted)|Flag for whether the organization has accepted the Social Insights terms of use.|[applicationCommon/Organization](../Organization.md)|
-|[socialInsightsInstance](#socialInsightsInstance)|Identifier for the Social Insights instance for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[disableSocialCare](#disableSocialCare)|Indicates whether Social Care is disabled.|[applicationCommon/Organization](../Organization.md)|
-|[maxProductsInBundle](#maxProductsInBundle)|Restrict the maximum no of items in a bundle|[applicationCommon/Organization](../Organization.md)|
-|[useInbuiltRuleForDefaultPricelistSelection](#useInbuiltRuleForDefaultPricelistSelection)|Flag indicates whether to Use Inbuilt Rule For DefaultPricelist.|[applicationCommon/Organization](../Organization.md)|
-|[OOBPriceCalculationEnabled](#OOBPriceCalculationEnabled)|Enable OOB pricing calculation logic for Opportunity, Quote, Order and Invoice entities.|[applicationCommon/Organization](../Organization.md)|
-|[isHierarchicalSecurityModelEnabled](#isHierarchicalSecurityModelEnabled)|Enable Hierarchical Security Model|[applicationCommon/Organization](../Organization.md)|
-|[maximumDynamicPropertiesAllowed](#maximumDynamicPropertiesAllowed)|Restrict the maximum number of product properties for a product family/bundle|[applicationCommon/Organization](../Organization.md)|
-|[usePositionHierarchy](#usePositionHierarchy)|Use position hierarchy|[applicationCommon/Organization](../Organization.md)|
-|[maxDepthForHierarchicalSecurityModel](#maxDepthForHierarchicalSecurityModel)|Maximum depth for hierarchy security propagation.|[applicationCommon/Organization](../Organization.md)|
-|[slaPauseStates](#slaPauseStates)|Contains the on hold case status values.|[applicationCommon/Organization](../Organization.md)|
-|[socialInsightsEnabled](#socialInsightsEnabled)|Flag for whether the organization is using Social Insights.|[applicationCommon/Organization](../Organization.md)|
-|[isAppointmentAttachmentSyncEnabled](#isAppointmentAttachmentSyncEnabled)|Enable or disable attachments sync for outlook and exchange.|[applicationCommon/Organization](../Organization.md)|
-|[isAssignedTasksSyncEnabled](#isAssignedTasksSyncEnabled)|Enable or disable assigned tasks sync for outlook and exchange.|[applicationCommon/Organization](../Organization.md)|
-|[isContactMailingAddressSyncEnabled](#isContactMailingAddressSyncEnabled)|Enable or disable mailing address sync for outlook and exchange.|[applicationCommon/Organization](../Organization.md)|
-|[maxSupportedInternetExplorerVersion](#maxSupportedInternetExplorerVersion)|The maximum version of IE to run browser emulation for in Outlook client|[applicationCommon/Organization](../Organization.md)|
-|[globalHelpUrl](#globalHelpUrl)|URL for the web page global help.|[applicationCommon/Organization](../Organization.md)|
-|[globalHelpUrlEnabled](#globalHelpUrlEnabled)|Indicates whether the customizable global help is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[globalAppendUrlParametersEnabled](#globalAppendUrlParametersEnabled)|Indicates whether the append URL parameters is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[KMSettings](#KMSettings)|XML string containing the Knowledge Management settings that are applied in Knowledge Management Wizard.|[applicationCommon/Organization](../Organization.md)|
-|[createProductsWithoutParentInActiveState](#createProductsWithoutParentInActiveState)|Enable Initial state of newly created products to be Active instead of Draft|[applicationCommon/Organization](../Organization.md)|
-|[isMailboxInactiveBackoffEnabled](#isMailboxInactiveBackoffEnabled)|Enable or disable mailbox keep alive for Server Side Sync.|[applicationCommon/Organization](../Organization.md)|
-|[isFullTextSearchEnabled](#isFullTextSearchEnabled)|Indicates whether full-text search for Quick Find entities should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[enforceReadOnlyPlugins](#enforceReadOnlyPlugins)|Organization setting to enforce read only plugins.|[applicationCommon/Organization](../Organization.md)|
-|[sharePointDeploymentType](#sharePointDeploymentType)|Indicates which SharePoint deployment type is configured for Server to Server. (Online or On-Premises)|[applicationCommon/Organization](../Organization.md)|
-|[sharePointDeploymentType_display](#sharePointDeploymentType_display)||[applicationCommon/Organization](../Organization.md)|
-|[organizationState](#organizationState)|Indicates the organization lifecycle state|[applicationCommon/Organization](../Organization.md)|
-|[organizationState_display](#organizationState_display)||[applicationCommon/Organization](../Organization.md)|
-|[defaultThemeData](#defaultThemeData)|Default theme data for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[isFolderBasedTrackingEnabled](#isFolderBasedTrackingEnabled)|Enable or disable folder based tracking for Server Side Sync.|[applicationCommon/Organization](../Organization.md)|
-|[webResourceHash](#webResourceHash)|Hash value of web resources.|[applicationCommon/Organization](../Organization.md)|
-|[expireChangeTrackingInDays](#expireChangeTrackingInDays)|Maximum number of days to keep change tracking deleted records|[applicationCommon/Organization](../Organization.md)|
-|[maxFolderBasedTrackingMappings](#maxFolderBasedTrackingMappings)|Maximum number of Folder Based Tracking mappings user can add|[applicationCommon/Organization](../Organization.md)|
-|[privacyStatementUrl](#privacyStatementUrl)|Privacy Statement URL|[applicationCommon/Organization](../Organization.md)|
-|[pluginTraceLogSetting](#pluginTraceLogSetting)|Plug-in Trace Log Setting for the Organization.|[applicationCommon/Organization](../Organization.md)|
-|[pluginTraceLogSetting_display](#pluginTraceLogSetting_display)||[applicationCommon/Organization](../Organization.md)|
-|[isMailboxForcedUnlockingEnabled](#isMailboxForcedUnlockingEnabled)|Enable or disable forced unlocking for Server Side Sync mailboxes.|[applicationCommon/Organization](../Organization.md)|
-|[mailboxIntermittentIssueMinRange](#mailboxIntermittentIssueMinRange)|Lower Threshold For Mailbox Intermittent Issue.|[applicationCommon/Organization](../Organization.md)|
-|[mailboxPermanentIssueMinRange](#mailboxPermanentIssueMinRange)|Lower Threshold For Mailbox Permanent Issue.|[applicationCommon/Organization](../Organization.md)|
-|[highContrastThemeData](#highContrastThemeData)|High contrast theme data for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[delegatedAdminUserId](#delegatedAdminUserId)|Unique identifier of the delegated admin user for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[isExternalSearchIndexEnabled](#isExternalSearchIndexEnabled)|Select whether data can be synchronized with an external search index.|[applicationCommon/Organization](../Organization.md)|
-|[isMobileOfflineEnabled](#isMobileOfflineEnabled)|Indicates whether the feature MobileOffline should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[isOfficeGraphEnabled](#isOfficeGraphEnabled)|Indicates whether the feature OfficeGraph should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[isOneDriveEnabled](#isOneDriveEnabled)|Indicates whether the feature One Drive should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[externalPartyEntitySettings](#externalPartyEntitySettings)|XML string containing the ExternalPartyEnabled entities settings.|[applicationCommon/Organization](../Organization.md)|
-|[externalPartyCorrelationKeys](#externalPartyCorrelationKeys)|XML string containing the ExternalPartyEnabled entities correlation keys for association of existing External Party instance entities to newly created IsExternalPartyEnabled entities.For internal use only|[applicationCommon/Organization](../Organization.md)|
-|[maxVerboseLoggingMailbox](#maxVerboseLoggingMailbox)|Maximum number of mailboxes that can be toggled for verbose logging|[applicationCommon/Organization](../Organization.md)|
-|[maxVerboseLoggingSyncCycles](#maxVerboseLoggingSyncCycles)|Maximum number of sync cycles for which verbose logging will be enabled by default|[applicationCommon/Organization](../Organization.md)|
-|[mobileOfflineSyncInterval](#mobileOfflineSyncInterval)|Sync interval for mobile offline.|[applicationCommon/Organization](../Organization.md)|
-|[officeGraphDelveUrl](#officeGraphDelveUrl)|The url to open the Delve for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[mobileOfflineMinLicenseTrial](#mobileOfflineMinLicenseTrial)|Minimum number of user license required for mobile offline service by trial organization|[applicationCommon/Organization](../Organization.md)|
-|[mobileOfflineMinLicenseProd](#mobileOfflineMinLicenseProd)|Minimum number of user license required for mobile offline service by production/preview organization|[applicationCommon/Organization](../Organization.md)|
-|[daysSinceRecordLastModifiedMaxValue](#daysSinceRecordLastModifiedMaxValue)|The maximum value for the Mobile Offline setting Days since record last modified|[applicationCommon/Organization](../Organization.md)|
-|[taskBasedFlowEnabled](#taskBasedFlowEnabled)|Select whether to turn on task flows for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[showKBArticleDeprecationNotification](#showKBArticleDeprecationNotification)|Select whether to display a KB article deprecation notification to the user.|[applicationCommon/Organization](../Organization.md)|
-|[azureSchedulerJobCollectionName](#azureSchedulerJobCollectionName)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[cortanaProactiveExperienceEnabled](#cortanaProactiveExperienceEnabled)|Indicates whether the feature CortanaProactiveExperience Flow processes should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[officeAppsAutoDeploymentEnabled](#officeAppsAutoDeploymentEnabled)|Indicates whether the Office Apps auto deployment is enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[appDesignerExperienceEnabled](#appDesignerExperienceEnabled)|Indicates whether the appDesignerExperience is enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[enableImmersiveSkypeIntegration](#enableImmersiveSkypeIntegration)|Enable Integration with Immersive Skype|[applicationCommon/Organization](../Organization.md)|
-|[autoApplySLA](#autoApplySLA)|Indicates whether to Auto-apply SLA on case record update after SLA was manually applied.|[applicationCommon/Organization](../Organization.md)|
-|[isEmailServerProfileContentFilteringEnabled](#isEmailServerProfileContentFilteringEnabled)|Enable Email Server Profile content filtering|[applicationCommon/Organization](../Organization.md)|
-|[isDelegateAccessEnabled](#isDelegateAccessEnabled)|Enable Delegation Access content|[applicationCommon/Organization](../Organization.md)|
-|[displayNavigationTour](#displayNavigationTour)|Indicates whether or not navigation tour is displayed.|[applicationCommon/Organization](../Organization.md)|
-|[useLegacyRendering](#useLegacyRendering)|Select whether to use legacy form rendering.|[applicationCommon/Organization](../Organization.md)|
-|[defaultMobileOfflineProfileId](#defaultMobileOfflineProfileId)|Unique identifier of the default mobile offline profile.|[applicationCommon/Organization](../Organization.md)|
-|[kaPrefix](#kaPrefix)|Type the prefix to use for all knowledge articles in Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[currentKaNumber](#currentKaNumber)|Enter the first number to use for knowledge articles. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[currentCategoryNumber](#currentCategoryNumber)|Enter the first number to use for Categories. Deprecated. Use SetAutoNumberSeed message.|[applicationCommon/Organization](../Organization.md)|
-|[categoryPrefix](#categoryPrefix)|Type the prefix to use for all categories in Microsoft Dynamics 365.|[applicationCommon/Organization](../Organization.md)|
-|[maximumEntitiesWithActiveSLA](#maximumEntitiesWithActiveSLA)|Maximum number of active SLA allowed per entity in online|[applicationCommon/Organization](../Organization.md)|
-|[maximumSLAKPIPerEntityWithActiveSLA](#maximumSLAKPIPerEntityWithActiveSLA)|Maximum number of SLA KPI per active SLA allowed for entity in online|[applicationCommon/Organization](../Organization.md)|
-|[isConflictDetectionEnabledForMobileClient](#isConflictDetectionEnabledForMobileClient)|Information that specifies whether conflict detection for mobile client is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[isDelveActionHubIntegrationEnabled](#isDelveActionHubIntegrationEnabled)|Indicates whether the feature Action Hub should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[orgInsightsEnabled](#orgInsightsEnabled)|Select whether to turn on OrgInsights for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[productRecommendationsEnabled](#productRecommendationsEnabled)|Select whether to turn on product recommendations for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[textAnalyticsEnabled](#textAnalyticsEnabled)|Select whether to turn on text analytics for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[maxConditionsForMobileOfflineFilters](#maxConditionsForMobileOfflineFilters)|Maximum number of conditions allowed for mobile offline filters|[applicationCommon/Organization](../Organization.md)|
-|[isFolderAutoCreatedonSP](#isFolderAutoCreatedonSP)|Select whether folders should be automatically created on SharePoint.|[applicationCommon/Organization](../Organization.md)|
-|[powerBiFeatureEnabled](#powerBiFeatureEnabled)|Indicates whether the Power BI feature should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[isActionCardEnabled](#isActionCardEnabled)|Indicates whether the feature Action Card should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[isEmailMonitoringAllowed](#isEmailMonitoringAllowed)|Allow tracking recipient activity on sent emails.|[applicationCommon/Organization](../Organization.md)|
-|[isActivityAnalysisEnabled](#isActivityAnalysisEnabled)|Indicates whether the feature Relationship Analytics should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[isAutoDataCaptureEnabled](#isAutoDataCaptureEnabled)|Indicates whether the feature Auto Capture should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[externalBaseUrl](#externalBaseUrl)|Specify the base URL to use to look for external document suggestions.|[applicationCommon/Organization](../Organization.md)|
-|[isPreviewEnabledForActionCard](#isPreviewEnabledForActionCard)|Indicates whether the Preview feature for Action Card should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[isPreviewForEmailMonitoringAllowed](#isPreviewForEmailMonitoringAllowed)|Is Preview For Email Monitoring Allowed.|[applicationCommon/Organization](../Organization.md)|
-|[unresolveEmailAddressIfMultipleMatch](#unresolveEmailAddressIfMultipleMatch)|Indicates whether email address should be unresolved if multiple matches are found|[applicationCommon/Organization](../Organization.md)|
-|[riErrorStatus](#riErrorStatus)|Error status of Relationship Insights provisioning.|[applicationCommon/Organization](../Organization.md)|
-|[widgetProperties](#widgetProperties)|For Internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[enableMicrosoftFlowIntegration](#enableMicrosoftFlowIntegration)|Enable Integration with Microsoft Flow|[applicationCommon/Organization](../Organization.md)|
-|[isEnabledForAllRoles](#isEnabledForAllRoles)|Indicates whether appmodule is enabled for all roles|[applicationCommon/Organization](../Organization.md)|
-|[isPreviewForAutoCaptureEnabled](#isPreviewForAutoCaptureEnabled)|Indicates whether the feature Auto Capture should be enabled for the organization at Preview Settings.|[applicationCommon/Organization](../Organization.md)|
-|[defaultCrmCustomName](#defaultCrmCustomName)|Name of the default crm custom.|[applicationCommon/Organization](../Organization.md)|
-|[ACIWebEndpointUrl](#ACIWebEndpointUrl)|ACI Web Endpoint URL.|[applicationCommon/Organization](../Organization.md)|
-|[enableLPAuthoring](#enableLPAuthoring)|Select to enable learning path auhtoring.|[applicationCommon/Organization](../Organization.md)|
-|[isResourceBookingExchangeSyncEnabled](#isResourceBookingExchangeSyncEnabled)|Indicates if the synchronization of user resource booking with Exchange is enabled at organization level.|[applicationCommon/Organization](../Organization.md)|
-|[isMobileClientOnDemandSyncEnabled](#isMobileClientOnDemandSyncEnabled)|Information that specifies whether mobile client on demand sync is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[postMessageWhitelistDomains](#postMessageWhitelistDomains)|For internal use only.|[applicationCommon/Organization](../Organization.md)|
-|[isRelationshipInsightsEnabled](#isRelationshipInsightsEnabled)|Indicates whether the feature Relationship Insights should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[resolveSimilarUnresolvedEmailAddress](#resolveSimilarUnresolvedEmailAddress)|Apply same email address to all unresolved matches when you manually resolve it for one|[applicationCommon/Organization](../Organization.md)|
-|[isTextWrapEnabled](#isTextWrapEnabled)|Information on whether text wrap is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[sessionTimeoutEnabled](#sessionTimeoutEnabled)|Information that specifies whether session timeout is enabled|[applicationCommon/Organization](../Organization.md)|
-|[sessionTimeoutInMins](#sessionTimeoutInMins)|Session timeout in minutes|[applicationCommon/Organization](../Organization.md)|
-|[sessionTimeoutReminderInMins](#sessionTimeoutReminderInMins)|Session timeout reminder in minutes|[applicationCommon/Organization](../Organization.md)|
-|[microsoftFlowEnvironment](#microsoftFlowEnvironment)|Environment selected for Integration with Microsoft Flow|[applicationCommon/Organization](../Organization.md)|
-|[inactivityTimeoutEnabled](#inactivityTimeoutEnabled)|Information that specifies whether Inactivity timeout is enabled|[applicationCommon/Organization](../Organization.md)|
-|[inactivityTimeoutInMins](#inactivityTimeoutInMins)|Inactivity timeout in minutes|[applicationCommon/Organization](../Organization.md)|
-|[inactivityTimeoutReminderInMins](#inactivityTimeoutReminderInMins)|Inactivity timeout reminder in minutes|[applicationCommon/Organization](../Organization.md)|
-|[syncOptInSelection](#syncOptInSelection)|Indicates the selection to use the dynamics 365 azure sync framework or server side sync.|[applicationCommon/Organization](../Organization.md)|
-|[syncOptInSelectionStatus](#syncOptInSelectionStatus)|Indicates the status of the opt-in or opt-out operation for dynamics 365 azure sync.|[applicationCommon/Organization](../Organization.md)|
-|[syncOptInSelectionStatus_display](#syncOptInSelectionStatus_display)||[applicationCommon/Organization](../Organization.md)|
-|[isActionSupportFeatureEnabled](#isActionSupportFeatureEnabled)|Information that specifies whether Action Support Feature is enabled|[applicationCommon/Organization](../Organization.md)|
-|[isBPFEntityCustomizationFeatureEnabled](#isBPFEntityCustomizationFeatureEnabled)|Information that specifies whether BPF Entity Customization Feature is enabled|[applicationCommon/Organization](../Organization.md)|
-|[boundDashboardDefaultCardExpanded](#boundDashboardDefaultCardExpanded)|Display cards in expanded state for interactive dashboard|[applicationCommon/Organization](../Organization.md)|
-|[maxActionStepsInBPF](#maxActionStepsInBPF)|Maximum number of actionsteps allowed in a BPF|[applicationCommon/Organization](../Organization.md)|
-|[serveStaticResourcesFromAzureCDN](#serveStaticResourcesFromAzureCDN)|Serve Static Content From CDN|[applicationCommon/Organization](../Organization.md)|
-|[isExternalFileStorageEnabled](#isExternalFileStorageEnabled)|Indicates whether the organization's files are being stored in Azure.|[applicationCommon/Organization](../Organization.md)|
-|[clientFeatureSet](#clientFeatureSet)|Client Features to be enabled as an XML BLOB.|[applicationCommon/Organization](../Organization.md)|
-|[isReadAuditEnabled](#isReadAuditEnabled)|Enable or disable auditing of read operations.|[applicationCommon/Organization](../Organization.md)|
-|[isNotesAnalysisEnabled](#isNotesAnalysisEnabled)|Indicates whether the feature Notes Analysis should be enabled for the organization.|[applicationCommon/Organization](../Organization.md)|
-|[allowLegacyDialogsEmbedding](#allowLegacyDialogsEmbedding)|Enable embedding of certain legacy dialogs in Unified Interface browser client|[applicationCommon/Organization](../Organization.md)|
-|[appointmentRichEditorExperience](#appointmentRichEditorExperience)|Information on whether rich editing experience for Appointment is enabled.|[applicationCommon/Organization](../Organization.md)|
-|[schedulingEngine](#schedulingEngine)|Scheduling engine for Appointments and Service Activities|[foundationCommon/Organization](Organization.md)|
-|[schedulingEngine_display](#schedulingEngine_display)||[foundationCommon/Organization](Organization.md)|
+|[organizationId](#organizationId)|Unique identifier of the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[name](#name)|Name of the organization. The name is set when Microsoft CRM is installed and should not be changed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[userGroupId](#userGroupId)|Unique identifier of the default group of users in the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[privilegeUserGroupId](#privilegeUserGroupId)|Unique identifier of the default privilege for users in the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[recurrenceExpansionJobBatchSize](#recurrenceExpansionJobBatchSize)|Specifies the value for number of instances created in on demand job in one shot.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[recurrenceExpansionJobBatchInterval](#recurrenceExpansionJobBatchInterval)|Specifies the interval (in seconds) for pausing expansion job.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalPeriodType](#fiscalPeriodType)|Type of fiscal period used throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalCalendarStart](#fiscalCalendarStart)|Start date for the fiscal period that is to be used throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[dateFormatCode](#dateFormatCode)|Information about how the date is displayed throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[dateFormatCode_display](#dateFormatCode_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[timeFormatCode](#timeFormatCode)|Information that specifies how the time is displayed throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[timeFormatCode_display](#timeFormatCode_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currencySymbol](#currencySymbol)|Symbol used for currency throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[weekStartDayCode](#weekStartDayCode)|Designated first day of the week throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[weekStartDayCode_display](#weekStartDayCode_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[dateSeparator](#dateSeparator)|Character used to separate the month, the day, and the year in dates throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fullNameConventionCode](#fullNameConventionCode)|Order in which names are to be displayed throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fullNameConventionCode_display](#fullNameConventionCode_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[negativeFormatCode](#negativeFormatCode)|Information that specifies how negative numbers are displayed throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[negativeFormatCode_display](#negativeFormatCode_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[numberFormat](#numberFormat)|Specification of how numbers are displayed throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isDisabled](#isDisabled)|Information that specifies whether the organization is disabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[disabledReason](#disabledReason)|Reason for disabling the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[kbPrefix](#kbPrefix)|Prefix to use for all articles in Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentKbNumber](#currentKbNumber)|First article number to use. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[casePrefix](#casePrefix)|Prefix to use for all cases throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentCaseNumber](#currentCaseNumber)|First case number to use. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[contractPrefix](#contractPrefix)|Prefix to use for all contracts throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentContractNumber](#currentContractNumber)|First contract number to use. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[quotePrefix](#quotePrefix)|Prefix to use for all quotes throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentQuoteNumber](#currentQuoteNumber)|First quote number to use. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[orderPrefix](#orderPrefix)|Prefix to use for all orders throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentOrderNumber](#currentOrderNumber)|First order number to use. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[invoicePrefix](#invoicePrefix)|Prefix to use for all invoice numbers throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentInvoiceNumber](#currentInvoiceNumber)|First invoice number to use. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[uniqueSpecifierLength](#uniqueSpecifierLength)|Number of characters appended to invoice, quote, and order numbers.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[createdOn](#createdOn)|Date and time when the organization was created.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the organization was last modified.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalYearFormat](#fiscalYearFormat)|Information that specifies how the name of the fiscal year is displayed throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalPeriodFormat](#fiscalPeriodFormat)|Information that specifies how the name of the fiscal period is displayed throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalYearPeriodConnect](#fiscalYearPeriodConnect)|Information that specifies how the names of the fiscal year and the fiscal period should be connected when displayed together.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[languageCode](#languageCode)|Preferred language for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[sortId](#sortId)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[dateFormatString](#dateFormatString)|String showing how the date is displayed throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[timeFormatString](#timeFormatString)|Text for how time is displayed in Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[pricingDecimalPrecision](#pricingDecimalPrecision)|Number of decimal places that can be used for prices.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[showWeekNumber](#showWeekNumber)|Information that specifies whether to display the week number in calendar displays throughout Microsoft CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[nextTrackingNumber](#nextTrackingNumber)|Next token to be placed on the subject line of an email message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[tagMaxAggressiveCycles](#tagMaxAggressiveCycles)|Maximum number of aggressive polling cycles executed for email auto-tagging when a new email is received.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[systemUserId](#systemUserId)|Unique identifier of the system user for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[grantAccessToNetworkService](#grantAccessToNetworkService)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowOutlookScheduledSyncs](#allowOutlookScheduledSyncs)|Indicates whether scheduled synchronizations to Outlook are allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowMarketingEmailExecution](#allowMarketingEmailExecution)|Indicates whether marketing emails execution is allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[sqlAccessGroupId](#sqlAccessGroupId)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currencyFormatCode](#currencyFormatCode)|Information about how currency symbols are placed throughout Microsoft Dynamics CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currencyFormatCode_display](#currencyFormatCode_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalSettingsUpdated](#fiscalSettingsUpdated)|Information that specifies whether the fiscal settings have been updated.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[reportingGroupId](#reportingGroupId)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[tokenExpiry](#tokenExpiry)|Duration used for token expiration.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[shareToPreviousOwnerOnAssign](#shareToPreviousOwnerOnAssign)|Information that specifies whether to share to previous owner on assign.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[acknowledgementTemplateId](#acknowledgementTemplateId)|Unique identifier of the template to be used for acknowledgement when a user unsubscribes.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[integrationUserId](#integrationUserId)|Unique identifier of the integration user for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[trackingTokenIdBase](#trackingTokenIdBase)|Base number used to provide separate tracking token identifiers to users belonging to different deployments.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[businessClosureCalendarId](#businessClosureCalendarId)|Unique identifier of the business closure calendar of organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowAutoUnsubscribeAcknowledgement](#allowAutoUnsubscribeAcknowledgement)|Indicates whether automatic unsubscribe acknowledgement email is allowed to send.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowAutoUnsubscribe](#allowAutoUnsubscribe)|Indicates whether automatic unsubscribe is allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[picture](#picture)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[versionNumber](#versionNumber)|Version number of the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[trackingPrefix](#trackingPrefix)|History list of tracking token prefixes.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[minOutlookSyncInterval](#minOutlookSyncInterval)|Minimum allowed time between scheduled Outlook synchronizations.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[bulkOperationPrefix](#bulkOperationPrefix)|Prefix used for bulk operation numbering.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowAutoResponseCreation](#allowAutoResponseCreation)|Indicates whether automatic response creation is allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maximumTrackingNumber](#maximumTrackingNumber)|Maximum tracking number before recycling takes place.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[campaignPrefix](#campaignPrefix)|Prefix used for campaign numbering.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[sqlAccessGroupName](#sqlAccessGroupName)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentCampaignNumber](#currentCampaignNumber)|Current campaign number. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalYearDisplayCode](#fiscalYearDisplayCode)|Information that specifies whether the fiscal year should be displayed based on the start date or the end date of the fiscal year.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[siteMapXml](#siteMapXml)|XML string that defines the navigation structure for the application.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isRegistered](#isRegistered)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[reportingGroupName](#reportingGroupName)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentBulkOperationNumber](#currentBulkOperationNumber)|Current bulk operation number. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[schemaNamePrefix](#schemaNamePrefix)|Prefix used for custom entities and attributes.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[ignoreInternalEmail](#ignoreInternalEmail)|Indicates whether incoming email sent by internal Microsoft Dynamics 365 users or queues should be tracked.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[tagPollingPeriod](#tagPollingPeriod)|Normal polling frequency used for email receive auto-tagging in outlook.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[trackingTokenIdDigits](#trackingTokenIdDigits)|Number of digits used to represent a tracking token identifier.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[numberGroupFormat](#numberGroupFormat)|Specifies how numbers are grouped in Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[longDateFormatCode](#longDateFormatCode)|Information that specifies how the Long Date format is displayed in Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentImportSequenceNumber](#currentImportSequenceNumber)|Import sequence to use.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[parsedTablePrefix](#parsedTablePrefix)|Prefix used for parsed tables.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[v3CalloutConfigHash](#v3CalloutConfigHash)|Hash of the V3 callout configuration file.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isFiscalPeriodMonthBased](#isFiscalPeriodMonthBased)|Indicates whether the fiscal period is displayed as the month number.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[localeId](#localeId)|Unique identifier of the locale of the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[parsedTableColumnPrefix](#parsedTableColumnPrefix)|Prefix used for parsed table columns.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[supportUserId](#supportUserId)|Unique identifier of the support user for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[AMDesignator](#AMDesignator)|AM designator to use throughout Microsoft Dynamics CRM.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currencyDisplayOption](#currencyDisplayOption)|Indicates whether to display money fields with currency code or currency symbol.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currencyDisplayOption_display](#currencyDisplayOption_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[minAddressBookSyncInterval](#minAddressBookSyncInterval)|Normal polling frequency used for address book synchronization in Microsoft Office Outlook.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isDuplicateDetectionEnabledForOnlineCreateUpdate](#isDuplicateDetectionEnabledForOnlineCreateUpdate)|Indicates whether duplicate detection during online create or update is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[featureSet](#featureSet)|Features to be enabled as an XML BLOB.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[blockedAttachments](#blockedAttachments)|Prevent upload or download of certain attachment types that are considered dangerous.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isDuplicateDetectionEnabledForOfflineSync](#isDuplicateDetectionEnabledForOfflineSync)|Indicates whether duplicate detection of records during offline synchronization is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowOfflineScheduledSyncs](#allowOfflineScheduledSyncs)|Indicates whether background offline synchronization in Microsoft Office Outlook is allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowUnresolvedPartiesOnEmailSend](#allowUnresolvedPartiesOnEmailSend)|Indicates whether users are allowed to send email to unresolved parties (parties must still have an email address).|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[timeSeparator](#timeSeparator)|Text for how the time separator is displayed throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentParsedTableNumber](#currentParsedTableNumber)|First parsed table number to use.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[minOfflineSyncInterval](#minOfflineSyncInterval)|Normal polling frequency used for background offline synchronization in Microsoft Office Outlook.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowWebExcelExport](#allowWebExcelExport)|Indicates whether Web-based export of grids to Microsoft Office Excel is allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[referenceSiteMapXml](#referenceSiteMapXml)|XML string that defines the navigation structure for the application. This is the site map from the previously upgraded build and is used in a 3-way merge during upgrade.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isDuplicateDetectionEnabledForImport](#isDuplicateDetectionEnabledForImport)|Indicates whether duplicate detection of records during import is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[calendarType](#calendarType)|Calendar type for the system. Set to Gregorian US by default.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[SQMEnabled](#SQMEnabled)|Setting for SQM data collection, 0 no, 1 yes enabled|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[negativeCurrencyFormatCode](#negativeCurrencyFormatCode)|Information that specifies how negative currency numbers are displayed throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowAddressBookSyncs](#allowAddressBookSyncs)|Indicates whether background address book synchronization in Microsoft Office Outlook is allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[ISVIntegrationCode](#ISVIntegrationCode)|Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[ISVIntegrationCode_display](#ISVIntegrationCode_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[decimalSymbol](#decimalSymbol)|Symbol used for decimal in Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxUploadFileSize](#maxUploadFileSize)|Maximum allowed size of an attachment.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isAppMode](#isAppMode)|Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[enablePricingOnCreate](#enablePricingOnCreate)|Enable pricing calculations on a Create call.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isSOPIntegrationEnabled](#isSOPIntegrationEnabled)|Enable sales order processing integration.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[PMDesignator](#PMDesignator)|PM designator to use throughout Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currencyDecimalPrecision](#currencyDecimalPrecision)|Number of decimal places that can be used for currency.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxAppointmentDurationDays](#maxAppointmentDurationDays)|Maximum number of days an appointment can last.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[emailSendPollingPeriod](#emailSendPollingPeriod)|Normal polling frequency used for sending email in Microsoft Office Outlook.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[renderSecureIFrameForEmail](#renderSecureIFrameForEmail)|Flag to render the body of email in the Web form in an IFRAME with the security='restricted' attribute set. This is additional security but can cause a credentials prompt.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[numberSeparator](#numberSeparator)|Symbol used for number separation in Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[privReportingGroupId](#privReportingGroupId)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[baseCurrencyId](#baseCurrencyId)|Unique identifier of the base currency of the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxRecordsForExportToExcel](#maxRecordsForExportToExcel)|Maximum number of records that will be exported to a static Microsoft Office Excel worksheet when exporting from the grid.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[privReportingGroupName](#privReportingGroupName)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[yearStartWeekCode](#yearStartWeekCode)|Information that specifies how the first week of the year is specified in Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isPresenceEnabled](#isPresenceEnabled)|Information on whether IM presence is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isDuplicateDetectionEnabled](#isDuplicateDetectionEnabled)|Indicates whether duplicate detection of records is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[expireSubscriptionsInDays](#expireSubscriptionsInDays)|Maximum number of days before deleting inactive subscriptions.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isAuditEnabled](#isAuditEnabled)|Enable or disable auditing of changes.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[baseCurrencyPrecision](#baseCurrencyPrecision)|Number of decimal places that can be used for the base currency.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[baseCurrencySymbol](#baseCurrencySymbol)|Symbol used for the base currency.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxRecordsForLookupFilters](#maxRecordsForLookupFilters)|Maximum number of lookup and picklist records that can be selected by user for filtering.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowEntityOnlyAudit](#allowEntityOnlyAudit)|Indicates whether auditing of changes to entity is allowed when no attributes have changed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[defaultRecurrenceEndRangeType](#defaultRecurrenceEndRangeType)|Type of default recurrence end range date.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[defaultRecurrenceEndRangeType_display](#defaultRecurrenceEndRangeType_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[futureExpansionWindow](#futureExpansionWindow)|Specifies the maximum number of months in future for which the recurring activities can be created.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[pastExpansionWindow](#pastExpansionWindow)|Specifies the maximum number of months in past for which the recurring activities can be created.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[recurrenceExpansionSynchCreateMax](#recurrenceExpansionSynchCreateMax)|Specifies the maximum number of instances to be created synchronously after creating a recurring appointment.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[recurrenceDefaultNumberOfOccurrences](#recurrenceDefaultNumberOfOccurrences)|Specifies the default value for number of occurrences field in the recurrence dialog.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[getStartedPaneContentEnabled](#getStartedPaneContentEnabled)|Indicates whether Get Started content is enabled for this organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[useReadForm](#useReadForm)|Indicates whether the read-optimized form should be enabled for this organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[initialVersion](#initialVersion)|Initial version of the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[sampleDataImportId](#sampleDataImportId)|Unique identifier of the sample data import job.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[reportScriptErrors](#reportScriptErrors)|Picklist for selecting the organization preference for reporting scripting errors.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[reportScriptErrors_display](#reportScriptErrors_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[requireApprovalForUserEmail](#requireApprovalForUserEmail)|Indicates whether Send As Other User privilege is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[requireApprovalForQueueEmail](#requireApprovalForQueueEmail)|Indicates whether Send As Other User privilege is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[goalRollupExpiryTime](#goalRollupExpiryTime)|Number of days after the goal's end date after which the rollup of the goal stops automatically.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[goalRollupFrequency](#goalRollupFrequency)|Number of hours between automatic rollup jobs .|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[autoApplyDefaultonCaseCreate](#autoApplyDefaultonCaseCreate)|Select whether to auto apply the default customer entitlement on case creation.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[autoApplyDefaultonCaseUpdate](#autoApplyDefaultonCaseUpdate)|Select whether to auto apply the default customer entitlement on case update.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalYearFormatPrefix](#fiscalYearFormatPrefix)|Prefix for the display of the fiscal year.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalYearFormatPrefix_display](#fiscalYearFormatPrefix_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalYearFormatSuffix](#fiscalYearFormatSuffix)|Suffix for the display of the fiscal year.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalYearFormatSuffix_display](#fiscalYearFormatSuffix_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalYearFormatYear](#fiscalYearFormatYear)|Format for the year.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalYearFormatYear_display](#fiscalYearFormatYear_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[discountCalculationMethod](#discountCalculationMethod)|Discount calculation method for the QOOI product.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[discountCalculationMethod_display](#discountCalculationMethod_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalPeriodFormatPeriod](#fiscalPeriodFormatPeriod)|Format in which the fiscal period will be displayed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[fiscalPeriodFormatPeriod_display](#fiscalPeriodFormatPeriod_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowClientMessageBarAd](#allowClientMessageBarAd)|Indicates whether Outlook Client message bar advertisement is allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowUserFormModePreference](#allowUserFormModePreference)|Indicates whether individuals can select their form mode preference in their personal options.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[hashFilterKeywords](#hashFilterKeywords)|Filter Subject Keywords|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[hashMaxCount](#hashMaxCount)|Maximum number of subject keywords or recipients used for correlation|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[hashDeltaSubjectCount](#hashDeltaSubjectCount)|Maximum difference allowed between subject keywords count of the email messaged to be correlated|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[hashMinAddressCount](#hashMinAddressCount)|Minimum number of recipients required to match for email messaged to be correlated|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[enableSmartMatching](#enableSmartMatching)|Use Smart Matching.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[pinpointLanguageCode](#pinpointLanguageCode)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[orgDbOrgSettings](#orgDbOrgSettings)|Organization settings stored in Organization Database.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isUserAccessAuditEnabled](#isUserAccessAuditEnabled)|Enable or disable auditing of user access.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[userAccessAuditingInterval](#userAccessAuditingInterval)|The interval at which user access is checked for auditing.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[quickFindRecordLimitEnabled](#quickFindRecordLimitEnabled)|Indicates whether a quick find record limit should be enabled for this organization (allows for faster Quick Find queries but prevents overly broad searches).|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[enableBingMapsIntegration](#enableBingMapsIntegration)|Enable Integration with Bing Maps|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isDefaultCountryCodeCheckEnabled](#isDefaultCountryCodeCheckEnabled)|Enable or disable country code selection.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[defaultCountryCode](#defaultCountryCode)|Text area to enter default country code.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[useSkypeProtocol](#useSkypeProtocol)|Indicates default protocol selected for organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[incomingEmailExchangeEmailRetrievalBatchSize](#incomingEmailExchangeEmailRetrievalBatchSize)|Setting for the Async Service Mailbox Queue. Defines the retrieval batch size of exchange server.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[emailCorrelationEnabled](#emailCorrelationEnabled)|Flag to turn email correlation on or off.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[yammerOAuthAccessTokenExpired](#yammerOAuthAccessTokenExpired)|Denotes whether the OAuth access token for Yammer network has expired|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[defaultEmailSettings](#defaultEmailSettings)|XML string containing the default email settings that are applied when a user or queue is created.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[yammerGroupId](#yammerGroupId)|Denotes the Yammer group ID|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[yammerNetworkPermalink](#yammerNetworkPermalink)|Denotes the Yammer network permalink|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[yammerPostMethod](#yammerPostMethod)|Internal Use Only|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[yammerPostMethod_display](#yammerPostMethod_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[emailConnectionChannel](#emailConnectionChannel)|Select if you want to use the Email Router or server-side synchronization for email processing.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[emailConnectionChannel_display](#emailConnectionChannel_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[defaultEmailServerProfileId](#defaultEmailServerProfileId)|Unique identifier of the default email server profile.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isAutoSaveEnabled](#isAutoSaveEnabled)|Information on whether auto save is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[bingMapsApiKey](#bingMapsApiKey)|Api Key to be used in requests to Bing Maps services.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[generateAlertsForErrors](#generateAlertsForErrors)|Indicates whether alerts will be generated for errors.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[generateAlertsForInformation](#generateAlertsForInformation)|Indicates whether alerts will be generated for information.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[generateAlertsForWarnings](#generateAlertsForWarnings)|Indicates whether alerts will be generated for warnings.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[notifyMailboxOwnerOfEmailServerLevelAlerts](#notifyMailboxOwnerOfEmailServerLevelAlerts)|Indicates whether mailbox owners will be notified of email server profile level alerts.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maximumActiveBusinessProcessFlowsAllowedPerEntity](#maximumActiveBusinessProcessFlowsAllowedPerEntity)|Maximum number of active business process flows allowed per entity|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowUsersSeeAppdownloadMessage](#allowUsersSeeAppdownloadMessage)|Indicates whether the showing tablet application notification bars in a browser is allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[signupOutlookDownloadFWLink](#signupOutlookDownloadFWLink)|CRM for Outlook Download URL|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[cascadeStatusUpdate](#cascadeStatusUpdate)|Flag to cascade Update on incident.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[restrictStatusUpdate](#restrictStatusUpdate)|Flag to restrict Update on incident.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[suppressSLA](#suppressSLA)|Indicates whether SLA is suppressed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[socialInsightsTermsAccepted](#socialInsightsTermsAccepted)|Flag for whether the organization has accepted the Social Insights terms of use.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[socialInsightsInstance](#socialInsightsInstance)|Identifier for the Social Insights instance for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[disableSocialCare](#disableSocialCare)|Indicates whether Social Care is disabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxProductsInBundle](#maxProductsInBundle)|Restrict the maximum no of items in a bundle|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[useInbuiltRuleForDefaultPricelistSelection](#useInbuiltRuleForDefaultPricelistSelection)|Flag indicates whether to Use Inbuilt Rule For DefaultPricelist.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[OOBPriceCalculationEnabled](#OOBPriceCalculationEnabled)|Enable OOB pricing calculation logic for Opportunity, Quote, Order and Invoice entities.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isHierarchicalSecurityModelEnabled](#isHierarchicalSecurityModelEnabled)|Enable Hierarchical Security Model|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maximumDynamicPropertiesAllowed](#maximumDynamicPropertiesAllowed)|Restrict the maximum number of product properties for a product family/bundle|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[usePositionHierarchy](#usePositionHierarchy)|Use position hierarchy|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxDepthForHierarchicalSecurityModel](#maxDepthForHierarchicalSecurityModel)|Maximum depth for hierarchy security propagation.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[slaPauseStates](#slaPauseStates)|Contains the on hold case status values.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[socialInsightsEnabled](#socialInsightsEnabled)|Flag for whether the organization is using Social Insights.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isAppointmentAttachmentSyncEnabled](#isAppointmentAttachmentSyncEnabled)|Enable or disable attachments sync for outlook and exchange.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isAssignedTasksSyncEnabled](#isAssignedTasksSyncEnabled)|Enable or disable assigned tasks sync for outlook and exchange.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isContactMailingAddressSyncEnabled](#isContactMailingAddressSyncEnabled)|Enable or disable mailing address sync for outlook and exchange.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxSupportedInternetExplorerVersion](#maxSupportedInternetExplorerVersion)|The maximum version of IE to run browser emulation for in Outlook client|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[globalHelpUrl](#globalHelpUrl)|URL for the web page global help.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[globalHelpUrlEnabled](#globalHelpUrlEnabled)|Indicates whether the customizable global help is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[globalAppendUrlParametersEnabled](#globalAppendUrlParametersEnabled)|Indicates whether the append URL parameters is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[KMSettings](#KMSettings)|XML string containing the Knowledge Management settings that are applied in Knowledge Management Wizard.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[createProductsWithoutParentInActiveState](#createProductsWithoutParentInActiveState)|Enable Initial state of newly created products to be Active instead of Draft|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isMailboxInactiveBackoffEnabled](#isMailboxInactiveBackoffEnabled)|Enable or disable mailbox keep alive for Server Side Sync.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isFullTextSearchEnabled](#isFullTextSearchEnabled)|Indicates whether full-text search for Quick Find entities should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[enforceReadOnlyPlugins](#enforceReadOnlyPlugins)|Organization setting to enforce read only plugins.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[sharePointDeploymentType](#sharePointDeploymentType)|Indicates which SharePoint deployment type is configured for Server to Server. (Online or On-Premises)|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[sharePointDeploymentType_display](#sharePointDeploymentType_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[organizationState](#organizationState)|Indicates the organization lifecycle state|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[organizationState_display](#organizationState_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[defaultThemeData](#defaultThemeData)|Default theme data for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isFolderBasedTrackingEnabled](#isFolderBasedTrackingEnabled)|Enable or disable folder based tracking for Server Side Sync.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[webResourceHash](#webResourceHash)|Hash value of web resources.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[expireChangeTrackingInDays](#expireChangeTrackingInDays)|Maximum number of days to keep change tracking deleted records|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxFolderBasedTrackingMappings](#maxFolderBasedTrackingMappings)|Maximum number of Folder Based Tracking mappings user can add|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[privacyStatementUrl](#privacyStatementUrl)|Privacy Statement URL|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[pluginTraceLogSetting](#pluginTraceLogSetting)|Plug-in Trace Log Setting for the Organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[pluginTraceLogSetting_display](#pluginTraceLogSetting_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isMailboxForcedUnlockingEnabled](#isMailboxForcedUnlockingEnabled)|Enable or disable forced unlocking for Server Side Sync mailboxes.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[mailboxIntermittentIssueMinRange](#mailboxIntermittentIssueMinRange)|Lower Threshold For Mailbox Intermittent Issue.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[mailboxPermanentIssueMinRange](#mailboxPermanentIssueMinRange)|Lower Threshold For Mailbox Permanent Issue.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[highContrastThemeData](#highContrastThemeData)|High contrast theme data for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[delegatedAdminUserId](#delegatedAdminUserId)|Unique identifier of the delegated admin user for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isExternalSearchIndexEnabled](#isExternalSearchIndexEnabled)|Select whether data can be synchronized with an external search index.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isMobileOfflineEnabled](#isMobileOfflineEnabled)|Indicates whether the feature MobileOffline should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isOfficeGraphEnabled](#isOfficeGraphEnabled)|Indicates whether the feature OfficeGraph should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isOneDriveEnabled](#isOneDriveEnabled)|Indicates whether the feature One Drive should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[externalPartyEntitySettings](#externalPartyEntitySettings)|XML string containing the ExternalPartyEnabled entities settings.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[externalPartyCorrelationKeys](#externalPartyCorrelationKeys)|XML string containing the ExternalPartyEnabled entities correlation keys for association of existing External Party instance entities to newly created IsExternalPartyEnabled entities.For internal use only|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxVerboseLoggingMailbox](#maxVerboseLoggingMailbox)|Maximum number of mailboxes that can be toggled for verbose logging|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxVerboseLoggingSyncCycles](#maxVerboseLoggingSyncCycles)|Maximum number of sync cycles for which verbose logging will be enabled by default|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[mobileOfflineSyncInterval](#mobileOfflineSyncInterval)|Sync interval for mobile offline.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[officeGraphDelveUrl](#officeGraphDelveUrl)|The url to open the Delve for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[mobileOfflineMinLicenseTrial](#mobileOfflineMinLicenseTrial)|Minimum number of user license required for mobile offline service by trial organization|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[mobileOfflineMinLicenseProd](#mobileOfflineMinLicenseProd)|Minimum number of user license required for mobile offline service by production/preview organization|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[daysSinceRecordLastModifiedMaxValue](#daysSinceRecordLastModifiedMaxValue)|The maximum value for the Mobile Offline setting Days since record last modified|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[taskBasedFlowEnabled](#taskBasedFlowEnabled)|Select whether to turn on task flows for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[showKBArticleDeprecationNotification](#showKBArticleDeprecationNotification)|Select whether to display a KB article deprecation notification to the user.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[azureSchedulerJobCollectionName](#azureSchedulerJobCollectionName)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[cortanaProactiveExperienceEnabled](#cortanaProactiveExperienceEnabled)|Indicates whether the feature CortanaProactiveExperience Flow processes should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[officeAppsAutoDeploymentEnabled](#officeAppsAutoDeploymentEnabled)|Indicates whether the Office Apps auto deployment is enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[appDesignerExperienceEnabled](#appDesignerExperienceEnabled)|Indicates whether the appDesignerExperience is enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[enableImmersiveSkypeIntegration](#enableImmersiveSkypeIntegration)|Enable Integration with Immersive Skype|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[autoApplySLA](#autoApplySLA)|Indicates whether to Auto-apply SLA on case record update after SLA was manually applied.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isEmailServerProfileContentFilteringEnabled](#isEmailServerProfileContentFilteringEnabled)|Enable Email Server Profile content filtering|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isDelegateAccessEnabled](#isDelegateAccessEnabled)|Enable Delegation Access content|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[displayNavigationTour](#displayNavigationTour)|Indicates whether or not navigation tour is displayed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[useLegacyRendering](#useLegacyRendering)|Select whether to use legacy form rendering.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[defaultMobileOfflineProfileId](#defaultMobileOfflineProfileId)|Unique identifier of the default mobile offline profile.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[kaPrefix](#kaPrefix)|Type the prefix to use for all knowledge articles in Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentKaNumber](#currentKaNumber)|Enter the first number to use for knowledge articles. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[currentCategoryNumber](#currentCategoryNumber)|Enter the first number to use for Categories. Deprecated. Use SetAutoNumberSeed message.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[categoryPrefix](#categoryPrefix)|Type the prefix to use for all categories in Microsoft Dynamics 365.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maximumEntitiesWithActiveSLA](#maximumEntitiesWithActiveSLA)|Maximum number of active SLA allowed per entity in online|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maximumSLAKPIPerEntityWithActiveSLA](#maximumSLAKPIPerEntityWithActiveSLA)|Maximum number of SLA KPI per active SLA allowed for entity in online|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isConflictDetectionEnabledForMobileClient](#isConflictDetectionEnabledForMobileClient)|Information that specifies whether conflict detection for mobile client is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isDelveActionHubIntegrationEnabled](#isDelveActionHubIntegrationEnabled)|Indicates whether the feature Action Hub should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[orgInsightsEnabled](#orgInsightsEnabled)|Select whether to turn on OrgInsights for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[productRecommendationsEnabled](#productRecommendationsEnabled)|Select whether to turn on product recommendations for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[textAnalyticsEnabled](#textAnalyticsEnabled)|Select whether to turn on text analytics for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxConditionsForMobileOfflineFilters](#maxConditionsForMobileOfflineFilters)|Maximum number of conditions allowed for mobile offline filters|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isFolderAutoCreatedonSP](#isFolderAutoCreatedonSP)|Select whether folders should be automatically created on SharePoint.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[powerBiFeatureEnabled](#powerBiFeatureEnabled)|Indicates whether the Power BI feature should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isActionCardEnabled](#isActionCardEnabled)|Indicates whether the feature Action Card should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isEmailMonitoringAllowed](#isEmailMonitoringAllowed)|Allow tracking recipient activity on sent emails.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isActivityAnalysisEnabled](#isActivityAnalysisEnabled)|Indicates whether the feature Relationship Analytics should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isAutoDataCaptureEnabled](#isAutoDataCaptureEnabled)|Indicates whether the feature Auto Capture should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[externalBaseUrl](#externalBaseUrl)|Specify the base URL to use to look for external document suggestions.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isPreviewEnabledForActionCard](#isPreviewEnabledForActionCard)|Indicates whether the Preview feature for Action Card should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isPreviewForEmailMonitoringAllowed](#isPreviewForEmailMonitoringAllowed)|Is Preview For Email Monitoring Allowed.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[unresolveEmailAddressIfMultipleMatch](#unresolveEmailAddressIfMultipleMatch)|Indicates whether email address should be unresolved if multiple matches are found|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[riErrorStatus](#riErrorStatus)|Error status of Relationship Insights provisioning.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[widgetProperties](#widgetProperties)|For Internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[enableMicrosoftFlowIntegration](#enableMicrosoftFlowIntegration)|Enable Integration with Microsoft Flow|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isEnabledForAllRoles](#isEnabledForAllRoles)|Indicates whether appmodule is enabled for all roles|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isPreviewForAutoCaptureEnabled](#isPreviewForAutoCaptureEnabled)|Indicates whether the feature Auto Capture should be enabled for the organization at Preview Settings.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[defaultCrmCustomName](#defaultCrmCustomName)|Name of the default crm custom.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[ACIWebEndpointUrl](#ACIWebEndpointUrl)|ACI Web Endpoint URL.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[enableLPAuthoring](#enableLPAuthoring)|Select to enable learning path auhtoring.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isResourceBookingExchangeSyncEnabled](#isResourceBookingExchangeSyncEnabled)|Indicates if the synchronization of user resource booking with Exchange is enabled at organization level.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isMobileClientOnDemandSyncEnabled](#isMobileClientOnDemandSyncEnabled)|Information that specifies whether mobile client on demand sync is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[postMessageWhitelistDomains](#postMessageWhitelistDomains)|For internal use only.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isRelationshipInsightsEnabled](#isRelationshipInsightsEnabled)|Indicates whether the feature Relationship Insights should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[resolveSimilarUnresolvedEmailAddress](#resolveSimilarUnresolvedEmailAddress)|Apply same email address to all unresolved matches when you manually resolve it for one|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isTextWrapEnabled](#isTextWrapEnabled)|Information on whether text wrap is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[sessionTimeoutEnabled](#sessionTimeoutEnabled)|Information that specifies whether session timeout is enabled|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[sessionTimeoutInMins](#sessionTimeoutInMins)|Session timeout in minutes|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[sessionTimeoutReminderInMins](#sessionTimeoutReminderInMins)|Session timeout reminder in minutes|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[microsoftFlowEnvironment](#microsoftFlowEnvironment)|Environment selected for Integration with Microsoft Flow|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[inactivityTimeoutEnabled](#inactivityTimeoutEnabled)|Information that specifies whether Inactivity timeout is enabled|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[inactivityTimeoutInMins](#inactivityTimeoutInMins)|Inactivity timeout in minutes|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[inactivityTimeoutReminderInMins](#inactivityTimeoutReminderInMins)|Inactivity timeout reminder in minutes|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[syncOptInSelection](#syncOptInSelection)|Indicates the selection to use the dynamics 365 azure sync framework or server side sync.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[syncOptInSelectionStatus](#syncOptInSelectionStatus)|Indicates the status of the opt-in or opt-out operation for dynamics 365 azure sync.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[syncOptInSelectionStatus_display](#syncOptInSelectionStatus_display)||<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isActionSupportFeatureEnabled](#isActionSupportFeatureEnabled)|Information that specifies whether Action Support Feature is enabled|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isBPFEntityCustomizationFeatureEnabled](#isBPFEntityCustomizationFeatureEnabled)|Information that specifies whether BPF Entity Customization Feature is enabled|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[boundDashboardDefaultCardExpanded](#boundDashboardDefaultCardExpanded)|Display cards in expanded state for interactive dashboard|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[maxActionStepsInBPF](#maxActionStepsInBPF)|Maximum number of actionsteps allowed in a BPF|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[serveStaticResourcesFromAzureCDN](#serveStaticResourcesFromAzureCDN)|Serve Static Content From CDN|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isExternalFileStorageEnabled](#isExternalFileStorageEnabled)|Indicates whether the organization's files are being stored in Azure.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[clientFeatureSet](#clientFeatureSet)|Client Features to be enabled as an XML BLOB.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isReadAuditEnabled](#isReadAuditEnabled)|Enable or disable auditing of read operations.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[isNotesAnalysisEnabled](#isNotesAnalysisEnabled)|Indicates whether the feature Notes Analysis should be enabled for the organization.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[allowLegacyDialogsEmbedding](#allowLegacyDialogsEmbedding)|Enable embedding of certain legacy dialogs in Unified Interface browser client|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[appointmentRichEditorExperience](#appointmentRichEditorExperience)|Information on whether rich editing experience for Appointment is enabled.|<a href="../Organization.md" target="_blank">applicationCommon/Organization</a>|
+|[schedulingEngine](#schedulingEngine)|Scheduling engine for Appointments and Service Activities|<a href="Organization.md" target="_blank">foundationCommon/Organization</a>|
+|[schedulingEngine_display](#schedulingEngine_display)||<a href="Organization.md" target="_blank">foundationCommon/Organization</a>|
 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 

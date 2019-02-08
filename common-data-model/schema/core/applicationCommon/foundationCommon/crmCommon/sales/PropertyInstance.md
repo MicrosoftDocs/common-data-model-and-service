@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Property Instance
 
 Instance of a property with its value.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -40,6 +40,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [foundationCommon/PropertyInstance](../../PropertyInstance.md "/core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance")  
 sales/PropertyInstance  
 
@@ -47,34 +48,34 @@ sales/PropertyInstance
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[dynamicPropertyInstanceIdType](#dynamicPropertyInstanceIdType)|The name of the entity linked by dynamicPropertyInstanceId|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[dynamicPropertyInstanceid](#dynamicPropertyInstanceid)|Shows the unique identifier of the property instance.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[name](#name)|name|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[valueInteger](#valueInteger)|Shows the integer value of the property.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[valueDecimal](#valueDecimal)|Shows the decimal value of the property.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[valueDouble](#valueDouble)|Shows the double value of the property.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[valueString](#valueString)|Shows the string value of the property.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[dynamicPropertyId](#dynamicPropertyId)|Shows the property that this record is associated with.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[isValid](#isValid)|Shows whether the property value is valid.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/PropertyInstance](../../PropertyInstance.md)|
-|[regardingObjectId](#regardingObjectId)|Shows the object that the property is associated with.|[sales/PropertyInstance](PropertyInstance.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[dynamicPropertyInstanceIdType](#dynamicPropertyInstanceIdType)|The name of the entity linked by dynamicPropertyInstanceId|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[dynamicPropertyInstanceid](#dynamicPropertyInstanceid)|Shows the unique identifier of the property instance.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[name](#name)|name|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[valueInteger](#valueInteger)|Shows the integer value of the property.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[valueDecimal](#valueDecimal)|Shows the decimal value of the property.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[valueDouble](#valueDouble)|Shows the double value of the property.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[valueString](#valueString)|Shows the string value of the property.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[dynamicPropertyId](#dynamicPropertyId)|Shows the property that this record is associated with.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[isValid](#isValid)|Shows whether the property value is valid.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../PropertyInstance.md" target="_blank">foundationCommon/PropertyInstance</a>|
+|[regardingObjectId](#regardingObjectId)|Shows the object that the property is associated with.|<a href="PropertyInstance.md" target="_blank">sales/PropertyInstance</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

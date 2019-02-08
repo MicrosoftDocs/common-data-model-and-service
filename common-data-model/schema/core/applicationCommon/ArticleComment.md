@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Article Comment
 
 Comment on a knowledge base article.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleComment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,24 +43,25 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/ArticleComment  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[kbArticleCommentId](#kbArticleCommentId)|Unique identifier of the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[kbArticleId](#kbArticleId)|Unique identifier of the knowledge base article to which the comment applies.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[title](#title)|Title of the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[commentText](#commentText)|Comment text for the knowledge base article.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[createdOn](#createdOn)|Date and time when the knowledge base article comment was created.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the knowledge base article comment was last modified.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the knowledge base article comment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/ArticleComment](ArticleComment.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization with which the article comment is associated.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the kbarticlecomment.|[applicationCommon/ArticleComment](ArticleComment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the kbarticlecomment.|[applicationCommon/ArticleComment](ArticleComment.md)|
+|[kbArticleCommentId](#kbArticleCommentId)|Unique identifier of the knowledge base article comment.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[kbArticleId](#kbArticleId)|Unique identifier of the knowledge base article to which the comment applies.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[title](#title)|Title of the knowledge base article comment.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[commentText](#commentText)|Comment text for the knowledge base article.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[createdOn](#createdOn)|Date and time when the knowledge base article comment was created.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the knowledge base article comment.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the knowledge base article comment was last modified.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the knowledge base article comment.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[versionNumber](#versionNumber)||<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization with which the article comment is associated.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the kbarticlecomment.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the kbarticlecomment.|<a href="ArticleComment.md" target="_blank">applicationCommon/ArticleComment</a>|
 
 ### <a href=#kbArticleCommentId name="kbArticleCommentId">kbArticleCommentId</a>
 

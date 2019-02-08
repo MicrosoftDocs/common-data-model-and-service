@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Survey response
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SurveyResponse.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,21 +33,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/SurveyResponse  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/SurveyResponse](SurveyResponse.md)|
-|[contactId](#contactId)|Contact|[interactions/SurveyResponse](SurveyResponse.md)|
-|[accountId](#accountId)|Account|[interactions/SurveyResponse](SurveyResponse.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/SurveyResponse](SurveyResponse.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/SurveyResponse](SurveyResponse.md)|
-|[surveyId](#surveyId)|Survey ID|[interactions/SurveyResponse](SurveyResponse.md)|
-|[score](#score)|Score|[interactions/SurveyResponse](SurveyResponse.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/SurveyResponse](SurveyResponse.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/SurveyResponse](SurveyResponse.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="SurveyResponse.md" target="_blank">interactions/SurveyResponse</a>|
+|[contactId](#contactId)|Contact|<a href="SurveyResponse.md" target="_blank">interactions/SurveyResponse</a>|
+|[accountId](#accountId)|Account|<a href="SurveyResponse.md" target="_blank">interactions/SurveyResponse</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="SurveyResponse.md" target="_blank">interactions/SurveyResponse</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="SurveyResponse.md" target="_blank">interactions/SurveyResponse</a>|
+|[surveyId](#surveyId)|Survey ID|<a href="SurveyResponse.md" target="_blank">interactions/SurveyResponse</a>|
+|[score](#score)|Score|<a href="SurveyResponse.md" target="_blank">interactions/SurveyResponse</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="SurveyResponse.md" target="_blank">interactions/SurveyResponse</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="SurveyResponse.md" target="_blank">interactions/SurveyResponse</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

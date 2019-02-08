@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Knowledge Article Incident
 
 Association between an knowledge article and incident.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/KnowledgeArticleIncident.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,40 +46,41 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/KnowledgeArticleIncident  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[ownerId](#ownerId)|Owner Id|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[knowledgeArticleIncidentId](#knowledgeArticleIncidentId)|Unique identifier of the Knowledge Article for the incident.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[incidentId](#incidentId)|Choose the Incident id for the knowledge article.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[knowledgearticleId](#knowledgearticleId)|Choose the Knowledge Article.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[knowledgeUsage](#knowledgeUsage)|Knowledge Usage.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[knowledgeUsage_display](#knowledgeUsage_display)||[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[isSentToCustomer](#isSentToCustomer)|This should be set to Yes when the user emails the article link to a customer. |[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[stateCode](#stateCode)|Status of the Knowledge Article Incident|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[stateCode_display](#stateCode_display)||[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[statusCode](#statusCode)|Reason for the status of the Knowledge Article Incident|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[statusCode_display](#statusCode_display)||[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[service/KnowledgeArticleIncident](KnowledgeArticleIncident.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[knowledgeArticleIncidentId](#knowledgeArticleIncidentId)|Unique identifier of the Knowledge Article for the incident.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[incidentId](#incidentId)|Choose the Incident id for the knowledge article.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[knowledgearticleId](#knowledgearticleId)|Choose the Knowledge Article.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[knowledgeUsage](#knowledgeUsage)|Knowledge Usage.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[knowledgeUsage_display](#knowledgeUsage_display)||<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[isSentToCustomer](#isSentToCustomer)|This should be set to Yes when the user emails the article link to a customer. |<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[stateCode](#stateCode)|Status of the Knowledge Article Incident|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[stateCode_display](#stateCode_display)||<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[statusCode](#statusCode)|Reason for the status of the Knowledge Article Incident|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[statusCode_display](#statusCode_display)||<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="KnowledgeArticleIncident.md" target="_blank">service/KnowledgeArticleIncident</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

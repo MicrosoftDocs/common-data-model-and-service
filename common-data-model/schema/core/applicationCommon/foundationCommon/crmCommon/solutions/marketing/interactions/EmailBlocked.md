@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email blocked
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailBlocked.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,25 +33,26 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailBlocked  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailBlocked](EmailBlocked.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailBlocked](EmailBlocked.md)|
-|[accountId](#accountId)|Account|[interactions/EmailBlocked](EmailBlocked.md)|
-|[messageId](#messageId)|Message|[interactions/EmailBlocked](EmailBlocked.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailBlocked](EmailBlocked.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailBlocked](EmailBlocked.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailBlocked](EmailBlocked.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailBlocked](EmailBlocked.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailBlocked](EmailBlocked.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailBlocked](EmailBlocked.md)|
-|[blockedReason](#blockedReason)|Blocked reason|[interactions/EmailBlocked](EmailBlocked.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailBlocked](EmailBlocked.md)|
-|[activityId](#activityId)|Activity ID|[interactions/EmailBlocked](EmailBlocked.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[contactId](#contactId)|Contact|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[accountId](#accountId)|Account|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[messageId](#messageId)|Message|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[blockedReason](#blockedReason)|Blocked reason|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
+|[activityId](#activityId)|Activity ID|<a href="EmailBlocked.md" target="_blank">interactions/EmailBlocked</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

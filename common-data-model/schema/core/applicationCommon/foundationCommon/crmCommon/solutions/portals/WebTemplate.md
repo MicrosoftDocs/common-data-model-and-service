@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Web Template
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebTemplate.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,33 +42,34 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/WebTemplate  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[webTemplateId](#webTemplateId)|Shows the entity instance.|[portals/WebTemplate](WebTemplate.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created.|[portals/WebTemplate](WebTemplate.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/WebTemplate](WebTemplate.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was modified.|[portals/WebTemplate](WebTemplate.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/WebTemplate](WebTemplate.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/WebTemplate](WebTemplate.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/WebTemplate](WebTemplate.md)|
-|[organizationId](#organizationId)|Shows the organization.|[portals/WebTemplate](WebTemplate.md)|
-|[stateCode](#stateCode)|Status of the Web Template|[portals/WebTemplate](WebTemplate.md)|
-|[stateCode_display](#stateCode_display)||[portals/WebTemplate](WebTemplate.md)|
-|[statusCode](#statusCode)|Select the web template's status.|[portals/WebTemplate](WebTemplate.md)|
-|[statusCode_display](#statusCode_display)||[portals/WebTemplate](WebTemplate.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/WebTemplate](WebTemplate.md)|
-|[importSequenceNumber](#importSequenceNumber)|Shows the sequence number of the import that created this record.|[portals/WebTemplate](WebTemplate.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Shows the date and time that the record was migrated.|[portals/WebTemplate](WebTemplate.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/WebTemplate](WebTemplate.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Shows the time zone code that was in use when the record was created.|[portals/WebTemplate](WebTemplate.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/WebTemplate](WebTemplate.md)|
-|[MIMEType](#MIMEType)|Shows the MIME type of the web template content.|[portals/WebTemplate](WebTemplate.md)|
-|[source](#source)||[portals/WebTemplate](WebTemplate.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with Web Template|[portals/WebTemplate](WebTemplate.md)|
+|[webTemplateId](#webTemplateId)|Shows the entity instance.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was modified.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[organizationId](#organizationId)|Shows the organization.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[stateCode](#stateCode)|Status of the Web Template|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[stateCode_display](#stateCode_display)||<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[statusCode](#statusCode)|Select the web template's status.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[statusCode_display](#statusCode_display)||<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[importSequenceNumber](#importSequenceNumber)|Shows the sequence number of the import that created this record.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Shows the date and time that the record was migrated.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Shows the time zone code that was in use when the record was created.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[MIMEType](#MIMEType)|Shows the MIME type of the web template content.|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[source](#source)||<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with Web Template|<a href="WebTemplate.md" target="_blank">portals/WebTemplate</a>|
 
 ### <a href=#webTemplateId name="webTemplateId">webTemplateId</a>
 

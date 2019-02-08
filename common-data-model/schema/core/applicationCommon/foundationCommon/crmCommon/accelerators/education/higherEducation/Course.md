@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Course
 
 The master list of all courses offered by an institution.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Course.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,45 +46,46 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/Course  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/Course](Course.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/Course](Course.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/Course](Course.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/Course](Course.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/Course](Course.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/Course](Course.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/Course](Course.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/Course](Course.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/Course](Course.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/Course](Course.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/Course](Course.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/Course](Course.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/Course](Course.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/Course](Course.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/Course](Course.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/Course](Course.md)|
-|[courseId](#courseId)|Unique identifier for entity instances|[higherEducation/Course](Course.md)|
-|[stateCode](#stateCode)|Status of the Course|[higherEducation/Course](Course.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/Course](Course.md)|
-|[statusCode](#statusCode)|Reason for the status of the Course|[higherEducation/Course](Course.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/Course](Course.md)|
-|[name](#name)|The name or title of the course.|[higherEducation/Course](Course.md)|
-|[academicLevel](#academicLevel)|Academic Level|[higherEducation/Course](Course.md)|
-|[academicLevel_display](#academicLevel_display)||[higherEducation/Course](Course.md)|
-|[courseNumber](#courseNumber)|The number of the course.|[higherEducation/Course](Course.md)|
-|[endDate](#endDate)|The end date of the course.|[higherEducation/Course](Course.md)|
-|[externalIdentifier](#externalIdentifier)|External Identifier|[higherEducation/Course](Course.md)|
-|[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/Course](Course.md)|
-|[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/Course](Course.md)|
-|[prerequisites](#prerequisites)||[higherEducation/Course](Course.md)|
-|[section](#section)|The specific section of the course.|[higherEducation/Course](Course.md)|
-|[startDate](#startDate)|The start date of the course.|[higherEducation/Course](Course.md)|
-|[subject](#subject)|The subject the course is related to.|[higherEducation/Course](Course.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[courseId](#courseId)|Unique identifier for entity instances|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[stateCode](#stateCode)|Status of the Course|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[stateCode_display](#stateCode_display)||<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[statusCode](#statusCode)|Reason for the status of the Course|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[statusCode_display](#statusCode_display)||<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[name](#name)|The name or title of the course.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[academicLevel](#academicLevel)|Academic Level|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[academicLevel_display](#academicLevel_display)||<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[courseNumber](#courseNumber)|The number of the course.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[endDate](#endDate)|The end date of the course.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[externalIdentifier](#externalIdentifier)|External Identifier|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[externalSourceSystem](#externalSourceSystem)|External Source System|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[externalSourceSystem_display](#externalSourceSystem_display)||<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[prerequisites](#prerequisites)||<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[section](#section)|The specific section of the course.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[startDate](#startDate)|The start date of the course.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
+|[subject](#subject)|The subject the course is related to.|<a href="Course.md" target="_blank">higherEducation/Course</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

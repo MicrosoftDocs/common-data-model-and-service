@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Opportunity Close
 
 Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityClose.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,95 +46,96 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/OpportunityClose  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/OpportunityClose](OpportunityClose.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/OpportunityClose](OpportunityClose.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/OpportunityClose](OpportunityClose.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/OpportunityClose](OpportunityClose.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/OpportunityClose](OpportunityClose.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/OpportunityClose](OpportunityClose.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/OpportunityClose](OpportunityClose.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/OpportunityClose](OpportunityClose.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/OpportunityClose](OpportunityClose.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/OpportunityClose](OpportunityClose.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/OpportunityClose](OpportunityClose.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/OpportunityClose](OpportunityClose.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/OpportunityClose](OpportunityClose.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/OpportunityClose](OpportunityClose.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/OpportunityClose](OpportunityClose.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[sales/OpportunityClose](OpportunityClose.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[sales/OpportunityClose](OpportunityClose.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[sales/OpportunityClose](OpportunityClose.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[priorityCode_display](#priorityCode_display)||[sales/OpportunityClose](OpportunityClose.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[sales/OpportunityClose](OpportunityClose.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[sales/OpportunityClose](OpportunityClose.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[sales/OpportunityClose](OpportunityClose.md)|
-|[subject](#subject)|Subject associated with the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[sales/OpportunityClose](OpportunityClose.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[sales/OpportunityClose](OpportunityClose.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[sales/OpportunityClose](OpportunityClose.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[sales/OpportunityClose](OpportunityClose.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[sales/OpportunityClose](OpportunityClose.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[sales/OpportunityClose](OpportunityClose.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[sales/OpportunityClose](OpportunityClose.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[sales/OpportunityClose](OpportunityClose.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[sales/OpportunityClose](OpportunityClose.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[sales/OpportunityClose](OpportunityClose.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[sales/OpportunityClose](OpportunityClose.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[sales/OpportunityClose](OpportunityClose.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[sales/OpportunityClose](OpportunityClose.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[sales/OpportunityClose](OpportunityClose.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[sales/OpportunityClose](OpportunityClose.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[sales/OpportunityClose](OpportunityClose.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[sales/OpportunityClose](OpportunityClose.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[sales/OpportunityClose](OpportunityClose.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[sales/OpportunityClose](OpportunityClose.md)|
-|[community_display](#community_display)||[sales/OpportunityClose](OpportunityClose.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[sales/OpportunityClose](OpportunityClose.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[sales/OpportunityClose](OpportunityClose.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[sales/OpportunityClose](OpportunityClose.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[sales/OpportunityClose](OpportunityClose.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[sales/OpportunityClose](OpportunityClose.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[sales/OpportunityClose](OpportunityClose.md)|
-|[partners](#partners)|Outsource vendor with which activity is associated.|[sales/OpportunityClose](OpportunityClose.md)|
-|[description](#description)|Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.|[sales/OpportunityClose](OpportunityClose.md)|
-|[stateCode](#stateCode)|Shows whether the opportunity close activity is open, completed, or canceled.  By default, opportunity close activities are completed unless the opportunity is reactivated,  which updates them to canceled.|[sales/OpportunityClose](OpportunityClose.md)|
-|[stateCode_display](#stateCode_display)||[sales/OpportunityClose](OpportunityClose.md)|
-|[statusCode](#statusCode)|Reason for the status of the opportunity close activity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[statusCode_display](#statusCode_display)||[sales/OpportunityClose](OpportunityClose.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/OpportunityClose](OpportunityClose.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/OpportunityClose](OpportunityClose.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[sales/OpportunityClose](OpportunityClose.md)|
-|[processId](#processId)|Unique identifier of the Process.|[sales/OpportunityClose](OpportunityClose.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[sales/OpportunityClose](OpportunityClose.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[sales/OpportunityClose](OpportunityClose.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[sales/OpportunityClose](OpportunityClose.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[sales/OpportunityClose](OpportunityClose.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[sales/OpportunityClose](OpportunityClose.md)|
-|[serviceId](#serviceId)|Unique identifier of the service with which the opportunity close activity is associated.|[sales/OpportunityClose](OpportunityClose.md)|
-|[actualRevenue](#actualRevenue)|Actual revenue generated for the opportunity.|[sales/OpportunityClose](OpportunityClose.md)|
-|[actualRevenueBase](#actualRevenueBase)|Value of the Actual Revenue in base currency.|[sales/OpportunityClose](OpportunityClose.md)|
-|[competitorId](#competitorId)|Unique identifier of the competitor with which the opportunity close activity is associated.|[sales/OpportunityClose](OpportunityClose.md)|
-|[opportunityIdType](#opportunityIdType)|The name of the entity linked by opportunityId|[sales/OpportunityClose](OpportunityClose.md)|
-|[opportunityId](#opportunityId)|Unique identifier of the opportunity closed.|[sales/OpportunityClose](OpportunityClose.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[sales/OpportunityClose](OpportunityClose.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[sales/OpportunityClose](OpportunityClose.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[community_display](#community_display)||<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[partners](#partners)|Outsource vendor with which activity is associated.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[description](#description)|Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[stateCode](#stateCode)|Shows whether the opportunity close activity is open, completed, or canceled.  By default, opportunity close activities are completed unless the opportunity is reactivated,  which updates them to canceled.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[stateCode_display](#stateCode_display)||<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[statusCode](#statusCode)|Reason for the status of the opportunity close activity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[statusCode_display](#statusCode_display)||<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[serviceId](#serviceId)|Unique identifier of the service with which the opportunity close activity is associated.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[actualRevenue](#actualRevenue)|Actual revenue generated for the opportunity.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[actualRevenueBase](#actualRevenueBase)|Value of the Actual Revenue in base currency.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[competitorId](#competitorId)|Unique identifier of the competitor with which the opportunity close activity is associated.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[opportunityIdType](#opportunityIdType)|The name of the entity linked by opportunityId|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[opportunityId](#opportunityId)|Unique identifier of the opportunity closed.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="OpportunityClose.md" target="_blank">sales/OpportunityClose</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

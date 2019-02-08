@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Event Custom Registration Field
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventCustomRegistrationField.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,37 +42,38 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/EventCustomRegistrationField  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[eventCustomRegistrationFieldId](#eventCustomRegistrationFieldId)|Unique identifier for entity instances|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[stateCode](#stateCode)|Status of the Event Custom Registration Field|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[statusCode](#statusCode)|Reason for the status of the Event Custom Registration Field|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[customRegistrationField](#customRegistrationField)||[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[event](#event)||[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
-|[order](#order)||[eventManagement/EventCustomRegistrationField](EventCustomRegistrationField.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[eventCustomRegistrationFieldId](#eventCustomRegistrationFieldId)|Unique identifier for entity instances|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[stateCode](#stateCode)|Status of the Event Custom Registration Field|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[stateCode_display](#stateCode_display)||<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[statusCode](#statusCode)|Reason for the status of the Event Custom Registration Field|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[statusCode_display](#statusCode_display)||<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[name](#name)|The name of the custom entity.|<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[customRegistrationField](#customRegistrationField)||<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[event](#event)||<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
+|[order](#order)||<a href="EventCustomRegistrationField.md" target="_blank">eventManagement/EventCustomRegistrationField</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

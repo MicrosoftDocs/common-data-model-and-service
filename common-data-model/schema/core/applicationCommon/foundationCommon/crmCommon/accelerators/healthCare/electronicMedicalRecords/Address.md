@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Address
 
 Address and shipping information. Used to store additional addresses for an account or contact.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,6 +43,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Address](../../../../../Address.md "/core/applicationCommon/Address.cdm.json/Address")  
 [higherEducation/Address](../../education/higherEducation/Address.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Address.cdm.json/Address")  
 electronicMedicalRecords/Address  
@@ -52,57 +53,57 @@ electronicMedicalRecords/Address
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[parentIdTypeCode](#parentIdTypeCode)|The name of the entity linked by parentId|[applicationCommon/Address](../../../../../Address.md)|
-|[parentId](#parentId)|Choose the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[customerAddressId](#customerAddressId)|Unique identifier of the customer address.|[applicationCommon/Address](../../../../../Address.md)|
-|[addressNumber](#addressNumber)|Shows the number of the address, to indicate whether the address is the primary, secondary, or other address for the customer.|[applicationCommon/Address](../../../../../Address.md)|
-|[objectTypeCode](#objectTypeCode)|Shows the type code of the customer record to indicate whether the address belongs to a customer account or contact.|[applicationCommon/Address](../../../../../Address.md)|
-|[objectTypeCode_display](#objectTypeCode_display)||[applicationCommon/Address](../../../../../Address.md)|
-|[addressTypeCode](#addressTypeCode)|Select the address type, such as primary or billing.|[applicationCommon/Address](../../../../../Address.md)|
-|[addressTypeCode_display](#addressTypeCode_display)||[applicationCommon/Address](../../../../../Address.md)|
-|[name](#name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|[applicationCommon/Address](../../../../../Address.md)|
-|[primaryContactName](#primaryContactName)|Type the name of the primary contact person for the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[line1](#line1)|Type the first line of the customer's address to help identify the location.|[applicationCommon/Address](../../../../../Address.md)|
-|[line2](#line2)|Type the second line of the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[line3](#line3)|Type the third line of the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[city](#city)|Type the city for the customer's address to help identify the location.|[applicationCommon/Address](../../../../../Address.md)|
-|[stateOrProvince](#stateOrProvince)|Type the state or province of the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[county](#county)|Type the county for the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[country](#country)|Type the country or region for the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[postOfficeBox](#postOfficeBox)|Type the post office box number of the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[postalCode](#postalCode)|Type the ZIP Code or postal code for the address.|[applicationCommon/Address](../../../../../Address.md)|
-|[UTCOffset](#UTCOffset)|Select the time zone for the address.|[applicationCommon/Address](../../../../../Address.md)|
-|[freightTermsCode](#freightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|[applicationCommon/Address](../../../../../Address.md)|
-|[freightTermsCode_display](#freightTermsCode_display)||[applicationCommon/Address](../../../../../Address.md)|
-|[UPSZone](#UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|[applicationCommon/Address](../../../../../Address.md)|
-|[latitude](#latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Address](../../../../../Address.md)|
-|[telephone1](#telephone1)|Type the primary phone number for the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[longitude](#longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Address](../../../../../Address.md)|
-|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|[applicationCommon/Address](../../../../../Address.md)|
-|[shippingMethodCode_display](#shippingMethodCode_display)||[applicationCommon/Address](../../../../../Address.md)|
-|[telephone2](#telephone2)|Type a second phone number for the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[telephone3](#telephone3)|Type a third phone number for the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[fax](#fax)|Type the fax number associated with the customer's address.|[applicationCommon/Address](../../../../../Address.md)|
-|[versionNumber](#versionNumber)|Version number of the customer address.|[applicationCommon/Address](../../../../../Address.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Address](../../../../../Address.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/Address](../../../../../Address.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Address](../../../../../Address.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/Address](../../../../../Address.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Shows the business unit that the record owner belongs to.|[applicationCommon/Address](../../../../../Address.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns the customer address.|[applicationCommon/Address](../../../../../Address.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Address](../../../../../Address.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Address](../../../../../Address.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Address](../../../../../Address.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Address](../../../../../Address.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Address](../../../../../Address.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Address](../../../../../Address.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Address](../../../../../Address.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Address](../../../../../Address.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Address](../../../../../Address.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Address](../../../../../Address.md)|
-|[composite](#composite)|Shows the complete address.|[applicationCommon/Address](../../../../../Address.md)|
-|[endDate](#endDate)||[electronicMedicalRecords/Address](Address.md)|
-|[startDate](#startDate)||[electronicMedicalRecords/Address](Address.md)|
+|[parentIdTypeCode](#parentIdTypeCode)|The name of the entity linked by parentId|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[parentId](#parentId)|Choose the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[customerAddressId](#customerAddressId)|Unique identifier of the customer address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[addressNumber](#addressNumber)|Shows the number of the address, to indicate whether the address is the primary, secondary, or other address for the customer.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[objectTypeCode](#objectTypeCode)|Shows the type code of the customer record to indicate whether the address belongs to a customer account or contact.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[objectTypeCode_display](#objectTypeCode_display)||<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[addressTypeCode](#addressTypeCode)|Select the address type, such as primary or billing.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[addressTypeCode_display](#addressTypeCode_display)||<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[name](#name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[primaryContactName](#primaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[line1](#line1)|Type the first line of the customer's address to help identify the location.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[line2](#line2)|Type the second line of the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[line3](#line3)|Type the third line of the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[city](#city)|Type the city for the customer's address to help identify the location.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[stateOrProvince](#stateOrProvince)|Type the state or province of the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[county](#county)|Type the county for the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[country](#country)|Type the country or region for the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[postOfficeBox](#postOfficeBox)|Type the post office box number of the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[postalCode](#postalCode)|Type the ZIP Code or postal code for the address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[UTCOffset](#UTCOffset)|Select the time zone for the address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[freightTermsCode](#freightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[freightTermsCode_display](#freightTermsCode_display)||<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[UPSZone](#UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[latitude](#latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[telephone1](#telephone1)|Type the primary phone number for the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[longitude](#longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[telephone2](#telephone2)|Type a second phone number for the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[telephone3](#telephone3)|Type a third phone number for the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[fax](#fax)|Type the fax number associated with the customer's address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[versionNumber](#versionNumber)|Version number of the customer address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Shows the business unit that the record owner belongs to.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns the customer address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[composite](#composite)|Shows the complete address.|<a href="../../../../../Address.md" target="_blank">applicationCommon/Address</a>|
+|[endDate](#endDate)||<a href="Address.md" target="_blank">electronicMedicalRecords/Address</a>|
+|[startDate](#startDate)||<a href="Address.md" target="_blank">electronicMedicalRecords/Address</a>|
 
 ### <a href=#parentIdTypeCode name="parentIdTypeCode">parentIdTypeCode</a>
 

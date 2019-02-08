@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Child Incident Count
 
 For internal use only.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ChildIncidentCount.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,21 +43,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/ChildIncidentCount  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[childIncidentCountId](#childIncidentCountId)||[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[name](#name)|name|[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[parentCaseId](#parentCaseId)||[service/ChildIncidentCount](ChildIncidentCount.md)|
-|[numberOfChildIncidents](#numberOfChildIncidents)||[service/ChildIncidentCount](ChildIncidentCount.md)|
+|[childIncidentCountId](#childIncidentCountId)||<a href="ChildIncidentCount.md" target="_blank">service/ChildIncidentCount</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ChildIncidentCount.md" target="_blank">service/ChildIncidentCount</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ChildIncidentCount.md" target="_blank">service/ChildIncidentCount</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ChildIncidentCount.md" target="_blank">service/ChildIncidentCount</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ChildIncidentCount.md" target="_blank">service/ChildIncidentCount</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ChildIncidentCount.md" target="_blank">service/ChildIncidentCount</a>|
+|[name](#name)|name|<a href="ChildIncidentCount.md" target="_blank">service/ChildIncidentCount</a>|
+|[parentCaseId](#parentCaseId)||<a href="ChildIncidentCount.md" target="_blank">service/ChildIncidentCount</a>|
+|[numberOfChildIncidents](#numberOfChildIncidents)||<a href="ChildIncidentCount.md" target="_blank">service/ChildIncidentCount</a>|
 
 ### <a href=#childIncidentCountId name="childIncidentCountId">childIncidentCountId</a>
 

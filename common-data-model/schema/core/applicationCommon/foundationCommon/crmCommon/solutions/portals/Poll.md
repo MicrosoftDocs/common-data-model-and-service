@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Poll
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Poll.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,42 +42,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/Poll  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/Poll](Poll.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/Poll](Poll.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/Poll](Poll.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/Poll](Poll.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/Poll](Poll.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/Poll](Poll.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/Poll](Poll.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/Poll](Poll.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/Poll](Poll.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/Poll](Poll.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/Poll](Poll.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/Poll](Poll.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/Poll](Poll.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/Poll](Poll.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/Poll](Poll.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/Poll](Poll.md)|
-|[pollId](#pollId)|Shows the entity instance.|[portals/Poll](Poll.md)|
-|[stateCode](#stateCode)|Status of the Poll|[portals/Poll](Poll.md)|
-|[stateCode_display](#stateCode_display)||[portals/Poll](Poll.md)|
-|[statusCode](#statusCode)|Select the poll's status.|[portals/Poll](Poll.md)|
-|[statusCode_display](#statusCode_display)||[portals/Poll](Poll.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/Poll](Poll.md)|
-|[active](#active)||[portals/Poll](Poll.md)|
-|[closeVotingDate](#closeVotingDate)||[portals/Poll](Poll.md)|
-|[expirationDate](#expirationDate)||[portals/Poll](Poll.md)|
-|[question](#question)||[portals/Poll](Poll.md)|
-|[releaseDate](#releaseDate)||[portals/Poll](Poll.md)|
-|[submitButtonLabel](#submitButtonLabel)||[portals/Poll](Poll.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with Poll.|[portals/Poll](Poll.md)|
-|[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Poll.|[portals/Poll](Poll.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[pollId](#pollId)|Shows the entity instance.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[stateCode](#stateCode)|Status of the Poll|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[stateCode_display](#stateCode_display)||<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[statusCode](#statusCode)|Select the poll's status.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[statusCode_display](#statusCode_display)||<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[active](#active)||<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[closeVotingDate](#closeVotingDate)||<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[expirationDate](#expirationDate)||<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[question](#question)||<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[releaseDate](#releaseDate)||<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[submitButtonLabel](#submitButtonLabel)||<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with Poll.|<a href="Poll.md" target="_blank">portals/Poll</a>|
+|[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Poll.|<a href="Poll.md" target="_blank">portals/Poll</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

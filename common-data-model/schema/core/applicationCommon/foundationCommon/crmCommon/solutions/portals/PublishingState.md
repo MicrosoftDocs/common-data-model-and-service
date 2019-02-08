@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Publishing State
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PublishingState.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,38 +42,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/PublishingState  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/PublishingState](PublishingState.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/PublishingState](PublishingState.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/PublishingState](PublishingState.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/PublishingState](PublishingState.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/PublishingState](PublishingState.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/PublishingState](PublishingState.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/PublishingState](PublishingState.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/PublishingState](PublishingState.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/PublishingState](PublishingState.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/PublishingState](PublishingState.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/PublishingState](PublishingState.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/PublishingState](PublishingState.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/PublishingState](PublishingState.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/PublishingState](PublishingState.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/PublishingState](PublishingState.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/PublishingState](PublishingState.md)|
-|[publishingStateId](#publishingStateId)|Shows the entity instance.|[portals/PublishingState](PublishingState.md)|
-|[stateCode](#stateCode)|Status of the Publishing State|[portals/PublishingState](PublishingState.md)|
-|[stateCode_display](#stateCode_display)||[portals/PublishingState](PublishingState.md)|
-|[statusCode](#statusCode)|Select the publishing state's status.|[portals/PublishingState](PublishingState.md)|
-|[statusCode_display](#statusCode_display)||[portals/PublishingState](PublishingState.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/PublishingState](PublishingState.md)|
-|[displayOrder](#displayOrder)||[portals/PublishingState](PublishingState.md)|
-|[isDefault](#isDefault)||[portals/PublishingState](PublishingState.md)|
-|[isVisible](#isVisible)||[portals/PublishingState](PublishingState.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with Publishing State.|[portals/PublishingState](PublishingState.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[publishingStateId](#publishingStateId)|Shows the entity instance.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[stateCode](#stateCode)|Status of the Publishing State|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[stateCode_display](#stateCode_display)||<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[statusCode](#statusCode)|Select the publishing state's status.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[statusCode_display](#statusCode_display)||<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[displayOrder](#displayOrder)||<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[isDefault](#isDefault)||<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[isVisible](#isVisible)||<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with Publishing State.|<a href="PublishingState.md" target="_blank">portals/PublishingState</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

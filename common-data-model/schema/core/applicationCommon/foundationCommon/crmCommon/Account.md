@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Account
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Account](../../Account.md "/core/applicationCommon/Account.cdm.json/Account")  
 [foundationCommon/Account](../Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
 crmCommon/Account  
@@ -59,183 +60,183 @@ crmCommon/Account
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Account](../../Account.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Account](../../Account.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Account](../../Account.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Account](../../Account.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Account](../../Account.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Account](../../Account.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Account](../../Account.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Account](../../Account.md)|
-|[ownerIdType](#ownerIdType)||[applicationCommon/Account](../../Account.md)|
-|[ownerId](#ownerId)||[applicationCommon/Account](../../Account.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/Account](../../Account.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/Account](../../Account.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/Account](../../Account.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Account](../../Account.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Account](../../Account.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Account](../../Account.md)|
-|[accountId](#accountId)|Unique identifier of the account.|[applicationCommon/Account](../../Account.md)|
-|[accountCategoryCode](#accountCategoryCode)|Select a category to indicate whether the customer account is standard or preferred.|[applicationCommon/Account](../../Account.md)|
-|[accountCategoryCode_display](#accountCategoryCode_display)||[applicationCommon/Account](../../Account.md)|
-|[customerSizeCode](#customerSizeCode)|Select the size category or range of the account for segmentation and reporting purposes.|[applicationCommon/Account](../../Account.md)|
-|[customerSizeCode_display](#customerSizeCode_display)||[applicationCommon/Account](../../Account.md)|
-|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|[applicationCommon/Account](../../Account.md)|
-|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||[applicationCommon/Account](../../Account.md)|
-|[customerTypeCode](#customerTypeCode)|Select the category that best describes the relationship between the account and your organization.|[applicationCommon/Account](../../Account.md)|
-|[customerTypeCode_display](#customerTypeCode_display)||[applicationCommon/Account](../../Account.md)|
-|[accountRatingCode](#accountRatingCode)|Select a rating to indicate the value of the customer account.|[applicationCommon/Account](../../Account.md)|
-|[accountRatingCode_display](#accountRatingCode_display)||[applicationCommon/Account](../../Account.md)|
-|[industryCode](#industryCode)|Select the account's primary industry for use in marketing segmentation and demographic analysis.|[applicationCommon/Account](../../Account.md)|
-|[industryCode_display](#industryCode_display)||[applicationCommon/Account](../../Account.md)|
-|[territoryCode](#territoryCode)|Select a region or territory for the account for use in segmentation and analysis.|[applicationCommon/Account](../../Account.md)|
-|[territoryCode_display](#territoryCode_display)||[applicationCommon/Account](../../Account.md)|
-|[accountClassificationCode](#accountClassificationCode)|Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length or other criteria.|[applicationCommon/Account](../../Account.md)|
-|[accountClassificationCode_display](#accountClassificationCode_display)||[applicationCommon/Account](../../Account.md)|
-|[businessTypeCode](#businessTypeCode)|Select the legal designation or other business type of the account for contracts or reporting purposes.|[applicationCommon/Account](../../Account.md)|
-|[businessTypeCode_display](#businessTypeCode_display)||[applicationCommon/Account](../../Account.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/Account](../../Account.md)|
-|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|[applicationCommon/Account](../../Account.md)|
-|[paymentTermsCode_display](#paymentTermsCode_display)||[applicationCommon/Account](../../Account.md)|
-|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to the account's address to designate the preferred carrier or other delivery option.|[applicationCommon/Account](../../Account.md)|
-|[shippingMethodCode_display](#shippingMethodCode_display)||[applicationCommon/Account](../../Account.md)|
-|[primaryContactId](#primaryContactId)|Choose the primary contact for the account to provide quick access to contact details.|[applicationCommon/Account](../../Account.md)|
-|[participatesInWorkflow](#participatesInWorkflow)|For system use only. Legacy Microsoft Dynamics CRM 3.0 workflow data.|[applicationCommon/Account](../../Account.md)|
-|[name](#name)|Type the company or business name.|[applicationCommon/Account](../../Account.md)|
-|[accountNumber](#accountNumber)|Type an ID number or code for the account to quickly search and identify the account in system views.|[applicationCommon/Account](../../Account.md)|
-|[revenue](#revenue)|Type the annual revenue for the account, used as an indicator in financial performance analysis.|[applicationCommon/Account](../../Account.md)|
-|[numberOfEmployees](#numberOfEmployees)|Type the number of employees that work at the account for use in marketing segmentation and demographic analysis.|[applicationCommon/Account](../../Account.md)|
-|[description](#description)|Type additional information to describe the account, such as an excerpt from the company's website.|[applicationCommon/Account](../../Account.md)|
-|[SIC](#SIC)|Type the Standard Industrial Classification (SIC) code that indicates the account's primary industry of business, for use in marketing segmentation and demographic analysis.|[applicationCommon/Account](../../Account.md)|
-|[ownershipCode](#ownershipCode)|Select the account's ownership structure, such as public or private.|[applicationCommon/Account](../../Account.md)|
-|[ownershipCode_display](#ownershipCode_display)||[applicationCommon/Account](../../Account.md)|
-|[marketCap](#marketCap)|Type the market capitalization of the account to identify the company's equity, used as an indicator in financial performance analysis.|[applicationCommon/Account](../../Account.md)|
-|[sharesOutstanding](#sharesOutstanding)|Type the number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.|[applicationCommon/Account](../../Account.md)|
-|[tickerSymbol](#tickerSymbol)|Type the stock exchange symbol for the account to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.|[applicationCommon/Account](../../Account.md)|
-|[stockExchange](#stockExchange)|Type the stock exchange at which the account is listed to track their stock and financial performance of the company.|[applicationCommon/Account](../../Account.md)|
-|[webSiteUrl](#webSiteUrl)|Type the account's website URL to get quick details about the company profile.|[applicationCommon/Account](../../Account.md)|
-|[ftpSiteUrl](#ftpSiteUrl)|Type the URL for the account's FTP site to enable users to access data and share documents.|[applicationCommon/Account](../../Account.md)|
-|[EMailAddress1](#EMailAddress1)|Type the primary email address for the account.|[applicationCommon/Account](../../Account.md)|
-|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the account.|[applicationCommon/Account](../../Account.md)|
-|[EMailAddress3](#EMailAddress3)|Type an alternate email address for the account.|[applicationCommon/Account](../../Account.md)|
-|[doNotPhone](#doNotPhone)|Select whether the account allows phone calls. If Do Not Allow is selected, the account will be excluded from phone call activities distributed in marketing campaigns.|[applicationCommon/Account](../../Account.md)|
-|[doNotFax](#doNotFax)|Select whether the account allows faxes. If Do Not Allow is selected, the account will be excluded from fax activities distributed in marketing campaigns.|[applicationCommon/Account](../../Account.md)|
-|[telephone1](#telephone1)|Type the main phone number for this account.|[applicationCommon/Account](../../Account.md)|
-|[doNotEMail](#doNotEMail)|Select whether the account allows direct email sent from Microsoft Dynamics 365.|[applicationCommon/Account](../../Account.md)|
-|[telephone2](#telephone2)|Type a second phone number for this account.|[applicationCommon/Account](../../Account.md)|
-|[fax](#fax)|Type the fax number for the account.|[applicationCommon/Account](../../Account.md)|
-|[telephone3](#telephone3)|Type a third phone number for this account.|[applicationCommon/Account](../../Account.md)|
-|[doNotPostalMail](#doNotPostalMail)|Select whether the account allows direct mail. If Do Not Allow is selected, the account will be excluded from letter activities distributed in marketing campaigns.|[applicationCommon/Account](../../Account.md)|
-|[doNotBulkEMail](#doNotBulkEMail)|Select whether the account allows bulk email sent through campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from email.|[applicationCommon/Account](../../Account.md)|
-|[doNotBulkPostalMail](#doNotBulkPostalMail)|Select whether the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but will be excluded from the postal mail.|[applicationCommon/Account](../../Account.md)|
-|[creditLimit](#creditLimit)|Type the credit limit of the account. This is a useful reference when you address invoice and accounting issues with the customer.|[applicationCommon/Account](../../Account.md)|
-|[creditOnHold](#creditOnHold)|Select whether the credit for the account is on hold. This is a useful reference while addressing the invoice and accounting issues with the customer.|[applicationCommon/Account](../../Account.md)|
-|[parentAccountId](#parentAccountId)|Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.|[applicationCommon/Account](../../Account.md)|
-|[aging30](#aging30)|For system use only.|[applicationCommon/Account](../../Account.md)|
-|[stateCode](#stateCode)|Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated.|[applicationCommon/Account](../../Account.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Account](../../Account.md)|
-|[aging60](#aging60)|For system use only.|[applicationCommon/Account](../../Account.md)|
-|[statusCode](#statusCode)|Select the account's status.|[applicationCommon/Account](../../Account.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Account](../../Account.md)|
-|[aging90](#aging90)|For system use only.|[applicationCommon/Account](../../Account.md)|
-|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|[applicationCommon/Account](../../Account.md)|
-|[address1AddressTypeCode](#address1AddressTypeCode)|Select the address type, such as primary or billing.|[applicationCommon/Account](../../Account.md)|
-|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||[applicationCommon/Account](../../Account.md)|
-|[address1Name](#address1Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|[applicationCommon/Account](../../Account.md)|
-|[address1PrimaryContactName](#address1PrimaryContactName)|Type the name of the primary contact person for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1Line1](#address1Line1)|Type the first line of the customer's address to help identify the location.|[applicationCommon/Account](../../Account.md)|
-|[address1Line2](#address1Line2)|Type the second line of the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1Line3](#address1Line3)|Type the third line of the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1City](#address1City)|Type the city for the customer's address to help identify the location.|[applicationCommon/Account](../../Account.md)|
-|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1County](#address1County)|Type the county for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1Country](#address1Country)|Type the country or region for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the address.|[applicationCommon/Account](../../Account.md)|
-|[address1UTCOffset](#address1UTCOffset)|Select the time zone for the address.|[applicationCommon/Account](../../Account.md)|
-|[address1FreightTermsCode](#address1FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|[applicationCommon/Account](../../Account.md)|
-|[address1FreightTermsCode_display](#address1FreightTermsCode_display)||[applicationCommon/Account](../../Account.md)|
-|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|[applicationCommon/Account](../../Account.md)|
-|[address1Latitude](#address1Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Account](../../Account.md)|
-|[address1Telephone1](#address1Telephone1)|Type the primary phone number for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1Longitude](#address1Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Account](../../Account.md)|
-|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|[applicationCommon/Account](../../Account.md)|
-|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||[applicationCommon/Account](../../Account.md)|
-|[address1Telephone2](#address1Telephone2)|Type a second phone number for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1Telephone3](#address1Telephone3)|Type a third phone number for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1Fax](#address1Fax)|Type the fax number associated with the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address1Composite](#address1Composite)|Shows the complete address.|[applicationCommon/Account](../../Account.md)|
-|[address2AddressId](#address2AddressId)|Unique identifier for address 1.|[applicationCommon/Account](../../Account.md)|
-|[address2AddressTypeCode](#address2AddressTypeCode)|Select the address type, such as primary or billing.|[applicationCommon/Account](../../Account.md)|
-|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||[applicationCommon/Account](../../Account.md)|
-|[address2Name](#address2Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|[applicationCommon/Account](../../Account.md)|
-|[address2PrimaryContactName](#address2PrimaryContactName)|Type the name of the primary contact person for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2Line1](#address2Line1)|Type the first line of the customer's address to help identify the location.|[applicationCommon/Account](../../Account.md)|
-|[address2Line2](#address2Line2)|Type the second line of the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2Line3](#address2Line3)|Type the third line of the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2City](#address2City)|Type the city for the customer's address to help identify the location.|[applicationCommon/Account](../../Account.md)|
-|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2County](#address2County)|Type the county for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2Country](#address2Country)|Type the country or region for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the address.|[applicationCommon/Account](../../Account.md)|
-|[address2UTCOffset](#address2UTCOffset)|Select the time zone for the address.|[applicationCommon/Account](../../Account.md)|
-|[address2FreightTermsCode](#address2FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|[applicationCommon/Account](../../Account.md)|
-|[address2FreightTermsCode_display](#address2FreightTermsCode_display)||[applicationCommon/Account](../../Account.md)|
-|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|[applicationCommon/Account](../../Account.md)|
-|[address2Latitude](#address2Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Account](../../Account.md)|
-|[address2Telephone1](#address2Telephone1)|Type the primary phone number for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2Longitude](#address2Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Account](../../Account.md)|
-|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|[applicationCommon/Account](../../Account.md)|
-|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||[applicationCommon/Account](../../Account.md)|
-|[address2Telephone2](#address2Telephone2)|Type a second phone number for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2Telephone3](#address2Telephone3)|Type a third phone number for the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2Fax](#address2Fax)|Type the fax number associated with the customer's address.|[applicationCommon/Account](../../Account.md)|
-|[address2Composite](#address2Composite)|Shows the complete address.|[applicationCommon/Account](../../Account.md)|
-|[preferredAppointmentDayCode](#preferredAppointmentDayCode)|Select the preferred day of the week for service appointments.|[applicationCommon/Account](../../Account.md)|
-|[preferredAppointmentDayCode_display](#preferredAppointmentDayCode_display)||[applicationCommon/Account](../../Account.md)|
-|[preferredSystemUserId](#preferredSystemUserId)|Choose the preferred service representative for reference when you schedule service activities for the account.|[applicationCommon/Account](../../Account.md)|
-|[preferredAppointmentTimeCode](#preferredAppointmentTimeCode)|Select the preferred time of day for service appointments.|[applicationCommon/Account](../../Account.md)|
-|[preferredAppointmentTimeCode_display](#preferredAppointmentTimeCode_display)||[applicationCommon/Account](../../Account.md)|
-|[merged](#merged)|Shows whether the account has been merged with another account.|[applicationCommon/Account](../../Account.md)|
-|[doNotSendMM](#doNotSendMM)|Select whether the account accepts marketing materials, such as brochures or catalogs.|[applicationCommon/Account](../../Account.md)|
-|[masterId](#masterId)|Shows the master account that the account was merged with.|[applicationCommon/Account](../../Account.md)|
-|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the account was last included in a marketing campaign or quick campaign.|[applicationCommon/Account](../../Account.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Account](../../Account.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Account](../../Account.md)|
-|[creditLimitBase](#creditLimitBase)|Shows the credit limit converted to the system's default base currency for reporting purposes.|[applicationCommon/Account](../../Account.md)|
-|[aging30Base](#aging30Base)|The base currency equivalent of the aging 30 field.|[applicationCommon/Account](../../Account.md)|
-|[revenueBase](#revenueBase)|Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|[applicationCommon/Account](../../Account.md)|
-|[aging90Base](#aging90Base)|The base currency equivalent of the aging 90 field.|[applicationCommon/Account](../../Account.md)|
-|[marketCapBase](#marketCapBase)|Shows the market capitalization converted to the system's default base currency.|[applicationCommon/Account](../../Account.md)|
-|[aging60Base](#aging60Base)|The base currency equivalent of the aging 60 field.|[applicationCommon/Account](../../Account.md)|
-|[yomiName](#yomiName)|Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|[applicationCommon/Account](../../Account.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/Account](../../Account.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/Account](../../Account.md)|
-|[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Account](../../Account.md)|
-|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to account record.|[applicationCommon/Account](../../Account.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[applicationCommon/Account](../../Account.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[applicationCommon/Account](../../Account.md)|
-|[primarySatoriId](#primarySatoriId)|Primary Satori ID for Account|[applicationCommon/Account](../../Account.md)|
-|[primaryTwitterId](#primaryTwitterId)|Primary Twitter ID for Account|[applicationCommon/Account](../../Account.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Account record.|[applicationCommon/Account](../../Account.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[applicationCommon/Account](../../Account.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/Account](../../Account.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Account](../../Account.md)|
-|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.|[applicationCommon/Account](../../Account.md)|
-|[marketingOnly](#marketingOnly)|Whether is only for marketing|[applicationCommon/Account](../../Account.md)|
-|[defaultPriceLevelId](#defaultPriceLevelId)|Choose the default price list associated with the account to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.|[foundationCommon/Account](../Account.md)|
-|[originatingLeadId](#originatingLeadId)|Shows the lead that the account was created from if the account was created by converting a lead in Microsoft Dynamics 365. This is used to relate the account to data on the originating lead for use in reporting and analytics.|[crmCommon/Account](Account.md)|
-|[preferredEquipmentId](#preferredEquipmentId)|Choose the account's preferred service facility or equipment to make sure services are scheduled correctly for the customer.|[crmCommon/Account](Account.md)|
-|[preferredServiceId](#preferredServiceId)|Choose the account's preferred service for reference when you schedule service activities.|[crmCommon/Account](Account.md)|
-|[territoryId](#territoryId)|Choose the sales region or territory for the account to make sure the account is assigned to the correct representative and for use in segmentation and analysis.|[crmCommon/Account](Account.md)|
-|[openDeals](#openDeals)|Number of open opportunities against an account and its child accounts.|[crmCommon/Account](Account.md)|
-|[openDealsDate](#openDealsDate)|Last Updated time of rollup field Open Deals.|[crmCommon/Account](Account.md)|
-|[openDealsState](#openDealsState)|State of rollup field Open Deals.|[crmCommon/Account](Account.md)|
-|[openRevenue](#openRevenue)|Sum of open revenue against an account and its child accounts.|[crmCommon/Account](Account.md)|
-|[openRevenueBase](#openRevenueBase)|Value of the Open Revenue in base currency.|[crmCommon/Account](Account.md)|
-|[openRevenueDate](#openRevenueDate)|Last Updated time of rollup field Open Revenue.|[crmCommon/Account](Account.md)|
-|[openRevenueState](#openRevenueState)|State of rollup field Open Revenue.|[crmCommon/Account](Account.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[ownerIdType](#ownerIdType)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[ownerId](#ownerId)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[accountId](#accountId)|Unique identifier of the account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[accountCategoryCode](#accountCategoryCode)|Select a category to indicate whether the customer account is standard or preferred.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[accountCategoryCode_display](#accountCategoryCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[customerSizeCode](#customerSizeCode)|Select the size category or range of the account for segmentation and reporting purposes.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[customerSizeCode_display](#customerSizeCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[customerTypeCode](#customerTypeCode)|Select the category that best describes the relationship between the account and your organization.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[customerTypeCode_display](#customerTypeCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[accountRatingCode](#accountRatingCode)|Select a rating to indicate the value of the customer account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[accountRatingCode_display](#accountRatingCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[industryCode](#industryCode)|Select the account's primary industry for use in marketing segmentation and demographic analysis.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[industryCode_display](#industryCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[territoryCode](#territoryCode)|Select a region or territory for the account for use in segmentation and analysis.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[territoryCode_display](#territoryCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[accountClassificationCode](#accountClassificationCode)|Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length or other criteria.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[accountClassificationCode_display](#accountClassificationCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[businessTypeCode](#businessTypeCode)|Select the legal designation or other business type of the account for contracts or reporting purposes.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[businessTypeCode_display](#businessTypeCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[paymentTermsCode_display](#paymentTermsCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to the account's address to designate the preferred carrier or other delivery option.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[primaryContactId](#primaryContactId)|Choose the primary contact for the account to provide quick access to contact details.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[participatesInWorkflow](#participatesInWorkflow)|For system use only. Legacy Microsoft Dynamics CRM 3.0 workflow data.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[name](#name)|Type the company or business name.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[accountNumber](#accountNumber)|Type an ID number or code for the account to quickly search and identify the account in system views.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[revenue](#revenue)|Type the annual revenue for the account, used as an indicator in financial performance analysis.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[numberOfEmployees](#numberOfEmployees)|Type the number of employees that work at the account for use in marketing segmentation and demographic analysis.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[description](#description)|Type additional information to describe the account, such as an excerpt from the company's website.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[SIC](#SIC)|Type the Standard Industrial Classification (SIC) code that indicates the account's primary industry of business, for use in marketing segmentation and demographic analysis.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[ownershipCode](#ownershipCode)|Select the account's ownership structure, such as public or private.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[ownershipCode_display](#ownershipCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[marketCap](#marketCap)|Type the market capitalization of the account to identify the company's equity, used as an indicator in financial performance analysis.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[sharesOutstanding](#sharesOutstanding)|Type the number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[tickerSymbol](#tickerSymbol)|Type the stock exchange symbol for the account to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[stockExchange](#stockExchange)|Type the stock exchange at which the account is listed to track their stock and financial performance of the company.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[webSiteUrl](#webSiteUrl)|Type the account's website URL to get quick details about the company profile.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[ftpSiteUrl](#ftpSiteUrl)|Type the URL for the account's FTP site to enable users to access data and share documents.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[EMailAddress1](#EMailAddress1)|Type the primary email address for the account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[EMailAddress3](#EMailAddress3)|Type an alternate email address for the account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[doNotPhone](#doNotPhone)|Select whether the account allows phone calls. If Do Not Allow is selected, the account will be excluded from phone call activities distributed in marketing campaigns.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[doNotFax](#doNotFax)|Select whether the account allows faxes. If Do Not Allow is selected, the account will be excluded from fax activities distributed in marketing campaigns.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[telephone1](#telephone1)|Type the main phone number for this account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[doNotEMail](#doNotEMail)|Select whether the account allows direct email sent from Microsoft Dynamics 365.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[telephone2](#telephone2)|Type a second phone number for this account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[fax](#fax)|Type the fax number for the account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[telephone3](#telephone3)|Type a third phone number for this account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[doNotPostalMail](#doNotPostalMail)|Select whether the account allows direct mail. If Do Not Allow is selected, the account will be excluded from letter activities distributed in marketing campaigns.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[doNotBulkEMail](#doNotBulkEMail)|Select whether the account allows bulk email sent through campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from email.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[doNotBulkPostalMail](#doNotBulkPostalMail)|Select whether the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but will be excluded from the postal mail.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[creditLimit](#creditLimit)|Type the credit limit of the account. This is a useful reference when you address invoice and accounting issues with the customer.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[creditOnHold](#creditOnHold)|Select whether the credit for the account is on hold. This is a useful reference while addressing the invoice and accounting issues with the customer.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[parentAccountId](#parentAccountId)|Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[aging30](#aging30)|For system use only.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[stateCode](#stateCode)|Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[aging60](#aging60)|For system use only.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[statusCode](#statusCode)|Select the account's status.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[aging90](#aging90)|For system use only.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1AddressTypeCode](#address1AddressTypeCode)|Select the address type, such as primary or billing.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Name](#address1Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1PrimaryContactName](#address1PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Line1](#address1Line1)|Type the first line of the customer's address to help identify the location.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Line2](#address1Line2)|Type the second line of the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Line3](#address1Line3)|Type the third line of the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1City](#address1City)|Type the city for the customer's address to help identify the location.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1County](#address1County)|Type the county for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Country](#address1Country)|Type the country or region for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1UTCOffset](#address1UTCOffset)|Select the time zone for the address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1FreightTermsCode](#address1FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1FreightTermsCode_display](#address1FreightTermsCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Latitude](#address1Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Telephone1](#address1Telephone1)|Type the primary phone number for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Longitude](#address1Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Telephone2](#address1Telephone2)|Type a second phone number for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Telephone3](#address1Telephone3)|Type a third phone number for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Fax](#address1Fax)|Type the fax number associated with the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address1Composite](#address1Composite)|Shows the complete address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2AddressId](#address2AddressId)|Unique identifier for address 1.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2AddressTypeCode](#address2AddressTypeCode)|Select the address type, such as primary or billing.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Name](#address2Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2PrimaryContactName](#address2PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Line1](#address2Line1)|Type the first line of the customer's address to help identify the location.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Line2](#address2Line2)|Type the second line of the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Line3](#address2Line3)|Type the third line of the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2City](#address2City)|Type the city for the customer's address to help identify the location.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2County](#address2County)|Type the county for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Country](#address2Country)|Type the country or region for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2UTCOffset](#address2UTCOffset)|Select the time zone for the address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2FreightTermsCode](#address2FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2FreightTermsCode_display](#address2FreightTermsCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Latitude](#address2Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Telephone1](#address2Telephone1)|Type the primary phone number for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Longitude](#address2Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Telephone2](#address2Telephone2)|Type a second phone number for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Telephone3](#address2Telephone3)|Type a third phone number for the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Fax](#address2Fax)|Type the fax number associated with the customer's address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[address2Composite](#address2Composite)|Shows the complete address.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[preferredAppointmentDayCode](#preferredAppointmentDayCode)|Select the preferred day of the week for service appointments.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[preferredAppointmentDayCode_display](#preferredAppointmentDayCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[preferredSystemUserId](#preferredSystemUserId)|Choose the preferred service representative for reference when you schedule service activities for the account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[preferredAppointmentTimeCode](#preferredAppointmentTimeCode)|Select the preferred time of day for service appointments.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[preferredAppointmentTimeCode_display](#preferredAppointmentTimeCode_display)||<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[merged](#merged)|Shows whether the account has been merged with another account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[doNotSendMM](#doNotSendMM)|Select whether the account accepts marketing materials, such as brochures or catalogs.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[masterId](#masterId)|Shows the master account that the account was merged with.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the account was last included in a marketing campaign or quick campaign.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[creditLimitBase](#creditLimitBase)|Shows the credit limit converted to the system's default base currency for reporting purposes.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[aging30Base](#aging30Base)|The base currency equivalent of the aging 30 field.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[revenueBase](#revenueBase)|Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[aging90Base](#aging90Base)|The base currency equivalent of the aging 90 field.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[marketCapBase](#marketCapBase)|Shows the market capitalization converted to the system's default base currency.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[aging60Base](#aging60Base)|The base currency equivalent of the aging 60 field.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[yomiName](#yomiName)|Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to account record.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[primarySatoriId](#primarySatoriId)|Primary Satori ID for Account|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[primaryTwitterId](#primaryTwitterId)|Primary Twitter ID for Account|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Account record.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[marketingOnly](#marketingOnly)|Whether is only for marketing|<a href="../../Account.md" target="_blank">applicationCommon/Account</a>|
+|[defaultPriceLevelId](#defaultPriceLevelId)|Choose the default price list associated with the account to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.|<a href="../Account.md" target="_blank">foundationCommon/Account</a>|
+|[originatingLeadId](#originatingLeadId)|Shows the lead that the account was created from if the account was created by converting a lead in Microsoft Dynamics 365. This is used to relate the account to data on the originating lead for use in reporting and analytics.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[preferredEquipmentId](#preferredEquipmentId)|Choose the account's preferred service facility or equipment to make sure services are scheduled correctly for the customer.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[preferredServiceId](#preferredServiceId)|Choose the account's preferred service for reference when you schedule service activities.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[territoryId](#territoryId)|Choose the sales region or territory for the account to make sure the account is assigned to the correct representative and for use in segmentation and analysis.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[openDeals](#openDeals)|Number of open opportunities against an account and its child accounts.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[openDealsDate](#openDealsDate)|Last Updated time of rollup field Open Deals.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[openDealsState](#openDealsState)|State of rollup field Open Deals.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[openRevenue](#openRevenue)|Sum of open revenue against an account and its child accounts.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[openRevenueBase](#openRevenueBase)|Value of the Open Revenue in base currency.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[openRevenueDate](#openRevenueDate)|Last Updated time of rollup field Open Revenue.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
+|[openRevenueState](#openRevenueState)|State of rollup field Open Revenue.|<a href="Account.md" target="_blank">crmCommon/Account</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

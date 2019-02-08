@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Recurring Appointment
 
 The Master appointment of a recurring appointment series.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/RecurringAppointment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/RecurringAppointment  
 [crmCommon/RecurringAppointment](foundationCommon/crmCommon/RecurringAppointment.md "/core/applicationCommon/foundationCommon/crmCommon/RecurringAppointment.cdm.json/RecurringAppointment")  
 
@@ -53,90 +54,90 @@ applicationCommon/RecurringAppointment
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[priorityCode_display](#priorityCode_display)||[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[subject](#subject)|Subject associated with the activity.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isWeekDayPattern](#isWeekDayPattern)|Indicates whether the weekly recurrence pattern is a daily weekday pattern. Valid for weekly recurrence pattern only.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[ruleId](#ruleId)|Unique identifier of the recurrence rule that is associated with the recurring appointment series.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isNthYearly](#isNthYearly)|Indicates whether the recurring appointment series should occur after every N years. Valid for yearly recurrence pattern only.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[stateCode](#stateCode)|Shows whether the recurring appointment is open, scheduled, completed, or canceled. Completed and canceled appointments are read-only and can't be edited.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[groupId](#groupId)|Unique identifier of the recurring appointment series for which the recurrence information was updated. |[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[lastExpandedInstanceDate](#lastExpandedInstanceDate)|Date of last expanded instance of a recurring appointment series.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[effectiveEndDate](#effectiveEndDate)|Actual end date of the recurring appointment series based on the specified end date and recurrence pattern.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[patternStartDate](#patternStartDate)|Start date of the recurrence range.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isRegenerate](#isRegenerate)|For internal use only.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[firstDayOfWeek](#firstDayOfWeek)|First day of week for the recurrence pattern.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[outlookOwnerApptId](#outlookOwnerApptId)|Unique identifier of the Microsoft Office Outlook recurring appointment series owner that correlates to the PR_OWNER_APPT_ID MAPI property.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[recurrencePatternType](#recurrencePatternType)|Select the pattern type for the recurring appointment to indicate whether the appointment occurs daily, weekly, monthly, or yearly.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[recurrencePatternType_display](#recurrencePatternType_display)||[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[nextExpansionInstanceDate](#nextExpansionInstanceDate)|Date of the next expanded instance of a recurring appointment series.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[expansionStateCode](#expansionStateCode)|State code to indicate whether the recurring appointment series is expanded fully or partially.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[expansionStateCode_display](#expansionStateCode_display)||[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[patternEndDate](#patternEndDate)|End date of the recurrence range.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[globalObjectId](#globalObjectId)|Unique Outlook identifier to correlate recurring appointment series across Exchange mailboxes.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[effectiveStartDate](#effectiveStartDate)|Actual start date of the recurring appointment series based on the specified start date and recurrence pattern.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[dayOfMonth](#dayOfMonth)|The day of the month on which the recurring appointment occurs.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[statusCode](#statusCode)|Select the recurring appointment's status.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[startTime](#startTime)|Start time of the recurring appointment series.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[occurrences](#occurrences)|Number of appointment occurrences in a recurring appointment series.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isAllDayEvent](#isAllDayEvent)|Select whether the recurring appointment is an all-day event to make sure that the required resources are scheduled for the full day.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[seriesStatus](#seriesStatus)|Indicates whether the recurring appointment series is active or inactive.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isNthMonthly](#isNthMonthly)|Indicates whether the recurring appointment series should occur after every N months. Valid for monthly recurrence pattern only.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[endTime](#endTime)|End time of the associated activity.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[daysOfWeekMask](#daysOfWeekMask)|Bitmask that represents the days of the week on which the recurring appointment occurs.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[description](#description)|Type additional information to describe the recurring appointment, such as key talking points or objectives.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[instance](#instance)|Specifies the recurring appointment series to occur on every Nth day of a month. Valid for monthly and yearly recurrence patterns only.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[instance_display](#instance_display)||[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[deletedExceptionsList](#deletedExceptionsList)|List of deleted instances of the recurring appointment series.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[interval](#interval)|Number of units of a given recurrence type between occurrences.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[duration](#duration)|Duration of the recurring appointment series in minutes.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[monthOfYear](#monthOfYear)|Indicates the month of the year for the recurrence pattern.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[monthOfYear_display](#monthOfYear_display)||[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[location](#location)|Type the location where the recurring appointment will take place, such as a conference room or customer office.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[patternEndType](#patternEndType)|Select the type of end date for the recurring appointment, such as no end date or the number of occurrences.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[patternEndType_display](#patternEndType_display)||[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
-|[isUnsafe](#isUnsafe)|For internal use only.|[applicationCommon/RecurringAppointment](RecurringAppointment.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isWeekDayPattern](#isWeekDayPattern)|Indicates whether the weekly recurrence pattern is a daily weekday pattern. Valid for weekly recurrence pattern only.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[ruleId](#ruleId)|Unique identifier of the recurrence rule that is associated with the recurring appointment series.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isNthYearly](#isNthYearly)|Indicates whether the recurring appointment series should occur after every N years. Valid for yearly recurrence pattern only.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[stateCode](#stateCode)|Shows whether the recurring appointment is open, scheduled, completed, or canceled. Completed and canceled appointments are read-only and can't be edited.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[stateCode_display](#stateCode_display)||<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[groupId](#groupId)|Unique identifier of the recurring appointment series for which the recurrence information was updated. |<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[lastExpandedInstanceDate](#lastExpandedInstanceDate)|Date of last expanded instance of a recurring appointment series.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[effectiveEndDate](#effectiveEndDate)|Actual end date of the recurring appointment series based on the specified end date and recurrence pattern.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[patternStartDate](#patternStartDate)|Start date of the recurrence range.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isRegenerate](#isRegenerate)|For internal use only.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[firstDayOfWeek](#firstDayOfWeek)|First day of week for the recurrence pattern.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[outlookOwnerApptId](#outlookOwnerApptId)|Unique identifier of the Microsoft Office Outlook recurring appointment series owner that correlates to the PR_OWNER_APPT_ID MAPI property.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[recurrencePatternType](#recurrencePatternType)|Select the pattern type for the recurring appointment to indicate whether the appointment occurs daily, weekly, monthly, or yearly.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[recurrencePatternType_display](#recurrencePatternType_display)||<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[nextExpansionInstanceDate](#nextExpansionInstanceDate)|Date of the next expanded instance of a recurring appointment series.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[expansionStateCode](#expansionStateCode)|State code to indicate whether the recurring appointment series is expanded fully or partially.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[expansionStateCode_display](#expansionStateCode_display)||<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[patternEndDate](#patternEndDate)|End date of the recurrence range.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[globalObjectId](#globalObjectId)|Unique Outlook identifier to correlate recurring appointment series across Exchange mailboxes.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[effectiveStartDate](#effectiveStartDate)|Actual start date of the recurring appointment series based on the specified start date and recurrence pattern.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[dayOfMonth](#dayOfMonth)|The day of the month on which the recurring appointment occurs.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[statusCode](#statusCode)|Select the recurring appointment's status.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[statusCode_display](#statusCode_display)||<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[startTime](#startTime)|Start time of the recurring appointment series.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[occurrences](#occurrences)|Number of appointment occurrences in a recurring appointment series.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isAllDayEvent](#isAllDayEvent)|Select whether the recurring appointment is an all-day event to make sure that the required resources are scheduled for the full day.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[seriesStatus](#seriesStatus)|Indicates whether the recurring appointment series is active or inactive.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isNthMonthly](#isNthMonthly)|Indicates whether the recurring appointment series should occur after every N months. Valid for monthly recurrence pattern only.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[endTime](#endTime)|End time of the associated activity.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[daysOfWeekMask](#daysOfWeekMask)|Bitmask that represents the days of the week on which the recurring appointment occurs.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[description](#description)|Type additional information to describe the recurring appointment, such as key talking points or objectives.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[instance](#instance)|Specifies the recurring appointment series to occur on every Nth day of a month. Valid for monthly and yearly recurrence patterns only.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[instance_display](#instance_display)||<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[deletedExceptionsList](#deletedExceptionsList)|List of deleted instances of the recurring appointment series.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[interval](#interval)|Number of units of a given recurrence type between occurrences.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[duration](#duration)|Duration of the recurring appointment series in minutes.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[monthOfYear](#monthOfYear)|Indicates the month of the year for the recurrence pattern.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[monthOfYear_display](#monthOfYear_display)||<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[location](#location)|Type the location where the recurring appointment will take place, such as a conference room or customer office.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[patternEndType](#patternEndType)|Select the type of end date for the recurring appointment, such as no end date or the number of occurrences.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[patternEndType_display](#patternEndType_display)||<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
+|[isUnsafe](#isUnsafe)|For internal use only.|<a href="RecurringAppointment.md" target="_blank">applicationCommon/RecurringAppointment</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

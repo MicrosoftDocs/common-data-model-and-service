@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Event Vendor
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventVendor.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,37 +42,38 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/EventVendor  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/EventVendor](EventVendor.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/EventVendor](EventVendor.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/EventVendor](EventVendor.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/EventVendor](EventVendor.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/EventVendor](EventVendor.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/EventVendor](EventVendor.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/EventVendor](EventVendor.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/EventVendor](EventVendor.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/EventVendor](EventVendor.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/EventVendor](EventVendor.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/EventVendor](EventVendor.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/EventVendor](EventVendor.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/EventVendor](EventVendor.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/EventVendor](EventVendor.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/EventVendor](EventVendor.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/EventVendor](EventVendor.md)|
-|[eventVendorId](#eventVendorId)|Unique identifier for entity instances|[eventManagement/EventVendor](EventVendor.md)|
-|[stateCode](#stateCode)|Status of the Event Vendor|[eventManagement/EventVendor](EventVendor.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/EventVendor](EventVendor.md)|
-|[statusCode](#statusCode)|Reason for the status of the Event Vendor|[eventManagement/EventVendor](EventVendor.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/EventVendor](EventVendor.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/EventVendor](EventVendor.md)|
-|[account](#account)||[eventManagement/EventVendor](EventVendor.md)|
-|[type](#type)||[eventManagement/EventVendor](EventVendor.md)|
-|[type_display](#type_display)||[eventManagement/EventVendor](EventVendor.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[eventVendorId](#eventVendorId)|Unique identifier for entity instances|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[stateCode](#stateCode)|Status of the Event Vendor|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[stateCode_display](#stateCode_display)||<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[statusCode](#statusCode)|Reason for the status of the Event Vendor|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[statusCode_display](#statusCode_display)||<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[name](#name)|The name of the custom entity.|<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[account](#account)||<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[type](#type)||<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
+|[type_display](#type_display)||<a href="EventVendor.md" target="_blank">eventManagement/EventVendor</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

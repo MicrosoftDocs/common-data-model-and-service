@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Event Registration
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventRegistration.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,59 +42,60 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/EventRegistration  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/EventRegistration](EventRegistration.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/EventRegistration](EventRegistration.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/EventRegistration](EventRegistration.md)|
-|[eventRegistrationId](#eventRegistrationId)|Unique identifier for entity instances|[eventManagement/EventRegistration](EventRegistration.md)|
-|[stateCode](#stateCode)|Status of the Event Registration|[eventManagement/EventRegistration](EventRegistration.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[statusCode](#statusCode)|Reason for the status of the Event Registration|[eventManagement/EventRegistration](EventRegistration.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[area](#area)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[area_display](#area_display)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[companySize](#companySize)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[companySize_display](#companySize_display)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[contactId](#contactId)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[eventId](#eventId)|Unique identifier for Event associated with Event Registration.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[industry](#industry)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[industry_display](#industry_display)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[isCanceled](#isCanceled)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[memo](#memo)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[primaryRole](#primaryRole)|Primary Role of the event attendee.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[primaryRole_display](#primaryRole_display)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[publishingState](#publishingState)|The publishing state of the event registration.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[publishingState_display](#publishingState_display)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[registeredBy](#registeredBy)|A lookup to the contact who created this event registration|[eventManagement/EventRegistration](EventRegistration.md)|
-|[registrationNotificationSeen](#registrationNotificationSeen)|Whether the registration creation notification has been seen or not|[eventManagement/EventRegistration](EventRegistration.md)|
-|[registrationStatus](#registrationStatus)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[syncedWithProvider](#syncedWithProvider)|A flag that indicates that the registration was synced with provider|[eventManagement/EventRegistration](EventRegistration.md)|
-|[syncedWithProvider_display](#syncedWithProvider_display)||[eventManagement/EventRegistration](EventRegistration.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[eventRegistrationId](#eventRegistrationId)|Unique identifier for entity instances|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[stateCode](#stateCode)|Status of the Event Registration|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[stateCode_display](#stateCode_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[statusCode](#statusCode)|Reason for the status of the Event Registration|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[statusCode_display](#statusCode_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[name](#name)|The name of the custom entity.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[area](#area)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[area_display](#area_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[companySize](#companySize)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[companySize_display](#companySize_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[contactId](#contactId)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[eventId](#eventId)|Unique identifier for Event associated with Event Registration.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[industry](#industry)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[industry_display](#industry_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[isCanceled](#isCanceled)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[memo](#memo)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[primaryRole](#primaryRole)|Primary Role of the event attendee.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[primaryRole_display](#primaryRole_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[publishingState](#publishingState)|The publishing state of the event registration.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[publishingState_display](#publishingState_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[registeredBy](#registeredBy)|A lookup to the contact who created this event registration|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[registrationNotificationSeen](#registrationNotificationSeen)|Whether the registration creation notification has been seen or not|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[registrationStatus](#registrationStatus)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[syncedWithProvider](#syncedWithProvider)|A flag that indicates that the registration was synced with provider|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[syncedWithProvider_display](#syncedWithProvider_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
 |[timesCheckedIn](#timesCheckedIn)|Hidden field. Number of Event Check-ins related to this ER.
 Used as partial aggregation for Check-in count of Event.
-Increasing and decreasing done by corresponding workflows.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[webinarRegistrationID](#webinarRegistrationID)|Webinar ID of the Event Registration.|[eventManagement/EventRegistration](EventRegistration.md)|
-|[yearsInIndustry](#yearsInIndustry)||[eventManagement/EventRegistration](EventRegistration.md)|
-|[yearsInIndustry_display](#yearsInIndustry_display)||[eventManagement/EventRegistration](EventRegistration.md)|
+Increasing and decreasing done by corresponding workflows.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[webinarRegistrationID](#webinarRegistrationID)|Webinar ID of the Event Registration.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[yearsInIndustry](#yearsInIndustry)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[yearsInIndustry_display](#yearsInIndustry_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

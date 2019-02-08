@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Task
 
 Generic activity representing work needed to be done.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Task](../../../../../Task.md "/core/applicationCommon/Task.cdm.json/Task")  
 electronicMedicalRecords/Task  
 [service/Task](../../../service/Task.md "/core/applicationCommon/foundationCommon/crmCommon/service/Task.cdm.json/Task")  
@@ -55,97 +56,97 @@ electronicMedicalRecords/Task
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Task](../../../../../Task.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Task](../../../../../Task.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Task](../../../../../Task.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Task](../../../../../Task.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Task](../../../../../Task.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Task](../../../../../Task.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Task](../../../../../Task.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Task](../../../../../Task.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Task](../../../../../Task.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Task](../../../../../Task.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/Task](../../../../../Task.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/Task](../../../../../Task.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/Task](../../../../../Task.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Task](../../../../../Task.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Task](../../../../../Task.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Task](../../../../../Task.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/Task](../../../../../Task.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/Task](../../../../../Task.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/Task](../../../../../Task.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/Task](../../../../../Task.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/Task](../../../../../Task.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/Task](../../../../../Task.md)|
-|[priorityCode_display](#priorityCode_display)||[applicationCommon/Task](../../../../../Task.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/Task](../../../../../Task.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/Task](../../../../../Task.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/Task](../../../../../Task.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/Task](../../../../../Task.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/Task](../../../../../Task.md)|
-|[subject](#subject)|Subject associated with the activity.|[applicationCommon/Task](../../../../../Task.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[applicationCommon/Task](../../../../../Task.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[applicationCommon/Task](../../../../../Task.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[applicationCommon/Task](../../../../../Task.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[applicationCommon/Task](../../../../../Task.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[applicationCommon/Task](../../../../../Task.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[applicationCommon/Task](../../../../../Task.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[applicationCommon/Task](../../../../../Task.md)|
-|[stateCode](#stateCode)|Shows whether the task is open, completed, or canceled. Completed and canceled tasks are read-only and can't be edited.|[applicationCommon/Task](../../../../../Task.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Task](../../../../../Task.md)|
-|[description](#description)|Type additional information to describe the task.|[applicationCommon/Task](../../../../../Task.md)|
-|[percentComplete](#percentComplete)|Type the percentage complete value for the task to track tasks to completion.|[applicationCommon/Task](../../../../../Task.md)|
-|[statusCode](#statusCode)|Select the task's status.|[applicationCommon/Task](../../../../../Task.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Task](../../../../../Task.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Task](../../../../../Task.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Task](../../../../../Task.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/Task](../../../../../Task.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/Task](../../../../../Task.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/Task](../../../../../Task.md)|
-|[crmTaskAssignedUniqueId](#crmTaskAssignedUniqueId)|Assigned Task Unique Id|[applicationCommon/Task](../../../../../Task.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Task record.|[applicationCommon/Task](../../../../../Task.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this Task. This field is for internal use only.|[applicationCommon/Task](../../../../../Task.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/Task](../../../../../Task.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Task](../../../../../Task.md)|
-|[businessStatus](#businessStatus)|There's often a need to track substrates of a task - this is often variable by specific workflow implementation.|[electronicMedicalRecords/Task](Task.md)|
-|[code](#code)|A name or code (or both) briefly describing what the task involves.|[electronicMedicalRecords/Task](Task.md)|
-|[contextEncounter](#contextEncounter)|An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient|[electronicMedicalRecords/Task](Task.md)|
-|[contextEpisodeofCare](#contextEpisodeofCare)|An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.|[electronicMedicalRecords/Task](Task.md)|
-|[contextType](#contextType)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this task was created.|[electronicMedicalRecords/Task](Task.md)|
-|[contextType_display](#contextType_display)||[electronicMedicalRecords/Task](Task.md)|
-|[definitionUri](#definitionUri)|A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.|[electronicMedicalRecords/Task](Task.md)|
-|[descriptionFocus](#descriptionFocus)|The request being actioned or the resource being manipulated by this task.|[electronicMedicalRecords/Task](Task.md)|
-|[descriptionFor](#descriptionFor)|The entity who benefits from the performance of the service specified in the task (e.g., the patient).|[electronicMedicalRecords/Task](Task.md)|
-|[groupIdentifier](#groupIdentifier)|An identifier that links together multiple tasks and other requests that were created in the same context.|[electronicMedicalRecords/Task](Task.md)|
-|[intent](#intent)|Indicates the ""level"" of actionability associated with the Task. I.e. Is this a proposed task, a planned task, an actionable task, etc.|[electronicMedicalRecords/Task](Task.md)|
-|[intent_display](#intent_display)||[electronicMedicalRecords/Task](Task.md)|
-|[performerOwnerAgentDevice](#performerOwnerAgentDevice)|This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|[electronicMedicalRecords/Task](Task.md)|
-|[performerOwnerOrganization](#performerOwnerOrganization)|A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.|[electronicMedicalRecords/Task](Task.md)|
-|[performerOwnerPatient](#performerOwnerPatient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|[electronicMedicalRecords/Task](Task.md)|
-|[performerOwnerPractitioner](#performerOwnerPractitioner)|A person who is directly or indirectly involved in the provisioning of healthcare.|[electronicMedicalRecords/Task](Task.md)|
-|[performerOwnerRelatedPerson](#performerOwnerRelatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|[electronicMedicalRecords/Task](Task.md)|
-|[performerOwnerType](#performerOwnerType)|The type for Individual organization or Device currently responsible for task execution.|[electronicMedicalRecords/Task](Task.md)|
-|[performerOwnerType_display](#performerOwnerType_display)||[electronicMedicalRecords/Task](Task.md)|
-|[reason](#reason)|A description or code indicating why this task needs to be performed.|[electronicMedicalRecords/Task](Task.md)|
-|[reference](#reference)|A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.|[electronicMedicalRecords/Task](Task.md)|
-|[requesterAgent](#requesterAgent)|The device, practitioner, etc. who initiated the task.|[electronicMedicalRecords/Task](Task.md)|
-|[requesterAgent_display](#requesterAgent_display)||[electronicMedicalRecords/Task](Task.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[stateCode](#stateCode)|Shows whether the task is open, completed, or canceled. Completed and canceled tasks are read-only and can't be edited.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[description](#description)|Type additional information to describe the task.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[percentComplete](#percentComplete)|Type the percentage complete value for the task to track tasks to completion.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[statusCode](#statusCode)|Select the task's status.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[crmTaskAssignedUniqueId](#crmTaskAssignedUniqueId)|Assigned Task Unique Id|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Task record.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this Task. This field is for internal use only.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="../../../../../Task.md" target="_blank">applicationCommon/Task</a>|
+|[businessStatus](#businessStatus)|There's often a need to track substrates of a task - this is often variable by specific workflow implementation.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[code](#code)|A name or code (or both) briefly describing what the task involves.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[contextEncounter](#contextEncounter)|An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[contextEpisodeofCare](#contextEpisodeofCare)|An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[contextType](#contextType)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this task was created.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[contextType_display](#contextType_display)||<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[definitionUri](#definitionUri)|A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[descriptionFocus](#descriptionFocus)|The request being actioned or the resource being manipulated by this task.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[descriptionFor](#descriptionFor)|The entity who benefits from the performance of the service specified in the task (e.g., the patient).|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[groupIdentifier](#groupIdentifier)|An identifier that links together multiple tasks and other requests that were created in the same context.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[intent](#intent)|Indicates the ""level"" of actionability associated with the Task. I.e. Is this a proposed task, a planned task, an actionable task, etc.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[intent_display](#intent_display)||<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[performerOwnerAgentDevice](#performerOwnerAgentDevice)|This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[performerOwnerOrganization](#performerOwnerOrganization)|A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[performerOwnerPatient](#performerOwnerPatient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[performerOwnerPractitioner](#performerOwnerPractitioner)|A person who is directly or indirectly involved in the provisioning of healthcare.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[performerOwnerRelatedPerson](#performerOwnerRelatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[performerOwnerType](#performerOwnerType)|The type for Individual organization or Device currently responsible for task execution.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[performerOwnerType_display](#performerOwnerType_display)||<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[reason](#reason)|A description or code indicating why this task needs to be performed.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[reference](#reference)|A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[requesterAgent](#requesterAgent)|The device, practitioner, etc. who initiated the task.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[requesterAgent_display](#requesterAgent_display)||<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[requesterAgentDevice](#requesterAgentDevice)|" 
-This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|[electronicMedicalRecords/Task](Task.md)|
-|[requesterAgentOrganization](#requesterAgentOrganization)|A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.|[electronicMedicalRecords/Task](Task.md)|
-|[requesterAgentPatient](#requesterAgentPatient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|[electronicMedicalRecords/Task](Task.md)|
-|[requesterAgentPractitioner](#requesterAgentPractitioner)|A person who is directly or indirectly involved in the provisioning of healthcare.|[electronicMedicalRecords/Task](Task.md)|
-|[requesterAgentRelatedPerson](#requesterAgentRelatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|[electronicMedicalRecords/Task](Task.md)|
-|[requesterOnBehalfOf](#requesterOnBehalfOf)|This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|[electronicMedicalRecords/Task](Task.md)|
-|[restrictionPeriodEndDate](#restrictionPeriodEndDate)|The end of the period. If the end of the period is missing, it means that the period is ongoing.|[electronicMedicalRecords/Task](Task.md)|
-|[restrictionPeriodStartDate](#restrictionPeriodStartDate)|The start of the period. The boundary is inclusive.|[electronicMedicalRecords/Task](Task.md)|
-|[restrictionRepetitions](#restrictionRepetitions)|Indicates the number of times the requested action should occur.|[electronicMedicalRecords/Task](Task.md)|
-|[status](#status)|These states enable coordination of task status with off-the-shelf workflow solutions that support automation of tasks.|[electronicMedicalRecords/Task](Task.md)|
-|[status_display](#status_display)||[electronicMedicalRecords/Task](Task.md)|
-|[statusReason](#statusReason)|These states enable coordination of task status with off-the-shelf workflow solutions that support automation of tasks.|[electronicMedicalRecords/Task](Task.md)|
-|[taskNumber](#taskNumber)|A task to be performed.|[electronicMedicalRecords/Task](Task.md)|
-|[taskPriority](#taskPriority)|Indicates how quickly the Task should be addressed with respect to other requests.|[electronicMedicalRecords/Task](Task.md)|
-|[taskPriority_display](#taskPriority_display)||[electronicMedicalRecords/Task](Task.md)|
+This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[requesterAgentOrganization](#requesterAgentOrganization)|A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[requesterAgentPatient](#requesterAgentPatient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[requesterAgentPractitioner](#requesterAgentPractitioner)|A person who is directly or indirectly involved in the provisioning of healthcare.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[requesterAgentRelatedPerson](#requesterAgentRelatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[requesterOnBehalfOf](#requesterOnBehalfOf)|This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[restrictionPeriodEndDate](#restrictionPeriodEndDate)|The end of the period. If the end of the period is missing, it means that the period is ongoing.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[restrictionPeriodStartDate](#restrictionPeriodStartDate)|The start of the period. The boundary is inclusive.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[restrictionRepetitions](#restrictionRepetitions)|Indicates the number of times the requested action should occur.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[status](#status)|These states enable coordination of task status with off-the-shelf workflow solutions that support automation of tasks.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[status_display](#status_display)||<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[statusReason](#statusReason)|These states enable coordination of task status with off-the-shelf workflow solutions that support automation of tasks.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[taskNumber](#taskNumber)|A task to be performed.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[taskPriority](#taskPriority)|Indicates how quickly the Task should be addressed with respect to other requests.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[taskPriority_display](#taskPriority_display)||<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

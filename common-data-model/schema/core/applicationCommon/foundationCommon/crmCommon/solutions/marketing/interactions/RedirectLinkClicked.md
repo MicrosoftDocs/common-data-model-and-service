@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Redirect link clicked
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/RedirectLinkClicked.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,42 +33,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/RedirectLinkClicked  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[contactId](#contactId)|Contact|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[accountId](#accountId)|Account|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[messageId](#messageId)|Message|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[linkId](#linkId)|Link ID|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[link](#link)|Link|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[originalUrl](#originalUrl)|Original URL|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[referrerUri](#referrerUri)|Referrer URL|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[visitorId](#visitorId)|Visitor ID|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[sessionId](#sessionId)|Session ID|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[state](#state)|State|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[city](#city)|City|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[postalCode](#postalCode)|Postal code|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[browserId](#browserId)|Browser ID|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[browserVersion](#browserVersion)|Browser version|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[searchPhrase](#searchPhrase)|Search phrase|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[searchEngineName](#searchEngineName)|Search engine name|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[visitDuration](#visitDuration)|Visit duration|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
-|[leadId](#leadId)|Lead ID|[interactions/RedirectLinkClicked](RedirectLinkClicked.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[contactId](#contactId)|Contact|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[accountId](#accountId)|Account|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[messageId](#messageId)|Message|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[linkId](#linkId)|Link ID|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[link](#link)|Link|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[originalUrl](#originalUrl)|Original URL|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[referrerUri](#referrerUri)|Referrer URL|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[visitorId](#visitorId)|Visitor ID|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[sessionId](#sessionId)|Session ID|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[state](#state)|State|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[city](#city)|City|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[postalCode](#postalCode)|Postal code|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[browserId](#browserId)|Browser ID|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[browserVersion](#browserVersion)|Browser version|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[searchPhrase](#searchPhrase)|Search phrase|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[searchEngineName](#searchEngineName)|Search engine name|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[visitDuration](#visitDuration)|Visit duration|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
+|[leadId](#leadId)|Lead ID|<a href="RedirectLinkClicked.md" target="_blank">interactions/RedirectLinkClicked</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

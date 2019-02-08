@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Knowledge Article
 
 Organizational knowledge for internal and external use.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/KnowledgeArticle](../KnowledgeArticle.md "/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
 foundationCommon/KnowledgeArticle  
 
@@ -53,71 +54,71 @@ foundationCommon/KnowledgeArticle
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[knowledgearticleId](#knowledgearticleId)|Unique identifier for entity instances|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[stateCode](#stateCode)|Shows whether the article is a draft or is published, archived, or discarded. Draft articles aren't available externally and can be edited. Published articles are available externally, based on applicable permissions, but can't be edited. All metadata changes are reflected in the published version. Archived and discarded articles aren't available externally and can't be edited.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[statusCode](#statusCode)|Select the article's status.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the KnowledgeArticle with respect to the base currency.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the KnowledgeArticle with respect to the base currency.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[title](#title)|Type a title for the article.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[content](#content)|Shows the body of the article stored in HTML format.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[keyWords](#keyWords)|Type keywords to be used for searches in knowledge base articles. Separate keywords by using commas.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[publishOn](#publishOn)|Date and time when the record was published.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[expirationDate](#expirationDate)|Enter an expiration date for the article. Leave this field blank for no expiration date.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[parentArticleContentId](#parentArticleContentId)|Contains the id of the parent article content associated with the entity.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[knowledgeArticleViews](#knowledgeArticleViews)|Shows the total number of article views.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[description](#description)|A short overview of the article, primarily used in search results and for search engine optimization.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[majorVersionNumber](#majorVersionNumber)|Shows the major version number of this article's content.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[minorVersionNumber](#minorVersionNumber)|Shows the minor version number of this article's content.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[languageLocaleId](#languageLocaleId)|Select the language that the article's content is in.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[scheduledStatusId](#scheduledStatusId)|Contains the id of the scheduled status of the entity.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[expirationStatusId](#expirationStatusId)|Contains the id of the expiration status of the entity.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[publishStatusId](#publishStatusId)|Publish Status of the Article.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[isPrimary](#isPrimary)|Select whether the article is the primary article.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[readyForReview](#readyForReview)|Ready For Review|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[review](#review)|Review|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[review_display](#review_display)||[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[updateContent](#updateContent)|Update Content|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[expiredReviewOptions](#expiredReviewOptions)|Expired Review Options|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[expiredReviewOptions_display](#expiredReviewOptions_display)||[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[subjectId](#subjectId)|Choose the subject of the article to assist with article searches. You can configure subjects under Business Management in the Settings area.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[primaryAuthorId](#primaryAuthorId)|Contains the id of the primary author associated with the article.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[isRootArticle](#isRootArticle)|Select whether the article is the root article.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[previousArticleContentId](#previousArticleContentId)|Shows the version that the current article was restored from.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[articlePublicNumber](#articlePublicNumber)|Shows the automatically generated ID exposed to customers, partners, and other external users to reference and look up articles.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[isLatestVersion](#isLatestVersion)|Shows which version of the knowledge article is the latest version.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[rootArticleId](#rootArticleId)|Contains the id of the root article.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[knowledgeArticleViewsDate](#knowledgeArticleViewsDate)|The date time for Knowledge Article View.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[knowledgeArticleViewsState](#knowledgeArticleViewsState)|State of Knowledge Article View.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[rating](#rating)|Information which specifies how helpful the related record was.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[ratingDate](#ratingDate)|The date time for Rating.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[ratingState](#ratingState)|State of Rating|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[ratingSum](#ratingSum)|Total sum of Rating|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[ratingCount](#ratingCount)|Rating Count|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[isInternal](#isInternal)|Shows whether this article is only visible internally.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[setCategoryAssociations](#setCategoryAssociations)|Shows whether category associations have been set|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[expirationStateId](#expirationStateId)|Contains the id of the expiration state of the entity.|[applicationCommon/KnowledgeArticle](../KnowledgeArticle.md)|
-|[setProductAssociations](#setProductAssociations)|Set Product Associations|[foundationCommon/KnowledgeArticle](KnowledgeArticle.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[knowledgearticleId](#knowledgearticleId)|Unique identifier for entity instances|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[stateCode](#stateCode)|Shows whether the article is a draft or is published, archived, or discarded. Draft articles aren't available externally and can be edited. Published articles are available externally, based on applicable permissions, but can't be edited. All metadata changes are reflected in the published version. Archived and discarded articles aren't available externally and can't be edited.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[stateCode_display](#stateCode_display)||<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[statusCode](#statusCode)|Select the article's status.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[statusCode_display](#statusCode_display)||<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the KnowledgeArticle with respect to the base currency.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the KnowledgeArticle with respect to the base currency.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[title](#title)|Type a title for the article.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[content](#content)|Shows the body of the article stored in HTML format.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[keyWords](#keyWords)|Type keywords to be used for searches in knowledge base articles. Separate keywords by using commas.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[publishOn](#publishOn)|Date and time when the record was published.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[expirationDate](#expirationDate)|Enter an expiration date for the article. Leave this field blank for no expiration date.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[parentArticleContentId](#parentArticleContentId)|Contains the id of the parent article content associated with the entity.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[knowledgeArticleViews](#knowledgeArticleViews)|Shows the total number of article views.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[description](#description)|A short overview of the article, primarily used in search results and for search engine optimization.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[majorVersionNumber](#majorVersionNumber)|Shows the major version number of this article's content.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[minorVersionNumber](#minorVersionNumber)|Shows the minor version number of this article's content.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[languageLocaleId](#languageLocaleId)|Select the language that the article's content is in.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[scheduledStatusId](#scheduledStatusId)|Contains the id of the scheduled status of the entity.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[expirationStatusId](#expirationStatusId)|Contains the id of the expiration status of the entity.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[publishStatusId](#publishStatusId)|Publish Status of the Article.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[isPrimary](#isPrimary)|Select whether the article is the primary article.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[readyForReview](#readyForReview)|Ready For Review|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[review](#review)|Review|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[review_display](#review_display)||<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[updateContent](#updateContent)|Update Content|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[expiredReviewOptions](#expiredReviewOptions)|Expired Review Options|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[expiredReviewOptions_display](#expiredReviewOptions_display)||<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[subjectId](#subjectId)|Choose the subject of the article to assist with article searches. You can configure subjects under Business Management in the Settings area.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[primaryAuthorId](#primaryAuthorId)|Contains the id of the primary author associated with the article.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[isRootArticle](#isRootArticle)|Select whether the article is the root article.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[previousArticleContentId](#previousArticleContentId)|Shows the version that the current article was restored from.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[articlePublicNumber](#articlePublicNumber)|Shows the automatically generated ID exposed to customers, partners, and other external users to reference and look up articles.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[isLatestVersion](#isLatestVersion)|Shows which version of the knowledge article is the latest version.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[rootArticleId](#rootArticleId)|Contains the id of the root article.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[knowledgeArticleViewsDate](#knowledgeArticleViewsDate)|The date time for Knowledge Article View.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[knowledgeArticleViewsState](#knowledgeArticleViewsState)|State of Knowledge Article View.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[rating](#rating)|Information which specifies how helpful the related record was.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[ratingDate](#ratingDate)|The date time for Rating.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[ratingState](#ratingState)|State of Rating|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[ratingSum](#ratingSum)|Total sum of Rating|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[ratingCount](#ratingCount)|Rating Count|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[isInternal](#isInternal)|Shows whether this article is only visible internally.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[setCategoryAssociations](#setCategoryAssociations)|Shows whether category associations have been set|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[expirationStateId](#expirationStateId)|Contains the id of the expiration state of the entity.|<a href="../KnowledgeArticle.md" target="_blank">applicationCommon/KnowledgeArticle</a>|
+|[setProductAssociations](#setProductAssociations)|Set Product Associations|<a href="KnowledgeArticle.md" target="_blank">foundationCommon/KnowledgeArticle</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

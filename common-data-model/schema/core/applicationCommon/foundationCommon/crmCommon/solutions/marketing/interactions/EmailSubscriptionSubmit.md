@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email subscription submitted
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSubscriptionSubmit.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,34 +33,35 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailSubscriptionSubmit  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[accountId](#accountId)|Account|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[messageId](#messageId)|Message|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[state](#state)|State|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[city](#city)|City|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[postalCode](#postalCode)|Postal code|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[browserId](#browserId)|Browser ID|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[browserVersion](#browserVersion)|Browser version|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[deviceType](#deviceType)|Device type|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[deviceBrand](#deviceBrand)|Device brand|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
-|[deviceModel](#deviceModel)|Device model|[interactions/EmailSubscriptionSubmit](EmailSubscriptionSubmit.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[contactId](#contactId)|Contact|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[accountId](#accountId)|Account|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[messageId](#messageId)|Message|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[state](#state)|State|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[city](#city)|City|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[postalCode](#postalCode)|Postal code|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[browserId](#browserId)|Browser ID|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[browserVersion](#browserVersion)|Browser version|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[deviceType](#deviceType)|Device type|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[deviceBrand](#deviceBrand)|Device brand|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
+|[deviceModel](#deviceModel)|Device model|<a href="EmailSubscriptionSubmit.md" target="_blank">interactions/EmailSubscriptionSubmit</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

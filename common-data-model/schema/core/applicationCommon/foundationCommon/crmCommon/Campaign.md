@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Campaign
 
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 crmCommon/Campaign  
 [nonProfit/Campaign](accelerators/nonProfit/Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign")  
 
@@ -53,59 +54,59 @@ crmCommon/Campaign
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[crmCommon/Campaign](Campaign.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[crmCommon/Campaign](Campaign.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[crmCommon/Campaign](Campaign.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[crmCommon/Campaign](Campaign.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[crmCommon/Campaign](Campaign.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[crmCommon/Campaign](Campaign.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/Campaign](Campaign.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[crmCommon/Campaign](Campaign.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[crmCommon/Campaign](Campaign.md)|
-|[ownerId](#ownerId)|Owner Id|[crmCommon/Campaign](Campaign.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[crmCommon/Campaign](Campaign.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[crmCommon/Campaign](Campaign.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[crmCommon/Campaign](Campaign.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/Campaign](Campaign.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/Campaign](Campaign.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/Campaign](Campaign.md)|
-|[campaignId](#campaignId)|Unique identifier of the campaign.|[crmCommon/Campaign](Campaign.md)|
-|[emailAddress](#emailAddress)|The primary email address for the entity.|[crmCommon/Campaign](Campaign.md)|
-|[name](#name)|Type a name for the campaign so that it is identified correctly in lists.|[crmCommon/Campaign](Campaign.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[crmCommon/Campaign](Campaign.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[crmCommon/Campaign](Campaign.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[crmCommon/Campaign](Campaign.md)|
-|[actualEnd](#actualEnd)|Enter the date when the campaign was closed or completed.|[crmCommon/Campaign](Campaign.md)|
-|[actualStart](#actualStart)|Enter the actual start date and time for the campaign.|[crmCommon/Campaign](Campaign.md)|
-|[budgetedCost](#budgetedCost)|Type the amount budgeted for the campaign to define a limit for how much you can spend.|[crmCommon/Campaign](Campaign.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[crmCommon/Campaign](Campaign.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[crmCommon/Campaign](Campaign.md)|
-|[budgetedCostBase](#budgetedCostBase)|Value of the Budget Allocated in base currency.|[crmCommon/Campaign](Campaign.md)|
-|[codeName](#codeName)|Type a number or other tracking code to identify the campaign. If no value is entered, a code will be generated automatically.|[crmCommon/Campaign](Campaign.md)|
-|[description](#description)|Type additional information to describe the campaign, such as the products or services offered or the targeted audience.|[crmCommon/Campaign](Campaign.md)|
-|[expectedResponse](#expectedResponse)|Type the expected response rate for the campaign as a full number between 0 and 100.|[crmCommon/Campaign](Campaign.md)|
-|[expectedRevenue](#expectedRevenue)|Type the expected revenue for the campaign for return on investment projections and post-campaign reporting.|[crmCommon/Campaign](Campaign.md)|
-|[expectedRevenueBase](#expectedRevenueBase)|Value of the Estimated Revenue in base currency.|[crmCommon/Campaign](Campaign.md)|
-|[isTemplate](#isTemplate)|Select whether the campaign is a template that can be copied when you create future campaigns.|[crmCommon/Campaign](Campaign.md)|
-|[message](#message)|Type the promotional message or marketing copy for the campaign.|[crmCommon/Campaign](Campaign.md)|
-|[objective](#objective)|Type the objective of the campaign, including products, services, discounts, and pricing.|[crmCommon/Campaign](Campaign.md)|
-|[otherCost](#otherCost)|Type the sum of any miscellaneous campaign costs not included in the campaign activities to make sure the actual cost of the campaign is calculated correctly.|[crmCommon/Campaign](Campaign.md)|
-|[otherCostBase](#otherCostBase)|Value of the Miscellaneous Costs in base currency.|[crmCommon/Campaign](Campaign.md)|
-|[promotionCodeName](#promotionCodeName)|Type a promotional code to track sales related to the campaign or allow customers to redeem a discount offer.|[crmCommon/Campaign](Campaign.md)|
-|[proposedEnd](#proposedEnd)|Enter the date when the campaign is scheduled to end.|[crmCommon/Campaign](Campaign.md)|
-|[proposedStart](#proposedStart)|Enter the date when the campaign is scheduled to start.|[crmCommon/Campaign](Campaign.md)|
-|[stateCode](#stateCode)|Shows the status of the campaign. By default, campaigns are active and can't be deactivated.|[crmCommon/Campaign](Campaign.md)|
-|[stateCode_display](#stateCode_display)||[crmCommon/Campaign](Campaign.md)|
-|[statusCode](#statusCode)|Select the campaign's status.|[crmCommon/Campaign](Campaign.md)|
-|[statusCode_display](#statusCode_display)||[crmCommon/Campaign](Campaign.md)|
-|[totalActualCost](#totalActualCost)|Shows the sum of the amounts entered in the Total Cost of Campaign Activities and Miscellaneous Costs fields.|[crmCommon/Campaign](Campaign.md)|
-|[totalActualCostBase](#totalActualCostBase)|Value of the Total Cost of Campaign in base currency.|[crmCommon/Campaign](Campaign.md)|
-|[totalCampaignActivityActualCost](#totalCampaignActivityActualCost)|Shows the sum of the values entered in the Actual Cost field on all campaign activities related to the campaign.|[crmCommon/Campaign](Campaign.md)|
-|[totalCampaignActivityActualCostBase](#totalCampaignActivityActualCostBase)|Value of the Total Cost of Campaign Activities in base currency.|[crmCommon/Campaign](Campaign.md)|
-|[typeCode](#typeCode)|Select the type of the campaign.|[crmCommon/Campaign](Campaign.md)|
-|[typeCode_display](#typeCode_display)||[crmCommon/Campaign](Campaign.md)|
-|[priceListId](#priceListId)|Choose the price list associated with this item to make sure the products associated with the campaign are offered at the correct prices.|[crmCommon/Campaign](Campaign.md)|
-|[entityImageId](#entityImageId)||[crmCommon/Campaign](Campaign.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[campaignId](#campaignId)|Unique identifier of the campaign.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[emailAddress](#emailAddress)|The primary email address for the entity.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[name](#name)|Type a name for the campaign so that it is identified correctly in lists.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[actualEnd](#actualEnd)|Enter the date when the campaign was closed or completed.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[actualStart](#actualStart)|Enter the actual start date and time for the campaign.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[budgetedCost](#budgetedCost)|Type the amount budgeted for the campaign to define a limit for how much you can spend.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[budgetedCostBase](#budgetedCostBase)|Value of the Budget Allocated in base currency.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[codeName](#codeName)|Type a number or other tracking code to identify the campaign. If no value is entered, a code will be generated automatically.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[description](#description)|Type additional information to describe the campaign, such as the products or services offered or the targeted audience.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[expectedResponse](#expectedResponse)|Type the expected response rate for the campaign as a full number between 0 and 100.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[expectedRevenue](#expectedRevenue)|Type the expected revenue for the campaign for return on investment projections and post-campaign reporting.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[expectedRevenueBase](#expectedRevenueBase)|Value of the Estimated Revenue in base currency.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[isTemplate](#isTemplate)|Select whether the campaign is a template that can be copied when you create future campaigns.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[message](#message)|Type the promotional message or marketing copy for the campaign.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[objective](#objective)|Type the objective of the campaign, including products, services, discounts, and pricing.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[otherCost](#otherCost)|Type the sum of any miscellaneous campaign costs not included in the campaign activities to make sure the actual cost of the campaign is calculated correctly.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[otherCostBase](#otherCostBase)|Value of the Miscellaneous Costs in base currency.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[promotionCodeName](#promotionCodeName)|Type a promotional code to track sales related to the campaign or allow customers to redeem a discount offer.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[proposedEnd](#proposedEnd)|Enter the date when the campaign is scheduled to end.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[proposedStart](#proposedStart)|Enter the date when the campaign is scheduled to start.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[stateCode](#stateCode)|Shows the status of the campaign. By default, campaigns are active and can't be deactivated.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[stateCode_display](#stateCode_display)||<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[statusCode](#statusCode)|Select the campaign's status.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[statusCode_display](#statusCode_display)||<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[totalActualCost](#totalActualCost)|Shows the sum of the amounts entered in the Total Cost of Campaign Activities and Miscellaneous Costs fields.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[totalActualCostBase](#totalActualCostBase)|Value of the Total Cost of Campaign in base currency.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[totalCampaignActivityActualCost](#totalCampaignActivityActualCost)|Shows the sum of the values entered in the Actual Cost field on all campaign activities related to the campaign.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[totalCampaignActivityActualCostBase](#totalCampaignActivityActualCostBase)|Value of the Total Cost of Campaign Activities in base currency.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[typeCode](#typeCode)|Select the type of the campaign.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[typeCode_display](#typeCode_display)||<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[priceListId](#priceListId)|Choose the price list associated with this item to make sure the products associated with the campaign are offered at the correct prices.|<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
+|[entityImageId](#entityImageId)||<a href="Campaign.md" target="_blank">crmCommon/Campaign</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Web File Log
 
 A record of the download of a web file  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebFileLog.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/WebFileLog  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/WebFileLog](WebFileLog.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/WebFileLog](WebFileLog.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/WebFileLog](WebFileLog.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/WebFileLog](WebFileLog.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/WebFileLog](WebFileLog.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/WebFileLog](WebFileLog.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/WebFileLog](WebFileLog.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/WebFileLog](WebFileLog.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/WebFileLog](WebFileLog.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/WebFileLog](WebFileLog.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/WebFileLog](WebFileLog.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/WebFileLog](WebFileLog.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/WebFileLog](WebFileLog.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/WebFileLog](WebFileLog.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/WebFileLog](WebFileLog.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/WebFileLog](WebFileLog.md)|
-|[webFileLogId](#webFileLogId)|Shows the entity instance.|[portals/WebFileLog](WebFileLog.md)|
-|[stateCode](#stateCode)|Status of the Web File Log|[portals/WebFileLog](WebFileLog.md)|
-|[stateCode_display](#stateCode_display)||[portals/WebFileLog](WebFileLog.md)|
-|[statusCode](#statusCode)|Select the web file log's status.|[portals/WebFileLog](WebFileLog.md)|
-|[statusCode_display](#statusCode_display)||[portals/WebFileLog](WebFileLog.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/WebFileLog](WebFileLog.md)|
-|[contactId](#contactId)|Unique identifier of the Contact associated with the Web File Log|[portals/WebFileLog](WebFileLog.md)|
-|[date](#date)|Shows the date and time that the request was made to download the file.|[portals/WebFileLog](WebFileLog.md)|
-|[IpAddress](#IpAddress)|Shows the IP address of the computer of the user who requested the file download.|[portals/WebFileLog](WebFileLog.md)|
-|[webFileId](#webFileId)|Unique identifier of the Web File associated with the Web File Log|[portals/WebFileLog](WebFileLog.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[webFileLogId](#webFileLogId)|Shows the entity instance.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[stateCode](#stateCode)|Status of the Web File Log|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[stateCode_display](#stateCode_display)||<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[statusCode](#statusCode)|Select the web file log's status.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[statusCode_display](#statusCode_display)||<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[contactId](#contactId)|Unique identifier of the Contact associated with the Web File Log|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[date](#date)|Shows the date and time that the request was made to download the file.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[IpAddress](#IpAddress)|Shows the IP address of the computer of the user who requested the file download.|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
+|[webFileId](#webFileId)|Unique identifier of the Web File associated with the Web File Log|<a href="WebFileLog.md" target="_blank">portals/WebFileLog</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

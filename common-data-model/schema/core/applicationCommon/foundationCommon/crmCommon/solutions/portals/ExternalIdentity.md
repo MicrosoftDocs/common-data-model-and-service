@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # External Identity
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/ExternalIdentity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,32 +42,33 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/ExternalIdentity  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[externalIdentityId](#externalIdentityId)|Shows the entity instances.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[createdBy](#createdBy)|Shows the user who created the record.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was modified.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[modifiedBy](#modifiedBy)|Shows the user who modified the record.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows the delegate user who created the record.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows the delegate user who modified the record.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[organizationId](#organizationId)|Shows the organization.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[stateCode](#stateCode)|Shows whether the external identity is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[stateCode_display](#stateCode_display)||[portals/ExternalIdentity](ExternalIdentity.md)|
-|[statusCode](#statusCode)|Select the external identity's status.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[statusCode_display](#statusCode_display)||[portals/ExternalIdentity](ExternalIdentity.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[importSequenceNumber](#importSequenceNumber)|Shows the sequence number of the import that created this record.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Shows the date and time that the record was migrated.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Shows the time zone code that was in use when the record was created.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[userName](#userName)|Shows the name of the custom entity.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[contactId](#contactId)|Unique identifier for Contact associated with External Identity.|[portals/ExternalIdentity](ExternalIdentity.md)|
-|[identityProviderName](#identityProviderName)||[portals/ExternalIdentity](ExternalIdentity.md)|
+|[externalIdentityId](#externalIdentityId)|Shows the entity instances.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[createdBy](#createdBy)|Shows the user who created the record.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was modified.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[modifiedBy](#modifiedBy)|Shows the user who modified the record.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows the delegate user who created the record.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows the delegate user who modified the record.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[organizationId](#organizationId)|Shows the organization.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[stateCode](#stateCode)|Shows whether the external identity is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[stateCode_display](#stateCode_display)||<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[statusCode](#statusCode)|Select the external identity's status.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[statusCode_display](#statusCode_display)||<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Shows the sequence number of the import that created this record.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Shows the date and time that the record was migrated.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Shows the time zone code that was in use when the record was created.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[userName](#userName)|Shows the name of the custom entity.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[contactId](#contactId)|Unique identifier for Contact associated with External Identity.|<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
+|[identityProviderName](#identityProviderName)||<a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>|
 
 ### <a href=#externalIdentityId name="externalIdentityId">externalIdentityId</a>
 

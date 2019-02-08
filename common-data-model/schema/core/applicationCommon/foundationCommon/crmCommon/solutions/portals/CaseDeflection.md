@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Case Deflection
 
 Captures the number of Found My Answer clicks in the portal.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/CaseDeflection.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,37 +46,38 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/CaseDeflection  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/CaseDeflection](CaseDeflection.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/CaseDeflection](CaseDeflection.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/CaseDeflection](CaseDeflection.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/CaseDeflection](CaseDeflection.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/CaseDeflection](CaseDeflection.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/CaseDeflection](CaseDeflection.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/CaseDeflection](CaseDeflection.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/CaseDeflection](CaseDeflection.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/CaseDeflection](CaseDeflection.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/CaseDeflection](CaseDeflection.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/CaseDeflection](CaseDeflection.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/CaseDeflection](CaseDeflection.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/CaseDeflection](CaseDeflection.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/CaseDeflection](CaseDeflection.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/CaseDeflection](CaseDeflection.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/CaseDeflection](CaseDeflection.md)|
-|[caseDeflectionId](#caseDeflectionId)|Unique identifier for entity instances|[portals/CaseDeflection](CaseDeflection.md)|
-|[stateCode](#stateCode)|Status of the Case Deflection|[portals/CaseDeflection](CaseDeflection.md)|
-|[stateCode_display](#stateCode_display)||[portals/CaseDeflection](CaseDeflection.md)|
-|[statusCode](#statusCode)|Reason for the status of the Case Deflection|[portals/CaseDeflection](CaseDeflection.md)|
-|[statusCode_display](#statusCode_display)||[portals/CaseDeflection](CaseDeflection.md)|
-|[name](#name)|The name of the custom entity.|[portals/CaseDeflection](CaseDeflection.md)|
-|[caseTitle](#caseTitle)|Title entered when the ticket was created.|[portals/CaseDeflection](CaseDeflection.md)|
-|[contact](#contact)|Contact who found the answer when the ticket was created.|[portals/CaseDeflection](CaseDeflection.md)|
-|[knowledgeArticle](#knowledgeArticle)|Knowledge Articles|[portals/CaseDeflection](CaseDeflection.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[caseDeflectionId](#caseDeflectionId)|Unique identifier for entity instances|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[stateCode](#stateCode)|Status of the Case Deflection|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[stateCode_display](#stateCode_display)||<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[statusCode](#statusCode)|Reason for the status of the Case Deflection|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[statusCode_display](#statusCode_display)||<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[name](#name)|The name of the custom entity.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[caseTitle](#caseTitle)|Title entered when the ticket was created.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[contact](#contact)|Contact who found the answer when the ticket was created.|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
+|[knowledgeArticle](#knowledgeArticle)|Knowledge Articles|<a href="CaseDeflection.md" target="_blank">portals/CaseDeflection</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

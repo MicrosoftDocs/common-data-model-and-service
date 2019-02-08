@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Quote Close
 
 Activity generated when a quote is closed.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/QuoteClose.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,94 +46,95 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/QuoteClose  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/QuoteClose](QuoteClose.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/QuoteClose](QuoteClose.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/QuoteClose](QuoteClose.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/QuoteClose](QuoteClose.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/QuoteClose](QuoteClose.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/QuoteClose](QuoteClose.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/QuoteClose](QuoteClose.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/QuoteClose](QuoteClose.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/QuoteClose](QuoteClose.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/QuoteClose](QuoteClose.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/QuoteClose](QuoteClose.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/QuoteClose](QuoteClose.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/QuoteClose](QuoteClose.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/QuoteClose](QuoteClose.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/QuoteClose](QuoteClose.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[sales/QuoteClose](QuoteClose.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[sales/QuoteClose](QuoteClose.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[sales/QuoteClose](QuoteClose.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[sales/QuoteClose](QuoteClose.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[priorityCode_display](#priorityCode_display)||[sales/QuoteClose](QuoteClose.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[sales/QuoteClose](QuoteClose.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[sales/QuoteClose](QuoteClose.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[sales/QuoteClose](QuoteClose.md)|
-|[subject](#subject)|Subject associated with the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[sales/QuoteClose](QuoteClose.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[sales/QuoteClose](QuoteClose.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[sales/QuoteClose](QuoteClose.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[sales/QuoteClose](QuoteClose.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[sales/QuoteClose](QuoteClose.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[sales/QuoteClose](QuoteClose.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[sales/QuoteClose](QuoteClose.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[sales/QuoteClose](QuoteClose.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[sales/QuoteClose](QuoteClose.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[sales/QuoteClose](QuoteClose.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[sales/QuoteClose](QuoteClose.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[sales/QuoteClose](QuoteClose.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[sales/QuoteClose](QuoteClose.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[sales/QuoteClose](QuoteClose.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[sales/QuoteClose](QuoteClose.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[sales/QuoteClose](QuoteClose.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[sales/QuoteClose](QuoteClose.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[sales/QuoteClose](QuoteClose.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[sales/QuoteClose](QuoteClose.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[sales/QuoteClose](QuoteClose.md)|
-|[community_display](#community_display)||[sales/QuoteClose](QuoteClose.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[sales/QuoteClose](QuoteClose.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[sales/QuoteClose](QuoteClose.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[sales/QuoteClose](QuoteClose.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[sales/QuoteClose](QuoteClose.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[sales/QuoteClose](QuoteClose.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[sales/QuoteClose](QuoteClose.md)|
-|[partners](#partners)|Outsource vendor with which activity is associated.|[sales/QuoteClose](QuoteClose.md)|
-|[description](#description)|Activity generated when a quote is closed.|[sales/QuoteClose](QuoteClose.md)|
-|[stateCode](#stateCode)|Shows whether the quote close activity is open, completed, or canceled.  By default, quote close activities are completed.|[sales/QuoteClose](QuoteClose.md)|
-|[stateCode_display](#stateCode_display)||[sales/QuoteClose](QuoteClose.md)|
-|[statusCode](#statusCode)|Reason for the status of the quote close activity.|[sales/QuoteClose](QuoteClose.md)|
-|[statusCode_display](#statusCode_display)||[sales/QuoteClose](QuoteClose.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|[sales/QuoteClose](QuoteClose.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|[sales/QuoteClose](QuoteClose.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[sales/QuoteClose](QuoteClose.md)|
-|[processId](#processId)|Unique identifier of the Process.|[sales/QuoteClose](QuoteClose.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[sales/QuoteClose](QuoteClose.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[sales/QuoteClose](QuoteClose.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[sales/QuoteClose](QuoteClose.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[sales/QuoteClose](QuoteClose.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[sales/QuoteClose](QuoteClose.md)|
-|[serviceId](#serviceId)|Unique identifier of the service with which the quote close activity is associated.|[sales/QuoteClose](QuoteClose.md)|
-|[quoteIdType](#quoteIdType)|The name of the entity linked by quoteId|[sales/QuoteClose](QuoteClose.md)|
-|[quoteId](#quoteId)|Unique identifier of the quote with which the quote close activity is associated.|[sales/QuoteClose](QuoteClose.md)|
-|[quoteNumber](#quoteNumber)|Quote number.|[sales/QuoteClose](QuoteClose.md)|
-|[revision](#revision)|Quote revision number.|[sales/QuoteClose](QuoteClose.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[sales/QuoteClose](QuoteClose.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[sales/QuoteClose](QuoteClose.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[community_display](#community_display)||<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[partners](#partners)|Outsource vendor with which activity is associated.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[description](#description)|Activity generated when a quote is closed.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[stateCode](#stateCode)|Shows whether the quote close activity is open, completed, or canceled.  By default, quote close activities are completed.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[stateCode_display](#stateCode_display)||<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[statusCode](#statusCode)|Reason for the status of the quote close activity.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[statusCode_display](#statusCode_display)||<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[serviceId](#serviceId)|Unique identifier of the service with which the quote close activity is associated.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[quoteIdType](#quoteIdType)|The name of the entity linked by quoteId|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[quoteId](#quoteId)|Unique identifier of the quote with which the quote close activity is associated.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[quoteNumber](#quoteNumber)|Quote number.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[revision](#revision)|Quote revision number.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="QuoteClose.md" target="_blank">sales/QuoteClose</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

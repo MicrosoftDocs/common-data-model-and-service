@@ -11,7 +11,7 @@ ms.author: tpalmer
 # LinkedIn Account
 
 The LinkedIn account where forms are created and published.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInAccount.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,47 +46,48 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 LinkedInLeads/LinkedInAccount  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[ownerId](#ownerId)|Owner Id|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[versionNumber](#versionNumber)|Version Number|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[linkedInAccountID](#linkedInAccountID)|Unique identifier for entity instances|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[stateCode](#stateCode)|Status of the LinkedIn Account|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[stateCode_display](#stateCode_display)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[statusCode](#statusCode)|Reason for the status of the LinkedIn Account|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[statusCode_display](#statusCode_display)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[name](#name)|Account name|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[campaignSyncStatus](#campaignSyncStatus)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[campaignSyncStatus_display](#campaignSyncStatus_display)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[defaultLeadOwner](#defaultLeadOwner)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[syncEnabled](#syncEnabled)|Do you want to sync LinkedIn data related to this account?|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[lastCampaignSyncDate](#lastCampaignSyncDate)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[lastFormSyncDate](#lastFormSyncDate)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[linkedInAccountTextID](#linkedInAccountTextID)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[statusDetails](#statusDetails)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[formSyncStatus](#formSyncStatus)|Status of last sync of LinkedIn forms and submissions|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[formSyncStatus_display](#formSyncStatus_display)||[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[lastSync](#lastSync)|Date and time of last sync of LinkedIn form submissions|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[lastsynctimestamprollupDate](#lastsynctimestamprollupDate)|Last Updated time of rollup field Last sync.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
-|[lastsynctimestamprollupState](#lastsynctimestamprollupState)|State of rollup field Last sync.|[LinkedInLeads/LinkedInAccount](LinkedInAccount.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[linkedInAccountID](#linkedInAccountID)|Unique identifier for entity instances|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[stateCode](#stateCode)|Status of the LinkedIn Account|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[stateCode_display](#stateCode_display)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[statusCode](#statusCode)|Reason for the status of the LinkedIn Account|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[statusCode_display](#statusCode_display)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[name](#name)|Account name|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[campaignSyncStatus](#campaignSyncStatus)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[campaignSyncStatus_display](#campaignSyncStatus_display)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[defaultLeadOwner](#defaultLeadOwner)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[syncEnabled](#syncEnabled)|Do you want to sync LinkedIn data related to this account?|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[lastCampaignSyncDate](#lastCampaignSyncDate)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[lastFormSyncDate](#lastFormSyncDate)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[linkedInAccountTextID](#linkedInAccountTextID)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[statusDetails](#statusDetails)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[formSyncStatus](#formSyncStatus)|Status of last sync of LinkedIn forms and submissions|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[formSyncStatus_display](#formSyncStatus_display)||<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[lastSync](#lastSync)|Date and time of last sync of LinkedIn form submissions|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[lastsynctimestamprollupDate](#lastsynctimestamprollupDate)|Last Updated time of rollup field Last sync.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
+|[lastsynctimestamprollupState](#lastsynctimestamprollupState)|State of rollup field Last sync.|<a href="LinkedInAccount.md" target="_blank">LinkedInLeads/LinkedInAccount</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

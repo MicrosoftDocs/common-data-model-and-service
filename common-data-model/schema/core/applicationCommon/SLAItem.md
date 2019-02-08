@@ -11,7 +11,7 @@ ms.author: tpalmer
 # SLA Item
 
 Contains information about a tracked support KPI for a specific customer.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SLAItem.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,42 +43,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/SLAItem  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[SLAItemId](#SLAItemId)|Unique identifier of the SLA Item.|[applicationCommon/SLAItem](SLAItem.md)|
-|[name](#name)|Type a descriptive name of the service level agreement (SLA) item.|[applicationCommon/SLAItem](SLAItem.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/SLAItem](SLAItem.md)|
-|[description](#description)|Type additional information to describe the SLA Item|[applicationCommon/SLAItem](SLAItem.md)|
-|[relatedField](#relatedField)|Select the service level agreement (SLA) key performance indicator (KPI) that this SLA Item is created for.|[applicationCommon/SLAItem](SLAItem.md)|
-|[SLAId](#SLAId)|Unique identifier for SLA associated with SLA Item.|[applicationCommon/SLAItem](SLAItem.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/SLAItem](SLAItem.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/SLAItem](SLAItem.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/SLAItem](SLAItem.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/SLAItem](SLAItem.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate between the currency associated with the SLA Item record and the base currency.|[applicationCommon/SLAItem](SLAItem.md)|
-|[versionNumber](#versionNumber)|Version number of the SLA Item.|[applicationCommon/SLAItem](SLAItem.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the SLA Item record.|[applicationCommon/SLAItem](SLAItem.md)|
-|[applicableWhenXml](#applicableWhenXml)|Condition for SLA item|[applicationCommon/SLAItem](SLAItem.md)|
-|[successConditionsXml](#successConditionsXml)|Condition for SLA item|[applicationCommon/SLAItem](SLAItem.md)|
-|[solutionId](#solutionId)|Unique identifier of the associated solution.|[applicationCommon/SLAItem](SLAItem.md)|
-|[componentState](#componentState)|For internal use only.|[applicationCommon/SLAItem](SLAItem.md)|
-|[componentState_display](#componentState_display)||[applicationCommon/SLAItem](SLAItem.md)|
-|[overwriteTime](#overwriteTime)|For internal use only.|[applicationCommon/SLAItem](SLAItem.md)|
-|[isManaged](#isManaged)|For internal use only.|[applicationCommon/SLAItem](SLAItem.md)|
-|[SLAItemIdUnique](#SLAItemIdUnique)|For internal use only.|[applicationCommon/SLAItem](SLAItem.md)|
-|[sequenceNumber](#sequenceNumber)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|[applicationCommon/SLAItem](SLAItem.md)|
-|[failureAfter](#failureAfter)|Select how soon the success criteria must be met until the SLA item is considered failed and failure actions are initiated. The actual duration is based on the business hours as specified in the associated SLA record.|[applicationCommon/SLAItem](SLAItem.md)|
-|[warnAfter](#warnAfter)|Select how soon the success criteria must be met before warning actions are initiated. The actual duration is based on the business hours as specified in the associated SLA record.|[applicationCommon/SLAItem](SLAItem.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns the SLA Item record.|[applicationCommon/SLAItem](SLAItem.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/SLAItem](SLAItem.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/SLAItem](SLAItem.md)|
-|[workflowId](#workflowId)|Workflow associated with the SLA Item.|[applicationCommon/SLAItem](SLAItem.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SLAItem](SLAItem.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SLAItem](SLAItem.md)|
+|[SLAItemId](#SLAItemId)|Unique identifier of the SLA Item.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[name](#name)|Type a descriptive name of the service level agreement (SLA) item.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[description](#description)|Type additional information to describe the SLA Item|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[relatedField](#relatedField)|Select the service level agreement (SLA) key performance indicator (KPI) that this SLA Item is created for.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[SLAId](#SLAId)|Unique identifier for SLA associated with SLA Item.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate between the currency associated with the SLA Item record and the base currency.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[versionNumber](#versionNumber)|Version number of the SLA Item.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the SLA Item record.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[applicableWhenXml](#applicableWhenXml)|Condition for SLA item|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[successConditionsXml](#successConditionsXml)|Condition for SLA item|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[solutionId](#solutionId)|Unique identifier of the associated solution.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[componentState](#componentState)|For internal use only.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[componentState_display](#componentState_display)||<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[overwriteTime](#overwriteTime)|For internal use only.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[isManaged](#isManaged)|For internal use only.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[SLAItemIdUnique](#SLAItemIdUnique)|For internal use only.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[sequenceNumber](#sequenceNumber)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[failureAfter](#failureAfter)|Select how soon the success criteria must be met until the SLA item is considered failed and failure actions are initiated. The actual duration is based on the business hours as specified in the associated SLA record.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[warnAfter](#warnAfter)|Select how soon the success criteria must be met before warning actions are initiated. The actual duration is based on the business hours as specified in the associated SLA record.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns the SLA Item record.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[workflowId](#workflowId)|Workflow associated with the SLA Item.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SLAItem.md" target="_blank">applicationCommon/SLAItem</a>|
 
 ### <a href=#SLAItemId name="SLAItemId">SLAItemId</a>
 

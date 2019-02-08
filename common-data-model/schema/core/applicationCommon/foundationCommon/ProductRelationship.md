@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Product Relationship
 
 Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/ProductRelationship.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/ProductRelationship  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productSubstituteId](#productSubstituteId)|Shows the unique identifier of the product relationship.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[name](#name)|name|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[productId](#productId)|Shows the product that the relationship is defined for.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[salesRelationshipType](#salesRelationshipType)|Select the type of the product relationship.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[salesRelationshipType_display](#salesRelationshipType_display)||[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[stateCode](#stateCode)|Select the product relationship's status.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[statusCode](#statusCode)|Shows whether the product relationship is active or inactive.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[substitutedProductId](#substitutedProductId)|Select the related product that the relationship needs to be defined for.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[direction](#direction)|Select whether the relationship is unidirectional or bidirectional.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[direction_display](#direction_display)||[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|[foundationCommon/ProductRelationship](ProductRelationship.md)|
+|[productSubstituteId](#productSubstituteId)|Shows the unique identifier of the product relationship.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[name](#name)|name|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[productId](#productId)|Shows the product that the relationship is defined for.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[salesRelationshipType](#salesRelationshipType)|Select the type of the product relationship.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[salesRelationshipType_display](#salesRelationshipType_display)||<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[stateCode](#stateCode)|Select the product relationship's status.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[stateCode_display](#stateCode_display)||<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[statusCode](#statusCode)|Shows whether the product relationship is active or inactive.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[statusCode_display](#statusCode_display)||<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[substitutedProductId](#substitutedProductId)|Select the related product that the relationship needs to be defined for.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[direction](#direction)|Select whether the relationship is unidirectional or bidirectional.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[direction_display](#direction_display)||<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|<a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>|
 
 ### <a href=#productSubstituteId name="productSubstituteId">productSubstituteId</a>
 

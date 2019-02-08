@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Forum Post
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/ForumPost.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,43 +42,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/ForumPost  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/ForumPost](ForumPost.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/ForumPost](ForumPost.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/ForumPost](ForumPost.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/ForumPost](ForumPost.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/ForumPost](ForumPost.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/ForumPost](ForumPost.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/ForumPost](ForumPost.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/ForumPost](ForumPost.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/ForumPost](ForumPost.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/ForumPost](ForumPost.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/ForumPost](ForumPost.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/ForumPost](ForumPost.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/ForumPost](ForumPost.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/ForumPost](ForumPost.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/ForumPost](ForumPost.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/ForumPost](ForumPost.md)|
-|[communityForumPostId](#communityForumPostId)|Shows the entity instances.|[portals/ForumPost](ForumPost.md)|
-|[stateCode](#stateCode)|Status of the Forum Post|[portals/ForumPost](ForumPost.md)|
-|[stateCode_display](#stateCode_display)||[portals/ForumPost](ForumPost.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[communityForumPostId](#communityForumPostId)|Shows the entity instances.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[stateCode](#stateCode)|Status of the Forum Post|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[stateCode_display](#stateCode_display)||<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
 |[statusCode](#statusCode)|Select the forum post's status.
-|[portals/ForumPost](ForumPost.md)|
-|[statusCode_display](#statusCode_display)||[portals/ForumPost](ForumPost.md)|
-|[name](#name)|Shows the name of the custom entity.|[portals/ForumPost](ForumPost.md)|
-|[authorId](#authorId)|Shows the contact associated with the forum post.|[portals/ForumPost](ForumPost.md)|
-|[content](#content)||[portals/ForumPost](ForumPost.md)|
-|[date](#date)||[portals/ForumPost](ForumPost.md)|
-|[forumThreadId](#forumThreadId)|Shows the Forum Thread associated with the forum post.|[portals/ForumPost](ForumPost.md)|
-|[helpfulVoteCount](#helpfulVoteCount)||[portals/ForumPost](ForumPost.md)|
-|[isAnswer](#isAnswer)||[portals/ForumPost](ForumPost.md)|
-|[publishingStateId](#publishingStateId)|Shows the Publishing State associated with the forum post.|[portals/ForumPost](ForumPost.md)|
-|[regardingId](#regardingId)|Shows the forum post associated with the forum post.|[portals/ForumPost](ForumPost.md)|
+|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[statusCode_display](#statusCode_display)||<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[name](#name)|Shows the name of the custom entity.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[authorId](#authorId)|Shows the contact associated with the forum post.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[content](#content)||<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[date](#date)||<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[forumThreadId](#forumThreadId)|Shows the Forum Thread associated with the forum post.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[helpfulVoteCount](#helpfulVoteCount)||<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[isAnswer](#isAnswer)||<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[publishingStateId](#publishingStateId)|Shows the Publishing State associated with the forum post.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
+|[regardingId](#regardingId)|Shows the forum post associated with the forum post.|<a href="ForumPost.md" target="_blank">portals/ForumPost</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

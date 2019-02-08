@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Characteristic
 
 Skills, education and certifications of resources.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Characteristic.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,39 +46,40 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/Characteristic  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/Characteristic](Characteristic.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/Characteristic](Characteristic.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/Characteristic](Characteristic.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/Characteristic](Characteristic.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/Characteristic](Characteristic.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/Characteristic](Characteristic.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/Characteristic](Characteristic.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/Characteristic](Characteristic.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/Characteristic](Characteristic.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/Characteristic](Characteristic.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/Characteristic](Characteristic.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/Characteristic](Characteristic.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/Characteristic](Characteristic.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/Characteristic](Characteristic.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/Characteristic](Characteristic.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/Characteristic](Characteristic.md)|
-|[characteristicId](#characteristicId)|Unique identifier of the characteristic.|[foundationCommon/Characteristic](Characteristic.md)|
-|[name](#name)|Type a name for the characteristic.|[foundationCommon/Characteristic](Characteristic.md)|
-|[characteristicType](#characteristicType)|Select the type of characteristic.|[foundationCommon/Characteristic](Characteristic.md)|
-|[characteristicType_display](#characteristicType_display)||[foundationCommon/Characteristic](Characteristic.md)|
-|[description](#description)|Type a detailed description of the characteristic.|[foundationCommon/Characteristic](Characteristic.md)|
-|[stateCode](#stateCode)|Status of the Characteristic|[foundationCommon/Characteristic](Characteristic.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/Characteristic](Characteristic.md)|
-|[statusCode](#statusCode)|Reason for the status of the Characteristic|[foundationCommon/Characteristic](Characteristic.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/Characteristic](Characteristic.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the characteristic with respect to the base currency.|[foundationCommon/Characteristic](Characteristic.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the Characteristic with respect to the base currency.|[foundationCommon/Characteristic](Characteristic.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[characteristicId](#characteristicId)|Unique identifier of the characteristic.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[name](#name)|Type a name for the characteristic.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[characteristicType](#characteristicType)|Select the type of characteristic.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[characteristicType_display](#characteristicType_display)||<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[description](#description)|Type a detailed description of the characteristic.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[stateCode](#stateCode)|Status of the Characteristic|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[stateCode_display](#stateCode_display)||<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[statusCode](#statusCode)|Reason for the status of the Characteristic|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[statusCode_display](#statusCode_display)||<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the characteristic with respect to the base currency.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the Characteristic with respect to the base currency.|<a href="Characteristic.md" target="_blank">foundationCommon/Characteristic</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

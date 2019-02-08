@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Area of Interest
 
 The master list of all area of interests offered by an institution.  Areas of interest are higher level subject groupings like astronomy, or business.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfInterest.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/AreaOfInterest  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[areaOfInterestId](#areaOfInterestId)|Unique identifier for entity instances|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[stateCode](#stateCode)|Status of the Area of Interest|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[statusCode](#statusCode)|Reason for the status of the Area of Interest|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[name](#name)|Area of Interest instance name|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[code](#code)|Abbreviated code for the area of interest.|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[externalIdentifier](#externalIdentifier)|External Identifier|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/AreaOfInterest](AreaOfInterest.md)|
-|[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/AreaOfInterest](AreaOfInterest.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[areaOfInterestId](#areaOfInterestId)|Unique identifier for entity instances|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[stateCode](#stateCode)|Status of the Area of Interest|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[stateCode_display](#stateCode_display)||<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[statusCode](#statusCode)|Reason for the status of the Area of Interest|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[statusCode_display](#statusCode_display)||<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[name](#name)|Area of Interest instance name|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[code](#code)|Abbreviated code for the area of interest.|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[externalIdentifier](#externalIdentifier)|External Identifier|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[externalSourceSystem](#externalSourceSystem)|External Source System|<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
+|[externalSourceSystem_display](#externalSourceSystem_display)||<a href="AreaOfInterest.md" target="_blank">higherEducation/AreaOfInterest</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

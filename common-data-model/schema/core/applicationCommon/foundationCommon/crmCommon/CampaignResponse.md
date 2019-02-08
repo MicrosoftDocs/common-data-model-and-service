@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Campaign Response
 
 Response from an existing or a potential new customer for a campaign.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/CampaignResponse.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,107 +46,108 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 crmCommon/CampaignResponse  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[ownerId](#ownerId)|Owner Id|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[priorityCode_display](#priorityCode_display)||[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[subject](#subject)|Subject associated with the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[community_display](#community_display)||[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[partners](#partners)|Outsource vendor with which activity is associated.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[description](#description)|Type additional information to describe the campaign response, such as key discussion points or objectives.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[stateCode](#stateCode)|Shows whether the campaign response is open, closed, or canceled. Closed and canceled campaign responses are read-only and can't be edited.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[stateCode_display](#stateCode_display)||[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[statusCode](#statusCode)|Select the campaign response's status.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[statusCode_display](#statusCode_display)||[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[processId](#processId)|Unique identifier of the Process.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[channelTypeCode](#channelTypeCode)|Select how the response was received, such as phone, letter, fax, or email.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[channelTypeCode_display](#channelTypeCode_display)||[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[companyName](#companyName)|Type the name of the company if the campaign response was received from a new prospect or customer.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[customer](#customer)|Enter the account, contact, or lead that submitted the campaign response, if it was received from an existing prospect or customer.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[emailAddress](#emailAddress)|Type the responder's email address.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[fax](#fax)|Type the responder's fax number.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[firstName](#firstName)|Type the responder's first name if the campaign response was received from a new prospect or customer.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[lastName](#lastName)|Type the responder's last name if the campaign response was received from a new prospect or customer.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[originatingActivityIdTypeCode](#originatingActivityIdTypeCode)|The name of the entity linked by originatingActivityId|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[originatingActivityId](#originatingActivityId)|Choose the phone call, email, fax, letter, or appointment activity that led the prospect or customer to respond to the campaign.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[partner](#partner)|Enter the vendor account or contact to capture any third-party used to obtain the campaign response.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[promotionCodeName](#promotionCodeName)|Type a promotional code to track sales related to the campaign response or to allow the responder to redeem a discount offer.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[receivedOn](#receivedOn)|Enter the date when the campaign response was received.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[responseCode](#responseCode)|Select the type of response from the prospect or customer to indicate their interest in the campaign.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[responseCode_display](#responseCode_display)||[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[telephone](#telephone)|Type the responder's primary phone number.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[yomiCompanyName](#yomiCompanyName)|Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[yomiFirstName](#yomiFirstName)|Type the phonetic spelling of the campaign responder's first name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[yomiLastName](#yomiLastName)|Type the phonetic spelling of the campaign responder's last name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|[crmCommon/CampaignResponse](CampaignResponse.md)|
-|[serviceId](#serviceId)|Unique identifier for the associated service.|[crmCommon/CampaignResponse](CampaignResponse.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[community_display](#community_display)||<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[partners](#partners)|Outsource vendor with which activity is associated.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[description](#description)|Type additional information to describe the campaign response, such as key discussion points or objectives.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[stateCode](#stateCode)|Shows whether the campaign response is open, closed, or canceled. Closed and canceled campaign responses are read-only and can't be edited.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[stateCode_display](#stateCode_display)||<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[statusCode](#statusCode)|Select the campaign response's status.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[statusCode_display](#statusCode_display)||<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[channelTypeCode](#channelTypeCode)|Select how the response was received, such as phone, letter, fax, or email.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[channelTypeCode_display](#channelTypeCode_display)||<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[companyName](#companyName)|Type the name of the company if the campaign response was received from a new prospect or customer.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[customer](#customer)|Enter the account, contact, or lead that submitted the campaign response, if it was received from an existing prospect or customer.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[emailAddress](#emailAddress)|Type the responder's email address.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[fax](#fax)|Type the responder's fax number.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[firstName](#firstName)|Type the responder's first name if the campaign response was received from a new prospect or customer.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[lastName](#lastName)|Type the responder's last name if the campaign response was received from a new prospect or customer.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[originatingActivityIdTypeCode](#originatingActivityIdTypeCode)|The name of the entity linked by originatingActivityId|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[originatingActivityId](#originatingActivityId)|Choose the phone call, email, fax, letter, or appointment activity that led the prospect or customer to respond to the campaign.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[partner](#partner)|Enter the vendor account or contact to capture any third-party used to obtain the campaign response.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[promotionCodeName](#promotionCodeName)|Type a promotional code to track sales related to the campaign response or to allow the responder to redeem a discount offer.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[receivedOn](#receivedOn)|Enter the date when the campaign response was received.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[responseCode](#responseCode)|Select the type of response from the prospect or customer to indicate their interest in the campaign.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[responseCode_display](#responseCode_display)||<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[telephone](#telephone)|Type the responder's primary phone number.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[yomiCompanyName](#yomiCompanyName)|Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[yomiFirstName](#yomiFirstName)|Type the phonetic spelling of the campaign responder's first name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[yomiLastName](#yomiLastName)|Type the phonetic spelling of the campaign responder's last name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
+|[serviceId](#serviceId)|Unique identifier for the associated service.|<a href="CampaignResponse.md" target="_blank">crmCommon/CampaignResponse</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

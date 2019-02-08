@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Contract
 
 Agreement to provide customer service during a specified amount of time or number of cases.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Contract.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,73 +46,74 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/Contract  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[service/Contract](Contract.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[service/Contract](Contract.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[service/Contract](Contract.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[service/Contract](Contract.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[service/Contract](Contract.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[service/Contract](Contract.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/Contract](Contract.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[service/Contract](Contract.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[service/Contract](Contract.md)|
-|[ownerId](#ownerId)|Owner Id|[service/Contract](Contract.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[service/Contract](Contract.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[service/Contract](Contract.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[service/Contract](Contract.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/Contract](Contract.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/Contract](Contract.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/Contract](Contract.md)|
-|[contractId](#contractId)|Unique identifier of the contract.|[service/Contract](Contract.md)|
-|[emailAddress](#emailAddress)|The primary email address for the entity.|[service/Contract](Contract.md)|
-|[title](#title)|Type a title or name for the contract that indicates the purpose of the contract.|[service/Contract](Contract.md)|
-|[activeOn](#activeOn)|Enter the date when the contract becomes active.|[service/Contract](Contract.md)|
-|[allotmentTypeCode](#allotmentTypeCode)|Type of allotment that the contract supports.|[service/Contract](Contract.md)|
-|[allotmentTypeCode_display](#allotmentTypeCode_display)||[service/Contract](Contract.md)|
-|[billingCustomerIdType](#billingCustomerIdType)|The type of billing customer, either Account or Contact.|[service/Contract](Contract.md)|
-|[billingCustomerId](#billingCustomerId)|Select the customer account or contact to which the contract should be billed to provide a quick link to address and other customer details.|[service/Contract](Contract.md)|
-|[billingEndOn](#billingEndOn)|Enter the end date for the contract's billing period to indicate the period for which the customer must pay for a service.|[service/Contract](Contract.md)|
-|[billingFrequencyCode](#billingFrequencyCode)|Select the billing schedule of the contract to indicate how often the customer should be invoiced.|[service/Contract](Contract.md)|
-|[billingFrequencyCode_display](#billingFrequencyCode_display)||[service/Contract](Contract.md)|
-|[billingStartOn](#billingStartOn)|Enter the start date for the contract's billing period to indicate the period for which the customer must pay for a service. This defaults to the same date that is selected in the Contract Start Date field.|[service/Contract](Contract.md)|
-|[billToAddress](#billToAddress)|Choose which address to send the invoice to.|[service/Contract](Contract.md)|
-|[cancelOn](#cancelOn)|Shows the date and time when the contract was canceled.|[service/Contract](Contract.md)|
-|[contractLanguage](#contractLanguage)|Type additional information about the contract, such as the products or services provided to the customer.|[service/Contract](Contract.md)|
-|[contractNumber](#contractNumber)|Shows the number for the contract for customer reference and searching capabilities. You cannot modify this number.|[service/Contract](Contract.md)|
-|[contractServiceLevelCode](#contractServiceLevelCode)|Select the level of service that should be provided for the contract based on your company's definition of bronze, silver, or gold.|[service/Contract](Contract.md)|
-|[contractServiceLevelCode_display](#contractServiceLevelCode_display)||[service/Contract](Contract.md)|
-|[contractTemplateAbbreviation](#contractTemplateAbbreviation)|Shows the abbreviation of the contract template selected when the contract is created.|[service/Contract](Contract.md)|
-|[contractTemplateId](#contractTemplateId)|Choose the contract template that should be used to determine the terms of the contract, such as allotment type, available hours, and billing frequency.|[service/Contract](Contract.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[service/Contract](Contract.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[service/Contract](Contract.md)|
-|[duration](#duration)|Shows for the duration of the contract, in days, based on the contract start and end dates.|[service/Contract](Contract.md)|
-|[effectivityCalendar](#effectivityCalendar)|Days of the week and times during which customer service support is available for the duration of the contract.|[service/Contract](Contract.md)|
-|[expiresOn](#expiresOn)|Enter the date when the contract expires.|[service/Contract](Contract.md)|
-|[netPrice](#netPrice)|Shows the total charge to the customer for the service contract, calculated as the sum of values in the Net field for each existing contract line related to the contract.|[service/Contract](Contract.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[service/Contract](Contract.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[service/Contract](Contract.md)|
-|[netPriceBase](#netPriceBase)|Value of the Net Price in base currency.|[service/Contract](Contract.md)|
-|[originatingContract](#originatingContract)|Choose the original contract that this contract was created from. This information is used to track renewal history.|[service/Contract](Contract.md)|
-|[serviceAddress](#serviceAddress)|Choose the address for the customer account or contact where the services are provided.|[service/Contract](Contract.md)|
-|[stateCode](#stateCode)|Shows whether the contract is in draft, invoiced, active, on hold, canceled, or expired. You can edit only the contracts that are in draft status.|[service/Contract](Contract.md)|
-|[stateCode_display](#stateCode_display)||[service/Contract](Contract.md)|
-|[statusCode](#statusCode)|Select the contract's status.|[service/Contract](Contract.md)|
-|[statusCode_display](#statusCode_display)||[service/Contract](Contract.md)|
-|[totalDiscount](#totalDiscount)|Shows the total discount applied to the contract's service charges, calculated as the sum of values in the Discount fields for each existing contract line related to the contract.|[service/Contract](Contract.md)|
-|[totalDiscountBase](#totalDiscountBase)|Value of the Total Discount in base currency.|[service/Contract](Contract.md)|
-|[totalPrice](#totalPrice)|Shows the total service charge for the contract, before any discounts are credited. This is calculated as the sum of values in the Total Price field for each existing contract line related to the contract.|[service/Contract](Contract.md)|
-|[totalPriceBase](#totalPriceBase)|Value of the Total Price in base currency.|[service/Contract](Contract.md)|
-|[useDiscountAsPercentage](#useDiscountAsPercentage)|Select whether the discounts entered on contract lines for this contract should be entered as a percentage or a fixed dollar value.|[service/Contract](Contract.md)|
-|[entityImageId](#entityImageId)||[service/Contract](Contract.md)|
-|[accountId](#accountId)|Unique identifier of the account with which the contract is associated.|[service/Contract](Contract.md)|
-|[billingAccountId](#billingAccountId)|Unique identifier of the account to which the contract is to be billed.|[service/Contract](Contract.md)|
-|[billingContactId](#billingContactId)|Unique identifier of the contact to whom the contract is to be billed.|[service/Contract](Contract.md)|
-|[contactId](#contactId)|Unique identifier of the contact specified for the contract.|[service/Contract](Contract.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[contractId](#contractId)|Unique identifier of the contract.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[emailAddress](#emailAddress)|The primary email address for the entity.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[title](#title)|Type a title or name for the contract that indicates the purpose of the contract.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[activeOn](#activeOn)|Enter the date when the contract becomes active.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[allotmentTypeCode](#allotmentTypeCode)|Type of allotment that the contract supports.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[allotmentTypeCode_display](#allotmentTypeCode_display)||<a href="Contract.md" target="_blank">service/Contract</a>|
+|[billingCustomerIdType](#billingCustomerIdType)|The type of billing customer, either Account or Contact.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[billingCustomerId](#billingCustomerId)|Select the customer account or contact to which the contract should be billed to provide a quick link to address and other customer details.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[billingEndOn](#billingEndOn)|Enter the end date for the contract's billing period to indicate the period for which the customer must pay for a service.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[billingFrequencyCode](#billingFrequencyCode)|Select the billing schedule of the contract to indicate how often the customer should be invoiced.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[billingFrequencyCode_display](#billingFrequencyCode_display)||<a href="Contract.md" target="_blank">service/Contract</a>|
+|[billingStartOn](#billingStartOn)|Enter the start date for the contract's billing period to indicate the period for which the customer must pay for a service. This defaults to the same date that is selected in the Contract Start Date field.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[billToAddress](#billToAddress)|Choose which address to send the invoice to.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[cancelOn](#cancelOn)|Shows the date and time when the contract was canceled.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[contractLanguage](#contractLanguage)|Type additional information about the contract, such as the products or services provided to the customer.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[contractNumber](#contractNumber)|Shows the number for the contract for customer reference and searching capabilities. You cannot modify this number.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[contractServiceLevelCode](#contractServiceLevelCode)|Select the level of service that should be provided for the contract based on your company's definition of bronze, silver, or gold.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[contractServiceLevelCode_display](#contractServiceLevelCode_display)||<a href="Contract.md" target="_blank">service/Contract</a>|
+|[contractTemplateAbbreviation](#contractTemplateAbbreviation)|Shows the abbreviation of the contract template selected when the contract is created.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[contractTemplateId](#contractTemplateId)|Choose the contract template that should be used to determine the terms of the contract, such as allotment type, available hours, and billing frequency.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[duration](#duration)|Shows for the duration of the contract, in days, based on the contract start and end dates.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[effectivityCalendar](#effectivityCalendar)|Days of the week and times during which customer service support is available for the duration of the contract.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[expiresOn](#expiresOn)|Enter the date when the contract expires.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[netPrice](#netPrice)|Shows the total charge to the customer for the service contract, calculated as the sum of values in the Net field for each existing contract line related to the contract.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[netPriceBase](#netPriceBase)|Value of the Net Price in base currency.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[originatingContract](#originatingContract)|Choose the original contract that this contract was created from. This information is used to track renewal history.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[serviceAddress](#serviceAddress)|Choose the address for the customer account or contact where the services are provided.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[stateCode](#stateCode)|Shows whether the contract is in draft, invoiced, active, on hold, canceled, or expired. You can edit only the contracts that are in draft status.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[stateCode_display](#stateCode_display)||<a href="Contract.md" target="_blank">service/Contract</a>|
+|[statusCode](#statusCode)|Select the contract's status.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[statusCode_display](#statusCode_display)||<a href="Contract.md" target="_blank">service/Contract</a>|
+|[totalDiscount](#totalDiscount)|Shows the total discount applied to the contract's service charges, calculated as the sum of values in the Discount fields for each existing contract line related to the contract.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[totalDiscountBase](#totalDiscountBase)|Value of the Total Discount in base currency.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[totalPrice](#totalPrice)|Shows the total service charge for the contract, before any discounts are credited. This is calculated as the sum of values in the Total Price field for each existing contract line related to the contract.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[totalPriceBase](#totalPriceBase)|Value of the Total Price in base currency.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[useDiscountAsPercentage](#useDiscountAsPercentage)|Select whether the discounts entered on contract lines for this contract should be entered as a percentage or a fixed dollar value.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[entityImageId](#entityImageId)||<a href="Contract.md" target="_blank">service/Contract</a>|
+|[accountId](#accountId)|Unique identifier of the account with which the contract is associated.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[billingAccountId](#billingAccountId)|Unique identifier of the account to which the contract is to be billed.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[billingContactId](#billingContactId)|Unique identifier of the contact to whom the contract is to be billed.|<a href="Contract.md" target="_blank">service/Contract</a>|
+|[contactId](#contactId)|Unique identifier of the contact specified for the contract.|<a href="Contract.md" target="_blank">service/Contract</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email contains blacklisted links
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailContainsBlacklistedLinks.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,25 +33,26 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailContainsBlacklistedLinks  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[accountId](#accountId)|Account|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[messageId](#messageId)|Message|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[blacklistedLink](#blacklistedLink)|Blacklisted link|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
-|[activityId](#activityId)|Activity ID|[interactions/EmailContainsBlacklistedLinks](EmailContainsBlacklistedLinks.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[contactId](#contactId)|Contact|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[accountId](#accountId)|Account|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[messageId](#messageId)|Message|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[blacklistedLink](#blacklistedLink)|Blacklisted link|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[activityId](#activityId)|Activity ID|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

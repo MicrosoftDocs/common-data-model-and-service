@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Donor Commitment
 
 Donor commitments track the frequency with which constituents donate funds to a nonprofit or Foundation.  All nonprofits and Foundations seek to attract as many monthly/recurring/sustaining gifts or donor commitments that they can.  Other donors routinely give on a one-time basis.  Monthly givers require additional payment and transaction information tracking including payment method, schedules, in-kind pledge relevance, and more.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DonorCommitment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,58 +46,59 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/DonorCommitment  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[donorCommitmentId](#donorCommitmentId)|Unique identifier for entity instances|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[stateCode](#stateCode)|Status of the Donor Commitment|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[statusCode](#statusCode)|Reason for the status of the Donor Commitment|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[name](#name)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[anonymity](#anonymity)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[anonymity_display](#anonymity_display)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[bookDate](#bookDate)|The date on which revenue will be recognized|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[commitmentCampaignId](#commitmentCampaignId)|Campaign|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[commitmentDefaultDesignationId](#commitmentDefaultDesignationId)|Default Designation|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[commitmentDate](#commitmentDate)|This is the date that the donor made the commitment, not necessarily the date that the commitment was entered into the system.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[commitmentType](#commitmentType)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[commitmentType_display](#commitmentType_display)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[dataEntryReference](#dataEntryReference)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[dataEntrySource](#dataEntrySource)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[dataEntrySource_display](#dataEntrySource_display)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[donorCommitmentPlannedGivingId](#donorCommitmentPlannedGivingId)|Planned Giving|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[expectedByDate](#expectedByDate)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[isBookable](#isBookable)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[nextPaymentAmount](#nextPaymentAmount)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[nextpaymentamountBase](#nextpaymentamountBase)|Value of the Next Payment Amount in base currency.|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[nextPaymentDate](#nextPaymentDate)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[pledgedByContactId](#pledgedByContactId)|Pledged By Contact|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[pledgedOnAccountId](#pledgedOnAccountId)|Pledged On Account|[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[receivedDate](#receivedDate)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[totalAmount](#totalAmount)||[nonProfit/DonorCommitment](DonorCommitment.md)|
-|[totalamountBase](#totalamountBase)|Value of the Total Amount in base currency.|[nonProfit/DonorCommitment](DonorCommitment.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[donorCommitmentId](#donorCommitmentId)|Unique identifier for entity instances|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[stateCode](#stateCode)|Status of the Donor Commitment|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[stateCode_display](#stateCode_display)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[statusCode](#statusCode)|Reason for the status of the Donor Commitment|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[statusCode_display](#statusCode_display)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[name](#name)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[anonymity](#anonymity)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[anonymity_display](#anonymity_display)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[bookDate](#bookDate)|The date on which revenue will be recognized|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[commitmentCampaignId](#commitmentCampaignId)|Campaign|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[commitmentDefaultDesignationId](#commitmentDefaultDesignationId)|Default Designation|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[commitmentDate](#commitmentDate)|This is the date that the donor made the commitment, not necessarily the date that the commitment was entered into the system.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[commitmentType](#commitmentType)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[commitmentType_display](#commitmentType_display)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[dataEntryReference](#dataEntryReference)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[dataEntrySource](#dataEntrySource)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[dataEntrySource_display](#dataEntrySource_display)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[donorCommitmentPlannedGivingId](#donorCommitmentPlannedGivingId)|Planned Giving|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[expectedByDate](#expectedByDate)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[isBookable](#isBookable)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[nextPaymentAmount](#nextPaymentAmount)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[nextpaymentamountBase](#nextpaymentamountBase)|Value of the Next Payment Amount in base currency.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[nextPaymentDate](#nextPaymentDate)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[pledgedByContactId](#pledgedByContactId)|Pledged By Contact|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[pledgedOnAccountId](#pledgedOnAccountId)|Pledged On Account|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[receivedDate](#receivedDate)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[totalAmount](#totalAmount)||<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
+|[totalamountBase](#totalamountBase)|Value of the Total Amount in base currency.|<a href="DonorCommitment.md" target="_blank">nonProfit/DonorCommitment</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

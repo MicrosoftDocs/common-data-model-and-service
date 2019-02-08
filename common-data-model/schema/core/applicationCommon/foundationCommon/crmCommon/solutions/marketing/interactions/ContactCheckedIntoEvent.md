@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Event check-in
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ContactCheckedIntoEvent.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -36,21 +36,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/ContactCheckedIntoEvent  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[eventId](#eventId)|Event|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[contactId](#contactId)|Contact|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[accountId](#accountId)|Account|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[eventCheckinId](#eventCheckinId)|eventcheckinid|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/ContactCheckedIntoEvent](ContactCheckedIntoEvent.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>|
+|[eventId](#eventId)|Event|<a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>|
+|[contactId](#contactId)|Contact|<a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>|
+|[accountId](#accountId)|Account|<a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>|
+|[eventCheckinId](#eventCheckinId)|eventcheckinid|<a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Invitation
 
 Send invitations to existing contacts or email addresses and assign them to web roles upon redemption.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Invitation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Invitation  
 [portals/Invitation](../../portals/Invitation.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Invitation.cdm.json/Invitation")  
 
@@ -53,41 +54,41 @@ eventManagement/Invitation
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/Invitation](../../portals/Invitation.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/Invitation](../../portals/Invitation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/Invitation](../../portals/Invitation.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/Invitation](../../portals/Invitation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/Invitation](../../portals/Invitation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/Invitation](../../portals/Invitation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/Invitation](../../portals/Invitation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/Invitation](../../portals/Invitation.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/Invitation](../../portals/Invitation.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/Invitation](../../portals/Invitation.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/Invitation](../../portals/Invitation.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/Invitation](../../portals/Invitation.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/Invitation](../../portals/Invitation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/Invitation](../../portals/Invitation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/Invitation](../../portals/Invitation.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/Invitation](../../portals/Invitation.md)|
-|[invitationId](#invitationId)|Shows the entity instance.|[portals/Invitation](../../portals/Invitation.md)|
-|[stateCode](#stateCode)|Status of the Invitation|[portals/Invitation](../../portals/Invitation.md)|
-|[stateCode_display](#stateCode_display)||[portals/Invitation](../../portals/Invitation.md)|
-|[statusCode](#statusCode)|Select the invitation's status.|[portals/Invitation](../../portals/Invitation.md)|
-|[statusCode_display](#statusCode_display)||[portals/Invitation](../../portals/Invitation.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/Invitation](../../portals/Invitation.md)|
-|[assignToAccount](#assignToAccount)|An account record to assign the redeemed contact to.|[portals/Invitation](../../portals/Invitation.md)|
-|[expiryDate](#expiryDate)|The date the invitation is no longer valid for redemption.|[portals/Invitation](../../portals/Invitation.md)|
-|[invitationCode](#invitationCode)|Shows the user who is redeeming the invitation.|[portals/Invitation](../../portals/Invitation.md)|
-|[inviteContact](#inviteContact)|The contact to send an invitation to.|[portals/Invitation](../../portals/Invitation.md)|
-|[inviterContact](#inviterContact)|The contact that invited.|[portals/Invitation](../../portals/Invitation.md)|
-|[maximumRedemptions](#maximumRedemptions)||[portals/Invitation](../../portals/Invitation.md)|
-|[redeemedContact](#redeemedContact)|The contact associated with the redemption of this invitation.|[portals/Invitation](../../portals/Invitation.md)|
-|[redemptions](#redemptions)|The current number of times this invitation has been redeemed.|[portals/Invitation](../../portals/Invitation.md)|
-|[redemptionWorkflow](#redemptionWorkflow)|A workflow to execute on the redeeming contact.|[portals/Invitation](../../portals/Invitation.md)|
-|[type](#type)|The type of invitation.|[portals/Invitation](../../portals/Invitation.md)|
-|[type_display](#type_display)||[portals/Invitation](../../portals/Invitation.md)|
-|[website](#website)|Unique identifier for Website associated with Invitation.|[portals/Invitation](../../portals/Invitation.md)|
-|[eventPortalInvitation](#eventPortalInvitation)|Indicates whether the Invitation is used by the Event Portal.|[eventManagement/Invitation](Invitation.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[invitationId](#invitationId)|Shows the entity instance.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[stateCode](#stateCode)|Status of the Invitation|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[statusCode](#statusCode)|Select the invitation's status.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[assignToAccount](#assignToAccount)|An account record to assign the redeemed contact to.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[expiryDate](#expiryDate)|The date the invitation is no longer valid for redemption.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[invitationCode](#invitationCode)|Shows the user who is redeeming the invitation.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[inviteContact](#inviteContact)|The contact to send an invitation to.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[inviterContact](#inviterContact)|The contact that invited.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[maximumRedemptions](#maximumRedemptions)||<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[redeemedContact](#redeemedContact)|The contact associated with the redemption of this invitation.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[redemptions](#redemptions)|The current number of times this invitation has been redeemed.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[redemptionWorkflow](#redemptionWorkflow)|A workflow to execute on the redeeming contact.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[type](#type)|The type of invitation.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[type_display](#type_display)||<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[website](#website)|Unique identifier for Website associated with Invitation.|<a href="../../portals/Invitation.md" target="_blank">portals/Invitation</a>|
+|[eventPortalInvitation](#eventPortalInvitation)|Indicates whether the Invitation is used by the Event Portal.|<a href="Invitation.md" target="_blank">eventManagement/Invitation</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

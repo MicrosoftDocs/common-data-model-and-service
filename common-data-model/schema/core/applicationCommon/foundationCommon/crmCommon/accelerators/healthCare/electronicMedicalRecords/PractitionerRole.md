@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Practitioner Role
 
 A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,43 +46,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/PractitionerRole  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[practitionerRoleId](#practitionerRoleId)|Unique identifier for entity instances|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[stateCode](#stateCode)|Status of the Practitioner Role|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[statusCode](#statusCode)|Reason for the status of the Practitioner Role|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[availabilityExceptions](#availabilityExceptions)|A description of site availability exceptions, e.g. public holiday availability.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[notAvailableDescription](#notAvailableDescription)|The HealthcareService is not available during this period of time due to the provided reason.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[notavailableEnddatetime](#notavailableEnddatetime)|The end of the period. If the end of the period is missing, it means that the period is ongoing.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[notavailableStartdatetime](#notavailableStartdatetime)|The start of the period. The boundary is inclusive.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[organization](#organization)|The organization where the Practitioner performs the roles associated.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[periodEndDatetime](#periodEndDatetime)|End time with inclusive boundary, if not ongoing|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[periodStartDatetime](#periodStartDatetime)|Starting time with inclusive boundary|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[practitioner](#practitioner)|Practitioner that is able to provide the defined services for the organization.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
-|[practitionerRoleNumber](#practitionerRoleNumber)|A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.|[electronicMedicalRecords/PractitionerRole](PractitionerRole.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[practitionerRoleId](#practitionerRoleId)|Unique identifier for entity instances|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[stateCode](#stateCode)|Status of the Practitioner Role|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[stateCode_display](#stateCode_display)||<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[statusCode](#statusCode)|Reason for the status of the Practitioner Role|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[statusCode_display](#statusCode_display)||<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[name](#name)|The name of the custom entity.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[availabilityExceptions](#availabilityExceptions)|A description of site availability exceptions, e.g. public holiday availability.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[notAvailableDescription](#notAvailableDescription)|The HealthcareService is not available during this period of time due to the provided reason.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[notavailableEnddatetime](#notavailableEnddatetime)|The end of the period. If the end of the period is missing, it means that the period is ongoing.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[notavailableStartdatetime](#notavailableStartdatetime)|The start of the period. The boundary is inclusive.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[organization](#organization)|The organization where the Practitioner performs the roles associated.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[periodEndDatetime](#periodEndDatetime)|End time with inclusive boundary, if not ongoing|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[periodStartDatetime](#periodStartDatetime)|Starting time with inclusive boundary|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[practitioner](#practitioner)|Practitioner that is able to provide the defined services for the organization.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
+|[practitionerRoleNumber](#practitionerRoleNumber)|A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.|<a href="PractitionerRole.md" target="_blank">electronicMedicalRecords/PractitionerRole</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

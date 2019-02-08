@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Case Resolution
 
 Special type of activity that includes description of the resolution, billing status, and the duration of the case.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/CaseResolution.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,93 +46,94 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/CaseResolution  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[service/CaseResolution](CaseResolution.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[service/CaseResolution](CaseResolution.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[service/CaseResolution](CaseResolution.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[service/CaseResolution](CaseResolution.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[service/CaseResolution](CaseResolution.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[service/CaseResolution](CaseResolution.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/CaseResolution](CaseResolution.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[service/CaseResolution](CaseResolution.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[service/CaseResolution](CaseResolution.md)|
-|[ownerId](#ownerId)|Owner Id|[service/CaseResolution](CaseResolution.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[service/CaseResolution](CaseResolution.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[service/CaseResolution](CaseResolution.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[service/CaseResolution](CaseResolution.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/CaseResolution](CaseResolution.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/CaseResolution](CaseResolution.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/CaseResolution](CaseResolution.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[service/CaseResolution](CaseResolution.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[service/CaseResolution](CaseResolution.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[service/CaseResolution](CaseResolution.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[service/CaseResolution](CaseResolution.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[service/CaseResolution](CaseResolution.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[service/CaseResolution](CaseResolution.md)|
-|[priorityCode_display](#priorityCode_display)||[service/CaseResolution](CaseResolution.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[service/CaseResolution](CaseResolution.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[service/CaseResolution](CaseResolution.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[service/CaseResolution](CaseResolution.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[service/CaseResolution](CaseResolution.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[service/CaseResolution](CaseResolution.md)|
-|[subject](#subject)|Subject associated with the activity.|[service/CaseResolution](CaseResolution.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[service/CaseResolution](CaseResolution.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[service/CaseResolution](CaseResolution.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[service/CaseResolution](CaseResolution.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[service/CaseResolution](CaseResolution.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[service/CaseResolution](CaseResolution.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[service/CaseResolution](CaseResolution.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[service/CaseResolution](CaseResolution.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[service/CaseResolution](CaseResolution.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[service/CaseResolution](CaseResolution.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[service/CaseResolution](CaseResolution.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[service/CaseResolution](CaseResolution.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[service/CaseResolution](CaseResolution.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[service/CaseResolution](CaseResolution.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[service/CaseResolution](CaseResolution.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[service/CaseResolution](CaseResolution.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[service/CaseResolution](CaseResolution.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[service/CaseResolution](CaseResolution.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[service/CaseResolution](CaseResolution.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[service/CaseResolution](CaseResolution.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[service/CaseResolution](CaseResolution.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[service/CaseResolution](CaseResolution.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[service/CaseResolution](CaseResolution.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[service/CaseResolution](CaseResolution.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[service/CaseResolution](CaseResolution.md)|
-|[community_display](#community_display)||[service/CaseResolution](CaseResolution.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[service/CaseResolution](CaseResolution.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[service/CaseResolution](CaseResolution.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[service/CaseResolution](CaseResolution.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[service/CaseResolution](CaseResolution.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[service/CaseResolution](CaseResolution.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[service/CaseResolution](CaseResolution.md)|
-|[partners](#partners)|Outsource vendor with which activity is associated.|[service/CaseResolution](CaseResolution.md)|
-|[description](#description)|Type additional information that describes the case resolution.|[service/CaseResolution](CaseResolution.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|[service/CaseResolution](CaseResolution.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[service/CaseResolution](CaseResolution.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[service/CaseResolution](CaseResolution.md)|
-|[processId](#processId)|Unique identifier of the Process.|[service/CaseResolution](CaseResolution.md)|
-|[serviceId](#serviceId)|Unique identifier of the service with which the case resolution activity is associated.|[service/CaseResolution](CaseResolution.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[service/CaseResolution](CaseResolution.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[service/CaseResolution](CaseResolution.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[service/CaseResolution](CaseResolution.md)|
-|[stateCode](#stateCode)|Shows whether the case resolution is open, completed, or canceled. By default, all case resolutions are completed and the status value can't be changed.|[service/CaseResolution](CaseResolution.md)|
-|[stateCode_display](#stateCode_display)||[service/CaseResolution](CaseResolution.md)|
-|[statusCode](#statusCode)|Reason for the status of the case resolution activity.|[service/CaseResolution](CaseResolution.md)|
-|[statusCode_display](#statusCode_display)||[service/CaseResolution](CaseResolution.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|[service/CaseResolution](CaseResolution.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[service/CaseResolution](CaseResolution.md)|
-|[incidentIdType](#incidentIdType)|The name of the entity linked by incidentId|[service/CaseResolution](CaseResolution.md)|
-|[incidentId](#incidentId)|Unique identifier of the case.|[service/CaseResolution](CaseResolution.md)|
-|[timeSpent](#timeSpent)|Time spent on the case resolution activity.|[service/CaseResolution](CaseResolution.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[service/CaseResolution](CaseResolution.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[service/CaseResolution](CaseResolution.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[community_display](#community_display)||<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[partners](#partners)|Outsource vendor with which activity is associated.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[description](#description)|Type additional information that describes the case resolution.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[serviceId](#serviceId)|Unique identifier of the service with which the case resolution activity is associated.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[stateCode](#stateCode)|Shows whether the case resolution is open, completed, or canceled. By default, all case resolutions are completed and the status value can't be changed.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[stateCode_display](#stateCode_display)||<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[statusCode](#statusCode)|Reason for the status of the case resolution activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[statusCode_display](#statusCode_display)||<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[incidentIdType](#incidentIdType)|The name of the entity linked by incidentId|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[incidentId](#incidentId)|Unique identifier of the case.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[timeSpent](#timeSpent)|Time spent on the case resolution activity.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="CaseResolution.md" target="_blank">service/CaseResolution</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

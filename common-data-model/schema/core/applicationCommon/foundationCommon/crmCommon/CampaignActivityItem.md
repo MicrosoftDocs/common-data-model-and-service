@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Campaign Activity Item
 
 Work item of a campaign activity, such as a list or sales literature.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/CampaignActivityItem.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,28 +43,29 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 crmCommon/CampaignActivityItem  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[campaignActivityItemId](#campaignActivityItemId)|Unique identifier of the campaign activity item.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[name](#name)|name|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[campaignActivityIdType](#campaignActivityIdType)|The name of the entity linked by campaignActivityId|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[campaignActivityId](#campaignActivityId)|Unique identifier of the campaign activity for the item.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[itemId](#itemId)|Unique identifier of the item.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[itemObjectTypeCode](#itemObjectTypeCode)|Identification of the type of the campaign activity item.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[itemObjectTypeCode_display](#itemObjectTypeCode_display)||[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[ownerId](#ownerId)|Owner Id|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the campaign activity item.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the campaign activity item.|[crmCommon/CampaignActivityItem](CampaignActivityItem.md)|
+|[campaignActivityItemId](#campaignActivityItemId)|Unique identifier of the campaign activity item.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[name](#name)|name|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[campaignActivityIdType](#campaignActivityIdType)|The name of the entity linked by campaignActivityId|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[campaignActivityId](#campaignActivityId)|Unique identifier of the campaign activity for the item.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[itemId](#itemId)|Unique identifier of the item.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[itemObjectTypeCode](#itemObjectTypeCode)|Identification of the type of the campaign activity item.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[itemObjectTypeCode_display](#itemObjectTypeCode_display)||<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the campaign activity item.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the campaign activity item.|<a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>|
 
 ### <a href=#campaignActivityItemId name="campaignActivityItemId">campaignActivityItemId</a>
 

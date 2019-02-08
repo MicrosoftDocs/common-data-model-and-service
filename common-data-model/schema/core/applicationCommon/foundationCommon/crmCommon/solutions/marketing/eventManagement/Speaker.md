@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Speaker
 
 Speaker bios of individuals speaking at an event  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Speaker.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,56 +46,57 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Speaker  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Speaker](Speaker.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Speaker](Speaker.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Speaker](Speaker.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Speaker](Speaker.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Speaker](Speaker.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Speaker](Speaker.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Speaker](Speaker.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Speaker](Speaker.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Speaker](Speaker.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Speaker](Speaker.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Speaker](Speaker.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Speaker](Speaker.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Speaker](Speaker.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Speaker](Speaker.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Speaker](Speaker.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Speaker](Speaker.md)|
-|[speakerId](#speakerId)|Unique identifier for entity instances|[eventManagement/Speaker](Speaker.md)|
-|[stateCode](#stateCode)|Status of the Event Speaker|[eventManagement/Speaker](Speaker.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Speaker](Speaker.md)|
-|[statusCode](#statusCode)|Reason for the status of the Event Speaker|[eventManagement/Speaker](Speaker.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Speaker](Speaker.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/Speaker](Speaker.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[eventManagement/Speaker](Speaker.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[eventManagement/Speaker](Speaker.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[eventManagement/Speaker](Speaker.md)|
-|[entityImageId](#entityImageId)||[eventManagement/Speaker](Speaker.md)|
-|[about](#about)|About|[eventManagement/Speaker](Speaker.md)|
-|[accomplishments](#accomplishments)|Accomplishments|[eventManagement/Speaker](Speaker.md)|
-|[blog](#blog)|Blog|[eventManagement/Speaker](Speaker.md)|
-|[contact](#contact)|Lookup field for Contact|[eventManagement/Speaker](Speaker.md)|
-|[email](#email)|Speaker Email.|[eventManagement/Speaker](Speaker.md)|
-|[eventId](#eventId)|Unique identifier for Event associated with Speaker.|[eventManagement/Speaker](Speaker.md)|
-|[eventRegistration](#eventRegistration)|Lookup from Event Registration|[eventManagement/Speaker](Speaker.md)|
-|[linkedIn](#linkedIn)|LinkedIn|[eventManagement/Speaker](Speaker.md)|
-|[publications](#publications)|Publications|[eventManagement/Speaker](Speaker.md)|
-|[speakercost](#speakercost)|Value of the Speaker Cost.|[eventManagement/Speaker](Speaker.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/Speaker](Speaker.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/Speaker](Speaker.md)|
-|[speakercostBase](#speakercostBase)|Value of the Speaker Cost in base currency.|[eventManagement/Speaker](Speaker.md)|
-|[title](#title)|Title|[eventManagement/Speaker](Speaker.md)|
-|[twitter](#twitter)|Twitter|[eventManagement/Speaker](Speaker.md)|
-|[type](#type)|Speaker Type.|[eventManagement/Speaker](Speaker.md)|
-|[type_display](#type_display)||[eventManagement/Speaker](Speaker.md)|
-|[website](#website)|Website URL|[eventManagement/Speaker](Speaker.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[speakerId](#speakerId)|Unique identifier for entity instances|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[stateCode](#stateCode)|Status of the Event Speaker|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[stateCode_display](#stateCode_display)||<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[statusCode](#statusCode)|Reason for the status of the Event Speaker|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[statusCode_display](#statusCode_display)||<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[name](#name)|The name of the custom entity.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[entityImageId](#entityImageId)||<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[about](#about)|About|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[accomplishments](#accomplishments)|Accomplishments|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[blog](#blog)|Blog|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[contact](#contact)|Lookup field for Contact|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[email](#email)|Speaker Email.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[eventId](#eventId)|Unique identifier for Event associated with Speaker.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[eventRegistration](#eventRegistration)|Lookup from Event Registration|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[linkedIn](#linkedIn)|LinkedIn|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[publications](#publications)|Publications|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[speakercost](#speakercost)|Value of the Speaker Cost.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[speakercostBase](#speakercostBase)|Value of the Speaker Cost in base currency.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[title](#title)|Title|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[twitter](#twitter)|Twitter|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[type](#type)|Speaker Type.|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[type_display](#type_display)||<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
+|[website](#website)|Website URL|<a href="Speaker.md" target="_blank">eventManagement/Speaker</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

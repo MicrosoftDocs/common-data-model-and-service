@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Activity
 
 Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Activity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Activity](../../Activity.md "/core/applicationCommon/Activity.cdm.json/Activity")  
 crmCommon/Activity  
 
@@ -53,69 +54,69 @@ crmCommon/Activity
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Activity](../../Activity.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Activity](../../Activity.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Activity](../../Activity.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Activity](../../Activity.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Activity](../../Activity.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Activity](../../Activity.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Activity](../../Activity.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Activity](../../Activity.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/Activity](../../Activity.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/Activity](../../Activity.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Activity](../../Activity.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Activity](../../Activity.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Activity](../../Activity.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/Activity](../../Activity.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/Activity](../../Activity.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/Activity](../../Activity.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/Activity](../../Activity.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[priorityCode_display](#priorityCode_display)||[applicationCommon/Activity](../../Activity.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/Activity](../../Activity.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/Activity](../../Activity.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/Activity](../../Activity.md)|
-|[subject](#subject)|Subject associated with the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[applicationCommon/Activity](../../Activity.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[applicationCommon/Activity](../../Activity.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[applicationCommon/Activity](../../Activity.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[applicationCommon/Activity](../../Activity.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[applicationCommon/Activity](../../Activity.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[applicationCommon/Activity](../../Activity.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[applicationCommon/Activity](../../Activity.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[applicationCommon/Activity](../../Activity.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[applicationCommon/Activity](../../Activity.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[applicationCommon/Activity](../../Activity.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[applicationCommon/Activity](../../Activity.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[applicationCommon/Activity](../../Activity.md)|
-|[community_display](#community_display)||[applicationCommon/Activity](../../Activity.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[applicationCommon/Activity](../../Activity.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[applicationCommon/Activity](../../Activity.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[applicationCommon/Activity](../../Activity.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[applicationCommon/Activity](../../Activity.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[applicationCommon/Activity](../../Activity.md)|
-|[description](#description)|Description of the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[stateCode](#stateCode)|Status of the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Activity](../../Activity.md)|
-|[statusCode](#statusCode)|Reason for the status of the activity.|[applicationCommon/Activity](../../Activity.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Activity](../../Activity.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|[applicationCommon/Activity](../../Activity.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|[applicationCommon/Activity](../../Activity.md)|
-|[allActivityParties](#allActivityParties)|All activity parties associated with this activity.|[applicationCommon/Activity](../../Activity.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/Activity](../../Activity.md)|
-|[processId](#processId)|Unique identifier of the Process.|[applicationCommon/Activity](../../Activity.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[applicationCommon/Activity](../../Activity.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[applicationCommon/Activity](../../Activity.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[applicationCommon/Activity](../../Activity.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/Activity](../../Activity.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Activity](../../Activity.md)|
-|[serviceId](#serviceId)|Unique identifier of an associated service.|[crmCommon/Activity](Activity.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[community_display](#community_display)||<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[description](#description)|Description of the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[stateCode](#stateCode)|Status of the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[statusCode](#statusCode)|Reason for the status of the activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[allActivityParties](#allActivityParties)|All activity parties associated with this activity.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="../../Activity.md" target="_blank">applicationCommon/Activity</a>|
+|[serviceId](#serviceId)|Unique identifier of an associated service.|<a href="Activity.md" target="_blank">crmCommon/Activity</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

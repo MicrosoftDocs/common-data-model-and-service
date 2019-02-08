@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Program Version Detail
 
 The master list of program versions start dates defined by the institution.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ProgramVersionDetail.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,43 +46,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/ProgramVersionDetail  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[programVersionDetailId](#programVersionDetailId)|Unique identifier for entity instances|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[stateCode](#stateCode)|Status of the Program Version Detail|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[statusCode](#statusCode)|Reason for the status of the Program Version Detail|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[name](#name)|Program Version Start Date Code|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[code](#code)|Registration code.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[expectedGraduationDate](#expectedGraduationDate)|The expected graduation date for the program version start date instance.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[externalIdentifier](#externalIdentifier)|External Identifier|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[midpointDate](#midpointDate)|Midpoint Date|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[mustGraduateBefore](#mustGraduateBefore)|Must Graduate Before|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[programVersionId](#programVersionId)|Lookup to the program version.|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
-|[startDate](#startDate)|Start Date|[higherEducation/ProgramVersionDetail](ProgramVersionDetail.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[programVersionDetailId](#programVersionDetailId)|Unique identifier for entity instances|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[stateCode](#stateCode)|Status of the Program Version Detail|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[stateCode_display](#stateCode_display)||<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[statusCode](#statusCode)|Reason for the status of the Program Version Detail|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[statusCode_display](#statusCode_display)||<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[name](#name)|Program Version Start Date Code|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[code](#code)|Registration code.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[expectedGraduationDate](#expectedGraduationDate)|The expected graduation date for the program version start date instance.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[externalIdentifier](#externalIdentifier)|External Identifier|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[externalSourceSystem](#externalSourceSystem)|External Source System|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[externalSourceSystem_display](#externalSourceSystem_display)||<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[midpointDate](#midpointDate)|Midpoint Date|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[mustGraduateBefore](#mustGraduateBefore)|Must Graduate Before|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[programVersionId](#programVersionId)|Lookup to the program version.|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
+|[startDate](#startDate)|Start Date|<a href="ProgramVersionDetail.md" target="_blank">higherEducation/ProgramVersionDetail</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Check-in
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/CheckIn.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,52 +42,53 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/CheckIn  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/CheckIn](CheckIn.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/CheckIn](CheckIn.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/CheckIn](CheckIn.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/CheckIn](CheckIn.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/CheckIn](CheckIn.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/CheckIn](CheckIn.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/CheckIn](CheckIn.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/CheckIn](CheckIn.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/CheckIn](CheckIn.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/CheckIn](CheckIn.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/CheckIn](CheckIn.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/CheckIn](CheckIn.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/CheckIn](CheckIn.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/CheckIn](CheckIn.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/CheckIn](CheckIn.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/CheckIn](CheckIn.md)|
-|[checkInId](#checkInId)|Unique identifier for entity instances|[eventManagement/CheckIn](CheckIn.md)|
-|[stateCode](#stateCode)|Status of the Check-in|[eventManagement/CheckIn](CheckIn.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/CheckIn](CheckIn.md)|
-|[statusCode](#statusCode)|Reason for the status of the Check-in|[eventManagement/CheckIn](CheckIn.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/CheckIn](CheckIn.md)|
-|[name](#name)|Check-in records are used to log the attendance of an attendee at particular event or session.|[eventManagement/CheckIn](CheckIn.md)|
-|[audienceType](#audienceType)|Audience type|[eventManagement/CheckIn](CheckIn.md)|
-|[audienceType_display](#audienceType_display)||[eventManagement/CheckIn](CheckIn.md)|
-|[checkintime](#checkintime)|Check-in time.|[eventManagement/CheckIn](CheckIn.md)|
-|[checkInType](#checkInType)||[eventManagement/CheckIn](CheckIn.md)|
-|[checkInType_display](#checkInType_display)||[eventManagement/CheckIn](CheckIn.md)|
-|[checkOutTime](#checkOutTime)|Check-out time.|[eventManagement/CheckIn](CheckIn.md)|
-|[contact](#contact)|Contact records of the Check-in.|[eventManagement/CheckIn](CheckIn.md)|
-|[event](#event)|Unique identifier for Event associated with Check-in.|[eventManagement/CheckIn](CheckIn.md)|
-|[numberOfQuestionsAsked](#numberOfQuestionsAsked)||[eventManagement/CheckIn](CheckIn.md)|
-|[purchasedPassesId](#purchasedPassesId)|Unique identifier for Attendee Pass associated with Check-in.|[eventManagement/CheckIn](CheckIn.md)|
-|[registrationId](#registrationId)||[eventManagement/CheckIn](CheckIn.md)|
-|[sessionAttended](#sessionAttended)|Session records of the Check-in.|[eventManagement/CheckIn](CheckIn.md)|
-|[sessionCode](#sessionCode)||[eventManagement/CheckIn](CheckIn.md)|
-|[sessionRegistration](#sessionRegistration)|All Active Session Registration Records for this Check-in.|[eventManagement/CheckIn](CheckIn.md)|
-|[sessionType](#sessionType)||[eventManagement/CheckIn](CheckIn.md)|
-|[sessionType_display](#sessionType_display)||[eventManagement/CheckIn](CheckIn.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/CheckIn](CheckIn.md)|
-|[viewingDurationInMins](#viewingDurationInMins)||[eventManagement/CheckIn](CheckIn.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[checkInId](#checkInId)|Unique identifier for entity instances|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[stateCode](#stateCode)|Status of the Check-in|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[stateCode_display](#stateCode_display)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[statusCode](#statusCode)|Reason for the status of the Check-in|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[statusCode_display](#statusCode_display)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[name](#name)|Check-in records are used to log the attendance of an attendee at particular event or session.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[audienceType](#audienceType)|Audience type|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[audienceType_display](#audienceType_display)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[checkintime](#checkintime)|Check-in time.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[checkInType](#checkInType)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[checkInType_display](#checkInType_display)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[checkOutTime](#checkOutTime)|Check-out time.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[contact](#contact)|Contact records of the Check-in.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[event](#event)|Unique identifier for Event associated with Check-in.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[numberOfQuestionsAsked](#numberOfQuestionsAsked)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[purchasedPassesId](#purchasedPassesId)|Unique identifier for Attendee Pass associated with Check-in.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[registrationId](#registrationId)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[sessionAttended](#sessionAttended)|Session records of the Check-in.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[sessionCode](#sessionCode)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[sessionRegistration](#sessionRegistration)|All Active Session Registration Records for this Check-in.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[sessionType](#sessionType)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[sessionType_display](#sessionType_display)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
+|[viewingDurationInMins](#viewingDurationInMins)||<a href="CheckIn.md" target="_blank">eventManagement/CheckIn</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Knowledge Base Record
 
 Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeBaseRecord.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,28 +43,29 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/KnowledgeBaseRecord  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[knowledgeBaseRecordId](#knowledgeBaseRecordId)|This field will be used to store the Unique ID of the associated Knowledge Base records|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[title](#title)|Shows the title of the knowledge base (KB) Record.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[privateUrl](#privateUrl)|Shows the internal Parature service desk URL of the knowledge base records.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[publicUrl](#publicUrl)|Shows the public Parature portal URL of the knowledge base records.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the knowledge base record with respect to the base currency.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the Knowledge Base Record with respect to the base currency.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
-|[uniqueId](#uniqueId)|Shows the unique ID of the linked knowledge base (KB) article.|[applicationCommon/KnowledgeBaseRecord](KnowledgeBaseRecord.md)|
+|[knowledgeBaseRecordId](#knowledgeBaseRecordId)|This field will be used to store the Unique ID of the associated Knowledge Base records|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[versionNumber](#versionNumber)||<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[title](#title)|Shows the title of the knowledge base (KB) Record.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[privateUrl](#privateUrl)|Shows the internal Parature service desk URL of the knowledge base records.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[publicUrl](#publicUrl)|Shows the public Parature portal URL of the knowledge base records.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the knowledge base record with respect to the base currency.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the Knowledge Base Record with respect to the base currency.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
+|[uniqueId](#uniqueId)|Shows the unique ID of the linked knowledge base (KB) article.|<a href="KnowledgeBaseRecord.md" target="_blank">applicationCommon/KnowledgeBaseRecord</a>|
 
 ### <a href=#knowledgeBaseRecordId name="knowledgeBaseRecordId">knowledgeBaseRecordId</a>
 

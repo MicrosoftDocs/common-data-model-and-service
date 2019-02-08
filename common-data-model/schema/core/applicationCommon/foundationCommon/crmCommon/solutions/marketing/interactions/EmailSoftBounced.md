@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email soft bounced
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSoftBounced.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,26 +33,27 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailSoftBounced  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[accountId](#accountId)|Account|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[messageId](#messageId)|Message|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[bounceCategory](#bounceCategory)|Bounce category|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[remoteBounce](#remoteBounce)|Remote bounce|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
-|[activityId](#activityId)|Activity ID|[interactions/EmailSoftBounced](EmailSoftBounced.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[contactId](#contactId)|Contact|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[accountId](#accountId)|Account|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[messageId](#messageId)|Message|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[bounceCategory](#bounceCategory)|Bounce category|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[remoteBounce](#remoteBounce)|Remote bounce|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
+|[activityId](#activityId)|Activity ID|<a href="EmailSoftBounced.md" target="_blank">interactions/EmailSoftBounced</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Recommendation
 
 This is the mechanism through which Foundations provide recommendations back to a grant applicant.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Recommendation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,45 +46,46 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Recommendation  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Recommendation](Recommendation.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Recommendation](Recommendation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Recommendation](Recommendation.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Recommendation](Recommendation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Recommendation](Recommendation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Recommendation](Recommendation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Recommendation](Recommendation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Recommendation](Recommendation.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Recommendation](Recommendation.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Recommendation](Recommendation.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Recommendation](Recommendation.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Recommendation](Recommendation.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Recommendation](Recommendation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Recommendation](Recommendation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Recommendation](Recommendation.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Recommendation](Recommendation.md)|
-|[recommendationId](#recommendationId)|Unique identifier for entity instances|[nonProfit/Recommendation](Recommendation.md)|
-|[stateCode](#stateCode)|Status of the Recommendation|[nonProfit/Recommendation](Recommendation.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Recommendation](Recommendation.md)|
-|[statusCode](#statusCode)|Reason for the status of the Recommendation|[nonProfit/Recommendation](Recommendation.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Recommendation](Recommendation.md)|
-|[name](#name)||[nonProfit/Recommendation](Recommendation.md)|
-|[communicationChannel](#communicationChannel)|The media used to communicate the Recommendation|[nonProfit/Recommendation](Recommendation.md)|
-|[communicationChannel_display](#communicationChannel_display)||[nonProfit/Recommendation](Recommendation.md)|
-|[date](#date)|Date the Recommendation was made.|[nonProfit/Recommendation](Recommendation.md)|
-|[dateSubmitted](#dateSubmitted)|Date Recommendation was submitted.|[nonProfit/Recommendation](Recommendation.md)|
-|[description](#description)|Description of the Recommendation.|[nonProfit/Recommendation](Recommendation.md)|
-|[recommendationLeadId](#recommendationLeadId)|Lead|[nonProfit/Recommendation](Recommendation.md)|
-|[recommenderAccountId](#recommenderAccountId)|On Behalf of Account|[nonProfit/Recommendation](Recommendation.md)|
-|[recommenderContactId](#recommenderContactId)|Recommended by Contact|[nonProfit/Recommendation](Recommendation.md)|
-|[requestId](#requestId)|Request|[nonProfit/Recommendation](Recommendation.md)|
-|[status](#status)|Status of the Recommendation.|[nonProfit/Recommendation](Recommendation.md)|
-|[status_display](#status_display)||[nonProfit/Recommendation](Recommendation.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[recommendationId](#recommendationId)|Unique identifier for entity instances|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[stateCode](#stateCode)|Status of the Recommendation|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[stateCode_display](#stateCode_display)||<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[statusCode](#statusCode)|Reason for the status of the Recommendation|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[statusCode_display](#statusCode_display)||<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[name](#name)||<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[communicationChannel](#communicationChannel)|The media used to communicate the Recommendation|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[communicationChannel_display](#communicationChannel_display)||<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[date](#date)|Date the Recommendation was made.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[dateSubmitted](#dateSubmitted)|Date Recommendation was submitted.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[description](#description)|Description of the Recommendation.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[recommendationLeadId](#recommendationLeadId)|Lead|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[recommenderAccountId](#recommenderAccountId)|On Behalf of Account|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[recommenderContactId](#recommenderContactId)|Recommended by Contact|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[requestId](#requestId)|Request|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[status](#status)|Status of the Recommendation.|<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
+|[status_display](#status_display)||<a href="Recommendation.md" target="_blank">nonProfit/Recommendation</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

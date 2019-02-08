@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Healthcare Service
 
 The details of a healthcare service available at a location.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,42 +46,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/HealthcareService  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[healthCareServiceId](#healthCareServiceId)|Unique identifier for entity instances|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[stateCode](#stateCode)|Status of the Healthcare Service|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[statusCode](#statusCode)|Reason for the status of the Healthcare Service|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[name](#name)|Further description of the service as it would be presented to a consumer while searching.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[appointmentRequired](#appointmentRequired)|Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[availabilityExceptions](#availabilityExceptions)|A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in available/ not available times.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[category](#category)|Identifies the broad category of service being performed or delivered.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[comment](#comment)|Any additional description of the service and/or any specific issues not covered by the other attributes, which can be displayed as further detail under the serviceName.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[eligibility](#eligibility)|Does this service have specific eligibility requirements that need to be met in order to use the service?|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[eligibilitynote](#eligibilitynote)|Describes the eligibility conditions for the service.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[extraDetails](#extraDetails)|Extra details about the service that can't be placed in the other fields.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[healthcareService](#healthcareService)|The details of a healthcare service available at a location.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[notAvailableDescription](#notAvailableDescription)|The closing time of day. Note: If the AllDay flag is set, then this time is ignored.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[notAvailableDuringEndDateTime](#notAvailableDuringEndDateTime)|End time with inclusive boundary, if not ongoing|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[notAvailableDuringStartDateTime](#notAvailableDuringStartDateTime)|Starting time with inclusive boundary|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
-|[providedby](#providedby)|The organization that provides this healthcare service.|[electronicMedicalRecords/HealthcareService](HealthcareService.md)|
+|[healthCareServiceId](#healthCareServiceId)|Unique identifier for entity instances|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[stateCode](#stateCode)|Status of the Healthcare Service|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[stateCode_display](#stateCode_display)||<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[statusCode](#statusCode)|Reason for the status of the Healthcare Service|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[statusCode_display](#statusCode_display)||<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[name](#name)|Further description of the service as it would be presented to a consumer while searching.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[appointmentRequired](#appointmentRequired)|Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[availabilityExceptions](#availabilityExceptions)|A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in available/ not available times.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[category](#category)|Identifies the broad category of service being performed or delivered.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[comment](#comment)|Any additional description of the service and/or any specific issues not covered by the other attributes, which can be displayed as further detail under the serviceName.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[eligibility](#eligibility)|Does this service have specific eligibility requirements that need to be met in order to use the service?|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[eligibilitynote](#eligibilitynote)|Describes the eligibility conditions for the service.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[extraDetails](#extraDetails)|Extra details about the service that can't be placed in the other fields.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[healthcareService](#healthcareService)|The details of a healthcare service available at a location.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[notAvailableDescription](#notAvailableDescription)|The closing time of day. Note: If the AllDay flag is set, then this time is ignored.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[notAvailableDuringEndDateTime](#notAvailableDuringEndDateTime)|End time with inclusive boundary, if not ongoing|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[notAvailableDuringStartDateTime](#notAvailableDuringStartDateTime)|Starting time with inclusive boundary|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
+|[providedby](#providedby)|The organization that provides this healthcare service.|<a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>|
 
 ### <a href=#healthCareServiceId name="healthCareServiceId">healthCareServiceId</a>
 

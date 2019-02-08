@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Competitor Product
 
 Association between a competitor and a product offered by the competitor.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,21 +43,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/CompetitorProduct  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[competitorProductId](#competitorProductId)|Unique identifier of the competitor product.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[name](#name)|name|[sales/CompetitorProduct](CompetitorProduct.md)|
-|[competitorId](#competitorId)||[sales/CompetitorProduct](CompetitorProduct.md)|
-|[productId](#productId)||[sales/CompetitorProduct](CompetitorProduct.md)|
+|[competitorProductId](#competitorProductId)|Unique identifier of the competitor product.|<a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>|
+|[name](#name)|name|<a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>|
+|[competitorId](#competitorId)||<a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>|
+|[productId](#productId)||<a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>|
 
 ### <a href=#competitorProductId name="competitorProductId">competitorProductId</a>
 

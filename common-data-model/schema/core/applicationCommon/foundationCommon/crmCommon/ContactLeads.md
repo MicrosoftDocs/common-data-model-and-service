@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # ContactLeads
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/ContactLeads.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 crmCommon/ContactLeads  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[contactLeadId](#contactLeadId)|Unique identifier of the leads for the contact.|[crmCommon/ContactLeads](ContactLeads.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/ContactLeads](ContactLeads.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[crmCommon/ContactLeads](ContactLeads.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/ContactLeads](ContactLeads.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/ContactLeads](ContactLeads.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/ContactLeads](ContactLeads.md)|
-|[name](#name)|name|[crmCommon/ContactLeads](ContactLeads.md)|
-|[contactId](#contactId)||[crmCommon/ContactLeads](ContactLeads.md)|
-|[leadId](#leadId)||[crmCommon/ContactLeads](ContactLeads.md)|
+|[contactLeadId](#contactLeadId)|Unique identifier of the leads for the contact.|<a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>|
+|[name](#name)|name|<a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>|
+|[contactId](#contactId)||<a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>|
+|[leadId](#leadId)||<a href="ContactLeads.md" target="_blank">crmCommon/ContactLeads</a>|
 
 ### <a href=#contactLeadId name="contactLeadId">contactLeadId</a>
 

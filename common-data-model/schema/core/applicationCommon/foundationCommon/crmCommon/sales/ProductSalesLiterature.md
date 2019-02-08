@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # ProductSalesLiterature
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/ProductSalesLiterature.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/ProductSalesLiterature  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productSalesLiteratureId](#productSalesLiteratureId)|Unique identifier of the product sales literature associated with this price list.|[sales/ProductSalesLiterature](ProductSalesLiterature.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/ProductSalesLiterature](ProductSalesLiterature.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/ProductSalesLiterature](ProductSalesLiterature.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/ProductSalesLiterature](ProductSalesLiterature.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/ProductSalesLiterature](ProductSalesLiterature.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/ProductSalesLiterature](ProductSalesLiterature.md)|
-|[name](#name)|name|[sales/ProductSalesLiterature](ProductSalesLiterature.md)|
-|[productId](#productId)||[sales/ProductSalesLiterature](ProductSalesLiterature.md)|
-|[salesLiteratureId](#salesLiteratureId)||[sales/ProductSalesLiterature](ProductSalesLiterature.md)|
+|[productSalesLiteratureId](#productSalesLiteratureId)|Unique identifier of the product sales literature associated with this price list.|<a href="ProductSalesLiterature.md" target="_blank">sales/ProductSalesLiterature</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ProductSalesLiterature.md" target="_blank">sales/ProductSalesLiterature</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductSalesLiterature.md" target="_blank">sales/ProductSalesLiterature</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductSalesLiterature.md" target="_blank">sales/ProductSalesLiterature</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductSalesLiterature.md" target="_blank">sales/ProductSalesLiterature</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductSalesLiterature.md" target="_blank">sales/ProductSalesLiterature</a>|
+|[name](#name)|name|<a href="ProductSalesLiterature.md" target="_blank">sales/ProductSalesLiterature</a>|
+|[productId](#productId)||<a href="ProductSalesLiterature.md" target="_blank">sales/ProductSalesLiterature</a>|
+|[salesLiteratureId](#salesLiteratureId)||<a href="ProductSalesLiterature.md" target="_blank">sales/ProductSalesLiterature</a>|
 
 ### <a href=#productSalesLiteratureId name="productSalesLiteratureId">productSalesLiteratureId</a>
 

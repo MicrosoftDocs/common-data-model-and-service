@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Encounter
 
 An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,64 +46,65 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/Encounter  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterId](#encounterId)|Unique identifier for entity instances|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[stateCode](#stateCode)|Status of the Encounter|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/Encounter](Encounter.md)|
-|[statusCode](#statusCode)|Reason for the status of the Encounter|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/Encounter](Encounter.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[emrAppointment](#emrAppointment)|A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[class](#class)|Type of: inpatient | outpatient | ambulatory | emergency +.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[class_display](#class_display)||[electronicMedicalRecords/Encounter](Encounter.md)|
-|[contextEncounter](#contextEncounter)||[electronicMedicalRecords/Encounter](Encounter.md)|
-|[contextEpisodeofCare](#contextEpisodeofCare)||[electronicMedicalRecords/Encounter](Encounter.md)|
-|[duration](#duration)|Quantity of time the encounter lasted. This excludes the time during leaves of absence.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterClass](#encounterClass)|Refers to the class of encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterClass_display](#encounterClass_display)||[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterEndDate](#encounterEndDate)|The start and end time of the encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterGroupIdentifier](#encounterGroupIdentifier)|The group present at the encounter|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterIdentifier](#encounterIdentifier)|Identifier(s) by which this encounter is known.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterLength](#encounterLength)|Quantity of time the encounter lasted. This excludes the time during leaves of absence.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterParentEncounterIdentifier](#encounterParentEncounterIdentifier)|Another Encounter of which this encounter is a part of (administratively or in time).|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterPatientIdentifier](#encounterPatientIdentifier)|The patient present at the encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterPriority](#encounterPriority)|Indicates the urgency of the encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterStartDate](#encounterStartDate)|The start and end time of the encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterStatus](#encounterStatus)|Refers to the status of encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[encounterStatus_display](#encounterStatus_display)||[electronicMedicalRecords/Encounter](Encounter.md)|
-|[hospitalizationAdmitSource](#hospitalizationAdmitSource)|From where patient was admitted (physician referral, transfer).|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[hospitalizationDestination](#hospitalizationDestination)|Location to which the patient is discharged.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[hospitalizationDischargeDisposition](#hospitalizationDischargeDisposition)|Category or kind of location after discharge.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[hospitalizationOrigin](#hospitalizationOrigin)|The location from which the patient came before admission.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[hospitalizationPreAdmissionNumber](#hospitalizationPreAdmissionNumber)|Pre-admission identifier.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[hospitalizationReadmission](#hospitalizationReadmission)|Whether this hospitalization is a readmission and why if known.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[onBehalfOf](#onBehalfOf)||[electronicMedicalRecords/Encounter](Encounter.md)|
-|[periodEnd](#periodEnd)|The start and end time of the encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[periodStart](#periodStart)|The start and end time of the encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[priority](#priority)|Indicates the urgency of the encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
-|[priority_display](#priority_display)||[electronicMedicalRecords/Encounter](Encounter.md)|
-|[subjectPatient](#subjectPatient)|The patient or group present at the encounter.|[electronicMedicalRecords/Encounter](Encounter.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterId](#encounterId)|Unique identifier for entity instances|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[stateCode](#stateCode)|Status of the Encounter|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[stateCode_display](#stateCode_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[statusCode](#statusCode)|Reason for the status of the Encounter|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[statusCode_display](#statusCode_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[name](#name)|The name of the custom entity.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[emrAppointment](#emrAppointment)|A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[class](#class)|Type of: inpatient | outpatient | ambulatory | emergency +.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[class_display](#class_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[contextEncounter](#contextEncounter)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[contextEpisodeofCare](#contextEpisodeofCare)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[duration](#duration)|Quantity of time the encounter lasted. This excludes the time during leaves of absence.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterClass](#encounterClass)|Refers to the class of encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterClass_display](#encounterClass_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterEndDate](#encounterEndDate)|The start and end time of the encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterGroupIdentifier](#encounterGroupIdentifier)|The group present at the encounter|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterIdentifier](#encounterIdentifier)|Identifier(s) by which this encounter is known.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterLength](#encounterLength)|Quantity of time the encounter lasted. This excludes the time during leaves of absence.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterParentEncounterIdentifier](#encounterParentEncounterIdentifier)|Another Encounter of which this encounter is a part of (administratively or in time).|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterPatientIdentifier](#encounterPatientIdentifier)|The patient present at the encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterPriority](#encounterPriority)|Indicates the urgency of the encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterStartDate](#encounterStartDate)|The start and end time of the encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterStatus](#encounterStatus)|Refers to the status of encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[encounterStatus_display](#encounterStatus_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[hospitalizationAdmitSource](#hospitalizationAdmitSource)|From where patient was admitted (physician referral, transfer).|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[hospitalizationDestination](#hospitalizationDestination)|Location to which the patient is discharged.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[hospitalizationDischargeDisposition](#hospitalizationDischargeDisposition)|Category or kind of location after discharge.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[hospitalizationOrigin](#hospitalizationOrigin)|The location from which the patient came before admission.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[hospitalizationPreAdmissionNumber](#hospitalizationPreAdmissionNumber)|Pre-admission identifier.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[hospitalizationReadmission](#hospitalizationReadmission)|Whether this hospitalization is a readmission and why if known.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[onBehalfOf](#onBehalfOf)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[periodEnd](#periodEnd)|The start and end time of the encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[periodStart](#periodStart)|The start and end time of the encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[priority](#priority)|Indicates the urgency of the encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[priority_display](#priority_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[subjectPatient](#subjectPatient)|The patient or group present at the encounter.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

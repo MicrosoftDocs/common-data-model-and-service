@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Session Track
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SessionTrack.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,50 +42,51 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/SessionTrack  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/SessionTrack](SessionTrack.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/SessionTrack](SessionTrack.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/SessionTrack](SessionTrack.md)|
-|[sessionTrackId](#sessionTrackId)|Unique identifier for entity instances|[eventManagement/SessionTrack](SessionTrack.md)|
-|[stateCode](#stateCode)|Status of the Session Track|[eventManagement/SessionTrack](SessionTrack.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[statusCode](#statusCode)|Reason for the status of the Session Track|[eventManagement/SessionTrack](SessionTrack.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[audienceType](#audienceType)|Audience Type of the Session Track.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[audienceType_display](#audienceType_display)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[description](#description)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[eventId](#eventId)|Unique identifier for Event associated with Session Track.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[industryType](#industryType)|Industry of the Session Track.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[industryType_display](#industryType_display)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[keywords](#keywords)|Keywords of the Session Track.|[eventManagement/SessionTrack](SessionTrack.md)|
-|[numberOfRegistrations](#numberOfRegistrations)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[publishStatus](#publishStatus)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[publishStatus_display](#publishStatus_display)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[sessionsInTrack](#sessionsInTrack)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[targetNumberOfSessions](#targetNumberOfSessions)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[trackCode](#trackCode)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[trackGoal](#trackGoal)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[trackType](#trackType)||[eventManagement/SessionTrack](SessionTrack.md)|
-|[trackType_display](#trackType_display)||[eventManagement/SessionTrack](SessionTrack.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[sessionTrackId](#sessionTrackId)|Unique identifier for entity instances|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[stateCode](#stateCode)|Status of the Session Track|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[stateCode_display](#stateCode_display)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[statusCode](#statusCode)|Reason for the status of the Session Track|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[statusCode_display](#statusCode_display)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[name](#name)|The name of the custom entity.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[audienceType](#audienceType)|Audience Type of the Session Track.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[audienceType_display](#audienceType_display)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[description](#description)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[eventId](#eventId)|Unique identifier for Event associated with Session Track.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[industryType](#industryType)|Industry of the Session Track.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[industryType_display](#industryType_display)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[keywords](#keywords)|Keywords of the Session Track.|<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[numberOfRegistrations](#numberOfRegistrations)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[publishStatus](#publishStatus)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[publishStatus_display](#publishStatus_display)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[sessionsInTrack](#sessionsInTrack)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[targetNumberOfSessions](#targetNumberOfSessions)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[trackCode](#trackCode)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[trackGoal](#trackGoal)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[trackType](#trackType)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
+|[trackType_display](#trackType_display)||<a href="SessionTrack.md" target="_blank">eventManagement/SessionTrack</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

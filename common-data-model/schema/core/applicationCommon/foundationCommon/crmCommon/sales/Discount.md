@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Discount
 
 Price reduction made from the list price of a product or service based on the quantity purchased.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Discount.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,37 +43,38 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/Discount  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[discountId](#discountId)|Unique identifier of the discount.|[sales/Discount](Discount.md)|
-|[createdOn](#createdOn)|Date and time when the discount was created.|[sales/Discount](Discount.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the discount.|[sales/Discount](Discount.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the discount was last modified.|[sales/Discount](Discount.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the discount.|[sales/Discount](Discount.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the discount.|[sales/Discount](Discount.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the discount.|[sales/Discount](Discount.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/Discount](Discount.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/Discount](Discount.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/Discount](Discount.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/Discount](Discount.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/Discount](Discount.md)|
-|[name](#name)|name|[sales/Discount](Discount.md)|
-|[amount](#amount)|Amount of the discount, specified either as a percentage or as a monetary amount.|[sales/Discount](Discount.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/Discount](Discount.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/Discount](Discount.md)|
-|[amountBase](#amountBase)|Value of the Amount in base currency.|[sales/Discount](Discount.md)|
-|[discountTypeId](#discountTypeId)|Unique identifier of the discount list associated with the discount.|[sales/Discount](Discount.md)|
-|[highQuantity](#highQuantity)|Upper boundary for the quantity range to which a particular discount can be applied.|[sales/Discount](Discount.md)|
-|[isAmountType](#isAmountType)|Specifies whether the discount is specified as a monetary amount or a percentage.|[sales/Discount](Discount.md)|
-|[lowQuantity](#lowQuantity)|Lower boundary for the quantity range to which a particular discount is applied.|[sales/Discount](Discount.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the discount.|[sales/Discount](Discount.md)|
-|[percentage](#percentage)|Percentage discount value.|[sales/Discount](Discount.md)|
-|[statusCode](#statusCode)|Select the discount's status.|[sales/Discount](Discount.md)|
-|[statusCode_display](#statusCode_display)||[sales/Discount](Discount.md)|
+|[discountId](#discountId)|Unique identifier of the discount.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[createdOn](#createdOn)|Date and time when the discount was created.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the discount.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the discount was last modified.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the discount.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the discount.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the discount.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[name](#name)|name|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[amount](#amount)|Amount of the discount, specified either as a percentage or as a monetary amount.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[amountBase](#amountBase)|Value of the Amount in base currency.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[discountTypeId](#discountTypeId)|Unique identifier of the discount list associated with the discount.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[highQuantity](#highQuantity)|Upper boundary for the quantity range to which a particular discount can be applied.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[isAmountType](#isAmountType)|Specifies whether the discount is specified as a monetary amount or a percentage.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[lowQuantity](#lowQuantity)|Lower boundary for the quantity range to which a particular discount is applied.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the discount.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[percentage](#percentage)|Percentage discount value.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[statusCode](#statusCode)|Select the discount's status.|<a href="Discount.md" target="_blank">sales/Discount</a>|
+|[statusCode_display](#statusCode_display)||<a href="Discount.md" target="_blank">sales/Discount</a>|
 
 ### <a href=#discountId name="discountId">discountId</a>
 

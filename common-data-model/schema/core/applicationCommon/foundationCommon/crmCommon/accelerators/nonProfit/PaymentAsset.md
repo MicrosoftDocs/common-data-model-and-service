@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Payment Asset
 
 Specific types of payments, including in-kind gifts, stock and securities that are classified as assets require non-profits to follow specific reporting rules.  Managing these gifts tends to be very manual work for nonprofit development operations staff.  These gifts come in through a bank, must be manually reviewed and entered into a batch.  Often there are questions that need to be answered before a gift entry can be completed with ease.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentAsset.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,52 +46,53 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/PaymentAsset  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[paymentAssetId](#paymentAssetId)|Unique identifier for entity instances|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[stateCode](#stateCode)|Status of the Payment Asset|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[statusCode](#statusCode)|Reason for the status of the Payment Asset|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[name](#name)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[amount](#amount)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[amountBase](#amountBase)|Value of the Amount in base currency.|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[assetType](#assetType)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[assetType_display](#assetType_display)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[bookDate](#bookDate)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[description](#description)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[originalAssetAdjustedId](#originalAssetAdjustedId)|Original Asset Gift Adjusted|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[paymentAssetPledgedAsset](#paymentAssetPledgedAsset)|Pledged Asset|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[paymentAssetCategory](#paymentAssetCategory)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[paymentAssetCategory_display](#paymentAssetCategory_display)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[paymentAssetSubcategory](#paymentAssetSubcategory)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[paymentAssetSubcategory_display](#paymentAssetSubcategory_display)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[pledgedOnPaymentScheduleId](#pledgedOnPaymentScheduleId)|Pledged On Payment Schedule|[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[quantity](#quantity)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[symbol](#symbol)||[nonProfit/PaymentAsset](PaymentAsset.md)|
-|[transferredOnTransactionId](#transferredOnTransactionId)|Transferred On Transaction|[nonProfit/PaymentAsset](PaymentAsset.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[paymentAssetId](#paymentAssetId)|Unique identifier for entity instances|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[stateCode](#stateCode)|Status of the Payment Asset|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[stateCode_display](#stateCode_display)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[statusCode](#statusCode)|Reason for the status of the Payment Asset|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[statusCode_display](#statusCode_display)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[name](#name)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[amount](#amount)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[amountBase](#amountBase)|Value of the Amount in base currency.|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[assetType](#assetType)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[assetType_display](#assetType_display)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[bookDate](#bookDate)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[description](#description)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[originalAssetAdjustedId](#originalAssetAdjustedId)|Original Asset Gift Adjusted|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[paymentAssetPledgedAsset](#paymentAssetPledgedAsset)|Pledged Asset|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[paymentAssetCategory](#paymentAssetCategory)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[paymentAssetCategory_display](#paymentAssetCategory_display)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[paymentAssetSubcategory](#paymentAssetSubcategory)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[paymentAssetSubcategory_display](#paymentAssetSubcategory_display)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[pledgedOnPaymentScheduleId](#pledgedOnPaymentScheduleId)|Pledged On Payment Schedule|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[quantity](#quantity)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[symbol](#symbol)||<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
+|[transferredOnTransactionId](#transferredOnTransactionId)|Transferred On Transaction|<a href="PaymentAsset.md" target="_blank">nonProfit/PaymentAsset</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

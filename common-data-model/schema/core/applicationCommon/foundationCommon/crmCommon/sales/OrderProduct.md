@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Order Product
 
 Line item in a sales order.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OrderProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,89 +43,90 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/OrderProduct  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/OrderProduct](OrderProduct.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/OrderProduct](OrderProduct.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/OrderProduct](OrderProduct.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/OrderProduct](OrderProduct.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/OrderProduct](OrderProduct.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/OrderProduct](OrderProduct.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/OrderProduct](OrderProduct.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/OrderProduct](OrderProduct.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/OrderProduct](OrderProduct.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/OrderProduct](OrderProduct.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/OrderProduct](OrderProduct.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/OrderProduct](OrderProduct.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/OrderProduct](OrderProduct.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/OrderProduct](OrderProduct.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/OrderProduct](OrderProduct.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/OrderProduct](OrderProduct.md)|
-|[salesOrderDetailId](#salesOrderDetailId)|Unique identifier of the product specified in the order.|[sales/OrderProduct](OrderProduct.md)|
-|[baseAmount](#baseAmount)|Shows the total price of the order product, based on the price per unit, volume discount, and quantity.|[sales/OrderProduct](OrderProduct.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/OrderProduct](OrderProduct.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/OrderProduct](OrderProduct.md)|
-|[baseAmountBase](#baseAmountBase)|Value of the Amount in base currency.|[sales/OrderProduct](OrderProduct.md)|
-|[description](#description)|Type additional information to describe the order product, such as manufacturing details or acceptable substitutions.|[sales/OrderProduct](OrderProduct.md)|
-|[extendedAmount](#extendedAmount)|Shows the total amount due for the order product, based on the sum of the unit price, quantity, discounts, and tax.|[sales/OrderProduct](OrderProduct.md)|
-|[extendedAmountBase](#extendedAmountBase)|Value of the Extended Amount in base currency.|[sales/OrderProduct](OrderProduct.md)|
-|[isCopied](#isCopied)|Select whether the invoice line item is copied from another item or data source.|[sales/OrderProduct](OrderProduct.md)|
-|[isPriceOverridden](#isPriceOverridden)|Select whether the price per unit is fixed at the value in the specified price list or can be overridden by users who have edit rights to the order product.|[sales/OrderProduct](OrderProduct.md)|
-|[isProductOverridden](#isProductOverridden)|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the order.|[sales/OrderProduct](OrderProduct.md)|
-|[lineItemNumber](#lineItemNumber)|Type the line item number for the order product to easily identify the product in the order and make sure it's listed in the correct sequence.|[sales/OrderProduct](OrderProduct.md)|
-|[manualDiscountAmount](#manualDiscountAmount)|Type the manual discount amount for the order product to deduct any negotiated or other savings from the product total on the order.|[sales/OrderProduct](OrderProduct.md)|
-|[manualDiscountAmountBase](#manualDiscountAmountBase)|Value of the Manual Discount in base currency.|[sales/OrderProduct](OrderProduct.md)|
-|[parentBundleId](#parentBundleId)|Choose the parent bundle associated with this product|[sales/OrderProduct](OrderProduct.md)|
-|[productAssociationId](#productAssociationId)|Unique identifier of the product line item association with bundle in the sales order|[sales/OrderProduct](OrderProduct.md)|
-|[productTypeCode](#productTypeCode)|Product Type|[sales/OrderProduct](OrderProduct.md)|
-|[productTypeCode_display](#productTypeCode_display)||[sales/OrderProduct](OrderProduct.md)|
-|[pricePerUnit](#pricePerUnit)|Type the price per unit of the order product. The default is the value in the price list specified on the order for existing products.|[sales/OrderProduct](OrderProduct.md)|
-|[pricePerUnitBase](#pricePerUnitBase)|Value of the Price Per Unit in base currency.|[sales/OrderProduct](OrderProduct.md)|
-|[pricingErrorCode](#pricingErrorCode)|Select the type of pricing error, such as a missing or invalid product, or missing quantity.|[sales/OrderProduct](OrderProduct.md)|
-|[pricingErrorCode_display](#pricingErrorCode_display)||[sales/OrderProduct](OrderProduct.md)|
-|[productDescription](#productDescription)|Type a name or description to identify the type of write-in product included in the order.|[sales/OrderProduct](OrderProduct.md)|
-|[productName](#productName)|Calculated field that will be populated by name and description of the product.|[sales/OrderProduct](OrderProduct.md)|
-|[productId](#productId)|Choose the product to include on the order to link the product's pricing and other information to the parent order.|[sales/OrderProduct](OrderProduct.md)|
-|[quantity](#quantity)|Type the amount or quantity of the product ordered by the customer.|[sales/OrderProduct](OrderProduct.md)|
-|[quantityBackordered](#quantityBackordered)|Type the amount or quantity of the product that is back ordered for the order.|[sales/OrderProduct](OrderProduct.md)|
-|[quantityCancelled](#quantityCancelled)|Type the amount or quantity of the product that was canceled.|[sales/OrderProduct](OrderProduct.md)|
-|[quantityShipped](#quantityShipped)|Type the amount or quantity of the product that was shipped for the order.|[sales/OrderProduct](OrderProduct.md)|
-|[requestDeliveryBy](#requestDeliveryBy)|Enter the delivery date requested by the customer for the order product.|[sales/OrderProduct](OrderProduct.md)|
-|[salesOrderId](#salesOrderId)|Shows the order for the product. The ID is used to link product pricing and other details to the total amounts and other information on the order.|[sales/OrderProduct](OrderProduct.md)|
-|[salesOrderIsPriceLocked](#salesOrderIsPriceLocked)|Tells whether product pricing is locked for the order.|[sales/OrderProduct](OrderProduct.md)|
-|[salesOrderStateCode](#salesOrderStateCode)|Shows the status of the order that the order detail is associated with.|[sales/OrderProduct](OrderProduct.md)|
-|[salesOrderStateCode_display](#salesOrderStateCode_display)||[sales/OrderProduct](OrderProduct.md)|
-|[salesRepId](#salesRepId)|Choose the user responsible for the sale of the order product.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToAddressId](#shipToAddressId)|Unique identifier of the shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToContactName](#shipToContactName)|Type the primary contact name at the customer's shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||[sales/OrderProduct](OrderProduct.md)|
-|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|[sales/OrderProduct](OrderProduct.md)|
-|[tax](#tax)|Type the tax amount for the order product.|[sales/OrderProduct](OrderProduct.md)|
-|[taxBase](#taxBase)|Value of the Tax in base currency.|[sales/OrderProduct](OrderProduct.md)|
-|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|[sales/OrderProduct](OrderProduct.md)|
-|[volumeDiscountAmount](#volumeDiscountAmount)|Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.|[sales/OrderProduct](OrderProduct.md)|
-|[volumeDiscountAmountBase](#volumeDiscountAmountBase)|Value of the Volume Discount in base currency.|[sales/OrderProduct](OrderProduct.md)|
-|[willCall](#willCall)|Select whether the order product should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|[sales/OrderProduct](OrderProduct.md)|
-|[sequenceNumber](#sequenceNumber)|Shows the ID of the data that maintains the sequence.|[sales/OrderProduct](OrderProduct.md)|
-|[propertyConfigurationStatus](#propertyConfigurationStatus)|Status of the property configuration.|[sales/OrderProduct](OrderProduct.md)|
-|[propertyConfigurationStatus_display](#propertyConfigurationStatus_display)||[sales/OrderProduct](OrderProduct.md)|
-|[quoteDetailId](#quoteDetailId)|Unique identifier for Quote Line associated with Order Line.|[sales/OrderProduct](OrderProduct.md)|
-|[salesOrderDetailName](#salesOrderDetailName)|Sales Order Detail Name. Added for 1:n Referential relationship|[sales/OrderProduct](OrderProduct.md)|
-|[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|[sales/OrderProduct](OrderProduct.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[salesOrderDetailId](#salesOrderDetailId)|Unique identifier of the product specified in the order.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[baseAmount](#baseAmount)|Shows the total price of the order product, based on the price per unit, volume discount, and quantity.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[baseAmountBase](#baseAmountBase)|Value of the Amount in base currency.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[description](#description)|Type additional information to describe the order product, such as manufacturing details or acceptable substitutions.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[extendedAmount](#extendedAmount)|Shows the total amount due for the order product, based on the sum of the unit price, quantity, discounts, and tax.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[extendedAmountBase](#extendedAmountBase)|Value of the Extended Amount in base currency.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[isCopied](#isCopied)|Select whether the invoice line item is copied from another item or data source.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[isPriceOverridden](#isPriceOverridden)|Select whether the price per unit is fixed at the value in the specified price list or can be overridden by users who have edit rights to the order product.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[isProductOverridden](#isProductOverridden)|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the order.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[lineItemNumber](#lineItemNumber)|Type the line item number for the order product to easily identify the product in the order and make sure it's listed in the correct sequence.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[manualDiscountAmount](#manualDiscountAmount)|Type the manual discount amount for the order product to deduct any negotiated or other savings from the product total on the order.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[manualDiscountAmountBase](#manualDiscountAmountBase)|Value of the Manual Discount in base currency.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[parentBundleId](#parentBundleId)|Choose the parent bundle associated with this product|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[productAssociationId](#productAssociationId)|Unique identifier of the product line item association with bundle in the sales order|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[productTypeCode](#productTypeCode)|Product Type|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[productTypeCode_display](#productTypeCode_display)||<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[pricePerUnit](#pricePerUnit)|Type the price per unit of the order product. The default is the value in the price list specified on the order for existing products.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[pricePerUnitBase](#pricePerUnitBase)|Value of the Price Per Unit in base currency.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[pricingErrorCode](#pricingErrorCode)|Select the type of pricing error, such as a missing or invalid product, or missing quantity.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[pricingErrorCode_display](#pricingErrorCode_display)||<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[productDescription](#productDescription)|Type a name or description to identify the type of write-in product included in the order.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[productName](#productName)|Calculated field that will be populated by name and description of the product.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[productId](#productId)|Choose the product to include on the order to link the product's pricing and other information to the parent order.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[quantity](#quantity)|Type the amount or quantity of the product ordered by the customer.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[quantityBackordered](#quantityBackordered)|Type the amount or quantity of the product that is back ordered for the order.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[quantityCancelled](#quantityCancelled)|Type the amount or quantity of the product that was canceled.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[quantityShipped](#quantityShipped)|Type the amount or quantity of the product that was shipped for the order.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[requestDeliveryBy](#requestDeliveryBy)|Enter the delivery date requested by the customer for the order product.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[salesOrderId](#salesOrderId)|Shows the order for the product. The ID is used to link product pricing and other details to the total amounts and other information on the order.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[salesOrderIsPriceLocked](#salesOrderIsPriceLocked)|Tells whether product pricing is locked for the order.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[salesOrderStateCode](#salesOrderStateCode)|Shows the status of the order that the order detail is associated with.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[salesOrderStateCode_display](#salesOrderStateCode_display)||<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[salesRepId](#salesRepId)|Choose the user responsible for the sale of the order product.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToAddressId](#shipToAddressId)|Unique identifier of the shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToContactName](#shipToContactName)|Type the primary contact name at the customer's shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[tax](#tax)|Type the tax amount for the order product.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[taxBase](#taxBase)|Value of the Tax in base currency.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[volumeDiscountAmount](#volumeDiscountAmount)|Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[volumeDiscountAmountBase](#volumeDiscountAmountBase)|Value of the Volume Discount in base currency.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[willCall](#willCall)|Select whether the order product should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[sequenceNumber](#sequenceNumber)|Shows the ID of the data that maintains the sequence.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[propertyConfigurationStatus](#propertyConfigurationStatus)|Status of the property configuration.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[propertyConfigurationStatus_display](#propertyConfigurationStatus_display)||<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[quoteDetailId](#quoteDetailId)|Unique identifier for Quote Line associated with Order Line.|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[salesOrderDetailName](#salesOrderDetailName)|Sales Order Detail Name. Added for 1:n Referential relationship|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
+|[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|<a href="OrderProduct.md" target="_blank">sales/OrderProduct</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

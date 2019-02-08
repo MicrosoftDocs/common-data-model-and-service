@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email send failed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSendingFailed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,23 +33,24 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailSendingFailed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[accountId](#accountId)|Account|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[messageId](#messageId)|Message|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailSendingFailed](EmailSendingFailed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[contactId](#contactId)|Contact|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[accountId](#accountId)|Account|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[messageId](#messageId)|Message|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailSendingFailed.md" target="_blank">interactions/EmailSendingFailed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

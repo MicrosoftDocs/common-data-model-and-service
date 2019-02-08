@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Marketing List Member
 
 Item in a marketing list.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/MarketingListMember.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,33 +43,34 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 crmCommon/MarketingListMember  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[listMemberId](#listMemberId)||[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the list member was last modified.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the list member.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the listmember.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[name](#name)|name|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[entityIdTypeCode](#entityIdTypeCode)|The name of the entity linked by entityId|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[entityId](#entityId)||[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[entityType](#entityType)||[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[listId](#listId)||[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[ownerId](#ownerId)|Owner Id|[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[owningBusinessUnit](#owningBusinessUnit)||[crmCommon/MarketingListMember](MarketingListMember.md)|
-|[owningUser](#owningUser)||[crmCommon/MarketingListMember](MarketingListMember.md)|
+|[listMemberId](#listMemberId)||<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the list member was last modified.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the list member.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the listmember.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[name](#name)|name|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[entityIdTypeCode](#entityIdTypeCode)|The name of the entity linked by entityId|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[entityId](#entityId)||<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[entityType](#entityType)||<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[listId](#listId)||<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[owningBusinessUnit](#owningBusinessUnit)||<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
+|[owningUser](#owningUser)||<a href="MarketingListMember.md" target="_blank">crmCommon/MarketingListMember</a>|
 
 ### <a href=#listMemberId name="listMemberId">listMemberId</a>
 

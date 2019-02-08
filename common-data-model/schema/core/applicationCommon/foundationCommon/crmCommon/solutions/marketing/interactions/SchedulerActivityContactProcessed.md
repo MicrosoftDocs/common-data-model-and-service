@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Scheduler activity contact processed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SchedulerActivityContactProcessed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,23 +33,24 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/SchedulerActivityContactProcessed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[contactId](#contactId)|Contact|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[accountId](#accountId)|Account|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[activityId](#activityId)|Activity ID|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
-|[path](#path)|Path|[interactions/SchedulerActivityContactProcessed](SchedulerActivityContactProcessed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[contactId](#contactId)|Contact|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[accountId](#accountId)|Account|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[activityId](#activityId)|Activity ID|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
+|[path](#path)|Path|<a href="SchedulerActivityContactProcessed.md" target="_blank">interactions/SchedulerActivityContactProcessed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

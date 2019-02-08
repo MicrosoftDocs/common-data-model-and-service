@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Hotel Room Allocation
 
 This entity records the number of rooms that are allocated from a single hotel for guests of a single event.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomAllocation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,49 +46,50 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/HotelRoomAllocation  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[hotelRoomAllocationId](#hotelRoomAllocationId)|Unique identifier for entity instances|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[stateCode](#stateCode)|Status of the Hotel Room Allocation|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[statusCode](#statusCode)|Reason for the status of the Hotel Room Allocation|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[additionalDetails](#additionalDetails)|Room allocation additional details|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[event](#event)|Related event|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[hotelProperty](#hotelProperty)|Related hotel property|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[numberOfRoomsAllocated](#numberOfRoomsAllocated)|Number of allocated rooms|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[pricePerRoom](#pricePerRoom)|Price per room|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[pricePerRoomBase](#pricePerRoomBase)|Value of the Price per Room in base currency.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[primaryContact](#primaryContact)|Primary contact|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[roomType](#roomType)|Room type|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[roomType_display](#roomType_display)||[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[numberOfRoomsLeft](#numberOfRoomsLeft)|Number of rooms left|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[numberofRoomsReserved](#numberofRoomsReserved)|Number of reserved rooms|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[numberofRoomsReservedDate](#numberofRoomsReservedDate)|Last Updated time of rollup field Number of rooms reserved.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
-|[numberofRoomsReservedState](#numberofRoomsReservedState)|State of rollup field Number of rooms reserved.|[eventManagement/HotelRoomAllocation](HotelRoomAllocation.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[hotelRoomAllocationId](#hotelRoomAllocationId)|Unique identifier for entity instances|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[stateCode](#stateCode)|Status of the Hotel Room Allocation|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[stateCode_display](#stateCode_display)||<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[statusCode](#statusCode)|Reason for the status of the Hotel Room Allocation|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[statusCode_display](#statusCode_display)||<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[name](#name)|The name of the custom entity.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[additionalDetails](#additionalDetails)|Room allocation additional details|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[event](#event)|Related event|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[hotelProperty](#hotelProperty)|Related hotel property|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[numberOfRoomsAllocated](#numberOfRoomsAllocated)|Number of allocated rooms|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[pricePerRoom](#pricePerRoom)|Price per room|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[pricePerRoomBase](#pricePerRoomBase)|Value of the Price per Room in base currency.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[primaryContact](#primaryContact)|Primary contact|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[roomType](#roomType)|Room type|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[roomType_display](#roomType_display)||<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[numberOfRoomsLeft](#numberOfRoomsLeft)|Number of rooms left|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[numberofRoomsReserved](#numberofRoomsReserved)|Number of reserved rooms|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[numberofRoomsReservedDate](#numberofRoomsReservedDate)|Last Updated time of rollup field Number of rooms reserved.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
+|[numberofRoomsReservedState](#numberofRoomsReservedState)|State of rollup field Number of rooms reserved.|<a href="HotelRoomAllocation.md" target="_blank">eventManagement/HotelRoomAllocation</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

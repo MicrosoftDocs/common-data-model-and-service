@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Badge
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Badge.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,35 +42,36 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/Badge  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[badgeId](#badgeId)|Shows the entity instances.|[portals/Badge](Badge.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in the solution options. |[portals/Badge](Badge.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/Badge](Badge.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was updated. The date and time are displayed in the time zone selected in the solution options. |[portals/Badge](Badge.md)|
-|[modifiedBy](#modifiedBy)|Shows who updated the record.|[portals/Badge](Badge.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/Badge](Badge.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who updated the record on behalf of another user.|[portals/Badge](Badge.md)|
-|[organizationId](#organizationId)|Shows the organization.|[portals/Badge](Badge.md)|
-|[stateCode](#stateCode)|Status of the Badge|[portals/Badge](Badge.md)|
-|[stateCode_display](#stateCode_display)||[portals/Badge](Badge.md)|
-|[statusCode](#statusCode)|Shows the reason for the status of the badge.|[portals/Badge](Badge.md)|
-|[statusCode_display](#statusCode_display)||[portals/Badge](Badge.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/Badge](Badge.md)|
-|[importSequenceNumber](#importSequenceNumber)|Shows the sequence number of the import that created this record.|[portals/Badge](Badge.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Shows the date and time when the record was migrated. The date and time are displayed in the time zone selected in the solution options. |[portals/Badge](Badge.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/Badge](Badge.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Shows the time zone code that was in use when the record was created.|[portals/Badge](Badge.md)|
-|[name](#name)|Shows the name of the custom entity.|[portals/Badge](Badge.md)|
-|[accountId](#accountId)||[portals/Badge](Badge.md)|
-|[badgeTypeId](#badgeTypeId)||[portals/Badge](Badge.md)|
-|[contactId](#contactId)||[portals/Badge](Badge.md)|
-|[expiryDate](#expiryDate)||[portals/Badge](Badge.md)|
-|[issuedDate](#issuedDate)||[portals/Badge](Badge.md)|
+|[badgeId](#badgeId)|Shows the entity instances.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in the solution options. |<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was updated. The date and time are displayed in the time zone selected in the solution options. |<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[modifiedBy](#modifiedBy)|Shows who updated the record.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who updated the record on behalf of another user.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[organizationId](#organizationId)|Shows the organization.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[stateCode](#stateCode)|Status of the Badge|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[stateCode_display](#stateCode_display)||<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[statusCode](#statusCode)|Shows the reason for the status of the badge.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[statusCode_display](#statusCode_display)||<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[importSequenceNumber](#importSequenceNumber)|Shows the sequence number of the import that created this record.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Shows the date and time when the record was migrated. The date and time are displayed in the time zone selected in the solution options. |<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Shows the time zone code that was in use when the record was created.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[name](#name)|Shows the name of the custom entity.|<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[accountId](#accountId)||<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[badgeTypeId](#badgeTypeId)||<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[contactId](#contactId)||<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[expiryDate](#expiryDate)||<a href="Badge.md" target="_blank">portals/Badge</a>|
+|[issuedDate](#issuedDate)||<a href="Badge.md" target="_blank">portals/Badge</a>|
 
 ### <a href=#badgeId name="badgeId">badgeId</a>
 

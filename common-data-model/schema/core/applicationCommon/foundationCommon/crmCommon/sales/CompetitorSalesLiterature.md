@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # CompetitorSalesLiterature
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorSalesLiterature.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/CompetitorSalesLiterature  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[competitorSalesLiteratureId](#competitorSalesLiteratureId)|Unique identifier of the sales literature for the competitor product.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[name](#name)|name|[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[competitorId](#competitorId)||[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
-|[salesLiteratureId](#salesLiteratureId)||[sales/CompetitorSalesLiterature](CompetitorSalesLiterature.md)|
+|[competitorSalesLiteratureId](#competitorSalesLiteratureId)|Unique identifier of the sales literature for the competitor product.|<a href="CompetitorSalesLiterature.md" target="_blank">sales/CompetitorSalesLiterature</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CompetitorSalesLiterature.md" target="_blank">sales/CompetitorSalesLiterature</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CompetitorSalesLiterature.md" target="_blank">sales/CompetitorSalesLiterature</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CompetitorSalesLiterature.md" target="_blank">sales/CompetitorSalesLiterature</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CompetitorSalesLiterature.md" target="_blank">sales/CompetitorSalesLiterature</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CompetitorSalesLiterature.md" target="_blank">sales/CompetitorSalesLiterature</a>|
+|[name](#name)|name|<a href="CompetitorSalesLiterature.md" target="_blank">sales/CompetitorSalesLiterature</a>|
+|[competitorId](#competitorId)||<a href="CompetitorSalesLiterature.md" target="_blank">sales/CompetitorSalesLiterature</a>|
+|[salesLiteratureId](#salesLiteratureId)||<a href="CompetitorSalesLiterature.md" target="_blank">sales/CompetitorSalesLiterature</a>|
 
 ### <a href=#competitorSalesLiteratureId name="competitorSalesLiteratureId">competitorSalesLiteratureId</a>
 

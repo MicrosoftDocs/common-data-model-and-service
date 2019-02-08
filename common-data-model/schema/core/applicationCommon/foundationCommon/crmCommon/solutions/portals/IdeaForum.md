@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Idea Forum
 
 The root entity for portal Ideas.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/IdeaForum.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,48 +46,49 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/IdeaForum  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/IdeaForum](IdeaForum.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/IdeaForum](IdeaForum.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/IdeaForum](IdeaForum.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/IdeaForum](IdeaForum.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/IdeaForum](IdeaForum.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/IdeaForum](IdeaForum.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/IdeaForum](IdeaForum.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/IdeaForum](IdeaForum.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/IdeaForum](IdeaForum.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/IdeaForum](IdeaForum.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/IdeaForum](IdeaForum.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/IdeaForum](IdeaForum.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/IdeaForum](IdeaForum.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/IdeaForum](IdeaForum.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/IdeaForum](IdeaForum.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/IdeaForum](IdeaForum.md)|
-|[ideaForumId](#ideaForumId)|Shows the entity instances.|[portals/IdeaForum](IdeaForum.md)|
-|[stateCode](#stateCode)|Shows whether the idea forum is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|[portals/IdeaForum](IdeaForum.md)|
-|[stateCode_display](#stateCode_display)||[portals/IdeaForum](IdeaForum.md)|
-|[statusCode](#statusCode)|Select the idea forum's status.|[portals/IdeaForum](IdeaForum.md)|
-|[statusCode_display](#statusCode_display)||[portals/IdeaForum](IdeaForum.md)|
-|[name](#name)|Shows the name or title of the idea forum.|[portals/IdeaForum](IdeaForum.md)|
-|[commentPolicy](#commentPolicy)|Shows the default comment policy to be used on ideas in this idea forum.|[portals/IdeaForum](IdeaForum.md)|
-|[commentPolicy_display](#commentPolicy_display)||[portals/IdeaForum](IdeaForum.md)|
-|[ideaSubmissionPolicy](#ideaSubmissionPolicy)|Indicates the policy to be enforced for user submitted ideas in this idea forum.|[portals/IdeaForum](IdeaForum.md)|
-|[ideaSubmissionPolicy_display](#ideaSubmissionPolicy_display)||[portals/IdeaForum](IdeaForum.md)|
-|[partialURL](#partialURL)|Shows the URL path fragment used to generate a URL for this idea forum.|[portals/IdeaForum](IdeaForum.md)|
-|[summary](#summary)|Type a description of this idea forum's purpose.|[portals/IdeaForum](IdeaForum.md)|
-|[votesPerIdea](#votesPerIdea)|Shows the number of votes a user is allowed for a single idea belonging to this idea forum.|[portals/IdeaForum](IdeaForum.md)|
-|[votesPerUser](#votesPerUser)|Shows the number of votes a user is allowed to use in this idea forum.|[portals/IdeaForum](IdeaForum.md)|
-|[votingPolicy](#votingPolicy)|Indicates the voting policy to be used for this idea forum.|[portals/IdeaForum](IdeaForum.md)|
-|[votingPolicy_display](#votingPolicy_display)||[portals/IdeaForum](IdeaForum.md)|
-|[votingType](#votingType)|Shows the type of voting that this idea forum allows.|[portals/IdeaForum](IdeaForum.md)|
-|[votingType_display](#votingType_display)||[portals/IdeaForum](IdeaForum.md)|
-|[websiteId](#websiteId)|Shows the website associated with the idea forum.|[portals/IdeaForum](IdeaForum.md)|
-|[websiteLanguageId](#websiteLanguageId)|Option to make idea forums language specific|[portals/IdeaForum](IdeaForum.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[ideaForumId](#ideaForumId)|Shows the entity instances.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[stateCode](#stateCode)|Shows whether the idea forum is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[stateCode_display](#stateCode_display)||<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[statusCode](#statusCode)|Select the idea forum's status.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[statusCode_display](#statusCode_display)||<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[name](#name)|Shows the name or title of the idea forum.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[commentPolicy](#commentPolicy)|Shows the default comment policy to be used on ideas in this idea forum.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[commentPolicy_display](#commentPolicy_display)||<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[ideaSubmissionPolicy](#ideaSubmissionPolicy)|Indicates the policy to be enforced for user submitted ideas in this idea forum.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[ideaSubmissionPolicy_display](#ideaSubmissionPolicy_display)||<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[partialURL](#partialURL)|Shows the URL path fragment used to generate a URL for this idea forum.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[summary](#summary)|Type a description of this idea forum's purpose.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[votesPerIdea](#votesPerIdea)|Shows the number of votes a user is allowed for a single idea belonging to this idea forum.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[votesPerUser](#votesPerUser)|Shows the number of votes a user is allowed to use in this idea forum.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[votingPolicy](#votingPolicy)|Indicates the voting policy to be used for this idea forum.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[votingPolicy_display](#votingPolicy_display)||<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[votingType](#votingType)|Shows the type of voting that this idea forum allows.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[votingType_display](#votingType_display)||<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[websiteId](#websiteId)|Shows the website associated with the idea forum.|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
+|[websiteLanguageId](#websiteLanguageId)|Option to make idea forums language specific|<a href="IdeaForum.md" target="_blank">portals/IdeaForum</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

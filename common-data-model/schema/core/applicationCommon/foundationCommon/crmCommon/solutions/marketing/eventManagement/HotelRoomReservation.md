@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Hotel Room Reservation
 
 Each record of this type tracks a single request made by an event attendee (through the registration portal) to reserve a hotel room from the available hotel allocations  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/HotelRoomReservation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/HotelRoomReservation  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[hotelRoomReservationId](#hotelRoomReservationId)|Unique identifier for entity instances|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[stateCode](#stateCode)|Status of the Hotel Room Reservation|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[statusCode](#statusCode)|Reason for the status of the Hotel Room Reservation|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[name](#name)|The Reservation Number.|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[attendee](#attendee)|Room reservation attendee|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[hotelRoomAllocation](#hotelRoomAllocation)||[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[rewardsProgramNumber](#rewardsProgramNumber)|Room reservation rewards program number|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
-|[specialRequests](#specialRequests)|Room reservation special requests|[eventManagement/HotelRoomReservation](HotelRoomReservation.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[hotelRoomReservationId](#hotelRoomReservationId)|Unique identifier for entity instances|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[stateCode](#stateCode)|Status of the Hotel Room Reservation|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[stateCode_display](#stateCode_display)||<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[statusCode](#statusCode)|Reason for the status of the Hotel Room Reservation|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[statusCode_display](#statusCode_display)||<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[name](#name)|The Reservation Number.|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[attendee](#attendee)|Room reservation attendee|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[hotelRoomAllocation](#hotelRoomAllocation)||<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[rewardsProgramNumber](#rewardsProgramNumber)|Room reservation rewards program number|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
+|[specialRequests](#specialRequests)|Room reservation special requests|<a href="HotelRoomReservation.md" target="_blank">eventManagement/HotelRoomReservation</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

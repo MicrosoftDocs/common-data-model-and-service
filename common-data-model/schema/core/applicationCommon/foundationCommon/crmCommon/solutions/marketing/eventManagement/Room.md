@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Room
 
 A room is where a session may be held. A single room can be used in multiple different layouts which has a direct impact on the max. occupancy of the room.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Room.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,49 +46,50 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Room  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Room](Room.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Room](Room.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Room](Room.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Room](Room.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Room](Room.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Room](Room.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Room](Room.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Room](Room.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Room](Room.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Room](Room.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Room](Room.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Room](Room.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Room](Room.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Room](Room.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Room](Room.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Room](Room.md)|
-|[roomId](#roomId)|Unique identifier for entity instances|[eventManagement/Room](Room.md)|
-|[stateCode](#stateCode)|Status of the Room|[eventManagement/Room](Room.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Room](Room.md)|
-|[statusCode](#statusCode)|Reason for the status of the Room|[eventManagement/Room](Room.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Room](Room.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/Room](Room.md)|
-|[AVSupport](#AVSupport)|Does A/V support or not.|[eventManagement/Room](Room.md)|
-|[AVSupport_display](#AVSupport_display)||[eventManagement/Room](Room.md)|
-|[building](#building)|Link to building.|[eventManagement/Room](Room.md)|
-|[capacity](#capacity)|Capacity|[eventManagement/Room](Room.md)|
-|[description](#description)|Description of the room.|[eventManagement/Room](Room.md)|
-|[disabledAccess](#disabledAccess)|There is disabled access or not.|[eventManagement/Room](Room.md)|
-|[disabledAccess_display](#disabledAccess_display)||[eventManagement/Room](Room.md)|
-|[internetConnection](#internetConnection)|There is internet connection or not.|[eventManagement/Room](Room.md)|
-|[internetConnection_display](#internetConnection_display)||[eventManagement/Room](Room.md)|
-|[other](#other)|Other|[eventManagement/Room](Room.md)|
-|[primaryContact](#primaryContact)|A person who is responsible for the room.|[eventManagement/Room](Room.md)|
-|[videoConferencing](#videoConferencing)|There is video conferencing or not.|[eventManagement/Room](Room.md)|
-|[videoConferencing_display](#videoConferencing_display)||[eventManagement/Room](Room.md)|
-|[whiteBoard](#whiteBoard)|There is whiteboard or not.|[eventManagement/Room](Room.md)|
-|[whiteBoard_display](#whiteBoard_display)||[eventManagement/Room](Room.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[roomId](#roomId)|Unique identifier for entity instances|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[stateCode](#stateCode)|Status of the Room|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[stateCode_display](#stateCode_display)||<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[statusCode](#statusCode)|Reason for the status of the Room|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[statusCode_display](#statusCode_display)||<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[name](#name)|The name of the custom entity.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[AVSupport](#AVSupport)|Does A/V support or not.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[AVSupport_display](#AVSupport_display)||<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[building](#building)|Link to building.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[capacity](#capacity)|Capacity|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[description](#description)|Description of the room.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[disabledAccess](#disabledAccess)|There is disabled access or not.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[disabledAccess_display](#disabledAccess_display)||<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[internetConnection](#internetConnection)|There is internet connection or not.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[internetConnection_display](#internetConnection_display)||<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[other](#other)|Other|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[primaryContact](#primaryContact)|A person who is responsible for the room.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[videoConferencing](#videoConferencing)|There is video conferencing or not.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[videoConferencing_display](#videoConferencing_display)||<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[whiteBoard](#whiteBoard)|There is whiteboard or not.|<a href="Room.md" target="_blank">eventManagement/Room</a>|
+|[whiteBoard_display](#whiteBoard_display)||<a href="Room.md" target="_blank">eventManagement/Room</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

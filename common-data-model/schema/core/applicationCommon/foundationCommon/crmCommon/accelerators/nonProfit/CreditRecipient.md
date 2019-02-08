@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Credit Plan Recipient
 
 The contact, donor or constitiuent who receives "credit" for the hard or soft cleared payment.  A credit plan is always tied to a recipient in order to ensure full reconciliation and accounting of donations.  All nonprofits have business rules in place to govern how hard and soft credits are applied, but these rules are notoriously inconsistent from organization to organization.  For example, 6 of 12 enterprise nonprofits we recently surveyed about how they handle third party (corporate) giving crediting soft credit the corporation and hard credit the individual donors, whereas the other 6 surveyed nonprofits hard credit the third party providing the matching gift payments (i.e., Benevity is an example of a third party gift management company).  Still other organizations hard credit the corporation themselves.  For example, if Jane Smith donates $50 through her company Microsoft, and Microsoft matches the gift dollar for dollar, but Benevity collects and distributes the gift to Oxfam International, where is hard and soft credit applied?  Some organizations hard credit Jane Smith $100 ($50 donated plus the $50 match).  Some organizations hard credit Jane Smith $50 and Microsoft $50.  Some orgs hard credit Microsoft $100. And still more orgs hard credit Benevity some or all of the $100 donation.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditRecipient.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,39 +46,40 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/CreditRecipient  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[creditRecipientId](#creditRecipientId)|Unique identifier for entity instances|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[stateCode](#stateCode)|Status of the Credit Plan Recipient|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[statusCode](#statusCode)|Reason for the status of the Credit Plan Recipient|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[name](#name)||[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[creditPlanRecipientCustomer](#creditPlanRecipientCustomer)||[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[creditRecipientCreditPlanId](#creditRecipientCreditPlanId)|Credit Plan|[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[percentageOfPayment](#percentageOfPayment)||[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[softCreditReason](#softCreditReason)||[nonProfit/CreditRecipient](CreditRecipient.md)|
-|[softCreditReason_display](#softCreditReason_display)||[nonProfit/CreditRecipient](CreditRecipient.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[creditRecipientId](#creditRecipientId)|Unique identifier for entity instances|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[stateCode](#stateCode)|Status of the Credit Plan Recipient|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[stateCode_display](#stateCode_display)||<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[statusCode](#statusCode)|Reason for the status of the Credit Plan Recipient|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[statusCode_display](#statusCode_display)||<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[name](#name)||<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[creditPlanRecipientCustomer](#creditPlanRecipientCustomer)||<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[creditRecipientCreditPlanId](#creditRecipientCreditPlanId)|Credit Plan|<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[percentageOfPayment](#percentageOfPayment)||<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[softCreditReason](#softCreditReason)||<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
+|[softCreditReason_display](#softCreditReason_display)||<a href="CreditRecipient.md" target="_blank">nonProfit/CreditRecipient</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

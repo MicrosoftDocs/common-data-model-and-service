@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Property Option Set Item
 
 Item with a name and value in a property option set type.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/PropertyOptionSetItem.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,32 +43,33 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/PropertyOptionSetItem  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[dynamicPropertyOptionSetValueId](#dynamicPropertyOptionSetValueId)|Shows the unique identifier of the property option set item.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[dynamicPropertyOptionName](#dynamicPropertyOptionName)|Type the name of the property option set item.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[dynamicPropertyOptionValue](#dynamicPropertyOptionValue)|Shows the value of the property option set item.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[dynamicPropertyOptionDescription](#dynamicPropertyOptionDescription)|Type additional information about the property option set item.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[dynamicPropertyId](#dynamicPropertyId)|Shows the property that uses this option set item.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[dynamicPropertyOptionSetValueSequenceNumber](#dynamicPropertyOptionSetValueSequenceNumber)|Internal Use Only|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|[foundationCommon/PropertyOptionSetItem](PropertyOptionSetItem.md)|
+|[dynamicPropertyOptionSetValueId](#dynamicPropertyOptionSetValueId)|Shows the unique identifier of the property option set item.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[dynamicPropertyOptionName](#dynamicPropertyOptionName)|Type the name of the property option set item.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[dynamicPropertyOptionValue](#dynamicPropertyOptionValue)|Shows the value of the property option set item.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[dynamicPropertyOptionDescription](#dynamicPropertyOptionDescription)|Type additional information about the property option set item.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[dynamicPropertyId](#dynamicPropertyId)|Shows the property that uses this option set item.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[dynamicPropertyOptionSetValueSequenceNumber](#dynamicPropertyOptionSetValueSequenceNumber)|Internal Use Only|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|<a href="PropertyOptionSetItem.md" target="_blank">foundationCommon/PropertyOptionSetItem</a>|
 
 ### <a href=#dynamicPropertyOptionSetValueId name="dynamicPropertyOptionSetValueId">dynamicPropertyOptionSetValueId</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Fiscal Calendar Period
 
 Represents the period in which financial activity occurred, as defined by a fiscal calendar.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -40,21 +40,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 financialCommon/FiscalCalendarPeriod  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[fiscalCalendarPeriodId](#fiscalCalendarPeriodId)|The surrogate key of the record|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
-|[fiscalCalendarName](#fiscalCalendarName)|The name of the calendar containing this period|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
-|[periodName](#periodName)|The name of the period|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
-|[periodOffset](#periodOffset)|The number of periods this period is offset from the current period for use in computations such as previous period|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
-|[yearName](#yearName)|The name of the year containing the period|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
-|[yearOffset](#yearOffset)|The number of years this year is offset from the current year for use in computations such as prior year|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
-|[quarter](#quarter)|The name of the quarter containing the period|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
-|[quarterOffset](#quarterOffset)|The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
-|[month](#month)|The month containing the period.|[financialCommon/FiscalCalendarPeriod](FiscalCalendarPeriod.md)|
+|[fiscalCalendarPeriodId](#fiscalCalendarPeriodId)|The surrogate key of the record|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
+|[fiscalCalendarName](#fiscalCalendarName)|The name of the calendar containing this period|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
+|[periodName](#periodName)|The name of the period|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
+|[periodOffset](#periodOffset)|The number of periods this period is offset from the current period for use in computations such as previous period|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
+|[yearName](#yearName)|The name of the year containing the period|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
+|[yearOffset](#yearOffset)|The number of years this year is offset from the current year for use in computations such as prior year|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
+|[quarter](#quarter)|The name of the quarter containing the period|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
+|[quarterOffset](#quarterOffset)|The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
+|[month](#month)|The month containing the period.|<a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>|
 
 ### <a href=#fiscalCalendarPeriodId name="fiscalCalendarPeriodId">fiscalCalendarPeriodId</a>
 

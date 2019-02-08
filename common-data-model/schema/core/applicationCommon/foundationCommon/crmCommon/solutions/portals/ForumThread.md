@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Forum Thread
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/ForumThread.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,46 +42,47 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/ForumThread  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/ForumThread](ForumThread.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/ForumThread](ForumThread.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/ForumThread](ForumThread.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/ForumThread](ForumThread.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/ForumThread](ForumThread.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/ForumThread](ForumThread.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/ForumThread](ForumThread.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/ForumThread](ForumThread.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/ForumThread](ForumThread.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/ForumThread](ForumThread.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/ForumThread](ForumThread.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/ForumThread](ForumThread.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/ForumThread](ForumThread.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/ForumThread](ForumThread.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/ForumThread](ForumThread.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/ForumThread](ForumThread.md)|
-|[communityForumThreadId](#communityForumThreadId)|Shows the entity instances.|[portals/ForumThread](ForumThread.md)|
-|[stateCode](#stateCode)|Status of the Forum Thread|[portals/ForumThread](ForumThread.md)|
-|[stateCode_display](#stateCode_display)||[portals/ForumThread](ForumThread.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[communityForumThreadId](#communityForumThreadId)|Shows the entity instances.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[stateCode](#stateCode)|Status of the Forum Thread|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[stateCode_display](#stateCode_display)||<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
 |[statusCode](#statusCode)|Select the forum thread's status.
-|[portals/ForumThread](ForumThread.md)|
-|[statusCode_display](#statusCode_display)||[portals/ForumThread](ForumThread.md)|
-|[name](#name)|Shows the name of the custom entity.|[portals/ForumThread](ForumThread.md)|
-|[firstPostId](#firstPostId)|Shows the forum post associated with the forum thread.|[portals/ForumThread](ForumThread.md)|
-|[forumId](#forumId)|Shows the forum associated with the forum thread.|[portals/ForumThread](ForumThread.md)|
-|[isAnswered](#isAnswered)||[portals/ForumThread](ForumThread.md)|
-|[lastPostDate](#lastPostDate)||[portals/ForumThread](ForumThread.md)|
-|[lastPostId](#lastPostId)|Shows the forum post associated with the forum thread.|[portals/ForumThread](ForumThread.md)|
-|[locked](#locked)||[portals/ForumThread](ForumThread.md)|
-|[postCount](#postCount)||[portals/ForumThread](ForumThread.md)|
-|[publishingStateId](#publishingStateId)|Shows the publishing state associated with the forum thread.|[portals/ForumThread](ForumThread.md)|
-|[sticky](#sticky)||[portals/ForumThread](ForumThread.md)|
-|[typeId](#typeId)|Shows the forum Thread Type associated with the forum thread.|[portals/ForumThread](ForumThread.md)|
-|[viewCount](#viewCount)||[portals/ForumThread](ForumThread.md)|
+|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[statusCode_display](#statusCode_display)||<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[name](#name)|Shows the name of the custom entity.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[firstPostId](#firstPostId)|Shows the forum post associated with the forum thread.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[forumId](#forumId)|Shows the forum associated with the forum thread.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[isAnswered](#isAnswered)||<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[lastPostDate](#lastPostDate)||<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[lastPostId](#lastPostId)|Shows the forum post associated with the forum thread.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[locked](#locked)||<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[postCount](#postCount)||<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[publishingStateId](#publishingStateId)|Shows the publishing state associated with the forum thread.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[sticky](#sticky)||<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[typeId](#typeId)|Shows the forum Thread Type associated with the forum thread.|<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
+|[viewCount](#viewCount)||<a href="ForumThread.md" target="_blank">portals/ForumThread</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

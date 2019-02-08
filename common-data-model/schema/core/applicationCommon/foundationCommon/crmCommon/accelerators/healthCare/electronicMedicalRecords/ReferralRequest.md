@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Referral Request
 
 Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,73 +46,74 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/ReferralRequest  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[referralRequestId](#referralRequestId)|Unique identifier for entity instances|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[stateCode](#stateCode)|Status of the Referral Request|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[statusCode](#statusCode)|Reason for the status of the Referral Request|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[emrAppointment](#emrAppointment)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[authoredOn](#authoredOn)|Date/DateTime of creation for draft requests and date of activation for active requests.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[basedOnReferral](#basedOnReferral)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[contextType](#contextType)|The encounter at which the request for referral or transfer of care is initiated.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[contextType_display](#contextType_display)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[description](#description)|The reason element gives a short description of why the referral is being made, the description expands on this to support a more complete clinical summary.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[groupIdentifier](#groupIdentifier)|The business identifier of the logical ""grouping"" request/order that this referral is a part of.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[initiatingEncounter](#initiatingEncounter)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[initiatingEpisodeofCare](#initiatingEpisodeofCare)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[intent](#intent)|Distinguishes the "level" of authorization/demand implicit in this request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[intent_display](#intent_display)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[occurencePeriodEndDate](#occurencePeriodEndDate)|End time with inclusive boundary, if not ongoing.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[occurencePeriodStartDate](#occurencePeriodStartDate)|Starting time with inclusive boundary.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[occurrenceDate](#occurrenceDate)|The period of time within which the services identified in the referral/transfer of care is specified or required to occur.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[occurrenceType](#occurrenceType)|The type of the period of time within which the services identified in the referral/transfer of care is specified or required to occur.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[occurrenceType_display](#occurrenceType_display)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[practitionerSpecialty](#practitionerSpecialty)|Indication of the clinical domain or discipline to which the referral or transfer of care request is sent. For example: Cardiology Gastroenterology Diabetology.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[priority](#priority)|An indication of the urgency of referral (or where applicable the type of transfer of care) request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[priority_display](#priority_display)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[referralRequestNumber](#referralRequestNumber)|Business identifier that uniquely identifies the referral/care transfer request instance.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requesterAgent](#requesterAgent)|The device, practitioner, etc. who initiated the request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requesterAgent_display](#requesterAgent_display)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requesterAgentDevice](#requesterAgentDevice)|This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requesterAgentOrganization](#requesterAgentOrganization)|A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action. Includes companies, institutions, corporations, departments.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requesterAgentPatient](#requesterAgentPatient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requesterAgentPractitioner](#requesterAgentPractitioner)|A person who is directly or indirectly involved in the provisioning of healthcare.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requesterAgentRelatedPerson](#requesterAgentRelatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requesterOnBehalfOf](#requesterOnBehalfOf)|This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requestorIdType](#requestorIdType)|The type of requestor, either Account or Contact.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[requestor](#requestor)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[status](#status)|The status of the authorization/intention reflected by the referral request record.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[status_display](#status_display)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[subject](#subject)|The patient who is the subject of a referral or transfer of care request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[subject_display](#subject_display)||[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[subjectContextEncounter](#subjectContextEncounter)|An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[subjectContextEpisodeOfCare](#subjectContextEpisodeOfCare)|An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[subjectGroup](#subjectGroup)|Represents a defined collection of entities that may be discussed or acted upon collectively but which are not expected to act collectively and are not formally or legally recognized.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[subjectPatient](#subjectPatient)|The patient who is the subject of a referral or transfer of care request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
-|[type](#type)|An indication of the type of referral (or where applicable the type of transfer of care) request.|[electronicMedicalRecords/ReferralRequest](ReferralRequest.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[referralRequestId](#referralRequestId)|Unique identifier for entity instances|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[stateCode](#stateCode)|Status of the Referral Request|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[stateCode_display](#stateCode_display)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[statusCode](#statusCode)|Reason for the status of the Referral Request|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[statusCode_display](#statusCode_display)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[name](#name)|The name of the custom entity.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[emrAppointment](#emrAppointment)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[authoredOn](#authoredOn)|Date/DateTime of creation for draft requests and date of activation for active requests.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[basedOnReferral](#basedOnReferral)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[contextType](#contextType)|The encounter at which the request for referral or transfer of care is initiated.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[contextType_display](#contextType_display)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[description](#description)|The reason element gives a short description of why the referral is being made, the description expands on this to support a more complete clinical summary.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[groupIdentifier](#groupIdentifier)|The business identifier of the logical ""grouping"" request/order that this referral is a part of.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[initiatingEncounter](#initiatingEncounter)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[initiatingEpisodeofCare](#initiatingEpisodeofCare)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[intent](#intent)|Distinguishes the "level" of authorization/demand implicit in this request.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[intent_display](#intent_display)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[occurencePeriodEndDate](#occurencePeriodEndDate)|End time with inclusive boundary, if not ongoing.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[occurencePeriodStartDate](#occurencePeriodStartDate)|Starting time with inclusive boundary.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[occurrenceDate](#occurrenceDate)|The period of time within which the services identified in the referral/transfer of care is specified or required to occur.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[occurrenceType](#occurrenceType)|The type of the period of time within which the services identified in the referral/transfer of care is specified or required to occur.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[occurrenceType_display](#occurrenceType_display)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[practitionerSpecialty](#practitionerSpecialty)|Indication of the clinical domain or discipline to which the referral or transfer of care request is sent. For example: Cardiology Gastroenterology Diabetology.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[priority](#priority)|An indication of the urgency of referral (or where applicable the type of transfer of care) request.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[priority_display](#priority_display)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[referralRequestNumber](#referralRequestNumber)|Business identifier that uniquely identifies the referral/care transfer request instance.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requesterAgent](#requesterAgent)|The device, practitioner, etc. who initiated the request.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requesterAgent_display](#requesterAgent_display)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requesterAgentDevice](#requesterAgentDevice)|This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requesterAgentOrganization](#requesterAgentOrganization)|A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action. Includes companies, institutions, corporations, departments.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requesterAgentPatient](#requesterAgentPatient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requesterAgentPractitioner](#requesterAgentPractitioner)|A person who is directly or indirectly involved in the provisioning of healthcare.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requesterAgentRelatedPerson](#requesterAgentRelatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requesterOnBehalfOf](#requesterOnBehalfOf)|This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requestorIdType](#requestorIdType)|The type of requestor, either Account or Contact.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[requestor](#requestor)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[status](#status)|The status of the authorization/intention reflected by the referral request record.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[status_display](#status_display)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[subject](#subject)|The patient who is the subject of a referral or transfer of care request.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[subject_display](#subject_display)||<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[subjectContextEncounter](#subjectContextEncounter)|An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[subjectContextEpisodeOfCare](#subjectContextEpisodeOfCare)|An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[subjectGroup](#subjectGroup)|Represents a defined collection of entities that may be discussed or acted upon collectively but which are not expected to act collectively and are not formally or legally recognized.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[subjectPatient](#subjectPatient)|The patient who is the subject of a referral or transfer of care request.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
+|[type](#type)|An indication of the type of referral (or where applicable the type of transfer of care) request.|<a href="ReferralRequest.md" target="_blank">electronicMedicalRecords/ReferralRequest</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

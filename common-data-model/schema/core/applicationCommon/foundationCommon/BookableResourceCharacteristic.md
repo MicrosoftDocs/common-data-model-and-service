@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Bookable Resource Characteristic
 
 Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceCharacteristic.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,42 +46,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/BookableResourceCharacteristic  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[bookableResourceCharacteristicId](#bookableResourceCharacteristicId)|Unique identifier of the resource characteristic.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[name](#name)|Type the name of the association between the resource and characteristic.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[characteristic](#characteristic)|Choose the characteristic to associate with the resource.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[ratingValue](#ratingValue)|Select a rating value that represents the evaluation of a characteristic for a particular resource.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[resource](#resource)|Shows the resource associated with the characteristic.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[stateCode](#stateCode)|Status of the Bookable Resource Characteristic|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[statusCode](#statusCode)|Reason for the status of the Bookable Resource Characteristic|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcecharacteristic with respect to the base currency.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceCharacteristic with respect to the base currency.|[foundationCommon/BookableResourceCharacteristic](BookableResourceCharacteristic.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[bookableResourceCharacteristicId](#bookableResourceCharacteristicId)|Unique identifier of the resource characteristic.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[name](#name)|Type the name of the association between the resource and characteristic.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[characteristic](#characteristic)|Choose the characteristic to associate with the resource.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[ratingValue](#ratingValue)|Select a rating value that represents the evaluation of a characteristic for a particular resource.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[resource](#resource)|Shows the resource associated with the characteristic.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[stateCode](#stateCode)|Status of the Bookable Resource Characteristic|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[stateCode_display](#stateCode_display)||<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[statusCode](#statusCode)|Reason for the status of the Bookable Resource Characteristic|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[statusCode_display](#statusCode_display)||<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcecharacteristic with respect to the base currency.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceCharacteristic with respect to the base currency.|<a href="BookableResourceCharacteristic.md" target="_blank">foundationCommon/BookableResourceCharacteristic</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

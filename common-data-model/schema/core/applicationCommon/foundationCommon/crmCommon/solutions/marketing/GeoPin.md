@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Geo Pin
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/GeoPin.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,62 +42,63 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 marketing/GeoPin  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[marketing/GeoPin](GeoPin.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[marketing/GeoPin](GeoPin.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[marketing/GeoPin](GeoPin.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[marketing/GeoPin](GeoPin.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[marketing/GeoPin](GeoPin.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[marketing/GeoPin](GeoPin.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[marketing/GeoPin](GeoPin.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[marketing/GeoPin](GeoPin.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[marketing/GeoPin](GeoPin.md)|
-|[ownerId](#ownerId)|Owner Id|[marketing/GeoPin](GeoPin.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[marketing/GeoPin](GeoPin.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[marketing/GeoPin](GeoPin.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[marketing/GeoPin](GeoPin.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[marketing/GeoPin](GeoPin.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[marketing/GeoPin](GeoPin.md)|
-|[versionNumber](#versionNumber)|Version Number|[marketing/GeoPin](GeoPin.md)|
-|[geopinId](#geopinId)|Unique ID for entity instances.|[marketing/GeoPin](GeoPin.md)|
-|[stateCode](#stateCode)|Status of the geo pin.|[marketing/GeoPin](GeoPin.md)|
-|[stateCode_display](#stateCode_display)||[marketing/GeoPin](GeoPin.md)|
-|[statusCode](#statusCode)|Geo-pin status reason|[marketing/GeoPin](GeoPin.md)|
-|[statusCode_display](#statusCode_display)||[marketing/GeoPin](GeoPin.md)|
-|[name](#name)|The name of the custom entity.|[marketing/GeoPin](GeoPin.md)|
-|[campaignGeoPinsId](#campaignGeoPinsId)|Unique ID for the campaign associated with the geo pin.|[marketing/GeoPin](GeoPin.md)|
-|[centerLatitude](#centerLatitude)||[marketing/GeoPin](GeoPin.md)|
-|[centerLongitude](#centerLongitude)||[marketing/GeoPin](GeoPin.md)|
-|[city](#city)|City|[marketing/GeoPin](GeoPin.md)|
-|[contactGeoPinsId](#contactGeoPinsId)|Unique ID for the contact associated with the geo pin.|[marketing/GeoPin](GeoPin.md)|
-|[country](#country)|Country/Region|[marketing/GeoPin](GeoPin.md)|
-|[customerJourney](#customerJourney)||[marketing/GeoPin](GeoPin.md)|
-|[marketingformGeoPinsId](#marketingformGeoPinsId)|Unique ID for the marketing form associated with the geo pin.|[marketing/GeoPin](GeoPin.md)|
-|[KPIEmailClickedCount](#KPIEmailClickedCount)||[marketing/GeoPin](GeoPin.md)|
-|[KPIEmailOpenedCount](#KPIEmailOpenedCount)||[marketing/GeoPin](GeoPin.md)|
-|[KPIRedirectLinkClickedCount](#KPIRedirectLinkClickedCount)||[marketing/GeoPin](GeoPin.md)|
-|[KPIWebsiteClickedCount](#KPIWebsiteClickedCount)||[marketing/GeoPin](GeoPin.md)|
-|[KPIWebsiteVisitedCount](#KPIWebsiteVisitedCount)||[marketing/GeoPin](GeoPin.md)|
-|[kpiFormSubmittedCount](#kpiFormSubmittedCount)||[marketing/GeoPin](GeoPin.md)|
-|[leadGeoPinsId](#leadGeoPinsId)|Unique ID for the lead associated with the geo pin.|[marketing/GeoPin](GeoPin.md)|
-|[marketingEmailGeoPinsId](#marketingEmailGeoPinsId)|Unique ID for the marketing email associated with the geo pin.|[marketing/GeoPin](GeoPin.md)|
-|[marketingPageGeoPinsId](#marketingPageGeoPinsId)|Unique ID for the marketing page associated with the geo pin.|[marketing/GeoPin](GeoPin.md)|
-|[northwestLatitude](#northwestLatitude)||[marketing/GeoPin](GeoPin.md)|
-|[northwestLongitude](#northwestLongitude)||[marketing/GeoPin](GeoPin.md)|
-|[postalCode](#postalCode)|Postal Code|[marketing/GeoPin](GeoPin.md)|
-|[redirectURLGeoPinsId](#redirectURLGeoPinsId)|Unique ID for the redirect URL associated with the geo pin.|[marketing/GeoPin](GeoPin.md)|
-|[requestBuilderService_mktgeopins](#requestBuilderService_mktgeopins)||[marketing/GeoPin](GeoPin.md)|
-|[resultParserService_mktgeopins](#resultParserService_mktgeopins)||[marketing/GeoPin](GeoPin.md)|
-|[serverIdMarketing](#serverIdMarketing)||[marketing/GeoPin](GeoPin.md)|
-|[southeastLatitude](#southeastLatitude)||[marketing/GeoPin](GeoPin.md)|
-|[southeastLongitude](#southeastLongitude)||[marketing/GeoPin](GeoPin.md)|
-|[state](#state)|State|[marketing/GeoPin](GeoPin.md)|
-|[websiteGeoPinsId](#websiteGeoPinsId)|Unique ID for the website associated with the geo pin.|[marketing/GeoPin](GeoPin.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[geopinId](#geopinId)|Unique ID for entity instances.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[stateCode](#stateCode)|Status of the geo pin.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[stateCode_display](#stateCode_display)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[statusCode](#statusCode)|Geo-pin status reason|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[statusCode_display](#statusCode_display)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[name](#name)|The name of the custom entity.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[campaignGeoPinsId](#campaignGeoPinsId)|Unique ID for the campaign associated with the geo pin.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[centerLatitude](#centerLatitude)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[centerLongitude](#centerLongitude)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[city](#city)|City|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[contactGeoPinsId](#contactGeoPinsId)|Unique ID for the contact associated with the geo pin.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[country](#country)|Country/Region|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[customerJourney](#customerJourney)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[marketingformGeoPinsId](#marketingformGeoPinsId)|Unique ID for the marketing form associated with the geo pin.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[KPIEmailClickedCount](#KPIEmailClickedCount)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[KPIEmailOpenedCount](#KPIEmailOpenedCount)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[KPIRedirectLinkClickedCount](#KPIRedirectLinkClickedCount)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[KPIWebsiteClickedCount](#KPIWebsiteClickedCount)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[KPIWebsiteVisitedCount](#KPIWebsiteVisitedCount)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[kpiFormSubmittedCount](#kpiFormSubmittedCount)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[leadGeoPinsId](#leadGeoPinsId)|Unique ID for the lead associated with the geo pin.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[marketingEmailGeoPinsId](#marketingEmailGeoPinsId)|Unique ID for the marketing email associated with the geo pin.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[marketingPageGeoPinsId](#marketingPageGeoPinsId)|Unique ID for the marketing page associated with the geo pin.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[northwestLatitude](#northwestLatitude)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[northwestLongitude](#northwestLongitude)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[postalCode](#postalCode)|Postal Code|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[redirectURLGeoPinsId](#redirectURLGeoPinsId)|Unique ID for the redirect URL associated with the geo pin.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[requestBuilderService_mktgeopins](#requestBuilderService_mktgeopins)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[resultParserService_mktgeopins](#resultParserService_mktgeopins)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[serverIdMarketing](#serverIdMarketing)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[southeastLatitude](#southeastLatitude)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[southeastLongitude](#southeastLongitude)||<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[state](#state)|State|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
+|[websiteGeoPinsId](#websiteGeoPinsId)|Unique ID for the website associated with the geo pin.|<a href="GeoPin.md" target="_blank">marketing/GeoPin</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

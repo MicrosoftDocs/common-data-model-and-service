@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Contact
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Contact](../../../../../Contact.md "/core/applicationCommon/Contact.cdm.json/Contact")  
 [foundationCommon/Contact](../../../../Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
 [crmCommon/Contact](../../../Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
@@ -59,253 +60,253 @@ higherEducation/Contact
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[ownerIdType](#ownerIdType)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[ownerId](#ownerId)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/Contact](../../../../../Contact.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Contact](../../../../../Contact.md)|
-|[contactId](#contactId)|Unique identifier of the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[customerSizeCode](#customerSizeCode)|Select the size of the contact's company for segmentation and reporting purposes.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[customerSizeCode_display](#customerSizeCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[customerTypeCode](#customerTypeCode)|Select the category that best describes the relationship between the contact and your organization.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[customerTypeCode_display](#customerTypeCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[leadSourceCode](#leadSourceCode)|Select the primary marketing source that directed the contact to your organization.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[leadSourceCode_display](#leadSourceCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[paymentTermsCode_display](#paymentTermsCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[shippingMethodCode_display](#shippingMethodCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[accountId](#accountId)|Unique identifier of the account with which the contact is associated.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[participatesInWorkflow](#participatesInWorkflow)|Shows whether the contact participates in workflow rules.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[isBackofficeCustomer](#isBackofficeCustomer)|Select whether the contact exists in a separate accounting or other system, such as Microsoft Dynamics GP or another ERP database, for use in integration processes.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[salutation](#salutation)|Type the salutation of the contact to make sure the contact is addressed correctly in sales calls, email messages, and marketing campaigns.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[jobTitle](#jobTitle)|Type the job title of the contact to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[firstName](#firstName)|Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[department](#department)|Type the department or business unit where the contact works in the parent company or business.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[nickName](#nickName)|Type the contact's nickname.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[middleName](#middleName)|Type the contact's middle name or initial to make sure the contact is addressed correctly.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[lastName](#lastName)|Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[suffix](#suffix)|Type the suffix used in the contact's name, such as Jr. or Sr. to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[yomiFirstName](#yomiFirstName)|Type the phonetic spelling of the contact's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[fullName](#fullName)|Combines and shows the contact's first and last names so that the full name can be displayed in views and reports.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[yomiMiddleName](#yomiMiddleName)|Type the phonetic spelling of the contact's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[yomiLastName](#yomiLastName)|Type the phonetic spelling of the contact's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[anniversary](#anniversary)|Enter the date of the contact's wedding or service anniversary for use in customer gift programs or other communications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[birthDate](#birthDate)|Enter the contact's birthday for use in customer gift programs or other communications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[governmentId](#governmentId)|Type the passport number or other government ID for the contact for use in documents or reports.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[yomiFullName](#yomiFullName)|Shows the combined Yomi first and last names of the contact so that the full phonetic name can be displayed in views and reports.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[description](#description)|Type additional information to describe the contact, such as an excerpt from the company's website.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[employeeId](#employeeId)|Type the employee ID or number for the contact for reference in orders, service cases, or other communications with the contact's organization.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[genderCode](#genderCode)|Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[genderCode_display](#genderCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[annualIncome](#annualIncome)|Type the contact's annual income for use in profiling and financial analysis.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[hasChildrenCode](#hasChildrenCode)|Select whether the contact has any children for reference in follow-up phone calls and other communications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[hasChildrenCode_display](#hasChildrenCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[educationCode](#educationCode)|Select the contact's highest level of education for use in segmentation and analysis.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[educationCode_display](#educationCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[webSiteUrl](#webSiteUrl)|Type the contact's professional or personal website or blog URL.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[familyStatusCode](#familyStatusCode)|Select the marital status of the contact for reference in follow-up phone calls and other communications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[familyStatusCode_display](#familyStatusCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[ftpSiteUrl](#ftpSiteUrl)|Type the URL for the contact's FTP site to enable users to access data and share documents.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[EMailAddress1](#EMailAddress1)|Type the primary email address for the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[spousesName](#spousesName)|Type the name of the contact's spouse or partner for reference during calls, events, or other communications with the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[assistantName](#assistantName)|Type the name of the contact's assistant.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[assistantPhone](#assistantPhone)|Type the phone number for the contact's assistant.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[EMailAddress3](#EMailAddress3)|Type an alternate email address for the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[doNotPhone](#doNotPhone)|Select whether the contact accepts phone calls. If Do Not Allow is selected, the contact will be excluded from any phone call activities distributed in marketing campaigns.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[managerName](#managerName)|Type the name of the contact's manager for use in escalating issues or other follow-up communications with the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[managerPhone](#managerPhone)|Type the phone number for the contact's manager.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[doNotFax](#doNotFax)|Select whether the contact allows faxes. If Do Not Allow is selected, the contact will be excluded from any fax activities distributed in marketing campaigns.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[doNotEMail](#doNotEMail)|Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Do Not Allow is selected, Microsoft Dynamics 365 will not send the email.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[doNotPostalMail](#doNotPostalMail)|Select whether the contact allows direct mail. If Do Not Allow is selected, the contact will be excluded from letter activities distributed in marketing campaigns.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[doNotBulkEMail](#doNotBulkEMail)|Select whether the contact accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the email.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[doNotBulkPostalMail](#doNotBulkPostalMail)|Select whether the contact accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the letters.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[accountRoleCode](#accountRoleCode)|Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[accountRoleCode_display](#accountRoleCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[territoryCode](#territoryCode)|Select a region or territory for the contact for use in segmentation and analysis.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[territoryCode_display](#territoryCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[creditLimit](#creditLimit)|Type the credit limit of the contact for reference when you address invoice and accounting issues with the customer.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[creditOnHold](#creditOnHold)|Select whether the contact is on a credit hold, for reference when addressing invoice and accounting issues.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[numberOfChildren](#numberOfChildren)|Type the number of children the contact has for reference in follow-up phone calls and other communications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[childrensNames](#childrensNames)|Type the names of the contact's children for reference in communications and client programs.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[mobilePhone](#mobilePhone)|Type the mobile phone number for the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[pager](#pager)|Type the pager number for the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[telephone1](#telephone1)|Type the main phone number for this contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[telephone2](#telephone2)|Type a second phone number for this contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[telephone3](#telephone3)|Type a third phone number for this contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[fax](#fax)|Type the fax number for the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[aging30](#aging30)|For system use only.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[stateCode](#stateCode)|Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[aging60](#aging60)|For system use only.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[statusCode](#statusCode)|Select the contact's status.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[aging90](#aging90)|For system use only.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[parentContactId](#parentContactId)|Unique identifier of the parent contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1AddressId](#address1AddressId)|Unique identifier for address n.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1AddressTypeCode](#address1AddressTypeCode)|Select the address type, such as primary or billing.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Name](#address1Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1PrimaryContactName](#address1PrimaryContactName)|Type the name of the primary contact person for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Line1](#address1Line1)|Type the first line of the customer's address to help identify the location.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Line2](#address1Line2)|Type the second line of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Line3](#address1Line3)|Type the third line of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1City](#address1City)|Type the city for the customer's address to help identify the location.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1County](#address1County)|Type the county for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Country](#address1Country)|Type the country or region for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1UTCOffset](#address1UTCOffset)|Select the time zone for the address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1FreightTermsCode](#address1FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1FreightTermsCode_display](#address1FreightTermsCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Latitude](#address1Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Telephone1](#address1Telephone1)|Type the primary phone number for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Longitude](#address1Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Telephone2](#address1Telephone2)|Type a second phone number for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Telephone3](#address1Telephone3)|Type a third phone number for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Fax](#address1Fax)|Type the fax number associated with the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address1Composite](#address1Composite)|Shows the complete address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2AddressId](#address2AddressId)|Unique identifier for address n.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2AddressTypeCode](#address2AddressTypeCode)|Select the address type, such as primary or billing.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Name](#address2Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2PrimaryContactName](#address2PrimaryContactName)|Type the name of the primary contact person for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Line1](#address2Line1)|Type the first line of the customer's address to help identify the location.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Line2](#address2Line2)|Type the second line of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Line3](#address2Line3)|Type the third line of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2City](#address2City)|Type the city for the customer's address to help identify the location.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2County](#address2County)|Type the county for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Country](#address2Country)|Type the country or region for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2UTCOffset](#address2UTCOffset)|Select the time zone for the address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2FreightTermsCode](#address2FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2FreightTermsCode_display](#address2FreightTermsCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Latitude](#address2Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Telephone1](#address2Telephone1)|Type the primary phone number for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Longitude](#address2Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Telephone2](#address2Telephone2)|Type a second phone number for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Telephone3](#address2Telephone3)|Type a third phone number for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Fax](#address2Fax)|Type the fax number associated with the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address2Composite](#address2Composite)|Shows the complete address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3AddressId](#address3AddressId)|Unique identifier for address n.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3AddressTypeCode](#address3AddressTypeCode)|Select the address type, such as primary or billing.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3AddressTypeCode_display](#address3AddressTypeCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Name](#address3Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3PrimaryContactName](#address3PrimaryContactName)|Type the name of the primary contact person for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Line1](#address3Line1)|Type the first line of the customer's address to help identify the location.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Line2](#address3Line2)|Type the second line of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Line3](#address3Line3)|Type the third line of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3City](#address3City)|Type the city for the customer's address to help identify the location.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3StateOrProvince](#address3StateOrProvince)|Type the state or province of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3County](#address3County)|Type the county for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Country](#address3Country)|Type the country or region for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3PostOfficeBox](#address3PostOfficeBox)|Type the post office box number of the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3PostalCode](#address3PostalCode)|Type the ZIP Code or postal code for the address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3UTCOffset](#address3UTCOffset)|Select the time zone for the address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3FreightTermsCode](#address3FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3FreightTermsCode_display](#address3FreightTermsCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3UPSZone](#address3UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Latitude](#address3Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Telephone1](#address3Telephone1)|Type the primary phone number for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Longitude](#address3Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3ShippingMethodCode](#address3ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3ShippingMethodCode_display](#address3ShippingMethodCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Telephone2](#address3Telephone2)|Type a second phone number for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Telephone3](#address3Telephone3)|Type a third phone number for the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Fax](#address3Fax)|Type the fax number associated with the customer's address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[address3Composite](#address3Composite)|Shows the complete address.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[preferredSystemUserId](#preferredSystemUserId)|Choose the regular or preferred customer service representative for reference when scheduling service activities for the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[masterId](#masterId)|Unique identifier of the master contact for merge.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[preferredAppointmentDayCode](#preferredAppointmentDayCode)|Select the preferred day of the week for service appointments.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[preferredAppointmentDayCode_display](#preferredAppointmentDayCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[preferredAppointmentTimeCode](#preferredAppointmentTimeCode)|Select the preferred time of day for service appointments.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[preferredAppointmentTimeCode_display](#preferredAppointmentTimeCode_display)||[applicationCommon/Contact](../../../../../Contact.md)|
-|[doNotSendMM](#doNotSendMM)|Select whether the contact accepts marketing materials, such as brochures or catalogs. Contacts that opt out can be excluded from marketing initiatives.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[parentCustomerIdType](#parentCustomerIdType)|The type of parent customer, either Account or Contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[parentCustomerId](#parentCustomerId)|Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[merged](#merged)|Shows whether the account has been merged with a master contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[externalUserIdentifier](#externalUserIdentifier)|Identifier for an external user.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the contact was last included in a marketing campaign or quick campaign.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[annualIncomeBase](#annualIncomeBase)|Shows the Annual Income field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[creditLimitBase](#creditLimitBase)|Shows the Credit Limit field converted to the system's default base currency for reporting purposes. The calculations use the exchange rate specified in the Currencies area.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[aging60Base](#aging60Base)|Shows the Aging 60 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[aging90Base](#aging90Base)|Shows the Aging 90 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[aging30Base](#aging30Base)|Shows the Aging 30 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Contact record.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to the contact record.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[business2](#business2)|Type a second business phone number for this contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[callback](#callback)|Type a callback phone number for this contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[company](#company)|Type the company phone of the contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[home2](#home2)|Type a second home phone number for this contact.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[applicationCommon/Contact](../../../../../Contact.md)|
-|[marketingOnly](#marketingOnly)|Whether is only for marketing|[applicationCommon/Contact](../../../../../Contact.md)|
-|[defaultPriceLevelId](#defaultPriceLevelId)|Choose the default price list associated with the contact to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.|[foundationCommon/Contact](../../../../Contact.md)|
-|[originatingLeadId](#originatingLeadId)|Shows the lead that the contact was created if the contact was created by converting a lead in Microsoft Dynamics 365. This is used to relate the contact to the data on the originating lead for use in reporting and analytics.|[crmCommon/Contact](../../../Contact.md)|
-|[preferredEquipmentId](#preferredEquipmentId)|Choose the contact's preferred service facility or equipment to make sure services are scheduled correctly for the customer.|[crmCommon/Contact](../../../Contact.md)|
-|[preferredServiceId](#preferredServiceId)|Choose the contact's preferred service to make sure services are scheduled correctly for the customer.|[crmCommon/Contact](../../../Contact.md)|
-|[contactType](#contactType)|Type of contact|[higherEducation/Contact](Contact.md)|
-|[contactType_display](#contactType_display)||[higherEducation/Contact](Contact.md)|
-|[countryofBirth](#countryofBirth)|Country of birth for the contact.|[higherEducation/Contact](Contact.md)|
-|[countryofBirth_display](#countryofBirth_display)||[higherEducation/Contact](Contact.md)|
-|[currentAcademicPeriodId](#currentAcademicPeriodId)|Current academic period enrolled, if any, for the contact.|[higherEducation/Contact](Contact.md)|
-|[currentProgramId](#currentProgramId)|Current program for the contact.|[higherEducation/Contact](Contact.md)|
-|[currentProgramLevelId](#currentProgramLevelId)|Current program level associated to the program for the contact.|[higherEducation/Contact](Contact.md)|
-|[ethnicGroup](#ethnicGroup)|Ethnic group for the contact.|[higherEducation/Contact](Contact.md)|
-|[ethnicGroup_display](#ethnicGroup_display)||[higherEducation/Contact](Contact.md)|
-|[externalIdentifier](#externalIdentifier)|External Identifier|[higherEducation/Contact](Contact.md)|
-|[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/Contact](Contact.md)|
-|[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/Contact](Contact.md)|
-|[FERPAPrivacy](#FERPAPrivacy)|Indicates if the Contact has elected to withhold directory information pursuant to FERPA (USA Federal Education Rights and Privacy Act).|[higherEducation/Contact](Contact.md)|
-|[firstGeneration](#firstGeneration)|Indicates if contact is a first generation student.|[higherEducation/Contact](Contact.md)|
-|[HIPAAIndicator](#HIPAAIndicator)|Indicates if the Contact record includes information such as disability services requests that are protected by HIPAA (USA Health Insurance Portability and Accountability Act standards).|[higherEducation/Contact](Contact.md)|
-|[isDeceased](#isDeceased)|If updated to YES, will deactivate Contact as deceased and change all marketing preferences to "Do Not Allow"|[higherEducation/Contact](Contact.md)|
-|[lastPermanentResidenceCountry](#lastPermanentResidenceCountry)|Last country of permanent residence for the contact.|[higherEducation/Contact](Contact.md)|
-|[lastPermanentResidenceCountry_display](#lastPermanentResidenceCountry_display)||[higherEducation/Contact](Contact.md)|
-|[legacy](#legacy)|Identifies a Contact that is part of a legacy of contacts|[higherEducation/Contact](Contact.md)|
-|[maidenName](#maidenName)|Maiden Name|[higherEducation/Contact](Contact.md)|
-|[manualRiskScore](#manualRiskScore)|Manual Risk Score|[higherEducation/Contact](Contact.md)|
-|[miltaryStatus](#miltaryStatus)|Indicates the military service record for the contact.|[higherEducation/Contact](Contact.md)|
-|[miltaryStatus_display](#miltaryStatus_display)||[higherEducation/Contact](Contact.md)|
-|[nationalIdentifier](#nationalIdentifier)|Unique Identifier or Student SSN|[higherEducation/Contact](Contact.md)|
-|[nationality](#nationality)|Country of nationality for the contact.|[higherEducation/Contact](Contact.md)|
-|[nationality_display](#nationality_display)||[higherEducation/Contact](Contact.md)|
-|[race](#race)|Race of the contact|[higherEducation/Contact](Contact.md)|
-|[race_display](#race_display)||[higherEducation/Contact](Contact.md)|
-|[studentStatusId](#studentStatusId)||[higherEducation/Contact](Contact.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[ownerIdType](#ownerIdType)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[ownerId](#ownerId)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[contactId](#contactId)|Unique identifier of the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[customerSizeCode](#customerSizeCode)|Select the size of the contact's company for segmentation and reporting purposes.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[customerSizeCode_display](#customerSizeCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[customerTypeCode](#customerTypeCode)|Select the category that best describes the relationship between the contact and your organization.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[customerTypeCode_display](#customerTypeCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[leadSourceCode](#leadSourceCode)|Select the primary marketing source that directed the contact to your organization.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[leadSourceCode_display](#leadSourceCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[paymentTermsCode_display](#paymentTermsCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[accountId](#accountId)|Unique identifier of the account with which the contact is associated.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[participatesInWorkflow](#participatesInWorkflow)|Shows whether the contact participates in workflow rules.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[isBackofficeCustomer](#isBackofficeCustomer)|Select whether the contact exists in a separate accounting or other system, such as Microsoft Dynamics GP or another ERP database, for use in integration processes.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[salutation](#salutation)|Type the salutation of the contact to make sure the contact is addressed correctly in sales calls, email messages, and marketing campaigns.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[jobTitle](#jobTitle)|Type the job title of the contact to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[firstName](#firstName)|Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[department](#department)|Type the department or business unit where the contact works in the parent company or business.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[nickName](#nickName)|Type the contact's nickname.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[middleName](#middleName)|Type the contact's middle name or initial to make sure the contact is addressed correctly.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[lastName](#lastName)|Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[suffix](#suffix)|Type the suffix used in the contact's name, such as Jr. or Sr. to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[yomiFirstName](#yomiFirstName)|Type the phonetic spelling of the contact's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[fullName](#fullName)|Combines and shows the contact's first and last names so that the full name can be displayed in views and reports.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[yomiMiddleName](#yomiMiddleName)|Type the phonetic spelling of the contact's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[yomiLastName](#yomiLastName)|Type the phonetic spelling of the contact's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[anniversary](#anniversary)|Enter the date of the contact's wedding or service anniversary for use in customer gift programs or other communications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[birthDate](#birthDate)|Enter the contact's birthday for use in customer gift programs or other communications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[governmentId](#governmentId)|Type the passport number or other government ID for the contact for use in documents or reports.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[yomiFullName](#yomiFullName)|Shows the combined Yomi first and last names of the contact so that the full phonetic name can be displayed in views and reports.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[description](#description)|Type additional information to describe the contact, such as an excerpt from the company's website.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[employeeId](#employeeId)|Type the employee ID or number for the contact for reference in orders, service cases, or other communications with the contact's organization.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[genderCode](#genderCode)|Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[genderCode_display](#genderCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[annualIncome](#annualIncome)|Type the contact's annual income for use in profiling and financial analysis.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[hasChildrenCode](#hasChildrenCode)|Select whether the contact has any children for reference in follow-up phone calls and other communications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[hasChildrenCode_display](#hasChildrenCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[educationCode](#educationCode)|Select the contact's highest level of education for use in segmentation and analysis.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[educationCode_display](#educationCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[webSiteUrl](#webSiteUrl)|Type the contact's professional or personal website or blog URL.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[familyStatusCode](#familyStatusCode)|Select the marital status of the contact for reference in follow-up phone calls and other communications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[familyStatusCode_display](#familyStatusCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[ftpSiteUrl](#ftpSiteUrl)|Type the URL for the contact's FTP site to enable users to access data and share documents.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[EMailAddress1](#EMailAddress1)|Type the primary email address for the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[spousesName](#spousesName)|Type the name of the contact's spouse or partner for reference during calls, events, or other communications with the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[assistantName](#assistantName)|Type the name of the contact's assistant.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[assistantPhone](#assistantPhone)|Type the phone number for the contact's assistant.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[EMailAddress3](#EMailAddress3)|Type an alternate email address for the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[doNotPhone](#doNotPhone)|Select whether the contact accepts phone calls. If Do Not Allow is selected, the contact will be excluded from any phone call activities distributed in marketing campaigns.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[managerName](#managerName)|Type the name of the contact's manager for use in escalating issues or other follow-up communications with the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[managerPhone](#managerPhone)|Type the phone number for the contact's manager.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[doNotFax](#doNotFax)|Select whether the contact allows faxes. If Do Not Allow is selected, the contact will be excluded from any fax activities distributed in marketing campaigns.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[doNotEMail](#doNotEMail)|Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Do Not Allow is selected, Microsoft Dynamics 365 will not send the email.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[doNotPostalMail](#doNotPostalMail)|Select whether the contact allows direct mail. If Do Not Allow is selected, the contact will be excluded from letter activities distributed in marketing campaigns.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[doNotBulkEMail](#doNotBulkEMail)|Select whether the contact accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the email.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[doNotBulkPostalMail](#doNotBulkPostalMail)|Select whether the contact accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the letters.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[accountRoleCode](#accountRoleCode)|Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[accountRoleCode_display](#accountRoleCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[territoryCode](#territoryCode)|Select a region or territory for the contact for use in segmentation and analysis.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[territoryCode_display](#territoryCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[creditLimit](#creditLimit)|Type the credit limit of the contact for reference when you address invoice and accounting issues with the customer.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[creditOnHold](#creditOnHold)|Select whether the contact is on a credit hold, for reference when addressing invoice and accounting issues.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[numberOfChildren](#numberOfChildren)|Type the number of children the contact has for reference in follow-up phone calls and other communications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[childrensNames](#childrensNames)|Type the names of the contact's children for reference in communications and client programs.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[mobilePhone](#mobilePhone)|Type the mobile phone number for the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[pager](#pager)|Type the pager number for the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[telephone1](#telephone1)|Type the main phone number for this contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[telephone2](#telephone2)|Type a second phone number for this contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[telephone3](#telephone3)|Type a third phone number for this contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[fax](#fax)|Type the fax number for the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[aging30](#aging30)|For system use only.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[stateCode](#stateCode)|Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[aging60](#aging60)|For system use only.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[statusCode](#statusCode)|Select the contact's status.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[aging90](#aging90)|For system use only.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[parentContactId](#parentContactId)|Unique identifier of the parent contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1AddressId](#address1AddressId)|Unique identifier for address n.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1AddressTypeCode](#address1AddressTypeCode)|Select the address type, such as primary or billing.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Name](#address1Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1PrimaryContactName](#address1PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Line1](#address1Line1)|Type the first line of the customer's address to help identify the location.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Line2](#address1Line2)|Type the second line of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Line3](#address1Line3)|Type the third line of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1City](#address1City)|Type the city for the customer's address to help identify the location.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1County](#address1County)|Type the county for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Country](#address1Country)|Type the country or region for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1UTCOffset](#address1UTCOffset)|Select the time zone for the address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1FreightTermsCode](#address1FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1FreightTermsCode_display](#address1FreightTermsCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Latitude](#address1Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Telephone1](#address1Telephone1)|Type the primary phone number for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Longitude](#address1Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Telephone2](#address1Telephone2)|Type a second phone number for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Telephone3](#address1Telephone3)|Type a third phone number for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Fax](#address1Fax)|Type the fax number associated with the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address1Composite](#address1Composite)|Shows the complete address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2AddressId](#address2AddressId)|Unique identifier for address n.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2AddressTypeCode](#address2AddressTypeCode)|Select the address type, such as primary or billing.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Name](#address2Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2PrimaryContactName](#address2PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Line1](#address2Line1)|Type the first line of the customer's address to help identify the location.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Line2](#address2Line2)|Type the second line of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Line3](#address2Line3)|Type the third line of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2City](#address2City)|Type the city for the customer's address to help identify the location.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2County](#address2County)|Type the county for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Country](#address2Country)|Type the country or region for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2UTCOffset](#address2UTCOffset)|Select the time zone for the address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2FreightTermsCode](#address2FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2FreightTermsCode_display](#address2FreightTermsCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Latitude](#address2Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Telephone1](#address2Telephone1)|Type the primary phone number for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Longitude](#address2Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Telephone2](#address2Telephone2)|Type a second phone number for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Telephone3](#address2Telephone3)|Type a third phone number for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Fax](#address2Fax)|Type the fax number associated with the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address2Composite](#address2Composite)|Shows the complete address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3AddressId](#address3AddressId)|Unique identifier for address n.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3AddressTypeCode](#address3AddressTypeCode)|Select the address type, such as primary or billing.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3AddressTypeCode_display](#address3AddressTypeCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Name](#address3Name)|Type a descriptive name for the customer's address, such as Corporate Headquarters.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3PrimaryContactName](#address3PrimaryContactName)|Type the name of the primary contact person for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Line1](#address3Line1)|Type the first line of the customer's address to help identify the location.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Line2](#address3Line2)|Type the second line of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Line3](#address3Line3)|Type the third line of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3City](#address3City)|Type the city for the customer's address to help identify the location.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3StateOrProvince](#address3StateOrProvince)|Type the state or province of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3County](#address3County)|Type the county for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Country](#address3Country)|Type the country or region for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3PostOfficeBox](#address3PostOfficeBox)|Type the post office box number of the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3PostalCode](#address3PostalCode)|Type the ZIP Code or postal code for the address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3UTCOffset](#address3UTCOffset)|Select the time zone for the address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3FreightTermsCode](#address3FreightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3FreightTermsCode_display](#address3FreightTermsCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3UPSZone](#address3UPSZone)|Type the UPS zone of the customer's address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Latitude](#address3Latitude)|Type the latitude value for the customer's address, for use in mapping and other applications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Telephone1](#address3Telephone1)|Type the primary phone number for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Longitude](#address3Longitude)|Type the longitude value for the customer's address, for use in mapping and other applications.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3ShippingMethodCode](#address3ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3ShippingMethodCode_display](#address3ShippingMethodCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Telephone2](#address3Telephone2)|Type a second phone number for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Telephone3](#address3Telephone3)|Type a third phone number for the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Fax](#address3Fax)|Type the fax number associated with the customer's address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[address3Composite](#address3Composite)|Shows the complete address.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[preferredSystemUserId](#preferredSystemUserId)|Choose the regular or preferred customer service representative for reference when scheduling service activities for the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[masterId](#masterId)|Unique identifier of the master contact for merge.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[preferredAppointmentDayCode](#preferredAppointmentDayCode)|Select the preferred day of the week for service appointments.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[preferredAppointmentDayCode_display](#preferredAppointmentDayCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[preferredAppointmentTimeCode](#preferredAppointmentTimeCode)|Select the preferred time of day for service appointments.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[preferredAppointmentTimeCode_display](#preferredAppointmentTimeCode_display)||<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[doNotSendMM](#doNotSendMM)|Select whether the contact accepts marketing materials, such as brochures or catalogs. Contacts that opt out can be excluded from marketing initiatives.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[parentCustomerIdType](#parentCustomerIdType)|The type of parent customer, either Account or Contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[parentCustomerId](#parentCustomerId)|Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[merged](#merged)|Shows whether the account has been merged with a master contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[externalUserIdentifier](#externalUserIdentifier)|Identifier for an external user.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the contact was last included in a marketing campaign or quick campaign.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[annualIncomeBase](#annualIncomeBase)|Shows the Annual Income field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[creditLimitBase](#creditLimitBase)|Shows the Credit Limit field converted to the system's default base currency for reporting purposes. The calculations use the exchange rate specified in the Currencies area.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[aging60Base](#aging60Base)|Shows the Aging 60 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[aging90Base](#aging90Base)|Shows the Aging 90 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[aging30Base](#aging30Base)|Shows the Aging 30 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Contact record.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to the contact record.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[business2](#business2)|Type a second business phone number for this contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[callback](#callback)|Type a callback phone number for this contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[company](#company)|Type the company phone of the contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[home2](#home2)|Type a second home phone number for this contact.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[marketingOnly](#marketingOnly)|Whether is only for marketing|<a href="../../../../../Contact.md" target="_blank">applicationCommon/Contact</a>|
+|[defaultPriceLevelId](#defaultPriceLevelId)|Choose the default price list associated with the contact to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.|<a href="../../../../Contact.md" target="_blank">foundationCommon/Contact</a>|
+|[originatingLeadId](#originatingLeadId)|Shows the lead that the contact was created if the contact was created by converting a lead in Microsoft Dynamics 365. This is used to relate the contact to the data on the originating lead for use in reporting and analytics.|<a href="../../../Contact.md" target="_blank">crmCommon/Contact</a>|
+|[preferredEquipmentId](#preferredEquipmentId)|Choose the contact's preferred service facility or equipment to make sure services are scheduled correctly for the customer.|<a href="../../../Contact.md" target="_blank">crmCommon/Contact</a>|
+|[preferredServiceId](#preferredServiceId)|Choose the contact's preferred service to make sure services are scheduled correctly for the customer.|<a href="../../../Contact.md" target="_blank">crmCommon/Contact</a>|
+|[contactType](#contactType)|Type of contact|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[contactType_display](#contactType_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[countryofBirth](#countryofBirth)|Country of birth for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[countryofBirth_display](#countryofBirth_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[currentAcademicPeriodId](#currentAcademicPeriodId)|Current academic period enrolled, if any, for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[currentProgramId](#currentProgramId)|Current program for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[currentProgramLevelId](#currentProgramLevelId)|Current program level associated to the program for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[ethnicGroup](#ethnicGroup)|Ethnic group for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[ethnicGroup_display](#ethnicGroup_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[externalIdentifier](#externalIdentifier)|External Identifier|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[externalSourceSystem](#externalSourceSystem)|External Source System|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[externalSourceSystem_display](#externalSourceSystem_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[FERPAPrivacy](#FERPAPrivacy)|Indicates if the Contact has elected to withhold directory information pursuant to FERPA (USA Federal Education Rights and Privacy Act).|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[firstGeneration](#firstGeneration)|Indicates if contact is a first generation student.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[HIPAAIndicator](#HIPAAIndicator)|Indicates if the Contact record includes information such as disability services requests that are protected by HIPAA (USA Health Insurance Portability and Accountability Act standards).|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[isDeceased](#isDeceased)|If updated to YES, will deactivate Contact as deceased and change all marketing preferences to "Do Not Allow"|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[lastPermanentResidenceCountry](#lastPermanentResidenceCountry)|Last country of permanent residence for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[lastPermanentResidenceCountry_display](#lastPermanentResidenceCountry_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[legacy](#legacy)|Identifies a Contact that is part of a legacy of contacts|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[maidenName](#maidenName)|Maiden Name|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[manualRiskScore](#manualRiskScore)|Manual Risk Score|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[miltaryStatus](#miltaryStatus)|Indicates the military service record for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[miltaryStatus_display](#miltaryStatus_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[nationalIdentifier](#nationalIdentifier)|Unique Identifier or Student SSN|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[nationality](#nationality)|Country of nationality for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[nationality_display](#nationality_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[race](#race)|Race of the contact|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[race_display](#race_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[studentStatusId](#studentStatusId)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

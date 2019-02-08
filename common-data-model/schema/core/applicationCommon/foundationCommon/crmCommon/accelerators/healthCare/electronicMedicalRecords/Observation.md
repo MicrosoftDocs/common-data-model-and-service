@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Observation
 
 Measurements and simple assertions made about a patient, device or other subject.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,102 +46,103 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/Observation  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/Observation](Observation.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/Observation](Observation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/Observation](Observation.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/Observation](Observation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/Observation](Observation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/Observation](Observation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/Observation](Observation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/Observation](Observation.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/Observation](Observation.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/Observation](Observation.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/Observation](Observation.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/Observation](Observation.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/Observation](Observation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/Observation](Observation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/Observation](Observation.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/Observation](Observation.md)|
-|[observationId](#observationId)|Unique identifier for entity instances|[electronicMedicalRecords/Observation](Observation.md)|
-|[stateCode](#stateCode)|Status of the Observation|[electronicMedicalRecords/Observation](Observation.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[statusCode](#statusCode)|Reason for the status of the Observation|[electronicMedicalRecords/Observation](Observation.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[description](#description)|The name of the custom entity.|[electronicMedicalRecords/Observation](Observation.md)|
-|[bodySite](#bodySite)|Indicates the site on the subject's body where the observation was made (i.e. the target site).|[electronicMedicalRecords/Observation](Observation.md)|
-|[code](#code)|Describes what was observed. Sometimes this is called the observation "name".|[electronicMedicalRecords/Observation](Observation.md)|
-|[comment](#comment)|May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.|[electronicMedicalRecords/Observation](Observation.md)|
-|[conextTypeEncounter](#conextTypeEncounter)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|[electronicMedicalRecords/Observation](Observation.md)|
-|[conextTypeEpisodeOfCare](#conextTypeEpisodeOfCare)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|[electronicMedicalRecords/Observation](Observation.md)|
-|[contextType](#contextType)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|[electronicMedicalRecords/Observation](Observation.md)|
-|[contextType_display](#contextType_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[dataAbsentReason](#dataAbsentReason)|Provides a reason why the expected value in the element Observation.value[x] is missing.|[electronicMedicalRecords/Observation](Observation.md)|
-|[device](#device)|The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|[electronicMedicalRecords/Observation](Observation.md)|
-|[deviceType](#deviceType)|The device used to generate the observation data.|[electronicMedicalRecords/Observation](Observation.md)|
-|[deviceType_display](#deviceType_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[deviceTypeDevice](#deviceTypeDevice)|The device used to generate the observation data.|[electronicMedicalRecords/Observation](Observation.md)|
-|[deviceTypeDeviceMetric](#deviceTypeDeviceMetric)|The device  metric used to generate the observation data.|[electronicMedicalRecords/Observation](Observation.md)|
-|[effectiveEnd](#effectiveEnd)|The  End time-period the observed value is asserted as being true. For biological subjects|[electronicMedicalRecords/Observation](Observation.md)|
-|[effectiveStart](#effectiveStart)|The start time-period the observed value is asserted as being true. For biological subjects|[electronicMedicalRecords/Observation](Observation.md)|
-|[effectiveType](#effectiveType)|Clinically relevant time/time-period for observation.|[electronicMedicalRecords/Observation](Observation.md)|
-|[effectiveType_display](#effectiveType_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[effectiveTypeDateTime](#effectiveTypeDateTime)|Enable this field if the Effective type field is Date time.|[electronicMedicalRecords/Observation](Observation.md)|
-|[episodeOfCare](#episodeOfCare)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|[electronicMedicalRecords/Observation](Observation.md)|
-|[identifier](#identifier)|A unique identifier assigned to this observation.|[electronicMedicalRecords/Observation](Observation.md)|
-|[interpretation](#interpretation)|The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status|[electronicMedicalRecords/Observation](Observation.md)|
-|[issuedDate](#issuedDate)|The date and time this observation was made available to providers, typically after the results have been reviewed and verified.|[electronicMedicalRecords/Observation](Observation.md)|
-|[method](#method)|Indicates the mechanism used to perform the observation.|[electronicMedicalRecords/Observation](Observation.md)|
-|[observationNumber](#observationNumber)|A unique identifier assigned to this observation.|[electronicMedicalRecords/Observation](Observation.md)|
-|[specimen](#specimen)|The specimen that was used when this observation was made.|[electronicMedicalRecords/Observation](Observation.md)|
-|[status](#status)|The status of the result value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[status_display](#status_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[subjectType](#subjectType)|The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|[electronicMedicalRecords/Observation](Observation.md)|
-|[subjectType_display](#subjectType_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[subjectTypeDevice](#subjectTypeDevice)|The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|[electronicMedicalRecords/Observation](Observation.md)|
-|[subjectTypeGroup](#subjectTypeGroup)|The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|[electronicMedicalRecords/Observation](Observation.md)|
-|[subjectTypeLocation](#subjectTypeLocation)|The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|[electronicMedicalRecords/Observation](Observation.md)|
-|[subjectTypePatient](#subjectTypePatient)|The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueBoolean](#valueBoolean)|The boolean information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueCodeableConcept](#valueCodeableConcept)|The codeable concept information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueDateType](#valueDateType)|The date and time  information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valuePeriodEndDate](#valuePeriodEndDate)|The period end date information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valuePeriodStartDate](#valuePeriodStartDate)|The period start date information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueQuantityCode](#valueQuantityCode)|Coded form of the unit.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueQuantitySystem](#valueQuantitySystem)|System that defines coded unit form.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueQuantityUnit](#valueQuantityUnit)|Unit representation.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRangeHighLimit](#valueRangeHighLimit)|The value high range information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRangeLowLimit](#valueRangeLowLimit)|The range low value information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioDenominatorCode](#valueRatioDenominatorCode)|The denominator code information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioDenominatorComparator](#valueRatioDenominatorComparator)|The denominator comparator information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioDenominatorComparator_display](#valueRatioDenominatorComparator_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueratioDenominatorSystem](#valueratioDenominatorSystem)|The denominator system information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioDenominatorUnit](#valueRatioDenominatorUnit)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueratioDenominatorvalue](#valueratioDenominatorvalue)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioNumeratorCode](#valueRatioNumeratorCode)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioNumeratorComparator](#valueRatioNumeratorComparator)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioNumeratorComparator_display](#valueRatioNumeratorComparator_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioNumeratorSystem](#valueRatioNumeratorSystem)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioNumeratorUnit](#valueRatioNumeratorUnit)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueRatioNumeratorValue](#valueRatioNumeratorValue)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueSampledDataTypeData](#valueSampledDataTypeData)|Decimal values with spaces, or "E" | "U" | "L"|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueSampledDataTypeDimension](#valueSampledDataTypeDimension)|Number of sample points at each time point.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueSampledDataTypeFactor](#valueSampledDataTypeFactor)|Multiply data by this before adding to origin.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueSampledDataTypeLowerLimit](#valueSampledDataTypeLowerLimit)|Lower limit of detection|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueSampledDataTypeOrigin](#valueSampledDataTypeOrigin)|Zero value and units.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueSampledDataTypePeriod](#valueSampledDataTypePeriod)|Number of milliseconds between samples.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueSampledDataTypeUpperLimit](#valueSampledDataTypeUpperLimit)|Upper limit of detection.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueString](#valueString)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueType](#valueType)|The information determined as a result of making the observation, if the information has a simple value.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueType_display](#valueType_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueTypeQuantityComparator](#valueTypeQuantityComparator)|How the Quantity should be understood and represented.|[electronicMedicalRecords/Observation](Observation.md)|
-|[valueTypeQuantityComparator_display](#valueTypeQuantityComparator_display)||[electronicMedicalRecords/Observation](Observation.md)|
-|[valueTypeQuantityValue](#valueTypeQuantityValue)|Numerical value (with implicit precision).|[electronicMedicalRecords/Observation](Observation.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[observationId](#observationId)|Unique identifier for entity instances|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[stateCode](#stateCode)|Status of the Observation|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[stateCode_display](#stateCode_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[statusCode](#statusCode)|Reason for the status of the Observation|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[statusCode_display](#statusCode_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[description](#description)|The name of the custom entity.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[bodySite](#bodySite)|Indicates the site on the subject's body where the observation was made (i.e. the target site).|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[code](#code)|Describes what was observed. Sometimes this is called the observation "name".|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[comment](#comment)|May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[conextTypeEncounter](#conextTypeEncounter)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[conextTypeEpisodeOfCare](#conextTypeEpisodeOfCare)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[contextType](#contextType)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[contextType_display](#contextType_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[dataAbsentReason](#dataAbsentReason)|Provides a reason why the expected value in the element Observation.value[x] is missing.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[device](#device)|The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[deviceType](#deviceType)|The device used to generate the observation data.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[deviceType_display](#deviceType_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[deviceTypeDevice](#deviceTypeDevice)|The device used to generate the observation data.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[deviceTypeDeviceMetric](#deviceTypeDeviceMetric)|The device  metric used to generate the observation data.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[effectiveEnd](#effectiveEnd)|The  End time-period the observed value is asserted as being true. For biological subjects|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[effectiveStart](#effectiveStart)|The start time-period the observed value is asserted as being true. For biological subjects|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[effectiveType](#effectiveType)|Clinically relevant time/time-period for observation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[effectiveType_display](#effectiveType_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[effectiveTypeDateTime](#effectiveTypeDateTime)|Enable this field if the Effective type field is Date time.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[episodeOfCare](#episodeOfCare)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[identifier](#identifier)|A unique identifier assigned to this observation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[interpretation](#interpretation)|The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[issuedDate](#issuedDate)|The date and time this observation was made available to providers, typically after the results have been reviewed and verified.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[method](#method)|Indicates the mechanism used to perform the observation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[observationNumber](#observationNumber)|A unique identifier assigned to this observation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[specimen](#specimen)|The specimen that was used when this observation was made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[status](#status)|The status of the result value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[status_display](#status_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectType](#subjectType)|The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectType_display](#subjectType_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectTypeDevice](#subjectTypeDevice)|The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectTypeGroup](#subjectTypeGroup)|The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectTypeLocation](#subjectTypeLocation)|The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectTypePatient](#subjectTypePatient)|The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueBoolean](#valueBoolean)|The boolean information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueCodeableConcept](#valueCodeableConcept)|The codeable concept information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueDateType](#valueDateType)|The date and time  information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valuePeriodEndDate](#valuePeriodEndDate)|The period end date information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valuePeriodStartDate](#valuePeriodStartDate)|The period start date information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueQuantityCode](#valueQuantityCode)|Coded form of the unit.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueQuantitySystem](#valueQuantitySystem)|System that defines coded unit form.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueQuantityUnit](#valueQuantityUnit)|Unit representation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRangeHighLimit](#valueRangeHighLimit)|The value high range information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRangeLowLimit](#valueRangeLowLimit)|The range low value information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioDenominatorCode](#valueRatioDenominatorCode)|The denominator code information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioDenominatorComparator](#valueRatioDenominatorComparator)|The denominator comparator information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioDenominatorComparator_display](#valueRatioDenominatorComparator_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueratioDenominatorSystem](#valueratioDenominatorSystem)|The denominator system information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioDenominatorUnit](#valueRatioDenominatorUnit)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueratioDenominatorvalue](#valueratioDenominatorvalue)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioNumeratorCode](#valueRatioNumeratorCode)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioNumeratorComparator](#valueRatioNumeratorComparator)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioNumeratorComparator_display](#valueRatioNumeratorComparator_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioNumeratorSystem](#valueRatioNumeratorSystem)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioNumeratorUnit](#valueRatioNumeratorUnit)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioNumeratorValue](#valueRatioNumeratorValue)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueSampledDataTypeData](#valueSampledDataTypeData)|Decimal values with spaces, or "E" | "U" | "L"|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueSampledDataTypeDimension](#valueSampledDataTypeDimension)|Number of sample points at each time point.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueSampledDataTypeFactor](#valueSampledDataTypeFactor)|Multiply data by this before adding to origin.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueSampledDataTypeLowerLimit](#valueSampledDataTypeLowerLimit)|Lower limit of detection|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueSampledDataTypeOrigin](#valueSampledDataTypeOrigin)|Zero value and units.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueSampledDataTypePeriod](#valueSampledDataTypePeriod)|Number of milliseconds between samples.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueSampledDataTypeUpperLimit](#valueSampledDataTypeUpperLimit)|Upper limit of detection.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueString](#valueString)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueType](#valueType)|The information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueType_display](#valueType_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueTypeQuantityComparator](#valueTypeQuantityComparator)|How the Quantity should be understood and represented.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueTypeQuantityComparator_display](#valueTypeQuantityComparator_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueTypeQuantityValue](#valueTypeQuantityValue)|Numerical value (with implicit precision).|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

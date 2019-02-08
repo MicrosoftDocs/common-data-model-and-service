@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Quote
 
 Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,113 +46,114 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/Quote  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/Quote](Quote.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/Quote](Quote.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/Quote](Quote.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/Quote](Quote.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/Quote](Quote.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/Quote](Quote.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/Quote](Quote.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/Quote](Quote.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/Quote](Quote.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/Quote](Quote.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/Quote](Quote.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/Quote](Quote.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/Quote](Quote.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/Quote](Quote.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/Quote](Quote.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/Quote](Quote.md)|
-|[quoteId](#quoteId)|Unique identifier of the quote.|[sales/Quote](Quote.md)|
-|[emailAddress](#emailAddress)|The primary email address for the entity.|[sales/Quote](Quote.md)|
-|[name](#name)|Type a descriptive name for the quote.|[sales/Quote](Quote.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[sales/Quote](Quote.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[sales/Quote](Quote.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[sales/Quote](Quote.md)|
-|[billToAddressId](#billToAddressId)|Unique identifier of the billing address.|[sales/Quote](Quote.md)|
-|[billToCity](#billToCity)|Type the city for the customer's billing address.|[sales/Quote](Quote.md)|
-|[billToComposite](#billToComposite)|Shows the complete Bill To address.|[sales/Quote](Quote.md)|
-|[billToContactName](#billToContactName)|Type the primary contact name at the customer's billing address.|[sales/Quote](Quote.md)|
-|[billToCountry](#billToCountry)|Type the country or region for the customer's billing address.|[sales/Quote](Quote.md)|
-|[billToFax](#billToFax)|Type the fax number for the customer's billing address.|[sales/Quote](Quote.md)|
-|[billToLine1](#billToLine1)|Type the first line of the customer's billing address.|[sales/Quote](Quote.md)|
-|[billToLine2](#billToLine2)|Type the second line of the customer's billing address.|[sales/Quote](Quote.md)|
-|[billToLine3](#billToLine3)|Type the third line of the billing address.|[sales/Quote](Quote.md)|
-|[billToName](#billToName)|Type a name for the customer's billing address, such as "Headquarters" or "Field office", to identify the address.|[sales/Quote](Quote.md)|
-|[billToPostalCode](#billToPostalCode)|Type the ZIP Code or postal code for the billing address.|[sales/Quote](Quote.md)|
-|[billToStateOrProvince](#billToStateOrProvince)|Type the state or province for the billing address.|[sales/Quote](Quote.md)|
-|[billToTelephone](#billToTelephone)|Type the phone number for the customer's billing address.|[sales/Quote](Quote.md)|
-|[closedOn](#closedOn)|Enter the date when the quote was closed to indicate the expiration, revision, or cancellation date.|[sales/Quote](Quote.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[sales/Quote](Quote.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[sales/Quote](Quote.md)|
-|[description](#description)|Type additional information to describe the quote, such as the products or services offered or details about the customer's product preferences.|[sales/Quote](Quote.md)|
-|[discountAmount](#discountAmount)|Type the discount amount for the quote if the customer is eligible for special savings.|[sales/Quote](Quote.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/Quote](Quote.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/Quote](Quote.md)|
-|[discountAmountBase](#discountAmountBase)|Value of the Quote Discount Amount in base currency.|[sales/Quote](Quote.md)|
-|[discountPercentage](#discountPercentage)|Type the discount rate that should be applied to the Detail Amount field to include additional savings for the customer in the quote.|[sales/Quote](Quote.md)|
-|[effectiveFrom](#effectiveFrom)|Enter the date when the quote pricing is effective or was first communicated to the customer.|[sales/Quote](Quote.md)|
-|[effectiveTo](#effectiveTo)|Enter the expiration date or last day the quote pricing is effective for the customer.|[sales/Quote](Quote.md)|
-|[expiresOn](#expiresOn)|Enter the date a decision or order is due from the customer to indicate the expiration date of the quote.|[sales/Quote](Quote.md)|
-|[freightAmount](#freightAmount)|Type the cost of freight or shipping for the products included in the quote for use in calculating the Total Amount field.|[sales/Quote](Quote.md)|
-|[freightAmountBase](#freightAmountBase)|Value of the Freight Amount in base currency.|[sales/Quote](Quote.md)|
-|[freightTermsCode](#freightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|[sales/Quote](Quote.md)|
-|[freightTermsCode_display](#freightTermsCode_display)||[sales/Quote](Quote.md)|
-|[opportunityId](#opportunityId)|Choose the opportunity that the quote is related to for reporting and analytics.|[sales/Quote](Quote.md)|
-|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|[sales/Quote](Quote.md)|
-|[paymentTermsCode_display](#paymentTermsCode_display)||[sales/Quote](Quote.md)|
-|[priceLevelId](#priceLevelId)|Choose the price list associated with this record to make sure the products associated with the campaign are offered at the correct prices.|[sales/Quote](Quote.md)|
-|[pricingErrorCode](#pricingErrorCode)|Pricing error for the quote.|[sales/Quote](Quote.md)|
-|[pricingErrorCode_display](#pricingErrorCode_display)||[sales/Quote](Quote.md)|
-|[quoteNumber](#quoteNumber)|Shows the quote number for customer reference and searching capabilities. The number cannot be modified.|[sales/Quote](Quote.md)|
-|[requestDeliveryBy](#requestDeliveryBy)|Enter the delivery date requested by the customer for all products in the quote.|[sales/Quote](Quote.md)|
-|[revisionNumber](#revisionNumber)|Shows the version number of the quote for revision history tracking.|[sales/Quote](Quote.md)|
-|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|[sales/Quote](Quote.md)|
-|[shippingMethodCode_display](#shippingMethodCode_display)||[sales/Quote](Quote.md)|
-|[shipToAddressId](#shipToAddressId)|Unique identifier of the shipping address.|[sales/Quote](Quote.md)|
-|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|[sales/Quote](Quote.md)|
-|[shipToComposite](#shipToComposite)|Shows the complete Ship To address.|[sales/Quote](Quote.md)|
-|[shipToContactName](#shipToContactName)|Type the primary contact name at the customer's shipping address.|[sales/Quote](Quote.md)|
-|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|[sales/Quote](Quote.md)|
-|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|[sales/Quote](Quote.md)|
-|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|[sales/Quote](Quote.md)|
-|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||[sales/Quote](Quote.md)|
-|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|[sales/Quote](Quote.md)|
-|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|[sales/Quote](Quote.md)|
-|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|[sales/Quote](Quote.md)|
-|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|[sales/Quote](Quote.md)|
-|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|[sales/Quote](Quote.md)|
-|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|[sales/Quote](Quote.md)|
-|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|[sales/Quote](Quote.md)|
-|[stateCode](#stateCode)|Shows whether the quote is draft, active, won, or closed. Only draft quotes can be edited.|[sales/Quote](Quote.md)|
-|[stateCode_display](#stateCode_display)||[sales/Quote](Quote.md)|
-|[statusCode](#statusCode)|Select the quote's status.|[sales/Quote](Quote.md)|
-|[statusCode_display](#statusCode_display)||[sales/Quote](Quote.md)|
-|[totalAmount](#totalAmount)|Shows the total amount due, calculated as the sum of the products, discounts, freight, and taxes for the quote.|[sales/Quote](Quote.md)|
-|[totalAmountBase](#totalAmountBase)|Value of the Total Amount in base currency.|[sales/Quote](Quote.md)|
-|[totalAmountLessFreight](#totalAmountLessFreight)|Shows the total product amount for the quote, minus any discounts. This value is added to freight and tax amounts in the calculation for the total amount due for the quote.|[sales/Quote](Quote.md)|
-|[totalAmountLessFreightBase](#totalAmountLessFreightBase)|Value of the Total Pre-Freight Amount in base currency.|[sales/Quote](Quote.md)|
-|[totalDiscountAmount](#totalDiscountAmount)|Shows the total discount amount, based on the discount price and rate entered on the quote.|[sales/Quote](Quote.md)|
-|[totalDiscountAmountBase](#totalDiscountAmountBase)|Value of the Total Discount Amount in base currency.|[sales/Quote](Quote.md)|
-|[totalLineItemAmount](#totalLineItemAmount)|Shows the sum of all existing and write-in products included on the quote, based on the specified price list and quantities.|[sales/Quote](Quote.md)|
-|[totalLineItemAmountBase](#totalLineItemAmountBase)|Value of the Total Detail Amount in base currency.|[sales/Quote](Quote.md)|
-|[totalLineItemDiscountAmount](#totalLineItemDiscountAmount)|Shows the total of the Manual Discount amounts specified on all products included in the quote. This value is reflected in the Detail Amount field on the quote and is added to any discount amount or rate specified on the quote|[sales/Quote](Quote.md)|
-|[totalLineItemDiscountAmountBase](#totalLineItemDiscountAmountBase)|Value of the Total Line Item Discount Amount in base currency.|[sales/Quote](Quote.md)|
-|[totalTax](#totalTax)|Shows the total of the Tax amounts specified on all products included in the quote, included in the Total Amount due calculation for the quote.|[sales/Quote](Quote.md)|
-|[totalTaxBase](#totalTaxBase)|Value of the Total Tax in base currency.|[sales/Quote](Quote.md)|
-|[willCall](#willCall)|Select whether the products included in the quote should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|[sales/Quote](Quote.md)|
-|[onHoldTime](#onHoldTime)|Shows the duration in minutes for which the quote was on hold.|[sales/Quote](Quote.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date time stamp of the last on hold time.|[sales/Quote](Quote.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the quote record.|[sales/Quote](Quote.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this quote. This field is for internal use only.|[sales/Quote](Quote.md)|
-|[accountId](#accountId)|Unique identifier of the account with which the quote is associated.|[sales/Quote](Quote.md)|
-|[contactId](#contactId)|Unique identifier of the contact associated with the quote.|[sales/Quote](Quote.md)|
-|[campaignId](#campaignId)|Shows the campaign that the order was created from.|[sales/Quote](Quote.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[quoteId](#quoteId)|Unique identifier of the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[emailAddress](#emailAddress)|The primary email address for the entity.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[name](#name)|Type a descriptive name for the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToAddressId](#billToAddressId)|Unique identifier of the billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToCity](#billToCity)|Type the city for the customer's billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToComposite](#billToComposite)|Shows the complete Bill To address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToContactName](#billToContactName)|Type the primary contact name at the customer's billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToCountry](#billToCountry)|Type the country or region for the customer's billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToFax](#billToFax)|Type the fax number for the customer's billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToLine1](#billToLine1)|Type the first line of the customer's billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToLine2](#billToLine2)|Type the second line of the customer's billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToLine3](#billToLine3)|Type the third line of the billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToName](#billToName)|Type a name for the customer's billing address, such as "Headquarters" or "Field office", to identify the address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToPostalCode](#billToPostalCode)|Type the ZIP Code or postal code for the billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToStateOrProvince](#billToStateOrProvince)|Type the state or province for the billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[billToTelephone](#billToTelephone)|Type the phone number for the customer's billing address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[closedOn](#closedOn)|Enter the date when the quote was closed to indicate the expiration, revision, or cancellation date.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[description](#description)|Type additional information to describe the quote, such as the products or services offered or details about the customer's product preferences.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[discountAmount](#discountAmount)|Type the discount amount for the quote if the customer is eligible for special savings.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[discountAmountBase](#discountAmountBase)|Value of the Quote Discount Amount in base currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[discountPercentage](#discountPercentage)|Type the discount rate that should be applied to the Detail Amount field to include additional savings for the customer in the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[effectiveFrom](#effectiveFrom)|Enter the date when the quote pricing is effective or was first communicated to the customer.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[effectiveTo](#effectiveTo)|Enter the expiration date or last day the quote pricing is effective for the customer.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[expiresOn](#expiresOn)|Enter the date a decision or order is due from the customer to indicate the expiration date of the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[freightAmount](#freightAmount)|Type the cost of freight or shipping for the products included in the quote for use in calculating the Total Amount field.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[freightAmountBase](#freightAmountBase)|Value of the Freight Amount in base currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[freightTermsCode](#freightTermsCode)|Select the freight terms to make sure shipping charges are processed correctly.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[freightTermsCode_display](#freightTermsCode_display)||<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[opportunityId](#opportunityId)|Choose the opportunity that the quote is related to for reporting and analytics.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[paymentTermsCode_display](#paymentTermsCode_display)||<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[priceLevelId](#priceLevelId)|Choose the price list associated with this record to make sure the products associated with the campaign are offered at the correct prices.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[pricingErrorCode](#pricingErrorCode)|Pricing error for the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[pricingErrorCode_display](#pricingErrorCode_display)||<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[quoteNumber](#quoteNumber)|Shows the quote number for customer reference and searching capabilities. The number cannot be modified.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[requestDeliveryBy](#requestDeliveryBy)|Enter the delivery date requested by the customer for all products in the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[revisionNumber](#revisionNumber)|Shows the version number of the quote for revision history tracking.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToAddressId](#shipToAddressId)|Unique identifier of the shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToComposite](#shipToComposite)|Shows the complete Ship To address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToContactName](#shipToContactName)|Type the primary contact name at the customer's shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[stateCode](#stateCode)|Shows whether the quote is draft, active, won, or closed. Only draft quotes can be edited.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[stateCode_display](#stateCode_display)||<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[statusCode](#statusCode)|Select the quote's status.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[statusCode_display](#statusCode_display)||<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalAmount](#totalAmount)|Shows the total amount due, calculated as the sum of the products, discounts, freight, and taxes for the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalAmountBase](#totalAmountBase)|Value of the Total Amount in base currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalAmountLessFreight](#totalAmountLessFreight)|Shows the total product amount for the quote, minus any discounts. This value is added to freight and tax amounts in the calculation for the total amount due for the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalAmountLessFreightBase](#totalAmountLessFreightBase)|Value of the Total Pre-Freight Amount in base currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalDiscountAmount](#totalDiscountAmount)|Shows the total discount amount, based on the discount price and rate entered on the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalDiscountAmountBase](#totalDiscountAmountBase)|Value of the Total Discount Amount in base currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalLineItemAmount](#totalLineItemAmount)|Shows the sum of all existing and write-in products included on the quote, based on the specified price list and quantities.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalLineItemAmountBase](#totalLineItemAmountBase)|Value of the Total Detail Amount in base currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalLineItemDiscountAmount](#totalLineItemDiscountAmount)|Shows the total of the Manual Discount amounts specified on all products included in the quote. This value is reflected in the Detail Amount field on the quote and is added to any discount amount or rate specified on the quote|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalLineItemDiscountAmountBase](#totalLineItemDiscountAmountBase)|Value of the Total Line Item Discount Amount in base currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalTax](#totalTax)|Shows the total of the Tax amounts specified on all products included in the quote, included in the Total Amount due calculation for the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[totalTaxBase](#totalTaxBase)|Value of the Total Tax in base currency.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[willCall](#willCall)|Select whether the products included in the quote should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[onHoldTime](#onHoldTime)|Shows the duration in minutes for which the quote was on hold.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date time stamp of the last on hold time.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the quote record.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this quote. This field is for internal use only.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[accountId](#accountId)|Unique identifier of the account with which the quote is associated.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[contactId](#contactId)|Unique identifier of the contact associated with the quote.|<a href="Quote.md" target="_blank">sales/Quote</a>|
+|[campaignId](#campaignId)|Shows the campaign that the order was created from.|<a href="Quote.md" target="_blank">sales/Quote</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

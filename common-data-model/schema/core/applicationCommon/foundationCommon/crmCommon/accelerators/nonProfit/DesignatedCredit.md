@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Designated Credit
 
 A segment of a donation payment or in-kind gift that indicating the partial amount that is hard- or soft-credited to a Customer and allocated to one Designation.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignatedCredit.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,56 +46,57 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/DesignatedCredit  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[designatedCreditId](#designatedCreditId)|Unique identifier for entity instances|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[stateCode](#stateCode)|Status of the Designated Credit|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[statusCode](#statusCode)|Reason for the status of the Designated Credit|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[name](#name)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[adjustmentComment](#adjustmentComment)|Any notes or details about the adjustment that the user may have optionally entered.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[adjustmentReason](#adjustmentReason)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[adjustmentReason_display](#adjustmentReason_display)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[adjustmentType](#adjustmentType)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[adjustmentType_display](#adjustmentType_display)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[amount](#amount)|The amount of the credit|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[amountBase](#amountBase)|Value of the Amount in base currency.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[applyToCommitmentPaymentDate](#applyToCommitmentPaymentDate)|When this credit accrues toward a donor commitment installment payment, this is the payment date toward which the credit accrues (even if the actual payment received was earlier or later)|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[bookDate](#bookDate)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[creditReason](#creditReason)|Dependent picklist based on CreditType|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[creditReason_display](#creditReason_display)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[creditType](#creditType)|Indicating whether this is a Hard, Soft, or Fundraiser credit; or other custom type|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[creditType_display](#creditType_display)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[dataEntryReference](#dataEntryReference)|Tracks data origin of payment transactions. References may be channel-specific.|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[dataEntrySource](#dataEntrySource)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[dataEntrySource_display](#dataEntrySource_display)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[exchangeRateDate](#exchangeRateDate)|The date and time at which the currency exchange rate was determined|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[isAdjusted](#isAdjusted)|Indicates that this DesignatedCredit has been adjusted by a later DesignatedCredit|[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[postedDate](#postedDate)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
-|[receivedDate](#receivedDate)||[nonProfit/DesignatedCredit](DesignatedCredit.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[designatedCreditId](#designatedCreditId)|Unique identifier for entity instances|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[stateCode](#stateCode)|Status of the Designated Credit|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[stateCode_display](#stateCode_display)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[statusCode](#statusCode)|Reason for the status of the Designated Credit|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[statusCode_display](#statusCode_display)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[name](#name)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[adjustmentComment](#adjustmentComment)|Any notes or details about the adjustment that the user may have optionally entered.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[adjustmentReason](#adjustmentReason)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[adjustmentReason_display](#adjustmentReason_display)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[adjustmentType](#adjustmentType)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[adjustmentType_display](#adjustmentType_display)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[amount](#amount)|The amount of the credit|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[amountBase](#amountBase)|Value of the Amount in base currency.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[applyToCommitmentPaymentDate](#applyToCommitmentPaymentDate)|When this credit accrues toward a donor commitment installment payment, this is the payment date toward which the credit accrues (even if the actual payment received was earlier or later)|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[bookDate](#bookDate)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[creditReason](#creditReason)|Dependent picklist based on CreditType|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[creditReason_display](#creditReason_display)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[creditType](#creditType)|Indicating whether this is a Hard, Soft, or Fundraiser credit; or other custom type|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[creditType_display](#creditType_display)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[dataEntryReference](#dataEntryReference)|Tracks data origin of payment transactions. References may be channel-specific.|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[dataEntrySource](#dataEntrySource)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[dataEntrySource_display](#dataEntrySource_display)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[exchangeRateDate](#exchangeRateDate)|The date and time at which the currency exchange rate was determined|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[isAdjusted](#isAdjusted)|Indicates that this DesignatedCredit has been adjusted by a later DesignatedCredit|<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[postedDate](#postedDate)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
+|[receivedDate](#receivedDate)||<a href="DesignatedCredit.md" target="_blank">nonProfit/DesignatedCredit</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

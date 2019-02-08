@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Email
 
 Activity that is delivered using email protocols.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Email](../../Email.md "/core/applicationCommon/Email.cdm.json/Email")  
 crmCommon/Email  
 
@@ -53,110 +54,110 @@ crmCommon/Email
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Email](../../Email.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Email](../../Email.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Email](../../Email.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Email](../../Email.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Email](../../Email.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Email](../../Email.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Email](../../Email.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Email](../../Email.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Email](../../Email.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Email](../../Email.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/Email](../../Email.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/Email](../../Email.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/Email](../../Email.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Email](../../Email.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Email](../../Email.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Email](../../Email.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/Email](../../Email.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/Email](../../Email.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/Email](../../Email.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/Email](../../Email.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/Email](../../Email.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/Email](../../Email.md)|
-|[priorityCode_display](#priorityCode_display)||[applicationCommon/Email](../../Email.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/Email](../../Email.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/Email](../../Email.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/Email](../../Email.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/Email](../../Email.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/Email](../../Email.md)|
-|[subject](#subject)|Subject associated with the activity.|[applicationCommon/Email](../../Email.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[applicationCommon/Email](../../Email.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[applicationCommon/Email](../../Email.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[applicationCommon/Email](../../Email.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[applicationCommon/Email](../../Email.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[applicationCommon/Email](../../Email.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[applicationCommon/Email](../../Email.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[applicationCommon/Email](../../Email.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[applicationCommon/Email](../../Email.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[applicationCommon/Email](../../Email.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[applicationCommon/Email](../../Email.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[applicationCommon/Email](../../Email.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[applicationCommon/Email](../../Email.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[applicationCommon/Email](../../Email.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[applicationCommon/Email](../../Email.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[applicationCommon/Email](../../Email.md)|
-|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|[applicationCommon/Email](../../Email.md)|
-|[statusCode](#statusCode)|Select the email's status.|[applicationCommon/Email](../../Email.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Email](../../Email.md)|
-|[submittedBy](#submittedBy)|Shows the Microsoft Office Outlook account for the user who submitted the email to Microsoft Dynamics 365.|[applicationCommon/Email](../../Email.md)|
-|[description](#description)|Type the greeting and message text of the email.|[applicationCommon/Email](../../Email.md)|
-|[mimeType](#mimeType)|MIME type of the email message data.|[applicationCommon/Email](../../Email.md)|
-|[readReceiptRequested](#readReceiptRequested)|Indicates that a read receipt is requested.|[applicationCommon/Email](../../Email.md)|
-|[trackingToken](#trackingToken)|Shows the tracking token assigned to the email to make sure responses are automatically tracked in Microsoft Dynamics 365.|[applicationCommon/Email](../../Email.md)|
-|[sender](#sender)|Sender of the email.|[applicationCommon/Email](../../Email.md)|
-|[toRecipients](#toRecipients)|Shows the email addresses corresponding to the recipients.|[applicationCommon/Email](../../Email.md)|
-|[deliveryReceiptRequested](#deliveryReceiptRequested)|Select whether the sender should receive confirmation that the email was delivered.|[applicationCommon/Email](../../Email.md)|
-|[stateCode](#stateCode)|Shows whether the email is open, completed, or canceled. Completed and canceled email is read-only and can't be edited.|[applicationCommon/Email](../../Email.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Email](../../Email.md)|
-|[messageId](#messageId)|Unique identifier of the email message. Used only for email that is received.|[applicationCommon/Email](../../Email.md)|
-|[deliveryAttempts](#deliveryAttempts)|Shows the count of the number of attempts made to send the email. The count is used as an indicator of email routing issues.|[applicationCommon/Email](../../Email.md)|
-|[compressed](#compressed)|Indicates if the body is compressed.|[applicationCommon/Email](../../Email.md)|
-|[notifications](#notifications)|Select the notification code to identify issues with the email recipients or attachments, such as blocked attachments.|[applicationCommon/Email](../../Email.md)|
-|[notifications_display](#notifications_display)||[applicationCommon/Email](../../Email.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Email](../../Email.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Email](../../Email.md)|
-|[emailSenderObjectTypeCode](#emailSenderObjectTypeCode)|The name of the entity linked by emailSender|[applicationCommon/Email](../../Email.md)|
-|[emailSender](#emailSender)|Shows the sender of the email.|[applicationCommon/Email](../../Email.md)|
-|[sendersAccountObjectTypeCode](#sendersAccountObjectTypeCode)|The name of the entity linked by sendersAccount|[applicationCommon/Email](../../Email.md)|
-|[sendersAccount](#sendersAccount)|Shows the parent account of the sender of the email.|[applicationCommon/Email](../../Email.md)|
-|[attachmentCount](#attachmentCount)|Shows the umber of attachments of the email message.|[applicationCommon/Email](../../Email.md)|
-|[parentActivityId](#parentActivityId)|Select the activity that the email is associated with.|[applicationCommon/Email](../../Email.md)|
-|[inReplyTo](#inReplyTo)|Type the ID of the email message that this email activity is a response to.|[applicationCommon/Email](../../Email.md)|
-|[baseConversationIndexHash](#baseConversationIndexHash)|Hash of base of conversation index.|[applicationCommon/Email](../../Email.md)|
-|[conversationIndex](#conversationIndex)|Identifier for all the email responses for this conversation.|[applicationCommon/Email](../../Email.md)|
-|[correlationMethod](#correlationMethod)|Shows how an email is matched to an existing email in Microsoft Dynamics 365. For system use only.|[applicationCommon/Email](../../Email.md)|
-|[correlationMethod_display](#correlationMethod_display)||[applicationCommon/Email](../../Email.md)|
-|[postponeEmailProcessingUntil](#postponeEmailProcessingUntil)|For internal use only.|[applicationCommon/Email](../../Email.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/Email](../../Email.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/Email](../../Email.md)|
-|[isUnsafe](#isUnsafe)|For internal use only.|[applicationCommon/Email](../../Email.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the email record.|[applicationCommon/Email](../../Email.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this email. This field is for internal use only.|[applicationCommon/Email](../../Email.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/Email](../../Email.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Email](../../Email.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/Email](../../Email.md)|
-|[attachmentOpenCount](#attachmentOpenCount)|Shows the number of times an email attachment has been viewed.|[applicationCommon/Email](../../Email.md)|
-|[conversationTrackingId](#conversationTrackingId)|Conversation Tracking Id.|[applicationCommon/Email](../../Email.md)|
-|[delayedEmailSendTime](#delayedEmailSendTime)|Enter the expected date and time when email will be sent.|[applicationCommon/Email](../../Email.md)|
-|[lastOpenedTime](#lastOpenedTime)|Shows the latest date and time when email was opened.|[applicationCommon/Email](../../Email.md)|
-|[linksClickedCount](#linksClickedCount)|Shows the number of times a link in an email has been clicked.|[applicationCommon/Email](../../Email.md)|
-|[openCount](#openCount)|Shows the number of times an email has been opened.|[applicationCommon/Email](../../Email.md)|
-|[replyCount](#replyCount)|Shows the number of replies received for an email.|[applicationCommon/Email](../../Email.md)|
-|[emailTrackingId](#emailTrackingId)|Email Tracking Id.|[applicationCommon/Email](../../Email.md)|
-|[followEmailUserPreference](#followEmailUserPreference)|Select whether the email allows following recipient activities sent from Microsoft Dynamics 365.This is user preference state which can be overridden by system evaluated state.|[applicationCommon/Email](../../Email.md)|
-|[isEmailFollowed](#isEmailFollowed)|For internal use only. Shows whether this email is followed. This is evaluated state which overrides user selection of follow email.|[applicationCommon/Email](../../Email.md)|
-|[emailReminderExpiryTime](#emailReminderExpiryTime)|Shows the date and time when an email reminder expires.|[applicationCommon/Email](../../Email.md)|
-|[emailReminderType](#emailReminderType)|Shows the type of the email reminder.|[applicationCommon/Email](../../Email.md)|
-|[emailReminderType_display](#emailReminderType_display)||[applicationCommon/Email](../../Email.md)|
-|[emailReminderStatus](#emailReminderStatus)|Shows the status of the email reminder.|[applicationCommon/Email](../../Email.md)|
-|[emailReminderStatus_display](#emailReminderStatus_display)||[applicationCommon/Email](../../Email.md)|
-|[emailReminderText](#emailReminderText)|For internal use only.|[applicationCommon/Email](../../Email.md)|
-|[templateId](#templateId)|For internal use only. ID for template used in email.|[applicationCommon/Email](../../Email.md)|
-|[reminderActionCardId](#reminderActionCardId)|Reminder Action Card Id.|[applicationCommon/Email](../../Email.md)|
-|[isEmailReminderSet](#isEmailReminderSet)|For internal use only. Shows whether this email Reminder is Set.|[applicationCommon/Email](../../Email.md)|
-|[serviceId](#serviceId)|Unique identifier for the associated service.|[crmCommon/Email](Email.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[statusCode](#statusCode)|Select the email's status.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[submittedBy](#submittedBy)|Shows the Microsoft Office Outlook account for the user who submitted the email to Microsoft Dynamics 365.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[description](#description)|Type the greeting and message text of the email.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[mimeType](#mimeType)|MIME type of the email message data.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[readReceiptRequested](#readReceiptRequested)|Indicates that a read receipt is requested.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[trackingToken](#trackingToken)|Shows the tracking token assigned to the email to make sure responses are automatically tracked in Microsoft Dynamics 365.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[sender](#sender)|Sender of the email.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[toRecipients](#toRecipients)|Shows the email addresses corresponding to the recipients.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[deliveryReceiptRequested](#deliveryReceiptRequested)|Select whether the sender should receive confirmation that the email was delivered.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[stateCode](#stateCode)|Shows whether the email is open, completed, or canceled. Completed and canceled email is read-only and can't be edited.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[messageId](#messageId)|Unique identifier of the email message. Used only for email that is received.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[deliveryAttempts](#deliveryAttempts)|Shows the count of the number of attempts made to send the email. The count is used as an indicator of email routing issues.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[compressed](#compressed)|Indicates if the body is compressed.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[notifications](#notifications)|Select the notification code to identify issues with the email recipients or attachments, such as blocked attachments.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[notifications_display](#notifications_display)||<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[emailSenderObjectTypeCode](#emailSenderObjectTypeCode)|The name of the entity linked by emailSender|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[emailSender](#emailSender)|Shows the sender of the email.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[sendersAccountObjectTypeCode](#sendersAccountObjectTypeCode)|The name of the entity linked by sendersAccount|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[sendersAccount](#sendersAccount)|Shows the parent account of the sender of the email.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[attachmentCount](#attachmentCount)|Shows the umber of attachments of the email message.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[parentActivityId](#parentActivityId)|Select the activity that the email is associated with.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[inReplyTo](#inReplyTo)|Type the ID of the email message that this email activity is a response to.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[baseConversationIndexHash](#baseConversationIndexHash)|Hash of base of conversation index.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[conversationIndex](#conversationIndex)|Identifier for all the email responses for this conversation.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[correlationMethod](#correlationMethod)|Shows how an email is matched to an existing email in Microsoft Dynamics 365. For system use only.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[correlationMethod_display](#correlationMethod_display)||<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[postponeEmailProcessingUntil](#postponeEmailProcessingUntil)|For internal use only.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[isUnsafe](#isUnsafe)|For internal use only.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the email record.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this email. This field is for internal use only.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[attachmentOpenCount](#attachmentOpenCount)|Shows the number of times an email attachment has been viewed.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[conversationTrackingId](#conversationTrackingId)|Conversation Tracking Id.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[delayedEmailSendTime](#delayedEmailSendTime)|Enter the expected date and time when email will be sent.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[lastOpenedTime](#lastOpenedTime)|Shows the latest date and time when email was opened.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[linksClickedCount](#linksClickedCount)|Shows the number of times a link in an email has been clicked.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[openCount](#openCount)|Shows the number of times an email has been opened.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[replyCount](#replyCount)|Shows the number of replies received for an email.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[emailTrackingId](#emailTrackingId)|Email Tracking Id.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[followEmailUserPreference](#followEmailUserPreference)|Select whether the email allows following recipient activities sent from Microsoft Dynamics 365.This is user preference state which can be overridden by system evaluated state.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[isEmailFollowed](#isEmailFollowed)|For internal use only. Shows whether this email is followed. This is evaluated state which overrides user selection of follow email.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[emailReminderExpiryTime](#emailReminderExpiryTime)|Shows the date and time when an email reminder expires.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[emailReminderType](#emailReminderType)|Shows the type of the email reminder.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[emailReminderType_display](#emailReminderType_display)||<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[emailReminderStatus](#emailReminderStatus)|Shows the status of the email reminder.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[emailReminderStatus_display](#emailReminderStatus_display)||<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[emailReminderText](#emailReminderText)|For internal use only.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[templateId](#templateId)|For internal use only. ID for template used in email.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[reminderActionCardId](#reminderActionCardId)|Reminder Action Card Id.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[isEmailReminderSet](#isEmailReminderSet)|For internal use only. Shows whether this email Reminder is Set.|<a href="../../Email.md" target="_blank">applicationCommon/Email</a>|
+|[serviceId](#serviceId)|Unique identifier for the associated service.|<a href="Email.md" target="_blank">crmCommon/Email</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

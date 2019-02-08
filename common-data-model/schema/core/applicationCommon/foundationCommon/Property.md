@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Property
 
 Information about a product property.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Property.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,53 +46,54 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/Property  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[dynamicPropertyId](#dynamicPropertyId)|Shows the unique identifier of the property.|[foundationCommon/Property](Property.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/Property](Property.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[foundationCommon/Property](Property.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/Property](Property.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|[foundationCommon/Property](Property.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[foundationCommon/Property](Property.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[foundationCommon/Property](Property.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[foundationCommon/Property](Property.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/Property](Property.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/Property](Property.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/Property](Property.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/Property](Property.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/Property](Property.md)|
-|[name](#name)|Type the name of the property.|[foundationCommon/Property](Property.md)|
-|[description](#description)|Type a description for the property.|[foundationCommon/Property](Property.md)|
-|[dataType](#dataType)|Select the data type of the property.|[foundationCommon/Property](Property.md)|
-|[dataType_display](#dataType_display)||[foundationCommon/Property](Property.md)|
-|[defaultValueInteger](#defaultValueInteger)|Shows the default value of the property for a whole number data type.|[foundationCommon/Property](Property.md)|
-|[defaultValueString](#defaultValueString)|Shows the default value of the property for a string data type.|[foundationCommon/Property](Property.md)|
-|[defaultValueDecimal](#defaultValueDecimal)|Shows the default value of the property for a decimal data type.|[foundationCommon/Property](Property.md)|
-|[baseDynamicPropertyId](#baseDynamicPropertyId)|Shows the property in the product family that this property is being inherited from.|[foundationCommon/Property](Property.md)|
-|[overwrittenDynamicPropertyId](#overwrittenDynamicPropertyId)|Shows the related overwritten property.|[foundationCommon/Property](Property.md)|
-|[rootDynamicPropertyId](#rootDynamicPropertyId)|Shows the root property that this property is derived from.|[foundationCommon/Property](Property.md)|
-|[minValueDecimal](#minValueDecimal)|Shows the minimum allowed value of the property for a decimal data type.|[foundationCommon/Property](Property.md)|
-|[maxValueDecimal](#maxValueDecimal)|Shows the maximum allowed value of the property for a decimal data type.|[foundationCommon/Property](Property.md)|
-|[precision](#precision)|Shows the allowed precision of the property for a whole number data type.|[foundationCommon/Property](Property.md)|
-|[stateCode](#stateCode)|Shows the state of the property.|[foundationCommon/Property](Property.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/Property](Property.md)|
-|[statusCode](#statusCode)|Shows whether the property is active or inactive.|[foundationCommon/Property](Property.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/Property](Property.md)|
-|[regardingObjectId](#regardingObjectId)|Choose the product that the property is associated with.|[foundationCommon/Property](Property.md)|
-|[defaultValueDouble](#defaultValueDouble)|Shows the default value of the property for a double data type.|[foundationCommon/Property](Property.md)|
-|[minValueDouble](#minValueDouble)|Shows the minimum allowed value of the property for a double data type.|[foundationCommon/Property](Property.md)|
-|[maxValueDouble](#maxValueDouble)|Shows the maximum allowed value of the property for a double data type.|[foundationCommon/Property](Property.md)|
-|[minValueInteger](#minValueInteger)|Shows the minimum allowed value of the property for a whole number data type.|[foundationCommon/Property](Property.md)|
-|[maxValueInteger](#maxValueInteger)|Shows the maximum allowed value of the property for a whole number data type.|[foundationCommon/Property](Property.md)|
-|[isReadOnly](#isReadOnly)|Defines whether the attribute is read-only or if it can be edited.|[foundationCommon/Property](Property.md)|
-|[isHidden](#isHidden)|Defines whether the attribute is hidden or shown.|[foundationCommon/Property](Property.md)|
-|[isRequired](#isRequired)|Defines whether the attribute is mandatory.|[foundationCommon/Property](Property.md)|
-|[maxLengthString](#maxLengthString)|Shows the maximum allowed length of the property for a string data type.|[foundationCommon/Property](Property.md)|
-|[defaultValueOptionSet](#defaultValueOptionSet)|Shows the default value of the property.|[foundationCommon/Property](Property.md)|
+|[dynamicPropertyId](#dynamicPropertyId)|Shows the unique identifier of the property.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[name](#name)|Type the name of the property.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[description](#description)|Type a description for the property.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[dataType](#dataType)|Select the data type of the property.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[dataType_display](#dataType_display)||<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[defaultValueInteger](#defaultValueInteger)|Shows the default value of the property for a whole number data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[defaultValueString](#defaultValueString)|Shows the default value of the property for a string data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[defaultValueDecimal](#defaultValueDecimal)|Shows the default value of the property for a decimal data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[baseDynamicPropertyId](#baseDynamicPropertyId)|Shows the property in the product family that this property is being inherited from.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[overwrittenDynamicPropertyId](#overwrittenDynamicPropertyId)|Shows the related overwritten property.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[rootDynamicPropertyId](#rootDynamicPropertyId)|Shows the root property that this property is derived from.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[minValueDecimal](#minValueDecimal)|Shows the minimum allowed value of the property for a decimal data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[maxValueDecimal](#maxValueDecimal)|Shows the maximum allowed value of the property for a decimal data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[precision](#precision)|Shows the allowed precision of the property for a whole number data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[stateCode](#stateCode)|Shows the state of the property.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[stateCode_display](#stateCode_display)||<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[statusCode](#statusCode)|Shows whether the property is active or inactive.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[statusCode_display](#statusCode_display)||<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[regardingObjectId](#regardingObjectId)|Choose the product that the property is associated with.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[defaultValueDouble](#defaultValueDouble)|Shows the default value of the property for a double data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[minValueDouble](#minValueDouble)|Shows the minimum allowed value of the property for a double data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[maxValueDouble](#maxValueDouble)|Shows the maximum allowed value of the property for a double data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[minValueInteger](#minValueInteger)|Shows the minimum allowed value of the property for a whole number data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[maxValueInteger](#maxValueInteger)|Shows the maximum allowed value of the property for a whole number data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[isReadOnly](#isReadOnly)|Defines whether the attribute is read-only or if it can be edited.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[isHidden](#isHidden)|Defines whether the attribute is hidden or shown.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[isRequired](#isRequired)|Defines whether the attribute is mandatory.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[maxLengthString](#maxLengthString)|Shows the maximum allowed length of the property for a string data type.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
+|[defaultValueOptionSet](#defaultValueOptionSet)|Shows the default value of the property.|<a href="Property.md" target="_blank">foundationCommon/Property</a>|
 
 ### <a href=#dynamicPropertyId name="dynamicPropertyId">dynamicPropertyId</a>
 

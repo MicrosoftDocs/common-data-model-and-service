@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Territory
 
 Territory represents sales regions.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Territory.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,31 +43,32 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Territory  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[territoryId](#territoryId)|Unique identifier of the territory.|[applicationCommon/Territory](Territory.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Territory](Territory.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the territory.|[applicationCommon/Territory](Territory.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Territory](Territory.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the territory.|[applicationCommon/Territory](Territory.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the territory.|[applicationCommon/Territory](Territory.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the territory.|[applicationCommon/Territory](Territory.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[applicationCommon/Territory](Territory.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Territory](Territory.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[applicationCommon/Territory](Territory.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Territory](Territory.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Territory](Territory.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Territory](Territory.md)|
-|[name](#name)|Name of the territory.|[applicationCommon/Territory](Territory.md)|
-|[description](#description)|Description of the territory.|[applicationCommon/Territory](Territory.md)|
-|[managerId](#managerId)|Unique identifier of the manager of the territory.|[applicationCommon/Territory](Territory.md)|
-|[entityImageId](#entityImageId)||[applicationCommon/Territory](Territory.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the territory with respect to the base currency.|[applicationCommon/Territory](Territory.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the territory.|[applicationCommon/Territory](Territory.md)|
+|[territoryId](#territoryId)|Unique identifier of the territory.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the territory.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the territory.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the territory.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the territory.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[name](#name)|Name of the territory.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[description](#description)|Description of the territory.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[managerId](#managerId)|Unique identifier of the manager of the territory.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[entityImageId](#entityImageId)||<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the territory with respect to the base currency.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the territory.|<a href="Territory.md" target="_blank">applicationCommon/Territory</a>|
 
 ### <a href=#territoryId name="territoryId">territoryId</a>
 

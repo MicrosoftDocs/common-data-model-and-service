@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Session Registration
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SessionRegistration.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,47 +42,48 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/SessionRegistration  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[sessionRegistrationId](#sessionRegistrationId)|Unique identifier for entity instances|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[stateCode](#stateCode)|Status of the Session Registration|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[statusCode](#statusCode)|Reason for the status of the Session Registration|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[contactId](#contactId)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[event](#event)|Active Events records|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[isCanceled](#isCanceled)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[publishingState](#publishingState)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[publishingState_display](#publishingState_display)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[registrationId](#registrationId)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[registrationNotificationSeen](#registrationNotificationSeen)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[registrationStatus](#registrationStatus)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[sessionId](#sessionId)|Unique identifier for Session associated with Session Registration.|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[syncedWithProvider](#syncedWithProvider)|A flag that indicates that the registration was synced with provider|[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[syncedWithProvider_display](#syncedWithProvider_display)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[timesCheckedIn](#timesCheckedIn)||[eventManagement/SessionRegistration](SessionRegistration.md)|
-|[webinarRegistrationID](#webinarRegistrationID)|Webinar ID of the Session Registration.|[eventManagement/SessionRegistration](SessionRegistration.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[sessionRegistrationId](#sessionRegistrationId)|Unique identifier for entity instances|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[stateCode](#stateCode)|Status of the Session Registration|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[stateCode_display](#stateCode_display)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[statusCode](#statusCode)|Reason for the status of the Session Registration|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[statusCode_display](#statusCode_display)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[name](#name)|The name of the custom entity.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[contactId](#contactId)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[event](#event)|Active Events records|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[isCanceled](#isCanceled)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[publishingState](#publishingState)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[publishingState_display](#publishingState_display)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[registrationId](#registrationId)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[registrationNotificationSeen](#registrationNotificationSeen)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[registrationStatus](#registrationStatus)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[sessionId](#sessionId)|Unique identifier for Session associated with Session Registration.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[syncedWithProvider](#syncedWithProvider)|A flag that indicates that the registration was synced with provider|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[syncedWithProvider_display](#syncedWithProvider_display)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[timesCheckedIn](#timesCheckedIn)||<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
+|[webinarRegistrationID](#webinarRegistrationID)|Webinar ID of the Session Registration.|<a href="SessionRegistration.md" target="_blank">eventManagement/SessionRegistration</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

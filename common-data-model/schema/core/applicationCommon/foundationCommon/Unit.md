@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Unit
 
 Unit of measure.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Unit.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,32 +43,33 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/Unit  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[uoMId](#uoMId)|Unique identifier of the unit.|[foundationCommon/Unit](Unit.md)|
-|[createdOn](#createdOn)|Date and time when the unit was created.|[foundationCommon/Unit](Unit.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the unit.|[foundationCommon/Unit](Unit.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the unit was last modified.|[foundationCommon/Unit](Unit.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the unit.|[foundationCommon/Unit](Unit.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the uom.|[foundationCommon/Unit](Unit.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the uom.|[foundationCommon/Unit](Unit.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/Unit](Unit.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/Unit](Unit.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/Unit](Unit.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/Unit](Unit.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/Unit](Unit.md)|
-|[name](#name)|Type a descriptive title or name for the unit of measure.|[foundationCommon/Unit](Unit.md)|
-|[baseUoM](#baseUoM)|Choose the base or primary unit on which the unit is based.|[foundationCommon/Unit](Unit.md)|
-|[isScheduleBaseUoM](#isScheduleBaseUoM)|Tells whether the unit is the base unit for the associated unit group.|[foundationCommon/Unit](Unit.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the unit of measure.|[foundationCommon/Unit](Unit.md)|
-|[quantity](#quantity)|Unit quantity for the product.|[foundationCommon/Unit](Unit.md)|
-|[uoMScheduleId](#uoMScheduleId)|Choose the ID of the unit group that the unit is associated with.|[foundationCommon/Unit](Unit.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[foundationCommon/Unit](Unit.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[foundationCommon/Unit](Unit.md)|
+|[uoMId](#uoMId)|Unique identifier of the unit.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[createdOn](#createdOn)|Date and time when the unit was created.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the unit.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the unit was last modified.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the unit.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the uom.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the uom.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[name](#name)|Type a descriptive title or name for the unit of measure.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[baseUoM](#baseUoM)|Choose the base or primary unit on which the unit is based.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[isScheduleBaseUoM](#isScheduleBaseUoM)|Tells whether the unit is the base unit for the associated unit group.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the unit of measure.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[quantity](#quantity)|Unit quantity for the product.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[uoMScheduleId](#uoMScheduleId)|Choose the ID of the unit group that the unit is associated with.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="Unit.md" target="_blank">foundationCommon/Unit</a>|
 
 ### <a href=#uoMId name="uoMId">uoMId</a>
 

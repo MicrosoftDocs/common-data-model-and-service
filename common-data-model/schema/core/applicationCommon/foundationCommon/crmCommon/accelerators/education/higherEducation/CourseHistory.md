@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Course History
 
 The course history for a student.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/CourseHistory.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,48 +46,49 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/CourseHistory  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/CourseHistory](CourseHistory.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/CourseHistory](CourseHistory.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/CourseHistory](CourseHistory.md)|
-|[courseHistoryId](#courseHistoryId)|Unique identifier for entity instances|[higherEducation/CourseHistory](CourseHistory.md)|
-|[stateCode](#stateCode)|Status of the Course History|[higherEducation/CourseHistory](CourseHistory.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/CourseHistory](CourseHistory.md)|
-|[statusCode](#statusCode)|Reason for the status of the Course History|[higherEducation/CourseHistory](CourseHistory.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/CourseHistory](CourseHistory.md)|
-|[name](#name)|Course History Entity|[higherEducation/CourseHistory](CourseHistory.md)|
-|[academicPeriodDetailsId](#academicPeriodDetailsId)|The academic period details record for the student|[higherEducation/CourseHistory](CourseHistory.md)|
-|[continuingEducation](#continuingEducation)|Continuing Education|[higherEducation/CourseHistory](CourseHistory.md)|
-|[continuingEducation_display](#continuingEducation_display)||[higherEducation/CourseHistory](CourseHistory.md)|
-|[courseId](#courseId)|The course record for the student.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[courseSectionId](#courseSectionId)|Unique identifier for Course Section associated with Course History.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[creditsAttempted](#creditsAttempted)|The credits attempted received.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[creditsEarrned](#creditsEarrned)|The credits earned received.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[gradePoints](#gradePoints)|The grade points received.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[lastDateofAttendance](#lastDateofAttendance)|The last date of attendance received.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[letterGrade](#letterGrade)|The letter grade received for the course.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[midTermLetterGrade](#midTermLetterGrade)|The mid term letter grade received.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[midTermNumericGrade](#midTermNumericGrade)|The mid term numeric grade received.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[registrationStatusId](#registrationStatusId)|The registration status received.|[higherEducation/CourseHistory](CourseHistory.md)|
-|[studentId](#studentId)|Lookup to student (Contact)|[higherEducation/CourseHistory](CourseHistory.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[courseHistoryId](#courseHistoryId)|Unique identifier for entity instances|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[stateCode](#stateCode)|Status of the Course History|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[stateCode_display](#stateCode_display)||<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[statusCode](#statusCode)|Reason for the status of the Course History|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[statusCode_display](#statusCode_display)||<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[name](#name)|Course History Entity|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[academicPeriodDetailsId](#academicPeriodDetailsId)|The academic period details record for the student|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[continuingEducation](#continuingEducation)|Continuing Education|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[continuingEducation_display](#continuingEducation_display)||<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[courseId](#courseId)|The course record for the student.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[courseSectionId](#courseSectionId)|Unique identifier for Course Section associated with Course History.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[creditsAttempted](#creditsAttempted)|The credits attempted received.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[creditsEarrned](#creditsEarrned)|The credits earned received.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[gradePoints](#gradePoints)|The grade points received.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[lastDateofAttendance](#lastDateofAttendance)|The last date of attendance received.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[letterGrade](#letterGrade)|The letter grade received for the course.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[midTermLetterGrade](#midTermLetterGrade)|The mid term letter grade received.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[midTermNumericGrade](#midTermNumericGrade)|The mid term numeric grade received.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[registrationStatusId](#registrationStatusId)|The registration status received.|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
+|[studentId](#studentId)|Lookup to student (Contact)|<a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

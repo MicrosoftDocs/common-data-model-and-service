@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Fax
 
 Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Fax.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
 crmCommon/Fax  
 
@@ -53,64 +54,64 @@ crmCommon/Fax
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Fax](../../Fax.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Fax](../../Fax.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Fax](../../Fax.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Fax](../../Fax.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Fax](../../Fax.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Fax](../../Fax.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Fax](../../Fax.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Fax](../../Fax.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Fax](../../Fax.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Fax](../../Fax.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/Fax](../../Fax.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/Fax](../../Fax.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/Fax](../../Fax.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Fax](../../Fax.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Fax](../../Fax.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Fax](../../Fax.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/Fax](../../Fax.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/Fax](../../Fax.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/Fax](../../Fax.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/Fax](../../Fax.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/Fax](../../Fax.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/Fax](../../Fax.md)|
-|[priorityCode_display](#priorityCode_display)||[applicationCommon/Fax](../../Fax.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/Fax](../../Fax.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/Fax](../../Fax.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/Fax](../../Fax.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/Fax](../../Fax.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/Fax](../../Fax.md)|
-|[subject](#subject)|Subject associated with the activity.|[applicationCommon/Fax](../../Fax.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[applicationCommon/Fax](../../Fax.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[applicationCommon/Fax](../../Fax.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[applicationCommon/Fax](../../Fax.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[applicationCommon/Fax](../../Fax.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[applicationCommon/Fax](../../Fax.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[applicationCommon/Fax](../../Fax.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[applicationCommon/Fax](../../Fax.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[applicationCommon/Fax](../../Fax.md)|
-|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|[applicationCommon/Fax](../../Fax.md)|
-|[coverPageName](#coverPageName)|Type the name of the cover page to use when sending the fax.|[applicationCommon/Fax](../../Fax.md)|
-|[billingCode](#billingCode)|Type the billing code for the fax to make sure the fax is charged to the correct sender or customer account.|[applicationCommon/Fax](../../Fax.md)|
-|[stateCode](#stateCode)|Shows whether the fax activity is open, completed, or canceled. Completed and canceled fax activities are read-only and can't be edited.|[applicationCommon/Fax](../../Fax.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Fax](../../Fax.md)|
-|[numberOfPages](#numberOfPages)|Type the number of pages included in the fax.|[applicationCommon/Fax](../../Fax.md)|
-|[description](#description)|Type additional information to describe the fax, such as the primary message or the products and services featured.|[applicationCommon/Fax](../../Fax.md)|
-|[faxNumber](#faxNumber)|Type the recipient's fax number.|[applicationCommon/Fax](../../Fax.md)|
-|[tsid](#tsid)|Type the Transmitting Subscriber ID (TSID) associated with a send action. This is typically a combination of the recipient's fax or phone number and company name.|[applicationCommon/Fax](../../Fax.md)|
-|[statusCode](#statusCode)|Select the fax's status.|[applicationCommon/Fax](../../Fax.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Fax](../../Fax.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Fax](../../Fax.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Fax](../../Fax.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/Fax](../../Fax.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/Fax](../../Fax.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/Fax](../../Fax.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the fax record.|[applicationCommon/Fax](../../Fax.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this fax. This field is for internal use only.|[applicationCommon/Fax](../../Fax.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/Fax](../../Fax.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Fax](../../Fax.md)|
-|[serviceId](#serviceId)|Unique identifier for an associated service.|[crmCommon/Fax](Fax.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[coverPageName](#coverPageName)|Type the name of the cover page to use when sending the fax.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[billingCode](#billingCode)|Type the billing code for the fax to make sure the fax is charged to the correct sender or customer account.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[stateCode](#stateCode)|Shows whether the fax activity is open, completed, or canceled. Completed and canceled fax activities are read-only and can't be edited.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[numberOfPages](#numberOfPages)|Type the number of pages included in the fax.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[description](#description)|Type additional information to describe the fax, such as the primary message or the products and services featured.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[faxNumber](#faxNumber)|Type the recipient's fax number.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[tsid](#tsid)|Type the Transmitting Subscriber ID (TSID) associated with a send action. This is typically a combination of the recipient's fax or phone number and company name.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[statusCode](#statusCode)|Select the fax's status.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the fax record.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this fax. This field is for internal use only.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="../../Fax.md" target="_blank">applicationCommon/Fax</a>|
+|[serviceId](#serviceId)|Unique identifier for an associated service.|<a href="Fax.md" target="_blank">crmCommon/Fax</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

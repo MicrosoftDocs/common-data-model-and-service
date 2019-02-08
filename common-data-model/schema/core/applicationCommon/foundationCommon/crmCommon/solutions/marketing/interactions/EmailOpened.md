@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email opened
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailOpened.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,38 +33,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailOpened  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailOpened](EmailOpened.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailOpened](EmailOpened.md)|
-|[accountId](#accountId)|Account|[interactions/EmailOpened](EmailOpened.md)|
-|[messageId](#messageId)|Message|[interactions/EmailOpened](EmailOpened.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailOpened](EmailOpened.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailOpened](EmailOpened.md)|
-|[emailDomain](#emailDomain)|Email domain|[interactions/EmailOpened](EmailOpened.md)|
-|[emailAddressUsed](#emailAddressUsed)|Email address used|[interactions/EmailOpened](EmailOpened.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailOpened](EmailOpened.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailOpened](EmailOpened.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailOpened](EmailOpened.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailOpened](EmailOpened.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailOpened](EmailOpened.md)|
-|[visitorId](#visitorId)|Visitor ID|[interactions/EmailOpened](EmailOpened.md)|
-|[sessionId](#sessionId)|Session ID|[interactions/EmailOpened](EmailOpened.md)|
-|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/EmailOpened](EmailOpened.md)|
-|[state](#state)|State|[interactions/EmailOpened](EmailOpened.md)|
-|[city](#city)|City|[interactions/EmailOpened](EmailOpened.md)|
-|[postalCode](#postalCode)|Postal code|[interactions/EmailOpened](EmailOpened.md)|
-|[browserId](#browserId)|Browser ID|[interactions/EmailOpened](EmailOpened.md)|
-|[browserVersion](#browserVersion)|Browser version|[interactions/EmailOpened](EmailOpened.md)|
-|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/EmailOpened](EmailOpened.md)|
-|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/EmailOpened](EmailOpened.md)|
-|[activityId](#activityId)|Activity ID|[interactions/EmailOpened](EmailOpened.md)|
-|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/EmailOpened](EmailOpened.md)|
-|[leadId](#leadId)|Lead ID|[interactions/EmailOpened](EmailOpened.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[contactId](#contactId)|Contact|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[accountId](#accountId)|Account|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[messageId](#messageId)|Message|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[emailDomain](#emailDomain)|Email domain|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[emailAddressUsed](#emailAddressUsed)|Email address used|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[visitorId](#visitorId)|Visitor ID|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[sessionId](#sessionId)|Session ID|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[state](#state)|State|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[city](#city)|City|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[postalCode](#postalCode)|Postal code|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[browserId](#browserId)|Browser ID|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[browserVersion](#browserVersion)|Browser version|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[activityId](#activityId)|Activity ID|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
+|[leadId](#leadId)|Lead ID|<a href="EmailOpened.md" target="_blank">interactions/EmailOpened</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

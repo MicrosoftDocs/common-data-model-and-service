@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Main Account Category
 
 Provides categorization of main accounts  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccountCategory.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -40,18 +40,19 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 financialCommon/MainAccountCategory  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[mainAccountCategoryId](#mainAccountCategoryId)|The surrogate key of the main account category record|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[name](#name)|The display name of the main account category|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[description](#description)|The description of the main account category|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[isClosed](#isClosed)|Determines whether accounts of this category are closed for new transactions|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[accountType](#accountType)|The common account type for accounts in this category, such as revenue or liability|[financialCommon/MainAccountCategory](MainAccountCategory.md)|
-|[accountType_display](#accountType_display)||[financialCommon/MainAccountCategory](MainAccountCategory.md)|
+|[mainAccountCategoryId](#mainAccountCategoryId)|The surrogate key of the main account category record|<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|
+|[name](#name)|The display name of the main account category|<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|
+|[description](#description)|The description of the main account category|<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|
+|[isClosed](#isClosed)|Determines whether accounts of this category are closed for new transactions|<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|
+|[accountType](#accountType)|The common account type for accounts in this category, such as revenue or liability|<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|
+|[accountType_display](#accountType_display)||<a href="MainAccountCategory.md" target="_blank">financialCommon/MainAccountCategory</a>|
 
 ### <a href=#mainAccountCategoryId name="mainAccountCategoryId">mainAccountCategoryId</a>
 

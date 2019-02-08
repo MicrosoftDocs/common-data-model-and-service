@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Trigger activity contact processed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/TriggerActivityContactProcessed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,23 +33,24 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/TriggerActivityContactProcessed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[contactId](#contactId)|Contact|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[accountId](#accountId)|Account|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[activityId](#activityId)|Activity ID|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
-|[path](#path)|Path|[interactions/TriggerActivityContactProcessed](TriggerActivityContactProcessed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[contactId](#contactId)|Contact|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[accountId](#accountId)|Account|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[activityId](#activityId)|Activity ID|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
+|[path](#path)|Path|<a href="TriggerActivityContactProcessed.md" target="_blank">interactions/TriggerActivityContactProcessed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

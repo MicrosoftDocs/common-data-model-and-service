@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Result
 
 A Result is a container that represents the changes in the context in which an organization operates Delivery Frameworks (i.e. Programs, Projects).  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Result.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,41 +46,42 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Result  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Result](Result.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Result](Result.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Result](Result.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Result](Result.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Result](Result.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Result](Result.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Result](Result.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Result](Result.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Result](Result.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Result](Result.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Result](Result.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Result](Result.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Result](Result.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Result](Result.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Result](Result.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Result](Result.md)|
-|[resultId](#resultId)|Unique identifier for entity instances|[nonProfit/Result](Result.md)|
-|[stateCode](#stateCode)|Status of the Result|[nonProfit/Result](Result.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Result](Result.md)|
-|[statusCode](#statusCode)|Reason for the status of the Result|[nonProfit/Result](Result.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Result](Result.md)|
-|[name](#name)|The name of the custom entity.|[nonProfit/Result](Result.md)|
-|[aggregationStatus](#aggregationStatus)|Indicates whether the data in the result set are suitable for aggregation|[nonProfit/Result](Result.md)|
-|[deliveryFramework](#deliveryFramework)||[nonProfit/Result](Result.md)|
-|[description](#description)|Description|[nonProfit/Result](Result.md)|
-|[endDate](#endDate)|End Date of the result|[nonProfit/Result](Result.md)|
-|[resultType](#resultType)|An IATI code for the type of result being reported.|[nonProfit/Result](Result.md)|
-|[resultType_display](#resultType_display)||[nonProfit/Result](Result.md)|
-|[startDate](#startDate)|Start Date of the result|[nonProfit/Result](Result.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[resultId](#resultId)|Unique identifier for entity instances|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[stateCode](#stateCode)|Status of the Result|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[stateCode_display](#stateCode_display)||<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[statusCode](#statusCode)|Reason for the status of the Result|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[statusCode_display](#statusCode_display)||<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[name](#name)|The name of the custom entity.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[aggregationStatus](#aggregationStatus)|Indicates whether the data in the result set are suitable for aggregation|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[deliveryFramework](#deliveryFramework)||<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[description](#description)|Description|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[endDate](#endDate)|End Date of the result|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[resultType](#resultType)|An IATI code for the type of result being reported.|<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[resultType_display](#resultType_display)||<a href="Result.md" target="_blank">nonProfit/Result</a>|
+|[startDate](#startDate)|Start Date of the result|<a href="Result.md" target="_blank">nonProfit/Result</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

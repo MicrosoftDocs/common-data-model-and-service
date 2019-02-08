@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Main Account
 
 An account whose balance is displayed in major financial statements  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccount.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -40,17 +40,18 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 financialCommon/MainAccount  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[mainAccountId](#mainAccountId)|The surrogate key of the main account record|[financialCommon/MainAccount](MainAccount.md)|
-|[name](#name)|The user-readable name of the main account|[financialCommon/MainAccount](MainAccount.md)|
-|[number](#number)|The numerical designation of the account according to the chart of accounts, usually designed such that accounts of the same type have similar numbers|[financialCommon/MainAccount](MainAccount.md)|
-|[mainAccountCategoryKey](#mainAccountCategoryKey)|The categorization of the main account, by which accounting aspects such as account type are defined|[financialCommon/MainAccount](MainAccount.md)|
-|[currencyKey](#currencyKey)|The currency in which amounts held by this account are expressed|[financialCommon/MainAccount](MainAccount.md)|
+|[mainAccountId](#mainAccountId)|The surrogate key of the main account record|<a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>|
+|[name](#name)|The user-readable name of the main account|<a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>|
+|[number](#number)|The numerical designation of the account according to the chart of accounts, usually designed such that accounts of the same type have similar numbers|<a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>|
+|[mainAccountCategoryKey](#mainAccountCategoryKey)|The categorization of the main account, by which accounting aspects such as account type are defined|<a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>|
+|[currencyKey](#currencyKey)|The currency in which amounts held by this account are expressed|<a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>|
 
 ### <a href=#mainAccountId name="mainAccountId">mainAccountId</a>
 

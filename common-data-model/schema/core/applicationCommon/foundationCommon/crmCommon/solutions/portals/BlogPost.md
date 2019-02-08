@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Blog Post
 
 A post belonging to a portal blog.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/BlogPost.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,49 +46,50 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/BlogPost  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/BlogPost](BlogPost.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/BlogPost](BlogPost.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/BlogPost](BlogPost.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/BlogPost](BlogPost.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/BlogPost](BlogPost.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/BlogPost](BlogPost.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/BlogPost](BlogPost.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/BlogPost](BlogPost.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/BlogPost](BlogPost.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/BlogPost](BlogPost.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/BlogPost](BlogPost.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/BlogPost](BlogPost.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/BlogPost](BlogPost.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/BlogPost](BlogPost.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/BlogPost](BlogPost.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/BlogPost](BlogPost.md)|
-|[blogPostId](#blogPostId)|Shows the entity instances.|[portals/BlogPost](BlogPost.md)|
-|[stateCode](#stateCode)|Shows whether the blog post is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|[portals/BlogPost](BlogPost.md)|
-|[stateCode_display](#stateCode_display)||[portals/BlogPost](BlogPost.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[blogPostId](#blogPostId)|Shows the entity instances.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[stateCode](#stateCode)|Shows whether the blog post is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[stateCode_display](#stateCode_display)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
 |[statusCode](#statusCode)|Select the blog post's status.
-|[portals/BlogPost](BlogPost.md)|
-|[statusCode_display](#statusCode_display)||[portals/BlogPost](BlogPost.md)|
-|[name](#name)|Shows the name or title of the blog post.|[portals/BlogPost](BlogPost.md)|
-|[authorId](#authorId)|Shows the author of the blog post.|[portals/BlogPost](BlogPost.md)|
-|[blogId](#blogId)|The Blog to which the Blog Post belongs.|[portals/BlogPost](BlogPost.md)|
-|[commentPolicy](#commentPolicy)|Specifies the comment policy to be used by this Blog Post.|[portals/BlogPost](BlogPost.md)|
-|[commentPolicy_display](#commentPolicy_display)||[portals/BlogPost](BlogPost.md)|
-|[copy](#copy)|Shows the content of the blog post.|[portals/BlogPost](BlogPost.md)|
-|[adxCreatedByIPAddress](#adxCreatedByIPAddress)||[portals/BlogPost](BlogPost.md)|
-|[adxCreatedByUsername](#adxCreatedByUsername)||[portals/BlogPost](BlogPost.md)|
-|[date](#date)|Shows the published date of the blog post, to be displayed to users.|[portals/BlogPost](BlogPost.md)|
-|[enableRatings](#enableRatings)||[portals/BlogPost](BlogPost.md)|
-|[adxModifiedByIPAddress](#adxModifiedByIPAddress)||[portals/BlogPost](BlogPost.md)|
-|[adxModifiedByUsername](#adxModifiedByUsername)||[portals/BlogPost](BlogPost.md)|
-|[partialURL](#partialURL)|Shows the URL path fragment to be used to build a URL for this blog post.|[portals/BlogPost](BlogPost.md)|
-|[published](#published)|Specifies whether the Blog Post is published, or a draft.|[portals/BlogPost](BlogPost.md)|
-|[summary](#summary)|A descriptive summary of the Blog Post.|[portals/BlogPost](BlogPost.md)|
+|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[statusCode_display](#statusCode_display)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[name](#name)|Shows the name or title of the blog post.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[authorId](#authorId)|Shows the author of the blog post.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[blogId](#blogId)|The Blog to which the Blog Post belongs.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[commentPolicy](#commentPolicy)|Specifies the comment policy to be used by this Blog Post.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[commentPolicy_display](#commentPolicy_display)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[copy](#copy)|Shows the content of the blog post.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[adxCreatedByIPAddress](#adxCreatedByIPAddress)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[adxCreatedByUsername](#adxCreatedByUsername)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[date](#date)|Shows the published date of the blog post, to be displayed to users.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[enableRatings](#enableRatings)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[adxModifiedByIPAddress](#adxModifiedByIPAddress)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[adxModifiedByUsername](#adxModifiedByUsername)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[partialURL](#partialURL)|Shows the URL path fragment to be used to build a URL for this blog post.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[published](#published)|Specifies whether the Blog Post is published, or a draft.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[summary](#summary)|A descriptive summary of the Blog Post.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

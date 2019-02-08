@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Resource Specification
 
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,35 +43,36 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/ResourceSpecification  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[resourceSpecId](#resourceSpecId)|Unique identifier of the resource specification.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[createdOn](#createdOn)|Date and time when the resource specification was created.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the resource specification.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the resource specification was last modified.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the resource specification.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the resourcespec.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the resourcespec.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[businessUnitId](#businessUnitId)|Unique identifier of the business unit with which the resource specification is associated.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/ResourceSpecification](ResourceSpecification.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[name](#name)|Name of the resource specification.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[constraints](#constraints)|Additional constraints, specified as expressions, which are used to filter a set of valid resources.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[description](#description)|Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[effortRequired](#effortRequired)|Number that specifies the minimal effort required from resources.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[groupObjectId](#groupObjectId)|Unique identifier of the scheduling group with which the resource specification is associated.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[objectiveExpression](#objectiveExpression)|Search strategy to use for the resource specification.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[objectTypeCode](#objectTypeCode)|Type of entity with which the resource specification is associated.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization with which the resource specification is associated.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[requiredCount](#requiredCount)|Required number of resources that must be available. Use -1 to indicate all resources.|[service/ResourceSpecification](ResourceSpecification.md)|
-|[sameSite](#sameSite)|Value that specifies that all valid and available resources must be in the same site.|[service/ResourceSpecification](ResourceSpecification.md)|
+|[resourceSpecId](#resourceSpecId)|Unique identifier of the resource specification.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[createdOn](#createdOn)|Date and time when the resource specification was created.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the resource specification.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the resource specification was last modified.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the resource specification.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the resourcespec.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the resourcespec.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[businessUnitId](#businessUnitId)|Unique identifier of the business unit with which the resource specification is associated.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[name](#name)|Name of the resource specification.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[constraints](#constraints)|Additional constraints, specified as expressions, which are used to filter a set of valid resources.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[description](#description)|Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[effortRequired](#effortRequired)|Number that specifies the minimal effort required from resources.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[groupObjectId](#groupObjectId)|Unique identifier of the scheduling group with which the resource specification is associated.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[objectiveExpression](#objectiveExpression)|Search strategy to use for the resource specification.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[objectTypeCode](#objectTypeCode)|Type of entity with which the resource specification is associated.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization with which the resource specification is associated.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[requiredCount](#requiredCount)|Required number of resources that must be available. Use -1 to indicate all resources.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
+|[sameSite](#sameSite)|Value that specifies that all valid and available resources must be in the same site.|<a href="ResourceSpecification.md" target="_blank">service/ResourceSpecification</a>|
 
 ### <a href=#resourceSpecId name="resourceSpecId">resourceSpecId</a>
 

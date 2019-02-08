@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Salutation
 
 The way a donor or prospect is commonly addressed via written communication (lhard-copy letters, emails, etc.).  It is typical for nonprofits and foundations to address major donors by different salutations depending on the scenario.  A Medical Doctor could be addressed as "Doctor" when the organization reaches out regarding in-country field volunteerism the person performs.  On the other hand, the same individual might be referred to as Mrs. Smith as part of her household being solicited for a major gift.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Salutation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,67 +46,68 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Salutation  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Salutation](Salutation.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Salutation](Salutation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Salutation](Salutation.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Salutation](Salutation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Salutation](Salutation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Salutation](Salutation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Salutation](Salutation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Salutation](Salutation.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Salutation](Salutation.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Salutation](Salutation.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Salutation](Salutation.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Salutation](Salutation.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Salutation](Salutation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Salutation](Salutation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Salutation](Salutation.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Salutation](Salutation.md)|
-|[salutationId](#salutationId)|Unique identifier for entity instances|[nonProfit/Salutation](Salutation.md)|
-|[stateCode](#stateCode)|Status of the Salutation|[nonProfit/Salutation](Salutation.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Salutation](Salutation.md)|
-|[statusCode](#statusCode)|Reason for the status of the Salutation|[nonProfit/Salutation](Salutation.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Salutation](Salutation.md)|
-|[name](#name)||[nonProfit/Salutation](Salutation.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[salutationId](#salutationId)|Unique identifier for entity instances|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[stateCode](#stateCode)|Status of the Salutation|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[stateCode_display](#stateCode_display)||<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[statusCode](#statusCode)|Reason for the status of the Salutation|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[statusCode_display](#statusCode_display)||<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[name](#name)||<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[addressLabelLine1](#addressLabelLine1)|The first line of the address label when printing an envelope
 >Mr John Smith
 Mrs Wilma Smith
 1234 Main Street
-Anytown, USA 11111|[nonProfit/Salutation](Salutation.md)|
+Anytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[addressLabelLine2](#addressLabelLine2)|This is the 2nd line of the envelope usually the 2nd person in the household if applicable
 Mr John Smith
 >Mrs Wilma Smith
 1234 Main Street
-Anytown, USA 11111|[nonProfit/Salutation](Salutation.md)|
+Anytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 |[addressLabelLine3](#addressLabelLine3)|This is the 3rd line of the address which could be an Organization name or a C/O
 Mr John Smith
 Mrs Wilma Smith c/o Anytown Company
 1234 Main Street
-Anytown, USA 11111|[nonProfit/Salutation](Salutation.md)|
-|[communicationMethod](#communicationMethod)|Indicates that this Salutation should be applied when the Customer is contacted via the indicated communication channel|[nonProfit/Salutation](Salutation.md)|
-|[communicationMethod_display](#communicationMethod_display)||[nonProfit/Salutation](Salutation.md)|
-|[constituentType](#constituentType)|Indicates that this Salutation should be applied when the Customer is contacted in their capacity as the indicated ConstituentType|[nonProfit/Salutation](Salutation.md)|
-|[constituentType_display](#constituentType_display)||[nonProfit/Salutation](Salutation.md)|
-|[firstName](#firstName)|First Name|[nonProfit/Salutation](Salutation.md)|
-|[fullName](#fullName)|Full Name|[nonProfit/Salutation](Salutation.md)|
-|[insideSalutation](#insideSalutation)|This is the information that appears after the word Dear on the letter sent to the donor.|[nonProfit/Salutation](Salutation.md)|
-|[isPreferred](#isPreferred)|Indicates that this Salutation may be applied by business logic when matches on other selection criteria (Comm. method, Account, Constituent Type) are not found.|[nonProfit/Salutation](Salutation.md)|
-|[lastName](#lastName)|Last Name|[nonProfit/Salutation](Salutation.md)|
-|[middleName](#middleName)|Middle Name|[nonProfit/Salutation](Salutation.md)|
-|[onBehalfOfAccount](#onBehalfOfAccount)|Indicates that this Salutation should be applied when the Customer is contacted in the capacity of their role on the indicated Account.|[nonProfit/Salutation](Salutation.md)|
-|[salutationCustomer](#salutationCustomer)||[nonProfit/Salutation](Salutation.md)|
-|[suffix](#suffix)|Suffix|[nonProfit/Salutation](Salutation.md)|
-|[suffix_display](#suffix_display)||[nonProfit/Salutation](Salutation.md)|
-|[title](#title)|Prefix|[nonProfit/Salutation](Salutation.md)|
-|[title_display](#title_display)||[nonProfit/Salutation](Salutation.md)|
-|[type](#type)|Indicates that this Salutation should be applied when the Customer is contacted for the indicated category of mailing or acknowledgement.|[nonProfit/Salutation](Salutation.md)|
-|[type_display](#type_display)||[nonProfit/Salutation](Salutation.md)|
+Anytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[communicationMethod](#communicationMethod)|Indicates that this Salutation should be applied when the Customer is contacted via the indicated communication channel|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[communicationMethod_display](#communicationMethod_display)||<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[constituentType](#constituentType)|Indicates that this Salutation should be applied when the Customer is contacted in their capacity as the indicated ConstituentType|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[constituentType_display](#constituentType_display)||<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[firstName](#firstName)|First Name|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[fullName](#fullName)|Full Name|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[insideSalutation](#insideSalutation)|This is the information that appears after the word Dear on the letter sent to the donor.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[isPreferred](#isPreferred)|Indicates that this Salutation may be applied by business logic when matches on other selection criteria (Comm. method, Account, Constituent Type) are not found.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[lastName](#lastName)|Last Name|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[middleName](#middleName)|Middle Name|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[onBehalfOfAccount](#onBehalfOfAccount)|Indicates that this Salutation should be applied when the Customer is contacted in the capacity of their role on the indicated Account.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[salutationCustomer](#salutationCustomer)||<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[suffix](#suffix)|Suffix|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[suffix_display](#suffix_display)||<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[title](#title)|Prefix|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[title_display](#title_display)||<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[type](#type)|Indicates that this Salutation should be applied when the Customer is contacted for the indicated category of mailing or acknowledgement.|<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
+|[type_display](#type_display)||<a href="Salutation.md" target="_blank">nonProfit/Salutation</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

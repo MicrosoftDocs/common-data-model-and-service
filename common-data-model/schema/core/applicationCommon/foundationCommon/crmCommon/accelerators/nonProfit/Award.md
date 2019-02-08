@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Award
 
 The total amount of funding that has been agreed to be awarded to an individual or institution and related data, including but not limited to the recipient, date of the award, and purpose of the award  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Award.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,44 +46,45 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Award  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Award](Award.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Award](Award.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Award](Award.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Award](Award.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Award](Award.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Award](Award.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Award](Award.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Award](Award.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Award](Award.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Award](Award.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Award](Award.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Award](Award.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Award](Award.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Award](Award.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Award](Award.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Award](Award.md)|
-|[awardId](#awardId)|Unique identifier for entity instances|[nonProfit/Award](Award.md)|
-|[stateCode](#stateCode)|Status of the Award|[nonProfit/Award](Award.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Award](Award.md)|
-|[statusCode](#statusCode)|Reason for the status of the Award|[nonProfit/Award](Award.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Award](Award.md)|
-|[name](#name)|The name of the custom entity.|[nonProfit/Award](Award.md)|
-|[docketId](#docketId)|Docket|[nonProfit/Award](Award.md)|
-|[fiscalSponsorId](#fiscalSponsorId)|Fiscal Sponsor|[nonProfit/Award](Award.md)|
-|[internalContactId](#internalContactId)|Internal Contact|[nonProfit/Award](Award.md)|
-|[noticeOfAwardChannel](#noticeOfAwardChannel)|Comm method by which customer is notified that Award is approved.|[nonProfit/Award](Award.md)|
-|[noticeOfAwardChannel_display](#noticeOfAwardChannel_display)||[nonProfit/Award](Award.md)|
-|[noticeofAwardDate](#noticeofAwardDate)|Date when customer is notified that Award is approved.|[nonProfit/Award](Award.md)|
-|[recipient](#recipient)||[nonProfit/Award](Award.md)|
-|[requestId](#requestId)|Request|[nonProfit/Award](Award.md)|
-|[type](#type)|Type of Award|[nonProfit/Award](Award.md)|
-|[type_display](#type_display)||[nonProfit/Award](Award.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[awardId](#awardId)|Unique identifier for entity instances|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[stateCode](#stateCode)|Status of the Award|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[stateCode_display](#stateCode_display)||<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[statusCode](#statusCode)|Reason for the status of the Award|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[statusCode_display](#statusCode_display)||<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[name](#name)|The name of the custom entity.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[docketId](#docketId)|Docket|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[fiscalSponsorId](#fiscalSponsorId)|Fiscal Sponsor|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[internalContactId](#internalContactId)|Internal Contact|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[noticeOfAwardChannel](#noticeOfAwardChannel)|Comm method by which customer is notified that Award is approved.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[noticeOfAwardChannel_display](#noticeOfAwardChannel_display)||<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[noticeofAwardDate](#noticeofAwardDate)|Date when customer is notified that Award is approved.|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[recipient](#recipient)||<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[requestId](#requestId)|Request|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[type](#type)|Type of Award|<a href="Award.md" target="_blank">nonProfit/Award</a>|
+|[type_display](#type_display)||<a href="Award.md" target="_blank">nonProfit/Award</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

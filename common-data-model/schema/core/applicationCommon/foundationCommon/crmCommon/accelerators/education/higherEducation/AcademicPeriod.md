@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Academic Period
 
 The periods of time in which courses are offered by the institution,  such as a term or semester.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,40 +46,41 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/AcademicPeriod  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[academicPeriodId](#academicPeriodId)|Unique identifier for entity instances|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[stateCode](#stateCode)|Status of the Academic Period|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[statusCode](#statusCode)|Reason for the status of the Academic Period|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[name](#name)|The name of the academic period.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[code](#code)|Abbreviated code for the academic period.|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[endDate](#endDate)||[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[externalIdentifier](#externalIdentifier)|External Identifier|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/AcademicPeriod](AcademicPeriod.md)|
-|[startDate](#startDate)||[higherEducation/AcademicPeriod](AcademicPeriod.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[academicPeriodId](#academicPeriodId)|Unique identifier for entity instances|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[stateCode](#stateCode)|Status of the Academic Period|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[stateCode_display](#stateCode_display)||<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[statusCode](#statusCode)|Reason for the status of the Academic Period|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[statusCode_display](#statusCode_display)||<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[name](#name)|The name of the academic period.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[code](#code)|Abbreviated code for the academic period.|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[endDate](#endDate)||<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[externalIdentifier](#externalIdentifier)|External Identifier|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[externalSourceSystem](#externalSourceSystem)|External Source System|<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[externalSourceSystem_display](#externalSourceSystem_display)||<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
+|[startDate](#startDate)||<a href="AcademicPeriod.md" target="_blank">higherEducation/AcademicPeriod</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

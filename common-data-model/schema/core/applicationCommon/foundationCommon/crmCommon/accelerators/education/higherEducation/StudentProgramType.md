@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Student Program Type
 
 The master list of program types defined by the institution, such as major, minor, or concentration.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentProgramType.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,34 +46,35 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/StudentProgramType  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[studentProgramTypeId](#studentProgramTypeId)|Unique identifier for entity instances|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[stateCode](#stateCode)|Status of the Student Program Type|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[statusCode](#statusCode)|Reason for the status of the Student Program Type|[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/StudentProgramType](StudentProgramType.md)|
-|[name](#name)|The name of the program type.|[higherEducation/StudentProgramType](StudentProgramType.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[studentProgramTypeId](#studentProgramTypeId)|Unique identifier for entity instances|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[stateCode](#stateCode)|Status of the Student Program Type|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[stateCode_display](#stateCode_display)||<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[statusCode](#statusCode)|Reason for the status of the Student Program Type|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[statusCode_display](#statusCode_display)||<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
+|[name](#name)|The name of the program type.|<a href="StudentProgramType.md" target="_blank">higherEducation/StudentProgramType</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

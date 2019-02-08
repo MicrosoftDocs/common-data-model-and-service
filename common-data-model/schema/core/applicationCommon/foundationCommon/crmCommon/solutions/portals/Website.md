@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Website
 
 Web Portal  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Website.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,41 +46,42 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/Website  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/Website](Website.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/Website](Website.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/Website](Website.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/Website](Website.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/Website](Website.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/Website](Website.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/Website](Website.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/Website](Website.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/Website](Website.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/Website](Website.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/Website](Website.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/Website](Website.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/Website](Website.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/Website](Website.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/Website](Website.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/Website](Website.md)|
-|[websiteId](#websiteId)|Unique identifier for entity instances|[portals/Website](Website.md)|
-|[stateCode](#stateCode)|Status of the Website|[portals/Website](Website.md)|
-|[stateCode_display](#stateCode_display)||[portals/Website](Website.md)|
-|[statusCode](#statusCode)|Reason for the status of the Website|[portals/Website](Website.md)|
-|[statusCode_display](#statusCode_display)||[portals/Website](Website.md)|
-|[name](#name)|Shows the name of the custom entity.|[portals/Website](Website.md)|
-|[defaultLanguage](#defaultLanguage)|Lookup to Website Language - the current default language of the website|[portals/Website](Website.md)|
-|[footerTemplateId](#footerTemplateId)|Web Template to use as Website footer content.|[portals/Website](Website.md)|
-|[headerTemplateId](#headerTemplateId)|Web Template to use as Website header content.|[portals/Website](Website.md)|
-|[parentWebsiteId](#parentWebsiteId)|Unique identifier for Website associated with Website.|[portals/Website](Website.md)|
-|[partialURL](#partialURL)||[portals/Website](Website.md)|
-|[primaryDomainName](#primaryDomainName)|Tracks the primary domain name of the Portal|[portals/Website](Website.md)|
-|[websiteLanguage](#websiteLanguage)||[portals/Website](Website.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Website.md" target="_blank">portals/Website</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Website.md" target="_blank">portals/Website</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Website.md" target="_blank">portals/Website</a>|
+|[websiteId](#websiteId)|Unique identifier for entity instances|<a href="Website.md" target="_blank">portals/Website</a>|
+|[stateCode](#stateCode)|Status of the Website|<a href="Website.md" target="_blank">portals/Website</a>|
+|[stateCode_display](#stateCode_display)||<a href="Website.md" target="_blank">portals/Website</a>|
+|[statusCode](#statusCode)|Reason for the status of the Website|<a href="Website.md" target="_blank">portals/Website</a>|
+|[statusCode_display](#statusCode_display)||<a href="Website.md" target="_blank">portals/Website</a>|
+|[name](#name)|Shows the name of the custom entity.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[defaultLanguage](#defaultLanguage)|Lookup to Website Language - the current default language of the website|<a href="Website.md" target="_blank">portals/Website</a>|
+|[footerTemplateId](#footerTemplateId)|Web Template to use as Website footer content.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[headerTemplateId](#headerTemplateId)|Web Template to use as Website header content.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[parentWebsiteId](#parentWebsiteId)|Unique identifier for Website associated with Website.|<a href="Website.md" target="_blank">portals/Website</a>|
+|[partialURL](#partialURL)||<a href="Website.md" target="_blank">portals/Website</a>|
+|[primaryDomainName](#primaryDomainName)|Tracks the primary domain name of the Portal|<a href="Website.md" target="_blank">portals/Website</a>|
+|[websiteLanguage](#websiteLanguage)||<a href="Website.md" target="_blank">portals/Website</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

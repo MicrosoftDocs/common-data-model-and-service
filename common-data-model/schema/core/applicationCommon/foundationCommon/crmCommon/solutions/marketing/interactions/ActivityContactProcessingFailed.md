@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Activity contact processing failed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactProcessingFailed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,22 +33,23 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/ActivityContactProcessingFailed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
-|[contactId](#contactId)|Contact|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
-|[accountId](#accountId)|Account|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
-|[activityId](#activityId)|Activity ID|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/ActivityContactProcessingFailed](ActivityContactProcessingFailed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
+|[contactId](#contactId)|Contact|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
+|[accountId](#accountId)|Account|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
+|[activityId](#activityId)|Activity ID|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="ActivityContactProcessingFailed.md" target="_blank">interactions/ActivityContactProcessingFailed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

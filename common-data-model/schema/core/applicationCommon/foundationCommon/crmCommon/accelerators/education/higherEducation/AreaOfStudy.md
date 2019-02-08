@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Area of Study
 
 The master list of all area of studies offered by an institution.  Areas of studies are more specific program offerings, such as Master's of Public Administration - Emergency Management.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AreaOfStudy.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,41 +46,42 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/AreaOfStudy  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[areaOfStudyId](#areaOfStudyId)|Unique identifier for entity instances|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[stateCode](#stateCode)|Status of the Area of Study|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[statusCode](#statusCode)|Reason for the status of the Area of Study|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[name](#name)|The name of the custom entity.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[code](#code)|Abbreviated code for the area of study.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[externalIdentifier](#externalIdentifier)|External Identifier|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[minimumRequiredGPA](#minimumRequiredGPA)|Minimum Required GPA|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[programTypeId](#programTypeId)|The program type for the area of study, such as major or concentration.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
-|[requiredCredits](#requiredCredits)|The number of credits required to be completed by a student pursuing the area of study.|[higherEducation/AreaOfStudy](AreaOfStudy.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[areaOfStudyId](#areaOfStudyId)|Unique identifier for entity instances|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[stateCode](#stateCode)|Status of the Area of Study|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[stateCode_display](#stateCode_display)||<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[statusCode](#statusCode)|Reason for the status of the Area of Study|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[statusCode_display](#statusCode_display)||<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[name](#name)|The name of the custom entity.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[code](#code)|Abbreviated code for the area of study.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[externalIdentifier](#externalIdentifier)|External Identifier|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[externalSourceSystem](#externalSourceSystem)|External Source System|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[externalSourceSystem_display](#externalSourceSystem_display)||<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[minimumRequiredGPA](#minimumRequiredGPA)|Minimum Required GPA|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[programTypeId](#programTypeId)|The program type for the area of study, such as major or concentration.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
+|[requiredCredits](#requiredCredits)|The number of credits required to be completed by a student pursuing the area of study.|<a href="AreaOfStudy.md" target="_blank">higherEducation/AreaOfStudy</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

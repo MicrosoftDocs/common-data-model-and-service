@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Website Language
 
 Languages supported and publishing status for the portal  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebsiteLanguage.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,37 +46,38 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/WebsiteLanguage  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[websiteLanguageId](#websiteLanguageId)|Unique identifier for entity instances|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[stateCode](#stateCode)|Status of the Website Language|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[stateCode_display](#stateCode_display)||[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[statusCode](#statusCode)|Reason for the status of the Website Language|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[statusCode_display](#statusCode_display)||[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[name](#name)|The name of the custom entity.|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[portalLanguageId](#portalLanguageId)|lookup to Portal Language - one of the 43 supported Dynamics 365 languages that this website/language instance will use|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[publishingState](#publishingState)|Lookup to Publishing State - publishing state of this website/language instance (draft/published)|[portals/WebsiteLanguage](WebsiteLanguage.md)|
-|[websiteId](#websiteId)|Lookup to Website|[portals/WebsiteLanguage](WebsiteLanguage.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[websiteLanguageId](#websiteLanguageId)|Unique identifier for entity instances|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[stateCode](#stateCode)|Status of the Website Language|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[stateCode_display](#stateCode_display)||<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[statusCode](#statusCode)|Reason for the status of the Website Language|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[statusCode_display](#statusCode_display)||<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[name](#name)|The name of the custom entity.|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[portalLanguageId](#portalLanguageId)|lookup to Portal Language - one of the 43 supported Dynamics 365 languages that this website/language instance will use|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[publishingState](#publishingState)|Lookup to Publishing State - publishing state of this website/language instance (draft/published)|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
+|[websiteId](#websiteId)|Lookup to Website|<a href="WebsiteLanguage.md" target="_blank">portals/WebsiteLanguage</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

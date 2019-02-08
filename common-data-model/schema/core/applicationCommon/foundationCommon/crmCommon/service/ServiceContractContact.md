@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Service Contract Contact
 
 Item in a Service contract.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ServiceContractContact.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,22 +43,23 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/ServiceContractContact  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[serviceContractContactId](#serviceContractContactId)|Unique identifier of the contact of the service contract.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/ServiceContractContact](ServiceContractContact.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ServiceContractContact](ServiceContractContact.md)|
-|[name](#name)|name|[service/ServiceContractContact](ServiceContractContact.md)|
-|[contactId](#contactId)||[service/ServiceContractContact](ServiceContractContact.md)|
-|[contractId](#contractId)||[service/ServiceContractContact](ServiceContractContact.md)|
-|[serviceLevel](#serviceLevel)||[service/ServiceContractContact](ServiceContractContact.md)|
+|[serviceContractContactId](#serviceContractContactId)|Unique identifier of the contact of the service contract.|<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
+|[name](#name)|name|<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
+|[contactId](#contactId)||<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
+|[contractId](#contractId)||<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
+|[serviceLevel](#serviceLevel)||<a href="ServiceContractContact.md" target="_blank">service/ServiceContractContact</a>|
 
 ### <a href=#serviceContractContactId name="serviceContractContactId">serviceContractContactId</a>
 

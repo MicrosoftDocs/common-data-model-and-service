@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Entitlement Contact
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/EntitlementContact.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/EntitlementContact  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[entitlementContactId](#entitlementContactId)|Unique identifier of the contacts for the entitlements.|[service/EntitlementContact](EntitlementContact.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/EntitlementContact](EntitlementContact.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/EntitlementContact](EntitlementContact.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/EntitlementContact](EntitlementContact.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/EntitlementContact](EntitlementContact.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/EntitlementContact](EntitlementContact.md)|
-|[name](#name)|name|[service/EntitlementContact](EntitlementContact.md)|
-|[contactId](#contactId)||[service/EntitlementContact](EntitlementContact.md)|
-|[entitlementId](#entitlementId)||[service/EntitlementContact](EntitlementContact.md)|
+|[entitlementContactId](#entitlementContactId)|Unique identifier of the contacts for the entitlements.|<a href="EntitlementContact.md" target="_blank">service/EntitlementContact</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="EntitlementContact.md" target="_blank">service/EntitlementContact</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EntitlementContact.md" target="_blank">service/EntitlementContact</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EntitlementContact.md" target="_blank">service/EntitlementContact</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EntitlementContact.md" target="_blank">service/EntitlementContact</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EntitlementContact.md" target="_blank">service/EntitlementContact</a>|
+|[name](#name)|name|<a href="EntitlementContact.md" target="_blank">service/EntitlementContact</a>|
+|[contactId](#contactId)||<a href="EntitlementContact.md" target="_blank">service/EntitlementContact</a>|
+|[entitlementId](#entitlementId)||<a href="EntitlementContact.md" target="_blank">service/EntitlementContact</a>|
 
 ### <a href=#entitlementContactId name="entitlementContactId">entitlementContactId</a>
 

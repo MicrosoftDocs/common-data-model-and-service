@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Resource Expansion
 
 Resource Expansions.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceExpansion.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,24 +43,25 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/ResourceExpansion  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[resourceGroupExpansionId](#resourceGroupExpansionId)|Unique identifier of the resource expansion record.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/ResourceExpansion](ResourceExpansion.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[name](#name)|name|[service/ResourceExpansion](ResourceExpansion.md)|
-|[itemId](#itemId)|Item that is part of expansion of resource identified by object ID. One object ID can have many item IDs.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[methodCode](#methodCode)|Code for retrieval method.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[methodCode_display](#methodCode_display)||[service/ResourceExpansion](ResourceExpansion.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was last modified.|[service/ResourceExpansion](ResourceExpansion.md)|
-|[objectId](#objectId)|Object being expanded.|[service/ResourceExpansion](ResourceExpansion.md)|
+|[resourceGroupExpansionId](#resourceGroupExpansionId)|Unique identifier of the resource expansion record.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[name](#name)|name|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[itemId](#itemId)|Item that is part of expansion of resource identified by object ID. One object ID can have many item IDs.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[methodCode](#methodCode)|Code for retrieval method.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[methodCode_display](#methodCode_display)||<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was last modified.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
+|[objectId](#objectId)|Object being expanded.|<a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>|
 
 ### <a href=#resourceGroupExpansionId name="resourceGroupExpansionId">resourceGroupExpansionId</a>
 

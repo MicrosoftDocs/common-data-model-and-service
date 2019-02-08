@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Campaign Activity
 
 Task performed, or to be performed, by a user for planning or running a campaign.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/CampaignActivity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,99 +46,100 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 crmCommon/CampaignActivity  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[ownerId](#ownerId)|Owner Id|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[priorityCode_display](#priorityCode_display)||[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[subject](#subject)|Subject associated with the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[community_display](#community_display)||[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[partners](#partners)|Outsource vendor with which activity is associated.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[description](#description)|Type additional information to describe the campaign activity, such as key talking points, objectives, or details about the target audience.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[stateCode](#stateCode)|Shows whether the campaign activity is open, completed, or canceled. Completed and canceled campaign activities are read-only and can't be edited.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[stateCode_display](#stateCode_display)||[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[statusCode](#statusCode)|Select the campaign activity's status.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[statusCode_display](#statusCode_display)||[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[processId](#processId)|Unique identifier of the Process.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[actualCost](#actualCost)|Type the actual cost of the campaign activity. The value entered is rolled up to the related campaign in the total cost calculations.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[actualCostBase](#actualCostBase)|Value of the Actual Cost in base currency.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[budgetedCost](#budgetedCost)|Type the allocated budget of the campaign activity for estimated versus actual cost reporting.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[budgetedCostBase](#budgetedCostBase)|Value of the Budget Allocated in base currency.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[channelTypeCode](#channelTypeCode)|Select how communications for this activity will be sent, such as phone, letter, fax, or email.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[channelTypeCode_display](#channelTypeCode_display)||[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[doNotSendOnOptOut](#doNotSendOnOptOut)|Select whether to override the opt-out settings on leads, contacts, and accounts for the members of the target marketing lists of the campaign activity. If No is selected, marketing materials will be sent to members who have opted out.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[excludeIfContactedInXDays](#excludeIfContactedInXDays)|Type the minimum number of days that must be passed before a marketing list member can be contacted in a campaign again. The campaign activity will not be applied to members contacted within the specified time period.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[ignoreInactiveListMembers](#ignoreInactiveListMembers)|Select whether inactive marketing list members will be excluded from the campaign activity distribution.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[typeCode](#typeCode)|Select the type of campaign activity to indicate the purpose of the activity.|[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[typeCode_display](#typeCode_display)||[crmCommon/CampaignActivity](CampaignActivity.md)|
-|[serviceId](#serviceId)|Unique identifier of the associated service.|[crmCommon/CampaignActivity](CampaignActivity.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[community_display](#community_display)||<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[partners](#partners)|Outsource vendor with which activity is associated.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[description](#description)|Type additional information to describe the campaign activity, such as key talking points, objectives, or details about the target audience.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[stateCode](#stateCode)|Shows whether the campaign activity is open, completed, or canceled. Completed and canceled campaign activities are read-only and can't be edited.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[stateCode_display](#stateCode_display)||<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[statusCode](#statusCode)|Select the campaign activity's status.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[statusCode_display](#statusCode_display)||<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[actualCost](#actualCost)|Type the actual cost of the campaign activity. The value entered is rolled up to the related campaign in the total cost calculations.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[actualCostBase](#actualCostBase)|Value of the Actual Cost in base currency.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[budgetedCost](#budgetedCost)|Type the allocated budget of the campaign activity for estimated versus actual cost reporting.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[budgetedCostBase](#budgetedCostBase)|Value of the Budget Allocated in base currency.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[channelTypeCode](#channelTypeCode)|Select how communications for this activity will be sent, such as phone, letter, fax, or email.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[channelTypeCode_display](#channelTypeCode_display)||<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[doNotSendOnOptOut](#doNotSendOnOptOut)|Select whether to override the opt-out settings on leads, contacts, and accounts for the members of the target marketing lists of the campaign activity. If No is selected, marketing materials will be sent to members who have opted out.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[excludeIfContactedInXDays](#excludeIfContactedInXDays)|Type the minimum number of days that must be passed before a marketing list member can be contacted in a campaign again. The campaign activity will not be applied to members contacted within the specified time period.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[ignoreInactiveListMembers](#ignoreInactiveListMembers)|Select whether inactive marketing list members will be excluded from the campaign activity distribution.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[typeCode](#typeCode)|Select the type of campaign activity to indicate the purpose of the activity.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[typeCode_display](#typeCode_display)||<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
+|[serviceId](#serviceId)|Unique identifier of the associated service.|<a href="CampaignActivity.md" target="_blank">crmCommon/CampaignActivity</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

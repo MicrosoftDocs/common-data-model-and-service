@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Quote Product
 
 Product line item in a quote. The details include such information as product ID, description, quantity, and cost.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/QuoteProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,83 +43,84 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/QuoteProduct  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/QuoteProduct](QuoteProduct.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/QuoteProduct](QuoteProduct.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/QuoteProduct](QuoteProduct.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/QuoteProduct](QuoteProduct.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/QuoteProduct](QuoteProduct.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/QuoteProduct](QuoteProduct.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/QuoteProduct](QuoteProduct.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/QuoteProduct](QuoteProduct.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/QuoteProduct](QuoteProduct.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/QuoteProduct](QuoteProduct.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/QuoteProduct](QuoteProduct.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/QuoteProduct](QuoteProduct.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/QuoteProduct](QuoteProduct.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/QuoteProduct](QuoteProduct.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/QuoteProduct](QuoteProduct.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/QuoteProduct](QuoteProduct.md)|
-|[quoteDetailId](#quoteDetailId)|Unique identifier of the product line item in the quote.|[sales/QuoteProduct](QuoteProduct.md)|
-|[baseAmount](#baseAmount)|Shows the total price of the quote product, based on the price per unit, volume discount, and quantity.|[sales/QuoteProduct](QuoteProduct.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/QuoteProduct](QuoteProduct.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/QuoteProduct](QuoteProduct.md)|
-|[baseAmountBase](#baseAmountBase)|Value of the Amount in base currency.|[sales/QuoteProduct](QuoteProduct.md)|
-|[description](#description)|Type additional information to describe the quote product, such as manufacturing details or acceptable substitutions.|[sales/QuoteProduct](QuoteProduct.md)|
-|[extendedAmount](#extendedAmount)|Shows the total amount due for the quote product, based on the sum of the unit price, quantity, discounts ,and tax.|[sales/QuoteProduct](QuoteProduct.md)|
-|[extendedAmountBase](#extendedAmountBase)|Value of the Extended Amount in base currency.|[sales/QuoteProduct](QuoteProduct.md)|
-|[isPriceOverridden](#isPriceOverridden)|Select whether the price per unit is fixed at the value in the specified price list or can be overridden by users who have edit rights to the quote product.|[sales/QuoteProduct](QuoteProduct.md)|
-|[isProductOverridden](#isProductOverridden)|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the quote.|[sales/QuoteProduct](QuoteProduct.md)|
-|[lineItemNumber](#lineItemNumber)|Type the line item number for the quote product to easily identify the product in the quote and make sure it's listed in the correct order.|[sales/QuoteProduct](QuoteProduct.md)|
-|[manualDiscountAmount](#manualDiscountAmount)|Type the manual discount amount for the quote product to deduct any negotiated or other savings from the product total on the quote.|[sales/QuoteProduct](QuoteProduct.md)|
-|[manualDiscountAmountBase](#manualDiscountAmountBase)|Value of the Manual Discount in base currency.|[sales/QuoteProduct](QuoteProduct.md)|
-|[parentBundleId](#parentBundleId)|Choose the parent bundle associated with this product|[sales/QuoteProduct](QuoteProduct.md)|
-|[productAssociationId](#productAssociationId)|Unique identifier of the product line item association with bundle in the quote|[sales/QuoteProduct](QuoteProduct.md)|
-|[productTypeCode](#productTypeCode)|Product Type|[sales/QuoteProduct](QuoteProduct.md)|
-|[productTypeCode_display](#productTypeCode_display)||[sales/QuoteProduct](QuoteProduct.md)|
-|[pricePerUnit](#pricePerUnit)|Type the price per unit of the quote product. The default is to the value in the price list specified on the quote for existing products.|[sales/QuoteProduct](QuoteProduct.md)|
-|[pricePerUnitBase](#pricePerUnitBase)|Value of the Price Per Unit in base currency.|[sales/QuoteProduct](QuoteProduct.md)|
-|[pricingErrorCode](#pricingErrorCode)|Select the type of pricing error, such as a missing or invalid product, or missing quantity.|[sales/QuoteProduct](QuoteProduct.md)|
-|[pricingErrorCode_display](#pricingErrorCode_display)||[sales/QuoteProduct](QuoteProduct.md)|
-|[productDescription](#productDescription)|Type a name or description to identify the type of write-in product included in the quote.|[sales/QuoteProduct](QuoteProduct.md)|
-|[productName](#productName)|Calculated field that will be populated by name and description of the product.|[sales/QuoteProduct](QuoteProduct.md)|
-|[productId](#productId)|Choose the product to include on the quote to link the product's pricing and other information to the quote.|[sales/QuoteProduct](QuoteProduct.md)|
-|[quantity](#quantity)|Type the amount or quantity of the product requested by the customer.|[sales/QuoteProduct](QuoteProduct.md)|
-|[quoteId](#quoteId)|Unique identifier of the quote for the quote product.|[sales/QuoteProduct](QuoteProduct.md)|
-|[quoteStateCode](#quoteStateCode)|Status of the quote product.|[sales/QuoteProduct](QuoteProduct.md)|
-|[quoteStateCode_display](#quoteStateCode_display)||[sales/QuoteProduct](QuoteProduct.md)|
-|[requestDeliveryBy](#requestDeliveryBy)|Enter the delivery date requested by the customer for the quote product.|[sales/QuoteProduct](QuoteProduct.md)|
-|[salesRepId](#salesRepId)|Choose the user responsible for the sale of the quote product.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToAddressId](#shipToAddressId)|Unique identifier of the shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToContactName](#shipToContactName)|Type the primary contact name at the customer's shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|[sales/QuoteProduct](QuoteProduct.md)|
-|[tax](#tax)|Type the tax amount for the quote product.|[sales/QuoteProduct](QuoteProduct.md)|
-|[taxBase](#taxBase)|Value of the Tax in base currency.|[sales/QuoteProduct](QuoteProduct.md)|
-|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|[sales/QuoteProduct](QuoteProduct.md)|
-|[volumeDiscountAmount](#volumeDiscountAmount)|Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.|[sales/QuoteProduct](QuoteProduct.md)|
-|[volumeDiscountAmountBase](#volumeDiscountAmountBase)|Value of the Volume Discount in base currency.|[sales/QuoteProduct](QuoteProduct.md)|
-|[willCall](#willCall)|Select whether the quote product should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|[sales/QuoteProduct](QuoteProduct.md)|
-|[sequenceNumber](#sequenceNumber)|Unique identifier of the data that maintains the sequence.|[sales/QuoteProduct](QuoteProduct.md)|
-|[propertyConfigurationStatus](#propertyConfigurationStatus)|Status of the property configuration.|[sales/QuoteProduct](QuoteProduct.md)|
-|[propertyConfigurationStatus_display](#propertyConfigurationStatus_display)||[sales/QuoteProduct](QuoteProduct.md)|
-|[quoteDetailName](#quoteDetailName)|Quote Detail Name. Added for 1:n Referential relationship|[sales/QuoteProduct](QuoteProduct.md)|
-|[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|[sales/QuoteProduct](QuoteProduct.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[quoteDetailId](#quoteDetailId)|Unique identifier of the product line item in the quote.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[baseAmount](#baseAmount)|Shows the total price of the quote product, based on the price per unit, volume discount, and quantity.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[baseAmountBase](#baseAmountBase)|Value of the Amount in base currency.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[description](#description)|Type additional information to describe the quote product, such as manufacturing details or acceptable substitutions.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[extendedAmount](#extendedAmount)|Shows the total amount due for the quote product, based on the sum of the unit price, quantity, discounts ,and tax.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[extendedAmountBase](#extendedAmountBase)|Value of the Extended Amount in base currency.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[isPriceOverridden](#isPriceOverridden)|Select whether the price per unit is fixed at the value in the specified price list or can be overridden by users who have edit rights to the quote product.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[isProductOverridden](#isProductOverridden)|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the quote.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[lineItemNumber](#lineItemNumber)|Type the line item number for the quote product to easily identify the product in the quote and make sure it's listed in the correct order.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[manualDiscountAmount](#manualDiscountAmount)|Type the manual discount amount for the quote product to deduct any negotiated or other savings from the product total on the quote.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[manualDiscountAmountBase](#manualDiscountAmountBase)|Value of the Manual Discount in base currency.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[parentBundleId](#parentBundleId)|Choose the parent bundle associated with this product|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[productAssociationId](#productAssociationId)|Unique identifier of the product line item association with bundle in the quote|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[productTypeCode](#productTypeCode)|Product Type|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[productTypeCode_display](#productTypeCode_display)||<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[pricePerUnit](#pricePerUnit)|Type the price per unit of the quote product. The default is to the value in the price list specified on the quote for existing products.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[pricePerUnitBase](#pricePerUnitBase)|Value of the Price Per Unit in base currency.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[pricingErrorCode](#pricingErrorCode)|Select the type of pricing error, such as a missing or invalid product, or missing quantity.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[pricingErrorCode_display](#pricingErrorCode_display)||<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[productDescription](#productDescription)|Type a name or description to identify the type of write-in product included in the quote.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[productName](#productName)|Calculated field that will be populated by name and description of the product.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[productId](#productId)|Choose the product to include on the quote to link the product's pricing and other information to the quote.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[quantity](#quantity)|Type the amount or quantity of the product requested by the customer.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[quoteId](#quoteId)|Unique identifier of the quote for the quote product.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[quoteStateCode](#quoteStateCode)|Status of the quote product.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[quoteStateCode_display](#quoteStateCode_display)||<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[requestDeliveryBy](#requestDeliveryBy)|Enter the delivery date requested by the customer for the quote product.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[salesRepId](#salesRepId)|Choose the user responsible for the sale of the quote product.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToAddressId](#shipToAddressId)|Unique identifier of the shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToContactName](#shipToContactName)|Type the primary contact name at the customer's shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[tax](#tax)|Type the tax amount for the quote product.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[taxBase](#taxBase)|Value of the Tax in base currency.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[volumeDiscountAmount](#volumeDiscountAmount)|Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[volumeDiscountAmountBase](#volumeDiscountAmountBase)|Value of the Volume Discount in base currency.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[willCall](#willCall)|Select whether the quote product should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[sequenceNumber](#sequenceNumber)|Unique identifier of the data that maintains the sequence.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[propertyConfigurationStatus](#propertyConfigurationStatus)|Status of the property configuration.|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[propertyConfigurationStatus_display](#propertyConfigurationStatus_display)||<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[quoteDetailName](#quoteDetailName)|Quote Detail Name. Added for 1:n Referential relationship|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
+|[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|<a href="QuoteProduct.md" target="_blank">sales/QuoteProduct</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

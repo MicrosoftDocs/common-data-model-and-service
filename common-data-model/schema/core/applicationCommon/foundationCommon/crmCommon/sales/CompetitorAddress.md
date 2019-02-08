@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Competitor Address
 
 Additional addresses for a competitor. The first two addresses are stored in the competitor object.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorAddress.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,49 +43,50 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/CompetitorAddress  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[competitorAddressId](#competitorAddressId)|Unique identifier of the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[createdOn](#createdOn)|Date and time when the competitor address was created.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the competitor address was last modified.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[name](#name)|Name used to identify the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[addressNumber](#addressNumber)|Information about which competitor address is applicable.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[addressTypeCode](#addressTypeCode)|Type of address for the competitor, such as primary address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[addressTypeCode_display](#addressTypeCode_display)||[sales/CompetitorAddress](CompetitorAddress.md)|
-|[city](#city)|City name in the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[composite](#composite)|Shows the complete address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[country](#country)|Country/region name in the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[county](#county)|County name in the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[fax](#fax)|Fax number for the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[latitude](#latitude)|Latitude for the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[line1](#line1)|First line for entering address information.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[line2](#line2)|Second line for entering address information.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[line3](#line3)|Third line for entering address information.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[longitude](#longitude)|Longitude for the address for the competitor.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[parentId](#parentId)|Unique identifier of the parent object with which the competitor address is associated.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[postalCode](#postalCode)|ZIP Code or postal code in the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[postOfficeBox](#postOfficeBox)|Post office box number in the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[shippingMethodCode](#shippingMethodCode)|Method of shipment for the competitor.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[shippingMethodCode_display](#shippingMethodCode_display)||[sales/CompetitorAddress](CompetitorAddress.md)|
-|[stateOrProvince](#stateOrProvince)|State or province in the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[telephone1](#telephone1)|First telephone number for the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[telephone2](#telephone2)|Second telephone number for the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[telephone3](#telephone3)|Third telephone number for the competitor address.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[UPSZone](#UPSZone)|United Parcel Service (UPS) zone for the address of the competitor.|[sales/CompetitorAddress](CompetitorAddress.md)|
-|[UTCOffset](#UTCOffset)|UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.|[sales/CompetitorAddress](CompetitorAddress.md)|
+|[competitorAddressId](#competitorAddressId)|Unique identifier of the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[createdOn](#createdOn)|Date and time when the competitor address was created.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the competitor address was last modified.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[name](#name)|Name used to identify the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[addressNumber](#addressNumber)|Information about which competitor address is applicable.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[addressTypeCode](#addressTypeCode)|Type of address for the competitor, such as primary address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[addressTypeCode_display](#addressTypeCode_display)||<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[city](#city)|City name in the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[composite](#composite)|Shows the complete address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[country](#country)|Country/region name in the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[county](#county)|County name in the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[fax](#fax)|Fax number for the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[latitude](#latitude)|Latitude for the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[line1](#line1)|First line for entering address information.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[line2](#line2)|Second line for entering address information.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[line3](#line3)|Third line for entering address information.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[longitude](#longitude)|Longitude for the address for the competitor.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[parentId](#parentId)|Unique identifier of the parent object with which the competitor address is associated.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[postalCode](#postalCode)|ZIP Code or postal code in the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[postOfficeBox](#postOfficeBox)|Post office box number in the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[shippingMethodCode](#shippingMethodCode)|Method of shipment for the competitor.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[stateOrProvince](#stateOrProvince)|State or province in the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[telephone1](#telephone1)|First telephone number for the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[telephone2](#telephone2)|Second telephone number for the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[telephone3](#telephone3)|Third telephone number for the competitor address.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[UPSZone](#UPSZone)|United Parcel Service (UPS) zone for the address of the competitor.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
+|[UTCOffset](#UTCOffset)|UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.|<a href="CompetitorAddress.md" target="_blank">sales/CompetitorAddress</a>|
 
 ### <a href=#competitorAddressId name="competitorAddressId">competitorAddressId</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Contract Line
 
 Line item in a contract that specifies the type of service a customer is entitled to.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ContractLine.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,68 +46,69 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/ContractLine  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[service/ContractLine](ContractLine.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[service/ContractLine](ContractLine.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[service/ContractLine](ContractLine.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[service/ContractLine](ContractLine.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[service/ContractLine](ContractLine.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[service/ContractLine](ContractLine.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ContractLine](ContractLine.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[service/ContractLine](ContractLine.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[service/ContractLine](ContractLine.md)|
-|[ownerId](#ownerId)|Owner Id|[service/ContractLine](ContractLine.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[service/ContractLine](ContractLine.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[service/ContractLine](ContractLine.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[service/ContractLine](ContractLine.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ContractLine](ContractLine.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ContractLine](ContractLine.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/ContractLine](ContractLine.md)|
-|[contractDetailId](#contractDetailId)|Unique identifier of the contract line.|[service/ContractLine](ContractLine.md)|
-|[title](#title)|Type a title or name that describes the contract line.|[service/ContractLine](ContractLine.md)|
-|[activeOn](#activeOn)|Enter the date when the contract line becomes active.|[service/ContractLine](ContractLine.md)|
-|[allotmentsOverage](#allotmentsOverage)|Shows the number of minutes over the Total Allotments field that have been spent on resolved cases related to the contract line.|[service/ContractLine](ContractLine.md)|
-|[allotmentsRemaining](#allotmentsRemaining)|Shows the number of cases or minutes remaining, based on the resolved cases logged to the contract line.|[service/ContractLine](ContractLine.md)|
-|[allotmentsUsed](#allotmentsUsed)|Shows the number of cases or minutes used in the resolved cases on the contract line.|[service/ContractLine](ContractLine.md)|
-|[contractId](#contractId)|Unique identifier of the contract associated with the contract line.|[service/ContractLine](ContractLine.md)|
-|[contractStateCode](#contractStateCode)|Status of the contract.|[service/ContractLine](ContractLine.md)|
-|[contractStateCode_display](#contractStateCode_display)||[service/ContractLine](ContractLine.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[service/ContractLine](ContractLine.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[service/ContractLine](ContractLine.md)|
-|[discount](#discount)|Type the discount amount for the contract line to deduct any negotiated or other savings from the net amount due.|[service/ContractLine](ContractLine.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[service/ContractLine](ContractLine.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[service/ContractLine](ContractLine.md)|
-|[discountBase](#discountBase)|Value of the Discount in base currency.|[service/ContractLine](ContractLine.md)|
-|[discountPercentage](#discountPercentage)|Type the discount rate that should be applied to the Total Price, for use in calculating the net amount due for the contract line.|[service/ContractLine](ContractLine.md)|
-|[effectivityCalendar](#effectivityCalendar)|Days of the week and times for which the contract line item is effective.|[service/ContractLine](ContractLine.md)|
-|[expiresOn](#expiresOn)|Enter the date when the contract line expires. The date is automatically filled with the contract date, but you can change it if required.|[service/ContractLine](ContractLine.md)|
-|[initialQuantity](#initialQuantity)|Type the number of units of the specified product or service that are eligible for support on the contract line.|[service/ContractLine](ContractLine.md)|
-|[lineItemOrder](#lineItemOrder)|Type the line item number for the contract line to easily identify the contract line and make sure it's listed in the correct order in the parent contract.|[service/ContractLine](ContractLine.md)|
-|[net](#net)|Shows the total charge to the customer for the contract line, calculated as the Total Price minus any discounts.|[service/ContractLine](ContractLine.md)|
-|[netBase](#netBase)|Value of the Net in base currency.|[service/ContractLine](ContractLine.md)|
-|[price](#price)|Type the total service charge for the contract line before any discounts are credited.|[service/ContractLine](ContractLine.md)|
-|[priceBase](#priceBase)|Value of the Total Price in base currency.|[service/ContractLine](ContractLine.md)|
-|[productId](#productId)|Choose the product that is eligible for services on the contract line.|[service/ContractLine](ContractLine.md)|
-|[productSerialNumber](#productSerialNumber)|Type the serial number for the product that is eligible for services on the contract line.|[service/ContractLine](ContractLine.md)|
-|[rate](#rate)|Shows the cost per case or minute, calculated by dividing the Total Price value by the total number of cases or minutes allocated to the contract line.|[service/ContractLine](ContractLine.md)|
-|[rateBase](#rateBase)|Value of the Rate in base currency.|[service/ContractLine](ContractLine.md)|
-|[serviceAddress](#serviceAddress)|Choose the address for the customer account or contact where the services are provided.|[service/ContractLine](ContractLine.md)|
-|[serviceContractUnitsCode](#serviceContractUnitsCode)|Select the unit type allotted in the contract line, such as cases or minutes, to determine the level of support.|[service/ContractLine](ContractLine.md)|
-|[serviceContractUnitsCode_display](#serviceContractUnitsCode_display)||[service/ContractLine](ContractLine.md)|
-|[stateCode](#stateCode)|Shows whether the contract line is existing, renewed, canceled, or expired. You can't edit a contract line after it is saved, regardless of the status.|[service/ContractLine](ContractLine.md)|
-|[stateCode_display](#stateCode_display)||[service/ContractLine](ContractLine.md)|
-|[statusCode](#statusCode)|Select the contract line's status.|[service/ContractLine](ContractLine.md)|
-|[statusCode_display](#statusCode_display)||[service/ContractLine](ContractLine.md)|
-|[totalAllotments](#totalAllotments)|Type the total number of minutes or cases allowed for the contract line.|[service/ContractLine](ContractLine.md)|
-|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|[service/ContractLine](ContractLine.md)|
-|[uoMScheduleId](#uoMScheduleId)|Unique identifier of the unit group associated with the contract line.|[service/ContractLine](ContractLine.md)|
-|[accountId](#accountId)|Unique identifier of the account with which the contract is associated.|[service/ContractLine](ContractLine.md)|
-|[contactId](#contactId)|Unique identifier for the contact associated with the contract line.|[service/ContractLine](ContractLine.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[contractDetailId](#contractDetailId)|Unique identifier of the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[title](#title)|Type a title or name that describes the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[activeOn](#activeOn)|Enter the date when the contract line becomes active.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[allotmentsOverage](#allotmentsOverage)|Shows the number of minutes over the Total Allotments field that have been spent on resolved cases related to the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[allotmentsRemaining](#allotmentsRemaining)|Shows the number of cases or minutes remaining, based on the resolved cases logged to the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[allotmentsUsed](#allotmentsUsed)|Shows the number of cases or minutes used in the resolved cases on the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[contractId](#contractId)|Unique identifier of the contract associated with the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[contractStateCode](#contractStateCode)|Status of the contract.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[contractStateCode_display](#contractStateCode_display)||<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[discount](#discount)|Type the discount amount for the contract line to deduct any negotiated or other savings from the net amount due.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[discountBase](#discountBase)|Value of the Discount in base currency.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[discountPercentage](#discountPercentage)|Type the discount rate that should be applied to the Total Price, for use in calculating the net amount due for the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[effectivityCalendar](#effectivityCalendar)|Days of the week and times for which the contract line item is effective.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[expiresOn](#expiresOn)|Enter the date when the contract line expires. The date is automatically filled with the contract date, but you can change it if required.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[initialQuantity](#initialQuantity)|Type the number of units of the specified product or service that are eligible for support on the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[lineItemOrder](#lineItemOrder)|Type the line item number for the contract line to easily identify the contract line and make sure it's listed in the correct order in the parent contract.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[net](#net)|Shows the total charge to the customer for the contract line, calculated as the Total Price minus any discounts.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[netBase](#netBase)|Value of the Net in base currency.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[price](#price)|Type the total service charge for the contract line before any discounts are credited.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[priceBase](#priceBase)|Value of the Total Price in base currency.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[productId](#productId)|Choose the product that is eligible for services on the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[productSerialNumber](#productSerialNumber)|Type the serial number for the product that is eligible for services on the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[rate](#rate)|Shows the cost per case or minute, calculated by dividing the Total Price value by the total number of cases or minutes allocated to the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[rateBase](#rateBase)|Value of the Rate in base currency.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[serviceAddress](#serviceAddress)|Choose the address for the customer account or contact where the services are provided.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[serviceContractUnitsCode](#serviceContractUnitsCode)|Select the unit type allotted in the contract line, such as cases or minutes, to determine the level of support.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[serviceContractUnitsCode_display](#serviceContractUnitsCode_display)||<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[stateCode](#stateCode)|Shows whether the contract line is existing, renewed, canceled, or expired. You can't edit a contract line after it is saved, regardless of the status.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[stateCode_display](#stateCode_display)||<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[statusCode](#statusCode)|Select the contract line's status.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[statusCode_display](#statusCode_display)||<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[totalAllotments](#totalAllotments)|Type the total number of minutes or cases allowed for the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[uoMScheduleId](#uoMScheduleId)|Unique identifier of the unit group associated with the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[accountId](#accountId)|Unique identifier of the account with which the contract is associated.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
+|[contactId](#contactId)|Unique identifier for the contact associated with the contract line.|<a href="ContractLine.md" target="_blank">service/ContractLine</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

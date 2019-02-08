@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Transaction
 
 Transactions (also referred to as donations) represent payments from the donor, contact, account or organization to the nonprofit.  Transaction records must track valuable information about the gift or items transferred from a constituent to a nonprofit organization.  Critical transaction information to capture and provide audit capabilities around include what payment method was used, what channel the gift came in through, whether an adjustment was made (and on what date for what amount?), when was the transaction received vs. processed vs. reconciled and more.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Transaction.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,61 +46,62 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Transaction  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Transaction](Transaction.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Transaction](Transaction.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Transaction](Transaction.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Transaction](Transaction.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Transaction](Transaction.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Transaction](Transaction.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Transaction](Transaction.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Transaction](Transaction.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Transaction](Transaction.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Transaction](Transaction.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Transaction](Transaction.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Transaction](Transaction.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Transaction](Transaction.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Transaction](Transaction.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Transaction](Transaction.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Transaction](Transaction.md)|
-|[transactionId](#transactionId)|Unique identifier for entity instances|[nonProfit/Transaction](Transaction.md)|
-|[stateCode](#stateCode)|Status of the Transaction|[nonProfit/Transaction](Transaction.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Transaction](Transaction.md)|
-|[statusCode](#statusCode)|Reason for the status of the Transaction|[nonProfit/Transaction](Transaction.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Transaction](Transaction.md)|
-|[name](#name)||[nonProfit/Transaction](Transaction.md)|
-|[adjustmentComment](#adjustmentComment)|Any notes or details about the adjustment that the user may have optionally entered.|[nonProfit/Transaction](Transaction.md)|
-|[adjustmentReason](#adjustmentReason)||[nonProfit/Transaction](Transaction.md)|
-|[adjustmentReason_display](#adjustmentReason_display)||[nonProfit/Transaction](Transaction.md)|
-|[adjustmentType](#adjustmentType)||[nonProfit/Transaction](Transaction.md)|
-|[adjustmentType_display](#adjustmentType_display)||[nonProfit/Transaction](Transaction.md)|
-|[amount](#amount)||[nonProfit/Transaction](Transaction.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/Transaction](Transaction.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/Transaction](Transaction.md)|
-|[amountBase](#amountBase)|Value of the Amount in base currency.|[nonProfit/Transaction](Transaction.md)|
-|[anonymity](#anonymity)||[nonProfit/Transaction](Transaction.md)|
-|[anonymity_display](#anonymity_display)||[nonProfit/Transaction](Transaction.md)|
-|[bookDate](#bookDate)||[nonProfit/Transaction](Transaction.md)|
-|[dataEntryReference](#dataEntryReference)|Tracks data origin of payment transactions. References may be channel-specific.|[nonProfit/Transaction](Transaction.md)|
-|[dataEntrySource](#dataEntrySource)||[nonProfit/Transaction](Transaction.md)|
-|[dataEntrySource_display](#dataEntrySource_display)||[nonProfit/Transaction](Transaction.md)|
-|[effectiveCampaignId](#effectiveCampaignId)|Effective Campaign|[nonProfit/Transaction](Transaction.md)|
-|[effectiveSourceCode](#effectiveSourceCode)||[nonProfit/Transaction](Transaction.md)|
-|[exchangeRateDate](#exchangeRateDate)|The date and time at which the currency exchange rate was determined|[nonProfit/Transaction](Transaction.md)|
-|[isAdjusted](#isAdjusted)|Indicates that this transaction has been adjusted by a later transaction.|[nonProfit/Transaction](Transaction.md)|
-|[originalTxnAdjustedId](#originalTxnAdjustedId)|Original Transaction Adjusted|[nonProfit/Transaction](Transaction.md)|
-|[originatingCampaignId](#originatingCampaignId)|Originating Campaign|[nonProfit/Transaction](Transaction.md)|
-|[originatingSourceCode](#originatingSourceCode)|The marketing segmentation source code.|[nonProfit/Transaction](Transaction.md)|
-|[postedDate](#postedDate)||[nonProfit/Transaction](Transaction.md)|
-|[receivedDate](#receivedDate)||[nonProfit/Transaction](Transaction.md)|
-|[transactionPaymentMethodId](#transactionPaymentMethodId)|Payment Method|[nonProfit/Transaction](Transaction.md)|
-|[transactionPaymentScheduleId](#transactionPaymentScheduleId)|Payment Schedule|[nonProfit/Transaction](Transaction.md)|
-|[transactionReceiptOnAccountId](#transactionReceiptOnAccountId)|Receipt On Account|[nonProfit/Transaction](Transaction.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[transactionId](#transactionId)|Unique identifier for entity instances|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[stateCode](#stateCode)|Status of the Transaction|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[stateCode_display](#stateCode_display)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[statusCode](#statusCode)|Reason for the status of the Transaction|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[statusCode_display](#statusCode_display)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[name](#name)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[adjustmentComment](#adjustmentComment)|Any notes or details about the adjustment that the user may have optionally entered.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[adjustmentReason](#adjustmentReason)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[adjustmentReason_display](#adjustmentReason_display)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[adjustmentType](#adjustmentType)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[adjustmentType_display](#adjustmentType_display)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[amount](#amount)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[amountBase](#amountBase)|Value of the Amount in base currency.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[anonymity](#anonymity)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[anonymity_display](#anonymity_display)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[bookDate](#bookDate)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[dataEntryReference](#dataEntryReference)|Tracks data origin of payment transactions. References may be channel-specific.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[dataEntrySource](#dataEntrySource)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[dataEntrySource_display](#dataEntrySource_display)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[effectiveCampaignId](#effectiveCampaignId)|Effective Campaign|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[effectiveSourceCode](#effectiveSourceCode)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[exchangeRateDate](#exchangeRateDate)|The date and time at which the currency exchange rate was determined|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[isAdjusted](#isAdjusted)|Indicates that this transaction has been adjusted by a later transaction.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[originalTxnAdjustedId](#originalTxnAdjustedId)|Original Transaction Adjusted|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[originatingCampaignId](#originatingCampaignId)|Originating Campaign|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[originatingSourceCode](#originatingSourceCode)|The marketing segmentation source code.|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[postedDate](#postedDate)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[receivedDate](#receivedDate)||<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[transactionPaymentMethodId](#transactionPaymentMethodId)|Payment Method|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[transactionPaymentScheduleId](#transactionPaymentScheduleId)|Payment Schedule|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
+|[transactionReceiptOnAccountId](#transactionReceiptOnAccountId)|Receipt On Account|<a href="Transaction.md" target="_blank">nonProfit/Transaction</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

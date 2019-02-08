@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Unit Group
 
 Grouping of units.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/UnitGroup.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,34 +46,35 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/UnitGroup  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[uoMScheduleId](#uoMScheduleId)|Unique identifier for the unit group.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[createdOn](#createdOn)|Date and time when the unit group was created.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the unit group.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the unit group was last modified.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the unit group.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the uomschedule.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the uomschedule.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[name](#name)|Name of the unit group.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[baseUoMName](#baseUoMName)|Name of the base unit.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[description](#description)|Description of the unit group.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[stateCode](#stateCode)|Status of the Unit Group.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/UnitGroup](UnitGroup.md)|
-|[statusCode](#statusCode)|Reason for the status of the Unit Group.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/UnitGroup](UnitGroup.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[foundationCommon/UnitGroup](UnitGroup.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[foundationCommon/UnitGroup](UnitGroup.md)|
+|[uoMScheduleId](#uoMScheduleId)|Unique identifier for the unit group.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[createdOn](#createdOn)|Date and time when the unit group was created.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the unit group.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the unit group was last modified.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the unit group.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the uomschedule.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the uomschedule.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[name](#name)|Name of the unit group.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[baseUoMName](#baseUoMName)|Name of the base unit.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[description](#description)|Description of the unit group.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[stateCode](#stateCode)|Status of the Unit Group.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[stateCode_display](#stateCode_display)||<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[statusCode](#statusCode)|Reason for the status of the Unit Group.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[statusCode_display](#statusCode_display)||<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="UnitGroup.md" target="_blank">foundationCommon/UnitGroup</a>|
 
 ### <a href=#uoMScheduleId name="uoMScheduleId">uoMScheduleId</a>
 

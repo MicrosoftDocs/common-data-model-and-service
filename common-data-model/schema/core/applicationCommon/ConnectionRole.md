@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Connection Role
 
 Role describing a relationship between a two records.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ConnectionRole.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/ConnectionRole  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[connectionRoleId](#connectionRoleId)|Unique identifier of the connection role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the connection role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the connection role was last modified.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[name](#name)|Name of the connection role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[stateCode](#stateCode)|Status of the connection role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[statusCode](#statusCode)|Reason for the status of the connection role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the relationship role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[category](#category)|Categories for connection roles.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[category_display](#category_display)||[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization that this connection role belongs to.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[description](#description)|Description of the connection role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[createdOn](#createdOn)|Date and time when the connection role was created.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[versionNumber](#versionNumber)|Version number of the connection role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[solutionId](#solutionId)|Unique identifier of the associated solution.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[componentState](#componentState)|State of the component.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[componentState_display](#componentState_display)||[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[overwriteTime](#overwriteTime)|Date and time when the record was last overwritten.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[connectionRoleIdUnique](#connectionRoleIdUnique)|Unique identifier of the published or unpublished connection role record.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the relationship role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the relationship role.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[isManaged](#isManaged)|Indicates whether the solution component is part of a managed solution.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[isCustomizable](#isCustomizable)|Information that specifies whether this component can be customized.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
-|[introducedVersion](#introducedVersion)|Version in which the form is introduced.|[applicationCommon/ConnectionRole](ConnectionRole.md)|
+|[connectionRoleId](#connectionRoleId)|Unique identifier of the connection role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the connection role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the connection role was last modified.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[name](#name)|Name of the connection role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[stateCode](#stateCode)|Status of the connection role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[stateCode_display](#stateCode_display)||<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[statusCode](#statusCode)|Reason for the status of the connection role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[statusCode_display](#statusCode_display)||<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the relationship role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[category](#category)|Categories for connection roles.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[category_display](#category_display)||<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization that this connection role belongs to.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[description](#description)|Description of the connection role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[createdOn](#createdOn)|Date and time when the connection role was created.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[versionNumber](#versionNumber)|Version number of the connection role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[solutionId](#solutionId)|Unique identifier of the associated solution.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[componentState](#componentState)|State of the component.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[componentState_display](#componentState_display)||<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[overwriteTime](#overwriteTime)|Date and time when the record was last overwritten.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[connectionRoleIdUnique](#connectionRoleIdUnique)|Unique identifier of the published or unpublished connection role record.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the relationship role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the relationship role.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[isManaged](#isManaged)|Indicates whether the solution component is part of a managed solution.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[isCustomizable](#isCustomizable)|Information that specifies whether this component can be customized.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
+|[introducedVersion](#introducedVersion)|Version in which the form is introduced.|<a href="ConnectionRole.md" target="_blank">applicationCommon/ConnectionRole</a>|
 
 ### <a href=#connectionRoleId name="connectionRoleId">connectionRoleId</a>
 

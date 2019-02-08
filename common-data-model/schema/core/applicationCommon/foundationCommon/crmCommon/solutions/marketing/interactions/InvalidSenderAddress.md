@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Invalid sender address
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/InvalidSenderAddress.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,24 +33,25 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/InvalidSenderAddress  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[contactId](#contactId)|Contact|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[accountId](#accountId)|Account|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[messageId](#messageId)|Message|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[usageType](#usageType)|Usage type|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[blockedReason](#blockedReason)|Blocked reason|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/InvalidSenderAddress](InvalidSenderAddress.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[contactId](#contactId)|Contact|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[accountId](#accountId)|Account|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[messageId](#messageId)|Message|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[usageType](#usageType)|Usage type|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[blockedReason](#blockedReason)|Blocked reason|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="InvalidSenderAddress.md" target="_blank">interactions/InvalidSenderAddress</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

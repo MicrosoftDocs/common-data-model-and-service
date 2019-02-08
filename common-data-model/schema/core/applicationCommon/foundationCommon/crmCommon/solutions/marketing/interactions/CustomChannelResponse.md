@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Custom channel response
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CustomChannelResponse.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,26 +33,27 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/CustomChannelResponse  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[contactId](#contactId)|Contact|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[accountId](#accountId)|Account|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[activityId](#activityId)|Activity ID|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[entityId](#entityId)|Entity ID|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[entityType](#entityType)|Entity type|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[responseType](#responseType)|Response type|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[triggerKeyword](#triggerKeyword)|Trigger keyword|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/CustomChannelResponse](CustomChannelResponse.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[contactId](#contactId)|Contact|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[accountId](#accountId)|Account|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[activityId](#activityId)|Activity ID|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[entityId](#entityId)|Entity ID|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[entityType](#entityType)|Entity type|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[responseType](#responseType)|Response type|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[triggerKeyword](#triggerKeyword)|Trigger keyword|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="CustomChannelResponse.md" target="_blank">interactions/CustomChannelResponse</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

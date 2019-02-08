@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Delivery Framework
 
 A Delivery Framework is a Management Unit of work defined by the organization or entity doing the work.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFramework.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,47 +46,48 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/DeliveryFramework  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[deliveryFrameworkId](#deliveryFrameworkId)|Unique identifier for entity instances|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[stateCode](#stateCode)|Status of the Delivery Framework|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[statusCode](#statusCode)|Reason for the status of the Delivery Framework|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[name](#name)|The name of the custom entity.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[account](#account)|Account|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[deliveryFrameworkType](#deliveryFrameworkType)|The type of Framwork, i.e. Program, Project, Initiative, Activity|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[deliveryFrameworkType_display](#deliveryFrameworkType_display)||[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[description](#description)|Description of the Framework.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[endDate](#endDate)|End date of the Framework.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[goal](#goal)|Indicates the goal of the Framework.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[objectiveid](#objectiveid)|Objective|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[parentDeliveryFrameworkId](#parentDeliveryFrameworkId)|Parent DeliveryFramework|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[scope](#scope)|Scope of the Framework.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[scope_display](#scope_display)||[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[startDate](#startDate)|Start date off the Framework.|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[status](#status)|Status|[nonProfit/DeliveryFramework](DeliveryFramework.md)|
-|[status_display](#status_display)||[nonProfit/DeliveryFramework](DeliveryFramework.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[deliveryFrameworkId](#deliveryFrameworkId)|Unique identifier for entity instances|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[stateCode](#stateCode)|Status of the Delivery Framework|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[stateCode_display](#stateCode_display)||<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[statusCode](#statusCode)|Reason for the status of the Delivery Framework|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[statusCode_display](#statusCode_display)||<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[name](#name)|The name of the custom entity.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[account](#account)|Account|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[deliveryFrameworkType](#deliveryFrameworkType)|The type of Framwork, i.e. Program, Project, Initiative, Activity|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[deliveryFrameworkType_display](#deliveryFrameworkType_display)||<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[description](#description)|Description of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[endDate](#endDate)|End date of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[goal](#goal)|Indicates the goal of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[objectiveid](#objectiveid)|Objective|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[parentDeliveryFrameworkId](#parentDeliveryFrameworkId)|Parent DeliveryFramework|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[scope](#scope)|Scope of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[scope_display](#scope_display)||<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[startDate](#startDate)|Start date off the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[status](#status)|Status|<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
+|[status_display](#status_display)||<a href="DeliveryFramework.md" target="_blank">nonProfit/DeliveryFramework</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

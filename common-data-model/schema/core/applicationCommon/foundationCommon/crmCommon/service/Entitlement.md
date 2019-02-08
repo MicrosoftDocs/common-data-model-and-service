@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Entitlement
 
 Defines the amount and type of support a customer should receive.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Entitlement.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,59 +46,60 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/Entitlement  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[service/Entitlement](Entitlement.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[service/Entitlement](Entitlement.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[service/Entitlement](Entitlement.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[service/Entitlement](Entitlement.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[service/Entitlement](Entitlement.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[service/Entitlement](Entitlement.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/Entitlement](Entitlement.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[service/Entitlement](Entitlement.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[service/Entitlement](Entitlement.md)|
-|[ownerId](#ownerId)|Owner Id|[service/Entitlement](Entitlement.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[service/Entitlement](Entitlement.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[service/Entitlement](Entitlement.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[service/Entitlement](Entitlement.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/Entitlement](Entitlement.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/Entitlement](Entitlement.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/Entitlement](Entitlement.md)|
-|[entitlementId](#entitlementId)|Unique identifier for entity instances|[service/Entitlement](Entitlement.md)|
-|[emailAddress](#emailAddress)|The primary email address for the entity.|[service/Entitlement](Entitlement.md)|
-|[name](#name)|Type a meaningful name for the entitlement.|[service/Entitlement](Entitlement.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[service/Entitlement](Entitlement.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[service/Entitlement](Entitlement.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[service/Entitlement](Entitlement.md)|
-|[allocationTypeCode](#allocationTypeCode)|Select the type of entitlement terms.|[service/Entitlement](Entitlement.md)|
-|[allocationTypeCode_display](#allocationTypeCode_display)||[service/Entitlement](Entitlement.md)|
-|[description](#description)|Type additional information to describe the Entitlement|[service/Entitlement](Entitlement.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[service/Entitlement](Entitlement.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[service/Entitlement](Entitlement.md)|
-|[decreaseRemainingOn](#decreaseRemainingOn)|Select whether to decrease the remaining terms when the case is created or when it is resolved.|[service/Entitlement](Entitlement.md)|
-|[decreaseRemainingOn_display](#decreaseRemainingOn_display)||[service/Entitlement](Entitlement.md)|
-|[endDate](#endDate)|Enter the date when the entitlement ends.|[service/Entitlement](Entitlement.md)|
-|[entitlementTemplateId](#entitlementTemplateId)|Unique identifier for Entitlement Template associated with Entitlement.|[service/Entitlement](Entitlement.md)|
-|[kbAccessLevel](#kbAccessLevel)|Select the access someone will have to the knowledge base on the portal.|[service/Entitlement](Entitlement.md)|
-|[kbAccessLevel_display](#kbAccessLevel_display)||[service/Entitlement](Entitlement.md)|
-|[remainingTerms](#remainingTerms)|Type the total number of entitlement terms that are left.|[service/Entitlement](Entitlement.md)|
-|[restrictCaseCreation](#restrictCaseCreation)|Tells whether case creation is restricted based on entitlement terms.|[service/Entitlement](Entitlement.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) associated with the entitlement.|[service/Entitlement](Entitlement.md)|
-|[startDate](#startDate)|Enter the date when the entitlement starts.|[service/Entitlement](Entitlement.md)|
-|[stateCode](#stateCode)|For internal use only.|[service/Entitlement](Entitlement.md)|
-|[stateCode_display](#stateCode_display)||[service/Entitlement](Entitlement.md)|
-|[statusCode](#statusCode)|Select the reason code that explains the status of the entitlement.|[service/Entitlement](Entitlement.md)|
-|[statusCode_display](#statusCode_display)||[service/Entitlement](Entitlement.md)|
-|[totalTerms](#totalTerms)|Type the total number of entitlement terms.|[service/Entitlement](Entitlement.md)|
-|[isDefault](#isDefault)|Shows whether this entitlement is the default one for the specified customer.|[service/Entitlement](Entitlement.md)|
-|[accountId](#accountId)|Unique identifier for Account associated with Entitlement.|[service/Entitlement](Entitlement.md)|
-|[contactId](#contactId)|Unique identifier for Contact associated with Entitlement.|[service/Entitlement](Entitlement.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the contact with respect to the base currency.|[service/Entitlement](Entitlement.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the contact.|[service/Entitlement](Entitlement.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[entitlementId](#entitlementId)|Unique identifier for entity instances|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[emailAddress](#emailAddress)|The primary email address for the entity.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[name](#name)|Type a meaningful name for the entitlement.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[allocationTypeCode](#allocationTypeCode)|Select the type of entitlement terms.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[allocationTypeCode_display](#allocationTypeCode_display)||<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[description](#description)|Type additional information to describe the Entitlement|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[decreaseRemainingOn](#decreaseRemainingOn)|Select whether to decrease the remaining terms when the case is created or when it is resolved.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[decreaseRemainingOn_display](#decreaseRemainingOn_display)||<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[endDate](#endDate)|Enter the date when the entitlement ends.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[entitlementTemplateId](#entitlementTemplateId)|Unique identifier for Entitlement Template associated with Entitlement.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[kbAccessLevel](#kbAccessLevel)|Select the access someone will have to the knowledge base on the portal.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[kbAccessLevel_display](#kbAccessLevel_display)||<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[remainingTerms](#remainingTerms)|Type the total number of entitlement terms that are left.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[restrictCaseCreation](#restrictCaseCreation)|Tells whether case creation is restricted based on entitlement terms.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) associated with the entitlement.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[startDate](#startDate)|Enter the date when the entitlement starts.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[stateCode](#stateCode)|For internal use only.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[stateCode_display](#stateCode_display)||<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[statusCode](#statusCode)|Select the reason code that explains the status of the entitlement.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[statusCode_display](#statusCode_display)||<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[totalTerms](#totalTerms)|Type the total number of entitlement terms.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[isDefault](#isDefault)|Shows whether this entitlement is the default one for the specified customer.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[accountId](#accountId)|Unique identifier for Account associated with Entitlement.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[contactId](#contactId)|Unique identifier for Contact associated with Entitlement.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the contact with respect to the base currency.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the contact.|<a href="Entitlement.md" target="_blank">service/Entitlement</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

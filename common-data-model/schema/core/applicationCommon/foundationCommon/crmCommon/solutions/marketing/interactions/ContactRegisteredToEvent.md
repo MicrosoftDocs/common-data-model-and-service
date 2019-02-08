@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Event registration
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ContactRegisteredToEvent.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -36,21 +36,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/ContactRegisteredToEvent  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[eventId](#eventId)|Event|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[contactId](#contactId)|Contact|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[accountId](#accountId)|Account|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[eventRegistrationId](#eventRegistrationId)|eventregistrationid|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/ContactRegisteredToEvent](ContactRegisteredToEvent.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="ContactRegisteredToEvent.md" target="_blank">interactions/ContactRegisteredToEvent</a>|
+|[eventId](#eventId)|Event|<a href="ContactRegisteredToEvent.md" target="_blank">interactions/ContactRegisteredToEvent</a>|
+|[contactId](#contactId)|Contact|<a href="ContactRegisteredToEvent.md" target="_blank">interactions/ContactRegisteredToEvent</a>|
+|[accountId](#accountId)|Account|<a href="ContactRegisteredToEvent.md" target="_blank">interactions/ContactRegisteredToEvent</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="ContactRegisteredToEvent.md" target="_blank">interactions/ContactRegisteredToEvent</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="ContactRegisteredToEvent.md" target="_blank">interactions/ContactRegisteredToEvent</a>|
+|[eventRegistrationId](#eventRegistrationId)|eventregistrationid|<a href="ContactRegisteredToEvent.md" target="_blank">interactions/ContactRegisteredToEvent</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="ContactRegisteredToEvent.md" target="_blank">interactions/ContactRegisteredToEvent</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="ContactRegisteredToEvent.md" target="_blank">interactions/ContactRegisteredToEvent</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

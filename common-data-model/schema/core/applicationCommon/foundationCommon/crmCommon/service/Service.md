@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Service
 
 Activity that represents work done to satisfy a customer's need.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Service.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,38 +43,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/Service  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[serviceId](#serviceId)|Unique identifier of the associated service.|[service/Service](Service.md)|
-|[createdOn](#createdOn)|Date and time when the service was created.|[service/Service](Service.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the service.|[service/Service](Service.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the service was last modified.|[service/Service](Service.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the service.|[service/Service](Service.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the service.|[service/Service](Service.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the service.|[service/Service](Service.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[service/Service](Service.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/Service](Service.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/Service](Service.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/Service](Service.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/Service](Service.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/Service](Service.md)|
-|[name](#name)|Name of the service.|[service/Service](Service.md)|
-|[anchorOffset](#anchorOffset)|Used in conjunction with granularity to describes when services can be performed in relation to midnight on a given day.|[service/Service](Service.md)|
-|[calendarId](#calendarId)|Unique identifier of the calendar.|[service/Service](Service.md)|
-|[description](#description)|Description of activity that represents work done to satisfy a customer's need.|[service/Service](Service.md)|
-|[duration](#duration)|Duration of the service.|[service/Service](Service.md)|
-|[granularity](#granularity)|Describes how often the service is performed.|[service/Service](Service.md)|
-|[initialStatusCode](#initialStatusCode)|Initial status reason for the service activity.|[service/Service](Service.md)|
-|[initialStatusCode_display](#initialStatusCode_display)||[service/Service](Service.md)|
-|[isSchedulable](#isSchedulable)|Information about whether the service can be scheduled.|[service/Service](Service.md)|
-|[isVisible](#isVisible)|Information about whether the service is visible to users.|[service/Service](Service.md)|
-|[resourceSpecId](#resourceSpecId)|Unique identifier of the resource specification with which the service is associated.|[service/Service](Service.md)|
-|[showResources](#showResources)|For internal use only.|[service/Service](Service.md)|
-|[strategyId](#strategyId)|Value that is taken from PluginTypeId in the Plugin Type record for the scheduling strategy. This is the ID of the scheduling strategy plug-in associated with the service.|[service/Service](Service.md)|
+|[serviceId](#serviceId)|Unique identifier of the associated service.|<a href="Service.md" target="_blank">service/Service</a>|
+|[createdOn](#createdOn)|Date and time when the service was created.|<a href="Service.md" target="_blank">service/Service</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the service.|<a href="Service.md" target="_blank">service/Service</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the service was last modified.|<a href="Service.md" target="_blank">service/Service</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the service.|<a href="Service.md" target="_blank">service/Service</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the service.|<a href="Service.md" target="_blank">service/Service</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the service.|<a href="Service.md" target="_blank">service/Service</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="Service.md" target="_blank">service/Service</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Service.md" target="_blank">service/Service</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Service.md" target="_blank">service/Service</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Service.md" target="_blank">service/Service</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Service.md" target="_blank">service/Service</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Service.md" target="_blank">service/Service</a>|
+|[name](#name)|Name of the service.|<a href="Service.md" target="_blank">service/Service</a>|
+|[anchorOffset](#anchorOffset)|Used in conjunction with granularity to describes when services can be performed in relation to midnight on a given day.|<a href="Service.md" target="_blank">service/Service</a>|
+|[calendarId](#calendarId)|Unique identifier of the calendar.|<a href="Service.md" target="_blank">service/Service</a>|
+|[description](#description)|Description of activity that represents work done to satisfy a customer's need.|<a href="Service.md" target="_blank">service/Service</a>|
+|[duration](#duration)|Duration of the service.|<a href="Service.md" target="_blank">service/Service</a>|
+|[granularity](#granularity)|Describes how often the service is performed.|<a href="Service.md" target="_blank">service/Service</a>|
+|[initialStatusCode](#initialStatusCode)|Initial status reason for the service activity.|<a href="Service.md" target="_blank">service/Service</a>|
+|[initialStatusCode_display](#initialStatusCode_display)||<a href="Service.md" target="_blank">service/Service</a>|
+|[isSchedulable](#isSchedulable)|Information about whether the service can be scheduled.|<a href="Service.md" target="_blank">service/Service</a>|
+|[isVisible](#isVisible)|Information about whether the service is visible to users.|<a href="Service.md" target="_blank">service/Service</a>|
+|[resourceSpecId](#resourceSpecId)|Unique identifier of the resource specification with which the service is associated.|<a href="Service.md" target="_blank">service/Service</a>|
+|[showResources](#showResources)|For internal use only.|<a href="Service.md" target="_blank">service/Service</a>|
+|[strategyId](#strategyId)|Value that is taken from PluginTypeId in the Plugin Type record for the scheduling strategy. This is the ID of the scheduling strategy plug-in associated with the service.|<a href="Service.md" target="_blank">service/Service</a>|
 
 ### <a href=#serviceId name="serviceId">serviceId</a>
 

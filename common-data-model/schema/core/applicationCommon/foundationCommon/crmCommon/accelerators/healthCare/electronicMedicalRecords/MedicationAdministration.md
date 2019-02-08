@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Medication Administration
 
 Describes the event of a patient consuming or otherwise being administered a medication.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,77 +46,78 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/MedicationAdministration  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[medicationAdministrationId](#medicationAdministrationId)|Unique identifier for entity instances|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[stateCode](#stateCode)|Status of the Medication Administration|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[statusCode](#statusCode)|Reason for the status of the Medication Administration|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[category](#category)|Indicates the type of medication administration and where the medication is expected to be consumed or administered.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[contextType](#contextType)|The visit, admission or other contact between patient and health care provider the medication administration was performed as part of.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[contextType_display](#contextType_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[contextTypeEncounter](#contextTypeEncounter)|The visit, admission or other contact between patient and health care provider the medication administration was performed as part of.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[contextTypeEpisodeOfCare](#contextTypeEpisodeOfCare)|The visit, admission or other contact between patient and health care provider the medication administration was performed as part of.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[dosageDose](#dosageDose)|The amount of the medication given at one administration event. Use this value when the administration is essentially an instantaneous event such as a swallowing a tablet or giving an injection.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[dosageMethod](#dosageMethod)|A coded value indicating the method by which the medication is intended to be or was introduced into or on the body. This attribute will most often NOT be populated.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[dosageRateQuantity](#dosageRateQuantity)|Identifies the speed with which the medication was or will be introduced into the patient.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[dosageRateType](#dosageRateType)|Identifies the speed with which the medication was or will be introduced into the patient. Typically the rate for an infusion e.g. 100 ml per 1 hour or 100 ml/hr.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[dosageRateType_display](#dosageRateType_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[dosageRoute](#dosageRoute)|A code specifying the route or physiological path of administration of a therapeutic agent into or onto the patient. For example, topical, intravenous, etc.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[dosageSite](#dosageSite)|A coded specification of the anatomic site where the medication first entered the body. For example, "left arm".|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[dosageText](#dosageText)|"Free text dosage can be used for cases where the dosage administered is too complex to code. When coded dosage is present, the free text dosage may still be present for display to humans.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[effectiveDatetime](#effectiveDatetime)|A specific date/time or interval of time during which the administration took place (or did not take place, when the 'notGiven' attribute is true).|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[effectivePeriodEndDate](#effectivePeriodEndDate)|A specific date/time or interval of time during which the administration took place|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[effectivePeriodStartDate](#effectivePeriodStartDate)|A specific date/time or interval of time during which the administration took place|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[effectiveType](#effectiveType)|A specific date/time or interval of time during which the administration took place (or did not take place, when the 'notGiven' attribute is true).|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[effectiveType_display](#effectiveType_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[medicationAdministrationNumber](#medicationAdministrationNumber)|External identifier - FHIR will generate its own internal identifiers (probably URLs) which do not need to be explicitly managed by the resource.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[medicationCodeableConcept](#medicationCodeableConcept)|Identifies the medication that was administered.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[medicationReference](#medicationReference)|A specific date/time or interval of time during which the administration took place|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[medicationType](#medicationType)|Identifies the medication that was administered.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[medicationType_display](#medicationType_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[notGiven](#notGiven)|Set this to true if the record is saying that the medication was NOT administered.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[prescription](#prescription)|The original request, instruction or authority to perform the administration.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityDenominatorComparator](#rateRatioQuantityDenominatorComparator)|How the value should be understood and represented|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityDenominatorComparator_display](#rateRatioQuantityDenominatorComparator_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityDenominatorUnit](#rateRatioQuantityDenominatorUnit)|A human-readable form of the unit.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityDenominatorValue](#rateRatioQuantityDenominatorValue)|The value of the measured amount. The value includes an implicit precision in the presentation of the value.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityNumeratorCode](#rateRatioQuantityNumeratorCode)|A computer processable form of the unit in some unit representation system.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityNumeratorComparator](#rateRatioQuantityNumeratorComparator)|How the value should be understood and represented|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityNumeratorComparator_display](#rateRatioQuantityNumeratorComparator_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityNumeratorSystem](#rateRatioQuantityNumeratorSystem)|The identification of the system that provides the coded form of the unit.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityNumeratorUnit](#rateRatioQuantityNumeratorUnit)|A human-readable form of the unit.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatioQuantityNumeratorValue](#rateRatioQuantityNumeratorValue)|The value of the measured amount. The value includes an implicit precision in the presentation of the value.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[rateRatiotQuantityDenominatorSystem](#rateRatiotQuantityDenominatorSystem)|The identification of the system that provides the coded form of the unit.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[ratioDenominatorCode](#ratioDenominatorCode)|A computer processable form of the unit in some unit representation system.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[status](#status)|Will generally be set to show that the administration has been completed.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[status_display](#status_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[subjectType](#subjectType)|The person or animal or group receiving the medication.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[subjectType_display](#subjectType_display)||[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[subjectTypeGroup](#subjectTypeGroup)|The group receiving the medication.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
-|[subjectTypePatient](#subjectTypePatient)|he person receiving the medication.|[electronicMedicalRecords/MedicationAdministration](MedicationAdministration.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[medicationAdministrationId](#medicationAdministrationId)|Unique identifier for entity instances|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[stateCode](#stateCode)|Status of the Medication Administration|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[stateCode_display](#stateCode_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[statusCode](#statusCode)|Reason for the status of the Medication Administration|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[statusCode_display](#statusCode_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[name](#name)|The name of the custom entity.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[category](#category)|Indicates the type of medication administration and where the medication is expected to be consumed or administered.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[contextType](#contextType)|The visit, admission or other contact between patient and health care provider the medication administration was performed as part of.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[contextType_display](#contextType_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[contextTypeEncounter](#contextTypeEncounter)|The visit, admission or other contact between patient and health care provider the medication administration was performed as part of.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[contextTypeEpisodeOfCare](#contextTypeEpisodeOfCare)|The visit, admission or other contact between patient and health care provider the medication administration was performed as part of.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[dosageDose](#dosageDose)|The amount of the medication given at one administration event. Use this value when the administration is essentially an instantaneous event such as a swallowing a tablet or giving an injection.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[dosageMethod](#dosageMethod)|A coded value indicating the method by which the medication is intended to be or was introduced into or on the body. This attribute will most often NOT be populated.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[dosageRateQuantity](#dosageRateQuantity)|Identifies the speed with which the medication was or will be introduced into the patient.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[dosageRateType](#dosageRateType)|Identifies the speed with which the medication was or will be introduced into the patient. Typically the rate for an infusion e.g. 100 ml per 1 hour or 100 ml/hr.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[dosageRateType_display](#dosageRateType_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[dosageRoute](#dosageRoute)|A code specifying the route or physiological path of administration of a therapeutic agent into or onto the patient. For example, topical, intravenous, etc.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[dosageSite](#dosageSite)|A coded specification of the anatomic site where the medication first entered the body. For example, "left arm".|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[dosageText](#dosageText)|"Free text dosage can be used for cases where the dosage administered is too complex to code. When coded dosage is present, the free text dosage may still be present for display to humans.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[effectiveDatetime](#effectiveDatetime)|A specific date/time or interval of time during which the administration took place (or did not take place, when the 'notGiven' attribute is true).|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[effectivePeriodEndDate](#effectivePeriodEndDate)|A specific date/time or interval of time during which the administration took place|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[effectivePeriodStartDate](#effectivePeriodStartDate)|A specific date/time or interval of time during which the administration took place|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[effectiveType](#effectiveType)|A specific date/time or interval of time during which the administration took place (or did not take place, when the 'notGiven' attribute is true).|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[effectiveType_display](#effectiveType_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[medicationAdministrationNumber](#medicationAdministrationNumber)|External identifier - FHIR will generate its own internal identifiers (probably URLs) which do not need to be explicitly managed by the resource.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[medicationCodeableConcept](#medicationCodeableConcept)|Identifies the medication that was administered.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[medicationReference](#medicationReference)|A specific date/time or interval of time during which the administration took place|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[medicationType](#medicationType)|Identifies the medication that was administered.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[medicationType_display](#medicationType_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[notGiven](#notGiven)|Set this to true if the record is saying that the medication was NOT administered.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[prescription](#prescription)|The original request, instruction or authority to perform the administration.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityDenominatorComparator](#rateRatioQuantityDenominatorComparator)|How the value should be understood and represented|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityDenominatorComparator_display](#rateRatioQuantityDenominatorComparator_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityDenominatorUnit](#rateRatioQuantityDenominatorUnit)|A human-readable form of the unit.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityDenominatorValue](#rateRatioQuantityDenominatorValue)|The value of the measured amount. The value includes an implicit precision in the presentation of the value.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityNumeratorCode](#rateRatioQuantityNumeratorCode)|A computer processable form of the unit in some unit representation system.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityNumeratorComparator](#rateRatioQuantityNumeratorComparator)|How the value should be understood and represented|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityNumeratorComparator_display](#rateRatioQuantityNumeratorComparator_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityNumeratorSystem](#rateRatioQuantityNumeratorSystem)|The identification of the system that provides the coded form of the unit.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityNumeratorUnit](#rateRatioQuantityNumeratorUnit)|A human-readable form of the unit.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatioQuantityNumeratorValue](#rateRatioQuantityNumeratorValue)|The value of the measured amount. The value includes an implicit precision in the presentation of the value.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[rateRatiotQuantityDenominatorSystem](#rateRatiotQuantityDenominatorSystem)|The identification of the system that provides the coded form of the unit.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[ratioDenominatorCode](#ratioDenominatorCode)|A computer processable form of the unit in some unit representation system.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[status](#status)|Will generally be set to show that the administration has been completed.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[status_display](#status_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[subjectType](#subjectType)|The person or animal or group receiving the medication.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[subjectType_display](#subjectType_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[subjectTypeGroup](#subjectTypeGroup)|The group receiving the medication.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[subjectTypePatient](#subjectTypePatient)|he person receiving the medication.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

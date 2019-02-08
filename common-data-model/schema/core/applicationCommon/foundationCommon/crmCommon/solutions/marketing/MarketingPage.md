@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Marketing Page
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingPage.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,63 +42,64 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 marketing/MarketingPage  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[marketing/MarketingPage](MarketingPage.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[marketing/MarketingPage](MarketingPage.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[marketing/MarketingPage](MarketingPage.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[marketing/MarketingPage](MarketingPage.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[marketing/MarketingPage](MarketingPage.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[marketing/MarketingPage](MarketingPage.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[marketing/MarketingPage](MarketingPage.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[marketing/MarketingPage](MarketingPage.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[marketing/MarketingPage](MarketingPage.md)|
-|[ownerId](#ownerId)|Owner Id|[marketing/MarketingPage](MarketingPage.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[marketing/MarketingPage](MarketingPage.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[marketing/MarketingPage](MarketingPage.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[marketing/MarketingPage](MarketingPage.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[marketing/MarketingPage](MarketingPage.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[marketing/MarketingPage](MarketingPage.md)|
-|[versionNumber](#versionNumber)|Version Number|[marketing/MarketingPage](MarketingPage.md)|
-|[marketingPageId](#marketingPageId)|Unique ID for entity instances.|[marketing/MarketingPage](MarketingPage.md)|
-|[stateCode](#stateCode)|Status of the marketing page|[marketing/MarketingPage](MarketingPage.md)|
-|[stateCode_display](#stateCode_display)||[marketing/MarketingPage](MarketingPage.md)|
-|[statusCode](#statusCode)|Marketing page status reason|[marketing/MarketingPage](MarketingPage.md)|
-|[statusCode_display](#statusCode_display)||[marketing/MarketingPage](MarketingPage.md)|
-|[name](#name)|Name of the Marketing page.|[marketing/MarketingPage](MarketingPage.md)|
-|[content](#content)||[marketing/MarketingPage](MarketingPage.md)|
-|[contentType](#contentType)||[marketing/MarketingPage](MarketingPage.md)|
-|[contentType_display](#contentType_display)||[marketing/MarketingPage](MarketingPage.md)|
-|[formPageMapping](#formPageMapping)||[marketing/MarketingPage](MarketingPage.md)|
-|[knownDomains](#knownDomains)||[marketing/MarketingPage](MarketingPage.md)|
-|[fullPageURL](#fullPageURL)||[marketing/MarketingPage](MarketingPage.md)|
-|[insightsPlaceholder](#insightsPlaceholder)||[marketing/MarketingPage](MarketingPage.md)|
-|[marketingPageTemplate](#marketingPageTemplate)||[marketing/MarketingPage](MarketingPage.md)|
-|[marketingWebsite](#marketingWebsite)||[marketing/MarketingPage](MarketingPage.md)|
-|[marketType](#marketType)||[marketing/MarketingPage](MarketingPage.md)|
-|[marketType_display](#marketType_display)||[marketing/MarketingPage](MarketingPage.md)|
-|[optimizedFor](#optimizedFor)||[marketing/MarketingPage](MarketingPage.md)|
-|[optimizedFor_display](#optimizedFor_display)||[marketing/MarketingPage](MarketingPage.md)|
-|[partialURL](#partialURL)||[marketing/MarketingPage](MarketingPage.md)|
-|[purpose](#purpose)||[marketing/MarketingPage](MarketingPage.md)|
-|[purpose_display](#purpose_display)||[marketing/MarketingPage](MarketingPage.md)|
-|[remoteWebsiteID](#remoteWebsiteID)|Unique ID for remote entity instances.|[marketing/MarketingPage](MarketingPage.md)|
-|[type](#type)||[marketing/MarketingPage](MarketingPage.md)|
-|[type_display](#type_display)||[marketing/MarketingPage](MarketingPage.md)|
-|[visualStyle](#visualStyle)||[marketing/MarketingPage](MarketingPage.md)|
-|[visualStyle_display](#visualStyle_display)||[marketing/MarketingPage](MarketingPage.md)|
-|[lastPublishedDate](#lastPublishedDate)|Date and time when the marketing page was last published.|[marketing/MarketingPage](MarketingPage.md)|
-|[lastUnpublishedDate](#lastUnpublishedDate)|Date and time when the marketing page was last unpublished.|[marketing/MarketingPage](MarketingPage.md)|
-|[pageTemplate](#pageTemplate)||[marketing/MarketingPage](MarketingPage.md)|
-|[webPage](#webPage)||[marketing/MarketingPage](MarketingPage.md)|
-|[webTemplate](#webTemplate)||[marketing/MarketingPage](MarketingPage.md)|
-|[portalswebsite](#portalswebsite)||[marketing/MarketingPage](MarketingPage.md)|
-|[pageLanguage](#pageLanguage)||[marketing/MarketingPage](MarketingPage.md)|
-|[containerPage](#containerPage)||[marketing/MarketingPage](MarketingPage.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[marketingPageId](#marketingPageId)|Unique ID for entity instances.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[stateCode](#stateCode)|Status of the marketing page|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[stateCode_display](#stateCode_display)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[statusCode](#statusCode)|Marketing page status reason|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[statusCode_display](#statusCode_display)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[name](#name)|Name of the Marketing page.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[content](#content)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[contentType](#contentType)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[contentType_display](#contentType_display)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[formPageMapping](#formPageMapping)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[knownDomains](#knownDomains)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[fullPageURL](#fullPageURL)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[insightsPlaceholder](#insightsPlaceholder)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[marketingPageTemplate](#marketingPageTemplate)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[marketingWebsite](#marketingWebsite)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[marketType](#marketType)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[marketType_display](#marketType_display)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[optimizedFor](#optimizedFor)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[optimizedFor_display](#optimizedFor_display)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[partialURL](#partialURL)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[purpose](#purpose)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[purpose_display](#purpose_display)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[remoteWebsiteID](#remoteWebsiteID)|Unique ID for remote entity instances.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[type](#type)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[type_display](#type_display)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[visualStyle](#visualStyle)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[visualStyle_display](#visualStyle_display)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[lastPublishedDate](#lastPublishedDate)|Date and time when the marketing page was last published.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[lastUnpublishedDate](#lastUnpublishedDate)|Date and time when the marketing page was last unpublished.|<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[pageTemplate](#pageTemplate)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[webPage](#webPage)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[webTemplate](#webTemplate)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[portalswebsite](#portalswebsite)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[pageLanguage](#pageLanguage)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
+|[containerPage](#containerPage)||<a href="MarketingPage.md" target="_blank">marketing/MarketingPage</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

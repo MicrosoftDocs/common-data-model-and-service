@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Activity contact dispatched
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactDispatched.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,22 +33,23 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/ActivityContactDispatched  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
-|[contactId](#contactId)|Contact|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
-|[accountId](#accountId)|Account|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
-|[activityId](#activityId)|Activity ID|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/ActivityContactDispatched](ActivityContactDispatched.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
+|[contactId](#contactId)|Contact|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
+|[accountId](#accountId)|Account|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
+|[activityId](#activityId)|Activity ID|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="ActivityContactDispatched.md" target="_blank">interactions/ActivityContactDispatched</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

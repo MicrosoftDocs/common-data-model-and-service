@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Waitlist Item
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/WaitlistItem.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,39 +42,40 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/WaitlistItem  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[waitListItemId](#waitListItemId)|Unique identifier for entity instances|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[stateCode](#stateCode)|Status of the Waitlist Item|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[statusCode](#statusCode)|Reason for the status of the Waitlist Item|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[automaticallyRegister](#automaticallyRegister)||[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[contact](#contact)||[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[event](#event)||[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[invited](#invited)||[eventManagement/WaitlistItem](WaitlistItem.md)|
-|[reserved](#reserved)||[eventManagement/WaitlistItem](WaitlistItem.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[waitListItemId](#waitListItemId)|Unique identifier for entity instances|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[stateCode](#stateCode)|Status of the Waitlist Item|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[stateCode_display](#stateCode_display)||<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[statusCode](#statusCode)|Reason for the status of the Waitlist Item|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[statusCode_display](#statusCode_display)||<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[name](#name)|The name of the custom entity.|<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[automaticallyRegister](#automaticallyRegister)||<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[contact](#contact)||<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[event](#event)||<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[invited](#invited)||<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
+|[reserved](#reserved)||<a href="WaitlistItem.md" target="_blank">eventManagement/WaitlistItem</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

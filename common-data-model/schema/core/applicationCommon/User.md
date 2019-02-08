@@ -11,7 +11,7 @@ ms.author: tpalmer
 # User
 
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/User.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,6 +43,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/User  
 [service/User](foundationCommon/crmCommon/service/User.md "/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User")  
 
@@ -50,142 +51,142 @@ applicationCommon/User
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[systemUserId](#systemUserId)|Unique identifier for the user.|[applicationCommon/User](User.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the user.|[applicationCommon/User](User.md)|
-|[businessUnitId](#businessUnitId)|Unique identifier of the business unit with which the user is associated.|[applicationCommon/User](User.md)|
-|[parentSystemUserId](#parentSystemUserId)|Unique identifier of the manager of the user.|[applicationCommon/User](User.md)|
-|[firstName](#firstName)|First name of the user.|[applicationCommon/User](User.md)|
-|[salutation](#salutation)|Salutation for correspondence with the user.|[applicationCommon/User](User.md)|
-|[middleName](#middleName)|Middle name of the user.|[applicationCommon/User](User.md)|
-|[lastName](#lastName)|Last name of the user.|[applicationCommon/User](User.md)|
-|[personalEMailAddress](#personalEMailAddress)|Personal email address of the user.|[applicationCommon/User](User.md)|
-|[fullName](#fullName)|Full name of the user.|[applicationCommon/User](User.md)|
-|[nickName](#nickName)|Nickname of the user.|[applicationCommon/User](User.md)|
-|[title](#title)|Title of the user.|[applicationCommon/User](User.md)|
-|[internalEMailAddress](#internalEMailAddress)|Internal email address for the user.|[applicationCommon/User](User.md)|
-|[jobTitle](#jobTitle)|Job title of the user.|[applicationCommon/User](User.md)|
-|[mobileAlertEMail](#mobileAlertEMail)|Mobile alert email address for the user.|[applicationCommon/User](User.md)|
-|[preferredEmailCode](#preferredEmailCode)|Preferred email address for the user.|[applicationCommon/User](User.md)|
-|[preferredEmailCode_display](#preferredEmailCode_display)||[applicationCommon/User](User.md)|
-|[homePhone](#homePhone)|Home phone number for the user.|[applicationCommon/User](User.md)|
-|[mobilePhone](#mobilePhone)|Mobile phone number for the user.|[applicationCommon/User](User.md)|
-|[preferredPhoneCode](#preferredPhoneCode)|Preferred phone number for the user.|[applicationCommon/User](User.md)|
-|[preferredPhoneCode_display](#preferredPhoneCode_display)||[applicationCommon/User](User.md)|
-|[preferredAddressCode](#preferredAddressCode)|Preferred address for the user.|[applicationCommon/User](User.md)|
-|[preferredAddressCode_display](#preferredAddressCode_display)||[applicationCommon/User](User.md)|
-|[photoUrl](#photoUrl)|URL for the Website on which a photo of the user is located.|[applicationCommon/User](User.md)|
-|[domainName](#domainName)|Active Directory domain of which the user is a member.|[applicationCommon/User](User.md)|
-|[passportLo](#passportLo)|For internal use only.|[applicationCommon/User](User.md)|
-|[createdOn](#createdOn)|Date and time when the user was created.|[applicationCommon/User](User.md)|
-|[passportHi](#passportHi)|For internal use only.|[applicationCommon/User](User.md)|
-|[disabledReason](#disabledReason)|Reason for disabling the user.|[applicationCommon/User](User.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the user was last modified.|[applicationCommon/User](User.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the user.|[applicationCommon/User](User.md)|
-|[employeeId](#employeeId)|Employee identifier for the user.|[applicationCommon/User](User.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the user.|[applicationCommon/User](User.md)|
-|[isDisabled](#isDisabled)|Information about whether the user is enabled.|[applicationCommon/User](User.md)|
-|[governmentId](#governmentId)|Government identifier for the user.|[applicationCommon/User](User.md)|
-|[versionNumber](#versionNumber)|Version number of the user.|[applicationCommon/User](User.md)|
-|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|[applicationCommon/User](User.md)|
-|[address1AddressTypeCode](#address1AddressTypeCode)|Type of address for address 1, such as billing, shipping, or primary address.|[applicationCommon/User](User.md)|
-|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||[applicationCommon/User](User.md)|
-|[address1Name](#address1Name)|Name to enter for address 1.|[applicationCommon/User](User.md)|
-|[address1Line1](#address1Line1)|First line for entering address 1 information.|[applicationCommon/User](User.md)|
-|[address1Line2](#address1Line2)|Second line for entering address 1 information.|[applicationCommon/User](User.md)|
-|[address1Line3](#address1Line3)|Third line for entering address 1 information.|[applicationCommon/User](User.md)|
-|[address1City](#address1City)|City name for address 1.|[applicationCommon/User](User.md)|
-|[address1StateOrProvince](#address1StateOrProvince)|State or province for address 1.|[applicationCommon/User](User.md)|
-|[address1County](#address1County)|County name for address 1.|[applicationCommon/User](User.md)|
-|[address1Country](#address1Country)|Country/region name in address 1.|[applicationCommon/User](User.md)|
-|[address1PostOfficeBox](#address1PostOfficeBox)|Post office box number for address 1.|[applicationCommon/User](User.md)|
-|[address1PostalCode](#address1PostalCode)|ZIP Code or postal code for address 1.|[applicationCommon/User](User.md)|
-|[address1UTCOffset](#address1UTCOffset)|UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.|[applicationCommon/User](User.md)|
-|[address1UPSZone](#address1UPSZone)|United Parcel Service (UPS) zone for address 1.|[applicationCommon/User](User.md)|
-|[address1Latitude](#address1Latitude)|Latitude for address 1.|[applicationCommon/User](User.md)|
-|[address1Telephone1](#address1Telephone1)|First telephone number associated with address 1.|[applicationCommon/User](User.md)|
-|[address1Longitude](#address1Longitude)|Longitude for address 1.|[applicationCommon/User](User.md)|
-|[address1ShippingMethodCode](#address1ShippingMethodCode)|Method of shipment for address 1.|[applicationCommon/User](User.md)|
-|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||[applicationCommon/User](User.md)|
-|[address1Telephone2](#address1Telephone2)|Second telephone number associated with address 1.|[applicationCommon/User](User.md)|
-|[address1Telephone3](#address1Telephone3)|Third telephone number associated with address 1.|[applicationCommon/User](User.md)|
-|[address1Fax](#address1Fax)|Fax number for address 1.|[applicationCommon/User](User.md)|
-|[address2AddressId](#address2AddressId)|Unique identifier for address 2.|[applicationCommon/User](User.md)|
-|[address2AddressTypeCode](#address2AddressTypeCode)|Type of address for address 2, such as billing, shipping, or primary address.|[applicationCommon/User](User.md)|
-|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||[applicationCommon/User](User.md)|
-|[address2Name](#address2Name)|Name to enter for address 2.|[applicationCommon/User](User.md)|
-|[address2Line1](#address2Line1)|First line for entering address 2 information.|[applicationCommon/User](User.md)|
-|[address2Line2](#address2Line2)|Second line for entering address 2 information.|[applicationCommon/User](User.md)|
-|[address2Line3](#address2Line3)|Third line for entering address 2 information.|[applicationCommon/User](User.md)|
-|[address2City](#address2City)|City name for address 2.|[applicationCommon/User](User.md)|
-|[address2StateOrProvince](#address2StateOrProvince)|State or province for address 2.|[applicationCommon/User](User.md)|
-|[address2County](#address2County)|County name for address 2.|[applicationCommon/User](User.md)|
-|[address2Country](#address2Country)|Country/region name in address 2.|[applicationCommon/User](User.md)|
-|[address2PostOfficeBox](#address2PostOfficeBox)|Post office box number for address 2.|[applicationCommon/User](User.md)|
-|[address2PostalCode](#address2PostalCode)|ZIP Code or postal code for address 2.|[applicationCommon/User](User.md)|
-|[address2UTCOffset](#address2UTCOffset)|UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.|[applicationCommon/User](User.md)|
-|[address2UPSZone](#address2UPSZone)|United Parcel Service (UPS) zone for address 2.|[applicationCommon/User](User.md)|
-|[address2Latitude](#address2Latitude)|Latitude for address 2.|[applicationCommon/User](User.md)|
-|[address2Telephone1](#address2Telephone1)|First telephone number associated with address 2.|[applicationCommon/User](User.md)|
-|[address2Longitude](#address2Longitude)|Longitude for address 2.|[applicationCommon/User](User.md)|
-|[address2ShippingMethodCode](#address2ShippingMethodCode)|Method of shipment for address 2.|[applicationCommon/User](User.md)|
-|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||[applicationCommon/User](User.md)|
-|[address2Telephone2](#address2Telephone2)|Second telephone number associated with address 2.|[applicationCommon/User](User.md)|
-|[address2Telephone3](#address2Telephone3)|Third telephone number associated with address 2.|[applicationCommon/User](User.md)|
-|[address2Fax](#address2Fax)|Fax number for address 2.|[applicationCommon/User](User.md)|
-|[skills](#skills)|Skill set of the user.|[applicationCommon/User](User.md)|
-|[displayInServiceViews](#displayInServiceViews)|Whether to display the user in service views.|[applicationCommon/User](User.md)|
-|[calendarId](#calendarId)|Fiscal calendar associated with the user.|[applicationCommon/User](User.md)|
-|[setupUser](#setupUser)|Check if user is a setup user.|[applicationCommon/User](User.md)|
-|[windowsLiveID](#windowsLiveID)|Windows Live ID|[applicationCommon/User](User.md)|
-|[incomingEmailDeliveryMethod](#incomingEmailDeliveryMethod)|Incoming email delivery method for the user.|[applicationCommon/User](User.md)|
-|[incomingEmailDeliveryMethod_display](#incomingEmailDeliveryMethod_display)||[applicationCommon/User](User.md)|
-|[outgoingEmailDeliveryMethod](#outgoingEmailDeliveryMethod)|Outgoing email delivery method for the user.|[applicationCommon/User](User.md)|
-|[outgoingEmailDeliveryMethod_display](#outgoingEmailDeliveryMethod_display)||[applicationCommon/User](User.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/User](User.md)|
-|[accessMode](#accessMode)|Type of user.|[applicationCommon/User](User.md)|
-|[accessMode_display](#accessMode_display)||[applicationCommon/User](User.md)|
-|[inviteStatusCode](#inviteStatusCode)|User invitation status.|[applicationCommon/User](User.md)|
-|[inviteStatusCode_display](#inviteStatusCode_display)||[applicationCommon/User](User.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/User](User.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/User](User.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/User](User.md)|
-|[yomiFullName](#yomiFullName)|Pronunciation of the full name of the user, written in phonetic hiragana or katakana characters.|[applicationCommon/User](User.md)|
-|[yomiLastName](#yomiLastName)|Pronunciation of the last name of the user, written in phonetic hiragana or katakana characters.|[applicationCommon/User](User.md)|
-|[yomiMiddleName](#yomiMiddleName)|Pronunciation of the middle name of the user, written in phonetic hiragana or katakana characters.|[applicationCommon/User](User.md)|
-|[yomiFirstName](#yomiFirstName)|Pronunciation of the first name of the user, written in phonetic hiragana or katakana characters.|[applicationCommon/User](User.md)|
-|[isIntegrationUser](#isIntegrationUser)|Check if user is an integration user.|[applicationCommon/User](User.md)|
-|[defaultFiltersPopulated](#defaultFiltersPopulated)|Indicates if default outlook filters have been populated.|[applicationCommon/User](User.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the systemuser.|[applicationCommon/User](User.md)|
-|[queueId](#queueId)|Unique identifier of the default queue for the user.|[applicationCommon/User](User.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the systemuser.|[applicationCommon/User](User.md)|
-|[emailRouterAccessApproval](#emailRouterAccessApproval)|Shows the status of the primary email address.|[applicationCommon/User](User.md)|
-|[emailRouterAccessApproval_display](#emailRouterAccessApproval_display)||[applicationCommon/User](User.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the systemuser.|[applicationCommon/User](User.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the systemuser with respect to the base currency.|[applicationCommon/User](User.md)|
-|[CALType](#CALType)|License type of user.|[applicationCommon/User](User.md)|
-|[CALType_display](#CALType_display)||[applicationCommon/User](User.md)|
-|[isLicensed](#isLicensed)|Information about whether the user is licensed.|[applicationCommon/User](User.md)|
-|[isSyncWithDirectory](#isSyncWithDirectory)|Information about whether the user is synced with the directory.|[applicationCommon/User](User.md)|
-|[yammerEmailAddress](#yammerEmailAddress)|User's Yammer login email address|[applicationCommon/User](User.md)|
-|[yammerUserId](#yammerUserId)|User's Yammer ID|[applicationCommon/User](User.md)|
-|[defaultMailbox](#defaultMailbox)|Select the mailbox associated with this user.|[applicationCommon/User](User.md)|
-|[userLicenseType](#userLicenseType)|Shows the type of user license.|[applicationCommon/User](User.md)|
-|[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/User](User.md)|
-|[address2Composite](#address2Composite)|Shows the complete secondary address.|[applicationCommon/User](User.md)|
-|[address1Composite](#address1Composite)|Shows the complete primary address.|[applicationCommon/User](User.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/User](User.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/User](User.md)|
-|[isEmailAddressApprovedByO365Admin](#isEmailAddressApprovedByO365Admin)|Shows the status of approval of the email address by O365 Admin.|[applicationCommon/User](User.md)|
-|[positionId](#positionId)|User's position in hierarchical security model.|[applicationCommon/User](User.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/User](User.md)|
-|[sharePointEmailAddress](#sharePointEmailAddress)|SharePoint Work Email Address|[applicationCommon/User](User.md)|
-|[mobileOfflineProfileId](#mobileOfflineProfileId)|Items contained with a particular SystemUser.|[applicationCommon/User](User.md)|
-|[defaultOdbFolderName](#defaultOdbFolderName)|Type a default folder name for the user's OneDrive For Business location.|[applicationCommon/User](User.md)|
-|[applicationId](#applicationId)|The identifier for the application. This is used to access data in another application.|[applicationCommon/User](User.md)|
-|[applicationIdUri](#applicationIdUri)|The URI used as a unique logical identifier for the external app. This can be used to validate the application.|[applicationCommon/User](User.md)|
-|[azureActiveDirectoryObjectId](#azureActiveDirectoryObjectId)|This is the application directory object Id.|[applicationCommon/User](User.md)|
-|[identityId](#identityId)|For internal use only.|[applicationCommon/User](User.md)|
-|[territoryId](#territoryId)|Unique identifier of the territory to which the user is assigned.|[applicationCommon/User](User.md)|
+|[systemUserId](#systemUserId)|Unique identifier for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[businessUnitId](#businessUnitId)|Unique identifier of the business unit with which the user is associated.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[parentSystemUserId](#parentSystemUserId)|Unique identifier of the manager of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[firstName](#firstName)|First name of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[salutation](#salutation)|Salutation for correspondence with the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[middleName](#middleName)|Middle name of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[lastName](#lastName)|Last name of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[personalEMailAddress](#personalEMailAddress)|Personal email address of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[fullName](#fullName)|Full name of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[nickName](#nickName)|Nickname of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[title](#title)|Title of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[internalEMailAddress](#internalEMailAddress)|Internal email address for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[jobTitle](#jobTitle)|Job title of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[mobileAlertEMail](#mobileAlertEMail)|Mobile alert email address for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[preferredEmailCode](#preferredEmailCode)|Preferred email address for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[preferredEmailCode_display](#preferredEmailCode_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[homePhone](#homePhone)|Home phone number for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[mobilePhone](#mobilePhone)|Mobile phone number for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[preferredPhoneCode](#preferredPhoneCode)|Preferred phone number for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[preferredPhoneCode_display](#preferredPhoneCode_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[preferredAddressCode](#preferredAddressCode)|Preferred address for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[preferredAddressCode_display](#preferredAddressCode_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[photoUrl](#photoUrl)|URL for the Website on which a photo of the user is located.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[domainName](#domainName)|Active Directory domain of which the user is a member.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[passportLo](#passportLo)|For internal use only.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[createdOn](#createdOn)|Date and time when the user was created.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[passportHi](#passportHi)|For internal use only.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[disabledReason](#disabledReason)|Reason for disabling the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the user was last modified.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[employeeId](#employeeId)|Employee identifier for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[isDisabled](#isDisabled)|Information about whether the user is enabled.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[governmentId](#governmentId)|Government identifier for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[versionNumber](#versionNumber)|Version number of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1AddressTypeCode](#address1AddressTypeCode)|Type of address for address 1, such as billing, shipping, or primary address.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Name](#address1Name)|Name to enter for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Line1](#address1Line1)|First line for entering address 1 information.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Line2](#address1Line2)|Second line for entering address 1 information.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Line3](#address1Line3)|Third line for entering address 1 information.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1City](#address1City)|City name for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1StateOrProvince](#address1StateOrProvince)|State or province for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1County](#address1County)|County name for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Country](#address1Country)|Country/region name in address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1PostOfficeBox](#address1PostOfficeBox)|Post office box number for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1PostalCode](#address1PostalCode)|ZIP Code or postal code for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1UTCOffset](#address1UTCOffset)|UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1UPSZone](#address1UPSZone)|United Parcel Service (UPS) zone for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Latitude](#address1Latitude)|Latitude for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Telephone1](#address1Telephone1)|First telephone number associated with address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Longitude](#address1Longitude)|Longitude for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1ShippingMethodCode](#address1ShippingMethodCode)|Method of shipment for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Telephone2](#address1Telephone2)|Second telephone number associated with address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Telephone3](#address1Telephone3)|Third telephone number associated with address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Fax](#address1Fax)|Fax number for address 1.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2AddressId](#address2AddressId)|Unique identifier for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2AddressTypeCode](#address2AddressTypeCode)|Type of address for address 2, such as billing, shipping, or primary address.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Name](#address2Name)|Name to enter for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Line1](#address2Line1)|First line for entering address 2 information.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Line2](#address2Line2)|Second line for entering address 2 information.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Line3](#address2Line3)|Third line for entering address 2 information.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2City](#address2City)|City name for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2StateOrProvince](#address2StateOrProvince)|State or province for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2County](#address2County)|County name for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Country](#address2Country)|Country/region name in address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2PostOfficeBox](#address2PostOfficeBox)|Post office box number for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2PostalCode](#address2PostalCode)|ZIP Code or postal code for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2UTCOffset](#address2UTCOffset)|UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2UPSZone](#address2UPSZone)|United Parcel Service (UPS) zone for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Latitude](#address2Latitude)|Latitude for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Telephone1](#address2Telephone1)|First telephone number associated with address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Longitude](#address2Longitude)|Longitude for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2ShippingMethodCode](#address2ShippingMethodCode)|Method of shipment for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Telephone2](#address2Telephone2)|Second telephone number associated with address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Telephone3](#address2Telephone3)|Third telephone number associated with address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Fax](#address2Fax)|Fax number for address 2.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[skills](#skills)|Skill set of the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[displayInServiceViews](#displayInServiceViews)|Whether to display the user in service views.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[calendarId](#calendarId)|Fiscal calendar associated with the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[setupUser](#setupUser)|Check if user is a setup user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[windowsLiveID](#windowsLiveID)|Windows Live ID|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[incomingEmailDeliveryMethod](#incomingEmailDeliveryMethod)|Incoming email delivery method for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[incomingEmailDeliveryMethod_display](#incomingEmailDeliveryMethod_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[outgoingEmailDeliveryMethod](#outgoingEmailDeliveryMethod)|Outgoing email delivery method for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[outgoingEmailDeliveryMethod_display](#outgoingEmailDeliveryMethod_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[accessMode](#accessMode)|Type of user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[accessMode_display](#accessMode_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[inviteStatusCode](#inviteStatusCode)|User invitation status.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[inviteStatusCode_display](#inviteStatusCode_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[yomiFullName](#yomiFullName)|Pronunciation of the full name of the user, written in phonetic hiragana or katakana characters.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[yomiLastName](#yomiLastName)|Pronunciation of the last name of the user, written in phonetic hiragana or katakana characters.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[yomiMiddleName](#yomiMiddleName)|Pronunciation of the middle name of the user, written in phonetic hiragana or katakana characters.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[yomiFirstName](#yomiFirstName)|Pronunciation of the first name of the user, written in phonetic hiragana or katakana characters.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[isIntegrationUser](#isIntegrationUser)|Check if user is an integration user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[defaultFiltersPopulated](#defaultFiltersPopulated)|Indicates if default outlook filters have been populated.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the systemuser.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[queueId](#queueId)|Unique identifier of the default queue for the user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the systemuser.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[emailRouterAccessApproval](#emailRouterAccessApproval)|Shows the status of the primary email address.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[emailRouterAccessApproval_display](#emailRouterAccessApproval_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the systemuser.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the systemuser with respect to the base currency.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[CALType](#CALType)|License type of user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[CALType_display](#CALType_display)||<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[isLicensed](#isLicensed)|Information about whether the user is licensed.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[isSyncWithDirectory](#isSyncWithDirectory)|Information about whether the user is synced with the directory.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[yammerEmailAddress](#yammerEmailAddress)|User's Yammer login email address|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[yammerUserId](#yammerUserId)|User's Yammer ID|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[defaultMailbox](#defaultMailbox)|Select the mailbox associated with this user.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[userLicenseType](#userLicenseType)|Shows the type of user license.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address2Composite](#address2Composite)|Shows the complete secondary address.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[address1Composite](#address1Composite)|Shows the complete primary address.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[isEmailAddressApprovedByO365Admin](#isEmailAddressApprovedByO365Admin)|Shows the status of approval of the email address by O365 Admin.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[positionId](#positionId)|User's position in hierarchical security model.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[sharePointEmailAddress](#sharePointEmailAddress)|SharePoint Work Email Address|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[mobileOfflineProfileId](#mobileOfflineProfileId)|Items contained with a particular SystemUser.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[defaultOdbFolderName](#defaultOdbFolderName)|Type a default folder name for the user's OneDrive For Business location.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[applicationId](#applicationId)|The identifier for the application. This is used to access data in another application.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[applicationIdUri](#applicationIdUri)|The URI used as a unique logical identifier for the external app. This can be used to validate the application.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[azureActiveDirectoryObjectId](#azureActiveDirectoryObjectId)|This is the application directory object Id.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[identityId](#identityId)|For internal use only.|<a href="User.md" target="_blank">applicationCommon/User</a>|
+|[territoryId](#territoryId)|Unique identifier of the territory to which the user is assigned.|<a href="User.md" target="_blank">applicationCommon/User</a>|
 
 ### <a href=#systemUserId name="systemUserId">systemUserId</a>
 

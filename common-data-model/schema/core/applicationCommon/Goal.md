@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Goal
 
 Target objective for a user or a team for a specified time period.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Goal.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,100 +46,101 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Goal  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Goal](Goal.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Goal](Goal.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Goal](Goal.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Goal](Goal.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Goal](Goal.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Goal](Goal.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Goal](Goal.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Goal](Goal.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Goal](Goal.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Goal](Goal.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/Goal](Goal.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/Goal](Goal.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/Goal](Goal.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Goal](Goal.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Goal](Goal.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Goal](Goal.md)|
-|[goalId](#goalId)|Unique identifier of the goal.|[applicationCommon/Goal](Goal.md)|
-|[stateCode](#stateCode)|Shows whether the goal is open, completed, or canceled. Completed and canceled goals are read-only and can't be edited.|[applicationCommon/Goal](Goal.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Goal](Goal.md)|
-|[statusCode](#statusCode)|Select the goal's status.|[applicationCommon/Goal](Goal.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Goal](Goal.md)|
-|[title](#title)|Type a title or name that describes the goal.|[applicationCommon/Goal](Goal.md)|
-|[fiscalPeriod](#fiscalPeriod)|Select the fiscal period for the goal.|[applicationCommon/Goal](Goal.md)|
-|[fiscalPeriod_display](#fiscalPeriod_display)||[applicationCommon/Goal](Goal.md)|
-|[fiscalYear](#fiscalYear)|Select the fiscal year for the goal that's being tracked.|[applicationCommon/Goal](Goal.md)|
-|[fiscalYear_display](#fiscalYear_display)||[applicationCommon/Goal](Goal.md)|
-|[goalStartDate](#goalStartDate)|Enter the date and time when the period for tracking the goal begins.|[applicationCommon/Goal](Goal.md)|
-|[goalEndDate](#goalEndDate)|Enter the date when the goal ends.|[applicationCommon/Goal](Goal.md)|
-|[goalOwnerIdType](#goalOwnerIdType)|The name of the entity linked by goalOwnerId|[applicationCommon/Goal](Goal.md)|
-|[goalOwnerId](#goalOwnerId)|Choose the user or team responsible for meeting the goal.|[applicationCommon/Goal](Goal.md)|
-|[parentGoalId](#parentGoalId)|Choose a parent goal if the current goal is a child goal. This sets up a parent-child relationship for reporting and analytics.|[applicationCommon/Goal](Goal.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Goal](Goal.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Goal](Goal.md)|
-|[metricId](#metricId)|Choose the metric for the goal. This metric determines how the goal is tracked.|[applicationCommon/Goal](Goal.md)|
-|[treeId](#treeId)|Unique identifier of the goal tree.|[applicationCommon/Goal](Goal.md)|
-|[depth](#depth)|Depth of the goal in the tree.|[applicationCommon/Goal](Goal.md)|
-|[stretchTargetMoney](#stretchTargetMoney)|Select stretch target (money) of the goal to define a higher or difficult level of goal than the usual ones.|[applicationCommon/Goal](Goal.md)|
-|[stretchTargetMoneyBase](#stretchTargetMoneyBase)|Shows the stretch target (money) in base currency to indicate a higher or difficult level of goal than the usual ones.|[applicationCommon/Goal](Goal.md)|
-|[stretchTargetDecimal](#stretchTargetDecimal)|Select a stretch target (decimal) of the goal to define a higher or difficult level of goal than the usual ones.|[applicationCommon/Goal](Goal.md)|
-|[stretchTargetInteger](#stretchTargetInteger)|Select the stretch target (integer) of the goal to define a higher or difficult level of goal than the usual ones.|[applicationCommon/Goal](Goal.md)|
-|[targetMoney](#targetMoney)|Select a goal target (money) to track a monetary amount such as revenue from a product.|[applicationCommon/Goal](Goal.md)|
-|[targetMoneyBase](#targetMoneyBase)|Shows the goal target of the money type in base currency.|[applicationCommon/Goal](Goal.md)|
-|[targetDecimal](#targetDecimal)|Select a goal target of the decimal type to use for tracking data that include partial numbers, such as pounds sold of a product sold by weight.|[applicationCommon/Goal](Goal.md)|
-|[targetInteger](#targetInteger)|Select a goal target of the integer type to use for tracking anything countable in whole numbers, such as units sold.|[applicationCommon/Goal](Goal.md)|
-|[actualMoney](#actualMoney)|Shows the actual value (Money type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Money.|[applicationCommon/Goal](Goal.md)|
-|[actualMoneyBase](#actualMoneyBase)|Shows the actual value (money type) in base currency to track goal results against the target.|[applicationCommon/Goal](Goal.md)|
-|[customRollupFieldMoney](#customRollupFieldMoney)|Indicates a placeholder rollup field for a money value to track a third category of results other than actuals and in-progress results.|[applicationCommon/Goal](Goal.md)|
-|[customRollupFieldMoneyBase](#customRollupFieldMoneyBase)|Indicates a placeholder rollup field for a money value in base currency to track a third category of results other than actuals and in-progress results.|[applicationCommon/Goal](Goal.md)|
-|[inProgressMoney](#inProgressMoney)|Shows the in-progress value (money) against the target. This value could contribute to a goal, but is not counted yet as actual.|[applicationCommon/Goal](Goal.md)|
-|[inProgressMoneyBase](#inProgressMoneyBase)|Shows the in-progress value (money) in base currency to track goal results against the target.|[applicationCommon/Goal](Goal.md)|
-|[actualDecimal](#actualDecimal)|Shows the actual value (Decimal type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Decimal.|[applicationCommon/Goal](Goal.md)|
-|[customRollupFieldDecimal](#customRollupFieldDecimal)|Indicates a placeholder rollup field for a decimal value to track a third category of results other than actuals and in-progress results.|[applicationCommon/Goal](Goal.md)|
-|[inProgressDecimal](#inProgressDecimal)|Shows the in-progress value (decimal) against the target. This value could contribute to a goal, but is not counted yet as actual.|[applicationCommon/Goal](Goal.md)|
-|[actualInteger](#actualInteger)|Shows the actual value (integer) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount or Count and the amount data type is Integer.|[applicationCommon/Goal](Goal.md)|
-|[customRollupFieldInteger](#customRollupFieldInteger)|Indicates a placeholder rollup field for an integer value to track a third category of results other than actuals and in-progress results.|[applicationCommon/Goal](Goal.md)|
-|[inProgressInteger](#inProgressInteger)|Shows the in-progress value (integer) against the target. This value could contribute to a goal, but is not counted yet as actual.|[applicationCommon/Goal](Goal.md)|
-|[percentage](#percentage)|Shows the percentage achieved against the target goal.|[applicationCommon/Goal](Goal.md)|
-|[isFiscalPeriodGoal](#isFiscalPeriodGoal)|Select whether the goal period is a fiscal period or custom period.|[applicationCommon/Goal](Goal.md)|
-|[considerOnlyGoalOwnersRecords](#considerOnlyGoalOwnersRecords)|Select whether only the goal owner's records, or all records, should be rolled up for goal results.|[applicationCommon/Goal](Goal.md)|
-|[lastRolledupDate](#lastRolledupDate)|Shows the date and time when the goal was last rolled up. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/Goal](Goal.md)|
-|[targetString](#targetString)|Target value of the goal.|[applicationCommon/Goal](Goal.md)|
-|[stretchTargetString](#stretchTargetString)|Stretch target value for all data types.|[applicationCommon/Goal](Goal.md)|
-|[actualString](#actualString)|Actual Value of the goal.|[applicationCommon/Goal](Goal.md)|
-|[customRollupFieldString](#customRollupFieldString)|Placeholder rollup field for the goal.|[applicationCommon/Goal](Goal.md)|
-|[inProgressString](#inProgressString)|In-progress value of the goal.|[applicationCommon/Goal](Goal.md)|
-|[amountDataType](#amountDataType)|Data type of the amount.|[applicationCommon/Goal](Goal.md)|
-|[amountDataType_display](#amountDataType_display)||[applicationCommon/Goal](Goal.md)|
-|[isAmount](#isAmount)|Indicates whether the metric type is Count or Amount.|[applicationCommon/Goal](Goal.md)|
-|[rollupQueryActualIntegerId](#rollupQueryActualIntegerId)|Choose the query that will be used to calculate the actual data for the goal (integer).|[applicationCommon/Goal](Goal.md)|
-|[rollUpQueryActualMoneyId](#rollUpQueryActualMoneyId)|Choose the query that will be used to calculate the actual data for the goal (money).|[applicationCommon/Goal](Goal.md)|
-|[rollUpQueryActualDecimalId](#rollUpQueryActualDecimalId)|Choose the query that will be used to calculate the actual data for the goal (decimal).|[applicationCommon/Goal](Goal.md)|
-|[rollUpQueryCustomIntegerId](#rollUpQueryCustomIntegerId)|Choose the query that will be used to calculate data for the custom rollup field (integer).|[applicationCommon/Goal](Goal.md)|
-|[rollUpQueryCustomMoneyId](#rollUpQueryCustomMoneyId)|Choose the query that will be used to calculate data for the custom rollup field (money).|[applicationCommon/Goal](Goal.md)|
-|[rollUpQueryCustomDecimalId](#rollUpQueryCustomDecimalId)|Choose the query that will be used to calculate data for the custom rollup field (decimal).|[applicationCommon/Goal](Goal.md)|
-|[rollUpQueryInprogressIntegerId](#rollUpQueryInprogressIntegerId)|Choose the query that will be used to calculate data for the in-progress rollup field (integer).|[applicationCommon/Goal](Goal.md)|
-|[rollUpQueryInprogressMoneyId](#rollUpQueryInprogressMoneyId)|Choose the query that will be used to calculate data for the in-progress rollup field (money).|[applicationCommon/Goal](Goal.md)|
-|[rollUpQueryInprogressDecimalId](#rollUpQueryInprogressDecimalId)|Choose the query that will be used to calculate data for the in-progress rollup field (decimal).|[applicationCommon/Goal](Goal.md)|
-|[rollupOnlyFromChildGoals](#rollupOnlyFromChildGoals)|Select whether the data should be rolled up only from the child goals.|[applicationCommon/Goal](Goal.md)|
-|[goalWithErrorId](#goalWithErrorId)|Unique identifier of the goal that caused an error in the rollup of the goal hierarchy.|[applicationCommon/Goal](Goal.md)|
-|[rollupErrorCode](#rollupErrorCode)|Error code associated with rollup.|[applicationCommon/Goal](Goal.md)|
-|[computedTargetAsOfTodayPercentageAchieved](#computedTargetAsOfTodayPercentageAchieved)|Shows the expected value for percentage achieved against the target goal as of the current date.|[applicationCommon/Goal](Goal.md)|
-|[computedTargetAsOfTodayMoney](#computedTargetAsOfTodayMoney)|Shows the expected amount for actual value (money type) against the target goal as of the current date.|[applicationCommon/Goal](Goal.md)|
-|[computedTargetAsOfTodayMoneyBase](#computedTargetAsOfTodayMoneyBase)|Shows the expected amount in base currency for actual value (money type) against the target goal as of the current date.|[applicationCommon/Goal](Goal.md)|
-|[computedTargetAsOfTodayDecimal](#computedTargetAsOfTodayDecimal)|Shows the expected amount for actual value (decimal type) against the target goal.|[applicationCommon/Goal](Goal.md)|
-|[computedTargetAsOfTodayInteger](#computedTargetAsOfTodayInteger)|Shows the expected amount for actual value (integer type) against the target goal as of the current date.|[applicationCommon/Goal](Goal.md)|
-|[isOverride](#isOverride)|Indicates whether the values of system rollup fields can be updated.|[applicationCommon/Goal](Goal.md)|
-|[isOverridden](#isOverridden)|Select whether the system rollup fields are updated. If set to Yes, the next system rollup will not update the values of the rollup fields with the system calculated values.|[applicationCommon/Goal](Goal.md)|
-|[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Goal](Goal.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[goalId](#goalId)|Unique identifier of the goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[stateCode](#stateCode)|Shows whether the goal is open, completed, or canceled. Completed and canceled goals are read-only and can't be edited.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[stateCode_display](#stateCode_display)||<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[statusCode](#statusCode)|Select the goal's status.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[statusCode_display](#statusCode_display)||<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[title](#title)|Type a title or name that describes the goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[fiscalPeriod](#fiscalPeriod)|Select the fiscal period for the goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[fiscalPeriod_display](#fiscalPeriod_display)||<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[fiscalYear](#fiscalYear)|Select the fiscal year for the goal that's being tracked.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[fiscalYear_display](#fiscalYear_display)||<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[goalStartDate](#goalStartDate)|Enter the date and time when the period for tracking the goal begins.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[goalEndDate](#goalEndDate)|Enter the date when the goal ends.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[goalOwnerIdType](#goalOwnerIdType)|The name of the entity linked by goalOwnerId|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[goalOwnerId](#goalOwnerId)|Choose the user or team responsible for meeting the goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[parentGoalId](#parentGoalId)|Choose a parent goal if the current goal is a child goal. This sets up a parent-child relationship for reporting and analytics.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[metricId](#metricId)|Choose the metric for the goal. This metric determines how the goal is tracked.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[treeId](#treeId)|Unique identifier of the goal tree.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[depth](#depth)|Depth of the goal in the tree.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[stretchTargetMoney](#stretchTargetMoney)|Select stretch target (money) of the goal to define a higher or difficult level of goal than the usual ones.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[stretchTargetMoneyBase](#stretchTargetMoneyBase)|Shows the stretch target (money) in base currency to indicate a higher or difficult level of goal than the usual ones.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[stretchTargetDecimal](#stretchTargetDecimal)|Select a stretch target (decimal) of the goal to define a higher or difficult level of goal than the usual ones.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[stretchTargetInteger](#stretchTargetInteger)|Select the stretch target (integer) of the goal to define a higher or difficult level of goal than the usual ones.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[targetMoney](#targetMoney)|Select a goal target (money) to track a monetary amount such as revenue from a product.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[targetMoneyBase](#targetMoneyBase)|Shows the goal target of the money type in base currency.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[targetDecimal](#targetDecimal)|Select a goal target of the decimal type to use for tracking data that include partial numbers, such as pounds sold of a product sold by weight.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[targetInteger](#targetInteger)|Select a goal target of the integer type to use for tracking anything countable in whole numbers, such as units sold.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[actualMoney](#actualMoney)|Shows the actual value (Money type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Money.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[actualMoneyBase](#actualMoneyBase)|Shows the actual value (money type) in base currency to track goal results against the target.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[customRollupFieldMoney](#customRollupFieldMoney)|Indicates a placeholder rollup field for a money value to track a third category of results other than actuals and in-progress results.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[customRollupFieldMoneyBase](#customRollupFieldMoneyBase)|Indicates a placeholder rollup field for a money value in base currency to track a third category of results other than actuals and in-progress results.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[inProgressMoney](#inProgressMoney)|Shows the in-progress value (money) against the target. This value could contribute to a goal, but is not counted yet as actual.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[inProgressMoneyBase](#inProgressMoneyBase)|Shows the in-progress value (money) in base currency to track goal results against the target.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[actualDecimal](#actualDecimal)|Shows the actual value (Decimal type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Decimal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[customRollupFieldDecimal](#customRollupFieldDecimal)|Indicates a placeholder rollup field for a decimal value to track a third category of results other than actuals and in-progress results.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[inProgressDecimal](#inProgressDecimal)|Shows the in-progress value (decimal) against the target. This value could contribute to a goal, but is not counted yet as actual.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[actualInteger](#actualInteger)|Shows the actual value (integer) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount or Count and the amount data type is Integer.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[customRollupFieldInteger](#customRollupFieldInteger)|Indicates a placeholder rollup field for an integer value to track a third category of results other than actuals and in-progress results.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[inProgressInteger](#inProgressInteger)|Shows the in-progress value (integer) against the target. This value could contribute to a goal, but is not counted yet as actual.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[percentage](#percentage)|Shows the percentage achieved against the target goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[isFiscalPeriodGoal](#isFiscalPeriodGoal)|Select whether the goal period is a fiscal period or custom period.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[considerOnlyGoalOwnersRecords](#considerOnlyGoalOwnersRecords)|Select whether only the goal owner's records, or all records, should be rolled up for goal results.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[lastRolledupDate](#lastRolledupDate)|Shows the date and time when the goal was last rolled up. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[targetString](#targetString)|Target value of the goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[stretchTargetString](#stretchTargetString)|Stretch target value for all data types.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[actualString](#actualString)|Actual Value of the goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[customRollupFieldString](#customRollupFieldString)|Placeholder rollup field for the goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[inProgressString](#inProgressString)|In-progress value of the goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[amountDataType](#amountDataType)|Data type of the amount.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[amountDataType_display](#amountDataType_display)||<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[isAmount](#isAmount)|Indicates whether the metric type is Count or Amount.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollupQueryActualIntegerId](#rollupQueryActualIntegerId)|Choose the query that will be used to calculate the actual data for the goal (integer).|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollUpQueryActualMoneyId](#rollUpQueryActualMoneyId)|Choose the query that will be used to calculate the actual data for the goal (money).|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollUpQueryActualDecimalId](#rollUpQueryActualDecimalId)|Choose the query that will be used to calculate the actual data for the goal (decimal).|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollUpQueryCustomIntegerId](#rollUpQueryCustomIntegerId)|Choose the query that will be used to calculate data for the custom rollup field (integer).|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollUpQueryCustomMoneyId](#rollUpQueryCustomMoneyId)|Choose the query that will be used to calculate data for the custom rollup field (money).|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollUpQueryCustomDecimalId](#rollUpQueryCustomDecimalId)|Choose the query that will be used to calculate data for the custom rollup field (decimal).|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollUpQueryInprogressIntegerId](#rollUpQueryInprogressIntegerId)|Choose the query that will be used to calculate data for the in-progress rollup field (integer).|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollUpQueryInprogressMoneyId](#rollUpQueryInprogressMoneyId)|Choose the query that will be used to calculate data for the in-progress rollup field (money).|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollUpQueryInprogressDecimalId](#rollUpQueryInprogressDecimalId)|Choose the query that will be used to calculate data for the in-progress rollup field (decimal).|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollupOnlyFromChildGoals](#rollupOnlyFromChildGoals)|Select whether the data should be rolled up only from the child goals.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[goalWithErrorId](#goalWithErrorId)|Unique identifier of the goal that caused an error in the rollup of the goal hierarchy.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[rollupErrorCode](#rollupErrorCode)|Error code associated with rollup.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[computedTargetAsOfTodayPercentageAchieved](#computedTargetAsOfTodayPercentageAchieved)|Shows the expected value for percentage achieved against the target goal as of the current date.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[computedTargetAsOfTodayMoney](#computedTargetAsOfTodayMoney)|Shows the expected amount for actual value (money type) against the target goal as of the current date.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[computedTargetAsOfTodayMoneyBase](#computedTargetAsOfTodayMoneyBase)|Shows the expected amount in base currency for actual value (money type) against the target goal as of the current date.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[computedTargetAsOfTodayDecimal](#computedTargetAsOfTodayDecimal)|Shows the expected amount for actual value (decimal type) against the target goal.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[computedTargetAsOfTodayInteger](#computedTargetAsOfTodayInteger)|Shows the expected amount for actual value (integer type) against the target goal as of the current date.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[isOverride](#isOverride)|Indicates whether the values of system rollup fields can be updated.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[isOverridden](#isOverridden)|Select whether the system rollup fields are updated. If set to Yes, the next system rollup will not update the values of the rollup fields with the system calculated values.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="Goal.md" target="_blank">applicationCommon/Goal</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

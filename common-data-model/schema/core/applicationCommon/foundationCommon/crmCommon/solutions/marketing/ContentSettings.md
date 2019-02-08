@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Content Settings
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/ContentSettings.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,44 +42,45 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 marketing/ContentSettings  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[marketing/ContentSettings](ContentSettings.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[marketing/ContentSettings](ContentSettings.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[marketing/ContentSettings](ContentSettings.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[marketing/ContentSettings](ContentSettings.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[marketing/ContentSettings](ContentSettings.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[marketing/ContentSettings](ContentSettings.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[marketing/ContentSettings](ContentSettings.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[marketing/ContentSettings](ContentSettings.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[marketing/ContentSettings](ContentSettings.md)|
-|[ownerId](#ownerId)|Owner Id|[marketing/ContentSettings](ContentSettings.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[marketing/ContentSettings](ContentSettings.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[marketing/ContentSettings](ContentSettings.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[marketing/ContentSettings](ContentSettings.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[marketing/ContentSettings](ContentSettings.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[marketing/ContentSettings](ContentSettings.md)|
-|[versionNumber](#versionNumber)|Version Number|[marketing/ContentSettings](ContentSettings.md)|
-|[contentSettingsId](#contentSettingsId)|Unique ID for entity instances.|[marketing/ContentSettings](ContentSettings.md)|
-|[stateCode](#stateCode)|Status of the Content Settings|[marketing/ContentSettings](ContentSettings.md)|
-|[stateCode_display](#stateCode_display)||[marketing/ContentSettings](ContentSettings.md)|
-|[statusCode](#statusCode)|Content settings status reason|[marketing/ContentSettings](ContentSettings.md)|
-|[statusCode_display](#statusCode_display)||[marketing/ContentSettings](ContentSettings.md)|
-|[name](#name)|The name of the custom entity.|[marketing/ContentSettings](ContentSettings.md)|
-|[addressLine2](#addressLine2)||[marketing/ContentSettings](ContentSettings.md)|
-|[addressMain](#addressMain)||[marketing/ContentSettings](ContentSettings.md)|
-|[default](#default)||[marketing/ContentSettings](ContentSettings.md)|
-|[facebookUrl](#facebookUrl)||[marketing/ContentSettings](ContentSettings.md)|
-|[forwardToAFriend](#forwardToAFriend)||[marketing/ContentSettings](ContentSettings.md)|
-|[linkedInUrl](#linkedInUrl)||[marketing/ContentSettings](ContentSettings.md)|
-|[subscriptionCenter](#subscriptionCenter)||[marketing/ContentSettings](ContentSettings.md)|
-|[twitterUrl](#twitterUrl)||[marketing/ContentSettings](ContentSettings.md)|
-|[googlePlusUrl](#googlePlusUrl)||[marketing/ContentSettings](ContentSettings.md)|
-|[youtubeUrl](#youtubeUrl)||[marketing/ContentSettings](ContentSettings.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[contentSettingsId](#contentSettingsId)|Unique ID for entity instances.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[stateCode](#stateCode)|Status of the Content Settings|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[stateCode_display](#stateCode_display)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[statusCode](#statusCode)|Content settings status reason|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[statusCode_display](#statusCode_display)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[name](#name)|The name of the custom entity.|<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[addressLine2](#addressLine2)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[addressMain](#addressMain)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[default](#default)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[facebookUrl](#facebookUrl)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[forwardToAFriend](#forwardToAFriend)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[linkedInUrl](#linkedInUrl)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[subscriptionCenter](#subscriptionCenter)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[twitterUrl](#twitterUrl)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[googlePlusUrl](#googlePlusUrl)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
+|[youtubeUrl](#youtubeUrl)||<a href="ContentSettings.md" target="_blank">marketing/ContentSettings</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Condition
 
 A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,76 +46,77 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/Condition  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/Condition](Condition.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/Condition](Condition.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/Condition](Condition.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/Condition](Condition.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/Condition](Condition.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/Condition](Condition.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/Condition](Condition.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/Condition](Condition.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/Condition](Condition.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/Condition](Condition.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/Condition](Condition.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/Condition](Condition.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/Condition](Condition.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/Condition](Condition.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/Condition](Condition.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/Condition](Condition.md)|
-|[conditionId](#conditionId)|Unique identifier for entity instances|[electronicMedicalRecords/Condition](Condition.md)|
-|[stateCode](#stateCode)|Status of the Condition|[electronicMedicalRecords/Condition](Condition.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/Condition](Condition.md)|
-|[statusCode](#statusCode)|Reason for the status of the Condition|[electronicMedicalRecords/Condition](Condition.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/Condition](Condition.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/Condition](Condition.md)|
-|[abatementAge](#abatementAge)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution" -|[electronicMedicalRecords/Condition](Condition.md)|
-|[abatementDate](#abatementDate)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|[electronicMedicalRecords/Condition](Condition.md)|
-|[abatementPeriodEndDate](#abatementPeriodEndDate)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|[electronicMedicalRecords/Condition](Condition.md)|
-|[abatementPeriodStartDate](#abatementPeriodStartDate)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|[electronicMedicalRecords/Condition](Condition.md)|
-|[abatementRangeHigh](#abatementRangeHigh)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|[electronicMedicalRecords/Condition](Condition.md)|
-|[abatementRangeLow](#abatementRangeLow)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|[electronicMedicalRecords/Condition](Condition.md)|
-|[abatementString](#abatementString)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|[electronicMedicalRecords/Condition](Condition.md)|
-|[abatementType](#abatementType)|Type of: The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission"/resolution.|[electronicMedicalRecords/Condition](Condition.md)|
-|[abatementType_display](#abatementType_display)||[electronicMedicalRecords/Condition](Condition.md)|
-|[appointment](#appointment)|A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).|[electronicMedicalRecords/Condition](Condition.md)|
-|[assertedDate](#assertedDate)|The date on which the existence of the Condition was first asserted or acknowledged.|[electronicMedicalRecords/Condition](Condition.md)|
-|[asserter](#asserter)|Person who asserts this condition|[electronicMedicalRecords/Condition](Condition.md)|
-|[carePlan](#carePlan)|Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.|[electronicMedicalRecords/Condition](Condition.md)|
-|[category](#category)|Categorization of the condition recorded by health care practitioner.|[electronicMedicalRecords/Condition](Condition.md)|
-|[clinicalStatus](#clinicalStatus)|The clinical status of the condition.|[electronicMedicalRecords/Condition](Condition.md)|
-|[clinicalStatus_display](#clinicalStatus_display)||[electronicMedicalRecords/Condition](Condition.md)|
-|[conditionCode](#conditionCode)|List of diagnosis/condition codes|[electronicMedicalRecords/Condition](Condition.md)|
-|[contextEncounter](#contextEncounter)|Categorization of the condition recorded by health care practitioner.|[electronicMedicalRecords/Condition](Condition.md)|
-|[contextEpisodeofCare](#contextEpisodeofCare)|Encounter or episode when condition first asserted|[electronicMedicalRecords/Condition](Condition.md)|
-|[contextType](#contextType)|Type of: Encounter during which the condition was first asserted.|[electronicMedicalRecords/Condition](Condition.md)|
-|[contextType_display](#contextType_display)||[electronicMedicalRecords/Condition](Condition.md)|
-|[encounter](#encounter)|An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.|[electronicMedicalRecords/Condition](Condition.md)|
-|[isAbatement](#isAbatement)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|[electronicMedicalRecords/Condition](Condition.md)|
-|[onsetAge](#onsetAge)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|[electronicMedicalRecords/Condition](Condition.md)|
-|[onsetDate](#onsetDate)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|[electronicMedicalRecords/Condition](Condition.md)|
-|[onsetPeriodEndDate](#onsetPeriodEndDate)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|[electronicMedicalRecords/Condition](Condition.md)|
-|[onsetPeriodStartDate](#onsetPeriodStartDate)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|[electronicMedicalRecords/Condition](Condition.md)|
-|[onsetRangeHigh](#onsetRangeHigh)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|[electronicMedicalRecords/Condition](Condition.md)|
-|[onsetRangeLow](#onsetRangeLow)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|[electronicMedicalRecords/Condition](Condition.md)|
-|[onsetString](#onsetString)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|[electronicMedicalRecords/Condition](Condition.md)|
-|[onsetType](#onsetType)|Type of: Estimated or actual date or date-time the condition began, in the opinion of the clinician.|[electronicMedicalRecords/Condition](Condition.md)|
-|[onsetType_display](#onsetType_display)||[electronicMedicalRecords/Condition](Condition.md)|
-|[practitioner](#practitioner)|Individual who is making the condition statement.|[electronicMedicalRecords/Condition](Condition.md)|
-|[reasonReferenceReferralRequest](#reasonReferenceReferralRequest)||[electronicMedicalRecords/Condition](Condition.md)|
-|[severity](#severity)|Grading  of the severity of the condition recorded|[electronicMedicalRecords/Condition](Condition.md)|
-|[stage](#stage)|Specific stage of condition|[electronicMedicalRecords/Condition](Condition.md)|
-|[subjectType](#subjectType)|Type of: Indicates the patient or group who the condition record is associated with.|[electronicMedicalRecords/Condition](Condition.md)|
-|[subjectType_display](#subjectType_display)||[electronicMedicalRecords/Condition](Condition.md)|
-|[subjectTypeGroup](#subjectTypeGroup)|Indicates the patient or group who the condition record is associated with.|[electronicMedicalRecords/Condition](Condition.md)|
-|[subjectTypePatient](#subjectTypePatient)|Indicates the patient or group who the condition record is associated with.|[electronicMedicalRecords/Condition](Condition.md)|
-|[verificationStatus](#verificationStatus)|Type of: The verification status to support the clinical status of the condition.|[electronicMedicalRecords/Condition](Condition.md)|
-|[verificationStatus_display](#verificationStatus_display)||[electronicMedicalRecords/Condition](Condition.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[conditionId](#conditionId)|Unique identifier for entity instances|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[stateCode](#stateCode)|Status of the Condition|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[stateCode_display](#stateCode_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[statusCode](#statusCode)|Reason for the status of the Condition|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[statusCode_display](#statusCode_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[name](#name)|The name of the custom entity.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[abatementAge](#abatementAge)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution" -|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[abatementDate](#abatementDate)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[abatementPeriodEndDate](#abatementPeriodEndDate)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[abatementPeriodStartDate](#abatementPeriodStartDate)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[abatementRangeHigh](#abatementRangeHigh)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[abatementRangeLow](#abatementRangeLow)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[abatementString](#abatementString)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[abatementType](#abatementType)|Type of: The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission"/resolution.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[abatementType_display](#abatementType_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[appointment](#appointment)|A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[assertedDate](#assertedDate)|The date on which the existence of the Condition was first asserted or acknowledged.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[asserter](#asserter)|Person who asserts this condition|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[carePlan](#carePlan)|Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[category](#category)|Categorization of the condition recorded by health care practitioner.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[clinicalStatus](#clinicalStatus)|The clinical status of the condition.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[clinicalStatus_display](#clinicalStatus_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[conditionCode](#conditionCode)|List of diagnosis/condition codes|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[contextEncounter](#contextEncounter)|Categorization of the condition recorded by health care practitioner.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[contextEpisodeofCare](#contextEpisodeofCare)|Encounter or episode when condition first asserted|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[contextType](#contextType)|Type of: Encounter during which the condition was first asserted.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[contextType_display](#contextType_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[encounter](#encounter)|An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[isAbatement](#isAbatement)|The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution"|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[onsetAge](#onsetAge)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[onsetDate](#onsetDate)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[onsetPeriodEndDate](#onsetPeriodEndDate)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[onsetPeriodStartDate](#onsetPeriodStartDate)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[onsetRangeHigh](#onsetRangeHigh)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[onsetRangeLow](#onsetRangeLow)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[onsetString](#onsetString)|Estimated or actual date or date-time the condition began, in the opinion of the clinician.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[onsetType](#onsetType)|Type of: Estimated or actual date or date-time the condition began, in the opinion of the clinician.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[onsetType_display](#onsetType_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[practitioner](#practitioner)|Individual who is making the condition statement.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[reasonReferenceReferralRequest](#reasonReferenceReferralRequest)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[severity](#severity)|Grading  of the severity of the condition recorded|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[stage](#stage)|Specific stage of condition|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[subjectType](#subjectType)|Type of: Indicates the patient or group who the condition record is associated with.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[subjectType_display](#subjectType_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[subjectTypeGroup](#subjectTypeGroup)|Indicates the patient or group who the condition record is associated with.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[subjectTypePatient](#subjectTypePatient)|Indicates the patient or group who the condition record is associated with.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[verificationStatus](#verificationStatus)|Type of: The verification status to support the clinical status of the condition.|<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
+|[verificationStatus_display](#verificationStatus_display)||<a href="Condition.md" target="_blank">electronicMedicalRecords/Condition</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

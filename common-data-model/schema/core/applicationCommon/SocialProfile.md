@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Social Profile
 
 This entity is used to store social profile information of its associated account and contacts on different social channels.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SocialProfile.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,45 +46,46 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/SocialProfile  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[socialProfileId](#socialProfileId)|Unique Identifier of the social profile name.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[profileName](#profileName)|Shows the name of the social profile on the corresponding social channel.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[profileFullName](#profileFullName)|Shows the display name of the customer on this social profile.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[stateCode](#stateCode)|Status of the Social Profile|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/SocialProfile](SocialProfile.md)|
-|[statusCode](#statusCode)|Reason for the status of the Social Profile|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/SocialProfile](SocialProfile.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[blocked](#blocked)|Identifies if the social profile has been blocked.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[community](#community)|Identifies where the social profile originated from, such as Twitter, or Facebook.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[community_display](#community_display)||[applicationCommon/SocialProfile](SocialProfile.md)|
-|[influenceScore](#influenceScore)|Shows the score that determines the online social influence of the social profile.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[profileLink](#profileLink)|Shows the customer that this social profile belongs to.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[uniqueProfileID](#uniqueProfileID)|Unique ID of the Profile ID|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/SocialProfile](SocialProfile.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/SocialProfile](SocialProfile.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[socialProfileId](#socialProfileId)|Unique Identifier of the social profile name.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[profileName](#profileName)|Shows the name of the social profile on the corresponding social channel.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[profileFullName](#profileFullName)|Shows the display name of the customer on this social profile.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[stateCode](#stateCode)|Status of the Social Profile|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[stateCode_display](#stateCode_display)||<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[statusCode](#statusCode)|Reason for the status of the Social Profile|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[statusCode_display](#statusCode_display)||<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[blocked](#blocked)|Identifies if the social profile has been blocked.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[community](#community)|Identifies where the social profile originated from, such as Twitter, or Facebook.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[community_display](#community_display)||<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[influenceScore](#influenceScore)|Shows the score that determines the online social influence of the social profile.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[profileLink](#profileLink)|Shows the customer that this social profile belongs to.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[uniqueProfileID](#uniqueProfileID)|Unique ID of the Profile ID|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="SocialProfile.md" target="_blank">applicationCommon/SocialProfile</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

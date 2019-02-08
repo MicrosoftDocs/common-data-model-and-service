@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Allergy Intolerance
 
 Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,41 +46,42 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/AllergyIntolerance  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[allergyIntoleranceId](#allergyIntoleranceId)|Unique identifier for entity instances|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[stateCode](#stateCode)|Status of the Allergy Intolerance|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[statusCode](#statusCode)|Reason for the status of the Allergy Intolerance|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[code](#code)||[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[criticality](#criticality)||[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[criticality_display](#criticality_display)||[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[type](#type)||[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[type_display](#type_display)||[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[verificationStatus](#verificationStatus)||[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
-|[verificationStatus_display](#verificationStatus_display)||[electronicMedicalRecords/AllergyIntolerance](AllergyIntolerance.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[allergyIntoleranceId](#allergyIntoleranceId)|Unique identifier for entity instances|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[stateCode](#stateCode)|Status of the Allergy Intolerance|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[stateCode_display](#stateCode_display)||<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[statusCode](#statusCode)|Reason for the status of the Allergy Intolerance|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[statusCode_display](#statusCode_display)||<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[name](#name)|The name of the custom entity.|<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[code](#code)||<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[criticality](#criticality)||<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[criticality_display](#criticality_display)||<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[type](#type)||<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[type_display](#type_display)||<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[verificationStatus](#verificationStatus)||<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
+|[verificationStatus_display](#verificationStatus_display)||<a href="AllergyIntolerance.md" target="_blank">electronicMedicalRecords/AllergyIntolerance</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

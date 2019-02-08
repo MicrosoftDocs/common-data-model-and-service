@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Web Page
 
 Webpage  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPage.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,76 +46,77 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/WebPage  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/WebPage](WebPage.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/WebPage](WebPage.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/WebPage](WebPage.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/WebPage](WebPage.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/WebPage](WebPage.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/WebPage](WebPage.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/WebPage](WebPage.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/WebPage](WebPage.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/WebPage](WebPage.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/WebPage](WebPage.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/WebPage](WebPage.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/WebPage](WebPage.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/WebPage](WebPage.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/WebPage](WebPage.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/WebPage](WebPage.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/WebPage](WebPage.md)|
-|[webpageId](#webpageId)|Unique identifier for entity instances|[portals/WebPage](WebPage.md)|
-|[stateCode](#stateCode)|Status of the Web Page|[portals/WebPage](WebPage.md)|
-|[stateCode_display](#stateCode_display)||[portals/WebPage](WebPage.md)|
-|[statusCode](#statusCode)|Reason for the status of the Web Page|[portals/WebPage](WebPage.md)|
-|[statusCode_display](#statusCode_display)||[portals/WebPage](WebPage.md)|
-|[name](#name)|Shows the name of the custom entity.|[portals/WebPage](WebPage.md)|
-|[authorId](#authorId)|Unique identifier for Contact associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[category](#category)||[portals/WebPage](WebPage.md)|
-|[category_display](#category_display)||[portals/WebPage](WebPage.md)|
-|[copy](#copy)||[portals/WebPage](WebPage.md)|
-|[adxCreatedByIPAddress](#adxCreatedByIPAddress)||[portals/WebPage](WebPage.md)|
-|[adxCreatedByUsername](#adxCreatedByUsername)||[portals/WebPage](WebPage.md)|
-|[displayDate](#displayDate)||[portals/WebPage](WebPage.md)|
-|[displayOrder](#displayOrder)||[portals/WebPage](WebPage.md)|
-|[hiddenFromSitemap](#hiddenFromSitemap)||[portals/WebPage](WebPage.md)|
-|[adxModifiedByIPAddress](#adxModifiedByIPAddress)||[portals/WebPage](WebPage.md)|
-|[adxModifiedByUsername](#adxModifiedByUsername)||[portals/WebPage](WebPage.md)|
-|[pageTemplateId](#pageTemplateId)|Unique identifier for Page Template associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[parentPageId](#parentPageId)|Unique identifier for Web Page associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[partialURL](#partialURL)||[portals/WebPage](WebPage.md)|
-|[subjectId](#subjectId)|Unique identifier for Subject associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[summary](#summary)||[portals/WebPage](WebPage.md)|
-|[title](#title)||[portals/WebPage](WebPage.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[allowOrigin](#allowOrigin)|Defines CORS header Access-Control-Allow-Origin for cross origin requests.|[portals/WebPage](WebPage.md)|
-|[customCSS](#customCSS)||[portals/WebPage](WebPage.md)|
-|[customJavaScript](#customJavaScript)||[portals/WebPage](WebPage.md)|
-|[editorialComments](#editorialComments)||[portals/WebPage](WebPage.md)|
-|[enabletracking](#enabletracking)|Select whether to enable logging of users' downloads of this webpage.|[portals/WebPage](WebPage.md)|
-|[excludeFromSearch](#excludeFromSearch)|Shows whether the webpage is excluded from the portal search.|[portals/WebPage](WebPage.md)|
-|[expirationDate](#expirationDate)||[portals/WebPage](WebPage.md)|
-|[image](#image)|Unique identifier for Web File associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[imageURL](#imageURL)||[portals/WebPage](WebPage.md)|
-|[isRoot](#isRoot)|Defines whether this is the "root" record of this translated group of Web Pages.|[portals/WebPage](WebPage.md)|
-|[masterWebPageId](#masterWebPageId)|Unique identifier for Web Page associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[metaDescription](#metaDescription)||[portals/WebPage](WebPage.md)|
-|[navigation](#navigation)|Unique identifier for Web Link Set associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[publishingStateId](#publishingStateId)|Unique identifier for Publishing State associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[releaseDate](#releaseDate)||[portals/WebPage](WebPage.md)|
-|[rootWebpageId](#rootWebpageId)|Lookup to root WebPage.|[portals/WebPage](WebPage.md)|
-|[sharedPageConfiguration](#sharedPageConfiguration)|Determines if the content page uses the root page configuration|[portals/WebPage](WebPage.md)|
-|[webpageLanguageId](#webpageLanguageId)|Language of this web page.|[portals/WebPage](WebPage.md)|
-|[entityForm](#entityForm)|Unique identifier for Entity Form associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[entityList](#entityList)|Unique identifier for Entity List associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[webForm](#webForm)|Unique identifier for Web Form associated with Web Page.|[portals/WebPage](WebPage.md)|
-|[commentPolicy](#commentPolicy)||[portals/WebPage](WebPage.md)|
-|[commentPolicy_display](#commentPolicy_display)||[portals/WebPage](WebPage.md)|
-|[enableRatings](#enableRatings)|Setting this value to 'Yes' will allow users to rate the web page.|[portals/WebPage](WebPage.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[webpageId](#webpageId)|Unique identifier for entity instances|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[stateCode](#stateCode)|Status of the Web Page|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[stateCode_display](#stateCode_display)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[statusCode](#statusCode)|Reason for the status of the Web Page|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[statusCode_display](#statusCode_display)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[name](#name)|Shows the name of the custom entity.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[authorId](#authorId)|Unique identifier for Contact associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[category](#category)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[category_display](#category_display)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[copy](#copy)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[adxCreatedByIPAddress](#adxCreatedByIPAddress)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[adxCreatedByUsername](#adxCreatedByUsername)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[displayDate](#displayDate)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[displayOrder](#displayOrder)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[hiddenFromSitemap](#hiddenFromSitemap)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[adxModifiedByIPAddress](#adxModifiedByIPAddress)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[adxModifiedByUsername](#adxModifiedByUsername)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[pageTemplateId](#pageTemplateId)|Unique identifier for Page Template associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[parentPageId](#parentPageId)|Unique identifier for Web Page associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[partialURL](#partialURL)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[subjectId](#subjectId)|Unique identifier for Subject associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[summary](#summary)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[title](#title)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[allowOrigin](#allowOrigin)|Defines CORS header Access-Control-Allow-Origin for cross origin requests.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[customCSS](#customCSS)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[customJavaScript](#customJavaScript)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[editorialComments](#editorialComments)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[enabletracking](#enabletracking)|Select whether to enable logging of users' downloads of this webpage.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[excludeFromSearch](#excludeFromSearch)|Shows whether the webpage is excluded from the portal search.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[expirationDate](#expirationDate)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[image](#image)|Unique identifier for Web File associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[imageURL](#imageURL)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[isRoot](#isRoot)|Defines whether this is the "root" record of this translated group of Web Pages.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[masterWebPageId](#masterWebPageId)|Unique identifier for Web Page associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[metaDescription](#metaDescription)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[navigation](#navigation)|Unique identifier for Web Link Set associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[publishingStateId](#publishingStateId)|Unique identifier for Publishing State associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[releaseDate](#releaseDate)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[rootWebpageId](#rootWebpageId)|Lookup to root WebPage.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[sharedPageConfiguration](#sharedPageConfiguration)|Determines if the content page uses the root page configuration|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[webpageLanguageId](#webpageLanguageId)|Language of this web page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[entityForm](#entityForm)|Unique identifier for Entity Form associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[entityList](#entityList)|Unique identifier for Entity List associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[webForm](#webForm)|Unique identifier for Web Form associated with Web Page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[commentPolicy](#commentPolicy)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[commentPolicy_display](#commentPolicy_display)||<a href="WebPage.md" target="_blank">portals/WebPage</a>|
+|[enableRatings](#enableRatings)|Setting this value to 'Yes' will allow users to rate the web page.|<a href="WebPage.md" target="_blank">portals/WebPage</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Social Activity
 
 For internal use only.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/SocialActivity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/SocialActivity](../../SocialActivity.md "/core/applicationCommon/SocialActivity.cdm.json/SocialActivity")  
 crmCommon/SocialActivity  
 
@@ -53,76 +54,76 @@ crmCommon/SocialActivity
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[priorityCode_display](#priorityCode_display)||[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[subject](#subject)|Subject associated with the activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[community_display](#community_display)||[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[description](#description)|Shows information about the social post content. This field is read-only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[processId](#processId)|Unique identifier of the Process.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[stateCode](#stateCode)|Shows whether the social activity completed. This field is read-only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[statusCode](#statusCode)|Shows whether the social activity is completed, failed, or processing. This field is read-only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[sentimentValue](#sentimentValue)|Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postedOn](#postedOn)|For internal use only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postURL](#postURL)|Shows the URL of the post.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[inResponseTo](#inResponseTo)|Unique identifier for the responses to a post. For internal use only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postMessageType](#postMessageType)|Shows if the social post originated as a private or public message.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postMessageType_display](#postMessageType_display)||[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postId](#postId)|Unique identifier of the post. For internal use only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[threadId](#threadId)|Unique identifier of the social conversation. For internal use only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this Social Activity. This field is for internal use only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postFromProfileId](#postFromProfileId)|Shows the author of the post on the corresponding social channel.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postToProfileId](#postToProfileId)|Shows the recipients of the social post.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postAuthorAccountType](#postAuthorAccountType)|The type of post author account, either Account or Contact.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postAuthorAccount](#postAuthorAccount)|Shows the parent account of the author of the post.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postAuthorType](#postAuthorType)|The type of post author, either Account or Contact.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[postAuthor](#postAuthor)|Shows the contact or account that authored the post.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[socialAdditionalParams](#socialAdditionalParams)|For internal use only.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Social Activity record.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/SocialActivity](../../SocialActivity.md)|
-|[serviceId](#serviceId)|Unique identifier for the associated service.|[crmCommon/SocialActivity](SocialActivity.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[community_display](#community_display)||<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[description](#description)|Shows information about the social post content. This field is read-only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[stateCode](#stateCode)|Shows whether the social activity completed. This field is read-only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[statusCode](#statusCode)|Shows whether the social activity is completed, failed, or processing. This field is read-only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[sentimentValue](#sentimentValue)|Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postedOn](#postedOn)|For internal use only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postURL](#postURL)|Shows the URL of the post.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[inResponseTo](#inResponseTo)|Unique identifier for the responses to a post. For internal use only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postMessageType](#postMessageType)|Shows if the social post originated as a private or public message.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postMessageType_display](#postMessageType_display)||<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postId](#postId)|Unique identifier of the post. For internal use only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[threadId](#threadId)|Unique identifier of the social conversation. For internal use only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this Social Activity. This field is for internal use only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postFromProfileId](#postFromProfileId)|Shows the author of the post on the corresponding social channel.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postToProfileId](#postToProfileId)|Shows the recipients of the social post.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postAuthorAccountType](#postAuthorAccountType)|The type of post author account, either Account or Contact.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postAuthorAccount](#postAuthorAccount)|Shows the parent account of the author of the post.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postAuthorType](#postAuthorType)|The type of post author, either Account or Contact.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[postAuthor](#postAuthor)|Shows the contact or account that authored the post.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[socialAdditionalParams](#socialAdditionalParams)|For internal use only.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Social Activity record.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="../../SocialActivity.md" target="_blank">applicationCommon/SocialActivity</a>|
+|[serviceId](#serviceId)|Unique identifier for the associated service.|<a href="SocialActivity.md" target="_blank">crmCommon/SocialActivity</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

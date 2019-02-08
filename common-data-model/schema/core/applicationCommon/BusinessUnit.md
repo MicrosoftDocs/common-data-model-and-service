@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Business Unit
 
 Business, division, or department in the Microsoft Dynamics 365 database.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/BusinessUnit.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,90 +43,91 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/BusinessUnit  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[businessUnitId](#businessUnitId)|Unique identifier of the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[name](#name)|Name of the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[description](#description)|Description of the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[divisionName](#divisionName)|Name of the division to which the business unit belongs.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[fileAsName](#fileAsName)|Alternative name under which the business unit can be filed.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[tickerSymbol](#tickerSymbol)|Stock exchange ticker symbol for the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[stockExchange](#stockExchange)|Stock exchange on which the business is listed.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[UTCOffset](#UTCOffset)|UTC offset for the business unit. This is the difference between local time and standard Coordinated Universal Time.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[createdOn](#createdOn)|Date and time when the business unit was created.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the business unit was last modified.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[creditLimit](#creditLimit)|Credit limit for the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[costCenter](#costCenter)|Name of the business unit cost center.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[webSiteUrl](#webSiteUrl)|Website URL for the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[ftpSiteUrl](#ftpSiteUrl)|FTP site URL for the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[emailAddress](#emailAddress)|Email address for the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[inheritanceMask](#inheritanceMask)|Inheritance mask for the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[workflowSuspended](#workflowSuspended)|Information about whether workflow or sales process rules have been suspended.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[parentBusinessUnitId](#parentBusinessUnitId)|Unique identifier for the parent business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[isDisabled](#isDisabled)|Information about whether the business unit is enabled or disabled.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[disabledReason](#disabledReason)|Reason for disabling the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[versionNumber](#versionNumber)|Version number of the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1AddressTypeCode](#address1AddressTypeCode)|Type of address for address 1, such as billing, shipping, or primary address.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Name](#address1Name)|Name to enter for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Line1](#address1Line1)|First line for entering address 1 information.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Line2](#address1Line2)|Second line for entering address 1 information.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Line3](#address1Line3)|Third line for entering address 1 information.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1City](#address1City)|City name for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1StateOrProvince](#address1StateOrProvince)|State or province for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1County](#address1County)|County name for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Country](#address1Country)|Country/region name for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1PostOfficeBox](#address1PostOfficeBox)|Post office box number for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1PostalCode](#address1PostalCode)|ZIP Code or postal code for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1UTCOffset](#address1UTCOffset)|UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1UPSZone](#address1UPSZone)|United Parcel Service (UPS) zone for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Latitude](#address1Latitude)|Latitude for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Telephone1](#address1Telephone1)|First telephone number associated with address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Longitude](#address1Longitude)|Longitude for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1ShippingMethodCode](#address1ShippingMethodCode)|Method of shipment for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Telephone2](#address1Telephone2)|Second telephone number associated with address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Telephone3](#address1Telephone3)|Third telephone number associated with address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address1Fax](#address1Fax)|Fax number for address 1.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2AddressId](#address2AddressId)|Unique identifier for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2AddressTypeCode](#address2AddressTypeCode)|Type of address for address 2, such as billing, shipping, or primary address.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Name](#address2Name)|Name to enter for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Line1](#address2Line1)|First line for entering address 2 information.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Line2](#address2Line2)|Second line for entering address 2 information.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Line3](#address2Line3)|Third line for entering address 2 information.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2City](#address2City)|City name for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2StateOrProvince](#address2StateOrProvince)|State or province for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2County](#address2County)|County name for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Country](#address2Country)|Country/region name for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2PostOfficeBox](#address2PostOfficeBox)|Post office box number for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2PostalCode](#address2PostalCode)|ZIP Code or postal code for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2UTCOffset](#address2UTCOffset)|UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2UPSZone](#address2UPSZone)|United Parcel Service (UPS) zone for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Latitude](#address2Latitude)|Latitude for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Telephone1](#address2Telephone1)|First telephone number associated with address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Longitude](#address2Longitude)|Longitude for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2ShippingMethodCode](#address2ShippingMethodCode)|Method of shipment for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Telephone2](#address2Telephone2)|Second telephone number associated with address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Telephone3](#address2Telephone3)|Third telephone number associated with address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[address2Fax](#address2Fax)|Fax number for address 2.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[picture](#picture)|Picture or diagram of the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[calendarId](#calendarId)|Fiscal calendar associated with the business unit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the businessunit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the businessunit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the businessunit.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the businessunit with respect to the base currency.|[applicationCommon/BusinessUnit](BusinessUnit.md)|
+|[businessUnitId](#businessUnitId)|Unique identifier of the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[name](#name)|Name of the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[description](#description)|Description of the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[divisionName](#divisionName)|Name of the division to which the business unit belongs.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[fileAsName](#fileAsName)|Alternative name under which the business unit can be filed.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[tickerSymbol](#tickerSymbol)|Stock exchange ticker symbol for the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[stockExchange](#stockExchange)|Stock exchange on which the business is listed.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[UTCOffset](#UTCOffset)|UTC offset for the business unit. This is the difference between local time and standard Coordinated Universal Time.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[createdOn](#createdOn)|Date and time when the business unit was created.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the business unit was last modified.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[creditLimit](#creditLimit)|Credit limit for the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[costCenter](#costCenter)|Name of the business unit cost center.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[webSiteUrl](#webSiteUrl)|Website URL for the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[ftpSiteUrl](#ftpSiteUrl)|FTP site URL for the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[emailAddress](#emailAddress)|Email address for the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[inheritanceMask](#inheritanceMask)|Inheritance mask for the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[workflowSuspended](#workflowSuspended)|Information about whether workflow or sales process rules have been suspended.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[parentBusinessUnitId](#parentBusinessUnitId)|Unique identifier for the parent business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[isDisabled](#isDisabled)|Information about whether the business unit is enabled or disabled.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[disabledReason](#disabledReason)|Reason for disabling the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[versionNumber](#versionNumber)|Version number of the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1AddressTypeCode](#address1AddressTypeCode)|Type of address for address 1, such as billing, shipping, or primary address.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Name](#address1Name)|Name to enter for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Line1](#address1Line1)|First line for entering address 1 information.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Line2](#address1Line2)|Second line for entering address 1 information.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Line3](#address1Line3)|Third line for entering address 1 information.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1City](#address1City)|City name for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1StateOrProvince](#address1StateOrProvince)|State or province for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1County](#address1County)|County name for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Country](#address1Country)|Country/region name for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1PostOfficeBox](#address1PostOfficeBox)|Post office box number for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1PostalCode](#address1PostalCode)|ZIP Code or postal code for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1UTCOffset](#address1UTCOffset)|UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1UPSZone](#address1UPSZone)|United Parcel Service (UPS) zone for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Latitude](#address1Latitude)|Latitude for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Telephone1](#address1Telephone1)|First telephone number associated with address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Longitude](#address1Longitude)|Longitude for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1ShippingMethodCode](#address1ShippingMethodCode)|Method of shipment for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Telephone2](#address1Telephone2)|Second telephone number associated with address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Telephone3](#address1Telephone3)|Third telephone number associated with address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address1Fax](#address1Fax)|Fax number for address 1.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2AddressId](#address2AddressId)|Unique identifier for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2AddressTypeCode](#address2AddressTypeCode)|Type of address for address 2, such as billing, shipping, or primary address.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Name](#address2Name)|Name to enter for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Line1](#address2Line1)|First line for entering address 2 information.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Line2](#address2Line2)|Second line for entering address 2 information.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Line3](#address2Line3)|Third line for entering address 2 information.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2City](#address2City)|City name for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2StateOrProvince](#address2StateOrProvince)|State or province for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2County](#address2County)|County name for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Country](#address2Country)|Country/region name for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2PostOfficeBox](#address2PostOfficeBox)|Post office box number for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2PostalCode](#address2PostalCode)|ZIP Code or postal code for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2UTCOffset](#address2UTCOffset)|UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2UPSZone](#address2UPSZone)|United Parcel Service (UPS) zone for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Latitude](#address2Latitude)|Latitude for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Telephone1](#address2Telephone1)|First telephone number associated with address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Longitude](#address2Longitude)|Longitude for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2ShippingMethodCode](#address2ShippingMethodCode)|Method of shipment for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Telephone2](#address2Telephone2)|Second telephone number associated with address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Telephone3](#address2Telephone3)|Third telephone number associated with address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[address2Fax](#address2Fax)|Fax number for address 2.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[picture](#picture)|Picture or diagram of the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[calendarId](#calendarId)|Fiscal calendar associated with the business unit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the businessunit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the businessunit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the businessunit.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the businessunit with respect to the base currency.|<a href="BusinessUnit.md" target="_blank">applicationCommon/BusinessUnit</a>|
 
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 

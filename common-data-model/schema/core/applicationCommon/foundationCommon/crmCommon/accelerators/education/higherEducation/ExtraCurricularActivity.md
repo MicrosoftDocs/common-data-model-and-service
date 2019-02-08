@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Extra Curricular Activity
 
 The master list of all extra curricular activities tracked by the institution.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularActivity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,47 +46,48 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/ExtraCurricularActivity  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[extracurricularActivitiesId](#extracurricularActivitiesId)|Unique identifier for entity instances|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[stateCode](#stateCode)|Status of the Extra Curricular Activity|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[statusCode](#statusCode)|Reason for the status of the Extra Curricular Activity|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[name](#name)|The name of the custom entity.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[code](#code)|Education Level Code|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[dateofOrganizationFormed](#dateofOrganizationFormed)|Date of Organization\Club Formed|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[description](#description)|Description|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[externalIdentifier](#externalIdentifier)|External Identifier|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[generalEmail](#generalEmail)|General Email of the Organization/Club|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[organizationMissionStatement](#organizationMissionStatement)|Organization Mission Statement|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[primaryContactId](#primaryContactId)|Primary contact for club|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[primaryPurpose](#primaryPurpose)|Indicates primary focus or purpose of the organization.|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[primaryPurpose_display](#primaryPurpose_display)||[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[schoolId](#schoolId)|Link to School (Account)|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
-|[website](#website)|General website of the Organization/Club|[higherEducation/ExtraCurricularActivity](ExtraCurricularActivity.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[extracurricularActivitiesId](#extracurricularActivitiesId)|Unique identifier for entity instances|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[stateCode](#stateCode)|Status of the Extra Curricular Activity|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[stateCode_display](#stateCode_display)||<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[statusCode](#statusCode)|Reason for the status of the Extra Curricular Activity|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[statusCode_display](#statusCode_display)||<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[name](#name)|The name of the custom entity.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[code](#code)|Education Level Code|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[dateofOrganizationFormed](#dateofOrganizationFormed)|Date of Organization\Club Formed|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[description](#description)|Description|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[externalIdentifier](#externalIdentifier)|External Identifier|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[externalSourceSystem](#externalSourceSystem)|External Source System|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[externalSourceSystem_display](#externalSourceSystem_display)||<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[generalEmail](#generalEmail)|General Email of the Organization/Club|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[organizationMissionStatement](#organizationMissionStatement)|Organization Mission Statement|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[primaryContactId](#primaryContactId)|Primary contact for club|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[primaryPurpose](#primaryPurpose)|Indicates primary focus or purpose of the organization.|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[primaryPurpose_display](#primaryPurpose_display)||<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[schoolId](#schoolId)|Link to School (Account)|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
+|[website](#website)|General website of the Organization/Club|<a href="ExtraCurricularActivity.md" target="_blank">higherEducation/ExtraCurricularActivity</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

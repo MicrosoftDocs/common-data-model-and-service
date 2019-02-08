@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Email Signature
 
 Signature for email message  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/EmailSignature.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,39 +43,40 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/EmailSignature  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[emailSignatureId](#emailSignatureId)|Unique identifier of the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[isPersonal](#isPersonal)|Information about whether the email signature is personal or is available to all users.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[mimeType](#mimeType)|MIME type of the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[body](#body)|Body text of the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[title](#title)|Title of the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[description](#description)|Description of the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[presentationXml](#presentationXml)|XML data for the body of the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[createdOn](#createdOn)|Date and time when the email signature was created.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the email signature was last modified.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[generationTypeCode](#generationTypeCode)|For internal use only.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[languageCode](#languageCode)|Language of the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[overwriteTime](#overwriteTime)|For internal use only.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[componentState](#componentState)|For internal use only.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[componentState_display](#componentState_display)||[applicationCommon/EmailSignature](EmailSignature.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[owningTeam](#owningTeam)|Unique identifier of the team who owns the email signature.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[isCustomizable](#isCustomizable)|Information that specifies whether this component can be customized.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/EmailSignature](EmailSignature.md)|
-|[isDefault](#isDefault)|Information that specifies whether the email signature is default to the user.|[applicationCommon/EmailSignature](EmailSignature.md)|
+|[emailSignatureId](#emailSignatureId)|Unique identifier of the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[isPersonal](#isPersonal)|Information about whether the email signature is personal or is available to all users.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[mimeType](#mimeType)|MIME type of the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[body](#body)|Body text of the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[title](#title)|Title of the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[description](#description)|Description of the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[presentationXml](#presentationXml)|XML data for the body of the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[createdOn](#createdOn)|Date and time when the email signature was created.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the email signature was last modified.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[generationTypeCode](#generationTypeCode)|For internal use only.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[languageCode](#languageCode)|Language of the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[overwriteTime](#overwriteTime)|For internal use only.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[componentState](#componentState)|For internal use only.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[componentState_display](#componentState_display)||<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[owningTeam](#owningTeam)|Unique identifier of the team who owns the email signature.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[isCustomizable](#isCustomizable)|Information that specifies whether this component can be customized.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
+|[isDefault](#isDefault)|Information that specifies whether the email signature is default to the user.|<a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>|
 
 ### <a href=#emailSignatureId name="emailSignatureId">emailSignatureId</a>
 

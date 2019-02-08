@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Create custom channel activity contact processed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,22 +33,23 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/CreateCustomChannelActivityContactProcessed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
-|[contactId](#contactId)|Contact|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
-|[accountId](#accountId)|Account|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
-|[activityId](#activityId)|Activity ID|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/CreateCustomChannelActivityContactProcessed](CreateCustomChannelActivityContactProcessed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
+|[contactId](#contactId)|Contact|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
+|[accountId](#accountId)|Account|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
+|[activityId](#activityId)|Activity ID|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="CreateCustomChannelActivityContactProcessed.md" target="_blank">interactions/CreateCustomChannelActivityContactProcessed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

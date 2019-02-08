@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Care Team Participant
 
 Identifies all people and organizations who are expected to be involved in the care team.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,47 +46,48 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/CareTeamParticipant  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[careTeamParticipantId](#careTeamParticipantId)|Unique identifier for entity instances|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[stateCode](#stateCode)|Status of the Care Team Participant|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[statusCode](#statusCode)|Reason for the status of the Care Team Participant|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[description](#description)|The name of the custom entity.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[entityImageId](#entityImageId)||[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[careTeam](#careTeam)|This records identifiers associated with this care team that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[memberCareTeam](#memberCareTeam)|Member is care team|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[memberOrganization](#memberOrganization)|Member is organization|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[memberPatient](#memberPatient)|Member is patient|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[memberPractioner](#memberPractioner)|Member is practitioner|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[memberRelatedPerson](#memberRelatedPerson)|Member is person related to patient|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[memberType](#memberType)|Type of member.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[memberType_display](#memberType_display)||[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[onBehalfOf](#onBehalfOf)|The organization of the practitioner.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[periodEnd](#periodEnd)|Indicates when the specific member or organization did (or is intended to) come into effect and end.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[periodStart](#periodStart)|Indicates when the specific member or organization did (or is intended to) come into effect and end.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
-|[role](#role)|Indicates specific responsibility of an individual within the care team, such as "Primary care physician", "Trained social worker counselor", "Caregiver", etc.|[electronicMedicalRecords/CareTeamParticipant](CareTeamParticipant.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[careTeamParticipantId](#careTeamParticipantId)|Unique identifier for entity instances|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[stateCode](#stateCode)|Status of the Care Team Participant|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[stateCode_display](#stateCode_display)||<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[statusCode](#statusCode)|Reason for the status of the Care Team Participant|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[statusCode_display](#statusCode_display)||<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[description](#description)|The name of the custom entity.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[entityImageId](#entityImageId)||<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[careTeam](#careTeam)|This records identifiers associated with this care team that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[memberCareTeam](#memberCareTeam)|Member is care team|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[memberOrganization](#memberOrganization)|Member is organization|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[memberPatient](#memberPatient)|Member is patient|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[memberPractioner](#memberPractioner)|Member is practitioner|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[memberRelatedPerson](#memberRelatedPerson)|Member is person related to patient|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[memberType](#memberType)|Type of member.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[memberType_display](#memberType_display)||<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[onBehalfOf](#onBehalfOf)|The organization of the practitioner.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[periodEnd](#periodEnd)|Indicates when the specific member or organization did (or is intended to) come into effect and end.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[periodStart](#periodStart)|Indicates when the specific member or organization did (or is intended to) come into effect and end.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
+|[role](#role)|Indicates specific responsibility of an individual within the care team, such as "Primary care physician", "Trained social worker counselor", "Caregiver", etc.|<a href="CareTeamParticipant.md" target="_blank">electronicMedicalRecords/CareTeamParticipant</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

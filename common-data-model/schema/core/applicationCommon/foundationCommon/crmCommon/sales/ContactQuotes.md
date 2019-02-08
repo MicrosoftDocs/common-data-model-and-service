@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # ContactQuotes
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/ContactQuotes.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/ContactQuotes  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[contactQuoteId](#contactQuoteId)|Unique identifier of the quotes for the contact.|[sales/ContactQuotes](ContactQuotes.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/ContactQuotes](ContactQuotes.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/ContactQuotes](ContactQuotes.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/ContactQuotes](ContactQuotes.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/ContactQuotes](ContactQuotes.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/ContactQuotes](ContactQuotes.md)|
-|[name](#name)|name|[sales/ContactQuotes](ContactQuotes.md)|
-|[contactId](#contactId)||[sales/ContactQuotes](ContactQuotes.md)|
-|[quoteId](#quoteId)||[sales/ContactQuotes](ContactQuotes.md)|
+|[contactQuoteId](#contactQuoteId)|Unique identifier of the quotes for the contact.|<a href="ContactQuotes.md" target="_blank">sales/ContactQuotes</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ContactQuotes.md" target="_blank">sales/ContactQuotes</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ContactQuotes.md" target="_blank">sales/ContactQuotes</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ContactQuotes.md" target="_blank">sales/ContactQuotes</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ContactQuotes.md" target="_blank">sales/ContactQuotes</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ContactQuotes.md" target="_blank">sales/ContactQuotes</a>|
+|[name](#name)|name|<a href="ContactQuotes.md" target="_blank">sales/ContactQuotes</a>|
+|[contactId](#contactId)||<a href="ContactQuotes.md" target="_blank">sales/ContactQuotes</a>|
+|[quoteId](#quoteId)||<a href="ContactQuotes.md" target="_blank">sales/ContactQuotes</a>|
 
 ### <a href=#contactQuoteId name="contactQuoteId">contactQuoteId</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Phone Call
 
 Activity to track a telephone call.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/PhoneCall.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/PhoneCall  
 [crmCommon/PhoneCall](foundationCommon/crmCommon/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/PhoneCall.cdm.json/PhoneCall")  
 [marketing/PhoneCall](foundationCommon/crmCommon/solutions/marketing/PhoneCall.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/PhoneCall.cdm.json/PhoneCall")  
@@ -54,61 +55,61 @@ applicationCommon/PhoneCall
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[priorityCode_display](#priorityCode_display)||[applicationCommon/PhoneCall](PhoneCall.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[subject](#subject)|Subject associated with the activity.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[phoneNumber](#phoneNumber)|Type the phone number.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[description](#description)|Additional information to describe the phone call, such as the primary message or the products and services discussed.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[stateCode](#stateCode)|Shows whether the phone call is open, completed, or canceled. Completed and canceled phone calls are read-only and can't be edited.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/PhoneCall](PhoneCall.md)|
-|[statusCode](#statusCode)|Select the phone call's status.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/PhoneCall](PhoneCall.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this Phone Call. This field is for internal use only.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/PhoneCall](PhoneCall.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Phone Call record.|[applicationCommon/PhoneCall](PhoneCall.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[phoneNumber](#phoneNumber)|Type the phone number.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[description](#description)|Additional information to describe the phone call, such as the primary message or the products and services discussed.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[stateCode](#stateCode)|Shows whether the phone call is open, completed, or canceled. Completed and canceled phone calls are read-only and can't be edited.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[stateCode_display](#stateCode_display)||<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[statusCode](#statusCode)|Select the phone call's status.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[statusCode_display](#statusCode_display)||<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this Phone Call. This field is for internal use only.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Phone Call record.|<a href="PhoneCall.md" target="_blank">applicationCommon/PhoneCall</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

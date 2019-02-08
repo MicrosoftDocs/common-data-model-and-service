@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Appointment
 
 Commitment representing a time interval with start/end times and duration.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Appointment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Appointment](../../Appointment.md "/core/applicationCommon/Appointment.cdm.json/Appointment")  
 crmCommon/Appointment  
 [marketing/Appointment](solutions/marketing/Appointment.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Appointment.cdm.json/Appointment")  
@@ -54,75 +55,75 @@ crmCommon/Appointment
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Appointment](../../Appointment.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Appointment](../../Appointment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Appointment](../../Appointment.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Appointment](../../Appointment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Appointment](../../Appointment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Appointment](../../Appointment.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Appointment](../../Appointment.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Appointment](../../Appointment.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Appointment](../../Appointment.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Appointment](../../Appointment.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/Appointment](../../Appointment.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/Appointment](../../Appointment.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Appointment](../../Appointment.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Appointment](../../Appointment.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Appointment](../../Appointment.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/Appointment](../../Appointment.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/Appointment](../../Appointment.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/Appointment](../../Appointment.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[priorityCode_display](#priorityCode_display)||[applicationCommon/Appointment](../../Appointment.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/Appointment](../../Appointment.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/Appointment](../../Appointment.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/Appointment](../../Appointment.md)|
-|[subject](#subject)|Subject associated with the activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[applicationCommon/Appointment](../../Appointment.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[applicationCommon/Appointment](../../Appointment.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[applicationCommon/Appointment](../../Appointment.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[applicationCommon/Appointment](../../Appointment.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[applicationCommon/Appointment](../../Appointment.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[applicationCommon/Appointment](../../Appointment.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[applicationCommon/Appointment](../../Appointment.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[applicationCommon/Appointment](../../Appointment.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[applicationCommon/Appointment](../../Appointment.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[applicationCommon/Appointment](../../Appointment.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[applicationCommon/Appointment](../../Appointment.md)|
-|[isAllDayEvent](#isAllDayEvent)|Select whether the appointment is an all-day event to make sure that the required resources are scheduled for the full day.|[applicationCommon/Appointment](../../Appointment.md)|
-|[description](#description)|Type additional information to describe the purpose of the appointment.|[applicationCommon/Appointment](../../Appointment.md)|
-|[globalObjectId](#globalObjectId)|Shows the ID of the appointment in Microsoft Office Outlook. The ID is used to synchronize the appointment between Microsoft Dynamics 365 and the correct Exchange account.|[applicationCommon/Appointment](../../Appointment.md)|
-|[statusCode](#statusCode)|Select the appointment's status.|[applicationCommon/Appointment](../../Appointment.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Appointment](../../Appointment.md)|
-|[outlookOwnerApptId](#outlookOwnerApptId)|Unique identifier of the Microsoft Office Outlook appointment owner that correlates to the PR_OWNER_APPT_ID MAPI property.|[applicationCommon/Appointment](../../Appointment.md)|
-|[location](#location)|Type the location where the appointment will take place, such as a conference room or customer office.|[applicationCommon/Appointment](../../Appointment.md)|
-|[stateCode](#stateCode)|Shows whether the appointment is open, completed, or canceled. Completed and canceled appointments are read-only and can't be edited.|[applicationCommon/Appointment](../../Appointment.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Appointment](../../Appointment.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/Appointment](../../Appointment.md)|
-|[modifiedFieldsMask](#modifiedFieldsMask)|For internal use only. |[applicationCommon/Appointment](../../Appointment.md)|
-|[seriesId](#seriesId)|Shows the ID of the recurring series of an instance.|[applicationCommon/Appointment](../../Appointment.md)|
-|[originalStartDate](#originalStartDate)|The original start date of the appointment.|[applicationCommon/Appointment](../../Appointment.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Appointment](../../Appointment.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Appointment](../../Appointment.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/Appointment](../../Appointment.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/Appointment](../../Appointment.md)|
-|[attachmentErrors](#attachmentErrors)|Select the error code to identify issues with the outlook item recipients or attachments, such as blocked attachments.|[applicationCommon/Appointment](../../Appointment.md)|
-|[attachmentErrors_display](#attachmentErrors_display)||[applicationCommon/Appointment](../../Appointment.md)|
-|[attachmentCount](#attachmentCount)|Shows the number of attachments on the appointment.|[applicationCommon/Appointment](../../Appointment.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the appointment record.|[applicationCommon/Appointment](../../Appointment.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this appointment. This field is for internal use only.|[applicationCommon/Appointment](../../Appointment.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/Appointment](../../Appointment.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Appointment](../../Appointment.md)|
-|[isUnsafe](#isUnsafe)|For internal use only.|[applicationCommon/Appointment](../../Appointment.md)|
-|[isDraft](#isDraft)|Information regarding whether the appointment is a draft.|[applicationCommon/Appointment](../../Appointment.md)|
-|[serviceId](#serviceId)|Unique identifier for an associated service.|[crmCommon/Appointment](Appointment.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[isAllDayEvent](#isAllDayEvent)|Select whether the appointment is an all-day event to make sure that the required resources are scheduled for the full day.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[description](#description)|Type additional information to describe the purpose of the appointment.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[globalObjectId](#globalObjectId)|Shows the ID of the appointment in Microsoft Office Outlook. The ID is used to synchronize the appointment between Microsoft Dynamics 365 and the correct Exchange account.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[statusCode](#statusCode)|Select the appointment's status.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[outlookOwnerApptId](#outlookOwnerApptId)|Unique identifier of the Microsoft Office Outlook appointment owner that correlates to the PR_OWNER_APPT_ID MAPI property.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[location](#location)|Type the location where the appointment will take place, such as a conference room or customer office.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[stateCode](#stateCode)|Shows whether the appointment is open, completed, or canceled. Completed and canceled appointments are read-only and can't be edited.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[modifiedFieldsMask](#modifiedFieldsMask)|For internal use only. |<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[seriesId](#seriesId)|Shows the ID of the recurring series of an instance.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[originalStartDate](#originalStartDate)|The original start date of the appointment.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[attachmentErrors](#attachmentErrors)|Select the error code to identify issues with the outlook item recipients or attachments, such as blocked attachments.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[attachmentErrors_display](#attachmentErrors_display)||<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[attachmentCount](#attachmentCount)|Shows the number of attachments on the appointment.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the appointment record.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this appointment. This field is for internal use only.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[isUnsafe](#isUnsafe)|For internal use only.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[isDraft](#isDraft)|Information regarding whether the appointment is a draft.|<a href="../../Appointment.md" target="_blank">applicationCommon/Appointment</a>|
+|[serviceId](#serviceId)|Unique identifier for an associated service.|<a href="Appointment.md" target="_blank">crmCommon/Appointment</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

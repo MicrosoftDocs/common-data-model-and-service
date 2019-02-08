@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Note
 
 Note that is attached to one or more objects, including other notes.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Note.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,40 +43,41 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Note  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[annotationId](#annotationId)|Unique identifier of the note.|[applicationCommon/Note](Note.md)|
-|[objectTypeCode](#objectTypeCode)|Type of entity with which the note is associated.|[applicationCommon/Note](Note.md)|
-|[objectTypeCode_display](#objectTypeCode_display)||[applicationCommon/Note](Note.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns the note.|[applicationCommon/Note](Note.md)|
-|[objectIdTypeCode](#objectIdTypeCode)|The name of the entity linked by objectId|[applicationCommon/Note](Note.md)|
-|[objectId](#objectId)|Unique identifier of the object with which the note is associated.|[applicationCommon/Note](Note.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the note.|[applicationCommon/Note](Note.md)|
-|[subject](#subject)|Subject associated with the note.|[applicationCommon/Note](Note.md)|
-|[isDocument](#isDocument)|Specifies whether the note is an attachment.|[applicationCommon/Note](Note.md)|
-|[noteText](#noteText)|Text of the note.|[applicationCommon/Note](Note.md)|
-|[mimeType](#mimeType)|MIME type of the note's attachment.|[applicationCommon/Note](Note.md)|
-|[langId](#langId)|Language identifier for the note.|[applicationCommon/Note](Note.md)|
-|[documentBody](#documentBody)|Contents of the note's attachment.|[applicationCommon/Note](Note.md)|
-|[createdOn](#createdOn)|Date and time when the note was created.|[applicationCommon/Note](Note.md)|
-|[fileSize](#fileSize)|File size of the note.|[applicationCommon/Note](Note.md)|
-|[fileName](#fileName)|File name of the note.|[applicationCommon/Note](Note.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the note.|[applicationCommon/Note](Note.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the note.|[applicationCommon/Note](Note.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the note was last modified.|[applicationCommon/Note](Note.md)|
-|[versionNumber](#versionNumber)|Version number of the note.|[applicationCommon/Note](Note.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Note](Note.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Note](Note.md)|
-|[stepId](#stepId)|workflow step id associated with the note.|[applicationCommon/Note](Note.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Note](Note.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Note](Note.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the annotation.|[applicationCommon/Note](Note.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the annotation.|[applicationCommon/Note](Note.md)|
-|[owningTeam](#owningTeam)|Unique identifier of the team who owns the note.|[applicationCommon/Note](Note.md)|
+|[annotationId](#annotationId)|Unique identifier of the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[objectTypeCode](#objectTypeCode)|Type of entity with which the note is associated.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[objectTypeCode_display](#objectTypeCode_display)||<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[objectIdTypeCode](#objectIdTypeCode)|The name of the entity linked by objectId|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[objectId](#objectId)|Unique identifier of the object with which the note is associated.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[subject](#subject)|Subject associated with the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[isDocument](#isDocument)|Specifies whether the note is an attachment.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[noteText](#noteText)|Text of the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[mimeType](#mimeType)|MIME type of the note's attachment.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[langId](#langId)|Language identifier for the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[documentBody](#documentBody)|Contents of the note's attachment.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[createdOn](#createdOn)|Date and time when the note was created.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[fileSize](#fileSize)|File size of the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[fileName](#fileName)|File name of the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the note was last modified.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[versionNumber](#versionNumber)|Version number of the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[stepId](#stepId)|workflow step id associated with the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the annotation.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the annotation.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
+|[owningTeam](#owningTeam)|Unique identifier of the team who owns the note.|<a href="Note.md" target="_blank">applicationCommon/Note</a>|
 
 ### <a href=#annotationId name="annotationId">annotationId</a>
 

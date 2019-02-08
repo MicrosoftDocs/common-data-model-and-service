@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Article Template
 
 Template for a knowledge base article that contains the standard attributes of an article.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ArticleTemplate.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,37 +43,38 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/ArticleTemplate  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[kbArticleTemplateId](#kbArticleTemplateId)|Unique identifier of the knowledge base article template.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[structureXml](#structureXml)|XML structure of the knowledge base article.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the template.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[formatXml](#formatXml)|XML format of the knowledge base article template.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[title](#title)|Title of the knowledge base article template.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[description](#description)|Description of the knowledge base article template.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[isActive](#isActive)|Information about whether the knowledge base article is active.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the knowledge base article template.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the knowledge base article template.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[createdOn](#createdOn)|Date and time when the knowledge base article template was created.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the knowledge base article template was last modified.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[languageCode](#languageCode)|Language of the Article Template|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[kbArticleTemplateIdUnique](#kbArticleTemplateIdUnique)|For internal use only.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[componentState](#componentState)|For internal use only.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[componentState_display](#componentState_display)||[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[solutionId](#solutionId)|Unique identifier of the associated solution.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[overwriteTime](#overwriteTime)|For internal use only.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the kbarticletemplate.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the kbarticletemplate.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[isManaged](#isManaged)||[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[isCustomizable](#isCustomizable)|Information that specifies whether this component can be customized.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
-|[introducedVersion](#introducedVersion)|Version in which the form is introduced.|[applicationCommon/ArticleTemplate](ArticleTemplate.md)|
+|[kbArticleTemplateId](#kbArticleTemplateId)|Unique identifier of the knowledge base article template.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[structureXml](#structureXml)|XML structure of the knowledge base article.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the template.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[formatXml](#formatXml)|XML format of the knowledge base article template.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[title](#title)|Title of the knowledge base article template.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[versionNumber](#versionNumber)||<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[description](#description)|Description of the knowledge base article template.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[isActive](#isActive)|Information about whether the knowledge base article is active.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the knowledge base article template.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the knowledge base article template.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[createdOn](#createdOn)|Date and time when the knowledge base article template was created.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the knowledge base article template was last modified.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[languageCode](#languageCode)|Language of the Article Template|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[kbArticleTemplateIdUnique](#kbArticleTemplateIdUnique)|For internal use only.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[componentState](#componentState)|For internal use only.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[componentState_display](#componentState_display)||<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[solutionId](#solutionId)|Unique identifier of the associated solution.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[overwriteTime](#overwriteTime)|For internal use only.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the kbarticletemplate.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the kbarticletemplate.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[isManaged](#isManaged)||<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[isCustomizable](#isCustomizable)|Information that specifies whether this component can be customized.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
+|[introducedVersion](#introducedVersion)|Version in which the form is introduced.|<a href="ArticleTemplate.md" target="_blank">applicationCommon/ArticleTemplate</a>|
 
 ### <a href=#kbArticleTemplateId name="kbArticleTemplateId">kbArticleTemplateId</a>
 

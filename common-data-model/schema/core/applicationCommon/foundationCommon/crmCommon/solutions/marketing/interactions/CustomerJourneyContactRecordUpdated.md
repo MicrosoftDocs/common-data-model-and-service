@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Customer journey contact record updated
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CustomerJourneyContactRecordUpdated.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,21 +33,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/CustomerJourneyContactRecordUpdated  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/CustomerJourneyContactRecordUpdated](CustomerJourneyContactRecordUpdated.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/CustomerJourneyContactRecordUpdated](CustomerJourneyContactRecordUpdated.md)|
-|[accountId](#accountId)|Account|[interactions/CustomerJourneyContactRecordUpdated](CustomerJourneyContactRecordUpdated.md)|
-|[contactId](#contactId)|Contact|[interactions/CustomerJourneyContactRecordUpdated](CustomerJourneyContactRecordUpdated.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/CustomerJourneyContactRecordUpdated](CustomerJourneyContactRecordUpdated.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/CustomerJourneyContactRecordUpdated](CustomerJourneyContactRecordUpdated.md)|
-|[activityId](#activityId)|Activity ID|[interactions/CustomerJourneyContactRecordUpdated](CustomerJourneyContactRecordUpdated.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/CustomerJourneyContactRecordUpdated](CustomerJourneyContactRecordUpdated.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/CustomerJourneyContactRecordUpdated](CustomerJourneyContactRecordUpdated.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="CustomerJourneyContactRecordUpdated.md" target="_blank">interactions/CustomerJourneyContactRecordUpdated</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="CustomerJourneyContactRecordUpdated.md" target="_blank">interactions/CustomerJourneyContactRecordUpdated</a>|
+|[accountId](#accountId)|Account|<a href="CustomerJourneyContactRecordUpdated.md" target="_blank">interactions/CustomerJourneyContactRecordUpdated</a>|
+|[contactId](#contactId)|Contact|<a href="CustomerJourneyContactRecordUpdated.md" target="_blank">interactions/CustomerJourneyContactRecordUpdated</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="CustomerJourneyContactRecordUpdated.md" target="_blank">interactions/CustomerJourneyContactRecordUpdated</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="CustomerJourneyContactRecordUpdated.md" target="_blank">interactions/CustomerJourneyContactRecordUpdated</a>|
+|[activityId](#activityId)|Activity ID|<a href="CustomerJourneyContactRecordUpdated.md" target="_blank">interactions/CustomerJourneyContactRecordUpdated</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="CustomerJourneyContactRecordUpdated.md" target="_blank">interactions/CustomerJourneyContactRecordUpdated</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="CustomerJourneyContactRecordUpdated.md" target="_blank">interactions/CustomerJourneyContactRecordUpdated</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

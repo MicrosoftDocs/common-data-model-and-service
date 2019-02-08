@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Web Role
 
 Sets the user's role for the Portal.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebRole.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,39 +46,40 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/WebRole  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/WebRole](WebRole.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/WebRole](WebRole.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/WebRole](WebRole.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/WebRole](WebRole.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/WebRole](WebRole.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/WebRole](WebRole.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/WebRole](WebRole.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/WebRole](WebRole.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/WebRole](WebRole.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/WebRole](WebRole.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/WebRole](WebRole.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/WebRole](WebRole.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/WebRole](WebRole.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/WebRole](WebRole.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/WebRole](WebRole.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/WebRole](WebRole.md)|
-|[webRoleId](#webRoleId)|Unique identifier for entity instances|[portals/WebRole](WebRole.md)|
-|[stateCode](#stateCode)|Status of the Web Role|[portals/WebRole](WebRole.md)|
-|[stateCode_display](#stateCode_display)||[portals/WebRole](WebRole.md)|
-|[statusCode](#statusCode)|Reason for the status of the Web Role|[portals/WebRole](WebRole.md)|
-|[statusCode_display](#statusCode_display)||[portals/WebRole](WebRole.md)|
-|[name](#name)|Shows the name of the custom entity.|[portals/WebRole](WebRole.md)|
-|[authenticatedUsersRole](#authenticatedUsersRole)||[portals/WebRole](WebRole.md)|
-|[description](#description)||[portals/WebRole](WebRole.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with Web Role.|[portals/WebRole](WebRole.md)|
-|[anonymousUsersRole](#anonymousUsersRole)||[portals/WebRole](WebRole.md)|
-|[key](#key)|An alternate key that is not intended to be localized to allow retrieval of a specific Web Role in workflows or code.|[portals/WebRole](WebRole.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[webRoleId](#webRoleId)|Unique identifier for entity instances|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[stateCode](#stateCode)|Status of the Web Role|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[stateCode_display](#stateCode_display)||<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[statusCode](#statusCode)|Reason for the status of the Web Role|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[statusCode_display](#statusCode_display)||<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[name](#name)|Shows the name of the custom entity.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[authenticatedUsersRole](#authenticatedUsersRole)||<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[description](#description)||<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with Web Role.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[anonymousUsersRole](#anonymousUsersRole)||<a href="WebRole.md" target="_blank">portals/WebRole</a>|
+|[key](#key)|An alternate key that is not intended to be localized to allow retrieval of a specific Web Role in workflows or code.|<a href="WebRole.md" target="_blank">portals/WebRole</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Portal Language
 
 Lists the languages supported by the Portal  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PortalLanguage.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,39 +46,40 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/PortalLanguage  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/PortalLanguage](PortalLanguage.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/PortalLanguage](PortalLanguage.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/PortalLanguage](PortalLanguage.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/PortalLanguage](PortalLanguage.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/PortalLanguage](PortalLanguage.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/PortalLanguage](PortalLanguage.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/PortalLanguage](PortalLanguage.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/PortalLanguage](PortalLanguage.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/PortalLanguage](PortalLanguage.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/PortalLanguage](PortalLanguage.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/PortalLanguage](PortalLanguage.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/PortalLanguage](PortalLanguage.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/PortalLanguage](PortalLanguage.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/PortalLanguage](PortalLanguage.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/PortalLanguage](PortalLanguage.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/PortalLanguage](PortalLanguage.md)|
-|[portalLanguageId](#portalLanguageId)|Unique identifier for entity instances|[portals/PortalLanguage](PortalLanguage.md)|
-|[stateCode](#stateCode)|Status of the Portal Language|[portals/PortalLanguage](PortalLanguage.md)|
-|[stateCode_display](#stateCode_display)||[portals/PortalLanguage](PortalLanguage.md)|
-|[statusCode](#statusCode)|Reason for the status of the Portal Language|[portals/PortalLanguage](PortalLanguage.md)|
-|[statusCode_display](#statusCode_display)||[portals/PortalLanguage](PortalLanguage.md)|
-|[name](#name)|The name of the custom entity.|[portals/PortalLanguage](PortalLanguage.md)|
-|[languageCode](#languageCode)|Locale or language identifier that appears in the URL to indicate the portal language|[portals/PortalLanguage](PortalLanguage.md)|
-|[systemLanguage](#systemLanguage)|The system language determines which portal languages are available|[portals/PortalLanguage](PortalLanguage.md)|
-|[description](#description)||[portals/PortalLanguage](PortalLanguage.md)|
-|[portalDisplayName](#portalDisplayName)|Localized display name of the portal language|[portals/PortalLanguage](PortalLanguage.md)|
-|[lcid](#lcid)|Locale ID that is assigned to the portal language|[portals/PortalLanguage](PortalLanguage.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[portalLanguageId](#portalLanguageId)|Unique identifier for entity instances|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[stateCode](#stateCode)|Status of the Portal Language|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[stateCode_display](#stateCode_display)||<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[statusCode](#statusCode)|Reason for the status of the Portal Language|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[statusCode_display](#statusCode_display)||<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[name](#name)|The name of the custom entity.|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[languageCode](#languageCode)|Locale or language identifier that appears in the URL to indicate the portal language|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[systemLanguage](#systemLanguage)|The system language determines which portal languages are available|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[description](#description)||<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[portalDisplayName](#portalDisplayName)|Localized display name of the portal language|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
+|[lcid](#lcid)|Locale ID that is assigned to the portal language|<a href="PortalLanguage.md" target="_blank">portals/PortalLanguage</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

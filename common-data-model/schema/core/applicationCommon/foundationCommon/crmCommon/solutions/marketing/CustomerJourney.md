@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Customer Journey
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/CustomerJourney.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,53 +42,54 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 marketing/CustomerJourney  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[ownerId](#ownerId)|Owner Id|[marketing/CustomerJourney](CustomerJourney.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[marketing/CustomerJourney](CustomerJourney.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[versionNumber](#versionNumber)|Version Number|[marketing/CustomerJourney](CustomerJourney.md)|
-|[customerJourneyId](#customerJourneyId)|Unique ID for entity instances.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[stateCode](#stateCode)|Status of the customer journey|[marketing/CustomerJourney](CustomerJourney.md)|
-|[stateCode_display](#stateCode_display)||[marketing/CustomerJourney](CustomerJourney.md)|
-|[statusCode](#statusCode)|Reason for the status of the customer journey.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[statusCode_display](#statusCode_display)||[marketing/CustomerJourney](CustomerJourney.md)|
-|[name](#name)|The name of the customer journey.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[contentSettingsId](#contentSettingsId)|Content settings that apply to this customer journey.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[customerJourneyDesignerState](#customerJourneyDesignerState)|The state of customer journey.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[customerJourneyTemplate](#customerJourneyTemplate)|The template used to create the initial layout of the customer journey.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[customerJourneyTimeZone](#customerJourneyTimeZone)|Effective time zone for this customer journey|[marketing/CustomerJourney](CustomerJourney.md)|
-|[description](#description)|Enter additional information to describe this customer journey.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[endDateTime](#endDateTime)|The end date of customer journey|[marketing/CustomerJourney](CustomerJourney.md)|
-|[insightsPlaceholder](#insightsPlaceholder)||[marketing/CustomerJourney](CustomerJourney.md)|
-|[isRecurring](#isRecurring)|Tells whether the customer journey is recurring or not.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[publishedBy](#publishedBy)|Unique ID of the user who published the customer journey|[marketing/CustomerJourney](CustomerJourney.md)|
-|[purpose](#purpose)||[marketing/CustomerJourney](CustomerJourney.md)|
-|[recurrenceCount](#recurrenceCount)|The number of iterations.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[recurrenceIntervalDays](#recurrenceIntervalDays)|The duration of the iteration (in days)|[marketing/CustomerJourney](CustomerJourney.md)|
-|[startDateTime](#startDateTime)|The start date of the customer journey.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[suppressionSegmentId](#suppressionSegmentId)|A segment that defines a list of contacts that are excluded from this customer journey.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[type](#type)||[marketing/CustomerJourney](CustomerJourney.md)|
-|[type_display](#type_display)||[marketing/CustomerJourney](CustomerJourney.md)|
-|[validationResults](#validationResults)||[marketing/CustomerJourney](CustomerJourney.md)|
-|[workflowDefinition](#workflowDefinition)|The customer journey design definition.|[marketing/CustomerJourney](CustomerJourney.md)|
-|[linkedInCampaign](#linkedInCampaign)|Link to LinkedIn Campaign|[marketing/CustomerJourney](CustomerJourney.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[customerJourneyId](#customerJourneyId)|Unique ID for entity instances.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[stateCode](#stateCode)|Status of the customer journey|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[stateCode_display](#stateCode_display)||<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[statusCode](#statusCode)|Reason for the status of the customer journey.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[statusCode_display](#statusCode_display)||<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[name](#name)|The name of the customer journey.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[contentSettingsId](#contentSettingsId)|Content settings that apply to this customer journey.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[customerJourneyDesignerState](#customerJourneyDesignerState)|The state of customer journey.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[customerJourneyTemplate](#customerJourneyTemplate)|The template used to create the initial layout of the customer journey.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[customerJourneyTimeZone](#customerJourneyTimeZone)|Effective time zone for this customer journey|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[description](#description)|Enter additional information to describe this customer journey.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[endDateTime](#endDateTime)|The end date of customer journey|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[insightsPlaceholder](#insightsPlaceholder)||<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[isRecurring](#isRecurring)|Tells whether the customer journey is recurring or not.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[publishedBy](#publishedBy)|Unique ID of the user who published the customer journey|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[purpose](#purpose)||<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[recurrenceCount](#recurrenceCount)|The number of iterations.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[recurrenceIntervalDays](#recurrenceIntervalDays)|The duration of the iteration (in days)|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[startDateTime](#startDateTime)|The start date of the customer journey.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[suppressionSegmentId](#suppressionSegmentId)|A segment that defines a list of contacts that are excluded from this customer journey.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[type](#type)||<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[type_display](#type_display)||<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[validationResults](#validationResults)||<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[workflowDefinition](#workflowDefinition)|The customer journey design definition.|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
+|[linkedInCampaign](#linkedInCampaign)|Link to LinkedIn Campaign|<a href="CustomerJourney.md" target="_blank">marketing/CustomerJourney</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Tag
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Tag.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,35 +42,36 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/Tag  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/Tag](Tag.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/Tag](Tag.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/Tag](Tag.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/Tag](Tag.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/Tag](Tag.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/Tag](Tag.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/Tag](Tag.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/Tag](Tag.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/Tag](Tag.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/Tag](Tag.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/Tag](Tag.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/Tag](Tag.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/Tag](Tag.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/Tag](Tag.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/Tag](Tag.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/Tag](Tag.md)|
-|[tagId](#tagId)|Shows the entity instance.|[portals/Tag](Tag.md)|
-|[stateCode](#stateCode)|Status of the Tag|[portals/Tag](Tag.md)|
-|[stateCode_display](#stateCode_display)||[portals/Tag](Tag.md)|
-|[statusCode](#statusCode)|Select the tag's status.|[portals/Tag](Tag.md)|
-|[statusCode_display](#statusCode_display)||[portals/Tag](Tag.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/Tag](Tag.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with Tag.|[portals/Tag](Tag.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[tagId](#tagId)|Shows the entity instance.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[stateCode](#stateCode)|Status of the Tag|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[stateCode_display](#stateCode_display)||<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[statusCode](#statusCode)|Select the tag's status.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[statusCode_display](#statusCode_display)||<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="Tag.md" target="_blank">portals/Tag</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with Tag.|<a href="Tag.md" target="_blank">portals/Tag</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

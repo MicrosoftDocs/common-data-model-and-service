@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Goal Metric
 
 Type of measurement for a goal, such as money amount or count.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/GoalMetric.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,35 +46,36 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/GoalMetric  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[metricId](#metricId)|Unique identifier of the goal metric.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[stateCode](#stateCode)|Status of the goal metric.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/GoalMetric](GoalMetric.md)|
-|[statusCode](#statusCode)|Reason for the status of the goal metric.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/GoalMetric](GoalMetric.md)|
-|[versionNumber](#versionNumber)|Version number of the goal metric.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[name](#name)|Name of the goal metric.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[amountDataType](#amountDataType)|Data type of the amount.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[amountDataType_display](#amountDataType_display)||[applicationCommon/GoalMetric](GoalMetric.md)|
-|[isAmount](#isAmount)|Information that indicates whether the metric type is Count or Amount.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[isStretchTracked](#isStretchTracked)|Indicates whether the goal metric tracks stretch targets.|[applicationCommon/GoalMetric](GoalMetric.md)|
-|[description](#description)|Description of the goal metric.|[applicationCommon/GoalMetric](GoalMetric.md)|
+|[metricId](#metricId)|Unique identifier of the goal metric.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[stateCode](#stateCode)|Status of the goal metric.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[stateCode_display](#stateCode_display)||<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[statusCode](#statusCode)|Reason for the status of the goal metric.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[statusCode_display](#statusCode_display)||<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[versionNumber](#versionNumber)|Version number of the goal metric.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[name](#name)|Name of the goal metric.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[amountDataType](#amountDataType)|Data type of the amount.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[amountDataType_display](#amountDataType_display)||<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[isAmount](#isAmount)|Information that indicates whether the metric type is Count or Amount.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[isStretchTracked](#isStretchTracked)|Indicates whether the goal metric tracks stretch targets.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
+|[description](#description)|Description of the goal metric.|<a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>|
 
 ### <a href=#metricId name="metricId">metricId</a>
 

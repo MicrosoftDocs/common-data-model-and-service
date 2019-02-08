@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Knowledge Article Views
 
 No of times an article is viewed per day  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleViews.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/KnowledgeArticleViews  
 [portals/KnowledgeArticleViews](foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/KnowledgeArticleViews.cdm.json/KnowledgeArticleViews")  
 
@@ -53,33 +54,33 @@ applicationCommon/KnowledgeArticleViews
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[knowledgeArticleViewsId](#knowledgeArticleViewsId)|Unique identifier of the Knowledge Article Views|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[knowledgeArticleView](#knowledgeArticleView)|Number of Knowledge Article Views visited per day|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[viewDate](#viewDate)|Information about the Day|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[knowledgearticleId](#knowledgearticleId)|Choose the Knowledge Article.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the knowledge article views.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns the knowledge article views.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[stateCode](#stateCode)|Status of the Knowledge Article Views|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[statusCode](#statusCode)|Reason for the status of the Knowledge Article Views|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[location](#location)|Shows where the knowledge was used|[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
-|[location_display](#location_display)||[applicationCommon/KnowledgeArticleViews](KnowledgeArticleViews.md)|
+|[knowledgeArticleViewsId](#knowledgeArticleViewsId)|Unique identifier of the Knowledge Article Views|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[versionNumber](#versionNumber)||<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[knowledgeArticleView](#knowledgeArticleView)|Number of Knowledge Article Views visited per day|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[viewDate](#viewDate)|Information about the Day|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[knowledgearticleId](#knowledgearticleId)|Choose the Knowledge Article.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the knowledge article views.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns the knowledge article views.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[stateCode](#stateCode)|Status of the Knowledge Article Views|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[stateCode_display](#stateCode_display)||<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[statusCode](#statusCode)|Reason for the status of the Knowledge Article Views|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[statusCode_display](#statusCode_display)||<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[location](#location)|Shows where the knowledge was used|<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
+|[location_display](#location_display)||<a href="KnowledgeArticleViews.md" target="_blank">applicationCommon/KnowledgeArticleViews</a>|
 
 ### <a href=#knowledgeArticleViewsId name="knowledgeArticleViewsId">knowledgeArticleViewsId</a>
 

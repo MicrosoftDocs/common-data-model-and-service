@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Forum
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Forum.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,49 +42,50 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/Forum  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/Forum](Forum.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/Forum](Forum.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/Forum](Forum.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/Forum](Forum.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/Forum](Forum.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/Forum](Forum.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/Forum](Forum.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/Forum](Forum.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/Forum](Forum.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/Forum](Forum.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/Forum](Forum.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/Forum](Forum.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/Forum](Forum.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/Forum](Forum.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/Forum](Forum.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/Forum](Forum.md)|
-|[communityForumId](#communityForumId)|Shows the entity instances.|[portals/Forum](Forum.md)|
-|[stateCode](#stateCode)|Status of the Forum|[portals/Forum](Forum.md)|
-|[stateCode_display](#stateCode_display)||[portals/Forum](Forum.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[communityForumId](#communityForumId)|Shows the entity instances.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[stateCode](#stateCode)|Status of the Forum|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[stateCode_display](#stateCode_display)||<a href="Forum.md" target="_blank">portals/Forum</a>|
 |[statusCode](#statusCode)|Select the forum's status.
-|[portals/Forum](Forum.md)|
-|[statusCode_display](#statusCode_display)||[portals/Forum](Forum.md)|
-|[name](#name)|Shows the name of the custom entity.|[portals/Forum](Forum.md)|
-|[description](#description)||[portals/Forum](Forum.md)|
-|[displayOrder](#displayOrder)||[portals/Forum](Forum.md)|
-|[enableQueuedPosts](#enableQueuedPosts)|Automatically put posts in a queue awaiting a moderator to approve|[portals/Forum](Forum.md)|
-|[forumPageTemplateID](#forumPageTemplateID)|Shows the Page Template associated with the forum.|[portals/Forum](Forum.md)|
-|[hiddenFromSitemap](#hiddenFromSitemap)||[portals/Forum](Forum.md)|
-|[lastPostID](#lastPostID)|Shows the forum post associated with the forum.|[portals/Forum](Forum.md)|
-|[parentPageID](#parentPageID)|Shows the webpage associated with the forum.|[portals/Forum](Forum.md)|
-|[partialURL](#partialURL)||[portals/Forum](Forum.md)|
-|[postCount](#postCount)||[portals/Forum](Forum.md)|
-|[publishingStateID](#publishingStateID)|Shows the Publishing State associated with the forum.|[portals/Forum](Forum.md)|
-|[threadCount](#threadCount)||[portals/Forum](Forum.md)|
-|[threadPageTemplateID](#threadPageTemplateID)|Shows the Page Template associated with the forum.|[portals/Forum](Forum.md)|
-|[websiteId](#websiteId)|Shows the Website associated with the forum.|[portals/Forum](Forum.md)|
-|[forumLanguageId](#forumLanguageId)|Option to make forums and forum posts language specific|[portals/Forum](Forum.md)|
+|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[statusCode_display](#statusCode_display)||<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[name](#name)|Shows the name of the custom entity.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[description](#description)||<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[displayOrder](#displayOrder)||<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[enableQueuedPosts](#enableQueuedPosts)|Automatically put posts in a queue awaiting a moderator to approve|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[forumPageTemplateID](#forumPageTemplateID)|Shows the Page Template associated with the forum.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[hiddenFromSitemap](#hiddenFromSitemap)||<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[lastPostID](#lastPostID)|Shows the forum post associated with the forum.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[parentPageID](#parentPageID)|Shows the webpage associated with the forum.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[partialURL](#partialURL)||<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[postCount](#postCount)||<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[publishingStateID](#publishingStateID)|Shows the Publishing State associated with the forum.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[threadCount](#threadCount)||<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[threadPageTemplateID](#threadPageTemplateID)|Shows the Page Template associated with the forum.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[websiteId](#websiteId)|Shows the Website associated with the forum.|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[forumLanguageId](#forumLanguageId)|Option to make forums and forum posts language specific|<a href="Forum.md" target="_blank">portals/Forum</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

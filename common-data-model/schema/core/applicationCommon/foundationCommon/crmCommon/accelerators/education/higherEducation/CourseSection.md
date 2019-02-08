@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Course Section
 
 The relationship between an instructor and a specific course.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/CourseSection.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,41 +46,42 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/CourseSection  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/CourseSection](CourseSection.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/CourseSection](CourseSection.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/CourseSection](CourseSection.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/CourseSection](CourseSection.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/CourseSection](CourseSection.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/CourseSection](CourseSection.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/CourseSection](CourseSection.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/CourseSection](CourseSection.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/CourseSection](CourseSection.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/CourseSection](CourseSection.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/CourseSection](CourseSection.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/CourseSection](CourseSection.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/CourseSection](CourseSection.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/CourseSection](CourseSection.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/CourseSection](CourseSection.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/CourseSection](CourseSection.md)|
-|[courseSectionId](#courseSectionId)|Unique identifier for entity instances|[higherEducation/CourseSection](CourseSection.md)|
-|[stateCode](#stateCode)|Status of the Course Section|[higherEducation/CourseSection](CourseSection.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/CourseSection](CourseSection.md)|
-|[statusCode](#statusCode)|Reason for the status of the Course Section|[higherEducation/CourseSection](CourseSection.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/CourseSection](CourseSection.md)|
-|[name](#name)|The name of the custom entity.|[higherEducation/CourseSection](CourseSection.md)|
-|[academicPeriodId](#academicPeriodId)|Lookup to Academic Period.|[higherEducation/CourseSection](CourseSection.md)|
-|[campusId](#campusId)|Campus Location of the course.|[higherEducation/CourseSection](CourseSection.md)|
-|[courseDayTime](#courseDayTime)|Text field to store the date and time of the course.|[higherEducation/CourseSection](CourseSection.md)|
-|[courseId](#courseId)|Lookup to Course|[higherEducation/CourseSection](CourseSection.md)|
-|[instructorId](#instructorId)|Instructor|[higherEducation/CourseSection](CourseSection.md)|
-|[location](#location)|Specific Meeting Location|[higherEducation/CourseSection](CourseSection.md)|
-|[prerequisites](#prerequisites)|Prerequisites|[higherEducation/CourseSection](CourseSection.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[courseSectionId](#courseSectionId)|Unique identifier for entity instances|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[stateCode](#stateCode)|Status of the Course Section|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[stateCode_display](#stateCode_display)||<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[statusCode](#statusCode)|Reason for the status of the Course Section|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[statusCode_display](#statusCode_display)||<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[name](#name)|The name of the custom entity.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[academicPeriodId](#academicPeriodId)|Lookup to Academic Period.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[campusId](#campusId)|Campus Location of the course.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[courseDayTime](#courseDayTime)|Text field to store the date and time of the course.|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[courseId](#courseId)|Lookup to Course|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[instructorId](#instructorId)|Instructor|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[location](#location)|Specific Meeting Location|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
+|[prerequisites](#prerequisites)|Prerequisites|<a href="CourseSection.md" target="_blank">higherEducation/CourseSection</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

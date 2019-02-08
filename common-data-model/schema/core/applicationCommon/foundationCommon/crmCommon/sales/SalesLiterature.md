@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Sales Literature
 
 Storage of sales literature, which may contain one or more documents.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,41 +43,42 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/SalesLiterature  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[salesLiteratureId](#salesLiteratureId)|Unique identifier of the sales literature.|[sales/SalesLiterature](SalesLiterature.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/SalesLiterature](SalesLiterature.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/SalesLiterature](SalesLiterature.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/SalesLiterature](SalesLiterature.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/SalesLiterature](SalesLiterature.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/SalesLiterature](SalesLiterature.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/SalesLiterature](SalesLiterature.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[sales/SalesLiterature](SalesLiterature.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/SalesLiterature](SalesLiterature.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/SalesLiterature](SalesLiterature.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/SalesLiterature](SalesLiterature.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/SalesLiterature](SalesLiterature.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/SalesLiterature](SalesLiterature.md)|
-|[name](#name)|Type a descriptive title for the sales literature.|[sales/SalesLiterature](SalesLiterature.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[sales/SalesLiterature](SalesLiterature.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[sales/SalesLiterature](SalesLiterature.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[sales/SalesLiterature](SalesLiterature.md)|
-|[description](#description)|Type additional information to describe the sales literature, such as the intended audience or primary messages.|[sales/SalesLiterature](SalesLiterature.md)|
-|[employeeContactId](#employeeContactId)|Choose the user who is responsible for maintaining or updating the sales literature.|[sales/SalesLiterature](SalesLiterature.md)|
-|[expirationDate](#expirationDate)|Enter the expiration date or last day the sales literature can be distributed.|[sales/SalesLiterature](SalesLiterature.md)|
-|[hasAttachments](#hasAttachments)|Tells whether the sales literature has one or more attachments.|[sales/SalesLiterature](SalesLiterature.md)|
-|[isCustomerViewable](#isCustomerViewable)|Select whether the sales literature can be distributed to prospects and customers or is for internal use only.|[sales/SalesLiterature](SalesLiterature.md)|
-|[keyWords](#keyWords)|Type one or more topics or keywords that can be used to search for the sales literature.|[sales/SalesLiterature](SalesLiterature.md)|
-|[literatureTypeCode](#literatureTypeCode)|Select a category or type to help others identify the intended use of the sales literature.|[sales/SalesLiterature](SalesLiterature.md)|
-|[literatureTypeCode_display](#literatureTypeCode_display)||[sales/SalesLiterature](SalesLiterature.md)|
-|[subjectId](#subjectId)|Choose the subject for the sales literature to relate the item to a product or business group. Administrators can configure subjects under Business Management in the Settings area.|[sales/SalesLiterature](SalesLiterature.md)|
-|[entityImageId](#entityImageId)||[sales/SalesLiterature](SalesLiterature.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/SalesLiterature](SalesLiterature.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/SalesLiterature](SalesLiterature.md)|
+|[salesLiteratureId](#salesLiteratureId)|Unique identifier of the sales literature.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[name](#name)|Type a descriptive title for the sales literature.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[description](#description)|Type additional information to describe the sales literature, such as the intended audience or primary messages.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[employeeContactId](#employeeContactId)|Choose the user who is responsible for maintaining or updating the sales literature.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[expirationDate](#expirationDate)|Enter the expiration date or last day the sales literature can be distributed.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[hasAttachments](#hasAttachments)|Tells whether the sales literature has one or more attachments.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[isCustomerViewable](#isCustomerViewable)|Select whether the sales literature can be distributed to prospects and customers or is for internal use only.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[keyWords](#keyWords)|Type one or more topics or keywords that can be used to search for the sales literature.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[literatureTypeCode](#literatureTypeCode)|Select a category or type to help others identify the intended use of the sales literature.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[literatureTypeCode_display](#literatureTypeCode_display)||<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[subjectId](#subjectId)|Choose the subject for the sales literature to relate the item to a product or business group. Administrators can configure subjects under Business Management in the Settings area.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[entityImageId](#entityImageId)||<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="SalesLiterature.md" target="_blank">sales/SalesLiterature</a>|
 
 ### <a href=#salesLiteratureId name="salesLiteratureId">salesLiteratureId</a>
 

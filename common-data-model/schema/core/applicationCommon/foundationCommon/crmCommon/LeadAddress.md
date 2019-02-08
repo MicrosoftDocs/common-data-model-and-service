@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Lead Address
 
 Address information for a lead.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/LeadAddress.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,51 +43,52 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 crmCommon/LeadAddress  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[leadAddressId](#leadAddressId)|Unique identifier of the lead address.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[createdOn](#createdOn)|Date and time when the lead address was created.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the lead address.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the lead address was last modified.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the lead address.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the leadaddress.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the leadaddress.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/LeadAddress](LeadAddress.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[name](#name)|Name used to identify the lead address.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[addressNumber](#addressNumber)|Information about the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[addressTypeCode](#addressTypeCode)|Type of address for the lead address.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[addressTypeCode_display](#addressTypeCode_display)||[crmCommon/LeadAddress](LeadAddress.md)|
-|[city](#city)|City name in the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[composite](#composite)|Shows the complete address.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[country](#country)|Country/region name in the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[county](#county)|County name in the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[fax](#fax)|Fax number for the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[latitude](#latitude)|Latitude for the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[line1](#line1)|First line for entering address information.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[line2](#line2)|Second line for entering address information.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[line3](#line3)|Third line for entering address information.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[longitude](#longitude)|Longitude for the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[parentId](#parentId)|Unique identifier of the parent object with which the lead address is associated.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[postalCode](#postalCode)|ZIP Code or postal code in the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[postOfficeBox](#postOfficeBox)|Post office box number in the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[shippingMethodCode](#shippingMethodCode)|Method of shipment for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[shippingMethodCode_display](#shippingMethodCode_display)||[crmCommon/LeadAddress](LeadAddress.md)|
-|[stateOrProvince](#stateOrProvince)|State or province in the address for the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[telephone1](#telephone1)|First telephone number for the lead address.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[telephone2](#telephone2)|Second telephone number for the lead address.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[telephone3](#telephone3)|Third telephone number for the lead address.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[UPSZone](#UPSZone)|United Parcel Service (UPS) zone for the address of the lead.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[UTCOffset](#UTCOffset)|UTC offset for the lead address. This is the difference between local time and standard Coordinated Universal Time.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the leadaddress with respect to the base currency.|[crmCommon/LeadAddress](LeadAddress.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the leadaddress.|[crmCommon/LeadAddress](LeadAddress.md)|
+|[leadAddressId](#leadAddressId)|Unique identifier of the lead address.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[createdOn](#createdOn)|Date and time when the lead address was created.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the lead address.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the lead address was last modified.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the lead address.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the leadaddress.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the leadaddress.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[name](#name)|Name used to identify the lead address.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[addressNumber](#addressNumber)|Information about the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[addressTypeCode](#addressTypeCode)|Type of address for the lead address.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[addressTypeCode_display](#addressTypeCode_display)||<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[city](#city)|City name in the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[composite](#composite)|Shows the complete address.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[country](#country)|Country/region name in the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[county](#county)|County name in the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[fax](#fax)|Fax number for the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[latitude](#latitude)|Latitude for the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[line1](#line1)|First line for entering address information.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[line2](#line2)|Second line for entering address information.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[line3](#line3)|Third line for entering address information.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[longitude](#longitude)|Longitude for the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[parentId](#parentId)|Unique identifier of the parent object with which the lead address is associated.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[postalCode](#postalCode)|ZIP Code or postal code in the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[postOfficeBox](#postOfficeBox)|Post office box number in the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[shippingMethodCode](#shippingMethodCode)|Method of shipment for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[stateOrProvince](#stateOrProvince)|State or province in the address for the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[telephone1](#telephone1)|First telephone number for the lead address.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[telephone2](#telephone2)|Second telephone number for the lead address.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[telephone3](#telephone3)|Third telephone number for the lead address.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[UPSZone](#UPSZone)|United Parcel Service (UPS) zone for the address of the lead.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[UTCOffset](#UTCOffset)|UTC offset for the lead address. This is the difference between local time and standard Coordinated Universal Time.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the leadaddress with respect to the base currency.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the leadaddress.|<a href="LeadAddress.md" target="_blank">crmCommon/LeadAddress</a>|
 
 ### <a href=#leadAddressId name="leadAddressId">leadAddressId</a>
 

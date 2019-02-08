@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Segment subscribed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentSubscribed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,40 +33,41 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/SegmentSubscribed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[contactId](#contactId)|Contact|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[accountId](#accountId)|Account|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[messageId](#messageId)|Message|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[sessionId](#sessionId)|Session ID|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[visitorId](#visitorId)|Visitor ID|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[emailDomain](#emailDomain)|Email domain|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[emailAddressUsed](#emailAddressUsed)|Email address used|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[state](#state)|State|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[city](#city)|City|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[postalCode](#postalCode)|Postal code|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[browserId](#browserId)|Browser ID|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[browserVersion](#browserVersion)|Browser version|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[segmentId](#segmentId)|Segment ID|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[formSubmissionId](#formSubmissionId)|Form submission ID|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[searchPhrase](#searchPhrase)|Search phrase|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[searchEngineName](#searchEngineName)|Search engine name|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[visitDuration](#visitDuration)|Visit duration|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
-|[leadId](#leadId)|Lead ID|[interactions/SegmentSubscribed](SegmentSubscribed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[contactId](#contactId)|Contact|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[accountId](#accountId)|Account|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[messageId](#messageId)|Message|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[sessionId](#sessionId)|Session ID|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[visitorId](#visitorId)|Visitor ID|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[emailDomain](#emailDomain)|Email domain|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[emailAddressUsed](#emailAddressUsed)|Email address used|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[state](#state)|State|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[city](#city)|City|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[postalCode](#postalCode)|Postal code|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[browserId](#browserId)|Browser ID|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[browserVersion](#browserVersion)|Browser version|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[segmentId](#segmentId)|Segment ID|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[formSubmissionId](#formSubmissionId)|Form submission ID|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[searchPhrase](#searchPhrase)|Search phrase|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[searchEngineName](#searchEngineName)|Search engine name|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[visitDuration](#visitDuration)|Visit duration|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
+|[leadId](#leadId)|Lead ID|<a href="SegmentSubscribed.md" target="_blank">interactions/SegmentSubscribed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

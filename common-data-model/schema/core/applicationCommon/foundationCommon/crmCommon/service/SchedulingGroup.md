@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Scheduling Group
 
 Resource group or team whose members can be scheduled for a service.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/SchedulingGroup.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -40,24 +40,25 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/SchedulingGroup  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[resourceGroupId](#resourceGroupId)|Unique identifier of the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[businessUnitId](#businessUnitId)|Business Unit Id|[service/SchedulingGroup](SchedulingGroup.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/SchedulingGroup](SchedulingGroup.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[name](#name)|Name of the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[groupTypeCode](#groupTypeCode)|Scheduling group type code.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[groupTypeCode_display](#groupTypeCode_display)||[service/SchedulingGroup](SchedulingGroup.md)|
-|[objectTypeCode](#objectTypeCode)|Type of entity with which the scheduling group is associated.|[service/SchedulingGroup](SchedulingGroup.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the scheduling group.|[service/SchedulingGroup](SchedulingGroup.md)|
+|[resourceGroupId](#resourceGroupId)|Unique identifier of the scheduling group.|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[businessUnitId](#businessUnitId)|Business Unit Id|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[name](#name)|Name of the scheduling group.|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[groupTypeCode](#groupTypeCode)|Scheduling group type code.|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[groupTypeCode_display](#groupTypeCode_display)||<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[objectTypeCode](#objectTypeCode)|Type of entity with which the scheduling group is associated.|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the scheduling group.|<a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>|
 
 ### <a href=#resourceGroupId name="resourceGroupId">resourceGroupId</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Device
 
 This entity identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,55 +46,56 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/Device  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/Device](Device.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/Device](Device.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/Device](Device.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/Device](Device.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/Device](Device.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/Device](Device.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/Device](Device.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/Device](Device.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/Device](Device.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/Device](Device.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/Device](Device.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/Device](Device.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/Device](Device.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/Device](Device.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/Device](Device.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/Device](Device.md)|
-|[deviceId](#deviceId)|Unique identifier for entity instances|[electronicMedicalRecords/Device](Device.md)|
-|[stateCode](#stateCode)|Status of the Device|[electronicMedicalRecords/Device](Device.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/Device](Device.md)|
-|[statusCode](#statusCode)|Reason for the status of the Device|[electronicMedicalRecords/Device](Device.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/Device](Device.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/Device](Device.md)|
-|[carrierAIDC](#carrierAIDC)|The full UDI carrier of the Automatic Identification and Data Capture (AIDC) technology representation of the bar code string as printed on the packaging of the device - E.g a bar code or RFID.|[electronicMedicalRecords/Device](Device.md)|
-|[deviceNumber](#deviceNumber)|Unique instance identifiers assigned to a device by manufacturers other organizations or owners.|[electronicMedicalRecords/Device](Device.md)|
-|[deviceStatus](#deviceStatus)|Status of the Device availability.|[electronicMedicalRecords/Device](Device.md)|
-|[deviceStatus_display](#deviceStatus_display)||[electronicMedicalRecords/Device](Device.md)|
-|[expirationDate](#expirationDate)|The date and time beyond which this device is no longer valid or should not be used (if applicable).|[electronicMedicalRecords/Device](Device.md)|
-|[location](#location)|The place where the device can be found.|[electronicMedicalRecords/Device](Device.md)|
-|[lotNumber](#lotNumber)|Lot number assigned by the manufacturer.|[electronicMedicalRecords/Device](Device.md)|
-|[manufacturer](#manufacturer)|A name of the manufacturer.|[electronicMedicalRecords/Device](Device.md)|
-|[manufacturerDate](#manufacturerDate)|The date and time when the device was manufactured.|[electronicMedicalRecords/Device](Device.md)|
-|[model](#model)|The "model" is an identifier assigned by the manufacturer to identify the product by its type. This number is shared by the all devices sold as the same type.|[electronicMedicalRecords/Device](Device.md)|
-|[owner](#owner)|An organization that is responsible for the provision and ongoing maintenance of the device.|[electronicMedicalRecords/Device](Device.md)|
-|[patient](#patient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|[electronicMedicalRecords/Device](Device.md)|
-|[type](#type)|Code or identifier to identify a kind of device.|[electronicMedicalRecords/Device](Device.md)|
-|[UDI](#UDI)|Unique device identifier (UDI) assigned to device label or package.|[electronicMedicalRecords/Device](Device.md)|
-|[UDICarrierHRF](#UDICarrierHRF)|Unique device identifier (UDI) assigned to device label or package.|[electronicMedicalRecords/Device](Device.md)|
-|[UDIEntryType](#UDIEntryType)|A coded entry to indicate how the data was entered.|[electronicMedicalRecords/Device](Device.md)|
-|[UDIEntryType_display](#UDIEntryType_display)||[electronicMedicalRecords/Device](Device.md)|
-|[UDIIssuer](#UDIIssuer)|Organization that is charged with issuing UDIs for devices|[electronicMedicalRecords/Device](Device.md)|
-|[udiJurisdiction](#udiJurisdiction)|The identity of the authoritative source for UDI generation within a jurisdiction. All UDIs are globally unique within a single namespace with the appropriate repository uri as the system.|[electronicMedicalRecords/Device](Device.md)|
-|[URL](#URL)|A network address on which the device may be contacted directly.|[electronicMedicalRecords/Device](Device.md)|
-|[version](#version)|The version of the device, if the device has multiple releases under the same model, or if the device is software or carries firmware.|[electronicMedicalRecords/Device](Device.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[deviceId](#deviceId)|Unique identifier for entity instances|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[stateCode](#stateCode)|Status of the Device|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[stateCode_display](#stateCode_display)||<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[statusCode](#statusCode)|Reason for the status of the Device|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[statusCode_display](#statusCode_display)||<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[name](#name)|The name of the custom entity.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[carrierAIDC](#carrierAIDC)|The full UDI carrier of the Automatic Identification and Data Capture (AIDC) technology representation of the bar code string as printed on the packaging of the device - E.g a bar code or RFID.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[deviceNumber](#deviceNumber)|Unique instance identifiers assigned to a device by manufacturers other organizations or owners.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[deviceStatus](#deviceStatus)|Status of the Device availability.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[deviceStatus_display](#deviceStatus_display)||<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[expirationDate](#expirationDate)|The date and time beyond which this device is no longer valid or should not be used (if applicable).|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[location](#location)|The place where the device can be found.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[lotNumber](#lotNumber)|Lot number assigned by the manufacturer.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[manufacturer](#manufacturer)|A name of the manufacturer.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[manufacturerDate](#manufacturerDate)|The date and time when the device was manufactured.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[model](#model)|The "model" is an identifier assigned by the manufacturer to identify the product by its type. This number is shared by the all devices sold as the same type.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[owner](#owner)|An organization that is responsible for the provision and ongoing maintenance of the device.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[patient](#patient)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[type](#type)|Code or identifier to identify a kind of device.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[UDI](#UDI)|Unique device identifier (UDI) assigned to device label or package.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[UDICarrierHRF](#UDICarrierHRF)|Unique device identifier (UDI) assigned to device label or package.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[UDIEntryType](#UDIEntryType)|A coded entry to indicate how the data was entered.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[UDIEntryType_display](#UDIEntryType_display)||<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[UDIIssuer](#UDIIssuer)|Organization that is charged with issuing UDIs for devices|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[udiJurisdiction](#udiJurisdiction)|The identity of the authoritative source for UDI generation within a jurisdiction. All UDIs are globally unique within a single namespace with the appropriate repository uri as the system.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[URL](#URL)|A network address on which the device may be contacted directly.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
+|[version](#version)|The version of the device, if the device has multiple releases under the same model, or if the device is software or carries firmware.|<a href="Device.md" target="_blank">electronicMedicalRecords/Device</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

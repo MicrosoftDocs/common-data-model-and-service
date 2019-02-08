@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Position
 
 Position of a user in the hierarchy  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Position.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,34 +46,35 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Position  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[positionId](#positionId)|Unique identifier for position entity instances|[applicationCommon/Position](Position.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Position](Position.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[applicationCommon/Position](Position.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Position](Position.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|[applicationCommon/Position](Position.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[applicationCommon/Position](Position.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[applicationCommon/Position](Position.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[applicationCommon/Position](Position.md)|
-|[stateCode](#stateCode)|Status of the Position|[applicationCommon/Position](Position.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Position](Position.md)|
-|[statusCode](#statusCode)|Reason for the status of the Position|[applicationCommon/Position](Position.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Position](Position.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/Position](Position.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[applicationCommon/Position](Position.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Position](Position.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Position](Position.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Position](Position.md)|
-|[name](#name)|The name of the position.|[applicationCommon/Position](Position.md)|
-|[parentPositionId](#parentPositionId)|Parent position.|[applicationCommon/Position](Position.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the position with respect to the base currency.|[applicationCommon/Position](Position.md)|
-|[description](#description)|The description of the position.|[applicationCommon/Position](Position.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the position.|[applicationCommon/Position](Position.md)|
+|[positionId](#positionId)|Unique identifier for position entity instances|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[stateCode](#stateCode)|Status of the Position|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[stateCode_display](#stateCode_display)||<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[statusCode](#statusCode)|Reason for the status of the Position|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[statusCode_display](#statusCode_display)||<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[versionNumber](#versionNumber)||<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[name](#name)|The name of the position.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[parentPositionId](#parentPositionId)|Parent position.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the position with respect to the base currency.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[description](#description)|The description of the position.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the position.|<a href="Position.md" target="_blank">applicationCommon/Position</a>|
 
 ### <a href=#positionId name="positionId">positionId</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Ad
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Ad.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,50 +42,51 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/Ad  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/Ad](Ad.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/Ad](Ad.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/Ad](Ad.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/Ad](Ad.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/Ad](Ad.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/Ad](Ad.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/Ad](Ad.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/Ad](Ad.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/Ad](Ad.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/Ad](Ad.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/Ad](Ad.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/Ad](Ad.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/Ad](Ad.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/Ad](Ad.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/Ad](Ad.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/Ad](Ad.md)|
-|[adId](#adId)|Shows the entity instance.|[portals/Ad](Ad.md)|
-|[stateCode](#stateCode)|Status of the Ad|[portals/Ad](Ad.md)|
-|[stateCode_display](#stateCode_display)||[portals/Ad](Ad.md)|
-|[statusCode](#statusCode)|Select the ad's status.|[portals/Ad](Ad.md)|
-|[statusCode_display](#statusCode_display)||[portals/Ad](Ad.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/Ad](Ad.md)|
-|[copy](#copy)||[portals/Ad](Ad.md)|
-|[expirationDate](#expirationDate)||[portals/Ad](Ad.md)|
-|[image](#image)|location of image file|[portals/Ad](Ad.md)|
-|[imageAltText](#imageAltText)||[portals/Ad](Ad.md)|
-|[imageHeight](#imageHeight)||[portals/Ad](Ad.md)|
-|[imageWidth](#imageWidth)||[portals/Ad](Ad.md)|
-|[openInNewWindow](#openInNewWindow)||[portals/Ad](Ad.md)|
-|[publishingStateId](#publishingStateId)|Unique identifier for Publishing State associated with Ad.|[portals/Ad](Ad.md)|
-|[redirectWebFile](#redirectWebFile)|Unique identifier for Web File associated with Ad.|[portals/Ad](Ad.md)|
-|[releaseDate](#releaseDate)||[portals/Ad](Ad.md)|
-|[title](#title)||[portals/Ad](Ad.md)|
-|[URL](#URL)||[portals/Ad](Ad.md)|
-|[webFileId](#webFileId)|Unique identifier for Web File associated with Ad.|[portals/Ad](Ad.md)|
-|[webpageId](#webpageId)|Unique identifier for Web Page associated with Ad.|[portals/Ad](Ad.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with Ad.|[portals/Ad](Ad.md)|
-|[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Ad.|[portals/Ad](Ad.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[adId](#adId)|Shows the entity instance.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[stateCode](#stateCode)|Status of the Ad|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[stateCode_display](#stateCode_display)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[statusCode](#statusCode)|Select the ad's status.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[statusCode_display](#statusCode_display)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[copy](#copy)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[expirationDate](#expirationDate)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[image](#image)|location of image file|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[imageAltText](#imageAltText)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[imageHeight](#imageHeight)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[imageWidth](#imageWidth)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[openInNewWindow](#openInNewWindow)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[publishingStateId](#publishingStateId)|Unique identifier for Publishing State associated with Ad.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[redirectWebFile](#redirectWebFile)|Unique identifier for Web File associated with Ad.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[releaseDate](#releaseDate)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[title](#title)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[URL](#URL)||<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[webFileId](#webFileId)|Unique identifier for Web File associated with Ad.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[webpageId](#webpageId)|Unique identifier for Web Page associated with Ad.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with Ad.|<a href="Ad.md" target="_blank">portals/Ad</a>|
+|[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Ad.|<a href="Ad.md" target="_blank">portals/Ad</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

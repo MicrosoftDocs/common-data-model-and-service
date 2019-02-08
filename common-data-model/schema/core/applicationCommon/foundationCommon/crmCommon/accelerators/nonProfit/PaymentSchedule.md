@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Payment Schedule
 
 A gift transaction can be a one-time payment or a recurring payment (ie, monthly/sustainer giving). In addition, it can be a pledge (ie, promise) of a future payment or a current/received payment.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PaymentSchedule.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,52 +46,53 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/PaymentSchedule  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[paymentScheduleId](#paymentScheduleId)|Unique identifier for entity instances|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[stateCode](#stateCode)|Status of the Payment Schedule|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[statusCode](#statusCode)|Reason for the status of the Payment Schedule|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[name](#name)||[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[firstPaymentDate](#firstPaymentDate)|Date of first payment|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[frequency](#frequency)|iCal compliant recurrence field|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[frequency_display](#frequency_display)||[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[frequencyInterval](#frequencyInterval)|iCal compliant recurrence field|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[lastPaymentDate](#lastPaymentDate)|The date by which the payment schedule is expected to be fully paid.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[nextPaymentAmount](#nextPaymentAmount)||[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[nextpaymentamountBase](#nextpaymentamountBase)|Value of the Next Payment Amount in base currency.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[nextPaymentDate](#nextPaymentDate)||[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[numberOfPayments](#numberOfPayments)||[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[omtSchedDefaultHardCreditToCustomer](#omtSchedDefaultHardCreditToCustomer)||[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[paymentScheduleDonorCommitmentId](#paymentScheduleDonorCommitmentId)|Donor Commitment|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[receiptOnAccountId](#receiptOnAccountId)|Receipt on Account|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[recurringAmount](#recurringAmount)|This will include both the Base and Donor Currencies|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[recurringamountBase](#recurringamountBase)|Value of the Recurring Amount in base currency.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[totalAmount](#totalAmount)|This will include both the Base and Donor Currencies|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
-|[totalamountBase](#totalamountBase)|Value of the Total Amount in base currency.|[nonProfit/PaymentSchedule](PaymentSchedule.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[paymentScheduleId](#paymentScheduleId)|Unique identifier for entity instances|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[stateCode](#stateCode)|Status of the Payment Schedule|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[stateCode_display](#stateCode_display)||<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[statusCode](#statusCode)|Reason for the status of the Payment Schedule|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[statusCode_display](#statusCode_display)||<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[name](#name)||<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[firstPaymentDate](#firstPaymentDate)|Date of first payment|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[frequency](#frequency)|iCal compliant recurrence field|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[frequency_display](#frequency_display)||<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[frequencyInterval](#frequencyInterval)|iCal compliant recurrence field|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[lastPaymentDate](#lastPaymentDate)|The date by which the payment schedule is expected to be fully paid.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[nextPaymentAmount](#nextPaymentAmount)||<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[nextpaymentamountBase](#nextpaymentamountBase)|Value of the Next Payment Amount in base currency.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[nextPaymentDate](#nextPaymentDate)||<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[numberOfPayments](#numberOfPayments)||<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[omtSchedDefaultHardCreditToCustomer](#omtSchedDefaultHardCreditToCustomer)||<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[paymentScheduleDonorCommitmentId](#paymentScheduleDonorCommitmentId)|Donor Commitment|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[receiptOnAccountId](#receiptOnAccountId)|Receipt on Account|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[recurringAmount](#recurringAmount)|This will include both the Base and Donor Currencies|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[recurringamountBase](#recurringamountBase)|Value of the Recurring Amount in base currency.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[totalAmount](#totalAmount)|This will include both the Base and Donor Currencies|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
+|[totalamountBase](#totalamountBase)|Value of the Total Amount in base currency.|<a href="PaymentSchedule.md" target="_blank">nonProfit/PaymentSchedule</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

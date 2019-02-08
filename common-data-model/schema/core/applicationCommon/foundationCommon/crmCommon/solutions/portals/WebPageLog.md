@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Web Page Log
 
 A record of a user viewing a Web Page  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebPageLog.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/WebPageLog  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/WebPageLog](WebPageLog.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/WebPageLog](WebPageLog.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/WebPageLog](WebPageLog.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/WebPageLog](WebPageLog.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/WebPageLog](WebPageLog.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/WebPageLog](WebPageLog.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/WebPageLog](WebPageLog.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/WebPageLog](WebPageLog.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/WebPageLog](WebPageLog.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/WebPageLog](WebPageLog.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/WebPageLog](WebPageLog.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/WebPageLog](WebPageLog.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/WebPageLog](WebPageLog.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/WebPageLog](WebPageLog.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/WebPageLog](WebPageLog.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/WebPageLog](WebPageLog.md)|
-|[webpagelogId](#webpagelogId)|Shows the entity instance.|[portals/WebPageLog](WebPageLog.md)|
-|[stateCode](#stateCode)|Status of the Web Page Log|[portals/WebPageLog](WebPageLog.md)|
-|[stateCode_display](#stateCode_display)||[portals/WebPageLog](WebPageLog.md)|
-|[statusCode](#statusCode)|Select the webpage log's status.|[portals/WebPageLog](WebPageLog.md)|
-|[statusCode_display](#statusCode_display)||[portals/WebPageLog](WebPageLog.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/WebPageLog](WebPageLog.md)|
-|[contactId](#contactId)|Unique identifier of the Contact associated with the Web Page Log|[portals/WebPageLog](WebPageLog.md)|
-|[date](#date)|Shows the date and time that the request was made to download the page.|[portals/WebPageLog](WebPageLog.md)|
-|[IpAddress](#IpAddress)|Shows the IP address of the computer of the user who requested the file download.|[portals/WebPageLog](WebPageLog.md)|
-|[webPageId](#webPageId)|Unique identifier of the Web Page associated with the Web Page Log|[portals/WebPageLog](WebPageLog.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[webpagelogId](#webpagelogId)|Shows the entity instance.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[stateCode](#stateCode)|Status of the Web Page Log|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[stateCode_display](#stateCode_display)||<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[statusCode](#statusCode)|Select the webpage log's status.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[statusCode_display](#statusCode_display)||<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[contactId](#contactId)|Unique identifier of the Contact associated with the Web Page Log|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[date](#date)|Shows the date and time that the request was made to download the page.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[IpAddress](#IpAddress)|Shows the IP address of the computer of the user who requested the file download.|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
+|[webPageId](#webPageId)|Unique identifier of the Web Page associated with the Web Page Log|<a href="WebPageLog.md" target="_blank">portals/WebPageLog</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

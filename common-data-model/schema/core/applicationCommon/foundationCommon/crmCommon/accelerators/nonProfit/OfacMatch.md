@@ -11,7 +11,7 @@ ms.author: tpalmer
 # OFAC Match
 
 Prospective, pending and closed "deals" or gifts.  This entity allows nonprofit organizations to track their efforts to build relationships with prospective donors.   The following information is commonly tracked on opportunities:  assigned fundraiser(s), ask amounts, campaigns designated funds given to, etc.   Opportunity pipeline management allows development and gift officers to forecast likely gifts by when they are going to close, very similar to the way a salesperson tracks and manages sales opportunities.  It must be possible in a CRM or application to associate an opportunity to a campaign to measure the ROI of specific marketing programs.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/OfacMatch.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,42 +46,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/OfacMatch  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/OfacMatch](OfacMatch.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/OfacMatch](OfacMatch.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/OfacMatch](OfacMatch.md)|
-|[ofacMatchId](#ofacMatchId)|Unique identifier for entity instances|[nonProfit/OfacMatch](OfacMatch.md)|
-|[stateCode](#stateCode)|Status of the OFAC Match|[nonProfit/OfacMatch](OfacMatch.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/OfacMatch](OfacMatch.md)|
-|[statusCode](#statusCode)|Reason for the status of the OFAC Match|[nonProfit/OfacMatch](OfacMatch.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/OfacMatch](OfacMatch.md)|
-|[name](#name)||[nonProfit/OfacMatch](OfacMatch.md)|
-|[inquiryId](#inquiryId)|Inquiry / Lead|[nonProfit/OfacMatch](OfacMatch.md)|
-|[matchType](#matchType)|Indicates if a match exists.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[ofacMatchCustomer](#ofacMatchCustomer)||[nonProfit/OfacMatch](OfacMatch.md)|
-|[reportDate](#reportDate)|The Date that the OFAC Report was retrieved|[nonProfit/OfacMatch](OfacMatch.md)|
-|[requestId](#requestId)|Request|[nonProfit/OfacMatch](OfacMatch.md)|
-|[sdnName](#sdnName)|Name of SDN match.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[sdnNumber](#sdnNumber)|Number of SDN match.|[nonProfit/OfacMatch](OfacMatch.md)|
-|[title](#title)|Title of SDN match.|[nonProfit/OfacMatch](OfacMatch.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[ofacMatchId](#ofacMatchId)|Unique identifier for entity instances|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[stateCode](#stateCode)|Status of the OFAC Match|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[stateCode_display](#stateCode_display)||<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[statusCode](#statusCode)|Reason for the status of the OFAC Match|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[statusCode_display](#statusCode_display)||<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[name](#name)||<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[inquiryId](#inquiryId)|Inquiry / Lead|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[matchType](#matchType)|Indicates if a match exists.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[ofacMatchCustomer](#ofacMatchCustomer)||<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[reportDate](#reportDate)|The Date that the OFAC Report was retrieved|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[requestId](#requestId)|Request|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[sdnName](#sdnName)|Name of SDN match.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[sdnNumber](#sdnNumber)|Number of SDN match.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
+|[title](#title)|Title of SDN match.|<a href="OfacMatch.md" target="_blank">nonProfit/OfacMatch</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

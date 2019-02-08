@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Designation
 
 An area to which funds may be allocated, including a GL-relevant accounting code.  Designations are the way a donor instructs an organization about how their donation should be spent or earmarked.  All nonprofit organizations strive to secure the largest % of unrestricted or undesignated funds possible so they can use this money at their own discretion toward the areas of greatest need, including the ability to pay down their operating costs.  Direct marketing-oriented nonprofits, and nonprofits with missions aligned to cause, cure, and global issues (like Oxfam) tend to have as few designations as they possibly can (~100-200 total designations) because they derive the majority of their funds from donors giving small gift amounts.  They also focus on recurring giving programs, which have a high administration cost if gifts are permitted to be designated or split designated across multiple funds.  A Higher Education organization, on the other hand, derives a large % of its annual fundraising from major donors, who typically want much more control about where they are directing their gifts.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Designation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,54 +46,55 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Designation  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Designation](Designation.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Designation](Designation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Designation](Designation.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Designation](Designation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Designation](Designation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Designation](Designation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Designation](Designation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Designation](Designation.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Designation](Designation.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Designation](Designation.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Designation](Designation.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Designation](Designation.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Designation](Designation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Designation](Designation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Designation](Designation.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Designation](Designation.md)|
-|[designationId](#designationId)|Unique identifier for entity instances|[nonProfit/Designation](Designation.md)|
-|[stateCode](#stateCode)|Status of the Designation|[nonProfit/Designation](Designation.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Designation](Designation.md)|
-|[statusCode](#statusCode)|Reason for the status of the Designation|[nonProfit/Designation](Designation.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Designation](Designation.md)|
-|[name](#name)||[nonProfit/Designation](Designation.md)|
-|[acknowledgementName](#acknowledgementName)|e.g. "Childhood hunger relief"|[nonProfit/Designation](Designation.md)|
-|[description](#description)||[nonProfit/Designation](Designation.md)|
-|[designationCode](#designationCode)||[nonProfit/Designation](Designation.md)|
-|[designationGroup](#designationGroup)||[nonProfit/Designation](Designation.md)|
-|[endDate](#endDate)||[nonProfit/Designation](Designation.md)|
-|[endowmentType](#endowmentType)||[nonProfit/Designation](Designation.md)|
-|[endowmentType_display](#endowmentType_display)||[nonProfit/Designation](Designation.md)|
-|[glCreditAccount](#glCreditAccount)||[nonProfit/Designation](Designation.md)|
-|[glDebitAccount](#glDebitAccount)||[nonProfit/Designation](Designation.md)|
-|[initiative](#initiative)||[nonProfit/Designation](Designation.md)|
-|[isActive](#isActive)||[nonProfit/Designation](Designation.md)|
-|[parentDesignationId](#parentDesignationId)|Parent Designation|[nonProfit/Designation](Designation.md)|
-|[program](#program)||[nonProfit/Designation](Designation.md)|
-|[restrictionType](#restrictionType)||[nonProfit/Designation](Designation.md)|
-|[restrictionType_display](#restrictionType_display)||[nonProfit/Designation](Designation.md)|
-|[startDate](#startDate)||[nonProfit/Designation](Designation.md)|
-|[totalDisbursed](#totalDisbursed)||[nonProfit/Designation](Designation.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/Designation](Designation.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/Designation](Designation.md)|
-|[totaldisbursedBase](#totaldisbursedBase)|Value of the Total Disbursed in base currency.|[nonProfit/Designation](Designation.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[designationId](#designationId)|Unique identifier for entity instances|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[stateCode](#stateCode)|Status of the Designation|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[stateCode_display](#stateCode_display)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[statusCode](#statusCode)|Reason for the status of the Designation|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[statusCode_display](#statusCode_display)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[name](#name)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[acknowledgementName](#acknowledgementName)|e.g. "Childhood hunger relief"|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[description](#description)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[designationCode](#designationCode)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[designationGroup](#designationGroup)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[endDate](#endDate)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[endowmentType](#endowmentType)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[endowmentType_display](#endowmentType_display)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[glCreditAccount](#glCreditAccount)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[glDebitAccount](#glDebitAccount)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[initiative](#initiative)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[isActive](#isActive)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[parentDesignationId](#parentDesignationId)|Parent Designation|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[program](#program)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[restrictionType](#restrictionType)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[restrictionType_display](#restrictionType_display)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[startDate](#startDate)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[totalDisbursed](#totalDisbursed)||<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
+|[totaldisbursedBase](#totaldisbursedBase)|Value of the Total Disbursed in base currency.|<a href="Designation.md" target="_blank">nonProfit/Designation</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

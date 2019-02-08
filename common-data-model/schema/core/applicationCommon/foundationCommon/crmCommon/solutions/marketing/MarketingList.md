@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Marketing List
 
 Group of existing or potential customers created for a marketing campaign or other sales purposes.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingList.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [crmCommon/MarketingList](../../MarketingList.md "/core/applicationCommon/foundationCommon/crmCommon/MarketingList.cdm.json/MarketingList")  
 marketing/MarketingList  
 
@@ -53,49 +54,49 @@ marketing/MarketingList
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[ownerId](#ownerId)|Owner Id|[crmCommon/MarketingList](../../MarketingList.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[crmCommon/MarketingList](../../MarketingList.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/MarketingList](../../MarketingList.md)|
-|[listId](#listId)|Unique identifier of the marketing list.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[listName](#listName)|Type a name for the marketing list so that it is identified correctly in lists.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[cost](#cost)|Type the cost of obtaining the marketing list.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[costBase](#costBase)|Value of the Cost in base currency.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[createdFromCode](#createdFromCode)|Select the type of members that this marketing list will contain: accounts, contacts, or leads. Each list can have only one member type and this value can't be changed after the marketing list is created.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[createdFromCode_display](#createdFromCode_display)||[crmCommon/MarketingList](../../MarketingList.md)|
-|[description](#description)|Type additional information to describe the marketing list, such as the intended use or date of the last update.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[doNotSendOnOptOut](#doNotSendOnOptOut)|Select whether to override the opt-out settings on leads, contacts, and accounts for the members of the target marketing lists of the campaign activity. If No is selected, those who have chosen to opt out won't be excluded from the list. This means they will receive marketing materials.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[ignoreInactiveListMembers](#ignoreInactiveListMembers)|Select whether inactive accounts, contacts, or leads should be excluded from the campaign activity distribution when the marketing list is included in a campaign.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[lastUsedOn](#lastUsedOn)|Shows the date and time when the marketing list was last used in a campaign or in the creation of activities or opportunities.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[lockStatus](#lockStatus)|Select whether the marketing list is locked. If Yes is selected, no additional members can be added to the marketing list.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[memberCount](#memberCount)|Shows the sum of all members in the marketing list.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[memberType](#memberType)|Type of the members that can be stored in the marketing list.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[purpose](#purpose)|Type the intended use of the marketing list to identify its key segments, target offers, or business group.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[query](#query)|Query used for retrieving members of marketing list.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[source](#source)|Type the source of the marketing list, such as a third-party supplier or internal database.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[stateCode](#stateCode)|Shows whether the marketing list is active or inactive. Inactive marketing lists are read-only and can't be edited unless they are reactivated.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[stateCode_display](#stateCode_display)||[crmCommon/MarketingList](../../MarketingList.md)|
-|[statusCode](#statusCode)|Select the marketing list's status.|[crmCommon/MarketingList](../../MarketingList.md)|
-|[statusCode_display](#statusCode_display)||[crmCommon/MarketingList](../../MarketingList.md)|
-|[type](#type)|Select whether you want the marketing list to be static or dynamic. The members in a static marketing list are unchanging. A dynamic marketing list is based on a dynamic query that retrieves the updated list of members|[crmCommon/MarketingList](../../MarketingList.md)|
-|[issubscription](#issubscription)||[marketing/MarketingList](MarketingList.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[listId](#listId)|Unique identifier of the marketing list.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[listName](#listName)|Type a name for the marketing list so that it is identified correctly in lists.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[cost](#cost)|Type the cost of obtaining the marketing list.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[costBase](#costBase)|Value of the Cost in base currency.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[createdFromCode](#createdFromCode)|Select the type of members that this marketing list will contain: accounts, contacts, or leads. Each list can have only one member type and this value can't be changed after the marketing list is created.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[createdFromCode_display](#createdFromCode_display)||<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[description](#description)|Type additional information to describe the marketing list, such as the intended use or date of the last update.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[doNotSendOnOptOut](#doNotSendOnOptOut)|Select whether to override the opt-out settings on leads, contacts, and accounts for the members of the target marketing lists of the campaign activity. If No is selected, those who have chosen to opt out won't be excluded from the list. This means they will receive marketing materials.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[ignoreInactiveListMembers](#ignoreInactiveListMembers)|Select whether inactive accounts, contacts, or leads should be excluded from the campaign activity distribution when the marketing list is included in a campaign.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[lastUsedOn](#lastUsedOn)|Shows the date and time when the marketing list was last used in a campaign or in the creation of activities or opportunities.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[lockStatus](#lockStatus)|Select whether the marketing list is locked. If Yes is selected, no additional members can be added to the marketing list.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[memberCount](#memberCount)|Shows the sum of all members in the marketing list.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[memberType](#memberType)|Type of the members that can be stored in the marketing list.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[purpose](#purpose)|Type the intended use of the marketing list to identify its key segments, target offers, or business group.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[query](#query)|Query used for retrieving members of marketing list.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[source](#source)|Type the source of the marketing list, such as a third-party supplier or internal database.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[stateCode](#stateCode)|Shows whether the marketing list is active or inactive. Inactive marketing lists are read-only and can't be edited unless they are reactivated.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[statusCode](#statusCode)|Select the marketing list's status.|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[type](#type)|Select whether you want the marketing list to be static or dynamic. The members in a static marketing list are unchanging. A dynamic marketing list is based on a dynamic query that retrieves the updated list of members|<a href="../../MarketingList.md" target="_blank">crmCommon/MarketingList</a>|
+|[issubscription](#issubscription)||<a href="MarketingList.md" target="_blank">marketing/MarketingList</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

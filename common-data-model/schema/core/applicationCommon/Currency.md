@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Currency
 
 Currency in which a financial transaction is carried out.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Currency.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,33 +46,34 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Currency  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[statusCode](#statusCode)|Reason for the status of the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Currency](Currency.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the transaction currency was last modified.|[applicationCommon/Currency](Currency.md)|
-|[stateCode](#stateCode)|Status of the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Currency](Currency.md)|
-|[versionNumber](#versionNumber)|Version number of the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Currency](Currency.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Currency](Currency.md)|
-|[createdOn](#createdOn)|Date and time when the transaction currency was created.|[applicationCommon/Currency](Currency.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate between the transaction currency and the base currency.|[applicationCommon/Currency](Currency.md)|
-|[currencySymbol](#currencySymbol)|Symbol for the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[currencyName](#currencyName)|Name of the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[ISOCurrencyCode](#ISOCurrencyCode)|ISO currency code for the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the transaction currency.|[applicationCommon/Currency](Currency.md)|
-|[currencyPrecision](#currencyPrecision)|Number of decimal places that can be used for currency.|[applicationCommon/Currency](Currency.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the transactioncurrency.|[applicationCommon/Currency](Currency.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the transactioncurrency.|[applicationCommon/Currency](Currency.md)|
-|[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Currency](Currency.md)|
+|[statusCode](#statusCode)|Reason for the status of the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[statusCode_display](#statusCode_display)||<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the transaction currency was last modified.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[stateCode](#stateCode)|Status of the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[stateCode_display](#stateCode_display)||<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[versionNumber](#versionNumber)|Version number of the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[createdOn](#createdOn)|Date and time when the transaction currency was created.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate between the transaction currency and the base currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[currencySymbol](#currencySymbol)|Symbol for the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[currencyName](#currencyName)|Name of the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[ISOCurrencyCode](#ISOCurrencyCode)|ISO currency code for the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the transaction currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[currencyPrecision](#currencyPrecision)|Number of decimal places that can be used for currency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the transactioncurrency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the transactioncurrency.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="Currency.md" target="_blank">applicationCommon/Currency</a>|
 
 ### <a href=#statusCode name="statusCode">statusCode</a>
 

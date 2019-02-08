@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Care Team
 
 The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,48 +46,49 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/CareTeam  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[careTeamId](#careTeamId)|Unique identifier for entity instances|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[stateCode](#stateCode)|Status of the Care Team|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[statusCode](#statusCode)|Reason for the status of the Care Team|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[entityImageId](#entityImageId)||[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[careTeamNumber](#careTeamNumber)|This records identifiers associated with this care team that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[careTeamStatus](#careTeamStatus)|Indicates the current state of the care team.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[careTeamStatus_display](#careTeamStatus_display)||[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[contextType](#contextType)|The encounter or episode of care that establishes the context for this care team.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[contextType_display](#contextType_display)||[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[encounter](#encounter)|The encounter or episode of care that establishes the context for this care team.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[episodeOfCare](#episodeOfCare)|The encounter or episode of care that establishes the context for this care team.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[periodEnd](#periodEnd)|Indicates when the team did (or is intended to) come into effect and end.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[periodStart](#periodStart)|Indicates when the team did (or is intended to) come into effect and end.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[subjectGroup](#subjectGroup)|Subject is group|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[subjectPatient](#subjectPatient)|Subject is patient|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[subjectType](#subjectType)|Identifies the patient or group whose intended care is handled by the team.|[electronicMedicalRecords/CareTeam](CareTeam.md)|
-|[subjectType_display](#subjectType_display)||[electronicMedicalRecords/CareTeam](CareTeam.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[careTeamId](#careTeamId)|Unique identifier for entity instances|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[stateCode](#stateCode)|Status of the Care Team|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[stateCode_display](#stateCode_display)||<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[statusCode](#statusCode)|Reason for the status of the Care Team|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[statusCode_display](#statusCode_display)||<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[name](#name)|The name of the custom entity.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[entityImageId](#entityImageId)||<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[careTeamNumber](#careTeamNumber)|This records identifiers associated with this care team that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[careTeamStatus](#careTeamStatus)|Indicates the current state of the care team.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[careTeamStatus_display](#careTeamStatus_display)||<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[contextType](#contextType)|The encounter or episode of care that establishes the context for this care team.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[contextType_display](#contextType_display)||<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[encounter](#encounter)|The encounter or episode of care that establishes the context for this care team.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[episodeOfCare](#episodeOfCare)|The encounter or episode of care that establishes the context for this care team.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[periodEnd](#periodEnd)|Indicates when the team did (or is intended to) come into effect and end.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[periodStart](#periodStart)|Indicates when the team did (or is intended to) come into effect and end.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[subjectGroup](#subjectGroup)|Subject is group|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[subjectPatient](#subjectPatient)|Subject is patient|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[subjectType](#subjectType)|Identifies the patient or group whose intended care is handled by the team.|<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
+|[subjectType_display](#subjectType_display)||<a href="CareTeam.md" target="_blank">electronicMedicalRecords/CareTeam</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # OpportunityCompetitors
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityCompetitors.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/OpportunityCompetitors  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[opportunityCompetitorId](#opportunityCompetitorId)|Unique identifier of the opportunity competitor.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[name](#name)|name|[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[competitorId](#competitorId)||[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
-|[opportunityId](#opportunityId)||[sales/OpportunityCompetitors](OpportunityCompetitors.md)|
+|[opportunityCompetitorId](#opportunityCompetitorId)|Unique identifier of the opportunity competitor.|<a href="OpportunityCompetitors.md" target="_blank">sales/OpportunityCompetitors</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="OpportunityCompetitors.md" target="_blank">sales/OpportunityCompetitors</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="OpportunityCompetitors.md" target="_blank">sales/OpportunityCompetitors</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OpportunityCompetitors.md" target="_blank">sales/OpportunityCompetitors</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OpportunityCompetitors.md" target="_blank">sales/OpportunityCompetitors</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OpportunityCompetitors.md" target="_blank">sales/OpportunityCompetitors</a>|
+|[name](#name)|name|<a href="OpportunityCompetitors.md" target="_blank">sales/OpportunityCompetitors</a>|
+|[competitorId](#competitorId)||<a href="OpportunityCompetitors.md" target="_blank">sales/OpportunityCompetitors</a>|
+|[opportunityId](#opportunityId)||<a href="OpportunityCompetitors.md" target="_blank">sales/OpportunityCompetitors</a>|
 
 ### <a href=#opportunityCompetitorId name="opportunityCompetitorId">opportunityCompetitorId</a>
 

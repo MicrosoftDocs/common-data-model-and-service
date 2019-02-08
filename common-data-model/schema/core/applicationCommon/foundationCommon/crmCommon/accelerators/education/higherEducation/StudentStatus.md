@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Student Status
 
 The master list of student statuses defined by the institution.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/StudentStatus.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/StudentStatus  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/StudentStatus](StudentStatus.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/StudentStatus](StudentStatus.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/StudentStatus](StudentStatus.md)|
-|[studentStatusId](#studentStatusId)|Unique identifier for entity instances|[higherEducation/StudentStatus](StudentStatus.md)|
-|[stateCode](#stateCode)|Status of the Student Status|[higherEducation/StudentStatus](StudentStatus.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/StudentStatus](StudentStatus.md)|
-|[statusCode](#statusCode)|Reason for the status of the Student Status|[higherEducation/StudentStatus](StudentStatus.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/StudentStatus](StudentStatus.md)|
-|[name](#name)|The name of the custom entity.|[higherEducation/StudentStatus](StudentStatus.md)|
-|[code](#code)|Student Status Code|[higherEducation/StudentStatus](StudentStatus.md)|
-|[externalIdentifier](#externalIdentifier)|External Identifier|[higherEducation/StudentStatus](StudentStatus.md)|
-|[externalSourceSystem](#externalSourceSystem)|External Source System|[higherEducation/StudentStatus](StudentStatus.md)|
-|[externalSourceSystem_display](#externalSourceSystem_display)||[higherEducation/StudentStatus](StudentStatus.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[studentStatusId](#studentStatusId)|Unique identifier for entity instances|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[stateCode](#stateCode)|Status of the Student Status|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[stateCode_display](#stateCode_display)||<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[statusCode](#statusCode)|Reason for the status of the Student Status|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[statusCode_display](#statusCode_display)||<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[name](#name)|The name of the custom entity.|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[code](#code)|Student Status Code|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[externalIdentifier](#externalIdentifier)|External Identifier|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[externalSourceSystem](#externalSourceSystem)|External Source System|<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
+|[externalSourceSystem_display](#externalSourceSystem_display)||<a href="StudentStatus.md" target="_blank">higherEducation/StudentStatus</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

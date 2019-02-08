@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Indicator
 
 An Indicator describes what will be measured to track evidence of a Result. Indicators can be qualitative or quantitative and may or may not be aggregable.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Indicator.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,43 +46,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Indicator  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Indicator](Indicator.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Indicator](Indicator.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Indicator](Indicator.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Indicator](Indicator.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Indicator](Indicator.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Indicator](Indicator.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Indicator](Indicator.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Indicator](Indicator.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Indicator](Indicator.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Indicator](Indicator.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Indicator](Indicator.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Indicator](Indicator.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Indicator](Indicator.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Indicator](Indicator.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Indicator](Indicator.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Indicator](Indicator.md)|
-|[indicatorId](#indicatorId)|Unique identifier for entity instances|[nonProfit/Indicator](Indicator.md)|
-|[stateCode](#stateCode)|Status of the Indicator|[nonProfit/Indicator](Indicator.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Indicator](Indicator.md)|
-|[statusCode](#statusCode)|Reason for the status of the Indicator|[nonProfit/Indicator](Indicator.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Indicator](Indicator.md)|
-|[name](#name)|The name of the custom entity.|[nonProfit/Indicator](Indicator.md)|
-|[aggregationStatus](#aggregationStatus)|Indicates whether the data in the result set are suitable for aggregation|[nonProfit/Indicator](Indicator.md)|
-|[ascending](#ascending)|An IATI boolean describing the behaviour of the indicator. It is “true” if the indicator improves from small to large (e.g. clinics built); false if it improves from large to small (e.g. cases of a di|[nonProfit/Indicator](Indicator.md)|
-|[baselineValue](#baselineValue)|An IATI string definining the Baseline value for the value being reported.|[nonProfit/Indicator](Indicator.md)|
-|[description](#description)|Description|[nonProfit/Indicator](Indicator.md)|
-|[endDate](#endDate)|End date of the Indicator.|[nonProfit/Indicator](Indicator.md)|
-|[measure](#measure)|An IATI code defining the unit of measure in which the value is reported.|[nonProfit/Indicator](Indicator.md)|
-|[measure_display](#measure_display)||[nonProfit/Indicator](Indicator.md)|
-|[resultId](#resultId)|Result|[nonProfit/Indicator](Indicator.md)|
-|[startDate](#startDate)|Start Date of the Indicator|[nonProfit/Indicator](Indicator.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[indicatorId](#indicatorId)|Unique identifier for entity instances|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[stateCode](#stateCode)|Status of the Indicator|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[stateCode_display](#stateCode_display)||<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[statusCode](#statusCode)|Reason for the status of the Indicator|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[statusCode_display](#statusCode_display)||<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[name](#name)|The name of the custom entity.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[aggregationStatus](#aggregationStatus)|Indicates whether the data in the result set are suitable for aggregation|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[ascending](#ascending)|An IATI boolean describing the behaviour of the indicator. It is “true” if the indicator improves from small to large (e.g. clinics built); false if it improves from large to small (e.g. cases of a di|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[baselineValue](#baselineValue)|An IATI string definining the Baseline value for the value being reported.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[description](#description)|Description|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[endDate](#endDate)|End date of the Indicator.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[measure](#measure)|An IATI code defining the unit of measure in which the value is reported.|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[measure_display](#measure_display)||<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[resultId](#resultId)|Result|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
+|[startDate](#startDate)|Start Date of the Indicator|<a href="Indicator.md" target="_blank">nonProfit/Indicator</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

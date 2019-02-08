@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Marketing Form
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingForm.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,49 +42,50 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 marketing/MarketingForm  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[marketing/MarketingForm](MarketingForm.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[marketing/MarketingForm](MarketingForm.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[marketing/MarketingForm](MarketingForm.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[marketing/MarketingForm](MarketingForm.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[marketing/MarketingForm](MarketingForm.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[marketing/MarketingForm](MarketingForm.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[marketing/MarketingForm](MarketingForm.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[marketing/MarketingForm](MarketingForm.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[marketing/MarketingForm](MarketingForm.md)|
-|[ownerId](#ownerId)|Owner Id|[marketing/MarketingForm](MarketingForm.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[marketing/MarketingForm](MarketingForm.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[marketing/MarketingForm](MarketingForm.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[marketing/MarketingForm](MarketingForm.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[marketing/MarketingForm](MarketingForm.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[marketing/MarketingForm](MarketingForm.md)|
-|[versionNumber](#versionNumber)|Version Number|[marketing/MarketingForm](MarketingForm.md)|
-|[marketingFormId](#marketingFormId)|Unique ID for entity instances|[marketing/MarketingForm](MarketingForm.md)|
-|[stateCode](#stateCode)|Status of the marketing form|[marketing/MarketingForm](MarketingForm.md)|
-|[stateCode_display](#stateCode_display)||[marketing/MarketingForm](MarketingForm.md)|
-|[statusCode](#statusCode)|Reason for the status of the marketing form|[marketing/MarketingForm](MarketingForm.md)|
-|[statusCode_display](#statusCode_display)||[marketing/MarketingForm](MarketingForm.md)|
-|[name](#name)|The name of the custom entity.|[marketing/MarketingForm](MarketingForm.md)|
-|[allowPrefill](#allowPrefill)||[marketing/MarketingForm](MarketingForm.md)|
-|[contactMatchingStrategy](#contactMatchingStrategy)||[marketing/MarketingForm](MarketingForm.md)|
-|[updateContactsLeads](#updateContactsLeads)||[marketing/MarketingForm](MarketingForm.md)|
-|[updateContactsLeads_display](#updateContactsLeads_display)||[marketing/MarketingForm](MarketingForm.md)|
-|[marketingFormTemplate](#marketingFormTemplate)||[marketing/MarketingForm](MarketingForm.md)|
-|[formControlMapping](#formControlMapping)||[marketing/MarketingForm](MarketingForm.md)|
-|[formDefinition](#formDefinition)|JSON definition of the fields related to the Marketing form entity.|[marketing/MarketingForm](MarketingForm.md)|
-|[insightsPlaceholder](#insightsPlaceholder)||[marketing/MarketingForm](MarketingForm.md)|
-|[leadMatchingStrategy](#leadMatchingStrategy)||[marketing/MarketingForm](MarketingForm.md)|
-|[validForPageType](#validForPageType)||[marketing/MarketingForm](MarketingForm.md)|
-|[validForPageType_display](#validForPageType_display)||[marketing/MarketingForm](MarketingForm.md)|
-|[purpose](#purpose)||[marketing/MarketingForm](MarketingForm.md)|
-|[purpose_display](#purpose_display)||[marketing/MarketingForm](MarketingForm.md)|
-|[visualStyle](#visualStyle)||[marketing/MarketingForm](MarketingForm.md)|
-|[visualStyle_display](#visualStyle_display)||[marketing/MarketingForm](MarketingForm.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[marketingFormId](#marketingFormId)|Unique ID for entity instances|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[stateCode](#stateCode)|Status of the marketing form|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[stateCode_display](#stateCode_display)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[statusCode](#statusCode)|Reason for the status of the marketing form|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[statusCode_display](#statusCode_display)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[name](#name)|The name of the custom entity.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[allowPrefill](#allowPrefill)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[contactMatchingStrategy](#contactMatchingStrategy)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[updateContactsLeads](#updateContactsLeads)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[updateContactsLeads_display](#updateContactsLeads_display)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[marketingFormTemplate](#marketingFormTemplate)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[formControlMapping](#formControlMapping)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[formDefinition](#formDefinition)|JSON definition of the fields related to the Marketing form entity.|<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[insightsPlaceholder](#insightsPlaceholder)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[leadMatchingStrategy](#leadMatchingStrategy)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[validForPageType](#validForPageType)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[validForPageType_display](#validForPageType_display)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[purpose](#purpose)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[purpose_display](#purpose_display)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[visualStyle](#visualStyle)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
+|[visualStyle_display](#visualStyle_display)||<a href="MarketingForm.md" target="_blank">marketing/MarketingForm</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

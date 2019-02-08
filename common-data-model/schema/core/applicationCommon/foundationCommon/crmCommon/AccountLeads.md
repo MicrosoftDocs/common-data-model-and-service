@@ -11,7 +11,7 @@ ms.author: tpalmer
 # AccountLeads
 
 description.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/AccountLeads.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,21 +43,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 crmCommon/AccountLeads  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[accountLeadId](#accountLeadId)|Unique identifier of the lead for the account.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/AccountLeads](AccountLeads.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/AccountLeads](AccountLeads.md)|
-|[name](#name)|name|[crmCommon/AccountLeads](AccountLeads.md)|
-|[accountId](#accountId)||[crmCommon/AccountLeads](AccountLeads.md)|
-|[leadId](#leadId)||[crmCommon/AccountLeads](AccountLeads.md)|
+|[accountLeadId](#accountLeadId)|Unique identifier of the lead for the account.|<a href="AccountLeads.md" target="_blank">crmCommon/AccountLeads</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="AccountLeads.md" target="_blank">crmCommon/AccountLeads</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="AccountLeads.md" target="_blank">crmCommon/AccountLeads</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AccountLeads.md" target="_blank">crmCommon/AccountLeads</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AccountLeads.md" target="_blank">crmCommon/AccountLeads</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AccountLeads.md" target="_blank">crmCommon/AccountLeads</a>|
+|[name](#name)|name|<a href="AccountLeads.md" target="_blank">crmCommon/AccountLeads</a>|
+|[accountId](#accountId)||<a href="AccountLeads.md" target="_blank">crmCommon/AccountLeads</a>|
+|[leadId](#leadId)||<a href="AccountLeads.md" target="_blank">crmCommon/AccountLeads</a>|
 
 ### <a href=#accountLeadId name="accountLeadId">accountLeadId</a>
 

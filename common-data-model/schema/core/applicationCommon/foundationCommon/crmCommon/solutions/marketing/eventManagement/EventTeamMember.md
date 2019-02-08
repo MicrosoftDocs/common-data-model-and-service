@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Event Team Member
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/EventTeamMember.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,44 +42,45 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/EventTeamMember  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[eventTeamMemberId](#eventTeamMemberId)|Unique identifier for entity instances|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[stateCode](#stateCode)|Status of the Event Team Member|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[statusCode](#statusCode)|Reason for the status of the Event Team Member|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[company](#company)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[contact](#contact)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[description](#description)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[email](#email)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[memberType](#memberType)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[memberType_display](#memberType_display)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[phone](#phone)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[role](#role)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[role_display](#role_display)||[eventManagement/EventTeamMember](EventTeamMember.md)|
-|[user](#user)||[eventManagement/EventTeamMember](EventTeamMember.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[eventTeamMemberId](#eventTeamMemberId)|Unique identifier for entity instances|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[stateCode](#stateCode)|Status of the Event Team Member|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[stateCode_display](#stateCode_display)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[statusCode](#statusCode)|Reason for the status of the Event Team Member|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[statusCode_display](#statusCode_display)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[name](#name)|The name of the custom entity.|<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[company](#company)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[contact](#contact)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[description](#description)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[email](#email)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[memberType](#memberType)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[memberType_display](#memberType_display)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[phone](#phone)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[role](#role)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[role_display](#role_display)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
+|[user](#user)||<a href="EventTeamMember.md" target="_blank">eventManagement/EventTeamMember</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

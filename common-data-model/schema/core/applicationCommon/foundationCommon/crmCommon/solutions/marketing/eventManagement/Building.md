@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Building
 
 A single venue can be comprised of zero or more buildings where event activities are held. Each building in turn is comprised of zero or more rooms where event activities are held.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Building.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,70 +46,71 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Building  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Building](Building.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Building](Building.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Building](Building.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Building](Building.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Building](Building.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Building](Building.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Building](Building.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Building](Building.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Building](Building.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Building](Building.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Building](Building.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Building](Building.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Building](Building.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Building](Building.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Building](Building.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Building](Building.md)|
-|[buildingId](#buildingId)|Unique identifier for entity instances|[eventManagement/Building](Building.md)|
-|[stateCode](#stateCode)|Status of the Building|[eventManagement/Building](Building.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Building](Building.md)|
-|[statusCode](#statusCode)|Reason for the status of the Building|[eventManagement/Building](Building.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Building](Building.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/Building](Building.md)|
-|[accessibleToilets](#accessibleToilets)|There are accessible toilets or not.|[eventManagement/Building](Building.md)|
-|[accessibleToilets_display](#accessibleToilets_display)||[eventManagement/Building](Building.md)|
-|[additionalFacilities](#additionalFacilities)|Some additional facilities which is not covered by available options.|[eventManagement/Building](Building.md)|
-|[addressLine1](#addressLine1)|Address (except of city, country/region, state or province and postal code).|[eventManagement/Building](Building.md)|
-|[addressLine2](#addressLine2)|Additional address details.|[eventManagement/Building](Building.md)|
-|[addressLine3](#addressLine3)|Additional address details.|[eventManagement/Building](Building.md)|
-|[city](#city)|City. Part of address info.|[eventManagement/Building](Building.md)|
-|[cost](#cost)|Cost (of using the building)|[eventManagement/Building](Building.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/Building](Building.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/Building](Building.md)|
-|[costBase](#costBase)|Value of the Cost in base currency.|[eventManagement/Building](Building.md)|
-|[country](#country)|Country/Region. Part of address info.|[eventManagement/Building](Building.md)|
-|[description](#description)|Description of the building.|[eventManagement/Building](Building.md)|
-|[disabledAccess](#disabledAccess)|There is disabled access or not.|[eventManagement/Building](Building.md)|
-|[disabledAccess_display](#disabledAccess_display)||[eventManagement/Building](Building.md)|
-|[disabledParking](#disabledParking)|There is disabled parking or not.|[eventManagement/Building](Building.md)|
-|[disabledParking_display](#disabledParking_display)||[eventManagement/Building](Building.md)|
-|[email](#email)|Email to contact the building|[eventManagement/Building](Building.md)|
-|[estimatedCapacity](#estimatedCapacity)|Estimated capacity of building|[eventManagement/Building](Building.md)|
-|[postalCode](#postalCode)|Postal code. Part of address info.|[eventManagement/Building](Building.md)|
-|[primaryContact](#primaryContact)|A person who is responsible for the building.|[eventManagement/Building](Building.md)|
-|[publicTelephoneAvailable](#publicTelephoneAvailable)|There is available public telephone or not.|[eventManagement/Building](Building.md)|
-|[publicTelephoneAvailable_display](#publicTelephoneAvailable_display)||[eventManagement/Building](Building.md)|
-|[stateProvince](#stateProvince)|State or province. Part of address info.|[eventManagement/Building](Building.md)|
-|[telephone1](#telephone1)|Telephone to contact the building|[eventManagement/Building](Building.md)|
-|[telephone2](#telephone2)|Telephone to contact the building|[eventManagement/Building](Building.md)|
-|[telephone3](#telephone3)|Telephone to contact the building|[eventManagement/Building](Building.md)|
-|[website](#website)|Website to contact the building|[eventManagement/Building](Building.md)|
-|[wifiAvailable](#wifiAvailable)|There is available wifi or not.|[eventManagement/Building](Building.md)|
-|[wifiAvailable_display](#wifiAvailable_display)||[eventManagement/Building](Building.md)|
-|[wifiPassword](#wifiPassword)|Wifi password.|[eventManagement/Building](Building.md)|
-|[wifiSSID](#wifiSSID)|SSID of the wifi|[eventManagement/Building](Building.md)|
-|[addressComposite](#addressComposite)||[eventManagement/Building](Building.md)|
-|[numberOfRooms](#numberOfRooms)|Number of available rooms.|[eventManagement/Building](Building.md)|
-|[numberOfRoomsDate](#numberOfRoomsDate)|Last Updated time of rollup field Number of Rooms.|[eventManagement/Building](Building.md)|
-|[numberOfRoomsState](#numberOfRoomsState)|State of rollup field Number of Rooms.|[eventManagement/Building](Building.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[buildingId](#buildingId)|Unique identifier for entity instances|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[stateCode](#stateCode)|Status of the Building|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[stateCode_display](#stateCode_display)||<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[statusCode](#statusCode)|Reason for the status of the Building|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[statusCode_display](#statusCode_display)||<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[name](#name)|The name of the custom entity.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[accessibleToilets](#accessibleToilets)|There are accessible toilets or not.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[accessibleToilets_display](#accessibleToilets_display)||<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[additionalFacilities](#additionalFacilities)|Some additional facilities which is not covered by available options.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[addressLine1](#addressLine1)|Address (except of city, country/region, state or province and postal code).|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[addressLine2](#addressLine2)|Additional address details.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[addressLine3](#addressLine3)|Additional address details.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[city](#city)|City. Part of address info.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[cost](#cost)|Cost (of using the building)|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[costBase](#costBase)|Value of the Cost in base currency.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[country](#country)|Country/Region. Part of address info.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[description](#description)|Description of the building.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[disabledAccess](#disabledAccess)|There is disabled access or not.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[disabledAccess_display](#disabledAccess_display)||<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[disabledParking](#disabledParking)|There is disabled parking or not.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[disabledParking_display](#disabledParking_display)||<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[email](#email)|Email to contact the building|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[estimatedCapacity](#estimatedCapacity)|Estimated capacity of building|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[postalCode](#postalCode)|Postal code. Part of address info.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[primaryContact](#primaryContact)|A person who is responsible for the building.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[publicTelephoneAvailable](#publicTelephoneAvailable)|There is available public telephone or not.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[publicTelephoneAvailable_display](#publicTelephoneAvailable_display)||<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[stateProvince](#stateProvince)|State or province. Part of address info.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[telephone1](#telephone1)|Telephone to contact the building|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[telephone2](#telephone2)|Telephone to contact the building|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[telephone3](#telephone3)|Telephone to contact the building|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[website](#website)|Website to contact the building|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[wifiAvailable](#wifiAvailable)|There is available wifi or not.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[wifiAvailable_display](#wifiAvailable_display)||<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[wifiPassword](#wifiPassword)|Wifi password.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[wifiSSID](#wifiSSID)|SSID of the wifi|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[addressComposite](#addressComposite)||<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[numberOfRooms](#numberOfRooms)|Number of available rooms.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[numberOfRoomsDate](#numberOfRoomsDate)|Last Updated time of rollup field Number of Rooms.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
+|[numberOfRoomsState](#numberOfRoomsState)|State of rollup field Number of Rooms.|<a href="Building.md" target="_blank">eventManagement/Building</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

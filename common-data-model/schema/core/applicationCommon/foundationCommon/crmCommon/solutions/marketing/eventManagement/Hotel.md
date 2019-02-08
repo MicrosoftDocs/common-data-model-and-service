@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Hotel
 
 This represents a single hotel property (for e.g, Marriott in Bellevue). Each individual property belongs to a Hotel Group (e.g., Marriott) which is represented by an Account  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Hotel.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,46 +46,47 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Hotel  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Hotel](Hotel.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Hotel](Hotel.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Hotel](Hotel.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Hotel](Hotel.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Hotel](Hotel.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Hotel](Hotel.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Hotel](Hotel.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Hotel](Hotel.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Hotel](Hotel.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Hotel](Hotel.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Hotel](Hotel.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Hotel](Hotel.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Hotel](Hotel.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Hotel](Hotel.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Hotel](Hotel.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Hotel](Hotel.md)|
-|[hotelId](#hotelId)|Unique identifier for entity instances|[eventManagement/Hotel](Hotel.md)|
-|[stateCode](#stateCode)|Status of the Hotel|[eventManagement/Hotel](Hotel.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Hotel](Hotel.md)|
-|[statusCode](#statusCode)|Reason for the status of the Hotel|[eventManagement/Hotel](Hotel.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Hotel](Hotel.md)|
-|[name](#name)|The name of the hotel.|[eventManagement/Hotel](Hotel.md)|
-|[addressLine1](#addressLine1)||[eventManagement/Hotel](Hotel.md)|
-|[addressLine2](#addressLine2)||[eventManagement/Hotel](Hotel.md)|
-|[addressLine3](#addressLine3)||[eventManagement/Hotel](Hotel.md)|
-|[city](#city)|City where the hotel is located|[eventManagement/Hotel](Hotel.md)|
-|[country](#country)|Country/Region where the hotel is located|[eventManagement/Hotel](Hotel.md)|
-|[description](#description)|Hotel description|[eventManagement/Hotel](Hotel.md)|
-|[facilities](#facilities)|Hotel facilities|[eventManagement/Hotel](Hotel.md)|
-|[hotelGroup](#hotelGroup)||[eventManagement/Hotel](Hotel.md)|
-|[primaryContact](#primaryContact)|Hotel primary contact|[eventManagement/Hotel](Hotel.md)|
-|[stateProvince](#stateProvince)|State or Province where the hotel is located|[eventManagement/Hotel](Hotel.md)|
-|[website](#website)|Hotel website|[eventManagement/Hotel](Hotel.md)|
-|[ZIPPostalCode](#ZIPPostalCode)|Hotel ZIP postal code|[eventManagement/Hotel](Hotel.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[hotelId](#hotelId)|Unique identifier for entity instances|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[stateCode](#stateCode)|Status of the Hotel|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[stateCode_display](#stateCode_display)||<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[statusCode](#statusCode)|Reason for the status of the Hotel|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[statusCode_display](#statusCode_display)||<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[name](#name)|The name of the hotel.|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[addressLine1](#addressLine1)||<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[addressLine2](#addressLine2)||<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[addressLine3](#addressLine3)||<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[city](#city)|City where the hotel is located|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[country](#country)|Country/Region where the hotel is located|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[description](#description)|Hotel description|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[facilities](#facilities)|Hotel facilities|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[hotelGroup](#hotelGroup)||<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[primaryContact](#primaryContact)|Hotel primary contact|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[stateProvince](#stateProvince)|State or Province where the hotel is located|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[website](#website)|Hotel website|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
+|[ZIPPostalCode](#ZIPPostalCode)|Hotel ZIP postal code|<a href="Hotel.md" target="_blank">eventManagement/Hotel</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

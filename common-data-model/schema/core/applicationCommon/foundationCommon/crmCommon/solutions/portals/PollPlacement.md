@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Poll Placement
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/PollPlacement.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,36 +42,37 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/PollPlacement  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/PollPlacement](PollPlacement.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/PollPlacement](PollPlacement.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/PollPlacement](PollPlacement.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/PollPlacement](PollPlacement.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/PollPlacement](PollPlacement.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/PollPlacement](PollPlacement.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/PollPlacement](PollPlacement.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/PollPlacement](PollPlacement.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/PollPlacement](PollPlacement.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/PollPlacement](PollPlacement.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/PollPlacement](PollPlacement.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/PollPlacement](PollPlacement.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/PollPlacement](PollPlacement.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/PollPlacement](PollPlacement.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/PollPlacement](PollPlacement.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/PollPlacement](PollPlacement.md)|
-|[pollPlacementId](#pollPlacementId)|Shows the entity instance.|[portals/PollPlacement](PollPlacement.md)|
-|[stateCode](#stateCode)|Status of the Poll Placement|[portals/PollPlacement](PollPlacement.md)|
-|[stateCode_display](#stateCode_display)||[portals/PollPlacement](PollPlacement.md)|
-|[statusCode](#statusCode)|Select the poll placement's status.|[portals/PollPlacement](PollPlacement.md)|
-|[statusCode_display](#statusCode_display)||[portals/PollPlacement](PollPlacement.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/PollPlacement](PollPlacement.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with Poll Placement.|[portals/PollPlacement](PollPlacement.md)|
-|[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Poll Placement.|[portals/PollPlacement](PollPlacement.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[pollPlacementId](#pollPlacementId)|Shows the entity instance.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[stateCode](#stateCode)|Status of the Poll Placement|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[stateCode_display](#stateCode_display)||<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[statusCode](#statusCode)|Select the poll placement's status.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[statusCode_display](#statusCode_display)||<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with Poll Placement.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
+|[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Poll Placement.|<a href="PollPlacement.md" target="_blank">portals/PollPlacement</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

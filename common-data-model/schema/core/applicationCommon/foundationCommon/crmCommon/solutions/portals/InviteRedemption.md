@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Invite Redemption
 
 Holds information about the redemption of an invite.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/InviteRedemption.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,87 +43,88 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/InviteRedemption  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/InviteRedemption](InviteRedemption.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/InviteRedemption](InviteRedemption.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/InviteRedemption](InviteRedemption.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/InviteRedemption](InviteRedemption.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/InviteRedemption](InviteRedemption.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/InviteRedemption](InviteRedemption.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/InviteRedemption](InviteRedemption.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/InviteRedemption](InviteRedemption.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/InviteRedemption](InviteRedemption.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/InviteRedemption](InviteRedemption.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/InviteRedemption](InviteRedemption.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/InviteRedemption](InviteRedemption.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/InviteRedemption](InviteRedemption.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/InviteRedemption](InviteRedemption.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/InviteRedemption](InviteRedemption.md)|
-|[actualEnd](#actualEnd)|Enter the actual end time of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[activityId](#activityId)|Shows the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[isBilled](#isBilled)|Shows whether the activity was billed as part of resolving a case.|[portals/InviteRedemption](InviteRedemption.md)|
-|[description](#description)|Description of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[activityTypeCode](#activityTypeCode)|Shows the type of activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[activityTypeCode_display](#activityTypeCode_display)||[portals/InviteRedemption](InviteRedemption.md)|
-|[stateCode](#stateCode)|Status of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[stateCode_display](#stateCode_display)||[portals/InviteRedemption](InviteRedemption.md)|
-|[scheduledEnd](#scheduledEnd)|Enter the scheduled end time of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Enter the scheduled duration of the activity, in minutes.|[portals/InviteRedemption](InviteRedemption.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Enter the actual duration of the activity in minutes.|[portals/InviteRedemption](InviteRedemption.md)|
-|[statusCode](#statusCode)|Select the activity's status.|[portals/InviteRedemption](InviteRedemption.md)|
-|[statusCode_display](#statusCode_display)||[portals/InviteRedemption](InviteRedemption.md)|
-|[actualStart](#actualStart)|Enter the actual start time of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[priorityCode](#priorityCode)|Shows the priority of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[priorityCode_display](#priorityCode_display)||[portals/InviteRedemption](InviteRedemption.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[portals/InviteRedemption](InviteRedemption.md)|
-|[subject](#subject)|Subject associated with the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Shows whether the activity was created from a workflow rule.|[portals/InviteRedemption](InviteRedemption.md)|
-|[scheduledStart](#scheduledStart)|Enter the scheduled end time of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[instanceTypeCode](#instanceTypeCode)|Shows the type of instance of a recurring series.|[portals/InviteRedemption](InviteRedemption.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[portals/InviteRedemption](InviteRedemption.md)|
-|[seriesId](#seriesId)|Shows the ID of the recurring series of an instance.|[portals/InviteRedemption](InviteRedemption.md)|
-|[isRegularActivity](#isRegularActivity)|Shows whether the activity is a regular activity type or event type.|[portals/InviteRedemption](InviteRedemption.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|[portals/InviteRedemption](InviteRedemption.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|[portals/InviteRedemption](InviteRedemption.md)|
-|[leftVoiceMail](#leftVoiceMail)|Select if the voice mail was left.|[portals/InviteRedemption](InviteRedemption.md)|
-|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.|[portals/InviteRedemption](InviteRedemption.md)|
-|[community_display](#community_display)||[portals/InviteRedemption](InviteRedemption.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[portals/InviteRedemption](InviteRedemption.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[portals/InviteRedemption](InviteRedemption.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[portals/InviteRedemption](InviteRedemption.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[portals/InviteRedemption](InviteRedemption.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Shows the priority of delivery of the activity to the email server.|[portals/InviteRedemption](InviteRedemption.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[portals/InviteRedemption](InviteRedemption.md)|
-|[sentOn](#sentOn)|Shows the date and time when the activity was sent.|[portals/InviteRedemption](InviteRedemption.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Shows the date and time when the delivery of the activity was last attempted.|[portals/InviteRedemption](InviteRedemption.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[portals/InviteRedemption](InviteRedemption.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[portals/InviteRedemption](InviteRedemption.md)|
-|[processId](#processId)|Shows the process.|[portals/InviteRedemption](InviteRedemption.md)|
-|[stageId](#stageId)|Shows the stage.|[portals/InviteRedemption](InviteRedemption.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[portals/InviteRedemption](InviteRedemption.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[portals/InviteRedemption](InviteRedemption.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[portals/InviteRedemption](InviteRedemption.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[portals/InviteRedemption](InviteRedemption.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[portals/InviteRedemption](InviteRedemption.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[portals/InviteRedemption](InviteRedemption.md)|
-|[serviceId](#serviceId)|Unique identifier of an associated service.|[portals/InviteRedemption](InviteRedemption.md)|
-|[from](#from)|Enter the person who the activity is from.|[portals/InviteRedemption](InviteRedemption.md)|
-|[to](#to)|Enter the person who is the receiver of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[CC](#CC)|Enter the carbon copy (cc) recipients of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[BCC](#BCC)|Enter the blind carbon copy (bcc) recipients of the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[requiredAttendees](#requiredAttendees)|List of required attendees for the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[optionalAttendees](#optionalAttendees)|List of optional attendees for the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[organizer](#organizer)|Enter the person who organized the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[resources](#resources)|Enter the users or facility/equipment that are required for the activity.|[portals/InviteRedemption](InviteRedemption.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[portals/InviteRedemption](InviteRedemption.md)|
-|[partners](#partners)|Shows the outsource vendor who the activity is associated with.|[portals/InviteRedemption](InviteRedemption.md)|
-|[ipAddress](#ipAddress)||[portals/InviteRedemption](InviteRedemption.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[actualEnd](#actualEnd)|Enter the actual end time of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[activityId](#activityId)|Shows the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[isBilled](#isBilled)|Shows whether the activity was billed as part of resolving a case.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[description](#description)|Description of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[activityTypeCode](#activityTypeCode)|Shows the type of activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[activityTypeCode_display](#activityTypeCode_display)||<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[stateCode](#stateCode)|Status of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[stateCode_display](#stateCode_display)||<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[scheduledEnd](#scheduledEnd)|Enter the scheduled end time of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Enter the scheduled duration of the activity, in minutes.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Enter the actual duration of the activity in minutes.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[statusCode](#statusCode)|Select the activity's status.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[statusCode_display](#statusCode_display)||<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[actualStart](#actualStart)|Enter the actual start time of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[priorityCode](#priorityCode)|Shows the priority of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Shows whether the activity was created from a workflow rule.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[scheduledStart](#scheduledStart)|Enter the scheduled end time of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[instanceTypeCode](#instanceTypeCode)|Shows the type of instance of a recurring series.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[seriesId](#seriesId)|Shows the ID of the recurring series of an instance.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[isRegularActivity](#isRegularActivity)|Shows whether the activity is a regular activity type or event type.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[leftVoiceMail](#leftVoiceMail)|Select if the voice mail was left.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[community_display](#community_display)||<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Shows the priority of delivery of the activity to the email server.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[sentOn](#sentOn)|Shows the date and time when the activity was sent.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Shows the date and time when the delivery of the activity was last attempted.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[processId](#processId)|Shows the process.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[stageId](#stageId)|Shows the stage.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[serviceId](#serviceId)|Unique identifier of an associated service.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[from](#from)|Enter the person who the activity is from.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[to](#to)|Enter the person who is the receiver of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[CC](#CC)|Enter the carbon copy (cc) recipients of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[BCC](#BCC)|Enter the blind carbon copy (bcc) recipients of the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[requiredAttendees](#requiredAttendees)|List of required attendees for the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[optionalAttendees](#optionalAttendees)|List of optional attendees for the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[organizer](#organizer)|Enter the person who organized the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[resources](#resources)|Enter the users or facility/equipment that are required for the activity.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[partners](#partners)|Shows the outsource vendor who the activity is associated with.|<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
+|[ipAddress](#ipAddress)||<a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

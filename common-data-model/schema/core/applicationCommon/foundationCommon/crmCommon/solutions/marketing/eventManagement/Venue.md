@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Venue
 
 The Venue describes the location at which all event sessions and activities take place. A single event venue can be comprised of zero or more buildings, each of which can have zero or more rooms where sessions take place.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Venue.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,70 +46,71 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Venue  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Venue](Venue.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Venue](Venue.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Venue](Venue.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Venue](Venue.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Venue](Venue.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Venue](Venue.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Venue](Venue.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Venue](Venue.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Venue](Venue.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Venue](Venue.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Venue](Venue.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Venue](Venue.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Venue](Venue.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Venue](Venue.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Venue](Venue.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Venue](Venue.md)|
-|[venueId](#venueId)|Unique identifier for entity instances|[eventManagement/Venue](Venue.md)|
-|[stateCode](#stateCode)|Status of the Venue|[eventManagement/Venue](Venue.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Venue](Venue.md)|
-|[statusCode](#statusCode)|Reason for the status of the Venue|[eventManagement/Venue](Venue.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Venue](Venue.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/Venue](Venue.md)|
-|[accessibleToilets](#accessibleToilets)|There are accessible toilets or not.|[eventManagement/Venue](Venue.md)|
-|[accessibleToilets_display](#accessibleToilets_display)||[eventManagement/Venue](Venue.md)|
-|[additionalFacilities](#additionalFacilities)|Some additional facilities which is not covered by available options.|[eventManagement/Venue](Venue.md)|
-|[addressLine1](#addressLine1)|Address (except of city, country/region, state or province and postal code).|[eventManagement/Venue](Venue.md)|
-|[addressLine2](#addressLine2)|Additional address details.|[eventManagement/Venue](Venue.md)|
-|[addressLine3](#addressLine3)|Additional address details.|[eventManagement/Venue](Venue.md)|
-|[buildingId](#buildingId)|Unique identifier for Building associated with Venue.|[eventManagement/Venue](Venue.md)|
-|[city](#city)|City part of address info.|[eventManagement/Venue](Venue.md)|
-|[cost](#cost)|Cost of the venue.|[eventManagement/Venue](Venue.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/Venue](Venue.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/Venue](Venue.md)|
-|[costBase](#costBase)|Value of the Cost in base currency.|[eventManagement/Venue](Venue.md)|
-|[country](#country)|Country/Region part of address info.|[eventManagement/Venue](Venue.md)|
-|[description](#description)|Description of the venue.|[eventManagement/Venue](Venue.md)|
-|[disabledAccess](#disabledAccess)|There is disabled access or not.|[eventManagement/Venue](Venue.md)|
-|[disabledAccess_display](#disabledAccess_display)||[eventManagement/Venue](Venue.md)|
-|[disabledParking](#disabledParking)|There is disabled parking or not.|[eventManagement/Venue](Venue.md)|
-|[disabledParking_display](#disabledParking_display)||[eventManagement/Venue](Venue.md)|
-|[email](#email)|Email. Part of the venue contact information.|[eventManagement/Venue](Venue.md)|
-|[estCapacity](#estCapacity)|Estimated capacity of the venue.|[eventManagement/Venue](Venue.md)|
-|[parentVenueId](#parentVenueId)|Unique identifier for Venue associated with Venue.|[eventManagement/Venue](Venue.md)|
-|[postalCode](#postalCode)|Postal code part of address info.|[eventManagement/Venue](Venue.md)|
-|[primaryContact](#primaryContact)|A person who is responsible for the venue.|[eventManagement/Venue](Venue.md)|
-|[publicTelephoneAvailable](#publicTelephoneAvailable)|There is available public telephone or not.|[eventManagement/Venue](Venue.md)|
-|[publicTelephoneAvailable_display](#publicTelephoneAvailable_display)||[eventManagement/Venue](Venue.md)|
-|[roomId](#roomId)|Unique identifier for Room associated with Venue.|[eventManagement/Venue](Venue.md)|
-|[stateProvince](#stateProvince)|State or province part of address info.|[eventManagement/Venue](Venue.md)|
-|[telephone1](#telephone1)|Telephone 1. Part of the venue contact information.|[eventManagement/Venue](Venue.md)|
-|[telephone2](#telephone2)|Telephone 2. Part of the venue contact information.|[eventManagement/Venue](Venue.md)|
-|[telephone3](#telephone3)|Telephone 3. Part of the venue contact information.|[eventManagement/Venue](Venue.md)|
-|[website](#website)|Website. Part of the venue contact information.|[eventManagement/Venue](Venue.md)|
-|[wifiAvailable](#wifiAvailable)|There is available wifi or not.|[eventManagement/Venue](Venue.md)|
-|[wifiAvailable_display](#wifiAvailable_display)||[eventManagement/Venue](Venue.md)|
-|[wifiPassword](#wifiPassword)|Wifi password.|[eventManagement/Venue](Venue.md)|
-|[wifiSSID](#wifiSSID)|SSID of Wifi|[eventManagement/Venue](Venue.md)|
-|[addressComposite](#addressComposite)||[eventManagement/Venue](Venue.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[venueId](#venueId)|Unique identifier for entity instances|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[stateCode](#stateCode)|Status of the Venue|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[stateCode_display](#stateCode_display)||<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[statusCode](#statusCode)|Reason for the status of the Venue|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[statusCode_display](#statusCode_display)||<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[name](#name)|The name of the custom entity.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[accessibleToilets](#accessibleToilets)|There are accessible toilets or not.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[accessibleToilets_display](#accessibleToilets_display)||<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[additionalFacilities](#additionalFacilities)|Some additional facilities which is not covered by available options.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[addressLine1](#addressLine1)|Address (except of city, country/region, state or province and postal code).|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[addressLine2](#addressLine2)|Additional address details.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[addressLine3](#addressLine3)|Additional address details.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[buildingId](#buildingId)|Unique identifier for Building associated with Venue.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[city](#city)|City part of address info.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[cost](#cost)|Cost of the venue.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[costBase](#costBase)|Value of the Cost in base currency.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[country](#country)|Country/Region part of address info.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[description](#description)|Description of the venue.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[disabledAccess](#disabledAccess)|There is disabled access or not.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[disabledAccess_display](#disabledAccess_display)||<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[disabledParking](#disabledParking)|There is disabled parking or not.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[disabledParking_display](#disabledParking_display)||<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[email](#email)|Email. Part of the venue contact information.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[estCapacity](#estCapacity)|Estimated capacity of the venue.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[parentVenueId](#parentVenueId)|Unique identifier for Venue associated with Venue.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[postalCode](#postalCode)|Postal code part of address info.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[primaryContact](#primaryContact)|A person who is responsible for the venue.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[publicTelephoneAvailable](#publicTelephoneAvailable)|There is available public telephone or not.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[publicTelephoneAvailable_display](#publicTelephoneAvailable_display)||<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[roomId](#roomId)|Unique identifier for Room associated with Venue.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[stateProvince](#stateProvince)|State or province part of address info.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[telephone1](#telephone1)|Telephone 1. Part of the venue contact information.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[telephone2](#telephone2)|Telephone 2. Part of the venue contact information.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[telephone3](#telephone3)|Telephone 3. Part of the venue contact information.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[website](#website)|Website. Part of the venue contact information.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[wifiAvailable](#wifiAvailable)|There is available wifi or not.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[wifiAvailable_display](#wifiAvailable_display)||<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[wifiPassword](#wifiPassword)|Wifi password.|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[wifiSSID](#wifiSSID)|SSID of Wifi|<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
+|[addressComposite](#addressComposite)||<a href="Venue.md" target="_blank">eventManagement/Venue</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

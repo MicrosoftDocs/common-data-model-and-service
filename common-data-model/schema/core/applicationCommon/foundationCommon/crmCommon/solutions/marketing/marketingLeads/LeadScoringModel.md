@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Lead Scoring Model
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,37 +42,38 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 marketingLeads/LeadScoringModel  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[ownerId](#ownerId)|Owner Id|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[versionNumber](#versionNumber)|Version Number|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[leadScoreModelId](#leadScoreModelId)|Unique ID for entity instances.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[stateCode](#stateCode)|Status of the Lead Scoring Model|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[stateCode_display](#stateCode_display)||[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[statusCode](#statusCode)|Lead scoring model status reason|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[statusCode_display](#statusCode_display)||[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[name](#name)|The name of the custom entity.|[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[description](#description)||[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[insightsPlaceholder](#insightsPlaceholder)||[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
-|[modelDefinition](#modelDefinition)||[marketingLeads/LeadScoringModel](LeadScoringModel.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[leadScoreModelId](#leadScoreModelId)|Unique ID for entity instances.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[stateCode](#stateCode)|Status of the Lead Scoring Model|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[stateCode_display](#stateCode_display)||<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[statusCode](#statusCode)|Lead scoring model status reason|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[statusCode_display](#statusCode_display)||<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[name](#name)|The name of the custom entity.|<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[description](#description)||<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[insightsPlaceholder](#insightsPlaceholder)||<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
+|[modelDefinition](#modelDefinition)||<a href="LeadScoringModel.md" target="_blank">marketingLeads/LeadScoringModel</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

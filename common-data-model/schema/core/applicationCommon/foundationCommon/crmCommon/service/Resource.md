@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Resource
 
 User or facility/equipment that can be scheduled for a service.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Resource.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -40,27 +40,28 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/Resource  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[resourceId](#resourceId)|Unique identifier of the resource.|[service/Resource](Resource.md)|
-|[businessUnitId](#businessUnitId)|Business Unit Id|[service/Resource](Resource.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/Resource](Resource.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/Resource](Resource.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/Resource](Resource.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/Resource](Resource.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/Resource](Resource.md)|
-|[name](#name)|Name of the resource.|[service/Resource](Resource.md)|
-|[calendarId](#calendarId)|Unique identifier of the calendar for the resource.|[service/Resource](Resource.md)|
-|[displayInServiceViews](#displayInServiceViews)|For internal use only.|[service/Resource](Resource.md)|
-|[isDisabled](#isDisabled)|Information about whether the resource is enabled.|[service/Resource](Resource.md)|
-|[objectTypeCode](#objectTypeCode)|Type of entity with which the resource is associated.|[service/Resource](Resource.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization with which the resource is associated.|[service/Resource](Resource.md)|
-|[siteId](#siteId)|Unique identifier of the site at which the resource is located.|[service/Resource](Resource.md)|
-|[entityImageId](#entityImageId)||[service/Resource](Resource.md)|
+|[resourceId](#resourceId)|Unique identifier of the resource.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[businessUnitId](#businessUnitId)|Business Unit Id|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[name](#name)|Name of the resource.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[calendarId](#calendarId)|Unique identifier of the calendar for the resource.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[displayInServiceViews](#displayInServiceViews)|For internal use only.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[isDisabled](#isDisabled)|Information about whether the resource is enabled.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[objectTypeCode](#objectTypeCode)|Type of entity with which the resource is associated.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization with which the resource is associated.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[siteId](#siteId)|Unique identifier of the site at which the resource is located.|<a href="Resource.md" target="_blank">service/Resource</a>|
+|[entityImageId](#entityImageId)||<a href="Resource.md" target="_blank">service/Resource</a>|
 
 ### <a href=#resourceId name="resourceId">resourceId</a>
 

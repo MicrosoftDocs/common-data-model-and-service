@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Opportunity Product
 
 Association between an opportunity and a product.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,67 +43,68 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/OpportunityProduct  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[opportunityProductId](#opportunityProductId)|Unique identifier of the opportunity product.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[baseAmount](#baseAmount)|Shows the total price of the opportunity product, based on the price per unit, volume discount, and quantity.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[baseAmountBase](#baseAmountBase)|Value of the Amount in base currency.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[description](#description)|Type additional information to describe the opportunity product, such as manufacturing details.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[extendedAmount](#extendedAmount)|Shows the total amount due for the opportunity product, calculated on the Amount value minus the Manual Discount amount.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[extendedAmountBase](#extendedAmountBase)|Value of the Extended Amount in base currency.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[isPriceOverridden](#isPriceOverridden)|Select whether the pricing on the opportunity product reflects an override of the product catalog pricing.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[isProductOverridden](#isProductOverridden)|For system use only.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[lineItemNumber](#lineItemNumber)|Type the line item number for the opportunity product to easily identify the product in the opportunity documents and make sure it's listed in the correct order.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[manualDiscountAmount](#manualDiscountAmount)|Type the manual discount amount for the opportunity product to deduct any negotiated or other savings from the product total.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[manualDiscountAmountBase](#manualDiscountAmountBase)|Value of the Manual Discount Amount in base currency.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[opportunityId](#opportunityId)|Unique identifier of the opportunity with which the opportunity product is associated.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[opportunityStateCode](#opportunityStateCode)|Select the status of the opportunity product.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[opportunityStateCode_display](#opportunityStateCode_display)||[sales/OpportunityProduct](OpportunityProduct.md)|
-|[parentBundleId](#parentBundleId)|Choose the parent bundle associated with this product|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[productAssociationId](#productAssociationId)|Unique identifier of the product line item association with bundle in the opportunity|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[productTypeCode](#productTypeCode)|Product Type|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[productTypeCode_display](#productTypeCode_display)||[sales/OpportunityProduct](OpportunityProduct.md)|
-|[pricePerUnit](#pricePerUnit)|Shows the price per unit of the opportunity product, based on the price list specified on the parent opportunity.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[pricePerUnitBase](#pricePerUnitBase)|Value of the Price Per Unit in base currency.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[pricingErrorCode](#pricingErrorCode)|Select the pricing error for the opportunity product.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[pricingErrorCode_display](#pricingErrorCode_display)||[sales/OpportunityProduct](OpportunityProduct.md)|
-|[productDescription](#productDescription)|Type a detailed product description or additional notes about the opportunity product, such as talking points or product updates, that will assist the sales team when they discuss the product with the customer.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[productName](#productName)|Calculated field that will be populated by name and description of the product.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[productId](#productId)|Choose the product to include on the opportunity to link the product's pricing and other information to the opportunity.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[quantity](#quantity)|Type the amount or quantity of the product the customer would like to purchase.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[tax](#tax)|Type the tax amount to be applied on the opportunity product.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[taxBase](#taxBase)|Value of the Tax in base currency.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[volumeDiscountAmount](#volumeDiscountAmount)|Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[volumeDiscountAmountBase](#volumeDiscountAmountBase)|Value of the Volume Discount in base currency.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[sequenceNumber](#sequenceNumber)|Shows the ID of the data that maintains the sequence.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[propertyConfigurationStatus](#propertyConfigurationStatus)|Status of the property configuration.|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[propertyConfigurationStatus_display](#propertyConfigurationStatus_display)||[sales/OpportunityProduct](OpportunityProduct.md)|
-|[entityImageId](#entityImageId)||[sales/OpportunityProduct](OpportunityProduct.md)|
-|[opportunityProductName](#opportunityProductName)|Opportunity Product Name. Added for 1:n Referential relationship|[sales/OpportunityProduct](OpportunityProduct.md)|
-|[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|[sales/OpportunityProduct](OpportunityProduct.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[opportunityProductId](#opportunityProductId)|Unique identifier of the opportunity product.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[baseAmount](#baseAmount)|Shows the total price of the opportunity product, based on the price per unit, volume discount, and quantity.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[baseAmountBase](#baseAmountBase)|Value of the Amount in base currency.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[description](#description)|Type additional information to describe the opportunity product, such as manufacturing details.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[extendedAmount](#extendedAmount)|Shows the total amount due for the opportunity product, calculated on the Amount value minus the Manual Discount amount.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[extendedAmountBase](#extendedAmountBase)|Value of the Extended Amount in base currency.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[isPriceOverridden](#isPriceOverridden)|Select whether the pricing on the opportunity product reflects an override of the product catalog pricing.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[isProductOverridden](#isProductOverridden)|For system use only.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[lineItemNumber](#lineItemNumber)|Type the line item number for the opportunity product to easily identify the product in the opportunity documents and make sure it's listed in the correct order.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[manualDiscountAmount](#manualDiscountAmount)|Type the manual discount amount for the opportunity product to deduct any negotiated or other savings from the product total.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[manualDiscountAmountBase](#manualDiscountAmountBase)|Value of the Manual Discount Amount in base currency.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[opportunityId](#opportunityId)|Unique identifier of the opportunity with which the opportunity product is associated.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[opportunityStateCode](#opportunityStateCode)|Select the status of the opportunity product.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[opportunityStateCode_display](#opportunityStateCode_display)||<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[parentBundleId](#parentBundleId)|Choose the parent bundle associated with this product|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[productAssociationId](#productAssociationId)|Unique identifier of the product line item association with bundle in the opportunity|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[productTypeCode](#productTypeCode)|Product Type|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[productTypeCode_display](#productTypeCode_display)||<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[pricePerUnit](#pricePerUnit)|Shows the price per unit of the opportunity product, based on the price list specified on the parent opportunity.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[pricePerUnitBase](#pricePerUnitBase)|Value of the Price Per Unit in base currency.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[pricingErrorCode](#pricingErrorCode)|Select the pricing error for the opportunity product.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[pricingErrorCode_display](#pricingErrorCode_display)||<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[productDescription](#productDescription)|Type a detailed product description or additional notes about the opportunity product, such as talking points or product updates, that will assist the sales team when they discuss the product with the customer.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[productName](#productName)|Calculated field that will be populated by name and description of the product.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[productId](#productId)|Choose the product to include on the opportunity to link the product's pricing and other information to the opportunity.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[quantity](#quantity)|Type the amount or quantity of the product the customer would like to purchase.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[tax](#tax)|Type the tax amount to be applied on the opportunity product.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[taxBase](#taxBase)|Value of the Tax in base currency.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[volumeDiscountAmount](#volumeDiscountAmount)|Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[volumeDiscountAmountBase](#volumeDiscountAmountBase)|Value of the Volume Discount in base currency.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[sequenceNumber](#sequenceNumber)|Shows the ID of the data that maintains the sequence.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[propertyConfigurationStatus](#propertyConfigurationStatus)|Status of the property configuration.|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[propertyConfigurationStatus_display](#propertyConfigurationStatus_display)||<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[entityImageId](#entityImageId)||<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[opportunityProductName](#opportunityProductName)|Opportunity Product Name. Added for 1:n Referential relationship|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
+|[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|<a href="OpportunityProduct.md" target="_blank">sales/OpportunityProduct</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Connection
 
 Relationship between two entities.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Connection.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Connection](../../../../Connection.md "/core/applicationCommon/Connection.cdm.json/Connection")  
 marketing/Connection  
 
@@ -53,44 +54,44 @@ marketing/Connection
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Connection](../../../../Connection.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns the connection.|[applicationCommon/Connection](../../../../Connection.md)|
-|[statusCode](#statusCode)|Reason for the status of the connection.|[applicationCommon/Connection](../../../../Connection.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Connection](../../../../Connection.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Connection](../../../../Connection.md)|
-|[connectionId](#connectionId)|Unique identifier of the connection.|[applicationCommon/Connection](../../../../Connection.md)|
-|[versionNumber](#versionNumber)|Version number of the connection.|[applicationCommon/Connection](../../../../Connection.md)|
-|[effectiveStart](#effectiveStart)|Enter the start date of the connection.|[applicationCommon/Connection](../../../../Connection.md)|
-|[isMaster](#isMaster)|Indicates that this is the master record.|[applicationCommon/Connection](../../../../Connection.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Connection](../../../../Connection.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Connection](../../../../Connection.md)|
-|[relatedConnectionId](#relatedConnectionId)|Unique identifier for the reciprocal connection record.|[applicationCommon/Connection](../../../../Connection.md)|
-|[description](#description)|Type additional information to describe the connection, such as the length or quality of the relationship.|[applicationCommon/Connection](../../../../Connection.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Shows the business unit that the record owner belongs to.|[applicationCommon/Connection](../../../../Connection.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Connection](../../../../Connection.md)|
-|[record2IdObjectTypeCode](#record2IdObjectTypeCode)|The name of the entity linked by record2Id|[applicationCommon/Connection](../../../../Connection.md)|
-|[record2Id](#record2Id)|Unique identifier of the target record.|[applicationCommon/Connection](../../../../Connection.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Connection](../../../../Connection.md)|
-|[record2RoleId](#record2RoleId)|Choose the secondary party's role or relationship with the primary party.|[applicationCommon/Connection](../../../../Connection.md)|
-|[effectiveEnd](#effectiveEnd)|Enter the end date of the connection.|[applicationCommon/Connection](../../../../Connection.md)|
-|[record1RoleId](#record1RoleId)|Choose the primary party's role or relationship with the second party.|[applicationCommon/Connection](../../../../Connection.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/Connection](../../../../Connection.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/Connection](../../../../Connection.md)|
-|[record1IdObjectTypeCode](#record1IdObjectTypeCode)|The name of the entity linked by record1Id|[applicationCommon/Connection](../../../../Connection.md)|
-|[record1Id](#record1Id)|Unique identifier of the source record.|[applicationCommon/Connection](../../../../Connection.md)|
-|[stateCode](#stateCode)|Shows whether the connection is active or inactive. Inactive connections are read-only and can't be edited unless they are reactivated.|[applicationCommon/Connection](../../../../Connection.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Connection](../../../../Connection.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Connection](../../../../Connection.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Connection](../../../../Connection.md)|
-|[owningTeam](#owningTeam)|Unique identifier of the team who owns the connection.|[applicationCommon/Connection](../../../../Connection.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Connection](../../../../Connection.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Connection](../../../../Connection.md)|
-|[record2ObjectTypeCode](#record2ObjectTypeCode)|Shows the record type of the target record.|[applicationCommon/Connection](../../../../Connection.md)|
-|[record2ObjectTypeCode_display](#record2ObjectTypeCode_display)||[applicationCommon/Connection](../../../../Connection.md)|
-|[record1ObjectTypeCode](#record1ObjectTypeCode)|Shows the record type of the source record.|[applicationCommon/Connection](../../../../Connection.md)|
-|[record1ObjectTypeCode_display](#record1ObjectTypeCode_display)||[applicationCommon/Connection](../../../../Connection.md)|
-|[name](#name)|Name of the connection.|[applicationCommon/Connection](../../../../Connection.md)|
-|[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Connection](../../../../Connection.md)|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns the connection.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[statusCode](#statusCode)|Reason for the status of the connection.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[connectionId](#connectionId)|Unique identifier of the connection.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[versionNumber](#versionNumber)|Version number of the connection.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[effectiveStart](#effectiveStart)|Enter the start date of the connection.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[isMaster](#isMaster)|Indicates that this is the master record.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[relatedConnectionId](#relatedConnectionId)|Unique identifier for the reciprocal connection record.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[description](#description)|Type additional information to describe the connection, such as the length or quality of the relationship.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Shows the business unit that the record owner belongs to.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record2IdObjectTypeCode](#record2IdObjectTypeCode)|The name of the entity linked by record2Id|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record2Id](#record2Id)|Unique identifier of the target record.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record2RoleId](#record2RoleId)|Choose the secondary party's role or relationship with the primary party.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[effectiveEnd](#effectiveEnd)|Enter the end date of the connection.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record1RoleId](#record1RoleId)|Choose the primary party's role or relationship with the second party.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record1IdObjectTypeCode](#record1IdObjectTypeCode)|The name of the entity linked by record1Id|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record1Id](#record1Id)|Unique identifier of the source record.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[stateCode](#stateCode)|Shows whether the connection is active or inactive. Inactive connections are read-only and can't be edited unless they are reactivated.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[owningTeam](#owningTeam)|Unique identifier of the team who owns the connection.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record2ObjectTypeCode](#record2ObjectTypeCode)|Shows the record type of the target record.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record2ObjectTypeCode_display](#record2ObjectTypeCode_display)||<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record1ObjectTypeCode](#record1ObjectTypeCode)|Shows the record type of the source record.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[record1ObjectTypeCode_display](#record1ObjectTypeCode_display)||<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[name](#name)|Name of the connection.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="../../../../Connection.md" target="_blank">applicationCommon/Connection</a>|
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 

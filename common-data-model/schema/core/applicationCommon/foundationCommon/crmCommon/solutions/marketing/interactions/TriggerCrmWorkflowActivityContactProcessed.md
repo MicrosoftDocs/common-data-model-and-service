@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Trigger workflow activity contact processed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/TriggerCrmWorkflowActivityContactProcessed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,22 +33,23 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/TriggerCrmWorkflowActivityContactProcessed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
-|[contactId](#contactId)|Contact|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
-|[accountId](#accountId)|Account|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
-|[activityId](#activityId)|Activity ID|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/TriggerCrmWorkflowActivityContactProcessed](TriggerCrmWorkflowActivityContactProcessed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
+|[contactId](#contactId)|Contact|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
+|[accountId](#accountId)|Account|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
+|[activityId](#activityId)|Activity ID|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="TriggerCrmWorkflowActivityContactProcessed.md" target="_blank">interactions/TriggerCrmWorkflowActivityContactProcessed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

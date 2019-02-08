@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Extra Curricular Participant
 
 The relationship between a Contact and a specific Extra Curricular Activity.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/ExtraCurricularParticipant.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,44 +46,45 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/ExtraCurricularParticipant  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[extracurricularParticipantId](#extracurricularParticipantId)|Unique identifier for entity instances|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[stateCode](#stateCode)|Status of the Extra Curricular Participant|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[statusCode](#statusCode)|Reason for the status of the Extra Curricular Participant|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[name](#name)|The name of the custom entity.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[awardsReceived](#awardsReceived)|Awards received at the Extra Curricular Activity or Club.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[contactId](#contactId)|Lookup to Student (Contact).|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[endDate](#endDate)|End Date|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[extraCurricularActivityId](#extraCurricularActivityId)|Lookup to Extra Curricular|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[positionsHeld](#positionsHeld)|Positions held at the Extra Curricular Activity or Club|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[source](#source)|Source of the student's extra curricular activity record.|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[source_display](#source_display)||[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[startDate](#startDate)|Start Date|[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[state](#state)||[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
-|[state_display](#state_display)||[higherEducation/ExtraCurricularParticipant](ExtraCurricularParticipant.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[extracurricularParticipantId](#extracurricularParticipantId)|Unique identifier for entity instances|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[stateCode](#stateCode)|Status of the Extra Curricular Participant|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[stateCode_display](#stateCode_display)||<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[statusCode](#statusCode)|Reason for the status of the Extra Curricular Participant|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[statusCode_display](#statusCode_display)||<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[name](#name)|The name of the custom entity.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[awardsReceived](#awardsReceived)|Awards received at the Extra Curricular Activity or Club.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[contactId](#contactId)|Lookup to Student (Contact).|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[endDate](#endDate)|End Date|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[extraCurricularActivityId](#extraCurricularActivityId)|Lookup to Extra Curricular|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[positionsHeld](#positionsHeld)|Positions held at the Extra Curricular Activity or Club|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[source](#source)|Source of the student's extra curricular activity record.|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[source_display](#source_display)||<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[startDate](#startDate)|Start Date|<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[state](#state)||<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
+|[state_display](#state_display)||<a href="ExtraCurricularParticipant.md" target="_blank">higherEducation/ExtraCurricularParticipant</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

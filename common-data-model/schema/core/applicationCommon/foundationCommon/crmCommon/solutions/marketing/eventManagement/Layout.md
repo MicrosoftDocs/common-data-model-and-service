@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Layout
 
 The layout entity is to provide users a quick way to specify the various different layouts that a single room can be arranged in and the maximum capacity of the room as a result of the change.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,45 +46,46 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Layout  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Layout](Layout.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Layout](Layout.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Layout](Layout.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Layout](Layout.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Layout](Layout.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Layout](Layout.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Layout](Layout.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Layout](Layout.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Layout](Layout.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Layout](Layout.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Layout](Layout.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Layout](Layout.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Layout](Layout.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Layout](Layout.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Layout](Layout.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Layout](Layout.md)|
-|[layoutId](#layoutId)|Unique identifier for entity instances|[eventManagement/Layout](Layout.md)|
-|[stateCode](#stateCode)|Status of the Layout|[eventManagement/Layout](Layout.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Layout](Layout.md)|
-|[statusCode](#statusCode)|Reason for the status of the Layout|[eventManagement/Layout](Layout.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Layout](Layout.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/Layout](Layout.md)|
-|[capacity](#capacity)|How many people is possible to locate here.|[eventManagement/Layout](Layout.md)|
-|[description](#description)|Description of layout.|[eventManagement/Layout](Layout.md)|
-|[disabledAccess](#disabledAccess)|There is disabled access or not.|[eventManagement/Layout](Layout.md)|
-|[disabledAccess_display](#disabledAccess_display)||[eventManagement/Layout](Layout.md)|
-|[disabledCapacity](#disabledCapacity)|How many disabled is possible to locate here.|[eventManagement/Layout](Layout.md)|
-|[floorPlan](#floorPlan)|Standardized floor plan type|[eventManagement/Layout](Layout.md)|
-|[floorPlan_display](#floorPlan_display)||[eventManagement/Layout](Layout.md)|
-|[room](#room)|Link to the room.|[eventManagement/Layout](Layout.md)|
-|[units](#units)|Square units.|[eventManagement/Layout](Layout.md)|
-|[units_display](#units_display)||[eventManagement/Layout](Layout.md)|
-|[usableArea](#usableArea)|Usable area (square units).|[eventManagement/Layout](Layout.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[layoutId](#layoutId)|Unique identifier for entity instances|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[stateCode](#stateCode)|Status of the Layout|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[stateCode_display](#stateCode_display)||<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[statusCode](#statusCode)|Reason for the status of the Layout|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[statusCode_display](#statusCode_display)||<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[name](#name)|The name of the custom entity.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[capacity](#capacity)|How many people is possible to locate here.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[description](#description)|Description of layout.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[disabledAccess](#disabledAccess)|There is disabled access or not.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[disabledAccess_display](#disabledAccess_display)||<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[disabledCapacity](#disabledCapacity)|How many disabled is possible to locate here.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[floorPlan](#floorPlan)|Standardized floor plan type|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[floorPlan_display](#floorPlan_display)||<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[room](#room)|Link to the room.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[units](#units)|Square units.|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[units_display](#units_display)||<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
+|[usableArea](#usableArea)|Usable area (square units).|<a href="Layout.md" target="_blank">eventManagement/Layout</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

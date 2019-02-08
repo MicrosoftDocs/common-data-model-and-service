@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Queue
 
 A list of records that require action, such as accounts, activities, and cases.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Queue.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,62 +46,63 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Queue  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[queueId](#queueId)|Unique identifier of the queue.|[applicationCommon/Queue](Queue.md)|
-|[businessUnitId](#businessUnitId)|Unique identifier of the business unit with which the queue is associated.|[applicationCommon/Queue](Queue.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the queue.|[applicationCommon/Queue](Queue.md)|
-|[emailAddress](#emailAddress)|Email address that is associated with the queue.|[applicationCommon/Queue](Queue.md)|
-|[primaryUserId](#primaryUserId)|Unique identifier of the owner of the queue.|[applicationCommon/Queue](Queue.md)|
-|[queueTypeCode](#queueTypeCode)|Type of queue that is automatically assigned when a user or queue is created. The type can be public, private, or work in process.|[applicationCommon/Queue](Queue.md)|
-|[queueTypeCode_display](#queueTypeCode_display)||[applicationCommon/Queue](Queue.md)|
-|[name](#name)|Name of the queue.|[applicationCommon/Queue](Queue.md)|
-|[description](#description)|Description of the queue.|[applicationCommon/Queue](Queue.md)|
-|[queueSemantics](#queueSemantics)|For internal use only.|[applicationCommon/Queue](Queue.md)|
-|[createdOn](#createdOn)|Date and time when the queue was created.|[applicationCommon/Queue](Queue.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the queue record.|[applicationCommon/Queue](Queue.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the queue.|[applicationCommon/Queue](Queue.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the queue was last modified.|[applicationCommon/Queue](Queue.md)|
-|[versionNumber](#versionNumber)|Version number of the queue.|[applicationCommon/Queue](Queue.md)|
-|[ignoreUnsolicitedEmail](#ignoreUnsolicitedEmail)|Information that specifies whether a queue is to ignore unsolicited email (deprecated).|[applicationCommon/Queue](Queue.md)|
-|[isFaxQueue](#isFaxQueue)|Indication of whether a queue is the fax delivery queue.|[applicationCommon/Queue](Queue.md)|
-|[emailPassword](#emailPassword)|This attribute is no longer used. The data is now in the Mailbox.Password attribute.|[applicationCommon/Queue](Queue.md)|
-|[incomingEmailDeliveryMethod](#incomingEmailDeliveryMethod)|Incoming email delivery method for the queue.|[applicationCommon/Queue](Queue.md)|
-|[incomingEmailDeliveryMethod_display](#incomingEmailDeliveryMethod_display)||[applicationCommon/Queue](Queue.md)|
-|[emailUsername](#emailUsername)|This attribute is no longer used. The data is now in the Mailbox.UserName attribute.|[applicationCommon/Queue](Queue.md)|
-|[outgoingEmailDeliveryMethod](#outgoingEmailDeliveryMethod)|Outgoing email delivery method for the queue.|[applicationCommon/Queue](Queue.md)|
-|[outgoingEmailDeliveryMethod_display](#outgoingEmailDeliveryMethod_display)||[applicationCommon/Queue](Queue.md)|
-|[allowEmailCredentials](#allowEmailCredentials)|This attribute is no longer used. The data is now in the Mailbox.AllowEmailConnectorToUseCredentials attribute.|[applicationCommon/Queue](Queue.md)|
-|[incomingEmailFilteringMethod](#incomingEmailFilteringMethod)|Convert Incoming Email To Activities|[applicationCommon/Queue](Queue.md)|
-|[incomingEmailFilteringMethod_display](#incomingEmailFilteringMethod_display)||[applicationCommon/Queue](Queue.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Queue](Queue.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Queue](Queue.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Queue](Queue.md)|
-|[statusCode](#statusCode)|Reason for the status of the queue.|[applicationCommon/Queue](Queue.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Queue](Queue.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the queue.|[applicationCommon/Queue](Queue.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns the queue.|[applicationCommon/Queue](Queue.md)|
-|[stateCode](#stateCode)|Status of the queue.|[applicationCommon/Queue](Queue.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Queue](Queue.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the queue.|[applicationCommon/Queue](Queue.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the queue.|[applicationCommon/Queue](Queue.md)|
-|[numberOfItems](#numberOfItems)|Number of Queue items associated with the queue.|[applicationCommon/Queue](Queue.md)|
-|[numberOfMembers](#numberOfMembers)|Number of Members associated with the queue.|[applicationCommon/Queue](Queue.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Queue](Queue.md)|
-|[owningTeam](#owningTeam)|Unique identifier of the team who owns the queue.|[applicationCommon/Queue](Queue.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the queue.|[applicationCommon/Queue](Queue.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the queue with respect to the base currency.|[applicationCommon/Queue](Queue.md)|
-|[emailRouterAccessApproval](#emailRouterAccessApproval)|Shows the status of the primary email address.|[applicationCommon/Queue](Queue.md)|
-|[emailRouterAccessApproval_display](#emailRouterAccessApproval_display)||[applicationCommon/Queue](Queue.md)|
-|[defaultMailbox](#defaultMailbox)|Select the mailbox associated with this queue.|[applicationCommon/Queue](Queue.md)|
-|[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Queue](Queue.md)|
-|[isEmailAddressApprovedByO365Admin](#isEmailAddressApprovedByO365Admin)|Shows the status of approval of the email address by O365 Admin.|[applicationCommon/Queue](Queue.md)|
-|[queueViewType](#queueViewType)|Select whether the queue is public or private. A public queue can be viewed by all. A private queue can be viewed only by the members added to the queue.|[applicationCommon/Queue](Queue.md)|
-|[queueViewType_display](#queueViewType_display)||[applicationCommon/Queue](Queue.md)|
+|[queueId](#queueId)|Unique identifier of the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[businessUnitId](#businessUnitId)|Unique identifier of the business unit with which the queue is associated.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[emailAddress](#emailAddress)|Email address that is associated with the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[primaryUserId](#primaryUserId)|Unique identifier of the owner of the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[queueTypeCode](#queueTypeCode)|Type of queue that is automatically assigned when a user or queue is created. The type can be public, private, or work in process.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[queueTypeCode_display](#queueTypeCode_display)||<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[name](#name)|Name of the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[description](#description)|Description of the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[queueSemantics](#queueSemantics)|For internal use only.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[createdOn](#createdOn)|Date and time when the queue was created.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the queue record.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the queue was last modified.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[versionNumber](#versionNumber)|Version number of the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[ignoreUnsolicitedEmail](#ignoreUnsolicitedEmail)|Information that specifies whether a queue is to ignore unsolicited email (deprecated).|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[isFaxQueue](#isFaxQueue)|Indication of whether a queue is the fax delivery queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[emailPassword](#emailPassword)|This attribute is no longer used. The data is now in the Mailbox.Password attribute.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[incomingEmailDeliveryMethod](#incomingEmailDeliveryMethod)|Incoming email delivery method for the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[incomingEmailDeliveryMethod_display](#incomingEmailDeliveryMethod_display)||<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[emailUsername](#emailUsername)|This attribute is no longer used. The data is now in the Mailbox.UserName attribute.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[outgoingEmailDeliveryMethod](#outgoingEmailDeliveryMethod)|Outgoing email delivery method for the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[outgoingEmailDeliveryMethod_display](#outgoingEmailDeliveryMethod_display)||<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[allowEmailCredentials](#allowEmailCredentials)|This attribute is no longer used. The data is now in the Mailbox.AllowEmailConnectorToUseCredentials attribute.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[incomingEmailFilteringMethod](#incomingEmailFilteringMethod)|Convert Incoming Email To Activities|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[incomingEmailFilteringMethod_display](#incomingEmailFilteringMethod_display)||<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[statusCode](#statusCode)|Reason for the status of the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[statusCode_display](#statusCode_display)||<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[stateCode](#stateCode)|Status of the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[stateCode_display](#stateCode_display)||<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[numberOfItems](#numberOfItems)|Number of Queue items associated with the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[numberOfMembers](#numberOfMembers)|Number of Members associated with the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[owningTeam](#owningTeam)|Unique identifier of the team who owns the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the queue with respect to the base currency.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[emailRouterAccessApproval](#emailRouterAccessApproval)|Shows the status of the primary email address.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[emailRouterAccessApproval_display](#emailRouterAccessApproval_display)||<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[defaultMailbox](#defaultMailbox)|Select the mailbox associated with this queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[isEmailAddressApprovedByO365Admin](#isEmailAddressApprovedByO365Admin)|Shows the status of approval of the email address by O365 Admin.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[queueViewType](#queueViewType)|Select whether the queue is public or private. A public queue can be viewed by all. A private queue can be viewed only by the members added to the queue.|<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
+|[queueViewType_display](#queueViewType_display)||<a href="Queue.md" target="_blank">applicationCommon/Queue</a>|
 
 ### <a href=#queueId name="queueId">queueId</a>
 

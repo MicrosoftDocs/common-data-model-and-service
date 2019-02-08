@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Opportunity Relationship
 
 Relationship between an account or contact and an opportunity.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityRelationship.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,36 +43,37 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/OpportunityRelationship  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[customerOpportunityRoleId](#customerOpportunityRoleId)|Unique identifier of the opportunity relationship.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[description](#description)|Type additional information to describe the opportunity relationship, such as the length or quality of the relationship.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[opportunityId](#opportunityId)|Choose the opportunity that the specified account or contact is related to. The opportunity relationship will be displayed in the Relationships view on the selected opportunity.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[opportunityRoleId](#opportunityRoleId)|Choose the role or nature of the relationship that the customer has with the opportunity. The field is read-only until a customer has been selected. Administrators can configure role values under Business Management in the Settings area.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[opportunityStateCode](#opportunityStateCode)|Status of the opportunity.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
-|[opportunityStatusCode](#opportunityStatusCode)|Reason for the status of the opportunity.|[sales/OpportunityRelationship](OpportunityRelationship.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[customerOpportunityRoleId](#customerOpportunityRoleId)|Unique identifier of the opportunity relationship.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[description](#description)|Type additional information to describe the opportunity relationship, such as the length or quality of the relationship.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[opportunityId](#opportunityId)|Choose the opportunity that the specified account or contact is related to. The opportunity relationship will be displayed in the Relationships view on the selected opportunity.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[opportunityRoleId](#opportunityRoleId)|Choose the role or nature of the relationship that the customer has with the opportunity. The field is read-only until a customer has been selected. Administrators can configure role values under Business Management in the Settings area.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[opportunityStateCode](#opportunityStateCode)|Status of the opportunity.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
+|[opportunityStatusCode](#opportunityStatusCode)|Reason for the status of the opportunity.|<a href="OpportunityRelationship.md" target="_blank">sales/OpportunityRelationship</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

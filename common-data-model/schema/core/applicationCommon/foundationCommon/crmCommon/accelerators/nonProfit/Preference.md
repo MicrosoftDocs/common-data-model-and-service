@@ -13,7 +13,7 @@ ms.author: tpalmer
 Typically tracks an abundance of constituent or organization information that doesn't live cleanly on an account or contact record, or that can be associated with both an Account and a Contact.  Examples:  personal interests, additional communication preferences like desire to receive a newsletter, specific outreach the constituent wants, and additional affiliation information like Constituent Type associations and ratings.
 
 Preferences also typically store demographic information in a series of dependent picklists: Category, Subcategory, Type, Subtype. Most commonly, only two or three of the fields in this dependent hierarchy will be used.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Preference.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -50,45 +50,46 @@ Preferences also typically store demographic information in a series of dependen
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Preference  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Preference](Preference.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Preference](Preference.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Preference](Preference.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Preference](Preference.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Preference](Preference.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Preference](Preference.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Preference](Preference.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Preference](Preference.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Preference](Preference.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Preference](Preference.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Preference](Preference.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Preference](Preference.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Preference](Preference.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Preference](Preference.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Preference](Preference.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Preference](Preference.md)|
-|[preferenceId](#preferenceId)|Unique identifier for entity instances|[nonProfit/Preference](Preference.md)|
-|[stateCode](#stateCode)|Status of the Preference|[nonProfit/Preference](Preference.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Preference](Preference.md)|
-|[statusCode](#statusCode)|Reason for the status of the Preference|[nonProfit/Preference](Preference.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Preference](Preference.md)|
-|[name](#name)||[nonProfit/Preference](Preference.md)|
-|[confidence](#confidence)|Specifies the confidence that the Preference is accurate.|[nonProfit/Preference](Preference.md)|
-|[confidence_display](#confidence_display)||[nonProfit/Preference](Preference.md)|
-|[endDate](#endDate)|Indicates the date this preference ends and ceases to be valid.|[nonProfit/Preference](Preference.md)|
-|[key](#key)|The referenced Preference Key to which this record attaches a value or "true"|[nonProfit/Preference](Preference.md)|
-|[key_display](#key_display)||[nonProfit/Preference](Preference.md)|
-|[accountOrContact](#accountOrContact)||[nonProfit/Preference](Preference.md)|
-|[preferenceOpportunityId](#preferenceOpportunityId)|Opportunity|[nonProfit/Preference](Preference.md)|
-|[priority](#priority)|A numeric priority that may be used to disambiguate multiple preference values expressed for the same key, which may have differing effective dates.|[nonProfit/Preference](Preference.md)|
-|[startDate](#startDate)|Indicates the date this preference begins.|[nonProfit/Preference](Preference.md)|
-|[value](#value)|The user-entered value that may be attached to the referenced key. If none is present, default interpretation is "true"|[nonProfit/Preference](Preference.md)|
-|[weight](#weight)|Holds an integral value that may be incremented as the preference is re-expressed or emphasized by the Customer|[nonProfit/Preference](Preference.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[preferenceId](#preferenceId)|Unique identifier for entity instances|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[stateCode](#stateCode)|Status of the Preference|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[stateCode_display](#stateCode_display)||<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[statusCode](#statusCode)|Reason for the status of the Preference|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[statusCode_display](#statusCode_display)||<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[name](#name)||<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[confidence](#confidence)|Specifies the confidence that the Preference is accurate.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[confidence_display](#confidence_display)||<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[endDate](#endDate)|Indicates the date this preference ends and ceases to be valid.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[key](#key)|The referenced Preference Key to which this record attaches a value or "true"|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[key_display](#key_display)||<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[accountOrContact](#accountOrContact)||<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[preferenceOpportunityId](#preferenceOpportunityId)|Opportunity|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[priority](#priority)|A numeric priority that may be used to disambiguate multiple preference values expressed for the same key, which may have differing effective dates.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[startDate](#startDate)|Indicates the date this preference begins.|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[value](#value)|The user-entered value that may be attached to the referenced key. If none is present, default interpretation is "true"|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
+|[weight](#weight)|Holds an integral value that may be incremented as the preference is re-expressed or emphasized by the Customer|<a href="Preference.md" target="_blank">nonProfit/Preference</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

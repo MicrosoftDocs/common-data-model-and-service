@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Competitor
 
 Business competing for the sale represented by a lead or opportunity.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Competitor.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,96 +43,97 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/Competitor  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[competitorId](#competitorId)|Unique identifier of the competitor.|[sales/Competitor](Competitor.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/Competitor](Competitor.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/Competitor](Competitor.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/Competitor](Competitor.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/Competitor](Competitor.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/Competitor](Competitor.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/Competitor](Competitor.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[sales/Competitor](Competitor.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/Competitor](Competitor.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/Competitor](Competitor.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/Competitor](Competitor.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/Competitor](Competitor.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/Competitor](Competitor.md)|
-|[name](#name)|Type the company or business name used to identify the competitor in data views and related records.|[sales/Competitor](Competitor.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[sales/Competitor](Competitor.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[sales/Competitor](Competitor.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[sales/Competitor](Competitor.md)|
-|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|[sales/Competitor](Competitor.md)|
-|[address1AddressTypeCode](#address1AddressTypeCode)|Select the primary address type.|[sales/Competitor](Competitor.md)|
-|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||[sales/Competitor](Competitor.md)|
-|[address1City](#address1City)|Type the city for the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Country](#address1Country)|Type the country or region for the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Composite](#address1Composite)|Shows the complete primary address.|[sales/Competitor](Competitor.md)|
-|[address1County](#address1County)|Type the county for the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Fax](#address1Fax)|Type the fax number associated with the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Latitude](#address1Latitude)|Type the latitude value for the primary address for use in mapping and other applications.|[sales/Competitor](Competitor.md)|
-|[address1Line1](#address1Line1)|Type the first line of the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Line2](#address1Line2)|Type the second line of the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Line3](#address1Line3)|Type the third line of the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Longitude](#address1Longitude)|Type the longitude value for the primary address for use in mapping and other applications.|[sales/Competitor](Competitor.md)|
-|[address1Name](#address1Name)|Type a descriptive name for the primary address, such as Corporate Headquarters.|[sales/Competitor](Competitor.md)|
-|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the primary address.|[sales/Competitor](Competitor.md)|
-|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the primary address.|[sales/Competitor](Competitor.md)|
-|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|[sales/Competitor](Competitor.md)|
-|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||[sales/Competitor](Competitor.md)|
-|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Telephone1](#address1Telephone1)|Type the main phone number associated with the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Telephone2](#address1Telephone2)|Type a second phone number associated with the primary address.|[sales/Competitor](Competitor.md)|
-|[address1Telephone3](#address1Telephone3)|Type a third phone number associated with the primary address.|[sales/Competitor](Competitor.md)|
-|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|[sales/Competitor](Competitor.md)|
-|[address1UTCOffset](#address1UTCOffset)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|[sales/Competitor](Competitor.md)|
-|[address2AddressId](#address2AddressId)|Unique identifier for address 2.|[sales/Competitor](Competitor.md)|
-|[address2AddressTypeCode](#address2AddressTypeCode)|Select the secondary address type.|[sales/Competitor](Competitor.md)|
-|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||[sales/Competitor](Competitor.md)|
-|[address2City](#address2City)|Type the city for the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Composite](#address2Composite)|Shows the complete secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Country](#address2Country)|Type the country or region for the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2County](#address2County)|Type the county for the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Fax](#address2Fax)|Type the fax number associated with the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Latitude](#address2Latitude)|Type the latitude value for the secondary address for use in mapping and other applications.|[sales/Competitor](Competitor.md)|
-|[address2Line1](#address2Line1)|Type the first line of the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Line2](#address2Line2)|Type the second line of the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Line3](#address2Line3)|Type the third line of the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Longitude](#address2Longitude)|Type the longitude value for the secondary address for use in mapping and other applications.|[sales/Competitor](Competitor.md)|
-|[address2Name](#address2Name)|Type a descriptive name for the secondary address, such as Corporate Headquarters.|[sales/Competitor](Competitor.md)|
-|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|[sales/Competitor](Competitor.md)|
-|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||[sales/Competitor](Competitor.md)|
-|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Telephone1](#address2Telephone1)|Type the main phone number associated with the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Telephone2](#address2Telephone2)|Type a second phone number associated with the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2Telephone3](#address2Telephone3)|Type a third phone number associated with the secondary address.|[sales/Competitor](Competitor.md)|
-|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly , if shipped by UPS.|[sales/Competitor](Competitor.md)|
-|[address2UTCOffset](#address2UTCOffset)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|[sales/Competitor](Competitor.md)|
-|[keyProduct](#keyProduct)|Type the competitor's primary product, service, or specialty.|[sales/Competitor](Competitor.md)|
-|[opportunities](#opportunities)|Type notes or other information about the competitive opportunities or selling points you can make.|[sales/Competitor](Competitor.md)|
-|[overview](#overview)|Type notes or other information about the competitor's business, such as location, revenue, or distribution channel.|[sales/Competitor](Competitor.md)|
-|[referenceInfoUrl](#referenceInfoUrl)|Type the URL for the website used to obtain reference information about the competitor.|[sales/Competitor](Competitor.md)|
-|[reportedRevenue](#reportedRevenue)|Type the amount of revenue reported in the competitor's annual report or other source.|[sales/Competitor](Competitor.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/Competitor](Competitor.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/Competitor](Competitor.md)|
-|[reportedRevenueBase](#reportedRevenueBase)|Value of the Reported Revenue in base currency.|[sales/Competitor](Competitor.md)|
-|[reportingQuarter](#reportingQuarter)|Type the quarter number during which the competitor's reported revenue was recorded or announced for use in reporting and analysis.|[sales/Competitor](Competitor.md)|
-|[reportingYear](#reportingYear)|Type the fiscal year during which the competitor's reported revenue was announced for use in reporting and analysis.|[sales/Competitor](Competitor.md)|
-|[stockExchange](#stockExchange)|Type the stock exchange at which the competitor is listed to track their stock and financial performance of the company.|[sales/Competitor](Competitor.md)|
-|[strengths](#strengths)|Type notes or other information about the competitor's strengths, such as top-selling products and targeted industries or markets.|[sales/Competitor](Competitor.md)|
-|[threats](#threats)|Type notes or other information about the competitor's threats to your organization when you sell to the same prospect or customer.|[sales/Competitor](Competitor.md)|
-|[tickerSymbol](#tickerSymbol)|Type the stock exchange symbol for the competitor to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.|[sales/Competitor](Competitor.md)|
-|[weaknesses](#weaknesses)|Type notes or other information about the competitor's weaknesses or areas in which your organization outperforms the competitor.|[sales/Competitor](Competitor.md)|
-|[webSiteUrl](#webSiteUrl)|Type the website URL for the competitor.|[sales/Competitor](Competitor.md)|
-|[winPercentage](#winPercentage)|Type the percentage of your organization's lost opportunities that are won by the competitor to identify your strongest competitors.|[sales/Competitor](Competitor.md)|
-|[entityImageId](#entityImageId)||[sales/Competitor](Competitor.md)|
-|[yomiName](#yomiName)|Type the phonetic spelling of the competitor's name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|[sales/Competitor](Competitor.md)|
+|[competitorId](#competitorId)|Unique identifier of the competitor.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[name](#name)|Type the company or business name used to identify the competitor in data views and related records.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1AddressTypeCode](#address1AddressTypeCode)|Select the primary address type.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1City](#address1City)|Type the city for the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Country](#address1Country)|Type the country or region for the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Composite](#address1Composite)|Shows the complete primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1County](#address1County)|Type the county for the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Fax](#address1Fax)|Type the fax number associated with the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Latitude](#address1Latitude)|Type the latitude value for the primary address for use in mapping and other applications.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Line1](#address1Line1)|Type the first line of the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Line2](#address1Line2)|Type the second line of the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Line3](#address1Line3)|Type the third line of the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Longitude](#address1Longitude)|Type the longitude value for the primary address for use in mapping and other applications.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Name](#address1Name)|Type a descriptive name for the primary address, such as Corporate Headquarters.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Telephone1](#address1Telephone1)|Type the main phone number associated with the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Telephone2](#address1Telephone2)|Type a second phone number associated with the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1Telephone3](#address1Telephone3)|Type a third phone number associated with the primary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address1UTCOffset](#address1UTCOffset)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2AddressId](#address2AddressId)|Unique identifier for address 2.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2AddressTypeCode](#address2AddressTypeCode)|Select the secondary address type.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2City](#address2City)|Type the city for the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Composite](#address2Composite)|Shows the complete secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Country](#address2Country)|Type the country or region for the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2County](#address2County)|Type the county for the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Fax](#address2Fax)|Type the fax number associated with the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Latitude](#address2Latitude)|Type the latitude value for the secondary address for use in mapping and other applications.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Line1](#address2Line1)|Type the first line of the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Line2](#address2Line2)|Type the second line of the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Line3](#address2Line3)|Type the third line of the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Longitude](#address2Longitude)|Type the longitude value for the secondary address for use in mapping and other applications.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Name](#address2Name)|Type a descriptive name for the secondary address, such as Corporate Headquarters.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Telephone1](#address2Telephone1)|Type the main phone number associated with the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Telephone2](#address2Telephone2)|Type a second phone number associated with the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2Telephone3](#address2Telephone3)|Type a third phone number associated with the secondary address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly , if shipped by UPS.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[address2UTCOffset](#address2UTCOffset)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[keyProduct](#keyProduct)|Type the competitor's primary product, service, or specialty.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[opportunities](#opportunities)|Type notes or other information about the competitive opportunities or selling points you can make.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[overview](#overview)|Type notes or other information about the competitor's business, such as location, revenue, or distribution channel.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[referenceInfoUrl](#referenceInfoUrl)|Type the URL for the website used to obtain reference information about the competitor.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[reportedRevenue](#reportedRevenue)|Type the amount of revenue reported in the competitor's annual report or other source.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[reportedRevenueBase](#reportedRevenueBase)|Value of the Reported Revenue in base currency.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[reportingQuarter](#reportingQuarter)|Type the quarter number during which the competitor's reported revenue was recorded or announced for use in reporting and analysis.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[reportingYear](#reportingYear)|Type the fiscal year during which the competitor's reported revenue was announced for use in reporting and analysis.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[stockExchange](#stockExchange)|Type the stock exchange at which the competitor is listed to track their stock and financial performance of the company.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[strengths](#strengths)|Type notes or other information about the competitor's strengths, such as top-selling products and targeted industries or markets.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[threats](#threats)|Type notes or other information about the competitor's threats to your organization when you sell to the same prospect or customer.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[tickerSymbol](#tickerSymbol)|Type the stock exchange symbol for the competitor to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[weaknesses](#weaknesses)|Type notes or other information about the competitor's weaknesses or areas in which your organization outperforms the competitor.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[webSiteUrl](#webSiteUrl)|Type the website URL for the competitor.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[winPercentage](#winPercentage)|Type the percentage of your organization's lost opportunities that are won by the competitor to identify your strongest competitors.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[entityImageId](#entityImageId)||<a href="Competitor.md" target="_blank">sales/Competitor</a>|
+|[yomiName](#yomiName)|Type the phonetic spelling of the competitor's name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|<a href="Competitor.md" target="_blank">sales/Competitor</a>|
 
 ### <a href=#competitorId name="competitorId">competitorId</a>
 

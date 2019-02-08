@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Pass
 
 Information about passes.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Pass.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,47 +46,48 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Pass  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Pass](Pass.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Pass](Pass.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Pass](Pass.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Pass](Pass.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Pass](Pass.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Pass](Pass.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Pass](Pass.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Pass](Pass.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Pass](Pass.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Pass](Pass.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Pass](Pass.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Pass](Pass.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Pass](Pass.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Pass](Pass.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Pass](Pass.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Pass](Pass.md)|
-|[passId](#passId)|Unique identifier for entity instances|[eventManagement/Pass](Pass.md)|
-|[stateCode](#stateCode)|Status of the Pass|[eventManagement/Pass](Pass.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Pass](Pass.md)|
-|[statusCode](#statusCode)|Reason for the status of the Pass|[eventManagement/Pass](Pass.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Pass](Pass.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/Pass](Pass.md)|
-|[costPerUnit](#costPerUnit)||[eventManagement/Pass](Pass.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/Pass](Pass.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/Pass](Pass.md)|
-|[costPerUnitBase](#costPerUnitBase)|Value of the Cost per unit in base currency.|[eventManagement/Pass](Pass.md)|
-|[eventId](#eventId)|Unique identifier for Event associated with Pass.|[eventManagement/Pass](Pass.md)|
-|[noOfPassesAllocated](#noOfPassesAllocated)|Number of passes allocated.|[eventManagement/Pass](Pass.md)|
-|[noOfPassesSold](#noOfPassesSold)|Number of passes sold.|[eventManagement/Pass](Pass.md)|
-|[passPrice](#passPrice)||[eventManagement/Pass](Pass.md)|
-|[passPriceBase](#passPriceBase)|Value of the Pass Price in base currency.|[eventManagement/Pass](Pass.md)|
-|[track](#track)|All Active  records|[eventManagement/Pass](Pass.md)|
-|[noOfPassesLeft](#noOfPassesLeft)|Number of passes left.|[eventManagement/Pass](Pass.md)|
-|[totalCost](#totalCost)||[eventManagement/Pass](Pass.md)|
-|[totalcostBase](#totalcostBase)|Value of the Total cost in base currency.|[eventManagement/Pass](Pass.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[passId](#passId)|Unique identifier for entity instances|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[stateCode](#stateCode)|Status of the Pass|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[stateCode_display](#stateCode_display)||<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[statusCode](#statusCode)|Reason for the status of the Pass|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[statusCode_display](#statusCode_display)||<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[name](#name)|The name of the custom entity.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[costPerUnit](#costPerUnit)||<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[costPerUnitBase](#costPerUnitBase)|Value of the Cost per unit in base currency.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[eventId](#eventId)|Unique identifier for Event associated with Pass.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[noOfPassesAllocated](#noOfPassesAllocated)|Number of passes allocated.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[noOfPassesSold](#noOfPassesSold)|Number of passes sold.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[passPrice](#passPrice)||<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[passPriceBase](#passPriceBase)|Value of the Pass Price in base currency.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[track](#track)|All Active  records|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[noOfPassesLeft](#noOfPassesLeft)|Number of passes left.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[totalCost](#totalCost)||<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
+|[totalcostBase](#totalcostBase)|Value of the Total cost in base currency.|<a href="Pass.md" target="_blank">eventManagement/Pass</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # List Form
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/ListForm.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,36 +42,37 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 marketing/ListForm  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[marketing/ListForm](ListForm.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[marketing/ListForm](ListForm.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[marketing/ListForm](ListForm.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[marketing/ListForm](ListForm.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[marketing/ListForm](ListForm.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[marketing/ListForm](ListForm.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[marketing/ListForm](ListForm.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[marketing/ListForm](ListForm.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[marketing/ListForm](ListForm.md)|
-|[ownerId](#ownerId)|Owner Id|[marketing/ListForm](ListForm.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[marketing/ListForm](ListForm.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[marketing/ListForm](ListForm.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[marketing/ListForm](ListForm.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[marketing/ListForm](ListForm.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[marketing/ListForm](ListForm.md)|
-|[versionNumber](#versionNumber)|Version Number|[marketing/ListForm](ListForm.md)|
-|[listformId](#listformId)|Unique ID for entity instances|[marketing/ListForm](ListForm.md)|
-|[stateCode](#stateCode)|Status of the list form|[marketing/ListForm](ListForm.md)|
-|[stateCode_display](#stateCode_display)||[marketing/ListForm](ListForm.md)|
-|[statusCode](#statusCode)|Reason for the status of the list form|[marketing/ListForm](ListForm.md)|
-|[statusCode_display](#statusCode_display)||[marketing/ListForm](ListForm.md)|
-|[name](#name)|The name of the custom entity.|[marketing/ListForm](ListForm.md)|
-|[formId](#formId)|Unique ID for the marketing form associated with the list form|[marketing/ListForm](ListForm.md)|
-|[listid](#listid)|Unique ID for Marketing List associated with List Form|[marketing/ListForm](ListForm.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[listformId](#listformId)|Unique ID for entity instances|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[stateCode](#stateCode)|Status of the list form|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[stateCode_display](#stateCode_display)||<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[statusCode](#statusCode)|Reason for the status of the list form|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[statusCode_display](#statusCode_display)||<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[name](#name)|The name of the custom entity.|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[formId](#formId)|Unique ID for the marketing form associated with the list form|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
+|[listid](#listid)|Unique ID for Marketing List associated with List Form|<a href="ListForm.md" target="_blank">marketing/ListForm</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

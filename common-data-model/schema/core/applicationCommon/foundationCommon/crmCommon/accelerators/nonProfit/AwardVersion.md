@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Award Version
 
 A point in time snapshot of the attributes of an Award.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/AwardVersion.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,46 +46,47 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/AwardVersion  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/AwardVersion](AwardVersion.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/AwardVersion](AwardVersion.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/AwardVersion](AwardVersion.md)|
-|[awardVersionId](#awardVersionId)|Unique identifier for entity instances|[nonProfit/AwardVersion](AwardVersion.md)|
-|[stateCode](#stateCode)|Status of the Award Version|[nonProfit/AwardVersion](AwardVersion.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/AwardVersion](AwardVersion.md)|
-|[statusCode](#statusCode)|Reason for the status of the Award Version|[nonProfit/AwardVersion](AwardVersion.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/AwardVersion](AwardVersion.md)|
-|[name](#name)|The name of the custom entity.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[awardDate](#awardDate)|Date award was made.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[awardEndDate](#awardEndDate)|Date Award related Activities end.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[awardId](#awardId)|Award|[nonProfit/AwardVersion](AwardVersion.md)|
-|[awardStartDate](#awardStartDate)|Date Award related Activities begin. Award may be won in June but related activities do not begin until July.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[description](#description)||[nonProfit/AwardVersion](AwardVersion.md)|
-|[enrollmentStartDate](#enrollmentStartDate)|Manually populated field on a Award record indicating when an Awardee may enroll in Award Activity.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[performanceMeasuresSummary](#performanceMeasuresSummary)|Brief overview of performance measures as set by Awarder in contract agreement|[nonProfit/AwardVersion](AwardVersion.md)|
-|[primaryContactId](#primaryContactId)|Brief overview of performance measures as set by Awarder in contract agreement|[nonProfit/AwardVersion](AwardVersion.md)|
-|[reportingSchedule](#reportingSchedule)|Manually populated,indicates the frequency that Award reports are scheduled to be disbursed as agreed in donor contract. These can include financial statements, narrative assessments, Impact reports,|[nonProfit/AwardVersion](AwardVersion.md)|
-|[status](#status)|Status of the Report.|[nonProfit/AwardVersion](AwardVersion.md)|
-|[status_display](#status_display)||[nonProfit/AwardVersion](AwardVersion.md)|
-|[submittedById](#submittedById)|Submitted By|[nonProfit/AwardVersion](AwardVersion.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[awardVersionId](#awardVersionId)|Unique identifier for entity instances|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[stateCode](#stateCode)|Status of the Award Version|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[stateCode_display](#stateCode_display)||<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[statusCode](#statusCode)|Reason for the status of the Award Version|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[statusCode_display](#statusCode_display)||<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[name](#name)|The name of the custom entity.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[awardDate](#awardDate)|Date award was made.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[awardEndDate](#awardEndDate)|Date Award related Activities end.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[awardId](#awardId)|Award|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[awardStartDate](#awardStartDate)|Date Award related Activities begin. Award may be won in June but related activities do not begin until July.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[description](#description)||<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[enrollmentStartDate](#enrollmentStartDate)|Manually populated field on a Award record indicating when an Awardee may enroll in Award Activity.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[performanceMeasuresSummary](#performanceMeasuresSummary)|Brief overview of performance measures as set by Awarder in contract agreement|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[primaryContactId](#primaryContactId)|Brief overview of performance measures as set by Awarder in contract agreement|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[reportingSchedule](#reportingSchedule)|Manually populated,indicates the frequency that Award reports are scheduled to be disbursed as agreed in donor contract. These can include financial statements, narrative assessments, Impact reports,|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[status](#status)|Status of the Report.|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[status_display](#status_display)||<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
+|[submittedById](#submittedById)|Submitted By|<a href="AwardVersion.md" target="_blank">nonProfit/AwardVersion</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

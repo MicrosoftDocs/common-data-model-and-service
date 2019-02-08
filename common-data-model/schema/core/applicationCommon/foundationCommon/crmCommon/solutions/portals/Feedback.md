@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Feedback
 
 Container for feedback and ratings for knowledge articles.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Feedback.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/Feedback](../../../../Feedback.md "/core/applicationCommon/Feedback.cdm.json/Feedback")  
 portals/Feedback  
 
@@ -53,45 +54,45 @@ portals/Feedback
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[feedbackId](#feedbackId)|FeedbackId|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[rating](#rating)|Specifies how helpful the related record was.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[minRating](#minRating)|Enter the minimum rating value.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[maxRating](#maxRating)|Enter the maximum rating value.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[normalizedRating](#normalizedRating)|Shows the rating scaled to a value between 0 and 1 based on minimum and maximum ratings.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[comments](#comments)|Type the feedback comments.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[source](#source)|Shows where the feedback was submitted from.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[source_display](#source_display)||[applicationCommon/Feedback](../../../../Feedback.md)|
-|[stateCode](#stateCode)|Shows whether the feedback is open, rejected or closed.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Feedback](../../../../Feedback.md)|
-|[statusCode](#statusCode)|Select the feedback's status.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Feedback](../../../../Feedback.md)|
-|[versionNumber](#versionNumber)|Version number of the feedback.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[regardingObjectId](#regardingObjectId)|Shows the record that the feedback is associated with.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the knowledge article views.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns this feedback.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[owningTeam](#owningTeam)|Unique identifier of the team that owns the feedback.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[closedBy](#closedBy)|Shows who closed the record.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[closedOn](#closedOn)|Shows the date and time when the record was closed. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[title](#title)|Type a title for the feedback.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[createdByContact](#createdByContact)|Shows the contact who created the record.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[createdOnBehalfByContact](#createdOnBehalfByContact)|Shows the contact who created the record on behalf of another user.|[applicationCommon/Feedback](../../../../Feedback.md)|
-|[publishedToWeb](#publishedToWeb)|Shows whether the feedback is approved for display.|[portals/Feedback](Feedback.md)|
-|[authorURL](#authorURL)|The URL of the author’s home page/blog.|[portals/Feedback](Feedback.md)|
-|[adxContactEmail](#adxContactEmail)|Email of the contact who created the record.|[portals/Feedback](Feedback.md)|
-|[adxContactUsername](#adxContactUsername)|Username of the contact who created the record.|[portals/Feedback](Feedback.md)|
-|[adxCreatedByContact](#adxCreatedByContact)|Name of the contact who created the record.|[portals/Feedback](Feedback.md)|
+|[feedbackId](#feedbackId)|FeedbackId|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[rating](#rating)|Specifies how helpful the related record was.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[minRating](#minRating)|Enter the minimum rating value.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[maxRating](#maxRating)|Enter the maximum rating value.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[normalizedRating](#normalizedRating)|Shows the rating scaled to a value between 0 and 1 based on minimum and maximum ratings.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[comments](#comments)|Type the feedback comments.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[source](#source)|Shows where the feedback was submitted from.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[source_display](#source_display)||<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[stateCode](#stateCode)|Shows whether the feedback is open, rejected or closed.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[statusCode](#statusCode)|Select the feedback's status.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[versionNumber](#versionNumber)|Version number of the feedback.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[regardingObjectId](#regardingObjectId)|Shows the record that the feedback is associated with.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the knowledge article views.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns this feedback.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[owningTeam](#owningTeam)|Unique identifier of the team that owns the feedback.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[closedBy](#closedBy)|Shows who closed the record.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[closedOn](#closedOn)|Shows the date and time when the record was closed. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[title](#title)|Type a title for the feedback.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[createdByContact](#createdByContact)|Shows the contact who created the record.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[createdOnBehalfByContact](#createdOnBehalfByContact)|Shows the contact who created the record on behalf of another user.|<a href="../../../../Feedback.md" target="_blank">applicationCommon/Feedback</a>|
+|[publishedToWeb](#publishedToWeb)|Shows whether the feedback is approved for display.|<a href="Feedback.md" target="_blank">portals/Feedback</a>|
+|[authorURL](#authorURL)|The URL of the author’s home page/blog.|<a href="Feedback.md" target="_blank">portals/Feedback</a>|
+|[adxContactEmail](#adxContactEmail)|Email of the contact who created the record.|<a href="Feedback.md" target="_blank">portals/Feedback</a>|
+|[adxContactUsername](#adxContactUsername)|Username of the contact who created the record.|<a href="Feedback.md" target="_blank">portals/Feedback</a>|
+|[adxCreatedByContact](#adxCreatedByContact)|Name of the contact who created the record.|<a href="Feedback.md" target="_blank">portals/Feedback</a>|
 
 ### <a href=#feedbackId name="feedbackId">feedbackId</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Speaker Engagement
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SpeakerEngagement.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,42 +42,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/SpeakerEngagement  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[speakerEngagementId](#speakerEngagementId)|Unique identifier for entity instances|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[stateCode](#stateCode)|Status of the Speaker Engagement|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[statusCode](#statusCode)|Reason for the status of the Speaker Engagement|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[entityImageId](#entityImageId)||[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[event](#event)|Unique identifier for Event associated with Speaker Engagement.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[session](#session)||[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[speaker](#speaker)||[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[speakercost](#speakercost)||[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
-|[speakercostBase](#speakercostBase)|Value of the Speaker cost in base currency.|[eventManagement/SpeakerEngagement](SpeakerEngagement.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[speakerEngagementId](#speakerEngagementId)|Unique identifier for entity instances|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[stateCode](#stateCode)|Status of the Speaker Engagement|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[stateCode_display](#stateCode_display)||<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[statusCode](#statusCode)|Reason for the status of the Speaker Engagement|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[statusCode_display](#statusCode_display)||<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[name](#name)|The name of the custom entity.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[entityImageId](#entityImageId)||<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[event](#event)|Unique identifier for Event associated with Speaker Engagement.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[session](#session)||<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[speaker](#speaker)||<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[speakercost](#speakercost)||<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
+|[speakercostBase](#speakercostBase)|Value of the Speaker cost in base currency.|<a href="SpeakerEngagement.md" target="_blank">eventManagement/SpeakerEngagement</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

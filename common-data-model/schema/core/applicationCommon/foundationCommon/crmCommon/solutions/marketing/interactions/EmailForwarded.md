@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email forwarded
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailForwarded.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,43 +33,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailForwarded  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailForwarded](EmailForwarded.md)|
-|[messageId](#messageId)|Message|[interactions/EmailForwarded](EmailForwarded.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailForwarded](EmailForwarded.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailForwarded](EmailForwarded.md)|
-|[accountId](#accountId)|Account|[interactions/EmailForwarded](EmailForwarded.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailForwarded](EmailForwarded.md)|
-|[emailDomain](#emailDomain)|Email domain|[interactions/EmailForwarded](EmailForwarded.md)|
-|[emailAddressUsed](#emailAddressUsed)|Email address used|[interactions/EmailForwarded](EmailForwarded.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailForwarded](EmailForwarded.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailForwarded](EmailForwarded.md)|
-|[secondaryRecipientProfileId](#secondaryRecipientProfileId)|Secondary recipient profile ID|[interactions/EmailForwarded](EmailForwarded.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailForwarded](EmailForwarded.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailForwarded](EmailForwarded.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailForwarded](EmailForwarded.md)|
-|[visitorId](#visitorId)|Visitor ID|[interactions/EmailForwarded](EmailForwarded.md)|
-|[sessionId](#sessionId)|Session ID|[interactions/EmailForwarded](EmailForwarded.md)|
-|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/EmailForwarded](EmailForwarded.md)|
-|[state](#state)|State|[interactions/EmailForwarded](EmailForwarded.md)|
-|[city](#city)|City|[interactions/EmailForwarded](EmailForwarded.md)|
-|[postalCode](#postalCode)|Postal code|[interactions/EmailForwarded](EmailForwarded.md)|
-|[browserId](#browserId)|Browser ID|[interactions/EmailForwarded](EmailForwarded.md)|
-|[browserVersion](#browserVersion)|Browser version|[interactions/EmailForwarded](EmailForwarded.md)|
-|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/EmailForwarded](EmailForwarded.md)|
-|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/EmailForwarded](EmailForwarded.md)|
-|[searchPhrase](#searchPhrase)|Search phrase|[interactions/EmailForwarded](EmailForwarded.md)|
-|[searchEngineName](#searchEngineName)|Search engine name|[interactions/EmailForwarded](EmailForwarded.md)|
-|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|[interactions/EmailForwarded](EmailForwarded.md)|
-|[visitDuration](#visitDuration)|Visit duration|[interactions/EmailForwarded](EmailForwarded.md)|
-|[formSubmissionId](#formSubmissionId)|Form submission ID|[interactions/EmailForwarded](EmailForwarded.md)|
-|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/EmailForwarded](EmailForwarded.md)|
-|[leadId](#leadId)|Lead ID|[interactions/EmailForwarded](EmailForwarded.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[messageId](#messageId)|Message|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[contactId](#contactId)|Contact|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[accountId](#accountId)|Account|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[emailDomain](#emailDomain)|Email domain|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[emailAddressUsed](#emailAddressUsed)|Email address used|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[secondaryRecipientProfileId](#secondaryRecipientProfileId)|Secondary recipient profile ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[visitorId](#visitorId)|Visitor ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[sessionId](#sessionId)|Session ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[state](#state)|State|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[city](#city)|City|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[postalCode](#postalCode)|Postal code|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[browserId](#browserId)|Browser ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[browserVersion](#browserVersion)|Browser version|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[searchPhrase](#searchPhrase)|Search phrase|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[searchEngineName](#searchEngineName)|Search engine name|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[visitDuration](#visitDuration)|Visit duration|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[formSubmissionId](#formSubmissionId)|Form submission ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
+|[leadId](#leadId)|Lead ID|<a href="EmailForwarded.md" target="_blank">interactions/EmailForwarded</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

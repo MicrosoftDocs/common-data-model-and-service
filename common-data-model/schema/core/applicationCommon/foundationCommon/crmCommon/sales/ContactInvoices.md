@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # ContactInvoices
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/ContactInvoices.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/ContactInvoices  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[contactInvoiceId](#contactInvoiceId)|Unique identifier of the invoices for the contact.|[sales/ContactInvoices](ContactInvoices.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/ContactInvoices](ContactInvoices.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/ContactInvoices](ContactInvoices.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/ContactInvoices](ContactInvoices.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/ContactInvoices](ContactInvoices.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/ContactInvoices](ContactInvoices.md)|
-|[name](#name)|name|[sales/ContactInvoices](ContactInvoices.md)|
-|[contactId](#contactId)||[sales/ContactInvoices](ContactInvoices.md)|
-|[invoiceId](#invoiceId)||[sales/ContactInvoices](ContactInvoices.md)|
+|[contactInvoiceId](#contactInvoiceId)|Unique identifier of the invoices for the contact.|<a href="ContactInvoices.md" target="_blank">sales/ContactInvoices</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ContactInvoices.md" target="_blank">sales/ContactInvoices</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ContactInvoices.md" target="_blank">sales/ContactInvoices</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ContactInvoices.md" target="_blank">sales/ContactInvoices</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ContactInvoices.md" target="_blank">sales/ContactInvoices</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ContactInvoices.md" target="_blank">sales/ContactInvoices</a>|
+|[name](#name)|name|<a href="ContactInvoices.md" target="_blank">sales/ContactInvoices</a>|
+|[contactId](#contactId)||<a href="ContactInvoices.md" target="_blank">sales/ContactInvoices</a>|
+|[invoiceId](#invoiceId)||<a href="ContactInvoices.md" target="_blank">sales/ContactInvoices</a>|
 
 ### <a href=#contactInvoiceId name="contactInvoiceId">contactInvoiceId</a>
 

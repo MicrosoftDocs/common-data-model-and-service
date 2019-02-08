@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Sponsorship
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Sponsorship.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,46 +42,47 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Sponsorship  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Sponsorship](Sponsorship.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Sponsorship](Sponsorship.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Sponsorship](Sponsorship.md)|
-|[sponsorshipId](#sponsorshipId)|Unique identifier for entity instances|[eventManagement/Sponsorship](Sponsorship.md)|
-|[stateCode](#stateCode)|Status of the Sponsorship|[eventManagement/Sponsorship](Sponsorship.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[statusCode](#statusCode)|Reason for the status of the Sponsorship|[eventManagement/Sponsorship](Sponsorship.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[name](#name)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[entityImageId](#entityImageId)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[description](#description)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[event](#event)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[sponsor](#sponsor)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[sponsorshipAmount](#sponsorshipAmount)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[sponsorshipAmountBase](#sponsorshipAmountBase)|Value of the Sponsorship Amount in base currency.|[eventManagement/Sponsorship](Sponsorship.md)|
-|[sponsorshipCategory](#sponsorshipCategory)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[sponsorshipCategory_display](#sponsorshipCategory_display)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[sponsorshipType](#sponsorshipType)||[eventManagement/Sponsorship](Sponsorship.md)|
-|[sponsorshipType_display](#sponsorshipType_display)||[eventManagement/Sponsorship](Sponsorship.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[sponsorshipId](#sponsorshipId)|Unique identifier for entity instances|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[stateCode](#stateCode)|Status of the Sponsorship|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[stateCode_display](#stateCode_display)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[statusCode](#statusCode)|Reason for the status of the Sponsorship|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[statusCode_display](#statusCode_display)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[name](#name)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[entityImageId](#entityImageId)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[description](#description)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[event](#event)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[sponsor](#sponsor)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[sponsorshipAmount](#sponsorshipAmount)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[sponsorshipAmountBase](#sponsorshipAmountBase)|Value of the Sponsorship Amount in base currency.|<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[sponsorshipCategory](#sponsorshipCategory)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[sponsorshipCategory_display](#sponsorshipCategory_display)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[sponsorshipType](#sponsorshipType)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
+|[sponsorshipType_display](#sponsorshipType_display)||<a href="Sponsorship.md" target="_blank">eventManagement/Sponsorship</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

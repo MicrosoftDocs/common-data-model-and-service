@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Quick Campaign
 
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,99 +46,100 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 crmCommon/QuickCampaign  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[ownerId](#ownerId)|Owner Id|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[priorityCode_display](#priorityCode_display)||[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[subject](#subject)|Subject associated with the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[community_display](#community_display)||[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[partners](#partners)|Outsource vendor with which activity is associated.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[description](#description)|Type additional information to describe the quick campaign, such as the products or services offered.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[stateCode](#stateCode)|Shows whether the quick campaign is open, closed, or canceled.  Closed or canceled quick campaigns are read-only and can't be edited.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[stateCode_display](#stateCode_display)||[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[statusCode](#statusCode)|Select the quick campaign's status.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[statusCode_display](#statusCode_display)||[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[processId](#processId)|Unique identifier of the Process.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[bulkOperationNumber](#bulkOperationNumber)|Shows the number for the quick campaign record, used to identify the quick campaign.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[createdRecordTypeCode](#createdRecordTypeCode)|Choose the activity to create that determines how target prospects or customers in this quick campaign are contacted.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[createdRecordTypeCode_display](#createdRecordTypeCode_display)||[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[errorNumber](#errorNumber)|Shows the error code that is used to troubleshoot issues in the quick campaign.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[failureCount](#failureCount)|Number of records which failed in the bulk operation.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[operationTypeCode](#operationTypeCode)|Select the type of bulk operation process, such as quick campaign or campaign activity distribution.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[operationTypeCode_display](#operationTypeCode_display)||[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[workflowInfo](#workflowInfo)|Information for bulk operation workflow.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[parameters](#parameters)|XML string that contains the parameters to the bulk operation.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[successCount](#successCount)|Number of records which succeeded in the bulk operation.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[targetedRecordTypeCode](#targetedRecordTypeCode)|Select the type of records targeted in the quick campaign to identify the target audience.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[targetedRecordTypeCode_display](#targetedRecordTypeCode_display)||[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[targetMembersCount](#targetMembersCount)|Number of members to target.|[crmCommon/QuickCampaign](QuickCampaign.md)|
-|[serviceId](#serviceId)|Unique identifier for an associated service.|[crmCommon/QuickCampaign](QuickCampaign.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[community_display](#community_display)||<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[partners](#partners)|Outsource vendor with which activity is associated.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[description](#description)|Type additional information to describe the quick campaign, such as the products or services offered.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[stateCode](#stateCode)|Shows whether the quick campaign is open, closed, or canceled.  Closed or canceled quick campaigns are read-only and can't be edited.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[stateCode_display](#stateCode_display)||<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[statusCode](#statusCode)|Select the quick campaign's status.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[statusCode_display](#statusCode_display)||<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[bulkOperationNumber](#bulkOperationNumber)|Shows the number for the quick campaign record, used to identify the quick campaign.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[createdRecordTypeCode](#createdRecordTypeCode)|Choose the activity to create that determines how target prospects or customers in this quick campaign are contacted.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[createdRecordTypeCode_display](#createdRecordTypeCode_display)||<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[errorNumber](#errorNumber)|Shows the error code that is used to troubleshoot issues in the quick campaign.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[failureCount](#failureCount)|Number of records which failed in the bulk operation.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[operationTypeCode](#operationTypeCode)|Select the type of bulk operation process, such as quick campaign or campaign activity distribution.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[operationTypeCode_display](#operationTypeCode_display)||<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[workflowInfo](#workflowInfo)|Information for bulk operation workflow.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[parameters](#parameters)|XML string that contains the parameters to the bulk operation.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[successCount](#successCount)|Number of records which succeeded in the bulk operation.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[targetedRecordTypeCode](#targetedRecordTypeCode)|Select the type of records targeted in the quick campaign to identify the target audience.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[targetedRecordTypeCode_display](#targetedRecordTypeCode_display)||<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[targetMembersCount](#targetMembersCount)|Number of members to target.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
+|[serviceId](#serviceId)|Unique identifier for an associated service.|<a href="QuickCampaign.md" target="_blank">crmCommon/QuickCampaign</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Order Close
 
 Activity generated automatically when an order is closed.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OrderClose.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,94 +46,95 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/OrderClose  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/OrderClose](OrderClose.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/OrderClose](OrderClose.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/OrderClose](OrderClose.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/OrderClose](OrderClose.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/OrderClose](OrderClose.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/OrderClose](OrderClose.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/OrderClose](OrderClose.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/OrderClose](OrderClose.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/OrderClose](OrderClose.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/OrderClose](OrderClose.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/OrderClose](OrderClose.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/OrderClose](OrderClose.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/OrderClose](OrderClose.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/OrderClose](OrderClose.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/OrderClose](OrderClose.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/OrderClose](OrderClose.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[sales/OrderClose](OrderClose.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[sales/OrderClose](OrderClose.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[sales/OrderClose](OrderClose.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[sales/OrderClose](OrderClose.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[sales/OrderClose](OrderClose.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[sales/OrderClose](OrderClose.md)|
-|[priorityCode_display](#priorityCode_display)||[sales/OrderClose](OrderClose.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[sales/OrderClose](OrderClose.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[sales/OrderClose](OrderClose.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[sales/OrderClose](OrderClose.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[sales/OrderClose](OrderClose.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[sales/OrderClose](OrderClose.md)|
-|[subject](#subject)|Subject associated with the activity.|[sales/OrderClose](OrderClose.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[sales/OrderClose](OrderClose.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[sales/OrderClose](OrderClose.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[sales/OrderClose](OrderClose.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[sales/OrderClose](OrderClose.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[sales/OrderClose](OrderClose.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[sales/OrderClose](OrderClose.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[sales/OrderClose](OrderClose.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[sales/OrderClose](OrderClose.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[sales/OrderClose](OrderClose.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[sales/OrderClose](OrderClose.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[sales/OrderClose](OrderClose.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[sales/OrderClose](OrderClose.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[sales/OrderClose](OrderClose.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[sales/OrderClose](OrderClose.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[sales/OrderClose](OrderClose.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[sales/OrderClose](OrderClose.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[sales/OrderClose](OrderClose.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[sales/OrderClose](OrderClose.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[sales/OrderClose](OrderClose.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[sales/OrderClose](OrderClose.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[sales/OrderClose](OrderClose.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[sales/OrderClose](OrderClose.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[sales/OrderClose](OrderClose.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[sales/OrderClose](OrderClose.md)|
-|[community_display](#community_display)||[sales/OrderClose](OrderClose.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[sales/OrderClose](OrderClose.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[sales/OrderClose](OrderClose.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[sales/OrderClose](OrderClose.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[sales/OrderClose](OrderClose.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[sales/OrderClose](OrderClose.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[sales/OrderClose](OrderClose.md)|
-|[partners](#partners)|Outsource vendor with which activity is associated.|[sales/OrderClose](OrderClose.md)|
-|[description](#description)|Activity generated automatically when an order is closed.|[sales/OrderClose](OrderClose.md)|
-|[stateCode](#stateCode)|Shows whether the order close activity is open, completed, or canceled.  By default, order close activities are completed.|[sales/OrderClose](OrderClose.md)|
-|[stateCode_display](#stateCode_display)||[sales/OrderClose](OrderClose.md)|
-|[statusCode](#statusCode)|Reason for the status of the order close activity.|[sales/OrderClose](OrderClose.md)|
-|[statusCode_display](#statusCode_display)||[sales/OrderClose](OrderClose.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|[sales/OrderClose](OrderClose.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|[sales/OrderClose](OrderClose.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[sales/OrderClose](OrderClose.md)|
-|[processId](#processId)|Unique identifier of the Process.|[sales/OrderClose](OrderClose.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[sales/OrderClose](OrderClose.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[sales/OrderClose](OrderClose.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[sales/OrderClose](OrderClose.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[sales/OrderClose](OrderClose.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[sales/OrderClose](OrderClose.md)|
-|[serviceId](#serviceId)|Unique identifier of the service with which the order close activity is associated.|[sales/OrderClose](OrderClose.md)|
-|[orderNumber](#orderNumber)|Order number.|[sales/OrderClose](OrderClose.md)|
-|[revision](#revision)|Order revision number.|[sales/OrderClose](OrderClose.md)|
-|[salesOrderIdType](#salesOrderIdType)|The name of the entity linked by salesOrderId|[sales/OrderClose](OrderClose.md)|
-|[salesOrderId](#salesOrderId)|Unique identifier of the order with which the order close activity is associated.|[sales/OrderClose](OrderClose.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[sales/OrderClose](OrderClose.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[sales/OrderClose](OrderClose.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[community_display](#community_display)||<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[partners](#partners)|Outsource vendor with which activity is associated.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[description](#description)|Activity generated automatically when an order is closed.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[stateCode](#stateCode)|Shows whether the order close activity is open, completed, or canceled.  By default, order close activities are completed.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[stateCode_display](#stateCode_display)||<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[statusCode](#statusCode)|Reason for the status of the order close activity.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[statusCode_display](#statusCode_display)||<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[serviceId](#serviceId)|Unique identifier of the service with which the order close activity is associated.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[orderNumber](#orderNumber)|Order number.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[revision](#revision)|Order revision number.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[salesOrderIdType](#salesOrderIdType)|The name of the entity linked by salesOrderId|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[salesOrderId](#salesOrderId)|Unique identifier of the order with which the order close activity is associated.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="OrderClose.md" target="_blank">sales/OrderClose</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

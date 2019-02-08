@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Entitlement Product
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/EntitlementProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/EntitlementProduct  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[entitlementProductId](#entitlementProductId)|Unique identifier of the contacts for the entitlements.|[service/EntitlementProduct](EntitlementProduct.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/EntitlementProduct](EntitlementProduct.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/EntitlementProduct](EntitlementProduct.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/EntitlementProduct](EntitlementProduct.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/EntitlementProduct](EntitlementProduct.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/EntitlementProduct](EntitlementProduct.md)|
-|[name](#name)|name|[service/EntitlementProduct](EntitlementProduct.md)|
-|[productId](#productId)||[service/EntitlementProduct](EntitlementProduct.md)|
-|[entitlementId](#entitlementId)||[service/EntitlementProduct](EntitlementProduct.md)|
+|[entitlementProductId](#entitlementProductId)|Unique identifier of the contacts for the entitlements.|<a href="EntitlementProduct.md" target="_blank">service/EntitlementProduct</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="EntitlementProduct.md" target="_blank">service/EntitlementProduct</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EntitlementProduct.md" target="_blank">service/EntitlementProduct</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EntitlementProduct.md" target="_blank">service/EntitlementProduct</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EntitlementProduct.md" target="_blank">service/EntitlementProduct</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EntitlementProduct.md" target="_blank">service/EntitlementProduct</a>|
+|[name](#name)|name|<a href="EntitlementProduct.md" target="_blank">service/EntitlementProduct</a>|
+|[productId](#productId)||<a href="EntitlementProduct.md" target="_blank">service/EntitlementProduct</a>|
+|[entitlementId](#entitlementId)||<a href="EntitlementProduct.md" target="_blank">service/EntitlementProduct</a>|
 
 ### <a href=#entitlementProductId name="entitlementProductId">entitlementProductId</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # LeadProduct
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/LeadProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/LeadProduct  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[leadProductId](#leadProductId)|Unique identifier of the lead product.|[sales/LeadProduct](LeadProduct.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/LeadProduct](LeadProduct.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/LeadProduct](LeadProduct.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/LeadProduct](LeadProduct.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/LeadProduct](LeadProduct.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/LeadProduct](LeadProduct.md)|
-|[name](#name)|name|[sales/LeadProduct](LeadProduct.md)|
-|[leadId](#leadId)||[sales/LeadProduct](LeadProduct.md)|
-|[productId](#productId)||[sales/LeadProduct](LeadProduct.md)|
+|[leadProductId](#leadProductId)|Unique identifier of the lead product.|<a href="LeadProduct.md" target="_blank">sales/LeadProduct</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="LeadProduct.md" target="_blank">sales/LeadProduct</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="LeadProduct.md" target="_blank">sales/LeadProduct</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="LeadProduct.md" target="_blank">sales/LeadProduct</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="LeadProduct.md" target="_blank">sales/LeadProduct</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="LeadProduct.md" target="_blank">sales/LeadProduct</a>|
+|[name](#name)|name|<a href="LeadProduct.md" target="_blank">sales/LeadProduct</a>|
+|[leadId](#leadId)||<a href="LeadProduct.md" target="_blank">sales/LeadProduct</a>|
+|[productId](#productId)||<a href="LeadProduct.md" target="_blank">sales/LeadProduct</a>|
 
 ### <a href=#leadProductId name="leadProductId">leadProductId</a>
 

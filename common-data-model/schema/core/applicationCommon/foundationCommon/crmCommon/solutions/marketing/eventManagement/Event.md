@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Event
 
 Container to manage and plan marketing activities that take place at a specific venue or location.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,169 +46,170 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Event  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Event](Event.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Event](Event.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Event](Event.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Event](Event.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Event](Event.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Event](Event.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Event](Event.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Event](Event.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Event](Event.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Event](Event.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Event](Event.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Event](Event.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Event](Event.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Event](Event.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Event](Event.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Event](Event.md)|
-|[eventId](#eventId)|Unique identifier for entity instances|[eventManagement/Event](Event.md)|
-|[stateCode](#stateCode)|Status of the Event|[eventManagement/Event](Event.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Event](Event.md)|
-|[statusCode](#statusCode)|Reason for the status of the Event|[eventManagement/Event](Event.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Event](Event.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/Event](Event.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[eventManagement/Event](Event.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[eventManagement/Event](Event.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[eventManagement/Event](Event.md)|
-|[entityImageId](#entityImageId)||[eventManagement/Event](Event.md)|
-|[baseRecurrentEventID](#baseRecurrentEventID)||[eventManagement/Event](Event.md)|
-|[bookedFlightReservations](#bookedFlightReservations)|Flight reservations booking status|[eventManagement/Event](Event.md)|
-|[bookedFlightReservations_display](#bookedFlightReservations_display)||[eventManagement/Event](Event.md)|
-|[bookRooms](#bookRooms)||[eventManagement/Event](Event.md)|
-|[bookRooms_display](#bookRooms_display)||[eventManagement/Event](Event.md)|
-|[budgetAllocated](#budgetAllocated)||[eventManagement/Event](Event.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/Event](Event.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/Event](Event.md)|
-|[budgetAllocatedBase](#budgetAllocatedBase)|Value of the Budget Allocated in base currency.|[eventManagement/Event](Event.md)|
-|[cateringRequired](#cateringRequired)||[eventManagement/Event](Event.md)|
-|[cateringRequired_display](#cateringRequired_display)||[eventManagement/Event](Event.md)|
-|[checkInCount](#checkInCount)|Check-in count|[eventManagement/Event](Event.md)|
-|[confirmedHotelChoices](#confirmedHotelChoices)|Hotel choices confirmation status|[eventManagement/Event](Event.md)|
-|[confirmedHotelChoices_display](#confirmedHotelChoices_display)||[eventManagement/Event](Event.md)|
-|[countdownInDays](#countdownInDays)||[eventManagement/Event](Event.md)|
-|[createMarketingCollateral](#createMarketingCollateral)||[eventManagement/Event](Event.md)|
-|[createMarketingCollateral_display](#createMarketingCollateral_display)||[eventManagement/Event](Event.md)|
-|[definePackagesandPricing](#definePackagesandPricing)||[eventManagement/Event](Event.md)|
-|[definePackagesandPricing_display](#definePackagesandPricing_display)||[eventManagement/Event](Event.md)|
-|[defineSessions](#defineSessions)||[eventManagement/Event](Event.md)|
-|[defineSessions_display](#defineSessions_display)||[eventManagement/Event](Event.md)|
-|[defineTeam](#defineTeam)||[eventManagement/Event](Event.md)|
-|[defineTeam_display](#defineTeam_display)||[eventManagement/Event](Event.md)|
-|[description](#description)||[eventManagement/Event](Event.md)|
-|[developMarketingPlan](#developMarketingPlan)||[eventManagement/Event](Event.md)|
-|[developMarketingPlan_display](#developMarketingPlan_display)||[eventManagement/Event](Event.md)|
-|[earlyBirdCutOffDate](#earlyBirdCutOffDate)||[eventManagement/Event](Event.md)|
-|[eventDebriefing](#eventDebriefing)||[eventManagement/Event](Event.md)|
-|[eventDebriefing_display](#eventDebriefing_display)||[eventManagement/Event](Event.md)|
-|[eventEndDate](#eventEndDate)||[eventManagement/Event](Event.md)|
-|[eventFormat](#eventFormat)||[eventManagement/Event](Event.md)|
-|[eventFormat_display](#eventFormat_display)||[eventManagement/Event](Event.md)|
-|[eventStartDate](#eventStartDate)||[eventManagement/Event](Event.md)|
-|[eventTimeZone](#eventTimeZone)||[eventManagement/Event](Event.md)|
-|[eventTimeZoneName](#eventTimeZoneName)||[eventManagement/Event](Event.md)|
-|[eventType](#eventType)||[eventManagement/Event](Event.md)|
-|[eventType_display](#eventType_display)||[eventManagement/Event](Event.md)|
-|[eventVenueCost](#eventVenueCost)||[eventManagement/Event](Event.md)|
-|[eventVenueCostBase](#eventVenueCostBase)|Value of the Event Venue Cost in base currency.|[eventManagement/Event](Event.md)|
-|[expectedOutcome](#expectedOutcome)||[eventManagement/Event](Event.md)|
-|[followUpOnLeads](#followUpOnLeads)||[eventManagement/Event](Event.md)|
-|[followUpOnLeads_display](#followUpOnLeads_display)||[eventManagement/Event](Event.md)|
-|[guestLogistics](#guestLogistics)|Whether guest logistics are required or not.|[eventManagement/Event](Event.md)|
-|[guestLogistics_display](#guestLogistics_display)||[eventManagement/Event](Event.md)|
-|[identifySpeakers](#identifySpeakers)||[eventManagement/Event](Event.md)|
-|[identifySpeakers_display](#identifySpeakers_display)||[eventManagement/Event](Event.md)|
-|[identifySponsors](#identifySponsors)||[eventManagement/Event](Event.md)|
-|[identifySponsors_display](#identifySponsors_display)||[eventManagement/Event](Event.md)|
-|[isRecurringEvent](#isRecurringEvent)||[eventManagement/Event](Event.md)|
-|[isTemplate](#isTemplate)||[eventManagement/Event](Event.md)|
-|[isTemplate_display](#isTemplate_display)||[eventManagement/Event](Event.md)|
-|[language](#language)|The language of the webinar|[eventManagement/Event](Event.md)|
-|[language_display](#language_display)||[eventManagement/Event](Event.md)|
-|[makePaymentsDue](#makePaymentsDue)||[eventManagement/Event](Event.md)|
-|[makePaymentsDue_display](#makePaymentsDue_display)||[eventManagement/Event](Event.md)|
-|[manageRegistrationCount](#manageRegistrationCount)||[eventManagement/Event](Event.md)|
-|[manageRegistrationCount_display](#manageRegistrationCount_display)||[eventManagement/Event](Event.md)|
-|[maximumEventCapacity](#maximumEventCapacity)||[eventManagement/Event](Event.md)|
-|[maxNumberOfRegistrations](#maxNumberOfRegistrations)||[eventManagement/Event](Event.md)|
-|[miscellaneousCosts](#miscellaneousCosts)||[eventManagement/Event](Event.md)|
-|[miscellaneousCostsBase](#miscellaneousCostsBase)|Value of the Miscellaneous Costs in base currency.|[eventManagement/Event](Event.md)|
-|[notifyAuthoritiesOfEvent](#notifyAuthoritiesOfEvent)||[eventManagement/Event](Event.md)|
-|[notifyAuthoritiesOfEvent_display](#notifyAuthoritiesOfEvent_display)||[eventManagement/Event](Event.md)|
-|[planRegistration](#planRegistration)||[eventManagement/Event](Event.md)|
-|[planRegistration_display](#planRegistration_display)||[eventManagement/Event](Event.md)|
-|[presentationManagerUrl](#presentationManagerUrl)||[eventManagement/Event](Event.md)|
-|[primaryGoal](#primaryGoal)||[eventManagement/Event](Event.md)|
-|[primaryGoal_display](#primaryGoal_display)||[eventManagement/Event](Event.md)|
-|[primaryVenue](#primaryVenue)||[eventManagement/Event](Event.md)|
-|[producer](#producer)||[eventManagement/Event](Event.md)|
-|[publicEventURL](#publicEventURL)||[eventManagement/Event](Event.md)|
-|[publishStatus](#publishStatus)||[eventManagement/Event](Event.md)|
-|[publishStatus_display](#publishStatus_display)||[eventManagement/Event](Event.md)|
-|[readableEventID](#readableEventID)||[eventManagement/Event](Event.md)|
-|[recurrencePattern](#recurrencePattern)||[eventManagement/Event](Event.md)|
-|[recurrentEventStatus](#recurrentEventStatus)||[eventManagement/Event](Event.md)|
-|[registrationCount](#registrationCount)|Registration count of the Event.|[eventManagement/Event](Event.md)|
-|[registrationsTarget](#registrationsTarget)||[eventManagement/Event](Event.md)|
-|[requestSponsorship](#requestSponsorship)||[eventManagement/Event](Event.md)|
-|[requestSponsorship_display](#requestSponsorship_display)||[eventManagement/Event](Event.md)|
-|[revenueFromSponsorship](#revenueFromSponsorship)||[eventManagement/Event](Event.md)|
-|[revenueFromSponsorshipBase](#revenueFromSponsorshipBase)|Value of the Revenue from Sponsorship in base currency.|[eventManagement/Event](Event.md)|
-|[scheduleAirportPickups](#scheduleAirportPickups)|Airport pickups scheduling status|[eventManagement/Event](Event.md)|
-|[scheduleAirportPickups_display](#scheduleAirportPickups_display)||[eventManagement/Event](Event.md)|
-|[scheduleSessions](#scheduleSessions)||[eventManagement/Event](Event.md)|
-|[scheduleSessions_display](#scheduleSessions_display)||[eventManagement/Event](Event.md)|
-|[selectSpeakers](#selectSpeakers)||[eventManagement/Event](Event.md)|
-|[selectSpeakers_display](#selectSpeakers_display)||[eventManagement/Event](Event.md)|
-|[selectVendors](#selectVendors)||[eventManagement/Event](Event.md)|
-|[selectVendors_display](#selectVendors_display)||[eventManagement/Event](Event.md)|
-|[sendEventInvitation](#sendEventInvitation)|Event invitation sending status|[eventManagement/Event](Event.md)|
-|[sendEventInvitation_display](#sendEventInvitation_display)||[eventManagement/Event](Event.md)|
-|[sendMarketingMaterial](#sendMarketingMaterial)||[eventManagement/Event](Event.md)|
-|[sendMarketingMaterial_display](#sendMarketingMaterial_display)||[eventManagement/Event](Event.md)|
-|[sendPreEventReminders](#sendPreEventReminders)||[eventManagement/Event](Event.md)|
-|[sendPreEventReminders_display](#sendPreEventReminders_display)||[eventManagement/Event](Event.md)|
-|[sendThankYouEmails](#sendThankYouEmails)||[eventManagement/Event](Event.md)|
-|[sendThankYouEmails_display](#sendThankYouEmails_display)||[eventManagement/Event](Event.md)|
-|[showWaitlist](#showWaitlist)||[eventManagement/Event](Event.md)|
-|[targetRevenue](#targetRevenue)||[eventManagement/Event](Event.md)|
-|[targetRevenueBase](#targetRevenueBase)|Value of the Target Revenue in base currency.|[eventManagement/Event](Event.md)|
-|[teamDebriefing](#teamDebriefing)||[eventManagement/Event](Event.md)|
-|[teamDebriefing_display](#teamDebriefing_display)||[eventManagement/Event](Event.md)|
-|[totalCostOfEventsActivities](#totalCostOfEventsActivities)||[eventManagement/Event](Event.md)|
-|[totalCostOfEventsActivitiesBase](#totalCostOfEventsActivitiesBase)|Value of the Total Cost of Events Activities in base currency.|[eventManagement/Event](Event.md)|
-|[totalCostOfExternalMembers](#totalCostOfExternalMembers)||[eventManagement/Event](Event.md)|
-|[totalCostOfExternalMembersBase](#totalCostOfExternalMembersBase)|Value of the Total cost of External Members in base currency.|[eventManagement/Event](Event.md)|
-|[totalRegistrationFee](#totalRegistrationFee)||[eventManagement/Event](Event.md)|
-|[totalRegistrationFeeBase](#totalRegistrationFeeBase)|Value of the Total Registration Fee in base currency.|[eventManagement/Event](Event.md)|
-|[totalRevenueFromTheEvent](#totalRevenueFromTheEvent)||[eventManagement/Event](Event.md)|
-|[totalRevenueFromTheEventBase](#totalRevenueFromTheEventBase)|Value of the Total Revenue from the event in base currency.|[eventManagement/Event](Event.md)|
-|[waitlistStartingPoint](#waitlistStartingPoint)|Waitlist Starting Point|[eventManagement/Event](Event.md)|
-|[waitlistthisEvent](#waitlistthisEvent)||[eventManagement/Event](Event.md)|
-|[waitlistthisEvent_display](#waitlistthisEvent_display)||[eventManagement/Event](Event.md)|
-|[webinarConfigurationId](#webinarConfigurationId)|Webinar Configuration|[eventManagement/Event](Event.md)|
-|[webinarID](#webinarID)|Webinar ID of the Event.|[eventManagement/Event](Event.md)|
-|[webinarNotificationSeen](#webinarNotificationSeen)|Whether the webinar creation notification has been seen or not|[eventManagement/Event](Event.md)|
-|[webinarOperation](#webinarOperation)||[eventManagement/Event](Event.md)|
-|[webinarStatus](#webinarStatus)||[eventManagement/Event](Event.md)|
-|[webinarStatusReason](#webinarStatusReason)||[eventManagement/Event](Event.md)|
-|[webinarType](#webinarType)||[eventManagement/Event](Event.md)|
-|[webinarURL](#webinarURL)|URL of the webinar. This might be URL of external webinar provider.|[eventManagement/Event](Event.md)|
-|[sendSurveys](#sendSurveys)||[eventManagement/Event](Event.md)|
-|[sendSurveys_display](#sendSurveys_display)||[eventManagement/Event](Event.md)|
-|[eventURLspecified](#eventURLspecified)|Determines whether an event URL is specified.|[eventManagement/Event](Event.md)|
-|[sessionsCount](#sessionsCount)|The number of sessions in this event|[eventManagement/Event](Event.md)|
-|[sessionsCountDate](#sessionsCountDate)|Last Updated time of rollup field Session count.|[eventManagement/Event](Event.md)|
-|[sessionsCountState](#sessionsCountState)|State of rollup field Session count.|[eventManagement/Event](Event.md)|
-|[allowAnonymousRegistrations](#allowAnonymousRegistrations)||[eventManagement/Event](Event.md)|
-|[portalBannerImage](#portalBannerImage)|The portal banner image.|[eventManagement/Event](Event.md)|
-|[eventURL](#eventURL)||[eventManagement/Event](Event.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventId](#eventId)|Unique identifier for entity instances|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[stateCode](#stateCode)|Status of the Event|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[stateCode_display](#stateCode_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[statusCode](#statusCode)|Reason for the status of the Event|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[statusCode_display](#statusCode_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[name](#name)|The name of the custom entity.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[entityImageId](#entityImageId)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[baseRecurrentEventID](#baseRecurrentEventID)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[bookedFlightReservations](#bookedFlightReservations)|Flight reservations booking status|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[bookedFlightReservations_display](#bookedFlightReservations_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[bookRooms](#bookRooms)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[bookRooms_display](#bookRooms_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[budgetAllocated](#budgetAllocated)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[budgetAllocatedBase](#budgetAllocatedBase)|Value of the Budget Allocated in base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[cateringRequired](#cateringRequired)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[cateringRequired_display](#cateringRequired_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[checkInCount](#checkInCount)|Check-in count|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[confirmedHotelChoices](#confirmedHotelChoices)|Hotel choices confirmation status|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[confirmedHotelChoices_display](#confirmedHotelChoices_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[countdownInDays](#countdownInDays)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[createMarketingCollateral](#createMarketingCollateral)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[createMarketingCollateral_display](#createMarketingCollateral_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[definePackagesandPricing](#definePackagesandPricing)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[definePackagesandPricing_display](#definePackagesandPricing_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[defineSessions](#defineSessions)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[defineSessions_display](#defineSessions_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[defineTeam](#defineTeam)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[defineTeam_display](#defineTeam_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[description](#description)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[developMarketingPlan](#developMarketingPlan)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[developMarketingPlan_display](#developMarketingPlan_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[earlyBirdCutOffDate](#earlyBirdCutOffDate)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventDebriefing](#eventDebriefing)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventDebriefing_display](#eventDebriefing_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventEndDate](#eventEndDate)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventFormat](#eventFormat)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventFormat_display](#eventFormat_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventStartDate](#eventStartDate)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventTimeZone](#eventTimeZone)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventTimeZoneName](#eventTimeZoneName)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventType](#eventType)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventType_display](#eventType_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventVenueCost](#eventVenueCost)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventVenueCostBase](#eventVenueCostBase)|Value of the Event Venue Cost in base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[expectedOutcome](#expectedOutcome)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[followUpOnLeads](#followUpOnLeads)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[followUpOnLeads_display](#followUpOnLeads_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[guestLogistics](#guestLogistics)|Whether guest logistics are required or not.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[guestLogistics_display](#guestLogistics_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[identifySpeakers](#identifySpeakers)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[identifySpeakers_display](#identifySpeakers_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[identifySponsors](#identifySponsors)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[identifySponsors_display](#identifySponsors_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[isRecurringEvent](#isRecurringEvent)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[isTemplate](#isTemplate)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[isTemplate_display](#isTemplate_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[language](#language)|The language of the webinar|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[language_display](#language_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[makePaymentsDue](#makePaymentsDue)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[makePaymentsDue_display](#makePaymentsDue_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[manageRegistrationCount](#manageRegistrationCount)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[manageRegistrationCount_display](#manageRegistrationCount_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[maximumEventCapacity](#maximumEventCapacity)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[maxNumberOfRegistrations](#maxNumberOfRegistrations)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[miscellaneousCosts](#miscellaneousCosts)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[miscellaneousCostsBase](#miscellaneousCostsBase)|Value of the Miscellaneous Costs in base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[notifyAuthoritiesOfEvent](#notifyAuthoritiesOfEvent)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[notifyAuthoritiesOfEvent_display](#notifyAuthoritiesOfEvent_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[planRegistration](#planRegistration)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[planRegistration_display](#planRegistration_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[presentationManagerUrl](#presentationManagerUrl)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[primaryGoal](#primaryGoal)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[primaryGoal_display](#primaryGoal_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[primaryVenue](#primaryVenue)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[producer](#producer)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[publicEventURL](#publicEventURL)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[publishStatus](#publishStatus)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[publishStatus_display](#publishStatus_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[readableEventID](#readableEventID)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[recurrencePattern](#recurrencePattern)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[recurrentEventStatus](#recurrentEventStatus)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[registrationCount](#registrationCount)|Registration count of the Event.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[registrationsTarget](#registrationsTarget)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[requestSponsorship](#requestSponsorship)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[requestSponsorship_display](#requestSponsorship_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[revenueFromSponsorship](#revenueFromSponsorship)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[revenueFromSponsorshipBase](#revenueFromSponsorshipBase)|Value of the Revenue from Sponsorship in base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[scheduleAirportPickups](#scheduleAirportPickups)|Airport pickups scheduling status|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[scheduleAirportPickups_display](#scheduleAirportPickups_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[scheduleSessions](#scheduleSessions)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[scheduleSessions_display](#scheduleSessions_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[selectSpeakers](#selectSpeakers)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[selectSpeakers_display](#selectSpeakers_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[selectVendors](#selectVendors)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[selectVendors_display](#selectVendors_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendEventInvitation](#sendEventInvitation)|Event invitation sending status|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendEventInvitation_display](#sendEventInvitation_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendMarketingMaterial](#sendMarketingMaterial)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendMarketingMaterial_display](#sendMarketingMaterial_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendPreEventReminders](#sendPreEventReminders)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendPreEventReminders_display](#sendPreEventReminders_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendThankYouEmails](#sendThankYouEmails)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendThankYouEmails_display](#sendThankYouEmails_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[showWaitlist](#showWaitlist)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[targetRevenue](#targetRevenue)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[targetRevenueBase](#targetRevenueBase)|Value of the Target Revenue in base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[teamDebriefing](#teamDebriefing)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[teamDebriefing_display](#teamDebriefing_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[totalCostOfEventsActivities](#totalCostOfEventsActivities)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[totalCostOfEventsActivitiesBase](#totalCostOfEventsActivitiesBase)|Value of the Total Cost of Events Activities in base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[totalCostOfExternalMembers](#totalCostOfExternalMembers)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[totalCostOfExternalMembersBase](#totalCostOfExternalMembersBase)|Value of the Total cost of External Members in base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[totalRegistrationFee](#totalRegistrationFee)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[totalRegistrationFeeBase](#totalRegistrationFeeBase)|Value of the Total Registration Fee in base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[totalRevenueFromTheEvent](#totalRevenueFromTheEvent)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[totalRevenueFromTheEventBase](#totalRevenueFromTheEventBase)|Value of the Total Revenue from the event in base currency.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[waitlistStartingPoint](#waitlistStartingPoint)|Waitlist Starting Point|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[waitlistthisEvent](#waitlistthisEvent)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[waitlistthisEvent_display](#waitlistthisEvent_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[webinarConfigurationId](#webinarConfigurationId)|Webinar Configuration|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[webinarID](#webinarID)|Webinar ID of the Event.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[webinarNotificationSeen](#webinarNotificationSeen)|Whether the webinar creation notification has been seen or not|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[webinarOperation](#webinarOperation)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[webinarStatus](#webinarStatus)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[webinarStatusReason](#webinarStatusReason)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[webinarType](#webinarType)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[webinarURL](#webinarURL)|URL of the webinar. This might be URL of external webinar provider.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendSurveys](#sendSurveys)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sendSurveys_display](#sendSurveys_display)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventURLspecified](#eventURLspecified)|Determines whether an event URL is specified.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sessionsCount](#sessionsCount)|The number of sessions in this event|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sessionsCountDate](#sessionsCountDate)|Last Updated time of rollup field Session count.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[sessionsCountState](#sessionsCountState)|State of rollup field Session count.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[allowAnonymousRegistrations](#allowAnonymousRegistrations)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[portalBannerImage](#portalBannerImage)|The portal banner image.|<a href="Event.md" target="_blank">eventManagement/Event</a>|
+|[eventURL](#eventURL)||<a href="Event.md" target="_blank">eventManagement/Event</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

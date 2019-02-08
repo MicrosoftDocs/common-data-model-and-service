@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Incident KnowledgeBaseRecord
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/IncidentKnowledgeBaseRecord.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/IncidentKnowledgeBaseRecord  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[incidentKnowledgeBaseRecordId](#incidentKnowledgeBaseRecordId)|Unique identifier of the knowledgebase records for the incident.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[name](#name)|name|[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[incidentId](#incidentId)||[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
-|[knowledgeBaseRecordId](#knowledgeBaseRecordId)||[service/IncidentKnowledgeBaseRecord](IncidentKnowledgeBaseRecord.md)|
+|[incidentKnowledgeBaseRecordId](#incidentKnowledgeBaseRecordId)|Unique identifier of the knowledgebase records for the incident.|<a href="IncidentKnowledgeBaseRecord.md" target="_blank">service/IncidentKnowledgeBaseRecord</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="IncidentKnowledgeBaseRecord.md" target="_blank">service/IncidentKnowledgeBaseRecord</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="IncidentKnowledgeBaseRecord.md" target="_blank">service/IncidentKnowledgeBaseRecord</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="IncidentKnowledgeBaseRecord.md" target="_blank">service/IncidentKnowledgeBaseRecord</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="IncidentKnowledgeBaseRecord.md" target="_blank">service/IncidentKnowledgeBaseRecord</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="IncidentKnowledgeBaseRecord.md" target="_blank">service/IncidentKnowledgeBaseRecord</a>|
+|[name](#name)|name|<a href="IncidentKnowledgeBaseRecord.md" target="_blank">service/IncidentKnowledgeBaseRecord</a>|
+|[incidentId](#incidentId)||<a href="IncidentKnowledgeBaseRecord.md" target="_blank">service/IncidentKnowledgeBaseRecord</a>|
+|[knowledgeBaseRecordId](#knowledgeBaseRecordId)||<a href="IncidentKnowledgeBaseRecord.md" target="_blank">service/IncidentKnowledgeBaseRecord</a>|
 
 ### <a href=#incidentKnowledgeBaseRecordId name="incidentKnowledgeBaseRecordId">incidentKnowledgeBaseRecordId</a>
 

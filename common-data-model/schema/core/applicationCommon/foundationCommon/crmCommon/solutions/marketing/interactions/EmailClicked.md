@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email clicked
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailClicked.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,42 +33,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailClicked  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailClicked](EmailClicked.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailClicked](EmailClicked.md)|
-|[accountId](#accountId)|Account|[interactions/EmailClicked](EmailClicked.md)|
-|[messageId](#messageId)|Message|[interactions/EmailClicked](EmailClicked.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailClicked](EmailClicked.md)|
-|[linkId](#linkId)|Link ID|[interactions/EmailClicked](EmailClicked.md)|
-|[linkFriendlyName](#linkFriendlyName)|Link friendly name|[interactions/EmailClicked](EmailClicked.md)|
-|[originalLink](#originalLink)|Original link|[interactions/EmailClicked](EmailClicked.md)|
-|[originalUrl](#originalUrl)|Original URL|[interactions/EmailClicked](EmailClicked.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailClicked](EmailClicked.md)|
-|[emailDomain](#emailDomain)|Email domain|[interactions/EmailClicked](EmailClicked.md)|
-|[emailAddressUsed](#emailAddressUsed)|Email address used|[interactions/EmailClicked](EmailClicked.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailClicked](EmailClicked.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailClicked](EmailClicked.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailClicked](EmailClicked.md)|
-|[visitorId](#visitorId)|Visitor ID|[interactions/EmailClicked](EmailClicked.md)|
-|[sessionId](#sessionId)|Session ID|[interactions/EmailClicked](EmailClicked.md)|
-|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/EmailClicked](EmailClicked.md)|
-|[state](#state)|State|[interactions/EmailClicked](EmailClicked.md)|
-|[city](#city)|City|[interactions/EmailClicked](EmailClicked.md)|
-|[postalCode](#postalCode)|Postal code|[interactions/EmailClicked](EmailClicked.md)|
-|[browserId](#browserId)|Browser ID|[interactions/EmailClicked](EmailClicked.md)|
-|[browserVersion](#browserVersion)|Browser version|[interactions/EmailClicked](EmailClicked.md)|
-|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/EmailClicked](EmailClicked.md)|
-|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/EmailClicked](EmailClicked.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailClicked](EmailClicked.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailClicked](EmailClicked.md)|
-|[activityId](#activityId)|Activity ID|[interactions/EmailClicked](EmailClicked.md)|
-|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/EmailClicked](EmailClicked.md)|
-|[leadId](#leadId)|Lead ID|[interactions/EmailClicked](EmailClicked.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[contactId](#contactId)|Contact|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[accountId](#accountId)|Account|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[messageId](#messageId)|Message|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[linkId](#linkId)|Link ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[linkFriendlyName](#linkFriendlyName)|Link friendly name|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[originalLink](#originalLink)|Original link|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[originalUrl](#originalUrl)|Original URL|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[emailDomain](#emailDomain)|Email domain|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[emailAddressUsed](#emailAddressUsed)|Email address used|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[visitorId](#visitorId)|Visitor ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[sessionId](#sessionId)|Session ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[state](#state)|State|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[city](#city)|City|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[postalCode](#postalCode)|Postal code|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[browserId](#browserId)|Browser ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[browserVersion](#browserVersion)|Browser version|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[activityId](#activityId)|Activity ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
+|[leadId](#leadId)|Lead ID|<a href="EmailClicked.md" target="_blank">interactions/EmailClicked</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

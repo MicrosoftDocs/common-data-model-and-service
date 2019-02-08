@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Letter
 
 Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Letter.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Letter  
 [crmCommon/Letter](foundationCommon/crmCommon/Letter.md "/core/applicationCommon/foundationCommon/crmCommon/Letter.cdm.json/Letter")  
 
@@ -53,61 +54,61 @@ applicationCommon/Letter
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[applicationCommon/Letter](Letter.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/Letter](Letter.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[applicationCommon/Letter](Letter.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/Letter](Letter.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/Letter](Letter.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[applicationCommon/Letter](Letter.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Letter](Letter.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Letter](Letter.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/Letter](Letter.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/Letter](Letter.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/Letter](Letter.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[applicationCommon/Letter](Letter.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/Letter](Letter.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/Letter](Letter.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/Letter](Letter.md)|
-|[versionNumber](#versionNumber)|Version Number|[applicationCommon/Letter](Letter.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[applicationCommon/Letter](Letter.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[applicationCommon/Letter](Letter.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[applicationCommon/Letter](Letter.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[applicationCommon/Letter](Letter.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[applicationCommon/Letter](Letter.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[applicationCommon/Letter](Letter.md)|
-|[priorityCode_display](#priorityCode_display)||[applicationCommon/Letter](Letter.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[applicationCommon/Letter](Letter.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[applicationCommon/Letter](Letter.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/Letter](Letter.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/Letter](Letter.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[applicationCommon/Letter](Letter.md)|
-|[subject](#subject)|Subject associated with the activity.|[applicationCommon/Letter](Letter.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[applicationCommon/Letter](Letter.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[applicationCommon/Letter](Letter.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[applicationCommon/Letter](Letter.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[applicationCommon/Letter](Letter.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[applicationCommon/Letter](Letter.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[applicationCommon/Letter](Letter.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[applicationCommon/Letter](Letter.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[applicationCommon/Letter](Letter.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[applicationCommon/Letter](Letter.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[applicationCommon/Letter](Letter.md)|
-|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|[applicationCommon/Letter](Letter.md)|
-|[address](#address)|Type the complete recipient address for the letter to ensure timely delivery.|[applicationCommon/Letter](Letter.md)|
-|[statusCode](#statusCode)|Select the letter's status.|[applicationCommon/Letter](Letter.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Letter](Letter.md)|
-|[stateCode](#stateCode)|Shows whether the letter is open, completed, or canceled. Completed and canceled letters are read-only and can't be edited.|[applicationCommon/Letter](Letter.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Letter](Letter.md)|
-|[description](#description)|Type the letter body or additional information to describe the letter, such as the primary message or the products and services described.|[applicationCommon/Letter](Letter.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Letter](Letter.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Letter](Letter.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/Letter](Letter.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/Letter](Letter.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/Letter](Letter.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Letter record.|[applicationCommon/Letter](Letter.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this Letter. This field is for internal use only.|[applicationCommon/Letter](Letter.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[applicationCommon/Letter](Letter.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[applicationCommon/Letter](Letter.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[directionCode](#directionCode)|Select the direction of the activity as incoming or outbound.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[address](#address)|Type the complete recipient address for the letter to ensure timely delivery.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[statusCode](#statusCode)|Select the letter's status.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[statusCode_display](#statusCode_display)||<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[stateCode](#stateCode)|Shows whether the letter is open, completed, or canceled. Completed and canceled letters are read-only and can't be edited.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[stateCode_display](#stateCode_display)||<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[description](#description)|Type the letter body or additional information to describe the letter, such as the primary message or the products and services described.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Letter record.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this Letter. This field is for internal use only.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="Letter.md" target="_blank">applicationCommon/Letter</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

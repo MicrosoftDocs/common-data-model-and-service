@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Price List Item
 
 Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/PriceListItem.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,6 +43,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/PriceListItem  
 [sales/PriceListItem](crmCommon/sales/PriceListItem.md "/core/applicationCommon/foundationCommon/crmCommon/sales/PriceListItem.cdm.json/PriceListItem")  
 
@@ -50,42 +51,42 @@ foundationCommon/PriceListItem
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productPriceLevelId](#productPriceLevelId)|Unique identifier of the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[createdOn](#createdOn)|Date and time when the price list was created.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the price list was last modified.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[amount](#amount)|Monetary amount for the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[amountBase](#amountBase)|Value of the Amount in base currency.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[percentage](#percentage)|Percentage for the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[priceLevelId](#priceLevelId)|Unique identifier of the price level associated with this price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[pricingMethodCode](#pricingMethodCode)|Pricing method applied to the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[pricingMethodCode_display](#pricingMethodCode_display)||[foundationCommon/PriceListItem](PriceListItem.md)|
-|[productId](#productId)|Product associated with the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[productNumber](#productNumber)|User-defined product number.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[quantitySellingCode](#quantitySellingCode)|Quantity of the product that must be sold for a given price level.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[quantitySellingCode_display](#quantitySellingCode_display)||[foundationCommon/PriceListItem](PriceListItem.md)|
-|[roundingOptionAmount](#roundingOptionAmount)|Rounding option amount for the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[roundingOptionAmountBase](#roundingOptionAmountBase)|Value of the Rounding Amount in base currency.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[roundingOptionCode](#roundingOptionCode)|Option for rounding the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[roundingOptionCode_display](#roundingOptionCode_display)||[foundationCommon/PriceListItem](PriceListItem.md)|
-|[roundingPolicyCode](#roundingPolicyCode)|Policy for rounding the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[roundingPolicyCode_display](#roundingPolicyCode_display)||[foundationCommon/PriceListItem](PriceListItem.md)|
-|[uoMId](#uoMId)|Unique identifier of the unit for the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
-|[uoMScheduleId](#uoMScheduleId)|Unique identifier of the unit schedule for the price list.|[foundationCommon/PriceListItem](PriceListItem.md)|
+|[productPriceLevelId](#productPriceLevelId)|Unique identifier of the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[createdOn](#createdOn)|Date and time when the price list was created.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the price list was last modified.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[amount](#amount)|Monetary amount for the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[amountBase](#amountBase)|Value of the Amount in base currency.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[percentage](#percentage)|Percentage for the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[priceLevelId](#priceLevelId)|Unique identifier of the price level associated with this price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[pricingMethodCode](#pricingMethodCode)|Pricing method applied to the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[pricingMethodCode_display](#pricingMethodCode_display)||<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[productId](#productId)|Product associated with the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[productNumber](#productNumber)|User-defined product number.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[quantitySellingCode](#quantitySellingCode)|Quantity of the product that must be sold for a given price level.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[quantitySellingCode_display](#quantitySellingCode_display)||<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[roundingOptionAmount](#roundingOptionAmount)|Rounding option amount for the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[roundingOptionAmountBase](#roundingOptionAmountBase)|Value of the Rounding Amount in base currency.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[roundingOptionCode](#roundingOptionCode)|Option for rounding the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[roundingOptionCode_display](#roundingOptionCode_display)||<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[roundingPolicyCode](#roundingPolicyCode)|Policy for rounding the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[roundingPolicyCode_display](#roundingPolicyCode_display)||<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[uoMId](#uoMId)|Unique identifier of the unit for the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
+|[uoMScheduleId](#uoMScheduleId)|Unique identifier of the unit schedule for the price list.|<a href="PriceListItem.md" target="_blank">foundationCommon/PriceListItem</a>|
 
 ### <a href=#productPriceLevelId name="productPriceLevelId">productPriceLevelId</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Idea
 
 An idea belonging to a portal Idea Forum.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Idea.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,61 +46,62 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/Idea  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/Idea](Idea.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/Idea](Idea.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/Idea](Idea.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/Idea](Idea.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/Idea](Idea.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/Idea](Idea.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/Idea](Idea.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/Idea](Idea.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/Idea](Idea.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/Idea](Idea.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/Idea](Idea.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/Idea](Idea.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/Idea](Idea.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/Idea](Idea.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/Idea](Idea.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/Idea](Idea.md)|
-|[ideaId](#ideaId)|Shows the entity instances.|[portals/Idea](Idea.md)|
-|[stateCode](#stateCode)|Shows whether the idea is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|[portals/Idea](Idea.md)|
-|[stateCode_display](#stateCode_display)||[portals/Idea](Idea.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[ideaId](#ideaId)|Shows the entity instances.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[stateCode](#stateCode)|Shows whether the idea is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[stateCode_display](#stateCode_display)||<a href="Idea.md" target="_blank">portals/Idea</a>|
 |[statusCode](#statusCode)|Select the idea's status.
-|[portals/Idea](Idea.md)|
-|[statusCode_display](#statusCode_display)||[portals/Idea](Idea.md)|
-|[name](#name)|Shows the name or title of the idea.|[portals/Idea](Idea.md)|
-|[approved](#approved)|Indicates whether or not this idea is approved for display.|[portals/Idea](Idea.md)|
-|[authorEmail](#authorEmail)|Shows the email address for the author of this idea.|[portals/Idea](Idea.md)|
-|[authorId](#authorId)|The author of the idea.|[portals/Idea](Idea.md)|
-|[authorName](#authorName)|Shows the name for the author of this idea.|[portals/Idea](Idea.md)|
-|[commentPolicy](#commentPolicy)|Indicates the comment policy to be used for this idea.|[portals/Idea](Idea.md)|
-|[commentPolicy_display](#commentPolicy_display)||[portals/Idea](Idea.md)|
-|[copy](#copy)|Type a description of the idea.|[portals/Idea](Idea.md)|
-|[adxCreatedByIPAddress](#adxCreatedByIPAddress)|Shows the IP address of the user when they submitted this idea.|[portals/Idea](Idea.md)|
-|[adxCreatedByUsername](#adxCreatedByUsername)|Shows the system username of the user when they submitted this idea.|[portals/Idea](Idea.md)|
-|[submittedOn](#submittedOn)|Shows the date and time this idea was submitted.|[portals/Idea](Idea.md)|
-|[ideaForumId](#ideaForumId)|The parent idea forum that this idea belongs to.|[portals/Idea](Idea.md)|
-|[partialURL](#partialURL)|Shows the URL path fragment used to generate a URL for this idea.|[portals/Idea](Idea.md)|
-|[statusAuthorId](#statusAuthorId)|The author of the idea's status.|[portals/Idea](Idea.md)|
-|[statusComment](#statusComment)|Type a comment for the status of the idea.|[portals/Idea](Idea.md)|
-|[summary](#summary)|Type an abstract of this idea.|[portals/Idea](Idea.md)|
-|[votersTotalNumberOf](#votersTotalNumberOf)|Shows the total number of voters for this idea.|[portals/Idea](Idea.md)|
-|[votesDown](#votesDown)|Shows the number of down votes this idea has received.|[portals/Idea](Idea.md)|
-|[votesTotalNumberOf](#votesTotalNumberOf)|Shows the total number of votes for this idea.|[portals/Idea](Idea.md)|
-|[voteSum](#voteSum)|Shows the calculated number of up votes minus down votes.|[portals/Idea](Idea.md)|
-|[votesUp](#votesUp)|Shows the number of up votes this idea has received.|[portals/Idea](Idea.md)|
-|[totalVotes](#totalVotes)|Shows the total votes casted on the idea.|[portals/Idea](Idea.md)|
-|[totalVotesDate](#totalVotesDate)|Last Updated time of rollup field Total Votes.|[portals/Idea](Idea.md)|
-|[totalVotesState](#totalVotesState)|State of rollup field Total Votes.|[portals/Idea](Idea.md)|
-|[votesSum](#votesSum)|Shows the sum of all votes casted on the idea.|[portals/Idea](Idea.md)|
-|[votesSumDate](#votesSumDate)|Last Updated time of rollup field Vote Sum.|[portals/Idea](Idea.md)|
-|[votesSumState](#votesSumState)|State of rollup field Vote Sum.|[portals/Idea](Idea.md)|
+|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[statusCode_display](#statusCode_display)||<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[name](#name)|Shows the name or title of the idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[approved](#approved)|Indicates whether or not this idea is approved for display.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[authorEmail](#authorEmail)|Shows the email address for the author of this idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[authorId](#authorId)|The author of the idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[authorName](#authorName)|Shows the name for the author of this idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[commentPolicy](#commentPolicy)|Indicates the comment policy to be used for this idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[commentPolicy_display](#commentPolicy_display)||<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[copy](#copy)|Type a description of the idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[adxCreatedByIPAddress](#adxCreatedByIPAddress)|Shows the IP address of the user when they submitted this idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[adxCreatedByUsername](#adxCreatedByUsername)|Shows the system username of the user when they submitted this idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[submittedOn](#submittedOn)|Shows the date and time this idea was submitted.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[ideaForumId](#ideaForumId)|The parent idea forum that this idea belongs to.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[partialURL](#partialURL)|Shows the URL path fragment used to generate a URL for this idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[statusAuthorId](#statusAuthorId)|The author of the idea's status.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[statusComment](#statusComment)|Type a comment for the status of the idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[summary](#summary)|Type an abstract of this idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[votersTotalNumberOf](#votersTotalNumberOf)|Shows the total number of voters for this idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[votesDown](#votesDown)|Shows the number of down votes this idea has received.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[votesTotalNumberOf](#votesTotalNumberOf)|Shows the total number of votes for this idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[voteSum](#voteSum)|Shows the calculated number of up votes minus down votes.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[votesUp](#votesUp)|Shows the number of up votes this idea has received.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[totalVotes](#totalVotes)|Shows the total votes casted on the idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[totalVotesDate](#totalVotesDate)|Last Updated time of rollup field Total Votes.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[totalVotesState](#totalVotesState)|State of rollup field Total Votes.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[votesSum](#votesSum)|Shows the sum of all votes casted on the idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[votesSumDate](#votesSumDate)|Last Updated time of rollup field Vote Sum.|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[votesSumState](#votesSumState)|State of rollup field Vote Sum.|<a href="Idea.md" target="_blank">portals/Idea</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

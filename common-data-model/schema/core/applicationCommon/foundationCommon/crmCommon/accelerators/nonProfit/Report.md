@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Report
 
 A status report submitted by an awardee to the granting entity (i.e., a Foundation) to report on what impact has been accomplished to date through the funds awarded to them.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Report.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,48 +46,49 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Report  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Report](Report.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Report](Report.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Report](Report.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Report](Report.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Report](Report.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Report](Report.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Report](Report.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Report](Report.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Report](Report.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Report](Report.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Report](Report.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Report](Report.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Report](Report.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Report](Report.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Report](Report.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Report](Report.md)|
-|[reportId](#reportId)|Unique identifier for entity instances|[nonProfit/Report](Report.md)|
-|[stateCode](#stateCode)|Status of the Report|[nonProfit/Report](Report.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Report](Report.md)|
-|[statusCode](#statusCode)|Reason for the status of the Report|[nonProfit/Report](Report.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Report](Report.md)|
-|[name](#name)||[nonProfit/Report](Report.md)|
-|[award](#award)|Award|[nonProfit/Report](Report.md)|
-|[awardVersionId](#awardVersionId)|Award Version|[nonProfit/Report](Report.md)|
-|[description](#description)|Description of the Report.|[nonProfit/Report](Report.md)|
-|[dueDate](#dueDate)|Date Report is due.|[nonProfit/Report](Report.md)|
-|[primaryContactId](#primaryContactId)|Unique identifier for Contact associated with Report.|[nonProfit/Report](Report.md)|
-|[reportAccountId](#reportAccountId)|Account|[nonProfit/Report](Report.md)|
-|[reportLeadId](#reportLeadId)|Lead|[nonProfit/Report](Report.md)|
-|[reportSubmittedById](#reportSubmittedById)|Unique identifier for Contact associated with Report.|[nonProfit/Report](Report.md)|
-|[requestId](#requestId)|Request|[nonProfit/Report](Report.md)|
-|[status](#status)|Status of the Report.|[nonProfit/Report](Report.md)|
-|[status_display](#status_display)||[nonProfit/Report](Report.md)|
-|[submittedDate](#submittedDate)|Date Report was submitted.|[nonProfit/Report](Report.md)|
-|[type](#type)|Type of Report.|[nonProfit/Report](Report.md)|
-|[type_display](#type_display)||[nonProfit/Report](Report.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[reportId](#reportId)|Unique identifier for entity instances|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[stateCode](#stateCode)|Status of the Report|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[stateCode_display](#stateCode_display)||<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[statusCode](#statusCode)|Reason for the status of the Report|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[statusCode_display](#statusCode_display)||<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[name](#name)||<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[award](#award)|Award|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[awardVersionId](#awardVersionId)|Award Version|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[description](#description)|Description of the Report.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[dueDate](#dueDate)|Date Report is due.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[primaryContactId](#primaryContactId)|Unique identifier for Contact associated with Report.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[reportAccountId](#reportAccountId)|Account|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[reportLeadId](#reportLeadId)|Lead|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[reportSubmittedById](#reportSubmittedById)|Unique identifier for Contact associated with Report.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[requestId](#requestId)|Request|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[status](#status)|Status of the Report.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[status_display](#status_display)||<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[submittedDate](#submittedDate)|Date Report was submitted.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[type](#type)|Type of Report.|<a href="Report.md" target="_blank">nonProfit/Report</a>|
+|[type_display](#type_display)||<a href="Report.md" target="_blank">nonProfit/Report</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

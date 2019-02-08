@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Property Association
 
 Association of a property definition with another entity in the system.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/PropertyAssociation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,34 +43,35 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/PropertyAssociation  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[dynamicPropertyAssociationId](#dynamicPropertyAssociationId)|Shows the unique identifier of the property association.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[name](#name)|name|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[regardingObjectId](#regardingObjectId)|Shows the object that the property is associated with.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[dynamicPropertyId](#dynamicPropertyId)|Shows the property that uses this option set item.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[associationStatus](#associationStatus)|Shows the status of the property association.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[associationStatus_display](#associationStatus_display)||[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[inheritanceState](#inheritanceState)|Shows the inheritance state in relationship to the parent property.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[inheritanceState_display](#inheritanceState_display)||[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|[foundationCommon/PropertyAssociation](PropertyAssociation.md)|
+|[dynamicPropertyAssociationId](#dynamicPropertyAssociationId)|Shows the unique identifier of the property association.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[name](#name)|name|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[regardingObjectId](#regardingObjectId)|Shows the object that the property is associated with.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[dynamicPropertyId](#dynamicPropertyId)|Shows the property that uses this option set item.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[associationStatus](#associationStatus)|Shows the status of the property association.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[associationStatus_display](#associationStatus_display)||<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[inheritanceState](#inheritanceState)|Shows the inheritance state in relationship to the parent property.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[inheritanceState_display](#inheritanceState_display)||<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|<a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>|
 
 ### <a href=#dynamicPropertyAssociationId name="dynamicPropertyAssociationId">dynamicPropertyAssociationId</a>
 

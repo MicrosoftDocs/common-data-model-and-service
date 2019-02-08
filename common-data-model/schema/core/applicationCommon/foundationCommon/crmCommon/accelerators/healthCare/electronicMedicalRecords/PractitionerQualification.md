@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Practitioner Qualification
 
 Qualifications obtained by training and certification.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,43 +46,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/PractitionerQualification  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[practitionerQualificationId](#practitionerQualificationId)|Unique identifier for entity instances|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[stateCode](#stateCode)|Status of the Practitioner Qualification|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[statusCode](#statusCode)|Reason for the status of the Practitioner Qualification|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[display](#display)|The name of the custom entity.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[code](#code)|Coded representation of the qualification.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[codeSystem](#codeSystem)||[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[codeVersion](#codeVersion)||[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[issuer](#issuer)|An identifier that applies to this person's qualification in this role.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[periodEnd](#periodEnd)|Qualification Expiry Date|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[periodStart](#periodStart)|Qualification Issue Date|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[practitioner](#practitioner)|A person with a formal responsibility in the provisioning of healthcare or related services.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[providerNPINumber](#providerNPINumber)|An identifier for this qualification for the practitioner|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
-|[qualificationCode](#qualificationCode)|Coded representation of the qualification.|[electronicMedicalRecords/PractitionerQualification](PractitionerQualification.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[practitionerQualificationId](#practitionerQualificationId)|Unique identifier for entity instances|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[stateCode](#stateCode)|Status of the Practitioner Qualification|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[stateCode_display](#stateCode_display)||<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[statusCode](#statusCode)|Reason for the status of the Practitioner Qualification|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[statusCode_display](#statusCode_display)||<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[display](#display)|The name of the custom entity.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[code](#code)|Coded representation of the qualification.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[codeSystem](#codeSystem)||<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[codeVersion](#codeVersion)||<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[issuer](#issuer)|An identifier that applies to this person's qualification in this role.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[periodEnd](#periodEnd)|Qualification Expiry Date|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[periodStart](#periodStart)|Qualification Issue Date|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[practitioner](#practitioner)|A person with a formal responsibility in the provisioning of healthcare or related services.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[providerNPINumber](#providerNPINumber)|An identifier for this qualification for the practitioner|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
+|[qualificationCode](#qualificationCode)|Coded representation of the qualification.|<a href="PractitionerQualification.md" target="_blank">electronicMedicalRecords/PractitionerQualification</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

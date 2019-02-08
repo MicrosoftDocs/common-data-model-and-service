@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Sponsorable Article
 
 An item or a group of items that can be sponsored  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/SponsorableArticle.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,43 +46,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/SponsorableArticle  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[sponsorableArticleId](#sponsorableArticleId)|Unique identifier for entity instances|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[stateCode](#stateCode)|Status of the Sponsorable Article|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[statusCode](#statusCode)|Reason for the status of the Sponsorable Article|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[costPerUnit](#costPerUnit)||[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[costPerUnitBase](#costPerUnitBase)|Value of the Cost per unit in base currency.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[description](#description)||[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[eventSponsorship](#eventSponsorship)||[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[numberOfUnits](#numberOfUnits)||[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[totalCost](#totalCost)||[eventManagement/SponsorableArticle](SponsorableArticle.md)|
-|[totalcostBase](#totalcostBase)|Value of the Total cost in base currency.|[eventManagement/SponsorableArticle](SponsorableArticle.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[sponsorableArticleId](#sponsorableArticleId)|Unique identifier for entity instances|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[stateCode](#stateCode)|Status of the Sponsorable Article|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[stateCode_display](#stateCode_display)||<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[statusCode](#statusCode)|Reason for the status of the Sponsorable Article|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[statusCode_display](#statusCode_display)||<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[name](#name)|The name of the custom entity.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[costPerUnit](#costPerUnit)||<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[costPerUnitBase](#costPerUnitBase)|Value of the Cost per unit in base currency.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[description](#description)||<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[eventSponsorship](#eventSponsorship)||<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[numberOfUnits](#numberOfUnits)||<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[totalCost](#totalCost)||<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
+|[totalcostBase](#totalcostBase)|Value of the Total cost in base currency.|<a href="SponsorableArticle.md" target="_blank">eventManagement/SponsorableArticle</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

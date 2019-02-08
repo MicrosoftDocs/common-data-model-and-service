@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Docket
 
 A Docket is used to associate inquiries (LOIs) and requests with a specific grant/award cycle or date (usually a review/board meeting) on which a foundation will make final decisions on applications.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Docket.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,43 +46,44 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Docket  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Docket](Docket.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Docket](Docket.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Docket](Docket.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Docket](Docket.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Docket](Docket.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Docket](Docket.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Docket](Docket.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Docket](Docket.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Docket](Docket.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Docket](Docket.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Docket](Docket.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Docket](Docket.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Docket](Docket.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Docket](Docket.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Docket](Docket.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Docket](Docket.md)|
-|[docketId](#docketId)|Unique identifier for entity instances|[nonProfit/Docket](Docket.md)|
-|[stateCode](#stateCode)|Status of the Docket|[nonProfit/Docket](Docket.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Docket](Docket.md)|
-|[statusCode](#statusCode)|Reason for the status of the Docket|[nonProfit/Docket](Docket.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Docket](Docket.md)|
-|[name](#name)||[nonProfit/Docket](Docket.md)|
-|[assignedToId](#assignedToId)|Assigned To|[nonProfit/Docket](Docket.md)|
-|[awardRecipientId](#awardRecipientId)||[nonProfit/Docket](Docket.md)|
-|[docketFiscalSponsor](#docketFiscalSponsor)||[nonProfit/Docket](Docket.md)|
-|[internalDueDate](#internalDueDate)|Date the Docket is scheduled to be completed.|[nonProfit/Docket](Docket.md)|
-|[status](#status)|Indicates the current status of the Docket.|[nonProfit/Docket](Docket.md)|
-|[status_display](#status_display)||[nonProfit/Docket](Docket.md)|
-|[summaryDescription](#summaryDescription)|Short description; longer content may be added as an attachment.|[nonProfit/Docket](Docket.md)|
-|[type](#type)|The type of Docket.|[nonProfit/Docket](Docket.md)|
-|[type_display](#type_display)||[nonProfit/Docket](Docket.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[docketId](#docketId)|Unique identifier for entity instances|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[stateCode](#stateCode)|Status of the Docket|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[stateCode_display](#stateCode_display)||<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[statusCode](#statusCode)|Reason for the status of the Docket|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[statusCode_display](#statusCode_display)||<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[name](#name)||<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[assignedToId](#assignedToId)|Assigned To|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[awardRecipientId](#awardRecipientId)||<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[docketFiscalSponsor](#docketFiscalSponsor)||<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[internalDueDate](#internalDueDate)|Date the Docket is scheduled to be completed.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[status](#status)|Indicates the current status of the Docket.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[status_display](#status_display)||<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[summaryDescription](#summaryDescription)|Short description; longer content may be added as an attachment.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[type](#type)|The type of Docket.|<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
+|[type_display](#type_display)||<a href="Docket.md" target="_blank">nonProfit/Docket</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

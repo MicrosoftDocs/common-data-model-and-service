@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Customer Relationship
 
 Relationship between a customer and a partner in which either can be an account or contact.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/CustomerRelationship.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,36 +43,37 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/CustomerRelationship  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[versionNumber](#versionNumber)||[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[createdOn](#createdOn)|Shows the date and time when the customer relationship was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[customerRoleId](#customerRoleId)|Choose the primary party's role or nature of the relationship the customer has with the second party. The field is read-only until both parties have been selected. Administrators can configure role values under Business Management in the Settings area.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[customerRelationshipId](#customerRelationshipId)|Unique identifier of the customer relationship.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[partnerIdType](#partnerIdType)|The type of partner, either Account or Contact.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[partnerId](#partnerId)|Select the secondary account or contact involved in the customer relationship.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the customer relationship.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[converseRelationshipId](#converseRelationshipId)|Unique identifier of the converse relationship of the customer relationship.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[partnerRoleId](#partnerRoleId)|Choose the secondary party's role or nature of the relationship the customer has with the primary party. The field is read-only until both parties have been selected. Administrators can configure role values under Business Management in the Settings area.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[customerRoleDescription](#customerRoleDescription)|Type additional information about the primary party's role in the customer relationship, such as the length or quality of the relationship.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[partnerRoleDescription](#partnerRoleDescription)|Type additional information about the secondary party's role in the customer relationship, such as the length or quality of the relationship.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns the customer relationship.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
-|[owningTeam](#owningTeam)|Unique identifier of the team who owns the customer relationship.|[applicationCommon/CustomerRelationship](CustomerRelationship.md)|
+|[versionNumber](#versionNumber)||<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[createdOn](#createdOn)|Shows the date and time when the customer relationship was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[customerRoleId](#customerRoleId)|Choose the primary party's role or nature of the relationship the customer has with the second party. The field is read-only until both parties have been selected. Administrators can configure role values under Business Management in the Settings area.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[customerRelationshipId](#customerRelationshipId)|Unique identifier of the customer relationship.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[partnerIdType](#partnerIdType)|The type of partner, either Account or Contact.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[partnerId](#partnerId)|Select the secondary account or contact involved in the customer relationship.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the customer relationship.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[converseRelationshipId](#converseRelationshipId)|Unique identifier of the converse relationship of the customer relationship.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[partnerRoleId](#partnerRoleId)|Choose the secondary party's role or nature of the relationship the customer has with the primary party. The field is read-only until both parties have been selected. Administrators can configure role values under Business Management in the Settings area.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[customerRoleDescription](#customerRoleDescription)|Type additional information about the primary party's role in the customer relationship, such as the length or quality of the relationship.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[partnerRoleDescription](#partnerRoleDescription)|Type additional information about the secondary party's role in the customer relationship, such as the length or quality of the relationship.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns the customer relationship.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
+|[owningTeam](#owningTeam)|Unique identifier of the team who owns the customer relationship.|<a href="CustomerRelationship.md" target="_blank">applicationCommon/CustomerRelationship</a>|
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 

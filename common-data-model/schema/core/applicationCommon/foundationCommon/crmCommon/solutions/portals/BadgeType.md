@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Badge Type
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/BadgeType.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,38 +42,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/BadgeType  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[badgeTypeId](#badgeTypeId)|Shows the entity instances.|[portals/BadgeType](BadgeType.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in the solution options. |[portals/BadgeType](BadgeType.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/BadgeType](BadgeType.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was updated. The date and time are displayed in the time zone selected in the solution options. |[portals/BadgeType](BadgeType.md)|
-|[modifiedBy](#modifiedBy)|Shows who updated the record.|[portals/BadgeType](BadgeType.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/BadgeType](BadgeType.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who updated the record on behalf of another user.|[portals/BadgeType](BadgeType.md)|
-|[organizationId](#organizationId)|Shows the organization.|[portals/BadgeType](BadgeType.md)|
-|[stateCode](#stateCode)|Status of the Badge Type|[portals/BadgeType](BadgeType.md)|
-|[stateCode_display](#stateCode_display)||[portals/BadgeType](BadgeType.md)|
-|[statusCode](#statusCode)|Shows the reason for the status of the badge type.|[portals/BadgeType](BadgeType.md)|
-|[statusCode_display](#statusCode_display)||[portals/BadgeType](BadgeType.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/BadgeType](BadgeType.md)|
-|[importSequenceNumber](#importSequenceNumber)|Shows the sequence number of the import that created this record.|[portals/BadgeType](BadgeType.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Shows the date and time when the record was migrated. The date and time are displayed in the time zone selected in the solution options. |[portals/BadgeType](BadgeType.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/BadgeType](BadgeType.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Shows the time zone code that was in use when the record was created.|[portals/BadgeType](BadgeType.md)|
-|[name](#name)|Shows the name of the custom entity.|[portals/BadgeType](BadgeType.md)|
+|[badgeTypeId](#badgeTypeId)|Shows the entity instances.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in the solution options. |<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was updated. The date and time are displayed in the time zone selected in the solution options. |<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[modifiedBy](#modifiedBy)|Shows who updated the record.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who updated the record on behalf of another user.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[organizationId](#organizationId)|Shows the organization.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[stateCode](#stateCode)|Status of the Badge Type|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[stateCode_display](#stateCode_display)||<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[statusCode](#statusCode)|Shows the reason for the status of the badge type.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[statusCode_display](#statusCode_display)||<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Shows the sequence number of the import that created this record.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Shows the date and time when the record was migrated. The date and time are displayed in the time zone selected in the solution options. |<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Shows the time zone code that was in use when the record was created.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[name](#name)|Shows the name of the custom entity.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
 |[backgroundColor](#backgroundColor)|Enter a hex value or RGB or RGBA
 
 ex: #FFFFFF
 rgb(255,255,255)
-rgba(255,255,255,0.5)|[portals/BadgeType](BadgeType.md)|
-|[description](#description)||[portals/BadgeType](BadgeType.md)|
-|[displayText](#displayText)|Actual shown label for the badge|[portals/BadgeType](BadgeType.md)|
-|[iconName](#iconName)|Add font awesome name such as fa-user|[portals/BadgeType](BadgeType.md)|
+rgba(255,255,255,0.5)|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[description](#description)||<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[displayText](#displayText)|Actual shown label for the badge|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[iconName](#iconName)|Add font awesome name such as fa-user|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
 
 ### <a href=#badgeTypeId name="badgeTypeId">badgeTypeId</a>
 

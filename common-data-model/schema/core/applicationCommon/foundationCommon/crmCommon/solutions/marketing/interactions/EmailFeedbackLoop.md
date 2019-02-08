@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email feedback loop
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailFeedbackLoop.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,23 +33,24 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailFeedbackLoop  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[accountId](#accountId)|Account|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[messageId](#messageId)|Message|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailFeedbackLoop](EmailFeedbackLoop.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[contactId](#contactId)|Contact|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[accountId](#accountId)|Account|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[messageId](#messageId)|Message|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailFeedbackLoop.md" target="_blank">interactions/EmailFeedbackLoop</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

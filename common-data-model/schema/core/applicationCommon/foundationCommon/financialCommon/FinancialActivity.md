@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Financial Activity
 
 Summarization of financial activity for a ledger, date, account, and dimension combination  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FinancialActivity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -40,23 +40,24 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 financialCommon/FinancialActivity  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[financialActivityId](#financialActivityId)|The surrogate key of the record|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[mainAccountCategoryKey](#mainAccountCategoryKey)|The category of the main account for this activity, denormalized for reporting|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[mainAccountKey](#mainAccountKey)|The main account containing this financial activity|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[companyKey](#companyKey)|The company for which this financial activity occurred|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[transactionCurrencyKey](#transactionCurrencyKey)|The currency in which the source transaction occurred|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[fiscalCalendarPeriodKey](#fiscalCalendarPeriodKey)|The fiscal period in which the financial activity occurred|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[ledgerDimensionDisplayValue](#ledgerDimensionDisplayValue)|A denormalization of the full string representing the main account plus additional dimension values|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[transactionCurrencyCode](#transactionCurrencyCode)|A denormalization of the currency code in which the source transaction occurred|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[accountingCurrencyAmount](#accountingCurrencyAmount)|The amount of the financial activity expressed in the accounting currency|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[accountingDate](#accountingDate)|The date on which the financial activity was recognized|[financialCommon/FinancialActivity](FinancialActivity.md)|
-|[ledgerId](#ledgerId)|The ledger containing this financial activity|[financialCommon/FinancialActivity](FinancialActivity.md)|
+|[financialActivityId](#financialActivityId)|The surrogate key of the record|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[mainAccountCategoryKey](#mainAccountCategoryKey)|The category of the main account for this activity, denormalized for reporting|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[mainAccountKey](#mainAccountKey)|The main account containing this financial activity|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[companyKey](#companyKey)|The company for which this financial activity occurred|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[transactionCurrencyKey](#transactionCurrencyKey)|The currency in which the source transaction occurred|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[fiscalCalendarPeriodKey](#fiscalCalendarPeriodKey)|The fiscal period in which the financial activity occurred|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[ledgerDimensionDisplayValue](#ledgerDimensionDisplayValue)|A denormalization of the full string representing the main account plus additional dimension values|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[transactionCurrencyCode](#transactionCurrencyCode)|A denormalization of the currency code in which the source transaction occurred|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[accountingCurrencyAmount](#accountingCurrencyAmount)|The amount of the financial activity expressed in the accounting currency|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[accountingDate](#accountingDate)|The date on which the financial activity was recognized|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
+|[ledgerId](#ledgerId)|The ledger containing this financial activity|<a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>|
 
 ### <a href=#financialActivityId name="financialActivityId">financialActivityId</a>
 

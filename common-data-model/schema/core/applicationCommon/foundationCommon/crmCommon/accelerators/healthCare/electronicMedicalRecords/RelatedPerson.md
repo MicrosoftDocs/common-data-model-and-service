@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Related Person
 
 Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,40 +46,41 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/RelatedPerson  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[relatedPersonId](#relatedPersonId)|Unique identifier for entity instances|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[stateCode](#stateCode)|Status of the Related Person|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[statusCode](#statusCode)|Reason for the status of the Related Person|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[active](#active)|Whether this related person record is in active use.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[patient](#patient)|The patient this person is related to.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[relatedPerson](#relatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[relatedPersonPeriodEndDate](#relatedPersonPeriodEndDate)|The period of time that this relationship is considered to be valid. If there are no dates defined, then the interval is unknown.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[relatedPersonPeriodStartDate](#relatedPersonPeriodStartDate)|The period of time that this relationship is considered to be valid. If there are no dates defined, then the interval is unknown.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
-|[relationship](#relationship)|The nature of the relationship between a patient and the related person.|[electronicMedicalRecords/RelatedPerson](RelatedPerson.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[relatedPersonId](#relatedPersonId)|Unique identifier for entity instances|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[stateCode](#stateCode)|Status of the Related Person|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[stateCode_display](#stateCode_display)||<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[statusCode](#statusCode)|Reason for the status of the Related Person|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[statusCode_display](#statusCode_display)||<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[name](#name)|The name of the custom entity.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[active](#active)|Whether this related person record is in active use.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[patient](#patient)|The patient this person is related to.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[relatedPerson](#relatedPerson)|Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[relatedPersonPeriodEndDate](#relatedPersonPeriodEndDate)|The period of time that this relationship is considered to be valid. If there are no dates defined, then the interval is unknown.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[relatedPersonPeriodStartDate](#relatedPersonPeriodStartDate)|The period of time that this relationship is considered to be valid. If there are no dates defined, then the interval is unknown.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
+|[relationship](#relationship)|The nature of the relationship between a patient and the related person.|<a href="RelatedPerson.md" target="_blank">electronicMedicalRecords/RelatedPerson</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

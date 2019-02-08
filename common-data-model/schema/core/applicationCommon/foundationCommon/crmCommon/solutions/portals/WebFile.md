@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Web File
 
 Storage of files used in the web Portals.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/WebFile.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,59 +46,60 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/WebFile  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/WebFile](WebFile.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/WebFile](WebFile.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/WebFile](WebFile.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/WebFile](WebFile.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/WebFile](WebFile.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/WebFile](WebFile.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/WebFile](WebFile.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/WebFile](WebFile.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/WebFile](WebFile.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/WebFile](WebFile.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/WebFile](WebFile.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/WebFile](WebFile.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/WebFile](WebFile.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/WebFile](WebFile.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/WebFile](WebFile.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/WebFile](WebFile.md)|
-|[webFileId](#webFileId)|Unique identifier for entity instances|[portals/WebFile](WebFile.md)|
-|[stateCode](#stateCode)|Status of the Web File|[portals/WebFile](WebFile.md)|
-|[stateCode_display](#stateCode_display)||[portals/WebFile](WebFile.md)|
-|[statusCode](#statusCode)|Reason for the status of the Web File|[portals/WebFile](WebFile.md)|
-|[statusCode_display](#statusCode_display)||[portals/WebFile](WebFile.md)|
-|[name](#name)|Shows the name of the custom entity.|[portals/WebFile](WebFile.md)|
-|[adxCreatedByIPAddress](#adxCreatedByIPAddress)||[portals/WebFile](WebFile.md)|
-|[adxCreatedByUsername](#adxCreatedByUsername)||[portals/WebFile](WebFile.md)|
-|[displayDate](#displayDate)||[portals/WebFile](WebFile.md)|
-|[displayOrder](#displayOrder)||[portals/WebFile](WebFile.md)|
-|[hiddenFromSitemap](#hiddenFromSitemap)||[portals/WebFile](WebFile.md)|
-|[adxModifiedByIPAddress](#adxModifiedByIPAddress)||[portals/WebFile](WebFile.md)|
-|[adxModifiedByUsername](#adxModifiedByUsername)||[portals/WebFile](WebFile.md)|
-|[parentPageId](#parentPageId)|Unique identifier for Web Page associated with Web File.|[portals/WebFile](WebFile.md)|
-|[partialURL](#partialURL)||[portals/WebFile](WebFile.md)|
-|[subjectId](#subjectId)|Unique identifier for Subject associated with Web File.|[portals/WebFile](WebFile.md)|
-|[summary](#summary)||[portals/WebFile](WebFile.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with Web File.|[portals/WebFile](WebFile.md)|
-|[allowOrigin](#allowOrigin)|Defines CORS header Access-Control-Allow-Origin for cross origin requests.|[portals/WebFile](WebFile.md)|
-|[cloudBlobAddress](#cloudBlobAddress)||[portals/WebFile](WebFile.md)|
-|[contentDisposition](#contentDisposition)|Shows the value to be applied to the HTTP Response Headers Content-Disposition.|[portals/WebFile](WebFile.md)|
-|[contentDisposition_display](#contentDisposition_display)||[portals/WebFile](WebFile.md)|
-|[enableTracking](#enableTracking)|Select whether to enable logging of users' downloads of this web file.|[portals/WebFile](WebFile.md)|
-|[excludeFromSearch](#excludeFromSearch)|Shows whether the web file is excluded from the portal search.|[portals/WebFile](WebFile.md)|
-|[expirationDate](#expirationDate)||[portals/WebFile](WebFile.md)|
-|[masterWebFileId](#masterWebFileId)|Unique identifier for Web File associated with Web File.|[portals/WebFile](WebFile.md)|
-|[publishingStateId](#publishingStateId)|Unique identifier for Publishing State associated with Web File.|[portals/WebFile](WebFile.md)|
-|[releaseDate](#releaseDate)||[portals/WebFile](WebFile.md)|
-|[title](#title)||[portals/WebFile](WebFile.md)|
-|[blogPostId](#blogPostId)|Unique identifier for Blog Post associated with Web File.|[portals/WebFile](WebFile.md)|
-|[ideaId](#ideaId)|Shows the Idea associated with the Web File.|[portals/WebFile](WebFile.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[webFileId](#webFileId)|Unique identifier for entity instances|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[stateCode](#stateCode)|Status of the Web File|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[stateCode_display](#stateCode_display)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[statusCode](#statusCode)|Reason for the status of the Web File|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[statusCode_display](#statusCode_display)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[name](#name)|Shows the name of the custom entity.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[adxCreatedByIPAddress](#adxCreatedByIPAddress)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[adxCreatedByUsername](#adxCreatedByUsername)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[displayDate](#displayDate)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[displayOrder](#displayOrder)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[hiddenFromSitemap](#hiddenFromSitemap)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[adxModifiedByIPAddress](#adxModifiedByIPAddress)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[adxModifiedByUsername](#adxModifiedByUsername)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[parentPageId](#parentPageId)|Unique identifier for Web Page associated with Web File.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[partialURL](#partialURL)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[subjectId](#subjectId)|Unique identifier for Subject associated with Web File.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[summary](#summary)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with Web File.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[allowOrigin](#allowOrigin)|Defines CORS header Access-Control-Allow-Origin for cross origin requests.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[cloudBlobAddress](#cloudBlobAddress)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[contentDisposition](#contentDisposition)|Shows the value to be applied to the HTTP Response Headers Content-Disposition.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[contentDisposition_display](#contentDisposition_display)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[enableTracking](#enableTracking)|Select whether to enable logging of users' downloads of this web file.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[excludeFromSearch](#excludeFromSearch)|Shows whether the web file is excluded from the portal search.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[expirationDate](#expirationDate)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[masterWebFileId](#masterWebFileId)|Unique identifier for Web File associated with Web File.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[publishingStateId](#publishingStateId)|Unique identifier for Publishing State associated with Web File.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[releaseDate](#releaseDate)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[title](#title)||<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[blogPostId](#blogPostId)|Unique identifier for Blog Post associated with Web File.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
+|[ideaId](#ideaId)|Shows the Idea associated with the Web File.|<a href="WebFile.md" target="_blank">portals/WebFile</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Case
 
 Service request case associated with a contract.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,6 +43,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/Case  
 [portals/Case](../solutions/portals/Case.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.cdm.json/Case")  
 
@@ -50,104 +51,104 @@ service/Case
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[service/Case](Case.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[service/Case](Case.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[service/Case](Case.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[service/Case](Case.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[service/Case](Case.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[service/Case](Case.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/Case](Case.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[service/Case](Case.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[service/Case](Case.md)|
-|[ownerId](#ownerId)|Owner Id|[service/Case](Case.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[service/Case](Case.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[service/Case](Case.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[service/Case](Case.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/Case](Case.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/Case](Case.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/Case](Case.md)|
-|[incidentId](#incidentId)|Unique identifier of the case.|[service/Case](Case.md)|
-|[emailAddress](#emailAddress)|The primary email address for the entity.|[service/Case](Case.md)|
-|[title](#title)|Type a subject or descriptive name, such as the request, issue, or company name, to identify the case in Microsoft Dynamics 365 views.|[service/Case](Case.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[service/Case](Case.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[service/Case](Case.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[service/Case](Case.md)|
-|[activitiesComplete](#activitiesComplete)|This attribute is used for Sample Service Business Processes.|[service/Case](Case.md)|
-|[actualServiceUnits](#actualServiceUnits)|Type the number of service units that were actually required to resolve the case.|[service/Case](Case.md)|
-|[billedServiceUnits](#billedServiceUnits)|Type the number of service units that were billed to the customer for the case.|[service/Case](Case.md)|
-|[blockedProfile](#blockedProfile)|Details whether the profile is blocked or not.|[service/Case](Case.md)|
-|[caseOriginCode](#caseOriginCode)|Select how contact about the case was originated, such as email, phone, or web, for use in reporting and analysis.|[service/Case](Case.md)|
-|[caseOriginCode_display](#caseOriginCode_display)||[service/Case](Case.md)|
-|[caseTypeCode](#caseTypeCode)|Select the type of case to identify the incident for use in case routing and analysis.|[service/Case](Case.md)|
-|[caseTypeCode_display](#caseTypeCode_display)||[service/Case](Case.md)|
-|[checkEmail](#checkEmail)|This attribute is used for Sample Service Business Processes.|[service/Case](Case.md)|
-|[contractDetailId](#contractDetailId)|Choose the contract line that the case should be logged under to make sure the customer is charged correctly.|[service/Case](Case.md)|
-|[contractId](#contractId)|Choose the service contract that the case should be logged under to make sure the customer is eligible for support services.|[service/Case](Case.md)|
-|[contractServiceLevelCode](#contractServiceLevelCode)|Select the service level for the case to make sure the case is handled correctly.|[service/Case](Case.md)|
-|[contractServiceLevelCode_display](#contractServiceLevelCode_display)||[service/Case](Case.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[service/Case](Case.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[service/Case](Case.md)|
-|[customerSatisfactionCode](#customerSatisfactionCode)|Select the customer's level of satisfaction with the handling and resolution of the case.|[service/Case](Case.md)|
-|[customerSatisfactionCode_display](#customerSatisfactionCode_display)||[service/Case](Case.md)|
-|[description](#description)|Type additional information to describe the case to assist the service team in reaching a resolution.|[service/Case](Case.md)|
-|[entitlementId](#entitlementId)|Choose the entitlement that is applicable for the case.|[service/Case](Case.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[service/Case](Case.md)|
-|[firstResponseSLAStatus](#firstResponseSLAStatus)|Shows the status of the initial response time for the case according to the terms of the SLA.|[service/Case](Case.md)|
-|[firstResponseSLAStatus_display](#firstResponseSLAStatus_display)||[service/Case](Case.md)|
-|[followupBy](#followupBy)|Enter the date by which a customer service representative has to follow up with the customer on this case.|[service/Case](Case.md)|
-|[followUpTaskCreated](#followUpTaskCreated)|This attribute is used for Sample Service Business Processes.|[service/Case](Case.md)|
-|[incidentStageCode](#incidentStageCode)|Select the current stage of the service process for the case to assist service team members when they review or transfer a case.|[service/Case](Case.md)|
-|[incidentStageCode_display](#incidentStageCode_display)||[service/Case](Case.md)|
-|[isDecrementing](#isDecrementing)|For system use only.|[service/Case](Case.md)|
-|[kbArticleId](#kbArticleId)|Choose the article that contains additional information or a resolution for the case, for reference during research or follow up with the customer.|[service/Case](Case.md)|
-|[messageTypeCode](#messageTypeCode)|Shows whether the post originated as a public or private message.|[service/Case](Case.md)|
-|[messageTypeCode_display](#messageTypeCode_display)||[service/Case](Case.md)|
-|[priorityCode](#priorityCode)|Select the priority so that preferred customers or critical issues are handled quickly.|[service/Case](Case.md)|
-|[priorityCode_display](#priorityCode_display)||[service/Case](Case.md)|
-|[productId](#productId)|Choose the product associated with the case to identify warranty, service, or other product issues and be able to report the number of incidents for each product.|[service/Case](Case.md)|
-|[productSerialNumber](#productSerialNumber)|Type the serial number of the product that is associated with this case, so that the number of cases per product can be reported.|[service/Case](Case.md)|
-|[existingCase](#existingCase)|Select an existing case for the customer that has been populated. For internal use only.|[service/Case](Case.md)|
-|[resolveBySLAStatus](#resolveBySLAStatus)|Shows the status of the resolution time for the case according to the terms of the SLA.|[service/Case](Case.md)|
-|[resolveBySLAStatus_display](#resolveBySLAStatus_display)||[service/Case](Case.md)|
-|[responsibleContactId](#responsibleContactId)|Choose an additional customer contact who can also help resolve the case.|[service/Case](Case.md)|
-|[sentimentValue](#sentimentValue)|Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.|[service/Case](Case.md)|
-|[influenceScore](#influenceScore)|Will contain the Influencer score coming from NetBreeze.|[service/Case](Case.md)|
-|[serviceStage](#serviceStage)|Select the stage, in the case resolution process, that the case is in.|[service/Case](Case.md)|
-|[serviceStage_display](#serviceStage_display)||[service/Case](Case.md)|
-|[severityCode](#severityCode)|Select the severity of this case to indicate the incident's impact on the customer's business.|[service/Case](Case.md)|
-|[severityCode_display](#severityCode_display)||[service/Case](Case.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[service/Case](Case.md)|
-|[socialProfileId](#socialProfileId)|Unique identifier of the social profile with which the case is associated.|[service/Case](Case.md)|
-|[stateCode](#stateCode)|Shows whether the case is active, resolved, or canceled. Resolved and canceled cases are read-only and can't be edited unless they are reactivated.|[service/Case](Case.md)|
-|[stateCode_display](#stateCode_display)||[service/Case](Case.md)|
-|[statusCode](#statusCode)|Select the case's status.|[service/Case](Case.md)|
-|[statusCode_display](#statusCode_display)||[service/Case](Case.md)|
-|[subjectId](#subjectId)|Choose the subject for the case, such as catalog request or product complaint, so customer service managers can identify frequent requests or problem areas. Administrators can configure subjects under Business Management in the Settings area.|[service/Case](Case.md)|
-|[ticketNumber](#ticketNumber)|Shows the case number for customer reference and searching capabilities. This cannot be modified.|[service/Case](Case.md)|
-|[masterId](#masterId)|Choose the primary case the current case was merged into.|[service/Case](Case.md)|
-|[parentCaseId](#parentCaseId)|Choose the parent case for a case.|[service/Case](Case.md)|
-|[numberOfChildIncidents](#numberOfChildIncidents)|Number of child incidents associated with the incident.|[service/Case](Case.md)|
-|[merged](#merged)|Tells whether the incident has been merged with another incident.|[service/Case](Case.md)|
-|[routeCase](#routeCase)|Tells whether the incident has been routed to queue or not.|[service/Case](Case.md)|
-|[resolveBy](#resolveBy)|Enter the date by when the case must be resolved.|[service/Case](Case.md)|
-|[responseBy](#responseBy)|For internal use only.|[service/Case](Case.md)|
-|[customerContacted](#customerContacted)|Tells whether customer service representative has contacted the customer or not.|[service/Case](Case.md)|
-|[firstResponseSent](#firstResponseSent)|Indicates if the first response has been sent.|[service/Case](Case.md)|
-|[isEscalated](#isEscalated)|Indicates if the case has been escalated.|[service/Case](Case.md)|
-|[escalatedOn](#escalatedOn)|Indicates the date and time when the case was escalated.|[service/Case](Case.md)|
-|[primaryContactId](#primaryContactId)|Select a primary contact for this case.|[service/Case](Case.md)|
-|[onHoldTime](#onHoldTime)|Shows the duration in minutes for which the case was on hold.|[service/Case](Case.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date time stamp of the last on hold time.|[service/Case](Case.md)|
-|[resolveByKPIId](#resolveByKPIId)|For internal use only.|[service/Case](Case.md)|
-|[firstResponseByKPIId](#firstResponseByKPIId)|For internal use only.|[service/Case](Case.md)|
-|[decrementEntitlementTerm](#decrementEntitlementTerm)|Shows whether terms of the associated entitlement should be decremented or not.|[service/Case](Case.md)|
-|[entityImageId](#entityImageId)||[service/Case](Case.md)|
-|[accountId](#accountId)|Unique identifier of the account with which the case is associated.|[service/Case](Case.md)|
-|[contactId](#contactId)|Unique identifier of the contact associated with the case.|[service/Case](Case.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[service/Case](Case.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[service/Case](Case.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[service/Case](Case.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[service/Case](Case.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Case.md" target="_blank">service/Case</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Case.md" target="_blank">service/Case</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Case.md" target="_blank">service/Case</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Case.md" target="_blank">service/Case</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Case.md" target="_blank">service/Case</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Case.md" target="_blank">service/Case</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Case.md" target="_blank">service/Case</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Case.md" target="_blank">service/Case</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Case.md" target="_blank">service/Case</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Case.md" target="_blank">service/Case</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Case.md" target="_blank">service/Case</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Case.md" target="_blank">service/Case</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Case.md" target="_blank">service/Case</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Case.md" target="_blank">service/Case</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Case.md" target="_blank">service/Case</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Case.md" target="_blank">service/Case</a>|
+|[incidentId](#incidentId)|Unique identifier of the case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[emailAddress](#emailAddress)|The primary email address for the entity.|<a href="Case.md" target="_blank">service/Case</a>|
+|[title](#title)|Type a subject or descriptive name, such as the request, issue, or company name, to identify the case in Microsoft Dynamics 365 views.|<a href="Case.md" target="_blank">service/Case</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Case.md" target="_blank">service/Case</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Case.md" target="_blank">service/Case</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Case.md" target="_blank">service/Case</a>|
+|[activitiesComplete](#activitiesComplete)|This attribute is used for Sample Service Business Processes.|<a href="Case.md" target="_blank">service/Case</a>|
+|[actualServiceUnits](#actualServiceUnits)|Type the number of service units that were actually required to resolve the case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[billedServiceUnits](#billedServiceUnits)|Type the number of service units that were billed to the customer for the case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[blockedProfile](#blockedProfile)|Details whether the profile is blocked or not.|<a href="Case.md" target="_blank">service/Case</a>|
+|[caseOriginCode](#caseOriginCode)|Select how contact about the case was originated, such as email, phone, or web, for use in reporting and analysis.|<a href="Case.md" target="_blank">service/Case</a>|
+|[caseOriginCode_display](#caseOriginCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[caseTypeCode](#caseTypeCode)|Select the type of case to identify the incident for use in case routing and analysis.|<a href="Case.md" target="_blank">service/Case</a>|
+|[caseTypeCode_display](#caseTypeCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[checkEmail](#checkEmail)|This attribute is used for Sample Service Business Processes.|<a href="Case.md" target="_blank">service/Case</a>|
+|[contractDetailId](#contractDetailId)|Choose the contract line that the case should be logged under to make sure the customer is charged correctly.|<a href="Case.md" target="_blank">service/Case</a>|
+|[contractId](#contractId)|Choose the service contract that the case should be logged under to make sure the customer is eligible for support services.|<a href="Case.md" target="_blank">service/Case</a>|
+|[contractServiceLevelCode](#contractServiceLevelCode)|Select the service level for the case to make sure the case is handled correctly.|<a href="Case.md" target="_blank">service/Case</a>|
+|[contractServiceLevelCode_display](#contractServiceLevelCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="Case.md" target="_blank">service/Case</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="Case.md" target="_blank">service/Case</a>|
+|[customerSatisfactionCode](#customerSatisfactionCode)|Select the customer's level of satisfaction with the handling and resolution of the case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[customerSatisfactionCode_display](#customerSatisfactionCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[description](#description)|Type additional information to describe the case to assist the service team in reaching a resolution.|<a href="Case.md" target="_blank">service/Case</a>|
+|[entitlementId](#entitlementId)|Choose the entitlement that is applicable for the case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="Case.md" target="_blank">service/Case</a>|
+|[firstResponseSLAStatus](#firstResponseSLAStatus)|Shows the status of the initial response time for the case according to the terms of the SLA.|<a href="Case.md" target="_blank">service/Case</a>|
+|[firstResponseSLAStatus_display](#firstResponseSLAStatus_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[followupBy](#followupBy)|Enter the date by which a customer service representative has to follow up with the customer on this case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[followUpTaskCreated](#followUpTaskCreated)|This attribute is used for Sample Service Business Processes.|<a href="Case.md" target="_blank">service/Case</a>|
+|[incidentStageCode](#incidentStageCode)|Select the current stage of the service process for the case to assist service team members when they review or transfer a case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[incidentStageCode_display](#incidentStageCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[isDecrementing](#isDecrementing)|For system use only.|<a href="Case.md" target="_blank">service/Case</a>|
+|[kbArticleId](#kbArticleId)|Choose the article that contains additional information or a resolution for the case, for reference during research or follow up with the customer.|<a href="Case.md" target="_blank">service/Case</a>|
+|[messageTypeCode](#messageTypeCode)|Shows whether the post originated as a public or private message.|<a href="Case.md" target="_blank">service/Case</a>|
+|[messageTypeCode_display](#messageTypeCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[priorityCode](#priorityCode)|Select the priority so that preferred customers or critical issues are handled quickly.|<a href="Case.md" target="_blank">service/Case</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[productId](#productId)|Choose the product associated with the case to identify warranty, service, or other product issues and be able to report the number of incidents for each product.|<a href="Case.md" target="_blank">service/Case</a>|
+|[productSerialNumber](#productSerialNumber)|Type the serial number of the product that is associated with this case, so that the number of cases per product can be reported.|<a href="Case.md" target="_blank">service/Case</a>|
+|[existingCase](#existingCase)|Select an existing case for the customer that has been populated. For internal use only.|<a href="Case.md" target="_blank">service/Case</a>|
+|[resolveBySLAStatus](#resolveBySLAStatus)|Shows the status of the resolution time for the case according to the terms of the SLA.|<a href="Case.md" target="_blank">service/Case</a>|
+|[resolveBySLAStatus_display](#resolveBySLAStatus_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[responsibleContactId](#responsibleContactId)|Choose an additional customer contact who can also help resolve the case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[sentimentValue](#sentimentValue)|Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.|<a href="Case.md" target="_blank">service/Case</a>|
+|[influenceScore](#influenceScore)|Will contain the Influencer score coming from NetBreeze.|<a href="Case.md" target="_blank">service/Case</a>|
+|[serviceStage](#serviceStage)|Select the stage, in the case resolution process, that the case is in.|<a href="Case.md" target="_blank">service/Case</a>|
+|[serviceStage_display](#serviceStage_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[severityCode](#severityCode)|Select the severity of this case to indicate the incident's impact on the customer's business.|<a href="Case.md" target="_blank">service/Case</a>|
+|[severityCode_display](#severityCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="Case.md" target="_blank">service/Case</a>|
+|[socialProfileId](#socialProfileId)|Unique identifier of the social profile with which the case is associated.|<a href="Case.md" target="_blank">service/Case</a>|
+|[stateCode](#stateCode)|Shows whether the case is active, resolved, or canceled. Resolved and canceled cases are read-only and can't be edited unless they are reactivated.|<a href="Case.md" target="_blank">service/Case</a>|
+|[stateCode_display](#stateCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[statusCode](#statusCode)|Select the case's status.|<a href="Case.md" target="_blank">service/Case</a>|
+|[statusCode_display](#statusCode_display)||<a href="Case.md" target="_blank">service/Case</a>|
+|[subjectId](#subjectId)|Choose the subject for the case, such as catalog request or product complaint, so customer service managers can identify frequent requests or problem areas. Administrators can configure subjects under Business Management in the Settings area.|<a href="Case.md" target="_blank">service/Case</a>|
+|[ticketNumber](#ticketNumber)|Shows the case number for customer reference and searching capabilities. This cannot be modified.|<a href="Case.md" target="_blank">service/Case</a>|
+|[masterId](#masterId)|Choose the primary case the current case was merged into.|<a href="Case.md" target="_blank">service/Case</a>|
+|[parentCaseId](#parentCaseId)|Choose the parent case for a case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[numberOfChildIncidents](#numberOfChildIncidents)|Number of child incidents associated with the incident.|<a href="Case.md" target="_blank">service/Case</a>|
+|[merged](#merged)|Tells whether the incident has been merged with another incident.|<a href="Case.md" target="_blank">service/Case</a>|
+|[routeCase](#routeCase)|Tells whether the incident has been routed to queue or not.|<a href="Case.md" target="_blank">service/Case</a>|
+|[resolveBy](#resolveBy)|Enter the date by when the case must be resolved.|<a href="Case.md" target="_blank">service/Case</a>|
+|[responseBy](#responseBy)|For internal use only.|<a href="Case.md" target="_blank">service/Case</a>|
+|[customerContacted](#customerContacted)|Tells whether customer service representative has contacted the customer or not.|<a href="Case.md" target="_blank">service/Case</a>|
+|[firstResponseSent](#firstResponseSent)|Indicates if the first response has been sent.|<a href="Case.md" target="_blank">service/Case</a>|
+|[isEscalated](#isEscalated)|Indicates if the case has been escalated.|<a href="Case.md" target="_blank">service/Case</a>|
+|[escalatedOn](#escalatedOn)|Indicates the date and time when the case was escalated.|<a href="Case.md" target="_blank">service/Case</a>|
+|[primaryContactId](#primaryContactId)|Select a primary contact for this case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[onHoldTime](#onHoldTime)|Shows the duration in minutes for which the case was on hold.|<a href="Case.md" target="_blank">service/Case</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date time stamp of the last on hold time.|<a href="Case.md" target="_blank">service/Case</a>|
+|[resolveByKPIId](#resolveByKPIId)|For internal use only.|<a href="Case.md" target="_blank">service/Case</a>|
+|[firstResponseByKPIId](#firstResponseByKPIId)|For internal use only.|<a href="Case.md" target="_blank">service/Case</a>|
+|[decrementEntitlementTerm](#decrementEntitlementTerm)|Shows whether terms of the associated entitlement should be decremented or not.|<a href="Case.md" target="_blank">service/Case</a>|
+|[entityImageId](#entityImageId)||<a href="Case.md" target="_blank">service/Case</a>|
+|[accountId](#accountId)|Unique identifier of the account with which the case is associated.|<a href="Case.md" target="_blank">service/Case</a>|
+|[contactId](#contactId)|Unique identifier of the contact associated with the case.|<a href="Case.md" target="_blank">service/Case</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Case.md" target="_blank">service/Case</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Case.md" target="_blank">service/Case</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="Case.md" target="_blank">service/Case</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="Case.md" target="_blank">service/Case</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

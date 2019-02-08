@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Blog
 
 The root entity for a portal blog.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Blog.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,46 +46,47 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/Blog  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/Blog](Blog.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/Blog](Blog.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/Blog](Blog.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/Blog](Blog.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/Blog](Blog.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/Blog](Blog.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/Blog](Blog.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/Blog](Blog.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/Blog](Blog.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/Blog](Blog.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/Blog](Blog.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/Blog](Blog.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/Blog](Blog.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/Blog](Blog.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/Blog](Blog.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/Blog](Blog.md)|
-|[blogId](#blogId)|Shows the entity instances.|[portals/Blog](Blog.md)|
-|[stateCode](#stateCode)|Shows whether the blog is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|[portals/Blog](Blog.md)|
-|[stateCode_display](#stateCode_display)||[portals/Blog](Blog.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[blogId](#blogId)|Shows the entity instances.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[stateCode](#stateCode)|Shows whether the blog is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[stateCode_display](#stateCode_display)||<a href="Blog.md" target="_blank">portals/Blog</a>|
 |[statusCode](#statusCode)|Select the blog's status.
-|[portals/Blog](Blog.md)|
-|[statusCode_display](#statusCode_display)||[portals/Blog](Blog.md)|
-|[name](#name)|Shows the name or title of the blog.|[portals/Blog](Blog.md)|
-|[archiveTemplateId](#archiveTemplateId)|Shows the page template to be used to render the archive page (for example, posts by date, tags, and so on) of the blog.|[portals/Blog](Blog.md)|
-|[homeTemplateId](#homeTemplateId)|Shows the page template to be used to render the home/main page of the Blog.|[portals/Blog](Blog.md)|
-|[postTemplateId](#postTemplateId)|Shows the page template to be used to render an individual Blog Post belonging to the Blog.|[portals/Blog](Blog.md)|
-|[commentPolicy](#commentPolicy)|Specifies the post comment policy to be used by this Blog.|[portals/Blog](Blog.md)|
-|[commentPolicy_display](#commentPolicy_display)||[portals/Blog](Blog.md)|
-|[displayOrder](#displayOrder)||[portals/Blog](Blog.md)|
-|[parentPageId](#parentPageId)|Shows the parent webpage associated with this blog, denoting its place in the website site map.|[portals/Blog](Blog.md)|
-|[partialURL](#partialURL)|Shows the URL path fragment to be used to build a URL for this blog.|[portals/Blog](Blog.md)|
-|[summary](#summary)|A descriptive summary of the Blog.|[portals/Blog](Blog.md)|
-|[websiteid](#websiteid)|Shows the website associated with the blog.|[portals/Blog](Blog.md)|
-|[blogPostLanguageId](#blogPostLanguageId)|Option to make blog posts language specific|[portals/Blog](Blog.md)|
+|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[statusCode_display](#statusCode_display)||<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[name](#name)|Shows the name or title of the blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[archiveTemplateId](#archiveTemplateId)|Shows the page template to be used to render the archive page (for example, posts by date, tags, and so on) of the blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[homeTemplateId](#homeTemplateId)|Shows the page template to be used to render the home/main page of the Blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[postTemplateId](#postTemplateId)|Shows the page template to be used to render an individual Blog Post belonging to the Blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[commentPolicy](#commentPolicy)|Specifies the post comment policy to be used by this Blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[commentPolicy_display](#commentPolicy_display)||<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[displayOrder](#displayOrder)||<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[parentPageId](#parentPageId)|Shows the parent webpage associated with this blog, denoting its place in the website site map.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[partialURL](#partialURL)|Shows the URL path fragment to be used to build a URL for this blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[summary](#summary)|A descriptive summary of the Blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[websiteid](#websiteid)|Shows the website associated with the blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[blogPostLanguageId](#blogPostLanguageId)|Option to make blog posts language specific|<a href="Blog.md" target="_blank">portals/Blog</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

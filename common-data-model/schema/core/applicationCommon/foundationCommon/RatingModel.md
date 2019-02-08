@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Rating Model
 
 Represents a model to evaluate skills or other related entities.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/RatingModel.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/RatingModel  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/RatingModel](RatingModel.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/RatingModel](RatingModel.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/RatingModel](RatingModel.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/RatingModel](RatingModel.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/RatingModel](RatingModel.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/RatingModel](RatingModel.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/RatingModel](RatingModel.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/RatingModel](RatingModel.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/RatingModel](RatingModel.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/RatingModel](RatingModel.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/RatingModel](RatingModel.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/RatingModel](RatingModel.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/RatingModel](RatingModel.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/RatingModel](RatingModel.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/RatingModel](RatingModel.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/RatingModel](RatingModel.md)|
-|[ratingModelId](#ratingModelId)|Unique identifier of the rating model.|[foundationCommon/RatingModel](RatingModel.md)|
-|[name](#name)|Type the name of the rating model.|[foundationCommon/RatingModel](RatingModel.md)|
-|[maxRatingValue](#maxRatingValue)|Enter the maximum rating value.|[foundationCommon/RatingModel](RatingModel.md)|
-|[minRatingValue](#minRatingValue)|Enter the minimum rating value.|[foundationCommon/RatingModel](RatingModel.md)|
-|[stateCode](#stateCode)|Status of the Rating Model|[foundationCommon/RatingModel](RatingModel.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/RatingModel](RatingModel.md)|
-|[statusCode](#statusCode)|Reason for the status of the Rating Model|[foundationCommon/RatingModel](RatingModel.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/RatingModel](RatingModel.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the ratingmodel with respect to the base currency.|[foundationCommon/RatingModel](RatingModel.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the RatingModel with respect to the base currency.|[foundationCommon/RatingModel](RatingModel.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[ratingModelId](#ratingModelId)|Unique identifier of the rating model.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[name](#name)|Type the name of the rating model.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[maxRatingValue](#maxRatingValue)|Enter the maximum rating value.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[minRatingValue](#minRatingValue)|Enter the minimum rating value.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[stateCode](#stateCode)|Status of the Rating Model|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[stateCode_display](#stateCode_display)||<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[statusCode](#statusCode)|Reason for the status of the Rating Model|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[statusCode_display](#statusCode_display)||<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the ratingmodel with respect to the base currency.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the RatingModel with respect to the base currency.|<a href="RatingModel.md" target="_blank">foundationCommon/RatingModel</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

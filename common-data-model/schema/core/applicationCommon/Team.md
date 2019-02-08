@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Team
 
 Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Team.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,41 +43,42 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Team  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[teamId](#teamId)|Unique identifier for the team.|[applicationCommon/Team](Team.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the team.|[applicationCommon/Team](Team.md)|
-|[businessUnitId](#businessUnitId)|Unique identifier of the business unit with which the team is associated.|[applicationCommon/Team](Team.md)|
-|[name](#name)|Name of the team.|[applicationCommon/Team](Team.md)|
-|[description](#description)|Description of the team.|[applicationCommon/Team](Team.md)|
-|[emailAddress](#emailAddress)|Email address for the team.|[applicationCommon/Team](Team.md)|
-|[createdOn](#createdOn)|Date and time when the team was created.|[applicationCommon/Team](Team.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the team was last modified.|[applicationCommon/Team](Team.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the team.|[applicationCommon/Team](Team.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the team.|[applicationCommon/Team](Team.md)|
-|[versionNumber](#versionNumber)|Version number of the team.|[applicationCommon/Team](Team.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Team](Team.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Team](Team.md)|
-|[administratorId](#administratorId)|Unique identifier of the user primary responsible for the team.|[applicationCommon/Team](Team.md)|
-|[isDefault](#isDefault)|Information about whether the team is a default business unit team.|[applicationCommon/Team](Team.md)|
-|[yomiName](#yomiName)|Pronunciation of the full name of the team, written in phonetic hiragana or katakana characters.|[applicationCommon/Team](Team.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the team.|[applicationCommon/Team](Team.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the team.|[applicationCommon/Team](Team.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[applicationCommon/Team](Team.md)|
-|[queueId](#queueId)|Unique identifier of the default queue for the team.|[applicationCommon/Team](Team.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the team.|[applicationCommon/Team](Team.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the team with respect to the base currency.|[applicationCommon/Team](Team.md)|
-|[teamType](#teamType)|Select the team type.|[applicationCommon/Team](Team.md)|
-|[teamType_display](#teamType_display)||[applicationCommon/Team](Team.md)|
-|[teamTemplateId](#teamTemplateId)|Shows the team template that is associated with the team.|[applicationCommon/Team](Team.md)|
-|[regardingObjectId](#regardingObjectId)|Choose the record that the team relates to.|[applicationCommon/Team](Team.md)|
-|[systemManaged](#systemManaged)|Select whether the team will be managed by the system.|[applicationCommon/Team](Team.md)|
-|[stageId](#stageId)|Shows the ID of the stage.|[applicationCommon/Team](Team.md)|
-|[processId](#processId)|Shows the ID of the process.|[applicationCommon/Team](Team.md)|
+|[teamId](#teamId)|Unique identifier for the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[businessUnitId](#businessUnitId)|Unique identifier of the business unit with which the team is associated.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[name](#name)|Name of the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[description](#description)|Description of the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[emailAddress](#emailAddress)|Email address for the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[createdOn](#createdOn)|Date and time when the team was created.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the team was last modified.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[versionNumber](#versionNumber)|Version number of the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[administratorId](#administratorId)|Unique identifier of the user primary responsible for the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[isDefault](#isDefault)|Information about whether the team is a default business unit team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[yomiName](#yomiName)|Pronunciation of the full name of the team, written in phonetic hiragana or katakana characters.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[queueId](#queueId)|Unique identifier of the default queue for the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the team with respect to the base currency.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[teamType](#teamType)|Select the team type.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[teamType_display](#teamType_display)||<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[teamTemplateId](#teamTemplateId)|Shows the team template that is associated with the team.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[regardingObjectId](#regardingObjectId)|Choose the record that the team relates to.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[systemManaged](#systemManaged)|Select whether the team will be managed by the system.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[stageId](#stageId)|Shows the ID of the stage.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
+|[processId](#processId)|Shows the ID of the process.|<a href="Team.md" target="_blank">applicationCommon/Team</a>|
 
 ### <a href=#teamId name="teamId">teamId</a>
 

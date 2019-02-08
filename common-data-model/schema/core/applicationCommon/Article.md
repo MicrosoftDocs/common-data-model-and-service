@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Article
 
 Structured content that is part of the knowledge base.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Article.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Article  
 [portals/Article](foundationCommon/crmCommon/solutions/portals/Article.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Article.cdm.json/Article")  
 
@@ -53,34 +54,34 @@ applicationCommon/Article
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[kbArticleId](#kbArticleId)|Shows the ID of the article.|[applicationCommon/Article](Article.md)|
-|[kbArticleTemplateId](#kbArticleTemplateId)|Choose the template that you want to use as a base for creating the new article.|[applicationCommon/Article](Article.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the article.|[applicationCommon/Article](Article.md)|
-|[subjectId](#subjectId)|Choose the subject of the article to assist with article searches. You can configure subjects under Business Management in the Settings area.|[applicationCommon/Article](Article.md)|
-|[articleXml](#articleXml)|Shows the article content and formatting, stored as XML.|[applicationCommon/Article](Article.md)|
-|[title](#title)|Type a subject or descriptive name for the article to assist with article searches.|[applicationCommon/Article](Article.md)|
-|[number](#number)|Knowledge base article number.|[applicationCommon/Article](Article.md)|
-|[content](#content)|Description of the content of the knowledge base article.|[applicationCommon/Article](Article.md)|
-|[description](#description)|Type additional information that describes the knowledge base article.|[applicationCommon/Article](Article.md)|
-|[comments](#comments)|Comments regarding the knowledge base article.|[applicationCommon/Article](Article.md)|
-|[createdOn](#createdOn)|Date and time when the knowledge base article was created.|[applicationCommon/Article](Article.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the knowledge base article.|[applicationCommon/Article](Article.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the knowledge base article.|[applicationCommon/Article](Article.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the knowledge base article was last modified.|[applicationCommon/Article](Article.md)|
-|[stateCode](#stateCode)|Shows whether the knowledge base article is in draft, unapproved, or published status. Published articles are read-only and can't be edited unless they are unpublished.|[applicationCommon/Article](Article.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/Article](Article.md)|
-|[statusCode](#statusCode)|Select the article's status.|[applicationCommon/Article](Article.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/Article](Article.md)|
-|[versionNumber](#versionNumber)|Title of the knowledge base article.|[applicationCommon/Article](Article.md)|
-|[keyWords](#keyWords)|Keywords to be used for searches in knowledge base articles.|[applicationCommon/Article](Article.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/Article](Article.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/Article](Article.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the article.|[applicationCommon/Article](Article.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the kbarticle.|[applicationCommon/Article](Article.md)|
-|[languageCode](#languageCode)|Select which language the article must be available in. This list is based on the list of language packs that are installed in your Microsoft Dynamics 365 environment.|[applicationCommon/Article](Article.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/Article](Article.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/Article](Article.md)|
-|[entityImageId](#entityImageId)|For internal use only.|[applicationCommon/Article](Article.md)|
+|[kbArticleId](#kbArticleId)|Shows the ID of the article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[kbArticleTemplateId](#kbArticleTemplateId)|Choose the template that you want to use as a base for creating the new article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[subjectId](#subjectId)|Choose the subject of the article to assist with article searches. You can configure subjects under Business Management in the Settings area.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[articleXml](#articleXml)|Shows the article content and formatting, stored as XML.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[title](#title)|Type a subject or descriptive name for the article to assist with article searches.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[number](#number)|Knowledge base article number.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[content](#content)|Description of the content of the knowledge base article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[description](#description)|Type additional information that describes the knowledge base article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[comments](#comments)|Comments regarding the knowledge base article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[createdOn](#createdOn)|Date and time when the knowledge base article was created.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the knowledge base article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the knowledge base article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the knowledge base article was last modified.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[stateCode](#stateCode)|Shows whether the knowledge base article is in draft, unapproved, or published status. Published articles are read-only and can't be edited unless they are unpublished.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[stateCode_display](#stateCode_display)||<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[statusCode](#statusCode)|Select the article's status.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[statusCode_display](#statusCode_display)||<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[versionNumber](#versionNumber)|Title of the knowledge base article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[keyWords](#keyWords)|Keywords to be used for searches in knowledge base articles.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the article.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the kbarticle.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[languageCode](#languageCode)|Select which language the article must be available in. This list is based on the list of language packs that are installed in your Microsoft Dynamics 365 environment.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
+|[entityImageId](#entityImageId)|For internal use only.|<a href="Article.md" target="_blank">applicationCommon/Article</a>|
 
 ### <a href=#kbArticleId name="kbArticleId">kbArticleId</a>
 

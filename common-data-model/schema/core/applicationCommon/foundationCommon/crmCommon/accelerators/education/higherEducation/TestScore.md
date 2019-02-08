@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Test Score
 
 Test scores for a Student Contact  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,78 +46,79 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/TestScore  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/TestScore](TestScore.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/TestScore](TestScore.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/TestScore](TestScore.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/TestScore](TestScore.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/TestScore](TestScore.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/TestScore](TestScore.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/TestScore](TestScore.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/TestScore](TestScore.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/TestScore](TestScore.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/TestScore](TestScore.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/TestScore](TestScore.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/TestScore](TestScore.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/TestScore](TestScore.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/TestScore](TestScore.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/TestScore](TestScore.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/TestScore](TestScore.md)|
-|[testScoreId](#testScoreId)|Unique identifier for entity instances|[higherEducation/TestScore](TestScore.md)|
-|[stateCode](#stateCode)|Status of the Test Score|[higherEducation/TestScore](TestScore.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/TestScore](TestScore.md)|
-|[statusCode](#statusCode)|Reason for the status of the Test Score|[higherEducation/TestScore](TestScore.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/TestScore](TestScore.md)|
-|[name](#name)|The name of the Test Score.|[higherEducation/TestScore](TestScore.md)|
-|[ACTComposite](#ACTComposite)|ACT - Composite Score|[higherEducation/TestScore](TestScore.md)|
-|[ACTELA](#ACTELA)|ACT - ELA Score|[higherEducation/TestScore](TestScore.md)|
-|[ACTEnglish](#ACTEnglish)|ACT - English Score|[higherEducation/TestScore](TestScore.md)|
-|[ACTEquivalentScore](#ACTEquivalentScore)|ACT equivalent score for a given SAT Score|[higherEducation/TestScore](TestScore.md)|
-|[ACTMath](#ACTMath)|ACT - Math Score|[higherEducation/TestScore](TestScore.md)|
-|[ACTReading](#ACTReading)|ACT - Reading Score|[higherEducation/TestScore](TestScore.md)|
-|[ACTScience](#ACTScience)|ACT - Science Score|[higherEducation/TestScore](TestScore.md)|
-|[ACTSTEM](#ACTSTEM)|ACT - STEM Score|[higherEducation/TestScore](TestScore.md)|
-|[ACTWriting](#ACTWriting)|ACT - Writing Score|[higherEducation/TestScore](TestScore.md)|
-|[alevelArt](#alevelArt)|A-level Art|[higherEducation/TestScore](TestScore.md)|
-|[GMATAnalyticalWriting](#GMATAnalyticalWriting)|GMAT - Analytical Writing Score|[higherEducation/TestScore](TestScore.md)|
-|[GMATIntegratedReasoning](#GMATIntegratedReasoning)|GMAT - Integrated Reasoning Score|[higherEducation/TestScore](TestScore.md)|
-|[GMATQuantitativeReasoning](#GMATQuantitativeReasoning)|GMAT - Quantitative Reasoning Score|[higherEducation/TestScore](TestScore.md)|
-|[GMATTotal](#GMATTotal)|GMAT - Total Score|[higherEducation/TestScore](TestScore.md)|
-|[GMATVerbalReasoning](#GMATVerbalReasoning)|GMAT - Verbal Reasoning Score|[higherEducation/TestScore](TestScore.md)|
-|[GREAnalyticalReasoning](#GREAnalyticalReasoning)|GRE - Analytical Reasoning Score|[higherEducation/TestScore](TestScore.md)|
-|[GREQuantitativeReasoning](#GREQuantitativeReasoning)|GRE - Quantitative Reasoning Score|[higherEducation/TestScore](TestScore.md)|
-|[GRETotalScore](#GRETotalScore)|GRE - Total Score|[higherEducation/TestScore](TestScore.md)|
-|[GREVerbalReasoning](#GREVerbalReasoning)|GRE - Verbal Reasoning Score|[higherEducation/TestScore](TestScore.md)|
-|[IELTSCEFR](#IELTSCEFR)|IELTS - CEFR|[higherEducation/TestScore](TestScore.md)|
-|[IELTSCEFR_display](#IELTSCEFR_display)||[higherEducation/TestScore](TestScore.md)|
-|[IELTSListening](#IELTSListening)|IELTS - Listening score|[higherEducation/TestScore](TestScore.md)|
-|[IELTSOverallBandScore](#IELTSOverallBandScore)|IELTS - Overall Band Score|[higherEducation/TestScore](TestScore.md)|
-|[IELTSReading](#IELTSReading)|IELTS - Reading Score|[higherEducation/TestScore](TestScore.md)|
-|[IELTSSpeakingScore](#IELTSSpeakingScore)|IELTS - Speaking Score|[higherEducation/TestScore](TestScore.md)|
-|[IELTSWriting](#IELTSWriting)|IELTS - Writing Score|[higherEducation/TestScore](TestScore.md)|
-|[SATEssayAnalysis](#SATEssayAnalysis)|SAT - SAT Essay - Analysis Score|[higherEducation/TestScore](TestScore.md)|
-|[SATEssayReading](#SATEssayReading)|SAT - SAT Essay - Reading Score|[higherEducation/TestScore](TestScore.md)|
-|[SATEssayWriting](#SATEssayWriting)|SAT - SAT Essay - Writing Score|[higherEducation/TestScore](TestScore.md)|
-|[SATEvidenceBasedReadingandWritingSection](#SATEvidenceBasedReadingandWritingSection)|SAT - Evidence-Based Reading and Writing Section Score|[higherEducation/TestScore](TestScore.md)|
-|[SATMathSection](#SATMathSection)|SAT - Math Section Score|[higherEducation/TestScore](TestScore.md)|
-|[SATTotalScore](#SATTotalScore)|SAT - Total Score|[higherEducation/TestScore](TestScore.md)|
-|[studentID](#studentID)|Lookup to the Student (Contact Id)|[higherEducation/TestScore](TestScore.md)|
-|[testDate](#testDate)|Date when test was taken|[higherEducation/TestScore](TestScore.md)|
-|[testLocation](#testLocation)|Location where the test was taken|[higherEducation/TestScore](TestScore.md)|
-|[testScoreValue](#testScoreValue)|Test Score Value|[higherEducation/TestScore](TestScore.md)|
-|[testSource](#testSource)|Source of Test score|[higherEducation/TestScore](TestScore.md)|
-|[testSource_display](#testSource_display)||[higherEducation/TestScore](TestScore.md)|
-|[testTypeId](#testTypeId)|List of test types|[higherEducation/TestScore](TestScore.md)|
-|[TOEFLListeningSection](#TOEFLListeningSection)|TOEFL - Listening Section Score|[higherEducation/TestScore](TestScore.md)|
-|[TOEFLReadingSection](#TOEFLReadingSection)|TOEFL - Reading Section Score|[higherEducation/TestScore](TestScore.md)|
-|[TOEFLSpeakingSection](#TOEFLSpeakingSection)|TOEFL - Speaking Section Score|[higherEducation/TestScore](TestScore.md)|
-|[TOEFLTotalScore](#TOEFLTotalScore)|TOEFL - Total Score|[higherEducation/TestScore](TestScore.md)|
-|[TOEFLWritingSection](#TOEFLWritingSection)|TOEFL - Writing Section Score|[higherEducation/TestScore](TestScore.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[testScoreId](#testScoreId)|Unique identifier for entity instances|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[stateCode](#stateCode)|Status of the Test Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[stateCode_display](#stateCode_display)||<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[statusCode](#statusCode)|Reason for the status of the Test Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[statusCode_display](#statusCode_display)||<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[name](#name)|The name of the Test Score.|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ACTComposite](#ACTComposite)|ACT - Composite Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ACTELA](#ACTELA)|ACT - ELA Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ACTEnglish](#ACTEnglish)|ACT - English Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ACTEquivalentScore](#ACTEquivalentScore)|ACT equivalent score for a given SAT Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ACTMath](#ACTMath)|ACT - Math Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ACTReading](#ACTReading)|ACT - Reading Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ACTScience](#ACTScience)|ACT - Science Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ACTSTEM](#ACTSTEM)|ACT - STEM Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[ACTWriting](#ACTWriting)|ACT - Writing Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[alevelArt](#alevelArt)|A-level Art|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[GMATAnalyticalWriting](#GMATAnalyticalWriting)|GMAT - Analytical Writing Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[GMATIntegratedReasoning](#GMATIntegratedReasoning)|GMAT - Integrated Reasoning Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[GMATQuantitativeReasoning](#GMATQuantitativeReasoning)|GMAT - Quantitative Reasoning Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[GMATTotal](#GMATTotal)|GMAT - Total Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[GMATVerbalReasoning](#GMATVerbalReasoning)|GMAT - Verbal Reasoning Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[GREAnalyticalReasoning](#GREAnalyticalReasoning)|GRE - Analytical Reasoning Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[GREQuantitativeReasoning](#GREQuantitativeReasoning)|GRE - Quantitative Reasoning Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[GRETotalScore](#GRETotalScore)|GRE - Total Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[GREVerbalReasoning](#GREVerbalReasoning)|GRE - Verbal Reasoning Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[IELTSCEFR](#IELTSCEFR)|IELTS - CEFR|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[IELTSCEFR_display](#IELTSCEFR_display)||<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[IELTSListening](#IELTSListening)|IELTS - Listening score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[IELTSOverallBandScore](#IELTSOverallBandScore)|IELTS - Overall Band Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[IELTSReading](#IELTSReading)|IELTS - Reading Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[IELTSSpeakingScore](#IELTSSpeakingScore)|IELTS - Speaking Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[IELTSWriting](#IELTSWriting)|IELTS - Writing Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[SATEssayAnalysis](#SATEssayAnalysis)|SAT - SAT Essay - Analysis Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[SATEssayReading](#SATEssayReading)|SAT - SAT Essay - Reading Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[SATEssayWriting](#SATEssayWriting)|SAT - SAT Essay - Writing Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[SATEvidenceBasedReadingandWritingSection](#SATEvidenceBasedReadingandWritingSection)|SAT - Evidence-Based Reading and Writing Section Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[SATMathSection](#SATMathSection)|SAT - Math Section Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[SATTotalScore](#SATTotalScore)|SAT - Total Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[studentID](#studentID)|Lookup to the Student (Contact Id)|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[testDate](#testDate)|Date when test was taken|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[testLocation](#testLocation)|Location where the test was taken|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[testScoreValue](#testScoreValue)|Test Score Value|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[testSource](#testSource)|Source of Test score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[testSource_display](#testSource_display)||<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[testTypeId](#testTypeId)|List of test types|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[TOEFLListeningSection](#TOEFLListeningSection)|TOEFL - Listening Section Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[TOEFLReadingSection](#TOEFLReadingSection)|TOEFL - Reading Section Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[TOEFLSpeakingSection](#TOEFLSpeakingSection)|TOEFL - Speaking Section Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[TOEFLTotalScore](#TOEFLTotalScore)|TOEFL - Total Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
+|[TOEFLWritingSection](#TOEFLWritingSection)|TOEFL - Writing Section Score|<a href="TestScore.md" target="_blank">higherEducation/TestScore</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

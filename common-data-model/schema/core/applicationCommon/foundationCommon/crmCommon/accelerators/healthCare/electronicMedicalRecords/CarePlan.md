@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Care Plan
 
 Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,50 +46,51 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/CarePlan  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[carePlanId](#carePlanId)|Unique identifier for entity instances|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[stateCode](#stateCode)|Status of the Care Plan|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[statusCode](#statusCode)|Reason for the status of the Care Plan|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[title](#title)|The name of the custom entity.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[carePlanIdentifier](#carePlanIdentifier)|This records identifiers associated with this care plan that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[contextType](#contextType)|Type of the context care plan is created for|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[contextType_display](#contextType_display)||[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[encounterIdentifier](#encounterIdentifier)|Identifies the original context in which this particular CarePlan was created.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[episodeOfCare](#episodeOfCare)|Identifies the original context in which this particular CarePlan was created.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[groupIdentifier](#groupIdentifier)|Identifies the patient or group whose intended care is described by the plan.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[patientIdentifier](#patientIdentifier)|Identifies the patient or group whose intended care is described by the plan.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[planDescription](#planDescription)|A description of the scope and nature of the plan.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[planEndDate](#planEndDate)|Indicates when the plan did (or is intended to) come into effect and end.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[planIntent](#planIntent)|Indicates the level of authority/intentionality associated with the care plan and where the care plan fits into the workflow chain.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[planIntent_display](#planIntent_display)||[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[planStartDate](#planStartDate)|Indicates when the plan did (or is intended to) come into effect and end.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[planStatus](#planStatus)|Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record.|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[planStatus_display](#planStatus_display)||[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[subjectType](#subjectType)|Type of subject of the care plan|[electronicMedicalRecords/CarePlan](CarePlan.md)|
-|[subjectType_display](#subjectType_display)||[electronicMedicalRecords/CarePlan](CarePlan.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[carePlanId](#carePlanId)|Unique identifier for entity instances|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[stateCode](#stateCode)|Status of the Care Plan|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[stateCode_display](#stateCode_display)||<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[statusCode](#statusCode)|Reason for the status of the Care Plan|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[statusCode_display](#statusCode_display)||<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[title](#title)|The name of the custom entity.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[carePlanIdentifier](#carePlanIdentifier)|This records identifiers associated with this care plan that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[contextType](#contextType)|Type of the context care plan is created for|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[contextType_display](#contextType_display)||<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[encounterIdentifier](#encounterIdentifier)|Identifies the original context in which this particular CarePlan was created.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[episodeOfCare](#episodeOfCare)|Identifies the original context in which this particular CarePlan was created.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[groupIdentifier](#groupIdentifier)|Identifies the patient or group whose intended care is described by the plan.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[patientIdentifier](#patientIdentifier)|Identifies the patient or group whose intended care is described by the plan.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[planDescription](#planDescription)|A description of the scope and nature of the plan.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[planEndDate](#planEndDate)|Indicates when the plan did (or is intended to) come into effect and end.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[planIntent](#planIntent)|Indicates the level of authority/intentionality associated with the care plan and where the care plan fits into the workflow chain.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[planIntent_display](#planIntent_display)||<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[planStartDate](#planStartDate)|Indicates when the plan did (or is intended to) come into effect and end.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[planStatus](#planStatus)|Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record.|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[planStatus_display](#planStatus_display)||<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[subjectType](#subjectType)|Type of subject of the care plan|<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
+|[subjectType_display](#subjectType_display)||<a href="CarePlan.md" target="_blank">electronicMedicalRecords/CarePlan</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

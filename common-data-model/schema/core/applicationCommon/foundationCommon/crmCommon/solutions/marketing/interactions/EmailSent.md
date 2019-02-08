@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email sent
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSent.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,26 +33,27 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailSent  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailSent](EmailSent.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailSent](EmailSent.md)|
-|[accountId](#accountId)|Account|[interactions/EmailSent](EmailSent.md)|
-|[messageId](#messageId)|Message|[interactions/EmailSent](EmailSent.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailSent](EmailSent.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailSent](EmailSent.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailSent](EmailSent.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailSent](EmailSent.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailSent](EmailSent.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailSent](EmailSent.md)|
-|[emailAddressUsed](#emailAddressUsed)|Email address used|[interactions/EmailSent](EmailSent.md)|
-|[emailDomain](#emailDomain)|Email domain|[interactions/EmailSent](EmailSent.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailSent](EmailSent.md)|
-|[activityId](#activityId)|Activity ID|[interactions/EmailSent](EmailSent.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[contactId](#contactId)|Contact|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[accountId](#accountId)|Account|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[messageId](#messageId)|Message|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[emailAddressUsed](#emailAddressUsed)|Email address used|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[emailDomain](#emailDomain)|Email domain|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
+|[activityId](#activityId)|Activity ID|<a href="EmailSent.md" target="_blank">interactions/EmailSent</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

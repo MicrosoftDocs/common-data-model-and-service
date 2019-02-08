@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Sales Attachment
 
 Item in the sales literature collection.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/SalesAttachment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,39 +43,40 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/SalesAttachment  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[salesLiteratureItemId](#salesLiteratureItemId)|Unique identifier for the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[createdOn](#createdOn)|Date and time when the document was created.|[sales/SalesAttachment](SalesAttachment.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the document was last modified.|[sales/SalesAttachment](SalesAttachment.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the salesliteratureitem.|[sales/SalesAttachment](SalesAttachment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the salesliteratureitem.|[sales/SalesAttachment](SalesAttachment.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/SalesAttachment](SalesAttachment.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/SalesAttachment](SalesAttachment.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/SalesAttachment](SalesAttachment.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/SalesAttachment](SalesAttachment.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/SalesAttachment](SalesAttachment.md)|
-|[title](#title)|Type the title or name that describes the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[abstract](#abstract)|Abstract of the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[attachedDocumentUrl](#attachedDocumentUrl)|URL of the Website on which the document is located.|[sales/SalesAttachment](SalesAttachment.md)|
-|[authorName](#authorName)|Author name for the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[documentBody](#documentBody)|Shows the encoded contents of the sales literature document attachment.|[sales/SalesAttachment](SalesAttachment.md)|
-|[fileName](#fileName)|File name of the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[fileSize](#fileSize)|File size of the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[fileTypeCode](#fileTypeCode)|Select the file type of the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[fileTypeCode_display](#fileTypeCode_display)||[sales/SalesAttachment](SalesAttachment.md)|
-|[isCustomerViewable](#isCustomerViewable)|Tells whether the document can be shared with customers or is for internal use only.|[sales/SalesAttachment](SalesAttachment.md)|
-|[keyWords](#keyWords)|Keywords to use for searches in documents.|[sales/SalesAttachment](SalesAttachment.md)|
-|[mimeType](#mimeType)|Shows the file type of the sales literature document attachment, such as text or document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization associated with the document.|[sales/SalesAttachment](SalesAttachment.md)|
-|[salesLiteratureId](#salesLiteratureId)|Unique identifier of the sales literature that is associated with the individual item.|[sales/SalesAttachment](SalesAttachment.md)|
-|[mode](#mode)|Defines the mode of the sales literature document attachment.|[sales/SalesAttachment](SalesAttachment.md)|
+|[salesLiteratureItemId](#salesLiteratureItemId)|Unique identifier for the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[createdOn](#createdOn)|Date and time when the document was created.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the document was last modified.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the salesliteratureitem.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the salesliteratureitem.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[title](#title)|Type the title or name that describes the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[abstract](#abstract)|Abstract of the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[attachedDocumentUrl](#attachedDocumentUrl)|URL of the Website on which the document is located.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[authorName](#authorName)|Author name for the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[documentBody](#documentBody)|Shows the encoded contents of the sales literature document attachment.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[fileName](#fileName)|File name of the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[fileSize](#fileSize)|File size of the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[fileTypeCode](#fileTypeCode)|Select the file type of the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[fileTypeCode_display](#fileTypeCode_display)||<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[isCustomerViewable](#isCustomerViewable)|Tells whether the document can be shared with customers or is for internal use only.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[keyWords](#keyWords)|Keywords to use for searches in documents.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[mimeType](#mimeType)|Shows the file type of the sales literature document attachment, such as text or document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization associated with the document.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[salesLiteratureId](#salesLiteratureId)|Unique identifier of the sales literature that is associated with the individual item.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
+|[mode](#mode)|Defines the mode of the sales literature document attachment.|<a href="SalesAttachment.md" target="_blank">sales/SalesAttachment</a>|
 
 ### <a href=#salesLiteratureItemId name="salesLiteratureItemId">salesLiteratureItemId</a>
 

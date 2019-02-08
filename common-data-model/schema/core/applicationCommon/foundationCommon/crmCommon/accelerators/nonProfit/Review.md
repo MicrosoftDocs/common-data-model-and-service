@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Review
 
 The internal assessment of a Request made by a staff member (or team) and all of the relevant information that needs to be tracked at the "review" stage of an application.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Review.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,51 +46,52 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Review  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Review](Review.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Review](Review.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Review](Review.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Review](Review.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Review](Review.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Review](Review.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Review](Review.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Review](Review.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Review](Review.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Review](Review.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Review](Review.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Review](Review.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Review](Review.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Review](Review.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Review](Review.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Review](Review.md)|
-|[reviewId](#reviewId)|Unique identifier for entity instances|[nonProfit/Review](Review.md)|
-|[stateCode](#stateCode)|Status of the Review|[nonProfit/Review](Review.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Review](Review.md)|
-|[statusCode](#statusCode)|Reason for the status of the Review|[nonProfit/Review](Review.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Review](Review.md)|
-|[name](#name)||[nonProfit/Review](Review.md)|
-|[awardId](#awardId)|Award|[nonProfit/Review](Review.md)|
-|[awardVersionId](#awardVersionId)|Award Version|[nonProfit/Review](Review.md)|
-|[dateSubmitted](#dateSubmitted)|Date Review was submitted.|[nonProfit/Review](Review.md)|
-|[description](#description)|Description of the Review.|[nonProfit/Review](Review.md)|
-|[dueDate](#dueDate)|Date the review is due.|[nonProfit/Review](Review.md)|
-|[requestId](#requestId)|Request|[nonProfit/Review](Review.md)|
-|[reviewDocketId](#reviewDocketId)|Docket|[nonProfit/Review](Review.md)|
-|[reviewLeadId](#reviewLeadId)|Lead|[nonProfit/Review](Review.md)|
-|[reviewReportId](#reviewReportId)|Report|[nonProfit/Review](Review.md)|
-|[reviewDate](#reviewDate)|Date the review was conducted.|[nonProfit/Review](Review.md)|
-|[reviewerId](#reviewerId)|Reviewer|[nonProfit/Review](Review.md)|
-|[reviewerType](#reviewerType)|Indicates the type of Reviewer.|[nonProfit/Review](Review.md)|
-|[reviewerType_display](#reviewerType_display)||[nonProfit/Review](Review.md)|
-|[status](#status)|Status of the Review.|[nonProfit/Review](Review.md)|
-|[status_display](#status_display)||[nonProfit/Review](Review.md)|
-|[type](#type)|The type of Review.|[nonProfit/Review](Review.md)|
-|[type_display](#type_display)||[nonProfit/Review](Review.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[reviewId](#reviewId)|Unique identifier for entity instances|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[stateCode](#stateCode)|Status of the Review|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[stateCode_display](#stateCode_display)||<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[statusCode](#statusCode)|Reason for the status of the Review|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[statusCode_display](#statusCode_display)||<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[name](#name)||<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[awardId](#awardId)|Award|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[awardVersionId](#awardVersionId)|Award Version|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[dateSubmitted](#dateSubmitted)|Date Review was submitted.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[description](#description)|Description of the Review.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[dueDate](#dueDate)|Date the review is due.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[requestId](#requestId)|Request|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[reviewDocketId](#reviewDocketId)|Docket|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[reviewLeadId](#reviewLeadId)|Lead|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[reviewReportId](#reviewReportId)|Report|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[reviewDate](#reviewDate)|Date the review was conducted.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[reviewerId](#reviewerId)|Reviewer|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[reviewerType](#reviewerType)|Indicates the type of Reviewer.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[reviewerType_display](#reviewerType_display)||<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[status](#status)|Status of the Review.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[status_display](#status_display)||<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[type](#type)|The type of Review.|<a href="Review.md" target="_blank">nonProfit/Review</a>|
+|[type_display](#type_display)||<a href="Review.md" target="_blank">nonProfit/Review</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

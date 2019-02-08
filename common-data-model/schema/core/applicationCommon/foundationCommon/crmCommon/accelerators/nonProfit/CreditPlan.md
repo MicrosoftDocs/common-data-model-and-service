@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Credit Plan
 
 Credit Plans control who will be credited with hard or soft credits after a payment clears. A credit plan could "counted" for membership or other benefit prior to a payment actually being cleared. A Credit Plan shows up as a A line item attached to a Pledge, Payment Schedule, or Account .  The goal of a credit plan is to avoid the double counting of hard, soft and split crediting.  The most elegant way to manage Credit Plan is by ensuring there are business rules in place like an "auto" soft credit rule attached to Accounts, Contacts, Opportunities or Donor Commitments depending on the conditions met.  Credit Plans can be countable toward fulfilling a benefit even if they are never fully realized as a hard or soft credit.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/CreditPlan.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,40 +46,41 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/CreditPlan  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/CreditPlan](CreditPlan.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/CreditPlan](CreditPlan.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/CreditPlan](CreditPlan.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/CreditPlan](CreditPlan.md)|
-|[creditPlanId](#creditPlanId)|Unique identifier for entity instances|[nonProfit/CreditPlan](CreditPlan.md)|
-|[stateCode](#stateCode)|Status of the Credit Plan|[nonProfit/CreditPlan](CreditPlan.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/CreditPlan](CreditPlan.md)|
-|[statusCode](#statusCode)|Reason for the status of the Credit Plan|[nonProfit/CreditPlan](CreditPlan.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/CreditPlan](CreditPlan.md)|
-|[name](#name)||[nonProfit/CreditPlan](CreditPlan.md)|
-|[creditPlanAccountId](#creditPlanAccountId)|Default on Account|[nonProfit/CreditPlan](CreditPlan.md)|
-|[creditPlanCampaignId](#creditPlanCampaignId)|Campaign|[nonProfit/CreditPlan](CreditPlan.md)|
-|[creditPlanPaymentScheduleId](#creditPlanPaymentScheduleId)|Payment Schedule|[nonProfit/CreditPlan](CreditPlan.md)|
-|[creditType](#creditType)||[nonProfit/CreditPlan](CreditPlan.md)|
-|[creditType_display](#creditType_display)||[nonProfit/CreditPlan](CreditPlan.md)|
-|[validToDate](#validToDate)||[nonProfit/CreditPlan](CreditPlan.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[creditPlanId](#creditPlanId)|Unique identifier for entity instances|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[stateCode](#stateCode)|Status of the Credit Plan|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[stateCode_display](#stateCode_display)||<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[statusCode](#statusCode)|Reason for the status of the Credit Plan|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[statusCode_display](#statusCode_display)||<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[name](#name)||<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[creditPlanAccountId](#creditPlanAccountId)|Default on Account|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[creditPlanCampaignId](#creditPlanCampaignId)|Campaign|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[creditPlanPaymentScheduleId](#creditPlanPaymentScheduleId)|Payment Schedule|<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[creditType](#creditType)||<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[creditType_display](#creditType_display)||<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
+|[validToDate](#validToDate)||<a href="CreditPlan.md" target="_blank">nonProfit/CreditPlan</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

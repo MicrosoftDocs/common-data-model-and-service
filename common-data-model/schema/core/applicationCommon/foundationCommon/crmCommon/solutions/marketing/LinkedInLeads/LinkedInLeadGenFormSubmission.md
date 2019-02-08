@@ -11,7 +11,7 @@ ms.author: tpalmer
 # LinkedIn Lead Gen Form Submission
 
 Submissions from prospects on LinkedIn  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,50 +46,51 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 LinkedInLeads/LinkedInLeadGenFormSubmission  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[ownerId](#ownerId)|Owner Id|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[versionNumber](#versionNumber)|Version Number|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[linkedInFormSubmissionId](#linkedInFormSubmissionId)|Unique identifier of the LinkedIn form submission|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[stateCode](#stateCode)|Status of the LinkedIn Form Submission|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[stateCode_display](#stateCode_display)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[statusCode](#statusCode)|Reason for the status of the LinkedIn Form Submission|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[statusCode_display](#statusCode_display)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[name](#name)|The name of the custom entity.|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[lead](#lead)|Dynamics 365 lead associated with this submission|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[linkedInAccountID](#linkedInAccountID)|LinkedIn account this submission came from|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[linkedInCampaign](#linkedInCampaign)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[linkedInCampaignID](#linkedInCampaignID)|Unique identifier of the LinkedIn campaign this submission is for|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[linkedInCreativeID](#linkedInCreativeID)|Unique identifier of the LinkedIn creative campaign this submission is for|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[linkedinformId](#linkedinformId)|LinkedIn form this submission came from|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[linkedInLeadGenFormSubmissionTextId](#linkedInLeadGenFormSubmissionTextId)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[linkedInUserProfileID](#linkedInUserProfileID)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[matchingStatus](#matchingStatus)|Status of matching and lead association with Dynamics 365|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[matchingStatus_display](#matchingStatus_display)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[processingState](#processingState)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[processingState_display](#processingState_display)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[submissionDate](#submissionDate)|Date and time submission was captured|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[type](#type)|Submission type|[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[linkedInFormName](#linkedInFormName)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
-|[customerJourney](#customerJourney)||[LinkedInLeads/LinkedInLeadGenFormSubmission](LinkedInLeadGenFormSubmission.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[linkedInFormSubmissionId](#linkedInFormSubmissionId)|Unique identifier of the LinkedIn form submission|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[stateCode](#stateCode)|Status of the LinkedIn Form Submission|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[stateCode_display](#stateCode_display)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[statusCode](#statusCode)|Reason for the status of the LinkedIn Form Submission|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[statusCode_display](#statusCode_display)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[name](#name)|The name of the custom entity.|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[lead](#lead)|Dynamics 365 lead associated with this submission|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[linkedInAccountID](#linkedInAccountID)|LinkedIn account this submission came from|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[linkedInCampaign](#linkedInCampaign)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[linkedInCampaignID](#linkedInCampaignID)|Unique identifier of the LinkedIn campaign this submission is for|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[linkedInCreativeID](#linkedInCreativeID)|Unique identifier of the LinkedIn creative campaign this submission is for|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[linkedinformId](#linkedinformId)|LinkedIn form this submission came from|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[linkedInLeadGenFormSubmissionTextId](#linkedInLeadGenFormSubmissionTextId)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[linkedInUserProfileID](#linkedInUserProfileID)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[matchingStatus](#matchingStatus)|Status of matching and lead association with Dynamics 365|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[matchingStatus_display](#matchingStatus_display)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[processingState](#processingState)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[processingState_display](#processingState_display)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[submissionDate](#submissionDate)|Date and time submission was captured|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[type](#type)|Submission type|<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[linkedInFormName](#linkedInFormName)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
+|[customerJourney](#customerJourney)||<a href="LinkedInLeadGenFormSubmission.md" target="_blank">LinkedInLeads/LinkedInLeadGenFormSubmission</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

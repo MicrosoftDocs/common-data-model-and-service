@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Out of email credits
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/OutOfEmailCredits.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,23 +33,24 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/OutOfEmailCredits  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[contactId](#contactId)|Contact|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[accountId](#accountId)|Account|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[messageId](#messageId)|Message|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[usageType](#usageType)|Usage type|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/OutOfEmailCredits](OutOfEmailCredits.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[contactId](#contactId)|Contact|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[accountId](#accountId)|Account|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[messageId](#messageId)|Message|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[usageType](#usageType)|Usage type|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="OutOfEmailCredits.md" target="_blank">interactions/OutOfEmailCredits</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

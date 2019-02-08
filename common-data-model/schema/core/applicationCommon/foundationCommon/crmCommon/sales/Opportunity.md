@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Opportunity
 
 Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Opportunity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [nonProfit/Opportunity](../accelerators/nonProfit/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Opportunity.cdm.json/Opportunity")  
 sales/Opportunity  
 [portals/Opportunity](../solutions/portals/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Opportunity.cdm.json/Opportunity")  
@@ -54,127 +55,127 @@ sales/Opportunity
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/Opportunity](Opportunity.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/Opportunity](Opportunity.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/Opportunity](Opportunity.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/Opportunity](Opportunity.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/Opportunity](Opportunity.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/Opportunity](Opportunity.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/Opportunity](Opportunity.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/Opportunity](Opportunity.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/Opportunity](Opportunity.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/Opportunity](Opportunity.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/Opportunity](Opportunity.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/Opportunity](Opportunity.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/Opportunity](Opportunity.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/Opportunity](Opportunity.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/Opportunity](Opportunity.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/Opportunity](Opportunity.md)|
-|[opportunityId](#opportunityId)|Unique identifier of the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[emailAddress](#emailAddress)|The primary email address for the entity.|[sales/Opportunity](Opportunity.md)|
-|[name](#name)|Type a subject or descriptive name, such as the expected order or company name, for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[sales/Opportunity](Opportunity.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[sales/Opportunity](Opportunity.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[sales/Opportunity](Opportunity.md)|
-|[actualCloseDate](#actualCloseDate)|Shows the date and time when the opportunity was closed or canceled.|[sales/Opportunity](Opportunity.md)|
-|[actualValue](#actualValue)|Type the actual revenue amount for the opportunity for reporting and analysis of estimated versus actual sales. Field defaults to the Est. Revenue value when an opportunity is won.|[sales/Opportunity](Opportunity.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/Opportunity](Opportunity.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/Opportunity](Opportunity.md)|
-|[actualValueBase](#actualValueBase)|Value of the Actual Revenue in base currency.|[sales/Opportunity](Opportunity.md)|
-|[budgetAmount](#budgetAmount)|Type a value between 0 and 1,000,000,000,000 to indicate the lead's potential available budget.|[sales/Opportunity](Opportunity.md)|
-|[budgetAmountBase](#budgetAmountBase)|Value of the Budget Amount in base currency.|[sales/Opportunity](Opportunity.md)|
-|[budgetStatus](#budgetStatus)|Select the likely budget status for the lead's company. This may help determine the lead rating or your sales approach.|[sales/Opportunity](Opportunity.md)|
-|[budgetStatus_display](#budgetStatus_display)||[sales/Opportunity](Opportunity.md)|
-|[closeProbability](#closeProbability)|Type a number from 0 to 100 that represents the likelihood of closing the opportunity. This can aid the sales team in their efforts to convert the opportunity in a sale.|[sales/Opportunity](Opportunity.md)|
-|[completeInternalReview](#completeInternalReview)|Select whether an internal review has been completed for this opportunity.|[sales/Opportunity](Opportunity.md)|
-|[confirmInterest](#confirmInterest)|Select whether the lead confirmed interest in your offerings. This helps in determining the lead quality and the probability of it turning into an opportunity.|[sales/Opportunity](Opportunity.md)|
-|[currentSituation](#currentSituation)|Type notes about the company or organization associated with the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[sales/Opportunity](Opportunity.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[sales/Opportunity](Opportunity.md)|
-|[customerNeed](#customerNeed)|Type some notes about the customer's requirements, to help the sales team identify products and services that could meet their requirements.|[sales/Opportunity](Opportunity.md)|
-|[customerPainPoints](#customerPainPoints)|Type notes about the customer's pain points to help the sales team identify products and services that could address these pain points.|[sales/Opportunity](Opportunity.md)|
-|[decisionMaker](#decisionMaker)|Select whether your notes include information about who makes the purchase decisions at the lead's company.|[sales/Opportunity](Opportunity.md)|
-|[description](#description)|Type additional information to describe the opportunity, such as possible products to sell or past purchases from the customer.|[sales/Opportunity](Opportunity.md)|
-|[developProposal](#developProposal)|Select whether a proposal has been developed for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[discountAmount](#discountAmount)|Type the discount amount for the opportunity if the customer is eligible for special savings.|[sales/Opportunity](Opportunity.md)|
-|[discountAmountBase](#discountAmountBase)|Value of the Opportunity Discount Amount in base currency.|[sales/Opportunity](Opportunity.md)|
-|[discountPercentage](#discountPercentage)|Type the discount rate that should be applied to the Product Totals field to include additional savings for the customer in the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[estimatedCloseDate](#estimatedCloseDate)|Enter the expected closing date of the opportunity to help make accurate revenue forecasts.|[sales/Opportunity](Opportunity.md)|
-|[estimatedValue](#estimatedValue)|Type the estimated revenue amount to indicate the potential sale or value of the opportunity for revenue forecasting. This field can be either system-populated or editable based on the selection in the Revenue field.|[sales/Opportunity](Opportunity.md)|
-|[estimatedValueBase](#estimatedValueBase)|Value of the Est. Revenue in base currency.|[sales/Opportunity](Opportunity.md)|
-|[evaluateFit](#evaluateFit)|Select whether the fit between the lead's requirements and your offerings was evaluated.|[sales/Opportunity](Opportunity.md)|
-|[resolveFeedback](#resolveFeedback)|Choose whether the proposal feedback has been captured and resolved for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[fileDebrief](#fileDebrief)|Choose whether the sales team has recorded detailed notes on the proposals and the account's responses.|[sales/Opportunity](Opportunity.md)|
-|[completeFinalProposal](#completeFinalProposal)|Select whether a final proposal has been completed for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[finalDecisionDate](#finalDecisionDate)|Enter the date and time when the final decision of the opportunity was made.|[sales/Opportunity](Opportunity.md)|
-|[freightAmount](#freightAmount)|Type the cost of freight or shipping for the products included in the opportunity for use in calculating the Total Amount field.|[sales/Opportunity](Opportunity.md)|
-|[freightAmountBase](#freightAmountBase)|Value of the Freight Amount in base currency.|[sales/Opportunity](Opportunity.md)|
-|[initialCommunication](#initialCommunication)|Choose whether someone from the sales team contacted this lead earlier.|[sales/Opportunity](Opportunity.md)|
-|[initialCommunication_display](#initialCommunication_display)||[sales/Opportunity](Opportunity.md)|
-|[isRevenueSystemCalculated](#isRevenueSystemCalculated)|Select whether the estimated revenue for the opportunity is calculated automatically based on the products entered or entered manually by a user.|[sales/Opportunity](Opportunity.md)|
-|[need](#need)|Choose how high the level of need is for the lead's company.|[sales/Opportunity](Opportunity.md)|
-|[need_display](#need_display)||[sales/Opportunity](Opportunity.md)|
-|[opportunityRatingCode](#opportunityRatingCode)|Select the expected value or priority of the opportunity based on revenue, customer status, or closing probability.|[sales/Opportunity](Opportunity.md)|
-|[opportunityRatingCode_display](#opportunityRatingCode_display)||[sales/Opportunity](Opportunity.md)|
-|[parentAccountId](#parentAccountId)|Choose an account to connect this opportunity to, so that the relationship is visible in reports and analytics, and to provide a quick link to additional details, such as financial information and activities.|[sales/Opportunity](Opportunity.md)|
-|[parentContactId](#parentContactId)|Choose a contact to connect this opportunity to, so that the relationship is visible in reports and analytics.|[sales/Opportunity](Opportunity.md)|
-|[participatesInWorkflow](#participatesInWorkflow)|Information about whether the opportunity participates in workflow rules.|[sales/Opportunity](Opportunity.md)|
-|[priceLevelId](#priceLevelId)|Choose the price list associated with this record to make sure the products associated with the campaign are offered at the correct prices.|[sales/Opportunity](Opportunity.md)|
-|[pricingErrorCode](#pricingErrorCode)|Pricing error for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[pricingErrorCode_display](#pricingErrorCode_display)||[sales/Opportunity](Opportunity.md)|
-|[priorityCode](#priorityCode)|Select the priority so that preferred customers or critical issues are handled quickly.|[sales/Opportunity](Opportunity.md)|
-|[priorityCode_display](#priorityCode_display)||[sales/Opportunity](Opportunity.md)|
-|[purchaseProcess](#purchaseProcess)|Choose whether an individual or a committee will be involved in the  purchase process for the lead.|[sales/Opportunity](Opportunity.md)|
-|[purchaseProcess_display](#purchaseProcess_display)||[sales/Opportunity](Opportunity.md)|
-|[purchaseTimeFrame](#purchaseTimeFrame)|Choose how long the lead will likely take to make the purchase.|[sales/Opportunity](Opportunity.md)|
-|[purchaseTimeFrame_display](#purchaseTimeFrame_display)||[sales/Opportunity](Opportunity.md)|
-|[salesStage](#salesStage)|Select the sales stage of this opportunity to aid the sales team in their efforts to win this opportunity.|[sales/Opportunity](Opportunity.md)|
-|[salesStage_display](#salesStage_display)||[sales/Opportunity](Opportunity.md)|
-|[salesStageCode](#salesStageCode)|Select the sales process stage for the opportunity to indicate the probability of closing the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[salesStageCode_display](#salesStageCode_display)||[sales/Opportunity](Opportunity.md)|
-|[presentProposal](#presentProposal)|Select whether a proposal for the opportunity has been presented to the account.|[sales/Opportunity](Opportunity.md)|
-|[captureProposalFeedback](#captureProposalFeedback)|Choose whether the proposal feedback has been captured for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[proposedSolution](#proposedSolution)|Type notes about the proposed solution for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[pursuitDecision](#pursuitDecision)|Select whether the decision about pursuing the opportunity has been made.|[sales/Opportunity](Opportunity.md)|
-|[qualificationComments](#qualificationComments)|Type comments about the qualification or scoring of the lead.|[sales/Opportunity](Opportunity.md)|
-|[quoteComments](#quoteComments)|Type comments about the quotes associated with the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[sendThankYouNote](#sendThankYouNote)|Select whether a thank you note has been sent to the account for considering the proposal.|[sales/Opportunity](Opportunity.md)|
-|[scheduleFollowupProspect](#scheduleFollowupProspect)|Enter the date and time of the prospecting follow-up meeting with the lead.|[sales/Opportunity](Opportunity.md)|
-|[scheduleFollowUpQualify](#scheduleFollowUpQualify)|Enter the date and time of the qualifying follow-up meeting with the lead.|[sales/Opportunity](Opportunity.md)|
-|[scheduleProposalMeeting](#scheduleProposalMeeting)|Enter the date and time of the proposal meeting for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[stateCode](#stateCode)|Shows whether the opportunity is open, won, or lost. Won and lost opportunities are read-only and can't be edited until they are reactivated.|[sales/Opportunity](Opportunity.md)|
-|[stateCode_display](#stateCode_display)||[sales/Opportunity](Opportunity.md)|
-|[statusCode](#statusCode)|Select the opportunity's status.|[sales/Opportunity](Opportunity.md)|
-|[statusCode_display](#statusCode_display)||[sales/Opportunity](Opportunity.md)|
-|[stepId](#stepId)|Shows the ID of the workflow step.|[sales/Opportunity](Opportunity.md)|
-|[stepName](#stepName)|Shows the current phase in the sales pipeline for the opportunity. This is updated by a workflow.|[sales/Opportunity](Opportunity.md)|
-|[timeLine](#timeLine)|Select when the opportunity is likely to be closed.|[sales/Opportunity](Opportunity.md)|
-|[timeLine_display](#timeLine_display)||[sales/Opportunity](Opportunity.md)|
-|[totalAmount](#totalAmount)|Shows the total amount due, calculated as the sum of the products, discounts, freight, and taxes for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[totalAmountBase](#totalAmountBase)|Value of the Total Amount in base currency.|[sales/Opportunity](Opportunity.md)|
-|[totalAmountLessFreight](#totalAmountLessFreight)|Shows the total product amount for the opportunity, minus any discounts. This value is added to freight and tax amounts in the calculation for the total amount of the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[totalAmountLessFreightBase](#totalAmountLessFreightBase)|Value of the Total Pre-Freight Amount in base currency.|[sales/Opportunity](Opportunity.md)|
-|[totalDiscountAmount](#totalDiscountAmount)|Shows the total discount amount, based on the discount price and rate entered on the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[totalDiscountAmountBase](#totalDiscountAmountBase)|Value of the Total Discount Amount in base currency.|[sales/Opportunity](Opportunity.md)|
-|[totalLineItemAmount](#totalLineItemAmount)|Shows the sum of all existing and write-in products included on the opportunity, based on the specified price list and quantities.|[sales/Opportunity](Opportunity.md)|
-|[totalLineItemAmountBase](#totalLineItemAmountBase)|Value of the Total Detail Amount in base currency.|[sales/Opportunity](Opportunity.md)|
-|[totalLineItemDiscountAmount](#totalLineItemDiscountAmount)|Shows the total of the Manual Discount amounts specified on all products included in the opportunity. This value is reflected in the Total Detail Amount field on the opportunity and is added to any discount amount or rate specified on the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[totalLineItemDiscountAmountBase](#totalLineItemDiscountAmountBase)|Value of the Total Line Item Discount Amount in base currency.|[sales/Opportunity](Opportunity.md)|
-|[totalTax](#totalTax)|Shows the total of the Tax amounts specified on all products included in the opportunity, included in the Total Amount field calculation for the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[totalTaxBase](#totalTaxBase)|Value of the Total Tax in base currency.|[sales/Opportunity](Opportunity.md)|
-|[identifyCustomerContacts](#identifyCustomerContacts)|Select whether the customer contacts for this opportunity have been identified.|[sales/Opportunity](Opportunity.md)|
-|[identifyCompetitors](#identifyCompetitors)|Select whether information about competitors is included.|[sales/Opportunity](Opportunity.md)|
-|[identifyPursuitTeam](#identifyPursuitTeam)|Choose whether you have recorded who will pursue the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[presentFinalProposal](#presentFinalProposal)|Select whether the final proposal has been presented to the account.|[sales/Opportunity](Opportunity.md)|
-|[onHoldTime](#onHoldTime)|Shows the duration in minutes for which the opportunity was on hold.|[sales/Opportunity](Opportunity.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date time stamp of the last on hold time.|[sales/Opportunity](Opportunity.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the opportunity record.|[sales/Opportunity](Opportunity.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this opportunity. This field is for internal use only.|[sales/Opportunity](Opportunity.md)|
-|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to the opportunity record.|[sales/Opportunity](Opportunity.md)|
-|[originatingLeadId](#originatingLeadId)|Choose the lead that the opportunity was created from for reporting and analytics. The field is read-only after the opportunity is created and defaults to the correct lead when an opportunity is created from a converted lead.|[sales/Opportunity](Opportunity.md)|
-|[accountId](#accountId)|Unique identifier of the account with which the opportunity is associated.|[sales/Opportunity](Opportunity.md)|
-|[contactId](#contactId)|Unique identifier of the contact associated with the opportunity.|[sales/Opportunity](Opportunity.md)|
-|[campaignId](#campaignId)|Shows the campaign that the opportunity was created from. The ID is used for tracking the success of the campaign.|[sales/Opportunity](Opportunity.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[opportunityId](#opportunityId)|Unique identifier of the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[emailAddress](#emailAddress)|The primary email address for the entity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[name](#name)|Type a subject or descriptive name, such as the expected order or company name, for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[actualCloseDate](#actualCloseDate)|Shows the date and time when the opportunity was closed or canceled.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[actualValue](#actualValue)|Type the actual revenue amount for the opportunity for reporting and analysis of estimated versus actual sales. Field defaults to the Est. Revenue value when an opportunity is won.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[actualValueBase](#actualValueBase)|Value of the Actual Revenue in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[budgetAmount](#budgetAmount)|Type a value between 0 and 1,000,000,000,000 to indicate the lead's potential available budget.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[budgetAmountBase](#budgetAmountBase)|Value of the Budget Amount in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[budgetStatus](#budgetStatus)|Select the likely budget status for the lead's company. This may help determine the lead rating or your sales approach.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[budgetStatus_display](#budgetStatus_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[closeProbability](#closeProbability)|Type a number from 0 to 100 that represents the likelihood of closing the opportunity. This can aid the sales team in their efforts to convert the opportunity in a sale.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[completeInternalReview](#completeInternalReview)|Select whether an internal review has been completed for this opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[confirmInterest](#confirmInterest)|Select whether the lead confirmed interest in your offerings. This helps in determining the lead quality and the probability of it turning into an opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[currentSituation](#currentSituation)|Type notes about the company or organization associated with the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[customerNeed](#customerNeed)|Type some notes about the customer's requirements, to help the sales team identify products and services that could meet their requirements.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[customerPainPoints](#customerPainPoints)|Type notes about the customer's pain points to help the sales team identify products and services that could address these pain points.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[decisionMaker](#decisionMaker)|Select whether your notes include information about who makes the purchase decisions at the lead's company.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[description](#description)|Type additional information to describe the opportunity, such as possible products to sell or past purchases from the customer.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[developProposal](#developProposal)|Select whether a proposal has been developed for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[discountAmount](#discountAmount)|Type the discount amount for the opportunity if the customer is eligible for special savings.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[discountAmountBase](#discountAmountBase)|Value of the Opportunity Discount Amount in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[discountPercentage](#discountPercentage)|Type the discount rate that should be applied to the Product Totals field to include additional savings for the customer in the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[estimatedCloseDate](#estimatedCloseDate)|Enter the expected closing date of the opportunity to help make accurate revenue forecasts.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[estimatedValue](#estimatedValue)|Type the estimated revenue amount to indicate the potential sale or value of the opportunity for revenue forecasting. This field can be either system-populated or editable based on the selection in the Revenue field.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[estimatedValueBase](#estimatedValueBase)|Value of the Est. Revenue in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[evaluateFit](#evaluateFit)|Select whether the fit between the lead's requirements and your offerings was evaluated.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[resolveFeedback](#resolveFeedback)|Choose whether the proposal feedback has been captured and resolved for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[fileDebrief](#fileDebrief)|Choose whether the sales team has recorded detailed notes on the proposals and the account's responses.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[completeFinalProposal](#completeFinalProposal)|Select whether a final proposal has been completed for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[finalDecisionDate](#finalDecisionDate)|Enter the date and time when the final decision of the opportunity was made.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[freightAmount](#freightAmount)|Type the cost of freight or shipping for the products included in the opportunity for use in calculating the Total Amount field.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[freightAmountBase](#freightAmountBase)|Value of the Freight Amount in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[initialCommunication](#initialCommunication)|Choose whether someone from the sales team contacted this lead earlier.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[initialCommunication_display](#initialCommunication_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[isRevenueSystemCalculated](#isRevenueSystemCalculated)|Select whether the estimated revenue for the opportunity is calculated automatically based on the products entered or entered manually by a user.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[need](#need)|Choose how high the level of need is for the lead's company.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[need_display](#need_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[opportunityRatingCode](#opportunityRatingCode)|Select the expected value or priority of the opportunity based on revenue, customer status, or closing probability.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[opportunityRatingCode_display](#opportunityRatingCode_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[parentAccountId](#parentAccountId)|Choose an account to connect this opportunity to, so that the relationship is visible in reports and analytics, and to provide a quick link to additional details, such as financial information and activities.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[parentContactId](#parentContactId)|Choose a contact to connect this opportunity to, so that the relationship is visible in reports and analytics.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[participatesInWorkflow](#participatesInWorkflow)|Information about whether the opportunity participates in workflow rules.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[priceLevelId](#priceLevelId)|Choose the price list associated with this record to make sure the products associated with the campaign are offered at the correct prices.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[pricingErrorCode](#pricingErrorCode)|Pricing error for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[pricingErrorCode_display](#pricingErrorCode_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[priorityCode](#priorityCode)|Select the priority so that preferred customers or critical issues are handled quickly.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[purchaseProcess](#purchaseProcess)|Choose whether an individual or a committee will be involved in the  purchase process for the lead.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[purchaseProcess_display](#purchaseProcess_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[purchaseTimeFrame](#purchaseTimeFrame)|Choose how long the lead will likely take to make the purchase.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[purchaseTimeFrame_display](#purchaseTimeFrame_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[salesStage](#salesStage)|Select the sales stage of this opportunity to aid the sales team in their efforts to win this opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[salesStage_display](#salesStage_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[salesStageCode](#salesStageCode)|Select the sales process stage for the opportunity to indicate the probability of closing the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[salesStageCode_display](#salesStageCode_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[presentProposal](#presentProposal)|Select whether a proposal for the opportunity has been presented to the account.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[captureProposalFeedback](#captureProposalFeedback)|Choose whether the proposal feedback has been captured for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[proposedSolution](#proposedSolution)|Type notes about the proposed solution for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[pursuitDecision](#pursuitDecision)|Select whether the decision about pursuing the opportunity has been made.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[qualificationComments](#qualificationComments)|Type comments about the qualification or scoring of the lead.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[quoteComments](#quoteComments)|Type comments about the quotes associated with the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[sendThankYouNote](#sendThankYouNote)|Select whether a thank you note has been sent to the account for considering the proposal.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[scheduleFollowupProspect](#scheduleFollowupProspect)|Enter the date and time of the prospecting follow-up meeting with the lead.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[scheduleFollowUpQualify](#scheduleFollowUpQualify)|Enter the date and time of the qualifying follow-up meeting with the lead.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[scheduleProposalMeeting](#scheduleProposalMeeting)|Enter the date and time of the proposal meeting for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[stateCode](#stateCode)|Shows whether the opportunity is open, won, or lost. Won and lost opportunities are read-only and can't be edited until they are reactivated.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[stateCode_display](#stateCode_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[statusCode](#statusCode)|Select the opportunity's status.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[statusCode_display](#statusCode_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[stepId](#stepId)|Shows the ID of the workflow step.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[stepName](#stepName)|Shows the current phase in the sales pipeline for the opportunity. This is updated by a workflow.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[timeLine](#timeLine)|Select when the opportunity is likely to be closed.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[timeLine_display](#timeLine_display)||<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalAmount](#totalAmount)|Shows the total amount due, calculated as the sum of the products, discounts, freight, and taxes for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalAmountBase](#totalAmountBase)|Value of the Total Amount in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalAmountLessFreight](#totalAmountLessFreight)|Shows the total product amount for the opportunity, minus any discounts. This value is added to freight and tax amounts in the calculation for the total amount of the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalAmountLessFreightBase](#totalAmountLessFreightBase)|Value of the Total Pre-Freight Amount in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalDiscountAmount](#totalDiscountAmount)|Shows the total discount amount, based on the discount price and rate entered on the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalDiscountAmountBase](#totalDiscountAmountBase)|Value of the Total Discount Amount in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalLineItemAmount](#totalLineItemAmount)|Shows the sum of all existing and write-in products included on the opportunity, based on the specified price list and quantities.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalLineItemAmountBase](#totalLineItemAmountBase)|Value of the Total Detail Amount in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalLineItemDiscountAmount](#totalLineItemDiscountAmount)|Shows the total of the Manual Discount amounts specified on all products included in the opportunity. This value is reflected in the Total Detail Amount field on the opportunity and is added to any discount amount or rate specified on the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalLineItemDiscountAmountBase](#totalLineItemDiscountAmountBase)|Value of the Total Line Item Discount Amount in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalTax](#totalTax)|Shows the total of the Tax amounts specified on all products included in the opportunity, included in the Total Amount field calculation for the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[totalTaxBase](#totalTaxBase)|Value of the Total Tax in base currency.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[identifyCustomerContacts](#identifyCustomerContacts)|Select whether the customer contacts for this opportunity have been identified.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[identifyCompetitors](#identifyCompetitors)|Select whether information about competitors is included.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[identifyPursuitTeam](#identifyPursuitTeam)|Choose whether you have recorded who will pursue the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[presentFinalProposal](#presentFinalProposal)|Select whether the final proposal has been presented to the account.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[onHoldTime](#onHoldTime)|Shows the duration in minutes for which the opportunity was on hold.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date time stamp of the last on hold time.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the opportunity record.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this opportunity. This field is for internal use only.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to the opportunity record.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[originatingLeadId](#originatingLeadId)|Choose the lead that the opportunity was created from for reporting and analytics. The field is read-only after the opportunity is created and defaults to the correct lead when an opportunity is created from a converted lead.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[accountId](#accountId)|Unique identifier of the account with which the opportunity is associated.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[contactId](#contactId)|Unique identifier of the contact associated with the opportunity.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
+|[campaignId](#campaignId)|Shows the campaign that the opportunity was created from. The ID is used for tracking the success of the campaign.|<a href="Opportunity.md" target="_blank">sales/Opportunity</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

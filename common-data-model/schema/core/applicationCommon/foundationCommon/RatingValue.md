@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Rating Value
 
 A unique value associated with a rating model that allows providing a user friendly rating value.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/RatingValue.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/RatingValue  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/RatingValue](RatingValue.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/RatingValue](RatingValue.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/RatingValue](RatingValue.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/RatingValue](RatingValue.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/RatingValue](RatingValue.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/RatingValue](RatingValue.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/RatingValue](RatingValue.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/RatingValue](RatingValue.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/RatingValue](RatingValue.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/RatingValue](RatingValue.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/RatingValue](RatingValue.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/RatingValue](RatingValue.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/RatingValue](RatingValue.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/RatingValue](RatingValue.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/RatingValue](RatingValue.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/RatingValue](RatingValue.md)|
-|[ratingValueId](#ratingValueId)|Unique identifier of the rating value.|[foundationCommon/RatingValue](RatingValue.md)|
-|[name](#name)|Type a name that represents a rating value such as familiar, good, proficient etc.|[foundationCommon/RatingValue](RatingValue.md)|
-|[ratingModel](#ratingModel)|Select the model that this rating value is associated with.|[foundationCommon/RatingValue](RatingValue.md)|
-|[stateCode](#stateCode)|Status of the Rating Value|[foundationCommon/RatingValue](RatingValue.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/RatingValue](RatingValue.md)|
-|[statusCode](#statusCode)|Reason for the status of the Rating Value|[foundationCommon/RatingValue](RatingValue.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/RatingValue](RatingValue.md)|
-|[value](#value)|Type a rating value which is unique to the rating model it is associated with and lies within the range specified on the model.|[foundationCommon/RatingValue](RatingValue.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the ratingvalue with respect to the base currency.|[foundationCommon/RatingValue](RatingValue.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the RatingValue with respect to the base currency.|[foundationCommon/RatingValue](RatingValue.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[ratingValueId](#ratingValueId)|Unique identifier of the rating value.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[name](#name)|Type a name that represents a rating value such as familiar, good, proficient etc.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[ratingModel](#ratingModel)|Select the model that this rating value is associated with.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[stateCode](#stateCode)|Status of the Rating Value|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[stateCode_display](#stateCode_display)||<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[statusCode](#statusCode)|Reason for the status of the Rating Value|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[statusCode_display](#statusCode_display)||<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[value](#value)|Type a rating value which is unique to the rating model it is associated with and lies within the range specified on the model.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the ratingvalue with respect to the base currency.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the RatingValue with respect to the base currency.|<a href="RatingValue.md" target="_blank">foundationCommon/RatingValue</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

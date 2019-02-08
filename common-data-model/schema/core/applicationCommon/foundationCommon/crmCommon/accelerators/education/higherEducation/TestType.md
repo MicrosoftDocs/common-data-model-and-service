@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Test Type
 
 Type of test taken by a Student Contact  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,34 +46,35 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/TestType  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/TestType](TestType.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/TestType](TestType.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/TestType](TestType.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/TestType](TestType.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/TestType](TestType.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/TestType](TestType.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/TestType](TestType.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/TestType](TestType.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/TestType](TestType.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/TestType](TestType.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/TestType](TestType.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/TestType](TestType.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/TestType](TestType.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/TestType](TestType.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/TestType](TestType.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/TestType](TestType.md)|
-|[testTypeId](#testTypeId)|Unique identifier for entity instances|[higherEducation/TestType](TestType.md)|
-|[stateCode](#stateCode)|Status of the Test Type|[higherEducation/TestType](TestType.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/TestType](TestType.md)|
-|[statusCode](#statusCode)|Reason for the status of the Test Type|[higherEducation/TestType](TestType.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/TestType](TestType.md)|
-|[name](#name)|The name of the custom entity.|[higherEducation/TestType](TestType.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[testTypeId](#testTypeId)|Unique identifier for entity instances|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[stateCode](#stateCode)|Status of the Test Type|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[stateCode_display](#stateCode_display)||<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[statusCode](#statusCode)|Reason for the status of the Test Type|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[statusCode_display](#statusCode_display)||<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
+|[name](#name)|The name of the custom entity.|<a href="TestType.md" target="_blank">higherEducation/TestType</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Ledger
 
 The collection of all accounts making up the central repository of accounting data for a company.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -40,17 +40,18 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 financialCommon/Ledger  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[ledgerId](#ledgerId)|The surrogate key of the ledger record|[financialCommon/Ledger](Ledger.md)|
-|[name](#name)|The user-readable name of the ledger|[financialCommon/Ledger](Ledger.md)|
-|[description](#description)|The description of the ledger|[financialCommon/Ledger](Ledger.md)|
-|[companyKey](#companyKey)|The company for which the ledger stores financial information|[financialCommon/Ledger](Ledger.md)|
-|[accountingCurrencyKey](#accountingCurrencyKey)|The currency in which all amounts in the ledger are expressed|[financialCommon/Ledger](Ledger.md)|
+|[ledgerId](#ledgerId)|The surrogate key of the ledger record|<a href="Ledger.md" target="_blank">financialCommon/Ledger</a>|
+|[name](#name)|The user-readable name of the ledger|<a href="Ledger.md" target="_blank">financialCommon/Ledger</a>|
+|[description](#description)|The description of the ledger|<a href="Ledger.md" target="_blank">financialCommon/Ledger</a>|
+|[companyKey](#companyKey)|The company for which the ledger stores financial information|<a href="Ledger.md" target="_blank">financialCommon/Ledger</a>|
+|[accountingCurrencyKey](#accountingCurrencyKey)|The currency in which all amounts in the ledger are expressed|<a href="Ledger.md" target="_blank">financialCommon/Ledger</a>|
 
 ### <a href=#ledgerId name="ledgerId">ledgerId</a>
 

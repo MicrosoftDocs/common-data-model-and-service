@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Lead
 
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [crmCommon/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
 nonProfit/Lead  
 [marketing/Lead](../../solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  
@@ -54,188 +55,188 @@ nonProfit/Lead
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[crmCommon/Lead](../../Lead.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[crmCommon/Lead](../../Lead.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[crmCommon/Lead](../../Lead.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[crmCommon/Lead](../../Lead.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[crmCommon/Lead](../../Lead.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[crmCommon/Lead](../../Lead.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[crmCommon/Lead](../../Lead.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[crmCommon/Lead](../../Lead.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[crmCommon/Lead](../../Lead.md)|
-|[ownerId](#ownerId)|Owner Id|[crmCommon/Lead](../../Lead.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[crmCommon/Lead](../../Lead.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[crmCommon/Lead](../../Lead.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[crmCommon/Lead](../../Lead.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[crmCommon/Lead](../../Lead.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[crmCommon/Lead](../../Lead.md)|
-|[versionNumber](#versionNumber)|Version Number|[crmCommon/Lead](../../Lead.md)|
-|[leadId](#leadId)|Unique identifier of the lead.|[crmCommon/Lead](../../Lead.md)|
-|[fullName](#fullName)|Combines and shows the lead's first and last names so the full name can be displayed in views and reports.|[crmCommon/Lead](../../Lead.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[crmCommon/Lead](../../Lead.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[crmCommon/Lead](../../Lead.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[crmCommon/Lead](../../Lead.md)|
-|[parentAccountId](#parentAccountId)|Choose an account to connect this lead to, so that the relationship is visible in reports and analytics.|[crmCommon/Lead](../../Lead.md)|
-|[parentContactId](#parentContactId)|Choose a contact to connect this lead to, so that the relationship is visible in reports and analytics.|[crmCommon/Lead](../../Lead.md)|
-|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|[crmCommon/Lead](../../Lead.md)|
-|[address1AddressTypeCode](#address1AddressTypeCode)|Select the primary address type.|[crmCommon/Lead](../../Lead.md)|
-|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[address1City](#address1City)|Type the city for the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Composite](#address1Composite)|Shows the complete primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Country](#address1Country)|Type the country or region for the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1County](#address1County)|Type the county for the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Fax](#address1Fax)|Type the fax number associated with the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Latitude](#address1Latitude)|Type the latitude value for the primary address for use in mapping and other applications.|[crmCommon/Lead](../../Lead.md)|
-|[address1Line1](#address1Line1)|Type the first line of the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Line2](#address1Line2)|Type the second line of the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Line3](#address1Line3)|Type the third line of the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Longitude](#address1Longitude)|Type the longitude value for the primary address for use in mapping and other applications.|[crmCommon/Lead](../../Lead.md)|
-|[address1Name](#address1Name)|Type a descriptive name for the primary address, such as Corporate Headquarters.|[crmCommon/Lead](../../Lead.md)|
-|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|[crmCommon/Lead](../../Lead.md)|
-|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Telephone1](#address1Telephone1)|Type the main phone number associated with the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Telephone2](#address1Telephone2)|Type a second phone number associated with the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1Telephone3](#address1Telephone3)|Type a third phone number associated with the primary address.|[crmCommon/Lead](../../Lead.md)|
-|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|[crmCommon/Lead](../../Lead.md)|
-|[address1UTCOffset](#address1UTCOffset)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|[crmCommon/Lead](../../Lead.md)|
-|[address2AddressId](#address2AddressId)|Unique identifier for address 2.|[crmCommon/Lead](../../Lead.md)|
-|[address2AddressTypeCode](#address2AddressTypeCode)|Select the secondary address type.|[crmCommon/Lead](../../Lead.md)|
-|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[address2City](#address2City)|Type the city for the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Composite](#address2Composite)|Shows the complete secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Country](#address2Country)|Type the country or region for the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2County](#address2County)|Type the county for the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Fax](#address2Fax)|Type the fax number associated with the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Latitude](#address2Latitude)|Type the latitude value for the secondary address for use in mapping and other applications.|[crmCommon/Lead](../../Lead.md)|
-|[address2Line1](#address2Line1)|Type the first line of the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Line2](#address2Line2)|Type the second line of the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Line3](#address2Line3)|Type the third line of the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Longitude](#address2Longitude)|Type the longitude value for the secondary address for use in mapping and other applications.|[crmCommon/Lead](../../Lead.md)|
-|[address2Name](#address2Name)|Type a descriptive name for the secondary address, such as Corporate Headquarters.|[crmCommon/Lead](../../Lead.md)|
-|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|[crmCommon/Lead](../../Lead.md)|
-|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Telephone1](#address2Telephone1)|Type the main phone number associated with the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Telephone2](#address2Telephone2)|Type a second phone number associated with the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2Telephone3](#address2Telephone3)|Type a third phone number associated with the secondary address.|[crmCommon/Lead](../../Lead.md)|
-|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|[crmCommon/Lead](../../Lead.md)|
-|[address2UTCOffset](#address2UTCOffset)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|[crmCommon/Lead](../../Lead.md)|
-|[budgetAmount](#budgetAmount)|Information about the budget amount of the lead's company or organization.|[crmCommon/Lead](../../Lead.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[crmCommon/Lead](../../Lead.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[crmCommon/Lead](../../Lead.md)|
-|[budgetAmountBase](#budgetAmountBase)|Value of the Budget Amount in base currency.|[crmCommon/Lead](../../Lead.md)|
-|[budgetStatus](#budgetStatus)|Information about the budget status of the lead's company or organization.|[crmCommon/Lead](../../Lead.md)|
-|[budgetStatus_display](#budgetStatus_display)||[crmCommon/Lead](../../Lead.md)|
-|[companyName](#companyName)|Type the name of the company associated with the lead. This becomes the account name when the lead is qualified and converted to a customer account.|[crmCommon/Lead](../../Lead.md)|
-|[confirmInterest](#confirmInterest)|Select whether the lead confirmed interest in your offerings. This helps in determining the lead quality.|[crmCommon/Lead](../../Lead.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[crmCommon/Lead](../../Lead.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[crmCommon/Lead](../../Lead.md)|
-|[decisionMaker](#decisionMaker)|Select whether your notes include information about who makes the purchase decisions at the lead's company.|[crmCommon/Lead](../../Lead.md)|
-|[description](#description)|Type additional information to describe the lead, such as an excerpt from the company's website.|[crmCommon/Lead](../../Lead.md)|
-|[doNotBulkEMail](#doNotBulkEMail)|Select whether the lead accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the lead can be added to marketing lists, but will be excluded from the email.|[crmCommon/Lead](../../Lead.md)|
-|[doNotEMail](#doNotEMail)|Select whether the lead allows direct email sent from Microsoft Dynamics 365.|[crmCommon/Lead](../../Lead.md)|
-|[doNotFax](#doNotFax)|Select whether the lead allows faxes.|[crmCommon/Lead](../../Lead.md)|
-|[doNotPhone](#doNotPhone)|Select whether the lead allows phone calls.|[crmCommon/Lead](../../Lead.md)|
-|[doNotPostalMail](#doNotPostalMail)|Select whether the lead allows direct mail.|[crmCommon/Lead](../../Lead.md)|
-|[doNotSendMM](#doNotSendMM)|Select whether the lead accepts marketing materials, such as brochures or catalogs. Leads that opt out can be excluded from marketing initiatives.|[crmCommon/Lead](../../Lead.md)|
-|[EMailAddress1](#EMailAddress1)|Type the primary email address for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[EMailAddress3](#EMailAddress3)|Type a third email address for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[estimatedAmount](#estimatedAmount)|Type the estimated revenue value that this lead will generate to assist in sales forecasting and planning.|[crmCommon/Lead](../../Lead.md)|
-|[estimatedAmountBase](#estimatedAmountBase)|Value of the Est. Value in base currency.|[crmCommon/Lead](../../Lead.md)|
-|[estimatedCloseDate](#estimatedCloseDate)|Enter the expected close date for the lead, so that the sales team can schedule timely follow-up meetings to move the prospect to the next sales stage.|[crmCommon/Lead](../../Lead.md)|
-|[estimatedValue](#estimatedValue)|Type a numeric value of the lead's estimated value, such as a product quantity, if no revenue amount can be specified in the Est. Value field. This can be used for sales forecasting and planning.|[crmCommon/Lead](../../Lead.md)|
-|[evaluateFit](#evaluateFit)|Select whether the fit between the lead's requirements and your offerings was evaluated.|[crmCommon/Lead](../../Lead.md)|
-|[fax](#fax)|Type the fax number for the primary contact for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[firstName](#firstName)|Type the first name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.|[crmCommon/Lead](../../Lead.md)|
-|[industryCode](#industryCode)|Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.|[crmCommon/Lead](../../Lead.md)|
-|[industryCode_display](#industryCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[initialCommunication](#initialCommunication)|Choose whether someone from the sales team contacted this lead earlier.|[crmCommon/Lead](../../Lead.md)|
-|[initialCommunication_display](#initialCommunication_display)||[crmCommon/Lead](../../Lead.md)|
-|[jobTitle](#jobTitle)|Type the job title of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.|[crmCommon/Lead](../../Lead.md)|
-|[lastName](#lastName)|Type the last name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.|[crmCommon/Lead](../../Lead.md)|
-|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the lead was last included in a marketing campaign or quick campaign.|[crmCommon/Lead](../../Lead.md)|
-|[leadQualityCode](#leadQualityCode)|Select a rating value to indicate the lead's potential to become a customer.|[crmCommon/Lead](../../Lead.md)|
-|[leadQualityCode_display](#leadQualityCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[leadSourceCode](#leadSourceCode)|Select the primary marketing source that prompted the lead to contact you.|[crmCommon/Lead](../../Lead.md)|
-|[leadSourceCode_display](#leadSourceCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[masterId](#masterId)|Unique identifier of the master lead for merge.|[crmCommon/Lead](../../Lead.md)|
-|[merged](#merged)|Tells whether the lead has been merged with another lead.|[crmCommon/Lead](../../Lead.md)|
-|[middleName](#middleName)|Type the middle name or initial of the primary contact for the lead to make sure the prospect is addressed correctly.|[crmCommon/Lead](../../Lead.md)|
-|[mobilePhone](#mobilePhone)|Type the mobile phone number for the primary contact for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[need](#need)|Choose how high the level of need is for the lead's company.|[crmCommon/Lead](../../Lead.md)|
-|[need_display](#need_display)||[crmCommon/Lead](../../Lead.md)|
-|[numberOfEmployees](#numberOfEmployees)|Type the number of employees that work at the company associated with the lead, for use in marketing segmentation and demographic analysis.|[crmCommon/Lead](../../Lead.md)|
-|[pager](#pager)|Type the pager number for the primary contact for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[participatesInWorkflow](#participatesInWorkflow)|Shows whether the lead participates in workflow rules.|[crmCommon/Lead](../../Lead.md)|
-|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|[crmCommon/Lead](../../Lead.md)|
-|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[priorityCode](#priorityCode)|Select the priority so that preferred customers or critical issues are handled quickly.|[crmCommon/Lead](../../Lead.md)|
-|[priorityCode_display](#priorityCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[purchaseProcess](#purchaseProcess)|Choose whether an individual or a committee will be involved in the  purchase process for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[purchaseProcess_display](#purchaseProcess_display)||[crmCommon/Lead](../../Lead.md)|
-|[qualificationComments](#qualificationComments)|Type comments about the qualification or scoring of the lead.|[crmCommon/Lead](../../Lead.md)|
-|[revenue](#revenue)|Type the annual revenue of the company associated with the lead to provide an understanding of the prospect's business.|[crmCommon/Lead](../../Lead.md)|
-|[revenueBase](#revenueBase)|Value of the Annual Revenue in base currency.|[crmCommon/Lead](../../Lead.md)|
-|[salesStage](#salesStage)|Select the sales stage of this lead to aid the sales team in their efforts to convert this lead to an opportunity.|[crmCommon/Lead](../../Lead.md)|
-|[salesStage_display](#salesStage_display)||[crmCommon/Lead](../../Lead.md)|
-|[salesStageCode](#salesStageCode)|Select the sales process stage for the lead to help determine the probability of the lead converting to an opportunity.|[crmCommon/Lead](../../Lead.md)|
-|[salesStageCode_display](#salesStageCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[salutation](#salutation)|Type the salutation of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email messages, and marketing campaigns.|[crmCommon/Lead](../../Lead.md)|
-|[scheduleFollowupProspect](#scheduleFollowupProspect)|Enter the date and time of the prospecting follow-up meeting with the lead.|[crmCommon/Lead](../../Lead.md)|
-|[scheduleFollowUpQualify](#scheduleFollowUpQualify)|Enter the date and time of the qualifying follow-up meeting with the lead.|[crmCommon/Lead](../../Lead.md)|
-|[SIC](#SIC)|Type the Standard Industrial Classification (SIC) code that indicates the lead's primary industry of business for use in marketing segmentation and demographic analysis.|[crmCommon/Lead](../../Lead.md)|
-|[stateCode](#stateCode)|Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.|[crmCommon/Lead](../../Lead.md)|
-|[stateCode_display](#stateCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[statusCode](#statusCode)|Select the lead's status.|[crmCommon/Lead](../../Lead.md)|
-|[statusCode_display](#statusCode_display)||[crmCommon/Lead](../../Lead.md)|
-|[subject](#subject)|Type a subject or descriptive name, such as the expected order, company name, or marketing source list, to identify the lead.|[crmCommon/Lead](../../Lead.md)|
-|[telephone1](#telephone1)|Type the work phone number for the primary contact for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[telephone2](#telephone2)|Type the home phone number for the primary contact for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[telephone3](#telephone3)|Type an alternate phone number for the primary contact for the lead.|[crmCommon/Lead](../../Lead.md)|
-|[purchaseTimeFrame](#purchaseTimeFrame)|Choose how long the lead will likely take to make the purchase, so the sales team will be aware.|[crmCommon/Lead](../../Lead.md)|
-|[purchaseTimeFrame_display](#purchaseTimeFrame_display)||[crmCommon/Lead](../../Lead.md)|
-|[webSiteUrl](#webSiteUrl)|Type the website URL for the company associated with this lead.|[crmCommon/Lead](../../Lead.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Lead record.|[crmCommon/Lead](../../Lead.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[crmCommon/Lead](../../Lead.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[crmCommon/Lead](../../Lead.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[crmCommon/Lead](../../Lead.md)|
-|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the lead.|[crmCommon/Lead](../../Lead.md)|
-|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to the lead record.|[crmCommon/Lead](../../Lead.md)|
-|[entityImageId](#entityImageId)||[crmCommon/Lead](../../Lead.md)|
-|[accountId](#accountId)|Unique identifier of the account with which the lead is associated.|[crmCommon/Lead](../../Lead.md)|
-|[contactId](#contactId)|Unique identifier of the contact with which the lead is associated.|[crmCommon/Lead](../../Lead.md)|
-|[yomiCompanyName](#yomiCompanyName)|Type the phonetic spelling of the lead's company name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|[crmCommon/Lead](../../Lead.md)|
-|[yomiFirstName](#yomiFirstName)|Type the phonetic spelling of the lead's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|[crmCommon/Lead](../../Lead.md)|
-|[yomiFullName](#yomiFullName)|Combines and shows the lead's Yomi first and last names so the full phonetic name can be displayed in views and reports.|[crmCommon/Lead](../../Lead.md)|
-|[yomiLastName](#yomiLastName)|Type the phonetic spelling of the lead's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|[crmCommon/Lead](../../Lead.md)|
-|[yomiMiddleName](#yomiMiddleName)|Type the phonetic spelling of the lead's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|[crmCommon/Lead](../../Lead.md)|
-|[campaignId](#campaignId)|Choose the campaign that the lead was generated from to track the effectiveness of marketing campaigns and identify  communications received by the lead.|[crmCommon/Lead](../../Lead.md)|
-|[relatedObjectId](#relatedObjectId)|Related Campaign Response.|[crmCommon/Lead](../../Lead.md)|
-|[originatingCaseId](#originatingCaseId)|This attribute is used for Sample Service Business Processes.|[crmCommon/Lead](../../Lead.md)|
-|[qualifyingOpportunityId](#qualifyingOpportunityId)|Choose the opportunity that the lead was qualified on and then converted to.|[crmCommon/Lead](../../Lead.md)|
-|[applicationDeadline](#applicationDeadline)|Deadline to submit application.|[nonProfit/Lead](Lead.md)|
-|[deliveryFramework](#deliveryFramework)||[nonProfit/Lead](Lead.md)|
-|[expectedAmountRequested](#expectedAmountRequested)|Amount requested by the Grant Seeker.|[nonProfit/Lead](Lead.md)|
-|[expectedamountrequestedBase](#expectedamountrequestedBase)|Value of the Expected Amount Requested in base currency.|[nonProfit/Lead](Lead.md)|
-|[expectedDuration](#expectedDuration)|Expected duration of the Grant in months.|[nonProfit/Lead](Lead.md)|
-|[expectedStartDate](#expectedStartDate)|Expected start date of the Grant.|[nonProfit/Lead](Lead.md)|
-|[isRenewal](#isRenewal)|Indicates if this is a renewal Grant.|[nonProfit/Lead](Lead.md)|
-|[leadDocketId](#leadDocketId)|Docket|[nonProfit/Lead](Lead.md)|
-|[letterofIntentDeadline](#letterofIntentDeadline)|Deadline to submit notification to donor that organization will be competing for this grant.|[nonProfit/Lead](Lead.md)|
-|[organizationalBudget](#organizationalBudget)|Total budget of the Organization.|[nonProfit/Lead](Lead.md)|
-|[organizationalbudgetBase](#organizationalbudgetBase)|Value of the Organization Budget in base currency.|[nonProfit/Lead](Lead.md)|
-|[organizationType](#organizationType)|Type of Account.|[nonProfit/Lead](Lead.md)|
-|[organizationType_display](#organizationType_display)||[nonProfit/Lead](Lead.md)|
-|[requestType](#requestType)|Indicates the type of Inquiry/LOI/Lead.|[nonProfit/Lead](Lead.md)|
-|[requestType_display](#requestType_display)||[nonProfit/Lead](Lead.md)|
-|[totalProjectBudget](#totalProjectBudget)|Budget defined by the Grant Seeker.|[nonProfit/Lead](Lead.md)|
-|[totalprojectbudgetBase](#totalprojectbudgetBase)|Value of the Total Project Budget in base currency.|[nonProfit/Lead](Lead.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[leadId](#leadId)|Unique identifier of the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[fullName](#fullName)|Combines and shows the lead's first and last names so the full name can be displayed in views and reports.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[parentAccountId](#parentAccountId)|Choose an account to connect this lead to, so that the relationship is visible in reports and analytics.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[parentContactId](#parentContactId)|Choose a contact to connect this lead to, so that the relationship is visible in reports and analytics.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1AddressId](#address1AddressId)|Unique identifier for address 1.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1AddressTypeCode](#address1AddressTypeCode)|Select the primary address type.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1AddressTypeCode_display](#address1AddressTypeCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1City](#address1City)|Type the city for the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Composite](#address1Composite)|Shows the complete primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Country](#address1Country)|Type the country or region for the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1County](#address1County)|Type the county for the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Fax](#address1Fax)|Type the fax number associated with the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Latitude](#address1Latitude)|Type the latitude value for the primary address for use in mapping and other applications.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Line1](#address1Line1)|Type the first line of the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Line2](#address1Line2)|Type the second line of the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Line3](#address1Line3)|Type the third line of the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Longitude](#address1Longitude)|Type the longitude value for the primary address for use in mapping and other applications.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Name](#address1Name)|Type a descriptive name for the primary address, such as Corporate Headquarters.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1PostalCode](#address1PostalCode)|Type the ZIP Code or postal code for the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1PostOfficeBox](#address1PostOfficeBox)|Type the post office box number of the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1ShippingMethodCode](#address1ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1ShippingMethodCode_display](#address1ShippingMethodCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1StateOrProvince](#address1StateOrProvince)|Type the state or province of the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Telephone1](#address1Telephone1)|Type the main phone number associated with the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Telephone2](#address1Telephone2)|Type a second phone number associated with the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1Telephone3](#address1Telephone3)|Type a third phone number associated with the primary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1UPSZone](#address1UPSZone)|Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address1UTCOffset](#address1UTCOffset)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2AddressId](#address2AddressId)|Unique identifier for address 2.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2AddressTypeCode](#address2AddressTypeCode)|Select the secondary address type.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2AddressTypeCode_display](#address2AddressTypeCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2City](#address2City)|Type the city for the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Composite](#address2Composite)|Shows the complete secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Country](#address2Country)|Type the country or region for the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2County](#address2County)|Type the county for the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Fax](#address2Fax)|Type the fax number associated with the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Latitude](#address2Latitude)|Type the latitude value for the secondary address for use in mapping and other applications.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Line1](#address2Line1)|Type the first line of the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Line2](#address2Line2)|Type the second line of the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Line3](#address2Line3)|Type the third line of the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Longitude](#address2Longitude)|Type the longitude value for the secondary address for use in mapping and other applications.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Name](#address2Name)|Type a descriptive name for the secondary address, such as Corporate Headquarters.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2PostalCode](#address2PostalCode)|Type the ZIP Code or postal code for the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2PostOfficeBox](#address2PostOfficeBox)|Type the post office box number of the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2ShippingMethodCode](#address2ShippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2ShippingMethodCode_display](#address2ShippingMethodCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2StateOrProvince](#address2StateOrProvince)|Type the state or province of the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Telephone1](#address2Telephone1)|Type the main phone number associated with the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Telephone2](#address2Telephone2)|Type a second phone number associated with the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2Telephone3](#address2Telephone3)|Type a third phone number associated with the secondary address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2UPSZone](#address2UPSZone)|Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[address2UTCOffset](#address2UTCOffset)|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[budgetAmount](#budgetAmount)|Information about the budget amount of the lead's company or organization.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[budgetAmountBase](#budgetAmountBase)|Value of the Budget Amount in base currency.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[budgetStatus](#budgetStatus)|Information about the budget status of the lead's company or organization.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[budgetStatus_display](#budgetStatus_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[companyName](#companyName)|Type the name of the company associated with the lead. This becomes the account name when the lead is qualified and converted to a customer account.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[confirmInterest](#confirmInterest)|Select whether the lead confirmed interest in your offerings. This helps in determining the lead quality.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[decisionMaker](#decisionMaker)|Select whether your notes include information about who makes the purchase decisions at the lead's company.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[description](#description)|Type additional information to describe the lead, such as an excerpt from the company's website.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[doNotBulkEMail](#doNotBulkEMail)|Select whether the lead accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the lead can be added to marketing lists, but will be excluded from the email.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[doNotEMail](#doNotEMail)|Select whether the lead allows direct email sent from Microsoft Dynamics 365.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[doNotFax](#doNotFax)|Select whether the lead allows faxes.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[doNotPhone](#doNotPhone)|Select whether the lead allows phone calls.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[doNotPostalMail](#doNotPostalMail)|Select whether the lead allows direct mail.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[doNotSendMM](#doNotSendMM)|Select whether the lead accepts marketing materials, such as brochures or catalogs. Leads that opt out can be excluded from marketing initiatives.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[EMailAddress1](#EMailAddress1)|Type the primary email address for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[EMailAddress2](#EMailAddress2)|Type the secondary email address for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[EMailAddress3](#EMailAddress3)|Type a third email address for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[estimatedAmount](#estimatedAmount)|Type the estimated revenue value that this lead will generate to assist in sales forecasting and planning.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[estimatedAmountBase](#estimatedAmountBase)|Value of the Est. Value in base currency.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[estimatedCloseDate](#estimatedCloseDate)|Enter the expected close date for the lead, so that the sales team can schedule timely follow-up meetings to move the prospect to the next sales stage.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[estimatedValue](#estimatedValue)|Type a numeric value of the lead's estimated value, such as a product quantity, if no revenue amount can be specified in the Est. Value field. This can be used for sales forecasting and planning.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[evaluateFit](#evaluateFit)|Select whether the fit between the lead's requirements and your offerings was evaluated.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[fax](#fax)|Type the fax number for the primary contact for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[firstName](#firstName)|Type the first name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[industryCode](#industryCode)|Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[industryCode_display](#industryCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[initialCommunication](#initialCommunication)|Choose whether someone from the sales team contacted this lead earlier.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[initialCommunication_display](#initialCommunication_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[jobTitle](#jobTitle)|Type the job title of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[lastName](#lastName)|Type the last name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[lastUsedInCampaign](#lastUsedInCampaign)|Shows the date when the lead was last included in a marketing campaign or quick campaign.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[leadQualityCode](#leadQualityCode)|Select a rating value to indicate the lead's potential to become a customer.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[leadQualityCode_display](#leadQualityCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[leadSourceCode](#leadSourceCode)|Select the primary marketing source that prompted the lead to contact you.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[leadSourceCode_display](#leadSourceCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[masterId](#masterId)|Unique identifier of the master lead for merge.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[merged](#merged)|Tells whether the lead has been merged with another lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[middleName](#middleName)|Type the middle name or initial of the primary contact for the lead to make sure the prospect is addressed correctly.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[mobilePhone](#mobilePhone)|Type the mobile phone number for the primary contact for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[need](#need)|Choose how high the level of need is for the lead's company.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[need_display](#need_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[numberOfEmployees](#numberOfEmployees)|Type the number of employees that work at the company associated with the lead, for use in marketing segmentation and demographic analysis.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[pager](#pager)|Type the pager number for the primary contact for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[participatesInWorkflow](#participatesInWorkflow)|Shows whether the lead participates in workflow rules.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[preferredContactMethodCode](#preferredContactMethodCode)|Select the preferred method of contact.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[preferredContactMethodCode_display](#preferredContactMethodCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[priorityCode](#priorityCode)|Select the priority so that preferred customers or critical issues are handled quickly.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[purchaseProcess](#purchaseProcess)|Choose whether an individual or a committee will be involved in the  purchase process for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[purchaseProcess_display](#purchaseProcess_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[qualificationComments](#qualificationComments)|Type comments about the qualification or scoring of the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[revenue](#revenue)|Type the annual revenue of the company associated with the lead to provide an understanding of the prospect's business.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[revenueBase](#revenueBase)|Value of the Annual Revenue in base currency.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[salesStage](#salesStage)|Select the sales stage of this lead to aid the sales team in their efforts to convert this lead to an opportunity.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[salesStage_display](#salesStage_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[salesStageCode](#salesStageCode)|Select the sales process stage for the lead to help determine the probability of the lead converting to an opportunity.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[salesStageCode_display](#salesStageCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[salutation](#salutation)|Type the salutation of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email messages, and marketing campaigns.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[scheduleFollowupProspect](#scheduleFollowupProspect)|Enter the date and time of the prospecting follow-up meeting with the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[scheduleFollowUpQualify](#scheduleFollowUpQualify)|Enter the date and time of the qualifying follow-up meeting with the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[SIC](#SIC)|Type the Standard Industrial Classification (SIC) code that indicates the lead's primary industry of business for use in marketing segmentation and demographic analysis.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[stateCode](#stateCode)|Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[stateCode_display](#stateCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[statusCode](#statusCode)|Select the lead's status.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[statusCode_display](#statusCode_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[subject](#subject)|Type a subject or descriptive name, such as the expected order, company name, or marketing source list, to identify the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[telephone1](#telephone1)|Type the work phone number for the primary contact for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[telephone2](#telephone2)|Type the home phone number for the primary contact for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[telephone3](#telephone3)|Type an alternate phone number for the primary contact for the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[purchaseTimeFrame](#purchaseTimeFrame)|Choose how long the lead will likely take to make the purchase, so the sales team will be aware.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[purchaseTimeFrame_display](#purchaseTimeFrame_display)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[webSiteUrl](#webSiteUrl)|Type the website URL for the company associated with this lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the Lead record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[followEmail](#followEmail)|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[timeSpentByMeOnEmailAndMeetings](#timeSpentByMeOnEmailAndMeetings)|Total time spent for emails (read and write) and meetings by me in relation to the lead record.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[entityImageId](#entityImageId)||<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[accountId](#accountId)|Unique identifier of the account with which the lead is associated.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[contactId](#contactId)|Unique identifier of the contact with which the lead is associated.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[yomiCompanyName](#yomiCompanyName)|Type the phonetic spelling of the lead's company name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[yomiFirstName](#yomiFirstName)|Type the phonetic spelling of the lead's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[yomiFullName](#yomiFullName)|Combines and shows the lead's Yomi first and last names so the full phonetic name can be displayed in views and reports.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[yomiLastName](#yomiLastName)|Type the phonetic spelling of the lead's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[yomiMiddleName](#yomiMiddleName)|Type the phonetic spelling of the lead's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[campaignId](#campaignId)|Choose the campaign that the lead was generated from to track the effectiveness of marketing campaigns and identify  communications received by the lead.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[relatedObjectId](#relatedObjectId)|Related Campaign Response.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[originatingCaseId](#originatingCaseId)|This attribute is used for Sample Service Business Processes.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[qualifyingOpportunityId](#qualifyingOpportunityId)|Choose the opportunity that the lead was qualified on and then converted to.|<a href="../../Lead.md" target="_blank">crmCommon/Lead</a>|
+|[applicationDeadline](#applicationDeadline)|Deadline to submit application.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[deliveryFramework](#deliveryFramework)||<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[expectedAmountRequested](#expectedAmountRequested)|Amount requested by the Grant Seeker.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[expectedamountrequestedBase](#expectedamountrequestedBase)|Value of the Expected Amount Requested in base currency.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[expectedDuration](#expectedDuration)|Expected duration of the Grant in months.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[expectedStartDate](#expectedStartDate)|Expected start date of the Grant.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[isRenewal](#isRenewal)|Indicates if this is a renewal Grant.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[leadDocketId](#leadDocketId)|Docket|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[letterofIntentDeadline](#letterofIntentDeadline)|Deadline to submit notification to donor that organization will be competing for this grant.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[organizationalBudget](#organizationalBudget)|Total budget of the Organization.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[organizationalbudgetBase](#organizationalbudgetBase)|Value of the Organization Budget in base currency.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[organizationType](#organizationType)|Type of Account.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[organizationType_display](#organizationType_display)||<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[requestType](#requestType)|Indicates the type of Inquiry/LOI/Lead.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[requestType_display](#requestType_display)||<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[totalProjectBudget](#totalProjectBudget)|Budget defined by the Grant Seeker.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
+|[totalprojectbudgetBase](#totalprojectbudgetBase)|Value of the Total Project Budget in base currency.|<a href="Lead.md" target="_blank">nonProfit/Lead</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

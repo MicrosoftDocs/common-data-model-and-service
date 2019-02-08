@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Bookable Resource Booking Header
 
 Reservation entity representing the summary of the associated resource bookings.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceBookingHeader.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,42 +46,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/BookableResourceBookingHeader  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[bookableResourceBookingHeaderId](#bookableResourceBookingHeaderId)|Unique identifier of the resource booking header.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[name](#name)|The name of the booking summary.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[duration](#duration)|Shows the aggregate duration of the linked bookings.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[endTime](#endTime)|Shows the end date and time of the booking summary.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[startTime](#startTime)|Shows the start date and time of the booking summary.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[stateCode](#stateCode)|Status of the Bookable Resource Booking Header|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[statusCode](#statusCode)|Reason for the status of the Bookable Resource Booking Header|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcebookingheader with respect to the base currency.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceBookingHeader with respect to the base currency.|[foundationCommon/BookableResourceBookingHeader](BookableResourceBookingHeader.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[bookableResourceBookingHeaderId](#bookableResourceBookingHeaderId)|Unique identifier of the resource booking header.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[name](#name)|The name of the booking summary.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[duration](#duration)|Shows the aggregate duration of the linked bookings.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[endTime](#endTime)|Shows the end date and time of the booking summary.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[startTime](#startTime)|Shows the start date and time of the booking summary.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[stateCode](#stateCode)|Status of the Bookable Resource Booking Header|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[stateCode_display](#stateCode_display)||<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[statusCode](#statusCode)|Reason for the status of the Bookable Resource Booking Header|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[statusCode_display](#statusCode_display)||<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcebookingheader with respect to the base currency.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceBookingHeader with respect to the base currency.|<a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Discount List
 
 Type of discount specified as either a percentage or an amount.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/DiscountList.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,33 +46,34 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/DiscountList  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[discountTypeId](#discountTypeId)|Unique identifier of the discount list.|[sales/DiscountList](DiscountList.md)|
-|[createdOn](#createdOn)|Date and time when the discount list was created.|[sales/DiscountList](DiscountList.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the discount list.|[sales/DiscountList](DiscountList.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the discount list was last modified.|[sales/DiscountList](DiscountList.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the discount list.|[sales/DiscountList](DiscountList.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the discounttype.|[sales/DiscountList](DiscountList.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the discounttype.|[sales/DiscountList](DiscountList.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[sales/DiscountList](DiscountList.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/DiscountList](DiscountList.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/DiscountList](DiscountList.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/DiscountList](DiscountList.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/DiscountList](DiscountList.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/DiscountList](DiscountList.md)|
-|[name](#name)|Name of the discount list.|[sales/DiscountList](DiscountList.md)|
-|[description](#description)|Description of the discount list.|[sales/DiscountList](DiscountList.md)|
-|[isAmountType](#isAmountType)|Information about whether the discount list amounts are specified as monetary amounts or percentages.|[sales/DiscountList](DiscountList.md)|
-|[stateCode](#stateCode)|Status of the discount list.|[sales/DiscountList](DiscountList.md)|
-|[stateCode_display](#stateCode_display)||[sales/DiscountList](DiscountList.md)|
-|[statusCode](#statusCode)|Reason for the status of the discount list.|[sales/DiscountList](DiscountList.md)|
-|[statusCode_display](#statusCode_display)||[sales/DiscountList](DiscountList.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the discount type.|[sales/DiscountList](DiscountList.md)|
+|[discountTypeId](#discountTypeId)|Unique identifier of the discount list.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[createdOn](#createdOn)|Date and time when the discount list was created.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the discount list.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the discount list was last modified.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the discount list.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the discounttype.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the discounttype.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[name](#name)|Name of the discount list.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[description](#description)|Description of the discount list.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[isAmountType](#isAmountType)|Information about whether the discount list amounts are specified as monetary amounts or percentages.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[stateCode](#stateCode)|Status of the discount list.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[stateCode_display](#stateCode_display)||<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[statusCode](#statusCode)|Reason for the status of the discount list.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[statusCode_display](#statusCode_display)||<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the discount type.|<a href="DiscountList.md" target="_blank">sales/DiscountList</a>|
 
 ### <a href=#discountTypeId name="discountTypeId">discountTypeId</a>
 

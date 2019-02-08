@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Product Association
 
 Instance of a product added to a bundle or kit.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/ProductAssociation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,39 +46,40 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/ProductAssociation  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productAssociationId](#productAssociationId)|Shows the unique identifier of the product association.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[associatedProduct](#associatedProduct)|Select a product to add to the bundle or kit.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[productId](#productId)|Select a bundle or a kit.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[quantity](#quantity)|Type the quantity of the products added to the bundle or kit.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[productIsRequired](#productIsRequired)|Select whether the associated product is required or optional.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[productIsRequired_display](#productIsRequired_display)||[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[uoMId](#uoMId)|Shows the unit of the product association.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[stateCode](#stateCode)|Shows whether the associated product is active or inactive.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[statusCode](#statusCode)|Select the associated product's status.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[propertyCustomizationStatus](#propertyCustomizationStatus)|Shows whether the item has properties that can be customized.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[propertyCustomizationStatus_display](#propertyCustomizationStatus_display)||[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|[foundationCommon/ProductAssociation](ProductAssociation.md)|
+|[productAssociationId](#productAssociationId)|Shows the unique identifier of the product association.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[associatedProduct](#associatedProduct)|Select a product to add to the bundle or kit.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[productId](#productId)|Select a bundle or a kit.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[quantity](#quantity)|Type the quantity of the products added to the bundle or kit.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[productIsRequired](#productIsRequired)|Select whether the associated product is required or optional.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[productIsRequired_display](#productIsRequired_display)||<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[uoMId](#uoMId)|Shows the unit of the product association.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[stateCode](#stateCode)|Shows whether the associated product is active or inactive.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[stateCode_display](#stateCode_display)||<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[statusCode](#statusCode)|Select the associated product's status.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[statusCode_display](#statusCode_display)||<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[propertyCustomizationStatus](#propertyCustomizationStatus)|Shows whether the item has properties that can be customized.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[propertyCustomizationStatus_display](#propertyCustomizationStatus_display)||<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the record.|<a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>|
 
 ### <a href=#productAssociationId name="productAssociationId">productAssociationId</a>
 

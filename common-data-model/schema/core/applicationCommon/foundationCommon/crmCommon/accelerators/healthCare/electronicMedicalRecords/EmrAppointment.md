@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Appointment (EMR)
 
 A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,110 +43,111 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/EmrAppointment  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[isBilled](#isBilled)|Information regarding whether the activity was billed as part of resolving a case.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[description](#description)|Description of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[activityTypeCode_display](#activityTypeCode_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[stateCode](#stateCode)|Status of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[statusCode](#statusCode)|Reason for the status of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[priorityCode_display](#priorityCode_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[subject](#subject)|Subject associated with the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[community_display](#community_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[processId](#processId)|Unique identifier of the Process.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[serviceId](#serviceId)|Unique identifier of an associated service.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[from](#from)|Person who the activity is from.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[to](#to)|Person who is the receiver of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[CC](#CC)|Carbon-copy (cc) recipients of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[BCC](#BCC)|Blind Carbon-copy (bcc) recipients of the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[requiredAttendees](#requiredAttendees)|List of required attendees for the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[optionalAttendees](#optionalAttendees)|List of optional attendees for the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[organizer](#organizer)|Person who organized the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[partners](#partners)|Outsource vendor with which activity is associated.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[actorDevice](#actorDevice)|Name of the Person, Location/HealthcareService or Device.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[actorLocation](#actorLocation)|Name of the Person, Location/HealthcareService or Device.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[actorPatient](#actorPatient)|Name of the Person, Location/HealthcareService or Device.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[actorPractitioner](#actorPractitioner)|Name of the Person, Location/HealthcareService or Device.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[actorRelatedPerson](#actorRelatedPerson)|Name of the Person, Location/HealthcareService or Device.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[appointmentCreationDate](#appointmentCreationDate)|When appointment is to take place|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[appointmentType](#appointmentType)|The style of appointment or patient that has been booked in the slot.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[comment](#comment)|Additional comments about the appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[emrDescription](#emrDescription)|The brief description of the appointment as would be shown on a subject line in a meeting request, or appointment list. Detailed or expanded information should be put in the comment field.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[endTime](#endTime)|End time of an appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[minutesDuration](#minutesDuration)|Number of minutes that the appointment is to take. This can be less than the duration between the start and end times (where actual time of appointment is only an estimate or is a planned appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[participantActorType](#participantActorType)|Type of appointment participant.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[participantActorType_display](#participantActorType_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[participantStatus](#participantStatus)|The Participation status of an appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[participantStatus_display](#participantStatus_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[particpantType](#particpantType)|Role of the participant in the appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[patientInstruction](#patientInstruction)|Detailed information and instructions for the patient.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[priority](#priority)|The priority of the appointment. Can be used to make informed decisions if needing to re-prioritize appointments. (The iCal Standard specifies 0 as undefined, 1 as highest, 9 as lowest priority).|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[required](#required)|Is the Participant required to attend the appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[required_display](#required_display)||[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[serviceCategory](#serviceCategory)|A broad categorization of the service that is to be performed during this appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[startTime](#startTime)|Start time of an appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[status](#status)|Codes providing the status of an appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
-|[supportingInformation](#supportingInformation)|Additional information may be attachments to support or provide more insight for an appointment.|[electronicMedicalRecords/EmrAppointment](EmrAppointment.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[isBilled](#isBilled)|Information regarding whether the activity was billed as part of resolving a case.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[description](#description)|Description of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[activityTypeCode_display](#activityTypeCode_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[stateCode](#stateCode)|Status of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[stateCode_display](#stateCode_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[statusCode](#statusCode)|Reason for the status of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[statusCode_display](#statusCode_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the activitypointer.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[community_display](#community_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the case record.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this case. This field is for internal use only.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[serviceId](#serviceId)|Unique identifier of an associated service.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[from](#from)|Person who the activity is from.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[to](#to)|Person who is the receiver of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[CC](#CC)|Carbon-copy (cc) recipients of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[BCC](#BCC)|Blind Carbon-copy (bcc) recipients of the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[requiredAttendees](#requiredAttendees)|List of required attendees for the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[optionalAttendees](#optionalAttendees)|List of optional attendees for the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[organizer](#organizer)|Person who organized the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[partners](#partners)|Outsource vendor with which activity is associated.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[actorDevice](#actorDevice)|Name of the Person, Location/HealthcareService or Device.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[actorLocation](#actorLocation)|Name of the Person, Location/HealthcareService or Device.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[actorPatient](#actorPatient)|Name of the Person, Location/HealthcareService or Device.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[actorPractitioner](#actorPractitioner)|Name of the Person, Location/HealthcareService or Device.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[actorRelatedPerson](#actorRelatedPerson)|Name of the Person, Location/HealthcareService or Device.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[appointmentCreationDate](#appointmentCreationDate)|When appointment is to take place|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[appointmentType](#appointmentType)|The style of appointment or patient that has been booked in the slot.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[comment](#comment)|Additional comments about the appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[emrDescription](#emrDescription)|The brief description of the appointment as would be shown on a subject line in a meeting request, or appointment list. Detailed or expanded information should be put in the comment field.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[endTime](#endTime)|End time of an appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[minutesDuration](#minutesDuration)|Number of minutes that the appointment is to take. This can be less than the duration between the start and end times (where actual time of appointment is only an estimate or is a planned appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[participantActorType](#participantActorType)|Type of appointment participant.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[participantActorType_display](#participantActorType_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[participantStatus](#participantStatus)|The Participation status of an appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[participantStatus_display](#participantStatus_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[particpantType](#particpantType)|Role of the participant in the appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[patientInstruction](#patientInstruction)|Detailed information and instructions for the patient.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[priority](#priority)|The priority of the appointment. Can be used to make informed decisions if needing to re-prioritize appointments. (The iCal Standard specifies 0 as undefined, 1 as highest, 9 as lowest priority).|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[required](#required)|Is the Participant required to attend the appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[required_display](#required_display)||<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[serviceCategory](#serviceCategory)|A broad categorization of the service that is to be performed during this appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[startTime](#startTime)|Start time of an appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[status](#status)|Codes providing the status of an appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
+|[supportingInformation](#supportingInformation)|Additional information may be attachments to support or provide more insight for an appointment.|<a href="EmrAppointment.md" target="_blank">electronicMedicalRecords/EmrAppointment</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

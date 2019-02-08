@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Company
 
 Uniquely identifies a Company by name and type  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Company.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,36 +46,37 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/Company  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/Company](Company.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/Company](Company.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/Company](Company.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/Company](Company.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/Company](Company.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/Company](Company.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/Company](Company.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/Company](Company.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/Company](Company.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/Company](Company.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/Company](Company.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/Company](Company.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/Company](Company.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/Company](Company.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/Company](Company.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/Company](Company.md)|
-|[companyId](#companyId)|Unique identifier of the company.|[foundationCommon/Company](Company.md)|
-|[name](#name)|A name for the company.|[foundationCommon/Company](Company.md)|
-|[companyType](#companyType)|The type of company.|[foundationCommon/Company](Company.md)|
-|[companyType_display](#companyType_display)||[foundationCommon/Company](Company.md)|
-|[stateCode](#stateCode)|Status of the Company|[foundationCommon/Company](Company.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/Company](Company.md)|
-|[statusCode](#statusCode)|Reason for the status of the Company|[foundationCommon/Company](Company.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/Company](Company.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[companyId](#companyId)|Unique identifier of the company.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[name](#name)|A name for the company.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[companyType](#companyType)|The type of company.|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[companyType_display](#companyType_display)||<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[stateCode](#stateCode)|Status of the Company|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[stateCode_display](#stateCode_display)||<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[statusCode](#statusCode)|Reason for the status of the Company|<a href="Company.md" target="_blank">foundationCommon/Company</a>|
+|[statusCode_display](#statusCode_display)||<a href="Company.md" target="_blank">foundationCommon/Company</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

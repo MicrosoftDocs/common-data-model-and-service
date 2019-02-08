@@ -11,7 +11,7 @@ ms.author: tpalmer
 # LinkedIn Lead Gen Form
 
 Form shown to prospects on LinkedIn  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,49 +46,50 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 LinkedInLeads/LinkedInLeadGenForm  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[ownerId](#ownerId)|Owner Id|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[versionNumber](#versionNumber)|Version Number|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[linkedinformId](#linkedinformId)|Unique identifier for entity instances|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[stateCode](#stateCode)|Status of the LinkedIn Form|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[stateCode_display](#stateCode_display)||[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[statusCode](#statusCode)|Reason for the status of the LinkedIn Form|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[statusCode_display](#statusCode_display)||[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[name](#name)|LinkedIn form name|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[description](#description)|Description of the LinkedIn form|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[headline](#headline)|Headline displayed to leads on LinkedIn|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[landingpageURL](#landingpageURL)|Landing page URL used on the LinkedIn form|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[lastSyncDate](#lastSyncDate)||[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[linkedInID](#linkedInID)|Unique identifier of the LinkedIn form|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[linkedInParentAccount](#linkedInParentAccount)|LinkedIn account record to which this form belongs to|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[localeCountry](#localeCountry)|Locale country information for the LinkedIn form|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[localeLanguage](#localeLanguage)|Locale language information for the LinkedIn form|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[privacyPolicyURL](#privacyPolicyURL)|Privacy policy URL displayed on the LinkedIn form|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[syncStatus](#syncStatus)||[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[syncStatus_display](#syncStatus_display)||[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[thankyoumessage](#thankyoumessage)|Thank you message to leads who submit a form on LinkedIn|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[totalSubmissions](#totalSubmissions)|Total number of submissions received on this form|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[totalsubmissionsDate](#totalsubmissionsDate)|Last Updated time of rollup field Total submissions.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
-|[totalsubmissionsState](#totalsubmissionsState)|State of rollup field Total submissions.|[LinkedInLeads/LinkedInLeadGenForm](LinkedInLeadGenForm.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[linkedinformId](#linkedinformId)|Unique identifier for entity instances|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[stateCode](#stateCode)|Status of the LinkedIn Form|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[stateCode_display](#stateCode_display)||<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[statusCode](#statusCode)|Reason for the status of the LinkedIn Form|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[statusCode_display](#statusCode_display)||<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[name](#name)|LinkedIn form name|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[description](#description)|Description of the LinkedIn form|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[headline](#headline)|Headline displayed to leads on LinkedIn|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[landingpageURL](#landingpageURL)|Landing page URL used on the LinkedIn form|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[lastSyncDate](#lastSyncDate)||<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[linkedInID](#linkedInID)|Unique identifier of the LinkedIn form|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[linkedInParentAccount](#linkedInParentAccount)|LinkedIn account record to which this form belongs to|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[localeCountry](#localeCountry)|Locale country information for the LinkedIn form|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[localeLanguage](#localeLanguage)|Locale language information for the LinkedIn form|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[privacyPolicyURL](#privacyPolicyURL)|Privacy policy URL displayed on the LinkedIn form|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[syncStatus](#syncStatus)||<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[syncStatus_display](#syncStatus_display)||<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[thankyoumessage](#thankyoumessage)|Thank you message to leads who submit a form on LinkedIn|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[totalSubmissions](#totalSubmissions)|Total number of submissions received on this form|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[totalsubmissionsDate](#totalsubmissionsDate)|Last Updated time of rollup field Total submissions.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
+|[totalsubmissionsState](#totalsubmissionsState)|State of rollup field Total submissions.|<a href="LinkedInLeadGenForm.md" target="_blank">LinkedInLeads/LinkedInLeadGenForm</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

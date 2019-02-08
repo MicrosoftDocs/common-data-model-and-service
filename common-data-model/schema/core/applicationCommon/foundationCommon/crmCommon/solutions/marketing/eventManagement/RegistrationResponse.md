@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Registration Response
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/RegistrationResponse.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,36 +42,37 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/RegistrationResponse  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[registrationResponseId](#registrationResponseId)|Unique identifier for entity instances|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[stateCode](#stateCode)|Status of the Registration Response|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[statusCode](#statusCode)|Reason for the status of the Registration Response|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[response](#response)|The name of the custom entity.|[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[customRegistrationField](#customRegistrationField)||[eventManagement/RegistrationResponse](RegistrationResponse.md)|
-|[eventRegistration](#eventRegistration)||[eventManagement/RegistrationResponse](RegistrationResponse.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[registrationResponseId](#registrationResponseId)|Unique identifier for entity instances|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[stateCode](#stateCode)|Status of the Registration Response|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[stateCode_display](#stateCode_display)||<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[statusCode](#statusCode)|Reason for the status of the Registration Response|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[statusCode_display](#statusCode_display)||<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[response](#response)|The name of the custom entity.|<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[customRegistrationField](#customRegistrationField)||<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
+|[eventRegistration](#eventRegistration)||<a href="RegistrationResponse.md" target="_blank">eventManagement/RegistrationResponse</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

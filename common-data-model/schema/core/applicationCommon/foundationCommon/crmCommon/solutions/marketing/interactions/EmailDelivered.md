@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email delivered
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailDelivered.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,24 +33,25 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailDelivered  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailDelivered](EmailDelivered.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailDelivered](EmailDelivered.md)|
-|[accountId](#accountId)|Account|[interactions/EmailDelivered](EmailDelivered.md)|
-|[messageId](#messageId)|Message|[interactions/EmailDelivered](EmailDelivered.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailDelivered](EmailDelivered.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailDelivered](EmailDelivered.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailDelivered](EmailDelivered.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailDelivered](EmailDelivered.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailDelivered](EmailDelivered.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailDelivered](EmailDelivered.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailDelivered](EmailDelivered.md)|
-|[activityId](#activityId)|Activity ID|[interactions/EmailDelivered](EmailDelivered.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[contactId](#contactId)|Contact|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[accountId](#accountId)|Account|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[messageId](#messageId)|Message|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
+|[activityId](#activityId)|Activity ID|<a href="EmailDelivered.md" target="_blank">interactions/EmailDelivered</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Email block bounced
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailBlockBounced.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,25 +33,26 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/EmailBlockBounced  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[contactId](#contactId)|Contact|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[accountId](#accountId)|Account|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[messageId](#messageId)|Message|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[usageType](#usageType)|Usage type|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[bounceCategory](#bounceCategory)|Bounce category|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
-|[activityId](#activityId)|Activity ID|[interactions/EmailBlockBounced](EmailBlockBounced.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[contactId](#contactId)|Contact|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[accountId](#accountId)|Account|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[messageId](#messageId)|Message|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[usageType](#usageType)|Usage type|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[bounceCategory](#bounceCategory)|Bounce category|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
+|[activityId](#activityId)|Activity ID|<a href="EmailBlockBounced.md" target="_blank">interactions/EmailBlockBounced</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

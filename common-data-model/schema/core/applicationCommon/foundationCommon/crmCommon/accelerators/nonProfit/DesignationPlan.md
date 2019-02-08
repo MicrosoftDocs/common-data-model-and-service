@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Designation Plan
 
 A line item attached to a Pledge, Payment Schedule, or Campaign indicating how associated payments should be designated.  Sometimes, 100% of a donation is designated to a single fund (ideally, to an unrestricted fund that the nonprofit can use any way they wish).  Other times, a donor has specified a desire that the donation be "split designated" among two or more funds.  For example, a donor giving $5,000 might specify that $1000 goes to the unrestricted fund $1000 to the new building fund and $3000 to building water wells Sub-saharan Africa.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DesignationPlan.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,52 +46,53 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/DesignationPlan  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[designationPlanId](#designationPlanId)|Unique identifier for entity instances|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[stateCode](#stateCode)|Status of the Designation Plan|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[statusCode](#statusCode)|Reason for the status of the Designation Plan|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[name](#name)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[amountOfPledgeMax](#amountOfPledgeMax)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[amountofpledgemaxBase](#amountofpledgemaxBase)|Value of the Amount Of Pledge Max in base currency.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[designationPlanCampaignId](#designationPlanCampaignId)|Campaign|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[designationPlanDesignationId](#designationPlanDesignationId)|Designation|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[designationPlanDonorCommitmentId](#designationPlanDonorCommitmentId)|Donor Commitment|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[designationPlanOpportunityId](#designationPlanOpportunityId)|Opportunity|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[designationPlanPaymentScheduleId](#designationPlanPaymentScheduleId)|Payment Schedule|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[numberOfPaymentsMax](#numberOfPaymentsMax)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[percentageOfPaymentsMax](#percentageOfPaymentsMax)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[percentageOfPledgeMax](#percentageOfPledgeMax)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[perPaymentMaxAmount](#perPaymentMaxAmount)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[perpaymentmaxamountBase](#perpaymentmaxamountBase)|Value of the Per Payment Max Amount in base currency.|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[perPaymentMaxPercent](#perPaymentMaxPercent)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[priorityOrder](#priorityOrder)|Applied when multiple line items might conflict (e.g. 90% vs $1000000)|[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[validFromDate](#validFromDate)||[nonProfit/DesignationPlan](DesignationPlan.md)|
-|[validToDate](#validToDate)||[nonProfit/DesignationPlan](DesignationPlan.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[designationPlanId](#designationPlanId)|Unique identifier for entity instances|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[stateCode](#stateCode)|Status of the Designation Plan|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[stateCode_display](#stateCode_display)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[statusCode](#statusCode)|Reason for the status of the Designation Plan|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[statusCode_display](#statusCode_display)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[name](#name)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[amountOfPledgeMax](#amountOfPledgeMax)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[amountofpledgemaxBase](#amountofpledgemaxBase)|Value of the Amount Of Pledge Max in base currency.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[designationPlanCampaignId](#designationPlanCampaignId)|Campaign|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[designationPlanDesignationId](#designationPlanDesignationId)|Designation|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[designationPlanDonorCommitmentId](#designationPlanDonorCommitmentId)|Donor Commitment|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[designationPlanOpportunityId](#designationPlanOpportunityId)|Opportunity|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[designationPlanPaymentScheduleId](#designationPlanPaymentScheduleId)|Payment Schedule|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[numberOfPaymentsMax](#numberOfPaymentsMax)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[percentageOfPaymentsMax](#percentageOfPaymentsMax)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[percentageOfPledgeMax](#percentageOfPledgeMax)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[perPaymentMaxAmount](#perPaymentMaxAmount)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[perpaymentmaxamountBase](#perpaymentmaxamountBase)|Value of the Per Payment Max Amount in base currency.|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[perPaymentMaxPercent](#perPaymentMaxPercent)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[priorityOrder](#priorityOrder)|Applied when multiple line items might conflict (e.g. 90% vs $1000000)|<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[validFromDate](#validFromDate)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
+|[validToDate](#validToDate)||<a href="DesignationPlan.md" target="_blank">nonProfit/DesignationPlan</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

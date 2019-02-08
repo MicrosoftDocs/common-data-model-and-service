@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Facility/Equipment
 
 Resource that can be scheduled.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/FacilityEquipment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,37 +43,38 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/FacilityEquipment  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[equipmentId](#equipmentId)|Unique identifier of the facility/equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the facility/equipment entry.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the facility/equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[businessUnitId](#businessUnitId)|Business Unit Id|[service/FacilityEquipment](FacilityEquipment.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/FacilityEquipment](FacilityEquipment.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[name](#name)|Name of the facility/equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[calendarId](#calendarId)|Fiscal calendar associated with the facility/equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[description](#description)|Description of the facility/equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[displayInServiceViews](#displayInServiceViews)|For internal use only.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[emailAddress](#emailAddress)|Email address of person to contact about the use of the facility/equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[isDisabled](#isDisabled)|Whether the facility/equipment is disabled or operational.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[organizationId](#organizationId)|Unique identifier of the parent business unit.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[siteId](#siteId)|Site where the facility/equipment is located.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[skills](#skills)|Skills needed to operate the facility/equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[timeZoneCode](#timeZoneCode)|Local time zone where the facility/equipment is located.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the equipment with respect to the base currency.|[service/FacilityEquipment](FacilityEquipment.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the equipment.|[service/FacilityEquipment](FacilityEquipment.md)|
+|[equipmentId](#equipmentId)|Unique identifier of the facility/equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the facility/equipment entry.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the facility/equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[businessUnitId](#businessUnitId)|Business Unit Id|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[name](#name)|Name of the facility/equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[calendarId](#calendarId)|Fiscal calendar associated with the facility/equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[description](#description)|Description of the facility/equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[displayInServiceViews](#displayInServiceViews)|For internal use only.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[emailAddress](#emailAddress)|Email address of person to contact about the use of the facility/equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[isDisabled](#isDisabled)|Whether the facility/equipment is disabled or operational.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[organizationId](#organizationId)|Unique identifier of the parent business unit.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[siteId](#siteId)|Site where the facility/equipment is located.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[skills](#skills)|Skills needed to operate the facility/equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[timeZoneCode](#timeZoneCode)|Local time zone where the facility/equipment is located.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the equipment with respect to the base currency.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the equipment.|<a href="FacilityEquipment.md" target="_blank">service/FacilityEquipment</a>|
 
 ### <a href=#equipmentId name="equipmentId">equipmentId</a>
 

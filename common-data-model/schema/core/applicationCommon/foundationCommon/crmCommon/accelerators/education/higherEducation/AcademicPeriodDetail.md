@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Academic Period Detail
 
 Status between student and their academic periods.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriodDetail.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,52 +46,53 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/AcademicPeriodDetail  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[academicPeriodDetailsId](#academicPeriodDetailsId)|Unique identifier for entity instances|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[stateCode](#stateCode)|Status of the Academic Period Detail|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[statusCode](#statusCode)|Reason for the status of the Academic Period Detail|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[name](#name)|The name of the custom entity.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[academicPeriodID](#academicPeriodID)||[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[attendanceType](#attendanceType)|The enrollment attendance type for the student.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[attendanceType_display](#attendanceType_display)||[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[creditLoad](#creditLoad)|Assigned credit load for academic period|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[educationLevelId](#educationLevelId)|The education level for the student.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[employedHoursPerWeek](#employedHoursPerWeek)|Employed for how many hours/week?|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[isAthlete](#isAthlete)|Athlete|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[isEmployed](#isEmployed)|Employed|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[isInternationalStudent](#isInternationalStudent)|International Student|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[ISIRonFIle](#ISIRonFIle)|ISIR received and on file?|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[isTransferStudent](#isTransferStudent)|Transfer Student|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[majorCreditEarned](#majorCreditEarned)|Major Credit Earned|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[majorGPA](#majorGPA)|Major GPA|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[midTermDeficiency](#midTermDeficiency)|Mid-Term Deficiency|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[programId](#programId)|The program for the student.|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[studentId](#studentId)|Lookup to Student (Contact).|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[termCreditsEarned](#termCreditsEarned)|Term Credits Earned|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
-|[termGPA](#termGPA)|Term GPA|[higherEducation/AcademicPeriodDetail](AcademicPeriodDetail.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[academicPeriodDetailsId](#academicPeriodDetailsId)|Unique identifier for entity instances|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[stateCode](#stateCode)|Status of the Academic Period Detail|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[stateCode_display](#stateCode_display)||<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[statusCode](#statusCode)|Reason for the status of the Academic Period Detail|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[statusCode_display](#statusCode_display)||<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[name](#name)|The name of the custom entity.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[academicPeriodID](#academicPeriodID)||<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[attendanceType](#attendanceType)|The enrollment attendance type for the student.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[attendanceType_display](#attendanceType_display)||<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[creditLoad](#creditLoad)|Assigned credit load for academic period|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[educationLevelId](#educationLevelId)|The education level for the student.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[employedHoursPerWeek](#employedHoursPerWeek)|Employed for how many hours/week?|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[isAthlete](#isAthlete)|Athlete|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[isEmployed](#isEmployed)|Employed|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[isInternationalStudent](#isInternationalStudent)|International Student|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[ISIRonFIle](#ISIRonFIle)|ISIR received and on file?|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[isTransferStudent](#isTransferStudent)|Transfer Student|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[majorCreditEarned](#majorCreditEarned)|Major Credit Earned|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[majorGPA](#majorGPA)|Major GPA|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[midTermDeficiency](#midTermDeficiency)|Mid-Term Deficiency|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[programId](#programId)|The program for the student.|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[studentId](#studentId)|Lookup to Student (Contact).|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[termCreditsEarned](#termCreditsEarned)|Term Credits Earned|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
+|[termGPA](#termGPA)|Term GPA|<a href="AcademicPeriodDetail.md" target="_blank">higherEducation/AcademicPeriodDetail</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

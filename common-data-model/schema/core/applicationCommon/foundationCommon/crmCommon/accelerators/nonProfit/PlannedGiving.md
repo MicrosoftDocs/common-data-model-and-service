@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Planned Giving
 
 A planned gift is a major gift made during a donor's lifetime or at the time of their death that involves their estate and tax planning.  There are many forms of planned giving, but the three most common vehicles are CRTs (Charitable Remainder Trusts), Bequests and Annuities, which all have different tax benefits and financial reconciliation guidelines for the nonprofit organization. Planned gifts are in contrast to annual gifts, which are made through a donor's discretionary income and not tied to an estate.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,149 +46,150 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/PlannedGiving  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[plannedGivingId](#plannedGivingId)|Unique identifier for entity instances|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[stateCode](#stateCode)|Status of the Planned Giving|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[statusCode](#statusCode)|Reason for the status of the Planned Giving|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[name](#name)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[actualPercentOfEstateRecieved](#actualPercentOfEstateRecieved)|Actual percent of donor estate received by organization|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[affiliation](#affiliation)|Represents groups within the organization.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[affiliation_display](#affiliation_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[amountPerFrequency](#amountPerFrequency)|Amount distributed to organization per defined frequency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[amountperfrequencyBase](#amountperfrequencyBase)|Value of the Amount Per Frequency in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[annualMarketValue](#annualMarketValue)|Annual Market Value provided by official valuation source such as Kaspick.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[annualmarketvalueBase](#annualmarketvalueBase)|Value of the Annual Market Value in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[annualMarketValueDate](#annualMarketValueDate)|Date Annual Market Value provided by official valuation source such as Kaspick.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[annualPayment](#annualPayment)|Annual Payment to organization.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[annualpaymentBase](#annualpaymentBase)|Value of the Annual Payment in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[anticipatedAnnualPayment](#anticipatedAnnualPayment)|Anticipated Annual Payment to organization.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[anticipatedannualpaymentBase](#anticipatedannualpaymentBase)|Value of the Anticipated Annual Payment in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[anticipatedDistributionDateOfTrust](#anticipatedDistributionDateOfTrust)|Anticipated distribution date of trust typically provided by executor, trustee or attorney or in estate documentation.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[anticipatedPercentOfTrust](#anticipatedPercentOfTrust)|Anticipated percent of trust that will go to the organization. This is typically provided by executor, trustee or attorney or in estate documentation.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[appraisalDate](#appraisalDate)|Date the appraisal was conducted.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[appraisalValue](#appraisalValue)|Value of the appraised item or asset from qualified appraiser|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[appraisalvalueBase](#appraisalvalueBase)|Value of the Appraisal Value in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[bequestType](#bequestType)|Is the Bequest a Living Trust, Will, or both?|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[bequestType_display](#bequestType_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[capitalGainIncome](#capitalGainIncome)|Beneficiary's taxable capital gain income portion of life insurance income.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[capitalgainincomeBase](#capitalgainincomeBase)|Value of the Capital Gain Income in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[cashSurrenderValue](#cashSurrenderValue)|The current Cash Surrender Value of the insurance policy.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[cashsurrendervalueBase](#cashsurrendervalueBase)|Value of the Cash Surrender Value in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[charitableDeduction](#charitableDeduction)|Calculated Charitable Deduction for Planned Giving.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[charitabledeductionBase](#charitabledeductionBase)|Value of the Charitable Deduction in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[contractDate](#contractDate)|Date funding will start as specified on the Contract.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[costBasis](#costBasis)|Original purchase price of funding asset.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[costbasisBase](#costbasisBase)|Value of the Cost Basis in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[dateClaimFormsRecieved](#dateClaimFormsRecieved)|Date Claim Forms Received.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[dateClaimFormsSubmitted](#dateClaimFormsSubmitted)|Date Claim Forms Submitted.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[dateEstateClosed](#dateEstateClosed)|Date a management agreement is signed as provided by executor, trustee or attorney.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[dateManagementAgreementSigned](#dateManagementAgreementSigned)|Date a management agreement is signed as provided by executor, trustee or attorney.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[dateStationNotifiedOfDeath](#dateStationNotifiedOfDeath)|Date your organization is notified of the donor's death.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[dateStationNotifiedOfIntention](#dateStationNotifiedOfIntention)|Date organization Notified of Intention to give a Planned Giving.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[dateStationNotifiedToMakeClaim](#dateStationNotifiedToMakeClaim)|Date Organization notified to make a claim.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[dateWillExecuted](#dateWillExecuted)|Date Will Executed as provided in estate documentation.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[deceased](#deceased)|Indicates the Contact is Deceased.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[deceasedDay](#deceasedDay)|Day the Contact was deceased.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[deceasedDay_display](#deceasedDay_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[deceasedMonth](#deceasedMonth)|Month the Contact was deceased.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[deceasedMonth_display](#deceasedMonth_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[deceasedYear](#deceasedYear)|Year the Contact was deceased.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[deceasedYear_display](#deceasedYear_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[deferredToDate](#deferredToDate)|Same as date of first payment when more than one year after the contract date.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[designatedOrganizationPercent](#designatedOrganizationPercent)|Percent of remainder designated to organization|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[designatedPrincipleAmount](#designatedPrincipleAmount)|Amount of principle designated to organization.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[designatedprincipleamountBase](#designatedprincipleamountBase)|Value of the Designated Principle Amount in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[designation](#designation)|Usage of gift funds will be unrestricted, restricted or permanently restricted.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[designation_display](#designation_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[discountRate](#discountRate)|Interest rate a central bank charges depository institutions that borrow reserves from it.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[discountRateMonth](#discountRateMonth)|Month in which latest Discount Rate was populated.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[discountRateMonth_display](#discountRateMonth_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[discountRateYear](#discountRateYear)|Year in which latest Discount Rate was populated.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[discountRateYear_display](#discountRateYear_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[endowmentType](#endowmentType)|Specific endowment at organization where gift will be applied.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[endowmentType_display](#endowmentType_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[estimatedGivingAmount](#estimatedGivingAmount)|Estimated amount organization will receive as provided by executor, trustee, or attorney.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[estimatedgivingamountBase](#estimatedgivingamountBase)|Value of the Estimated Giving Amount in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[estimatedTrustProbateDate](#estimatedTrustProbateDate)|Estimated Date Trust/Probate received as provided by executor, trustee or attorney or in estate documentation.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[expectedFinalDistributionDate](#expectedFinalDistributionDate)|Expected Date of Final Distribution, typically information provided by executor, trustee or attorney.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[expectedFirstDistributionDate](#expectedFirstDistributionDate)|Expected Date of First Distribution, typically information provided by executor, trustee or attorney.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[externalID](#externalID)|ID from External or Legacy system.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[faceValue](#faceValue)|Value of funds donated.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[facevalueBase](#facevalueBase)|Value of the Face Value in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[fundId](#fundId)|Unique identifier for Account associated with Planned Giving.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[givingAmount](#givingAmount)|Sum of gifts entered on this record (logic field).|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[givingReceivedDate](#givingReceivedDate)|Date distribution or remainder for Planned Giving is received.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[givingSubtype](#givingSubtype)|Specific type of Planned Giving instrument.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[givingSubtype_display](#givingSubtype_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[insuranceAnnualPremium](#insuranceAnnualPremium)|Annual Premium of the Life Insurance.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[insuranceannualpremiumBase](#insuranceannualpremiumBase)|Value of the Insurance Annual Premium in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[insuranceCompany](#insuranceCompany)|Insurance Company for related to this Planned Giving.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[insuranceDeathBenefitAmount](#insuranceDeathBenefitAmount)|Death Benefit Amount from Insurance.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[insurancePolicyCode](#insurancePolicyCode)|Insurance policy code related to this Planned Giving.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[insurancePolicyName](#insurancePolicyName)|Insurance Policy Name for this Planned Giving.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[insurancePremiumDueDate](#insurancePremiumDueDate)|Insurance Premium Due Date related to this Planned Giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[insurancePremiumPaymentAddress](#insurancePremiumPaymentAddress)|Address for the Life Insurance Premium Payment.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[isRevocable](#isRevocable)|Related trust may be amended, altered or revoked by its settlor at any time, provided the settlor is not mentally incapacitated.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[leadSource](#leadSource)|Method of communication that prompted Donor to discuss Planned Giving options.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[leadSource_display](#leadSource_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[ordinaryIncome](#ordinaryIncome)|Income other than capital gain. Examples of Ordinary income can consist of income from wages, salaries, tips, commissions, bonuses, and other types of compensation from employment.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[ordinaryincomeBase](#ordinaryincomeBase)|Value of the Ordinary Income in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[paymentFrequency](#paymentFrequency)|Defined frequency payments are distributed to the organization.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[paymentFrequency_display](#paymentFrequency_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[payoutRate](#payoutRate)|Dollar amount per share a Corporation pays for their dividend.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[plannedGivingCampaignId](#plannedGivingCampaignId)|Campaign|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[plannedGivingPledgedByContactId](#plannedGivingPledgedByContactId)|Pledged By Contact|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[pledgesOnAccountId](#pledgesOnAccountId)|Unique identifier for Account associated with Planned Giving.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[presentValue](#presentValue)|The value on a given date of a payment or series of payments made at other times for an investment.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[presentvalueBase](#presentvalueBase)|Value of the Present Value in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[recordType](#recordType)|Type of Planned Giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[remainderAmount](#remainderAmount)|Remainder $ value a Charitable Organization receives.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[remainderamountBase](#remainderamountBase)|Value of the Remainder Amount in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[rollupGiving](#rollupGiving)|Populated by trigger, reflects the most recent Date/Time for Giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[salvageValueofBuildings](#salvageValueofBuildings)|Estimated value of property at the end of its useful life. It is what you expect to get for the property if you sell it after you can no longer use it productively.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[salvagevalueofbuildingsBase](#salvagevalueofbuildingsBase)|Value of the Salvage Value of Buildings in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[severDate](#severDate)|The term end date' or the date of the related Contact's death.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[stage](#stage)|The current phase the giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[stage_display](#stage_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[taxFreeIncome](#taxFreeIncome)|The tax free income from the asset related to this giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[taxfreeincomeBase](#taxfreeincomeBase)|Value of the Tax Free Income in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[termEndDate](#termEndDate)|Term end date for the asset related to the Planned Giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[termType](#termType)|Term type for the asset related to the Planned Giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[termType_display](#termType_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[termYears](#termYears)|Term years for the asset related to the Planned Giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[totalEstateValue](#totalEstateValue)|Total Estate Value as provided by executor, trustee or attorney or in estate documentation.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[totalestatevalueBase](#totalestatevalueBase)|Value of the Total Estate Value in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[trustMarketValue](#trustMarketValue)|Trust Market Value related to this planned giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[trustmarketvalueBase](#trustmarketvalueBase)|Value of the Trust Market Value in base currency.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[trustProbateNoticeDate](#trustProbateNoticeDate)|Date Trust/Probate Notice received.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[trustValueDate](#trustValueDate)|Trust Value Date related to this planned giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[typeOfManagement](#typeOfManagement)|The type of management for the underlying asset or assets related to this Planned Giving record.|[nonProfit/PlannedGiving](PlannedGiving.md)|
-|[typeOfManagement_display](#typeOfManagement_display)||[nonProfit/PlannedGiving](PlannedGiving.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[plannedGivingId](#plannedGivingId)|Unique identifier for entity instances|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[stateCode](#stateCode)|Status of the Planned Giving|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[stateCode_display](#stateCode_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[statusCode](#statusCode)|Reason for the status of the Planned Giving|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[statusCode_display](#statusCode_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[name](#name)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[actualPercentOfEstateRecieved](#actualPercentOfEstateRecieved)|Actual percent of donor estate received by organization|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[affiliation](#affiliation)|Represents groups within the organization.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[affiliation_display](#affiliation_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[amountPerFrequency](#amountPerFrequency)|Amount distributed to organization per defined frequency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[amountperfrequencyBase](#amountperfrequencyBase)|Value of the Amount Per Frequency in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[annualMarketValue](#annualMarketValue)|Annual Market Value provided by official valuation source such as Kaspick.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[annualmarketvalueBase](#annualmarketvalueBase)|Value of the Annual Market Value in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[annualMarketValueDate](#annualMarketValueDate)|Date Annual Market Value provided by official valuation source such as Kaspick.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[annualPayment](#annualPayment)|Annual Payment to organization.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[annualpaymentBase](#annualpaymentBase)|Value of the Annual Payment in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[anticipatedAnnualPayment](#anticipatedAnnualPayment)|Anticipated Annual Payment to organization.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[anticipatedannualpaymentBase](#anticipatedannualpaymentBase)|Value of the Anticipated Annual Payment in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[anticipatedDistributionDateOfTrust](#anticipatedDistributionDateOfTrust)|Anticipated distribution date of trust typically provided by executor, trustee or attorney or in estate documentation.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[anticipatedPercentOfTrust](#anticipatedPercentOfTrust)|Anticipated percent of trust that will go to the organization. This is typically provided by executor, trustee or attorney or in estate documentation.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[appraisalDate](#appraisalDate)|Date the appraisal was conducted.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[appraisalValue](#appraisalValue)|Value of the appraised item or asset from qualified appraiser|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[appraisalvalueBase](#appraisalvalueBase)|Value of the Appraisal Value in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[bequestType](#bequestType)|Is the Bequest a Living Trust, Will, or both?|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[bequestType_display](#bequestType_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[capitalGainIncome](#capitalGainIncome)|Beneficiary's taxable capital gain income portion of life insurance income.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[capitalgainincomeBase](#capitalgainincomeBase)|Value of the Capital Gain Income in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[cashSurrenderValue](#cashSurrenderValue)|The current Cash Surrender Value of the insurance policy.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[cashsurrendervalueBase](#cashsurrendervalueBase)|Value of the Cash Surrender Value in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[charitableDeduction](#charitableDeduction)|Calculated Charitable Deduction for Planned Giving.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[charitabledeductionBase](#charitabledeductionBase)|Value of the Charitable Deduction in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[contractDate](#contractDate)|Date funding will start as specified on the Contract.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[costBasis](#costBasis)|Original purchase price of funding asset.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[costbasisBase](#costbasisBase)|Value of the Cost Basis in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[dateClaimFormsRecieved](#dateClaimFormsRecieved)|Date Claim Forms Received.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[dateClaimFormsSubmitted](#dateClaimFormsSubmitted)|Date Claim Forms Submitted.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[dateEstateClosed](#dateEstateClosed)|Date a management agreement is signed as provided by executor, trustee or attorney.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[dateManagementAgreementSigned](#dateManagementAgreementSigned)|Date a management agreement is signed as provided by executor, trustee or attorney.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[dateStationNotifiedOfDeath](#dateStationNotifiedOfDeath)|Date your organization is notified of the donor's death.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[dateStationNotifiedOfIntention](#dateStationNotifiedOfIntention)|Date organization Notified of Intention to give a Planned Giving.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[dateStationNotifiedToMakeClaim](#dateStationNotifiedToMakeClaim)|Date Organization notified to make a claim.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[dateWillExecuted](#dateWillExecuted)|Date Will Executed as provided in estate documentation.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[deceased](#deceased)|Indicates the Contact is Deceased.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[deceasedDay](#deceasedDay)|Day the Contact was deceased.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[deceasedDay_display](#deceasedDay_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[deceasedMonth](#deceasedMonth)|Month the Contact was deceased.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[deceasedMonth_display](#deceasedMonth_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[deceasedYear](#deceasedYear)|Year the Contact was deceased.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[deceasedYear_display](#deceasedYear_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[deferredToDate](#deferredToDate)|Same as date of first payment when more than one year after the contract date.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[designatedOrganizationPercent](#designatedOrganizationPercent)|Percent of remainder designated to organization|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[designatedPrincipleAmount](#designatedPrincipleAmount)|Amount of principle designated to organization.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[designatedprincipleamountBase](#designatedprincipleamountBase)|Value of the Designated Principle Amount in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[designation](#designation)|Usage of gift funds will be unrestricted, restricted or permanently restricted.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[designation_display](#designation_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[discountRate](#discountRate)|Interest rate a central bank charges depository institutions that borrow reserves from it.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[discountRateMonth](#discountRateMonth)|Month in which latest Discount Rate was populated.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[discountRateMonth_display](#discountRateMonth_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[discountRateYear](#discountRateYear)|Year in which latest Discount Rate was populated.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[discountRateYear_display](#discountRateYear_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[endowmentType](#endowmentType)|Specific endowment at organization where gift will be applied.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[endowmentType_display](#endowmentType_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[estimatedGivingAmount](#estimatedGivingAmount)|Estimated amount organization will receive as provided by executor, trustee, or attorney.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[estimatedgivingamountBase](#estimatedgivingamountBase)|Value of the Estimated Giving Amount in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[estimatedTrustProbateDate](#estimatedTrustProbateDate)|Estimated Date Trust/Probate received as provided by executor, trustee or attorney or in estate documentation.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[expectedFinalDistributionDate](#expectedFinalDistributionDate)|Expected Date of Final Distribution, typically information provided by executor, trustee or attorney.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[expectedFirstDistributionDate](#expectedFirstDistributionDate)|Expected Date of First Distribution, typically information provided by executor, trustee or attorney.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[externalID](#externalID)|ID from External or Legacy system.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[faceValue](#faceValue)|Value of funds donated.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[facevalueBase](#facevalueBase)|Value of the Face Value in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[fundId](#fundId)|Unique identifier for Account associated with Planned Giving.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[givingAmount](#givingAmount)|Sum of gifts entered on this record (logic field).|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[givingReceivedDate](#givingReceivedDate)|Date distribution or remainder for Planned Giving is received.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[givingSubtype](#givingSubtype)|Specific type of Planned Giving instrument.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[givingSubtype_display](#givingSubtype_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[insuranceAnnualPremium](#insuranceAnnualPremium)|Annual Premium of the Life Insurance.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[insuranceannualpremiumBase](#insuranceannualpremiumBase)|Value of the Insurance Annual Premium in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[insuranceCompany](#insuranceCompany)|Insurance Company for related to this Planned Giving.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[insuranceDeathBenefitAmount](#insuranceDeathBenefitAmount)|Death Benefit Amount from Insurance.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[insurancePolicyCode](#insurancePolicyCode)|Insurance policy code related to this Planned Giving.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[insurancePolicyName](#insurancePolicyName)|Insurance Policy Name for this Planned Giving.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[insurancePremiumDueDate](#insurancePremiumDueDate)|Insurance Premium Due Date related to this Planned Giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[insurancePremiumPaymentAddress](#insurancePremiumPaymentAddress)|Address for the Life Insurance Premium Payment.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[isRevocable](#isRevocable)|Related trust may be amended, altered or revoked by its settlor at any time, provided the settlor is not mentally incapacitated.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[leadSource](#leadSource)|Method of communication that prompted Donor to discuss Planned Giving options.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[leadSource_display](#leadSource_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[ordinaryIncome](#ordinaryIncome)|Income other than capital gain. Examples of Ordinary income can consist of income from wages, salaries, tips, commissions, bonuses, and other types of compensation from employment.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[ordinaryincomeBase](#ordinaryincomeBase)|Value of the Ordinary Income in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[paymentFrequency](#paymentFrequency)|Defined frequency payments are distributed to the organization.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[paymentFrequency_display](#paymentFrequency_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[payoutRate](#payoutRate)|Dollar amount per share a Corporation pays for their dividend.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[plannedGivingCampaignId](#plannedGivingCampaignId)|Campaign|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[plannedGivingPledgedByContactId](#plannedGivingPledgedByContactId)|Pledged By Contact|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[pledgesOnAccountId](#pledgesOnAccountId)|Unique identifier for Account associated with Planned Giving.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[presentValue](#presentValue)|The value on a given date of a payment or series of payments made at other times for an investment.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[presentvalueBase](#presentvalueBase)|Value of the Present Value in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[recordType](#recordType)|Type of Planned Giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[remainderAmount](#remainderAmount)|Remainder $ value a Charitable Organization receives.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[remainderamountBase](#remainderamountBase)|Value of the Remainder Amount in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[rollupGiving](#rollupGiving)|Populated by trigger, reflects the most recent Date/Time for Giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[salvageValueofBuildings](#salvageValueofBuildings)|Estimated value of property at the end of its useful life. It is what you expect to get for the property if you sell it after you can no longer use it productively.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[salvagevalueofbuildingsBase](#salvagevalueofbuildingsBase)|Value of the Salvage Value of Buildings in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[severDate](#severDate)|The term end date' or the date of the related Contact's death.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[stage](#stage)|The current phase the giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[stage_display](#stage_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[taxFreeIncome](#taxFreeIncome)|The tax free income from the asset related to this giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[taxfreeincomeBase](#taxfreeincomeBase)|Value of the Tax Free Income in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[termEndDate](#termEndDate)|Term end date for the asset related to the Planned Giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[termType](#termType)|Term type for the asset related to the Planned Giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[termType_display](#termType_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[termYears](#termYears)|Term years for the asset related to the Planned Giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[totalEstateValue](#totalEstateValue)|Total Estate Value as provided by executor, trustee or attorney or in estate documentation.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[totalestatevalueBase](#totalestatevalueBase)|Value of the Total Estate Value in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[trustMarketValue](#trustMarketValue)|Trust Market Value related to this planned giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[trustmarketvalueBase](#trustmarketvalueBase)|Value of the Trust Market Value in base currency.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[trustProbateNoticeDate](#trustProbateNoticeDate)|Date Trust/Probate Notice received.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[trustValueDate](#trustValueDate)|Trust Value Date related to this planned giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[typeOfManagement](#typeOfManagement)|The type of management for the underlying asset or assets related to this Planned Giving record.|<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
+|[typeOfManagement_display](#typeOfManagement_display)||<a href="PlannedGiving.md" target="_blank">nonProfit/PlannedGiving</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

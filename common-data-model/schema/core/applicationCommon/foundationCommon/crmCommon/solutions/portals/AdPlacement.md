@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Ad Placement
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/AdPlacement.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,36 +42,37 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 portals/AdPlacement  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[portals/AdPlacement](AdPlacement.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[portals/AdPlacement](AdPlacement.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[portals/AdPlacement](AdPlacement.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[portals/AdPlacement](AdPlacement.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[portals/AdPlacement](AdPlacement.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[portals/AdPlacement](AdPlacement.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[portals/AdPlacement](AdPlacement.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[portals/AdPlacement](AdPlacement.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[portals/AdPlacement](AdPlacement.md)|
-|[ownerId](#ownerId)|Owner Id|[portals/AdPlacement](AdPlacement.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[portals/AdPlacement](AdPlacement.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[portals/AdPlacement](AdPlacement.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[portals/AdPlacement](AdPlacement.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[portals/AdPlacement](AdPlacement.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[portals/AdPlacement](AdPlacement.md)|
-|[versionNumber](#versionNumber)|Version Number|[portals/AdPlacement](AdPlacement.md)|
-|[adPlacementId](#adPlacementId)|Shows the entity instance.|[portals/AdPlacement](AdPlacement.md)|
-|[stateCode](#stateCode)|Status of the Ad Placement|[portals/AdPlacement](AdPlacement.md)|
-|[stateCode_display](#stateCode_display)||[portals/AdPlacement](AdPlacement.md)|
-|[statusCode](#statusCode)|Select the ad placement's status.|[portals/AdPlacement](AdPlacement.md)|
-|[statusCode_display](#statusCode_display)||[portals/AdPlacement](AdPlacement.md)|
-|[name](#name)|Type the name of the custom entity.|[portals/AdPlacement](AdPlacement.md)|
-|[websiteId](#websiteId)|Unique identifier for Website associated with AdPlacement.|[portals/AdPlacement](AdPlacement.md)|
-|[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Ad Placement.|[portals/AdPlacement](AdPlacement.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[adPlacementId](#adPlacementId)|Shows the entity instance.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[stateCode](#stateCode)|Status of the Ad Placement|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[stateCode_display](#stateCode_display)||<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[statusCode](#statusCode)|Select the ad placement's status.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[statusCode_display](#statusCode_display)||<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[name](#name)|Type the name of the custom entity.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[websiteId](#websiteId)|Unique identifier for Website associated with AdPlacement.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
+|[webTemplateId](#webTemplateId)|Unique identifier for Web Template associated with Ad Placement.|<a href="AdPlacement.md" target="_blank">portals/AdPlacement</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

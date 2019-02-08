@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Booking Status
 
 Allows creation of multiple sub statuses mapped to a booking status option.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookingStatus.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,39 +46,40 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/BookingStatus  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[bookingStatusId](#bookingStatusId)|Unique identifier of the booking status.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[name](#name)|Type the name of the booking status.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[description](#description)|Type a detailed description for the booking status.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[stateCode](#stateCode)|Status of the Booking Status|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/BookingStatus](BookingStatus.md)|
-|[status](#status)|Select whether the booking status should be proposed, committed or canceled.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[status_display](#status_display)||[foundationCommon/BookingStatus](BookingStatus.md)|
-|[statusCode](#statusCode)|Reason for the status of the Booking Status|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/BookingStatus](BookingStatus.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookingstatus with respect to the base currency.|[foundationCommon/BookingStatus](BookingStatus.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookingStatus with respect to the base currency.|[foundationCommon/BookingStatus](BookingStatus.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[bookingStatusId](#bookingStatusId)|Unique identifier of the booking status.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[name](#name)|Type the name of the booking status.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[description](#description)|Type a detailed description for the booking status.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[stateCode](#stateCode)|Status of the Booking Status|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[stateCode_display](#stateCode_display)||<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[status](#status)|Select whether the booking status should be proposed, committed or canceled.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[status_display](#status_display)||<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[statusCode](#statusCode)|Reason for the status of the Booking Status|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[statusCode_display](#statusCode_display)||<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookingstatus with respect to the base currency.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookingStatus with respect to the base currency.|<a href="BookingStatus.md" target="_blank">foundationCommon/BookingStatus</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

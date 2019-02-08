@@ -11,7 +11,7 @@ ms.author: tpalmer
 # SLA KPI Instance
 
 Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,6 +43,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md "/core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstance")  
 service/SLAKPIInstance  
 
@@ -50,33 +51,33 @@ service/SLAKPIInstance
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[SLAKPIInstanceId](#SLAKPIInstanceId)|Unique identifier of the SLA KPI Instance.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[name](#name)|Type a descriptive name for the service level agreement (SLA) key performance indicator (KPI) instance.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[computedFailureTime](#computedFailureTime)|Computed Failure Date and time|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[computedWarningTime](#computedWarningTime)|Computed Warning Date and time|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[failureTime](#failureTime)|Enter the date and time when the service level agreement (SLA) key performance indicator (KPI) will expire.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[owningUser](#owningUser)|Owning User.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[owningTeam](#owningTeam)|OwningTeam.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Owning Business Unit.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[status](#status)|Reason for the status of the service level agreement (SLA) key performance indicator (KPI) instance. For example, the SLA KPI could be Noncompliant or Succeeded.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[status_display](#status_display)||[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[succeededOn](#succeededOn)|Shows the date and time when the service level agreement (SLA) key performance indicator (KPI) success criteria was met.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[warningTime](#warningTime)|Enter the date and time when the service level agreement (SLA) key performance indicator (KPI)will go to a warning state.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[exchangeRate](#exchangeRate)|For internal use only.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[createdBy](#createdBy)|For internal use only.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[createdOn](#createdOn)|For internal use only.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|For internal use only.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[description](#description)|For internal use only.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[modifiedBy](#modifiedBy)|For internal use only.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[modifiedOn](#modifiedOn)|For internal use only.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|For internal use only.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[versionNumber](#versionNumber)|For internal use only.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[warningTimeReached](#warningTimeReached)|Shows information about whether the case has reached its warning time.|[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[warningTimeReached_display](#warningTimeReached_display)||[applicationCommon/SLAKPIInstance](../../../SLAKPIInstance.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by Regarding|[service/SLAKPIInstance](SLAKPIInstance.md)|
+|[SLAKPIInstanceId](#SLAKPIInstanceId)|Unique identifier of the SLA KPI Instance.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[name](#name)|Type a descriptive name for the service level agreement (SLA) key performance indicator (KPI) instance.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[computedFailureTime](#computedFailureTime)|Computed Failure Date and time|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[computedWarningTime](#computedWarningTime)|Computed Warning Date and time|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[failureTime](#failureTime)|Enter the date and time when the service level agreement (SLA) key performance indicator (KPI) will expire.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[owningUser](#owningUser)|Owning User.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[owningTeam](#owningTeam)|OwningTeam.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Owning Business Unit.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[status](#status)|Reason for the status of the service level agreement (SLA) key performance indicator (KPI) instance. For example, the SLA KPI could be Noncompliant or Succeeded.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[status_display](#status_display)||<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[succeededOn](#succeededOn)|Shows the date and time when the service level agreement (SLA) key performance indicator (KPI) success criteria was met.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[warningTime](#warningTime)|Enter the date and time when the service level agreement (SLA) key performance indicator (KPI)will go to a warning state.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[exchangeRate](#exchangeRate)|For internal use only.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[createdBy](#createdBy)|For internal use only.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[createdOn](#createdOn)|For internal use only.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|For internal use only.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[description](#description)|For internal use only.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[modifiedBy](#modifiedBy)|For internal use only.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[modifiedOn](#modifiedOn)|For internal use only.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|For internal use only.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[versionNumber](#versionNumber)|For internal use only.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[warningTimeReached](#warningTimeReached)|Shows information about whether the case has reached its warning time.|<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[warningTimeReached_display](#warningTimeReached_display)||<a href="../../../SLAKPIInstance.md" target="_blank">applicationCommon/SLAKPIInstance</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by Regarding|<a href="SLAKPIInstance.md" target="_blank">service/SLAKPIInstance</a>|
 
 ### <a href=#SLAKPIInstanceId name="SLAKPIInstanceId">SLAKPIInstanceId</a>
 

@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Marketing Email
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingEmail.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,52 +42,53 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 marketing/MarketingEmail  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[ownerId](#ownerId)|Owner Id|[marketing/MarketingEmail](MarketingEmail.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[marketing/MarketingEmail](MarketingEmail.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[versionNumber](#versionNumber)|Version Number|[marketing/MarketingEmail](MarketingEmail.md)|
-|[marketingEmailId](#marketingEmailId)|Unique ID for entity instances.|[marketing/MarketingEmail](MarketingEmail.md)|
-|[stateCode](#stateCode)|Status of the Marketing Email|[marketing/MarketingEmail](MarketingEmail.md)|
-|[stateCode_display](#stateCode_display)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[statusCode](#statusCode)|Marketing email status reason|[marketing/MarketingEmail](MarketingEmail.md)|
-|[statusCode_display](#statusCode_display)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[name](#name)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[automaticallyGeneratePlainText](#automaticallyGeneratePlainText)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[clickMap](#clickMap)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[description](#description)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[designerHTML](#designerHTML)|Clean email body: HTML with no CSS inlining and no compression|[marketing/MarketingEmail](MarketingEmail.md)|
-|[emailBody](#emailBody)|The body of the email|[marketing/MarketingEmail](MarketingEmail.md)|
-|[fromEmail](#fromEmail)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[fromName](#fromName)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[fromUser](#fromUser)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[insightsPlaceholder](#insightsPlaceholder)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[istemplategalleryneeded](#istemplategalleryneeded)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[legalDesignation](#legalDesignation)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[legalDesignation_display](#legalDesignation_display)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[replyToEmail](#replyToEmail)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[subject](#subject)|The subject of the marketing email|[marketing/MarketingEmail](MarketingEmail.md)|
-|[templateId](#templateId)|Template for the Email|[marketing/MarketingEmail](MarketingEmail.md)|
-|[plainText](#plainText)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[to](#to)||[marketing/MarketingEmail](MarketingEmail.md)|
-|[UICEntityID](#UICEntityID)||[marketing/MarketingEmail](MarketingEmail.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[marketingEmailId](#marketingEmailId)|Unique ID for entity instances.|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[stateCode](#stateCode)|Status of the Marketing Email|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[stateCode_display](#stateCode_display)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[statusCode](#statusCode)|Marketing email status reason|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[statusCode_display](#statusCode_display)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[name](#name)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[automaticallyGeneratePlainText](#automaticallyGeneratePlainText)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[clickMap](#clickMap)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[description](#description)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[designerHTML](#designerHTML)|Clean email body: HTML with no CSS inlining and no compression|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[emailBody](#emailBody)|The body of the email|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[fromEmail](#fromEmail)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[fromName](#fromName)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[fromUser](#fromUser)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[insightsPlaceholder](#insightsPlaceholder)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[istemplategalleryneeded](#istemplategalleryneeded)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[legalDesignation](#legalDesignation)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[legalDesignation_display](#legalDesignation_display)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[replyToEmail](#replyToEmail)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[subject](#subject)|The subject of the marketing email|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[templateId](#templateId)|Template for the Email|<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[plainText](#plainText)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[to](#to)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
+|[UICEntityID](#UICEntityID)||<a href="MarketingEmail.md" target="_blank">marketing/MarketingEmail</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

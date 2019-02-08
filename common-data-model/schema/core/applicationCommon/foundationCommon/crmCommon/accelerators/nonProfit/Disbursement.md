@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Disbursement
 
 A Disbursement represents an Award disbursement to an individual or organizational awardee.  A Disbursement is related to a specific Award and Budget through a Disbursement Distribution.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Disbursement.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,59 +46,60 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/Disbursement  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/Disbursement](Disbursement.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/Disbursement](Disbursement.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/Disbursement](Disbursement.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/Disbursement](Disbursement.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/Disbursement](Disbursement.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/Disbursement](Disbursement.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/Disbursement](Disbursement.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/Disbursement](Disbursement.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/Disbursement](Disbursement.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/Disbursement](Disbursement.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/Disbursement](Disbursement.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/Disbursement](Disbursement.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/Disbursement](Disbursement.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/Disbursement](Disbursement.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/Disbursement](Disbursement.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/Disbursement](Disbursement.md)|
-|[disbursementId](#disbursementId)|Unique identifier for entity instances|[nonProfit/Disbursement](Disbursement.md)|
-|[stateCode](#stateCode)|Status of the Disbursement|[nonProfit/Disbursement](Disbursement.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/Disbursement](Disbursement.md)|
-|[statusCode](#statusCode)|Reason for the status of the Disbursement|[nonProfit/Disbursement](Disbursement.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/Disbursement](Disbursement.md)|
-|[name](#name)|The name of the custom entity.|[nonProfit/Disbursement](Disbursement.md)|
-|[adjustmentComment](#adjustmentComment)|Any notes or details about the adjustment that the user may have optionally entered.|[nonProfit/Disbursement](Disbursement.md)|
-|[adjustmentReason](#adjustmentReason)||[nonProfit/Disbursement](Disbursement.md)|
-|[adjustmentReason_display](#adjustmentReason_display)||[nonProfit/Disbursement](Disbursement.md)|
-|[adjustmentType](#adjustmentType)||[nonProfit/Disbursement](Disbursement.md)|
-|[adjustmentType_display](#adjustmentType_display)||[nonProfit/Disbursement](Disbursement.md)|
-|[adjustsOriginalTransactionId](#adjustsOriginalTransactionId)|Adjusts Original Transaction|[nonProfit/Disbursement](Disbursement.md)|
-|[amouont](#amouont)|The amount of the Disbursement.|[nonProfit/Disbursement](Disbursement.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/Disbursement](Disbursement.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/Disbursement](Disbursement.md)|
-|[amouontBase](#amouontBase)|Value of the Amount in base currency.|[nonProfit/Disbursement](Disbursement.md)|
-|[awardId](#awardId)|Award|[nonProfit/Disbursement](Disbursement.md)|
-|[bookDate](#bookDate)|Book Date|[nonProfit/Disbursement](Disbursement.md)|
-|[comment](#comment)|Comments about the Disbursement.|[nonProfit/Disbursement](Disbursement.md)|
-|[description](#description)|Description of the Disbursement.|[nonProfit/Disbursement](Disbursement.md)|
-|[isAdjusted](#isAdjusted)|Is Adjusted|[nonProfit/Disbursement](Disbursement.md)|
-|[postedDate](#postedDate)|The date the Disbursement was posted to the GL|[nonProfit/Disbursement](Disbursement.md)|
-|[recipientAccountId](#recipientAccountId)|Recipient Account|[nonProfit/Disbursement](Disbursement.md)|
-|[recipientContactId](#recipientContactId)|Recipient Contact|[nonProfit/Disbursement](Disbursement.md)|
-|[requestDate](#requestDate)|The date the Disbursement was requested.|[nonProfit/Disbursement](Disbursement.md)|
-|[scheduledDisbursementDate](#scheduledDisbursementDate)|The date the Disbursement is scheduled to be sent.|[nonProfit/Disbursement](Disbursement.md)|
-|[sentDate](#sentDate)|The date the Disbursement was sent.|[nonProfit/Disbursement](Disbursement.md)|
-|[status](#status)|Status of the Disbursement.|[nonProfit/Disbursement](Disbursement.md)|
-|[status_display](#status_display)||[nonProfit/Disbursement](Disbursement.md)|
-|[type](#type)|The type of Disbursement.|[nonProfit/Disbursement](Disbursement.md)|
-|[type_display](#type_display)||[nonProfit/Disbursement](Disbursement.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[disbursementId](#disbursementId)|Unique identifier for entity instances|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[stateCode](#stateCode)|Status of the Disbursement|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[stateCode_display](#stateCode_display)||<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[statusCode](#statusCode)|Reason for the status of the Disbursement|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[statusCode_display](#statusCode_display)||<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[name](#name)|The name of the custom entity.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[adjustmentComment](#adjustmentComment)|Any notes or details about the adjustment that the user may have optionally entered.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[adjustmentReason](#adjustmentReason)||<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[adjustmentReason_display](#adjustmentReason_display)||<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[adjustmentType](#adjustmentType)||<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[adjustmentType_display](#adjustmentType_display)||<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[adjustsOriginalTransactionId](#adjustsOriginalTransactionId)|Adjusts Original Transaction|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[amouont](#amouont)|The amount of the Disbursement.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[amouontBase](#amouontBase)|Value of the Amount in base currency.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[awardId](#awardId)|Award|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[bookDate](#bookDate)|Book Date|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[comment](#comment)|Comments about the Disbursement.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[description](#description)|Description of the Disbursement.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[isAdjusted](#isAdjusted)|Is Adjusted|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[postedDate](#postedDate)|The date the Disbursement was posted to the GL|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[recipientAccountId](#recipientAccountId)|Recipient Account|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[recipientContactId](#recipientContactId)|Recipient Contact|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[requestDate](#requestDate)|The date the Disbursement was requested.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[scheduledDisbursementDate](#scheduledDisbursementDate)|The date the Disbursement is scheduled to be sent.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[sentDate](#sentDate)|The date the Disbursement was sent.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[status](#status)|Status of the Disbursement.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[status_display](#status_display)||<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[type](#type)|The type of Disbursement.|<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
+|[type_display](#type_display)||<a href="Disbursement.md" target="_blank">nonProfit/Disbursement</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

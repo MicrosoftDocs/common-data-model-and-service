@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Care Plan Goal
 
 Describes the intended objective(s) of carrying out the care plan.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,36 +46,37 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/CarePlanGoal  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[carePlanGoalId](#carePlanGoalId)|Unique identifier for entity instances|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[stateCode](#stateCode)|Status of the Care Plan Goal|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[statusCode](#statusCode)|Reason for the status of the Care Plan Goal|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[carePlan](#carePlan)|Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
-|[goal](#goal)|Describes the intended objective(s) of carrying out the care plan. Goal can be achieving a particular change or merely maintaining a current state or even slowing a decline.|[electronicMedicalRecords/CarePlanGoal](CarePlanGoal.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[carePlanGoalId](#carePlanGoalId)|Unique identifier for entity instances|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[stateCode](#stateCode)|Status of the Care Plan Goal|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[stateCode_display](#stateCode_display)||<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[statusCode](#statusCode)|Reason for the status of the Care Plan Goal|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[statusCode_display](#statusCode_display)||<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[name](#name)|The name of the custom entity.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[carePlan](#carePlan)|Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
+|[goal](#goal)|Describes the intended objective(s) of carrying out the care plan. Goal can be achieving a particular change or merely maintaining a current state or even slowing a decline.|<a href="CarePlanGoal.md" target="_blank">electronicMedicalRecords/CarePlanGoal</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

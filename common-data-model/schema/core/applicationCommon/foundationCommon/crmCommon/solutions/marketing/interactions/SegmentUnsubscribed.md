@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Segment unsubscribed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentUnsubscribed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,40 +33,41 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/SegmentUnsubscribed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[contactId](#contactId)|Contact|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[accountId](#accountId)|Account|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[messageId](#messageId)|Message|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[sessionId](#sessionId)|Session ID|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[visitorId](#visitorId)|Visitor ID|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[emailDomain](#emailDomain)|Email domain|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[emailAddressUsed](#emailAddressUsed)|Email address used|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[state](#state)|State|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[city](#city)|City|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[postalCode](#postalCode)|Postal code|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[browserId](#browserId)|Browser ID|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[browserVersion](#browserVersion)|Browser version|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[segmentId](#segmentId)|Segment ID|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[formSubmissionId](#formSubmissionId)|Form submission ID|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[searchPhrase](#searchPhrase)|Search phrase|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[searchEngineName](#searchEngineName)|Search engine name|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[visitDuration](#visitDuration)|Visit duration|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
-|[leadId](#leadId)|Lead ID|[interactions/SegmentUnsubscribed](SegmentUnsubscribed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[contactId](#contactId)|Contact|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[accountId](#accountId)|Account|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[messageId](#messageId)|Message|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[sessionId](#sessionId)|Session ID|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[visitorId](#visitorId)|Visitor ID|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[emailDomain](#emailDomain)|Email domain|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[emailAddressUsed](#emailAddressUsed)|Email address used|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[state](#state)|State|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[city](#city)|City|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[postalCode](#postalCode)|Postal code|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[browserId](#browserId)|Browser ID|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[browserVersion](#browserVersion)|Browser version|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[segmentId](#segmentId)|Segment ID|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[formSubmissionId](#formSubmissionId)|Form submission ID|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[searchPhrase](#searchPhrase)|Search phrase|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[searchEngineName](#searchEngineName)|Search engine name|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[visitDuration](#visitDuration)|Visit duration|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
+|[leadId](#leadId)|Lead ID|<a href="SegmentUnsubscribed.md" target="_blank">interactions/SegmentUnsubscribed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

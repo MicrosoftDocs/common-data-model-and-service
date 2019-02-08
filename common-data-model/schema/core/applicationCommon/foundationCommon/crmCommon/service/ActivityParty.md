@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Activity Party
 
 Person or group associated with an activity. An activity can have multiple activity parties.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,6 +43,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 [applicationCommon/ActivityParty](../../../ActivityParty.md "/core/applicationCommon/ActivityParty.cdm.json/ActivityParty")  
 service/ActivityParty  
 
@@ -50,29 +51,29 @@ service/ActivityParty
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[activityId](#activityId)|Unique identifier of the activity associated with the activity party. (A "party" is any person who is associated with an activity.)|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[activityPartyId](#activityPartyId)|Unique identifier of the activity party.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[partyObjectTypeCode](#partyObjectTypeCode)|The name of the entity linked by partyId|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[partyId](#partyId)|Unique identifier of the party associated with the activity.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[participationTypeMask](#participationTypeMask)|Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[participationTypeMask_display](#participationTypeMask_display)||[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[addressUsed](#addressUsed)|Email address to which an email is delivered, and which is associated with the target entity.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[doNotFax](#doNotFax)|Information about whether to allow sending faxes to the activity party.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[effort](#effort)|Amount of effort used by the resource in a service appointment activity.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[doNotEMail](#doNotEMail)|Information about whether to allow sending email to the activity party.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[exchangeEntryId](#exchangeEntryId)|For internal use only.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[doNotPostalMail](#doNotPostalMail)|Information about whether to allow sending postal mail to the lead.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[doNotPhone](#doNotPhone)|Information about whether to allow phone calls to the lead.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[isPartyDeleted](#isPartyDeleted)|Information about whether the underlying entity record is deleted.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[addressUsedEmailColumnNumber](#addressUsedEmailColumnNumber)|Email address column number from associated party.|[applicationCommon/ActivityParty](../../../ActivityParty.md)|
-|[resourceSpecId](#resourceSpecId)|Unique identifier of the resource specification for the activity party.|[service/ActivityParty](ActivityParty.md)|
+|[activityId](#activityId)|Unique identifier of the activity associated with the activity party. (A "party" is any person who is associated with an activity.)|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[activityPartyId](#activityPartyId)|Unique identifier of the activity party.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[partyObjectTypeCode](#partyObjectTypeCode)|The name of the entity linked by partyId|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[partyId](#partyId)|Unique identifier of the party associated with the activity.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[participationTypeMask](#participationTypeMask)|Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[participationTypeMask_display](#participationTypeMask_display)||<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[addressUsed](#addressUsed)|Email address to which an email is delivered, and which is associated with the target entity.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[doNotFax](#doNotFax)|Information about whether to allow sending faxes to the activity party.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[effort](#effort)|Amount of effort used by the resource in a service appointment activity.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[doNotEMail](#doNotEMail)|Information about whether to allow sending email to the activity party.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[exchangeEntryId](#exchangeEntryId)|For internal use only.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[versionNumber](#versionNumber)||<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[doNotPostalMail](#doNotPostalMail)|Information about whether to allow sending postal mail to the lead.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[doNotPhone](#doNotPhone)|Information about whether to allow phone calls to the lead.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[isPartyDeleted](#isPartyDeleted)|Information about whether the underlying entity record is deleted.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[addressUsedEmailColumnNumber](#addressUsedEmailColumnNumber)|Email address column number from associated party.|<a href="../../../ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>|
+|[resourceSpecId](#resourceSpecId)|Unique identifier of the resource specification for the activity party.|<a href="ActivityParty.md" target="_blank">service/ActivityParty</a>|
 
 ### <a href=#activityId name="activityId">activityId</a>
 

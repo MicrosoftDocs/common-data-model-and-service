@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Attendee Pass
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/AttendeePass.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,41 +42,42 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/AttendeePass  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/AttendeePass](AttendeePass.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/AttendeePass](AttendeePass.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/AttendeePass](AttendeePass.md)|
-|[attendeePassId](#attendeePassId)|Unique identifier for entity instances|[eventManagement/AttendeePass](AttendeePass.md)|
-|[stateCode](#stateCode)|Status of the Attendee Pass|[eventManagement/AttendeePass](AttendeePass.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/AttendeePass](AttendeePass.md)|
-|[statusCode](#statusCode)|Reason for the status of the Attendee Pass|[eventManagement/AttendeePass](AttendeePass.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/AttendeePass](AttendeePass.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[eventId](#eventId)|Unique identifier for Event associated with Attendee Pass.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[eventRegistrationId](#eventRegistrationId)|Unique identifier for Event Registration associated with Attendee Pass.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[pass](#pass)|Unique identifier for Pass associated with Attendee Pass.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[passPrice](#passPrice)||[eventManagement/AttendeePass](AttendeePass.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[eventManagement/AttendeePass](AttendeePass.md)|
-|[passPriceBase](#passPriceBase)|Value of the Pass Price in base currency.|[eventManagement/AttendeePass](AttendeePass.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[attendeePassId](#attendeePassId)|Unique identifier for entity instances|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[stateCode](#stateCode)|Status of the Attendee Pass|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[stateCode_display](#stateCode_display)||<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[statusCode](#statusCode)|Reason for the status of the Attendee Pass|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[statusCode_display](#statusCode_display)||<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[name](#name)|The name of the custom entity.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[eventId](#eventId)|Unique identifier for Event associated with Attendee Pass.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[eventRegistrationId](#eventRegistrationId)|Unique identifier for Event Registration associated with Attendee Pass.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[pass](#pass)|Unique identifier for Pass associated with Attendee Pass.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[passPrice](#passPrice)||<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
+|[passPriceBase](#passPriceBase)|Value of the Pass Price in base currency.|<a href="AttendeePass.md" target="_blank">eventManagement/AttendeePass</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

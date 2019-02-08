@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Invoice
 
 Order that has been billed.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Invoice.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,108 +46,109 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/Invoice  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/Invoice](Invoice.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/Invoice](Invoice.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/Invoice](Invoice.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/Invoice](Invoice.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/Invoice](Invoice.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/Invoice](Invoice.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/Invoice](Invoice.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/Invoice](Invoice.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/Invoice](Invoice.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/Invoice](Invoice.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/Invoice](Invoice.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/Invoice](Invoice.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/Invoice](Invoice.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/Invoice](Invoice.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/Invoice](Invoice.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/Invoice](Invoice.md)|
-|[invoiceId](#invoiceId)|Unique identifier of the invoice.|[sales/Invoice](Invoice.md)|
-|[emailAddress](#emailAddress)|The primary email address for the entity.|[sales/Invoice](Invoice.md)|
-|[name](#name)|Type a descriptive name for the invoice.|[sales/Invoice](Invoice.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[sales/Invoice](Invoice.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[sales/Invoice](Invoice.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[sales/Invoice](Invoice.md)|
-|[billToCity](#billToCity)|Type the city for the customer's billing address.|[sales/Invoice](Invoice.md)|
-|[billToComposite](#billToComposite)|Shows the complete Bill To address.|[sales/Invoice](Invoice.md)|
-|[billToCountry](#billToCountry)|Type the country or region for the customer's billing address.|[sales/Invoice](Invoice.md)|
-|[billToFax](#billToFax)|Type the fax number for the customer's billing address.|[sales/Invoice](Invoice.md)|
-|[billToLine1](#billToLine1)|Type the first line of the customer's billing address.|[sales/Invoice](Invoice.md)|
-|[billToLine2](#billToLine2)|Type the second line of the customer's billing address.|[sales/Invoice](Invoice.md)|
-|[billToLine3](#billToLine3)|Type the third line of the billing address.|[sales/Invoice](Invoice.md)|
-|[billToName](#billToName)|Type a name for the customer's billing address, such as "Headquarters" or "Field office", to identify the address.|[sales/Invoice](Invoice.md)|
-|[billToPostalCode](#billToPostalCode)|Type the ZIP Code or postal code for the billing address.|[sales/Invoice](Invoice.md)|
-|[billToStateOrProvince](#billToStateOrProvince)|Type the state or province for the billing address.|[sales/Invoice](Invoice.md)|
-|[billToTelephone](#billToTelephone)|Type the phone number for the customer's billing address.|[sales/Invoice](Invoice.md)|
-|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|[sales/Invoice](Invoice.md)|
-|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|[sales/Invoice](Invoice.md)|
-|[dateDelivered](#dateDelivered)|Enter the date when the products included in the invoice were delivered.|[sales/Invoice](Invoice.md)|
-|[description](#description)|Type additional information to describe the invoice, such as shipping details or product substitutions.|[sales/Invoice](Invoice.md)|
-|[discountAmount](#discountAmount)|Type the discount amount for the invoice if the customer is eligible for special savings.|[sales/Invoice](Invoice.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/Invoice](Invoice.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/Invoice](Invoice.md)|
-|[discountAmountBase](#discountAmountBase)|Value of the Invoice Discount Amount in base currency.|[sales/Invoice](Invoice.md)|
-|[discountPercentage](#discountPercentage)|Type the discount rate that should be applied to the Detail Amount field, for use in calculating the Pre-Freight Amount and Total Amount values for the invoice.|[sales/Invoice](Invoice.md)|
-|[dueDate](#dueDate)|Enter the date by which the invoice should be paid by the customer.|[sales/Invoice](Invoice.md)|
-|[freightAmount](#freightAmount)|Type the cost of freight or shipping for the products included in the invoice for use in calculating the total amount due.|[sales/Invoice](Invoice.md)|
-|[freightAmountBase](#freightAmountBase)|Value of the Freight Amount in base currency.|[sales/Invoice](Invoice.md)|
-|[invoiceNumber](#invoiceNumber)|Shows the identifying number or code of the invoice.|[sales/Invoice](Invoice.md)|
-|[isPriceLocked](#isPriceLocked)|Select whether prices specified on the invoice are locked from any further updates.|[sales/Invoice](Invoice.md)|
-|[lastBackofficeSubmit](#lastBackofficeSubmit)|Enter the date and time when the invoice was last submitted to an accounting or ERP system for processing.|[sales/Invoice](Invoice.md)|
-|[opportunityId](#opportunityId)|Choose the opportunity that the invoice is related to for reporting and analytics.|[sales/Invoice](Invoice.md)|
-|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|[sales/Invoice](Invoice.md)|
-|[paymentTermsCode_display](#paymentTermsCode_display)||[sales/Invoice](Invoice.md)|
-|[priceLevelId](#priceLevelId)|Choose the price list associated with this record to make sure the products associated with the campaign are offered at the correct prices.|[sales/Invoice](Invoice.md)|
-|[pricingErrorCode](#pricingErrorCode)|Type of pricing error for the invoice.|[sales/Invoice](Invoice.md)|
-|[pricingErrorCode_display](#pricingErrorCode_display)||[sales/Invoice](Invoice.md)|
-|[priorityCode](#priorityCode)|Select the priority so that preferred customers or critical issues are handled quickly.|[sales/Invoice](Invoice.md)|
-|[priorityCode_display](#priorityCode_display)||[sales/Invoice](Invoice.md)|
-|[salesOrderId](#salesOrderId)|Choose the order related to the invoice to make sure the order is fulfilled and invoiced correctly.|[sales/Invoice](Invoice.md)|
-|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|[sales/Invoice](Invoice.md)|
-|[shippingMethodCode_display](#shippingMethodCode_display)||[sales/Invoice](Invoice.md)|
-|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|[sales/Invoice](Invoice.md)|
-|[shipToComposite](#shipToComposite)|Shows the complete Ship To address.|[sales/Invoice](Invoice.md)|
-|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|[sales/Invoice](Invoice.md)|
-|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|[sales/Invoice](Invoice.md)|
-|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|[sales/Invoice](Invoice.md)|
-|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||[sales/Invoice](Invoice.md)|
-|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|[sales/Invoice](Invoice.md)|
-|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|[sales/Invoice](Invoice.md)|
-|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|[sales/Invoice](Invoice.md)|
-|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|[sales/Invoice](Invoice.md)|
-|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|[sales/Invoice](Invoice.md)|
-|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|[sales/Invoice](Invoice.md)|
-|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|[sales/Invoice](Invoice.md)|
-|[stateCode](#stateCode)|Shows whether the invoice is active, paid, or canceled. Paid and canceled invoices are read-only and can't be edited unless they are reactivated.|[sales/Invoice](Invoice.md)|
-|[stateCode_display](#stateCode_display)||[sales/Invoice](Invoice.md)|
-|[statusCode](#statusCode)|Select the invoice's status.|[sales/Invoice](Invoice.md)|
-|[statusCode_display](#statusCode_display)||[sales/Invoice](Invoice.md)|
-|[totalAmount](#totalAmount)|Shows the total amount due, calculated as the sum of the products, discount, freight, and taxes for the invoice.|[sales/Invoice](Invoice.md)|
-|[totalAmountBase](#totalAmountBase)|Value of the Total Amount in base currency.|[sales/Invoice](Invoice.md)|
-|[totalAmountLessFreight](#totalAmountLessFreight)|Shows the total product amount due, minus any discounts. This value is added to freight and tax amounts in the calculation for the total amount due for the invoice.|[sales/Invoice](Invoice.md)|
-|[totalAmountLessFreightBase](#totalAmountLessFreightBase)|Value of the Total Pre-Freight Amount in base currency.|[sales/Invoice](Invoice.md)|
-|[totalDiscountAmount](#totalDiscountAmount)|Shows the total discount amount, based on the discount price and rate entered on the invoice.|[sales/Invoice](Invoice.md)|
-|[totalDiscountAmountBase](#totalDiscountAmountBase)|Value of the Total Discount Amount in base currency.|[sales/Invoice](Invoice.md)|
-|[totalLineItemAmount](#totalLineItemAmount)|Shows the sum of all existing and write-in products included on the invoice, based on the specified price list and quantities.|[sales/Invoice](Invoice.md)|
-|[totalLineItemAmountBase](#totalLineItemAmountBase)|Value of the Total Detail Amount in base currency.|[sales/Invoice](Invoice.md)|
-|[totalLineItemDiscountAmount](#totalLineItemDiscountAmount)|Shows the Manual Discount amounts specified on all products included in the invoice. This value is reflected in the Detail Amount field on the invoice and is added to any discount amount or rate specified on the invoice.|[sales/Invoice](Invoice.md)|
-|[totalLineItemDiscountAmountBase](#totalLineItemDiscountAmountBase)|Value of the Total Line Item Discount Amount in base currency.|[sales/Invoice](Invoice.md)|
-|[totalTax](#totalTax)|Shows the total of the Tax amounts specified on all products included in the invoice, included in the Total Amount due calculation for the invoice.|[sales/Invoice](Invoice.md)|
-|[totalTaxBase](#totalTaxBase)|Value of the Total Tax in base currency.|[sales/Invoice](Invoice.md)|
-|[willCall](#willCall)|Select whether the products included in the invoice should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|[sales/Invoice](Invoice.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the invoice record.|[sales/Invoice](Invoice.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this invoice. This field is for internal use only.|[sales/Invoice](Invoice.md)|
-|[onHoldTime](#onHoldTime)|Shows the duration in minutes for which the invoice was on hold.|[sales/Invoice](Invoice.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date time stamp of the last on hold time.|[sales/Invoice](Invoice.md)|
-|[entityImageId](#entityImageId)||[sales/Invoice](Invoice.md)|
-|[accountId](#accountId)|Unique identifier of the account with which the invoice is associated.|[sales/Invoice](Invoice.md)|
-|[contactId](#contactId)|Unique identifier of the contact associated with the invoice.|[sales/Invoice](Invoice.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[invoiceId](#invoiceId)|Unique identifier of the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[emailAddress](#emailAddress)|The primary email address for the entity.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[name](#name)|Type a descriptive name for the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToCity](#billToCity)|Type the city for the customer's billing address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToComposite](#billToComposite)|Shows the complete Bill To address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToCountry](#billToCountry)|Type the country or region for the customer's billing address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToFax](#billToFax)|Type the fax number for the customer's billing address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToLine1](#billToLine1)|Type the first line of the customer's billing address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToLine2](#billToLine2)|Type the second line of the customer's billing address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToLine3](#billToLine3)|Type the third line of the billing address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToName](#billToName)|Type a name for the customer's billing address, such as "Headquarters" or "Field office", to identify the address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToPostalCode](#billToPostalCode)|Type the ZIP Code or postal code for the billing address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToStateOrProvince](#billToStateOrProvince)|Type the state or province for the billing address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[billToTelephone](#billToTelephone)|Type the phone number for the customer's billing address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[dateDelivered](#dateDelivered)|Enter the date when the products included in the invoice were delivered.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[description](#description)|Type additional information to describe the invoice, such as shipping details or product substitutions.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[discountAmount](#discountAmount)|Type the discount amount for the invoice if the customer is eligible for special savings.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[discountAmountBase](#discountAmountBase)|Value of the Invoice Discount Amount in base currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[discountPercentage](#discountPercentage)|Type the discount rate that should be applied to the Detail Amount field, for use in calculating the Pre-Freight Amount and Total Amount values for the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[dueDate](#dueDate)|Enter the date by which the invoice should be paid by the customer.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[freightAmount](#freightAmount)|Type the cost of freight or shipping for the products included in the invoice for use in calculating the total amount due.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[freightAmountBase](#freightAmountBase)|Value of the Freight Amount in base currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[invoiceNumber](#invoiceNumber)|Shows the identifying number or code of the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[isPriceLocked](#isPriceLocked)|Select whether prices specified on the invoice are locked from any further updates.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[lastBackofficeSubmit](#lastBackofficeSubmit)|Enter the date and time when the invoice was last submitted to an accounting or ERP system for processing.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[opportunityId](#opportunityId)|Choose the opportunity that the invoice is related to for reporting and analytics.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[paymentTermsCode](#paymentTermsCode)|Select the payment terms to indicate when the customer needs to pay the total amount.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[paymentTermsCode_display](#paymentTermsCode_display)||<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[priceLevelId](#priceLevelId)|Choose the price list associated with this record to make sure the products associated with the campaign are offered at the correct prices.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[pricingErrorCode](#pricingErrorCode)|Type of pricing error for the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[pricingErrorCode_display](#pricingErrorCode_display)||<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[priorityCode](#priorityCode)|Select the priority so that preferred customers or critical issues are handled quickly.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[salesOrderId](#salesOrderId)|Choose the order related to the invoice to make sure the order is fulfilled and invoiced correctly.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shippingMethodCode](#shippingMethodCode)|Select a shipping method for deliveries sent to this address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToComposite](#shipToComposite)|Shows the complete Ship To address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[stateCode](#stateCode)|Shows whether the invoice is active, paid, or canceled. Paid and canceled invoices are read-only and can't be edited unless they are reactivated.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[stateCode_display](#stateCode_display)||<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[statusCode](#statusCode)|Select the invoice's status.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[statusCode_display](#statusCode_display)||<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalAmount](#totalAmount)|Shows the total amount due, calculated as the sum of the products, discount, freight, and taxes for the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalAmountBase](#totalAmountBase)|Value of the Total Amount in base currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalAmountLessFreight](#totalAmountLessFreight)|Shows the total product amount due, minus any discounts. This value is added to freight and tax amounts in the calculation for the total amount due for the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalAmountLessFreightBase](#totalAmountLessFreightBase)|Value of the Total Pre-Freight Amount in base currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalDiscountAmount](#totalDiscountAmount)|Shows the total discount amount, based on the discount price and rate entered on the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalDiscountAmountBase](#totalDiscountAmountBase)|Value of the Total Discount Amount in base currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalLineItemAmount](#totalLineItemAmount)|Shows the sum of all existing and write-in products included on the invoice, based on the specified price list and quantities.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalLineItemAmountBase](#totalLineItemAmountBase)|Value of the Total Detail Amount in base currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalLineItemDiscountAmount](#totalLineItemDiscountAmount)|Shows the Manual Discount amounts specified on all products included in the invoice. This value is reflected in the Detail Amount field on the invoice and is added to any discount amount or rate specified on the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalLineItemDiscountAmountBase](#totalLineItemDiscountAmountBase)|Value of the Total Line Item Discount Amount in base currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalTax](#totalTax)|Shows the total of the Tax amounts specified on all products included in the invoice, included in the Total Amount due calculation for the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[totalTaxBase](#totalTaxBase)|Value of the Total Tax in base currency.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[willCall](#willCall)|Select whether the products included in the invoice should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the invoice record.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this invoice. This field is for internal use only.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[onHoldTime](#onHoldTime)|Shows the duration in minutes for which the invoice was on hold.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date time stamp of the last on hold time.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[entityImageId](#entityImageId)||<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[accountId](#accountId)|Unique identifier of the account with which the invoice is associated.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
+|[contactId](#contactId)|Unique identifier of the contact associated with the invoice.|<a href="Invoice.md" target="_blank">sales/Invoice</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

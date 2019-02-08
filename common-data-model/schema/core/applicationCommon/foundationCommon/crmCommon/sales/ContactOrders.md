@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # ContactOrders
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/ContactOrders.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -39,21 +39,22 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/ContactOrders  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[contactOrderId](#contactOrderId)|Unique identifier of the orders for the contact.|[sales/ContactOrders](ContactOrders.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/ContactOrders](ContactOrders.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[sales/ContactOrders](ContactOrders.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/ContactOrders](ContactOrders.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/ContactOrders](ContactOrders.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/ContactOrders](ContactOrders.md)|
-|[name](#name)|name|[sales/ContactOrders](ContactOrders.md)|
-|[contactId](#contactId)||[sales/ContactOrders](ContactOrders.md)|
-|[salesOrderId](#salesOrderId)||[sales/ContactOrders](ContactOrders.md)|
+|[contactOrderId](#contactOrderId)|Unique identifier of the orders for the contact.|<a href="ContactOrders.md" target="_blank">sales/ContactOrders</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ContactOrders.md" target="_blank">sales/ContactOrders</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ContactOrders.md" target="_blank">sales/ContactOrders</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ContactOrders.md" target="_blank">sales/ContactOrders</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ContactOrders.md" target="_blank">sales/ContactOrders</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ContactOrders.md" target="_blank">sales/ContactOrders</a>|
+|[name](#name)|name|<a href="ContactOrders.md" target="_blank">sales/ContactOrders</a>|
+|[contactId](#contactId)||<a href="ContactOrders.md" target="_blank">sales/ContactOrders</a>|
+|[salesOrderId](#salesOrderId)||<a href="ContactOrders.md" target="_blank">sales/ContactOrders</a>|
 
 ### <a href=#contactOrderId name="contactOrderId">contactOrderId</a>
 

@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Bookable Resource Group
 
 Associates resources with resource groups that they are a member of.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceGroup.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,40 +46,41 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/BookableResourceGroup  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[bookableResourceGroupId](#bookableResourceGroupId)|Unique identifier of the resource group.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[name](#name)|Type the name of the resource group.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[childResource](#childResource)|The child resource that is a part of the group.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[fromDate](#fromDate)|Enter the group membership start date.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[parentResource](#parentResource)|The parent resource that is a part of the group.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[stateCode](#stateCode)|Status of the Bookable Resource Group|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[statusCode](#statusCode)|Reason for the status of the Bookable Resource Group|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[toDate](#toDate)|Enter the group membership end date.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcegroup with respect to the base currency.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceGroup with respect to the base currency.|[foundationCommon/BookableResourceGroup](BookableResourceGroup.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[bookableResourceGroupId](#bookableResourceGroupId)|Unique identifier of the resource group.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[name](#name)|Type the name of the resource group.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[childResource](#childResource)|The child resource that is a part of the group.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[fromDate](#fromDate)|Enter the group membership start date.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[parentResource](#parentResource)|The parent resource that is a part of the group.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[stateCode](#stateCode)|Status of the Bookable Resource Group|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[stateCode_display](#stateCode_display)||<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[statusCode](#statusCode)|Reason for the status of the Bookable Resource Group|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[statusCode_display](#statusCode_display)||<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[toDate](#toDate)|Enter the group membership end date.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcegroup with respect to the base currency.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceGroup with respect to the base currency.|<a href="BookableResourceGroup.md" target="_blank">foundationCommon/BookableResourceGroup</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

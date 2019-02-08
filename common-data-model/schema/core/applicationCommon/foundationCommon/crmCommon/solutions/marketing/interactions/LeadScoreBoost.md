@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Lead score boost
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/LeadScoreBoost.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,22 +33,23 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/LeadScoreBoost  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
-|[contactId](#contactId)|Contact|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
-|[accountId](#accountId)|Account|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
-|[activityId](#activityId)|Activity ID|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
-|[boostValue](#boostValue)|Boost value|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/LeadScoreBoost](LeadScoreBoost.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
+|[contactId](#contactId)|Contact|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
+|[accountId](#accountId)|Account|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
+|[activityId](#activityId)|Activity ID|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
+|[boostValue](#boostValue)|Boost value|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="LeadScoreBoost.md" target="_blank">interactions/LeadScoreBoost</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

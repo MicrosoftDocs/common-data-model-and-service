@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Indicator Value
 
 A quantitative or qualitative value of measurement of an Indicator  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/IndicatorValue.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,48 +46,49 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 nonProfit/IndicatorValue  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[ownerId](#ownerId)|Owner Id|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[versionNumber](#versionNumber)|Version Number|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[indicatorValueId](#indicatorValueId)|Unique identifier for entity instances|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[stateCode](#stateCode)|Status of the Indicator Value|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[stateCode_display](#stateCode_display)||[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[statusCode](#statusCode)|Reason for the status of the Indicator Value|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[statusCode_display](#statusCode_display)||[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[name](#name)|The name of the custom entity.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[amount](#amount)|Indicates the actual value reported, expressed as a currency.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[amountBase](#amountBase)|Value of the Amount in base currency.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[baselineValue](#baselineValue)|An IATI string definining the Baseline value for the value being reported.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[description](#description)|Description|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[endDate](#endDate)|End date of the Indicator Value.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[indicatorId](#indicatorId)|Indicator|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[number](#number)|Indicates the actual value reported, expressed as a whole number.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[parentIndicatorValueId](#parentIndicatorValueId)|Parent IndicatorValue|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[percentage](#percentage)|Indicates the actual value reported, expressed as a decimal.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[startDate](#startDate)|Start date of the Indicator Value.|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[valueType](#valueType)|Defines the Value Type of the Indicator Value|[nonProfit/IndicatorValue](IndicatorValue.md)|
-|[valueType_display](#valueType_display)||[nonProfit/IndicatorValue](IndicatorValue.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[indicatorValueId](#indicatorValueId)|Unique identifier for entity instances|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[stateCode](#stateCode)|Status of the Indicator Value|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[stateCode_display](#stateCode_display)||<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[statusCode](#statusCode)|Reason for the status of the Indicator Value|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[statusCode_display](#statusCode_display)||<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[name](#name)|The name of the custom entity.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[amount](#amount)|Indicates the actual value reported, expressed as a currency.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the entity.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[amountBase](#amountBase)|Value of the Amount in base currency.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[baselineValue](#baselineValue)|An IATI string definining the Baseline value for the value being reported.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[description](#description)|Description|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[endDate](#endDate)|End date of the Indicator Value.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[indicatorId](#indicatorId)|Indicator|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[number](#number)|Indicates the actual value reported, expressed as a whole number.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[parentIndicatorValueId](#parentIndicatorValueId)|Parent IndicatorValue|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[percentage](#percentage)|Indicates the actual value reported, expressed as a decimal.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[startDate](#startDate)|Start date of the Indicator Value.|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[valueType](#valueType)|Defines the Value Type of the Indicator Value|<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
+|[valueType_display](#valueType_display)||<a href="IndicatorValue.md" target="_blank">nonProfit/IndicatorValue</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

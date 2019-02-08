@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Knowledge Article Category
 
 Category for a Knowledge Article.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleCategory.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,16 +43,17 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/KnowledgeArticleCategory  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[knowledgeArticleId](#knowledgeArticleId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
-|[categoryId](#categoryId)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
-|[knowledgeArticleCategoryId](#knowledgeArticleCategoryId)|Unique identifier of the Category for the knowledge article.|[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
-|[versionNumber](#versionNumber)||[applicationCommon/KnowledgeArticleCategory](KnowledgeArticleCategory.md)|
+|[knowledgeArticleId](#knowledgeArticleId)||<a href="KnowledgeArticleCategory.md" target="_blank">applicationCommon/KnowledgeArticleCategory</a>|
+|[categoryId](#categoryId)||<a href="KnowledgeArticleCategory.md" target="_blank">applicationCommon/KnowledgeArticleCategory</a>|
+|[knowledgeArticleCategoryId](#knowledgeArticleCategoryId)|Unique identifier of the Category for the knowledge article.|<a href="KnowledgeArticleCategory.md" target="_blank">applicationCommon/KnowledgeArticleCategory</a>|
+|[versionNumber](#versionNumber)||<a href="KnowledgeArticleCategory.md" target="_blank">applicationCommon/KnowledgeArticleCategory</a>|
 
 ### <a href=#knowledgeArticleId name="knowledgeArticleId">knowledgeArticleId</a>
 

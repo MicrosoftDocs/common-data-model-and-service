@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Splitter activity contact processed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SplitterActivityContactProcessed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,23 +33,24 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/SplitterActivityContactProcessed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[contactId](#contactId)|Contact|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[accountId](#accountId)|Account|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[activityId](#activityId)|Activity ID|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
-|[nextActivityId](#nextActivityId)|Next activity ID|[interactions/SplitterActivityContactProcessed](SplitterActivityContactProcessed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[contactId](#contactId)|Contact|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[accountId](#accountId)|Account|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[activityId](#activityId)|Activity ID|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
+|[nextActivityId](#nextActivityId)|Next activity ID|<a href="SplitterActivityContactProcessed.md" target="_blank">interactions/SplitterActivityContactProcessed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

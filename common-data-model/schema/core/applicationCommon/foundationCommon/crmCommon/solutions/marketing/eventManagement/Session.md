@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Session
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Session.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -42,95 +42,96 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 eventManagement/Session  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[eventManagement/Session](Session.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[eventManagement/Session](Session.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[eventManagement/Session](Session.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[eventManagement/Session](Session.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[eventManagement/Session](Session.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[eventManagement/Session](Session.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[eventManagement/Session](Session.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[eventManagement/Session](Session.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[eventManagement/Session](Session.md)|
-|[ownerId](#ownerId)|Owner Id|[eventManagement/Session](Session.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[eventManagement/Session](Session.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[eventManagement/Session](Session.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[eventManagement/Session](Session.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[eventManagement/Session](Session.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[eventManagement/Session](Session.md)|
-|[versionNumber](#versionNumber)|Version Number|[eventManagement/Session](Session.md)|
-|[sessionId](#sessionId)|Unique identifier for entity instances|[eventManagement/Session](Session.md)|
-|[stateCode](#stateCode)|Status of the Session|[eventManagement/Session](Session.md)|
-|[stateCode_display](#stateCode_display)||[eventManagement/Session](Session.md)|
-|[statusCode](#statusCode)|Reason for the status of the Session|[eventManagement/Session](Session.md)|
-|[statusCode_display](#statusCode_display)||[eventManagement/Session](Session.md)|
-|[name](#name)|The name of the custom entity.|[eventManagement/Session](Session.md)|
-|[audienceType](#audienceType)|Audience Type of the Session.|[eventManagement/Session](Session.md)|
-|[audienceType_display](#audienceType_display)||[eventManagement/Session](Session.md)|
-|[AVSupport](#AVSupport)|Audio/Video Support.|[eventManagement/Session](Session.md)|
-|[AVSupport_display](#AVSupport_display)||[eventManagement/Session](Session.md)|
-|[byInvitationOnly](#byInvitationOnly)|Is access by invitation only.|[eventManagement/Session](Session.md)|
-|[byInvitationOnly_display](#byInvitationOnly_display)||[eventManagement/Session](Session.md)|
-|[camerasPermitted](#camerasPermitted)|Are cameras permitted.|[eventManagement/Session](Session.md)|
-|[camerasPermitted_display](#camerasPermitted_display)||[eventManagement/Session](Session.md)|
-|[checkInCount](#checkInCount)|Check-in count|[eventManagement/Session](Session.md)|
-|[detailedDescription](#detailedDescription)|Detailed description of the Session.|[eventManagement/Session](Session.md)|
-|[endTime](#endTime)|End time of the Session.|[eventManagement/Session](Session.md)|
-|[event](#event)|Unique identifier for Event associated with Event Session.|[eventManagement/Session](Session.md)|
-|[eventSpeakerId](#eventSpeakerId)|Unique identifier for Speaker associated with Session.|[eventManagement/Session](Session.md)|
-|[externalUrl](#externalUrl)|External url for the Session.|[eventManagement/Session](Session.md)|
-|[flipChart](#flipChart)|Is available flip-chart for the Session.|[eventManagement/Session](Session.md)|
-|[flipChart_display](#flipChart_display)||[eventManagement/Session](Session.md)|
-|[industry](#industry)|Industry of the Session.|[eventManagement/Session](Session.md)|
-|[industry_display](#industry_display)||[eventManagement/Session](Session.md)|
-|[internetConnection](#internetConnection)|Are internet connections available.|[eventManagement/Session](Session.md)|
-|[internetConnection_display](#internetConnection_display)||[eventManagement/Session](Session.md)|
-|[keywords](#keywords)|Comma-delimited keyword list for this session|[eventManagement/Session](Session.md)|
-|[language](#language)|The language of the webinar|[eventManagement/Session](Session.md)|
-|[language_display](#language_display)||[eventManagement/Session](Session.md)|
-|[NDA](#NDA)|Non Disclosure Agreement|[eventManagement/Session](Session.md)|
-|[NDA_display](#NDA_display)||[eventManagement/Session](Session.md)|
-|[passSessions](#passSessions)|Unique identifier for Product associated with Session.|[eventManagement/Session](Session.md)|
-|[presentationManagerUrl](#presentationManagerUrl)||[eventManagement/Session](Session.md)|
-|[producer](#producer)|Producer of the session|[eventManagement/Session](Session.md)|
-|[publishStatus](#publishStatus)|Publish status of the Session|[eventManagement/Session](Session.md)|
-|[publishStatus_display](#publishStatus_display)||[eventManagement/Session](Session.md)|
-|[recordingsPermitted](#recordingsPermitted)|Are recordings permitted.|[eventManagement/Session](Session.md)|
-|[recordingsPermitted_display](#recordingsPermitted_display)||[eventManagement/Session](Session.md)|
-|[recurrencePattern](#recurrencePattern)||[eventManagement/Session](Session.md)|
-|[registrationCount](#registrationCount)|Registration count of the Session.|[eventManagement/Session](Session.md)|
-|[sessionCode](#sessionCode)|Code of the Session.|[eventManagement/Session](Session.md)|
-|[sessionFormat](#sessionFormat)||[eventManagement/Session](Session.md)|
-|[sessionFormat_display](#sessionFormat_display)||[eventManagement/Session](Session.md)|
-|[sessionMaxCapacity](#sessionMaxCapacity)|Maximum capacity of the Session.|[eventManagement/Session](Session.md)|
-|[sessionObjectives](#sessionObjectives)|Objectives of the Session.|[eventManagement/Session](Session.md)|
-|[sessionPreRequisites](#sessionPreRequisites)|Pre-Requisites of the Session.|[eventManagement/Session](Session.md)|
-|[sessionSummary](#sessionSummary)|Summary of the Session.|[eventManagement/Session](Session.md)|
-|[sessionType](#sessionType)|Type of the Session.|[eventManagement/Session](Session.md)|
-|[sessionType_display](#sessionType_display)||[eventManagement/Session](Session.md)|
-|[startTime](#startTime)|Start time of the Session.|[eventManagement/Session](Session.md)|
-|[venue](#venue)|Active Venue records for this Session.|[eventManagement/Session](Session.md)|
-|[videoConferencing](#videoConferencing)|Is available video conferencing for the Session.|[eventManagement/Session](Session.md)|
-|[videoConferencing_display](#videoConferencing_display)||[eventManagement/Session](Session.md)|
-|[webinarConfigurationId](#webinarConfigurationId)|Webinar Configuration|[eventManagement/Session](Session.md)|
-|[webinarID](#webinarID)|Webinar ID of the Session.|[eventManagement/Session](Session.md)|
-|[webinarNotificationSeen](#webinarNotificationSeen)|Whether the webinar notification has been seen or not.|[eventManagement/Session](Session.md)|
-|[webinarOperation](#webinarOperation)||[eventManagement/Session](Session.md)|
-|[webinarStatus](#webinarStatus)||[eventManagement/Session](Session.md)|
-|[webinarStatusReason](#webinarStatusReason)||[eventManagement/Session](Session.md)|
-|[webinarType](#webinarType)||[eventManagement/Session](Session.md)|
-|[webinarURL](#webinarURL)||[eventManagement/Session](Session.md)|
-|[whiteBoard](#whiteBoard)|Is available white board for the Session.|[eventManagement/Session](Session.md)|
-|[whiteBoard_display](#whiteBoard_display)||[eventManagement/Session](Session.md)|
-|[durationMins](#durationMins)|Duration of the Session in minutes.|[eventManagement/Session](Session.md)|
-|[totalNumberOfQuestionsAsked](#totalNumberOfQuestionsAsked)|Total numbers of questions asked on the Session.|[eventManagement/Session](Session.md)|
-|[totalNumberOfQuestionsAskedDate](#totalNumberOfQuestionsAskedDate)|Last Updated time of rollup field Total number of questions asked.|[eventManagement/Session](Session.md)|
-|[totalNumberOfQuestionsAskedState](#totalNumberOfQuestionsAskedState)|State of rollup field Total number of questions asked.|[eventManagement/Session](Session.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionId](#sessionId)|Unique identifier for entity instances|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[stateCode](#stateCode)|Status of the Session|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[stateCode_display](#stateCode_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[statusCode](#statusCode)|Reason for the status of the Session|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[statusCode_display](#statusCode_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[name](#name)|The name of the custom entity.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[audienceType](#audienceType)|Audience Type of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[audienceType_display](#audienceType_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[AVSupport](#AVSupport)|Audio/Video Support.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[AVSupport_display](#AVSupport_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[byInvitationOnly](#byInvitationOnly)|Is access by invitation only.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[byInvitationOnly_display](#byInvitationOnly_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[camerasPermitted](#camerasPermitted)|Are cameras permitted.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[camerasPermitted_display](#camerasPermitted_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[checkInCount](#checkInCount)|Check-in count|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[detailedDescription](#detailedDescription)|Detailed description of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[endTime](#endTime)|End time of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[event](#event)|Unique identifier for Event associated with Event Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[eventSpeakerId](#eventSpeakerId)|Unique identifier for Speaker associated with Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[externalUrl](#externalUrl)|External url for the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[flipChart](#flipChart)|Is available flip-chart for the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[flipChart_display](#flipChart_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[industry](#industry)|Industry of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[industry_display](#industry_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[internetConnection](#internetConnection)|Are internet connections available.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[internetConnection_display](#internetConnection_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[keywords](#keywords)|Comma-delimited keyword list for this session|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[language](#language)|The language of the webinar|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[language_display](#language_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[NDA](#NDA)|Non Disclosure Agreement|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[NDA_display](#NDA_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[passSessions](#passSessions)|Unique identifier for Product associated with Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[presentationManagerUrl](#presentationManagerUrl)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[producer](#producer)|Producer of the session|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[publishStatus](#publishStatus)|Publish status of the Session|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[publishStatus_display](#publishStatus_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[recordingsPermitted](#recordingsPermitted)|Are recordings permitted.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[recordingsPermitted_display](#recordingsPermitted_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[recurrencePattern](#recurrencePattern)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[registrationCount](#registrationCount)|Registration count of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionCode](#sessionCode)|Code of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionFormat](#sessionFormat)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionFormat_display](#sessionFormat_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionMaxCapacity](#sessionMaxCapacity)|Maximum capacity of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionObjectives](#sessionObjectives)|Objectives of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionPreRequisites](#sessionPreRequisites)|Pre-Requisites of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionSummary](#sessionSummary)|Summary of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionType](#sessionType)|Type of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[sessionType_display](#sessionType_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[startTime](#startTime)|Start time of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[venue](#venue)|Active Venue records for this Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[videoConferencing](#videoConferencing)|Is available video conferencing for the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[videoConferencing_display](#videoConferencing_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[webinarConfigurationId](#webinarConfigurationId)|Webinar Configuration|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[webinarID](#webinarID)|Webinar ID of the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[webinarNotificationSeen](#webinarNotificationSeen)|Whether the webinar notification has been seen or not.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[webinarOperation](#webinarOperation)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[webinarStatus](#webinarStatus)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[webinarStatusReason](#webinarStatusReason)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[webinarType](#webinarType)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[webinarURL](#webinarURL)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[whiteBoard](#whiteBoard)|Is available white board for the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[whiteBoard_display](#whiteBoard_display)||<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[durationMins](#durationMins)|Duration of the Session in minutes.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[totalNumberOfQuestionsAsked](#totalNumberOfQuestionsAsked)|Total numbers of questions asked on the Session.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[totalNumberOfQuestionsAskedDate](#totalNumberOfQuestionsAskedDate)|Last Updated time of rollup field Total number of questions asked.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
+|[totalNumberOfQuestionsAskedState](#totalNumberOfQuestionsAskedState)|State of rollup field Total number of questions asked.|<a href="Session.md" target="_blank">eventManagement/Session</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

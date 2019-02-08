@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Owner
 
 Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Owner.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,17 +43,18 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/Owner  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[versionNumber](#versionNumber)||[applicationCommon/Owner](Owner.md)|
-|[ownerId](#ownerId)|Unique identifier for the Owner: systemuserid or teamid.|[applicationCommon/Owner](Owner.md)|
-|[name](#name)|Name of the Owner.|[applicationCommon/Owner](Owner.md)|
-|[ownerIdType](#ownerIdType)||[applicationCommon/Owner](Owner.md)|
-|[yomiName](#yomiName)|Pronunciation of the name of the owner, written in phonetic hiragana or katakana characters.|[applicationCommon/Owner](Owner.md)|
+|[versionNumber](#versionNumber)||<a href="Owner.md" target="_blank">applicationCommon/Owner</a>|
+|[ownerId](#ownerId)|Unique identifier for the Owner: systemuserid or teamid.|<a href="Owner.md" target="_blank">applicationCommon/Owner</a>|
+|[name](#name)|Name of the Owner.|<a href="Owner.md" target="_blank">applicationCommon/Owner</a>|
+|[ownerIdType](#ownerIdType)||<a href="Owner.md" target="_blank">applicationCommon/Owner</a>|
+|[yomiName](#yomiName)|Pronunciation of the name of the owner, written in phonetic hiragana or katakana characters.|<a href="Owner.md" target="_blank">applicationCommon/Owner</a>|
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 

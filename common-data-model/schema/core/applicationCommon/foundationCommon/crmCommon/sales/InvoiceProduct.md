@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Invoice Product
 
 Line item in an invoice containing detailed billing information for a product.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/InvoiceProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -43,88 +43,89 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 sales/InvoiceProduct  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[ownerId](#ownerId)|Owner Id|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[versionNumber](#versionNumber)|Version Number|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[invoiceDetailId](#invoiceDetailId)|Unique identifier of the invoice product line item.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[actualDeliveryOn](#actualDeliveryOn)|Enter the date when the invoiced product was delivered to the customer.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[baseAmount](#baseAmount)|Shows the total price of the invoice product, based on the price per unit, volume discount, and quantity.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[baseAmountBase](#baseAmountBase)|Value of the Amount in base currency.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[description](#description)|Type additional information to describe the product line item of the invoice.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[extendedAmount](#extendedAmount)|Shows the total amount due for the invoice product, based on the sum of the unit price, quantity, discounts, and tax.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[extendedAmountBase](#extendedAmountBase)|Value of the Extended Amount in base currency.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[invoiceId](#invoiceId)|Unique identifier of the invoice associated with the invoice product line item.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[invoiceIsPriceLocked](#invoiceIsPriceLocked)|Information about whether invoice product pricing is locked.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[invoiceStateCode](#invoiceStateCode)|Status of the invoice product.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[invoiceStateCode_display](#invoiceStateCode_display)||[sales/InvoiceProduct](InvoiceProduct.md)|
-|[isCopied](#isCopied)|Select whether the invoice product is copied from another item or data source.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[isPriceOverridden](#isPriceOverridden)|Select whether the price per unit is fixed at the value in the specified price list or can be overridden by users who have edit rights to the invoice product.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[isProductOverridden](#isProductOverridden)|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the parent invoice.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[lineItemNumber](#lineItemNumber)|Type the line item number for the invoice product to easily identify the product in the invoice and make sure it's listed in the correct order.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[manualDiscountAmount](#manualDiscountAmount)|Type the manual discount amount for the invoice product to deduct any negotiated or other savings from the product total.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[manualDiscountAmountBase](#manualDiscountAmountBase)|Value of the Manual Discount in base currency.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[parentBundleId](#parentBundleId)|Choose the parent bundle associated with this product|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[productAssociationId](#productAssociationId)|Unique identifier of the product line item association with bundle in the invoice|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[productTypeCode](#productTypeCode)|Product Type|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[productTypeCode_display](#productTypeCode_display)||[sales/InvoiceProduct](InvoiceProduct.md)|
-|[pricePerUnit](#pricePerUnit)|Type the price per unit of the invoice product. The default is the value in the price list specified on the parent invoice for existing products.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[pricePerUnitBase](#pricePerUnitBase)|Value of the Price Per Unit in base currency.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[pricingErrorCode](#pricingErrorCode)|Pricing error for the invoice product line item.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[pricingErrorCode_display](#pricingErrorCode_display)||[sales/InvoiceProduct](InvoiceProduct.md)|
-|[productDescription](#productDescription)|Type a name or description to identify the type of write-in product included in the invoice.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[productName](#productName)|Calculated field that will be populated by name and description of the product.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[productId](#productId)|Choose the product to include on the invoice.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[quantity](#quantity)|Type the amount or quantity of the product included in the invoice's total amount due.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[quantityBackordered](#quantityBackordered)|Type the amount or quantity of the product that is back ordered for the invoice.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[quantityCancelled](#quantityCancelled)|Type the amount or quantity of the product that was canceled for the invoice line item.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[quantityShipped](#quantityShipped)|Type the amount or quantity of the product that was shipped.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[salesRepId](#salesRepId)|Choose the user responsible for the sale of the invoice product.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shippingTrackingNumber](#shippingTrackingNumber)|Type a tracking number for shipment of the invoiced product.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[tax](#tax)|Type the tax amount for the invoice product.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[taxBase](#taxBase)|Value of the Tax in base currency.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[volumeDiscountAmount](#volumeDiscountAmount)|Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[volumeDiscountAmountBase](#volumeDiscountAmountBase)|Value of the Volume Discount in base currency.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[willCall](#willCall)|Select whether the invoice product should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[sequenceNumber](#sequenceNumber)|Shows the ID of the data that maintains the sequence.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[propertyConfigurationStatus](#propertyConfigurationStatus)|Status of the property configuration.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[propertyConfigurationStatus_display](#propertyConfigurationStatus_display)||[sales/InvoiceProduct](InvoiceProduct.md)|
-|[invoiceDetailName](#invoiceDetailName)|Invoice Detail Name. Added for 1:n Referential relationship|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[salesOrderDetailId](#salesOrderDetailId)|Unique identifier for Order Line associated with Invoice Line.|[sales/InvoiceProduct](InvoiceProduct.md)|
-|[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|[sales/InvoiceProduct](InvoiceProduct.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[invoiceDetailId](#invoiceDetailId)|Unique identifier of the invoice product line item.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[actualDeliveryOn](#actualDeliveryOn)|Enter the date when the invoiced product was delivered to the customer.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[baseAmount](#baseAmount)|Shows the total price of the invoice product, based on the price per unit, volume discount, and quantity.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[baseAmountBase](#baseAmountBase)|Value of the Amount in base currency.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[description](#description)|Type additional information to describe the product line item of the invoice.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[extendedAmount](#extendedAmount)|Shows the total amount due for the invoice product, based on the sum of the unit price, quantity, discounts, and tax.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[extendedAmountBase](#extendedAmountBase)|Value of the Extended Amount in base currency.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[invoiceId](#invoiceId)|Unique identifier of the invoice associated with the invoice product line item.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[invoiceIsPriceLocked](#invoiceIsPriceLocked)|Information about whether invoice product pricing is locked.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[invoiceStateCode](#invoiceStateCode)|Status of the invoice product.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[invoiceStateCode_display](#invoiceStateCode_display)||<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[isCopied](#isCopied)|Select whether the invoice product is copied from another item or data source.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[isPriceOverridden](#isPriceOverridden)|Select whether the price per unit is fixed at the value in the specified price list or can be overridden by users who have edit rights to the invoice product.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[isProductOverridden](#isProductOverridden)|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the parent invoice.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[lineItemNumber](#lineItemNumber)|Type the line item number for the invoice product to easily identify the product in the invoice and make sure it's listed in the correct order.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[manualDiscountAmount](#manualDiscountAmount)|Type the manual discount amount for the invoice product to deduct any negotiated or other savings from the product total.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[manualDiscountAmountBase](#manualDiscountAmountBase)|Value of the Manual Discount in base currency.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[parentBundleId](#parentBundleId)|Choose the parent bundle associated with this product|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[productAssociationId](#productAssociationId)|Unique identifier of the product line item association with bundle in the invoice|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[productTypeCode](#productTypeCode)|Product Type|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[productTypeCode_display](#productTypeCode_display)||<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[pricePerUnit](#pricePerUnit)|Type the price per unit of the invoice product. The default is the value in the price list specified on the parent invoice for existing products.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[pricePerUnitBase](#pricePerUnitBase)|Value of the Price Per Unit in base currency.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[pricingErrorCode](#pricingErrorCode)|Pricing error for the invoice product line item.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[pricingErrorCode_display](#pricingErrorCode_display)||<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[productDescription](#productDescription)|Type a name or description to identify the type of write-in product included in the invoice.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[productName](#productName)|Calculated field that will be populated by name and description of the product.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[productId](#productId)|Choose the product to include on the invoice.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[quantity](#quantity)|Type the amount or quantity of the product included in the invoice's total amount due.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[quantityBackordered](#quantityBackordered)|Type the amount or quantity of the product that is back ordered for the invoice.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[quantityCancelled](#quantityCancelled)|Type the amount or quantity of the product that was canceled for the invoice line item.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[quantityShipped](#quantityShipped)|Type the amount or quantity of the product that was shipped.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[salesRepId](#salesRepId)|Choose the user responsible for the sale of the invoice product.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shippingTrackingNumber](#shippingTrackingNumber)|Type a tracking number for shipment of the invoiced product.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToCity](#shipToCity)|Type the city for the customer's shipping address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToCountry](#shipToCountry)|Type the country or region for the customer's shipping address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToFax](#shipToFax)|Type the fax number for the customer's shipping address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToFreightTermsCode](#shipToFreightTermsCode)|Select the freight terms to make sure shipping orders are processed correctly.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToFreightTermsCode_display](#shipToFreightTermsCode_display)||<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToLine1](#shipToLine1)|Type the first line of the customer's shipping address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToLine2](#shipToLine2)|Type the second line of the customer's shipping address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToLine3](#shipToLine3)|Type the third line of the shipping address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToName](#shipToName)|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToPostalCode](#shipToPostalCode)|Type the ZIP Code or postal code for the shipping address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToStateOrProvince](#shipToStateOrProvince)|Type the state or province for the shipping address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[shipToTelephone](#shipToTelephone)|Type the phone number for the customer's shipping address.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[tax](#tax)|Type the tax amount for the invoice product.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[taxBase](#taxBase)|Value of the Tax in base currency.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[uoMId](#uoMId)|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[volumeDiscountAmount](#volumeDiscountAmount)|Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[volumeDiscountAmountBase](#volumeDiscountAmountBase)|Value of the Volume Discount in base currency.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[willCall](#willCall)|Select whether the invoice product should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[sequenceNumber](#sequenceNumber)|Shows the ID of the data that maintains the sequence.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[propertyConfigurationStatus](#propertyConfigurationStatus)|Status of the property configuration.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[propertyConfigurationStatus_display](#propertyConfigurationStatus_display)||<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[invoiceDetailName](#invoiceDetailName)|Invoice Detail Name. Added for 1:n Referential relationship|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[salesOrderDetailId](#salesOrderDetailId)|Unique identifier for Order Line associated with Invoice Line.|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
+|[parentBundleIdRef](#parentBundleIdRef)|Choose the parent bundle associated with this product|<a href="InvoiceProduct.md" target="_blank">sales/InvoiceProduct</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

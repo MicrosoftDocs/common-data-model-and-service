@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Price List
 
 Entity that defines pricing levels.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/PriceList.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,41 +46,42 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/PriceList  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[priceLevelId](#priceLevelId)|Unique identifier of the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/PriceList](PriceList.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/PriceList](PriceList.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the pricelevel.|[foundationCommon/PriceList](PriceList.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the pricelevel.|[foundationCommon/PriceList](PriceList.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[foundationCommon/PriceList](PriceList.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/PriceList](PriceList.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/PriceList](PriceList.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/PriceList](PriceList.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/PriceList](PriceList.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/PriceList](PriceList.md)|
-|[name](#name)|Name of the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[beginDate](#beginDate)|Date on which the price list becomes effective.|[foundationCommon/PriceList](PriceList.md)|
-|[description](#description)|Description of the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[endDate](#endDate)|Date that is the last day the price list is valid.|[foundationCommon/PriceList](PriceList.md)|
-|[freightTermsCode](#freightTermsCode)|Freight terms for the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[freightTermsCode_display](#freightTermsCode_display)||[foundationCommon/PriceList](PriceList.md)|
-|[paymentMethodCode](#paymentMethodCode)|Payment terms to use with the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[paymentMethodCode_display](#paymentMethodCode_display)||[foundationCommon/PriceList](PriceList.md)|
-|[shippingMethodCode](#shippingMethodCode)|Method of shipment for products in the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[shippingMethodCode_display](#shippingMethodCode_display)||[foundationCommon/PriceList](PriceList.md)|
-|[stateCode](#stateCode)|Status of the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/PriceList](PriceList.md)|
-|[statusCode](#statusCode)|Reason for the status of the price list.|[foundationCommon/PriceList](PriceList.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/PriceList](PriceList.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[foundationCommon/PriceList](PriceList.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the price level.|[foundationCommon/PriceList](PriceList.md)|
+|[priceLevelId](#priceLevelId)|Unique identifier of the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the pricelevel.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the pricelevel.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[name](#name)|Name of the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[beginDate](#beginDate)|Date on which the price list becomes effective.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[description](#description)|Description of the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[endDate](#endDate)|Date that is the last day the price list is valid.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[freightTermsCode](#freightTermsCode)|Freight terms for the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[freightTermsCode_display](#freightTermsCode_display)||<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[paymentMethodCode](#paymentMethodCode)|Payment terms to use with the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[paymentMethodCode_display](#paymentMethodCode_display)||<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[shippingMethodCode](#shippingMethodCode)|Method of shipment for products in the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[shippingMethodCode_display](#shippingMethodCode_display)||<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[stateCode](#stateCode)|Status of the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[stateCode_display](#stateCode_display)||<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[statusCode](#statusCode)|Reason for the status of the price list.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[statusCode_display](#statusCode_display)||<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the price level.|<a href="PriceList.md" target="_blank">foundationCommon/PriceList</a>|
 
 ### <a href=#priceLevelId name="priceLevelId">priceLevelId</a>
 

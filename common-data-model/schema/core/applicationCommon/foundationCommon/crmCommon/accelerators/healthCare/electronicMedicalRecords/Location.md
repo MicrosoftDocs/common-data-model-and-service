@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Location
 
 Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained or accommodated.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,63 +46,64 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/Location  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[locationId](#locationId)|Unique identifier for entity instances|[electronicMedicalRecords/Location](Location.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/Location](Location.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|[electronicMedicalRecords/Location](Location.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/Location](Location.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|[electronicMedicalRecords/Location](Location.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|[electronicMedicalRecords/Location](Location.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|[electronicMedicalRecords/Location](Location.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[electronicMedicalRecords/Location](Location.md)|
-|[stateCode](#stateCode)|Status of the Location|[electronicMedicalRecords/Location](Location.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/Location](Location.md)|
-|[statusCode](#statusCode)|Reason for the status of the Location|[electronicMedicalRecords/Location](Location.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/Location](Location.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/Location](Location.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[electronicMedicalRecords/Location](Location.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/Location](Location.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/Location](Location.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/Location](Location.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/Location](Location.md)|
-|[addressCity](#addressCity)|The name of the city, town, village or other community or delivery center.|[electronicMedicalRecords/Location](Location.md)|
-|[addressCountry](#addressCountry)|Country - a nation as commonly understood or generally accepted.|[electronicMedicalRecords/Location](Location.md)|
-|[addressDistinct](#addressDistinct)|The name of the administrative area (county).|[electronicMedicalRecords/Location](Location.md)|
-|[addressLine1](#addressLine1)|This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information|[electronicMedicalRecords/Location](Location.md)|
-|[addressLine2](#addressLine2)|This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information|[electronicMedicalRecords/Location](Location.md)|
-|[addressLine3](#addressLine3)|This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information|[electronicMedicalRecords/Location](Location.md)|
-|[addressPeriodEnd](#addressPeriodEnd)|Time period when address was/is in use.|[electronicMedicalRecords/Location](Location.md)|
-|[addressPeriodStart](#addressPeriodStart)|Time period when address was/is in use.|[electronicMedicalRecords/Location](Location.md)|
-|[addressPostalCode](#addressPostalCode)|A postal code designating a region defined by the postal service.|[electronicMedicalRecords/Location](Location.md)|
-|[addressState](#addressState)|Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (i.e. US 2 letter state codes).|[electronicMedicalRecords/Location](Location.md)|
-|[addressText](#addressText)|A full text representation of the address.|[electronicMedicalRecords/Location](Location.md)|
-|[addressType](#addressType)|Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.|[electronicMedicalRecords/Location](Location.md)|
-|[addressType_display](#addressType_display)||[electronicMedicalRecords/Location](Location.md)|
-|[addressUse](#addressUse)|The purpose of this address.|[electronicMedicalRecords/Location](Location.md)|
-|[addressUse_display](#addressUse_display)||[electronicMedicalRecords/Location](Location.md)|
-|[description](#description)|Description of the Location, which helps in finding or referencing the place.|[electronicMedicalRecords/Location](Location.md)|
-|[locationAlias1](#locationAlias1)|A list of alternate names that the location is known as, or was known as in the past.|[electronicMedicalRecords/Location](Location.md)|
-|[locationAlias2](#locationAlias2)|A list of alternate names that the location is known as, or was known as in the past.|[electronicMedicalRecords/Location](Location.md)|
-|[locationAlias3](#locationAlias3)|A list of alternate names that the location is known as, or was known as in the past.|[electronicMedicalRecords/Location](Location.md)|
-|[locationNumber](#locationNumber)|Unique code or number identifying the location to its users.|[electronicMedicalRecords/Location](Location.md)|
-|[locationPositionAltitude](#locationPositionAltitude)|Altitude. The value domain and the interpretation are the same as for the text of the altitude element in KML (see notes below)|[electronicMedicalRecords/Location](Location.md)|
-|[locationPositionLatitude](#locationPositionLatitude)|Latitude. The value domain and the interpretation are the same as for the text of the latitude element in KML|[electronicMedicalRecords/Location](Location.md)|
-|[locationPositionLongitude](#locationPositionLongitude)|Longitude. The value domain and the interpretation are the same as for the text of the longitude element in KML|[electronicMedicalRecords/Location](Location.md)|
-|[managingOrganization](#managingOrganization)|The organization responsible for the provisioning and upkeep of the location.|[electronicMedicalRecords/Location](Location.md)|
-|[mode](#mode)|Indicates whether a resource instance represents a specific location or a class of locations.|[electronicMedicalRecords/Location](Location.md)|
-|[mode_display](#mode_display)||[electronicMedicalRecords/Location](Location.md)|
-|[operationalStatus](#operationalStatus)|The Operational status covers operation values most relevant to beds (but can also apply to rooms/units/chair/etc such as an isolation unit/dialysis chair).|[electronicMedicalRecords/Location](Location.md)|
-|[operationalStatus_display](#operationalStatus_display)||[electronicMedicalRecords/Location](Location.md)|
-|[partOf](#partOf)|Another Location which this Location is physically part of.|[electronicMedicalRecords/Location](Location.md)|
-|[physicalType](#physicalType)|Physical form of the location, e.g. building, room, vehicle, road.|[electronicMedicalRecords/Location](Location.md)|
-|[status](#status)|The status property covers the general availability of the resource, not the current value which may be covered by the operationStatus, or by a schedule/slots if they are configured for the location.|[electronicMedicalRecords/Location](Location.md)|
-|[status_display](#status_display)||[electronicMedicalRecords/Location](Location.md)|
-|[type](#type)|Indicates the type of function performed at the location.|[electronicMedicalRecords/Location](Location.md)|
+|[locationId](#locationId)|Unique identifier for entity instances|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[stateCode](#stateCode)|Status of the Location|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[stateCode_display](#stateCode_display)||<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[statusCode](#statusCode)|Reason for the status of the Location|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[statusCode_display](#statusCode_display)||<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[name](#name)|The name of the custom entity.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressCity](#addressCity)|The name of the city, town, village or other community or delivery center.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressCountry](#addressCountry)|Country - a nation as commonly understood or generally accepted.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressDistinct](#addressDistinct)|The name of the administrative area (county).|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressLine1](#addressLine1)|This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressLine2](#addressLine2)|This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressLine3](#addressLine3)|This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressPeriodEnd](#addressPeriodEnd)|Time period when address was/is in use.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressPeriodStart](#addressPeriodStart)|Time period when address was/is in use.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressPostalCode](#addressPostalCode)|A postal code designating a region defined by the postal service.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressState](#addressState)|Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (i.e. US 2 letter state codes).|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressText](#addressText)|A full text representation of the address.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressType](#addressType)|Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressType_display](#addressType_display)||<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressUse](#addressUse)|The purpose of this address.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[addressUse_display](#addressUse_display)||<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[description](#description)|Description of the Location, which helps in finding or referencing the place.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[locationAlias1](#locationAlias1)|A list of alternate names that the location is known as, or was known as in the past.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[locationAlias2](#locationAlias2)|A list of alternate names that the location is known as, or was known as in the past.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[locationAlias3](#locationAlias3)|A list of alternate names that the location is known as, or was known as in the past.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[locationNumber](#locationNumber)|Unique code or number identifying the location to its users.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[locationPositionAltitude](#locationPositionAltitude)|Altitude. The value domain and the interpretation are the same as for the text of the altitude element in KML (see notes below)|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[locationPositionLatitude](#locationPositionLatitude)|Latitude. The value domain and the interpretation are the same as for the text of the latitude element in KML|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[locationPositionLongitude](#locationPositionLongitude)|Longitude. The value domain and the interpretation are the same as for the text of the longitude element in KML|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[managingOrganization](#managingOrganization)|The organization responsible for the provisioning and upkeep of the location.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[mode](#mode)|Indicates whether a resource instance represents a specific location or a class of locations.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[mode_display](#mode_display)||<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[operationalStatus](#operationalStatus)|The Operational status covers operation values most relevant to beds (but can also apply to rooms/units/chair/etc such as an isolation unit/dialysis chair).|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[operationalStatus_display](#operationalStatus_display)||<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[partOf](#partOf)|Another Location which this Location is physically part of.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[physicalType](#physicalType)|Physical form of the location, e.g. building, room, vehicle, road.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[status](#status)|The status property covers the general availability of the resource, not the current value which may be covered by the operationStatus, or by a schedule/slots if they are configured for the location.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[status_display](#status_display)||<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
+|[type](#type)|Indicates the type of function performed at the location.|<a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>|
 
 ### <a href=#locationId name="locationId">locationId</a>
 

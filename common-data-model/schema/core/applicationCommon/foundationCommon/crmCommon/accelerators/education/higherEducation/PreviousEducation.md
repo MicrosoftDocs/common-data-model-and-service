@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Previous Education
 
 The previous education history for a student.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/PreviousEducation.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,46 +46,47 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 higherEducation/PreviousEducation  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[ownerId](#ownerId)|Owner Id|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[versionNumber](#versionNumber)|Version Number|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[previousEducationId](#previousEducationId)|Unique identifier for entity instances|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[stateCode](#stateCode)|Status of the Previous Education|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[stateCode_display](#stateCode_display)||[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[statusCode](#statusCode)|Reason for the status of the Previous Education|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[statusCode_display](#statusCode_display)||[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[name](#name)|Previous Education Name|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[classSize](#classSize)|Class Size|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[dateofEnrollment](#dateofEnrollment)|Date of Enrollment|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[degreeId](#degreeId)|Lookup to Program Level|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[educationLevelId](#educationLevelId)|The education level for the student.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[GPA](#GPA)|GPA|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[graduated](#graduated)|Did the contact graduate?|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[graduationDate](#graduationDate)|The graduation date for the student.|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[lastDateofAttendance](#lastDateofAttendance)|Last Date of Attendance|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[major](#major)|Major|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[rank](#rank)|Rank within the graduating class|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[schoolNameId](#schoolNameId)|The school previously attended|[higherEducation/PreviousEducation](PreviousEducation.md)|
-|[studentId](#studentId)||[higherEducation/PreviousEducation](PreviousEducation.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[previousEducationId](#previousEducationId)|Unique identifier for entity instances|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[stateCode](#stateCode)|Status of the Previous Education|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[stateCode_display](#stateCode_display)||<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[statusCode](#statusCode)|Reason for the status of the Previous Education|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[statusCode_display](#statusCode_display)||<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[name](#name)|Previous Education Name|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[classSize](#classSize)|Class Size|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[dateofEnrollment](#dateofEnrollment)|Date of Enrollment|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[degreeId](#degreeId)|Lookup to Program Level|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[educationLevelId](#educationLevelId)|The education level for the student.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[GPA](#GPA)|GPA|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[graduated](#graduated)|Did the contact graduate?|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[graduationDate](#graduationDate)|The graduation date for the student.|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[lastDateofAttendance](#lastDateofAttendance)|Last Date of Attendance|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[major](#major)|Major|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[rank](#rank)|Rank within the graduating class|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[schoolNameId](#schoolNameId)|The school previously attended|<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
+|[studentId](#studentId)||<a href="PreviousEducation.md" target="_blank">higherEducation/PreviousEducation</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

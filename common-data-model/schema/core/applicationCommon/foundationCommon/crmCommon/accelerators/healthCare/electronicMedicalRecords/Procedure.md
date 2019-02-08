@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Procedure
 
 An action that is or was performed on a patient. This can be a physical intervention like an operation, or less invasive like counseling or hypnotherapy.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,52 +46,53 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/Procedure  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[procedureId](#procedureId)|Unique identifier for entity instances|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[stateCode](#stateCode)|Status of the Procedure|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/Procedure](Procedure.md)|
-|[statusCode](#statusCode)|Reason for the status of the Procedure|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/Procedure](Procedure.md)|
-|[description](#description)|The name of the custom entity.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[category](#category)|A code that classifies the procedure for searching, sorting and display purposes (e.g. "Surgical Procedure").|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[code](#code)|The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. "Laparoscopic Appendectomy").|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[dateTime](#dateTime)|The date(time)/period over which the procedure was performed.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[encounter](#encounter)|The encounter during which the procedure was performed.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[episodeOfCare](#episodeOfCare)|The encounter during which the procedure was performed.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[group](#group)|The person, animal or group on which the procedure was performed.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[location](#location)|The location where the procedure actually happened. E.g. a newborn at home, a tracheotomy at a restaurant.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[notDone](#notDone)|Set this to true if the record is saying that the procedure was NOT performed.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[notDoneReason](#notDoneReason)|A code indicating why the procedure was not performed.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[outcome](#outcome)|The outcome of the procedure - did it resolve reasons for the procedure being performed?|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[patient](#patient)|The person, animal or group on which the procedure was performed.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[performedEndDate](#performedEndDate)|The period End date over which the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[performedStartDate](#performedStartDate)|The period start date over which the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[procedureIdentifier](#procedureIdentifier)|This records identifiers associated with this procedure that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[status](#status)|A code specifying the state of the procedure. Generally this will be in-progress or completed state.|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[status_display](#status_display)||[electronicMedicalRecords/Procedure](Procedure.md)|
-|[subjectType](#subjectType)|Type of Subject on whom procedure is performed|[electronicMedicalRecords/Procedure](Procedure.md)|
-|[subjectType_display](#subjectType_display)||[electronicMedicalRecords/Procedure](Procedure.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[procedureId](#procedureId)|Unique identifier for entity instances|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[stateCode](#stateCode)|Status of the Procedure|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[stateCode_display](#stateCode_display)||<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[statusCode](#statusCode)|Reason for the status of the Procedure|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[statusCode_display](#statusCode_display)||<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[description](#description)|The name of the custom entity.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[category](#category)|A code that classifies the procedure for searching, sorting and display purposes (e.g. "Surgical Procedure").|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[code](#code)|The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. "Laparoscopic Appendectomy").|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[dateTime](#dateTime)|The date(time)/period over which the procedure was performed.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[encounter](#encounter)|The encounter during which the procedure was performed.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[episodeOfCare](#episodeOfCare)|The encounter during which the procedure was performed.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[group](#group)|The person, animal or group on which the procedure was performed.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[location](#location)|The location where the procedure actually happened. E.g. a newborn at home, a tracheotomy at a restaurant.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[notDone](#notDone)|Set this to true if the record is saying that the procedure was NOT performed.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[notDoneReason](#notDoneReason)|A code indicating why the procedure was not performed.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[outcome](#outcome)|The outcome of the procedure - did it resolve reasons for the procedure being performed?|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[patient](#patient)|The person, animal or group on which the procedure was performed.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[performedEndDate](#performedEndDate)|The period End date over which the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[performedStartDate](#performedStartDate)|The period start date over which the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[procedureIdentifier](#procedureIdentifier)|This records identifiers associated with this procedure that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[status](#status)|A code specifying the state of the procedure. Generally this will be in-progress or completed state.|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[status_display](#status_display)||<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[subjectType](#subjectType)|Type of Subject on whom procedure is performed|<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
+|[subjectType_display](#subjectType_display)||<a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

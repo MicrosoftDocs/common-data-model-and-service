@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Risk Assessment
 
 An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,66 +46,67 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/RiskAssessment  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[riskAssessmentId](#riskAssessmentId)|Unique identifier for entity instances|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[stateCode](#stateCode)|Status of the Risk Assessment|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[statusCode](#statusCode)|Reason for the status of the Risk Assessment|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[basedOn](#basedOn)|A reference to the request that is fulfilled by this risk assessment.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[basis](#basis)|Indicates the source data considered as part of the assessment (Family History, Observations, Procedures, Conditions, etc.).|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[code](#code)|The type of the risk assessment performed.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[comment](#comment)|Additional comments about the risk assessment.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[condition](#condition)|For assessments or prognosis specific to a particular condition, indicates the condition being assessed.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[contextEncounter](#contextEncounter)|The encounter where the assessment was performed.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[episodeOfCare](#episodeOfCare)|The Episode of care type of the encounter where the assessment was performed.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[contextType](#contextType)|Type of context under which assessment is performed|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[contextType_display](#contextType_display)||[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[method](#method)|The algorithm, process or mechanism used to evaluate the risk.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[mitigation](#mitigation)|A description of the steps that might be taken to reduce the identified risk(s).|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[occurrencedatetime](#occurrencedatetime)|The date (and possibly time) the risk assessment was performed.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[occurrenceEndDateTime](#occurrenceEndDateTime)|The date (and possibly time) the risk assessment was performed.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[occurrenceStartDateTime](#occurrenceStartDateTime)|The start date of the risk assessment was performed.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[occurrenceType](#occurrenceType)|Type of time when assessment occurred|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[occurrenceType_display](#occurrenceType_display)||[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[parent](#parent)|A reference to a resource that this risk assessment is part of, such as a Procedure.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[performerDevice](#performerDevice)|The software application that performed the assessment.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[performerPractitioner](#performerPractitioner)|The provider that performed the assessment.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[performerType](#performerType)|Type of performer|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[performerType_display](#performerType_display)||[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[reasonConcept](#reasonConcept)|The reason the risk assessment was performed.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[reasonReference](#reasonReference)|The reason the risk assessment was performed.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[reasonType](#reasonType)|Type of reason why assessment is performed|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[reasonType_display](#reasonType_display)||[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[riskAssessmentNumber](#riskAssessmentNumber)|Business identifier assigned to the risk assessment.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[status](#status)|The status of the Risk Assessment, using the same statuses as an Observation.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[status_display](#status_display)||[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[subjectGroup](#subjectGroup)|The group the risk assessment applies to.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[subjectPatient](#subjectPatient)|The patient the risk assessment applies to.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[subjectType](#subjectType)|The patient or group the risk assessment applies to.|[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
-|[subjectType_display](#subjectType_display)||[electronicMedicalRecords/RiskAssessment](RiskAssessment.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[riskAssessmentId](#riskAssessmentId)|Unique identifier for entity instances|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[stateCode](#stateCode)|Status of the Risk Assessment|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[stateCode_display](#stateCode_display)||<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[statusCode](#statusCode)|Reason for the status of the Risk Assessment|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[statusCode_display](#statusCode_display)||<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[name](#name)|The name of the custom entity.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[basedOn](#basedOn)|A reference to the request that is fulfilled by this risk assessment.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[basis](#basis)|Indicates the source data considered as part of the assessment (Family History, Observations, Procedures, Conditions, etc.).|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[code](#code)|The type of the risk assessment performed.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[comment](#comment)|Additional comments about the risk assessment.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[condition](#condition)|For assessments or prognosis specific to a particular condition, indicates the condition being assessed.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[contextEncounter](#contextEncounter)|The encounter where the assessment was performed.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[episodeOfCare](#episodeOfCare)|The Episode of care type of the encounter where the assessment was performed.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[contextType](#contextType)|Type of context under which assessment is performed|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[contextType_display](#contextType_display)||<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[method](#method)|The algorithm, process or mechanism used to evaluate the risk.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[mitigation](#mitigation)|A description of the steps that might be taken to reduce the identified risk(s).|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[occurrencedatetime](#occurrencedatetime)|The date (and possibly time) the risk assessment was performed.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[occurrenceEndDateTime](#occurrenceEndDateTime)|The date (and possibly time) the risk assessment was performed.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[occurrenceStartDateTime](#occurrenceStartDateTime)|The start date of the risk assessment was performed.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[occurrenceType](#occurrenceType)|Type of time when assessment occurred|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[occurrenceType_display](#occurrenceType_display)||<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[parent](#parent)|A reference to a resource that this risk assessment is part of, such as a Procedure.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[performerDevice](#performerDevice)|The software application that performed the assessment.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[performerPractitioner](#performerPractitioner)|The provider that performed the assessment.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[performerType](#performerType)|Type of performer|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[performerType_display](#performerType_display)||<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[reasonConcept](#reasonConcept)|The reason the risk assessment was performed.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[reasonReference](#reasonReference)|The reason the risk assessment was performed.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[reasonType](#reasonType)|Type of reason why assessment is performed|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[reasonType_display](#reasonType_display)||<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[riskAssessmentNumber](#riskAssessmentNumber)|Business identifier assigned to the risk assessment.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[status](#status)|The status of the Risk Assessment, using the same statuses as an Observation.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[status_display](#status_display)||<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[subjectGroup](#subjectGroup)|The group the risk assessment applies to.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[subjectPatient](#subjectPatient)|The patient the risk assessment applies to.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[subjectType](#subjectType)|The patient or group the risk assessment applies to.|<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
+|[subjectType_display](#subjectType_display)||<a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

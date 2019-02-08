@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Service Activity
 
 Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ServiceActivity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,91 +46,92 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 service/ServiceActivity  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[service/ServiceActivity](ServiceActivity.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[service/ServiceActivity](ServiceActivity.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[service/ServiceActivity](ServiceActivity.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[service/ServiceActivity](ServiceActivity.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[service/ServiceActivity](ServiceActivity.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[service/ServiceActivity](ServiceActivity.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[service/ServiceActivity](ServiceActivity.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[service/ServiceActivity](ServiceActivity.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[service/ServiceActivity](ServiceActivity.md)|
-|[ownerId](#ownerId)|Owner Id|[service/ServiceActivity](ServiceActivity.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[service/ServiceActivity](ServiceActivity.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[service/ServiceActivity](ServiceActivity.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[service/ServiceActivity](ServiceActivity.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[service/ServiceActivity](ServiceActivity.md)|
-|[versionNumber](#versionNumber)|Version Number|[service/ServiceActivity](ServiceActivity.md)|
-|[activityTypeCode](#activityTypeCode)|Type of activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[activityId](#activityId)|Unique identifier of the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|[service/ServiceActivity](ServiceActivity.md)|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|[service/ServiceActivity](ServiceActivity.md)|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|[service/ServiceActivity](ServiceActivity.md)|
-|[priorityCode](#priorityCode)|Priority of the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[priorityCode_display](#priorityCode_display)||[service/ServiceActivity](ServiceActivity.md)|
-|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|[service/ServiceActivity](ServiceActivity.md)|
-|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|[service/ServiceActivity](ServiceActivity.md)|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|[service/ServiceActivity](ServiceActivity.md)|
-|[subject](#subject)|Subject associated with the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|[service/ServiceActivity](ServiceActivity.md)|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|[service/ServiceActivity](ServiceActivity.md)|
-|[actualEnd](#actualEnd)|Actual end time of the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[actualStart](#actualStart)|Actual start time of the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|[service/ServiceActivity](ServiceActivity.md)|
-|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|[service/ServiceActivity](ServiceActivity.md)|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|[service/ServiceActivity](ServiceActivity.md)|
-|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|[service/ServiceActivity](ServiceActivity.md)|
-|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|[service/ServiceActivity](ServiceActivity.md)|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|[service/ServiceActivity](ServiceActivity.md)|
-|[instanceTypeCode_display](#instanceTypeCode_display)||[service/ServiceActivity](ServiceActivity.md)|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only.|[service/ServiceActivity](ServiceActivity.md)|
-|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|[service/ServiceActivity](ServiceActivity.md)|
-|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|[service/ServiceActivity](ServiceActivity.md)|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|[service/ServiceActivity](ServiceActivity.md)|
-|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|[service/ServiceActivity](ServiceActivity.md)|
-|[CC](#CC)|Enter the recipients that should be copied on the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[sentOn](#sentOn)|Date and time when the activity was sent.|[service/ServiceActivity](ServiceActivity.md)|
-|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|[service/ServiceActivity](ServiceActivity.md)|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|[service/ServiceActivity](ServiceActivity.md)|
-|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||[service/ServiceActivity](ServiceActivity.md)|
-|[resources](#resources)|Users or facility/equipment that are required for the activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|[service/ServiceActivity](ServiceActivity.md)|
-|[community_display](#community_display)||[service/ServiceActivity](ServiceActivity.md)|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|[service/ServiceActivity](ServiceActivity.md)|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|[service/ServiceActivity](ServiceActivity.md)|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|[service/ServiceActivity](ServiceActivity.md)|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|[service/ServiceActivity](ServiceActivity.md)|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|[service/ServiceActivity](ServiceActivity.md)|
-|[customers](#customers)|Customer with which the activity is associated.|[service/ServiceActivity](ServiceActivity.md)|
-|[partners](#partners)|Outsource vendor with which activity is associated.|[service/ServiceActivity](ServiceActivity.md)|
-|[description](#description)|Type additional information to describe the service activity, such as key talking points or objectives.|[service/ServiceActivity](ServiceActivity.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[service/ServiceActivity](ServiceActivity.md)|
-|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|[service/ServiceActivity](ServiceActivity.md)|
-|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|[service/ServiceActivity](ServiceActivity.md)|
-|[processId](#processId)|Unique identifier of the Process.|[service/ServiceActivity](ServiceActivity.md)|
-|[serviceId](#serviceId)|Choose the service scheduled to be performed during the service activity.|[service/ServiceActivity](ServiceActivity.md)|
-|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the service appointment record.|[service/ServiceActivity](ServiceActivity.md)|
-|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this email. This field is for internal use only.|[service/ServiceActivity](ServiceActivity.md)|
-|[stageId](#stageId)|Unique identifier of the Stage.|[service/ServiceActivity](ServiceActivity.md)|
-|[stateCode](#stateCode)|Shows whether the service activity is open, completed, or canceled. Completed and canceled service activities are read-only and can't be edited.|[service/ServiceActivity](ServiceActivity.md)|
-|[stateCode_display](#stateCode_display)||[service/ServiceActivity](ServiceActivity.md)|
-|[statusCode](#statusCode)|Select the service activity's status.|[service/ServiceActivity](ServiceActivity.md)|
-|[statusCode_display](#statusCode_display)||[service/ServiceActivity](ServiceActivity.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[service/ServiceActivity](ServiceActivity.md)|
-|[traversedPath](#traversedPath)|For internal use only.|[service/ServiceActivity](ServiceActivity.md)|
-|[isAllDayEvent](#isAllDayEvent)|Select whether the service activity is an all-day event to make sure the required resources are scheduled for the full day.|[service/ServiceActivity](ServiceActivity.md)|
-|[location](#location)|Type the location where the service activity will take place, such as a conference room, customer office, or other venue.|[service/ServiceActivity](ServiceActivity.md)|
-|[siteId](#siteId)|Choose the site or location where the service activity will be performed.|[service/ServiceActivity](ServiceActivity.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[activityId](#activityId)|Unique identifier of the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[isBilled](#isBilled)|Information regarding whether the fax activity was billed as part of resolving a case.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[priorityCode](#priorityCode)|Priority of the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[priorityCode_display](#priorityCode_display)||<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[regardingObjectTypeCode](#regardingObjectTypeCode)|The name of the entity linked by regardingObjectId|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[regardingObjectId](#regardingObjectId)|Unique identifier of the object with which the activity is associated.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[subject](#subject)|Subject associated with the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[actualStart](#actualStart)|Actual start time of the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[category](#category)|Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[subcategory](#subcategory)|Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON. For internal use only.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[to](#to)|Enter the account, contact, lead, or user recipients of the phone call.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[from](#from)|Enter the account, contact, lead, or user who made the phone call.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[instanceTypeCode_display](#instanceTypeCode_display)||<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[organizer](#organizer)|The user who is in charge of coordinating or leading the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[requiredAttendees](#requiredAttendees)|Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[optionalAttendees](#optionalAttendees)|Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[BCC](#BCC)|Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[CC](#CC)|Enter the recipients that should be copied on the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[senderMailboxId](#senderMailboxId)|Unique identifier of the mailbox associated with the sender of the email message.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[deliveryPriorityCode_display](#deliveryPriorityCode_display)||<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[resources](#resources)|Users or facility/equipment that are required for the activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[community](#community)|Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[community_display](#community_display)||<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[customers](#customers)|Customer with which the activity is associated.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[partners](#partners)|Outsource vendor with which activity is associated.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[description](#description)|Type additional information to describe the service activity, such as key talking points or objectives.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[lastOnHoldTime](#lastOnHoldTime)|Contains the date and time stamp of the last on hold time.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[onHoldTime](#onHoldTime)|Shows how long, in minutes, that the record was on hold.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[processId](#processId)|Unique identifier of the Process.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[serviceId](#serviceId)|Choose the service scheduled to be performed during the service activity.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[SLAId](#SLAId)|Choose the service level agreement (SLA) that you want to apply to the service appointment record.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[SLAInvokedId](#SLAInvokedId)|Last SLA that was applied to this email. This field is for internal use only.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[stageId](#stageId)|Unique identifier of the Stage.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[stateCode](#stateCode)|Shows whether the service activity is open, completed, or canceled. Completed and canceled service activities are read-only and can't be edited.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[stateCode_display](#stateCode_display)||<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[statusCode](#statusCode)|Select the service activity's status.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[statusCode_display](#statusCode_display)||<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[traversedPath](#traversedPath)|For internal use only.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[isAllDayEvent](#isAllDayEvent)|Select whether the service activity is an all-day event to make sure the required resources are scheduled for the full day.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[location](#location)|Type the location where the service activity will take place, such as a conference room, customer office, or other venue.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
+|[siteId](#siteId)|Choose the site or location where the service activity will be performed.|<a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

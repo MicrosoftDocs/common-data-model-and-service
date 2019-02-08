@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Segment relationship edited
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/SegmentRelationshipEdited.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,36 +33,37 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/SegmentRelationshipEdited  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[contactId](#contactId)|Contact|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[accountId](#accountId)|Account|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[sessionId](#sessionId)|Session ID|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[visitorId](#visitorId)|Visitor ID|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[sendingId](#sendingId)|Sending ID|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[countryIsoCode](#countryIsoCode)|Country ISO code|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[state](#state)|State|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[city](#city)|City|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[postalCode](#postalCode)|Postal code|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[browserId](#browserId)|Browser ID|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[browserVersion](#browserVersion)|Browser version|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[operatingSystemId](#operatingSystemId)|Operating system ID|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[segmentId](#segmentId)|Segment ID|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[relationshipOperatorAction](#relationshipOperatorAction)|Relationship operator action|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[result](#result)|Result|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[searchPhrase](#searchPhrase)|Search phrase|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[searchEngineName](#searchEngineName)|Search engine name|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[visitDuration](#visitDuration)|Visit duration|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
-|[leadId](#leadId)|Lead ID|[interactions/SegmentRelationshipEdited](SegmentRelationshipEdited.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[contactId](#contactId)|Contact|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[accountId](#accountId)|Account|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[sessionId](#sessionId)|Session ID|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[visitorId](#visitorId)|Visitor ID|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[sendingId](#sendingId)|Sending ID|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[countryIsoCode](#countryIsoCode)|Country ISO code|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[state](#state)|State|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[city](#city)|City|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[postalCode](#postalCode)|Postal code|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[browserId](#browserId)|Browser ID|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[browserVersion](#browserVersion)|Browser version|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[operatingSystemId](#operatingSystemId)|Operating system ID|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[operatingSystemVersion](#operatingSystemVersion)|Operating system version|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[segmentId](#segmentId)|Segment ID|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[relationshipOperatorAction](#relationshipOperatorAction)|Relationship operator action|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[result](#result)|Result|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[searchPhrase](#searchPhrase)|Search phrase|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[searchEngineName](#searchEngineName)|Search engine name|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[visitDuration](#visitDuration)|Visit duration|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[visitorReturningStatus](#visitorReturningStatus)|Visitor returning status|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[visitorAnonymousStatus](#visitorAnonymousStatus)|Visitor anonymous status|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
+|[leadId](#leadId)|Lead ID|<a href="SegmentRelationshipEdited.md" target="_blank">interactions/SegmentRelationshipEdited</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

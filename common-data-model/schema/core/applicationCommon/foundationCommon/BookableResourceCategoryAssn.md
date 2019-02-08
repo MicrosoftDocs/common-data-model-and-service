@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Bookable Resource Category Assn
 
 Association entity to model the categorization of resources.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/BookableResourceCategoryAssn.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,38 +46,39 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/BookableResourceCategoryAssn  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[ownerId](#ownerId)|Owner Id|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[bookableResourceCategoryAssnId](#bookableResourceCategoryAssnId)|Unique identifier of the resource and category association.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[name](#name)|The name of the association beween a resource and a category.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[resource](#resource)|Shows the resource associated with the category.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[resourceCategory](#resourceCategory)|Choose a category to associate with the resource.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[stateCode](#stateCode)|Status of the Resource Category Assn|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[statusCode](#statusCode)|Reason for the status of the Resource Category Assn|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcecategoryassn with respect to the base currency.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceCategoryAssn with respect to the base currency.|[foundationCommon/BookableResourceCategoryAssn](BookableResourceCategoryAssn.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[bookableResourceCategoryAssnId](#bookableResourceCategoryAssnId)|Unique identifier of the resource and category association.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[name](#name)|The name of the association beween a resource and a category.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[resource](#resource)|Shows the resource associated with the category.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[resourceCategory](#resourceCategory)|Choose a category to associate with the resource.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[stateCode](#stateCode)|Status of the Resource Category Assn|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[stateCode_display](#stateCode_display)||<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[statusCode](#statusCode)|Reason for the status of the Resource Category Assn|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[statusCode_display](#statusCode_display)||<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the bookableresourcecategoryassn with respect to the base currency.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Exchange rate for the currency associated with the BookableResourceCategoryAssn with respect to the base currency.|<a href="BookableResourceCategoryAssn.md" target="_blank">foundationCommon/BookableResourceCategoryAssn</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

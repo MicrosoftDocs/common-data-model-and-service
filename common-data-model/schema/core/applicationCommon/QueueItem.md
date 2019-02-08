@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Queue Item
 
 A specific item in a queue, such as a case record or an activity record.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/QueueItem.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,50 +46,51 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/QueueItem  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[queueItemId](#queueItemId)|Unique identifier of the queue item.|[applicationCommon/QueueItem](QueueItem.md)|
-|[queueId](#queueId)|Choose the queue that the item is assigned to.|[applicationCommon/QueueItem](QueueItem.md)|
-|[objectIdTypeCode](#objectIdTypeCode)|The name of the entity linked by objectId|[applicationCommon/QueueItem](QueueItem.md)|
-|[objectId](#objectId)|Choose the activity, case, or article assigned to the queue.|[applicationCommon/QueueItem](QueueItem.md)|
-|[objectTypeCode](#objectTypeCode)|Select the type of the queue item, such as activity, case, or appointment.|[applicationCommon/QueueItem](QueueItem.md)|
-|[objectTypeCode_display](#objectTypeCode_display)||[applicationCommon/QueueItem](QueueItem.md)|
-|[title](#title)|Shows the title or name that describes the queue record. This value is copied from the record that was assigned to the queue.|[applicationCommon/QueueItem](QueueItem.md)|
-|[enteredOn](#enteredOn)|Shows the date the record was assigned to the queue.|[applicationCommon/QueueItem](QueueItem.md)|
-|[priority](#priority)|Priority of the queue item.|[applicationCommon/QueueItem](QueueItem.md)|
-|[state](#state)|Status of the queue item.|[applicationCommon/QueueItem](QueueItem.md)|
-|[status](#status)|Reason for the status of the queue item.|[applicationCommon/QueueItem](QueueItem.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/QueueItem](QueueItem.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/QueueItem](QueueItem.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/QueueItem](QueueItem.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/QueueItem](QueueItem.md)|
-|[toRecipients](#toRecipients)|Recipients listed on the To line of the message for email queue items.|[applicationCommon/QueueItem](QueueItem.md)|
-|[sender](#sender)|Sender who created the queue item.|[applicationCommon/QueueItem](QueueItem.md)|
-|[organizationId](#organizationId)|Unique identifier of the organization with which the queue item is associated.|[applicationCommon/QueueItem](QueueItem.md)|
-|[versionNumber](#versionNumber)|Version number of the queue item.|[applicationCommon/QueueItem](QueueItem.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[applicationCommon/QueueItem](QueueItem.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[applicationCommon/QueueItem](QueueItem.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[applicationCommon/QueueItem](QueueItem.md)|
-|[workerIdModifiedOn](#workerIdModifiedOn)|Shows the date and time when the queue item was last assigned to a user.|[applicationCommon/QueueItem](QueueItem.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/QueueItem](QueueItem.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/QueueItem](QueueItem.md)|
-|[owningUser](#owningUser)|Unique identifier of the user who owns the queue item.|[applicationCommon/QueueItem](QueueItem.md)|
-|[workerIdType](#workerIdType)|The name of the entity linked by workerId|[applicationCommon/QueueItem](QueueItem.md)|
-|[workerId](#workerId)|Shows who is working on the queue item.|[applicationCommon/QueueItem](QueueItem.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the queue item.|[applicationCommon/QueueItem](QueueItem.md)|
-|[statusCode](#statusCode)|Select the item's status.|[applicationCommon/QueueItem](QueueItem.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/QueueItem](QueueItem.md)|
-|[stateCode](#stateCode)|Shows whether the queue record is active or inactive. Inactive queue records are read-only and can't be edited unless they are reactivated.|[applicationCommon/QueueItem](QueueItem.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/QueueItem](QueueItem.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/QueueItem](QueueItem.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the queueitem.|[applicationCommon/QueueItem](QueueItem.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|[applicationCommon/QueueItem](QueueItem.md)|
-|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|[applicationCommon/QueueItem](QueueItem.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[applicationCommon/QueueItem](QueueItem.md)|
+|[queueItemId](#queueItemId)|Unique identifier of the queue item.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[queueId](#queueId)|Choose the queue that the item is assigned to.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[objectIdTypeCode](#objectIdTypeCode)|The name of the entity linked by objectId|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[objectId](#objectId)|Choose the activity, case, or article assigned to the queue.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[objectTypeCode](#objectTypeCode)|Select the type of the queue item, such as activity, case, or appointment.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[objectTypeCode_display](#objectTypeCode_display)||<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[title](#title)|Shows the title or name that describes the queue record. This value is copied from the record that was assigned to the queue.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[enteredOn](#enteredOn)|Shows the date the record was assigned to the queue.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[priority](#priority)|Priority of the queue item.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[state](#state)|Status of the queue item.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[status](#status)|Reason for the status of the queue item.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[toRecipients](#toRecipients)|Recipients listed on the To line of the message for email queue items.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[sender](#sender)|Sender who created the queue item.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[organizationId](#organizationId)|Unique identifier of the organization with which the queue item is associated.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[versionNumber](#versionNumber)|Version number of the queue item.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[workerIdModifiedOn](#workerIdModifiedOn)|Shows the date and time when the queue item was last assigned to a user.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[owningUser](#owningUser)|Unique identifier of the user who owns the queue item.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[workerIdType](#workerIdType)|The name of the entity linked by workerId|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[workerId](#workerId)|Shows who is working on the queue item.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier of the business unit that owns the queue item.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[statusCode](#statusCode)|Select the item's status.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[statusCode_display](#statusCode_display)||<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[stateCode](#stateCode)|Shows whether the queue record is active or inactive. Inactive queue records are read-only and can't be edited unless they are reactivated.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[stateCode_display](#stateCode_display)||<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the queueitem.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Choose the local currency for the record to make sure budgets are reported in the correct currency.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[exchangeRate](#exchangeRate)|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="QueueItem.md" target="_blank">applicationCommon/QueueItem</a>|
 
 ### <a href=#queueItemId name="queueItemId">queueItemId</a>
 

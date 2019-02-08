@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Medication Request
 
 An order or request for both supply of the medication and the instructions for administration of the medication to a patient.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,74 +46,75 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/MedicationRequest  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[medicationRequestId](#medicationRequestId)|Unique identifier for entity instances|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[stateCode](#stateCode)|Status of the Medication Request|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[statusCode](#statusCode)|Reason for the status of the Medication Request|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[name](#name)|The name of the custom entity.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[authoredOn](#authoredOn)|The date (and perhaps time) when the prescription was initially written or authored on.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[category](#category)|Indicates the type of medication request (for example, where the medication is expected to be consumed or administered or the type of treatment.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[contextType](#contextType)|A link to an encounter, or episode of care, that identifies the particular occurrence or set occurrences of contact between patient and health care provider.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[contextType_display](#contextType_display)||[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[contextTypeEncounter](#contextTypeEncounter)|A link to an encounter that identifies the particular occurrence or set occurrences of contact between patient and health care provider.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[contextTypeEpisodeOfCare](#contextTypeEpisodeOfCare)|A link to an episode of care, that identifies the particular occurrence or set occurrences of contact between patient and health care provider.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[dispenseRequestNumberofRepeatsAllowed](#dispenseRequestNumberofRepeatsAllowed)|An integer indicating the number of times, in addition to the original dispense, (aka refills or repeats) that the patient can receive the prescribed medication.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[dispenseRequestPerformer](#dispenseRequestPerformer)|Indicates the intended dispensing Organization specified by the Prescriber.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[dispenseRequestQuantity](#dispenseRequestQuantity)|The amount that is to be dispensed for one fill.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[dispenseRequestValidityPeriodEndDate](#dispenseRequestValidityPeriodEndDate)|This indicates the validity period of a prescription (stale dating the Prescription).|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[dispenseRequestValidityPeriodStartDate](#dispenseRequestValidityPeriodStartDate)|This indicates the validity period of a prescription (stale dating the Prescription).|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[expectedSupplyDuration](#expectedSupplyDuration)|Identifies the period time over which the supplied product is expected to be used, or the length of time the dispense is expected to last.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[groupIdentifier](#groupIdentifier)|A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition or prescription.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[identifier](#identifier)|This records identifiers associated with this medication request that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[intent](#intent)|Whether the request is a proposal, plan, or an original order.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[intent_display](#intent_display)||[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[medicationType](#medicationType)|Identifies the medication being requested.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[medicationType_display](#medicationType_display)||[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[medicationTypeCodeableConcept](#medicationTypeCodeableConcept)|Identifies the medication being requested.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[medicationReference](#medicationReference)|Identifies the medication being requested.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[priority](#priority)|Indicates how quickly the Medication Request should be addressed with respect to other requests.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[priority_display](#priority_display)||[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[priorPrescription](#priorPrescription)|A link to a resource representing an earlier order related order or prescription.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[recorder](#recorder)|The person who entered the order on behalf of another individual for example in the case of a verbal or a telephone order.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[requesterAgentType](#requesterAgentType)|The healthcare professional responsible for authorizing the initial prescription.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[requesterAgentType_display](#requesterAgentType_display)||[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[requesterAgentTypeDevice](#requesterAgentTypeDevice)|The healthcare professional responsible for authorizing the initial prescription.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[requesterAgentTypeOrganization](#requesterAgentTypeOrganization)|The healthcare professional responsible for authorizing the initial prescription.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[requesterAgentTypePatient](#requesterAgentTypePatient)|The healthcare professional responsible for authorizing the initial prescription.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[requesterAgentTypePractitioner](#requesterAgentTypePractitioner)|The healthcare professional responsible for authorizing the initial prescription.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[requesterAgentTypeRelatedPerson](#requesterAgentTypeRelatedPerson)|The healthcare professional responsible for authorizing the initial prescription.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[requesterOnBehalfOf](#requesterOnBehalfOf)|The organization the device or practitioner was acting on behalf of.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[status](#status)|A code specifying the current state of the order. Generally, this will be active or completed state.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[status_display](#status_display)||[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[subjectType](#subjectType)|A link to a resource representing the person or set of individuals to whom the medication will be given.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[subjectType_display](#subjectType_display)||[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[subjectTypeGroup](#subjectTypeGroup)|A link to a resource representing the person or set of individuals to whom the medication will be given.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[subjectTypePatient](#subjectTypePatient)|A link to a resource representing the person or set of individuals to whom the medication will be given.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[substitutionAllowed](#substitutionAllowed)|True if the Prescriber allows a different drug to be dispensed from what was prescribed.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
-|[substitutionReason](#substitutionReason)|Indicates the reason for the substitution, or why substitution must or must not be performed.|[electronicMedicalRecords/MedicationRequest](MedicationRequest.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[medicationRequestId](#medicationRequestId)|Unique identifier for entity instances|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[stateCode](#stateCode)|Status of the Medication Request|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[stateCode_display](#stateCode_display)||<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[statusCode](#statusCode)|Reason for the status of the Medication Request|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[statusCode_display](#statusCode_display)||<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[name](#name)|The name of the custom entity.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[authoredOn](#authoredOn)|The date (and perhaps time) when the prescription was initially written or authored on.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[category](#category)|Indicates the type of medication request (for example, where the medication is expected to be consumed or administered or the type of treatment.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[contextType](#contextType)|A link to an encounter, or episode of care, that identifies the particular occurrence or set occurrences of contact between patient and health care provider.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[contextType_display](#contextType_display)||<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[contextTypeEncounter](#contextTypeEncounter)|A link to an encounter that identifies the particular occurrence or set occurrences of contact between patient and health care provider.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[contextTypeEpisodeOfCare](#contextTypeEpisodeOfCare)|A link to an episode of care, that identifies the particular occurrence or set occurrences of contact between patient and health care provider.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[dispenseRequestNumberofRepeatsAllowed](#dispenseRequestNumberofRepeatsAllowed)|An integer indicating the number of times, in addition to the original dispense, (aka refills or repeats) that the patient can receive the prescribed medication.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[dispenseRequestPerformer](#dispenseRequestPerformer)|Indicates the intended dispensing Organization specified by the Prescriber.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[dispenseRequestQuantity](#dispenseRequestQuantity)|The amount that is to be dispensed for one fill.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[dispenseRequestValidityPeriodEndDate](#dispenseRequestValidityPeriodEndDate)|This indicates the validity period of a prescription (stale dating the Prescription).|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[dispenseRequestValidityPeriodStartDate](#dispenseRequestValidityPeriodStartDate)|This indicates the validity period of a prescription (stale dating the Prescription).|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[expectedSupplyDuration](#expectedSupplyDuration)|Identifies the period time over which the supplied product is expected to be used, or the length of time the dispense is expected to last.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[groupIdentifier](#groupIdentifier)|A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition or prescription.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[identifier](#identifier)|This records identifiers associated with this medication request that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[intent](#intent)|Whether the request is a proposal, plan, or an original order.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[intent_display](#intent_display)||<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[medicationType](#medicationType)|Identifies the medication being requested.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[medicationType_display](#medicationType_display)||<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[medicationTypeCodeableConcept](#medicationTypeCodeableConcept)|Identifies the medication being requested.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[medicationReference](#medicationReference)|Identifies the medication being requested.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[priority](#priority)|Indicates how quickly the Medication Request should be addressed with respect to other requests.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[priority_display](#priority_display)||<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[priorPrescription](#priorPrescription)|A link to a resource representing an earlier order related order or prescription.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[recorder](#recorder)|The person who entered the order on behalf of another individual for example in the case of a verbal or a telephone order.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[requesterAgentType](#requesterAgentType)|The healthcare professional responsible for authorizing the initial prescription.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[requesterAgentType_display](#requesterAgentType_display)||<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[requesterAgentTypeDevice](#requesterAgentTypeDevice)|The healthcare professional responsible for authorizing the initial prescription.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[requesterAgentTypeOrganization](#requesterAgentTypeOrganization)|The healthcare professional responsible for authorizing the initial prescription.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[requesterAgentTypePatient](#requesterAgentTypePatient)|The healthcare professional responsible for authorizing the initial prescription.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[requesterAgentTypePractitioner](#requesterAgentTypePractitioner)|The healthcare professional responsible for authorizing the initial prescription.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[requesterAgentTypeRelatedPerson](#requesterAgentTypeRelatedPerson)|The healthcare professional responsible for authorizing the initial prescription.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[requesterOnBehalfOf](#requesterOnBehalfOf)|The organization the device or practitioner was acting on behalf of.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[status](#status)|A code specifying the current state of the order. Generally, this will be active or completed state.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[status_display](#status_display)||<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[subjectType](#subjectType)|A link to a resource representing the person or set of individuals to whom the medication will be given.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[subjectType_display](#subjectType_display)||<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[subjectTypeGroup](#subjectTypeGroup)|A link to a resource representing the person or set of individuals to whom the medication will be given.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[subjectTypePatient](#subjectTypePatient)|A link to a resource representing the person or set of individuals to whom the medication will be given.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[substitutionAllowed](#substitutionAllowed)|True if the Prescriber allows a different drug to be dispensed from what was prescribed.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
+|[substitutionReason](#substitutionReason)|Indicates the reason for the substitution, or why substitution must or must not be performed.|<a href="MedicationRequest.md" target="_blank">electronicMedicalRecords/MedicationRequest</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

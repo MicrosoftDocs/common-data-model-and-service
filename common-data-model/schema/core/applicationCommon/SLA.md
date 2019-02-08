@@ -11,7 +11,7 @@ ms.author: tpalmer
 # SLA
 
 Contains information about the tracked service-level KPIs for cases that belong to different customers.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SLA.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,52 +46,53 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 applicationCommon/SLA  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[SLAId](#SLAId)|Unique identifier of the SLA.|[applicationCommon/SLA](SLA.md)|
-|[name](#name)|Type a descriptive name of the service level agreement (SLA).|[applicationCommon/SLA](SLA.md)|
-|[businessHoursId](#businessHoursId)|Choose the business hours for calculating SLA item timelines.|[applicationCommon/SLA](SLA.md)|
-|[objectTypeCode](#objectTypeCode)|Choose the entity type that the SLA is defined.|[applicationCommon/SLA](SLA.md)|
-|[objectTypeCode_display](#objectTypeCode_display)||[applicationCommon/SLA](SLA.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[applicationCommon/SLA](SLA.md)|
-|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|[applicationCommon/SLA](SLA.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[applicationCommon/SLA](SLA.md)|
-|[description](#description)|Type additional information to describe the SLA|[applicationCommon/SLA](SLA.md)|
-|[changedAttributeList](#changedAttributeList)|Type additional information to describe the SLA|[applicationCommon/SLA](SLA.md)|
-|[applicableFrom](#applicableFrom)|Select the field that specifies the date and time from which the SLA items will be calculated for the case record. For example, if you select the Case Created On field, SLA calculation will begin from the time the case is created. |[applicationCommon/SLA](SLA.md)|
-|[isDefault](#isDefault)|Tells whether this SLA is the default one.|[applicationCommon/SLA](SLA.md)|
-|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/SLA](SLA.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[applicationCommon/SLA](SLA.md)|
-|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|[applicationCommon/SLA](SLA.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[applicationCommon/SLA](SLA.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate between the currency associated with the SLA record and the base currency.|[applicationCommon/SLA](SLA.md)|
-|[versionNumber](#versionNumber)|Version number of the SLA.|[applicationCommon/SLA](SLA.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the SLA record.|[applicationCommon/SLA](SLA.md)|
-|[stateCode](#stateCode)|Shows whether the Service Level Agreement (SLA) is active or inactive.|[applicationCommon/SLA](SLA.md)|
-|[stateCode_display](#stateCode_display)||[applicationCommon/SLA](SLA.md)|
-|[statusCode](#statusCode)|Select the status of the service level agreement (SLA).|[applicationCommon/SLA](SLA.md)|
-|[statusCode_display](#statusCode_display)||[applicationCommon/SLA](SLA.md)|
-|[solutionId](#solutionId)|Unique identifier of the associated solution.|[applicationCommon/SLA](SLA.md)|
-|[componentState](#componentState)|For internal use only.|[applicationCommon/SLA](SLA.md)|
-|[componentState_display](#componentState_display)||[applicationCommon/SLA](SLA.md)|
-|[overwriteTime](#overwriteTime)|For internal use only.|[applicationCommon/SLA](SLA.md)|
-|[isManaged](#isManaged)|For internal use only.|[applicationCommon/SLA](SLA.md)|
-|[SLAIdUnique](#SLAIdUnique)|For internal use only.|[applicationCommon/SLA](SLA.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[applicationCommon/SLA](SLA.md)|
-|[ownerId](#ownerId)|Owner Id|[applicationCommon/SLA](SLA.md)|
-|[applicableFromPickList](#applicableFromPickList)|Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the Case Created On field, SLA calculation will begin from the time the case is created.|[applicationCommon/SLA](SLA.md)|
-|[applicableFromPickList_display](#applicableFromPickList_display)||[applicationCommon/SLA](SLA.md)|
-|[workflowId](#workflowId)|Workflow associated with the SLA.|[applicationCommon/SLA](SLA.md)|
-|[allowPauseResume](#allowPauseResume)|Select whether this SLA will allow pausing and resuming during the time calculation.|[applicationCommon/SLA](SLA.md)|
-|[SLAType](#SLAType)|Select the type of service level agreement (SLA).|[applicationCommon/SLA](SLA.md)|
-|[SLAType_display](#SLAType_display)||[applicationCommon/SLA](SLA.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SLA](SLA.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|[applicationCommon/SLA](SLA.md)|
-|[primaryEntityOTC](#primaryEntityOTC)|Shows the primary entity that the SLA has been created for.|[applicationCommon/SLA](SLA.md)|
+|[SLAId](#SLAId)|Unique identifier of the SLA.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[name](#name)|Type a descriptive name of the service level agreement (SLA).|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[businessHoursId](#businessHoursId)|Choose the business hours for calculating SLA item timelines.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[objectTypeCode](#objectTypeCode)|Choose the entity type that the SLA is defined.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[objectTypeCode_display](#objectTypeCode_display)||<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[owningUser](#owningUser)|Unique identifier for the user that owns the record.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[description](#description)|Type additional information to describe the SLA|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[changedAttributeList](#changedAttributeList)|Type additional information to describe the SLA|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[applicableFrom](#applicableFrom)|Select the field that specifies the date and time from which the SLA items will be calculated for the case record. For example, if you select the Case Created On field, SLA calculation will begin from the time the case is created. |<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[isDefault](#isDefault)|Tells whether this SLA is the default one.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[createdOn](#createdOn)|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[modifiedOn](#modifiedOn)|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate between the currency associated with the SLA record and the base currency.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[versionNumber](#versionNumber)|Version number of the SLA.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the SLA record.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[stateCode](#stateCode)|Shows whether the Service Level Agreement (SLA) is active or inactive.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[stateCode_display](#stateCode_display)||<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[statusCode](#statusCode)|Select the status of the service level agreement (SLA).|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[statusCode_display](#statusCode_display)||<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[solutionId](#solutionId)|Unique identifier of the associated solution.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[componentState](#componentState)|For internal use only.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[componentState_display](#componentState_display)||<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[overwriteTime](#overwriteTime)|For internal use only.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[isManaged](#isManaged)|For internal use only.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[SLAIdUnique](#SLAIdUnique)|For internal use only.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[applicableFromPickList](#applicableFromPickList)|Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the Case Created On field, SLA calculation will begin from the time the case is created.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[applicableFromPickList_display](#applicableFromPickList_display)||<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[workflowId](#workflowId)|Workflow associated with the SLA.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[allowPauseResume](#allowPauseResume)|Select whether this SLA will allow pausing and resuming during the time calculation.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[SLAType](#SLAType)|Select the type of service level agreement (SLA).|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[SLAType_display](#SLAType_display)||<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
+|[primaryEntityOTC](#primaryEntityOTC)|Shows the primary entity that the SLA has been created for.|<a href="SLA.md" target="_blank">applicationCommon/SLA</a>|
 
 ### <a href=#SLAId name="SLAId">SLAId</a>
 

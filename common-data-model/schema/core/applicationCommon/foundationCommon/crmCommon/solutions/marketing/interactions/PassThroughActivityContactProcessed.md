@@ -10,7 +10,7 @@ ms.author: tpalmer
 
 # Pass through activity contact processed
 
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/PassThroughActivityContactProcessed.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -33,22 +33,23 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 interactions/PassThroughActivityContactProcessed  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[interactionId](#interactionId)|Unique identifier of the interaction.|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
-|[customerJourneyId](#customerJourneyId)|Customer journey|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
-|[contactId](#contactId)|Contact|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
-|[accountId](#accountId)|Account|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
-|[organizationId](#organizationId)|Organization ID|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
-|[activityId](#activityId)|Activity ID|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
-|[workflowId](#workflowId)|Workflow ID|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
-|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
-|[interactionType](#interactionType)|Interaction type|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
-|[timestamp](#timestamp)|Timestamp|[interactions/PassThroughActivityContactProcessed](PassThroughActivityContactProcessed.md)|
+|[interactionId](#interactionId)|Unique identifier of the interaction.|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
+|[customerJourneyId](#customerJourneyId)|Customer journey|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
+|[contactId](#contactId)|Contact|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
+|[accountId](#accountId)|Account|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
+|[organizationId](#organizationId)|Organization ID|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
+|[activityId](#activityId)|Activity ID|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
+|[workflowId](#workflowId)|Workflow ID|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
+|[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
+|[interactionType](#interactionType)|Interaction type|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
+|[timestamp](#timestamp)|Timestamp|<a href="PassThroughActivityContactProcessed.md" target="_blank">interactions/PassThroughActivityContactProcessed</a>|
 
 ### <a href=#interactionId name="interactionId">interactionId</a>
 

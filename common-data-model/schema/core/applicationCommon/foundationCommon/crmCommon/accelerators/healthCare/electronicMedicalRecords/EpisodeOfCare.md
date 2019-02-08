@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Episode of Care
 
 An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,42 +46,43 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 electronicMedicalRecords/EpisodeOfCare  
 
 ## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[createdOn](#createdOn)|Date and time when the record was created.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[createdBy](#createdBy)|Shows who created the record.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[ownerId](#ownerId)|Owner Id|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[versionNumber](#versionNumber)|Version Number|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[episodeOfCareId](#episodeOfCareId)|Unique identifier for entity instances|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[stateCode](#stateCode)|Status of the Episode of Care|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[stateCode_display](#stateCode_display)||[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[statusCode](#statusCode)|Reason for the status of the Episode of Care|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[statusCode_display](#statusCode_display)||[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[description](#description)|The name of the custom entity.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[careManager](#careManager)|The practitioner that is the care manager/care coordinator for this patient.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[endDateTime](#endDateTime)|The interval during which the managing organization assumes the defined responsibility.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[identifier](#identifier)|The EpisodeOfCare may be known by different identifiers for different contexts of use, such as when an external agency is tracking the Episode for funding purposes.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[organization](#organization)|The organization that has assumed the specific responsibilities for the specified duration.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[patient](#patient)|The patient who is the focus of this episode of care.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[startDateTime](#startDateTime)|The interval during which the managing organization assumes the defined responsibility.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[status](#status)|Current status of episode.|[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
-|[status_display](#status_display)||[electronicMedicalRecords/EpisodeOfCare](EpisodeOfCare.md)|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[importSequenceNumber](#importSequenceNumber)|Unique identifier of the data import or data migration that created this record.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[ownerIdType](#ownerIdType)|The type of owner, either User or Team.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[ownerId](#ownerId)|Owner Id|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[owningBusinessUnit](#owningBusinessUnit)|Unique identifier for the business unit that owns the record|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[owningUser](#owningUser)|Unique identifier of the user that owns the activity.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[owningTeam](#owningTeam)|Unique identifier for the team that owns the record.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[episodeOfCareId](#episodeOfCareId)|Unique identifier for entity instances|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[stateCode](#stateCode)|Status of the Episode of Care|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[stateCode_display](#stateCode_display)||<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[statusCode](#statusCode)|Reason for the status of the Episode of Care|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[statusCode_display](#statusCode_display)||<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[description](#description)|The name of the custom entity.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[careManager](#careManager)|The practitioner that is the care manager/care coordinator for this patient.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[endDateTime](#endDateTime)|The interval during which the managing organization assumes the defined responsibility.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[identifier](#identifier)|The EpisodeOfCare may be known by different identifiers for different contexts of use, such as when an external agency is tracking the Episode for funding purposes.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[organization](#organization)|The organization that has assumed the specific responsibilities for the specified duration.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[patient](#patient)|The patient who is the focus of this episode of care.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[startDateTime](#startDateTime)|The interval during which the managing organization assumes the defined responsibility.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[status](#status)|Current status of episode.|<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
+|[status_display](#status_display)||<a href="EpisodeOfCare.md" target="_blank">electronicMedicalRecords/EpisodeOfCare</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 

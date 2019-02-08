@@ -11,7 +11,7 @@ ms.author: tpalmer
 # Product
 
 Information about products and their pricing information.  
-
+  
 Latest version (0.8.1) of the json entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Product.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
@@ -46,6 +46,7 @@ Latest version (0.8.1) of the json entity definition is available on <a href="ht
 ## Instances
 
 Instances of this entity are listed below:  
+
 foundationCommon/Product  
 [electronicMedicalRecords/Product](crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
 
@@ -53,64 +54,64 @@ foundationCommon/Product
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productId](#productId)|Unique identifier of the product.|[foundationCommon/Product](Product.md)|
-|[createdOn](#createdOn)|Date and time when the record was created.|[foundationCommon/Product](Product.md)|
-|[createdBy](#createdBy)|Unique identifier of the user who created the product.|[foundationCommon/Product](Product.md)|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|[foundationCommon/Product](Product.md)|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the product.|[foundationCommon/Product](Product.md)|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the product.|[foundationCommon/Product](Product.md)|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the product.|[foundationCommon/Product](Product.md)|
-|[organizationId](#organizationId)|Unique identifier for the organization|[foundationCommon/Product](Product.md)|
-|[versionNumber](#versionNumber)|Version Number|[foundationCommon/Product](Product.md)|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|[foundationCommon/Product](Product.md)|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|[foundationCommon/Product](Product.md)|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|[foundationCommon/Product](Product.md)|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|[foundationCommon/Product](Product.md)|
-|[name](#name)|Name of the product.|[foundationCommon/Product](Product.md)|
-|[processId](#processId)|Contains the id of the process associated with the entity.|[foundationCommon/Product](Product.md)|
-|[stageId](#stageId)|Contains the id of the stage where the entity is located.|[foundationCommon/Product](Product.md)|
-|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|[foundationCommon/Product](Product.md)|
-|[vendorID](#vendorID)|Unique identifier of vendor supplying the product.|[foundationCommon/Product](Product.md)|
-|[validFromDate](#validFromDate)|Date from which this product is valid.|[foundationCommon/Product](Product.md)|
-|[validToDate](#validToDate)|Date to which this product is valid.|[foundationCommon/Product](Product.md)|
-|[currentCost](#currentCost)|Current cost for the product item. Used in price calculations.|[foundationCommon/Product](Product.md)|
-|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the product.|[foundationCommon/Product](Product.md)|
-|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the product with respect to the base currency.|[foundationCommon/Product](Product.md)|
-|[currentCostBase](#currentCostBase)|Value of the Current Cost in base currency.|[foundationCommon/Product](Product.md)|
-|[defaultUoMId](#defaultUoMId)|Default unit for the product.|[foundationCommon/Product](Product.md)|
-|[defaultUoMScheduleId](#defaultUoMScheduleId)|Default unit group for the product.|[foundationCommon/Product](Product.md)|
-|[description](#description)|Description of the product.|[foundationCommon/Product](Product.md)|
-|[isKit](#isKit)|Information that specifies whether the product is a kit.|[foundationCommon/Product](Product.md)|
-|[isStockItem](#isStockItem)|Information about whether the product is a stock item.|[foundationCommon/Product](Product.md)|
-|[parentProductId](#parentProductId)|Specifies the parent product family hierarchy.|[foundationCommon/Product](Product.md)|
-|[price](#price)|List price of the product.|[foundationCommon/Product](Product.md)|
-|[priceBase](#priceBase)|Value of the List Price in base currency.|[foundationCommon/Product](Product.md)|
-|[productStructure](#productStructure)|Product Structure.|[foundationCommon/Product](Product.md)|
-|[productStructure_display](#productStructure_display)||[foundationCommon/Product](Product.md)|
-|[productNumber](#productNumber)|User-defined product ID.|[foundationCommon/Product](Product.md)|
-|[productTypeCode](#productTypeCode)|Type of product.|[foundationCommon/Product](Product.md)|
-|[productTypeCode_display](#productTypeCode_display)||[foundationCommon/Product](Product.md)|
-|[productUrl](#productUrl)|URL for the Website associated with the product.|[foundationCommon/Product](Product.md)|
-|[quantityDecimal](#quantityDecimal)|Number of decimal places that can be used in monetary amounts for the product.|[foundationCommon/Product](Product.md)|
-|[quantityOnHand](#quantityOnHand)|Quantity of the product in stock.|[foundationCommon/Product](Product.md)|
-|[size](#size)|Product size.|[foundationCommon/Product](Product.md)|
-|[standardCost](#standardCost)|Standard cost of the product.|[foundationCommon/Product](Product.md)|
-|[standardCostBase](#standardCostBase)|Value of the Standard Cost in base currency.|[foundationCommon/Product](Product.md)|
-|[stateCode](#stateCode)|Status of the product.|[foundationCommon/Product](Product.md)|
-|[stateCode_display](#stateCode_display)||[foundationCommon/Product](Product.md)|
-|[statusCode](#statusCode)|Reason for the status of the product.|[foundationCommon/Product](Product.md)|
-|[statusCode_display](#statusCode_display)||[foundationCommon/Product](Product.md)|
-|[stockVolume](#stockVolume)|Stock volume of the product.|[foundationCommon/Product](Product.md)|
-|[stockWeight](#stockWeight)|Stock weight of the product.|[foundationCommon/Product](Product.md)|
-|[supplierName](#supplierName)|Name of the product's supplier.|[foundationCommon/Product](Product.md)|
-|[vendorName](#vendorName)|Name of the product vendor.|[foundationCommon/Product](Product.md)|
-|[vendorPartNumber](#vendorPartNumber)|Unique part identifier in vendor catalog of this product.|[foundationCommon/Product](Product.md)|
-|[hierarchyPath](#hierarchyPath)|Hierarchy path of the product.|[foundationCommon/Product](Product.md)|
-|[priceLevelId](#priceLevelId)|Select the default price list for the product.|[foundationCommon/Product](Product.md)|
-|[subjectId](#subjectId)|Select a category for the product.|[foundationCommon/Product](Product.md)|
-|[entityImageId](#entityImageId)||[foundationCommon/Product](Product.md)|
-|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|[foundationCommon/Product](Product.md)|
-|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|[foundationCommon/Product](Product.md)|
+|[productId](#productId)|Unique identifier of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who last modified the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who last modified the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[organizationId](#organizationId)|Unique identifier for the organization|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[versionNumber](#versionNumber)|Version Number|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[name](#name)|Name of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[processId](#processId)|Contains the id of the process associated with the entity.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[stageId](#stageId)|Contains the id of the stage where the entity is located.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[traversedPath](#traversedPath)|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[vendorID](#vendorID)|Unique identifier of vendor supplying the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[validFromDate](#validFromDate)|Date from which this product is valid.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[validToDate](#validToDate)|Date to which this product is valid.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[currentCost](#currentCost)|Current cost for the product item. Used in price calculations.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[transactionCurrencyId](#transactionCurrencyId)|Unique identifier of the currency associated with the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the product with respect to the base currency.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[currentCostBase](#currentCostBase)|Value of the Current Cost in base currency.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[defaultUoMId](#defaultUoMId)|Default unit for the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[defaultUoMScheduleId](#defaultUoMScheduleId)|Default unit group for the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[description](#description)|Description of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[isKit](#isKit)|Information that specifies whether the product is a kit.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[isStockItem](#isStockItem)|Information about whether the product is a stock item.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[parentProductId](#parentProductId)|Specifies the parent product family hierarchy.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[price](#price)|List price of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[priceBase](#priceBase)|Value of the List Price in base currency.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[productStructure](#productStructure)|Product Structure.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[productStructure_display](#productStructure_display)||<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[productNumber](#productNumber)|User-defined product ID.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[productTypeCode](#productTypeCode)|Type of product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[productTypeCode_display](#productTypeCode_display)||<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[productUrl](#productUrl)|URL for the Website associated with the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[quantityDecimal](#quantityDecimal)|Number of decimal places that can be used in monetary amounts for the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[quantityOnHand](#quantityOnHand)|Quantity of the product in stock.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[size](#size)|Product size.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[standardCost](#standardCost)|Standard cost of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[standardCostBase](#standardCostBase)|Value of the Standard Cost in base currency.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[stateCode](#stateCode)|Status of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[stateCode_display](#stateCode_display)||<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[statusCode](#statusCode)|Reason for the status of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[statusCode_display](#statusCode_display)||<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[stockVolume](#stockVolume)|Stock volume of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[stockWeight](#stockWeight)|Stock weight of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[supplierName](#supplierName)|Name of the product's supplier.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[vendorName](#vendorName)|Name of the product vendor.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[vendorPartNumber](#vendorPartNumber)|Unique part identifier in vendor catalog of this product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[hierarchyPath](#hierarchyPath)|Hierarchy path of the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[priceLevelId](#priceLevelId)|Select the default price list for the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[subjectId](#subjectId)|Select a category for the product.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[entityImageId](#entityImageId)||<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[createdByExternalParty](#createdByExternalParty)|Shows the external party who created the record.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
+|[modifiedByExternalParty](#modifiedByExternalParty)|Shows the external party who modified the record.|<a href="Product.md" target="_blank">foundationCommon/Product</a>|
 
 ### <a href=#productId name="productId">productId</a>
 
