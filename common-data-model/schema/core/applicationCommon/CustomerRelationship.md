@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Customer Relationship
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/CustomerRelationship.cdm.json" target="_blank">Link on GitHub</a>).  
 Relationship between a customer and a partner in which either can be an account or contact.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/CustomerRelationship.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/CustomerRelationship  
 
-## Traits for Customer Relationship
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ applicationCommon/CustomerRelationship
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CustomerRelationship_/hasAttributes/customerRelationshipId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "CustomerRelationship_/hasAttributes/customerRelationshipId"
+  "CustomerRelationship/hasAttributes/customerRelationshipId"
   ```
 
 
@@ -246,7 +245,7 @@ First included in: /core/applicationCommon/CustomerRelationship.cdm.json/Custome
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CustomerRelationship_/hasAttributes/customerRelationshipId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "CustomerRelationship_/hasAttributes/customerRelationshipId"
+  "CustomerRelationship/hasAttributes/customerRelationshipId"
   ```
 
 

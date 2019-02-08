@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Price List Item
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/PriceListItem.cdm.json" target="_blank">Link on GitHub</a>).  
 Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/PriceListItem.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 [foundationCommon/PriceListItem](../../PriceListItem.md "/core/applicationCommon/foundationCommon/PriceListItem.cdm.json/PriceListItem")  
 sales/PriceListItem  
 
-## Traits for Price List Item
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -27,7 +26,7 @@ sales/PriceListItem
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"PriceListItem_/hasAttributes/productPriceLevelId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "PriceListItem_/hasAttributes/productPriceLevelId"
+  "PriceListItem/hasAttributes/productPriceLevelId"
   ```
 
 
@@ -111,7 +110,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"PriceListItem_/hasAttributes/productPriceLevelId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "PriceListItem_/hasAttributes/productPriceLevelId"
+  "PriceListItem/hasAttributes/productPriceLevelId"
   ```
 
 
@@ -989,7 +988,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Method</td></tr><tr><td>description</td><td>Pricing method applied to the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Currency Amount</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Method</td></tr><tr><td>description</td><td>Pricing method applied to the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Currency Amount</td><td>1</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -998,7 +997,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Currency Amount</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Currency Amount</td><td>1</td></tr><tr><td>en</td><td>Percent of List</td><td>2</td></tr><tr><td>en</td><td>Percent Markup - Current Cost</td><td>3</td></tr><tr><td>en</td><td>Percent Margin - Current Cost</td><td>4</td></tr><tr><td>en</td><td>Percent Markup - Standard Cost</td><td>5</td></tr><tr><td>en</td><td>Percent Margin - Standard Cost</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1132,7 +1131,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Selling Option</td></tr><tr><td>description</td><td>Quantity of the product that must be sold for a given price level.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>quantitysellingcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No Control</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Whole</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Selling Option</td></tr><tr><td>description</td><td>Quantity of the product that must be sold for a given price level.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>quantitysellingcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Control</td><td>1</td></tr><tr><td>en</td><td>Whole</td><td>2</td></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1141,7 +1140,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No Control</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Whole</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Control</td><td>1</td></tr><tr><td>en</td><td>Whole</td><td>2</td></tr><tr><td>en</td><td>Whole and Fractional</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1281,7 +1280,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rounding Option</td></tr><tr><td>description</td><td>Option for rounding the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>roundingoptioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Ends in</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Multiple of</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rounding Option</td></tr><tr><td>description</td><td>Option for rounding the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>roundingoptioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Ends in</td><td>1</td></tr><tr><td>en</td><td>Multiple of</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1290,7 +1289,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Ends in</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Multiple of</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Ends in</td><td>1</td></tr><tr><td>en</td><td>Multiple of</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1345,7 +1344,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rounding Policy</td></tr><tr><td>description</td><td>Policy for rounding the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>roundingpolicycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Up</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Down</td><td>3</td><td>2</td></tr><tr><td>en</td><td>To Nearest</td><td>4</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rounding Policy</td></tr><tr><td>description</td><td>Policy for rounding the price list.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>roundingpolicycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>1</td></tr><tr><td>en</td><td>Up</td><td>2</td></tr><tr><td>en</td><td>Down</td><td>3</td></tr><tr><td>en</td><td>To Nearest</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1354,7 +1353,7 @@ First included in: /core/applicationCommon/foundationCommon/PriceListItem.cdm.js
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Up</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Down</td><td>3</td><td>2</td></tr><tr><td>en</td><td>To Nearest</td><td>4</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>1</td></tr><tr><td>en</td><td>Up</td><td>2</td></tr><tr><td>en</td><td>Down</td><td>3</td></tr><tr><td>en</td><td>To Nearest</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

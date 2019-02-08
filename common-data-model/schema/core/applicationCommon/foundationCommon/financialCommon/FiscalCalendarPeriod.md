@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Fiscal Calendar Period
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json" target="_blank">Link on GitHub</a>).  
 Represents the period in which financial activity occurred, as defined by a fiscal calendar.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/FiscalCalendarPeriod.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 financialCommon/FiscalCalendarPeriod  
 
-## Traits for Fiscal Calendar Period
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ financialCommon/FiscalCalendarPeriod
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"FiscalCalendarPeriod_/hasAttributes/fiscalCalendarPeriodId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "FiscalCalendarPeriod_/hasAttributes/fiscalCalendarPeriodId"
+  "FiscalCalendarPeriod/hasAttributes/fiscalCalendarPeriodId"
   ```
 
 
@@ -77,7 +76,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Fisc
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"FiscalCalendarPeriod_/hasAttributes/fiscalCalendarPeriodId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "FiscalCalendarPeriod_/hasAttributes/fiscalCalendarPeriodId"
+  "FiscalCalendarPeriod/hasAttributes/fiscalCalendarPeriodId"
   ```
 
 

@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Appointment (EMR)
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json" target="_blank">Link on GitHub</a>).  
 A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 electronicMedicalRecords/EmrAppointment  
 
-## Traits for Appointment (EMR)
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,7 +28,7 @@ electronicMedicalRecords/EmrAppointment
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"EmrAppointment_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "EmrAppointment_/hasAttributes/stateCode"
+  "EmrAppointment/hasAttributes/stateCode"
   ```
 
 
@@ -888,7 +887,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"EmrAppointment_/hasAttributes/activityId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "EmrAppointment_/hasAttributes/activityId"
+  "EmrAppointment/hasAttributes/activityId"
   ```
 
 
@@ -994,7 +993,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1003,7 +1002,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1055,7 +1054,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Status</td></tr><tr><td>description</td><td>Status of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Status</td></tr><tr><td>description</td><td>Status of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1064,7 +1063,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1072,7 +1071,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"EmrAppointment_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "EmrAppointment_/hasAttributes/stateCode"
+  "EmrAppointment/hasAttributes/stateCode"
   ```
 
 
@@ -1239,7 +1238,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Fulfilled</td><td>2</td><td>4</td></tr><tr><td>en</td><td>Cancelled</td><td>3</td><td>7</td></tr><tr><td>en</td><td>Scheduled</td><td>4</td><td>9</td></tr><tr><td>en</td><td>Proposed</td><td>935000000</td><td>1</td></tr><tr><td>en</td><td>Booked</td><td>935000001</td><td>2</td></tr><tr><td>en</td><td>Arrived</td><td>935000002</td><td>3</td></tr><tr><td>en</td><td>Booked</td><td>935000003</td><td>8</td></tr><tr><td>en</td><td>No Show</td><td>935000004</td><td>5</td></tr><tr><td>en</td><td>Entered in error</td><td>935000005</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td></tr><tr><td>en</td><td>Fulfilled</td><td>2</td></tr><tr><td>en</td><td>Cancelled</td><td>3</td></tr><tr><td>en</td><td>Scheduled</td><td>4</td></tr><tr><td>en</td><td>Proposed</td><td>935000000</td></tr><tr><td>en</td><td>Booked</td><td>935000001</td></tr><tr><td>en</td><td>Arrived</td><td>935000002</td></tr><tr><td>en</td><td>Booked</td><td>935000003</td></tr><tr><td>en</td><td>No Show</td><td>935000004</td></tr><tr><td>en</td><td>Entered in error</td><td>935000005</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1248,7 +1247,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Fulfilled</td><td>2</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>3</td><td>7</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>4</td><td>9</td><td>3</td></tr><tr><td>en</td><td>Proposed</td><td>935000000</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000001</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000002</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000003</td><td>8</td><td>3</td></tr><tr><td>en</td><td>No Show</td><td>935000004</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Entered in error</td><td>935000005</td><td>6</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Fulfilled</td><td>2</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>3</td><td>7</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>4</td><td>9</td><td>3</td></tr><tr><td>en</td><td>Proposed</td><td>935000000</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000001</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000002</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Booked</td><td>935000003</td><td>8</td><td>3</td></tr><tr><td>en</td><td>No Show</td><td>935000004</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Entered in error</td><td>935000005</td><td>6</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1344,7 +1343,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1353,7 +1352,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1566,7 +1565,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1575,7 +1574,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1817,7 +1816,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Channel</td></tr><tr><td>description</td><td>Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>community</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Channel</td></tr><tr><td>description</td><td>Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>community</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1826,7 +1825,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2036,7 +2035,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2045,7 +2044,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3523,7 +3522,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participant Actor Type</td></tr><tr><td>description</td><td>Type of appointment participant.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_participantactortype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>RelatedPerson</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Device</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>HealthcareService</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>Location</td><td>935000005</td><td>5</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participant Actor Type</td></tr><tr><td>description</td><td>Type of appointment participant.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_participantactortype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td></tr><tr><td>en</td><td>RelatedPerson</td><td>935000002</td></tr><tr><td>en</td><td>Device</td><td>935000003</td></tr><tr><td>en</td><td>HealthcareService</td><td>935000004</td></tr><tr><td>en</td><td>Location</td><td>935000005</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3532,7 +3531,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>RelatedPerson</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Device</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>HealthcareService</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>Location</td><td>935000005</td><td>5</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td></tr><tr><td>en</td><td>RelatedPerson</td><td>935000002</td></tr><tr><td>en</td><td>Device</td><td>935000003</td></tr><tr><td>en</td><td>HealthcareService</td><td>935000004</td></tr><tr><td>en</td><td>Location</td><td>935000005</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3587,7 +3586,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participant Status</td></tr><tr><td>description</td><td>The Participation status of an appointment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_participantstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Tentative</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Needs Action</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>Accepted</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Declined</td><td>935000001</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participant Status</td></tr><tr><td>description</td><td>The Participation status of an appointment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_participantstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Tentative</td><td>935000002</td></tr><tr><td>en</td><td>Needs Action</td><td>935000003</td></tr><tr><td>en</td><td>Accepted</td><td>935000000</td></tr><tr><td>en</td><td>Declined</td><td>935000001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3596,7 +3595,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Tentative</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Needs Action</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>Accepted</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Declined</td><td>935000001</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Tentative</td><td>935000002</td></tr><tr><td>en</td><td>Needs Action</td><td>935000003</td></tr><tr><td>en</td><td>Accepted</td><td>935000000</td></tr><tr><td>en</td><td>Declined</td><td>935000001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3774,7 +3773,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Required</td></tr><tr><td>description</td><td>Is the Participant required to attend the appointment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_required</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Required</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Optional</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Information Only</td><td>935000002</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Required</td></tr><tr><td>description</td><td>Is the Participant required to attend the appointment.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_required</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Required</td><td>935000000</td></tr><tr><td>en</td><td>Optional</td><td>935000001</td></tr><tr><td>en</td><td>Information Only</td><td>935000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3783,7 +3782,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Required</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Optional</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Information Only</td><td>935000002</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Required</td><td>935000000</td></tr><tr><td>en</td><td>Optional</td><td>935000001</td></tr><tr><td>en</td><td>Information Only</td><td>935000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

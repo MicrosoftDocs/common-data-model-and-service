@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Queue
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Queue.cdm.json" target="_blank">Link on GitHub</a>).  
 A list of records that require action, such as accounts, activities, and cases.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Queue.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/Queue  
 
-## Traits for Queue
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,14 +25,14 @@ applicationCommon/Queue
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Queue_/hasAttributes/queueId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Queue_/hasAttributes/queueId"
+  "Queue/hasAttributes/queueId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Queue_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Queue_/hasAttributes/stateCode"
+  "Queue/hasAttributes/stateCode"
   ```
 
 
@@ -130,7 +129,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Queue_/hasAttributes/queueId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Queue_/hasAttributes/queueId"
+  "Queue/hasAttributes/queueId"
   ```
 
 
@@ -331,7 +330,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Queue Type</td></tr><tr><td>description</td><td>Type of queue that is automatically assigned when a user or queue is created. The type can be public, private, or work in process.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>queuetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Queue Type</td></tr><tr><td>description</td><td>Type of queue that is automatically assigned when a user or queue is created. The type can be public, private, or work in process.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>queuetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -340,7 +339,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -829,7 +828,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Incoming Email Delivery Method</td></tr><tr><td>description</td><td>Incoming email delivery method for the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>incomingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Incoming Email Delivery Method</td></tr><tr><td>description</td><td>Incoming email delivery method for the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>incomingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -838,7 +837,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -931,7 +930,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Outgoing Email Delivery Method</td></tr><tr><td>description</td><td>Outgoing email delivery method for the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>outgoingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Outgoing Email Delivery Method</td></tr><tr><td>description</td><td>Outgoing email delivery method for the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>outgoingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -940,7 +939,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1024,7 +1023,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Convert Incoming Email To Activities</td></tr><tr><td>description</td><td>Convert Incoming Email To Activities</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>incomingemailfilteringmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>All email messages</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Email messages in response to Dynamics 365 email</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Email messages from Dynamics 365 Leads, Contacts and Accounts</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Email messages from Dynamics 365 records that are email enabled</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Convert Incoming Email To Activities</td></tr><tr><td>description</td><td>Convert Incoming Email To Activities</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>incomingemailfilteringmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>All email messages</td><td>0</td></tr><tr><td>en</td><td>Email messages in response to Dynamics 365 email</td><td>1</td></tr><tr><td>en</td><td>Email messages from Dynamics 365 Leads, Contacts and Accounts</td><td>2</td></tr><tr><td>en</td><td>Email messages from Dynamics 365 records that are email enabled</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1033,7 +1032,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>All email messages</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Email messages in response to Dynamics 365 email</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Email messages from Dynamics 365 Leads, Contacts and Accounts</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Email messages from Dynamics 365 records that are email enabled</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>All email messages</td><td>0</td></tr><tr><td>en</td><td>Email messages in response to Dynamics 365 email</td><td>1</td></tr><tr><td>en</td><td>Email messages from Dynamics 365 Leads, Contacts and Accounts</td><td>2</td></tr><tr><td>en</td><td>Email messages from Dynamics 365 records that are email enabled</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1208,7 +1207,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr><tr><td>en</td><td>Active</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1217,7 +1216,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1359,7 +1358,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1368,7 +1367,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1376,7 +1375,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Queue_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Queue_/hasAttributes/stateCode"
+  "Queue/hasAttributes/stateCode"
   ```
 
 
@@ -1758,7 +1757,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Email Status</td></tr><tr><td>description</td><td>Shows the status of the primary email address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>emailrouteraccessapproval</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Empty</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Email Status</td></tr><tr><td>description</td><td>Shows the status of the primary email address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>emailrouteraccessapproval</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Empty</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1767,7 +1766,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Empty</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Empty</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1931,7 +1930,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Select whether the queue is public or private. A public queue can be viewed by all. A private queue can be viewed only by the members added to the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>queueviewtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Public</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Select whether the queue is public or private. A public queue can be viewed by all. A private queue can be viewed only by the members added to the queue.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>queueviewtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Public</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1940,7 +1939,7 @@ First included in: /core/applicationCommon/Queue.cdm.json/Queue
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Public</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Public</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

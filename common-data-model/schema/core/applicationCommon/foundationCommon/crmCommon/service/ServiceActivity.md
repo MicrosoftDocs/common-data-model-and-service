@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Service Activity
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ServiceActivity.cdm.json" target="_blank">Link on GitHub</a>).  
 Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ServiceActivity.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 service/ServiceActivity  
 
-## Traits for Service Activity
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,14 +28,14 @@ service/ServiceActivity
 - **is.ordered**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ServiceActivity_/hasAttributes/sortDate"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "ServiceActivity_/hasAttributes/sortDate"
+  "ServiceActivity/hasAttributes/sortDate"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ServiceActivity_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "ServiceActivity_/hasAttributes/stateCode"
+  "ServiceActivity/hasAttributes/stateCode"
   ```
 
 
@@ -823,7 +822,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Fax</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Phone Call</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Email</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Letter</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Appointment</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Task</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Quick Campaign</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Activity</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Response</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Case Resolution</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Service Activity</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Opportunity Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Order Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Quote Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Alert Subscription</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Invite Redemption</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Portal Comment</td><td>undefined</td><td>undefined</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fax</td><td>undefined</td></tr><tr><td>en</td><td>Phone Call</td><td>undefined</td></tr><tr><td>en</td><td>Email</td><td>undefined</td></tr><tr><td>en</td><td>Letter</td><td>undefined</td></tr><tr><td>en</td><td>Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Task</td><td>undefined</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Quick Campaign</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Activity</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Response</td><td>undefined</td></tr><tr><td>en</td><td>Case Resolution</td><td>undefined</td></tr><tr><td>en</td><td>Service Activity</td><td>undefined</td></tr><tr><td>en</td><td>Opportunity Close</td><td>undefined</td></tr><tr><td>en</td><td>Order Close</td><td>undefined</td></tr><tr><td>en</td><td>Quote Close</td><td>undefined</td></tr><tr><td>en</td><td>Alert Subscription</td><td>undefined</td></tr><tr><td>en</td><td>Invite Redemption</td><td>undefined</td></tr><tr><td>en</td><td>Portal Comment</td><td>undefined</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -877,7 +876,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ServiceActivity_/hasAttributes/activityId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "ServiceActivity_/hasAttributes/activityId"
+  "ServiceActivity/hasAttributes/activityId"
   ```
 
 
@@ -998,7 +997,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1007,7 +1006,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1218,7 +1217,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 - **is.ordered**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ServiceActivity_/hasAttributes/sortDate"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "ServiceActivity_/hasAttributes/sortDate"
+  "ServiceActivity/hasAttributes/sortDate"
   ```
 
 
@@ -1622,7 +1621,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1631,7 +1630,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2026,7 +2025,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2035,7 +2034,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2128,7 +2127,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Channel</td></tr><tr><td>description</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>community</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Facebook</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Twitter</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Other</td><td>0</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Channel</td></tr><tr><td>description</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>community</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2137,7 +2136,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Facebook</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Twitter</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Other</td><td>0</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2815,7 +2814,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the service activity is open, completed, or canceled. Completed and canceled service activities are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the service activity is open, completed, or canceled. Completed and canceled service activities are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2824,7 +2823,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr><tr><td>en</td><td>Scheduled</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2832,7 +2831,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ServiceActivity_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "ServiceActivity_/hasAttributes/stateCode"
+  "ServiceActivity/hasAttributes/stateCode"
   ```
 
 
@@ -2883,7 +2882,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the service activity's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Requested</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Pending</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Reserved</td><td>4</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>6</td><td>4</td></tr><tr><td>en</td><td>Arrived</td><td>7</td><td>5</td></tr><tr><td>en</td><td>Completed</td><td>8</td><td>6</td></tr><tr><td>en</td><td>Canceled</td><td>9</td><td>7</td></tr><tr><td>en</td><td>No Show</td><td>10</td><td>8</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the service activity's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Requested</td><td>1</td></tr><tr><td>en</td><td>Tentative</td><td>2</td></tr><tr><td>en</td><td>Pending</td><td>3</td></tr><tr><td>en</td><td>Reserved</td><td>4</td></tr><tr><td>en</td><td>In Progress</td><td>6</td></tr><tr><td>en</td><td>Arrived</td><td>7</td></tr><tr><td>en</td><td>Completed</td><td>8</td></tr><tr><td>en</td><td>Canceled</td><td>9</td></tr><tr><td>en</td><td>No Show</td><td>10</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2892,7 +2891,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Se
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Requested</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Pending</td><td>3</td><td>2</td><td>3</td></tr><tr><td>en</td><td>Reserved</td><td>4</td><td>3</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>6</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Arrived</td><td>7</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Completed</td><td>8</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>9</td><td>7</td><td>2</td></tr><tr><td>en</td><td>No Show</td><td>10</td><td>8</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Requested</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Pending</td><td>3</td><td>2</td><td>3</td></tr><tr><td>en</td><td>Reserved</td><td>4</td><td>3</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>6</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Arrived</td><td>7</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Completed</td><td>8</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>9</td><td>7</td><td>2</td></tr><tr><td>en</td><td>No Show</td><td>10</td><td>8</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

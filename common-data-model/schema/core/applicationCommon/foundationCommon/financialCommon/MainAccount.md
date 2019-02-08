@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Main Account
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccount.cdm.json" target="_blank">Link on GitHub</a>).  
 An account whose balance is displayed in major financial statements  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/MainAccount.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 financialCommon/MainAccount  
 
-## Traits for Main Account
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ financialCommon/MainAccount
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MainAccount_/hasAttributes/mainAccountId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "MainAccount_/hasAttributes/mainAccountId"
+  "MainAccount/hasAttributes/mainAccountId"
   ```
 
 
@@ -73,7 +72,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Main
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MainAccount_/hasAttributes/mainAccountId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "MainAccount_/hasAttributes/mainAccountId"
+  "MainAccount/hasAttributes/mainAccountId"
   ```
 
 

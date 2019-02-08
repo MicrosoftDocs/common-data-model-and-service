@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Location
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.cdm.json" target="_blank">Link on GitHub</a>).  
 Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained or accommodated.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 electronicMedicalRecords/Location  
 
-## Traits for Location
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,14 +25,14 @@ electronicMedicalRecords/Location
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Location_/hasAttributes/locationId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Location_/hasAttributes/locationId"
+  "Location/hasAttributes/locationId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Location_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Location_/hasAttributes/stateCode"
+  "Location/hasAttributes/stateCode"
   ```
 
 
@@ -131,7 +130,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Location_/hasAttributes/locationId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Location_/hasAttributes/locationId"
+  "Location/hasAttributes/locationId"
   ```
 
 
@@ -462,7 +461,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Location</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Location</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -471,7 +470,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -479,7 +478,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Location_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Location_/hasAttributes/stateCode"
+  "Location/hasAttributes/stateCode"
   ```
 
 
@@ -530,7 +529,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Location</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Location</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -539,7 +538,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1263,7 +1262,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_addresstype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Postal</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Physical</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Both</td><td>935000002</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Type</td></tr><tr><td>description</td><td>Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_addresstype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Postal</td><td>935000000</td></tr><tr><td>en</td><td>Physical</td><td>935000001</td></tr><tr><td>en</td><td>Both</td><td>935000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1272,7 +1271,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Postal</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Physical</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Both</td><td>935000002</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Postal</td><td>935000000</td></tr><tr><td>en</td><td>Physical</td><td>935000001</td></tr><tr><td>en</td><td>Both</td><td>935000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1327,7 +1326,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Use</td></tr><tr><td>description</td><td>The purpose of this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_addressuse</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Home</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Work</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Old</td><td>935000003</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address Use</td></tr><tr><td>description</td><td>The purpose of this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_addressuse</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>935000000</td></tr><tr><td>en</td><td>Work</td><td>935000001</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td></tr><tr><td>en</td><td>Old</td><td>935000003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1336,7 +1335,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Home</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Work</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Old</td><td>935000003</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Home</td><td>935000000</td></tr><tr><td>en</td><td>Work</td><td>935000001</td></tr><tr><td>en</td><td>Temp</td><td>935000002</td></tr><tr><td>en</td><td>Old</td><td>935000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1756,7 +1755,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Mode</td></tr><tr><td>description</td><td>Indicates whether a resource instance represents a specific location or a class of locations.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_mode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>instance</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Kind</td><td>935000001</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Mode</td></tr><tr><td>description</td><td>Indicates whether a resource instance represents a specific location or a class of locations.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_mode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>instance</td><td>935000000</td></tr><tr><td>en</td><td>Kind</td><td>935000001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1765,7 +1764,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>instance</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Kind</td><td>935000001</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>instance</td><td>935000000</td></tr><tr><td>en</td><td>Kind</td><td>935000001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1820,7 +1819,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operational Status</td></tr><tr><td>description</td><td>The Operational status covers operation values most relevant to beds (but can also apply to rooms/units/chair/etc such as an isolation unit/dialysis chair).</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_operationalstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Closed</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Housekeeping</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Isolated</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Contaminated</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>Occupied</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>Unoccupied</td><td>935000005</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operational Status</td></tr><tr><td>description</td><td>The Operational status covers operation values most relevant to beds (but can also apply to rooms/units/chair/etc such as an isolation unit/dialysis chair).</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_operationalstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Closed</td><td>935000000</td></tr><tr><td>en</td><td>Housekeeping</td><td>935000001</td></tr><tr><td>en</td><td>Isolated</td><td>935000002</td></tr><tr><td>en</td><td>Contaminated</td><td>935000003</td></tr><tr><td>en</td><td>Occupied</td><td>935000004</td></tr><tr><td>en</td><td>Unoccupied</td><td>935000005</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1829,7 +1828,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Closed</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Housekeeping</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Isolated</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Contaminated</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>Occupied</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>Unoccupied</td><td>935000005</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Closed</td><td>935000000</td></tr><tr><td>en</td><td>Housekeeping</td><td>935000001</td></tr><tr><td>en</td><td>Isolated</td><td>935000002</td></tr><tr><td>en</td><td>Contaminated</td><td>935000003</td></tr><tr><td>en</td><td>Occupied</td><td>935000004</td></tr><tr><td>en</td><td>Unoccupied</td><td>935000005</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1974,7 +1973,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>The status property covers the general availability of the resource, not the current value which may be covered by the operationStatus, or by a schedule/slots if they are configured for the location.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Suspended</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>935000002</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>The status property covers the general availability of the resource, not the current value which may be covered by the operationStatus, or by a schedule/slots if they are configured for the location.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>935000000</td></tr><tr><td>en</td><td>Suspended</td><td>935000001</td></tr><tr><td>en</td><td>Inactive</td><td>935000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1983,7 +1982,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Suspended</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>935000002</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>935000000</td></tr><tr><td>en</td><td>Suspended</td><td>935000001</td></tr><tr><td>en</td><td>Inactive</td><td>935000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

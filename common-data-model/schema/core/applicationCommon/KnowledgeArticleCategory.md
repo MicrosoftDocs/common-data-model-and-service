@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Knowledge Article Category
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleCategory.cdm.json" target="_blank">Link on GitHub</a>).  
 Category for a Knowledge Article.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/KnowledgeArticleCategory.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/KnowledgeArticleCategory  
 
-## Traits for Knowledge Article Category
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ applicationCommon/KnowledgeArticleCategory
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"KnowledgeArticleCategory_/hasAttributes/knowledge...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "KnowledgeArticleCategory_/hasAttributes/knowledgeArticleCategoryId"
+  "KnowledgeArticleCategory/hasAttributes/knowledgeArticleCategoryId"
   ```
 
 
@@ -136,7 +135,7 @@ First included in: /core/applicationCommon/KnowledgeArticleCategory.cdm.json/Kno
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"KnowledgeArticleCategory_/hasAttributes/knowledge...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "KnowledgeArticleCategory_/hasAttributes/knowledgeArticleCategoryId"
+  "KnowledgeArticleCategory/hasAttributes/knowledgeArticleCategoryId"
   ```
 
 

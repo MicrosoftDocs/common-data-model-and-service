@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Territory
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Territory.cdm.json" target="_blank">Link on GitHub</a>).  
 Territory represents sales regions.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Territory.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/Territory  
 
-## Traits for Territory
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ applicationCommon/Territory
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Territory_/hasAttributes/territoryId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Territory_/hasAttributes/territoryId"
+  "Territory/hasAttributes/territoryId"
   ```
 
 
@@ -92,7 +91,7 @@ First included in: /core/applicationCommon/Territory.cdm.json/Territory
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Territory_/hasAttributes/territoryId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Territory_/hasAttributes/territoryId"
+  "Territory/hasAttributes/territoryId"
   ```
 
 

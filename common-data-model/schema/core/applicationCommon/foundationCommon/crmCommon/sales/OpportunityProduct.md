@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Opportunity Product
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityProduct.cdm.json" target="_blank">Link on GitHub</a>).  
 Association between an opportunity and a product.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/OpportunityProduct.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 sales/OpportunityProduct  
 
-## Traits for Opportunity Product
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,7 +28,7 @@ sales/OpportunityProduct
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"OpportunityProduct_/hasAttributes/opportunityProductId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "OpportunityProduct_/hasAttributes/opportunityProductId"
+  "OpportunityProduct/hasAttributes/opportunityProductId"
   ```
 
 
@@ -807,7 +806,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"OpportunityProduct_/hasAttributes/opportunityProductId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "OpportunityProduct_/hasAttributes/opportunityProductId"
+  "OpportunityProduct/hasAttributes/opportunityProductId"
   ```
 
 
@@ -1365,7 +1364,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Opportunity Status</td></tr><tr><td>description</td><td>Select the status of the opportunity product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>opportunitystatecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Opportunity Status</td></tr><tr><td>description</td><td>Select the status of the opportunity product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>opportunitystatecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1374,7 +1373,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1508,7 +1507,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product type</td></tr><tr><td>description</td><td>Product Type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>producttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Product</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Bundle</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Required Bundle Product</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Optional Bundle Product</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Project-based Service</td><td>5</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product type</td></tr><tr><td>description</td><td>Product Type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>producttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Product</td><td>1</td></tr><tr><td>en</td><td>Bundle</td><td>2</td></tr><tr><td>en</td><td>Required Bundle Product</td><td>3</td></tr><tr><td>en</td><td>Optional Bundle Product</td><td>4</td></tr><tr><td>en</td><td>Project-based Service</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1517,7 +1516,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Product</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Bundle</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Required Bundle Product</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Optional Bundle Product</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Project-based Service</td><td>5</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Product</td><td>1</td></tr><tr><td>en</td><td>Bundle</td><td>2</td></tr><tr><td>en</td><td>Required Bundle Product</td><td>3</td></tr><tr><td>en</td><td>Optional Bundle Product</td><td>4</td></tr><tr><td>en</td><td>Project-based Service</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1654,7 +1653,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Select the pricing error for the opportunity product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td><td>37</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Select the pricing error for the opportunity product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1663,7 +1662,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td><td>37</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2137,7 +2136,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Property Configuration</td></tr><tr><td>description</td><td>Status of the property configuration.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>propertyconfigurationstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Edit</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Rectify</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Not Configured</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Property Configuration</td></tr><tr><td>description</td><td>Status of the property configuration.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>propertyconfigurationstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Edit</td><td>0</td></tr><tr><td>en</td><td>Rectify</td><td>1</td></tr><tr><td>en</td><td>Not Configured</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2146,7 +2145,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Oppo
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Edit</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Rectify</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Not Configured</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Edit</td><td>0</td></tr><tr><td>en</td><td>Rectify</td><td>1</td></tr><tr><td>en</td><td>Not Configured</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

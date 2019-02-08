@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Resource Specification
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json" target="_blank">Link on GitHub</a>).  
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/ResourceSpecification.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 service/ResourceSpecification  
 
-## Traits for Resource Specification
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ service/ResourceSpecification
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ResourceSpecification_/hasAttributes/resourceSpecId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "ResourceSpecification_/hasAttributes/resourceSpecId"
+  "ResourceSpecification/hasAttributes/resourceSpecId"
   ```
 
 
@@ -96,7 +95,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Re
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ResourceSpecification_/hasAttributes/resourceSpecId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "ResourceSpecification_/hasAttributes/resourceSpecId"
+  "ResourceSpecification/hasAttributes/resourceSpecId"
   ```
 
 

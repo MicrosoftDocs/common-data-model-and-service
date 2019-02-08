@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Quick Campaign
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json" target="_blank">Link on GitHub</a>).  
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/QuickCampaign.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 crmCommon/QuickCampaign  
 
-## Traits for Quick Campaign
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,14 +28,14 @@ crmCommon/QuickCampaign
 - **is.ordered**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"QuickCampaign_/hasAttributes/sortDate"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "QuickCampaign_/hasAttributes/sortDate"
+  "QuickCampaign/hasAttributes/sortDate"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"QuickCampaign_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "QuickCampaign_/hasAttributes/stateCode"
+  "QuickCampaign/hasAttributes/stateCode"
   ```
 
 
@@ -831,7 +830,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Fax</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Phone Call</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Email</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Letter</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Appointment</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Task</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Quick Campaign</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Activity</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Response</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Case Resolution</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Service Activity</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Opportunity Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Order Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Quote Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Alert Subscription</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Invite Redemption</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Portal Comment</td><td>undefined</td><td>undefined</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fax</td><td>undefined</td></tr><tr><td>en</td><td>Phone Call</td><td>undefined</td></tr><tr><td>en</td><td>Email</td><td>undefined</td></tr><tr><td>en</td><td>Letter</td><td>undefined</td></tr><tr><td>en</td><td>Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Task</td><td>undefined</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Quick Campaign</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Activity</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Response</td><td>undefined</td></tr><tr><td>en</td><td>Case Resolution</td><td>undefined</td></tr><tr><td>en</td><td>Service Activity</td><td>undefined</td></tr><tr><td>en</td><td>Opportunity Close</td><td>undefined</td></tr><tr><td>en</td><td>Order Close</td><td>undefined</td></tr><tr><td>en</td><td>Quote Close</td><td>undefined</td></tr><tr><td>en</td><td>Alert Subscription</td><td>undefined</td></tr><tr><td>en</td><td>Invite Redemption</td><td>undefined</td></tr><tr><td>en</td><td>Portal Comment</td><td>undefined</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -885,7 +884,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"QuickCampaign_/hasAttributes/activityId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "QuickCampaign_/hasAttributes/activityId"
+  "QuickCampaign/hasAttributes/activityId"
   ```
 
 
@@ -1006,7 +1005,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1015,7 +1014,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1226,7 +1225,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 - **is.ordered**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"QuickCampaign_/hasAttributes/sortDate"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "QuickCampaign_/hasAttributes/sortDate"
+  "QuickCampaign/hasAttributes/sortDate"
   ```
 
 
@@ -1555,7 +1554,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurring Instance Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1564,7 +1563,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1959,7 +1958,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1968,7 +1967,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2061,7 +2060,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Channel</td></tr><tr><td>description</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>community</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Facebook</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Twitter</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Other</td><td>0</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Social Channel</td></tr><tr><td>description</td><td>Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>community</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2070,7 +2069,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Facebook</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Twitter</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Other</td><td>0</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Facebook</td><td>1</td></tr><tr><td>en</td><td>Twitter</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2421,7 +2420,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the quick campaign is open, closed, or canceled.  Closed or canceled quick campaigns are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the quick campaign is open, closed, or canceled.  Closed or canceled quick campaigns are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2430,7 +2429,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2438,7 +2437,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"QuickCampaign_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "QuickCampaign_/hasAttributes/stateCode"
+  "QuickCampaign/hasAttributes/stateCode"
   ```
 
 
@@ -2489,7 +2488,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the quick campaign's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Aborted</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the quick campaign's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td></tr><tr><td>en</td><td>In Progress</td><td>2</td></tr><tr><td>en</td><td>Aborted</td><td>3</td></tr><tr><td>en</td><td>Completed</td><td>4</td></tr><tr><td>en</td><td>Canceled</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2498,7 +2497,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Aborted</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Pending</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Aborted</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2963,7 +2962,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Choose the activity to create that determines how target prospects or customers in this quick campaign are contacted.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdrecordtypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Phone Call</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Fax</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Letter</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Email</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Appointment</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Send Direct Email</td><td>6</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Choose the activity to create that determines how target prospects or customers in this quick campaign are contacted.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdrecordtypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Phone Call</td><td>1</td></tr><tr><td>en</td><td>Fax</td><td>2</td></tr><tr><td>en</td><td>Letter</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>4</td></tr><tr><td>en</td><td>Appointment</td><td>5</td></tr><tr><td>en</td><td>Send Direct Email</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2972,7 +2971,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Phone Call</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Fax</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Letter</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Email</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Appointment</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Send Direct Email</td><td>6</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Phone Call</td><td>1</td></tr><tr><td>en</td><td>Fax</td><td>2</td></tr><tr><td>en</td><td>Letter</td><td>3</td></tr><tr><td>en</td><td>Email</td><td>4</td></tr><tr><td>en</td><td>Appointment</td><td>5</td></tr><tr><td>en</td><td>Send Direct Email</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3103,7 +3102,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operation</td></tr><tr><td>description</td><td>Select the type of bulk operation process, such as quick campaign or campaign activity distribution.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>operationtypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Create Opportunities</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Create Activities</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Send Direct Mail</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Distribute</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Execute</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Quick Campaign</td><td>7</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operation</td></tr><tr><td>description</td><td>Select the type of bulk operation process, such as quick campaign or campaign activity distribution.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>operationtypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Create Opportunities</td><td>1</td></tr><tr><td>en</td><td>Create Activities</td><td>2</td></tr><tr><td>en</td><td>Send Direct Mail</td><td>3</td></tr><tr><td>en</td><td>Distribute</td><td>4</td></tr><tr><td>en</td><td>Execute</td><td>5</td></tr><tr><td>en</td><td>Quick Campaign</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3112,7 +3111,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Create Opportunities</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Create Activities</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Send Direct Mail</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Distribute</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Execute</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Quick Campaign</td><td>7</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Create Opportunities</td><td>1</td></tr><tr><td>en</td><td>Create Activities</td><td>2</td></tr><tr><td>en</td><td>Send Direct Mail</td><td>3</td></tr><tr><td>en</td><td>Distribute</td><td>4</td></tr><tr><td>en</td><td>Execute</td><td>5</td></tr><tr><td>en</td><td>Quick Campaign</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3285,7 +3284,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Members Type</td></tr><tr><td>description</td><td>Select the type of records targeted in the quick campaign to identify the target audience.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetedrecordtypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Account</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contact</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Lead</td><td>4</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Members Type</td></tr><tr><td>description</td><td>Select the type of records targeted in the quick campaign to identify the target audience.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetedrecordtypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Account</td><td>1</td></tr><tr><td>en</td><td>Contact</td><td>2</td></tr><tr><td>en</td><td>Lead</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3294,7 +3293,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/QuickCampa
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Account</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contact</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Lead</td><td>4</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Account</td><td>1</td></tr><tr><td>en</td><td>Contact</td><td>2</td></tr><tr><td>en</td><td>Lead</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

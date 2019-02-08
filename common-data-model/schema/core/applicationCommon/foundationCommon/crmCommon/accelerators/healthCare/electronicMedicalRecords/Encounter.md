@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Encounter
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json" target="_blank">Link on GitHub</a>).  
 An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 electronicMedicalRecords/Encounter  
 
-## Traits for Encounter
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,14 +28,14 @@ electronicMedicalRecords/Encounter
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Encounter_/hasAttributes/encounterId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Encounter_/hasAttributes/encounterId"
+  "Encounter/hasAttributes/encounterId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Encounter_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Encounter_/hasAttributes/stateCode"
+  "Encounter/hasAttributes/stateCode"
   ```
 
 
@@ -811,7 +810,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Encounter_/hasAttributes/encounterId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Encounter_/hasAttributes/encounterId"
+  "Encounter/hasAttributes/encounterId"
   ```
 
 
@@ -839,7 +838,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Encounter</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Encounter</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -848,7 +847,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -856,7 +855,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Encounter_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Encounter_/hasAttributes/stateCode"
+  "Encounter/hasAttributes/stateCode"
   ```
 
 
@@ -907,7 +906,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Encounter</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>5</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>1</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>3</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>4</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>6</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>7</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>8</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>9</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Encounter</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -916,7 +915,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>3</td><td>0</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>9</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>3</td><td>0</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>7</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>9</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1060,7 +1059,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Type of: inpatient | outpatient | ambulatory | emergency +.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_class</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td><td>8</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td><td>9</td></tr><tr><td>en</td><td>field</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>home health</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td><td>5</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td><td>6</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Type of: inpatient | outpatient | ambulatory | emergency +.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_class</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1069,7 +1068,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td><td>8</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td><td>9</td></tr><tr><td>en</td><td>field</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>home health</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td><td>5</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td><td>6</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1244,7 +1243,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Refers to the class of encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterclass</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Outpatient</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Ambulatory</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Emergency</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>Inpatient</td><td>935000000</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Refers to the class of encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterclass</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Outpatient</td><td>935000001</td></tr><tr><td>en</td><td>Ambulatory</td><td>935000002</td></tr><tr><td>en</td><td>Emergency</td><td>935000003</td></tr><tr><td>en</td><td>Inpatient</td><td>935000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1253,7 +1252,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Outpatient</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Ambulatory</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>Emergency</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>Inpatient</td><td>935000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Outpatient</td><td>935000001</td></tr><tr><td>en</td><td>Ambulatory</td><td>935000002</td></tr><tr><td>en</td><td>Emergency</td><td>935000003</td></tr><tr><td>en</td><td>Inpatient</td><td>935000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1644,7 +1643,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Refers to the status of encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Planned</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>8</td></tr><tr><td>en</td><td>Triaged</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>On Leave</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>Finished</td><td>935000005</td><td>5</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>6</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Refers to the status of encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Planned</td><td>935000000</td></tr><tr><td>en</td><td>Arrived</td><td>935000001</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td></tr><tr><td>en</td><td>Triaged</td><td>935000002</td></tr><tr><td>en</td><td>In Progress</td><td>935000003</td></tr><tr><td>en</td><td>On Leave</td><td>935000004</td></tr><tr><td>en</td><td>Finished</td><td>935000005</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1653,7 +1652,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Planned</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>8</td></tr><tr><td>en</td><td>Triaged</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>On Leave</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>Finished</td><td>935000005</td><td>5</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>6</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Planned</td><td>935000000</td></tr><tr><td>en</td><td>Arrived</td><td>935000001</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td></tr><tr><td>en</td><td>Triaged</td><td>935000002</td></tr><tr><td>en</td><td>In Progress</td><td>935000003</td></tr><tr><td>en</td><td>On Leave</td><td>935000004</td></tr><tr><td>en</td><td>Finished</td><td>935000005</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2090,7 +2089,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Indicates the urgency of the encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_priority</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>timing critical</td><td>935000012</td><td>12</td></tr><tr><td>en</td><td>use as directed</td><td>935000013</td><td>13</td></tr><tr><td>en</td><td>urgent</td><td>935000014</td><td>14</td></tr><tr><td>en</td><td>emergency</td><td>935000006</td><td>6</td></tr><tr><td>en</td><td>preop</td><td>935000007</td><td>7</td></tr><tr><td>en</td><td>as needed</td><td>935000008</td><td>8</td></tr><tr><td>en</td><td>routine</td><td>935000009</td><td>9</td></tr><tr><td>en</td><td>rush reporting</td><td>935000010</td><td>10</td></tr><tr><td>en</td><td>stat</td><td>935000011</td><td>11</td></tr><tr><td>en</td><td>ASAP</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>callback results</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>callback for scheduling</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>callback placer for scheduling</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>contact recipient for scheduling</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>elective</td><td>935000005</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Indicates the urgency of the encounter.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_priority</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>timing critical</td><td>935000012</td></tr><tr><td>en</td><td>use as directed</td><td>935000013</td></tr><tr><td>en</td><td>urgent</td><td>935000014</td></tr><tr><td>en</td><td>emergency</td><td>935000006</td></tr><tr><td>en</td><td>preop</td><td>935000007</td></tr><tr><td>en</td><td>as needed</td><td>935000008</td></tr><tr><td>en</td><td>routine</td><td>935000009</td></tr><tr><td>en</td><td>rush reporting</td><td>935000010</td></tr><tr><td>en</td><td>stat</td><td>935000011</td></tr><tr><td>en</td><td>ASAP</td><td>935000000</td></tr><tr><td>en</td><td>callback results</td><td>935000001</td></tr><tr><td>en</td><td>callback for scheduling</td><td>935000002</td></tr><tr><td>en</td><td>callback placer for scheduling</td><td>935000003</td></tr><tr><td>en</td><td>contact recipient for scheduling</td><td>935000004</td></tr><tr><td>en</td><td>elective</td><td>935000005</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2099,7 +2098,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>timing critical</td><td>935000012</td><td>12</td></tr><tr><td>en</td><td>use as directed</td><td>935000013</td><td>13</td></tr><tr><td>en</td><td>urgent</td><td>935000014</td><td>14</td></tr><tr><td>en</td><td>emergency</td><td>935000006</td><td>6</td></tr><tr><td>en</td><td>preop</td><td>935000007</td><td>7</td></tr><tr><td>en</td><td>as needed</td><td>935000008</td><td>8</td></tr><tr><td>en</td><td>routine</td><td>935000009</td><td>9</td></tr><tr><td>en</td><td>rush reporting</td><td>935000010</td><td>10</td></tr><tr><td>en</td><td>stat</td><td>935000011</td><td>11</td></tr><tr><td>en</td><td>ASAP</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>callback results</td><td>935000001</td><td>1</td></tr><tr><td>en</td><td>callback for scheduling</td><td>935000002</td><td>2</td></tr><tr><td>en</td><td>callback placer for scheduling</td><td>935000003</td><td>3</td></tr><tr><td>en</td><td>contact recipient for scheduling</td><td>935000004</td><td>4</td></tr><tr><td>en</td><td>elective</td><td>935000005</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>timing critical</td><td>935000012</td></tr><tr><td>en</td><td>use as directed</td><td>935000013</td></tr><tr><td>en</td><td>urgent</td><td>935000014</td></tr><tr><td>en</td><td>emergency</td><td>935000006</td></tr><tr><td>en</td><td>preop</td><td>935000007</td></tr><tr><td>en</td><td>as needed</td><td>935000008</td></tr><tr><td>en</td><td>routine</td><td>935000009</td></tr><tr><td>en</td><td>rush reporting</td><td>935000010</td></tr><tr><td>en</td><td>stat</td><td>935000011</td></tr><tr><td>en</td><td>ASAP</td><td>935000000</td></tr><tr><td>en</td><td>callback results</td><td>935000001</td></tr><tr><td>en</td><td>callback for scheduling</td><td>935000002</td></tr><tr><td>en</td><td>callback placer for scheduling</td><td>935000003</td></tr><tr><td>en</td><td>contact recipient for scheduling</td><td>935000004</td></tr><tr><td>en</td><td>elective</td><td>935000005</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

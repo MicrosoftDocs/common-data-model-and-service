@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # User
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/User.cdm.json" target="_blank">Link on GitHub</a>).  
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/User.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/User  
 [service/User](foundationCommon/crmCommon/service/User.md "/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User")  
 
-## Traits for User
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -27,7 +26,7 @@ applicationCommon/User
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"User_/hasAttributes/systemUserId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "User_/hasAttributes/systemUserId"
+  "User/hasAttributes/systemUserId"
   ```
 
 
@@ -210,7 +209,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"User_/hasAttributes/systemUserId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "User_/hasAttributes/systemUserId"
+  "User/hasAttributes/systemUserId"
   ```
 
 
@@ -811,7 +810,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Email</td></tr><tr><td>description</td><td>Preferred email address for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredemailcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Email</td></tr><tr><td>description</td><td>Preferred email address for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredemailcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -820,7 +819,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -957,7 +956,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Phone</td></tr><tr><td>description</td><td>Preferred phone number for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredphonecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Main Phone</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Other Phone</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Home Phone</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Mobile Phone</td><td>4</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Phone</td></tr><tr><td>description</td><td>Preferred phone number for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredphonecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Main Phone</td><td>1</td></tr><tr><td>en</td><td>Other Phone</td><td>2</td></tr><tr><td>en</td><td>Home Phone</td><td>3</td></tr><tr><td>en</td><td>Mobile Phone</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -966,7 +965,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Main Phone</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Other Phone</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Home Phone</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Mobile Phone</td><td>4</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Main Phone</td><td>1</td></tr><tr><td>en</td><td>Other Phone</td><td>2</td></tr><tr><td>en</td><td>Home Phone</td><td>3</td></tr><tr><td>en</td><td>Mobile Phone</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1021,7 +1020,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Address</td></tr><tr><td>description</td><td>Preferred address for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredaddresscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Mailing Address</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Other Address</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Address</td></tr><tr><td>description</td><td>Preferred address for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredaddresscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mailing Address</td><td>1</td></tr><tr><td>en</td><td>Other Address</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1030,7 +1029,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Mailing Address</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Other Address</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Mailing Address</td><td>1</td></tr><tr><td>en</td><td>Other Address</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1639,7 +1638,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 1: Address Type</td></tr><tr><td>description</td><td>Type of address for address 1, such as billing, shipping, or primary address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address1_addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 1: Address Type</td></tr><tr><td>description</td><td>Type of address for address 1, such as billing, shipping, or primary address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address1_addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1648,7 +1647,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2314,7 +2313,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 1: Shipping Method</td></tr><tr><td>description</td><td>Method of shipment for address 1.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address1_shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 1: Shipping Method</td></tr><tr><td>description</td><td>Method of shipment for address 1.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address1_shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2323,7 +2322,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2539,7 +2538,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 2: Address Type</td></tr><tr><td>description</td><td>Type of address for address 2, such as billing, shipping, or primary address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address2_addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 2: Address Type</td></tr><tr><td>description</td><td>Type of address for address 2, such as billing, shipping, or primary address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address2_addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2548,7 +2547,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3214,7 +3213,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 2: Shipping Method</td></tr><tr><td>description</td><td>Method of shipment for address 2.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address2_shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 2: Shipping Method</td></tr><tr><td>description</td><td>Method of shipment for address 2.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address2_shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3223,7 +3222,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3590,7 +3589,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Incoming Email Delivery Method</td></tr><tr><td>description</td><td>Incoming email delivery method for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>incomingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Incoming Email Delivery Method</td></tr><tr><td>description</td><td>Incoming email delivery method for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>incomingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3599,7 +3598,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr><tr><td>en</td><td>Forward Mailbox</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3651,7 +3650,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Outgoing Email Delivery Method</td></tr><tr><td>description</td><td>Outgoing email delivery method for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>outgoingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Outgoing Email Delivery Method</td></tr><tr><td>description</td><td>Outgoing email delivery method for the user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>outgoingemaildeliverymethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3660,7 +3659,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 for Outlook</td><td>1</td></tr><tr><td>en</td><td>Server-Side Synchronization or Email Router</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3750,7 +3749,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Access Mode</td></tr><tr><td>description</td><td>Type of user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>accessmode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Read-Write</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Read</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Support User</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Non-interactive</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Delegated Admin</td><td>5</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Access Mode</td></tr><tr><td>description</td><td>Type of user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>accessmode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Read-Write</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Read</td><td>2</td></tr><tr><td>en</td><td>Support User</td><td>3</td></tr><tr><td>en</td><td>Non-interactive</td><td>4</td></tr><tr><td>en</td><td>Delegated Admin</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3759,7 +3758,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Read-Write</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Read</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Support User</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Non-interactive</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Delegated Admin</td><td>5</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Read-Write</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Read</td><td>2</td></tr><tr><td>en</td><td>Support User</td><td>3</td></tr><tr><td>en</td><td>Non-interactive</td><td>4</td></tr><tr><td>en</td><td>Delegated Admin</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3811,7 +3810,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invitation Status</td></tr><tr><td>description</td><td>User invitation status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>invitestatuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Invitation Not Sent</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Invited</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Invitation Near Expired</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Invitation Expired</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Invitation Accepted</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Invitation Rejected</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Invitation Revoked</td><td>6</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invitation Status</td></tr><tr><td>description</td><td>User invitation status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>invitestatuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invitation Not Sent</td><td>0</td></tr><tr><td>en</td><td>Invited</td><td>1</td></tr><tr><td>en</td><td>Invitation Near Expired</td><td>2</td></tr><tr><td>en</td><td>Invitation Expired</td><td>3</td></tr><tr><td>en</td><td>Invitation Accepted</td><td>4</td></tr><tr><td>en</td><td>Invitation Rejected</td><td>5</td></tr><tr><td>en</td><td>Invitation Revoked</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3820,7 +3819,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Invitation Not Sent</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Invited</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Invitation Near Expired</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Invitation Expired</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Invitation Accepted</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Invitation Rejected</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Invitation Revoked</td><td>6</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Invitation Not Sent</td><td>0</td></tr><tr><td>en</td><td>Invited</td><td>1</td></tr><tr><td>en</td><td>Invitation Near Expired</td><td>2</td></tr><tr><td>en</td><td>Invitation Expired</td><td>3</td></tr><tr><td>en</td><td>Invitation Accepted</td><td>4</td></tr><tr><td>en</td><td>Invitation Rejected</td><td>5</td></tr><tr><td>en</td><td>Invitation Revoked</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4357,7 +4356,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Email Status</td></tr><tr><td>description</td><td>Shows the status of the primary email address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>emailrouteraccessapproval</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Empty</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Email Status</td></tr><tr><td>description</td><td>Shows the status of the primary email address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>emailrouteraccessapproval</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Empty</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4366,7 +4365,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Empty</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Empty</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Pending Approval</td><td>2</td></tr><tr><td>en</td><td>Rejected</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4503,7 +4502,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>License Type</td></tr><tr><td>description</td><td>License type of user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>caltype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Professional</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Basic</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Device Professional</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Device Basic</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Essential</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Device Essential</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Enterprise</td><td>7</td><td>7</td></tr><tr><td>en</td><td>Device Enterprise</td><td>8</td><td>8</td></tr><tr><td>en</td><td>Sales</td><td>9</td><td>9</td></tr><tr><td>en</td><td>Service</td><td>10</td><td>10</td></tr><tr><td>en</td><td>Field Service</td><td>11</td><td>11</td></tr><tr><td>en</td><td>Project Service</td><td>12</td><td>12</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>License Type</td></tr><tr><td>description</td><td>License type of user.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>caltype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Professional</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Basic</td><td>2</td></tr><tr><td>en</td><td>Device Professional</td><td>3</td></tr><tr><td>en</td><td>Device Basic</td><td>4</td></tr><tr><td>en</td><td>Essential</td><td>5</td></tr><tr><td>en</td><td>Device Essential</td><td>6</td></tr><tr><td>en</td><td>Enterprise</td><td>7</td></tr><tr><td>en</td><td>Device Enterprise</td><td>8</td></tr><tr><td>en</td><td>Sales</td><td>9</td></tr><tr><td>en</td><td>Service</td><td>10</td></tr><tr><td>en</td><td>Field Service</td><td>11</td></tr><tr><td>en</td><td>Project Service</td><td>12</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4512,7 +4511,7 @@ First included in: /core/applicationCommon/User.cdm.json/User
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Professional</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Basic</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Device Professional</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Device Basic</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Essential</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Device Essential</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Enterprise</td><td>7</td><td>7</td></tr><tr><td>en</td><td>Device Enterprise</td><td>8</td><td>8</td></tr><tr><td>en</td><td>Sales</td><td>9</td><td>9</td></tr><tr><td>en</td><td>Service</td><td>10</td><td>10</td></tr><tr><td>en</td><td>Field Service</td><td>11</td><td>11</td></tr><tr><td>en</td><td>Project Service</td><td>12</td><td>12</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Professional</td><td>0</td></tr><tr><td>en</td><td>Administrative</td><td>1</td></tr><tr><td>en</td><td>Basic</td><td>2</td></tr><tr><td>en</td><td>Device Professional</td><td>3</td></tr><tr><td>en</td><td>Device Basic</td><td>4</td></tr><tr><td>en</td><td>Essential</td><td>5</td></tr><tr><td>en</td><td>Device Essential</td><td>6</td></tr><tr><td>en</td><td>Enterprise</td><td>7</td></tr><tr><td>en</td><td>Device Enterprise</td><td>8</td></tr><tr><td>en</td><td>Sales</td><td>9</td></tr><tr><td>en</td><td>Service</td><td>10</td></tr><tr><td>en</td><td>Field Service</td><td>11</td></tr><tr><td>en</td><td>Project Service</td><td>12</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

@@ -10,17 +10,16 @@ ms.author: tpalmer
 
 # Lead
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json" target="_blank">Link on GitHub</a>).  
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 [crmCommon/Lead](../../Lead.md "/core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.json/Lead")  
 [nonProfit/Lead](../../accelerators/nonProfit/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Lead.cdm.json/Lead")  
 marketing/Lead  
 
-## Traits for Lead
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -31,14 +30,14 @@ marketing/Lead
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Lead_/hasAttributes/leadId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Lead_/hasAttributes/leadId"
+  "Lead/hasAttributes/leadId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Lead_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Lead_/hasAttributes/stateCode"
+  "Lead/hasAttributes/stateCode"
   ```
 
 
@@ -959,7 +958,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Lead_/hasAttributes/leadId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Lead_/hasAttributes/leadId"
+  "Lead/hasAttributes/leadId"
   ```
 
 
@@ -1279,7 +1278,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 1: Address Type</td></tr><tr><td>description</td><td>Select the primary address type.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address1_addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 1: Address Type</td></tr><tr><td>description</td><td>Select the primary address type.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address1_addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1288,7 +1287,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1871,7 +1870,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 1: Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address1_shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 1: Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address1_shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1880,7 +1879,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2219,7 +2218,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 2: Address Type</td></tr><tr><td>description</td><td>Select the secondary address type.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address2_addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 2: Address Type</td></tr><tr><td>description</td><td>Select the secondary address type.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address2_addresstypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2228,7 +2227,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2811,7 +2810,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 2: Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address2_shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address 2: Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>address2_shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2820,7 +2819,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3290,7 +3289,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget</td></tr><tr><td>description</td><td>Information about the budget status of the lead's company or organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>budgetstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td><td>0</td></tr><tr><td>en</td><td>May Buy</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Will Buy</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget</td></tr><tr><td>description</td><td>Information about the budget status of the lead's company or organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>budgetstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td></tr><tr><td>en</td><td>May Buy</td><td>1</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td></tr><tr><td>en</td><td>Will Buy</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3299,7 +3298,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td><td>0</td></tr><tr><td>en</td><td>May Buy</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Will Buy</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No Committed Budget</td><td>0</td></tr><tr><td>en</td><td>May Buy</td><td>1</td></tr><tr><td>en</td><td>Can Buy</td><td>2</td></tr><tr><td>en</td><td>Will Buy</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4197,7 +4196,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Accounting</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Brokers</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Business Services</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Consulting</td><td>7</td><td>6</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td><td>7</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td><td>8</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td><td>9</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td><td>10</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td><td>11</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td><td>12</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td><td>13</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td><td>14</td></tr><tr><td>en</td><td>Financial</td><td>16</td><td>15</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td><td>16</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td><td>17</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td><td>18</td></tr><tr><td>en</td><td>Insurance</td><td>20</td><td>19</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td><td>20</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td><td>21</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td><td>22</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td><td>23</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td><td>24</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td><td>25</td></tr><tr><td>en</td><td>Social Services</td><td>27</td><td>26</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td><td>27</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td><td>28</td></tr><tr><td>en</td><td>Transportation</td><td>30</td><td>29</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td><td>30</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td><td>31</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td><td>32</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4206,7 +4205,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Accounting</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Brokers</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Business Services</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Consulting</td><td>7</td><td>6</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td><td>7</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td><td>8</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td><td>9</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td><td>10</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td><td>11</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td><td>12</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td><td>13</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td><td>14</td></tr><tr><td>en</td><td>Financial</td><td>16</td><td>15</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td><td>16</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td><td>17</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td><td>18</td></tr><tr><td>en</td><td>Insurance</td><td>20</td><td>19</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td><td>20</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td><td>21</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td><td>22</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td><td>23</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td><td>24</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td><td>25</td></tr><tr><td>en</td><td>Social Services</td><td>27</td><td>26</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td><td>27</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td><td>28</td></tr><tr><td>en</td><td>Transportation</td><td>30</td><td>29</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td><td>30</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td><td>31</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td><td>32</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Accounting</td><td>1</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>2</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>3</td></tr><tr><td>en</td><td>Brokers</td><td>4</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>5</td></tr><tr><td>en</td><td>Business Services</td><td>6</td></tr><tr><td>en</td><td>Consulting</td><td>7</td></tr><tr><td>en</td><td>Consumer Services</td><td>8</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>9</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>10</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>11</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>12</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>13</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>14</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>15</td></tr><tr><td>en</td><td>Financial</td><td>16</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>17</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>18</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>19</td></tr><tr><td>en</td><td>Insurance</td><td>20</td></tr><tr><td>en</td><td>Legal Services</td><td>21</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>22</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>23</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>24</td></tr><tr><td>en</td><td>Service Retail</td><td>25</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>26</td></tr><tr><td>en</td><td>Social Services</td><td>27</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>28</td></tr><tr><td>en</td><td>Specialty Realty</td><td>29</td></tr><tr><td>en</td><td>Transportation</td><td>30</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>31</td></tr><tr><td>en</td><td>Vehicle Retail</td><td>32</td></tr><tr><td>en</td><td>Wholesale</td><td>33</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4261,7 +4260,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Initial Communication</td></tr><tr><td>description</td><td>Choose whether someone from the sales team contacted this lead earlier.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>initialcommunication</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Contacted</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Not Contacted</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Initial Communication</td></tr><tr><td>description</td><td>Choose whether someone from the sales team contacted this lead earlier.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>initialcommunication</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contacted</td><td>0</td></tr><tr><td>en</td><td>Not Contacted</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4270,7 +4269,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Contacted</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Not Contacted</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contacted</td><td>0</td></tr><tr><td>en</td><td>Not Contacted</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4444,7 +4443,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rating</td></tr><tr><td>description</td><td>Select a rating value to indicate the lead's potential to become a customer.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>leadqualitycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Hot</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Warm</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cold</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rating</td></tr><tr><td>description</td><td>Select a rating value to indicate the lead's potential to become a customer.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>leadqualitycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Hot</td><td>1</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Cold</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4453,7 +4452,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Hot</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Warm</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cold</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Hot</td><td>1</td></tr><tr><td>en</td><td>Warm</td><td>2</td></tr><tr><td>en</td><td>Cold</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4508,7 +4507,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead Source</td></tr><tr><td>description</td><td>Select the primary marketing source that prompted the lead to contact you.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>leadsourcecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td><td>1</td></tr><tr><td>en</td><td>External Referral</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Partner</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Seminar</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td><td>6</td></tr><tr><td>en</td><td>Web</td><td>8</td><td>7</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td><td>8</td></tr><tr><td>en</td><td>Other</td><td>10</td><td>9</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead Source</td></tr><tr><td>description</td><td>Select the primary marketing source that prompted the lead to contact you.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>leadsourcecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td></tr><tr><td>en</td><td>External Referral</td><td>3</td></tr><tr><td>en</td><td>Partner</td><td>4</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td></tr><tr><td>en</td><td>Seminar</td><td>6</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td></tr><tr><td>en</td><td>Web</td><td>8</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td></tr><tr><td>en</td><td>Other</td><td>10</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4517,7 +4516,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td><td>1</td></tr><tr><td>en</td><td>External Referral</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Partner</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Seminar</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td><td>6</td></tr><tr><td>en</td><td>Web</td><td>8</td><td>7</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td><td>8</td></tr><tr><td>en</td><td>Other</td><td>10</td><td>9</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr><tr><td>en</td><td>Employee Referral</td><td>2</td></tr><tr><td>en</td><td>External Referral</td><td>3</td></tr><tr><td>en</td><td>Partner</td><td>4</td></tr><tr><td>en</td><td>Public Relations</td><td>5</td></tr><tr><td>en</td><td>Seminar</td><td>6</td></tr><tr><td>en</td><td>Trade Show</td><td>7</td></tr><tr><td>en</td><td>Web</td><td>8</td></tr><tr><td>en</td><td>Word of Mouth</td><td>9</td></tr><tr><td>en</td><td>Other</td><td>10</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4734,7 +4733,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Need</td></tr><tr><td>description</td><td>Choose how high the level of need is for the lead's company.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>need</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Must have</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Should have</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Good to have</td><td>2</td><td>2</td></tr><tr><td>en</td><td>No need</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Need</td></tr><tr><td>description</td><td>Choose how high the level of need is for the lead's company.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>need</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Must have</td><td>0</td></tr><tr><td>en</td><td>Should have</td><td>1</td></tr><tr><td>en</td><td>Good to have</td><td>2</td></tr><tr><td>en</td><td>No need</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4743,7 +4742,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Must have</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Should have</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Good to have</td><td>2</td><td>2</td></tr><tr><td>en</td><td>No need</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Must have</td><td>0</td></tr><tr><td>en</td><td>Should have</td><td>1</td></tr><tr><td>en</td><td>Good to have</td><td>2</td></tr><tr><td>en</td><td>No need</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4911,7 +4910,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>description</td><td>Select the preferred method of contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Any</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Email</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Phone</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Fax</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Mail</td><td>5</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>description</td><td>Select the preferred method of contact.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4920,7 +4919,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Any</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Email</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Phone</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Fax</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Mail</td><td>5</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Phone</td><td>3</td></tr><tr><td>en</td><td>Fax</td><td>4</td></tr><tr><td>en</td><td>Mail</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4975,7 +4974,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Select the priority so that preferred customers or critical issues are handled quickly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Select the priority so that preferred customers or critical issues are handled quickly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4984,7 +4983,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5039,7 +5038,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase Process</td></tr><tr><td>description</td><td>Choose whether an individual or a committee will be involved in the  purchase process for the lead.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>purchaseprocess</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Individual</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Committee</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase Process</td></tr><tr><td>description</td><td>Choose whether an individual or a committee will be involved in the  purchase process for the lead.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>purchaseprocess</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Individual</td><td>0</td></tr><tr><td>en</td><td>Committee</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5048,7 +5047,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Individual</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Committee</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Individual</td><td>0</td></tr><tr><td>en</td><td>Committee</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5228,7 +5227,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales Stage</td></tr><tr><td>description</td><td>Select the sales stage of this lead to aid the sales team in their efforts to convert this lead to an opportunity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>salesstage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Qualify</td><td>0</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales Stage</td></tr><tr><td>description</td><td>Select the sales stage of this lead to aid the sales team in their efforts to convert this lead to an opportunity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>salesstage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Qualify</td><td>0</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5237,7 +5236,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Qualify</td><td>0</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Qualify</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5292,7 +5291,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales Stage Code</td></tr><tr><td>description</td><td>Select the sales process stage for the lead to help determine the probability of the lead converting to an opportunity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>salesstagecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales Stage Code</td></tr><tr><td>description</td><td>Select the sales process stage for the lead to help determine the probability of the lead converting to an opportunity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>salesstagecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5301,7 +5300,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5512,7 +5511,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Disqualified</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>1</td></tr><tr><td>en</td><td>Disqualified</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5521,7 +5520,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Disqualified</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>1</td></tr><tr><td>en</td><td>Disqualified</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5529,7 +5528,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Lead_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Lead_/hasAttributes/stateCode"
+  "Lead/hasAttributes/stateCode"
   ```
 
 
@@ -5580,7 +5579,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the lead's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>4</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the lead's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>New</td><td>1</td></tr><tr><td>en</td><td>Contacted</td><td>2</td></tr><tr><td>en</td><td>Qualified</td><td>3</td></tr><tr><td>en</td><td>Lost</td><td>4</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td></tr><tr><td>en</td><td>Canceled</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5589,7 +5588,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>6</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>6</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5810,7 +5809,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase Timeframe</td></tr><tr><td>description</td><td>Choose how long the lead will likely take to make the purchase, so the sales team will be aware.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>purchasetimeframe</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Immediate</td><td>0</td><td>0</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td><td>2</td></tr><tr><td>en</td><td>This Year</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Unknown</td><td>4</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase Timeframe</td></tr><tr><td>description</td><td>Choose how long the lead will likely take to make the purchase, so the sales team will be aware.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>purchasetimeframe</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Unknown</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5819,7 +5818,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Lead.cdm.j
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Immediate</td><td>0</td><td>0</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td><td>2</td></tr><tr><td>en</td><td>This Year</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Unknown</td><td>4</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Immediate</td><td>0</td></tr><tr><td>en</td><td>This Quarter</td><td>1</td></tr><tr><td>en</td><td>Next Quarter</td><td>2</td></tr><tr><td>en</td><td>This Year</td><td>3</td></tr><tr><td>en</td><td>Unknown</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6909,7 +6908,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead source type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_leadsourcetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Marketing</td><td>192350000</td><td>0</td></tr><tr><td>en</td><td>Sales</td><td>192350001</td><td>1</td></tr><tr><td>en</td><td>Teleprospect</td><td>192350002</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead source type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_leadsourcetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Marketing</td><td>192350000</td></tr><tr><td>en</td><td>Sales</td><td>192350001</td></tr><tr><td>en</td><td>Teleprospect</td><td>192350002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -6918,7 +6917,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Marketing</td><td>192350000</td><td>0</td></tr><tr><td>en</td><td>Sales</td><td>192350001</td><td>1</td></tr><tr><td>en</td><td>Teleprospect</td><td>192350002</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Marketing</td><td>192350000</td></tr><tr><td>en</td><td>Sales</td><td>192350001</td></tr><tr><td>en</td><td>Teleprospect</td><td>192350002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

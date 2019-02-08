@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Ledger
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">Link on GitHub</a>).  
 The collection of all accounts making up the central repository of accounting data for a company.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/financialCommon/Ledger.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 financialCommon/Ledger  
 
-## Traits for Ledger
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ financialCommon/Ledger
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Ledger_/hasAttributes/ledgerId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Ledger_/hasAttributes/ledgerId"
+  "Ledger/hasAttributes/ledgerId"
   ```
 
 
@@ -73,7 +72,7 @@ First included in: /core/applicationCommon/foundationCommon/financialCommon/Ledg
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Ledger_/hasAttributes/ledgerId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Ledger_/hasAttributes/ledgerId"
+  "Ledger/hasAttributes/ledgerId"
   ```
 
 

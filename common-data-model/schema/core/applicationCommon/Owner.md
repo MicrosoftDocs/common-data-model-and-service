@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Owner
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Owner.cdm.json" target="_blank">Link on GitHub</a>).  
 Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Owner.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/Owner  
 
-## Traits for Owner
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ applicationCommon/Owner
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Owner_/hasAttributes/ownerId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Owner_/hasAttributes/ownerId"
+  "Owner/hasAttributes/ownerId"
   ```
 
 
@@ -107,7 +106,7 @@ First included in: /core/applicationCommon/Owner.cdm.json/Owner
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Owner_/hasAttributes/ownerId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Owner_/hasAttributes/ownerId"
+  "Owner/hasAttributes/ownerId"
   ```
 
 

@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Property Instance
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json" target="_blank">Link on GitHub</a>).  
 Instance of a property with its value.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/PropertyInstance.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 [foundationCommon/PropertyInstance](../../PropertyInstance.md "/core/applicationCommon/foundationCommon/PropertyInstance.cdm.json/PropertyInstance")  
 sales/PropertyInstance  
 
-## Traits for Property Instance
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -807,7 +806,7 @@ First included in: /core/applicationCommon/foundationCommon/PropertyInstance.cdm
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"PropertyInstance_/hasAttributes/dynamicPropertyInstanceid"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "PropertyInstance_/hasAttributes/dynamicPropertyInstanceid"
+  "PropertyInstance/hasAttributes/dynamicPropertyInstanceid"
   ```
 
 

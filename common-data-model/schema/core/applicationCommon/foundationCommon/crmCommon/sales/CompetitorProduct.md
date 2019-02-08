@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Competitor Product
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorProduct.cdm.json" target="_blank">Link on GitHub</a>).  
 Association between a competitor and a product offered by the competitor.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/CompetitorProduct.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 sales/CompetitorProduct  
 
-## Traits for Competitor Product
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ sales/CompetitorProduct
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CompetitorProduct_/hasAttributes/competitorProductId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "CompetitorProduct_/hasAttributes/competitorProductId"
+  "CompetitorProduct/hasAttributes/competitorProductId"
   ```
 
 
@@ -82,7 +81,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Comp
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CompetitorProduct_/hasAttributes/competitorProductId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "CompetitorProduct_/hasAttributes/competitorProductId"
+  "CompetitorProduct/hasAttributes/competitorProductId"
   ```
 
 

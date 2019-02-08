@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Unit
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Unit.cdm.json" target="_blank">Link on GitHub</a>).  
 Unit of measure.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Unit.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 foundationCommon/Unit  
 
-## Traits for Unit
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ foundationCommon/Unit
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Unit_/hasAttributes/uoMId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Unit_/hasAttributes/uoMId"
+  "Unit/hasAttributes/uoMId"
   ```
 
 
@@ -93,7 +92,7 @@ First included in: /core/applicationCommon/foundationCommon/Unit.cdm.json/Unit
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Unit_/hasAttributes/uoMId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Unit_/hasAttributes/uoMId"
+  "Unit/hasAttributes/uoMId"
   ```
 
 

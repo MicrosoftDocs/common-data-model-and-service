@@ -10,14 +10,13 @@ ms.author: tpalmer
 
 # Create custom channel activity contact processed
 
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json" target="_blank">Entity definition</a> on GitHub.  
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/CreateCustomChannelActivityContactProcessed.cdm.json" target="_blank">Link on GitHub</a>).  
 
-## Instances
+### Instances
 
 interactions/CreateCustomChannelActivityContactProcessed  
 
-## Traits for Create custom channel activity contact processed
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -25,7 +24,7 @@ interactions/CreateCustomChannelActivityContactProcessed
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CreateCustomChannelActivityContactProcessed_/hasA...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "CreateCustomChannelActivityContactProcessed_/hasAttributes/interactionId"
+  "CreateCustomChannelActivityContactProcessed/hasAttributes/interactionId"
   ```
 
 
@@ -71,7 +70,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"CreateCustomChannelActivityContactProcessed_/hasA...(see Definition below)</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "CreateCustomChannelActivityContactProcessed_/hasAttributes/interactionId"
+  "CreateCustomChannelActivityContactProcessed/hasAttributes/interactionId"
   ```
 
 

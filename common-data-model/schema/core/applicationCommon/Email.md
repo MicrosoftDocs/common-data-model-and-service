@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Email
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Email.cdm.json" target="_blank">Link on GitHub</a>).  
 Activity that is delivered using email protocols.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Email.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/Email  
 [crmCommon/Email](foundationCommon/crmCommon/Email.md "/core/applicationCommon/foundationCommon/crmCommon/Email.cdm.json/Email")  
 
-## Traits for Email
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -30,14 +29,14 @@ applicationCommon/Email
 - **is.ordered**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Email_/hasAttributes/sortDate"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Email_/hasAttributes/sortDate"
+  "Email/hasAttributes/sortDate"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Email_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Email_/hasAttributes/stateCode"
+  "Email/hasAttributes/stateCode"
   ```
 
 
@@ -848,7 +847,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Fax</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Phone Call</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Email</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Letter</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Appointment</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Task</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Quick Campaign</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Activity</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Response</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Case Resolution</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Service Activity</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Opportunity Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Order Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Quote Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Alert Subscription</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Invite Redemption</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Portal Comment</td><td>undefined</td><td>undefined</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fax</td><td>undefined</td></tr><tr><td>en</td><td>Phone Call</td><td>undefined</td></tr><tr><td>en</td><td>Email</td><td>undefined</td></tr><tr><td>en</td><td>Letter</td><td>undefined</td></tr><tr><td>en</td><td>Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Task</td><td>undefined</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Quick Campaign</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Activity</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Response</td><td>undefined</td></tr><tr><td>en</td><td>Case Resolution</td><td>undefined</td></tr><tr><td>en</td><td>Service Activity</td><td>undefined</td></tr><tr><td>en</td><td>Opportunity Close</td><td>undefined</td></tr><tr><td>en</td><td>Order Close</td><td>undefined</td></tr><tr><td>en</td><td>Quote Close</td><td>undefined</td></tr><tr><td>en</td><td>Alert Subscription</td><td>undefined</td></tr><tr><td>en</td><td>Invite Redemption</td><td>undefined</td></tr><tr><td>en</td><td>Portal Comment</td><td>undefined</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -902,7 +901,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Email_/hasAttributes/activityId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Email_/hasAttributes/activityId"
+  "Email/hasAttributes/activityId"
   ```
 
 
@@ -1023,7 +1022,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1032,7 +1031,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1243,7 +1242,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 - **is.ordered**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Email_/hasAttributes/sortDate"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Email_/hasAttributes/sortDate"
+  "Email/hasAttributes/sortDate"
   ```
 
 
@@ -1803,7 +1802,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Priority</td></tr><tr><td>description</td><td>Priority of delivery of the activity to the email server.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>deliveryprioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1812,7 +1811,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1896,7 +1895,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the email's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>6</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>7</td></tr><tr><td>en</td><td>Draft</td><td>1</td><td>8</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>9</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>10</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>11</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>12</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>13</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>14</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>15</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the email's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>2</td></tr><tr><td>en</td><td>Sent</td><td>3</td></tr><tr><td>en</td><td>Received</td><td>4</td></tr><tr><td>en</td><td>Canceled</td><td>5</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td></tr><tr><td>en</td><td>Sending</td><td>7</td></tr><tr><td>en</td><td>Failed</td><td>8</td></tr><tr><td>en</td><td>Draft</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>2</td></tr><tr><td>en</td><td>Sent</td><td>3</td></tr><tr><td>en</td><td>Received</td><td>4</td></tr><tr><td>en</td><td>Canceled</td><td>5</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td></tr><tr><td>en</td><td>Sending</td><td>7</td></tr><tr><td>en</td><td>Failed</td><td>8</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1905,7 +1904,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>7</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>1</td><td>8</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>9</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>10</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>11</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>12</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>13</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>14</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>15</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>5</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>6</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>7</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>1</td><td>8</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>9</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>10</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>11</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>12</td><td>2</td></tr><tr><td>en</td><td>Pending Send</td><td>6</td><td>13</td><td>1</td></tr><tr><td>en</td><td>Sending</td><td>7</td><td>14</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>8</td><td>15</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2273,7 +2272,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Status</td></tr><tr><td>description</td><td>Shows whether the email is open, completed, or canceled. Completed and canceled email is read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Status</td></tr><tr><td>description</td><td>Shows whether the email is open, completed, or canceled. Completed and canceled email is read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2282,7 +2281,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2290,7 +2289,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Email_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Email_/hasAttributes/stateCode"
+  "Email/hasAttributes/stateCode"
   ```
 
 
@@ -2454,7 +2453,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notifications</td></tr><tr><td>description</td><td>Select the notification code to identify issues with the email recipients or attachments, such as blocked attachments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>notifications</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Truncated body.</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notifications</td></tr><tr><td>description</td><td>Select the notification code to identify issues with the email recipients or attachments, such as blocked attachments.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>notifications</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr><tr><td>en</td><td>Truncated body.</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2463,7 +2462,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Truncated body.</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>The message was saved as a Microsoft Dynamics 365 email record, but not all the attachments could be saved with it. An attachment cannot be saved if it is blocked or if its file type is invalid.</td><td>1</td></tr><tr><td>en</td><td>Truncated body.</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2957,7 +2956,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Correlation Method</td></tr><tr><td>description</td><td>Shows how an email is matched to an existing email in Microsoft Dynamics 365. For system use only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>correlationmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Skipped</td><td>1</td><td>1</td></tr><tr><td>en</td><td>XHeader</td><td>2</td><td>2</td></tr><tr><td>en</td><td>InReplyTo</td><td>3</td><td>3</td></tr><tr><td>en</td><td>TrackingToken</td><td>4</td><td>4</td></tr><tr><td>en</td><td>ConversationIndex</td><td>5</td><td>5</td></tr><tr><td>en</td><td>SmartMatching</td><td>6</td><td>6</td></tr><tr><td>en</td><td>CustomCorrelation</td><td>7</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Correlation Method</td></tr><tr><td>description</td><td>Shows how an email is matched to an existing email in Microsoft Dynamics 365. For system use only.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>correlationmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Skipped</td><td>1</td></tr><tr><td>en</td><td>XHeader</td><td>2</td></tr><tr><td>en</td><td>InReplyTo</td><td>3</td></tr><tr><td>en</td><td>TrackingToken</td><td>4</td></tr><tr><td>en</td><td>ConversationIndex</td><td>5</td></tr><tr><td>en</td><td>SmartMatching</td><td>6</td></tr><tr><td>en</td><td>CustomCorrelation</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2966,7 +2965,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Skipped</td><td>1</td><td>1</td></tr><tr><td>en</td><td>XHeader</td><td>2</td><td>2</td></tr><tr><td>en</td><td>InReplyTo</td><td>3</td><td>3</td></tr><tr><td>en</td><td>TrackingToken</td><td>4</td><td>4</td></tr><tr><td>en</td><td>ConversationIndex</td><td>5</td><td>5</td></tr><tr><td>en</td><td>SmartMatching</td><td>6</td><td>6</td></tr><tr><td>en</td><td>CustomCorrelation</td><td>7</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Skipped</td><td>1</td></tr><tr><td>en</td><td>XHeader</td><td>2</td></tr><tr><td>en</td><td>InReplyTo</td><td>3</td></tr><tr><td>en</td><td>TrackingToken</td><td>4</td></tr><tr><td>en</td><td>ConversationIndex</td><td>5</td></tr><tr><td>en</td><td>SmartMatching</td><td>6</td></tr><tr><td>en</td><td>CustomCorrelation</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3791,7 +3790,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Reminder Type</td></tr><tr><td>description</td><td>Shows the type of the email reminder.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>emailremindertype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>If I do not receive a reply by</td><td>0</td><td>0</td></tr><tr><td>en</td><td>If the email is not opened by</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Remind me anyways at</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Reminder Type</td></tr><tr><td>description</td><td>Shows the type of the email reminder.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>emailremindertype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>If I do not receive a reply by</td><td>0</td></tr><tr><td>en</td><td>If the email is not opened by</td><td>1</td></tr><tr><td>en</td><td>Remind me anyways at</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3800,7 +3799,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>If I do not receive a reply by</td><td>0</td><td>0</td></tr><tr><td>en</td><td>If the email is not opened by</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Remind me anyways at</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>If I do not receive a reply by</td><td>0</td></tr><tr><td>en</td><td>If the email is not opened by</td><td>1</td></tr><tr><td>en</td><td>Remind me anyways at</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3855,7 +3854,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Reminder Status</td></tr><tr><td>description</td><td>Shows the status of the email reminder.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>emailreminderstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>NotSet</td><td>0</td><td>0</td></tr><tr><td>en</td><td>ReminderSet</td><td>1</td><td>1</td></tr><tr><td>en</td><td>ReminderExpired</td><td>2</td><td>2</td></tr><tr><td>en</td><td>ReminderInvalid</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Reminder Status</td></tr><tr><td>description</td><td>Shows the status of the email reminder.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>emailreminderstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>NotSet</td><td>0</td></tr><tr><td>en</td><td>ReminderSet</td><td>1</td></tr><tr><td>en</td><td>ReminderExpired</td><td>2</td></tr><tr><td>en</td><td>ReminderInvalid</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3864,7 +3863,7 @@ First included in: /core/applicationCommon/Email.cdm.json/Email
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>NotSet</td><td>0</td><td>0</td></tr><tr><td>en</td><td>ReminderSet</td><td>1</td><td>1</td></tr><tr><td>en</td><td>ReminderExpired</td><td>2</td><td>2</td></tr><tr><td>en</td><td>ReminderInvalid</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>NotSet</td><td>0</td></tr><tr><td>en</td><td>ReminderSet</td><td>1</td></tr><tr><td>en</td><td>ReminderExpired</td><td>2</td></tr><tr><td>en</td><td>ReminderInvalid</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

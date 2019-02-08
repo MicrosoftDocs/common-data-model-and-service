@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Product
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Product.cdm.json" target="_blank">Link on GitHub</a>).  
 Information about products and their pricing information.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/Product.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 foundationCommon/Product  
 [electronicMedicalRecords/Product](crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
 
-## Traits for Product
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -27,14 +26,14 @@ foundationCommon/Product
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Product_/hasAttributes/productId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Product_/hasAttributes/productId"
+  "Product/hasAttributes/productId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Product_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Product_/hasAttributes/stateCode"
+  "Product/hasAttributes/stateCode"
   ```
 
 
@@ -139,7 +138,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Product_/hasAttributes/productId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Product_/hasAttributes/productId"
+  "Product/hasAttributes/productId"
   ```
 
 
@@ -1429,7 +1428,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Structure</td></tr><tr><td>description</td><td>Product Structure.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>productstructure</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Product</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Product Family</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Product Bundle</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Structure</td></tr><tr><td>description</td><td>Product Structure.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>productstructure</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Product</td><td>1</td></tr><tr><td>en</td><td>Product Family</td><td>2</td></tr><tr><td>en</td><td>Product Bundle</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1438,7 +1437,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Product</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Product Family</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Product Bundle</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Product</td><td>1</td></tr><tr><td>en</td><td>Product Family</td><td>2</td></tr><tr><td>en</td><td>Product Bundle</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1527,7 +1526,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Type</td></tr><tr><td>description</td><td>Type of product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>producttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Sales Inventory</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Miscellaneous Charges</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Services</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Flat Fees</td><td>4</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product Type</td></tr><tr><td>description</td><td>Type of product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>producttypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sales Inventory</td><td>1</td></tr><tr><td>en</td><td>Miscellaneous Charges</td><td>2</td></tr><tr><td>en</td><td>Services</td><td>3</td></tr><tr><td>en</td><td>Flat Fees</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1536,7 +1535,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Sales Inventory</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Miscellaneous Charges</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Services</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Flat Fees</td><td>4</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sales Inventory</td><td>1</td></tr><tr><td>en</td><td>Miscellaneous Charges</td><td>2</td></tr><tr><td>en</td><td>Services</td><td>3</td></tr><tr><td>en</td><td>Flat Fees</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1835,7 +1834,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1844,7 +1843,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1852,7 +1851,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Product_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Product_/hasAttributes/stateCode"
+  "Product/hasAttributes/stateCode"
   ```
 
 
@@ -1903,7 +1902,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Retired</td><td>2</td></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1912,7 +1911,7 @@ First included in: /core/applicationCommon/foundationCommon/Product.cdm.json/Pro
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Retired</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>0</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Under Revision</td><td>3</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Planned Giving
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving.cdm.json" target="_blank">Link on GitHub</a>).  
 A planned gift is a major gift made during a donor's lifetime or at the time of their death that involves their estate and tax planning.  There are many forms of planned giving, but the three most common vehicles are CRTs (Charitable Remainder Trusts), Bequests and Annuities, which all have different tax benefits and financial reconciliation guidelines for the nonprofit organization. Planned gifts are in contrast to annual gifts, which are made through a donor's discretionary income and not tied to an estate.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/PlannedGiving.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 nonProfit/PlannedGiving  
 
-## Traits for Planned Giving
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,14 +28,14 @@ nonProfit/PlannedGiving
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"PlannedGiving_/hasAttributes/plannedGivingId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "PlannedGiving_/hasAttributes/plannedGivingId"
+  "PlannedGiving/hasAttributes/plannedGivingId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"PlannedGiving_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "PlannedGiving_/hasAttributes/stateCode"
+  "PlannedGiving/hasAttributes/stateCode"
   ```
 
 
@@ -896,7 +895,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"PlannedGiving_/hasAttributes/plannedGivingId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "PlannedGiving_/hasAttributes/plannedGivingId"
+  "PlannedGiving/hasAttributes/plannedGivingId"
   ```
 
 
@@ -924,7 +923,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -933,7 +932,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -941,7 +940,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"PlannedGiving_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "PlannedGiving_/hasAttributes/stateCode"
+  "PlannedGiving/hasAttributes/stateCode"
   ```
 
 
@@ -992,7 +991,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1001,7 +1000,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1136,7 +1135,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Affiliation</td></tr><tr><td>description</td><td>Represents groups within the organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_affiliation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>NGO</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Affiliation</td></tr><tr><td>description</td><td>Represents groups within the organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_affiliation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>NGO</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1145,7 +1144,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>NGO</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>NGO</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1864,7 +1863,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Bequest Type</td></tr><tr><td>description</td><td>Is the Bequest a Living Trust, Will, or both?</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_bequesttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Living Trust</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Will</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Living Trust and Will</td><td>100000002</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Bequest Type</td></tr><tr><td>description</td><td>Is the Bequest a Living Trust, Will, or both?</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_bequesttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Living Trust</td><td>100000000</td></tr><tr><td>en</td><td>Will</td><td>100000001</td></tr><tr><td>en</td><td>Living Trust and Will</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1873,7 +1872,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Living Trust</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Will</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Living Trust and Will</td><td>100000002</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Living Trust</td><td>100000000</td></tr><tr><td>en</td><td>Will</td><td>100000001</td></tr><tr><td>en</td><td>Living Trust and Will</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2645,7 +2644,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Day</td></tr><tr><td>description</td><td>Day the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>01</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>02</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>03</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>04</td><td>100000003</td><td>3</td></tr><tr><td>en</td><td>05</td><td>100000004</td><td>4</td></tr><tr><td>en</td><td>06</td><td>100000005</td><td>5</td></tr><tr><td>en</td><td>07</td><td>100000006</td><td>6</td></tr><tr><td>en</td><td>08</td><td>100000007</td><td>7</td></tr><tr><td>en</td><td>09</td><td>100000008</td><td>8</td></tr><tr><td>en</td><td>10</td><td>100000009</td><td>9</td></tr><tr><td>en</td><td>11</td><td>100000010</td><td>10</td></tr><tr><td>en</td><td>12</td><td>100000011</td><td>11</td></tr><tr><td>en</td><td>13</td><td>100000012</td><td>12</td></tr><tr><td>en</td><td>14</td><td>100000013</td><td>13</td></tr><tr><td>en</td><td>15</td><td>100000014</td><td>14</td></tr><tr><td>en</td><td>16</td><td>100000015</td><td>15</td></tr><tr><td>en</td><td>17</td><td>100000016</td><td>16</td></tr><tr><td>en</td><td>18</td><td>100000017</td><td>17</td></tr><tr><td>en</td><td>19</td><td>100000018</td><td>18</td></tr><tr><td>en</td><td>20</td><td>100000019</td><td>19</td></tr><tr><td>en</td><td>21</td><td>100000020</td><td>20</td></tr><tr><td>en</td><td>22</td><td>100000021</td><td>21</td></tr><tr><td>en</td><td>23</td><td>100000022</td><td>22</td></tr><tr><td>en</td><td>24</td><td>100000023</td><td>23</td></tr><tr><td>en</td><td>25</td><td>100000024</td><td>24</td></tr><tr><td>en</td><td>26</td><td>100000025</td><td>25</td></tr><tr><td>en</td><td>27</td><td>100000026</td><td>26</td></tr><tr><td>en</td><td>28</td><td>100000027</td><td>27</td></tr><tr><td>en</td><td>29</td><td>100000028</td><td>28</td></tr><tr><td>en</td><td>30</td><td>100000029</td><td>29</td></tr><tr><td>en</td><td>31</td><td>100000030</td><td>30</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Day</td></tr><tr><td>description</td><td>Day the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>100000001</td></tr><tr><td>en</td><td>03</td><td>100000002</td></tr><tr><td>en</td><td>04</td><td>100000003</td></tr><tr><td>en</td><td>05</td><td>100000004</td></tr><tr><td>en</td><td>06</td><td>100000005</td></tr><tr><td>en</td><td>07</td><td>100000006</td></tr><tr><td>en</td><td>08</td><td>100000007</td></tr><tr><td>en</td><td>09</td><td>100000008</td></tr><tr><td>en</td><td>10</td><td>100000009</td></tr><tr><td>en</td><td>11</td><td>100000010</td></tr><tr><td>en</td><td>12</td><td>100000011</td></tr><tr><td>en</td><td>13</td><td>100000012</td></tr><tr><td>en</td><td>14</td><td>100000013</td></tr><tr><td>en</td><td>15</td><td>100000014</td></tr><tr><td>en</td><td>16</td><td>100000015</td></tr><tr><td>en</td><td>17</td><td>100000016</td></tr><tr><td>en</td><td>18</td><td>100000017</td></tr><tr><td>en</td><td>19</td><td>100000018</td></tr><tr><td>en</td><td>20</td><td>100000019</td></tr><tr><td>en</td><td>21</td><td>100000020</td></tr><tr><td>en</td><td>22</td><td>100000021</td></tr><tr><td>en</td><td>23</td><td>100000022</td></tr><tr><td>en</td><td>24</td><td>100000023</td></tr><tr><td>en</td><td>25</td><td>100000024</td></tr><tr><td>en</td><td>26</td><td>100000025</td></tr><tr><td>en</td><td>27</td><td>100000026</td></tr><tr><td>en</td><td>28</td><td>100000027</td></tr><tr><td>en</td><td>29</td><td>100000028</td></tr><tr><td>en</td><td>30</td><td>100000029</td></tr><tr><td>en</td><td>31</td><td>100000030</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2654,7 +2653,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>01</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>02</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>03</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>04</td><td>100000003</td><td>3</td></tr><tr><td>en</td><td>05</td><td>100000004</td><td>4</td></tr><tr><td>en</td><td>06</td><td>100000005</td><td>5</td></tr><tr><td>en</td><td>07</td><td>100000006</td><td>6</td></tr><tr><td>en</td><td>08</td><td>100000007</td><td>7</td></tr><tr><td>en</td><td>09</td><td>100000008</td><td>8</td></tr><tr><td>en</td><td>10</td><td>100000009</td><td>9</td></tr><tr><td>en</td><td>11</td><td>100000010</td><td>10</td></tr><tr><td>en</td><td>12</td><td>100000011</td><td>11</td></tr><tr><td>en</td><td>13</td><td>100000012</td><td>12</td></tr><tr><td>en</td><td>14</td><td>100000013</td><td>13</td></tr><tr><td>en</td><td>15</td><td>100000014</td><td>14</td></tr><tr><td>en</td><td>16</td><td>100000015</td><td>15</td></tr><tr><td>en</td><td>17</td><td>100000016</td><td>16</td></tr><tr><td>en</td><td>18</td><td>100000017</td><td>17</td></tr><tr><td>en</td><td>19</td><td>100000018</td><td>18</td></tr><tr><td>en</td><td>20</td><td>100000019</td><td>19</td></tr><tr><td>en</td><td>21</td><td>100000020</td><td>20</td></tr><tr><td>en</td><td>22</td><td>100000021</td><td>21</td></tr><tr><td>en</td><td>23</td><td>100000022</td><td>22</td></tr><tr><td>en</td><td>24</td><td>100000023</td><td>23</td></tr><tr><td>en</td><td>25</td><td>100000024</td><td>24</td></tr><tr><td>en</td><td>26</td><td>100000025</td><td>25</td></tr><tr><td>en</td><td>27</td><td>100000026</td><td>26</td></tr><tr><td>en</td><td>28</td><td>100000027</td><td>27</td></tr><tr><td>en</td><td>29</td><td>100000028</td><td>28</td></tr><tr><td>en</td><td>30</td><td>100000029</td><td>29</td></tr><tr><td>en</td><td>31</td><td>100000030</td><td>30</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>100000001</td></tr><tr><td>en</td><td>03</td><td>100000002</td></tr><tr><td>en</td><td>04</td><td>100000003</td></tr><tr><td>en</td><td>05</td><td>100000004</td></tr><tr><td>en</td><td>06</td><td>100000005</td></tr><tr><td>en</td><td>07</td><td>100000006</td></tr><tr><td>en</td><td>08</td><td>100000007</td></tr><tr><td>en</td><td>09</td><td>100000008</td></tr><tr><td>en</td><td>10</td><td>100000009</td></tr><tr><td>en</td><td>11</td><td>100000010</td></tr><tr><td>en</td><td>12</td><td>100000011</td></tr><tr><td>en</td><td>13</td><td>100000012</td></tr><tr><td>en</td><td>14</td><td>100000013</td></tr><tr><td>en</td><td>15</td><td>100000014</td></tr><tr><td>en</td><td>16</td><td>100000015</td></tr><tr><td>en</td><td>17</td><td>100000016</td></tr><tr><td>en</td><td>18</td><td>100000017</td></tr><tr><td>en</td><td>19</td><td>100000018</td></tr><tr><td>en</td><td>20</td><td>100000019</td></tr><tr><td>en</td><td>21</td><td>100000020</td></tr><tr><td>en</td><td>22</td><td>100000021</td></tr><tr><td>en</td><td>23</td><td>100000022</td></tr><tr><td>en</td><td>24</td><td>100000023</td></tr><tr><td>en</td><td>25</td><td>100000024</td></tr><tr><td>en</td><td>26</td><td>100000025</td></tr><tr><td>en</td><td>27</td><td>100000026</td></tr><tr><td>en</td><td>28</td><td>100000027</td></tr><tr><td>en</td><td>29</td><td>100000028</td></tr><tr><td>en</td><td>30</td><td>100000029</td></tr><tr><td>en</td><td>31</td><td>100000030</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2709,7 +2708,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Month</td></tr><tr><td>description</td><td>Month the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedmonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>01
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Month</td></tr><tr><td>description</td><td>Month the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedmonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01
 02
 03
 04
@@ -2720,7 +2719,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 09
 10
 11
-12</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+12</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2729,7 +2728,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>01
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01
 02
 03
 04
@@ -2740,7 +2739,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 09
 10
 11
-12</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+12</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2795,7 +2794,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Year</td></tr><tr><td>description</td><td>Year the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Unknown
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Year</td></tr><tr><td>description</td><td>Year the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown
 2013
 2012
 2011
@@ -2805,7 +2804,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 2007
 2006
 2005
-2004</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+2004</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2814,7 +2813,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Unknown
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown
 2013
 2012
 2011
@@ -2824,7 +2823,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 2007
 2006
 2005
-2004</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+2004</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3042,7 +3041,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designation</td></tr><tr><td>description</td><td>Usage of gift funds will be unrestricted, restricted or permanently restricted.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Unrestricted</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Restricted</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Permanently Restriceted</td><td>100000002</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designation</td></tr><tr><td>description</td><td>Usage of gift funds will be unrestricted, restricted or permanently restricted.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unrestricted</td><td>100000000</td></tr><tr><td>en</td><td>Restricted</td><td>100000001</td></tr><tr><td>en</td><td>Permanently Restriceted</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3051,7 +3050,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Unrestricted</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Restricted</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Permanently Restriceted</td><td>100000002</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unrestricted</td><td>100000000</td></tr><tr><td>en</td><td>Restricted</td><td>100000001</td></tr><tr><td>en</td><td>Permanently Restriceted</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3146,7 +3145,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate Month</td></tr><tr><td>description</td><td>Month in which latest Discount Rate was populated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountratemonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>01
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate Month</td></tr><tr><td>description</td><td>Month in which latest Discount Rate was populated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountratemonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01
 02
 03
 04
@@ -3157,7 +3156,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 09
 10
 11
-12</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+12</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3166,7 +3165,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>01
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01
 02
 03
 04
@@ -3177,7 +3176,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 09
 10
 11
-12</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+12</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3232,7 +3231,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate Year</td></tr><tr><td>description</td><td>Year in which latest Discount Rate was populated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountrateyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Unknown
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate Year</td></tr><tr><td>description</td><td>Year in which latest Discount Rate was populated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountrateyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown
 2013
 2012
 2011
@@ -3242,7 +3241,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 2007
 2006
 2005
-2004</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+2004</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3251,7 +3250,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Unknown
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown
 2013
 2012
 2011
@@ -3261,7 +3260,7 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 2007
 2006
 2005
-2004</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+2004</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3316,7 +3315,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Endowment Type</td></tr><tr><td>description</td><td>Specific endowment at organization where gift will be applied.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_endowmenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Board-Designated Endowment</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Permanent Endowment</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Donor directed</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>Current operations</td><td>100000003</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Endowment Type</td></tr><tr><td>description</td><td>Specific endowment at organization where gift will be applied.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_endowmenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Board-Designated Endowment</td><td>100000000</td></tr><tr><td>en</td><td>Permanent Endowment</td><td>100000001</td></tr><tr><td>en</td><td>Donor directed</td><td>100000002</td></tr><tr><td>en</td><td>Current operations</td><td>100000003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3325,7 +3324,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Board-Designated Endowment</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Permanent Endowment</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Donor directed</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>Current operations</td><td>100000003</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Board-Designated Endowment</td><td>100000000</td></tr><tr><td>en</td><td>Permanent Endowment</td><td>100000001</td></tr><tr><td>en</td><td>Donor directed</td><td>100000002</td></tr><tr><td>en</td><td>Current operations</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3825,7 +3824,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Giving Subtype</td></tr><tr><td>description</td><td>Specific type of Planned Giving instrument.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_givingsubtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Standard
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Giving Subtype</td></tr><tr><td>description</td><td>Specific type of Planned Giving instrument.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_givingsubtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Standard
 Flip
 Flip with Makeup
 Net Income
@@ -3840,7 +3839,7 @@ Traditional IRA
 Roth IRA
 403(b)/401k
 KEOGH
-Other Retirement Plan</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+Other Retirement Plan</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3849,7 +3848,7 @@ Other Retirement Plan</td><td>100000000</td><td>0</td></tr></table></td></tr></t
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Standard
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Standard
 Flip
 Flip with Makeup
 Net Income
@@ -3864,7 +3863,7 @@ Traditional IRA
 Roth IRA
 403(b)/401k
 KEOGH
-Other Retirement Plan</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+Other Retirement Plan</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4276,7 +4275,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead Source</td></tr><tr><td>description</td><td>Method of communication that prompted Donor to discuss Planned Giving options.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_leadsource</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Direct Mail
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead Source</td></tr><tr><td>description</td><td>Method of communication that prompted Donor to discuss Planned Giving options.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_leadsource</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Direct Mail
 E-Mail
 Other
 Phone In
@@ -4284,7 +4283,7 @@ Print Ad
 Referral
 Special Event
 TV Promo
-Web Site</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+Web Site</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4293,7 +4292,7 @@ Web Site</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Direct Mail
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Direct Mail
 E-Mail
 Other
 Phone In
@@ -4301,7 +4300,7 @@ Print Ad
 Referral
 Special Event
 TV Promo
-Web Site</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+Web Site</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4441,10 +4440,10 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Frequency</td></tr><tr><td>description</td><td>Defined frequency payments are distributed to the organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_paymentfrequency</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Monthly
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Frequency</td></tr><tr><td>description</td><td>Defined frequency payments are distributed to the organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_paymentfrequency</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Monthly
 Quarterly**
 Annually
-Semi-Annually</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+Semi-Annually</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4453,10 +4452,10 @@ Semi-Annually</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Monthly
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Monthly
 Quarterly**
 Annually
-Semi-Annually</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+Semi-Annually</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5057,7 +5056,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stage</td></tr><tr><td>description</td><td>The current phase the giving record.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_stage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stage</td></tr><tr><td>description</td><td>The current phase the giving record.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_stage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active
 Cultivating
 Intention
 Anonymous
@@ -5073,7 +5072,7 @@ Severed
 Inactive
 Estate in Administration process
 1st spouse deceased
-Termination processing</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+Termination processing</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5082,7 +5081,7 @@ Termination processing</td><td>100000000</td><td>0</td></tr></table></td></tr></
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active
 Cultivating
 Intention
 Anonymous
@@ -5098,7 +5097,7 @@ Severed
 Inactive
 Estate in Administration process
 1st spouse deceased
-Termination processing</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+Termination processing</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5276,10 +5275,10 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Term Type</td></tr><tr><td>description</td><td>Term type for the asset related to the Planned Giving record.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_termtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Lives only
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Term Type</td></tr><tr><td>description</td><td>Term type for the asset related to the Planned Giving record.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_termtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Lives only
 Fixed term only
 Longer of term or lives
-Shorter of term or lives</td><td>100000000</td><td>0</td></tr></table></td></tr></table>
+Shorter of term or lives</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5288,10 +5287,10 @@ Shorter of term or lives</td><td>100000000</td><td>0</td></tr></table></td></tr>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Lives only
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Lives only
 Fixed term only
 Longer of term or lives
-Shorter of term or lives</td><td>100000000</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+Shorter of term or lives</td><td>100000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5630,8 +5629,8 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type of Management</td></tr><tr><td>description</td><td>The type of management for the underlying asset or assets related to this Planned Giving record.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_typeofmanagement</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Inside</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Outside - donor self-trustee</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Outside - Institution or other trusteem
-Outside</td><td>100000002</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type of Management</td></tr><tr><td>description</td><td>The type of management for the underlying asset or assets related to this Planned Giving record.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_typeofmanagement</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inside</td><td>100000000</td></tr><tr><td>en</td><td>Outside - donor self-trustee</td><td>100000001</td></tr><tr><td>en</td><td>Outside - Institution or other trusteem
+Outside</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5640,8 +5639,8 @@ Outside</td><td>100000002</td><td>2</td></tr></table></td></tr></table>
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Inside</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Outside - donor self-trustee</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Outside - Institution or other trusteem
-Outside</td><td>100000002</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inside</td><td>100000000</td></tr><tr><td>en</td><td>Outside - donor self-trustee</td><td>100000001</td></tr><tr><td>en</td><td>Outside - Institution or other trusteem
+Outside</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

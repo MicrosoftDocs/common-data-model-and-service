@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Organization
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Organization.cdm.json" target="_blank">Link on GitHub</a>).  
 Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Organization.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/Organization  
 [foundationCommon/Organization](foundationCommon/Organization.md "/core/applicationCommon/foundationCommon/Organization.cdm.json/Organization")  
 
-## Traits for Organization
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -27,7 +26,7 @@ applicationCommon/Organization
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Organization_/hasAttributes/organizationId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Organization_/hasAttributes/organizationId"
+  "Organization/hasAttributes/organizationId"
   ```
 
 
@@ -412,7 +411,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Organization_/hasAttributes/organizationId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Organization_/hasAttributes/organizationId"
+  "Organization/hasAttributes/organizationId"
   ```
 
 
@@ -697,7 +696,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Format Code</td></tr><tr><td>description</td><td>Information about how the date is displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>dateformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Format Code</td></tr><tr><td>description</td><td>Information about how the date is displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>dateformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td></tr></table>
 
 #### Traits
 
@@ -706,7 +705,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -758,7 +757,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Format Code</td></tr><tr><td>description</td><td>Information that specifies how the time is displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>timeformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Format Code</td></tr><tr><td>description</td><td>Information that specifies how the time is displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>timeformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td></tr></table>
 
 #### Traits
 
@@ -767,7 +766,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -859,7 +858,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Week Start Day Code</td></tr><tr><td>description</td><td>Designated first day of the week throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>weekstartdaycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Week Start Day Code</td></tr><tr><td>description</td><td>Designated first day of the week throughout Microsoft Dynamics 365.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>weekstartdaycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td></tr></table>
 
 #### Traits
 
@@ -868,7 +867,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -960,7 +959,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Full Name Display Order</td></tr><tr><td>description</td><td>Order in which names are to be displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>fullnameconventioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Last Name, First Name</td><td>0</td><td>0</td></tr><tr><td>en</td><td>First Name</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Initial</td><td>2</td><td>2</td></tr><tr><td>en</td><td>First Name, Middle Initial, Last Name</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Name</td><td>4</td><td>4</td></tr><tr><td>en</td><td>First Name, Middle Name, Last Name</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Last Name, space, First Name</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Last Name, no space, First Name</td><td>7</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Full Name Display Order</td></tr><tr><td>description</td><td>Order in which names are to be displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>fullnameconventioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Last Name, First Name</td><td>0</td></tr><tr><td>en</td><td>First Name</td><td>1</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Initial</td><td>2</td></tr><tr><td>en</td><td>First Name, Middle Initial, Last Name</td><td>3</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Name</td><td>4</td></tr><tr><td>en</td><td>First Name, Middle Name, Last Name</td><td>5</td></tr><tr><td>en</td><td>Last Name, space, First Name</td><td>6</td></tr><tr><td>en</td><td>Last Name, no space, First Name</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -969,7 +968,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Last Name, First Name</td><td>0</td><td>0</td></tr><tr><td>en</td><td>First Name</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Initial</td><td>2</td><td>2</td></tr><tr><td>en</td><td>First Name, Middle Initial, Last Name</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Name</td><td>4</td><td>4</td></tr><tr><td>en</td><td>First Name, Middle Name, Last Name</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Last Name, space, First Name</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Last Name, no space, First Name</td><td>7</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Last Name, First Name</td><td>0</td></tr><tr><td>en</td><td>First Name</td><td>1</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Initial</td><td>2</td></tr><tr><td>en</td><td>First Name, Middle Initial, Last Name</td><td>3</td></tr><tr><td>en</td><td>Last Name, First Name, Middle Name</td><td>4</td></tr><tr><td>en</td><td>First Name, Middle Name, Last Name</td><td>5</td></tr><tr><td>en</td><td>Last Name, space, First Name</td><td>6</td></tr><tr><td>en</td><td>Last Name, no space, First Name</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1021,7 +1020,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Negative Format</td></tr><tr><td>description</td><td>Information that specifies how negative numbers are displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>negativeformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Brackets</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Dash</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Dash plus Space</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Trailing Dash</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Space plus Trailing Dash</td><td>4</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Negative Format</td></tr><tr><td>description</td><td>Information that specifies how negative numbers are displayed throughout Microsoft CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>negativeformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Brackets</td><td>0</td></tr><tr><td>en</td><td>Dash</td><td>1</td></tr><tr><td>en</td><td>Dash plus Space</td><td>2</td></tr><tr><td>en</td><td>Trailing Dash</td><td>3</td></tr><tr><td>en</td><td>Space plus Trailing Dash</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1030,7 +1029,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Brackets</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Dash</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Dash plus Space</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Trailing Dash</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Space plus Trailing Dash</td><td>4</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Brackets</td><td>0</td></tr><tr><td>en</td><td>Dash</td><td>1</td></tr><tr><td>en</td><td>Dash plus Space</td><td>2</td></tr><tr><td>en</td><td>Trailing Dash</td><td>3</td></tr><tr><td>en</td><td>Space plus Trailing Dash</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2418,7 +2417,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Format Code</td></tr><tr><td>description</td><td>Information about how currency symbols are placed throughout Microsoft Dynamics CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>currencyformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>$123</td><td>0</td><td>0</td></tr><tr><td>en</td><td>123$</td><td>1</td><td>1</td></tr><tr><td>en</td><td>$ 123</td><td>2</td><td>2</td></tr><tr><td>en</td><td>123 $</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Format Code</td></tr><tr><td>description</td><td>Information about how currency symbols are placed throughout Microsoft Dynamics CRM.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>currencyformatcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>$123</td><td>0</td></tr><tr><td>en</td><td>123$</td><td>1</td></tr><tr><td>en</td><td>$ 123</td><td>2</td></tr><tr><td>en</td><td>123 $</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2427,7 +2426,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>$123</td><td>0</td><td>0</td></tr><tr><td>en</td><td>123$</td><td>1</td><td>1</td></tr><tr><td>en</td><td>$ 123</td><td>2</td><td>2</td></tr><tr><td>en</td><td>123 $</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>$123</td><td>0</td></tr><tr><td>en</td><td>123$</td><td>1</td></tr><tr><td>en</td><td>$ 123</td><td>2</td></tr><tr><td>en</td><td>123 $</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4041,7 +4040,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display Currencies Using</td></tr><tr><td>description</td><td>Indicates whether to display money fields with currency code or currency symbol.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>currencydisplayoption</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Currency symbol</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Currency code</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display Currencies Using</td></tr><tr><td>description</td><td>Indicates whether to display money fields with currency code or currency symbol.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>currencydisplayoption</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Currency symbol</td><td>0</td></tr><tr><td>en</td><td>Currency code</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4050,7 +4049,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Currency symbol</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Currency code</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Currency symbol</td><td>0</td></tr><tr><td>en</td><td>Currency code</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4699,7 +4698,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ISV Integration Mode</td></tr><tr><td>description</td><td>Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>isvintegrationcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Web</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Outlook Workstation Client</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Web; Outlook Workstation Client</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Outlook Laptop Client</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Web; Outlook Laptop Client</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Outlook</td><td>6</td><td>6</td></tr><tr><td>en</td><td>All</td><td>7</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ISV Integration Mode</td></tr><tr><td>description</td><td>Indicates whether loading of Microsoft Dynamics 365 in a browser window that does not have address, tool, and menu bars is enabled.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>isvintegrationcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Web</td><td>1</td></tr><tr><td>en</td><td>Outlook Workstation Client</td><td>2</td></tr><tr><td>en</td><td>Web; Outlook Workstation Client</td><td>3</td></tr><tr><td>en</td><td>Outlook Laptop Client</td><td>4</td></tr><tr><td>en</td><td>Web; Outlook Laptop Client</td><td>5</td></tr><tr><td>en</td><td>Outlook</td><td>6</td></tr><tr><td>en</td><td>All</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4708,7 +4707,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Web</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Outlook Workstation Client</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Web; Outlook Workstation Client</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Outlook Laptop Client</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Web; Outlook Laptop Client</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Outlook</td><td>6</td><td>6</td></tr><tr><td>en</td><td>All</td><td>7</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Web</td><td>1</td></tr><tr><td>en</td><td>Outlook Workstation Client</td><td>2</td></tr><tr><td>en</td><td>Web; Outlook Workstation Client</td><td>3</td></tr><tr><td>en</td><td>Outlook Laptop Client</td><td>4</td></tr><tr><td>en</td><td>Web; Outlook Laptop Client</td><td>5</td></tr><tr><td>en</td><td>Outlook</td><td>6</td></tr><tr><td>en</td><td>All</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5606,7 +5605,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Recurrence End Range Type</td></tr><tr><td>description</td><td>Type of default recurrence end range date.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>defaultrecurrenceendrangetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No End Date</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Number of Occurrences</td><td>2</td><td>1</td></tr><tr><td>en</td><td>End By Date</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Recurrence End Range Type</td></tr><tr><td>description</td><td>Type of default recurrence end range date.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>defaultrecurrenceendrangetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr><tr><td>en</td><td>Number of Occurrences</td><td>2</td></tr><tr><td>en</td><td>End By Date</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5615,7 +5614,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No End Date</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Number of Occurrences</td><td>2</td><td>1</td></tr><tr><td>en</td><td>End By Date</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No End Date</td><td>1</td></tr><tr><td>en</td><td>Number of Occurrences</td><td>2</td></tr><tr><td>en</td><td>End By Date</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6042,7 +6041,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Report Script Errors</td></tr><tr><td>description</td><td>Picklist for selecting the organization preference for reporting scripting errors.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>reportscripterrors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No preference for sending an error report to Microsoft about Microsoft Dynamics 365</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Ask me for permission to send an error report to Microsoft</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Automatically send an error report to Microsoft without asking me for permission</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Never send an error report to Microsoft about Microsoft Dynamics 365</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Report Script Errors</td></tr><tr><td>description</td><td>Picklist for selecting the organization preference for reporting scripting errors.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>reportscripterrors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No preference for sending an error report to Microsoft about Microsoft Dynamics 365</td><td>0</td></tr><tr><td>en</td><td>Ask me for permission to send an error report to Microsoft</td><td>1</td></tr><tr><td>en</td><td>Automatically send an error report to Microsoft without asking me for permission</td><td>2</td></tr><tr><td>en</td><td>Never send an error report to Microsoft about Microsoft Dynamics 365</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -6051,7 +6050,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No preference for sending an error report to Microsoft about Microsoft Dynamics 365</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Ask me for permission to send an error report to Microsoft</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Automatically send an error report to Microsoft without asking me for permission</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Never send an error report to Microsoft about Microsoft Dynamics 365</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No preference for sending an error report to Microsoft about Microsoft Dynamics 365</td><td>0</td></tr><tr><td>en</td><td>Ask me for permission to send an error report to Microsoft</td><td>1</td></tr><tr><td>en</td><td>Automatically send an error report to Microsoft without asking me for permission</td><td>2</td></tr><tr><td>en</td><td>Never send an error report to Microsoft about Microsoft Dynamics 365</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6301,7 +6300,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Prefix for Fiscal Year</td></tr><tr><td>description</td><td>Prefix for the display of the fiscal year.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformatprefix</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>FY</td><td>1</td><td>0</td></tr><tr><td>en</td><td></td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Prefix for Fiscal Year</td></tr><tr><td>description</td><td>Prefix for the display of the fiscal year.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformatprefix</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY</td><td>1</td></tr><tr><td>en</td><td></td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -6310,7 +6309,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>FY</td><td>1</td><td>0</td></tr><tr><td>en</td><td></td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY</td><td>1</td></tr><tr><td>en</td><td></td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6365,7 +6364,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Suffix for Fiscal Year</td></tr><tr><td>description</td><td>Suffix for the display of the fiscal year.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformatsuffix</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>FY</td><td>1</td><td>0</td></tr><tr><td>en</td><td> Fiscal Year</td><td>2</td><td>1</td></tr><tr><td>en</td><td></td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Suffix for Fiscal Year</td></tr><tr><td>description</td><td>Suffix for the display of the fiscal year.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformatsuffix</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY</td><td>1</td></tr><tr><td>en</td><td> Fiscal Year</td><td>2</td></tr><tr><td>en</td><td></td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -6374,7 +6373,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>FY</td><td>1</td><td>0</td></tr><tr><td>en</td><td> Fiscal Year</td><td>2</td><td>1</td></tr><tr><td>en</td><td></td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY</td><td>1</td></tr><tr><td>en</td><td> Fiscal Year</td><td>2</td></tr><tr><td>en</td><td></td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6429,7 +6428,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Year Format Year</td></tr><tr><td>description</td><td>Format for the year.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformatyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>YYYY</td><td>1</td><td>0</td></tr><tr><td>en</td><td>YY</td><td>2</td><td>1</td></tr><tr><td>en</td><td>GGYY</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Year Format Year</td></tr><tr><td>description</td><td>Format for the year.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyearformatyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>YYYY</td><td>1</td></tr><tr><td>en</td><td>YY</td><td>2</td></tr><tr><td>en</td><td>GGYY</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -6438,7 +6437,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>YYYY</td><td>1</td><td>0</td></tr><tr><td>en</td><td>YY</td><td>2</td><td>1</td></tr><tr><td>en</td><td>GGYY</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>YYYY</td><td>1</td></tr><tr><td>en</td><td>YY</td><td>2</td></tr><tr><td>en</td><td>GGYY</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6493,7 +6492,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount calculation method</td></tr><tr><td>description</td><td>Discount calculation method for the QOOI product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>discountcalculationmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Line item</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Per unit</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount calculation method</td></tr><tr><td>description</td><td>Discount calculation method for the QOOI product.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>discountcalculationmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Line item</td><td>0</td></tr><tr><td>en</td><td>Per unit</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -6502,7 +6501,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Line item</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Per unit</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Line item</td><td>0</td></tr><tr><td>en</td><td>Per unit</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -6554,7 +6553,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Format for Fiscal Period</td></tr><tr><td>description</td><td>Format in which the fiscal period will be displayed.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalperiodformatperiod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Quarter {0}</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Q{0}</td><td>2</td><td>1</td></tr><tr><td>en</td><td>P{0}</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Month {0}</td><td>4</td><td>3</td></tr><tr><td>en</td><td>M{0}</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Semester {0}</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Month Name</td><td>7</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Format for Fiscal Period</td></tr><tr><td>description</td><td>Format in which the fiscal period will be displayed.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalperiodformatperiod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quarter {0}</td><td>1</td></tr><tr><td>en</td><td>Q{0}</td><td>2</td></tr><tr><td>en</td><td>P{0}</td><td>3</td></tr><tr><td>en</td><td>Month {0}</td><td>4</td></tr><tr><td>en</td><td>M{0}</td><td>5</td></tr><tr><td>en</td><td>Semester {0}</td><td>6</td></tr><tr><td>en</td><td>Month Name</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -6563,7 +6562,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Quarter {0}</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Q{0}</td><td>2</td><td>1</td></tr><tr><td>en</td><td>P{0}</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Month {0}</td><td>4</td><td>3</td></tr><tr><td>en</td><td>M{0}</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Semester {0}</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Month Name</td><td>7</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quarter {0}</td><td>1</td></tr><tr><td>en</td><td>Q{0}</td><td>2</td></tr><tr><td>en</td><td>P{0}</td><td>3</td></tr><tr><td>en</td><td>Month {0}</td><td>4</td></tr><tr><td>en</td><td>M{0}</td><td>5</td></tr><tr><td>en</td><td>Semester {0}</td><td>6</td></tr><tr><td>en</td><td>Month Name</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -7404,7 +7403,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Internal Use Only</td></tr><tr><td>description</td><td>Internal Use Only</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>yammerpostmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Public</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Internal Use Only</td></tr><tr><td>description</td><td>Internal Use Only</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>yammerpostmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Public</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -7413,7 +7412,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Public</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Public</td><td>0</td></tr><tr><td>en</td><td>Private</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -7468,7 +7467,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Connection Channel</td></tr><tr><td>description</td><td>Select if you want to use the Email Router or server-side synchronization for email processing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>emailconnectionchannel</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Server-Side Synchronization</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 Email Router</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Email Connection Channel</td></tr><tr><td>description</td><td>Select if you want to use the Email Router or server-side synchronization for email processing.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>emailconnectionchannel</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Server-Side Synchronization</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 Email Router</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -7477,7 +7476,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Server-Side Synchronization</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 Email Router</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Server-Side Synchronization</td><td>0</td></tr><tr><td>en</td><td>Microsoft Dynamics 365 Email Router</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -8840,7 +8839,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Choose SharePoint Deployment Type</td></tr><tr><td>description</td><td>Indicates which SharePoint deployment type is configured for Server to Server. (Online or On-Premises)</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sharepointdeploymenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Online</td><td>0</td><td>0</td></tr><tr><td>en</td><td>On-Premises</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Choose SharePoint Deployment Type</td></tr><tr><td>description</td><td>Indicates which SharePoint deployment type is configured for Server to Server. (Online or On-Premises)</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>sharepointdeploymenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Online</td><td>0</td></tr><tr><td>en</td><td>On-Premises</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -8849,7 +8848,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Online</td><td>0</td><td>0</td></tr><tr><td>en</td><td>On-Premises</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Online</td><td>0</td></tr><tr><td>en</td><td>On-Premises</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -8904,7 +8903,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization State</td></tr><tr><td>description</td><td>Indicates the organization lifecycle state</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>organizationstate</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Creating</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Upgrading</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Updating</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Active</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization State</td></tr><tr><td>description</td><td>Indicates the organization lifecycle state</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>organizationstate</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Creating</td><td>0</td></tr><tr><td>en</td><td>Upgrading</td><td>1</td></tr><tr><td>en</td><td>Updating</td><td>2</td></tr><tr><td>en</td><td>Active</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -8913,7 +8912,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Creating</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Upgrading</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Updating</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Active</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Creating</td><td>0</td></tr><tr><td>en</td><td>Upgrading</td><td>1</td></tr><tr><td>en</td><td>Updating</td><td>2</td></tr><tr><td>en</td><td>Active</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -9188,7 +9187,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Plug-in Trace Log Setting</td></tr><tr><td>description</td><td>Plug-in Trace Log Setting for the Organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>plugintracelogsetting</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Off</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Exception</td><td>1</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Plug-in Trace Log Setting</td></tr><tr><td>description</td><td>Plug-in Trace Log Setting for the Organization.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>plugintracelogsetting</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Off</td><td>0</td></tr><tr><td>en</td><td>Exception</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -9197,7 +9196,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Off</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Exception</td><td>1</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Off</td><td>0</td></tr><tr><td>en</td><td>Exception</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -11852,7 +11851,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status of opt-in or opt-out operation for dynamics 365 azure sync.</td></tr><tr><td>description</td><td>Indicates the status of the opt-in or opt-out operation for dynamics 365 azure sync.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>syncoptinselectionstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Processing</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Passed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status of opt-in or opt-out operation for dynamics 365 azure sync.</td></tr><tr><td>description</td><td>Indicates the status of the opt-in or opt-out operation for dynamics 365 azure sync.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>syncoptinselectionstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Processing</td><td>1</td></tr><tr><td>en</td><td>Passed</td><td>2</td></tr><tr><td>en</td><td>Failed</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -11861,7 +11860,7 @@ First included in: /core/applicationCommon/Organization.cdm.json/Organization
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Processing</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Passed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Failed</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Processing</td><td>1</td></tr><tr><td>en</td><td>Passed</td><td>2</td></tr><tr><td>en</td><td>Failed</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

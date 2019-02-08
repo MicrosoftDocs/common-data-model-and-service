@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Quote
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json" target="_blank">Link on GitHub</a>).  
 Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/Quote.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 sales/Quote  
 
-## Traits for Quote
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,14 +28,14 @@ sales/Quote
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Quote_/hasAttributes/quoteId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Quote_/hasAttributes/quoteId"
+  "Quote/hasAttributes/quoteId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Quote_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Quote_/hasAttributes/stateCode"
+  "Quote/hasAttributes/stateCode"
   ```
 
 
@@ -860,7 +859,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Quote_/hasAttributes/quoteId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Quote_/hasAttributes/quoteId"
+  "Quote/hasAttributes/quoteId"
   ```
 
 
@@ -2182,7 +2181,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>FOB</td><td>1</td><td>0</td></tr><tr><td>en</td><td>No Charge</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping charges are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2191,7 +2190,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>FOB</td><td>1</td><td>0</td></tr><tr><td>en</td><td>No Charge</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FOB</td><td>1</td></tr><tr><td>en</td><td>No Charge</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2291,7 +2290,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Terms</td></tr><tr><td>description</td><td>Select the payment terms to indicate when the customer needs to pay the total amount.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>paymenttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Net 30</td><td>1</td><td>0</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Net 45</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Net 60</td><td>4</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Terms</td></tr><tr><td>description</td><td>Select the payment terms to indicate when the customer needs to pay the total amount.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>paymenttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2300,7 +2299,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Net 30</td><td>1</td><td>0</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Net 45</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Net 60</td><td>4</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Net 30</td><td>1</td></tr><tr><td>en</td><td>2% 10, Net 30</td><td>2</td></tr><tr><td>en</td><td>Net 45</td><td>3</td></tr><tr><td>en</td><td>Net 60</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2400,7 +2399,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Pricing error for the quote.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td><td>37</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pricing Error </td></tr><tr><td>description</td><td>Pricing error for the quote.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>pricingerrorcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2409,7 +2408,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>None</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td><td>37</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>None</td><td>0</td></tr><tr><td>en</td><td>Detail Error</td><td>1</td></tr><tr><td>en</td><td>Missing Price Level</td><td>2</td></tr><tr><td>en</td><td>Inactive Price Level</td><td>3</td></tr><tr><td>en</td><td>Missing Quantity</td><td>4</td></tr><tr><td>en</td><td>Missing Unit Price</td><td>5</td></tr><tr><td>en</td><td>Missing Product</td><td>6</td></tr><tr><td>en</td><td>Invalid Product</td><td>7</td></tr><tr><td>en</td><td>Missing Pricing Code</td><td>8</td></tr><tr><td>en</td><td>Invalid Pricing Code</td><td>9</td></tr><tr><td>en</td><td>Missing UOM</td><td>10</td></tr><tr><td>en</td><td>Product Not In Price Level</td><td>11</td></tr><tr><td>en</td><td>Missing Price Level Amount</td><td>12</td></tr><tr><td>en</td><td>Missing Price Level Percentage</td><td>13</td></tr><tr><td>en</td><td>Missing Price</td><td>14</td></tr><tr><td>en</td><td>Missing Current Cost</td><td>15</td></tr><tr><td>en</td><td>Missing Standard Cost</td><td>16</td></tr><tr><td>en</td><td>Invalid Price Level Amount</td><td>17</td></tr><tr><td>en</td><td>Invalid Price Level Percentage</td><td>18</td></tr><tr><td>en</td><td>Invalid Price</td><td>19</td></tr><tr><td>en</td><td>Invalid Current Cost</td><td>20</td></tr><tr><td>en</td><td>Invalid Standard Cost</td><td>21</td></tr><tr><td>en</td><td>Invalid Rounding Policy</td><td>22</td></tr><tr><td>en</td><td>Invalid Rounding Option</td><td>23</td></tr><tr><td>en</td><td>Invalid Rounding Amount</td><td>24</td></tr><tr><td>en</td><td>Price Calculation Error</td><td>25</td></tr><tr><td>en</td><td>Invalid Discount Type</td><td>26</td></tr><tr><td>en</td><td>Discount Type Invalid State</td><td>27</td></tr><tr><td>en</td><td>Invalid Discount</td><td>28</td></tr><tr><td>en</td><td>Invalid Quantity</td><td>29</td></tr><tr><td>en</td><td>Invalid Pricing Precision</td><td>30</td></tr><tr><td>en</td><td>Missing Product Default UOM</td><td>31</td></tr><tr><td>en</td><td>Missing Product UOM Schedule </td><td>32</td></tr><tr><td>en</td><td>Inactive Discount Type</td><td>33</td></tr><tr><td>en</td><td>Invalid Price Level Currency</td><td>34</td></tr><tr><td>en</td><td>Price Attribute Out Of Range</td><td>35</td></tr><tr><td>en</td><td>Base Currency Attribute Overflow</td><td>36</td></tr><tr><td>en</td><td>Base Currency Attribute Underflow</td><td>37</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2574,7 +2573,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Airborne</td><td>1</td><td>0</td></tr><tr><td>en</td><td>DHL</td><td>2</td><td>1</td></tr><tr><td>en</td><td>FedEx</td><td>3</td><td>2</td></tr><tr><td>en</td><td>UPS</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Full Load</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Will Call</td><td>7</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Method</td></tr><tr><td>description</td><td>Select a shipping method for deliveries sent to this address.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shippingmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2583,7 +2582,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Airborne</td><td>1</td><td>0</td></tr><tr><td>en</td><td>DHL</td><td>2</td><td>1</td></tr><tr><td>en</td><td>FedEx</td><td>3</td><td>2</td></tr><tr><td>en</td><td>UPS</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Full Load</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Will Call</td><td>7</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Airborne</td><td>1</td></tr><tr><td>en</td><td>DHL</td><td>2</td></tr><tr><td>en</td><td>FedEx</td><td>3</td></tr><tr><td>en</td><td>UPS</td><td>4</td></tr><tr><td>en</td><td>Postal Mail</td><td>5</td></tr><tr><td>en</td><td>Full Load</td><td>6</td></tr><tr><td>en</td><td>Will Call</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2879,7 +2878,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ship To Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping orders are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shipto_freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ship To Freight Terms</td></tr><tr><td>description</td><td>Select the freight terms to make sure shipping orders are processed correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>shipto_freighttermscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2888,7 +2887,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3230,7 +3229,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the quote is draft, active, won, or closed. Only draft quotes can be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Draft</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Closed</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the quote is draft, active, won, or closed. Only draft quotes can be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>2</td></tr><tr><td>en</td><td>Closed</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3239,7 +3238,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Draft</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Closed</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>2</td></tr><tr><td>en</td><td>Closed</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3247,7 +3246,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Quote_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Quote_/hasAttributes/stateCode"
+  "Quote/hasAttributes/stateCode"
   ```
 
 
@@ -3298,7 +3297,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the quote's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Open</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Lost</td><td>5</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>4</td></tr><tr><td>en</td><td>Revised</td><td>7</td><td>5</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the quote's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>2</td></tr><tr><td>en</td><td>Open</td><td>3</td></tr><tr><td>en</td><td>Won</td><td>4</td></tr><tr><td>en</td><td>Lost</td><td>5</td></tr><tr><td>en</td><td>Canceled</td><td>6</td></tr><tr><td>en</td><td>Revised</td><td>7</td></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3307,7 +3306,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Quot
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>3</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>4</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Lost</td><td>5</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Revised</td><td>7</td><td>5</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>6</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>In Progress</td><td>2</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Open</td><td>3</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Won</td><td>4</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Lost</td><td>5</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Revised</td><td>7</td><td>5</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>6</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Layout
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout.cdm.json" target="_blank">Link on GitHub</a>).  
 The layout entity is to provide users a quick way to specify the various different layouts that a single room can be arranged in and the maximum capacity of the room as a result of the change.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Layout.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 eventManagement/Layout  
 
-## Traits for Layout
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,14 +28,14 @@ eventManagement/Layout
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Layout_/hasAttributes/layoutId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Layout_/hasAttributes/layoutId"
+  "Layout/hasAttributes/layoutId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Layout_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Layout_/hasAttributes/stateCode"
+  "Layout/hasAttributes/stateCode"
   ```
 
 
@@ -792,7 +791,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Layout_/hasAttributes/layoutId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Layout_/hasAttributes/layoutId"
+  "Layout/hasAttributes/layoutId"
   ```
 
 
@@ -820,7 +819,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Layout</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Layout</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -829,7 +828,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -837,7 +836,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Layout_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Layout_/hasAttributes/stateCode"
+  "Layout/hasAttributes/stateCode"
   ```
 
 
@@ -888,7 +887,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Layout</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Layout</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -897,7 +896,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1074,7 +1073,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disabled access</td></tr><tr><td>description</td><td>There is disabled access or not.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_disabledaccess</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disabled access</td></tr><tr><td>description</td><td>There is disabled access or not.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_disabledaccess</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1083,7 +1082,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1176,7 +1175,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Floor Plan</td></tr><tr><td>description</td><td>Standardized floor plan type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_floorplan</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Theatre</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Classroom</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Herringbone</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>U Shape</td><td>100000003</td><td>3</td></tr><tr><td>en</td><td>Horse Shoe</td><td>100000004</td><td>4</td></tr><tr><td>en</td><td>Hollow Square</td><td>100000005</td><td>5</td></tr><tr><td>en</td><td>Boardroom</td><td>100000006</td><td>6</td></tr><tr><td>en</td><td>Banquet</td><td>100000007</td><td>7</td></tr><tr><td>en</td><td>Cabaret</td><td>100000008</td><td>8</td></tr><tr><td>en</td><td>Cocktail</td><td>100000009</td><td>9</td></tr><tr><td>en</td><td>Booth</td><td>100000010</td><td>10</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Floor Plan</td></tr><tr><td>description</td><td>Standardized floor plan type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_floorplan</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Theatre</td><td>100000000</td></tr><tr><td>en</td><td>Classroom</td><td>100000001</td></tr><tr><td>en</td><td>Herringbone</td><td>100000002</td></tr><tr><td>en</td><td>U Shape</td><td>100000003</td></tr><tr><td>en</td><td>Horse Shoe</td><td>100000004</td></tr><tr><td>en</td><td>Hollow Square</td><td>100000005</td></tr><tr><td>en</td><td>Boardroom</td><td>100000006</td></tr><tr><td>en</td><td>Banquet</td><td>100000007</td></tr><tr><td>en</td><td>Cabaret</td><td>100000008</td></tr><tr><td>en</td><td>Cocktail</td><td>100000009</td></tr><tr><td>en</td><td>Booth</td><td>100000010</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1185,7 +1184,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Theatre</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Classroom</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>Herringbone</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>U Shape</td><td>100000003</td><td>3</td></tr><tr><td>en</td><td>Horse Shoe</td><td>100000004</td><td>4</td></tr><tr><td>en</td><td>Hollow Square</td><td>100000005</td><td>5</td></tr><tr><td>en</td><td>Boardroom</td><td>100000006</td><td>6</td></tr><tr><td>en</td><td>Banquet</td><td>100000007</td><td>7</td></tr><tr><td>en</td><td>Cabaret</td><td>100000008</td><td>8</td></tr><tr><td>en</td><td>Cocktail</td><td>100000009</td><td>9</td></tr><tr><td>en</td><td>Booth</td><td>100000010</td><td>10</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Theatre</td><td>100000000</td></tr><tr><td>en</td><td>Classroom</td><td>100000001</td></tr><tr><td>en</td><td>Herringbone</td><td>100000002</td></tr><tr><td>en</td><td>U Shape</td><td>100000003</td></tr><tr><td>en</td><td>Horse Shoe</td><td>100000004</td></tr><tr><td>en</td><td>Hollow Square</td><td>100000005</td></tr><tr><td>en</td><td>Boardroom</td><td>100000006</td></tr><tr><td>en</td><td>Banquet</td><td>100000007</td></tr><tr><td>en</td><td>Cabaret</td><td>100000008</td></tr><tr><td>en</td><td>Cocktail</td><td>100000009</td></tr><tr><td>en</td><td>Booth</td><td>100000010</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1285,7 +1284,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Units</td></tr><tr><td>description</td><td>Square units.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_units</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Sq. meters</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Sq. feet</td><td>100000001</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Units</td></tr><tr><td>description</td><td>Square units.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_units</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sq. meters</td><td>100000000</td></tr><tr><td>en</td><td>Sq. feet</td><td>100000001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1294,7 +1293,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Sq. meters</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Sq. feet</td><td>100000001</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sq. meters</td><td>100000000</td></tr><tr><td>en</td><td>Sq. feet</td><td>100000001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

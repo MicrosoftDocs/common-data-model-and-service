@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Fax
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Fax.cdm.json" target="_blank">Link on GitHub</a>).  
 Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Fax.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 [applicationCommon/Fax](../../Fax.md "/core/applicationCommon/Fax.cdm.json/Fax")  
 crmCommon/Fax  
 
-## Traits for Fax
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -30,14 +29,14 @@ crmCommon/Fax
 - **is.ordered**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Fax_/hasAttributes/sortDate"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Fax_/hasAttributes/sortDate"
+  "Fax/hasAttributes/sortDate"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Fax_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Fax_/hasAttributes/stateCode"
+  "Fax/hasAttributes/stateCode"
   ```
 
 
@@ -803,7 +802,7 @@ First included in: /core/applicationCommon/Fax.cdm.json/Fax
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Fax</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Phone Call</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Email</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Letter</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Appointment</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Task</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Quick Campaign</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Activity</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Response</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Case Resolution</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Service Activity</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Opportunity Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Order Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Quote Close</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Alert Subscription</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Invite Redemption</td><td>undefined</td><td>undefined</td></tr><tr><td>en</td><td>Portal Comment</td><td>undefined</td><td>undefined</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Type</td></tr><tr><td>description</td><td>Type of activity.</td></tr><tr><td>dataFormat</td><td>String</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>activitytypecode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fax</td><td>undefined</td></tr><tr><td>en</td><td>Phone Call</td><td>undefined</td></tr><tr><td>en</td><td>Email</td><td>undefined</td></tr><tr><td>en</td><td>Letter</td><td>undefined</td></tr><tr><td>en</td><td>Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Task</td><td>undefined</td></tr><tr><td>en</td><td>Recurring Appointment</td><td>undefined</td></tr><tr><td>en</td><td>Quick Campaign</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Activity</td><td>undefined</td></tr><tr><td>en</td><td>Campaign Response</td><td>undefined</td></tr><tr><td>en</td><td>Case Resolution</td><td>undefined</td></tr><tr><td>en</td><td>Service Activity</td><td>undefined</td></tr><tr><td>en</td><td>Opportunity Close</td><td>undefined</td></tr><tr><td>en</td><td>Order Close</td><td>undefined</td></tr><tr><td>en</td><td>Quote Close</td><td>undefined</td></tr><tr><td>en</td><td>Alert Subscription</td><td>undefined</td></tr><tr><td>en</td><td>Invite Redemption</td><td>undefined</td></tr><tr><td>en</td><td>Portal Comment</td><td>undefined</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -857,7 +856,7 @@ First included in: /core/applicationCommon/Fax.cdm.json/Fax
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Fax_/hasAttributes/activityId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Fax_/hasAttributes/activityId"
+  "Fax/hasAttributes/activityId"
   ```
 
 
@@ -981,7 +980,7 @@ First included in: /core/applicationCommon/Fax.cdm.json/Fax
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Priority of the activity.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -990,7 +989,7 @@ First included in: /core/applicationCommon/Fax.cdm.json/Fax
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Low</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Low</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>1</td></tr><tr><td>en</td><td>High</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1201,7 +1200,7 @@ First included in: /core/applicationCommon/Fax.cdm.json/Fax
 - **is.ordered**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Fax_/hasAttributes/sortDate"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Fax_/hasAttributes/sortDate"
+  "Fax/hasAttributes/sortDate"
   ```
 
 
@@ -1686,7 +1685,7 @@ First included in: /core/applicationCommon/Fax.cdm.json/Fax
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Status</td></tr><tr><td>description</td><td>Shows whether the fax activity is open, completed, or canceled. Completed and canceled fax activities are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity Status</td></tr><tr><td>description</td><td>Shows whether the fax activity is open, completed, or canceled. Completed and canceled fax activities are read-only and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1695,7 +1694,7 @@ First included in: /core/applicationCommon/Fax.cdm.json/Fax
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1703,7 +1702,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Fax_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Fax_/hasAttributes/stateCode"
+  "Fax/hasAttributes/stateCode"
   ```
 
 
@@ -1912,7 +1911,7 @@ First included in: /core/applicationCommon/Fax.cdm.json/Fax
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the fax's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the fax's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Open</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>2</td></tr><tr><td>en</td><td>Sent</td><td>3</td></tr><tr><td>en</td><td>Received</td><td>4</td></tr><tr><td>en</td><td>Canceled</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1921,7 +1920,7 @@ First included in: /core/applicationCommon/Fax.cdm.json/Fax
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>2</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>3</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Received</td><td>4</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>4</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

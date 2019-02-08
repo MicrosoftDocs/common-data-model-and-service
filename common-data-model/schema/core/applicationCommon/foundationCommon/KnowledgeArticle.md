@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Knowledge Article
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json" target="_blank">Link on GitHub</a>).  
 Organizational knowledge for internal and external use.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/KnowledgeArticle.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 [applicationCommon/KnowledgeArticle](../KnowledgeArticle.md "/core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeArticle")  
 foundationCommon/KnowledgeArticle  
 
-## Traits for Knowledge Article
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -30,14 +29,14 @@ foundationCommon/KnowledgeArticle
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"KnowledgeArticle_/hasAttributes/knowledgearticleId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "KnowledgeArticle_/hasAttributes/knowledgearticleId"
+  "KnowledgeArticle/hasAttributes/knowledgearticleId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"KnowledgeArticle_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "KnowledgeArticle_/hasAttributes/stateCode"
+  "KnowledgeArticle/hasAttributes/stateCode"
   ```
 
 
@@ -825,7 +824,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"KnowledgeArticle_/hasAttributes/knowledgearticleId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "KnowledgeArticle_/hasAttributes/knowledgearticleId"
+  "KnowledgeArticle/hasAttributes/knowledgearticleId"
   ```
 
 
@@ -853,7 +852,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the article is a draft or is published, archived, or discarded. Draft articles aren't available externally and can be edited. Published articles are available externally, based on applicable permissions, but can't be edited. All metadata changes are reflected in the published version. Archived and discarded articles aren't available externally and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Draft</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>6</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the article is a draft or is published, archived, or discarded. Draft articles aren't available externally and can be edited. Published articles are available externally, based on applicable permissions, but can't be edited. All metadata changes are reflected in the published version. Archived and discarded articles aren't available externally and can't be edited.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -862,7 +861,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Draft</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>6</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -870,7 +869,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"KnowledgeArticle_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "KnowledgeArticle_/hasAttributes/stateCode"
+  "KnowledgeArticle/hasAttributes/stateCode"
   ```
 
 
@@ -921,7 +920,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>2</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>6</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>7</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>8</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>9</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>10</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>11</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>12</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>13</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the article's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td></tr><tr><td>en</td><td>Draft</td><td>2</td></tr><tr><td>en</td><td>Needs review</td><td>3</td></tr><tr><td>en</td><td>In review</td><td>4</td></tr><tr><td>en</td><td>Approved</td><td>5</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td></tr><tr><td>en</td><td>Published</td><td>7</td></tr><tr><td>en</td><td>Needs review</td><td>8</td></tr><tr><td>en</td><td>Updating</td><td>9</td></tr><tr><td>en</td><td>Expired</td><td>10</td></tr><tr><td>en</td><td>Rejected</td><td>11</td></tr><tr><td>en</td><td>Archived</td><td>12</td></tr><tr><td>en</td><td>Discarded</td><td>13</td></tr><tr><td>en</td><td>Rejected</td><td>14</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -930,7 +929,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>9</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>11</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>12</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>13</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Needs review</td><td>3</td><td>2</td><td>0</td></tr><tr><td>en</td><td>In review</td><td>4</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Approved</td><td>5</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Scheduled</td><td>6</td><td>5</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>7</td><td>6</td><td>3</td></tr><tr><td>en</td><td>Needs review</td><td>8</td><td>7</td><td>3</td></tr><tr><td>en</td><td>Updating</td><td>9</td><td>8</td><td>3</td></tr><tr><td>en</td><td>Expired</td><td>10</td><td>9</td><td>4</td></tr><tr><td>en</td><td>Rejected</td><td>11</td><td>10</td><td>4</td></tr><tr><td>en</td><td>Archived</td><td>12</td><td>11</td><td>5</td></tr><tr><td>en</td><td>Discarded</td><td>13</td><td>12</td><td>6</td></tr><tr><td>en</td><td>Rejected</td><td>14</td><td>13</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1804,7 +1803,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Review</td></tr><tr><td>description</td><td>Review</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>review</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Approved</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Rejected</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Review</td></tr><tr><td>description</td><td>Review</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>review</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Approved</td><td>0</td></tr><tr><td>en</td><td>Rejected</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1813,7 +1812,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Approved</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Rejected</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Approved</td><td>0</td></tr><tr><td>en</td><td>Rejected</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1903,7 +1902,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expired Review Options</td></tr><tr><td>description</td><td>Expired Review Options</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>expiredreviewoptions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Needs Updating</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Republish</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Archive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expired Review Options</td></tr><tr><td>description</td><td>Expired Review Options</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>expiredreviewoptions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Needs Updating</td><td>0</td></tr><tr><td>en</td><td>Republish</td><td>1</td></tr><tr><td>en</td><td>Archive</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1912,7 +1911,7 @@ First included in: /core/applicationCommon/KnowledgeArticle.cdm.json/KnowledgeAr
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Needs Updating</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Republish</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Archive</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Needs Updating</td><td>0</td></tr><tr><td>en</td><td>Republish</td><td>1</td></tr><tr><td>en</td><td>Archive</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

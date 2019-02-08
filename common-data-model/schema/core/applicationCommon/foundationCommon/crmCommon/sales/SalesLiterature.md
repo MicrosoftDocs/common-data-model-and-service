@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Sales Literature
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json" target="_blank">Link on GitHub</a>).  
 Storage of sales literature, which may contain one or more documents.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 sales/SalesLiterature  
 
-## Traits for Sales Literature
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -26,7 +25,7 @@ sales/SalesLiterature
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"SalesLiterature_/hasAttributes/salesLiteratureId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "SalesLiterature_/hasAttributes/salesLiteratureId"
+  "SalesLiterature/hasAttributes/salesLiteratureId"
   ```
 
 
@@ -102,7 +101,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"SalesLiterature_/hasAttributes/salesLiteratureId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "SalesLiterature_/hasAttributes/salesLiteratureId"
+  "SalesLiterature/hasAttributes/salesLiteratureId"
   ```
 
 
@@ -1009,7 +1008,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Select a category or type to help others identify the intended use of the sales literature.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>literaturetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Presentation</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Product Sheet</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Policies And Procedures</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Sales Literature</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Spreadsheets</td><td>4</td><td>4</td></tr><tr><td>en</td><td>News</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Bulletins</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Price Sheets</td><td>7</td><td>7</td></tr><tr><td>en</td><td>Manuals</td><td>8</td><td>8</td></tr><tr><td>en</td><td>Company Background</td><td>9</td><td>9</td></tr><tr><td>en</td><td>Marketing Collateral</td><td>100001</td><td>10</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Select a category or type to help others identify the intended use of the sales literature.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>literaturetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Presentation</td><td>0</td></tr><tr><td>en</td><td>Product Sheet</td><td>1</td></tr><tr><td>en</td><td>Policies And Procedures</td><td>2</td></tr><tr><td>en</td><td>Sales Literature</td><td>3</td></tr><tr><td>en</td><td>Spreadsheets</td><td>4</td></tr><tr><td>en</td><td>News</td><td>5</td></tr><tr><td>en</td><td>Bulletins</td><td>6</td></tr><tr><td>en</td><td>Price Sheets</td><td>7</td></tr><tr><td>en</td><td>Manuals</td><td>8</td></tr><tr><td>en</td><td>Company Background</td><td>9</td></tr><tr><td>en</td><td>Marketing Collateral</td><td>100001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1018,7 +1017,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/sales/Sale
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Presentation</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Product Sheet</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Policies And Procedures</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Sales Literature</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Spreadsheets</td><td>4</td><td>4</td></tr><tr><td>en</td><td>News</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Bulletins</td><td>6</td><td>6</td></tr><tr><td>en</td><td>Price Sheets</td><td>7</td><td>7</td></tr><tr><td>en</td><td>Manuals</td><td>8</td><td>8</td></tr><tr><td>en</td><td>Company Background</td><td>9</td><td>9</td></tr><tr><td>en</td><td>Marketing Collateral</td><td>100001</td><td>10</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Presentation</td><td>0</td></tr><tr><td>en</td><td>Product Sheet</td><td>1</td></tr><tr><td>en</td><td>Policies And Procedures</td><td>2</td></tr><tr><td>en</td><td>Sales Literature</td><td>3</td></tr><tr><td>en</td><td>Spreadsheets</td><td>4</td></tr><tr><td>en</td><td>News</td><td>5</td></tr><tr><td>en</td><td>Bulletins</td><td>6</td></tr><tr><td>en</td><td>Price Sheets</td><td>7</td></tr><tr><td>en</td><td>Manuals</td><td>8</td></tr><tr><td>en</td><td>Company Background</td><td>9</td></tr><tr><td>en</td><td>Marketing Collateral</td><td>100001</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

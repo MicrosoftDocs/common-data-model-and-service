@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Campaign
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json" target="_blank">Link on GitHub</a>).  
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/Campaign.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 crmCommon/Campaign  
 [nonProfit/Campaign](accelerators/nonProfit/Campaign.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/Campaign.cdm.json/Campaign")  
 
-## Traits for Campaign
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -30,14 +29,14 @@ crmCommon/Campaign
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Campaign_/hasAttributes/campaignId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Campaign_/hasAttributes/campaignId"
+  "Campaign/hasAttributes/campaignId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Campaign_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Campaign_/hasAttributes/stateCode"
+  "Campaign/hasAttributes/stateCode"
   ```
 
 
@@ -813,7 +812,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Campaign_/hasAttributes/campaignId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Campaign_/hasAttributes/campaignId"
+  "Campaign/hasAttributes/campaignId"
   ```
 
 
@@ -1803,7 +1802,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows the status of the campaign. By default, campaigns are active and can't be deactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows the status of the campaign. By default, campaigns are active and can't be deactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1812,7 +1811,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1820,7 +1819,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Campaign_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Campaign_/hasAttributes/stateCode"
+  "Campaign/hasAttributes/stateCode"
   ```
 
 
@@ -1871,7 +1870,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the campaign's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Proposed</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Ready To Launch</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Launched</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Suspended</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Inactive</td><td>6</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the campaign's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Proposed</td><td>0</td></tr><tr><td>en</td><td>Ready To Launch</td><td>1</td></tr><tr><td>en</td><td>Launched</td><td>2</td></tr><tr><td>en</td><td>Completed</td><td>3</td></tr><tr><td>en</td><td>Canceled</td><td>4</td></tr><tr><td>en</td><td>Suspended</td><td>5</td></tr><tr><td>en</td><td>Inactive</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1880,7 +1879,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>0</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Ready To Launch</td><td>1</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Launched</td><td>2</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Suspended</td><td>5</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>6</td><td>6</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Proposed</td><td>0</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Ready To Launch</td><td>1</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Launched</td><td>2</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>3</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Canceled</td><td>4</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Suspended</td><td>5</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>6</td><td>6</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2108,7 +2107,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Campaign Type</td></tr><tr><td>description</td><td>Select the type of the campaign.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Direct Marketing</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Event</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Co-branding</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>5</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Campaign Type</td></tr><tr><td>description</td><td>Select the type of the campaign.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>typecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr><tr><td>en</td><td>Direct Marketing</td><td>2</td></tr><tr><td>en</td><td>Event</td><td>3</td></tr><tr><td>en</td><td>Co-branding</td><td>4</td></tr><tr><td>en</td><td>Other</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2117,7 +2116,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/Campaign.c
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Direct Marketing</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Event</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Co-branding</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Other</td><td>5</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Advertisement</td><td>1</td></tr><tr><td>en</td><td>Direct Marketing</td><td>2</td></tr><tr><td>en</td><td>Event</td><td>3</td></tr><tr><td>en</td><td>Co-branding</td><td>4</td></tr><tr><td>en</td><td>Other</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

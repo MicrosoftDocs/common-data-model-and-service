@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Activity Party
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ActivityParty.cdm.json" target="_blank">Link on GitHub</a>).  
 Person or group associated with an activity. An activity can have multiple activity parties.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/ActivityParty.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/ActivityParty  
 [service/ActivityParty](foundationCommon/crmCommon/service/ActivityParty.md "/core/applicationCommon/foundationCommon/crmCommon/service/ActivityParty.cdm.json/ActivityParty")  
 
-## Traits for Activity Party
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -27,7 +26,7 @@ applicationCommon/ActivityParty
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ActivityParty_/hasAttributes/activityPartyId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "ActivityParty_/hasAttributes/activityPartyId"
+  "ActivityParty/hasAttributes/activityPartyId"
   ```
 
 
@@ -138,7 +137,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"ActivityParty_/hasAttributes/activityPartyId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "ActivityParty_/hasAttributes/activityPartyId"
+  "ActivityParty/hasAttributes/activityPartyId"
   ```
 
 
@@ -244,7 +243,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participation Type</td></tr><tr><td>description</td><td>Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>participationtypemask</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Sender</td><td>1</td><td>0</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td><td>1</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td><td>2</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Organizer</td><td>7</td><td>6</td></tr><tr><td>en</td><td>Regarding</td><td>8</td><td>7</td></tr><tr><td>en</td><td>Owner</td><td>9</td><td>8</td></tr><tr><td>en</td><td>Resource</td><td>10</td><td>9</td></tr><tr><td>en</td><td>Customer</td><td>11</td><td>10</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Participation Type</td></tr><tr><td>description</td><td>Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>participationtypemask</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Customer</td><td>11</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -253,7 +252,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Sender</td><td>1</td><td>0</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td><td>1</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td><td>2</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td><td>3</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td><td>4</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td><td>5</td></tr><tr><td>en</td><td>Organizer</td><td>7</td><td>6</td></tr><tr><td>en</td><td>Regarding</td><td>8</td><td>7</td></tr><tr><td>en</td><td>Owner</td><td>9</td><td>8</td></tr><tr><td>en</td><td>Resource</td><td>10</td><td>9</td></tr><tr><td>en</td><td>Customer</td><td>11</td><td>10</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Sender</td><td>1</td></tr><tr><td>en</td><td>To Recipient</td><td>2</td></tr><tr><td>en</td><td>CC Recipient</td><td>3</td></tr><tr><td>en</td><td>BCC Recipient</td><td>4</td></tr><tr><td>en</td><td>Required attendee</td><td>5</td></tr><tr><td>en</td><td>Optional attendee</td><td>6</td></tr><tr><td>en</td><td>Organizer</td><td>7</td></tr><tr><td>en</td><td>Regarding</td><td>8</td></tr><tr><td>en</td><td>Owner</td><td>9</td></tr><tr><td>en</td><td>Resource</td><td>10</td></tr><tr><td>en</td><td>Customer</td><td>11</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -753,7 +752,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appointment Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appointment Type</td></tr><tr><td>description</td><td>Type of instance of a recurring series.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>instancetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -762,7 +761,7 @@ First included in: /core/applicationCommon/ActivityParty.cdm.json/ActivityParty
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not Recurring</td><td>0</td></tr><tr><td>en</td><td>Recurring Master</td><td>1</td></tr><tr><td>en</td><td>Recurring Instance</td><td>2</td></tr><tr><td>en</td><td>Recurring Exception</td><td>3</td></tr><tr><td>en</td><td>Recurring Future Exception</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

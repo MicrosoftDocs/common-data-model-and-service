@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Event
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json" target="_blank">Link on GitHub</a>).  
 Container to manage and plan marketing activities that take place at a specific venue or location.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Event.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 eventManagement/Event  
 
-## Traits for Event
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,14 +28,14 @@ eventManagement/Event
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Event_/hasAttributes/eventId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Event_/hasAttributes/eventId"
+  "Event/hasAttributes/eventId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Event_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Event_/hasAttributes/stateCode"
+  "Event/hasAttributes/stateCode"
   ```
 
 
@@ -916,7 +915,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Event_/hasAttributes/eventId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Event_/hasAttributes/eventId"
+  "Event/hasAttributes/eventId"
   ```
 
 
@@ -944,7 +943,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -953,7 +952,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -961,7 +960,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Event_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Event_/hasAttributes/stateCode"
+  "Event/hasAttributes/stateCode"
   ```
 
 
@@ -1012,7 +1011,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1021,7 +1020,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1303,7 +1302,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Booked Flight reservations?</td></tr><tr><td>description</td><td>Flight reservations booking status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_bookedflightreservations</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Booked Flight reservations?</td></tr><tr><td>description</td><td>Flight reservations booking status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_bookedflightreservations</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1312,7 +1311,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1366,7 +1365,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Book Rooms</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_bookrooms</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Book Rooms</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_bookrooms</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1375,7 +1374,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1592,7 +1591,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Catering required?</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_cateringrequired</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Catering required?</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_cateringrequired</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000001</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1601,7 +1600,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000001</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1691,7 +1690,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Confirmed Hotel choices?</td></tr><tr><td>description</td><td>Hotel choices confirmation status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_confirmedhotelchoices</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Confirmed Hotel choices?</td></tr><tr><td>description</td><td>Hotel choices confirmation status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_confirmedhotelchoices</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1700,7 +1699,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1788,7 +1787,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Create Marketing Collateral</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_createmarketingcollateral</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Create Marketing Collateral</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_createmarketingcollateral</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1797,7 +1796,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1848,7 +1847,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Define Packages and Pricing</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_definepackagesandpricing</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Define Packages and Pricing</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_definepackagesandpricing</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1857,7 +1856,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1908,7 +1907,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Define Sessions</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_definesessions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Define Sessions</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_definesessions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1917,7 +1916,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1968,7 +1967,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Define Team</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_defineteam</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Define Team</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_defineteam</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1977,7 +1976,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2064,7 +2063,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Develop Marketing Plan</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_developmarketingplan</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Develop Marketing Plan</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_developmarketingplan</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2073,7 +2072,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2158,7 +2157,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Debriefing</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventdebriefing</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Debriefing</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventdebriefing</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2167,7 +2166,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2252,7 +2251,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Format</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventformat</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>On Site</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Webinar</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Hybrid</td><td>100000003</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Format</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventformat</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>On Site</td><td>100000001</td></tr><tr><td>en</td><td>Webinar</td><td>100000002</td></tr><tr><td>en</td><td>Hybrid</td><td>100000003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2261,7 +2260,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>On Site</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Webinar</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Hybrid</td><td>100000003</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>On Site</td><td>100000001</td></tr><tr><td>en</td><td>Webinar</td><td>100000002</td></tr><tr><td>en</td><td>Hybrid</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2420,7 +2419,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Executive Briefing</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Conference</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Demonstration</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Training</td><td>100000004</td><td>3</td></tr><tr><td>en</td><td>Webcast</td><td>100000005</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Event Type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_eventtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Executive Briefing</td><td>100000001</td></tr><tr><td>en</td><td>Conference</td><td>100000002</td></tr><tr><td>en</td><td>Demonstration</td><td>100000003</td></tr><tr><td>en</td><td>Training</td><td>100000004</td></tr><tr><td>en</td><td>Webcast</td><td>100000005</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2429,7 +2428,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Executive Briefing</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Conference</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Demonstration</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Training</td><td>100000004</td><td>3</td></tr><tr><td>en</td><td>Webcast</td><td>100000005</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Executive Briefing</td><td>100000001</td></tr><tr><td>en</td><td>Conference</td><td>100000002</td></tr><tr><td>en</td><td>Demonstration</td><td>100000003</td></tr><tr><td>en</td><td>Training</td><td>100000004</td></tr><tr><td>en</td><td>Webcast</td><td>100000005</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2597,7 +2596,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Follow up on Leads</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_followuponleads</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Follow up on Leads</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_followuponleads</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2606,7 +2605,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2658,7 +2657,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Guest Logistics?</td></tr><tr><td>description</td><td>Whether guest logistics are required or not.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_guestlogistics</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Guest Logistics?</td></tr><tr><td>description</td><td>Whether guest logistics are required or not.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_guestlogistics</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000001</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2667,7 +2666,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000001</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2721,7 +2720,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Identify Speakers</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_identifyspeakers</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Identify Speakers</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_identifyspeakers</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2730,7 +2729,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2781,7 +2780,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Identify Sponsors</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_identifysponsors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not applicable</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Incomplete</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Complete</td><td>100000003</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Identify Sponsors</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_identifysponsors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000001</td></tr><tr><td>en</td><td>Incomplete</td><td>100000002</td></tr><tr><td>en</td><td>Complete</td><td>100000003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2790,7 +2789,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not applicable</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Incomplete</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Complete</td><td>100000003</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not applicable</td><td>100000001</td></tr><tr><td>en</td><td>Incomplete</td><td>100000002</td></tr><tr><td>en</td><td>Complete</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2872,7 +2871,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Template</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_istemplate</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Template</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_istemplate</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2881,7 +2880,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2933,7 +2932,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Language</td></tr><tr><td>description</td><td>The language of the webinar</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_language</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>English</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>French</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>German</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>Spanish</td><td>100000003</td><td>3</td></tr><tr><td>en</td><td>Italian</td><td>100000004</td><td>4</td></tr><tr><td>en</td><td>Russian</td><td>100000005</td><td>5</td></tr><tr><td>en</td><td>Dutch</td><td>100000006</td><td>6</td></tr><tr><td>en</td><td>Turkish</td><td>100000007</td><td>7</td></tr><tr><td>en</td><td>Portuguese</td><td>100000008</td><td>8</td></tr><tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td><td>9</td></tr><tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td><td>10</td></tr><tr><td>en</td><td>Japanese</td><td>100000010</td><td>11</td></tr><tr><td>en</td><td>Korean</td><td>100000011</td><td>12</td></tr><tr><td>en</td><td>Hebrew</td><td>100000012</td><td>13</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Language</td></tr><tr><td>description</td><td>The language of the webinar</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_language</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>English</td><td>100000000</td></tr><tr><td>en</td><td>French</td><td>100000001</td></tr><tr><td>en</td><td>German</td><td>100000002</td></tr><tr><td>en</td><td>Spanish</td><td>100000003</td></tr><tr><td>en</td><td>Italian</td><td>100000004</td></tr><tr><td>en</td><td>Russian</td><td>100000005</td></tr><tr><td>en</td><td>Dutch</td><td>100000006</td></tr><tr><td>en</td><td>Turkish</td><td>100000007</td></tr><tr><td>en</td><td>Portuguese</td><td>100000008</td></tr><tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td></tr><tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td></tr><tr><td>en</td><td>Japanese</td><td>100000010</td></tr><tr><td>en</td><td>Korean</td><td>100000011</td></tr><tr><td>en</td><td>Hebrew</td><td>100000012</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2942,7 +2941,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>English</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>French</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>German</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>Spanish</td><td>100000003</td><td>3</td></tr><tr><td>en</td><td>Italian</td><td>100000004</td><td>4</td></tr><tr><td>en</td><td>Russian</td><td>100000005</td><td>5</td></tr><tr><td>en</td><td>Dutch</td><td>100000006</td><td>6</td></tr><tr><td>en</td><td>Turkish</td><td>100000007</td><td>7</td></tr><tr><td>en</td><td>Portuguese</td><td>100000008</td><td>8</td></tr><tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td><td>9</td></tr><tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td><td>10</td></tr><tr><td>en</td><td>Japanese</td><td>100000010</td><td>11</td></tr><tr><td>en</td><td>Korean</td><td>100000011</td><td>12</td></tr><tr><td>en</td><td>Hebrew</td><td>100000012</td><td>13</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>English</td><td>100000000</td></tr><tr><td>en</td><td>French</td><td>100000001</td></tr><tr><td>en</td><td>German</td><td>100000002</td></tr><tr><td>en</td><td>Spanish</td><td>100000003</td></tr><tr><td>en</td><td>Italian</td><td>100000004</td></tr><tr><td>en</td><td>Russian</td><td>100000005</td></tr><tr><td>en</td><td>Dutch</td><td>100000006</td></tr><tr><td>en</td><td>Turkish</td><td>100000007</td></tr><tr><td>en</td><td>Portuguese</td><td>100000008</td></tr><tr><td>en</td><td>Chinese (Simplified)</td><td>100000009</td></tr><tr><td>en</td><td>Chinese (Traditional)</td><td>100000013</td></tr><tr><td>en</td><td>Japanese</td><td>100000010</td></tr><tr><td>en</td><td>Korean</td><td>100000011</td></tr><tr><td>en</td><td>Hebrew</td><td>100000012</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2996,7 +2995,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Make Payments Due</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_makepaymentsdue</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Make Payments Due</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_makepaymentsdue</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3005,7 +3004,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3056,7 +3055,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Manage Registration Count?</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_manageregistrationcount</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Manage Registration Count?</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_manageregistrationcount</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3065,7 +3064,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>No</td><td>100000002</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Yes</td><td>100000001</td></tr><tr><td>en</td><td>No</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3265,7 +3264,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notify Authorities of Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_notifyauthoritiesofevent</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notify Authorities of Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_notifyauthoritiesofevent</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3274,7 +3273,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3325,7 +3324,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Plan Registration</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_planregistration</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Plan Registration</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_planregistration</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3334,7 +3333,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3422,7 +3421,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Goal</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_primarygoal</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Marketing</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Sales</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Education</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Morale</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Goal</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_primarygoal</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Marketing</td><td>100000001</td></tr><tr><td>en</td><td>Sales</td><td>100000002</td></tr><tr><td>en</td><td>Education</td><td>100000003</td></tr><tr><td>en</td><td>Morale</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3431,7 +3430,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Marketing</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Sales</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Education</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Morale</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Marketing</td><td>100000001</td></tr><tr><td>en</td><td>Sales</td><td>100000002</td></tr><tr><td>en</td><td>Education</td><td>100000003</td></tr><tr><td>en</td><td>Morale</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3601,7 +3600,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Publish Status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_publishstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Draft</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Ready to publish</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>100000003</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Publish Status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_publishstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>100000000</td></tr><tr><td>en</td><td>Ready to publish</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Published</td><td>100000003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3610,7 +3609,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Draft</td><td>100000000</td><td>0</td></tr><tr><td>en</td><td>Ready to publish</td><td>100000001</td><td>1</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>2</td></tr><tr><td>en</td><td>Published</td><td>100000003</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>100000000</td></tr><tr><td>en</td><td>Ready to publish</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Published</td><td>100000003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3839,7 +3838,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Request Sponsorship</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_requestsponsorship</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Request Sponsorship</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_requestsponsorship</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3848,7 +3847,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -3981,7 +3980,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Schedule airport pickups?</td></tr><tr><td>description</td><td>Airport pickups scheduling status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_scheduleairportpickups</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Schedule airport pickups?</td></tr><tr><td>description</td><td>Airport pickups scheduling status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_scheduleairportpickups</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3990,7 +3989,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4044,7 +4043,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Schedule Sessions</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_schedulesessions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Schedule Sessions</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_schedulesessions</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4053,7 +4052,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4104,7 +4103,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Select Speakers</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_selectspeakers</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Select Speakers</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_selectspeakers</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4113,7 +4112,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4164,7 +4163,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Select Vendors</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_selectvendors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Select Vendors</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_selectvendors</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4173,7 +4172,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4225,7 +4224,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Event invitation</td></tr><tr><td>description</td><td>Event invitation sending status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendeventinvitation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Event invitation</td></tr><tr><td>description</td><td>Event invitation sending status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendeventinvitation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4234,7 +4233,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4288,7 +4287,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Marketing Material</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendmarketingmaterial</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Marketing Material</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendmarketingmaterial</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4297,7 +4296,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4348,7 +4347,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Pre Event Reminders</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendpreeventreminders</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Pre Event Reminders</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendpreeventreminders</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4357,7 +4356,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4408,7 +4407,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Thank You Emails</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendthankyouemails</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Thank You Emails</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendthankyouemails</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4417,7 +4416,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -4580,7 +4579,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Team Debriefing</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_teamdebriefing</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Team Debriefing</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_teamdebriefing</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4589,7 +4588,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5002,7 +5001,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waitlist this Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_waitlistthisevent</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waitlist this Event</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_waitlistthisevent</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000001</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5011,7 +5010,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>100000001</td></tr><tr><td>en</td><td>Yes</td><td>100000002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -5366,7 +5365,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Surveys</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendsurveys</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Send Surveys</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msevtmgt_sendsurveys</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5375,7 +5374,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td><td>0</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td><td>1</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td><td>2</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Not started</td><td>100000001</td></tr><tr><td>en</td><td>In progress</td><td>100000002</td></tr><tr><td>en</td><td>Completed</td><td>100000003</td></tr><tr><td>en</td><td>Not applicable</td><td>100000004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

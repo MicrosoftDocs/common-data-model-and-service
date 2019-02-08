@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # SLA KPI Instance
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SLAKPIInstance.cdm.json" target="_blank">Link on GitHub</a>).  
 Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/SLAKPIInstance.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 applicationCommon/SLAKPIInstance  
 [service/SLAKPIInstance](foundationCommon/crmCommon/service/SLAKPIInstance.md "/core/applicationCommon/foundationCommon/crmCommon/service/SLAKPIInstance.cdm.json/SLAKPIInstance")  
 
-## Traits for SLA KPI Instance
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -27,7 +26,7 @@ applicationCommon/SLAKPIInstance
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"SLAKPIInstance_/hasAttributes/SLAKPIInstanceId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "SLAKPIInstance_/hasAttributes/SLAKPIInstanceId"
+  "SLAKPIInstance/hasAttributes/SLAKPIInstanceId"
   ```
 
 
@@ -101,7 +100,7 @@ First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstanc
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"SLAKPIInstance_/hasAttributes/SLAKPIInstanceId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "SLAKPIInstance_/hasAttributes/SLAKPIInstanceId"
+  "SLAKPIInstance/hasAttributes/SLAKPIInstanceId"
   ```
 
 
@@ -539,7 +538,7 @@ First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstanc
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Reason for the status of the service level agreement (SLA) key performance indicator (KPI) instance. For example, the SLA KPI could be Noncompliant or Succeeded.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>In Progress</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Noncompliant</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Paused</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Succeeded</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Reason for the status of the service level agreement (SLA) key performance indicator (KPI) instance. For example, the SLA KPI could be Noncompliant or Succeeded.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>0</td></tr><tr><td>en</td><td>Noncompliant</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Paused</td><td>3</td></tr><tr><td>en</td><td>Succeeded</td><td>4</td></tr><tr><td>en</td><td>Canceled</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -548,7 +547,7 @@ First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstanc
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>In Progress</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Noncompliant</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Paused</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Succeeded</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>0</td></tr><tr><td>en</td><td>Noncompliant</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Paused</td><td>3</td></tr><tr><td>en</td><td>Succeeded</td><td>4</td></tr><tr><td>en</td><td>Canceled</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1098,7 +1097,7 @@ First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstanc
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Warning Time Reached</td></tr><tr><td>description</td><td>Shows information about whether the case has reached its warning time.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>warningtimereached</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Warning Time Reached</td></tr><tr><td>description</td><td>Shows information about whether the case has reached its warning time.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>warningtimereached</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1107,7 +1106,7 @@ First included in: /core/applicationCommon/SLAKPIInstance.cdm.json/SLAKPIInstanc
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>No</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>No</td><td>0</td></tr><tr><td>en</td><td>Yes</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

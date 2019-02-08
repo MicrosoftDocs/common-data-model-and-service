@@ -10,16 +10,15 @@ ms.author: tpalmer
 
 # Case
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json" target="_blank">Link on GitHub</a>).  
 Service request case associated with a contract.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Case.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 service/Case  
 [portals/Case](../solutions/portals/Case.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/portals/Case.cdm.json/Case")  
 
-## Traits for Case
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -30,7 +29,7 @@ service/Case
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Case_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Case_/hasAttributes/stateCode"
+  "Case/hasAttributes/stateCode"
   ```
 
 
@@ -851,7 +850,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Case_/hasAttributes/incidentId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Case_/hasAttributes/incidentId"
+  "Case/hasAttributes/incidentId"
   ```
 
 
@@ -1225,7 +1224,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin</td></tr><tr><td>description</td><td>Select how contact about the case was originated, such as email, phone, or web, for use in reporting and analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>caseorigincode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Phone</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Email</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Web</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Facebook</td><td>2483</td><td>3</td></tr><tr><td>en</td><td>Twitter</td><td>3986</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin</td></tr><tr><td>description</td><td>Select how contact about the case was originated, such as email, phone, or web, for use in reporting and analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>caseorigincode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Phone</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Web</td><td>3</td></tr><tr><td>en</td><td>Facebook</td><td>2483</td></tr><tr><td>en</td><td>Twitter</td><td>3986</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1234,7 +1233,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Phone</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Email</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Web</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Facebook</td><td>2483</td><td>3</td></tr><tr><td>en</td><td>Twitter</td><td>3986</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Phone</td><td>1</td></tr><tr><td>en</td><td>Email</td><td>2</td></tr><tr><td>en</td><td>Web</td><td>3</td></tr><tr><td>en</td><td>Facebook</td><td>2483</td></tr><tr><td>en</td><td>Twitter</td><td>3986</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1289,7 +1288,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Case Type</td></tr><tr><td>description</td><td>Select the type of case to identify the incident for use in case routing and analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>casetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Question</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Problem</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Request</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Case Type</td></tr><tr><td>description</td><td>Select the type of case to identify the incident for use in case routing and analysis.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>casetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Question</td><td>1</td></tr><tr><td>en</td><td>Problem</td><td>2</td></tr><tr><td>en</td><td>Request</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1298,7 +1297,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Question</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Problem</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Request</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Question</td><td>1</td></tr><tr><td>en</td><td>Problem</td><td>2</td></tr><tr><td>en</td><td>Request</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1478,7 +1477,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Service Level</td></tr><tr><td>description</td><td>Select the service level for the case to make sure the case is handled correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>contractservicelevelcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Gold</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Silver</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Bronze</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Service Level</td></tr><tr><td>description</td><td>Select the service level for the case to make sure the case is handled correctly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>contractservicelevelcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Gold</td><td>1</td></tr><tr><td>en</td><td>Silver</td><td>2</td></tr><tr><td>en</td><td>Bronze</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1487,7 +1486,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Gold</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Silver</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Bronze</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Gold</td><td>1</td></tr><tr><td>en</td><td>Silver</td><td>2</td></tr><tr><td>en</td><td>Bronze</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1623,7 +1622,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Satisfaction</td></tr><tr><td>description</td><td>Select the customer's level of satisfaction with the handling and resolution of the case.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customersatisfactioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Very Satisfied</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Satisfied</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Neutral</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Dissatisfied</td><td>2</td><td>3</td></tr><tr><td>en</td><td>Very Dissatisfied</td><td>1</td><td>4</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Satisfaction</td></tr><tr><td>description</td><td>Select the customer's level of satisfaction with the handling and resolution of the case.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customersatisfactioncode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Very Satisfied</td><td>5</td></tr><tr><td>en</td><td>Satisfied</td><td>4</td></tr><tr><td>en</td><td>Neutral</td><td>3</td></tr><tr><td>en</td><td>Dissatisfied</td><td>2</td></tr><tr><td>en</td><td>Very Dissatisfied</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1632,7 +1631,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Very Satisfied</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Satisfied</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Neutral</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Dissatisfied</td><td>2</td><td>3</td></tr><tr><td>en</td><td>Very Dissatisfied</td><td>1</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Very Satisfied</td><td>5</td></tr><tr><td>en</td><td>Satisfied</td><td>4</td></tr><tr><td>en</td><td>Neutral</td><td>3</td></tr><tr><td>en</td><td>Dissatisfied</td><td>2</td></tr><tr><td>en</td><td>Very Dissatisfied</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1817,7 +1816,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Response SLA Status</td></tr><tr><td>description</td><td>Shows the status of the initial response time for the case according to the terms of the SLA.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>firstresponseslastatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Response SLA Status</td></tr><tr><td>description</td><td>Shows the status of the initial response time for the case according to the terms of the SLA.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>firstresponseslastatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1826,7 +1825,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1954,7 +1953,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Case Stage</td></tr><tr><td>description</td><td>Select the current stage of the service process for the case to assist service team members when they review or transfer a case.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>incidentstagecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Case Stage</td></tr><tr><td>description</td><td>Select the current stage of the service process for the case to assist service team members when they review or transfer a case.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>incidentstagecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1963,7 +1962,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2098,7 +2097,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Received As</td></tr><tr><td>description</td><td>Shows whether the post originated as a public or private message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>messagetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Received As</td></tr><tr><td>description</td><td>Shows whether the post originated as a public or private message.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>messagetypecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2107,7 +2106,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2162,7 +2161,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Select the priority so that preferred customers or critical issues are handled quickly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>High</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>3</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Select the priority so that preferred customers or critical issues are handled quickly.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>prioritycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>1</td></tr><tr><td>en</td><td>Normal</td><td>2</td></tr><tr><td>en</td><td>Low</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2171,7 +2170,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>High</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Normal</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Low</td><td>3</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>High</td><td>1</td></tr><tr><td>en</td><td>Normal</td><td>2</td></tr><tr><td>en</td><td>Low</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2356,7 +2355,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Resolve By SLA Status</td></tr><tr><td>description</td><td>Shows the status of the resolution time for the case according to the terms of the SLA.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>resolvebyslastatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Resolve By SLA Status</td></tr><tr><td>description</td><td>Shows the status of the resolution time for the case according to the terms of the SLA.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>resolvebyslastatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2365,7 +2364,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td><td>2</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr><tr><td>en</td><td>Nearing Noncompliance</td><td>2</td></tr><tr><td>en</td><td>Succeeded</td><td>3</td></tr><tr><td>en</td><td>Noncompliant</td><td>4</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2543,7 +2542,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Service Stage</td></tr><tr><td>description</td><td>Select the stage, in the case resolution process, that the case is in.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>servicestage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Identify</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Research</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Resolve</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Service Stage</td></tr><tr><td>description</td><td>Select the stage, in the case resolution process, that the case is in.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>servicestage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Identify</td><td>0</td></tr><tr><td>en</td><td>Research</td><td>1</td></tr><tr><td>en</td><td>Resolve</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2552,7 +2551,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Identify</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Research</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Resolve</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Identify</td><td>0</td></tr><tr><td>en</td><td>Research</td><td>1</td></tr><tr><td>en</td><td>Resolve</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2607,7 +2606,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Severity</td></tr><tr><td>description</td><td>Select the severity of this case to indicate the incident's impact on the customer's business.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>severitycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Severity</td></tr><tr><td>description</td><td>Select the severity of this case to indicate the incident's impact on the customer's business.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>severitycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2616,7 +2615,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Default Value</td><td>1</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Default Value</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2761,7 +2760,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the case is active, resolved, or canceled. Resolved and canceled cases are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Resolved</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Shows whether the case is active, resolved, or canceled. Resolved and canceled cases are read-only and can't be edited unless they are reactivated.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Resolved</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2770,7 +2769,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Resolved</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Resolved</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -2778,7 +2777,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"Case_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "Case_/hasAttributes/stateCode"
+  "Case/hasAttributes/stateCode"
   ```
 
 
@@ -2829,7 +2828,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the case's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Problem Solved</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Information Provided</td><td>1000</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Merged</td><td>2000</td><td>3</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>4</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>5</td></tr><tr><td>en</td><td>Waiting for Details</td><td>3</td><td>6</td></tr><tr><td>en</td><td>Researching</td><td>4</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the case's status.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Problem Solved</td><td>5</td></tr><tr><td>en</td><td>Information Provided</td><td>1000</td></tr><tr><td>en</td><td>Canceled</td><td>6</td></tr><tr><td>en</td><td>Merged</td><td>2000</td></tr><tr><td>en</td><td>In Progress</td><td>1</td></tr><tr><td>en</td><td>On Hold</td><td>2</td></tr><tr><td>en</td><td>Waiting for Details</td><td>3</td></tr><tr><td>en</td><td>Researching</td><td>4</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2838,7 +2837,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/service/Ca
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Problem Solved</td><td>5</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Information Provided</td><td>1000</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Merged</td><td>2000</td><td>3</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>4</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Waiting for Details</td><td>3</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Researching</td><td>4</td><td>7</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Problem Solved</td><td>5</td><td>0</td><td>1</td></tr><tr><td>en</td><td>Information Provided</td><td>1000</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>6</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Merged</td><td>2000</td><td>3</td><td>2</td></tr><tr><td>en</td><td>In Progress</td><td>1</td><td>4</td><td>0</td></tr><tr><td>en</td><td>On Hold</td><td>2</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Waiting for Details</td><td>3</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Researching</td><td>4</td><td>7</td><td>0</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

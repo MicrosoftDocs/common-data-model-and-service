@@ -10,15 +10,14 @@ ms.author: tpalmer
 
 # Delivery Framework
 
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFramework.cdm.json" target="_blank">Link on GitHub</a>).  
 A Delivery Framework is a Management Unit of work defined by the organization or entity doing the work.  
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/DeliveryFramework.cdm.json" target="_blank">Entity definition</a> on GitHub.  
 
-## Instances
+### Instances
 
 nonProfit/DeliveryFramework  
 
-## Traits for Delivery Framework
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -29,14 +28,14 @@ nonProfit/DeliveryFramework
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"DeliveryFramework_/hasAttributes/deliveryFrameworkId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "DeliveryFramework_/hasAttributes/deliveryFrameworkId"
+  "DeliveryFramework/hasAttributes/deliveryFrameworkId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"DeliveryFramework_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "DeliveryFramework_/hasAttributes/stateCode"
+  "DeliveryFramework/hasAttributes/stateCode"
   ```
 
 
@@ -794,7 +793,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"DeliveryFramework_/hasAttributes/deliveryFrameworkId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "DeliveryFramework_/hasAttributes/deliveryFrameworkId"
+  "DeliveryFramework/hasAttributes/deliveryFrameworkId"
   ```
 
 
@@ -822,7 +821,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Delivery Framework</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Delivery Framework</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -831,7 +830,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -839,7 +838,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"DeliveryFramework_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "DeliveryFramework_/hasAttributes/stateCode"
+  "DeliveryFramework/hasAttributes/stateCode"
   ```
 
 
@@ -890,7 +889,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Delivery Framework</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Delivery Framework</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -899,7 +898,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1043,7 +1042,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Framework Type</td></tr><tr><td>description</td><td>The type of Framwork, i.e. Program, Project, Initiative, Activity</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deliveryframeworktype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Program</td><td>844060000</td><td>0</td></tr><tr><td>en</td><td>Project</td><td>844060001</td><td>1</td></tr><tr><td>en</td><td>Action</td><td>844060002</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Framework Type</td></tr><tr><td>description</td><td>The type of Framwork, i.e. Program, Project, Initiative, Activity</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deliveryframeworktype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Program</td><td>844060000</td></tr><tr><td>en</td><td>Project</td><td>844060001</td></tr><tr><td>en</td><td>Action</td><td>844060002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1052,7 +1051,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Program</td><td>844060000</td><td>0</td></tr><tr><td>en</td><td>Project</td><td>844060001</td><td>1</td></tr><tr><td>en</td><td>Action</td><td>844060002</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Program</td><td>844060000</td></tr><tr><td>en</td><td>Project</td><td>844060001</td></tr><tr><td>en</td><td>Action</td><td>844060002</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1315,7 +1314,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Scope</td></tr><tr><td>description</td><td>Scope of the Framework.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_scope</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Global</td><td>844060000</td><td>0</td></tr><tr><td>en</td><td>Regional</td><td>844060001</td><td>1</td></tr><tr><td>en</td><td>Multi-National</td><td>844060002</td><td>2</td></tr><tr><td>en</td><td>National</td><td>844060003</td><td>3</td></tr><tr><td>en</td><td>Sub-national: Multi-first-level administrative areas</td><td>844060004</td><td>4</td></tr><tr><td>en</td><td>Sub-national: Multi second-level administrative area</td><td>844060005</td><td>5</td></tr><tr><td>en</td><td>Sub-national: Single second-level administrative area</td><td>844060006</td><td>6</td></tr><tr><td>en</td><td>Single Location</td><td>844060007</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Scope</td></tr><tr><td>description</td><td>Scope of the Framework.</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_scope</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Global</td><td>844060000</td></tr><tr><td>en</td><td>Regional</td><td>844060001</td></tr><tr><td>en</td><td>Multi-National</td><td>844060002</td></tr><tr><td>en</td><td>National</td><td>844060003</td></tr><tr><td>en</td><td>Sub-national: Multi-first-level administrative areas</td><td>844060004</td></tr><tr><td>en</td><td>Sub-national: Multi second-level administrative area</td><td>844060005</td></tr><tr><td>en</td><td>Sub-national: Single second-level administrative area</td><td>844060006</td></tr><tr><td>en</td><td>Single Location</td><td>844060007</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1324,7 +1323,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Global</td><td>844060000</td><td>0</td></tr><tr><td>en</td><td>Regional</td><td>844060001</td><td>1</td></tr><tr><td>en</td><td>Multi-National</td><td>844060002</td><td>2</td></tr><tr><td>en</td><td>National</td><td>844060003</td><td>3</td></tr><tr><td>en</td><td>Sub-national: Multi-first-level administrative areas</td><td>844060004</td><td>4</td></tr><tr><td>en</td><td>Sub-national: Multi second-level administrative area</td><td>844060005</td><td>5</td></tr><tr><td>en</td><td>Sub-national: Single second-level administrative area</td><td>844060006</td><td>6</td></tr><tr><td>en</td><td>Single Location</td><td>844060007</td><td>7</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Global</td><td>844060000</td></tr><tr><td>en</td><td>Regional</td><td>844060001</td></tr><tr><td>en</td><td>Multi-National</td><td>844060002</td></tr><tr><td>en</td><td>National</td><td>844060003</td></tr><tr><td>en</td><td>Sub-national: Multi-first-level administrative areas</td><td>844060004</td></tr><tr><td>en</td><td>Sub-national: Multi second-level administrative area</td><td>844060005</td></tr><tr><td>en</td><td>Sub-national: Single second-level administrative area</td><td>844060006</td></tr><tr><td>en</td><td>Single Location</td><td>844060007</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1417,7 +1416,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Pipeline/Identification</td><td>844060000</td><td>0</td></tr><tr><td>en</td><td>Implementation</td><td>844060001</td><td>1</td></tr><tr><td>en</td><td>Completion</td><td>844060002</td><td>2</td></tr><tr><td>en</td><td>POst-Completion</td><td>844060004</td><td>3</td></tr><tr><td>en</td><td>Cancelled</td><td>844060005</td><td>4</td></tr><tr><td>en</td><td>Suspended</td><td>844060006</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pipeline/Identification</td><td>844060000</td></tr><tr><td>en</td><td>Implementation</td><td>844060001</td></tr><tr><td>en</td><td>Completion</td><td>844060002</td></tr><tr><td>en</td><td>POst-Completion</td><td>844060004</td></tr><tr><td>en</td><td>Cancelled</td><td>844060005</td></tr><tr><td>en</td><td>Suspended</td><td>844060006</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1426,7 +1425,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/accelerato
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Pipeline/Identification</td><td>844060000</td><td>0</td></tr><tr><td>en</td><td>Implementation</td><td>844060001</td><td>1</td></tr><tr><td>en</td><td>Completion</td><td>844060002</td><td>2</td></tr><tr><td>en</td><td>POst-Completion</td><td>844060004</td><td>3</td></tr><tr><td>en</td><td>Cancelled</td><td>844060005</td><td>4</td></tr><tr><td>en</td><td>Suspended</td><td>844060006</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pipeline/Identification</td><td>844060000</td></tr><tr><td>en</td><td>Implementation</td><td>844060001</td></tr><tr><td>en</td><td>Completion</td><td>844060002</td></tr><tr><td>en</td><td>POst-Completion</td><td>844060004</td></tr><tr><td>en</td><td>Cancelled</td><td>844060005</td></tr><tr><td>en</td><td>Suspended</td><td>844060006</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  

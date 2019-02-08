@@ -10,14 +10,13 @@ ms.author: tpalmer
 
 # Marketing Page
 
-Latest Version: 0.8.1  
-<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingPage.cdm.json" target="_blank">Entity definition</a> on GitHub.  
+Latest version (0.8.1)of the json entity definition is available on GitHub (<a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/MarketingPage.cdm.json" target="_blank">Link on GitHub</a>).  
 
-## Instances
+### Instances
 
 marketing/MarketingPage  
 
-## Traits for Marketing Page
+### Traits
 
 - **is.CDM.entityVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>0.8.1</td><td>string</td><td>semantic version number of the entity</td></tr></table>
@@ -28,14 +27,14 @@ marketing/MarketingPage
 - **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MarketingPage_/hasAttributes/marketingPageId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "MarketingPage_/hasAttributes/marketingPageId"
+  "MarketingPage/hasAttributes/marketingPageId"
   ```
 
 
 - **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MarketingPage_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "MarketingPage_/hasAttributes/stateCode"
+  "MarketingPage/hasAttributes/stateCode"
   ```
 
 
@@ -806,7 +805,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 - **is.identifiedBy**  
 names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MarketingPage_/hasAttributes/marketingPageId"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "MarketingPage_/hasAttributes/marketingPageId"
+  "MarketingPage/hasAttributes/marketingPageId"
   ```
 
 
@@ -834,7 +833,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the marketing page</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the marketing page</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -843,7 +842,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Active</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -851,7 +850,7 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 - **means.entityState**  
 the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>"MarketingPage_/hasAttributes/stateCode"</td><td>attribute</td><td></td></tr></table>Definition:  
   ```
-  "MarketingPage_/hasAttributes/stateCode"
+  "MarketingPage/hasAttributes/stateCode"
   ```
 
 
@@ -902,7 +901,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status reason</td></tr><tr><td>description</td><td>Marketing page status reason</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td><td>0</td></tr><tr><td>en</td><td>Live</td><td>192350001</td><td>1</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td><td>2</td></tr><tr><td>en</td><td>Live, Editable</td><td>192350003</td><td>3</td></tr><tr><td>en</td><td>Error</td><td>192350005</td><td>4</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td><td>5</td></tr><tr><td>en</td><td>Stopping</td><td>192350007</td><td>6</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td><td>7</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status reason</td></tr><tr><td>description</td><td>Marketing page status reason</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td></tr><tr><td>en</td><td>Live</td><td>192350001</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td></tr><tr><td>en</td><td>Live, Editable</td><td>192350003</td></tr><tr><td>en</td><td>Error</td><td>192350005</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td></tr><tr><td>en</td><td>Stopping</td><td>192350007</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -911,7 +910,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Live</td><td>192350001</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Live, Editable</td><td>192350003</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Error</td><td>192350005</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Stopping</td><td>192350007</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td><td>7</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th><th>correlatedValue</th></tr><tr><td>en</td><td>Draft</td><td>192350000</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Live</td><td>192350001</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Stopped</td><td>192350002</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Live, Editable</td><td>192350003</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Error</td><td>192350005</td><td>4</td><td>0</td></tr><tr><td>en</td><td>Going live</td><td>192350006</td><td>5</td><td>0</td></tr><tr><td>en</td><td>Stopping</td><td>192350007</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Expired</td><td>192350004</td><td>7</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1045,7 +1044,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Content type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_contenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Structural</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Product launch</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Product information</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Company background</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Event information</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Offers and discounts</td><td>5</td><td>5</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Content type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_contenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Structural</td><td>0</td></tr><tr><td>en</td><td>Product launch</td><td>1</td></tr><tr><td>en</td><td>Product information</td><td>2</td></tr><tr><td>en</td><td>Company background</td><td>3</td></tr><tr><td>en</td><td>Event information</td><td>4</td></tr><tr><td>en</td><td>Offers and discounts</td><td>5</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1054,7 +1053,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Structural</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Product launch</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Product information</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Company background</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Event information</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Offers and discounts</td><td>5</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Structural</td><td>0</td></tr><tr><td>en</td><td>Product launch</td><td>1</td></tr><tr><td>en</td><td>Product information</td><td>2</td></tr><tr><td>en</td><td>Company background</td><td>3</td></tr><tr><td>en</td><td>Event information</td><td>4</td></tr><tr><td>en</td><td>Offers and discounts</td><td>5</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1329,7 +1328,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Market type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_markettype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Enterprise</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Consumer</td><td>1</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Market type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_markettype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Enterprise</td><td>0</td></tr><tr><td>en</td><td>Consumer</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1338,7 +1337,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Enterprise</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Consumer</td><td>1</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Enterprise</td><td>0</td></tr><tr><td>en</td><td>Consumer</td><td>1</td></tr><tr><td>en</td><td>All</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1389,7 +1388,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Optimized for</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_optimizedfor</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Desktop</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tablet</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Mobile</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Optimized for</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_optimizedfor</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Desktop</td><td>0</td></tr><tr><td>en</td><td>Tablet</td><td>1</td></tr><tr><td>en</td><td>Mobile</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1398,7 +1397,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Desktop</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Tablet</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Mobile</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Desktop</td><td>0</td></tr><tr><td>en</td><td>Tablet</td><td>1</td></tr><tr><td>en</td><td>Mobile</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1486,7 +1485,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purpose</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_purpose</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Contact capture</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Newsletter subscription</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Lead generation</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Collateral download</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Event registration</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Event feedback</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Structural</td><td>6</td><td>6</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purpose</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_purpose</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contact capture</td><td>0</td></tr><tr><td>en</td><td>Newsletter subscription</td><td>1</td></tr><tr><td>en</td><td>Lead generation</td><td>2</td></tr><tr><td>en</td><td>Collateral download</td><td>3</td></tr><tr><td>en</td><td>Event registration</td><td>4</td></tr><tr><td>en</td><td>Event feedback</td><td>5</td></tr><tr><td>en</td><td>Structural</td><td>6</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1495,7 +1494,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Contact capture</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Newsletter subscription</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Lead generation</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Collateral download</td><td>3</td><td>3</td></tr><tr><td>en</td><td>Event registration</td><td>4</td><td>4</td></tr><tr><td>en</td><td>Event feedback</td><td>5</td><td>5</td></tr><tr><td>en</td><td>Structural</td><td>6</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contact capture</td><td>0</td></tr><tr><td>en</td><td>Newsletter subscription</td><td>1</td></tr><tr><td>en</td><td>Lead generation</td><td>2</td></tr><tr><td>en</td><td>Collateral download</td><td>3</td></tr><tr><td>en</td><td>Event registration</td><td>4</td></tr><tr><td>en</td><td>Event feedback</td><td>5</td></tr><tr><td>en</td><td>Structural</td><td>6</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1586,7 +1585,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_type</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Landing Page</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Subscription center</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Forward to a friend</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_type</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Landing Page</td><td>0</td></tr><tr><td>en</td><td>Subscription center</td><td>1</td></tr><tr><td>en</td><td>Forward to a friend</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1595,7 +1594,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Landing Page</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Subscription center</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Forward to a friend</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Landing Page</td><td>0</td></tr><tr><td>en</td><td>Subscription center</td><td>1</td></tr><tr><td>en</td><td>Forward to a friend</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -1646,7 +1645,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Visual style</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_visualstyle</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Light</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Dark</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Colorful</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>3</td><td>3</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Visual style</td></tr><tr><td>dataFormat</td><td>Int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_visualstyle</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Light</td><td>0</td></tr><tr><td>en</td><td>Dark</td><td>1</td></tr><tr><td>en</td><td>Colorful</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>3</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1655,7 +1654,7 @@ First included in: /core/applicationCommon/foundationCommon/crmCommon/solutions/
 
 - **is.dataFormat.integer**  
 - **does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>attributeValue</th><th>displayOrder</th></tr><tr><td>en</td><td>Light</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Dark</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Colorful</td><td>2</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>3</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Light</td><td>0</td></tr><tr><td>en</td><td>Dark</td><td>1</td></tr><tr><td>en</td><td>Colorful</td><td>2</td></tr><tr><td>en</td><td>Other</td><td>3</td></tr></table></td><td>any</td><td></td></tr></table>
 
 - **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
