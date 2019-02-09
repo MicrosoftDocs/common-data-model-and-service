@@ -66,7 +66,7 @@ service/ResourceExpansion
 ### <a href=#resourceGroupExpansionId name="resourceGroupExpansionId">resourceGroupExpansionId</a>
 
 Unique identifier of the resource expansion record.  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -105,7 +105,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -141,7 +141,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -179,7 +179,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -218,7 +218,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -256,7 +256,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#itemId name="itemId">itemId</a>
 
 Item that is part of expansion of resource identified by object ID. One object ID can have many item IDs.  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#methodCode name="methodCode">methodCode</a>
 
 Code for retrieval method.  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -407,7 +407,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#methodCode_display name="methodCode_display">methodCode_display</a>
 
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ First included in: <a href="ResourceExpansion.md" target="_blank">service/Resour
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was last modified.  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 
@@ -470,7 +470,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#objectId name="objectId">objectId</a>
 
 Object being expanded.  
-First included in: <a href="ResourceExpansion.md" target="_blank">service/ResourceExpansion</a>  
+First included in: service/ResourceExpansion (this entity)  
 
 #### Properties
 

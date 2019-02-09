@@ -7062,7 +7062,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByIPAddress name="adxCreatedByIPAddress">adxCreatedByIPAddress</a>
 
-First included in: <a href="Account.md" target="_blank">portals/Account</a>  
+First included in: portals/Account (this entity)  
 
 #### Properties
 
@@ -7098,7 +7098,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByUsername name="adxCreatedByUsername">adxCreatedByUsername</a>
 
-First included in: <a href="Account.md" target="_blank">portals/Account</a>  
+First included in: portals/Account (this entity)  
 
 #### Properties
 
@@ -7135,7 +7135,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByIPAddress name="adxModifiedByIPAddress">adxModifiedByIPAddress</a>
 
-First included in: <a href="Account.md" target="_blank">portals/Account</a>  
+First included in: portals/Account (this entity)  
 
 #### Properties
 
@@ -7171,7 +7171,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByUsername name="adxModifiedByUsername">adxModifiedByUsername</a>
 
-First included in: <a href="Account.md" target="_blank">portals/Account</a>  
+First included in: portals/Account (this entity)  
 
 #### Properties
 
@@ -7209,7 +7209,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#managingPartner name="managingPartner">managingPartner</a>
 
 Unique identifier for Account associated with Account.  
-First included in: <a href="Account.md" target="_blank">portals/Account</a>  
+First included in: portals/Account (this entity)  
 
 #### Properties
 

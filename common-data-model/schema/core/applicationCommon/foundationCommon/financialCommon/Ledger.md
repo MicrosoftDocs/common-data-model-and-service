@@ -56,7 +56,7 @@ financialCommon/Ledger
 ### <a href=#ledgerId name="ledgerId">ledgerId</a>
 
 The surrogate key of the ledger record  
-First included in: <a href="Ledger.md" target="_blank">financialCommon/Ledger</a>  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 
@@ -84,7 +84,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#name name="name">name</a>
 
 The user-readable name of the ledger  
-First included in: <a href="Ledger.md" target="_blank">financialCommon/Ledger</a>  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 
@@ -110,7 +110,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#description name="description">description</a>
 
 The description of the ledger  
-First included in: <a href="Ledger.md" target="_blank">financialCommon/Ledger</a>  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 
@@ -136,7 +136,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#companyKey name="companyKey">companyKey</a>
 
 The company for which the ledger stores financial information  
-First included in: <a href="Ledger.md" target="_blank">financialCommon/Ledger</a>  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#accountingCurrencyKey name="accountingCurrencyKey">accountingCurrencyKey</a>
 
 The currency in which all amounts in the ledger are expressed  
-First included in: <a href="Ledger.md" target="_blank">financialCommon/Ledger</a>  
+First included in: financialCommon/Ledger (this entity)  
 
 #### Properties
 

@@ -80,7 +80,7 @@ electronicMedicalRecords/CodeableConcept
 ### <a href=#codeableConceptId name="codeableConceptId">codeableConceptId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who modified the record.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -287,7 +287,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Codeable Concept  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -486,7 +486,7 @@ First included in: <a href="CodeableConcept.md" target="_blank">electronicMedica
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Codeable Concept  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -529,7 +529,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -553,7 +553,7 @@ First included in: <a href="CodeableConcept.md" target="_blank">electronicMedica
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -589,7 +589,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -627,7 +627,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -666,7 +666,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -704,7 +704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -742,7 +742,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -782,7 +782,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -814,7 +814,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#code name="code">code</a>
 
 Code defined by a terminology system.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -854,7 +854,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#text name="text">text</a>
 
 Plain text representation of the concept.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -894,7 +894,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#type name="type">type</a>
 
 Type of: Code-ableConcept represents a value that is usually supplied by providing a reference to one or more terminologies or ontologies, but may also be defined by the provision of text.  
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 
@@ -934,7 +934,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#type_display name="type_display">type_display</a>
 
-First included in: <a href="CodeableConcept.md" target="_blank">electronicMedicalRecords/CodeableConcept</a>  
+First included in: electronicMedicalRecords/CodeableConcept (this entity)  
 
 #### Properties
 

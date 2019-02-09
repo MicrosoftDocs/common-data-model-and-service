@@ -56,7 +56,7 @@ financialCommon/MainAccount
 ### <a href=#mainAccountId name="mainAccountId">mainAccountId</a>
 
 The surrogate key of the main account record  
-First included in: <a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>  
+First included in: financialCommon/MainAccount (this entity)  
 
 #### Properties
 
@@ -84,7 +84,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#name name="name">name</a>
 
 The user-readable name of the main account  
-First included in: <a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>  
+First included in: financialCommon/MainAccount (this entity)  
 
 #### Properties
 
@@ -110,7 +110,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#number name="number">number</a>
 
 The numerical designation of the account according to the chart of accounts, usually designed such that accounts of the same type have similar numbers  
-First included in: <a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>  
+First included in: financialCommon/MainAccount (this entity)  
 
 #### Properties
 
@@ -135,7 +135,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#mainAccountCategoryKey name="mainAccountCategoryKey">mainAccountCategoryKey</a>
 
 The categorization of the main account, by which accounting aspects such as account type are defined  
-First included in: <a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>  
+First included in: financialCommon/MainAccount (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#currencyKey name="currencyKey">currencyKey</a>
 
 The currency in which amounts held by this account are expressed  
-First included in: <a href="MainAccount.md" target="_blank">financialCommon/MainAccount</a>  
+First included in: financialCommon/MainAccount (this entity)  
 
 #### Properties
 

@@ -1128,7 +1128,7 @@ First included in: <a href="../../../../KnowledgeArticleViews.md" target="_blank
 ### <a href=#domainName name="domainName">domainName</a>
 
 Domain name of the portal that is tracking knowledge article referrers.  
-First included in: <a href="KnowledgeArticleViews.md" target="_blank">portals/KnowledgeArticleViews</a>  
+First included in: portals/KnowledgeArticleViews (this entity)  
 
 #### Properties
 
@@ -1169,7 +1169,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#referrer name="referrer">referrer</a>
 
 Types of knowledge article referrers that will be tracked for a portal.  
-First included in: <a href="KnowledgeArticleViews.md" target="_blank">portals/KnowledgeArticleViews</a>  
+First included in: portals/KnowledgeArticleViews (this entity)  
 
 #### Properties
 
@@ -1209,7 +1209,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#referrer_display name="referrer_display">referrer_display</a>
 
-First included in: <a href="KnowledgeArticleViews.md" target="_blank">portals/KnowledgeArticleViews</a>  
+First included in: portals/KnowledgeArticleViews (this entity)  
 
 #### Properties
 

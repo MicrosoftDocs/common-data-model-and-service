@@ -3265,7 +3265,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier for an associated service.  
-First included in: <a href="RecurringAppointment.md" target="_blank">crmCommon/RecurringAppointment</a>  
+First included in: crmCommon/RecurringAppointment (this entity)  
 
 #### Properties
 

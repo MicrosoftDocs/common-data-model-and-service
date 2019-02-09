@@ -2625,7 +2625,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#setProductAssociations name="setProductAssociations">setProductAssociations</a>
 
 Set Product Associations  
-First included in: <a href="KnowledgeArticle.md" target="_blank">foundationCommon/KnowledgeArticle</a>  
+First included in: foundationCommon/KnowledgeArticle (this entity)  
 
 #### Properties
 

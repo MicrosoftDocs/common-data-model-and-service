@@ -77,7 +77,7 @@ applicationCommon/ActivityParty
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity associated with the activity party. (A "party" is any person who is associated with an activity.)  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#activityPartyId name="activityPartyId">activityPartyId</a>
 
 Unique identifier of the activity party.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partyObjectTypeCode name="partyObjectTypeCode">partyObjectTypeCode</a>
 
 The name of the entity linked by partyId  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -191,7 +191,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#partyId name="partyId">partyId</a>
 
 Unique identifier of the party associated with the activity.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -236,7 +236,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#participationTypeMask name="participationTypeMask">participationTypeMask</a>
 
 Role of the person in the activity, such as sender, to, cc, bcc, required, optional, organizer, regarding, or owner.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -273,7 +273,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#participationTypeMask_display name="participationTypeMask_display">participationTypeMask_display</a>
 
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -297,7 +297,7 @@ First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/
 ### <a href=#addressUsed name="addressUsed">addressUsed</a>
 
 Email address to which an email is delivered, and which is associated with the target entity.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotFax name="doNotFax">doNotFax</a>
 
 Information about whether to allow sending faxes to the activity party.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -410,7 +410,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -448,7 +448,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#effort name="effort">effort</a>
 
 Amount of effort used by the resource in a service appointment activity.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -487,7 +487,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotEMail name="doNotEMail">doNotEMail</a>
 
 Information about whether to allow sending email to the activity party.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeEntryId name="exchangeEntryId">exchangeEntryId</a>
 
 For internal use only.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -591,7 +591,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotPostalMail name="doNotPostalMail">doNotPostalMail</a>
 
 Information about whether to allow sending postal mail to the lead.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -626,7 +626,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#doNotPhone name="doNotPhone">doNotPhone</a>
 
 Information about whether to allow phone calls to the lead.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -661,7 +661,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -700,7 +700,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -745,7 +745,7 @@ contains a User or Team ID
 ### <a href=#instanceTypeCode name="instanceTypeCode">instanceTypeCode</a>
 
 Type of instance of a recurring series.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -782,7 +782,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#instanceTypeCode_display name="instanceTypeCode_display">instanceTypeCode_display</a>
 
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -806,7 +806,7 @@ First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/
 ### <a href=#isPartyDeleted name="isPartyDeleted">isPartyDeleted</a>
 
 Information about whether the underlying entity record is deleted.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 
@@ -838,7 +838,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#addressUsedEmailColumnNumber name="addressUsedEmailColumnNumber">addressUsedEmailColumnNumber</a>
 
 Email address column number from associated party.  
-First included in: <a href="ActivityParty.md" target="_blank">applicationCommon/ActivityParty</a>  
+First included in: applicationCommon/ActivityParty (this entity)  
 
 #### Properties
 

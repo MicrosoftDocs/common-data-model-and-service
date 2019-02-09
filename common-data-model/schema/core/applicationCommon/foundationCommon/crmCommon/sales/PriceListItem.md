@@ -1491,7 +1491,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#discountTypeId name="discountTypeId">discountTypeId</a>
 
 Unique identifier of the discount list associated with the price list.  
-First included in: <a href="PriceListItem.md" target="_blank">sales/PriceListItem</a>  
+First included in: sales/PriceListItem (this entity)  
 
 #### Properties
 

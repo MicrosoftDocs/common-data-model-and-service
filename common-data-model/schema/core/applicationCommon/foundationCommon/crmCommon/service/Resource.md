@@ -66,7 +66,7 @@ service/Resource
 ### <a href=#resourceId name="resourceId">resourceId</a>
 
 Unique identifier of the resource.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -108,7 +108,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Business Unit Id  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -150,7 +150,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -186,7 +186,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -224,7 +224,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -263,7 +263,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the resource.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -380,7 +380,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#calendarId name="calendarId">calendarId</a>
 
 Unique identifier of the calendar for the resource.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#displayInServiceViews name="displayInServiceViews">displayInServiceViews</a>
 
 For internal use only.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -453,7 +453,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDisabled name="isDisabled">isDisabled</a>
 
 Information about whether the resource is enabled.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -488,7 +488,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#objectTypeCode name="objectTypeCode">objectTypeCode</a>
 
 Type of entity with which the resource is associated.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -523,7 +523,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization with which the resource is associated.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -565,7 +565,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#siteId name="siteId">siteId</a>
 
 Unique identifier of the site at which the resource is located.  
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: <a href="Resource.md" target="_blank">service/Resource</a>  
+First included in: service/Resource (this entity)  
 
 #### Properties
 

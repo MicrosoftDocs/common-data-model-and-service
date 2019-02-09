@@ -63,7 +63,7 @@ service/SchedulingGroup
 ### <a href=#resourceGroupId name="resourceGroupId">resourceGroupId</a>
 
 Unique identifier of the scheduling group.  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -105,7 +105,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Business Unit Id  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -150,7 +150,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -186,7 +186,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -224,7 +224,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -263,7 +263,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the scheduling group.  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -380,7 +380,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#groupTypeCode name="groupTypeCode">groupTypeCode</a>
 
 Scheduling group type code.  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#groupTypeCode_display name="groupTypeCode_display">groupTypeCode_display</a>
 
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -444,7 +444,7 @@ First included in: <a href="SchedulingGroup.md" target="_blank">service/Scheduli
 ### <a href=#objectTypeCode name="objectTypeCode">objectTypeCode</a>
 
 Type of entity with which the scheduling group is associated.  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 
@@ -479,7 +479,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization associated with the scheduling group.  
-First included in: <a href="SchedulingGroup.md" target="_blank">service/SchedulingGroup</a>  
+First included in: service/SchedulingGroup (this entity)  
 
 #### Properties
 

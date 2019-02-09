@@ -2047,7 +2047,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#endDate name="endDate">endDate</a>
 
 Effective end date of the address and related contact info  
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2084,7 +2084,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#isUspsValidated name="isUspsValidated">isUspsValidated</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2115,7 +2115,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#isvalidated name="isvalidated">isvalidated</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2147,7 +2147,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#region name="region">region</a>
 
 Indicates the region of the world that the address is located.  
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2187,7 +2187,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#region_display name="region_display">region_display</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2211,7 +2211,7 @@ First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>
 ### <a href=#seasonalEndDay name="seasonalEndDay">seasonalEndDay</a>
 
 Annual end day (of month) of the address and related contact info  
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2251,7 +2251,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#seasonalEndDay_display name="seasonalEndDay_display">seasonalEndDay_display</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2275,7 +2275,7 @@ First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>
 ### <a href=#seasonalEndMonth name="seasonalEndMonth">seasonalEndMonth</a>
 
 Annual end month of the address and related contact info  
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2315,7 +2315,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#seasonalEndMonth_display name="seasonalEndMonth_display">seasonalEndMonth_display</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2339,7 +2339,7 @@ First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>
 ### <a href=#seasonalStartDay name="seasonalStartDay">seasonalStartDay</a>
 
 Annual start day (of month) of the address and related contact info  
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2379,7 +2379,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#seasonalStartDay_display name="seasonalStartDay_display">seasonalStartDay_display</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2403,7 +2403,7 @@ First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>
 ### <a href=#seasonalStartMonth name="seasonalStartMonth">seasonalStartMonth</a>
 
 Annual start month of the address and related contact info  
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2443,7 +2443,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#seasonalStartMonth_display name="seasonalStartMonth_display">seasonalStartMonth_display</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2467,7 +2467,7 @@ First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>
 ### <a href=#startDate name="startDate">startDate</a>
 
 Effective start date of the address and related contact info  
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2504,7 +2504,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telephone1TypeCode name="telephone1TypeCode">telephone1TypeCode</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2541,7 +2541,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telephone1TypeCode_display name="telephone1TypeCode_display">telephone1TypeCode_display</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2564,7 +2564,7 @@ First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>
 
 ### <a href=#telephone2TypeCode name="telephone2TypeCode">telephone2TypeCode</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2601,7 +2601,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telephone2TypeCode_display name="telephone2TypeCode_display">telephone2TypeCode_display</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2624,7 +2624,7 @@ First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>
 
 ### <a href=#telephone3TypeCode name="telephone3TypeCode">telephone3TypeCode</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 
@@ -2661,7 +2661,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telephone3TypeCode_display name="telephone3TypeCode_display">telephone3TypeCode_display</a>
 
-First included in: <a href="Address.md" target="_blank">nonProfit/Address</a>  
+First included in: nonProfit/Address (this entity)  
 
 #### Properties
 

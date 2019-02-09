@@ -123,7 +123,7 @@ higherEducation/TestScore
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -210,7 +210,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -297,7 +297,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -345,7 +345,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -393,7 +393,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -432,7 +432,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -467,7 +467,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -596,7 +596,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -689,7 +689,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -727,7 +727,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -765,7 +765,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -802,7 +802,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#testScoreId name="testScoreId">testScoreId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -841,7 +841,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Test Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -881,7 +881,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -905,7 +905,7 @@ First included in: <a href="TestScore.md" target="_blank">higherEducation/TestSc
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Test Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -948,7 +948,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -972,7 +972,7 @@ First included in: <a href="TestScore.md" target="_blank">higherEducation/TestSc
 ### <a href=#name name="name">name</a>
 
 The name of the Test Score.  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1013,7 +1013,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTComposite name="ACTComposite">ACTComposite</a>
 
 ACT - Composite Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1051,7 +1051,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTELA name="ACTELA">ACTELA</a>
 
 ACT - ELA Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1089,7 +1089,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTEnglish name="ACTEnglish">ACTEnglish</a>
 
 ACT - English Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1127,7 +1127,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTEquivalentScore name="ACTEquivalentScore">ACTEquivalentScore</a>
 
 ACT equivalent score for a given SAT Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1165,7 +1165,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTMath name="ACTMath">ACTMath</a>
 
 ACT - Math Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1203,7 +1203,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTReading name="ACTReading">ACTReading</a>
 
 ACT - Reading Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1241,7 +1241,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTScience name="ACTScience">ACTScience</a>
 
 ACT - Science Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1279,7 +1279,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTSTEM name="ACTSTEM">ACTSTEM</a>
 
 ACT - STEM Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1317,7 +1317,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ACTWriting name="ACTWriting">ACTWriting</a>
 
 ACT - Writing Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1355,7 +1355,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#alevelArt name="alevelArt">alevelArt</a>
 
 A-level Art  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1395,7 +1395,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATAnalyticalWriting name="GMATAnalyticalWriting">GMATAnalyticalWriting</a>
 
 GMAT - Analytical Writing Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1435,7 +1435,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATIntegratedReasoning name="GMATIntegratedReasoning">GMATIntegratedReasoning</a>
 
 GMAT - Integrated Reasoning Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1473,7 +1473,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATQuantitativeReasoning name="GMATQuantitativeReasoning">GMATQuantitativeReasoning</a>
 
 GMAT - Quantitative Reasoning Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1511,7 +1511,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATTotal name="GMATTotal">GMATTotal</a>
 
 GMAT - Total Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1549,7 +1549,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GMATVerbalReasoning name="GMATVerbalReasoning">GMATVerbalReasoning</a>
 
 GMAT - Verbal Reasoning Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1587,7 +1587,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GREAnalyticalReasoning name="GREAnalyticalReasoning">GREAnalyticalReasoning</a>
 
 GRE - Analytical Reasoning Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1627,7 +1627,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GREQuantitativeReasoning name="GREQuantitativeReasoning">GREQuantitativeReasoning</a>
 
 GRE - Quantitative Reasoning Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1665,7 +1665,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GRETotalScore name="GRETotalScore">GRETotalScore</a>
 
 GRE - Total Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1703,7 +1703,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#GREVerbalReasoning name="GREVerbalReasoning">GREVerbalReasoning</a>
 
 GRE - Verbal Reasoning Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1741,7 +1741,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSCEFR name="IELTSCEFR">IELTSCEFR</a>
 
 IELTS - CEFR  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1781,7 +1781,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#IELTSCEFR_display name="IELTSCEFR_display">IELTSCEFR_display</a>
 
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1805,7 +1805,7 @@ First included in: <a href="TestScore.md" target="_blank">higherEducation/TestSc
 ### <a href=#IELTSListening name="IELTSListening">IELTSListening</a>
 
 IELTS - Listening score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1845,7 +1845,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSOverallBandScore name="IELTSOverallBandScore">IELTSOverallBandScore</a>
 
 IELTS - Overall Band Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1885,7 +1885,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSReading name="IELTSReading">IELTSReading</a>
 
 IELTS - Reading Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1925,7 +1925,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSSpeakingScore name="IELTSSpeakingScore">IELTSSpeakingScore</a>
 
 IELTS - Speaking Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -1965,7 +1965,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#IELTSWriting name="IELTSWriting">IELTSWriting</a>
 
 IELTS - Writing Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2005,7 +2005,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATEssayAnalysis name="SATEssayAnalysis">SATEssayAnalysis</a>
 
 SAT - SAT Essay - Analysis Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2043,7 +2043,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATEssayReading name="SATEssayReading">SATEssayReading</a>
 
 SAT - SAT Essay - Reading Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2081,7 +2081,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATEssayWriting name="SATEssayWriting">SATEssayWriting</a>
 
 SAT - SAT Essay - Writing Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2119,7 +2119,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATEvidenceBasedReadingandWritingSection name="SATEvidenceBasedReadingandWritingSection">SATEvidenceBasedReadingandWritingSection</a>
 
 SAT - Evidence-Based Reading and Writing Section Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2157,7 +2157,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATMathSection name="SATMathSection">SATMathSection</a>
 
 SAT - Math Section Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2195,7 +2195,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SATTotalScore name="SATTotalScore">SATTotalScore</a>
 
 SAT - Total Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2233,7 +2233,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#studentID name="studentID">studentID</a>
 
 Lookup to the Student (Contact Id)  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2278,7 +2278,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#testDate name="testDate">testDate</a>
 
 Date when test was taken  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2316,7 +2316,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#testLocation name="testLocation">testLocation</a>
 
 Location where the test was taken  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2356,7 +2356,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#testScoreValue name="testScoreValue">testScoreValue</a>
 
 Test Score Value  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2396,7 +2396,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#testSource name="testSource">testSource</a>
 
 Source of Test score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2436,7 +2436,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#testSource_display name="testSource_display">testSource_display</a>
 
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2460,7 +2460,7 @@ First included in: <a href="TestScore.md" target="_blank">higherEducation/TestSc
 ### <a href=#testTypeId name="testTypeId">testTypeId</a>
 
 List of test types  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2505,7 +2505,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#TOEFLListeningSection name="TOEFLListeningSection">TOEFLListeningSection</a>
 
 TOEFL - Listening Section Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2543,7 +2543,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#TOEFLReadingSection name="TOEFLReadingSection">TOEFLReadingSection</a>
 
 TOEFL - Reading Section Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2581,7 +2581,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#TOEFLSpeakingSection name="TOEFLSpeakingSection">TOEFLSpeakingSection</a>
 
 TOEFL - Speaking Section Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2619,7 +2619,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#TOEFLTotalScore name="TOEFLTotalScore">TOEFLTotalScore</a>
 
 TOEFL - Total Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 
@@ -2659,7 +2659,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#TOEFLWritingSection name="TOEFLWritingSection">TOEFLWritingSection</a>
 
 TOEFL - Writing Section Score  
-First included in: <a href="TestScore.md" target="_blank">higherEducation/TestScore</a>  
+First included in: higherEducation/TestScore (this entity)  
 
 #### Properties
 

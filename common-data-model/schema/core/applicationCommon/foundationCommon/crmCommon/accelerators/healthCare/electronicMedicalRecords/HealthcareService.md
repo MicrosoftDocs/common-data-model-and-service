@@ -87,7 +87,7 @@ electronicMedicalRecords/HealthcareService
 ### <a href=#healthCareServiceId name="healthCareServiceId">healthCareServiceId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -126,7 +126,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -165,7 +165,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -210,7 +210,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who modified the record.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -429,7 +429,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Healthcare Service  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -469,7 +469,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -493,7 +493,7 @@ First included in: <a href="HealthcareService.md" target="_blank">electronicMedi
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Healthcare Service  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -536,7 +536,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ First included in: <a href="HealthcareService.md" target="_blank">electronicMedi
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -596,7 +596,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -634,7 +634,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -673,7 +673,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -711,7 +711,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -749,7 +749,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Further description of the service as it would be presented to a consumer while searching.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -790,7 +790,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#appointmentRequired name="appointmentRequired">appointmentRequired</a>
 
 Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -825,7 +825,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#availabilityExceptions name="availabilityExceptions">availabilityExceptions</a>
 
 A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in available/ not available times.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -865,7 +865,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#category name="category">category</a>
 
 Identifies the broad category of service being performed or delivered.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -910,7 +910,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#comment name="comment">comment</a>
 
 Any additional description of the service and/or any specific issues not covered by the other attributes, which can be displayed as further detail under the serviceName.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -950,7 +950,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#eligibility name="eligibility">eligibility</a>
 
 Does this service have specific eligibility requirements that need to be met in order to use the service?  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -995,7 +995,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#eligibilitynote name="eligibilitynote">eligibilitynote</a>
 
 Describes the eligibility conditions for the service.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -1035,7 +1035,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#extraDetails name="extraDetails">extraDetails</a>
 
 Extra details about the service that can't be placed in the other fields.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -1075,7 +1075,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#healthcareService name="healthcareService">healthcareService</a>
 
 The details of a healthcare service available at a location.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -1115,7 +1115,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#notAvailableDescription name="notAvailableDescription">notAvailableDescription</a>
 
 The closing time of day. Note: If the AllDay flag is set, then this time is ignored.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -1155,7 +1155,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#notAvailableDuringEndDateTime name="notAvailableDuringEndDateTime">notAvailableDuringEndDateTime</a>
 
 End time with inclusive boundary, if not ongoing  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -1193,7 +1193,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#notAvailableDuringStartDateTime name="notAvailableDuringStartDateTime">notAvailableDuringStartDateTime</a>
 
 Starting time with inclusive boundary  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 
@@ -1231,7 +1231,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#providedby name="providedby">providedby</a>
 
 The organization that provides this healthcare service.  
-First included in: <a href="HealthcareService.md" target="_blank">electronicMedicalRecords/HealthcareService</a>  
+First included in: electronicMedicalRecords/HealthcareService (this entity)  
 
 #### Properties
 

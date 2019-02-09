@@ -7258,7 +7258,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#hotelGroup name="hotelGroup">hotelGroup</a>
 
 Whether this account belongs to hotel group or not  
-First included in: <a href="Account.md" target="_blank">eventManagement/Account</a>  
+First included in: eventManagement/Account (this entity)  
 
 #### Properties
 
@@ -7298,7 +7298,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#hotelGroup_display name="hotelGroup_display">hotelGroup_display</a>
 
-First included in: <a href="Account.md" target="_blank">eventManagement/Account</a>  
+First included in: eventManagement/Account (this entity)  
 
 #### Properties
 
@@ -7321,7 +7321,7 @@ First included in: <a href="Account.md" target="_blank">eventManagement/Account<
 
 ### <a href=#rentalCarProvider name="rentalCarProvider">rentalCarProvider</a>
 
-First included in: <a href="Account.md" target="_blank">eventManagement/Account</a>  
+First included in: eventManagement/Account (this entity)  
 
 #### Properties
 
@@ -7358,7 +7358,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#rentalCarProvider_display name="rentalCarProvider_display">rentalCarProvider_display</a>
 
-First included in: <a href="Account.md" target="_blank">eventManagement/Account</a>  
+First included in: eventManagement/Account (this entity)  
 
 #### Properties
 

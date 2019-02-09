@@ -1745,7 +1745,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#issubscription name="issubscription">issubscription</a>
 
-First included in: <a href="MarketingList.md" target="_blank">marketing/MarketingList</a>  
+First included in: marketing/MarketingList (this entity)  
 
 #### Properties
 

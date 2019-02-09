@@ -79,7 +79,7 @@ rgba(255,255,255,0.5)|<a href="BadgeType.md" target="_blank">portals/BadgeType</
 ### <a href=#badgeTypeId name="badgeTypeId">badgeTypeId</a>
 
 Shows the entity instances.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the record was created. The date and time are displayed in the time zone selected in the solution options.   
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was updated. The date and time are displayed in the time zone selected in the solution options.   
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who updated the record.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -286,7 +286,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who updated the record on behalf of another user.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Shows the organization.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Badge Type  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -485,7 +485,7 @@ First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Shows the reason for the status of the badge type.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -528,7 +528,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -588,7 +588,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Shows the sequence number of the import that created this record.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -626,7 +626,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Shows the date and time when the record was migrated. The date and time are displayed in the time zone selected in the solution options.   
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -665,7 +665,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -703,7 +703,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Shows the time zone code that was in use when the record was created.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -741,7 +741,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Shows the name of the custom entity.  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -786,7 +786,7 @@ Enter a hex value or RGB or RGBA
 ex: #FFFFFF
 rgb(255,255,255)
 rgba(255,255,255,0.5)  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -834,7 +834,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#description name="description">description</a>
 
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -871,7 +871,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#displayText name="displayText">displayText</a>
 
 Actual shown label for the badge  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 
@@ -911,7 +911,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#iconName name="iconName">iconName</a>
 
 Add font awesome name such as fa-user  
-First included in: <a href="BadgeType.md" target="_blank">portals/BadgeType</a>  
+First included in: portals/BadgeType (this entity)  
 
 #### Properties
 

@@ -12276,7 +12276,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#schedulingEngine name="schedulingEngine">schedulingEngine</a>
 
 Scheduling engine for Appointments and Service Activities  
-First included in: <a href="Organization.md" target="_blank">foundationCommon/Organization</a>  
+First included in: foundationCommon/Organization (this entity)  
 
 #### Properties
 
@@ -12316,7 +12316,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#schedulingEngine_display name="schedulingEngine_display">schedulingEngine_display</a>
 
-First included in: <a href="Organization.md" target="_blank">foundationCommon/Organization</a>  
+First included in: foundationCommon/Organization (this entity)  
 
 #### Properties
 

@@ -2115,7 +2115,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Choose the service that is associated with this activity.  
-First included in: <a href="Task.md" target="_blank">service/Task</a>  
+First included in: service/Task (this entity)  
 
 #### Properties
 

@@ -93,7 +93,7 @@ higherEducation/CourseHistory
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -132,7 +132,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -180,7 +180,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -219,7 +219,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -267,7 +267,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -363,7 +363,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -402,7 +402,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -437,7 +437,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -476,7 +476,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -521,7 +521,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -566,7 +566,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -614,7 +614,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -659,7 +659,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -697,7 +697,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -735,7 +735,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -772,7 +772,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#courseHistoryId name="courseHistoryId">courseHistoryId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -811,7 +811,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Course History  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -851,7 +851,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -875,7 +875,7 @@ First included in: <a href="CourseHistory.md" target="_blank">higherEducation/Co
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Course History  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -918,7 +918,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -942,7 +942,7 @@ First included in: <a href="CourseHistory.md" target="_blank">higherEducation/Co
 ### <a href=#name name="name">name</a>
 
 Course History Entity  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -983,7 +983,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#academicPeriodDetailsId name="academicPeriodDetailsId">academicPeriodDetailsId</a>
 
 The academic period details record for the student  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1028,7 +1028,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#continuingEducation name="continuingEducation">continuingEducation</a>
 
 Continuing Education  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1068,7 +1068,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#continuingEducation_display name="continuingEducation_display">continuingEducation_display</a>
 
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1092,7 +1092,7 @@ First included in: <a href="CourseHistory.md" target="_blank">higherEducation/Co
 ### <a href=#courseId name="courseId">courseId</a>
 
 The course record for the student.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1137,7 +1137,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#courseSectionId name="courseSectionId">courseSectionId</a>
 
 Unique identifier for Course Section associated with Course History.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1182,7 +1182,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#creditsAttempted name="creditsAttempted">creditsAttempted</a>
 
 The credits attempted received.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1222,7 +1222,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#creditsEarrned name="creditsEarrned">creditsEarrned</a>
 
 The credits earned received.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1262,7 +1262,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#gradePoints name="gradePoints">gradePoints</a>
 
 The grade points received.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1302,7 +1302,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastDateofAttendance name="lastDateofAttendance">lastDateofAttendance</a>
 
 The last date of attendance received.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1340,7 +1340,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#letterGrade name="letterGrade">letterGrade</a>
 
 The letter grade received for the course.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1380,7 +1380,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#midTermLetterGrade name="midTermLetterGrade">midTermLetterGrade</a>
 
 The mid term letter grade received.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1420,7 +1420,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#midTermNumericGrade name="midTermNumericGrade">midTermNumericGrade</a>
 
 The mid term numeric grade received.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1458,7 +1458,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#registrationStatusId name="registrationStatusId">registrationStatusId</a>
 
 The registration status received.  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 
@@ -1503,7 +1503,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#studentId name="studentId">studentId</a>
 
 Lookup to student (Contact)  
-First included in: <a href="CourseHistory.md" target="_blank">higherEducation/CourseHistory</a>  
+First included in: higherEducation/CourseHistory (this entity)  
 
 #### Properties
 

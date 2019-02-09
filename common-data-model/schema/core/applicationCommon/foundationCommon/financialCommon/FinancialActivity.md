@@ -62,7 +62,7 @@ financialCommon/FinancialActivity
 ### <a href=#financialActivityId name="financialActivityId">financialActivityId</a>
 
 The surrogate key of the record  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -90,7 +90,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#mainAccountCategoryKey name="mainAccountCategoryKey">mainAccountCategoryKey</a>
 
 The category of the main account for this activity, denormalized for reporting  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#mainAccountKey name="mainAccountKey">mainAccountKey</a>
 
 The main account containing this financial activity  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -146,7 +146,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#companyKey name="companyKey">companyKey</a>
 
 The company for which this financial activity occurred  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -174,7 +174,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#transactionCurrencyKey name="transactionCurrencyKey">transactionCurrencyKey</a>
 
 The currency in which the source transaction occurred  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#fiscalCalendarPeriodKey name="fiscalCalendarPeriodKey">fiscalCalendarPeriodKey</a>
 
 The fiscal period in which the financial activity occurred  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -230,7 +230,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#ledgerDimensionDisplayValue name="ledgerDimensionDisplayValue">ledgerDimensionDisplayValue</a>
 
 A denormalization of the full string representing the main account plus additional dimension values  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -255,7 +255,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#transactionCurrencyCode name="transactionCurrencyCode">transactionCurrencyCode</a>
 
 A denormalization of the currency code in which the source transaction occurred  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -280,7 +280,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#accountingCurrencyAmount name="accountingCurrencyAmount">accountingCurrencyAmount</a>
 
 The amount of the financial activity expressed in the accounting currency  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -306,7 +306,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#accountingDate name="accountingDate">accountingDate</a>
 
 The date on which the financial activity was recognized  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 
@@ -330,7 +330,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#ledgerId name="ledgerId">ledgerId</a>
 
 The ledger containing this financial activity  
-First included in: <a href="FinancialActivity.md" target="_blank">financialCommon/FinancialActivity</a>  
+First included in: financialCommon/FinancialActivity (this entity)  
 
 #### Properties
 

@@ -104,7 +104,7 @@ portals/WebFile
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -143,7 +143,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -191,7 +191,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -230,7 +230,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -278,7 +278,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -448,7 +448,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -487,7 +487,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -532,7 +532,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -577,7 +577,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -625,7 +625,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -670,7 +670,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -708,7 +708,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -746,7 +746,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -783,7 +783,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#webFileId name="webFileId">webFileId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -822,7 +822,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Web File  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -862,7 +862,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -886,7 +886,7 @@ First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Web File  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -929,7 +929,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -953,7 +953,7 @@ First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>
 ### <a href=#name name="name">name</a>
 
 Shows the name of the custom entity.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -993,7 +993,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByIPAddress name="adxCreatedByIPAddress">adxCreatedByIPAddress</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1029,7 +1029,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByUsername name="adxCreatedByUsername">adxCreatedByUsername</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1066,7 +1066,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#displayDate name="displayDate">displayDate</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1100,7 +1100,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#displayOrder name="displayOrder">displayOrder</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1134,7 +1134,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#hiddenFromSitemap name="hiddenFromSitemap">hiddenFromSitemap</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1165,7 +1165,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#adxModifiedByIPAddress name="adxModifiedByIPAddress">adxModifiedByIPAddress</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1201,7 +1201,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByUsername name="adxModifiedByUsername">adxModifiedByUsername</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1239,7 +1239,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentPageId name="parentPageId">parentPageId</a>
 
 Unique identifier for Web Page associated with Web File.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1283,7 +1283,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#partialURL name="partialURL">partialURL</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1321,7 +1321,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#subjectId name="subjectId">subjectId</a>
 
 Unique identifier for Subject associated with Web File.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1362,7 +1362,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#summary name="summary">summary</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1399,7 +1399,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#websiteId name="websiteId">websiteId</a>
 
 Unique identifier for Website associated with Web File.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1444,7 +1444,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#allowOrigin name="allowOrigin">allowOrigin</a>
 
 Defines CORS header Access-Control-Allow-Origin for cross origin requests.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1483,7 +1483,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#cloudBlobAddress name="cloudBlobAddress">cloudBlobAddress</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1520,7 +1520,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contentDisposition name="contentDisposition">contentDisposition</a>
 
 Shows the value to be applied to the HTTP Response Headers Content-Disposition.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1560,7 +1560,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contentDisposition_display name="contentDisposition_display">contentDisposition_display</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1584,7 +1584,7 @@ First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>
 ### <a href=#enableTracking name="enableTracking">enableTracking</a>
 
 Select whether to enable logging of users' downloads of this web file.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1619,7 +1619,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#excludeFromSearch name="excludeFromSearch">excludeFromSearch</a>
 
 Shows whether the web file is excluded from the portal search.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1653,7 +1653,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#expirationDate name="expirationDate">expirationDate</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1688,7 +1688,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#masterWebFileId name="masterWebFileId">masterWebFileId</a>
 
 Unique identifier for Web File associated with Web File.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1733,7 +1733,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#publishingStateId name="publishingStateId">publishingStateId</a>
 
 Unique identifier for Publishing State associated with Web File.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1777,7 +1777,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#releaseDate name="releaseDate">releaseDate</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1811,7 +1811,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#title name="title">title</a>
 
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1848,7 +1848,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#blogPostId name="blogPostId">blogPostId</a>
 
 Unique identifier for Blog Post associated with Web File.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 
@@ -1893,7 +1893,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#ideaId name="ideaId">ideaId</a>
 
 Shows the Idea associated with the Web File.  
-First included in: <a href="WebFile.md" target="_blank">portals/WebFile</a>  
+First included in: portals/WebFile (this entity)  
 
 #### Properties
 

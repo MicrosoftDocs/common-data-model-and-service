@@ -3922,7 +3922,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#adxCreatedByIPAddress name="adxCreatedByIPAddress">adxCreatedByIPAddress</a>
 
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -3958,7 +3958,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByUsername name="adxCreatedByUsername">adxCreatedByUsername</a>
 
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -3995,7 +3995,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByIPAddress name="adxModifiedByIPAddress">adxModifiedByIPAddress</a>
 
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4031,7 +4031,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByUsername name="adxModifiedByUsername">adxModifiedByUsername</a>
 
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4069,7 +4069,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#partnerContact name="partnerContact">partnerContact</a>
 
 Allows a partner contact to be assigned to a specific case.  
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4114,7 +4114,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#partnerid name="partnerid">partnerid</a>
 
 Creates a Relationship between a Partner (account) and a case for indirect service arrangements.  
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4159,7 +4159,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#publishToWeb name="publishToWeb">publishToWeb</a>
 
 If set to Yes, the case will be visible and searchable on portals connected to this organization.  
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4193,7 +4193,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#resolution name="resolution">resolution</a>
 
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4229,7 +4229,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#resolutionDate name="resolutionDate">resolutionDate</a>
 
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 
@@ -4263,7 +4263,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stepsToReproduce name="stepsToReproduce">stepsToReproduce</a>
 
-First included in: <a href="Case.md" target="_blank">portals/Case</a>  
+First included in: portals/Case (this entity)  
 
 #### Properties
 

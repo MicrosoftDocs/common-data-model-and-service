@@ -80,7 +80,7 @@ applicationCommon/GoalMetric
 ### <a href=#metricId name="metricId">metricId</a>
 
 Unique identifier of the goal metric.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who modified the record.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -287,7 +287,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier of the organization.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the goal metric.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -486,7 +486,7 @@ First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/Goa
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the goal metric.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -529,7 +529,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -553,7 +553,7 @@ First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/Goa
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the goal metric.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -589,7 +589,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -627,7 +627,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -666,7 +666,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -704,7 +704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -742,7 +742,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 Name of the goal metric.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -783,7 +783,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#amountDataType name="amountDataType">amountDataType</a>
 
 Data type of the amount.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -823,7 +823,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#amountDataType_display name="amountDataType_display">amountDataType_display</a>
 
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -847,7 +847,7 @@ First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/Goa
 ### <a href=#isAmount name="isAmount">isAmount</a>
 
 Information that indicates whether the metric type is Count or Amount.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -882,7 +882,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isStretchTracked name="isStretchTracked">isStretchTracked</a>
 
 Indicates whether the goal metric tracks stretch targets.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 
@@ -917,7 +917,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Description of the goal metric.  
-First included in: <a href="GoalMetric.md" target="_blank">applicationCommon/GoalMetric</a>  
+First included in: applicationCommon/GoalMetric (this entity)  
 
 #### Properties
 

@@ -1464,7 +1464,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#eventPortalInvitation name="eventPortalInvitation">eventPortalInvitation</a>
 
 Indicates whether the Invitation is used by the Event Portal.  
-First included in: <a href="Invitation.md" target="_blank">eventManagement/Invitation</a>  
+First included in: eventManagement/Invitation (this entity)  
 
 #### Properties
 

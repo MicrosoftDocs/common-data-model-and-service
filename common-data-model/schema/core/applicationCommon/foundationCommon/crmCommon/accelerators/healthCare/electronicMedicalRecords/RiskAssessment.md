@@ -111,7 +111,7 @@ electronicMedicalRecords/RiskAssessment
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -150,7 +150,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -237,7 +237,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -285,7 +285,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -455,7 +455,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -494,7 +494,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -539,7 +539,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -584,7 +584,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -632,7 +632,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -677,7 +677,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -715,7 +715,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -753,7 +753,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -790,7 +790,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#riskAssessmentId name="riskAssessmentId">riskAssessmentId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -829,7 +829,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Risk Assessment  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -869,7 +869,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -893,7 +893,7 @@ First included in: <a href="RiskAssessment.md" target="_blank">electronicMedical
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Risk Assessment  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -936,7 +936,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -960,7 +960,7 @@ First included in: <a href="RiskAssessment.md" target="_blank">electronicMedical
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1001,7 +1001,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#basedOn name="basedOn">basedOn</a>
 
 A reference to the request that is fulfilled by this risk assessment.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1041,7 +1041,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#basis name="basis">basis</a>
 
 Indicates the source data considered as part of the assessment (Family History, Observations, Procedures, Conditions, etc.).  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1081,7 +1081,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#code name="code">code</a>
 
 The type of the risk assessment performed.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1126,7 +1126,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#comment name="comment">comment</a>
 
 Additional comments about the risk assessment.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1166,7 +1166,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#condition name="condition">condition</a>
 
 For assessments or prognosis specific to a particular condition, indicates the condition being assessed.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1211,7 +1211,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextEncounter name="contextEncounter">contextEncounter</a>
 
 The encounter where the assessment was performed.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1256,7 +1256,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#episodeOfCare name="episodeOfCare">episodeOfCare</a>
 
 The Episode of care type of the encounter where the assessment was performed.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1301,7 +1301,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextType name="contextType">contextType</a>
 
 Type of context under which assessment is performed  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1341,7 +1341,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1365,7 +1365,7 @@ First included in: <a href="RiskAssessment.md" target="_blank">electronicMedical
 ### <a href=#method name="method">method</a>
 
 The algorithm, process or mechanism used to evaluate the risk.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1410,7 +1410,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#mitigation name="mitigation">mitigation</a>
 
 A description of the steps that might be taken to reduce the identified risk(s).  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1450,7 +1450,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#occurrencedatetime name="occurrencedatetime">occurrencedatetime</a>
 
 The date (and possibly time) the risk assessment was performed.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1488,7 +1488,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#occurrenceEndDateTime name="occurrenceEndDateTime">occurrenceEndDateTime</a>
 
 The date (and possibly time) the risk assessment was performed.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1526,7 +1526,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#occurrenceStartDateTime name="occurrenceStartDateTime">occurrenceStartDateTime</a>
 
 The start date of the risk assessment was performed.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1564,7 +1564,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#occurrenceType name="occurrenceType">occurrenceType</a>
 
 Type of time when assessment occurred  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1604,7 +1604,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#occurrenceType_display name="occurrenceType_display">occurrenceType_display</a>
 
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1628,7 +1628,7 @@ First included in: <a href="RiskAssessment.md" target="_blank">electronicMedical
 ### <a href=#parent name="parent">parent</a>
 
 A reference to a resource that this risk assessment is part of, such as a Procedure.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1668,7 +1668,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#performerDevice name="performerDevice">performerDevice</a>
 
 The software application that performed the assessment.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1713,7 +1713,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerPractitioner name="performerPractitioner">performerPractitioner</a>
 
 The provider that performed the assessment.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1758,7 +1758,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerType name="performerType">performerType</a>
 
 Type of performer  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1798,7 +1798,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#performerType_display name="performerType_display">performerType_display</a>
 
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1822,7 +1822,7 @@ First included in: <a href="RiskAssessment.md" target="_blank">electronicMedical
 ### <a href=#reasonConcept name="reasonConcept">reasonConcept</a>
 
 The reason the risk assessment was performed.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1867,7 +1867,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#reasonReference name="reasonReference">reasonReference</a>
 
 The reason the risk assessment was performed.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1907,7 +1907,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#reasonType name="reasonType">reasonType</a>
 
 Type of reason why assessment is performed  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1947,7 +1947,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#reasonType_display name="reasonType_display">reasonType_display</a>
 
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -1971,7 +1971,7 @@ First included in: <a href="RiskAssessment.md" target="_blank">electronicMedical
 ### <a href=#riskAssessmentNumber name="riskAssessmentNumber">riskAssessmentNumber</a>
 
 Business identifier assigned to the risk assessment.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -2011,7 +2011,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#status name="status">status</a>
 
 The status of the Risk Assessment, using the same statuses as an Observation.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -2051,7 +2051,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -2075,7 +2075,7 @@ First included in: <a href="RiskAssessment.md" target="_blank">electronicMedical
 ### <a href=#subjectGroup name="subjectGroup">subjectGroup</a>
 
 The group the risk assessment applies to.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -2120,7 +2120,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectPatient name="subjectPatient">subjectPatient</a>
 
 The patient the risk assessment applies to.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -2165,7 +2165,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subjectType name="subjectType">subjectType</a>
 
 The patient or group the risk assessment applies to.  
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 
@@ -2205,7 +2205,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subjectType_display name="subjectType_display">subjectType_display</a>
 
-First included in: <a href="RiskAssessment.md" target="_blank">electronicMedicalRecords/RiskAssessment</a>  
+First included in: electronicMedicalRecords/RiskAssessment (this entity)  
 
 #### Properties
 

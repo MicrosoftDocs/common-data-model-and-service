@@ -2281,7 +2281,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#customerJourneyIteration name="customerJourneyIteration">customerJourneyIteration</a>
 
 Customer journey iteration  
-First included in: <a href="PhoneCall.md" target="_blank">marketing/PhoneCall</a>  
+First included in: marketing/PhoneCall (this entity)  
 
 #### Properties
 

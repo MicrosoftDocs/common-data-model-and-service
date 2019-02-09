@@ -81,7 +81,7 @@ applicationCommon/EmailSignature
 ### <a href=#emailSignatureId name="emailSignatureId">emailSignatureId</a>
 
 Unique identifier of the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -165,7 +165,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isPersonal name="isPersonal">isPersonal</a>
 
 Information about whether the email signature is personal or is available to all users.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#mimeType name="mimeType">mimeType</a>
 
 MIME type of the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#body name="body">body</a>
 
 Body text of the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -280,7 +280,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Title of the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -320,7 +320,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description of the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -360,7 +360,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -402,7 +402,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -447,7 +447,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#presentationXml name="presentationXml">presentationXml</a>
 
 XML data for the body of the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -487,7 +487,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the email signature was created.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -526,7 +526,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -571,7 +571,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the email signature was last modified.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -610,7 +610,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -694,7 +694,7 @@ contains a User or Team ID
 ### <a href=#generationTypeCode name="generationTypeCode">generationTypeCode</a>
 
 For internal use only.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -732,7 +732,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#languageCode name="languageCode">languageCode</a>
 
 Language of the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -773,7 +773,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -811,7 +811,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overwriteTime name="overwriteTime">overwriteTime</a>
 
 For internal use only.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -846,7 +846,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#componentState name="componentState">componentState</a>
 
 For internal use only.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -883,7 +883,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#componentState_display name="componentState_display">componentState_display</a>
 
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -907,7 +907,7 @@ First included in: <a href="EmailSignature.md" target="_blank">applicationCommon
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -952,7 +952,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -997,7 +997,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier of the team who owns the email signature.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -1039,7 +1039,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isCustomizable name="isCustomizable">isCustomizable</a>
 
 Information that specifies whether this component can be customized.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -1071,7 +1071,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 
@@ -1110,7 +1110,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDefault name="isDefault">isDefault</a>
 
 Information that specifies whether the email signature is default to the user.  
-First included in: <a href="EmailSignature.md" target="_blank">applicationCommon/EmailSignature</a>  
+First included in: applicationCommon/EmailSignature (this entity)  
 
 #### Properties
 

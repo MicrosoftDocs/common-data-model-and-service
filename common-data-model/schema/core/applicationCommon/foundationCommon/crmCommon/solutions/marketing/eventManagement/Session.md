@@ -136,7 +136,7 @@ eventManagement/Session
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -175,7 +175,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -223,7 +223,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -262,7 +262,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -310,7 +310,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -358,7 +358,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -406,7 +406,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -445,7 +445,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -480,7 +480,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -519,7 +519,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -657,7 +657,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -702,7 +702,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -778,7 +778,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -815,7 +815,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#sessionId name="sessionId">sessionId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -854,7 +854,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Session  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -894,7 +894,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -918,7 +918,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Session  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -961,7 +961,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -985,7 +985,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1026,7 +1026,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#audienceType name="audienceType">audienceType</a>
 
 Audience Type of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1066,7 +1066,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#audienceType_display name="audienceType_display">audienceType_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1090,7 +1090,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#AVSupport name="AVSupport">AVSupport</a>
 
 Audio/Video Support.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1130,7 +1130,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#AVSupport_display name="AVSupport_display">AVSupport_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1154,7 +1154,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#byInvitationOnly name="byInvitationOnly">byInvitationOnly</a>
 
 Is access by invitation only.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1194,7 +1194,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#byInvitationOnly_display name="byInvitationOnly_display">byInvitationOnly_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1218,7 +1218,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#camerasPermitted name="camerasPermitted">camerasPermitted</a>
 
 Are cameras permitted.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1258,7 +1258,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#camerasPermitted_display name="camerasPermitted_display">camerasPermitted_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1282,7 +1282,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#checkInCount name="checkInCount">checkInCount</a>
 
 Check-in count  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1320,7 +1320,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#detailedDescription name="detailedDescription">detailedDescription</a>
 
 Detailed description of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1360,7 +1360,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#endTime name="endTime">endTime</a>
 
 End time of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1398,7 +1398,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#event name="event">event</a>
 
 Unique identifier for Event associated with Event Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1443,7 +1443,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#eventSpeakerId name="eventSpeakerId">eventSpeakerId</a>
 
 Unique identifier for Speaker associated with Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1485,7 +1485,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#externalUrl name="externalUrl">externalUrl</a>
 
 External url for the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1526,7 +1526,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#flipChart name="flipChart">flipChart</a>
 
 Is available flip-chart for the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1566,7 +1566,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#flipChart_display name="flipChart_display">flipChart_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1590,7 +1590,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#industry name="industry">industry</a>
 
 Industry of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1630,7 +1630,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#industry_display name="industry_display">industry_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1654,7 +1654,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#internetConnection name="internetConnection">internetConnection</a>
 
 Are internet connections available.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1694,7 +1694,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#internetConnection_display name="internetConnection_display">internetConnection_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1718,7 +1718,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#keywords name="keywords">keywords</a>
 
 Comma-delimited keyword list for this session  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1758,7 +1758,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#language name="language">language</a>
 
 The language of the webinar  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1798,7 +1798,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#language_display name="language_display">language_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1822,7 +1822,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#NDA name="NDA">NDA</a>
 
 Non Disclosure Agreement  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1862,7 +1862,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#NDA_display name="NDA_display">NDA_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1886,7 +1886,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#passSessions name="passSessions">passSessions</a>
 
 Unique identifier for Product associated with Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1930,7 +1930,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#presentationManagerUrl name="presentationManagerUrl">presentationManagerUrl</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -1968,7 +1968,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#producer name="producer">producer</a>
 
 Producer of the session  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2013,7 +2013,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#publishStatus name="publishStatus">publishStatus</a>
 
 Publish status of the Session  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2053,7 +2053,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#publishStatus_display name="publishStatus_display">publishStatus_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2077,7 +2077,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#recordingsPermitted name="recordingsPermitted">recordingsPermitted</a>
 
 Are recordings permitted.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2117,7 +2117,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#recordingsPermitted_display name="recordingsPermitted_display">recordingsPermitted_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2140,7 +2140,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 
 ### <a href=#recurrencePattern name="recurrencePattern">recurrencePattern</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2177,7 +2177,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#registrationCount name="registrationCount">registrationCount</a>
 
 Registration count of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2215,7 +2215,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sessionCode name="sessionCode">sessionCode</a>
 
 Code of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2254,7 +2254,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#sessionFormat name="sessionFormat">sessionFormat</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2291,7 +2291,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sessionFormat_display name="sessionFormat_display">sessionFormat_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2315,7 +2315,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#sessionMaxCapacity name="sessionMaxCapacity">sessionMaxCapacity</a>
 
 Maximum capacity of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2353,7 +2353,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sessionObjectives name="sessionObjectives">sessionObjectives</a>
 
 Objectives of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2393,7 +2393,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sessionPreRequisites name="sessionPreRequisites">sessionPreRequisites</a>
 
 Pre-Requisites of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2433,7 +2433,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sessionSummary name="sessionSummary">sessionSummary</a>
 
 Summary of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2473,7 +2473,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sessionType name="sessionType">sessionType</a>
 
 Type of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2513,7 +2513,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sessionType_display name="sessionType_display">sessionType_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2537,7 +2537,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#startTime name="startTime">startTime</a>
 
 Start time of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2575,7 +2575,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#venue name="venue">venue</a>
 
 Active Venue records for this Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2620,7 +2620,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#videoConferencing name="videoConferencing">videoConferencing</a>
 
 Is available video conferencing for the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2660,7 +2660,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#videoConferencing_display name="videoConferencing_display">videoConferencing_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2684,7 +2684,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#webinarConfigurationId name="webinarConfigurationId">webinarConfigurationId</a>
 
 Webinar Configuration  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2726,7 +2726,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webinarID name="webinarID">webinarID</a>
 
 Webinar ID of the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2766,7 +2766,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#webinarNotificationSeen name="webinarNotificationSeen">webinarNotificationSeen</a>
 
 Whether the webinar notification has been seen or not.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2800,7 +2800,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#webinarOperation name="webinarOperation">webinarOperation</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2836,7 +2836,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#webinarStatus name="webinarStatus">webinarStatus</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2872,7 +2872,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#webinarStatusReason name="webinarStatusReason">webinarStatusReason</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2908,7 +2908,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#webinarType name="webinarType">webinarType</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2946,7 +2946,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#webinarURL name="webinarURL">webinarURL</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -2984,7 +2984,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#whiteBoard name="whiteBoard">whiteBoard</a>
 
 Is available white board for the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -3024,7 +3024,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#whiteBoard_display name="whiteBoard_display">whiteBoard_display</a>
 
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -3048,7 +3048,7 @@ First included in: <a href="Session.md" target="_blank">eventManagement/Session<
 ### <a href=#durationMins name="durationMins">durationMins</a>
 
 Duration of the Session in minutes.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -3086,7 +3086,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalNumberOfQuestionsAsked name="totalNumberOfQuestionsAsked">totalNumberOfQuestionsAsked</a>
 
 Total numbers of questions asked on the Session.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -3124,7 +3124,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalNumberOfQuestionsAskedDate name="totalNumberOfQuestionsAskedDate">totalNumberOfQuestionsAskedDate</a>
 
 Last Updated time of rollup field Total number of questions asked.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 
@@ -3165,7 +3165,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#totalNumberOfQuestionsAskedState name="totalNumberOfQuestionsAskedState">totalNumberOfQuestionsAskedState</a>
 
 State of rollup field Total number of questions asked.  
-First included in: <a href="Session.md" target="_blank">eventManagement/Session</a>  
+First included in: eventManagement/Session (this entity)  
 
 #### Properties
 

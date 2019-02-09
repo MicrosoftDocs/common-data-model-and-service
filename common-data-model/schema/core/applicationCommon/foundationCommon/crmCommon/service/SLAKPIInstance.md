@@ -1109,7 +1109,7 @@ First included in: <a href="../../../SLAKPIInstance.md" target="_blank">applicat
 ### <a href=#regardingObjectTypeCode name="regardingObjectTypeCode">regardingObjectTypeCode</a>
 
 The name of the entity linked by Regarding  
-First included in: <a href="SLAKPIInstance.md" target="_blank">service/SLAKPIInstance</a>  
+First included in: service/SLAKPIInstance (this entity)  
 
 #### Properties
 

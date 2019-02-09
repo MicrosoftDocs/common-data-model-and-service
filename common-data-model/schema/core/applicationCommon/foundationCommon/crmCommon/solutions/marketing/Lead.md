@@ -601,7 +601,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -640,7 +640,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6649,7 +6649,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#originatingEvent name="originatingEvent">originatingEvent</a>
 
 Shows the event the lead was created from, if the lead was created by registering event in Microsoft Dynamics 365. This is used to relate the lead to the data on the originating event.  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6693,7 +6693,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#sourceCustomerJourney name="sourceCustomerJourney">sourceCustomerJourney</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6734,7 +6734,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#code name="code">code</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6770,7 +6770,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#sourceEmail name="sourceEmail">sourceEmail</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6811,7 +6811,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#sourceForm name="sourceForm">sourceForm</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6852,7 +6852,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#sourceLandingPage name="sourceLandingPage">sourceLandingPage</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6893,7 +6893,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#leadSourceType name="leadSourceType">leadSourceType</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6930,7 +6930,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#leadSourceType_display name="leadSourceType_display">leadSourceType_display</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6953,7 +6953,7 @@ First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>
 
 ### <a href=#scores name="scores">scores</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -6987,7 +6987,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#scoringGrade name="scoringGrade">scoringGrade</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7023,7 +7023,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#insightsPlaceholder name="insightsPlaceholder">insightsPlaceholder</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7059,7 +7059,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#profileid name="profileid">profileid</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7095,7 +7095,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#purchaseNeed name="purchaseNeed">purchaseNeed</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7126,7 +7126,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#triggerRecycle name="triggerRecycle">triggerRecycle</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7157,7 +7157,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#recycled name="recycled">recycled</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7188,7 +7188,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#salesAccepted name="salesAccepted">salesAccepted</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7219,7 +7219,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#salesReady name="salesReady">salesReady</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7250,7 +7250,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sasToken name="sasToken">sasToken</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7286,7 +7286,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#teleProspectAccepted name="teleProspectAccepted">teleProspectAccepted</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7317,7 +7317,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#teleProspectReady name="teleProspectReady">teleProspectReady</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7349,7 +7349,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#companySize name="companySize">companySize</a>
 
 Enter the size of the company the lead belongs to  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7389,7 +7389,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#degree name="degree">degree</a>
 
 Enter the highest education level achieved  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7429,7 +7429,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fieldOfStudy name="fieldOfStudy">fieldOfStudy</a>
 
 Enter the lead's field of study  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7469,7 +7469,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#graduationDate name="graduationDate">graduationDate</a>
 
 Enter the lead's graduation date from the last school or university  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7509,7 +7509,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#industry name="industry">industry</a>
 
 Enter the industry the lead belongs to  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7549,7 +7549,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#jobFunction name="jobFunction">jobFunction</a>
 
 Enter the lead's job function  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7588,7 +7588,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#latestFormSubmissionDate name="latestFormSubmissionDate">latestFormSubmissionDate</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7622,7 +7622,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#linkedInCampaign name="linkedInCampaign">linkedInCampaign</a>
 
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7664,7 +7664,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#school name="school">school</a>
 
 Enter the last school or university attended  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7704,7 +7704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#seniority name="seniority">seniority</a>
 
 Enter the lead's seniority in their organization  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7744,7 +7744,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sourceLinkedInForm name="sourceLinkedInForm">sourceLinkedInForm</a>
 
 LinkedIn form this lead came from  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7789,7 +7789,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#startDate name="startDate">startDate</a>
 
 Enter the start date for the last school or university  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 
@@ -7829,7 +7829,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#linkedInFormSubmissions name="linkedInFormSubmissions">linkedInFormSubmissions</a>
 
 Number of submissions by this lead  
-First included in: <a href="Lead.md" target="_blank">marketing/Lead</a>  
+First included in: marketing/Lead (this entity)  
 
 #### Properties
 

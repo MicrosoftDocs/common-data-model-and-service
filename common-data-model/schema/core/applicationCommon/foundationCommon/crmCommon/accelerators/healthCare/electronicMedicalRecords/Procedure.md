@@ -97,7 +97,7 @@ electronicMedicalRecords/Procedure
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -136,7 +136,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -184,7 +184,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -223,7 +223,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -271,7 +271,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -319,7 +319,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -367,7 +367,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -406,7 +406,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -441,7 +441,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -480,7 +480,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -525,7 +525,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -570,7 +570,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -618,7 +618,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -663,7 +663,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -701,7 +701,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -739,7 +739,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -776,7 +776,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#procedureId name="procedureId">procedureId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -815,7 +815,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Procedure  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -855,7 +855,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -879,7 +879,7 @@ First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecor
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Procedure  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -922,7 +922,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -946,7 +946,7 @@ First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecor
 ### <a href=#description name="description">description</a>
 
 The name of the custom entity.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -986,7 +986,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#category name="category">category</a>
 
 A code that classifies the procedure for searching, sorting and display purposes (e.g. "Surgical Procedure").  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1031,7 +1031,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#code name="code">code</a>
 
 The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. "Laparoscopic Appendectomy").  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1076,7 +1076,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#dateTime name="dateTime">dateTime</a>
 
 The date(time)/period over which the procedure was performed.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1114,7 +1114,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#encounter name="encounter">encounter</a>
 
 The encounter during which the procedure was performed.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1159,7 +1159,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#episodeOfCare name="episodeOfCare">episodeOfCare</a>
 
 The encounter during which the procedure was performed.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1204,7 +1204,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#group name="group">group</a>
 
 The person, animal or group on which the procedure was performed.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1249,7 +1249,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#location name="location">location</a>
 
 The location where the procedure actually happened. E.g. a newborn at home, a tracheotomy at a restaurant.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1294,7 +1294,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#notDone name="notDone">notDone</a>
 
 Set this to true if the record is saying that the procedure was NOT performed.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1329,7 +1329,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#notDoneReason name="notDoneReason">notDoneReason</a>
 
 A code indicating why the procedure was not performed.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1374,7 +1374,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#outcome name="outcome">outcome</a>
 
 The outcome of the procedure - did it resolve reasons for the procedure being performed?  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1419,7 +1419,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#patient name="patient">patient</a>
 
 The person, animal or group on which the procedure was performed.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1464,7 +1464,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performedEndDate name="performedEndDate">performedEndDate</a>
 
 The period End date over which the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1502,7 +1502,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#performedStartDate name="performedStartDate">performedStartDate</a>
 
 The period start date over which the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1540,7 +1540,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#procedureIdentifier name="procedureIdentifier">procedureIdentifier</a>
 
 This records identifiers associated with this procedure that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1580,7 +1580,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#status name="status">status</a>
 
 A code specifying the state of the procedure. Generally this will be in-progress or completed state.  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1620,7 +1620,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1644,7 +1644,7 @@ First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecor
 ### <a href=#subjectType name="subjectType">subjectType</a>
 
 Type of Subject on whom procedure is performed  
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 
@@ -1684,7 +1684,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subjectType_display name="subjectType_display">subjectType_display</a>
 
-First included in: <a href="Procedure.md" target="_blank">electronicMedicalRecords/Procedure</a>  
+First included in: electronicMedicalRecords/Procedure (this entity)  
 
 #### Properties
 

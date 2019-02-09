@@ -79,7 +79,7 @@ applicationCommon/Position
 ### <a href=#positionId name="positionId">positionId</a>
 
 Unique identifier for position entity instances  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who modified the record.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -286,7 +286,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Position  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -485,7 +485,7 @@ First included in: <a href="Position.md" target="_blank">applicationCommon/Posit
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Position  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -528,7 +528,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: <a href="Position.md" target="_blank">applicationCommon/Posit
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -581,7 +581,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -619,7 +619,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -658,7 +658,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -696,7 +696,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -734,7 +734,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 The name of the position.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -775,7 +775,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#parentPositionId name="parentPositionId">parentPositionId</a>
 
 Parent position.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -820,7 +820,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the position with respect to the base currency.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -860,7 +860,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 The description of the position.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 
@@ -900,7 +900,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the position.  
-First included in: <a href="Position.md" target="_blank">applicationCommon/Position</a>  
+First included in: applicationCommon/Position (this entity)  
 
 #### Properties
 

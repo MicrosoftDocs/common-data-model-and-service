@@ -9881,7 +9881,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#originatingEvent name="originatingEvent">originatingEvent</a>
 
 Shows the event the contact was created from, if the contact was created by registering event in Microsoft Dynamics 365. This is used to relate the contact to the data on the originating event.  
-First included in: <a href="Contact.md" target="_blank">marketing/Contact</a>  
+First included in: marketing/Contact (this entity)  
 
 #### Properties
 
@@ -9925,7 +9925,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#sourceCustomerJourney name="sourceCustomerJourney">sourceCustomerJourney</a>
 
-First included in: <a href="Contact.md" target="_blank">marketing/Contact</a>  
+First included in: marketing/Contact (this entity)  
 
 #### Properties
 
@@ -9966,7 +9966,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#sourceEmail name="sourceEmail">sourceEmail</a>
 
-First included in: <a href="Contact.md" target="_blank">marketing/Contact</a>  
+First included in: marketing/Contact (this entity)  
 
 #### Properties
 
@@ -10007,7 +10007,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#sourceForm name="sourceForm">sourceForm</a>
 
-First included in: <a href="Contact.md" target="_blank">marketing/Contact</a>  
+First included in: marketing/Contact (this entity)  
 
 #### Properties
 
@@ -10048,7 +10048,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#sourceLandingPage name="sourceLandingPage">sourceLandingPage</a>
 
-First included in: <a href="Contact.md" target="_blank">marketing/Contact</a>  
+First included in: marketing/Contact (this entity)  
 
 #### Properties
 
@@ -10089,7 +10089,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#rememberMe name="rememberMe">rememberMe</a>
 
-First included in: <a href="Contact.md" target="_blank">marketing/Contact</a>  
+First included in: marketing/Contact (this entity)  
 
 #### Properties
 
@@ -10120,7 +10120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#insightsPlaceholder name="insightsPlaceholder">insightsPlaceholder</a>
 
-First included in: <a href="Contact.md" target="_blank">marketing/Contact</a>  
+First included in: marketing/Contact (this entity)  
 
 #### Properties
 
@@ -10157,7 +10157,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#portalInvitationCode name="portalInvitationCode">portalInvitationCode</a>
 
 Field for the contact's invitation code.  
-First included in: <a href="Contact.md" target="_blank">marketing/Contact</a>  
+First included in: marketing/Contact (this entity)  
 
 #### Properties
 
@@ -10197,7 +10197,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#portalInvitationURL name="portalInvitationURL">portalInvitationURL</a>
 
 Field for the url which contact can use to register to event portal  
-First included in: <a href="Contact.md" target="_blank">marketing/Contact</a>  
+First included in: marketing/Contact (this entity)  
 
 #### Properties
 

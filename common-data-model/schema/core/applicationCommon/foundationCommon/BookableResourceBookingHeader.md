@@ -87,7 +87,7 @@ foundationCommon/BookableResourceBookingHeader
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -126,7 +126,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -174,7 +174,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -213,7 +213,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -261,7 +261,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -309,7 +309,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -357,7 +357,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -396,7 +396,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -470,7 +470,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -515,7 +515,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -608,7 +608,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -653,7 +653,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -691,7 +691,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -729,7 +729,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -766,7 +766,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#bookableResourceBookingHeaderId name="bookableResourceBookingHeaderId">bookableResourceBookingHeaderId</a>
 
 Unique identifier of the resource booking header.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -805,7 +805,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#name name="name">name</a>
 
 The name of the booking summary.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -846,7 +846,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -884,7 +884,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -922,7 +922,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -962,7 +962,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#duration name="duration">duration</a>
 
 Shows the aggregate duration of the linked bookings.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -1001,7 +1001,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#endTime name="endTime">endTime</a>
 
 Shows the end date and time of the booking summary.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -1039,7 +1039,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#startTime name="startTime">startTime</a>
 
 Shows the start date and time of the booking summary.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -1077,7 +1077,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Bookable Resource Booking Header  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -1117,7 +1117,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -1141,7 +1141,7 @@ First included in: <a href="BookableResourceBookingHeader.md" target="_blank">fo
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Bookable Resource Booking Header  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -1184,7 +1184,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -1208,7 +1208,7 @@ First included in: <a href="BookableResourceBookingHeader.md" target="_blank">fo
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the bookableresourcebookingheader with respect to the base currency.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 
@@ -1248,7 +1248,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Exchange rate for the currency associated with the BookableResourceBookingHeader with respect to the base currency.  
-First included in: <a href="BookableResourceBookingHeader.md" target="_blank">foundationCommon/BookableResourceBookingHeader</a>  
+First included in: foundationCommon/BookableResourceBookingHeader (this entity)  
 
 #### Properties
 

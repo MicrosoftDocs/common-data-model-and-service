@@ -57,7 +57,7 @@ applicationCommon/KnowledgeArticleCategory
 
 ### <a href=#knowledgeArticleId name="knowledgeArticleId">knowledgeArticleId</a>
 
-First included in: <a href="KnowledgeArticleCategory.md" target="_blank">applicationCommon/KnowledgeArticleCategory</a>  
+First included in: applicationCommon/KnowledgeArticleCategory (this entity)  
 
 #### Properties
 
@@ -88,7 +88,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#categoryId name="categoryId">categoryId</a>
 
-First included in: <a href="KnowledgeArticleCategory.md" target="_blank">applicationCommon/KnowledgeArticleCategory</a>  
+First included in: applicationCommon/KnowledgeArticleCategory (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#knowledgeArticleCategoryId name="knowledgeArticleCategoryId">knowledgeArticleCategoryId</a>
 
 Unique identifier of the Category for the knowledge article.  
-First included in: <a href="KnowledgeArticleCategory.md" target="_blank">applicationCommon/KnowledgeArticleCategory</a>  
+First included in: applicationCommon/KnowledgeArticleCategory (this entity)  
 
 #### Properties
 
@@ -152,7 +152,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
-First included in: <a href="KnowledgeArticleCategory.md" target="_blank">applicationCommon/KnowledgeArticleCategory</a>  
+First included in: applicationCommon/KnowledgeArticleCategory (this entity)  
 
 #### Properties
 

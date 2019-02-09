@@ -56,7 +56,7 @@ interactions/ContactCheckedIntoEvent
 ### <a href=#interactionId name="interactionId">interactionId</a>
 
 Unique identifier of the interaction.  
-First included in: <a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>  
+First included in: interactions/ContactCheckedIntoEvent (this entity)  
 
 #### Properties
 
@@ -93,7 +93,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#eventId name="eventId">eventId</a>
 
 Event  
-First included in: <a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>  
+First included in: interactions/ContactCheckedIntoEvent (this entity)  
 
 #### Properties
 
@@ -135,7 +135,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contactId name="contactId">contactId</a>
 
 Contact  
-First included in: <a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>  
+First included in: interactions/ContactCheckedIntoEvent (this entity)  
 
 #### Properties
 
@@ -177,7 +177,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Account  
-First included in: <a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>  
+First included in: interactions/ContactCheckedIntoEvent (this entity)  
 
 #### Properties
 
@@ -219,7 +219,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#customerJourneyId name="customerJourneyId">customerJourneyId</a>
 
 Customer journey  
-First included in: <a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>  
+First included in: interactions/ContactCheckedIntoEvent (this entity)  
 
 #### Properties
 
@@ -261,7 +261,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Organization ID  
-First included in: <a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>  
+First included in: interactions/ContactCheckedIntoEvent (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ The attribute value may be set to NULL.
 ### <a href=#eventCheckinId name="eventCheckinId">eventCheckinId</a>
 
 eventcheckinid  
-First included in: <a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>  
+First included in: interactions/ContactCheckedIntoEvent (this entity)  
 
 #### Properties
 
@@ -323,7 +323,7 @@ The attribute value may be set to NULL.
 ### <a href=#interactionType name="interactionType">interactionType</a>
 
 Interaction type  
-First included in: <a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>  
+First included in: interactions/ContactCheckedIntoEvent (this entity)  
 
 #### Properties
 
@@ -354,7 +354,7 @@ The attribute value may be set to NULL.
 ### <a href=#timestamp name="timestamp">timestamp</a>
 
 Timestamp  
-First included in: <a href="ContactCheckedIntoEvent.md" target="_blank">interactions/ContactCheckedIntoEvent</a>  
+First included in: interactions/ContactCheckedIntoEvent (this entity)  
 
 #### Properties
 

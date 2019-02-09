@@ -8518,7 +8518,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultPriceLevelId name="defaultPriceLevelId">defaultPriceLevelId</a>
 
 Choose the default price list associated with the contact to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.  
-First included in: <a href="Contact.md" target="_blank">foundationCommon/Contact</a>  
+First included in: foundationCommon/Contact (this entity)  
 
 #### Properties
 

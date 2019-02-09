@@ -2153,7 +2153,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#businessStatus name="businessStatus">businessStatus</a>
 
 There's often a need to track substrates of a task - this is often variable by specific workflow implementation.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2198,7 +2198,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#code name="code">code</a>
 
 A name or code (or both) briefly describing what the task involves.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2243,7 +2243,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextEncounter name="contextEncounter">contextEncounter</a>
 
 An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2288,7 +2288,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextEpisodeofCare name="contextEpisodeofCare">contextEpisodeofCare</a>
 
 An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2333,7 +2333,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contextType name="contextType">contextType</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this task was created.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2373,7 +2373,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contextType_display name="contextType_display">contextType_display</a>
 
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2397,7 +2397,7 @@ First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Ta
 ### <a href=#definitionUri name="definitionUri">definitionUri</a>
 
 A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2437,7 +2437,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#descriptionFocus name="descriptionFocus">descriptionFocus</a>
 
 The request being actioned or the resource being manipulated by this task.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2477,7 +2477,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#descriptionFor name="descriptionFor">descriptionFor</a>
 
 The entity who benefits from the performance of the service specified in the task (e.g., the patient).  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2517,7 +2517,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#groupIdentifier name="groupIdentifier">groupIdentifier</a>
 
 An identifier that links together multiple tasks and other requests that were created in the same context.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2557,7 +2557,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#intent name="intent">intent</a>
 
 Indicates the ""level"" of actionability associated with the Task. I.e. Is this a proposed task, a planned task, an actionable task, etc.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2597,7 +2597,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#intent_display name="intent_display">intent_display</a>
 
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2621,7 +2621,7 @@ First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Ta
 ### <a href=#performerOwnerAgentDevice name="performerOwnerAgentDevice">performerOwnerAgentDevice</a>
 
 This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2666,7 +2666,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerOrganization name="performerOwnerOrganization">performerOwnerOrganization</a>
 
 A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2711,7 +2711,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerPatient name="performerOwnerPatient">performerOwnerPatient</a>
 
 Demographics and other administrative information about an individual or animal receiving care or other health-related services.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2756,7 +2756,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerPractitioner name="performerOwnerPractitioner">performerOwnerPractitioner</a>
 
 A person who is directly or indirectly involved in the provisioning of healthcare.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2801,7 +2801,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerRelatedPerson name="performerOwnerRelatedPerson">performerOwnerRelatedPerson</a>
 
 Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2846,7 +2846,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#performerOwnerType name="performerOwnerType">performerOwnerType</a>
 
 The type for Individual organization or Device currently responsible for task execution.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2886,7 +2886,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#performerOwnerType_display name="performerOwnerType_display">performerOwnerType_display</a>
 
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2910,7 +2910,7 @@ First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Ta
 ### <a href=#reason name="reason">reason</a>
 
 A description or code indicating why this task needs to be performed.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2955,7 +2955,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#reference name="reference">reference</a>
 
 A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -2997,7 +2997,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#requesterAgent name="requesterAgent">requesterAgent</a>
 
 The device, practitioner, etc. who initiated the task.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3037,7 +3037,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#requesterAgent_display name="requesterAgent_display">requesterAgent_display</a>
 
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3062,7 +3062,7 @@ First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Ta
 
 " 
 This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3109,7 +3109,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentOrganization name="requesterAgentOrganization">requesterAgentOrganization</a>
 
 A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3154,7 +3154,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentPatient name="requesterAgentPatient">requesterAgentPatient</a>
 
 Demographics and other administrative information about an individual or animal receiving care or other health-related services.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3199,7 +3199,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentPractitioner name="requesterAgentPractitioner">requesterAgentPractitioner</a>
 
 A person who is directly or indirectly involved in the provisioning of healthcare.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3244,7 +3244,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterAgentRelatedPerson name="requesterAgentRelatedPerson">requesterAgentRelatedPerson</a>
 
 Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3289,7 +3289,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#requesterOnBehalfOf name="requesterOnBehalfOf">requesterOnBehalfOf</a>
 
 This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3334,7 +3334,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#restrictionPeriodEndDate name="restrictionPeriodEndDate">restrictionPeriodEndDate</a>
 
 The end of the period. If the end of the period is missing, it means that the period is ongoing.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3372,7 +3372,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#restrictionPeriodStartDate name="restrictionPeriodStartDate">restrictionPeriodStartDate</a>
 
 The start of the period. The boundary is inclusive.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3410,7 +3410,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#restrictionRepetitions name="restrictionRepetitions">restrictionRepetitions</a>
 
 Indicates the number of times the requested action should occur.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3448,7 +3448,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#status name="status">status</a>
 
 These states enable coordination of task status with off-the-shelf workflow solutions that support automation of tasks.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3488,7 +3488,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3512,7 +3512,7 @@ First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Ta
 ### <a href=#statusReason name="statusReason">statusReason</a>
 
 These states enable coordination of task status with off-the-shelf workflow solutions that support automation of tasks.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3557,7 +3557,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#taskNumber name="taskNumber">taskNumber</a>
 
 A task to be performed.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3597,7 +3597,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#taskPriority name="taskPriority">taskPriority</a>
 
 Indicates how quickly the Task should be addressed with respect to other requests.  
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 
@@ -3637,7 +3637,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#taskPriority_display name="taskPriority_display">taskPriority_display</a>
 
-First included in: <a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>  
+First included in: electronicMedicalRecords/Task (this entity)  
 
 #### Properties
 

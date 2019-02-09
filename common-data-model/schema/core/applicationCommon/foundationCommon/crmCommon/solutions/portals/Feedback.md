@@ -1452,7 +1452,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#publishedToWeb name="publishedToWeb">publishedToWeb</a>
 
 Shows whether the feedback is approved for display.  
-First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 
@@ -1487,7 +1487,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#authorURL name="authorURL">authorURL</a>
 
 The URL of the author’s home page/blog.  
-First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 
@@ -1528,7 +1528,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#adxContactEmail name="adxContactEmail">adxContactEmail</a>
 
 Email of the contact who created the record.  
-First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 
@@ -1569,7 +1569,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#adxContactUsername name="adxContactUsername">adxContactUsername</a>
 
 Username of the contact who created the record.  
-First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 
@@ -1610,7 +1610,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#adxCreatedByContact name="adxCreatedByContact">adxCreatedByContact</a>
 
 Name of the contact who created the record.  
-First included in: <a href="Feedback.md" target="_blank">portals/Feedback</a>  
+First included in: portals/Feedback (this entity)  
 
 #### Properties
 

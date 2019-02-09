@@ -7064,7 +7064,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#accountType name="accountType">accountType</a>
 
-First included in: <a href="Account.md" target="_blank">nonProfit/Account</a>  
+First included in: nonProfit/Account (this entity)  
 
 #### Properties
 
@@ -7101,7 +7101,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountType_display name="accountType_display">accountType_display</a>
 
-First included in: <a href="Account.md" target="_blank">nonProfit/Account</a>  
+First included in: nonProfit/Account (this entity)  
 
 #### Properties
 
@@ -7125,7 +7125,7 @@ First included in: <a href="Account.md" target="_blank">nonProfit/Account</a>
 ### <a href=#acquisitionDate name="acquisitionDate">acquisitionDate</a>
 
 Manually populated date indicating when the Account was aquired.  
-First included in: <a href="Account.md" target="_blank">nonProfit/Account</a>  
+First included in: nonProfit/Account (this entity)  
 
 #### Properties
 
@@ -7163,7 +7163,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#acquisitionSource name="acquisitionSource">acquisitionSource</a>
 
 Manually populated field Indicating the lead source for acquiring this Account.  
-First included in: <a href="Account.md" target="_blank">nonProfit/Account</a>  
+First included in: nonProfit/Account (this entity)  
 
 #### Properties
 
@@ -7203,7 +7203,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#acquisitionSource_display name="acquisitionSource_display">acquisitionSource_display</a>
 
-First included in: <a href="Account.md" target="_blank">nonProfit/Account</a>  
+First included in: nonProfit/Account (this entity)  
 
 #### Properties
 
@@ -7227,7 +7227,7 @@ First included in: <a href="Account.md" target="_blank">nonProfit/Account</a>
 ### <a href=#primaryConstituentType name="primaryConstituentType">primaryConstituentType</a>
 
 Subcategory of primary Constituency type rolls up to this field.  
-First included in: <a href="Account.md" target="_blank">nonProfit/Account</a>  
+First included in: nonProfit/Account (this entity)  
 
 #### Properties
 
@@ -7267,7 +7267,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#primaryConstituentType_display name="primaryConstituentType_display">primaryConstituentType_display</a>
 
-First included in: <a href="Account.md" target="_blank">nonProfit/Account</a>  
+First included in: nonProfit/Account (this entity)  
 
 #### Properties
 

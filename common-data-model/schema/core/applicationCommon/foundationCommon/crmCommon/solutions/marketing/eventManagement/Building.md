@@ -115,7 +115,7 @@ eventManagement/Building
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -385,7 +385,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -424,7 +424,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -498,7 +498,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -543,7 +543,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -588,7 +588,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -636,7 +636,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -681,7 +681,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -719,7 +719,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -757,7 +757,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -794,7 +794,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#buildingId name="buildingId">buildingId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -833,7 +833,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Building  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -873,7 +873,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -897,7 +897,7 @@ First included in: <a href="Building.md" target="_blank">eventManagement/Buildin
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Building  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -940,7 +940,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -964,7 +964,7 @@ First included in: <a href="Building.md" target="_blank">eventManagement/Buildin
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1005,7 +1005,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#accessibleToilets name="accessibleToilets">accessibleToilets</a>
 
 There are accessible toilets or not.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1045,7 +1045,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accessibleToilets_display name="accessibleToilets_display">accessibleToilets_display</a>
 
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1069,7 +1069,7 @@ First included in: <a href="Building.md" target="_blank">eventManagement/Buildin
 ### <a href=#additionalFacilities name="additionalFacilities">additionalFacilities</a>
 
 Some additional facilities which is not covered by available options.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1109,7 +1109,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressLine1 name="addressLine1">addressLine1</a>
 
 Address (except of city, country/region, state or province and postal code).  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1149,7 +1149,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressLine2 name="addressLine2">addressLine2</a>
 
 Additional address details.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1189,7 +1189,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressLine3 name="addressLine3">addressLine3</a>
 
 Additional address details.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1229,7 +1229,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#city name="city">city</a>
 
 City. Part of address info.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1270,7 +1270,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#cost name="cost">cost</a>
 
 Cost (of using the building)  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1311,7 +1311,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1356,7 +1356,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1396,7 +1396,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#costBase name="costBase">costBase</a>
 
 Value of the Cost in base currency.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1440,7 +1440,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#country name="country">country</a>
 
 Country/Region. Part of address info.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1481,7 +1481,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#description name="description">description</a>
 
 Description of the building.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1521,7 +1521,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#disabledAccess name="disabledAccess">disabledAccess</a>
 
 There is disabled access or not.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1561,7 +1561,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#disabledAccess_display name="disabledAccess_display">disabledAccess_display</a>
 
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1585,7 +1585,7 @@ First included in: <a href="Building.md" target="_blank">eventManagement/Buildin
 ### <a href=#disabledParking name="disabledParking">disabledParking</a>
 
 There is disabled parking or not.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1625,7 +1625,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#disabledParking_display name="disabledParking_display">disabledParking_display</a>
 
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1649,7 +1649,7 @@ First included in: <a href="Building.md" target="_blank">eventManagement/Buildin
 ### <a href=#email name="email">email</a>
 
 Email to contact the building  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1690,7 +1690,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#estimatedCapacity name="estimatedCapacity">estimatedCapacity</a>
 
 Estimated capacity of building  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1728,7 +1728,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 Postal code. Part of address info.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1769,7 +1769,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#primaryContact name="primaryContact">primaryContact</a>
 
 A person who is responsible for the building.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1814,7 +1814,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#publicTelephoneAvailable name="publicTelephoneAvailable">publicTelephoneAvailable</a>
 
 There is available public telephone or not.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1854,7 +1854,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#publicTelephoneAvailable_display name="publicTelephoneAvailable_display">publicTelephoneAvailable_display</a>
 
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1878,7 +1878,7 @@ First included in: <a href="Building.md" target="_blank">eventManagement/Buildin
 ### <a href=#stateProvince name="stateProvince">stateProvince</a>
 
 State or province. Part of address info.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1918,7 +1918,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 Telephone to contact the building  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -1959,7 +1959,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone2 name="telephone2">telephone2</a>
 
 Telephone to contact the building  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2000,7 +2000,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telephone3 name="telephone3">telephone3</a>
 
 Telephone to contact the building  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2041,7 +2041,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#website name="website">website</a>
 
 Website to contact the building  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2081,7 +2081,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#wifiAvailable name="wifiAvailable">wifiAvailable</a>
 
 There is available wifi or not.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2121,7 +2121,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#wifiAvailable_display name="wifiAvailable_display">wifiAvailable_display</a>
 
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2145,7 +2145,7 @@ First included in: <a href="Building.md" target="_blank">eventManagement/Buildin
 ### <a href=#wifiPassword name="wifiPassword">wifiPassword</a>
 
 Wifi password.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2185,7 +2185,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#wifiSSID name="wifiSSID">wifiSSID</a>
 
 SSID of the wifi  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2224,7 +2224,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#addressComposite name="addressComposite">addressComposite</a>
 
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2261,7 +2261,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#numberOfRooms name="numberOfRooms">numberOfRooms</a>
 
 Number of available rooms.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2299,7 +2299,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#numberOfRoomsDate name="numberOfRoomsDate">numberOfRoomsDate</a>
 
 Last Updated time of rollup field Number of Rooms.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 
@@ -2340,7 +2340,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#numberOfRoomsState name="numberOfRoomsState">numberOfRoomsState</a>
 
 State of rollup field Number of Rooms.  
-First included in: <a href="Building.md" target="_blank">eventManagement/Building</a>  
+First included in: eventManagement/Building (this entity)  
 
 #### Properties
 

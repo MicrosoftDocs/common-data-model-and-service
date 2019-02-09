@@ -2403,7 +2403,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#form name="form">form</a>
 
 Describes the form of the item. Powder; tablets; capsule.  
-First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
+First included in: electronicMedicalRecords/Product (this entity)  
 
 #### Properties
 
@@ -2448,7 +2448,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isBrand name="isBrand">isBrand</a>
 
 Set to true if the item is attributable to a specific manufacturer.  
-First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
+First included in: electronicMedicalRecords/Product (this entity)  
 
 #### Properties
 
@@ -2483,7 +2483,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isOvertheCounter name="isOvertheCounter">isOvertheCounter</a>
 
 Set to true if the medication can be obtained without an order from a prescriber.  
-First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
+First included in: electronicMedicalRecords/Product (this entity)  
 
 #### Properties
 
@@ -2518,7 +2518,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#medicationCode name="medicationCode">medicationCode</a>
 
 A code (or set of codes) that specify this medication, or a textual description if no code is available. Usage note: This could be a standard medication code.  
-First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
+First included in: electronicMedicalRecords/Product (this entity)  
 
 #### Properties
 
@@ -2563,7 +2563,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#packageContainer name="packageContainer">packageContainer</a>
 
 The kind of container that this package comes as.  
-First included in: <a href="Product.md" target="_blank">electronicMedicalRecords/Product</a>  
+First included in: electronicMedicalRecords/Product (this entity)  
 
 #### Properties
 

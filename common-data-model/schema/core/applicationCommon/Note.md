@@ -82,7 +82,7 @@ applicationCommon/Note
 ### <a href=#annotationId name="annotationId">annotationId</a>
 
 Unique identifier of the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#objectTypeCode name="objectTypeCode">objectTypeCode</a>
 
 Type of entity with which the note is associated.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#objectTypeCode_display name="objectTypeCode_display">objectTypeCode_display</a>
 
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -185,7 +185,7 @@ First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user who owns the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -230,7 +230,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#objectIdTypeCode name="objectIdTypeCode">objectIdTypeCode</a>
 
 The name of the entity linked by objectId  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -263,7 +263,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#objectId name="objectId">objectId</a>
 
 Unique identifier of the object with which the note is associated.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -308,7 +308,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -353,7 +353,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -393,7 +393,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isDocument name="isDocument">isDocument</a>
 
 Specifies whether the note is an attachment.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -425,7 +425,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#noteText name="noteText">noteText</a>
 
 Text of the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#mimeType name="mimeType">mimeType</a>
 
 MIME type of the note's attachment.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#langId name="langId">langId</a>
 
 Language identifier for the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -545,7 +545,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#documentBody name="documentBody">documentBody</a>
 
 Contents of the note's attachment.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -585,7 +585,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the note was created.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -624,7 +624,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#fileSize name="fileSize">fileSize</a>
 
 File size of the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -662,7 +662,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#fileName name="fileName">fileName</a>
 
 File name of the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -703,7 +703,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -748,7 +748,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who last modified the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -793,7 +793,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the note was last modified.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -832,7 +832,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version number of the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -868,7 +868,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -907,7 +907,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -952,7 +952,7 @@ contains a User or Team ID
 ### <a href=#stepId name="stepId">stepId</a>
 
 workflow step id associated with the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -992,7 +992,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -1031,7 +1031,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -1069,7 +1069,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the annotation.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -1114,7 +1114,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who last modified the annotation.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 
@@ -1159,7 +1159,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier of the team who owns the note.  
-First included in: <a href="Note.md" target="_blank">applicationCommon/Note</a>  
+First included in: applicationCommon/Note (this entity)  
 
 #### Properties
 

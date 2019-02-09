@@ -6535,7 +6535,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#defaultPriceLevelId name="defaultPriceLevelId">defaultPriceLevelId</a>
 
 Choose the default price list associated with the account to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.  
-First included in: <a href="Account.md" target="_blank">foundationCommon/Account</a>  
+First included in: foundationCommon/Account (this entity)  
 
 #### Properties
 

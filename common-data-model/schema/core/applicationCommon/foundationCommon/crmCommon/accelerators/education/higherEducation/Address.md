@@ -2034,7 +2034,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#endDate name="endDate">endDate</a>
 
 End Date  
-First included in: <a href="Address.md" target="_blank">higherEducation/Address</a>  
+First included in: higherEducation/Address (this entity)  
 
 #### Properties
 
@@ -2072,7 +2072,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#externalIdentifier name="externalIdentifier">externalIdentifier</a>
 
 External Identifier  
-First included in: <a href="Address.md" target="_blank">higherEducation/Address</a>  
+First included in: higherEducation/Address (this entity)  
 
 #### Properties
 
@@ -2112,7 +2112,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#externalSourceSystem name="externalSourceSystem">externalSourceSystem</a>
 
 External Source System  
-First included in: <a href="Address.md" target="_blank">higherEducation/Address</a>  
+First included in: higherEducation/Address (this entity)  
 
 #### Properties
 
@@ -2152,7 +2152,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#externalSourceSystem_display name="externalSourceSystem_display">externalSourceSystem_display</a>
 
-First included in: <a href="Address.md" target="_blank">higherEducation/Address</a>  
+First included in: higherEducation/Address (this entity)  
 
 #### Properties
 
@@ -2176,7 +2176,7 @@ First included in: <a href="Address.md" target="_blank">higherEducation/Address<
 ### <a href=#mailType name="mailType">mailType</a>
 
 Indicate address as Primary or Seasonal  
-First included in: <a href="Address.md" target="_blank">higherEducation/Address</a>  
+First included in: higherEducation/Address (this entity)  
 
 #### Properties
 
@@ -2216,7 +2216,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#mailType_display name="mailType_display">mailType_display</a>
 
-First included in: <a href="Address.md" target="_blank">higherEducation/Address</a>  
+First included in: higherEducation/Address (this entity)  
 
 #### Properties
 
@@ -2240,7 +2240,7 @@ First included in: <a href="Address.md" target="_blank">higherEducation/Address<
 ### <a href=#startDate name="startDate">startDate</a>
 
 Start Date  
-First included in: <a href="Address.md" target="_blank">higherEducation/Address</a>  
+First included in: higherEducation/Address (this entity)  
 
 #### Properties
 

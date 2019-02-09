@@ -8731,7 +8731,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#adxCreatedByIPAddress name="adxCreatedByIPAddress">adxCreatedByIPAddress</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -8767,7 +8767,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxCreatedByUsername name="adxCreatedByUsername">adxCreatedByUsername</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -8804,7 +8804,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByIPAddress name="adxModifiedByIPAddress">adxModifiedByIPAddress</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -8840,7 +8840,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxModifiedByUsername name="adxModifiedByUsername">adxModifiedByUsername</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -8877,7 +8877,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxOrganizationName name="adxOrganizationName">adxOrganizationName</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -8914,7 +8914,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxTimeZone name="adxTimeZone">adxTimeZone</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -8952,7 +8952,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#managingPartner name="managingPartner">managingPartner</a>
 
 Unique identifier for Account associated with Contact.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -8997,7 +8997,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#disableWebTracking name="disableWebTracking">disableWebTracking</a>
 
 Indicates that the contact has opted out of web tracking.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9032,7 +9032,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isMinor name="isMinor">isMinor</a>
 
 Indicates that the contact is considered a minor in their jurisdiction.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9067,7 +9067,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isMinorWithParentalConsent name="isMinorWithParentalConsent">isMinorWithParentalConsent</a>
 
 Indicates that the contact is considered a minor in their jurisdiction and has parental consent.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9102,7 +9102,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#portalTermsAgreementDate name="portalTermsAgreementDate">portalTermsAgreementDate</a>
 
 Indicates the date and time that the person agreed to the portal terms and conditions.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9140,7 +9140,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#preferredLanguage name="preferredLanguage">preferredLanguage</a>
 
 User’s preferred portal language  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9184,7 +9184,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#profileAlert name="profileAlert">profileAlert</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9215,7 +9215,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#profileAlertDate name="profileAlertDate">profileAlertDate</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9249,7 +9249,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#profileAlertInstructions name="profileAlertInstructions">profileAlertInstructions</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9285,7 +9285,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#adxProfileIsAnonymous name="adxProfileIsAnonymous">adxProfileIsAnonymous</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9316,7 +9316,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#adxProfileLastActivity name="adxProfileLastActivity">adxProfileLastActivity</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9350,7 +9350,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#profileModifiedOn name="profileModifiedOn">profileModifiedOn</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9385,7 +9385,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#publicProfileCopy name="publicProfileCopy">publicProfileCopy</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9422,7 +9422,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#accessFailedCount name="accessFailedCount">accessFailedCount</a>
 
 Shows the current count of failed password attempts for the contact.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9460,7 +9460,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#emailConfirmed name="emailConfirmed">emailConfirmed</a>
 
 Determines if the email is confirmed by the contact.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9495,7 +9495,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastSuccessfulLogin name="lastSuccessfulLogin">lastSuccessfulLogin</a>
 
 Indicates the last date and time the user successfully signed in to a portal.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9533,7 +9533,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#localLoginDisabled name="localLoginDisabled">localLoginDisabled</a>
 
 Indicates that the contact can no longer sign in to the portal using the local account.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9568,7 +9568,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lockoutEnabled name="lockoutEnabled">lockoutEnabled</a>
 
 Determines if this contact will track failed access attempts and become locked after too many failed attempts. To prevent the contact from becoming locked, you can disable this setting.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9603,7 +9603,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lockoutEndDate name="lockoutEndDate">lockoutEndDate</a>
 
 Shows the moment in time when the locked contact becomes unlocked again.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9641,7 +9641,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#loginEnabled name="loginEnabled">loginEnabled</a>
 
 Determines if web authentication is enabled for the contact.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9676,7 +9676,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#mobilePhoneConfirmed name="mobilePhoneConfirmed">mobilePhoneConfirmed</a>
 
 Determines if the phone number is confirmed by the contact.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9710,7 +9710,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#passwordHash name="passwordHash">passwordHash</a>
 
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9747,7 +9747,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#securityStamp name="securityStamp">securityStamp</a>
 
 A token used to manage the web authentication session.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9787,7 +9787,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#twoFactorEnabled name="twoFactorEnabled">twoFactorEnabled</a>
 
 Determines if two-factor authentication is enabled for the contact.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 
@@ -9822,7 +9822,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#userName name="userName">userName</a>
 
 Shows the user identity for local web authentication.  
-First included in: <a href="Contact.md" target="_blank">portals/Contact</a>  
+First included in: portals/Contact (this entity)  
 
 #### Properties
 

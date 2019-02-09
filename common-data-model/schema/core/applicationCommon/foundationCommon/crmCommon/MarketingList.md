@@ -100,7 +100,7 @@ crmCommon/MarketingList
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -139,7 +139,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -187,7 +187,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -226,7 +226,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -274,7 +274,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -322,7 +322,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -409,7 +409,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -444,7 +444,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -483,7 +483,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -528,7 +528,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -573,7 +573,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -621,7 +621,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -666,7 +666,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -704,7 +704,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -742,7 +742,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -779,7 +779,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#listId name="listId">listId</a>
 
 Unique identifier of the marketing list.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -818,7 +818,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#listName name="listName">listName</a>
 
 Type a name for the marketing list so that it is identified correctly in lists.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -856,7 +856,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -894,7 +894,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -932,7 +932,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -972,7 +972,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#cost name="cost">cost</a>
 
 Type the cost of obtaining the marketing list.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1013,7 +1013,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1058,7 +1058,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1098,7 +1098,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#costBase name="costBase">costBase</a>
 
 Value of the Cost in base currency.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1142,7 +1142,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#createdFromCode name="createdFromCode">createdFromCode</a>
 
 Select the type of members that this marketing list will contain: accounts, contacts, or leads. Each list can have only one member type and this value can't be changed after the marketing list is created.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1179,7 +1179,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#createdFromCode_display name="createdFromCode_display">createdFromCode_display</a>
 
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1203,7 +1203,7 @@ First included in: <a href="MarketingList.md" target="_blank">crmCommon/Marketin
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the marketing list, such as the intended use or date of the last update.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1243,7 +1243,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#doNotSendOnOptOut name="doNotSendOnOptOut">doNotSendOnOptOut</a>
 
 Select whether to override the opt-out settings on leads, contacts, and accounts for the members of the target marketing lists of the campaign activity. If No is selected, those who have chosen to opt out won't be excluded from the list. This means they will receive marketing materials.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1278,7 +1278,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ignoreInactiveListMembers name="ignoreInactiveListMembers">ignoreInactiveListMembers</a>
 
 Select whether inactive accounts, contacts, or leads should be excluded from the campaign activity distribution when the marketing list is included in a campaign.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1313,7 +1313,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastUsedOn name="lastUsedOn">lastUsedOn</a>
 
 Shows the date and time when the marketing list was last used in a campaign or in the creation of activities or opportunities.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1351,7 +1351,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lockStatus name="lockStatus">lockStatus</a>
 
 Select whether the marketing list is locked. If Yes is selected, no additional members can be added to the marketing list.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1386,7 +1386,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#memberCount name="memberCount">memberCount</a>
 
 Shows the sum of all members in the marketing list.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1424,7 +1424,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#memberType name="memberType">memberType</a>
 
 Type of the members that can be stored in the marketing list.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1462,7 +1462,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#purpose name="purpose">purpose</a>
 
 Type the intended use of the marketing list to identify its key segments, target offers, or business group.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1502,7 +1502,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#query name="query">query</a>
 
 Query used for retrieving members of marketing list.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1542,7 +1542,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#source name="source">source</a>
 
 Type the source of the marketing list, such as a third-party supplier or internal database.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1582,7 +1582,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the marketing list is active or inactive. Inactive marketing lists are read-only and can't be edited unless they are reactivated.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1622,7 +1622,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1646,7 +1646,7 @@ First included in: <a href="MarketingList.md" target="_blank">crmCommon/Marketin
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the marketing list's status.  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1689,7 +1689,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 
@@ -1713,7 +1713,7 @@ First included in: <a href="MarketingList.md" target="_blank">crmCommon/Marketin
 ### <a href=#type name="type">type</a>
 
 Select whether you want the marketing list to be static or dynamic. The members in a static marketing list are unchanging. A dynamic marketing list is based on a dynamic query that retrieves the updated list of members  
-First included in: <a href="MarketingList.md" target="_blank">crmCommon/MarketingList</a>  
+First included in: crmCommon/MarketingList (this entity)  
 
 #### Properties
 

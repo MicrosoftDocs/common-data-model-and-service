@@ -7064,7 +7064,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#accountType name="accountType">accountType</a>
 
 Type of Account  
-First included in: <a href="Account.md" target="_blank">higherEducation/Account</a>  
+First included in: higherEducation/Account (this entity)  
 
 #### Properties
 
@@ -7104,7 +7104,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountType_display name="accountType_display">accountType_display</a>
 
-First included in: <a href="Account.md" target="_blank">higherEducation/Account</a>  
+First included in: higherEducation/Account (this entity)  
 
 #### Properties
 
@@ -7127,7 +7127,7 @@ First included in: <a href="Account.md" target="_blank">higherEducation/Account<
 
 ### <a href=#externalIdentifier name="externalIdentifier">externalIdentifier</a>
 
-First included in: <a href="Account.md" target="_blank">higherEducation/Account</a>  
+First included in: higherEducation/Account (this entity)  
 
 #### Properties
 
@@ -7164,7 +7164,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#externalSourceSystem name="externalSourceSystem">externalSourceSystem</a>
 
 External Source System  
-First included in: <a href="Account.md" target="_blank">higherEducation/Account</a>  
+First included in: higherEducation/Account (this entity)  
 
 #### Properties
 
@@ -7204,7 +7204,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#externalSourceSystem_display name="externalSourceSystem_display">externalSourceSystem_display</a>
 
-First included in: <a href="Account.md" target="_blank">higherEducation/Account</a>  
+First included in: higherEducation/Account (this entity)  
 
 #### Properties
 
@@ -7228,7 +7228,7 @@ First included in: <a href="Account.md" target="_blank">higherEducation/Account<
 ### <a href=#numberofContacts name="numberofContacts">numberofContacts</a>
 
 Rollup count of number of associated Contacts where this is their Associated Campus.  
-First included in: <a href="Account.md" target="_blank">higherEducation/Account</a>  
+First included in: higherEducation/Account (this entity)  
 
 #### Properties
 

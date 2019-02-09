@@ -8730,7 +8730,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contactType name="contactType">contactType</a>
 
 Type of contact  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8773,7 +8773,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contactType_display name="contactType_display">contactType_display</a>
 
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8798,7 +8798,7 @@ First included in: <a href="Contact.md" target="_blank">higherEducation/Contact<
 ### <a href=#countryofBirth name="countryofBirth">countryofBirth</a>
 
 Country of birth for the contact.  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8838,7 +8838,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#countryofBirth_display name="countryofBirth_display">countryofBirth_display</a>
 
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8862,7 +8862,7 @@ First included in: <a href="Contact.md" target="_blank">higherEducation/Contact<
 ### <a href=#currentAcademicPeriodId name="currentAcademicPeriodId">currentAcademicPeriodId</a>
 
 Current academic period enrolled, if any, for the contact.  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8907,7 +8907,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#currentProgramId name="currentProgramId">currentProgramId</a>
 
 Current program for the contact.  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8952,7 +8952,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#currentProgramLevelId name="currentProgramLevelId">currentProgramLevelId</a>
 
 Current program level associated to the program for the contact.  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -8997,7 +8997,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#ethnicGroup name="ethnicGroup">ethnicGroup</a>
 
 Ethnic group for the contact.  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9037,7 +9037,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ethnicGroup_display name="ethnicGroup_display">ethnicGroup_display</a>
 
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9061,7 +9061,7 @@ First included in: <a href="Contact.md" target="_blank">higherEducation/Contact<
 ### <a href=#externalIdentifier name="externalIdentifier">externalIdentifier</a>
 
 External Identifier  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9101,7 +9101,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#externalSourceSystem name="externalSourceSystem">externalSourceSystem</a>
 
 External Source System  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9141,7 +9141,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#externalSourceSystem_display name="externalSourceSystem_display">externalSourceSystem_display</a>
 
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9165,7 +9165,7 @@ First included in: <a href="Contact.md" target="_blank">higherEducation/Contact<
 ### <a href=#FERPAPrivacy name="FERPAPrivacy">FERPAPrivacy</a>
 
 Indicates if the Contact has elected to withhold directory information pursuant to FERPA (USA Federal Education Rights and Privacy Act).  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9200,7 +9200,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#firstGeneration name="firstGeneration">firstGeneration</a>
 
 Indicates if contact is a first generation student.  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9235,7 +9235,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#HIPAAIndicator name="HIPAAIndicator">HIPAAIndicator</a>
 
 Indicates if the Contact record includes information such as disability services requests that are protected by HIPAA (USA Health Insurance Portability and Accountability Act standards).  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9270,7 +9270,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isDeceased name="isDeceased">isDeceased</a>
 
 If updated to YES, will deactivate Contact as deceased and change all marketing preferences to "Do Not Allow"  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9305,7 +9305,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastPermanentResidenceCountry name="lastPermanentResidenceCountry">lastPermanentResidenceCountry</a>
 
 Last country of permanent residence for the contact.  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9345,7 +9345,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#lastPermanentResidenceCountry_display name="lastPermanentResidenceCountry_display">lastPermanentResidenceCountry_display</a>
 
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9369,7 +9369,7 @@ First included in: <a href="Contact.md" target="_blank">higherEducation/Contact<
 ### <a href=#legacy name="legacy">legacy</a>
 
 Identifies a Contact that is part of a legacy of contacts  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9404,7 +9404,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#maidenName name="maidenName">maidenName</a>
 
 Maiden Name  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9445,7 +9445,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#manualRiskScore name="manualRiskScore">manualRiskScore</a>
 
 Manual Risk Score  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9485,7 +9485,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#miltaryStatus name="miltaryStatus">miltaryStatus</a>
 
 Indicates the military service record for the contact.  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9525,7 +9525,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#miltaryStatus_display name="miltaryStatus_display">miltaryStatus_display</a>
 
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9549,7 +9549,7 @@ First included in: <a href="Contact.md" target="_blank">higherEducation/Contact<
 ### <a href=#nationalIdentifier name="nationalIdentifier">nationalIdentifier</a>
 
 Unique Identifier or Student SSN  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9589,7 +9589,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#nationality name="nationality">nationality</a>
 
 Country of nationality for the contact.  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9629,7 +9629,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#nationality_display name="nationality_display">nationality_display</a>
 
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9653,7 +9653,7 @@ First included in: <a href="Contact.md" target="_blank">higherEducation/Contact<
 ### <a href=#race name="race">race</a>
 
 Race of the contact  
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9693,7 +9693,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#race_display name="race_display">race_display</a>
 
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
@@ -9716,7 +9716,7 @@ First included in: <a href="Contact.md" target="_blank">higherEducation/Contact<
 
 ### <a href=#studentStatusId name="studentStatusId">studentStatusId</a>
 
-First included in: <a href="Contact.md" target="_blank">higherEducation/Contact</a>  
+First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 

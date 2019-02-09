@@ -1191,7 +1191,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Shows the object that the property is associated with.  
-First included in: <a href="PropertyInstance.md" target="_blank">sales/PropertyInstance</a>  
+First included in: sales/PropertyInstance (this entity)  
 
 #### Properties
 

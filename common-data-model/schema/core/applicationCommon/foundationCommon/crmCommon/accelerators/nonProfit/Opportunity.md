@@ -4848,7 +4848,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#askReadiness name="askReadiness">askReadiness</a>
 
 Disposition of constituent toward committing to determined Pledge ask amount.  
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -4888,7 +4888,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#askReadiness_display name="askReadiness_display">askReadiness_display</a>
 
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -4912,7 +4912,7 @@ First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunit
 ### <a href=#expectedGivingAmount name="expectedGivingAmount">expectedGivingAmount</a>
 
 Populated by trigger, displays the sum of all Expected Giving Amounts.  
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -4953,7 +4953,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedgivingamountBase name="expectedgivingamountBase">expectedgivingamountBase</a>
 
 Value of the Expected Giving Amount in base currency.  
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -4997,7 +4997,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#opportunityDefaultDesignationId name="opportunityDefaultDesignationId">opportunityDefaultDesignationId</a>
 
 Default Designation  
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -5042,7 +5042,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#primaryProposalId name="primaryProposalId">primaryProposalId</a>
 
 Primary Proposal  
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -5086,7 +5086,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#prospectiveGiftType name="prospectiveGiftType">prospectiveGiftType</a>
 
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -5123,7 +5123,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#prospectiveGiftType_display name="prospectiveGiftType_display">prospectiveGiftType_display</a>
 
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -5147,7 +5147,7 @@ First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunit
 ### <a href=#solicitationType name="solicitationType">solicitationType</a>
 
 Giving Type being solicited (Renewal, Additional, etc) or communication medium to donor (TV, Radio, Raffle, etc). This value is copied from associated Campaign at gift creation, and can be manually changed if necessary.  
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -5187,7 +5187,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#solicitationType_display name="solicitationType_display">solicitationType_display</a>
 
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 
@@ -5211,7 +5211,7 @@ First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunit
 ### <a href=#sourceCode name="sourceCode">sourceCode</a>
 
 Organization defined unique code for associated Campaign. This value is copied from associated Campaign at gift creation.  
-First included in: <a href="Opportunity.md" target="_blank">nonProfit/Opportunity</a>  
+First included in: nonProfit/Opportunity (this entity)  
 
 #### Properties
 

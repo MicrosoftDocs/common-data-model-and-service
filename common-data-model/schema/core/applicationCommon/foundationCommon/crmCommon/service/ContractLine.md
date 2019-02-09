@@ -113,7 +113,7 @@ service/ContractLine
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -152,7 +152,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -287,7 +287,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -383,7 +383,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -496,7 +496,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -541,7 +541,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -586,7 +586,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -634,7 +634,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -679,7 +679,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -717,7 +717,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -755,7 +755,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -792,7 +792,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#contractDetailId name="contractDetailId">contractDetailId</a>
 
 Unique identifier of the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -831,7 +831,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#title name="title">title</a>
 
 Type a title or name that describes the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -871,7 +871,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#activeOn name="activeOn">activeOn</a>
 
 Enter the date when the contract line becomes active.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -906,7 +906,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#allotmentsOverage name="allotmentsOverage">allotmentsOverage</a>
 
 Shows the number of minutes over the Total Allotments field that have been spent on resolved cases related to the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -944,7 +944,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#allotmentsRemaining name="allotmentsRemaining">allotmentsRemaining</a>
 
 Shows the number of cases or minutes remaining, based on the resolved cases logged to the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -982,7 +982,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#allotmentsUsed name="allotmentsUsed">allotmentsUsed</a>
 
 Shows the number of cases or minutes used in the resolved cases on the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1020,7 +1020,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contractId name="contractId">contractId</a>
 
 Unique identifier of the contract associated with the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1062,7 +1062,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contractStateCode name="contractStateCode">contractStateCode</a>
 
 Status of the contract.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1099,7 +1099,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contractStateCode_display name="contractStateCode_display">contractStateCode_display</a>
 
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1123,7 +1123,7 @@ First included in: <a href="ContractLine.md" target="_blank">service/ContractLin
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1159,7 +1159,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1204,7 +1204,7 @@ contains an Account or Contact ID
 ### <a href=#discount name="discount">discount</a>
 
 Type the discount amount for the contract line to deduct any negotiated or other savings from the net amount due.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1245,7 +1245,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1290,7 +1290,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1330,7 +1330,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountBase name="discountBase">discountBase</a>
 
 Value of the Discount in base currency.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1374,7 +1374,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#discountPercentage name="discountPercentage">discountPercentage</a>
 
 Type the discount rate that should be applied to the Total Price, for use in calculating the net amount due for the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1414,7 +1414,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#effectivityCalendar name="effectivityCalendar">effectivityCalendar</a>
 
 Days of the week and times for which the contract line item is effective.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1454,7 +1454,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expiresOn name="expiresOn">expiresOn</a>
 
 Enter the date when the contract line expires. The date is automatically filled with the contract date, but you can change it if required.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1489,7 +1489,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#initialQuantity name="initialQuantity">initialQuantity</a>
 
 Type the number of units of the specified product or service that are eligible for support on the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1527,7 +1527,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lineItemOrder name="lineItemOrder">lineItemOrder</a>
 
 Type the line item number for the contract line to easily identify the contract line and make sure it's listed in the correct order in the parent contract.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1565,7 +1565,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#net name="net">net</a>
 
 Shows the total charge to the customer for the contract line, calculated as the Total Price minus any discounts.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1606,7 +1606,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#netBase name="netBase">netBase</a>
 
 Value of the Net in base currency.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1650,7 +1650,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#price name="price">price</a>
 
 Type the total service charge for the contract line before any discounts are credited.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1688,7 +1688,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#priceBase name="priceBase">priceBase</a>
 
 Value of the Total Price in base currency.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1732,7 +1732,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#productId name="productId">productId</a>
 
 Choose the product that is eligible for services on the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1777,7 +1777,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#productSerialNumber name="productSerialNumber">productSerialNumber</a>
 
 Type the serial number for the product that is eligible for services on the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1817,7 +1817,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rate name="rate">rate</a>
 
 Shows the cost per case or minute, calculated by dividing the Total Price value by the total number of cases or minutes allocated to the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1858,7 +1858,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#rateBase name="rateBase">rateBase</a>
 
 Value of the Rate in base currency.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1902,7 +1902,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#serviceAddress name="serviceAddress">serviceAddress</a>
 
 Choose the address for the customer account or contact where the services are provided.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1947,7 +1947,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#serviceContractUnitsCode name="serviceContractUnitsCode">serviceContractUnitsCode</a>
 
 Select the unit type allotted in the contract line, such as cases or minutes, to determine the level of support.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -1987,7 +1987,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#serviceContractUnitsCode_display name="serviceContractUnitsCode_display">serviceContractUnitsCode_display</a>
 
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -2011,7 +2011,7 @@ First included in: <a href="ContractLine.md" target="_blank">service/ContractLin
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the contract line is existing, renewed, canceled, or expired. You can't edit a contract line after it is saved, regardless of the status.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -2051,7 +2051,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -2075,7 +2075,7 @@ First included in: <a href="ContractLine.md" target="_blank">service/ContractLin
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the contract line's status.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -2118,7 +2118,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -2142,7 +2142,7 @@ First included in: <a href="ContractLine.md" target="_blank">service/ContractLin
 ### <a href=#totalAllotments name="totalAllotments">totalAllotments</a>
 
 Type the total number of minutes or cases allowed for the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -2177,7 +2177,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#uoMId name="uoMId">uoMId</a>
 
 Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -2222,7 +2222,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#uoMScheduleId name="uoMScheduleId">uoMScheduleId</a>
 
 Unique identifier of the unit group associated with the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -2267,7 +2267,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account with which the contract is associated.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 
@@ -2309,7 +2309,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier for the contact associated with the contract line.  
-First included in: <a href="ContractLine.md" target="_blank">service/ContractLine</a>  
+First included in: service/ContractLine (this entity)  
 
 #### Properties
 

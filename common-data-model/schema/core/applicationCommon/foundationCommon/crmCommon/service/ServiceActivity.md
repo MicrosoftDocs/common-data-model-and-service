@@ -136,7 +136,7 @@ service/ServiceActivity
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -175,7 +175,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -223,7 +223,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -262,7 +262,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -310,7 +310,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -358,7 +358,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -406,7 +406,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -445,7 +445,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -480,7 +480,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -519,7 +519,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -657,7 +657,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -702,7 +702,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -778,7 +778,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -815,7 +815,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#activityTypeCode name="activityTypeCode">activityTypeCode</a>
 
 Type of activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -854,7 +854,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -893,7 +893,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isBilled name="isBilled">isBilled</a>
 
 Information regarding whether the fax activity was billed as part of resolving a case.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -925,7 +925,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isRegularActivity name="isRegularActivity">isRegularActivity</a>
 
 Information regarding whether the activity is a regular activity type or event type.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -954,7 +954,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#isWorkflowCreated name="isWorkflowCreated">isWorkflowCreated</a>
 
 Information regarding whether the activity was created from a workflow rule.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -986,7 +986,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Priority of the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1023,7 +1023,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1047,7 +1047,7 @@ First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceA
 ### <a href=#regardingObjectTypeCode name="regardingObjectTypeCode">regardingObjectTypeCode</a>
 
 The name of the entity linked by regardingObjectId  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1080,7 +1080,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Unique identifier of the object with which the activity is associated.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1122,7 +1122,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1157,7 +1157,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1192,7 +1192,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#sortDate name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1230,7 +1230,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1267,7 +1267,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#scheduledDurationMinutes name="scheduledDurationMinutes">scheduledDurationMinutes</a>
 
 Scheduled duration of the activity, specified in minutes.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1303,7 +1303,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualDurationMinutes name="actualDurationMinutes">actualDurationMinutes</a>
 
 Actual duration of the activity in minutes.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1339,7 +1339,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualEnd name="actualEnd">actualEnd</a>
 
 Actual end time of the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1375,7 +1375,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#actualStart name="actualStart">actualStart</a>
 
 Actual start time of the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1411,7 +1411,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#category name="category">category</a>
 
 Type a category to identify the activity type, such as lead outreach, customer follow-up, or service alert, to tie the eactivity to a business group or function.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1449,7 +1449,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#subcategory name="subcategory">subcategory</a>
 
 Type a subcategory to identify the activity type and relate the activity to a specific product, sales region, business group, or other function.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1486,7 +1486,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#activityAdditionalParams name="activityAdditionalParams">activityAdditionalParams</a>
 
 Additional information provided by the external application as JSON. For internal use only.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1524,7 +1524,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#to name="to">to</a>
 
 Enter the account, contact, lead, or user recipients of the phone call.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1565,7 +1565,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#from name="from">from</a>
 
 Enter the account, contact, lead, or user who made the phone call.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1606,7 +1606,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#instanceTypeCode name="instanceTypeCode">instanceTypeCode</a>
 
 Type of instance of a recurring series.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1640,7 +1640,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#instanceTypeCode_display name="instanceTypeCode_display">instanceTypeCode_display</a>
 
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1664,7 +1664,7 @@ First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceA
 ### <a href=#isMapiPrivate name="isMapiPrivate">isMapiPrivate</a>
 
 For internal use only.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1696,7 +1696,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#organizer name="organizer">organizer</a>
 
 The user who is in charge of coordinating or leading the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1737,7 +1737,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#requiredAttendees name="requiredAttendees">requiredAttendees</a>
 
 Enter the account, contact, lead, user, or other equipment resources that are required to attend the appointment.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1778,7 +1778,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#optionalAttendees name="optionalAttendees">optionalAttendees</a>
 
 Enter the account, contact, lead, user, or other equipment resources that are not needed at the appointment, but can optionally attend.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1819,7 +1819,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#seriesId name="seriesId">seriesId</a>
 
 Uniqueidentifier specifying the id of recurring series of an instance.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1854,7 +1854,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#BCC name="BCC">BCC</a>
 
 Enter the recipients that are included on the activity distribution, but are not displayed to other recipients.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1895,7 +1895,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#CC name="CC">CC</a>
 
 Enter the recipients that should be copied on the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1936,7 +1936,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#sentOn name="sentOn">sentOn</a>
 
 Date and time when the activity was sent.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -1971,7 +1971,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#senderMailboxId name="senderMailboxId">senderMailboxId</a>
 
 Unique identifier of the mailbox associated with the sender of the email message.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2010,7 +2010,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#deliveryPriorityCode name="deliveryPriorityCode">deliveryPriorityCode</a>
 
 Priority of delivery of the activity to the email server.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2047,7 +2047,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#deliveryPriorityCode_display name="deliveryPriorityCode_display">deliveryPriorityCode_display</a>
 
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2071,7 +2071,7 @@ First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceA
 ### <a href=#resources name="resources">resources</a>
 
 Users or facility/equipment that are required for the activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2112,7 +2112,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#community name="community">community</a>
 
 Shows how contact about the activity originated, such as from Twitter or Facebook. This field is read-only.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2149,7 +2149,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#community_display name="community_display">community_display</a>
 
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2173,7 +2173,7 @@ First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceA
 ### <a href=#leftVoiceMail name="leftVoiceMail">leftVoiceMail</a>
 
 Left the voice mail  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2205,7 +2205,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#deliveryLastAttemptedOn name="deliveryLastAttemptedOn">deliveryLastAttemptedOn</a>
 
 Date and time when the delivery of the activity was last attempted.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2240,7 +2240,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#exchangeItemId name="exchangeItemId">exchangeItemId</a>
 
 The message id of activity which is returned from Exchange Server.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2277,7 +2277,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeWebLink name="exchangeWebLink">exchangeWebLink</a>
 
 Shows the web link of Activity of type email.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2315,7 +2315,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#postponeActivityProcessingUntil name="postponeActivityProcessingUntil">postponeActivityProcessingUntil</a>
 
 For internal use only.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2350,7 +2350,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#customers name="customers">customers</a>
 
 Customer with which the activity is associated.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2391,7 +2391,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#partners name="partners">partners</a>
 
 Outsource vendor with which activity is associated.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2432,7 +2432,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the service activity, such as key talking points or objectives.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2472,7 +2472,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2512,7 +2512,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2550,7 +2550,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2588,7 +2588,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Unique identifier of the Process.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2626,7 +2626,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Choose the service scheduled to be performed during the service activity.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2671,7 +2671,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the service appointment record.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2716,7 +2716,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this email. This field is for internal use only.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2761,7 +2761,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stageId name="stageId">stageId</a>
 
 Unique identifier of the Stage.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2799,7 +2799,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the service activity is open, completed, or canceled. Completed and canceled service activities are read-only and can't be edited.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2839,7 +2839,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2863,7 +2863,7 @@ First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceA
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the service activity's status.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2906,7 +2906,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2930,7 +2930,7 @@ First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceA
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -2975,7 +2975,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -3015,7 +3015,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isAllDayEvent name="isAllDayEvent">isAllDayEvent</a>
 
 Select whether the service activity is an all-day event to make sure the required resources are scheduled for the full day.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -3050,7 +3050,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#location name="location">location</a>
 
 Type the location where the service activity will take place, such as a conference room, customer office, or other venue.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 
@@ -3090,7 +3090,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#siteId name="siteId">siteId</a>
 
 Choose the site or location where the service activity will be performed.  
-First included in: <a href="ServiceActivity.md" target="_blank">service/ServiceActivity</a>  
+First included in: service/ServiceActivity (this entity)  
 
 #### Properties
 

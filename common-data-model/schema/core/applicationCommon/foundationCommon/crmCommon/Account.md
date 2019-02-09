@@ -6591,7 +6591,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#originatingLeadId name="originatingLeadId">originatingLeadId</a>
 
 Shows the lead that the account was created from if the account was created by converting a lead in Microsoft Dynamics 365. This is used to relate the account to data on the originating lead for use in reporting and analytics.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -6636,7 +6636,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#preferredEquipmentId name="preferredEquipmentId">preferredEquipmentId</a>
 
 Choose the account's preferred service facility or equipment to make sure services are scheduled correctly for the customer.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -6681,7 +6681,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#preferredServiceId name="preferredServiceId">preferredServiceId</a>
 
 Choose the account's preferred service for reference when you schedule service activities.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -6726,7 +6726,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#territoryId name="territoryId">territoryId</a>
 
 Choose the sales region or territory for the account to make sure the account is assigned to the correct representative and for use in segmentation and analysis.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -6771,7 +6771,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#openDeals name="openDeals">openDeals</a>
 
 Number of open opportunities against an account and its child accounts.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -6809,7 +6809,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#openDealsDate name="openDealsDate">openDealsDate</a>
 
 Last Updated time of rollup field Open Deals.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -6850,7 +6850,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#openDealsState name="openDealsState">openDealsState</a>
 
 State of rollup field Open Deals.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -6891,7 +6891,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#openRevenue name="openRevenue">openRevenue</a>
 
 Sum of open revenue against an account and its child accounts.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -6932,7 +6932,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#openRevenueBase name="openRevenueBase">openRevenueBase</a>
 
 Value of the Open Revenue in base currency.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -6976,7 +6976,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#openRevenueDate name="openRevenueDate">openRevenueDate</a>
 
 Last Updated time of rollup field Open Revenue.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 
@@ -7017,7 +7017,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#openRevenueState name="openRevenueState">openRevenueState</a>
 
 State of rollup field Open Revenue.  
-First included in: <a href="Account.md" target="_blank">crmCommon/Account</a>  
+First included in: crmCommon/Account (this entity)  
 
 #### Properties
 

@@ -6624,7 +6624,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#applicationDeadline name="applicationDeadline">applicationDeadline</a>
 
 Deadline to submit application.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6661,7 +6661,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deliveryFramework name="deliveryFramework">deliveryFramework</a>
 
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6703,7 +6703,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#expectedAmountRequested name="expectedAmountRequested">expectedAmountRequested</a>
 
 Amount requested by the Grant Seeker.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6744,7 +6744,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedamountrequestedBase name="expectedamountrequestedBase">expectedamountrequestedBase</a>
 
 Value of the Expected Amount Requested in base currency.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6788,7 +6788,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedDuration name="expectedDuration">expectedDuration</a>
 
 Expected duration of the Grant in months.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6826,7 +6826,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#expectedStartDate name="expectedStartDate">expectedStartDate</a>
 
 Expected start date of the Grant.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6864,7 +6864,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isRenewal name="isRenewal">isRenewal</a>
 
 Indicates if this is a renewal Grant.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6899,7 +6899,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#leadDocketId name="leadDocketId">leadDocketId</a>
 
 Docket  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6944,7 +6944,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#letterofIntentDeadline name="letterofIntentDeadline">letterofIntentDeadline</a>
 
 Deadline to submit notification to donor that organization will be competing for this grant.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -6982,7 +6982,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizationalBudget name="organizationalBudget">organizationalBudget</a>
 
 Total budget of the Organization.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7023,7 +7023,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationalbudgetBase name="organizationalbudgetBase">organizationalbudgetBase</a>
 
 Value of the Organization Budget in base currency.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7067,7 +7067,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#organizationType name="organizationType">organizationType</a>
 
 Type of Account.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7107,7 +7107,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#organizationType_display name="organizationType_display">organizationType_display</a>
 
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7131,7 +7131,7 @@ First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>
 ### <a href=#requestType name="requestType">requestType</a>
 
 Indicates the type of Inquiry/LOI/Lead.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7171,7 +7171,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#requestType_display name="requestType_display">requestType_display</a>
 
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7195,7 +7195,7 @@ First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>
 ### <a href=#totalProjectBudget name="totalProjectBudget">totalProjectBudget</a>
 
 Budget defined by the Grant Seeker.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 
@@ -7236,7 +7236,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalprojectbudgetBase name="totalprojectbudgetBase">totalprojectbudgetBase</a>
 
 Value of the Total Project Budget in base currency.  
-First included in: <a href="Lead.md" target="_blank">nonProfit/Lead</a>  
+First included in: nonProfit/Lead (this entity)  
 
 #### Properties
 

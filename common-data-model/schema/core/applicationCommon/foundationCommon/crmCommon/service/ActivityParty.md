@@ -877,7 +877,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#resourceSpecId name="resourceSpecId">resourceSpecId</a>
 
 Unique identifier of the resource specification for the activity party.  
-First included in: <a href="ActivityParty.md" target="_blank">service/ActivityParty</a>  
+First included in: service/ActivityParty (this entity)  
 
 #### Properties
 

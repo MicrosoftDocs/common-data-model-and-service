@@ -4839,7 +4839,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#partnerid name="partnerid">partnerid</a>
 
 Unique identifier for Account associated with Opportunity.  
-First included in: <a href="Opportunity.md" target="_blank">portals/Opportunity</a>  
+First included in: portals/Opportunity (this entity)  
 
 #### Properties
 
@@ -4884,7 +4884,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#partnerContact name="partnerContact">partnerContact</a>
 
 Unique identifier for Contact associated with Opportunity.  
-First included in: <a href="Opportunity.md" target="_blank">portals/Opportunity</a>  
+First included in: portals/Opportunity (this entity)  
 
 #### Properties
 

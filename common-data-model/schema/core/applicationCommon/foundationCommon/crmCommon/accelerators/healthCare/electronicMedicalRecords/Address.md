@@ -2028,7 +2028,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#endDate name="endDate">endDate</a>
 
-First included in: <a href="Address.md" target="_blank">electronicMedicalRecords/Address</a>  
+First included in: electronicMedicalRecords/Address (this entity)  
 
 #### Properties
 
@@ -2062,7 +2062,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#startDate name="startDate">startDate</a>
 
-First included in: <a href="Address.md" target="_blank">electronicMedicalRecords/Address</a>  
+First included in: electronicMedicalRecords/Address (this entity)  
 
 #### Properties
 

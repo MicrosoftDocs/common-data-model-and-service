@@ -108,7 +108,7 @@ electronicMedicalRecords/Location
 ### <a href=#locationId name="locationId">locationId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -147,7 +147,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -186,7 +186,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -231,7 +231,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -270,7 +270,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who modified the record.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -360,7 +360,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -405,7 +405,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -450,7 +450,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Location  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -490,7 +490,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -514,7 +514,7 @@ First included in: <a href="Location.md" target="_blank">electronicMedicalRecord
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Location  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -581,7 +581,7 @@ First included in: <a href="Location.md" target="_blank">electronicMedicalRecord
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -617,7 +617,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -655,7 +655,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -694,7 +694,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -732,7 +732,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -770,7 +770,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -811,7 +811,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressCity name="addressCity">addressCity</a>
 
 The name of the city, town, village or other community or delivery center.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -851,7 +851,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressCountry name="addressCountry">addressCountry</a>
 
 Country - a nation as commonly understood or generally accepted.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -891,7 +891,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressDistinct name="addressDistinct">addressDistinct</a>
 
 The name of the administrative area (county).  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -931,7 +931,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressLine1 name="addressLine1">addressLine1</a>
 
 This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -971,7 +971,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressLine2 name="addressLine2">addressLine2</a>
 
 This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1011,7 +1011,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressLine3 name="addressLine3">addressLine3</a>
 
 This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1051,7 +1051,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressPeriodEnd name="addressPeriodEnd">addressPeriodEnd</a>
 
 Time period when address was/is in use.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1089,7 +1089,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#addressPeriodStart name="addressPeriodStart">addressPeriodStart</a>
 
 Time period when address was/is in use.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1127,7 +1127,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#addressPostalCode name="addressPostalCode">addressPostalCode</a>
 
 A postal code designating a region defined by the postal service.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1167,7 +1167,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressState name="addressState">addressState</a>
 
 Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (i.e. US 2 letter state codes).  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1207,7 +1207,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressText name="addressText">addressText</a>
 
 A full text representation of the address.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1247,7 +1247,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#addressType name="addressType">addressType</a>
 
 Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1287,7 +1287,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#addressType_display name="addressType_display">addressType_display</a>
 
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1311,7 +1311,7 @@ First included in: <a href="Location.md" target="_blank">electronicMedicalRecord
 ### <a href=#addressUse name="addressUse">addressUse</a>
 
 The purpose of this address.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1351,7 +1351,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#addressUse_display name="addressUse_display">addressUse_display</a>
 
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1375,7 +1375,7 @@ First included in: <a href="Location.md" target="_blank">electronicMedicalRecord
 ### <a href=#description name="description">description</a>
 
 Description of the Location, which helps in finding or referencing the place.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1415,7 +1415,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#locationAlias1 name="locationAlias1">locationAlias1</a>
 
 A list of alternate names that the location is known as, or was known as in the past.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1455,7 +1455,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#locationAlias2 name="locationAlias2">locationAlias2</a>
 
 A list of alternate names that the location is known as, or was known as in the past.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1495,7 +1495,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#locationAlias3 name="locationAlias3">locationAlias3</a>
 
 A list of alternate names that the location is known as, or was known as in the past.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1535,7 +1535,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#locationNumber name="locationNumber">locationNumber</a>
 
 Unique code or number identifying the location to its users.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1575,7 +1575,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#locationPositionAltitude name="locationPositionAltitude">locationPositionAltitude</a>
 
 Altitude. The value domain and the interpretation are the same as for the text of the altitude element in KML (see notes below)  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1615,7 +1615,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#locationPositionLatitude name="locationPositionLatitude">locationPositionLatitude</a>
 
 Latitude. The value domain and the interpretation are the same as for the text of the latitude element in KML  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1655,7 +1655,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#locationPositionLongitude name="locationPositionLongitude">locationPositionLongitude</a>
 
 Longitude. The value domain and the interpretation are the same as for the text of the longitude element in KML  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1695,7 +1695,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#managingOrganization name="managingOrganization">managingOrganization</a>
 
 The organization responsible for the provisioning and upkeep of the location.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1740,7 +1740,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#mode name="mode">mode</a>
 
 Indicates whether a resource instance represents a specific location or a class of locations.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1780,7 +1780,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#mode_display name="mode_display">mode_display</a>
 
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1804,7 +1804,7 @@ First included in: <a href="Location.md" target="_blank">electronicMedicalRecord
 ### <a href=#operationalStatus name="operationalStatus">operationalStatus</a>
 
 The Operational status covers operation values most relevant to beds (but can also apply to rooms/units/chair/etc such as an isolation unit/dialysis chair).  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1844,7 +1844,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#operationalStatus_display name="operationalStatus_display">operationalStatus_display</a>
 
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1868,7 +1868,7 @@ First included in: <a href="Location.md" target="_blank">electronicMedicalRecord
 ### <a href=#partOf name="partOf">partOf</a>
 
 Another Location which this Location is physically part of.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1913,7 +1913,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#physicalType name="physicalType">physicalType</a>
 
 Physical form of the location, e.g. building, room, vehicle, road.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1958,7 +1958,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#status name="status">status</a>
 
 The status property covers the general availability of the resource, not the current value which may be covered by the operationStatus, or by a schedule/slots if they are configured for the location.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -1998,7 +1998,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#status_display name="status_display">status_display</a>
 
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 
@@ -2022,7 +2022,7 @@ First included in: <a href="Location.md" target="_blank">electronicMedicalRecord
 ### <a href=#type name="type">type</a>
 
 Indicates the type of function performed at the location.  
-First included in: <a href="Location.md" target="_blank">electronicMedicalRecords/Location</a>  
+First included in: electronicMedicalRecords/Location (this entity)  
 
 #### Properties
 

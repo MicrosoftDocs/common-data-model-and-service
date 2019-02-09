@@ -5407,7 +5407,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#siteId name="siteId">siteId</a>
 
 Site at which the user is located.  
-First included in: <a href="User.md" target="_blank">service/User</a>  
+First included in: service/User (this entity)  
 
 #### Properties
 

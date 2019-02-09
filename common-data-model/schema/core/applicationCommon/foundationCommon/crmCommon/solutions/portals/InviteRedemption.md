@@ -129,7 +129,7 @@ portals/InviteRedemption
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -168,7 +168,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -216,7 +216,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -255,7 +255,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -303,7 +303,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -351,7 +351,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -399,7 +399,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -438,7 +438,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -473,7 +473,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -512,7 +512,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -602,7 +602,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -650,7 +650,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -695,7 +695,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -733,7 +733,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -771,7 +771,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -808,7 +808,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#actualEnd name="actualEnd">actualEnd</a>
 
 Enter the actual end time of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -846,7 +846,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#activityId name="activityId">activityId</a>
 
 Shows the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -888,7 +888,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#isBilled name="isBilled">isBilled</a>
 
 Shows whether the activity was billed as part of resolving a case.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -923,7 +923,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#description name="description">description</a>
 
 Description of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -963,7 +963,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#activityTypeCode name="activityTypeCode">activityTypeCode</a>
 
 Shows the type of activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1000,7 +1000,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#activityTypeCode_display name="activityTypeCode_display">activityTypeCode_display</a>
 
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1024,7 +1024,7 @@ First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteR
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1064,7 +1064,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1088,7 +1088,7 @@ First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteR
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Enter the scheduled end time of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1126,7 +1126,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledDurationMinutes name="scheduledDurationMinutes">scheduledDurationMinutes</a>
 
 Enter the scheduled duration of the activity, in minutes.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1165,7 +1165,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#actualDurationMinutes name="actualDurationMinutes">actualDurationMinutes</a>
 
 Enter the actual duration of the activity in minutes.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1204,7 +1204,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the activity's status.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1247,7 +1247,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1271,7 +1271,7 @@ First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteR
 ### <a href=#actualStart name="actualStart">actualStart</a>
 
 Enter the actual start time of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1309,7 +1309,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Shows the priority of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1349,7 +1349,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1373,7 +1373,7 @@ First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteR
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Unique identifier of the object with which the activity is associated.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1418,7 +1418,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1458,7 +1458,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isWorkflowCreated name="isWorkflowCreated">isWorkflowCreated</a>
 
 Shows whether the activity was created from a workflow rule.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1493,7 +1493,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Enter the scheduled end time of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1531,7 +1531,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#instanceTypeCode name="instanceTypeCode">instanceTypeCode</a>
 
 Shows the type of instance of a recurring series.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1568,7 +1568,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#instanceTypeCode_display name="instanceTypeCode_display">instanceTypeCode_display</a>
 
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1592,7 +1592,7 @@ First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteR
 ### <a href=#seriesId name="seriesId">seriesId</a>
 
 Shows the ID of the recurring series of an instance.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1630,7 +1630,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isRegularActivity name="isRegularActivity">isRegularActivity</a>
 
 Shows whether the activity is a regular activity type or event type.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1662,7 +1662,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the activitypointer.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1707,7 +1707,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the activitypointer with respect to the base currency.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1747,7 +1747,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#leftVoiceMail name="leftVoiceMail">leftVoiceMail</a>
 
 Select if the voice mail was left.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1782,7 +1782,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#community name="community">community</a>
 
 Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1822,7 +1822,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#community_display name="community_display">community_display</a>
 
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1846,7 +1846,7 @@ First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteR
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 For internal use only.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1886,7 +1886,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#isMapiPrivate name="isMapiPrivate">isMapiPrivate</a>
 
 For internal use only.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1921,7 +1921,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeWebLink name="exchangeWebLink">exchangeWebLink</a>
 
 Shows the web link of Activity of type email.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -1961,7 +1961,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#exchangeItemId name="exchangeItemId">exchangeItemId</a>
 
 The message id of activity which is returned from Exchange Server.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2001,7 +2001,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#deliveryPriorityCode name="deliveryPriorityCode">deliveryPriorityCode</a>
 
 Shows the priority of delivery of the activity to the email server.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2041,7 +2041,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#deliveryPriorityCode_display name="deliveryPriorityCode_display">deliveryPriorityCode_display</a>
 
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2065,7 +2065,7 @@ First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteR
 ### <a href=#sentOn name="sentOn">sentOn</a>
 
 Shows the date and time when the activity was sent.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2103,7 +2103,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#deliveryLastAttemptedOn name="deliveryLastAttemptedOn">deliveryLastAttemptedOn</a>
 
 Shows the date and time when the delivery of the activity was last attempted.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2141,7 +2141,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#senderMailboxId name="senderMailboxId">senderMailboxId</a>
 
 Unique identifier of the mailbox associated with the sender of the email message.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2183,7 +2183,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#postponeActivityProcessingUntil name="postponeActivityProcessingUntil">postponeActivityProcessingUntil</a>
 
 For internal use only.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2221,7 +2221,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#processId name="processId">processId</a>
 
 Shows the process.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2259,7 +2259,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Shows the stage.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2297,7 +2297,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#activityAdditionalParams name="activityAdditionalParams">activityAdditionalParams</a>
 
 Additional information provided by the external application as JSON. For internal use only.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2337,7 +2337,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the case record.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2382,7 +2382,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2427,7 +2427,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows how long, in minutes, that the record was on hold.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2465,7 +2465,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date and time stamp of the last on hold time.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2503,7 +2503,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sortDate name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2541,7 +2541,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier of an associated service.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2586,7 +2586,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#from name="from">from</a>
 
 Enter the person who the activity is from.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2630,7 +2630,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#to name="to">to</a>
 
 Enter the person who is the receiver of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2674,7 +2674,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#CC name="CC">CC</a>
 
 Enter the carbon copy (cc) recipients of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2718,7 +2718,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#BCC name="BCC">BCC</a>
 
 Enter the blind carbon copy (bcc) recipients of the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2762,7 +2762,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#requiredAttendees name="requiredAttendees">requiredAttendees</a>
 
 List of required attendees for the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2806,7 +2806,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#optionalAttendees name="optionalAttendees">optionalAttendees</a>
 
 List of optional attendees for the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2850,7 +2850,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#organizer name="organizer">organizer</a>
 
 Enter the person who organized the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2894,7 +2894,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#resources name="resources">resources</a>
 
 Enter the users or facility/equipment that are required for the activity.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2938,7 +2938,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customers name="customers">customers</a>
 
 Customer with which the activity is associated.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -2982,7 +2982,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#partners name="partners">partners</a>
 
 Shows the outsource vendor who the activity is associated with.  
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 
@@ -3025,7 +3025,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ipAddress name="ipAddress">ipAddress</a>
 
-First included in: <a href="InviteRedemption.md" target="_blank">portals/InviteRedemption</a>  
+First included in: portals/InviteRedemption (this entity)  
 
 #### Properties
 

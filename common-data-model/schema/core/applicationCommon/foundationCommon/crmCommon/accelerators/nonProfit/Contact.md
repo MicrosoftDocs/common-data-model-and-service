@@ -8713,7 +8713,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#age name="age">age</a>
 
 Age auto calculated via formula using Birthdate.  
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -8751,7 +8751,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#birthDay name="birthDay">birthDay</a>
 
 Manually populated contact birth day.  
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -8791,7 +8791,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#birthDay_display name="birthDay_display">birthDay_display</a>
 
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -8815,7 +8815,7 @@ First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>
 ### <a href=#birthMonth name="birthMonth">birthMonth</a>
 
 Manually populated Contact birth month.  
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -8855,7 +8855,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#birthMonth_display name="birthMonth_display">birthMonth_display</a>
 
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -8879,7 +8879,7 @@ First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>
 ### <a href=#birthYear name="birthYear">birthYear</a>
 
 Manually populated Contact birth year.  
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -8917,7 +8917,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ethnicity name="ethnicity">ethnicity</a>
 
 Manually populated field indicating Ethnicity of a Contact.  
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -8957,7 +8957,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#ethnicity_display name="ethnicity_display">ethnicity_display</a>
 
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -8981,7 +8981,7 @@ First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>
 ### <a href=#maidenName name="maidenName">maidenName</a>
 
 Manually populated field indicating Contact's Maiden name.  
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -9022,7 +9022,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#primaryConstituentType name="primaryConstituentType">primaryConstituentType</a>
 
 Subcategory of primary Constituency type rolls up to this field.  
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -9062,7 +9062,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#primaryConstituentType_display name="primaryConstituentType_display">primaryConstituentType_display</a>
 
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 
@@ -9086,7 +9086,7 @@ First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>
 ### <a href=#reportsToId name="reportsToId">reportsToId</a>
 
 Reports To  
-First included in: <a href="Contact.md" target="_blank">nonProfit/Contact</a>  
+First included in: nonProfit/Contact (this entity)  
 
 #### Properties
 

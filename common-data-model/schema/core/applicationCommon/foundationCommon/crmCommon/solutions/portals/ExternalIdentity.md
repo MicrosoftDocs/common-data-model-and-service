@@ -73,7 +73,7 @@ portals/ExternalIdentity
 ### <a href=#externalIdentityId name="externalIdentityId">externalIdentityId</a>
 
 Shows the entity instances.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -112,7 +112,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Shows the date and time when the record was created.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -151,7 +151,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows the user who created the record.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Shows the date and time when the record was modified.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -235,7 +235,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows the user who modified the record.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -280,7 +280,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows the delegate user who created the record.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -325,7 +325,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows the delegate user who modified the record.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Shows the organization.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the external identity is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -455,7 +455,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -479,7 +479,7 @@ First included in: <a href="ExternalIdentity.md" target="_blank">portals/Externa
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the external identity's status.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -546,7 +546,7 @@ First included in: <a href="ExternalIdentity.md" target="_blank">portals/Externa
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -582,7 +582,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Shows the sequence number of the import that created this record.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -620,7 +620,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Shows the date and time that the record was migrated.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -659,7 +659,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -697,7 +697,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Shows the time zone code that was in use when the record was created.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -735,7 +735,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#userName name="userName">userName</a>
 
 Shows the name of the custom entity.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -776,7 +776,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier for Contact associated with External Identity.  
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 
@@ -820,7 +820,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#identityProviderName name="identityProviderName">identityProviderName</a>
 
-First included in: <a href="ExternalIdentity.md" target="_blank">portals/ExternalIdentity</a>  
+First included in: portals/ExternalIdentity (this entity)  
 
 #### Properties
 

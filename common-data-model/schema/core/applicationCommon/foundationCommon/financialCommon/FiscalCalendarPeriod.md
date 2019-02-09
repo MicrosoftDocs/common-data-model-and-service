@@ -60,7 +60,7 @@ financialCommon/FiscalCalendarPeriod
 ### <a href=#fiscalCalendarPeriodId name="fiscalCalendarPeriodId">fiscalCalendarPeriodId</a>
 
 The surrogate key of the record  
-First included in: <a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -88,7 +88,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#fiscalCalendarName name="fiscalCalendarName">fiscalCalendarName</a>
 
 The name of the calendar containing this period  
-First included in: <a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#periodName name="periodName">periodName</a>
 
 The name of the period  
-First included in: <a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -138,7 +138,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#periodOffset name="periodOffset">periodOffset</a>
 
 The number of periods this period is offset from the current period for use in computations such as previous period  
-First included in: <a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#yearName name="yearName">yearName</a>
 
 The name of the year containing the period  
-First included in: <a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -187,7 +187,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#yearOffset name="yearOffset">yearOffset</a>
 
 The number of years this year is offset from the current year for use in computations such as prior year  
-First included in: <a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -210,7 +210,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#quarter name="quarter">quarter</a>
 
 The name of the quarter containing the period  
-First included in: <a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -236,7 +236,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#quarterOffset name="quarterOffset">quarterOffset</a>
 
 The number of quarters this quarter is offset from the current quarter for use in computations such as same quarter previous year  
-First included in: <a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 
@@ -259,7 +259,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 ### <a href=#month name="month">month</a>
 
 The month containing the period.  
-First included in: <a href="FiscalCalendarPeriod.md" target="_blank">financialCommon/FiscalCalendarPeriod</a>  
+First included in: financialCommon/FiscalCalendarPeriod (this entity)  
 
 #### Properties
 

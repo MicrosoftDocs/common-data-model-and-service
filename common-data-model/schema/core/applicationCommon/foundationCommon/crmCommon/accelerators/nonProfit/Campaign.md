@@ -2250,7 +2250,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#appealSegment name="appealSegment">appealSegment</a>
 
 Giving level or operational area the Campaign is soliciting.  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2290,7 +2290,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#appealSegment_display name="appealSegment_display">appealSegment_display</a>
 
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2314,7 +2314,7 @@ First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>
 ### <a href=#aquisitionSource name="aquisitionSource">aquisitionSource</a>
 
 Source of the donors solicited for the campaign  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2354,7 +2354,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#campaignDefaultDesignation name="campaignDefaultDesignation">campaignDefaultDesignation</a>
 
 Unique identifier for Designation associated with Campaign.  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2399,7 +2399,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#campaignCategory name="campaignCategory">campaignCategory</a>
 
 Assigned manually by the organization, this field is used for downstream analytics  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2439,7 +2439,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#campaignCategory_display name="campaignCategory_display">campaignCategory_display</a>
 
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2463,7 +2463,7 @@ First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>
 ### <a href=#campaignType name="campaignType">campaignType</a>
 
 Type of gifts the Campaign is soliciting.  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2503,7 +2503,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#campaignType_display name="campaignType_display">campaignType_display</a>
 
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2527,7 +2527,7 @@ First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>
 ### <a href=#channel name="channel">channel</a>
 
 Method in which the Campaign will be communicated to constituents.  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2567,7 +2567,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#channel_display name="channel_display">channel_display</a>
 
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2591,7 +2591,7 @@ First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>
 ### <a href=#effort name="effort">effort</a>
 
 Number of times correspondence has been sent this Campaign.  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2631,7 +2631,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#effort_display name="effort_display">effort_display</a>
 
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2655,7 +2655,7 @@ First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>
 ### <a href=#firstResponseDate name="firstResponseDate">firstResponseDate</a>
 
 Date the first response was received against the campaign  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2693,7 +2693,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#lastResponseDate name="lastResponseDate">lastResponseDate</a>
 
 Last day a response is received against the campaign  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2731,7 +2731,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sourceCode name="sourceCode">sourceCode</a>
 
 Source Code of Campaign as generated by rules defined in the Source Codes configuration.  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2771,7 +2771,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#startDate name="startDate">startDate</a>
 
 Starting date for the campaign.  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2809,7 +2809,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#subChannel name="subChannel">subChannel</a>
 
 Specific way in which the Channel communication will be carried out.  
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 
@@ -2849,7 +2849,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#subChannel_display name="subChannel_display">subChannel_display</a>
 
-First included in: <a href="Campaign.md" target="_blank">nonProfit/Campaign</a>  
+First included in: nonProfit/Campaign (this entity)  
 
 #### Properties
 

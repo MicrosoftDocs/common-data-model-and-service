@@ -2802,7 +2802,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier for the associated service.  
-First included in: <a href="SocialActivity.md" target="_blank">crmCommon/SocialActivity</a>  
+First included in: crmCommon/SocialActivity (this entity)  
 
 #### Properties
 

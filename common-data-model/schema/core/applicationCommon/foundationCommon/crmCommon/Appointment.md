@@ -2714,7 +2714,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier for an associated service.  
-First included in: <a href="Appointment.md" target="_blank">crmCommon/Appointment</a>  
+First included in: crmCommon/Appointment (this entity)  
 
 #### Properties
 

@@ -153,7 +153,7 @@ service/Case
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -192,7 +192,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -279,7 +279,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -327,7 +327,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -423,7 +423,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -497,7 +497,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -536,7 +536,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -581,7 +581,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -626,7 +626,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -674,7 +674,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -719,7 +719,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -757,7 +757,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -795,7 +795,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -832,7 +832,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#incidentId name="incidentId">incidentId</a>
 
 Unique identifier of the case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -874,7 +874,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#emailAddress name="emailAddress">emailAddress</a>
 
 The primary email address for the entity.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -915,7 +915,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#title name="title">title</a>
 
 Type a subject or descriptive name, such as the request, issue, or company name, to identify the case in Microsoft Dynamics 365 views.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -955,7 +955,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -993,7 +993,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1031,7 +1031,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1071,7 +1071,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#activitiesComplete name="activitiesComplete">activitiesComplete</a>
 
 This attribute is used for Sample Service Business Processes.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1106,7 +1106,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#actualServiceUnits name="actualServiceUnits">actualServiceUnits</a>
 
 Type the number of service units that were actually required to resolve the case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1144,7 +1144,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#billedServiceUnits name="billedServiceUnits">billedServiceUnits</a>
 
 Type the number of service units that were billed to the customer for the case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1182,7 +1182,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#blockedProfile name="blockedProfile">blockedProfile</a>
 
 Details whether the profile is blocked or not.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1217,7 +1217,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#caseOriginCode name="caseOriginCode">caseOriginCode</a>
 
 Select how contact about the case was originated, such as email, phone, or web, for use in reporting and analysis.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1257,7 +1257,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#caseOriginCode_display name="caseOriginCode_display">caseOriginCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1281,7 +1281,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#caseTypeCode name="caseTypeCode">caseTypeCode</a>
 
 Select the type of case to identify the incident for use in case routing and analysis.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1321,7 +1321,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#caseTypeCode_display name="caseTypeCode_display">caseTypeCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1345,7 +1345,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#checkEmail name="checkEmail">checkEmail</a>
 
 This attribute is used for Sample Service Business Processes.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1380,7 +1380,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contractDetailId name="contractDetailId">contractDetailId</a>
 
 Choose the contract line that the case should be logged under to make sure the customer is charged correctly.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1425,7 +1425,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contractId name="contractId">contractId</a>
 
 Choose the service contract that the case should be logged under to make sure the customer is eligible for support services.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1470,7 +1470,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contractServiceLevelCode name="contractServiceLevelCode">contractServiceLevelCode</a>
 
 Select the service level for the case to make sure the case is handled correctly.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1510,7 +1510,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#contractServiceLevelCode_display name="contractServiceLevelCode_display">contractServiceLevelCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1534,7 +1534,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#customerIdType name="customerIdType">customerIdType</a>
 
 The type of customer, either Account or Contact.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1570,7 +1570,7 @@ contains an Account or Contact ID
 ### <a href=#customerId name="customerId">customerId</a>
 
 The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1615,7 +1615,7 @@ contains an Account or Contact ID
 ### <a href=#customerSatisfactionCode name="customerSatisfactionCode">customerSatisfactionCode</a>
 
 Select the customer's level of satisfaction with the handling and resolution of the case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1655,7 +1655,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#customerSatisfactionCode_display name="customerSatisfactionCode_display">customerSatisfactionCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1679,7 +1679,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#description name="description">description</a>
 
 Type additional information to describe the case to assist the service team in reaching a resolution.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1719,7 +1719,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#entitlementId name="entitlementId">entitlementId</a>
 
 Choose the entitlement that is applicable for the case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1764,7 +1764,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#SLAId name="SLAId">SLAId</a>
 
 Choose the service level agreement (SLA) that you want to apply to the case record.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1809,7 +1809,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#firstResponseSLAStatus name="firstResponseSLAStatus">firstResponseSLAStatus</a>
 
 Shows the status of the initial response time for the case according to the terms of the SLA.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1849,7 +1849,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#firstResponseSLAStatus_display name="firstResponseSLAStatus_display">firstResponseSLAStatus_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1873,7 +1873,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#followupBy name="followupBy">followupBy</a>
 
 Enter the date by which a customer service representative has to follow up with the customer on this case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1911,7 +1911,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#followUpTaskCreated name="followUpTaskCreated">followUpTaskCreated</a>
 
 This attribute is used for Sample Service Business Processes.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1946,7 +1946,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#incidentStageCode name="incidentStageCode">incidentStageCode</a>
 
 Select the current stage of the service process for the case to assist service team members when they review or transfer a case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -1986,7 +1986,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#incidentStageCode_display name="incidentStageCode_display">incidentStageCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2010,7 +2010,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#isDecrementing name="isDecrementing">isDecrementing</a>
 
 For system use only.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2045,7 +2045,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#kbArticleId name="kbArticleId">kbArticleId</a>
 
 Choose the article that contains additional information or a resolution for the case, for reference during research or follow up with the customer.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2090,7 +2090,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#messageTypeCode name="messageTypeCode">messageTypeCode</a>
 
 Shows whether the post originated as a public or private message.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2130,7 +2130,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#messageTypeCode_display name="messageTypeCode_display">messageTypeCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2154,7 +2154,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Select the priority so that preferred customers or critical issues are handled quickly.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2194,7 +2194,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#priorityCode_display name="priorityCode_display">priorityCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2218,7 +2218,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#productId name="productId">productId</a>
 
 Choose the product associated with the case to identify warranty, service, or other product issues and be able to report the number of incidents for each product.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2263,7 +2263,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#productSerialNumber name="productSerialNumber">productSerialNumber</a>
 
 Type the serial number of the product that is associated with this case, so that the number of cases per product can be reported.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2303,7 +2303,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#existingCase name="existingCase">existingCase</a>
 
 Select an existing case for the customer that has been populated. For internal use only.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2348,7 +2348,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#resolveBySLAStatus name="resolveBySLAStatus">resolveBySLAStatus</a>
 
 Shows the status of the resolution time for the case according to the terms of the SLA.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2388,7 +2388,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#resolveBySLAStatus_display name="resolveBySLAStatus_display">resolveBySLAStatus_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2412,7 +2412,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#responsibleContactId name="responsibleContactId">responsibleContactId</a>
 
 Choose an additional customer contact who can also help resolve the case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2457,7 +2457,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#sentimentValue name="sentimentValue">sentimentValue</a>
 
 Value derived after assessing words commonly associated with a negative, neutral, or positive sentiment that occurs in a social post. Sentiment information can also be reported as numeric values.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2496,7 +2496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#influenceScore name="influenceScore">influenceScore</a>
 
 Will contain the Influencer score coming from NetBreeze.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2535,7 +2535,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#serviceStage name="serviceStage">serviceStage</a>
 
 Select the stage, in the case resolution process, that the case is in.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2575,7 +2575,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#serviceStage_display name="serviceStage_display">serviceStage_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2599,7 +2599,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#severityCode name="severityCode">severityCode</a>
 
 Select the severity of this case to indicate the incident's impact on the customer's business.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2639,7 +2639,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#severityCode_display name="severityCode_display">severityCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2663,7 +2663,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#SLAInvokedId name="SLAInvokedId">SLAInvokedId</a>
 
 Last SLA that was applied to this case. This field is for internal use only.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2708,7 +2708,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#socialProfileId name="socialProfileId">socialProfileId</a>
 
 Unique identifier of the social profile with which the case is associated.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2753,7 +2753,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the case is active, resolved, or canceled. Resolved and canceled cases are read-only and can't be edited unless they are reactivated.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2793,7 +2793,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2817,7 +2817,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the case's status.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2860,7 +2860,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2884,7 +2884,7 @@ First included in: <a href="Case.md" target="_blank">service/Case</a>
 ### <a href=#subjectId name="subjectId">subjectId</a>
 
 Choose the subject for the case, such as catalog request or product complaint, so customer service managers can identify frequent requests or problem areas. Administrators can configure subjects under Business Management in the Settings area.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2926,7 +2926,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#ticketNumber name="ticketNumber">ticketNumber</a>
 
 Shows the case number for customer reference and searching capabilities. This cannot be modified.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -2966,7 +2966,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#masterId name="masterId">masterId</a>
 
 Choose the primary case the current case was merged into.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3011,7 +3011,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#parentCaseId name="parentCaseId">parentCaseId</a>
 
 Choose the parent case for a case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3056,7 +3056,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#numberOfChildIncidents name="numberOfChildIncidents">numberOfChildIncidents</a>
 
 Number of child incidents associated with the incident.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3094,7 +3094,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#merged name="merged">merged</a>
 
 Tells whether the incident has been merged with another incident.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3129,7 +3129,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#routeCase name="routeCase">routeCase</a>
 
 Tells whether the incident has been routed to queue or not.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3164,7 +3164,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#resolveBy name="resolveBy">resolveBy</a>
 
 Enter the date by when the case must be resolved.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3202,7 +3202,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#responseBy name="responseBy">responseBy</a>
 
 For internal use only.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3240,7 +3240,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#customerContacted name="customerContacted">customerContacted</a>
 
 Tells whether customer service representative has contacted the customer or not.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3275,7 +3275,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#firstResponseSent name="firstResponseSent">firstResponseSent</a>
 
 Indicates if the first response has been sent.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3310,7 +3310,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#isEscalated name="isEscalated">isEscalated</a>
 
 Indicates if the case has been escalated.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3345,7 +3345,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#escalatedOn name="escalatedOn">escalatedOn</a>
 
 Indicates the date and time when the case was escalated.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3383,7 +3383,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#primaryContactId name="primaryContactId">primaryContactId</a>
 
 Select a primary contact for this case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3428,7 +3428,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#onHoldTime name="onHoldTime">onHoldTime</a>
 
 Shows the duration in minutes for which the case was on hold.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3466,7 +3466,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#lastOnHoldTime name="lastOnHoldTime">lastOnHoldTime</a>
 
 Contains the date time stamp of the last on hold time.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3504,7 +3504,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#resolveByKPIId name="resolveByKPIId">resolveByKPIId</a>
 
 For internal use only.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3549,7 +3549,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#firstResponseByKPIId name="firstResponseByKPIId">firstResponseByKPIId</a>
 
 For internal use only.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3594,7 +3594,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#decrementEntitlementTerm name="decrementEntitlementTerm">decrementEntitlementTerm</a>
 
 Shows whether terms of the associated entitlement should be decremented or not.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3628,7 +3628,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3660,7 +3660,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account with which the case is associated.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3702,7 +3702,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact associated with the case.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3744,7 +3744,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3784,7 +3784,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Choose the local currency for the record to make sure budgets are reported in the correct currency.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3829,7 +3829,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdByExternalParty name="createdByExternalParty">createdByExternalParty</a>
 
 Shows the external party who created the record.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 
@@ -3871,7 +3871,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedByExternalParty name="modifiedByExternalParty">modifiedByExternalParty</a>
 
 Shows the external party who modified the record.  
-First included in: <a href="Case.md" target="_blank">service/Case</a>  
+First included in: service/Case (this entity)  
 
 #### Properties
 

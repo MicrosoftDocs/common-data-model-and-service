@@ -7089,7 +7089,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#accountType name="accountType">accountType</a>
 
 The kind(s) of organization that this is  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7129,7 +7129,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#accountType_display name="accountType_display">accountType_display</a>
 
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7153,7 +7153,7 @@ First included in: <a href="Account.md" target="_blank">electronicMedicalRecords
 ### <a href=#address1PeriodEndDate name="address1PeriodEndDate">address1PeriodEndDate</a>
 
 Time period when address was/is in use  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7191,7 +7191,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address1PeriodStartDate name="address1PeriodStartDate">address1PeriodStartDate</a>
 
 Time period when address was/is in use  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7229,7 +7229,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address2PeriodEndDate name="address2PeriodEndDate">address2PeriodEndDate</a>
 
 Time period when address was/is in use  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7267,7 +7267,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#address2PeriodStartDate name="address2PeriodStartDate">address2PeriodStartDate</a>
 
 Time period when address was/is in use  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7305,7 +7305,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#alias name="alias">alias</a>
 
 A list of alternate names that the organization is known as, or was known as in the past.  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7345,7 +7345,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#contact1Puropose name="contact1Puropose">contact1Puropose</a>
 
 Indicates a purpose for which the contact can be reached.  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7390,7 +7390,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contact2 name="contact2">contact2</a>
 
 Contact for the organization for a certain purpose.  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7435,7 +7435,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#contact2Puropose name="contact2Puropose">contact2Puropose</a>
 
 Indicates a purpose for which the contact can be reached.  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7480,7 +7480,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#telecom1EndDate name="telecom1EndDate">telecom1EndDate</a>
 
 End time of validity of telecom  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7518,7 +7518,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telecom1Rank name="telecom1Rank">telecom1Rank</a>
 
 Specify preferred order of use (1 = highest)  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7556,7 +7556,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telecom1StartDate name="telecom1StartDate">telecom1StartDate</a>
 
 Start time of validtity of telecom  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7594,7 +7594,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telecom1System name="telecom1System">telecom1System</a>
 
 Type of Technology mediated contact point  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7634,7 +7634,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telecom1System_display name="telecom1System_display">telecom1System_display</a>
 
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7658,7 +7658,7 @@ First included in: <a href="Account.md" target="_blank">electronicMedicalRecords
 ### <a href=#telecom1Use name="telecom1Use">telecom1Use</a>
 
 purpose of this contact point  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7698,7 +7698,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telecom1Use_display name="telecom1Use_display">telecom1Use_display</a>
 
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7722,7 +7722,7 @@ First included in: <a href="Account.md" target="_blank">electronicMedicalRecords
 ### <a href=#telecom2EndDate name="telecom2EndDate">telecom2EndDate</a>
 
 End time of validity of telecom  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7760,7 +7760,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telecom2Rank name="telecom2Rank">telecom2Rank</a>
 
 Specify preferred order of use (1 = highest)  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7798,7 +7798,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telecom2StartDate name="telecom2StartDate">telecom2StartDate</a>
 
 Start time of validity of telecom  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7836,7 +7836,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telecom2System name="telecom2System">telecom2System</a>
 
 Type of Technology mediated contact point  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7876,7 +7876,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telecom2System_display name="telecom2System_display">telecom2System_display</a>
 
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7900,7 +7900,7 @@ First included in: <a href="Account.md" target="_blank">electronicMedicalRecords
 ### <a href=#telecom2Use name="telecom2Use">telecom2Use</a>
 
 purpose of this contact point  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7940,7 +7940,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telecom2Use_display name="telecom2Use_display">telecom2Use_display</a>
 
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -7964,7 +7964,7 @@ First included in: <a href="Account.md" target="_blank">electronicMedicalRecords
 ### <a href=#telecom3EndDate name="telecom3EndDate">telecom3EndDate</a>
 
 End time of validity of telecom  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -8004,7 +8004,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telecom3Rank name="telecom3Rank">telecom3Rank</a>
 
 Specify preferred order of use (1 = highest)  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -8042,7 +8042,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#telecom3StartDate name="telecom3StartDate">telecom3StartDate</a>
 
 Start time of validtity of telecom  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -8080,7 +8080,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#telecom3System name="telecom3System">telecom3System</a>
 
 Type of Technology mediated contact point  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -8120,7 +8120,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telecom3System_display name="telecom3System_display">telecom3System_display</a>
 
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -8144,7 +8144,7 @@ First included in: <a href="Account.md" target="_blank">electronicMedicalRecords
 ### <a href=#telecom3Use name="telecom3Use">telecom3Use</a>
 
 purpose of this contact point  
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 
@@ -8184,7 +8184,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#telecom3Use_display name="telecom3Use_display">telecom3Use_display</a>
 
-First included in: <a href="Account.md" target="_blank">electronicMedicalRecords/Account</a>  
+First included in: electronicMedicalRecords/Account (this entity)  
 
 #### Properties
 

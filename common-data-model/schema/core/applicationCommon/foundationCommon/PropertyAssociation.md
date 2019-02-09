@@ -76,7 +76,7 @@ foundationCommon/PropertyAssociation
 ### <a href=#dynamicPropertyAssociationId name="dynamicPropertyAssociationId">dynamicPropertyAssociationId</a>
 
 Shows the unique identifier of the property association.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Unique identifier of the user who created the record.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -199,7 +199,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -238,7 +238,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Unique identifier of the user who modified the record.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -283,7 +283,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Unique identifier of the delegate user who created the record.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -328,7 +328,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Unique identifier of the delegate user who modified the record.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -451,7 +451,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -489,7 +489,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -528,7 +528,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -566,7 +566,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -645,7 +645,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#regardingObjectId name="regardingObjectId">regardingObjectId</a>
 
 Shows the object that the property is associated with.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -690,7 +690,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#dynamicPropertyId name="dynamicPropertyId">dynamicPropertyId</a>
 
 Shows the property that uses this option set item.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -732,7 +732,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#associationStatus name="associationStatus">associationStatus</a>
 
 Shows the status of the property association.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -772,7 +772,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#associationStatus_display name="associationStatus_display">associationStatus_display</a>
 
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -796,7 +796,7 @@ First included in: <a href="PropertyAssociation.md" target="_blank">foundationCo
 ### <a href=#inheritanceState name="inheritanceState">inheritanceState</a>
 
 Shows the inheritance state in relationship to the parent property.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -836,7 +836,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#inheritanceState_display name="inheritanceState_display">inheritanceState_display</a>
 
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -860,7 +860,7 @@ First included in: <a href="PropertyAssociation.md" target="_blank">foundationCo
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 
@@ -900,7 +900,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Shows the currency associated with the record.  
-First included in: <a href="PropertyAssociation.md" target="_blank">foundationCommon/PropertyAssociation</a>  
+First included in: foundationCommon/PropertyAssociation (this entity)  
 
 #### Properties
 

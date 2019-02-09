@@ -214,7 +214,7 @@ eventManagement/Event
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -253,7 +253,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -340,7 +340,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -388,7 +388,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -436,7 +436,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who last updated the record on behalf of another user.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -484,7 +484,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -523,7 +523,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Unique identifier of the data import or data migration that created this record.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -597,7 +597,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -642,7 +642,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier for the business unit that owns the record  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -687,7 +687,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the activity.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -735,7 +735,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
 
 Unique identifier for the team that owns the record.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -780,7 +780,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -818,7 +818,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -856,7 +856,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -893,7 +893,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 ### <a href=#eventId name="eventId">eventId</a>
 
 Unique identifier for entity instances  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -932,7 +932,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the Event  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -972,7 +972,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -996,7 +996,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the Event  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1039,7 +1039,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1063,7 +1063,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1104,7 +1104,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#processId name="processId">processId</a>
 
 Contains the id of the process associated with the entity.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1142,7 +1142,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#stageId name="stageId">stageId</a>
 
 Contains the id of the stage where the entity is located.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1180,7 +1180,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#traversedPath name="traversedPath">traversedPath</a>
 
 A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1219,7 +1219,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#entityImageId name="entityImageId">entityImageId</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1250,7 +1250,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#baseRecurrentEventID name="baseRecurrentEventID">baseRecurrentEventID</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1287,7 +1287,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#bookedFlightReservations name="bookedFlightReservations">bookedFlightReservations</a>
 
 Flight reservations booking status  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1327,7 +1327,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#bookedFlightReservations_display name="bookedFlightReservations_display">bookedFlightReservations_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1350,7 +1350,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#bookRooms name="bookRooms">bookRooms</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1387,7 +1387,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#bookRooms_display name="bookRooms_display">bookRooms_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1410,7 +1410,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#budgetAllocated name="budgetAllocated">budgetAllocated</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1448,7 +1448,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Unique identifier of the currency associated with the entity.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1493,7 +1493,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Exchange rate for the currency associated with the entity with respect to the base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1533,7 +1533,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#budgetAllocatedBase name="budgetAllocatedBase">budgetAllocatedBase</a>
 
 Value of the Budget Allocated in base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1576,7 +1576,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#cateringRequired name="cateringRequired">cateringRequired</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1613,7 +1613,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#cateringRequired_display name="cateringRequired_display">cateringRequired_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1637,7 +1637,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 ### <a href=#checkInCount name="checkInCount">checkInCount</a>
 
 Check-in count  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1675,7 +1675,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#confirmedHotelChoices name="confirmedHotelChoices">confirmedHotelChoices</a>
 
 Hotel choices confirmation status  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1715,7 +1715,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#confirmedHotelChoices_display name="confirmedHotelChoices_display">confirmedHotelChoices_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1738,7 +1738,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#countdownInDays name="countdownInDays">countdownInDays</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1772,7 +1772,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#createMarketingCollateral name="createMarketingCollateral">createMarketingCollateral</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1809,7 +1809,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#createMarketingCollateral_display name="createMarketingCollateral_display">createMarketingCollateral_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1832,7 +1832,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#definePackagesandPricing name="definePackagesandPricing">definePackagesandPricing</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1869,7 +1869,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#definePackagesandPricing_display name="definePackagesandPricing_display">definePackagesandPricing_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1892,7 +1892,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#defineSessions name="defineSessions">defineSessions</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1929,7 +1929,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#defineSessions_display name="defineSessions_display">defineSessions_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1952,7 +1952,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#defineTeam name="defineTeam">defineTeam</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -1989,7 +1989,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#defineTeam_display name="defineTeam_display">defineTeam_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2012,7 +2012,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#description name="description">description</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2048,7 +2048,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#developMarketingPlan name="developMarketingPlan">developMarketingPlan</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2085,7 +2085,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#developMarketingPlan_display name="developMarketingPlan_display">developMarketingPlan_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2108,7 +2108,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#earlyBirdCutOffDate name="earlyBirdCutOffDate">earlyBirdCutOffDate</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2142,7 +2142,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventDebriefing name="eventDebriefing">eventDebriefing</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2179,7 +2179,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventDebriefing_display name="eventDebriefing_display">eventDebriefing_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2202,7 +2202,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#eventEndDate name="eventEndDate">eventEndDate</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2236,7 +2236,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventFormat name="eventFormat">eventFormat</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2273,7 +2273,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventFormat_display name="eventFormat_display">eventFormat_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2296,7 +2296,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#eventStartDate name="eventStartDate">eventStartDate</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2330,7 +2330,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventTimeZone name="eventTimeZone">eventTimeZone</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2367,7 +2367,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#eventTimeZoneName name="eventTimeZoneName">eventTimeZoneName</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2404,7 +2404,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#eventType name="eventType">eventType</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2441,7 +2441,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventType_display name="eventType_display">eventType_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2464,7 +2464,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#eventVenueCost name="eventVenueCost">eventVenueCost</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2502,7 +2502,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#eventVenueCostBase name="eventVenueCostBase">eventVenueCostBase</a>
 
 Value of the Event Venue Cost in base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2545,7 +2545,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#expectedOutcome name="expectedOutcome">expectedOutcome</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2581,7 +2581,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#followUpOnLeads name="followUpOnLeads">followUpOnLeads</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2618,7 +2618,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#followUpOnLeads_display name="followUpOnLeads_display">followUpOnLeads_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2642,7 +2642,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 ### <a href=#guestLogistics name="guestLogistics">guestLogistics</a>
 
 Whether guest logistics are required or not.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2682,7 +2682,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#guestLogistics_display name="guestLogistics_display">guestLogistics_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2705,7 +2705,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#identifySpeakers name="identifySpeakers">identifySpeakers</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2742,7 +2742,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#identifySpeakers_display name="identifySpeakers_display">identifySpeakers_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2765,7 +2765,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#identifySponsors name="identifySponsors">identifySponsors</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2802,7 +2802,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#identifySponsors_display name="identifySponsors_display">identifySponsors_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2825,7 +2825,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#isRecurringEvent name="isRecurringEvent">isRecurringEvent</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2856,7 +2856,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#isTemplate name="isTemplate">isTemplate</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2893,7 +2893,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#isTemplate_display name="isTemplate_display">isTemplate_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2917,7 +2917,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 ### <a href=#language name="language">language</a>
 
 The language of the webinar  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2957,7 +2957,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#language_display name="language_display">language_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -2980,7 +2980,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#makePaymentsDue name="makePaymentsDue">makePaymentsDue</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3017,7 +3017,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#makePaymentsDue_display name="makePaymentsDue_display">makePaymentsDue_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3040,7 +3040,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#manageRegistrationCount name="manageRegistrationCount">manageRegistrationCount</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3077,7 +3077,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#manageRegistrationCount_display name="manageRegistrationCount_display">manageRegistrationCount_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3100,7 +3100,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#maximumEventCapacity name="maximumEventCapacity">maximumEventCapacity</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3134,7 +3134,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#maxNumberOfRegistrations name="maxNumberOfRegistrations">maxNumberOfRegistrations</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3168,7 +3168,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#miscellaneousCosts name="miscellaneousCosts">miscellaneousCosts</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3206,7 +3206,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#miscellaneousCostsBase name="miscellaneousCostsBase">miscellaneousCostsBase</a>
 
 Value of the Miscellaneous Costs in base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3249,7 +3249,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#notifyAuthoritiesOfEvent name="notifyAuthoritiesOfEvent">notifyAuthoritiesOfEvent</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3286,7 +3286,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#notifyAuthoritiesOfEvent_display name="notifyAuthoritiesOfEvent_display">notifyAuthoritiesOfEvent_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3309,7 +3309,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#planRegistration name="planRegistration">planRegistration</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3346,7 +3346,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#planRegistration_display name="planRegistration_display">planRegistration_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3369,7 +3369,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#presentationManagerUrl name="presentationManagerUrl">presentationManagerUrl</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3406,7 +3406,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#primaryGoal name="primaryGoal">primaryGoal</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3443,7 +3443,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#primaryGoal_display name="primaryGoal_display">primaryGoal_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3466,7 +3466,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#primaryVenue name="primaryVenue">primaryVenue</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3507,7 +3507,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#producer name="producer">producer</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3548,7 +3548,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#publicEventURL name="publicEventURL">publicEventURL</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3585,7 +3585,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#publishStatus name="publishStatus">publishStatus</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3622,7 +3622,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#publishStatus_display name="publishStatus_display">publishStatus_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3645,7 +3645,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#readableEventID name="readableEventID">readableEventID</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3681,7 +3681,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#recurrencePattern name="recurrencePattern">recurrencePattern</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3717,7 +3717,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#recurrentEventStatus name="recurrentEventStatus">recurrentEventStatus</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3752,7 +3752,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#registrationCount name="registrationCount">registrationCount</a>
 
 Registration count of the Event.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3789,7 +3789,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#registrationsTarget name="registrationsTarget">registrationsTarget</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3823,7 +3823,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#requestSponsorship name="requestSponsorship">requestSponsorship</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3860,7 +3860,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#requestSponsorship_display name="requestSponsorship_display">requestSponsorship_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3883,7 +3883,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#revenueFromSponsorship name="revenueFromSponsorship">revenueFromSponsorship</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3921,7 +3921,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#revenueFromSponsorshipBase name="revenueFromSponsorshipBase">revenueFromSponsorshipBase</a>
 
 Value of the Revenue from Sponsorship in base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -3965,7 +3965,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#scheduleAirportPickups name="scheduleAirportPickups">scheduleAirportPickups</a>
 
 Airport pickups scheduling status  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4005,7 +4005,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#scheduleAirportPickups_display name="scheduleAirportPickups_display">scheduleAirportPickups_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4028,7 +4028,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#scheduleSessions name="scheduleSessions">scheduleSessions</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4065,7 +4065,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#scheduleSessions_display name="scheduleSessions_display">scheduleSessions_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4088,7 +4088,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#selectSpeakers name="selectSpeakers">selectSpeakers</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4125,7 +4125,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#selectSpeakers_display name="selectSpeakers_display">selectSpeakers_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4148,7 +4148,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#selectVendors name="selectVendors">selectVendors</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4185,7 +4185,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#selectVendors_display name="selectVendors_display">selectVendors_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4209,7 +4209,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 ### <a href=#sendEventInvitation name="sendEventInvitation">sendEventInvitation</a>
 
 Event invitation sending status  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4249,7 +4249,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendEventInvitation_display name="sendEventInvitation_display">sendEventInvitation_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4272,7 +4272,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#sendMarketingMaterial name="sendMarketingMaterial">sendMarketingMaterial</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4309,7 +4309,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendMarketingMaterial_display name="sendMarketingMaterial_display">sendMarketingMaterial_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4332,7 +4332,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#sendPreEventReminders name="sendPreEventReminders">sendPreEventReminders</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4369,7 +4369,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendPreEventReminders_display name="sendPreEventReminders_display">sendPreEventReminders_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4392,7 +4392,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#sendThankYouEmails name="sendThankYouEmails">sendThankYouEmails</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4429,7 +4429,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendThankYouEmails_display name="sendThankYouEmails_display">sendThankYouEmails_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4452,7 +4452,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#showWaitlist name="showWaitlist">showWaitlist</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4483,7 +4483,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#targetRevenue name="targetRevenue">targetRevenue</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4521,7 +4521,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#targetRevenueBase name="targetRevenueBase">targetRevenueBase</a>
 
 Value of the Target Revenue in base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4564,7 +4564,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#teamDebriefing name="teamDebriefing">teamDebriefing</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4601,7 +4601,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#teamDebriefing_display name="teamDebriefing_display">teamDebriefing_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4624,7 +4624,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 
 ### <a href=#totalCostOfEventsActivities name="totalCostOfEventsActivities">totalCostOfEventsActivities</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4662,7 +4662,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalCostOfEventsActivitiesBase name="totalCostOfEventsActivitiesBase">totalCostOfEventsActivitiesBase</a>
 
 Value of the Total Cost of Events Activities in base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4705,7 +4705,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#totalCostOfExternalMembers name="totalCostOfExternalMembers">totalCostOfExternalMembers</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4743,7 +4743,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalCostOfExternalMembersBase name="totalCostOfExternalMembersBase">totalCostOfExternalMembersBase</a>
 
 Value of the Total cost of External Members in base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4786,7 +4786,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#totalRegistrationFee name="totalRegistrationFee">totalRegistrationFee</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4824,7 +4824,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalRegistrationFeeBase name="totalRegistrationFeeBase">totalRegistrationFeeBase</a>
 
 Value of the Total Registration Fee in base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4867,7 +4867,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#totalRevenueFromTheEvent name="totalRevenueFromTheEvent">totalRevenueFromTheEvent</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4905,7 +4905,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#totalRevenueFromTheEventBase name="totalRevenueFromTheEventBase">totalRevenueFromTheEventBase</a>
 
 Value of the Total Revenue from the event in base currency.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4949,7 +4949,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#waitlistStartingPoint name="waitlistStartingPoint">waitlistStartingPoint</a>
 
 Waitlist Starting Point  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -4986,7 +4986,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#waitlistthisEvent name="waitlistthisEvent">waitlistthisEvent</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5023,7 +5023,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#waitlistthisEvent_display name="waitlistthisEvent_display">waitlistthisEvent_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5047,7 +5047,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 ### <a href=#webinarConfigurationId name="webinarConfigurationId">webinarConfigurationId</a>
 
 Webinar Configuration  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5089,7 +5089,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webinarID name="webinarID">webinarID</a>
 
 Webinar ID of the Event.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5129,7 +5129,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#webinarNotificationSeen name="webinarNotificationSeen">webinarNotificationSeen</a>
 
 Whether the webinar creation notification has been seen or not  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5163,7 +5163,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#webinarOperation name="webinarOperation">webinarOperation</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5199,7 +5199,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#webinarStatus name="webinarStatus">webinarStatus</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5235,7 +5235,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#webinarStatusReason name="webinarStatusReason">webinarStatusReason</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5271,7 +5271,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#webinarType name="webinarType">webinarType</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5310,7 +5310,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#webinarURL name="webinarURL">webinarURL</a>
 
 URL of the webinar. This might be URL of external webinar provider.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5350,7 +5350,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#sendSurveys name="sendSurveys">sendSurveys</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5387,7 +5387,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#sendSurveys_display name="sendSurveys_display">sendSurveys_display</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5411,7 +5411,7 @@ First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>
 ### <a href=#eventURLspecified name="eventURLspecified">eventURLspecified</a>
 
 Determines whether an event URL is specified.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5446,7 +5446,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sessionsCount name="sessionsCount">sessionsCount</a>
 
 The number of sessions in this event  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5484,7 +5484,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#sessionsCountDate name="sessionsCountDate">sessionsCountDate</a>
 
 Last Updated time of rollup field Session count.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5525,7 +5525,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#sessionsCountState name="sessionsCountState">sessionsCountState</a>
 
 State of rollup field Session count.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5565,7 +5565,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#allowAnonymousRegistrations name="allowAnonymousRegistrations">allowAnonymousRegistrations</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5597,7 +5597,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#portalBannerImage name="portalBannerImage">portalBannerImage</a>
 
 The portal banner image.  
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 
@@ -5638,7 +5638,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#eventURL name="eventURL">eventURL</a>
 
-First included in: <a href="Event.md" target="_blank">eventManagement/Event</a>  
+First included in: eventManagement/Event (this entity)  
 
 #### Properties
 

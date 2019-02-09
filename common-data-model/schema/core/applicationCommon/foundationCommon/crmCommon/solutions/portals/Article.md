@@ -1201,7 +1201,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#publishToWeb name="publishToWeb">publishToWeb</a>
 
 If set to Yes, the article will be visible and searchable on portals connected to this organization.  
-First included in: <a href="Article.md" target="_blank">portals/Article</a>  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1236,7 +1236,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#averageRating name="averageRating">averageRating</a>
 
 The average rating of this article.  
-First included in: <a href="Article.md" target="_blank">portals/Article</a>  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1275,7 +1275,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#averageRatingWholeNumber name="averageRatingWholeNumber">averageRatingWholeNumber</a>
 
 The average rating of this article, rounded to a whole number (positive integer).  
-First included in: <a href="Article.md" target="_blank">portals/Article</a>  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1313,7 +1313,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#downvotes name="downvotes">downvotes</a>
 
 The number of negative vote ratings applied to this article.  
-First included in: <a href="Article.md" target="_blank">portals/Article</a>  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1350,7 +1350,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#ratingCount name="ratingCount">ratingCount</a>
 
-First included in: <a href="Article.md" target="_blank">portals/Article</a>  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1385,7 +1385,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#ratingSum name="ratingSum">ratingSum</a>
 
 The sum of the values of all ratings applied to this article.  
-First included in: <a href="Article.md" target="_blank">portals/Article</a>  
+First included in: portals/Article (this entity)  
 
 #### Properties
 
@@ -1423,7 +1423,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#upvotes name="upvotes">upvotes</a>
 
 The number of positive vote ratings applied to this article.  
-First included in: <a href="Article.md" target="_blank">portals/Article</a>  
+First included in: portals/Article (this entity)  
 
 #### Properties
 

@@ -2235,7 +2235,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#serviceId name="serviceId">serviceId</a>
 
 Unique identifier for an associated service.  
-First included in: <a href="PhoneCall.md" target="_blank">crmCommon/PhoneCall</a>  
+First included in: crmCommon/PhoneCall (this entity)  
 
 #### Properties
 

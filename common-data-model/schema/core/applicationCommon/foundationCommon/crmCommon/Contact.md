@@ -8566,7 +8566,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#originatingLeadId name="originatingLeadId">originatingLeadId</a>
 
 Shows the lead that the contact was created if the contact was created by converting a lead in Microsoft Dynamics 365. This is used to relate the contact to the data on the originating lead for use in reporting and analytics.  
-First included in: <a href="Contact.md" target="_blank">crmCommon/Contact</a>  
+First included in: crmCommon/Contact (this entity)  
 
 #### Properties
 
@@ -8611,7 +8611,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#preferredEquipmentId name="preferredEquipmentId">preferredEquipmentId</a>
 
 Choose the contact's preferred service facility or equipment to make sure services are scheduled correctly for the customer.  
-First included in: <a href="Contact.md" target="_blank">crmCommon/Contact</a>  
+First included in: crmCommon/Contact (this entity)  
 
 #### Properties
 
@@ -8656,7 +8656,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#preferredServiceId name="preferredServiceId">preferredServiceId</a>
 
 Choose the contact's preferred service to make sure services are scheduled correctly for the customer.  
-First included in: <a href="Contact.md" target="_blank">crmCommon/Contact</a>  
+First included in: crmCommon/Contact (this entity)  
 
 #### Properties
 

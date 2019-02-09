@@ -63,7 +63,7 @@ sales/CompetitorProduct
 ### <a href=#competitorProductId name="competitorProductId">competitorProductId</a>
 
 Unique identifier of the competitor product.  
-First included in: <a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>  
+First included in: sales/CompetitorProduct (this entity)  
 
 #### Properties
 
@@ -99,7 +99,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>  
+First included in: sales/CompetitorProduct (this entity)  
 
 #### Properties
 
@@ -135,7 +135,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>  
+First included in: sales/CompetitorProduct (this entity)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>  
+First included in: sales/CompetitorProduct (this entity)  
 
 #### Properties
 
@@ -212,7 +212,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>  
+First included in: sales/CompetitorProduct (this entity)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>  
+First included in: sales/CompetitorProduct (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: <a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>  
+First included in: sales/CompetitorProduct (this entity)  
 
 #### Properties
 
@@ -328,7 +328,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#competitorId name="competitorId">competitorId</a>
 
-First included in: <a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>  
+First included in: sales/CompetitorProduct (this entity)  
 
 #### Properties
 
@@ -359,7 +359,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 
 ### <a href=#productId name="productId">productId</a>
 
-First included in: <a href="CompetitorProduct.md" target="_blank">sales/CompetitorProduct</a>  
+First included in: sales/CompetitorProduct (this entity)  
 
 #### Properties
 

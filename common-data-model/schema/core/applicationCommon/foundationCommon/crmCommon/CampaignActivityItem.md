@@ -70,7 +70,7 @@ crmCommon/CampaignActivityItem
 ### <a href=#campaignActivityItemId name="campaignActivityItemId">campaignActivityItemId</a>
 
 Unique identifier of the campaign activity item.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -106,7 +106,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -142,7 +142,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -180,7 +180,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -219,7 +219,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -257,7 +257,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#campaignActivityIdType name="campaignActivityIdType">campaignActivityIdType</a>
 
 The name of the entity linked by campaignActivityId  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ Marks an attribute that contains the entity name or 'class' for the situation wh
 ### <a href=#campaignActivityId name="campaignActivityId">campaignActivityId</a>
 
 Unique identifier of the campaign activity for the item.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -408,7 +408,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#itemId name="itemId">itemId</a>
 
 Unique identifier of the item.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -443,7 +443,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#itemObjectTypeCode name="itemObjectTypeCode">itemObjectTypeCode</a>
 
 Identification of the type of the campaign activity item.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -477,7 +477,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#itemObjectTypeCode_display name="itemObjectTypeCode_display">itemObjectTypeCode_display</a>
 
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -501,7 +501,7 @@ First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/C
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
 
 The type of owner, either User or Team.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -540,7 +540,7 @@ contains a User or Team ID
 ### <a href=#ownerId name="ownerId">ownerId</a>
 
 Owner Id  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -585,7 +585,7 @@ contains a User or Team ID
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
 
 Unique identifier of the business unit that owns the campaign activity item.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 
@@ -620,7 +620,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#owningUser name="owningUser">owningUser</a>
 
 Unique identifier of the user that owns the campaign activity item.  
-First included in: <a href="CampaignActivityItem.md" target="_blank">crmCommon/CampaignActivityItem</a>  
+First included in: crmCommon/CampaignActivityItem (this entity)  
 
 #### Properties
 

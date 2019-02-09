@@ -84,7 +84,7 @@ foundationCommon/ProductAssociation
 ### <a href=#productAssociationId name="productAssociationId">productAssociationId</a>
 
 Shows the unique identifier of the product association.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -207,7 +207,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -423,7 +423,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -497,7 +497,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -536,7 +536,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -574,7 +574,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -612,7 +612,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#associatedProduct name="associatedProduct">associatedProduct</a>
 
 Select a product to add to the bundle or kit.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -654,7 +654,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#productId name="productId">productId</a>
 
 Select a bundle or a kit.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -696,7 +696,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#quantity name="quantity">quantity</a>
 
 Type the quantity of the products added to the bundle or kit.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -736,7 +736,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#productIsRequired name="productIsRequired">productIsRequired</a>
 
 Select whether the associated product is required or optional.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -776,7 +776,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#productIsRequired_display name="productIsRequired_display">productIsRequired_display</a>
 
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -800,7 +800,7 @@ First included in: <a href="ProductAssociation.md" target="_blank">foundationCom
 ### <a href=#uoMId name="uoMId">uoMId</a>
 
 Shows the unit of the product association.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -845,7 +845,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Shows whether the associated product is active or inactive.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -885,7 +885,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -909,7 +909,7 @@ First included in: <a href="ProductAssociation.md" target="_blank">foundationCom
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Select the associated product's status.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -952,7 +952,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -976,7 +976,7 @@ First included in: <a href="ProductAssociation.md" target="_blank">foundationCom
 ### <a href=#propertyCustomizationStatus name="propertyCustomizationStatus">propertyCustomizationStatus</a>
 
 Shows whether the item has properties that can be customized.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -1013,7 +1013,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#propertyCustomizationStatus_display name="propertyCustomizationStatus_display">propertyCustomizationStatus_display</a>
 
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -1037,7 +1037,7 @@ First included in: <a href="ProductAssociation.md" target="_blank">foundationCom
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 
@@ -1077,7 +1077,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Shows the currency associated with the record.  
-First included in: <a href="ProductAssociation.md" target="_blank">foundationCommon/ProductAssociation</a>  
+First included in: foundationCommon/ProductAssociation (this entity)  
 
 #### Properties
 

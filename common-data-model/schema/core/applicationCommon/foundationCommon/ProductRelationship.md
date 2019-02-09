@@ -83,7 +83,7 @@ foundationCommon/ProductRelationship
 ### <a href=#productSubstituteId name="productSubstituteId">productSubstituteId</a>
 
 Shows the unique identifier of the product relationship.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -122,7 +122,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
 Shows who created the record.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
 Shows who last updated the record.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
 Shows who created the record on behalf of another user.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -380,7 +380,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#organizationId name="organizationId">organizationId</a>
 
 Unique identifier for the organization  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
 
 Version Number  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -496,7 +496,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -535,7 +535,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -573,7 +573,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -611,7 +611,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#name name="name">name</a>
 
 name  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -652,7 +652,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#productId name="productId">productId</a>
 
 Shows the product that the relationship is defined for.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -694,7 +694,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#salesRelationshipType name="salesRelationshipType">salesRelationshipType</a>
 
 Select the type of the product relationship.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -731,7 +731,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#salesRelationshipType_display name="salesRelationshipType_display">salesRelationshipType_display</a>
 
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -755,7 +755,7 @@ First included in: <a href="ProductRelationship.md" target="_blank">foundationCo
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Select the product relationship's status.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -795,7 +795,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
 
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -819,7 +819,7 @@ First included in: <a href="ProductRelationship.md" target="_blank">foundationCo
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Shows whether the product relationship is active or inactive.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -862,7 +862,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
 
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -886,7 +886,7 @@ First included in: <a href="ProductRelationship.md" target="_blank">foundationCo
 ### <a href=#substitutedProductId name="substitutedProductId">substitutedProductId</a>
 
 Select the related product that the relationship needs to be defined for.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -928,7 +928,7 @@ Marks the attribute(s) that hold foreign key references to a linked (used as an 
 ### <a href=#direction name="direction">direction</a>
 
 Select whether the relationship is unidirectional or bidirectional.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -965,7 +965,7 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#direction_display name="direction_display">direction_display</a>
 
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -989,7 +989,7 @@ First included in: <a href="ProductRelationship.md" target="_blank">foundationCo
 ### <a href=#exchangeRate name="exchangeRate">exchangeRate</a>
 
 Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
@@ -1029,7 +1029,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 ### <a href=#transactionCurrencyId name="transactionCurrencyId">transactionCurrencyId</a>
 
 Shows the currency associated with the record.  
-First included in: <a href="ProductRelationship.md" target="_blank">foundationCommon/ProductRelationship</a>  
+First included in: foundationCommon/ProductRelationship (this entity)  
 
 #### Properties
 
